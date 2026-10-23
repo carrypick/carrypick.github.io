@@ -1,0 +1,26 @@
+{
+  "site_name": "CarryPick",
+  "tagline": "Hand-picked bags, luggage and watches from Amazon India",
+  "base_url": "https://carrypick.github.io",
+  "amazon_tag": "",
+  "telegram_channel": "",
+  "contact_email": "",
+  "categories": {
+    "backpacks": {
+      "name": "Backpacks",
+      "emoji": "🎒"
+    },
+    "luggage": {
+      "name": "Luggage & Trolley Bags",
+      "emoji": "🧳"
+    },
+    "travel-gear": {
+      "name": "Travel Gear",
+      "emoji": "✈️"
+    },
+    "watches": {
+      "name": "Watches",
+      "emoji": "⌚"
+    }
+  }
+}
