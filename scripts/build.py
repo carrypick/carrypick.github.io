@@ -5,6 +5,7 @@ Amazon rules built in: disclosure on every page, no prices, no ratings,
 no product images, no auto-redirects, buy links marked as paid.
 """
 
+import json
 import re
 import shutil
 import sys
@@ -117,6 +118,8 @@ def page(cfg, title, description, body, depth, path):
   </div>
 </header>
 <p class="disclosure-bar"><span class="wrap">We may earn a commission when you buy through links on this site. {DISCLOSURE}</span></p>
+<script>window.CARRYPICK_TAGS = {json.dumps(cfg.get("channel_tags", {}))};</script>
+<script src="{p}assets/site.js" defer></script>
 <main>
 {body}
 </main>
@@ -198,6 +201,23 @@ def inline_pick(cfg, deal, p):
 </aside>"""
 
 
+def compare_table(cfg, deals, p):
+    keys = []
+    for d in deals:
+        for k in d.get("specs", {}):
+            if k not in keys:
+                keys.append(k)
+    head = "".join("<th>%s</th>" % e(k) for k in keys)
+    rows = []
+    for d in deals:
+        cells = "".join("<td>%s</td>" % e(d.get("specs", {}).get(k, "–")) for k in keys)
+        link = e(amazon_link(d["asin"], cfg["amazon_tag"]))
+        rows.append(f'<tr><th scope="row"><a href="{p}picks/{d["asin"]}.html">{e(d["title"])}</a></th>{cells}'
+                    f'<td><a class="table-buy" href="{link}" {BUY_ATTRS}>Check price</a><span class="paid">Paid link</span></td></tr>')
+    return (f'<div class="table-wrap"><table class="compare"><thead><tr><th>Product</th>{head}<th></th></tr></thead>'
+            f'<tbody>{"".join(rows)}</tbody></table></div>')
+
+
 def telegram_band(cfg, p):
     url = telegram_url(cfg)
     if not url:
@@ -258,10 +278,18 @@ def render_markdown(md, cfg, deals_by_asin, p, source):
     for raw in md.splitlines():
         line = raw.strip()
         pick = re.fullmatch(r"\[\[pick:([A-Z0-9]{10})\]\]", line)
+        compare = re.fullmatch(r"\[\[compare:([A-Z0-9,]+)\]\]", line)
         ul = re.match(r"^- (.+)", line)
         ol = re.match(r"^\d+\. (.+)", line)
         if not line:
             flush()
+        elif compare:
+            flush()
+            asins = compare.group(1).split(",")
+            missing = [a for a in asins if a not in deals_by_asin]
+            if missing:
+                sys.exit("Error: %s compares unknown ASINs %s" % (source, ", ".join(missing)))
+            out.append(compare_table(cfg, [deals_by_asin[a] for a in asins], p))
         elif pick:
             flush()
             deal = deals_by_asin.get(pick.group(1))
@@ -415,6 +443,12 @@ def build():
         best = f'<div class="chips"><span class="chips-label">Best for</span>{chips(d["best_for"])}</div>' if d.get("best_for") else ""
         more_html = (f'<section class="wrap section">{section_head("More " + cat["name"])}{grid(cfg, more, "../")}</section>'
                      if more else "")
+        specs_html = ""
+        if d.get("specs"):
+            rows = "".join("<tr><th scope=\"row\">%s</th><td>%s</td></tr>" % (e(k), e(v)) for k, v in d["specs"].items())
+            specs_html = f'<h2>Specs</h2><table class="specs">{rows}</table>'
+        skip_html = (f'<aside class="skip"><strong>Skip it if</strong><p>{e(d["skip_if"])}</p></aside>'
+                     if d.get("skip_if") else "")
         body = f"""<div class="wrap">
 <nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="../category/{d['category']}.html">{e(cat['name'])}</a></nav>
 <article class="pick">
@@ -430,6 +464,8 @@ def build():
     </div>
     <h2>Key features</h2>
     <ul class="features">{features}</ul>
+    {specs_html}
+    {skip_html}
     {tip_box(cfg, d['category'], '../', articles_by_slug)}
     <p class="muted small">Added {fmt_date(d['added_at'])}</p>
   </div>

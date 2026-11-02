@@ -19,9 +19,10 @@ from common import find_deal, load_config, load_deals, load_env, now_ist, save_d
 DISCLOSURE = "As an Amazon Associate I earn from qualifying purchases."
 
 
-def pick_url(cfg, asin):
+def pick_url(cfg, asin, src="tg"):
+    """src tells the site which channel's tracking ID to use (see static/site.js)."""
     base = cfg["base_url"].rstrip("/") or "https://YOUR-SITE"
-    return "%s/picks/%s.html" % (base, asin)
+    return "%s/picks/%s.html?src=%s" % (base, asin, src)
 
 
 def hashtag(cat):
@@ -44,14 +45,14 @@ def telegram_text(cfg, deal):
     return "\n".join(lines)
 
 
-def plain_text(cfg, deal, bold="*", italic="_"):
+def plain_text(cfg, deal, bold="*", italic="_", src="wa"):
     """Text for pasting by hand: WhatsApp uses *bold* and _italic_, Telegram Web uses ** and __."""
     cat = cfg["categories"][deal["category"]]
     lines = ["%s %s%s%s" % (cat["emoji"], bold, deal["title"], bold), ""]
     lines += ["✅ " + h for h in deal["highlights"]]
     if deal.get("note"):
         lines += ["", "💡 " + deal["note"]]
-    lines += ["", "👉 See this pick and today's price: " + pick_url(cfg, deal["asin"]), "", hashtag(cat)]
+    lines += ["", "👉 See this pick and today's price: " + pick_url(cfg, deal["asin"], src), "", hashtag(cat)]
     lines += ["%s%s%s" % (italic, DISCLOSURE, italic)]
     return "\n".join(lines)
 
@@ -62,7 +63,7 @@ def whatsapp_text(cfg, deal):
 
 
 def telegram_web_text(cfg, deal):
-    return plain_text(cfg, deal, bold="**", italic="__")
+    return plain_text(cfg, deal, bold="**", italic="__", src="tg")
 
 
 def send(token, channel, text):

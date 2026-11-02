@@ -3,6 +3,10 @@
   "tagline": "Hand-picked bags, luggage and watches from Amazon India",
   "base_url": "https://carrypick.github.io",
   "amazon_tag": "carrypick-21",
+  "channel_tags": {
+    "tg": "carrypicktg-21",
+    "wa": "carrypickwa-21"
+  },
   "telegram_channel": "@carrypick",
   "whatsapp_channel": "https://whatsapp.com/channel/0029VbDekeR6LwHmUXBPlY0Y",
   "contact_email": "",

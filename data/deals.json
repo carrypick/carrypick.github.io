@@ -16,7 +16,15 @@
     "best_for": [
       "College",
       "Monsoon"
-    ]
+    ],
+    "specs": {
+      "Capacity": "30 L",
+      "Laptop fit": "Padded sleeve (size not listed)",
+      "Weight": "530 g",
+      "Rain cover": "Yes",
+      "Warranty": "Not listed"
+    },
+    "skip_if": "you want a slim bag for meetings. At 30 litres, this one is roomy."
   },
   {
     "asin": "B097BG6DX1",
@@ -34,7 +42,16 @@
     "brand": "Safari",
     "best_for": [
       "Domestic flights"
-    ]
+    ],
+    "specs": {
+      "Size": "55 x 38 x 23 cm (116 cm total)",
+      "Capacity": "43 L",
+      "Weight": "2.5 kg",
+      "Shell": "Polypropylene",
+      "Lock": "3-digit combination",
+      "Warranty": "3 years"
+    },
+    "skip_if": "you often fly to the USA. It has a combination lock, not a TSA lock."
   },
   {
     "asin": "B00ISNVQMW",
@@ -53,7 +70,14 @@
     "best_for": [
       "Office",
       "Gift"
-    ]
+    ],
+    "specs": {
+      "Case size": "38 mm",
+      "Strap": "Stainless steel",
+      "Water resistance": "30 m",
+      "Warranty": "2 years"
+    },
+    "skip_if": "you like big, sporty dials. This is a slim 38 mm dress watch."
   },
   {
     "asin": "B07Q822CWX",
@@ -70,7 +94,14 @@
     "brand": "GoTrippin",
     "best_for": [
       "Frequent flyers"
-    ]
+    ],
+    "specs": {
+      "Max load": "50 kg",
+      "Steps": "0.1 kg",
+      "Weight": "About 150 g",
+      "Battery": "Included"
+    },
+    "skip_if": "you rarely fly. A home bathroom scale can do the job once in a while."
   },
   {
     "asin": "B0BTD4S4XF",
@@ -87,7 +118,15 @@
     "brand": "American Tourister",
     "best_for": [
       "17-inch laptops"
-    ]
+    ],
+    "specs": {
+      "Capacity": "28 L",
+      "Laptop fit": "Up to 17 inch",
+      "Weight": "510 g",
+      "Rain cover": "No",
+      "Warranty": "1 year global"
+    },
+    "skip_if": "you need rain protection. No rain cover is listed, and the fabric isn't water-resistant."
   },
   {
     "asin": "B097GCJFW2",
@@ -104,7 +143,16 @@
     "brand": "Safari",
     "best_for": [
       "International trips"
-    ]
+    ],
+    "specs": {
+      "Size": "55 x 40 x 23 cm (118 cm total)",
+      "Capacity": "46 L",
+      "Weight": "2.5 kg",
+      "Shell": "Polycarbonate",
+      "Lock": "TSA",
+      "Warranty": "3 years"
+    },
+    "skip_if": "you only fly within India. A polypropylene bag like the Pentagon Pro is enough."
   },
   {
     "asin": "B099WNYHY2",
@@ -122,7 +170,14 @@
     "best_for": [
       "Everyday",
       "Unisex"
-    ]
+    ],
+    "specs": {
+      "Case size": "Not listed",
+      "Strap": "Silicone",
+      "Water resistance": "30 m",
+      "Warranty": "6 months"
+    },
+    "skip_if": "you want a formal watch or a long warranty. It has a silicone strap and a 6-month warranty."
   },
   {
     "asin": "B085S444JV",
@@ -139,7 +194,15 @@
     "brand": "Wesley",
     "best_for": [
       "Long commutes"
-    ]
+    ],
+    "specs": {
+      "Capacity": "30 L",
+      "Laptop fit": "15.6–16 inch",
+      "Weight": "480 g",
+      "Rain cover": "No (waterproof fabric)",
+      "Warranty": "1 year"
+    },
+    "skip_if": "your laptop is 17 inches. The sleeve is made for 15.6–16 inch laptops."
   },
   {
     "asin": "B0C4TV4M2F",
@@ -156,7 +219,8 @@
     "brand": "FLYNGO",
     "best_for": [
       "Packing light"
-    ]
+    ],
+    "skip_if": "you travel with just a small backpack."
   },
   {
     "asin": "B0FGNDM616",
@@ -173,7 +237,16 @@
     "brand": "American Tourister",
     "best_for": [
       "Work trips"
-    ]
+    ],
+    "specs": {
+      "Size": "55.5 x 39.5 x 22 cm (117 cm total)",
+      "Capacity": "45 L",
+      "Weight": "2.56 kg",
+      "Shell": "Polypropylene + polycarbonate",
+      "Lock": "TSA, with USB port",
+      "Warranty": "3 years global"
+    },
+    "skip_if": "you never carry a laptop on trips. A simpler cabin bag will do."
   },
   {
     "asin": "B07DD25LJ8",
@@ -190,7 +263,14 @@
     "brand": "Casio",
     "best_for": [
       "Bold look"
-    ]
+    ],
+    "specs": {
+      "Case size": "45 mm",
+      "Strap": "Leather",
+      "Water resistance": "50 m",
+      "Warranty": "2 years"
+    },
+    "skip_if": "you have a slim wrist. The 45 mm case is large."
   },
   {
     "asin": "B097B4J3WD",
@@ -207,7 +287,15 @@
     "brand": "Safari",
     "best_for": [
       "Office + travel"
-    ]
+    ],
+    "specs": {
+      "Capacity": "34 L",
+      "Laptop fit": "Padded sleeve (size not listed)",
+      "Weight": "600 g",
+      "Rain cover": "Yes",
+      "Warranty": "Not listed"
+    },
+    "skip_if": "you want a light, compact bag. 34 litres and 600 g is on the bigger side."
   },
   {
     "asin": "B0C7BM18PB",
@@ -224,7 +312,8 @@
     "brand": "Amazon Basics",
     "best_for": [
       "Night journeys"
-    ]
+    ],
+    "skip_if": "your trips are short. It's most useful on long, overnight journeys."
   },
   {
     "asin": "B097GDKGHS",
@@ -241,7 +330,16 @@
     "brand": "Safari",
     "best_for": [
       "Week-long trips"
-    ]
+    ],
+    "specs": {
+      "Size": "65 cm (medium)",
+      "Capacity": "Not listed",
+      "Weight": "3.4 kg",
+      "Shell": "Polypropylene",
+      "Lock": "3-digit combination",
+      "Warranty": "3 years"
+    },
+    "skip_if": "you only travel with cabin baggage."
   },
   {
     "asin": "B07CR1JQBY",
@@ -259,7 +357,14 @@
     "best_for": [
       "Women",
       "Gift"
-    ]
+    ],
+    "specs": {
+      "Case size": "25 mm",
+      "Strap": "Metal",
+      "Water resistance": "30 m",
+      "Warranty": "2 years"
+    },
+    "skip_if": "you prefer a leather or sporty strap."
   },
   {
     "asin": "B07N8GRWTZ",
@@ -276,7 +381,15 @@
     "brand": "Tommy Hilfiger",
     "best_for": [
       "Office"
-    ]
+    ],
+    "specs": {
+      "Capacity": "21 L",
+      "Laptop fit": "15 inch",
+      "Weight": "400 g",
+      "Rain cover": "No (water-resistant fabric)",
+      "Warranty": "1 year"
+    },
+    "skip_if": "you carry lots of books or gym clothes. At 21 litres, it's a slim bag."
   },
   {
     "asin": "B07H3K85H5",
@@ -293,7 +406,14 @@
     "brand": "Timex",
     "best_for": [
       "Smart casual"
-    ]
+    ],
+    "specs": {
+      "Case size": "39.7 mm",
+      "Strap": "Leather",
+      "Water resistance": "30 m",
+      "Warranty": "1 year"
+    },
+    "skip_if": "you'll wear it in rain or sweat a lot. Leather straps don't like water."
   },
   {
     "asin": "B0GPQQPC7Q",
@@ -310,6 +430,15 @@
     "brand": "Kamiliant",
     "best_for": [
       "Families"
-    ]
+    ],
+    "specs": {
+      "Size": "56, 68 and 78 cm",
+      "Capacity": "Not listed",
+      "Weight": "9.9 kg (all three)",
+      "Shell": "Polypropylene",
+      "Lock": "3-digit combination",
+      "Warranty": "Not listed"
+    },
+    "skip_if": "you have little storage space at home. Three hard bags need room."
   }
 ]

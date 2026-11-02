@@ -69,6 +69,10 @@ Well-known brands in India, such as Titan, Fastrack, Sonata, Timex and Casio, ha
 
 [[pick:B099WNYHY2]]
 
+## Compare our picks
+
+[[compare:B00ISNVQMW,B07H3K85H5,B07DD25LJ8,B07CR1JQBY,B099WNYHY2]]
+
 ## Gift-buying tips
 
 1. If you don't know their wrist size, a **metal strap** is easiest because a shop can resize it.

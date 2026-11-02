@@ -62,6 +62,10 @@ An empty hard-shell cabin trolley usually weighs **2.5–3 kg**. With a 7 kg lim
 
 [[pick:B0FGNDM616]]
 
+### Compare the three cabin bags
+
+[[compare:B097BG6DX1,B097GCJFW2,B0FGNDM616]]
+
 ## Choosing a check-in bag
 
 For check-in luggage, size depends on trip length:

@@ -236,6 +236,25 @@ img { max-width: 100%; }
 
 .prose { max-width: 720px; padding: 28px 0 8px; }
 
+/* Specs, comparison tables and skip box */
+.specs { width: 100%; border-collapse: collapse; margin: 0 0 20px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; font-size: 0.95rem; }
+.specs th, .specs td { padding: 10px 14px; text-align: left; border-bottom: 1px solid var(--line); }
+.specs tr:last-child th, .specs tr:last-child td { border-bottom: 0; }
+.specs th { width: 38%; color: var(--muted); font-weight: 600; }
+.table-wrap { overflow-x: auto; margin: 22px 0; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); box-shadow: var(--shadow); }
+.compare { border-collapse: collapse; min-width: 760px; width: 100%; font-size: 0.9rem; }
+.compare td { min-width: 110px; }
+.compare th, .compare td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: top; }
+.compare thead th { background: var(--tint-none); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+.compare tbody th { font-weight: 700; min-width: 180px; }
+.compare tbody th a { color: var(--ink); text-decoration: none; }
+.compare tbody th a:hover { color: var(--brand); }
+.compare tbody tr:last-child th, .compare tbody tr:last-child td { border-bottom: 0; }
+.table-buy { display: inline-block; white-space: nowrap; font-weight: 700; color: #c2410c; }
+.compare .paid { display: block; }
+.skip { margin: 0 0 20px; padding: 14px 18px; border-radius: 14px; background: var(--surface); border: 1px dashed var(--line); }
+.skip p { margin: 4px 0 0; color: var(--muted); }
+
 /* Footer */
 .site-footer { margin-top: 0; padding: 44px 0 24px; background: #0a2a33; color: #b8cbd1; }
 .band + .site-footer { margin-top: 0; }

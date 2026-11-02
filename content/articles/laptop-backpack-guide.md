@@ -76,6 +76,10 @@ Branded bags usually come with a **1-year warranty** on zips and stitching, and 
 
 [[pick:B07N8GRWTZ]]
 
+## Compare them side by side
+
+[[compare:B097JJ2CK6,B0BTD4S4XF,B085S444JV,B097B4J3WD,B07N8GRWTZ]]
+
 ## Quick checklist before you buy
 
 1. Does the laptop sleeve fit my laptop size?
