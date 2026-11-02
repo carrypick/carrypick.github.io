@@ -8,19 +8,23 @@
   "categories": {
     "backpacks": {
       "name": "Backpacks",
-      "emoji": "🎒"
+      "emoji": "🎒",
+      "hashtag": "#Backpacks"
     },
     "luggage": {
       "name": "Luggage & Trolley Bags",
-      "emoji": "🧳"
+      "emoji": "🧳",
+      "hashtag": "#Luggage"
     },
     "travel-gear": {
       "name": "Travel Gear",
-      "emoji": "✈️"
+      "emoji": "✈️",
+      "hashtag": "#TravelGear"
     },
     "watches": {
       "name": "Watches",
-      "emoji": "⌚"
+      "emoji": "⌚",
+      "hashtag": "#Watches"
     }
   }
 }

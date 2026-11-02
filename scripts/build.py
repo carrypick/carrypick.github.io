@@ -39,8 +39,10 @@ def page(cfg, title, description, body, depth, path):
     full_title = e(title) + " | " + name if title else name + " | " + e(cfg["tagline"])
     canonical = ""
     if cfg["base_url"]:
-        url = cfg["base_url"].rstrip("/") + "/" + path
+        base = cfg["base_url"].rstrip("/")
+        url = base + "/" + path
         canonical = '<link rel="canonical" href="%s">\n<meta property="og:url" content="%s">' % (e(url), e(url))
+        canonical += '\n<meta property="og:image" content="%s/assets/logo.png">' % e(base)
     cats = "".join(
         '<a href="%scategory/%s.html">%s</a>' % (p, slug, e(c["name"])) for slug, c in cfg["categories"].items()
     )
@@ -58,6 +60,7 @@ def page(cfg, title, description, body, depth, path):
 <meta property="og:type" content="website">
 {canonical}
 <link rel="stylesheet" href="{p}assets/style.css">
+<link rel="icon" type="image/png" href="{p}assets/logo.png">
 </head>
 <body>
 <header class="site-header">

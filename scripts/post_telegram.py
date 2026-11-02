@@ -24,8 +24,8 @@ def pick_url(cfg, asin):
     return "%s/picks/%s.html" % (base, asin)
 
 
-def hashtag(name):
-    return "#" + "".join(ch for ch in name.title() if ch.isalnum())
+def hashtag(cat):
+    return cat.get("hashtag") or "#" + "".join(ch for ch in cat["name"].title() if ch.isalnum())
 
 
 def telegram_text(cfg, deal):
@@ -38,7 +38,7 @@ def telegram_text(cfg, deal):
         "",
         '👉 <a href="%s">See this pick and today\'s price</a>' % e(pick_url(cfg, deal["asin"])),
         "",
-        hashtag(cat["name"]),
+        hashtag(cat),
         "<i>%s</i>" % DISCLOSURE,
     ]
     return "\n".join(lines)
@@ -51,7 +51,8 @@ def plain_text(cfg, deal, bold="*", italic="_"):
     lines += ["✅ " + h for h in deal["highlights"]]
     if deal.get("note"):
         lines += ["", "💡 " + deal["note"]]
-    lines += ["", "👉 See this pick and today's price: " + pick_url(cfg, deal["asin"]), "", "%s%s%s" % (italic, DISCLOSURE, italic)]
+    lines += ["", "👉 See this pick and today's price: " + pick_url(cfg, deal["asin"]), "", hashtag(cat)]
+    lines += ["%s%s%s" % (italic, DISCLOSURE, italic)]
     return "\n".join(lines)
 
 
