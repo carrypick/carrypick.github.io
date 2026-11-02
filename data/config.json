@@ -9,22 +9,38 @@
     "backpacks": {
       "name": "Backpacks",
       "emoji": "🎒",
-      "hashtag": "#Backpacks"
+      "hashtag": "#Backpacks",
+      "icon": "backpack",
+      "guide": "laptop-backpack-guide",
+      "intro": "Backpacks for college, office and weekend trips. We check laptop size, litres, padding and rain protection.",
+      "tip": "Match the laptop sleeve to your laptop size, and choose 25–30 litres for everyday college use."
     },
     "luggage": {
       "name": "Luggage & Trolley Bags",
       "emoji": "🧳",
-      "hashtag": "#Luggage"
+      "hashtag": "#Luggage",
+      "icon": "suitcase",
+      "guide": "cabin-luggage-guide",
+      "intro": "Cabin and check-in trolleys for Indian flights and train journeys.",
+      "tip": "Most Indian airlines allow a 7 kg cabin bag. Add length + width + height and check your airline's limit before you buy."
     },
     "travel-gear": {
       "name": "Travel Gear",
       "emoji": "✈️",
-      "hashtag": "#TravelGear"
+      "hashtag": "#TravelGear",
+      "icon": "plane",
+      "guide": "cabin-luggage-guide",
+      "intro": "Small things that make trips easier: luggage scales, packing cubes and neck pillows.",
+      "tip": "Weigh your bag at home before you fly to avoid extra-baggage charges at the airport."
     },
     "watches": {
       "name": "Watches",
       "emoji": "⌚",
-      "hashtag": "#Watches"
+      "hashtag": "#Watches",
+      "icon": "watch",
+      "guide": "first-analog-watch-guide",
+      "intro": "Analog watches for daily wear, office and gifting, from brands with service centres across India.",
+      "tip": "30 m water resistance means splash-proof only. Take the watch off before a bath or a swim."
     }
   }
 }

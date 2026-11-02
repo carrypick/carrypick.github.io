@@ -11,7 +11,12 @@
     ],
     "note": "A roomy everyday bag for college or office that handles monsoon rain well.",
     "added_at": "2026-10-23T18:00:00+05:30",
-    "telegram_posted_at": "2026-11-02T22:03:10+05:30"
+    "telegram_posted_at": "2026-11-02T22:03:10+05:30",
+    "brand": "Safari",
+    "best_for": [
+      "College",
+      "Monsoon"
+    ]
   },
   {
     "asin": "B097BG6DX1",
@@ -25,7 +30,11 @@
     ],
     "note": "A light, reliable cabin bag for domestic trips.",
     "added_at": "2026-10-23T17:55:00+05:30",
-    "telegram_posted_at": "2026-11-02T21:54:59+05:30"
+    "telegram_posted_at": "2026-11-02T21:54:59+05:30",
+    "brand": "Safari",
+    "best_for": [
+      "Domestic flights"
+    ]
   },
   {
     "asin": "B00ISNVQMW",
@@ -39,7 +48,12 @@
     ],
     "note": "A classic first formal watch from one of India's best-known brands.",
     "added_at": "2026-10-23T17:50:00+05:30",
-    "telegram_posted_at": "2026-11-02T22:03:10+05:30"
+    "telegram_posted_at": "2026-11-02T22:03:10+05:30",
+    "brand": "Titan",
+    "best_for": [
+      "Office",
+      "Gift"
+    ]
   },
   {
     "asin": "B07Q822CWX",
@@ -52,7 +66,11 @@
       "Battery and storage pouch included"
     ],
     "note": "Weigh your bag at home and avoid extra-baggage charges at the airport.",
-    "added_at": "2026-10-23T17:45:00+05:30"
+    "added_at": "2026-10-23T17:45:00+05:30",
+    "brand": "GoTrippin",
+    "best_for": [
+      "Frequent flyers"
+    ]
   },
   {
     "asin": "B0BTD4S4XF",
@@ -65,7 +83,11 @@
       "1-year global warranty"
     ],
     "note": "A good pick if you carry a big 17-inch laptop.",
-    "added_at": "2026-10-23T17:40:00+05:30"
+    "added_at": "2026-10-23T17:40:00+05:30",
+    "brand": "American Tourister",
+    "best_for": [
+      "17-inch laptops"
+    ]
   },
   {
     "asin": "B097GCJFW2",
@@ -78,7 +100,11 @@
       "3-year warranty, made in India"
     ],
     "note": "A tougher polycarbonate shell, good if you also fly abroad.",
-    "added_at": "2026-10-23T17:35:00+05:30"
+    "added_at": "2026-10-23T17:35:00+05:30",
+    "brand": "Safari",
+    "best_for": [
+      "International trips"
+    ]
   },
   {
     "asin": "B099WNYHY2",
@@ -91,7 +117,12 @@
       "Water resistant to 30 m (splash-proof)"
     ],
     "note": "A simple, sporty everyday watch for men or women.",
-    "added_at": "2026-10-23T17:30:00+05:30"
+    "added_at": "2026-10-23T17:30:00+05:30",
+    "brand": "Fastrack",
+    "best_for": [
+      "Everyday",
+      "Unisex"
+    ]
   },
   {
     "asin": "B085S444JV",
@@ -104,7 +135,11 @@
       "Made in India"
     ],
     "note": "A comfort-first backpack for long daily commutes.",
-    "added_at": "2026-10-23T17:25:00+05:30"
+    "added_at": "2026-10-23T17:25:00+05:30",
+    "brand": "Wesley",
+    "best_for": [
+      "Long commutes"
+    ]
   },
   {
     "asin": "B0C4TV4M2F",
@@ -117,7 +152,11 @@
       "All pieces fold into the largest one when not in use"
     ],
     "note": "Fit more into a cabin bag and find things fast.",
-    "added_at": "2026-10-23T17:20:00+05:30"
+    "added_at": "2026-10-23T17:20:00+05:30",
+    "brand": "FLYNGO",
+    "best_for": [
+      "Packing light"
+    ]
   },
   {
     "asin": "B0FGNDM616",
@@ -130,7 +169,11 @@
       "3-year global warranty"
     ],
     "note": "Best for work travel: laptop and clothes in one bag.",
-    "added_at": "2026-10-23T17:15:00+05:30"
+    "added_at": "2026-10-23T17:15:00+05:30",
+    "brand": "American Tourister",
+    "best_for": [
+      "Work trips"
+    ]
   },
   {
     "asin": "B07DD25LJ8",
@@ -143,7 +186,11 @@
       "2-year manufacturer warranty"
     ],
     "note": "A bold dial and a longer warranty than most watches at this level.",
-    "added_at": "2026-10-23T17:10:00+05:30"
+    "added_at": "2026-10-23T17:10:00+05:30",
+    "brand": "Casio",
+    "best_for": [
+      "Bold look"
+    ]
   },
   {
     "asin": "B097B4J3WD",
@@ -156,7 +203,11 @@
       "Rain cover included"
     ],
     "note": "Works as an office bag and a weekend travel bag.",
-    "added_at": "2026-10-23T17:05:00+05:30"
+    "added_at": "2026-10-23T17:05:00+05:30",
+    "brand": "Safari",
+    "best_for": [
+      "Office + travel"
+    ]
   },
   {
     "asin": "B0C7BM18PB",
@@ -169,7 +220,11 @@
       "Squeezes to about one-third size for packing"
     ],
     "note": "Makes night buses, trains and flights more comfortable.",
-    "added_at": "2026-10-23T17:00:00+05:30"
+    "added_at": "2026-10-23T17:00:00+05:30",
+    "brand": "Amazon Basics",
+    "best_for": [
+      "Night journeys"
+    ]
   },
   {
     "asin": "B097GDKGHS",
@@ -182,7 +237,11 @@
       "3-year international warranty"
     ],
     "note": "Pairs well with the 55 cm cabin bag from the same range.",
-    "added_at": "2026-10-23T16:55:00+05:30"
+    "added_at": "2026-10-23T16:55:00+05:30",
+    "brand": "Safari",
+    "best_for": [
+      "Week-long trips"
+    ]
   },
   {
     "asin": "B07CR1JQBY",
@@ -195,7 +254,12 @@
       "Mineral glass and brass case"
     ],
     "note": "An elegant everyday watch and a safe gift choice.",
-    "added_at": "2026-10-23T16:50:00+05:30"
+    "added_at": "2026-10-23T16:50:00+05:30",
+    "brand": "Titan",
+    "best_for": [
+      "Women",
+      "Gift"
+    ]
   },
   {
     "asin": "B07N8GRWTZ",
@@ -208,7 +272,11 @@
       "1-year manufacturer warranty"
     ],
     "note": "A slimmer, smarter-looking bag for the office.",
-    "added_at": "2026-10-23T16:45:00+05:30"
+    "added_at": "2026-10-23T16:45:00+05:30",
+    "brand": "Tommy Hilfiger",
+    "best_for": [
+      "Office"
+    ]
   },
   {
     "asin": "B07H3K85H5",
@@ -221,7 +289,11 @@
       "1-year warranty"
     ],
     "note": "A smart casual watch that goes with jeans or formals.",
-    "added_at": "2026-10-23T16:40:00+05:30"
+    "added_at": "2026-10-23T16:40:00+05:30",
+    "brand": "Timex",
+    "best_for": [
+      "Smart casual"
+    ]
   },
   {
     "asin": "B0GPQQPC7Q",
@@ -234,6 +306,10 @@
       "Impact-resistant shell for rough baggage handling"
     ],
     "note": "Covers every trip size in one purchase, good for families.",
-    "added_at": "2026-10-23T16:35:00+05:30"
+    "added_at": "2026-10-23T16:35:00+05:30",
+    "brand": "Kamiliant",
+    "best_for": [
+      "Families"
+    ]
   }
 ]

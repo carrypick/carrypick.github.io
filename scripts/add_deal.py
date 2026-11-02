@@ -4,7 +4,7 @@ Examples:
   python3 scripts/add_deal.py --link-only "https://www.amazon.in/Some-Bag/dp/B0ABCDEFGH/ref=sr_1_1?keywords=bag"
   python3 scripts/add_deal.py "https://amzn.in/d/abc123" --title "Skybags Brat 46 cm Backpack" \
       --category backpacks --highlight "3 compartments" --highlight "Fits a 15.6 inch laptop" \
-      --note "Light and roomy for college"
+      --note "Light and roomy for college" --brand Skybags --best-for College
 """
 
 import argparse
@@ -21,6 +21,8 @@ def main():
     parser.add_argument("--category")
     parser.add_argument("--highlight", action="append", default=[], help="a key feature (repeat for more)")
     parser.add_argument("--note", help="one line on why we picked it")
+    parser.add_argument("--brand")
+    parser.add_argument("--best-for", action="append", default=[], help="short tag like College (repeat for more)")
     args = parser.parse_args()
 
     config = load_config()
@@ -55,6 +57,10 @@ def main():
         deal["highlights"] = args.highlight
     if args.note is not None:
         deal["note"] = args.note
+    if args.brand:
+        deal["brand"] = args.brand
+    if args.best_for:
+        deal["best_for"] = args.best_for
 
     save_deals(deals)
     print("%s %s: %s" % (action, asin, deal["title"]))
