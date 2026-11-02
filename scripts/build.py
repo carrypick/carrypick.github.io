@@ -36,6 +36,7 @@ ICONS = {
     "ruler": '<rect x="2.5" y="8" width="19" height="8" rx="1.5"/><path d="M6.5 8v3M10.5 8v4M14.5 8v3M18.5 8v4"/>',
     "pin": '<path d="M12 21s-6-5.4-6-10a6 6 0 0 1 12 0c0 4.6-6 10-6 10z"/><circle cx="12" cy="11" r="2.2"/>',
     "send": '<path d="M21 4 3 11l6.5 2.5L19 7l-7 8.2V20l3.2-3.6L19 19.5z"/>',
+    "chat": '<path d="M20.5 11.5a8.5 8.5 0 0 1-12.6 7.4L3.5 20l1.2-4.2A8.5 8.5 0 1 1 20.5 11.5z"/>',
     "book": '<path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 1 6.5 18H20v3H6.5"/>',
     "bulb": '<path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.6.4 1 1.1 1 1.8V16h5v-.3c0-.7.4-1.4 1-1.8A6 6 0 0 0 12 3z"/>',
 }
@@ -54,6 +55,15 @@ def fmt_date(value):
 def telegram_url(cfg):
     channel = cfg["telegram_channel"].lstrip("@")
     return "https://t.me/" + channel if channel else ""
+
+
+def follow_links(cfg):
+    links = []
+    if telegram_url(cfg):
+        links.append('<li><a href="%s" target="_blank" rel="noopener">Telegram channel</a></li>' % e(telegram_url(cfg)))
+    if cfg.get("whatsapp_channel"):
+        links.append('<li><a href="%s" target="_blank" rel="noopener">WhatsApp channel</a></li>' % e(cfg["whatsapp_channel"]))
+    return "".join(links)
 
 
 # ---------- page shell ----------
@@ -119,6 +129,7 @@ def page(cfg, title, description, body, depth, path):
       <li><a href="{p}guides/index.html">Buying guides</a></li>
       <li><a href="{p}about.html">About us</a></li>
       <li><a href="{p}contact.html">Contact</a></li>
+      {follow_links(cfg)}
     </ul></div>
     <div><h4>Legal</h4><ul>
       <li><a href="{p}disclosure.html">Affiliate disclosure</a></li>
@@ -189,14 +200,20 @@ def telegram_band(cfg, p):
     url = telegram_url(cfg)
     if not url:
         return ""
+    wa = cfg.get("whatsapp_channel")
+    wa_btn = (f'<a class="btn btn-whatsapp" href="{e(wa)}" target="_blank" rel="noopener">{icon("chat", "icon icon-sm")} Follow on WhatsApp</a>'
+              if wa else "")
     return f"""<section class="band">
   <div class="wrap band-row">
     <img src="{p}assets/logo.png" alt="" width="72" height="72">
     <div>
-      <h2>New picks every day on Telegram</h2>
+      <h2>New picks every day on Telegram{' and WhatsApp' if wa else ''}</h2>
       <p>Hand-picked bags, luggage and watches on sale, plus quick buying tips. No spam.</p>
     </div>
-    <a class="btn btn-light" href="{e(url)}" target="_blank" rel="noopener">{icon("send", "icon icon-sm")} Join {e(cfg['telegram_channel'])}</a>
+    <div class="band-ctas">
+      <a class="btn btn-light" href="{e(url)}" target="_blank" rel="noopener">{icon("send", "icon icon-sm")} Join on Telegram</a>
+      {wa_btn}
+    </div>
   </div>
 </section>"""
 
@@ -476,6 +493,8 @@ def build():
     contact_lines = []
     if tg:
         contact_lines.append(f'<li>Telegram: <a href="{e(tg)}" target="_blank" rel="noopener">{e(cfg["telegram_channel"])}</a></li>')
+    if cfg.get("whatsapp_channel"):
+        contact_lines.append(f'<li>WhatsApp channel: <a href="{e(cfg["whatsapp_channel"])}" target="_blank" rel="noopener">CarryPick on WhatsApp</a></li>')
     if cfg["contact_email"]:
         contact_lines.append(f'<li>Email: <a href="mailto:{e(cfg["contact_email"])}">{e(cfg["contact_email"])}</a></li>')
     contact_html = "<ul>%s</ul>" % "".join(contact_lines) if contact_lines else "<p>Contact details are coming soon.</p>"

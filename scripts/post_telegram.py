@@ -57,7 +57,8 @@ def plain_text(cfg, deal, bold="*", italic="_"):
 
 
 def whatsapp_text(cfg, deal):
-    return plain_text(cfg, deal)
+    # WhatsApp channels don't support hashtags, so drop that line.
+    return "\n".join(line for line in plain_text(cfg, deal).splitlines() if not line.startswith("#"))
 
 
 def telegram_web_text(cfg, deal):
