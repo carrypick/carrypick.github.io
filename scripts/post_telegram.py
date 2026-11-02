@@ -1,8 +1,9 @@
 """Post a pick to the Telegram channel (and print a WhatsApp version).
 
 Examples:
-  python3 scripts/post_telegram.py B0ABCDEFGH --dry-run     # show the post, send nothing
-  python3 scripts/post_telegram.py B0ABCDEFGH               # send to the channel
+  python3 scripts/post_telegram.py B0ABCDEFGH --dry-run       # show the post, send nothing
+  python3 scripts/post_telegram.py B0ABCDEFGH --mark-posted   # record a post made by hand in Telegram Web
+  python3 scripts/post_telegram.py B0ABCDEFGH                 # send with the bot (needs TELEGRAM_BOT_TOKEN)
 """
 
 import argparse
@@ -43,14 +44,23 @@ def telegram_text(cfg, deal):
     return "\n".join(lines)
 
 
-def whatsapp_text(cfg, deal):
+def plain_text(cfg, deal, bold="*", italic="_"):
+    """Text for pasting by hand: WhatsApp uses *bold* and _italic_, Telegram Web uses ** and __."""
     cat = cfg["categories"][deal["category"]]
-    lines = ["%s *%s*" % (cat["emoji"], deal["title"]), ""]
+    lines = ["%s %s%s%s" % (cat["emoji"], bold, deal["title"], bold), ""]
     lines += ["✅ " + h for h in deal["highlights"]]
     if deal.get("note"):
         lines += ["", "💡 " + deal["note"]]
-    lines += ["", "👉 See this pick and today's price: " + pick_url(cfg, deal["asin"]), "", "_%s_" % DISCLOSURE]
+    lines += ["", "👉 See this pick and today's price: " + pick_url(cfg, deal["asin"]), "", "%s%s%s" % (italic, DISCLOSURE, italic)]
     return "\n".join(lines)
+
+
+def whatsapp_text(cfg, deal):
+    return plain_text(cfg, deal)
+
+
+def telegram_web_text(cfg, deal):
+    return plain_text(cfg, deal, bold="**", italic="__")
 
 
 def send(token, channel, text):
@@ -67,6 +77,7 @@ def main():
     parser = argparse.ArgumentParser(description="Post a pick to Telegram")
     parser.add_argument("asin")
     parser.add_argument("--dry-run", action="store_true", help="print the post without sending")
+    parser.add_argument("--mark-posted", action="store_true", help="record that the pick was posted by hand")
     args = parser.parse_args()
 
     cfg = load_config()
@@ -77,7 +88,13 @@ def main():
 
     text = telegram_text(cfg, deal)
     if args.dry_run:
-        print("----- Telegram -----\n" + text + "\n\n----- WhatsApp (copy and paste) -----\n" + whatsapp_text(cfg, deal))
+        print("----- Telegram Web (copy and paste) -----\n" + telegram_web_text(cfg, deal))
+        print("\n----- WhatsApp (copy and paste) -----\n" + whatsapp_text(cfg, deal))
+        return
+    if args.mark_posted:
+        deal["telegram_posted_at"] = now_ist()
+        save_deals(deals)
+        print("Marked %s as posted." % deal["asin"])
         return
 
     token = load_env().get("TELEGRAM_BOT_TOKEN")
