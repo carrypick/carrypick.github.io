@@ -78,6 +78,8 @@ def page(cfg, title, description, body, depth, path):
         url = base + "/" + path
         head_extra = ('<link rel="canonical" href="%s">\n<meta property="og:url" content="%s">\n'
                       '<meta property="og:image" content="%s/assets/logo.png">' % (e(url), e(url), e(base)))
+    if cfg.get("google_site_verification"):
+        head_extra += '\n<meta name="google-site-verification" content="%s">' % e(cfg["google_site_verification"])
     nav = "".join(
         '<a href="%scategory/%s.html">%s</a>' % (p, slug, e(c["name"].split(" &")[0]))
         for slug, c in cfg["categories"].items()
