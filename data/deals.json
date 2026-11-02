@@ -1,5 +1,132 @@
 [
   {
+    "asin": "B07M9BRCQ5",
+    "added_at": "2026-11-02T22:48:10+05:30",
+    "title": "Fur Jaden Leatherette Weekender Duffle Bag, 35 L",
+    "category": "luggage",
+    "highlights": [
+      "35 litres, one large main compartment",
+      "47 x 28 x 27 cm, about 900 g",
+      "Water-resistant textured leatherette",
+      "Works as a gym or office bag too"
+    ],
+    "note": "A smart-looking bag for a 3–4 day trip.",
+    "brand": "Fur Jaden",
+    "best_for": [
+      "Honeymoon",
+      "Weekend trips"
+    ],
+    "specs": {
+      "Size": "47 x 28 x 27 cm",
+      "Capacity": "35 L",
+      "Weight": "About 900 g",
+      "Shell": "Leatherette (soft)",
+      "Lock": "None",
+      "Warranty": "See listing"
+    },
+    "skip_if": "you need wheels. You carry this bag by hand or on your shoulder."
+  },
+  {
+    "asin": "B08LKXV22C",
+    "added_at": "2026-11-02T22:48:10+05:30",
+    "title": "Titan Raga Charm Women's Watch, Mother of Pearl Dial",
+    "category": "watches",
+    "highlights": [
+      "Mother of pearl dial, 28 mm case",
+      "Rose gold strap studded with crystals",
+      "Water resistant to 30 m",
+      "Made to look like jewellery"
+    ],
+    "note": "A dressy watch that works for wedding functions and everyday wear.",
+    "brand": "Titan",
+    "best_for": [
+      "Bride",
+      "Gift"
+    ],
+    "specs": {
+      "Case size": "28 mm",
+      "Strap": "Metal with crystals",
+      "Water resistance": "30 m",
+      "Warranty": "See listing"
+    },
+    "skip_if": "she prefers simple, minimal watches. This one is dressy."
+  },
+  {
+    "asin": "B01N56X1EW",
+    "added_at": "2026-11-02T22:48:10+05:30",
+    "title": "Timex Classics Couple Watch Set, Two-Tone Steel",
+    "category": "watches",
+    "highlights": [
+      "His and hers watches with silver-tone dials",
+      "Two-tone stainless steel bracelets",
+      "Water resistant to 30 m",
+      "1-year warranty"
+    ],
+    "note": "A simple, classic pair that suits both office and occasions.",
+    "brand": "Timex",
+    "best_for": [
+      "Couples",
+      "Anniversary"
+    ],
+    "specs": {
+      "Case size": "Not listed",
+      "Strap": "Two-tone stainless steel",
+      "Water resistance": "30 m",
+      "Warranty": "1 year"
+    },
+    "skip_if": "you prefer leather straps. Both watches come on steel bracelets."
+  },
+  {
+    "asin": "B07SCLW4HY",
+    "added_at": "2026-11-02T22:48:10+05:30",
+    "title": "Sonata Bandhan Couple Watch Set, Blue Dial",
+    "category": "watches",
+    "highlights": [
+      "Matching pair with midnight blue dials",
+      "Silver stainless steel straps",
+      "Water resistant to 30 m",
+      "12-month manufacturer warranty"
+    ],
+    "note": "The same idea as Titan Bandhan from Titan's value brand.",
+    "brand": "Sonata",
+    "best_for": [
+      "Couples",
+      "Value gift"
+    ],
+    "specs": {
+      "Case size": "40.5 mm (men's)",
+      "Strap": "Stainless steel",
+      "Water resistance": "30 m",
+      "Warranty": "1 year"
+    },
+    "skip_if": "you want a longer warranty. Titan Bandhan has 2 years."
+  },
+  {
+    "asin": "B07PY6CQYV",
+    "added_at": "2026-11-02T22:48:10+05:30",
+    "title": "Titan Bandhan Couple Watch Set, Silver and Rose Gold",
+    "category": "watches",
+    "highlights": [
+      "Matching pair: men's 47.3 mm and women's 40 mm dials",
+      "Two-tone silver and rose gold stainless steel straps",
+      "Date display, water resistant to 50 m",
+      "24-month manufacturer warranty"
+    ],
+    "note": "A classic wedding gift from India's best-known watch brand.",
+    "brand": "Titan",
+    "best_for": [
+      "Couples",
+      "Wedding gift"
+    ],
+    "specs": {
+      "Case size": "Men 47.3 mm, women 40 mm",
+      "Strap": "Two-tone stainless steel",
+      "Water resistance": "50 m",
+      "Warranty": "2 years"
+    },
+    "skip_if": "you want a small, light pair. The men's dial is large at 47.3 mm."
+  },
+  {
     "asin": "B097JJ2CK6",
     "title": "Safari Omega 30L Laptop Backpack with Rain Cover",
     "category": "backpacks",
