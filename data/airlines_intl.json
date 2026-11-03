@@ -1,0 +1,368 @@
+{
+  "_note": "Economy baggage rules on flights between India and other countries (baggage/<slug>.html and baggage/international.html). Checked against each airline's own website. Re-check every ~3 months and bump 'checked'.",
+  "checked": "2026-11-03",
+  "airlines": [
+    {
+      "slug": "emirates",
+      "name": "Emirates",
+      "scope": "international",
+      "region": "Gulf",
+      "hub": "Dubai (DXB)",
+      "official_url": "https://www.emirates.com/in/english/before-you-fly/baggage/cabin-baggage-rules/",
+      "cabin": {
+        "pieces": 1,
+        "kg": 7,
+        "dims_cm": [
+          55,
+          38,
+          22
+        ],
+        "total_cm": 115,
+        "summary": "One cabin bag up to 7 kg",
+        "detail": "Economy passengers can take one cabin bag up to 7 kg and 55 x 38 x 22 cm. When you board in India, only one piece is allowed, and its length, width and height together must not be more than 115 cm. Emirates doesn't say whether wheels and handles count, so measure them in."
+      },
+      "personal": {
+        "summary": "No separate laptop bag or handbag is listed for Economy from India: it's one piece only. Reasonable duty-free shopping is allowed on top"
+      },
+      "checkin": [
+        {
+          "fare": "Economy Special",
+          "allowance": "20 kg"
+        },
+        {
+          "fare": "Economy Saver",
+          "allowance": "25 kg"
+        },
+        {
+          "fare": "Economy Flex",
+          "allowance": "30 kg"
+        },
+        {
+          "fare": "Economy Flex Plus",
+          "allowance": "35 kg"
+        }
+      ],
+      "checkin_summary": "20 kg to 35 kg, depending on your fare",
+      "checkin_note": "India flights use the weight concept: you can split the total into as many bags as you like. No single bag may weigh more than 32 kg, and each bag's length, width and height together should be no more than 203 cm.",
+      "infant": "An infant ticket includes up to 10 kg of checked baggage, one 5 kg handbag for baby things, and a fully folding stroller or carrycot.",
+      "notes": [
+        "Round bags, odd-shaped parcels, bags with loose straps and bags without a flat side don't travel well on the belt. Emirates asks you to repack them in a cardboard box.",
+        "Power banks: since 1 October 2025 you can't use or charge a power bank on board. You may carry one under 100 Wh in your cabin bag, kept in the seat pocket or under the seat, never in the overhead bin. Power banks aren't allowed in checked bags.",
+        "Zamzam water: Haj and Umrah pilgrims whose trip includes Madinah or Jeddah may carry up to 5 litres in a sealed container, on top of their checked allowance.",
+        "Medicines into the UAE: controlled medicines need approval from the UAE Ministry of Health before you travel. Carry the prescription and no more than 3 months' supply.",
+        "Smart bags are allowed only if the battery can be removed."
+      ],
+      "sources": [
+        {
+          "label": "Cabin baggage rules",
+          "url": "https://www.emirates.com/in/english/before-you-fly/baggage/cabin-baggage-rules/"
+        },
+        {
+          "label": "Checked baggage",
+          "url": "https://www.emirates.com/in/english/before-you-fly/baggage/checked-baggage/"
+        },
+        {
+          "label": "Baggage FAQ",
+          "url": "https://www.emirates.com/in/english/help/faq-topics/baggage-and-lost-property/faq/are-there-additional-baggage-allowances-if-i-m-travelling-with-an-infant/"
+        },
+        {
+          "label": "Baggage services in Dubai",
+          "url": "https://www.emirates.com/in/english/before-you-fly/baggage/baggage-services-dubai/"
+        },
+        {
+          "label": "Dangerous goods policy",
+          "url": "https://www.emirates.com/in/english/before-you-fly/travel/dangerous-goods-policy/"
+        },
+        {
+          "label": "Power bank rules now in full effect",
+          "url": "https://www.emirates.com/media-centre/emirates-safety-rules-for-customer-usage-of-power-banks-onboard---now-in-full-effect/"
+        },
+        {
+          "label": "Unusual baggage and special allowances",
+          "url": "https://www.emirates.com/in/english/before-you-fly/baggage/unusual-baggage-and-special-allowances/"
+        }
+      ]
+    },
+    {
+      "slug": "qatar-airways",
+      "name": "Qatar Airways",
+      "scope": "international",
+      "region": "Gulf",
+      "hub": "Doha (DOH)",
+      "official_url": "https://www.qatarairways.com/en-in/baggage/allowance.html",
+      "cabin": {
+        "pieces": 1,
+        "kg": 7,
+        "dims_cm": [
+          50,
+          37,
+          25
+        ],
+        "total_cm": null,
+        "summary": "One cabin bag up to 7 kg",
+        "detail": "Every Economy fare includes one cabin bag up to 7 kg and 50 x 37 x 25 cm, smaller than most Indian 55 cm trolleys. Your laptop must fit in it: a separate laptop bag counts as your cabin bag. Qatar Airways doesn't say whether wheels and handles count, so measure them in."
+      },
+      "personal": {
+        "summary": "Small extras are allowed on top: a small purse or briefcase, a coat, an umbrella, a small camera, some reading and duty-free bought that day. A separate laptop bag is not extra"
+      },
+      "checkin": [
+        {
+          "fare": "Economy Lite",
+          "allowance": "20 kg"
+        },
+        {
+          "fare": "Economy Classic",
+          "allowance": "25 kg"
+        },
+        {
+          "fare": "Economy Convenience",
+          "allowance": "30 kg"
+        },
+        {
+          "fare": "Economy Comfort",
+          "allowance": "35 kg"
+        }
+      ],
+      "checkin_summary": "20 kg to 35 kg, depending on your fare",
+      "checkin_note": "India flights use the weight concept: any number of bags within your total. No single bag may weigh more than 32 kg, and each bag can be up to 300 cm in total (length + width + height). Qatar Airways says exceptions apply on some routes, so check your ticket.",
+      "infant": "Infants get their own 10 kg checked allowance and a free stroller or carrycot, but no cabin bag of their own.",
+      "notes": [
+        "Qatar Airways won't accept round or odd-shaped items, bags tied with rope or string, items wrapped in blankets or bags with loose straps. Carefully wrapped and sealed boxes within the limits are fine.",
+        "Power banks: up to two, each up to 100 Wh, in your cabin bag only. You can't charge a power bank on board. You may use one to charge a phone at quiet times of the flight, only while you keep it in your hand, not in a bag or overhead bin.",
+        "Zamzam water: up to 5 litres in approved bottles, only for Hajj or Umrah pilgrims flying from Jeddah, Madinah or Taif (from Qatar Airways' travel agent notice of February 2026).",
+        "Spare batteries go in your cabin bag only. Devices in checked bags must be fully switched off, not in sleep mode."
+      ],
+      "sources": [
+        {
+          "label": "Baggage allowance",
+          "url": "https://www.qatarairways.com/en-in/baggage/allowance.html"
+        },
+        {
+          "label": "Restricted items",
+          "url": "https://www.qatarairways.com/en-in/baggage/restricted.html"
+        },
+        {
+          "label": "Travel planning for infants and children",
+          "url": "https://www.qatarairways.com/en-in/family/child-fares-baggage.html"
+        },
+        {
+          "label": "Travel Advisory: Carriage of Zamzam Water",
+          "url": "https://www.qatarairways.com/tradeportal/en-lk/news-updates/2026/travel_advisory_carriage_of_zamzam_water.html"
+        }
+      ]
+    },
+    {
+      "slug": "etihad",
+      "name": "Etihad Airways",
+      "scope": "international",
+      "region": "Gulf",
+      "hub": "Abu Dhabi (AUH)",
+      "official_url": "https://www.etihad.com/en-in/help/baggage-information",
+      "cabin": {
+        "pieces": 1,
+        "kg": 7,
+        "dims_cm": [
+          56,
+          36,
+          23
+        ],
+        "total_cm": null,
+        "summary": "One cabin bag up to 7 kg",
+        "detail": "Economy guests on every fare, including Basic, get one cabin bag up to 7 kg and 56 x 36 x 23 cm. Etihad says laptops, purses and documents must go inside your cabin bag. It doesn't say whether wheels and handles count, so measure them in."
+      },
+      "personal": {
+        "summary": "No separate personal item is confirmed for Economy: laptops and purses go inside your cabin bag"
+      },
+      "checkin": [
+        {
+          "fare": "Basic",
+          "allowance": "No checked bag (you can pay for one)"
+        },
+        {
+          "fare": "Value",
+          "allowance": "25 kg"
+        },
+        {
+          "fare": "Comfort",
+          "allowance": "30 kg"
+        },
+        {
+          "fare": "Deluxe",
+          "allowance": "40 kg"
+        }
+      ],
+      "checkin_summary": "None on Basic; 25 kg to 40 kg on other fares",
+      "checkin_note": "India flights use the weight concept: any number of bags within your total. No single bag may weigh more than 32 kg. Extra baggage is much cheaper if you buy it online before you fly.",
+      "infant": "Infants (not on Basic fares) get 10 kg of checked baggage, one 5 kg cabin piece and a free pushchair, carrycot or car seat.",
+      "notes": [
+        "Power banks: only one, up to 100 Wh, with the rating marked. You can't use it on board, including to charge a phone. Keep it switched off, under the seat or in the seat pocket.",
+        "On flights to and from India, the MOBIKINS MK-PB-04 power bank is banned in all bags.",
+        "Satellite phones and GPS devices (such as Garmin) need permission from India's Department of Telecommunications to be taken to or from India.",
+        "Strong-smelling fruit such as jackfruit and durian isn't allowed on Etihad flights.",
+        "Zamzam water: one package of up to 5 litres free, sealed in a plastic container inside a cardboard box sold at the airport. From Jeddah you need an Umrah or Haj visa. Only 100 ml is allowed in the cabin."
+      ],
+      "sources": [
+        {
+          "label": "Baggage information",
+          "url": "https://www.etihad.com/en-in/help/baggage-information"
+        },
+        {
+          "label": "What is included in Economy fares",
+          "url": "https://www.etihad.com/en-in/help/faq/fares"
+        },
+        {
+          "label": "Baggage FAQs",
+          "url": "https://www.etihad.com/en-in/help/faq/baggage"
+        },
+        {
+          "label": "Prohibited items",
+          "url": "https://www.etihad.com/en-in/help/baggage-information/prohibited-items"
+        },
+        {
+          "label": "Flying with children",
+          "url": "https://www.etihad.com/en-in/plan/travel-companion/flying-with-children"
+        },
+        {
+          "label": "Special equipment and other items",
+          "url": "https://www.etihad.com/en-in/help/baggage-information/special-equipment-and-other-items"
+        },
+        {
+          "label": "Baggage calculator",
+          "url": "https://www.etihad.com/en-in/help/baggage-information/bagagge-calculator"
+        }
+      ]
+    },
+    {
+      "slug": "flydubai",
+      "name": "flydubai",
+      "scope": "international",
+      "region": "Gulf",
+      "hub": "Dubai (DXB)",
+      "official_url": "https://www.flydubai.com/en/flying-with-us/baggage/hand-baggage/",
+      "cabin": {
+        "pieces": 1,
+        "kg": 7,
+        "dims_cm": [
+          55,
+          38,
+          20
+        ],
+        "total_cm": null,
+        "summary": "One cabin bag up to 7 kg",
+        "detail": "Every fare, including Lite, includes one cabin bag up to 7 kg and 55 x 38 x 20 cm. flydubai checks the size and weight of all hand baggage at the gate, and charges for each item over the limit. It doesn't say whether wheels and handles count, so measure them in."
+      },
+      "personal": {
+        "summary": "One personal item as part of your hand baggage: a laptop bag, small handbag or satchel up to 25 x 33 x 20 cm that fits under the seat, plus one duty-free bag"
+      },
+      "checkin": [
+        {
+          "fare": "Lite",
+          "allowance": "No checked bag (you can pay for one)"
+        },
+        {
+          "fare": "Value",
+          "allowance": "20 kg"
+        },
+        {
+          "fare": "Flex",
+          "allowance": "30 kg"
+        }
+      ],
+      "checkin_summary": "None on Lite; 20 kg on Value and 30 kg on Flex",
+      "checkin_note": "Up to 3 bags within your total. Each bag must weigh less than 32 kg and be no more than 203 cm in total. flydubai says allowances may vary by route, so check your ticket.",
+      "infant": "If your fare includes baggage, an infant gets 5 kg of hand baggage and 10 kg of checked baggage, plus a folding stroller to the gate.",
+      "notes": [
+        "Bags must have at least one flat side and no loose straps. Odd-shaped items must be packed in a box, and items must not be strapped together.",
+        "Don't put money, jewellery, gold or important documents in checked bags. If your cabin bag is sent to the hold at the gate, take these out first, along with medicines and power banks.",
+        "Power banks: one only, up to 100 Wh, in hand baggage. You can't use or charge it during the flight.",
+        "Zamzam water: from Jeddah, Madinah, Taif or Yanbu, up to 5 litres free as checked baggage, sealed in approved packaging.",
+        "Medicines into the UAE: controlled medicines need approval from the UAE health ministry before you travel."
+      ],
+      "sources": [
+        {
+          "label": "Hand baggage",
+          "url": "https://www.flydubai.com/en/flying-with-us/baggage/hand-baggage/"
+        },
+        {
+          "label": "Checked baggage",
+          "url": "https://www.flydubai.com/en/flying-with-us/baggage/check-in-baggage/"
+        },
+        {
+          "label": "Fare types and rules",
+          "url": "https://www.flydubai.com/en/flying-with-us/fare-types/"
+        }
+      ]
+    },
+    {
+      "slug": "air-arabia",
+      "name": "Air Arabia",
+      "scope": "international",
+      "region": "Gulf",
+      "hub": "Sharjah (SHJ)",
+      "official_url": "https://www.airarabia.com/en/help/baggage-enquiries/hand-baggage_baggage-enquiries",
+      "cabin": {
+        "pieces": 1,
+        "kg": 7,
+        "dims_cm": [
+          55,
+          40,
+          20
+        ],
+        "total_cm": null,
+        "summary": "One cabin bag up to 7 kg, plus a 3 kg personal item",
+        "detail": "Every fare includes one cabin bag up to 7 kg and 55 x 40 x 20 cm, plus one personal item up to 3 kg. Duty-free shopping must fit within the combined 10 kg, and bags over the limit at the gate may be charged."
+      },
+      "personal": {
+        "summary": "One personal item, such as a handbag, laptop bag or small backpack, up to 25 x 33 x 20 cm and 3 kg"
+      },
+      "checkin": [
+        {
+          "fare": "Basic",
+          "allowance": "No checked bag (you can pay for one)"
+        },
+        {
+          "fare": "Value",
+          "allowance": "20 or 30 kg (Air Arabia writes \"20/30 kg\")"
+        },
+        {
+          "fare": "Ultimate",
+          "allowance": "30 or 40 kg (Air Arabia writes \"30/40 kg\")"
+        }
+      ],
+      "checkin_summary": "None on Basic; 20–30 kg on Value and 30–40 kg on Ultimate",
+      "checkin_note": "Each bag must weigh no more than 32 kg and measure no more than 158 cm in total. A 20 kg allowance is one bag; 30 and 40 kg can be split into up to 2 bags. Air Arabia doesn't explain which of its \"20/30\" amounts applies to which route, so check your booking. Extra baggage is cheaper if you book it at least 12 hours before departure.",
+      "infant": "With an infant under 2 you may carry one extra 3 kg bag for baby things. No checked allowance for infants is listed.",
+      "notes": [
+        "Power banks: up to two, each up to 100 Wh, in your cabin bag only, not in the overhead bin. You can't use or charge them on board.",
+        "Zamzam water: passengers flying from Saudi Arabia may carry one 5-litre bottle free as checked baggage, bought from approved outlets at the airport.",
+        "These rules cover Air Arabia's flights to and from the UAE, including Air Arabia Abu Dhabi."
+      ],
+      "sources": [
+        {
+          "label": "Cabin baggage FAQ",
+          "url": "https://www.airarabia.com/en/help/baggage-enquiries/hand-baggage_baggage-enquiries"
+        },
+        {
+          "label": "Checked baggage FAQ",
+          "url": "https://www.airarabia.com/en/help/baggage-enquiries/checked-baggage_baggage-enquiries"
+        },
+        {
+          "label": "Fare types",
+          "url": "https://www.airarabia.com/en/plan/reservation/fare-types"
+        },
+        {
+          "label": "Baggage overview",
+          "url": "https://www.airarabia.com/en/checked-and-hand-baggages"
+        },
+        {
+          "label": "Dangerous goods and restricted items",
+          "url": "https://www.airarabia.com/en/help/frequently-asked-questions/faq-source/baggage/prohibited-items"
+        },
+        {
+          "label": "Flying with families",
+          "url": "https://www.airarabia.com/en/plan/flying-with-us/flying-with-families"
+        }
+      ]
+    }
+  ]
+}
