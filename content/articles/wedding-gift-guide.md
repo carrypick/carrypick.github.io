@@ -1,4 +1,5 @@
 ---
+seo_title: Wedding gift ideas for couples: watches and travel bags
 title: Wedding gift ideas: watches and travel bags couples actually use
 description: Pair watches for the couple, watches for the bride and groom, and bags for the honeymoon, with tips to pick the right one.
 date: 2026-11-02

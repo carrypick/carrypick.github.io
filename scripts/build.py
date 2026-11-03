@@ -16,6 +16,7 @@ from common import ROOT, amazon_link, load_config, load_deals
 
 DOCS = ROOT / "docs"
 ARTICLES_DIR = ROOT / "content" / "articles"
+AIRLINES_FILE = ROOT / "data" / "airlines.json"
 STATIC_DIR = ROOT / "static"
 DISCLOSURE = "As an Amazon Associate I earn from qualifying purchases."
 KEEP_IN_DOCS = {"CNAME"}
@@ -69,7 +70,31 @@ def follow_links(cfg):
 
 # ---------- page shell ----------
 
-def page(cfg, title, description, body, depth, path):
+def abs_url(cfg, path=""):
+    return cfg["base_url"].rstrip("/") + "/" + path
+
+
+def org_schema(cfg):
+    same_as = [u for u in (telegram_url(cfg), cfg.get("whatsapp_channel")) if u]
+    return {"@type": "Organization", "name": cfg["site_name"], "url": abs_url(cfg),
+            "logo": abs_url(cfg, "assets/logo.png"), "sameAs": same_as}
+
+
+def crumbs_schema(cfg, items):
+    """items: (name, path) pairs from Home down to the current page."""
+    return {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": i, "name": name, "item": abs_url(cfg, path)}
+        for i, (name, path) in enumerate(items, 1)]}
+
+
+def schema_tags(cfg, schema):
+    if not (schema and cfg["base_url"]):
+        return ""
+    return "".join('\n<script type="application/ld+json">%s</script>'
+                   % json.dumps(s, ensure_ascii=False).replace("</", "<\\/") for s in schema)
+
+
+def page(cfg, title, description, body, depth, path, schema=None, og_type="website"):
     p = "../" * depth
     name = e(cfg["site_name"])
     full_title = e(title) + " | " + name if title else name + " | " + e(cfg["tagline"])
@@ -101,8 +126,8 @@ def page(cfg, title, description, body, depth, path):
 <meta property="og:title" content="{e(title or cfg['site_name'])}">
 <meta property="og:description" content="{e(description)}">
 <meta property="og:site_name" content="{name}">
-<meta property="og:type" content="website">
-{head_extra}
+<meta property="og:type" content="{og_type}">
+{head_extra}{schema_tags(cfg, schema)}
 <link rel="icon" type="image/png" href="{p}assets/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -113,7 +138,7 @@ def page(cfg, title, description, body, depth, path):
 <header class="site-header">
   <div class="wrap header-row">
     <a class="brand" href="{p}index.html"><img src="{p}assets/logo.png" alt="" width="34" height="34"><span>{name}</span></a>
-    <nav class="main-nav">{nav}<a href="{p}guides/index.html">Guides</a></nav>
+    <nav class="main-nav">{nav}<a class="nav-keep" href="{p}baggage/index.html">Baggage<span class="nav-long"> rules</span></a><a class="nav-keep" href="{p}guides/index.html">Guides</a></nav>
     {tg_btn}
   </div>
 </header>
@@ -132,6 +157,8 @@ def page(cfg, title, description, body, depth, path):
     <div><h4>Categories</h4><ul>{foot_cats}</ul></div>
     <div><h4>CarryPick</h4><ul>
       <li><a href="{p}guides/index.html">Buying guides</a></li>
+      <li><a href="{p}baggage/index.html">Airline baggage rules</a></li>
+      <li><a href="{p}baggage/checker.html">Cabin bag checker</a></li>
       <li><a href="{p}about.html">About us</a></li>
       <li><a href="{p}contact.html">Contact</a></li>
       {follow_links(cfg)}
@@ -325,6 +352,7 @@ def load_articles():
             sys.exit("Error: %s is missing the --- front matter block" % path.name)
         meta = dict(line.split(": ", 1) for line in match.group(1).splitlines() if ": " in line)
         meta.update(slug=path.stem, body=match.group(2))
+        meta.setdefault("updated", meta["date"])
         meta["minutes"] = max(1, round(len(re.sub(r"\[\[pick:\w+\]\]", "", meta["body"]).split()) / 200))
         articles.append(meta)
     return sorted(articles, key=lambda a: a["date"], reverse=True)
@@ -345,6 +373,291 @@ def guide_cards(cfg, articles, p):
   </div>
 </a>""")
     return '<div class="guide-grid">%s</div>' % "".join(cards)
+
+
+# ---------- baggage rules and bag checker ----------
+
+def parse_dims(text):
+    m = re.search(r"(\d+(?:\.\d+)?)\s*x\s*(\d+(?:\.\d+)?)\s*x\s*(\d+(?:\.\d+)?)", text or "")
+    return [float(x) for x in m.groups()] if m else None
+
+
+def parse_kg(text):
+    m = re.search(r"(\d+(?:\.\d+)?)\s*(kg|g)\b", text or "")
+    if not m:
+        return None
+    return float(m.group(1)) / (1000 if m.group(2) == "g" else 1)
+
+
+def num(x):
+    return ("%.1f" % x).rstrip("0").rstrip(".")
+
+
+def size_limit_text(cabin):
+    parts = []
+    if cabin.get("dims_cm"):
+        parts.append(" x ".join(num(x) for x in cabin["dims_cm"]) + " cm")
+    if cabin.get("total_cm"):
+        parts.append("%s cm in total (L + W + H)" % num(cabin["total_cm"]))
+    return " or ".join(parts) if cabin.get("either") else ", and ".join(parts)
+
+
+def short_limit_text(cabin):
+    parts = []
+    if cabin.get("dims_cm"):
+        parts.append(" x ".join(num(x) for x in cabin["dims_cm"]) + " cm")
+    if cabin.get("total_cm"):
+        parts.append("%s cm total" % num(cabin["total_cm"]))
+    if cabin.get("kg"):
+        parts.append("%s kg" % num(cabin["kg"]))
+    return " · ".join(parts)
+
+
+def size_fit(dims, cabin):
+    """Same rule as static/checker.js: a bag fits if it passes every limit the airline gives
+    (or any one of them when the airline says either is fine). Sides are compared largest to largest.
+    Returns (fits, reason, cm over)."""
+    bag = sorted(dims, reverse=True)
+    checks = []
+    if cabin.get("dims_cm"):
+        over = max(b - l for b, l in zip(bag, sorted(cabin["dims_cm"], reverse=True)))
+        checks.append((over, "%s cm over on one side" % num(over)))
+    if cabin.get("total_cm"):
+        over = sum(bag) - cabin["total_cm"]
+        checks.append((over, "%s cm in total, %s cm over" % (num(sum(bag)), num(over))))
+    if not checks:
+        return None, "No size limit given", 0
+    fails = [(over, why) for over, why in checks if over > 0]
+    ok = len(fails) < len(checks) if cabin.get("either") else not fails
+    if ok:
+        return True, "", 0
+    return False, "; ".join(why for over, why in fails), max(over for over, why in fails)
+
+
+def fit_badge(ok, over=0):
+    if ok is None:
+        return '<span class="fit fit-na">Check listing</span>'
+    if ok:
+        return '<span class="fit fit-yes">Fits</span>'
+    if over <= 3:
+        return '<span class="fit fit-close">%s cm over</span>' % num(over)
+    return '<span class="fit fit-no">Too big</span>'
+
+
+def cabin_picks(deals):
+    picks = []
+    for d in deals:
+        dims = parse_dims(d.get("specs", {}).get("Size"))
+        if d["category"] in ("luggage", "backpacks") and dims and sum(dims) <= 130:
+            picks.append((d, dims, parse_kg(d.get("specs", {}).get("Weight"))))
+    return picks
+
+
+def fit_table(cfg, airline, picks, p):
+    rows = []
+    for d, dims, kg in picks:
+        ok, why, over = size_fit(dims, airline["cabin"])
+        left = ""
+        if kg is not None and airline["cabin"].get("kg"):
+            spare = airline["cabin"]["kg"] - kg
+            left = "about %s kg left for your things" % num(spare) if spare > 0 else "the bag alone is over the limit"
+        link = e(amazon_link(d["asin"], cfg["amazon_tag"]))
+        rows.append(f"""<tr><th scope="row"><a href="{p}picks/{d['asin']}.html">{e(d['title'])}</a></th>
+<td>{" x ".join(num(x) for x in dims)} cm<span class="why">{num(sum(dims))} cm in total</span></td>
+<td>{fit_badge(ok, over)}{('<span class="why">' + e(why) + '</span>') if why else ''}</td>
+<td>{e(left) or '–'}</td>
+<td><a class="table-buy" href="{link}" {BUY_ATTRS}>Check price</a><span class="paid">Paid link</span></td></tr>""")
+    return ('<div class="table-wrap"><table class="compare"><thead><tr><th>Our pick</th><th>Listed size</th>'
+            f'<th>Fits {e(airline["name"])}?</th><th>Weight</th><th></th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>')
+
+
+def load_airlines():
+    if not AIRLINES_FILE.exists():
+        return None
+    data = json.loads(AIRLINES_FILE.read_text(encoding="utf-8"))
+    for a in data["airlines"]:
+        missing = [k for k in ("slug", "name", "official_url", "cabin", "checkin", "sources") if not a.get(k)]
+        if missing:
+            sys.exit("Error: airline %s is missing %s" % (a.get("slug", "?"), ", ".join(missing)))
+    return data
+
+
+def build_baggage(cfg, deals, data, pages, lastmod):
+    airlines = data["airlines"]
+    checked = data["checked"]
+    year = checked[:4]
+    picks = cabin_picks(deals)
+    scale = next((d for d in deals if "scale" in d["title"].lower()), None)
+    scale_link = f'<a href="../picks/{scale["asin"]}.html">luggage scale</a>' if scale else "luggage scale"
+    disclaimer = ('<p class="checked">Rules change often and can depend on your fare, route and aircraft. '
+                  'Always check your ticket and the airline\'s official website before you fly.</p>')
+    checker_cta = (f'<aside class="tip">{icon("ruler", "icon tip-icon")}<div><strong>Will your bag fit?</strong>'
+                   '<p>Type your bag\'s size into our <a href="checker.html">cabin bag checker</a> and see every airline at once.</p></div></aside>')
+    others = lambda current: '<ul class="airline-links">' + "".join(
+        f'<li><a href="{a["slug"]}.html">{e(a["name"])}</a></li>' for a in airlines if a["slug"] != current) + "</ul>"
+
+    def head(title, crumb_html, sub):
+        return f"""<section class="page-head tint-luggage">
+  <div class="wrap page-head-row">
+    {media(cfg, "luggage", "media media-tile")}
+    <div>
+      <nav class="crumbs"><a href="../index.html">Home</a><span>/</span>{crumb_html}</nav>
+      <h1>{e(title)}</h1>
+      <p class="muted small">{sub}</p>
+    </div>
+  </div>
+</section>"""
+
+    def article_schema(title, desc, path):
+        return {"@context": "https://schema.org", "@type": "Article", "headline": title, "description": desc,
+                "datePublished": data.get("published", checked), "dateModified": checked, "inLanguage": "en-IN",
+                "image": abs_url(cfg, "assets/logo.png"), "mainEntityOfPage": abs_url(cfg, path),
+                "author": org_schema(cfg), "publisher": org_schema(cfg)}
+
+    # Hub page
+    rows = "".join(f"""<tr><th scope="row"><a href="{a['slug']}.html">{e(a['name'])}</a></th>
+<td>{e(a['cabin']['summary'])}</td><td>{e(size_limit_text(a['cabin']))}</td>
+<td>{e(a['personal']['summary']) if a.get('personal') else '–'}</td><td>{e(a['checkin_summary'])}</td></tr>""" for a in airlines)
+    matrix_head = "".join("<th>%s</th>" % e(a["name"]) for a in airlines)
+    matrix_rows = "".join(
+        f'<tr><th scope="row"><a href="../picks/{d["asin"]}.html">{e(d["title"])}</a><span class="why">{num(sum(dims))} cm in total</span></th>'
+        + "".join("<td>%s</td>" % fit_badge(*size_fit(dims, a["cabin"])[::2]) for a in airlines) + "</tr>"
+        for d, dims, kg in picks)
+    title = "Baggage rules for Indian airlines"
+    seo = "Baggage rules for Indian airlines %s: cabin and check-in limits" % year
+    desc = ("Cabin bag size and weight, extra small bag and free check-in baggage for IndiGo, Air India, "
+            "Air India Express, Akasa Air and SpiceJet domestic flights, checked against official websites.")
+    body = f"""{head(title, "Baggage rules", "Checked on " + fmt_date(checked) + " against each airline's official website")}
+<div class="wrap"><article class="guide">
+<p class="lead">Domestic economy limits for India's main airlines, in one place. Tap an airline for the full rules, fare types and tips.</p>
+{checker_cta}
+<h2>Cabin and check-in baggage at a glance</h2>
+<div class="table-wrap"><table class="compare"><thead><tr><th>Airline</th><th>Cabin bag</th><th>Cabin size limit</th><th>Extra small bag</th><th>Free check-in (domestic)</th></tr></thead><tbody>{rows}</tbody></table></div>
+{disclaimer}
+<h2>Do our cabin picks fit?</h2>
+<p>Many "55 cm" cabin trolleys are a little bigger than the limits once you add up all three sides. A backpack is often the safest cabin bag. Here's how our picks compare, using the size listed on Amazon.</p>
+<div class="table-wrap"><table class="compare"><thead><tr><th>Our pick</th>{matrix_head}</tr></thead><tbody>{matrix_rows}</tbody></table></div>
+<h2>How to avoid extra baggage charges</h2>
+<ul>
+<li><strong>Measure with wheels and handles.</strong> Airlines measure the whole bag, not just the shell.</li>
+<li><strong>Weigh it at home.</strong> A {scale_link} costs less than one excess-baggage fee.</li>
+<li><strong>Remember the bag's own weight.</strong> A hard cabin trolley often weighs 2.5–3 kg of your 7 kg.</li>
+<li><strong>Check your fare.</strong> Some cheap fares include cabin baggage only.</li>
+</ul>
+<p>More help: <a href="../guides/cabin-luggage-guide.html">how to pick a cabin trolley</a> and <a href="../guides/luggage-size-guide.html">what size luggage you need</a>.</p>
+</article></div>
+{telegram_band(cfg, "../")}"""
+    path = "baggage/index.html"
+    crumbs = crumbs_schema(cfg, [("Home", ""), (title, path)])
+    pages.append(write(path, page(cfg, seo, desc, body, 1, path, [article_schema(seo, desc, path), crumbs], og_type="article")))
+    lastmod[path] = checked
+
+    # One page per airline
+    for a in airlines:
+        cabin = a["cabin"]
+        checkin_rows = "".join("<tr><th scope=\"row\">%s</th><td>%s</td></tr>" % (e(c["fare"]), e(c["allowance"])) for c in a["checkin"])
+        notes = "".join("<li>%s</li>" % e(n) for n in a.get("notes", []))
+        sources = " ".join(f'<a href="{e(src["url"])}" target="_blank" rel="noopener">{e(src["label"])}</a>' for src in a["sources"])
+        faq = [
+            ("How much cabin baggage is allowed on %s?" % a["name"], cabin["summary"] + "."),
+            ("What is the %s cabin bag size limit?" % a["name"],
+             "The limit is %s. Measure the bag with its wheels and handles." % size_limit_text(cabin)),
+            ("How much free check-in baggage do I get on %s domestic flights?" % a["name"], a["checkin_summary"] + ". It depends on your fare type, so check your ticket."),
+        ]
+        if a.get("personal"):
+            faq.insert(2, ("Can I carry a laptop bag or handbag too?", a["personal"]["summary"] + "."))
+        faq_html = "".join("<h3>%s</h3><p>%s</p>" % (e(q), e(ans)) for q, ans in faq)
+        title = "%s baggage rules: cabin bag size, weight and check-in" % a["name"]
+        seo = "%s baggage rules %s: cabin bag size, weight and check-in" % (a["name"], year)
+        desc = "%s domestic baggage rules: %s, %s. Free check-in: %s. Checked %s." % (
+            a["name"], cabin["summary"], size_limit_text(cabin), a["checkin_summary"], fmt_date(checked))
+        body = f"""{head(title, '<a href="index.html">Baggage rules</a>', "Checked on " + fmt_date(checked) + " against " + e(a["name"]) + "'s official website &middot; domestic economy")}
+<div class="wrap"><article class="guide">
+<div class="answer"><h2>Quick answer</h2><ul>
+<li><strong>Cabin bag:</strong> {e(cabin['summary'])}.</li>
+<li><strong>Size limit:</strong> {e(size_limit_text(cabin))}.</li>
+{('<li><strong>Extra small bag:</strong> ' + e(a['personal']['summary']) + '.</li>') if a.get('personal') else ''}
+<li><strong>Free check-in:</strong> {e(a['checkin_summary'])}.</li>
+</ul></div>
+{checker_cta}
+<h2>Cabin baggage</h2>
+<p>{e(cabin.get('detail', cabin['summary'] + '.'))}</p>
+<h2>Check-in baggage (domestic)</h2>
+<table class="specs">{checkin_rows}</table>
+{('<p>' + e(a['checkin_note']) + '</p>') if a.get('checkin_note') else ''}
+{('<h2>Good to know</h2><ul>' + notes + '</ul>') if notes else ''}
+<h2>Do our cabin picks fit {e(a['name'])}?</h2>
+<p>Based on the size listed on Amazon. The "weight" column shows what's left of the {num(cabin['kg']) if cabin.get('kg') else ''} kg limit after the bag itself.</p>
+{fit_table(cfg, a, picks, "../")}
+<p>Weigh your packed bag at home with a {scale_link} before you leave.</p>
+<section class="faq"><h2>Questions</h2>{faq_html}</section>
+<h2>Source</h2>
+<p>Official {e(a['name'])} pages: {sources}</p>
+{disclaimer}
+<h2>Other airlines</h2>
+{others(a['slug'])}
+</article></div>
+{telegram_band(cfg, "../")}"""
+        path = "baggage/%s.html" % a["slug"]
+        crumbs = crumbs_schema(cfg, [("Home", ""), ("Baggage rules", "baggage/index.html"), (a["name"], path)])
+        pages.append(write(path, page(cfg, seo, desc, body, 1, path, [article_schema(seo, desc, path), crumbs], og_type="article")))
+        lastmod[path] = checked
+
+    # Bag checker
+    # Some airlines have a smaller limit on some planes; the checker shows those as extra rows.
+    rows_for_checker = []
+    for a in airlines:
+        rows_for_checker.append((a["slug"], a["name"], a["slug"], a["cabin"]))
+        for i, v in enumerate(a["cabin"].get("variants", []), 1):
+            rows_for_checker.append(("%s-%d" % (a["slug"], i), "%s (%s)" % (a["name"], v["label"]), a["slug"],
+                                     dict(a["cabin"], dims_cm=v.get("dims_cm"), total_cm=v.get("total_cm"))))
+    js_data = {"airlines": [{"slug": key, "name": name, "kg": c.get("kg"), "dims": c.get("dims_cm"),
+                             "total": c.get("total_cm"), "either": bool(c.get("either"))}
+                            for key, name, page_slug, c in rows_for_checker],
+               "picks": [{"title": d["title"], "dims": dims, "kg": kg} for d, dims, kg in picks]}
+    js_json = json.dumps(js_data).replace("</", "<\\/")
+    options = "".join('<option value="%d">%s</option>' % (i, e(d["title"])) for i, (d, dims, kg) in enumerate(picks))
+    result_rows = "".join(f'<tr data-slug="{key}"><th scope="row"><a href="{page_slug}.html">{e(name)}</a>'
+                          f'<span class="why">{e(short_limit_text(c))}</span></th>'
+                          '<td class="r-size"><span class="fit fit-na">Enter size</span></td>'
+                          '<td class="r-kg"><span class="fit fit-na">Enter weight</span></td></tr>'
+                          for key, name, page_slug, c in rows_for_checker)
+    title = "Will my bag fit? Cabin bag checker for Indian airlines"
+    seo = "Cabin bag size checker: will my bag fit IndiGo, Air India, Akasa or SpiceJet?"
+    desc = "Type your bag's length, width, height and weight to see if it fits the cabin baggage limits of India's main airlines."
+    body = f"""{head(title, '<a href="index.html">Baggage rules</a>', "Airline limits checked on " + fmt_date(checked) + " &middot; domestic economy")}
+<div class="wrap"><article class="guide">
+<form class="checker" id="bag-checker" onsubmit="return false">
+  <label>Fill from one of our picks (optional)
+    <select id="bc-pick"><option value="">Choose a bag…</option>{options}</select>
+  </label>
+  <div class="checker-fields">
+    <label>Length (cm)<input id="bc-l" type="number" inputmode="decimal" min="0" step="0.5" placeholder="55"></label>
+    <label>Width (cm)<input id="bc-w" type="number" inputmode="decimal" min="0" step="0.5" placeholder="35"></label>
+    <label>Height (cm)<input id="bc-h" type="number" inputmode="decimal" min="0" step="0.5" placeholder="25"></label>
+    <label>Packed weight (kg)<input id="bc-kg" type="number" inputmode="decimal" min="0" step="0.1" placeholder="7"></label>
+  </div>
+  <p class="checker-total" id="bc-total" aria-live="polite"></p>
+  <p class="hint">Measure the whole bag, with wheels and handles. Results update as you type.</p>
+</form>
+<noscript><p>This checker needs JavaScript. You can still compare the limits on our <a href="index.html">baggage rules page</a>.</p></noscript>
+<div class="table-wrap"><table class="result-table" id="bc-results"><thead><tr><th>Airline</th><th>Size</th><th>Weight</th></tr></thead><tbody>{result_rows}</tbody></table></div>
+{disclaimer}
+<h2>How this works</h2>
+<ul>
+<li>We compare your bag's longest side with the airline's longest allowed side, and so on, because a bag can be turned to fit.</li>
+<li>When an airline gives a total size (length + width + height), we add up your three sides.</li>
+<li>These are the standard domestic economy limits. Your fare, route or aircraft can change them.</li>
+</ul>
+<p>See the <a href="index.html">full baggage rules for each airline</a>, or read <a href="../guides/cabin-luggage-guide.html">how to pick a cabin trolley</a>.</p>
+</article></div>
+<script type="application/json" id="bc-data">{js_json}</script>
+<script src="../assets/checker.js" defer></script>
+{telegram_band(cfg, "../")}"""
+    path = "baggage/checker.html"
+    crumbs = crumbs_schema(cfg, [("Home", ""), ("Baggage rules", "baggage/index.html"), ("Cabin bag checker", path)])
+    pages.append(write(path, page(cfg, seo, desc, body, 1, path, [crumbs])))
+    lastmod[path] = checked
 
 
 # ---------- pages ----------
@@ -378,6 +691,7 @@ def build():
     shutil.copytree(STATIC_DIR, DOCS / "assets")
     (DOCS / ".nojekyll").write_text("", encoding="utf-8")
     pages = []
+    lastmod = {}
     tg = telegram_url(cfg)
 
     # Home
@@ -395,6 +709,25 @@ def build():
     tg_cta = (f'<a class="btn btn-ghost" href="{e(tg)}" target="_blank" rel="noopener">{icon("send", "icon icon-sm")} Join on Telegram</a>'
               if tg else "")
     picks_html = grid(cfg, deals[:8], "") if deals else '<p class="muted">New picks are coming soon.</p>'
+    baggage_promo = ""
+    if AIRLINES_FILE.exists():
+        baggage_promo = f"""<section class="wrap section">
+  {section_head("Flying soon?")}
+  <div class="guide-grid">
+    <a class="guide-card" href="baggage/index.html">
+      <div class="guide-art tint-travel-gear">{icon("plane", "icon guide-icon")}</div>
+      <div class="guide-body"><p class="eyebrow">IndiGo &middot; Air India &middot; Akasa &middot; SpiceJet</p>
+      <h3>Baggage rules for Indian airlines</h3><p>Cabin bag size and weight, and free check-in baggage, all in one place.</p>
+      <span class="more">See the rules {icon("arrow", "icon icon-sm")}</span></div>
+    </a>
+    <a class="guide-card" href="baggage/checker.html">
+      <div class="guide-art tint-luggage">{icon("ruler", "icon guide-icon")}</div>
+      <div class="guide-body"><p class="eyebrow">Free tool</p>
+      <h3>Will my bag fit? Cabin bag checker</h3><p>Type your bag's size and weight and see which airlines accept it as a cabin bag.</p>
+      <span class="more">Check your bag {icon("arrow", "icon icon-sm")}</span></div>
+    </a>
+  </div>
+</section>"""
     body = f"""<section class="hero">
   <div class="wrap hero-row">
     <div class="hero-copy">
@@ -429,9 +762,13 @@ def build():
     <li><span>3</span><h3>Explain it simply</h3><p>Short notes on who each product is best for, so you can decide fast.</p></li>
   </ol>
 </section>
+{baggage_promo}
 {('<section class="wrap section">' + section_head("Buying guides", '<a class="see-all" href="guides/index.html">All guides ' + icon("arrow", "icon icon-sm") + '</a>') + guide_cards(cfg, articles[:3], "") + '</section>') if articles else ''}
 {telegram_band(cfg, "")}"""
-    pages.append(write("index.html", page(cfg, "", cfg["tagline"], body, 0, "")))
+    home_schema = [{"@context": "https://schema.org", "@type": "WebSite", "name": cfg["site_name"],
+                    "url": abs_url(cfg), "description": cfg["tagline"], "inLanguage": "en-IN",
+                    "publisher": org_schema(cfg)}]
+    pages.append(write("index.html", page(cfg, "", cfg["tagline"], body, 0, "", home_schema)))
 
     # Pick pages
     for d in deals:
@@ -474,7 +811,10 @@ def build():
 {more_html}
 {telegram_band(cfg, "../")}"""
         desc = d["note"] if d.get("note") else d["highlights"][0]
-        pages.append(write("picks/%s.html" % d["asin"], page(cfg, d["title"], desc, body, 1, "picks/%s.html" % d["asin"])))
+        path = "picks/%s.html" % d["asin"]
+        crumbs = crumbs_schema(cfg, [("Home", ""), (cat["name"], "category/%s.html" % d["category"]), (d["title"], path)])
+        pages.append(write(path, page(cfg, d["title"], desc, body, 1, path, [crumbs])))
+        lastmod[path] = d["added_at"][:10]
 
     # Category pages
     for slug, cat in cfg["categories"].items():
@@ -500,14 +840,18 @@ def build():
 </div>
 {telegram_band(cfg, "../")}"""
         desc = "Hand-picked %s from Amazon India. %s" % (cat["name"].lower(), cat["intro"])
-        pages.append(write("category/%s.html" % slug, page(cfg, cat["name"], desc, body, 1, "category/%s.html" % slug)))
+        path = "category/%s.html" % slug
+        crumbs = crumbs_schema(cfg, [("Home", ""), (cat["name"], path)])
+        pages.append(write(path, page(cfg, cat["name"], desc, body, 1, path, [crumbs])))
 
     # Guides
     body = f"""<section class="page-head">
   <div class="wrap"><h1>Buying guides</h1><p class="lead">Simple, honest guides to help you choose bags, luggage and watches.</p></div>
 </section>
 <div class="wrap section">{guide_cards(cfg, articles, "../") if articles else '<p class="muted">Coming soon.</p>'}</div>"""
-    pages.append(write("guides/index.html", page(cfg, "Buying guides", "Simple buying guides for bags, luggage and watches.", body, 1, "guides/index.html")))
+    crumbs = crumbs_schema(cfg, [("Home", ""), ("Guides", "guides/index.html")])
+    pages.append(write("guides/index.html", page(cfg, "Buying guides", "Simple buying guides for bags, luggage and watches.",
+                                                 body, 1, "guides/index.html", [crumbs])))
     for a in articles:
         content = render_markdown(a["body"], cfg, deals_by_asin, "../", a["slug"] + ".md")
         cat = a.get("category")
@@ -518,13 +862,25 @@ def build():
     <div>
       <nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="index.html">Guides</a></nav>
       <h1>{e(a['title'])}</h1>
-      <p class="muted small">Updated {fmt_date(a['date'])} &middot; {a['minutes']} min read</p>
+      <p class="muted small">Updated {fmt_date(a['updated'])} &middot; {a['minutes']} min read</p>
     </div>
   </div>
 </section>
 <div class="wrap"><article class="guide">{content}</article></div>
 {telegram_band(cfg, "../")}"""
-        pages.append(write("guides/%s.html" % a["slug"], page(cfg, a["title"], a["description"], body, 1, "guides/%s.html" % a["slug"])))
+        path = "guides/%s.html" % a["slug"]
+        article = {"@context": "https://schema.org", "@type": "Article", "headline": a["title"],
+                   "description": a["description"], "datePublished": a["date"], "dateModified": a["updated"],
+                   "inLanguage": "en-IN", "image": abs_url(cfg, "assets/logo.png"),
+                   "mainEntityOfPage": abs_url(cfg, path), "author": org_schema(cfg), "publisher": org_schema(cfg)}
+        crumbs = crumbs_schema(cfg, [("Home", ""), ("Guides", "guides/index.html"), (a["title"], path)])
+        pages.append(write(path, page(cfg, a.get("seo_title", a["title"]), a["description"], body, 1, path,
+                                      [article, crumbs], og_type="article")))
+        lastmod[path] = a["updated"]
+
+    airlines = load_airlines()
+    if airlines:
+        build_baggage(cfg, deals, airlines, pages, lastmod)
 
     # Info pages
     name = e(cfg["site_name"])
@@ -569,7 +925,9 @@ def build():
     # Sitemap and robots (only once we know the live address)
     if cfg["base_url"]:
         base = cfg["base_url"].rstrip("/") + "/"
-        urls = "".join("<url><loc>%s</loc></url>" % e(base + ("" if p == "index.html" else p)) for p in pages if p != "404.html")
+        urls = "".join("<url><loc>%s</loc>%s</url>" % (e(base + ("" if p == "index.html" else p)),
+                                                       "<lastmod>%s</lastmod>" % lastmod[p] if p in lastmod else "")
+                       for p in pages if p != "404.html")
         (DOCS / "sitemap.xml").write_text(
             '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">%s</urlset>\n' % urls,
             encoding="utf-8",

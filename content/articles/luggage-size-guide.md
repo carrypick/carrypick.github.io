@@ -1,4 +1,5 @@
 ---
+seo_title: What size luggage do I need? Cabin vs medium vs large
 title: What size luggage do you need? A simple guide by trip length
 description: Cabin, medium or large? Match your trolley size to your trip, airline limits and how you travel, plus hard vs soft luggage.
 date: 2026-11-02

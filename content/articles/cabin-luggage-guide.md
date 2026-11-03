@@ -1,7 +1,9 @@
 ---
+seo_title: Cabin bag size rules in India: 7 kg, 115 cm and 55 cm trolleys
 title: Cabin bag rules for Indian flights and how to pick the right trolley
 description: The 7 kg and 115 cm rule explained, why "55 cm" bags can still be too big, and our cabin and check-in picks.
 date: 2026-10-23
+updated: 2026-11-03
 category: luggage
 ---
 Getting stopped at the airport gate because your cabin bag is too heavy or too big is stressful and can cost money. This guide explains the rules and how to pick a trolley bag that fits them.
@@ -14,7 +16,9 @@ Take IndiGo, India's biggest airline, as an example. Its official baggage page a
 - **One personal item** up to **3 kg**, such as a ladies' purse or a small laptop bag.
 - **15 kg of check-in baggage** on domestic flights for standard fares.
 
-Other airlines have similar rules, but they can differ by fare type and they change from time to time. **Always check your airline's baggage page before you fly.** For IndiGo, it's the [IndiGo baggage allowance page](https://www.goindigo.in/baggage/baggage-allowance).
+Other airlines have similar rules, but they can differ by fare type and they change from time to time. Air India, for example, limits the cabin bag to **55 x 40 x 20 cm**, so a deep trolley can be too thick even if the total is fine. **Always check your airline's baggage page before you fly.**
+
+We've put the rules for IndiGo, Air India, Air India Express, Akasa Air and SpiceJet on one page: see our [baggage rules for Indian airlines](../baggage/index.html). To test your own bag, use the [cabin bag checker](../baggage/checker.html).
 
 ## Why "55 cm cabin size" isn't the full story
 
@@ -26,7 +30,7 @@ Here's how three popular 55 cm bags add up, using the dimensions listed by the s
 - American Tourister Liftoff 55 cm: 55.5 + 39.5 + 22 = **117 cm**
 - Safari Thorium Royale 55 cm: 55 + 40 + 23 = **118 cm**
 
-All three are a little over 115 cm on paper. Airline staff don't measure every bag, but they can. For zero risk, look for a total of **115 cm or less**, and don't overfill expandable zips.
+All three are a little over 115 cm on paper. Airline staff don't measure every bag, but they can. For zero risk, look for a total of **115 cm or less**, and don't overfill expandable zips. A 28–30 litre **laptop backpack** is often the safest cabin bag: our [Safari Omega](../picks/B097JJ2CK6.html) and [American Tourister Valex](../picks/B0BTD4S4XF.html) both fit every airline's limit by their listed size.
 
 ## Weight matters as much as size
 

@@ -1,4 +1,5 @@
 ---
+seo_title: How to choose your first analog watch in India
 title: How to choose your first analog watch
 description: Dial size, strap type, water resistance and warranty in plain words, with picks for men and women.
 date: 2026-10-23

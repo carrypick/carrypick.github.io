@@ -1,4 +1,5 @@
 ---
+seo_title: How to choose a laptop backpack for college or office in India
 title: How to choose a laptop backpack for college or office
 description: Laptop size, litres, comfort and monsoon protection explained simply, with our picks.
 date: 2026-10-23

@@ -1,0 +1,153 @@
+{
+  "published": "2026-11-03",
+  "checked": "2026-11-03",
+  "airlines": [
+    {
+      "slug": "indigo",
+      "name": "IndiGo",
+      "official_url": "https://www.goindigo.in/baggage/cabin-baggage.html",
+      "cabin": {
+        "pieces": 1,
+        "kg": 7,
+        "dims_cm": [55, 35, 25],
+        "total_cm": 115,
+        "summary": "One cabin bag up to 7 kg",
+        "detail": "IndiGo allows one cabin bag per passenger, up to 7 kg. It must be no bigger than 55 x 35 x 25 cm, and the three sides together must not add up to more than 115 cm. IndiGo says this size includes wheels and handles."
+      },
+      "personal": {"summary": "One personal item up to 3 kg, like a ladies' purse or a small laptop bag"},
+      "checkin": [
+        {"fare": "Lite", "allowance": "No check-in bag (cabin bag only)"},
+        {"fare": "Saver and Flexi Plus", "allowance": "15 kg, 1 piece"},
+        {"fare": "IndiGo UpFront", "allowance": "15 kg + 5 kg extra"},
+        {"fare": "Student fare", "allowance": "15 kg + 10 kg extra"}
+      ],
+      "checkin_summary": "15 kg, 1 piece (none on Lite fares)",
+      "checkin_note": "Each checked bag can be up to 158 cm in total (L + W + H). IndiGo doesn't allow a single checked bag over 32 kg.",
+      "notes": [
+        "The Lite fare is only for direct flights booked on IndiGo's own website or app.",
+        "Infants get a 7 kg cabin bag but no check-in allowance.",
+        "IndiGo Stretch seats (its business-style cabin) get more: 30 kg (Stretch) or 40 kg (Stretch+) of check-in baggage in two pieces."
+      ],
+      "sources": [
+        {"label": "Cabin baggage", "url": "https://www.goindigo.in/baggage/cabin-baggage.html"},
+        {"label": "Baggage allowance", "url": "https://www.goindigo.in/baggage/baggage-allowance.html"},
+        {"label": "Lite fare", "url": "https://www.goindigo.in/add-on-services/lite-fare.html"}
+      ]
+    },
+    {
+      "slug": "air-india",
+      "name": "Air India",
+      "official_url": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/cabin-baggage.html",
+      "cabin": {
+        "pieces": 1,
+        "kg": 7,
+        "dims_cm": [55, 40, 20],
+        "total_cm": 115,
+        "summary": "One cabin bag up to 7 kg",
+        "detail": "Air India allows one cabin bag up to 7 kg in Economy and Premium Economy. It must be no bigger than 55 x 40 x 20 cm, and no more than 115 cm in total. On domestic flights you can pay for a heavier cabin bag, up to 12 kg."
+      },
+      "personal": {"summary": "One small bag up to 3 kg and 40 x 30 x 20 cm that fits under the seat"},
+      "checkin": [
+        {"fare": "Economy Value", "allowance": "15 kg, 1 piece"},
+        {"fare": "Economy Classic", "allowance": "20 kg, 1 piece (see note)"},
+        {"fare": "Economy Flex", "allowance": "25 kg, up to 2 pieces"}
+      ],
+      "checkin_summary": "15 kg on Value, 20 kg on Classic, 25 kg on Flex",
+      "checkin_note": "With less than 25 kg you get 1 piece; with 25 kg or more you can split it into 2 pieces. Each bag can be up to 158 cm in total and 32 kg. One Air India page shows Classic as 15 kg (25 kg on some routes), so check the allowance printed on your ticket.",
+      "notes": [
+        "These rules are for flights operated by Air India itself, not Air India Express or codeshare flights.",
+        "Air India is testing a cheaper Basic fare on some domestic routes, with a 7 kg cabin bag and 15 kg of check-in baggage but no free meal."
+      ],
+      "sources": [
+        {"label": "Cabin baggage", "url": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/cabin-baggage.html"},
+        {"label": "Checked baggage", "url": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/checked-baggage-allowance.html"}
+      ]
+    },
+    {
+      "slug": "air-india-express",
+      "name": "Air India Express",
+      "official_url": "https://www.airindiaexpress.com/support/faqs/baggage",
+      "cabin": {
+        "pieces": 1,
+        "kg": 7,
+        "dims_cm": [56, 36, 23],
+        "total_cm": 115,
+        "summary": "One cabin bag up to 7 kg",
+        "detail": "Air India Express allows one cabin bag up to 7 kg, no bigger than 56 x 36 x 23 cm (115 cm in total), including handles, wheels and side pockets. The Xtra Carry-On add-on lets you carry up to 12 kg."
+      },
+      "personal": {"summary": "A laptop bag up to 30 x 40 x 10 cm, but it shares the same 7 kg with your cabin bag"},
+      "checkin": [
+        {"fare": "Xpress Lite", "allowance": "No check-in bag (cabin bag only)"},
+        {"fare": "Xpress Value and Classic", "allowance": "15 kg, 1 piece"},
+        {"fare": "Xpress Flex", "allowance": "20 kg (see note)"}
+      ],
+      "checkin_summary": "15 kg, 1 piece (none on Xpress Lite)",
+      "checkin_note": "Air India Express's booking page shows 20 kg for Flex, but its FAQ says 15 kg for every fare except Lite, so check the allowance on your ticket. Each checked bag can be up to 81 x 119 x 119 cm and 32 kg.",
+      "notes": [
+        "Air India Express's FAQ says the 7 kg includes your laptop and personal items. Plan for 7 kg in total across everything you carry on.",
+        "Infants get an extra 10 kg of check-in baggage but no cabin allowance."
+      ],
+      "sources": [
+        {"label": "Baggage FAQ", "url": "https://www.airindiaexpress.com/support/faqs/baggage"},
+        {"label": "Conditions of carriage", "url": "https://www.airindiaexpress.com/tnc"},
+        {"label": "Domestic fares", "url": "https://www.airindiaexpress.com/en-in/book-flights/domestic-flights"}
+      ]
+    },
+    {
+      "slug": "akasa-air",
+      "name": "Akasa Air",
+      "official_url": "https://www.akasaair.com/quick-links/baggage",
+      "cabin": {
+        "pieces": 1,
+        "kg": 7,
+        "dims_cm": [55, 35, 25],
+        "total_cm": 115,
+        "summary": "One cabin bag up to 7 kg",
+        "detail": "Akasa Air allows one cabin bag up to 7 kg and 115 cm in total (L + W + H). Its Conditions of Carriage give the size as 55 x 35 x 25 cm."
+      },
+      "personal": {"summary": "One personal item up to 3 kg that fits under the seat in front of you"},
+      "checkin": [
+        {"fare": "Standard fares", "allowance": "15 kg, 1 piece"},
+        {"fare": "Student fare", "allowance": "25 kg, 1 piece"}
+      ],
+      "checkin_summary": "15 kg, 1 piece",
+      "checkin_note": "Each checked bag can be up to 158 cm in total and 32 kg.",
+      "notes": [
+        "Infants get no check-in allowance."
+      ],
+      "sources": [
+        {"label": "Baggage", "url": "https://www.akasaair.com/quick-links/baggage"},
+        {"label": "Conditions of carriage", "url": "https://www.akasaair.com/quick-links/conditions-of-carriage"}
+      ]
+    },
+    {
+      "slug": "spicejet",
+      "name": "SpiceJet",
+      "official_url": "https://corporate.spicejet.com/Baggage.aspx",
+      "cabin": {
+        "pieces": 1,
+        "kg": 7,
+        "dims_cm": [55, 35, 25],
+        "total_cm": 115,
+        "summary": "One cabin bag up to 7 kg",
+        "detail": "SpiceJet allows one cabin bag up to 7 kg. On Boeing planes it must be within 55 x 35 x 25 cm (115 cm in total). On the smaller Q400 planes the limit is 50 x 35 x 23 cm (108 cm in total), so check the aircraft type on your booking. The Carry More On-board add-on lets you carry up to 12 kg.",
+        "variants": [
+          {"label": "Q400 planes", "dims_cm": [50, 35, 23], "total_cm": 108}
+        ]
+      },
+      "personal": {"summary": "A laptop bag or ladies' purse is allowed, but it counts inside the same 7 kg"},
+      "checkin": [
+        {"fare": "All domestic fares", "allowance": "15 kg, 1 piece"}
+      ],
+      "checkin_summary": "15 kg, 1 piece",
+      "checkin_note": "Each checked bag can be up to 158 cm in total (L + W + H).",
+      "notes": [
+        "When we checked, the baggage page on spicejet.com said \"Coming Soon\", so these rules come from SpiceJet's own corporate site (corporate.spicejet.com)."
+      ],
+      "sources": [
+        {"label": "Baggage", "url": "https://corporate.spicejet.com/Baggage.aspx"},
+        {"label": "Baggage FAQ", "url": "https://corporate.spicejet.com/airtravelbaggagefaq.aspx"}
+      ]
+    }
+  ]
+}
