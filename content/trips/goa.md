@@ -8,6 +8,7 @@ place: Goa
 best: Nov–Feb
 photo: goa-palolem
 packing: beach
+priority: 1
 glance: Best time=November to February, Goa's peak season | Weather in Dec–Jan=Days about 32–33 °C, nights about 20–21 °C, almost no rain | Fly to=Mopa (GOX) for North Goa, Dabolim (GOI) for central and South Goa | Train to=Thivim (North), Karmali (Panaji and Old Goa), Madgaon (South), Vasco | Emergency=112, Goa Tourism helpline 1364 | Foreign visitors=e-Tourist Visa; both Goa airports accept e-Visa arrivals
 ---
 Christmas and New Year are Goa's busiest weeks. The weather is at its best, the churches are lit up, and visitors come from all over India and the world. This guide covers what you need to plan: the weather, which airport to fly into, how to get around, the beach rules that carry big fines, the New Year crowds, and what to pack.

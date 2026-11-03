@@ -1706,6 +1706,7 @@ def build():
     articles = load_articles()
     articles_by_slug = {a["slug"]: a for a in articles}
     trips = load_articles(TRIPS_DIR) if TRIPS_DIR.exists() else []
+    trips.sort(key=lambda t: -int(t.get("priority", 0)))  # "priority: 1" in front matter lists a trip first
 
     if DOCS.exists():
         for child in DOCS.iterdir():
