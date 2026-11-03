@@ -4,7 +4,8 @@ Examples:
   python3 scripts/add_deal.py --link-only "https://www.amazon.in/Some-Bag/dp/B0ABCDEFGH/ref=sr_1_1?keywords=bag"
   python3 scripts/add_deal.py "https://amzn.in/d/abc123" --title "Skybags Brat 46 cm Backpack" \
       --category backpacks --highlight "3 compartments" --highlight "Fits a 15.6 inch laptop" \
-      --note "Light and roomy for college" --brand Skybags --best-for College
+      --note "Light and roomy for college" --brand Skybags --best-for College \
+      --spec "Capacity=30 L" --spec "Warranty=1 year" --skip-if "you need a rain cover."
 """
 
 import argparse
@@ -23,6 +24,8 @@ def main():
     parser.add_argument("--note", help="one line on why we picked it")
     parser.add_argument("--brand")
     parser.add_argument("--best-for", action="append", default=[], help="short tag like College (repeat for more)")
+    parser.add_argument("--spec", action="append", default=[], help='a spec as "Name=Value" (repeat for more)')
+    parser.add_argument("--skip-if", help='ends the sentence "Skip it if ...", e.g. "you need wheels."')
     args = parser.parse_args()
 
     config = load_config()
@@ -34,6 +37,13 @@ def main():
     if args.link_only:
         print(amazon_link(asin, config["amazon_tag"]))
         return
+
+    specs = {}
+    for spec in args.spec:
+        name, sep, value = spec.partition("=")
+        if not (sep and name.strip() and value.strip()):
+            sys.exit('Error: --spec must look like "Capacity=30 L".')
+        specs[name.strip()] = value.strip()
 
     if args.category and args.category not in config["categories"]:
         sys.exit("Error: category must be one of: " + ", ".join(config["categories"]))
@@ -61,6 +71,10 @@ def main():
         deal["brand"] = args.brand
     if args.best_for:
         deal["best_for"] = args.best_for
+    if specs:
+        deal["specs"] = specs
+    if args.skip_if is not None:
+        deal["skip_if"] = args.skip_if
 
     save_deals(deals)
     print("%s %s: %s" % (action, asin, deal["title"]))
