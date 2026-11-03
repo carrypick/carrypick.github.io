@@ -380,3 +380,6 @@ main > :last-child:not(.band) { margin-bottom: 56px; }
   .inline-pick .media-sm { width: 100%; height: 90px; }
   .page-head-row { flex-direction: column; align-items: flex-start; }
 }
+.lang-switch { margin: 8px 0 0; font-weight: 700; font-size: 0.9rem; }
+.lang-switch a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+html[lang="hi-IN"] body { font-family: "Plus Jakarta Sans", "Noto Sans Devanagari", system-ui, sans-serif; line-height: 1.7; }

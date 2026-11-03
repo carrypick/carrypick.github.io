@@ -77,5 +77,11 @@
     $("bc-pick").value = String(index);
     $("bc-pick").dispatchEvent(new Event("change"));
   }
+  // Links from the luggage size chart (?l=55&w=35&h=25, in cm) open with that size filled in.
+  var params = new URLSearchParams(window.location.search);
+  ["l", "w", "h"].forEach(function (k, i) {
+    var v = parseFloat(params.get(k));
+    if (v > 0) fields[i].value = v;
+  });
   update();
 })();

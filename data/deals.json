@@ -1,5 +1,116 @@
 [
   {
+    "asin": "B018VZBTLY",
+    "added_at": "2026-11-03T14:29:36+05:30",
+    "title": "Titan Classique Silver Dial Men's Watch, Brown Leather Strap",
+    "category": "watches",
+    "highlights": [
+      "42 mm silver dial, 9 mm thin case",
+      "Brown leather strap with buckle",
+      "Quartz movement",
+      "Water resistant to 50 m (no swimming)"
+    ],
+    "note": "A simple, classic Titan for office wear and a safe wedding-season gift.",
+    "brand": "Titan",
+    "best_for": [
+      "Gifting",
+      "Office"
+    ],
+    "specs": {
+      "Case size": "42 mm",
+      "Case thickness": "9 mm",
+      "Strap": "Brown leather, 22 mm",
+      "Movement": "Quartz",
+      "Water resistance": "50 m",
+      "Warranty": "2 years (manufacturer)"
+    },
+    "skip_if": "you want a metal strap or a bath-proof watch."
+  },
+  {
+    "asin": "B0DPKFT27W",
+    "added_at": "2026-11-03T14:29:36+05:30",
+    "title": "Swiss Military 30L Laptop Travel Backpack with Anti-Theft Pocket",
+    "category": "backpacks",
+    "highlights": [
+      "30 litres, fits laptops up to 15.6 inch",
+      "Hidden anti-theft pocket at the back",
+      "Luggage strap to slide over a trolley handle",
+      "18-month international warranty"
+    ],
+    "note": "A light office and travel bag with a hidden back pocket for your wallet and passport.",
+    "brand": "Swiss Military",
+    "best_for": [
+      "Office",
+      "Travel"
+    ],
+    "specs": {
+      "Capacity": "30 L",
+      "Laptop": "Up to 15.6 inch",
+      "Size": "47 x 32 x 20 cm",
+      "Weight": "770 g",
+      "Material": "Polyester, water resistant",
+      "Warranty": "18 months"
+    },
+    "skip_if": "you need a rain cover: none is listed with this bag.",
+    "deal_seen_at": "2026-11-03T14:29:00+05:30"
+  },
+  {
+    "asin": "B0F5HGLC5Q",
+    "added_at": "2026-11-03T14:29:36+05:30",
+    "title": "American Tourister Liftoff+ Small 55 cm Cabin Trolley, TSA Lock",
+    "category": "luggage",
+    "highlights": [
+      "Listed at 55 x 40 x 20 cm, within Air India's cabin limit",
+      "Light for a hard case: 2.2 kg",
+      "8 spinner wheels and a mounted TSA lock",
+      "3-year international warranty"
+    ],
+    "note": "A light hard-shell cabin bag whose slim 20 cm depth fits Air India's 55 x 40 x 20 cm limit.",
+    "brand": "American Tourister",
+    "best_for": [
+      "Flights",
+      "Air India"
+    ],
+    "specs": {
+      "Size": "55 x 40 x 20 cm (115 cm total)",
+      "Weight": "2.2 kg",
+      "Shell": "Hard, polypropylene",
+      "Wheels": "8 spinner wheels",
+      "Lock": "TSA lock",
+      "Warranty": "3 years, international"
+    },
+    "skip_if": "you fly IndiGo or Akasa Air: at 40 cm wide it is over their 35 cm limit.",
+    "deal_seen_at": "2026-11-03T14:29:00+05:30"
+  },
+  {
+    "asin": "B097JLKP8X",
+    "added_at": "2026-11-03T14:29:35+05:30",
+    "title": "Safari 55 cm Polycarbonate Cabin Trolley with Laptop Compartment",
+    "category": "luggage",
+    "highlights": [
+      "Listed at 55 x 35 x 25 cm, exactly IndiGo's cabin limit",
+      "Laptop and document section, handy at security checks",
+      "8 spinner wheels and a recessed combination lock",
+      "3-year international warranty"
+    ],
+    "note": "One of the few hard cabin trolleys listed within 55 x 35 x 25 cm, so it fits IndiGo, Akasa Air and SpiceJet's Boeing limit.",
+    "brand": "Safari",
+    "best_for": [
+      "Flights",
+      "Work trips"
+    ],
+    "specs": {
+      "Size": "55 x 35 x 25 cm (115 cm total)",
+      "Capacity": "43 L",
+      "Weight": "2.7 kg",
+      "Shell": "Hard, polycarbonate",
+      "Wheels": "8 spinner wheels",
+      "Lock": "Combination lock",
+      "Warranty": "3 years, international"
+    },
+    "skip_if": "you fly Air India or Air India Express a lot: at 25 cm deep it is over their 20 cm and 23 cm limits."
+  },
+  {
     "asin": "B07M9BRCQ5",
     "added_at": "2026-11-02T22:48:10+05:30",
     "title": "Fur Jaden Leatherette Weekender Duffle Bag, 35 L",

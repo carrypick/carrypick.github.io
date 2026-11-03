@@ -23,6 +23,7 @@ AIRLINES_FILE = ROOT / "data" / "airlines.json"
 PHOTOS_FILE = ROOT / "data" / "photos.json"
 RAILWAYS_FILE = ROOT / "data" / "railways.json"
 FLIGHT_ITEMS_FILE = ROOT / "data" / "flight_items.json"
+HINDI_FILE = ROOT / "data" / "hindi.json"
 STATIC_DIR = ROOT / "static"
 PHOTO_DIR = STATIC_DIR / "photos"
 HERO_PHOTO = "traveller-sunset"
@@ -31,10 +32,13 @@ DEAL_HOURS = 24  # how long a "Deal spotted" badge shows (site.js hides it after
 PHOTOS = {}    # filled by build() from data/photos.json
 DIAGRAMS = {}  # filled by build() from scripts/diagrams.py
 TOOLS = []     # travel tool pages, filled by build(): (path, short name, eyebrow, title, text, link text, icon, tint)
+HINDI_PAGES = {}  # English path -> its Hindi version, filled by build() when data/hindi.json exists
 DISCLOSURE = "As an Amazon Associate I earn from qualifying purchases."
 KEEP_IN_DOCS = {"CNAME"}
 BUY_ATTRS = 'rel="sponsored nofollow noopener" target="_blank"'
 FONTS = "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+HINDI_FONT = "https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700&display=swap"
+HI_MONTHS = ["जनवरी", "फ़रवरी", "मार्च", "अप्रैल", "मई", "जून", "जुलाई", "अगस्त", "सितंबर", "अक्टूबर", "नवंबर", "दिसंबर"]
 
 # Simple line icons (24x24, drawn with currentColor) so the site has no copied product images.
 ICONS = {
@@ -68,6 +72,11 @@ def icon(name, cls="icon"):
 def fmt_date(value):
     d = datetime.fromisoformat(value) if "T" in value else datetime.strptime(value, "%Y-%m-%d")
     return "%d %s" % (d.day, d.strftime("%b %Y"))
+
+
+def hi_date(value):
+    d = datetime.strptime(value[:10], "%Y-%m-%d")
+    return "%d %s %d" % (d.day, HI_MONTHS[d.month - 1], d.year)
 
 
 def telegram_url(cfg):
@@ -118,7 +127,22 @@ def clip(text, limit=158):
     return text[:limit - 1].rsplit(" ", 1)[0].rstrip(",;:-–") + "…"
 
 
-def page(cfg, title, description, body, depth, path, schema=None, og_type="website", photo=None, robots="max-image-preview:large"):
+def lang_pair(path):
+    """(English path, Hindi path) when this page has a version in the other language."""
+    return next(((en, hi) for en, hi in HINDI_PAGES.items() if path in (en, hi)), None)
+
+
+def lang_switch(path, p):
+    """Link to the same page in the other language, for the page header."""
+    pair = lang_pair(path)
+    if not pair:
+        return ""
+    if path == pair[0]:
+        return f'<p class="lang-switch"><a href="{p}{pair[1]}" hreflang="hi" lang="hi">हिंदी में पढ़ें</a></p>'
+    return f'<p class="lang-switch"><a href="{p}{pair[0]}" hreflang="en" lang="en">Read in English</a></p>'
+
+
+def page(cfg, title, description, body, depth, path, schema=None, og_type="website", photo=None, robots="max-image-preview:large", lang="en"):
     p = "../" * depth
     name = e(cfg["site_name"])
     description = clip(description)
@@ -132,6 +156,10 @@ def page(cfg, title, description, body, depth, path, schema=None, og_type="websi
         base = cfg["base_url"].rstrip("/")
         url = base + "/" + path
         head_extra = '<link rel="canonical" href="%s">\n<meta property="og:url" content="%s">\n' % (e(url), e(url))
+        pair = lang_pair(path)
+        if pair:
+            head_extra += "".join('<link rel="alternate" hreflang="%s" href="%s">\n' % (code, e(base + "/" + target))
+                                  for code, target in (("en-IN", pair[0]), ("hi-IN", pair[1]), ("x-default", pair[0])))
         if photo in PHOTOS:
             head_extra += ('<meta property="og:image" content="%s">\n<meta property="og:image:width" content="1200">\n'
                            '<meta property="og:image:height" content="630">\n<meta name="twitter:card" content="summary_large_image">'
@@ -147,11 +175,15 @@ def page(cfg, title, description, body, depth, path, schema=None, og_type="websi
     tg = telegram_url(cfg)
     tg_btn = ('<a class="nav-cta" href="%s" target="_blank" rel="noopener">%s<span>Telegram</span></a>'
               % (e(tg), icon("send", "icon icon-sm"))) if tg else ""
+    html_lang, og_locale = ("hi-IN", "hi_IN") if lang == "hi" else ("en-IN", "en_IN")
+    hindi_font = '\n<link rel="stylesheet" href="%s">' % HINDI_FONT if lang == "hi" else ""
+    hindi_foot = ('<li><a href="%s%s" lang="hi">हिंदी में बैगेज नियम</a></li>' % (p, HINDI_PAGES["baggage/index.html"])
+                  if "baggage/index.html" in HINDI_PAGES else "")
     foot_cats = "".join(
         '<li><a href="%scategory/%s.html">%s</a></li>' % (p, slug, e(c["name"])) for slug, c in cfg["categories"].items()
     )
     return f"""<!doctype html>
-<html lang="en-IN">
+<html lang="{html_lang}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -161,14 +193,14 @@ def page(cfg, title, description, body, depth, path, schema=None, og_type="websi
 <meta property="og:description" content="{e(description)}">
 <meta property="og:site_name" content="{name}">
 <meta property="og:type" content="{og_type}">
-<meta property="og:locale" content="en_IN">
+<meta property="og:locale" content="{og_locale}">
 <meta name="robots" content="{robots}">
 {head_extra}{schema_tags(cfg, schema)}
 <link rel="icon" type="image/png" href="{p}assets/logo.png">
 <link rel="apple-touch-icon" href="{p}assets/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="{FONTS}">
+<link rel="stylesheet" href="{FONTS}">{hindi_font}
 <link rel="stylesheet" href="{p}assets/style.css">
 </head>
 <body>
@@ -195,6 +227,7 @@ def page(cfg, title, description, body, depth, path, schema=None, og_type="websi
     <div><h4>CarryPick</h4><ul>
       <li><a href="{p}guides/index.html">Buying guides</a></li>
       {"".join('<li><a href="%s%s">%s</a></li>' % (p, t[0], e(t[1])) for t in TOOLS)}
+      {hindi_foot}
       <li><a href="{p}about.html">About us</a></li>
       <li><a href="{p}contact.html">Contact</a></li>
       {follow_links(cfg)}
@@ -638,10 +671,10 @@ def build_baggage(cfg, deals, data, pages, lastmod):
     others = lambda current: '<ul class="airline-links">' + "".join(
         f'<li><a href="{a["slug"]}.html">{e(a["name"])}</a></li>' for a in airlines if a["slug"] != current) + "</ul>"
 
-    def head(title, crumb_html, sub, photo=None):
+    def head(title, crumb_html, sub, photo=None, extra=""):
         inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span>{crumb_html}</nav>
       <h1>{e(title)}</h1>
-      <p class="muted small">{sub}</p>"""
+      <p class="muted small">{sub}</p>{extra}"""
         return page_head("luggage", media(cfg, "luggage", "media media-tile"), inner, "../", photo)
 
     def article_schema(title, desc, path, photo=None):
@@ -665,7 +698,7 @@ def build_baggage(cfg, deals, data, pages, lastmod):
     desc = ("Cabin bag size and weight, extra small bag and free check-in baggage for IndiGo, Air India, "
             "Air India Express, Akasa Air and SpiceJet domestic flights, checked against official websites.")
     limits_fig = diagram_figure("cabin-limits", "../") if "cabin-limits" in DIAGRAMS else ""
-    body = f"""{head(title, "Baggage rules", "Checked on " + fmt_date(checked) + " against each airline's official website", BAGGAGE_PHOTO)}
+    body = f"""{head(title, "Baggage rules", "Checked on " + fmt_date(checked) + " against each airline's official website", BAGGAGE_PHOTO, lang_switch("baggage/index.html", "../"))}
 <div class="wrap"><article class="guide">
 <p class="lead">Domestic economy limits for India's main airlines, in one place. Tap an airline for the full rules, fare types and tips.</p>
 {checker_cta}
@@ -825,16 +858,16 @@ def sources_html(sources):
     return " ".join(f'<a href="{e(s["url"])}" target="_blank" rel="noopener">{e(s["label"])}</a>' for s in sources)
 
 
-def faq_block(faq):
+def faq_block(faq, heading="Questions"):
     html = "".join("<h3>%s</h3><p>%s</p>" % (e(q), e(a)) for q, a in faq)
     schema = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
         {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq]}
-    return f'<section class="faq"><h2>Questions</h2>{html}</section>', schema
+    return f'<section class="faq"><h2>{e(heading)}</h2>{html}</section>', schema
 
 
-def tool_article(cfg, title, desc, path, published, modified):
+def tool_article(cfg, title, desc, path, published, modified, lang="en-IN"):
     return {"@context": "https://schema.org", "@type": "Article", "headline": title, "description": desc,
-            "datePublished": published, "dateModified": modified, "inLanguage": "en-IN",
+            "datePublished": published, "dateModified": modified, "inLanguage": lang,
             "image": abs_url(cfg, "assets/logo.png"), "mainEntityOfPage": abs_url(cfg, path),
             "author": org_schema(cfg), "publisher": org_schema(cfg)}
 
@@ -871,7 +904,7 @@ def build_railways(cfg, deals, pages, lastmod):
                                                                last["class"], " x ".join(num(x) for x in size["dims_cm"]), fmt_date(checked)))
     inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="index.html">Baggage rules</a><span>/</span>Trains</nav>
       <h1>{e(title)}</h1>
-      <p class="muted small">Checked on {fmt_date(checked)} against Indian Railways' official pages</p>"""
+      <p class="muted small">Checked on {fmt_date(checked)} against Indian Railways' official pages</p>{lang_switch("baggage/train-luggage-rules.html", "../")}"""
     body = f"""{page_head("backpacks", f'<div class="media media-tile tint-backpacks">{icon("train", "icon media-icon")}</div>', inner, "../")}
 <div class="wrap"><article class="guide">
 <div class="answer"><h2>Quick answer</h2><ul>{"".join("<li>%s</li>" % e(x) for x in data["quick"])}</ul></div>
@@ -928,12 +961,12 @@ def build_can_i_carry(cfg, pages, lastmod):
             "cabin bag or check-in baggage on flights in India. Checked %s." % (count, fmt_date(checked)))
     inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="index.html">Baggage rules</a><span>/</span>Can I carry it?</nav>
       <h1>{e(title)}</h1>
-      <p class="muted small">Checked on {fmt_date(checked)} against BCAS, DGCA and airline pages</p>"""
+      <p class="muted small">Checked on {fmt_date(checked)} against BCAS, DGCA and airline pages</p>{lang_switch("baggage/can-i-carry.html", "../")}"""
     body = f"""{page_head("watches", f'<div class="media media-tile tint-watches">{icon("shield", "icon media-icon")}</div>', inner, "../")}
 <div class="wrap"><article class="guide guide-wide">
 <div class="answer"><h2>The rules most people get wrong</h2><ul>{"".join("<li>%s</li>" % e(x) for x in data["key_rules"])}</ul></div>
 <form class="checker" onsubmit="return false"><label>Search an item<input id="carry-q" type="search" placeholder="power bank, perfume, pickle…" autocomplete="off"></label>
-<p class="hint" id="carry-count" aria-live="polite">{count} items</p></form>
+<p class="hint" id="carry-count" aria-live="polite" data-all="{{n}} items" data-some="{{shown}} of {{n}} items">{count} items</p></form>
 <div class="table-wrap"><table class="compare carry-table" id="carry-table"><thead><tr><th>Item</th><th>Cabin bag</th><th>Check-in</th><th>Rule</th></tr></thead>{"".join(groups)}</table></div>
 <p class="hint" id="carry-none" hidden>No match. Try another word, or check the airline's own list.</p>
 <p class="checked">"With limits" means it's allowed only in the way the rule says. "Not listed" means the official pages we checked don't say. Security staff can still refuse any item, and airlines can be stricter, so check your airline before you fly.</p>
@@ -950,6 +983,299 @@ def build_can_i_carry(cfg, pages, lastmod):
     pages.append(write(path, page(cfg, seo, desc, body, 1, path,
                                   [tool_article(cfg, seo, desc, path, checked, checked), crumbs, faq_schema], og_type="article")))
     lastmod[path] = checked
+
+
+# ---------- Hindi versions of the tool pages ----------
+
+HINDI_PATHS = {"baggage/index.html": "hi/flight-baggage-rules.html",
+               "baggage/can-i-carry.html": "hi/can-i-carry.html",
+               "baggage/train-luggage-rules.html": "hi/train-luggage-rules.html"}
+
+
+def build_hindi(cfg, deals, airlines, pages, lastmod):
+    """Hindi pages for flight baggage, 'can I carry it' and train luggage. The text is in data/hindi.json;
+    the rules and numbers come from the same data files as the English pages."""
+    hi = json.loads(HINDI_FILE.read_text(encoding="utf-8"))
+    L = hi["labels"]
+    flight = json.loads(FLIGHT_ITEMS_FILE.read_text(encoding="utf-8"))
+    rail = json.loads(RAILWAYS_FILE.read_text(encoding="utf-8"))
+    for key, data in (("flight_items", flight), ("railways", rail), ("airlines", airlines)):
+        if data["checked"] != hi[key]["checked"]:
+            print("Warning: data/hindi.json %s was checked %s, but the English data %s. Update the Hindi text."
+                  % (key, hi[key]["checked"], data["checked"]))
+
+    def badge(ok, over=0):
+        if ok is None:
+            return '<span class="fit fit-na">%s</span>' % L["check"]
+        if ok:
+            return '<span class="fit fit-yes">%s</span>' % L["fits"]
+        if over <= 3:
+            return '<span class="fit fit-close">%s</span>' % (L["over"] % num(over))
+        return '<span class="fit fit-no">%s</span>' % L["too_big"]
+
+    def head(path, title, crumb, sub, tint, art):
+        inner = f"""<nav class="crumbs"><a href="../index.html">{L["home"]}</a><span>/</span>{e(crumb)}</nav>
+      <h1>{e(title)}</h1>
+      <p class="muted small">{e(sub)}</p>{lang_switch(path, "../")}"""
+        return page_head(tint, f'<div class="media media-tile tint-{tint}">{art}</div>', inner, "../")
+
+    def pills(current):
+        mine = [(path, t["crumb"]) for path, t in ((HINDI_PATHS["baggage/index.html"], hi["airlines"]),
+                                                   (HINDI_PATHS["baggage/can-i-carry.html"], hi["flight_items"]),
+                                                   (HINDI_PATHS["baggage/train-luggage-rules.html"], hi["railways"]))]
+        links = "".join(f'<li><a href="../{path}">{e(name)}</a></li>' for path, name in mine if path != current)
+        links += "".join(f'<li><a href="../{t[0]}" lang="en">{e(t[1])} (English)</a></li>' for t in TOOLS if t[0] not in HINDI_PATHS)
+        return f'<h2>{L["more_tools"]}</h2><ul class="airline-links">{links}</ul>'
+
+    def finish(path, title, seo, desc, body, checked, crumb, faq_schema):
+        crumbs = crumbs_schema(cfg, [(L["home"], ""), (crumb, path)])
+        schema = [tool_article(cfg, seo, desc, path, checked, checked, "hi-IN"), crumbs] + ([faq_schema] if faq_schema else [])
+        pages.append(write(path, page(cfg, seo, desc, body, 1, path, schema, og_type="article", lang="hi")))
+        lastmod[path] = checked
+
+    def faq(items):
+        return faq_block([(f["q"], f["a"]) for f in items], L["faq"]) if items else ("", None)
+
+    tail = f'<p class="checked">{L["disclosure"]}</p>'
+
+    # Flight baggage rules (airlines.json)
+    t = hi["airlines"]
+    path = HINDI_PATHS["baggage/index.html"]
+    checked = airlines["checked"]
+    rows, details = [], []
+    for a in airlines["airlines"]:
+        h = t["by_airline"].get(a["slug"])
+        if not h:
+            print("Warning: no Hindi text for airline %s in data/hindi.json" % a["slug"])
+            h = {"personal": a.get("personal", {}).get("summary", "–"), "checkin": a["checkin_summary"], "note": ""}
+        c = a["cabin"]
+        size = t["size"] % (" x ".join(num(x) for x in c["dims_cm"]), num(c["total_cm"])) if c.get("dims_cm") and c.get("total_cm") else e(size_limit_text(c))
+        rows.append(f'<tr><th scope="row"><a href="../baggage/{a["slug"]}.html" lang="en">{e(a["name"])}</a></th>'
+                    f'<td>{e(t["cabin"] % num(c["kg"]))}</td><td>{e(size)}</td><td>{e(h["personal"])}</td><td>{e(h["checkin"])}</td></tr>')
+        if h.get("note"):
+            details.append(f'<h3>{e(a["name"])}</h3><p>{e(h["note"])} <a class="src" href="{e(a["official_url"])}" target="_blank" rel="noopener">{L["sources"]}</a></p>')
+    picks = cabin_picks(deals)
+    matrix_head = "".join("<th>%s</th>" % e(a["name"]) for a in airlines["airlines"])
+    matrix_rows = "".join(
+        f'<tr><th scope="row"><a href="../picks/{d["asin"]}.html">{e(d["title"])}</a><span class="why">{num(sum(dims))} cm</span></th>'
+        + "".join("<td>%s</td>" % badge(*size_fit(dims, a["cabin"])[::2]) for a in airlines["airlines"]) + "</tr>"
+        for d, dims, kg in picks)
+    scale = next((d for d in deals if "scale" in d["title"].lower()), None)
+    scale_html = f'<a href="../picks/{scale["asin"]}.html">{t["scale"]}</a>' if scale else t["scale"]
+    faq_html, faq_schema = faq(t["faq"])
+    title, seo = t["title"], t["seo"] % checked[:4]
+    desc = t["desc"] % hi_date(checked)
+    body = f"""{head(path, title, t["crumb"], L["checked"] % hi_date(checked), "luggage", icon("plane", "icon media-icon"))}
+<div class="wrap"><article class="guide">
+<p class="lead">{e(t["lead"])}</p>
+<aside class="tip">{icon("ruler", "icon tip-icon")}<div>{t["checker"]}</div></aside>
+<h2>{e(t["h_table"])}</h2>
+<div class="table-wrap"><table class="compare"><thead><tr>{"".join("<th>%s</th>" % e(x) for x in t["head"])}</tr></thead><tbody>{"".join(rows)}</tbody></table></div>
+<p class="checked">{e(t["footer"])}</p>
+<h2>{e(t["h_details"])}</h2>
+{"".join(details)}
+<h2>{e(t["h_fit"])}</h2>
+<p>{e(t["fit_intro"])}</p>
+<div class="table-wrap"><table class="compare"><thead><tr><th>{e(t["fit_head"])}</th>{matrix_head}</tr></thead><tbody>{matrix_rows}</tbody></table></div>
+<h2>{e(t["h_tips"])}</h2>
+<ul>{"".join("<li>%s</li>" % x.replace("{scale}", scale_html) for x in t["tips"])}</ul>
+{faq_html}
+{pills(path)}
+{tail}
+</article></div>
+{telegram_band(cfg, "../")}"""
+    finish(path, title, seo, desc, body, checked, t["crumb"], faq_schema)
+
+    # Can I carry it? (flight_items.json)
+    t = hi["flight_items"]
+    path = HINDI_PATHS["baggage/can-i-carry.html"]
+    checked = flight["checked"]
+    states = {k: (v[0], L[k]) for k, v in ANSWER.items()}
+    groups, count = [], 0
+    for group in flight["groups"]:
+        rows = []
+        for it in group["items"]:
+            h = t["items"].get(it["item"])
+            if not h:
+                print("Warning: no Hindi text for flight item %r in data/hindi.json" % it["item"])
+                h = {"name": it["item"], "rule": it["rule"], "words": ""}
+            cells = "".join('<td><span class="fit fit-%s">%s</span></td>' % states[it[where]] for where in ("cabin", "checked"))
+            words = " ".join([h["name"], h.get("words", ""), it["item"]] + it.get("also", []))
+            rows.append(f'<tr data-words="{e(words.lower())}"><th scope="row">{e(h["name"])}<span class="why" lang="en">{e(it["item"])}</span></th>{cells}'
+                        f'<td>{e(h["rule"])} <a class="src" href="{e(it["source"])}" target="_blank" rel="noopener">{L["sources"]}</a></td></tr>')
+            count += 1
+        name = t["groups"].get(group["name"], group["name"])
+        groups.append(f'<tbody data-group><tr class="group-row"><th colspan="4" scope="colgroup">{e(name)}</th></tr>{"".join(rows)}</tbody>')
+    faq_html, faq_schema = faq(t["faq"])
+    title, seo = t["title"], t["seo"]
+    desc = t["desc"] % (count, hi_date(checked))
+    body = f"""{head(path, title, t["crumb"], L["checked"] % hi_date(checked), "watches", icon("shield", "icon media-icon"))}
+<div class="wrap"><article class="guide guide-wide">
+<div class="answer"><h2>{e(t["key_title"])}</h2><ul>{"".join("<li>%s</li>" % e(x) for x in t["key_rules"])}</ul></div>
+<form class="checker" onsubmit="return false"><label>{e(t["search_label"])}<input id="carry-q" type="search" placeholder="{e(t["placeholder"])}" autocomplete="off"></label>
+<p class="hint" id="carry-count" aria-live="polite" data-all="{e(t["count_all"])}" data-some="{e(t["count_some"])}">{e(t["count_all"].replace("{n}", str(count)))}</p></form>
+<div class="table-wrap"><table class="compare carry-table" id="carry-table"><thead><tr>{"".join("<th>%s</th>" % e(x) for x in t["head"])}</tr></thead>{"".join(groups)}</table></div>
+<p class="hint" id="carry-none" hidden>{e(t["none"])}</p>
+<p class="checked">{e(t["legend"])}</p>
+{faq_html}
+<h2>{L["sources"]}</h2>
+<p lang="en">{sources_html(flight["sources"])}</p>
+{pills(path)}
+{tail}
+</article></div>
+<script src="../assets/carry.js" defer></script>
+{telegram_band(cfg, "../")}"""
+    finish(path, title, seo, desc, body, checked, t["crumb"], faq_schema)
+
+    # Train luggage rules (railways.json)
+    t = hi["railways"]
+    path = HINDI_PATHS["baggage/train-luggage-rules.html"]
+    checked = rail["checked"]
+    rows = "".join(f'<tr><th scope="row">{e(t["classes"].get(c["class"], c["class"]))}</th><td>{num(c["free_kg"])} kg</td>'
+                   f'<td>{(num(c["max_kg"]) + " kg") if c.get("max_kg") else "–"}</td></tr>' for c in rail["classes"])
+    size = rail["size"]
+    limits = [size["dims_cm"], size["ac3_dims_cm"]]
+    bag_rows = []
+    for d in deals:
+        dims = parse_dims(d.get("specs", {}).get("Size"))
+        if d["category"] == "luggage" and dims and "duffle" not in d["title"].lower():
+            cells = "".join("<td>%s</td>" % badge(*size_fit(dims, {"dims_cm": lim})[::2]) for lim in limits)
+            bag_rows.append(f'<tr><th scope="row"><a href="../picks/{d["asin"]}.html">{e(d["title"])}</a></th>'
+                            f'<td>{" x ".join(num(x) for x in dims)} cm</td>{cells}</tr>')
+    bags_html = ""
+    if bag_rows:
+        h0, h1, h2, h3 = t["bags_head"]
+        bags_html = (f'<h2>{e(t["h_bags"])}</h2><p>{e(t["bags_intro"])}</p><div class="table-wrap"><table class="compare">'
+                     f'<thead><tr><th>{e(h0)}</th><th>{e(h1)}</th><th>{e(h2)}<span class=why>{" x ".join(num(x) for x in limits[0])} cm</span></th>'
+                     f'<th>{e(h3)}<span class=why>{" x ".join(num(x) for x in limits[1])} cm</span></th></tr></thead><tbody>{"".join(bag_rows)}</tbody></table></div>')
+    lists = lambda items: "<ul>%s</ul>" % "".join("<li>%s</li>" % e(i) for i in items)
+    faq_html, faq_schema = faq(t["faq"])
+    title, seo = t["title"], t["seo"] % checked[:4]
+    desc = t["desc"] % hi_date(checked)
+    body = f"""{head(path, title, t["crumb"], L["checked"] % hi_date(checked), "backpacks", icon("train", "icon media-icon"))}
+<div class="wrap"><article class="guide">
+<div class="answer"><h2>{L["quick"]}</h2><ul>{"".join("<li>%s</li>" % e(x) for x in t["quick"])}</ul></div>
+<h2>{e(t["h_allowance"])}</h2>
+<div class="table-wrap"><table class="compare"><thead><tr>{"".join("<th>%s</th>" % e(x) for x in t["head"])}</tr></thead><tbody>{rows}</tbody></table></div>
+<p>{e(t["allowance_note"])}</p>
+<h2>{e(t["h_size"])}</h2>
+<p>{e(t["size_text"])}</p>
+{bags_html}
+<h2>{e(t["h_excess"])}</h2>
+<p>{e(t["excess"])}</p>
+<h2>{e(t["h_booking"])}</h2>
+<p>{e(t["booking"])}</p>
+<h2>{e(t["h_not_allowed"])}</h2>
+{lists(t["not_allowed"])}
+<h2>{e(t["h_notes"])}</h2>
+{lists(t["notes"])}
+<aside class="tip">{icon("bulb", "icon tip-icon")}<div>{t["tip"]}</div></aside>
+{faq_html}
+<h2>{L["sources"]}</h2>
+<p lang="en">{sources_html(rail["sources"])}</p>
+<p class="checked">{e(t["footer"])}</p>
+{pills(path)}
+{tail}
+</article></div>
+{telegram_band(cfg, "../")}"""
+    finish(path, title, seo, desc, body, checked, t["crumb"], faq_schema)
+
+
+# ---------- luggage size chart ----------
+
+SIZE_ROWS = [(18, "Small cabin bag", "1–3 days"), (20, "Cabin", "2–4 days"), (22, "Cabin, at the height limit of most Indian airlines", "2–4 days"),
+             (24, "Small medium", "4–6 days"), (26, "Medium", "5–8 days"), (28, "Large", "8–12 days"),
+             (30, "Large", "10+ days, families"), (32, "Extra large: check the 158 cm limit", "Long trips")]
+KG_ROWS = [3, 7, 10, 15, 20, 23, 25, 30, 32]
+
+
+def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod):
+    """Inches/cm and kg/lb chart for luggage, with airline limits converted (baggage/luggage-size-chart.html)."""
+    path = "baggage/luggage-size-chart.html"
+    updated = "2026-11-03"
+    cm = lambda inches: num(round(inches * 2.54, 1))
+    inch = lambda c: num(round(c / 2.54, 1))
+    lb = lambda kg: num(round(kg * 2.20462, 1))
+    size_rows = "".join(f'<tr><th scope="row">{i} inch</th><td>{cm(i)} cm</td><td>{e(kind)}</td><td>{e(trip)}</td></tr>'
+                        for i, kind, trip in SIZE_ROWS)
+    kg_rows = "".join(f"<tr><th scope=\"row\">{k} kg</th><td>{lb(k)} lb</td></tr>" for k in KG_ROWS)
+    air_rows, us_fit = "", []
+    us = [22 * 2.54, 14 * 2.54, 9 * 2.54]
+    for a in (airlines or {}).get("airlines", []):
+        c = a["cabin"]
+        if not (c.get("dims_cm") and c.get("total_cm")):
+            continue
+        air_rows += (f'<tr><th scope="row"><a href="{a["slug"]}.html">{e(a["name"])}</a></th>'
+                     f'<td>{" x ".join(num(x) for x in c["dims_cm"])} cm<span class="why">{num(c["total_cm"])} cm in total</span></td>'
+                     f'<td>{" x ".join(inch(x) for x in c["dims_cm"])} in<span class="why">{inch(c["total_cm"])} in in total</span></td>'
+                     f'<td>{num(c["kg"])} kg<span class="why">{lb(c["kg"])} lb</span></td></tr>')
+        if size_fit(us, c)[0]:
+            us_fit.append(a["name"])
+    us_cm = " x ".join(num(round(x, 1)) for x in us)
+    us_answer = ("22 x 14 x 9 inches is %s cm, %s cm in total. By size it fits %s, but it's a little over the other Indian airlines' limits."
+                 % (us_cm, num(round(sum(us), 1)), " and ".join(us_fit))) if us_fit else (
+                 "22 x 14 x 9 inches is %s cm, %s cm in total, a little over the cabin limits of the Indian airlines we track."
+                 % (us_cm, num(round(sum(us), 1))))
+    indigo = next((a for a in (airlines or {}).get("airlines", []) if a["slug"] == "indigo"), None)
+    quick = ["1 inch is 2.54 cm. So a 20-inch bag is %s cm, a 24-inch bag is %s cm and a 28-inch bag is %s cm." % (cm(20), cm(24), cm(28)),
+             "Indian brands mostly sell trolleys by height in cm: about 55 cm for cabin, 65–69 cm for medium and 75–79 cm for large.",
+             "A 22-inch bag (%s cm) is closest to the usual 55 cm cabin height. A 20-inch bag is smaller." % cm(22)]
+    if indigo:
+        quick.append("IndiGo's cabin limit, %s cm, is %s inches." % (" x ".join(num(x) for x in indigo["cabin"]["dims_cm"]),
+                                                                     " x ".join(inch(x) for x in indigo["cabin"]["dims_cm"])))
+    quick.append("The inch size is only the height. Airlines check length, width and height, wheels and handles included.")
+    faq = [("What is 20 inch luggage in cm?", "20 inches is %s cm. That's smaller than the usual 55 cm cabin trolley sold in India." % cm(20)),
+           ("Is a 24 inch suitcase cabin or check-in?", "Check-in. 24 inches is %s cm, too tall for the 55–56 cm cabin limits of Indian airlines. It's a small medium-size bag, good for 4–6 days." % cm(24)),
+           ("How many inches is a 55 cm cabin bag?", "55 cm is %s inches." % inch(55)),
+           ("What is 22 x 14 x 9 inches in cm?", us_answer),
+           ("How many pounds is 23 kg?", "23 kg is about %s lb. 7 kg, the usual Indian cabin bag limit, is about %s lb." % (lb(23), lb(7)))]
+    faq_html, faq_schema = faq_block(faq)
+    picks = [deals_by_asin[a] for a in ("B097JLKP8X", "B0F5HGLC5Q", "B097GDKGHS", "B0GPQQPC7Q") if a in deals_by_asin]
+    picks_html = (f'<h2>Our picks by size</h2><p>Cabin trolleys that fit IndiGo or Air India by their listed size, a medium check-in bag and a set of three.</p>'
+                  f'{grid(cfg, picks, "../")}') if picks else ""
+    size_fig = diagram_figure("luggage-sizes", "../") if "luggage-sizes" in DIAGRAMS else ""
+    title = "Luggage size chart: inches to cm for cabin, medium and large bags"
+    seo = "Luggage size chart in inches and cm: 20, 24 and 28 inch trolley sizes"
+    desc = ("Trolley bag sizes from 18 to 32 inches in cm, the cabin limits of IndiGo, Air India and other Indian airlines in inches, "
+            "and kg to pounds for baggage allowances. Free converter.")
+    inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="index.html">Baggage rules</a><span>/</span>Size chart</nav>
+      <h1>{e(title)}</h1>
+      <p class="muted small">Updated {fmt_date(updated)}</p>"""
+    body = f"""{page_head("luggage", f'<div class="media media-tile tint-luggage">{icon("ruler", "icon media-icon")}</div>', inner, "../")}
+<div class="wrap"><article class="guide">
+<div class="answer"><h2>Quick answer</h2><ul>{"".join("<li>%s</li>" % e(x) for x in quick)}</ul></div>
+<form class="checker" onsubmit="return false">
+<div class="checker-fields"><label>Number<input id="cv-n" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g. 22"></label>
+<label>From<select id="cv-unit"><option value="in">inches</option><option value="cm">cm</option><option value="kg">kg</option><option value="lb">lb</option></select></label></div>
+<p class="checker-total" id="cv-out" aria-live="polite"></p>
+<p class="hint">Have your bag's size in inches? Type all three sides below and check it against every airline.</p>
+<div class="checker-fields"><label>Length (in)<input id="cv-l" type="number" min="0" step="any" inputmode="decimal"></label>
+<label>Width (in)<input id="cv-w" type="number" min="0" step="any" inputmode="decimal"></label>
+<label>Height (in)<input id="cv-h" type="number" min="0" step="any" inputmode="decimal"></label></div>
+<p class="checker-total" id="cv-bag" aria-live="polite"></p>
+<p class="hint"><a id="cv-check" href="checker.html">Open the cabin bag checker</a></p>
+</form>
+<h2>Trolley sizes in inches and cm</h2>
+<p>Sizes are the bag's height. Sellers don't always say whether it includes the wheels, so check the full size on the listing.</p>
+<div class="table-wrap"><table class="compare"><thead><tr><th>Inches</th><th>cm</th><th>Size</th><th>Trip length</th></tr></thead><tbody>{size_rows}</tbody></table></div>
+{size_fig}
+{('<h2>Cabin bag limits of Indian airlines, in inches</h2><div class="table-wrap"><table class="compare"><thead><tr><th>Airline</th><th>Size limit (cm)</th><th>In inches</th><th>Weight</th></tr></thead><tbody>' + air_rows + '</tbody></table></div><p class="checked">Domestic economy limits, from our <a href="index.html">baggage rules page</a>. Check your ticket and the airline before you fly.</p>') if air_rows else ""}
+<h2>Check-in bag size</h2>
+<p>Most Indian airlines limit each checked bag to <strong>158 cm in total</strong> (length + width + height), which is about {inch(158)} inches, and <strong>32 kg</strong> (about {lb(32)} lb). A large 75–79 cm trolley usually stays within 158 cm; an extra-large one may not.</p>
+<h2>Kilograms to pounds</h2>
+<p>Indian airlines use kg. Foreign airlines, US websites and some luggage scales show pounds.</p>
+<div class="table-wrap"><table class="compare"><thead><tr><th>kg</th><th>Pounds (lb)</th></tr></thead><tbody>{kg_rows}</tbody></table></div>
+{picks_html}
+{faq_html}
+<p>More help: <a href="../guides/luggage-size-guide.html">what size luggage you need</a> and <a href="../guides/cabin-luggage-guide.html">how to pick a cabin trolley</a>.</p>
+{tool_pills("../", path)}
+</article></div>
+<script src="../assets/sizes.js" defer></script>
+{telegram_band(cfg, "../")}"""
+    crumbs = crumbs_schema(cfg, [("Home", ""), ("Baggage rules", "baggage/index.html"), ("Luggage size chart", path)])
+    pages.append(write(path, page(cfg, seo, desc, body, 1, path, [tool_article(cfg, seo, desc, path, updated, updated), crumbs, faq_schema],
+                                  og_type="article")))
+    lastmod[path] = updated
 
 
 # ---------- packing checklists ----------
@@ -1090,6 +1416,9 @@ def build():
                       "See the rules", "plane", "travel-gear"))
         TOOLS.append(("baggage/checker.html", "Cabin bag checker", "Free tool", "Will my bag fit? Cabin bag checker",
                       "Type your bag's size and weight and see which airlines accept it as a cabin bag.", "Check your bag", "ruler", "luggage"))
+    TOOLS.append(("baggage/luggage-size-chart.html", "Luggage size chart", "Inches &middot; cm &middot; kg &middot; lb",
+                  "Luggage size chart: inches to cm", "20, 24 or 28 inch? Trolley sizes in cm, airline cabin limits in inches, and kg to pounds.",
+                  "See the chart", "ruler", "travel-gear"))
     if FLIGHT_ITEMS_FILE.exists():
         TOOLS.append(("baggage/can-i-carry.html", "Can I carry it on a flight?", "Free tool", "Can I carry it on a flight?",
                       "Power banks, perfume, pickles, dry coconut: see what goes in your cabin bag and what goes in check-in.",
@@ -1098,6 +1427,8 @@ def build():
         TOOLS.append(("baggage/train-luggage-rules.html", "Train luggage rules", "Indian Railways",
                       "How much luggage can you carry on a train?", "Free luggage allowance for every class, size limits and charges.",
                       "See train rules", "train", "backpacks"))
+    if HINDI_FILE.exists() and airlines and FLIGHT_ITEMS_FILE.exists() and RAILWAYS_FILE.exists():
+        HINDI_PAGES.update(HINDI_PATHS)
     if PACKING_FILE.exists():
         TOOLS.append(("packing/index.html", "Packing checklists", "Free checklist", "Packing checklists for every trip",
                       "Weekend, wedding, hills, beach, train or abroad: tick off what to pack, with quantities.",
@@ -1317,6 +1648,9 @@ def build():
         build_railways(cfg, deals, pages, lastmod)
     if FLIGHT_ITEMS_FILE.exists():
         build_can_i_carry(cfg, pages, lastmod)
+    build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod)
+    if HINDI_PAGES:
+        build_hindi(cfg, deals, airlines, pages, lastmod)
 
     # Info pages
     name = e(cfg["site_name"])

@@ -16,7 +16,10 @@
     table.querySelectorAll("tbody[data-group]").forEach(function (g) {
       g.hidden = !g.querySelector("tr[data-words]:not([hidden])");
     });
-    document.getElementById("carry-count").textContent = words.length ? shown + " of " + rows.length + " items" : rows.length + " items";
+    // The count wording comes from the page (data-all, data-some), so the Hindi page can use its own.
+    var count = document.getElementById("carry-count");
+    var text = (words.length ? count.getAttribute("data-some") : count.getAttribute("data-all")) || "{n} items";
+    count.textContent = text.replace("{n}", rows.length).replace("{shown}", shown);
     document.getElementById("carry-none").hidden = shown > 0;
   }
   input.addEventListener("input", filter);

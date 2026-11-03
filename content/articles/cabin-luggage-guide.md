@@ -35,7 +35,14 @@ Here's how three popular 55 cm bags add up, using the dimensions listed by the s
 - American Tourister Liftoff 55 cm: 55.5 + 39.5 + 22 = **117 cm**
 - Safari Thorium Royale 55 cm: 55 + 40 + 23 = **118 cm**
 
-All three are a little over 115 cm on paper. Airline staff don't measure every bag, but they can. For zero risk, look for a total of **115 cm or less**, and don't overfill expandable zips. A 28–30 litre **laptop backpack** is often the safest cabin bag: our [Safari Omega](../picks/B097JJ2CK6.html) and [American Tourister Valex](../picks/B0BTD4S4XF.html) both fit every airline's limit by their listed size.
+All three are a little over 115 cm on paper. Airline staff don't measure every bag, but they can. For zero risk, look for a total of **115 cm or less**, check each side too, and don't overfill expandable zips.
+
+On 3 Nov 2026 we checked the listed sizes of 83 hard-shell "55 cm" cabin trolleys on Amazon.in. **70 of them were 36–41 cm wide**, over IndiGo's 35 cm limit, and most of the narrow ones were too deep or over 115 cm in total. Two well-rated ones that do fit by their listed size:
+
+- [Safari 55 cm polycarbonate cabin trolley with laptop compartment](../picks/B097JLKP8X.html): **55 x 35 x 25 cm**, exactly IndiGo's limit. Also fits Akasa Air and SpiceJet's Boeing flights.
+- [American Tourister Liftoff+ Small](../picks/B0F5HGLC5Q.html): **55 x 40 x 20 cm**, exactly Air India's limit, and only 2.2 kg.
+
+No single hard trolley we found fits every Indian airline, because IndiGo wants it narrow (35 cm) and Air India wants it thin (20 cm). A 28–30 litre **laptop backpack** is often the safest cabin bag: our [Safari Omega](../picks/B097JJ2CK6.html) and [American Tourister Valex](../picks/B0BTD4S4XF.html) both fit every airline's limit by their listed size.
 
 ## Weight matters as much as size
 
@@ -59,6 +66,14 @@ An empty hard-shell cabin trolley usually weighs **2.5–3 kg**. With a 7 kg lim
 
 ## Our cabin bag picks
 
+**Fits IndiGo, Akasa Air and SpiceJet by listed size (55 x 35 x 25 cm):**
+
+[[pick:B097JLKP8X]]
+
+**Fits Air India by listed size (55 x 40 x 20 cm), and light:**
+
+[[pick:B0F5HGLC5Q]]
+
 **Light, good-value cabin bag for domestic trips:**
 
 [[pick:B097BG6DX1]]
@@ -71,9 +86,9 @@ An empty hard-shell cabin trolley usually weighs **2.5–3 kg**. With a 7 kg lim
 
 [[pick:B0FGNDM616]]
 
-### Compare the three cabin bags
+### Compare the cabin bags
 
-[[compare:B097BG6DX1,B097GCJFW2,B0FGNDM616]]
+[[compare:B097JLKP8X,B0F5HGLC5Q,B097BG6DX1,B097GCJFW2,B0FGNDM616]]
 
 ## Choosing a check-in bag
 

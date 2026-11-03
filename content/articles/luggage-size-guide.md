@@ -11,7 +11,7 @@ Buying the wrong size suitcase is a common mistake. Too small, and you sit on it
 
 ## Quick answer: size by trip length
 
-These are rough guides. Every brand's sizes differ a little, so always check the litres and dimensions on the listing.
+These are rough guides. Every brand's sizes differ a little, so always check the litres and dimensions on the listing. Seeing sizes in inches? Our [luggage size chart](../baggage/luggage-size-chart.html) converts them to cm.
 
 - **Weekend (1–3 days):** a duffle or a backpack, about 30–40 litres.
 - **Short trip (2–4 days):** a **cabin trolley**, about 55 cm tall and 35–45 litres.
