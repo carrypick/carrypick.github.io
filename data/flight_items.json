@@ -1,0 +1,551 @@
+{
+ "_note": "'Can I carry it on a flight?' (baggage/can-i-carry.html). States: yes, no, conditional (allowed with limits), unknown (not stated on the official pages we checked). Key rules checked by hand on 3 Nov 2026 on Kannur Airport's BCAS-based list and Akasa Air's conditions of carriage. Re-check every 3 months.",
+ "checked": "2026-11-03",
+ "key_rules": [
+  "Power banks go only in your cabin bag. Keep them with you, not in the overhead bin, and don't use or charge them during the flight.",
+  "Liquids in your cabin bag: each container 100 ml or less, all in one clear, resealable 1-litre bag. This applies on domestic flights too.",
+  "Dry coconut (copra), camphor, lighters, matches, e-cigarettes and firecrackers are banned in both cabin and check-in baggage.",
+  "Knives, scissors, tools, cricket bats and spice powders can't go in your cabin bag.",
+  "One power bank model, the MOBIKINS MK-PB-04, is banned on flights in any bag. Akasa Air's rules list it by name."
+ ],
+ "groups": [
+  {
+   "name": "Electronics and batteries",
+   "items": [
+    {
+     "item": "Power bank",
+     "cabin": "conditional",
+     "checked": "no",
+     "rule": "Cabin bag only. Keep it in the seat pocket, under the seat or on you, never in the overhead bin. You can't use or charge it during the flight. Akasa Air allows up to 2 power banks or spare batteries, each up to 100 Wh.",
+     "source": "https://www.akasaair.com/quick-links/conditions-of-carriage",
+     "also": [
+      "powerbank",
+      "battery pack",
+      "portable charger"
+     ]
+    },
+    {
+     "item": "MOBIKINS MK-PB-04 power bank",
+     "cabin": "no",
+     "checked": "no",
+     "rule": "This model is banned on flights in any bag, and can't be sent as cargo either.",
+     "source": "https://www.akasaair.com/quick-links/conditions-of-carriage",
+     "also": [
+      "mobikins"
+     ]
+    },
+    {
+     "item": "Laptop",
+     "cabin": "yes",
+     "checked": "conditional",
+     "rule": "Take it out of your bag at security. Batteries over 100 Wh need airline approval. Keep it in your cabin bag: Akasa Air allows it in check-in only if fully switched off and protected, and SpiceJet says not to pack computers in check-in.",
+     "source": "https://www.akasaair.com/quick-links/conditions-of-carriage",
+     "also": [
+      "computer",
+      "macbook",
+      "tablet",
+      "ipad"
+     ]
+    },
+    {
+     "item": "Mobile phone",
+     "cabin": "yes",
+     "checked": "conditional",
+     "rule": "Allowed in the cabin. If you pack one in check-in, it must be fully switched off and protected from turning on.",
+     "source": "https://www.akasaair.com/quick-links/conditions-of-carriage",
+     "also": [
+      "phone",
+      "smartphone"
+     ]
+    },
+    {
+     "item": "Spare lithium batteries",
+     "cabin": "conditional",
+     "checked": "no",
+     "rule": "Cabin bag only, each one protected from short circuits (in its pack or a pouch), never in the overhead bin. Akasa Air allows up to 2, each up to 100 Wh.",
+     "source": "https://www.akasaair.com/quick-links/conditions-of-carriage",
+     "also": [
+      "camera battery",
+      "battery"
+     ]
+    },
+    {
+     "item": "Smart bag with a fixed battery",
+     "cabin": "no",
+     "checked": "no",
+     "rule": "A smart bag whose battery can't be removed isn't allowed in the cabin or check-in (SpiceJet).",
+     "source": "https://corporate.spicejet.com/Charter.aspx",
+     "also": [
+      "smart luggage",
+      "smart suitcase"
+     ]
+    },
+    {
+     "item": "Hoverboard or self-balancing scooter",
+     "cabin": "no",
+     "checked": "no",
+     "rule": "Lithium-battery personal vehicles such as hoverboards and self-balancing wheels aren't accepted in any baggage (FLY91).",
+     "source": "https://support.fly91.in/portal/en/kb/articles/restricted-items-dangerous-goods",
+     "also": [
+      "segway",
+      "electric scooter"
+     ]
+    },
+    {
+     "item": "E-cigarette or vape",
+     "cabin": "no",
+     "checked": "no",
+     "rule": "Banned in both cabin and check-in baggage.",
+     "source": "https://kannurairport.aero/corporate/security",
+     "also": [
+      "vape",
+      "e cigarette"
+     ]
+    },
+    {
+     "item": "Drone",
+     "cabin": "no",
+     "checked": "no",
+     "rule": "Air India Express doesn't allow drones in any baggage. Check with your airline before you fly with one.",
+     "source": "https://www.airindiaexpress.com/en/book-flights/",
+     "also": []
+    }
+   ]
+  },
+  {
+   "name": "Liquids and toiletries",
+   "items": [
+    {
+     "item": "Liquids, gels, creams and pastes",
+     "cabin": "conditional",
+     "checked": "yes",
+     "rule": "Cabin bag: each container 100 ml or less, all in one clear, resealable bag of up to 1 litre, shown separately at security. Anything bigger goes in check-in.",
+     "source": "https://kannurairport.aero/corporate/security",
+     "also": [
+      "shampoo",
+      "toothpaste",
+      "lotion",
+      "cream",
+      "water",
+      "juice",
+      "gel",
+      "oil"
+     ]
+    },
+    {
+     "item": "Perfume",
+     "cabin": "conditional",
+     "checked": "conditional",
+     "rule": "Cabin bag: bottles of 100 ml or less inside the 1-litre clear bag. Check-in: SpiceJet allows toiletries up to 2 litres or 2 kg in total, with no bottle over 500 ml.",
+     "source": "https://www.aai.aero/en/node/92938",
+     "also": [
+      "attar",
+      "scent",
+      "fragrance"
+     ]
+    },
+    {
+     "item": "Deodorant spray",
+     "cabin": "conditional",
+     "checked": "conditional",
+     "rule": "Sprays follow the liquids rule in the cabin: 100 ml or less, inside the 1-litre clear bag. Check-in: within SpiceJet's 2-litre toiletries limit, up to 500 ml per can.",
+     "source": "https://www.aai.aero/en/node/92938",
+     "also": [
+      "deo",
+      "aerosol",
+      "hair spray"
+     ]
+    },
+    {
+     "item": "Hand sanitiser",
+     "cabin": "conditional",
+     "checked": "unknown",
+     "rule": "Akasa Air allows hand sanitiser up to 350 ml in the cabin, inside the 1-litre clear bag.",
+     "source": "https://www.akasaair.com/quick-links/conditions-of-carriage",
+     "also": [
+      "sanitizer"
+     ]
+    },
+    {
+     "item": "Razor and blades",
+     "cabin": "conditional",
+     "checked": "yes",
+     "rule": "A safety razor with the blades in a cartridge is fine in the cabin. Loose razor blades are banned in the cabin, so pack them in check-in.",
+     "source": "https://kannurairport.aero/corporate/security",
+     "also": [
+      "shaving",
+      "blade"
+     ]
+    },
+    {
+     "item": "Holy water (Gangajal, Zamzam)",
+     "cabin": "conditional",
+     "checked": "conditional",
+     "rule": "Up to 100 ml in the cabin and up to 5 litres in check-in, in a sealed, leak-proof container (Akasa Air).",
+     "source": "https://www.akasaair.com/quick-links/conditions-of-carriage",
+     "also": [
+      "gangajal",
+      "ganga jal",
+      "zamzam"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Medicines and baby needs",
+   "items": [
+    {
+     "item": "Medicines",
+     "cabin": "yes",
+     "checked": "yes",
+     "rule": "Keep the medicines you need in your cabin bag. Liquid medicines and inhalers over 100 ml are allowed with a prescription.",
+     "source": "https://www.aai.aero/en/node/92938",
+     "also": [
+      "tablets",
+      "inhaler",
+      "syrup"
+     ]
+    },
+    {
+     "item": "Insulin",
+     "cabin": "conditional",
+     "checked": "unknown",
+     "rule": "Allowed in the cabin above 100 ml when you carry the prescription. Expect a check at security for needles.",
+     "source": "https://www.aai.aero/en/node/92938",
+     "also": [
+      "syringe",
+      "diabetes"
+     ]
+    },
+    {
+     "item": "Baby food and milk",
+     "cabin": "conditional",
+     "checked": "unknown",
+     "rule": "Baby food for the journey is allowed in the cabin above 100 ml. SpiceJet lets you carry it on top of your cabin allowance.",
+     "source": "https://www.aai.aero/en/node/92938",
+     "also": [
+      "formula",
+      "infant food"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Food",
+   "items": [
+    {
+     "item": "Dry coconut (copra)",
+     "cabin": "no",
+     "checked": "no",
+     "rule": "Banned in both cabin and check-in baggage because it can catch fire.",
+     "source": "https://kannurairport.aero/corporate/security",
+     "also": [
+      "copra",
+      "khopra",
+      "gola"
+     ]
+    },
+    {
+     "item": "Ghee and coconut oil",
+     "cabin": "conditional",
+     "checked": "conditional",
+     "rule": "Check-in: up to 5 litres or 5 kg. Cabin bag: only in containers of 100 ml or less inside the 1-litre clear bag.",
+     "source": "https://kannurairport.aero/corporate/security",
+     "also": [
+      "ghee",
+      "oil"
+     ]
+    },
+    {
+     "item": "Pickle",
+     "cabin": "conditional",
+     "checked": "unknown",
+     "rule": "Oily or runny food follows the 100 ml liquids rule in the cabin, and Akasa Air doesn't allow oily or strong-smelling food on board. Pack it sealed and leak-proof.",
+     "source": "https://www.akasaair.com/quick-links/conditions-of-carriage",
+     "also": [
+      "achar",
+      "achaar"
+     ]
+    },
+    {
+     "item": "Sweets and home food",
+     "cabin": "conditional",
+     "checked": "conditional",
+     "rule": "Dry snacks, biscuits and sweets are fine on board; messy, oily or strong-smelling food isn't (Akasa Air). In check-in, pack food so it can't leak.",
+     "source": "https://www.akasaair.com/quick-links/conditions-of-carriage",
+     "also": [
+      "mithai",
+      "snacks",
+      "namkeen",
+      "tiffin"
+     ]
+    },
+    {
+     "item": "Spice powders (chilli, masala)",
+     "cabin": "no",
+     "checked": "yes",
+     "rule": "All spices, powder or whole, including chilli, are banned in the cabin. Pack them in check-in.",
+     "source": "https://kannurairport.aero/corporate/security",
+     "also": [
+      "masala",
+      "chilli",
+      "mirchi",
+      "haldi"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Sharp objects, tools and sports",
+   "items": [
+    {
+     "item": "Knife",
+     "cabin": "no",
+     "checked": "conditional",
+     "rule": "Banned in the cabin, except round-bladed butter knives and plastic cutlery. Airlines may accept knives in check-in (SpiceJet).",
+     "source": "https://www.aai.aero/en/node/92938",
+     "also": [
+      "chaku"
+     ]
+    },
+    {
+     "item": "Scissors",
+     "cabin": "no",
+     "checked": "conditional",
+     "rule": "Not allowed in the cabin. Airlines may accept them in check-in.",
+     "source": "https://kannurairport.aero/corporate/security",
+     "also": [
+      "kainchi"
+     ]
+    },
+    {
+     "item": "Kirpan",
+     "cabin": "conditional",
+     "checked": "unknown",
+     "rule": "Allowed on domestic flights only, with a blade up to 15.24 cm (6 inches) and total length up to 22.86 cm (9 inches) (SpiceJet).",
+     "source": "https://corporate.spicejet.com/Charter.aspx",
+     "also": []
+    },
+    {
+     "item": "Tools (screwdriver, hammer, pliers)",
+     "cabin": "no",
+     "checked": "conditional",
+     "rule": "Banned in the cabin, except tiny screwdrivers in spectacle repair kits. Airlines may accept tools in check-in.",
+     "source": "https://www.aai.aero/en/node/92938",
+     "also": [
+      "screwdriver",
+      "hammer",
+      "pliers",
+      "spanner"
+     ]
+    },
+    {
+     "item": "Toy gun",
+     "cabin": "no",
+     "checked": "conditional",
+     "rule": "Realistic toy or replica guns are banned in the cabin. SpiceJet may accept them in check-in.",
+     "source": "https://www.aai.aero/en/node/92938",
+     "also": [
+      "toy pistol"
+     ]
+    },
+    {
+     "item": "Cricket bat and sports kit",
+     "cabin": "no",
+     "checked": "conditional",
+     "rule": "Cricket bats, hockey sticks, golf clubs and similar items are banned in the cabin. In check-in they go as special baggage, and SpiceJet charges a handling fee.",
+     "source": "https://www.aai.aero/en/node/92938",
+     "also": [
+      "cricket",
+      "bat",
+      "hockey",
+      "golf"
+     ]
+    },
+    {
+     "item": "Umbrella",
+     "cabin": "yes",
+     "checked": "unknown",
+     "rule": "Allowed in the cabin. SpiceJet lets you carry one on top of your cabin allowance.",
+     "source": "https://corporate.spicejet.com/Charter.aspx",
+     "also": []
+    },
+    {
+     "item": "Walking stick",
+     "cabin": "yes",
+     "checked": "unknown",
+     "rule": "Allowed in the cabin on top of your cabin allowance, after a security check (SpiceJet).",
+     "source": "https://corporate.spicejet.com/Charter.aspx",
+     "also": [
+      "cane"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Fire and dangerous items",
+   "items": [
+    {
+     "item": "Lighter",
+     "cabin": "no",
+     "checked": "no",
+     "rule": "Banned in both cabin and check-in baggage.",
+     "source": "https://kannurairport.aero/corporate/security",
+     "also": []
+    },
+    {
+     "item": "Matchbox",
+     "cabin": "no",
+     "checked": "no",
+     "rule": "Banned in both cabin and check-in baggage on Kannur Airport's list. One SpiceJet page says matches may be carried on you, so ask your airline.",
+     "source": "https://kannurairport.aero/corporate/security",
+     "also": [
+      "matches",
+      "match box"
+     ]
+    },
+    {
+     "item": "Camphor (kapur)",
+     "cabin": "no",
+     "checked": "no",
+     "rule": "Banned in both cabin and check-in baggage.",
+     "source": "https://kannurairport.aero/corporate/security",
+     "also": [
+      "kapoor",
+      "kapur"
+     ]
+    },
+    {
+     "item": "Firecrackers",
+     "cabin": "no",
+     "checked": "no",
+     "rule": "Fireworks, crackers and party poppers are banned in both cabin and check-in baggage.",
+     "source": "https://kannurairport.aero/corporate/security",
+     "also": [
+      "crackers",
+      "fireworks",
+      "diwali"
+     ]
+    },
+    {
+     "item": "Camping gas",
+     "cabin": "no",
+     "checked": "no",
+     "rule": "Gas cylinders such as camping gas and butane, and used camping stoves, aren't accepted in any baggage (SpiceJet).",
+     "source": "https://corporate.spicejet.com/tnc.aspx",
+     "also": [
+      "gas cylinder",
+      "butane",
+      "stove"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Alcohol and valuables",
+   "items": [
+    {
+     "item": "Alcohol (bought outside the airport)",
+     "cabin": "no",
+     "checked": "conditional",
+     "rule": "On domestic flights, pack it in check-in: up to 5 litres per person of drinks with 24–70% alcohol, in retail packaging (SpiceJet). You can't drink it on board or take it to or from dry states such as Bihar and Gujarat.",
+     "source": "https://corporate.spicejet.com/airtravelbaggagefaq.aspx",
+     "also": [
+      "liquor",
+      "whisky",
+      "wine",
+      "beer",
+      "daru"
+     ]
+    },
+    {
+     "item": "Duty-free alcohol",
+     "cabin": "conditional",
+     "checked": "yes",
+     "rule": "Alcohol bought after security can go in the cabin in its sealed bag; keep it sealed and keep the receipt. If you change from an international to a domestic flight in India, move it to check-in.",
+     "source": "https://kannurairport.aero/corporate/security",
+     "also": [
+      "duty free"
+     ]
+    },
+    {
+     "item": "Gold, jewellery and cash",
+     "cabin": "yes",
+     "checked": "conditional",
+     "rule": "Keep them in your cabin bag: SpiceJet says not to put money, jewellery or precious metals in check-in, and Akasa Air doesn't cover them if lost.",
+     "source": "https://corporate.spicejet.com/tnc.aspx",
+     "also": [
+      "gold",
+      "jewelry",
+      "money",
+      "cash"
+     ]
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I carry a power bank on a flight in India?",
+   "a": "Yes, but only in your cabin bag, never in check-in. Keep it with you, not in the overhead bin, and don't use or charge it during the flight. Akasa Air allows up to 2, each up to 100 Wh."
+  },
+  {
+   "q": "Is the 100 ml liquid rule only for international flights?",
+   "a": "No. In your cabin bag, each liquid, gel or cream must be 100 ml or less, all in one clear 1-litre bag, on domestic flights too. Bigger bottles go in check-in."
+  },
+  {
+   "q": "Can I carry dry coconut on a flight?",
+   "a": "No. Dry coconut (copra) is banned in both cabin and check-in baggage because it can catch fire."
+  },
+  {
+   "q": "Can I carry ghee on a flight?",
+   "a": "In check-in, up to 5 litres or 5 kg is allowed. In your cabin bag, only in containers of 100 ml or less inside the clear 1-litre bag."
+  },
+  {
+   "q": "Can I carry perfume in my cabin bag?",
+   "a": "Yes, if each bottle is 100 ml or less and fits in your clear 1-litre liquids bag. Bigger bottles go in check-in."
+  },
+  {
+   "q": "Can I carry a razor on a flight?",
+   "a": "A safety razor with the blades in a cartridge is fine in your cabin bag. Loose razor blades must go in check-in."
+  },
+  {
+   "q": "Can I carry alcohol on a domestic flight?",
+   "a": "In check-in only, up to 5 litres per person of 24–70% alcohol in retail packaging (SpiceJet), and not to or from dry states. Sealed duty-free alcohol can go in the cabin."
+  },
+  {
+   "q": "Can I carry medicines on a flight?",
+   "a": "Yes. Keep them in your cabin bag. Liquid medicines and inhalers over 100 ml are allowed with a prescription."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Kannur Airport security list (based on BCAS rules)",
+   "url": "https://kannurairport.aero/corporate/security"
+  },
+  {
+   "label": "Airports Authority of India",
+   "url": "https://www.aai.aero/en/node/92938"
+  },
+  {
+   "label": "Akasa Air conditions of carriage",
+   "url": "https://www.akasaair.com/quick-links/conditions-of-carriage"
+  },
+  {
+   "label": "SpiceJet baggage FAQ",
+   "url": "https://corporate.spicejet.com/airtravelbaggagefaq.aspx"
+  },
+  {
+   "label": "SpiceJet terms",
+   "url": "https://corporate.spicejet.com/tnc.aspx"
+  },
+  {
+   "label": "Air India Express",
+   "url": "https://www.airindiaexpress.com/en/book-flights/"
+  },
+  {
+   "label": "FLY91 restricted items",
+   "url": "https://support.fly91.in/portal/en/kb/articles/restricted-items-dangerous-goods"
+  }
+ ]
+}

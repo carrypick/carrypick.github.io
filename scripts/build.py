@@ -812,7 +812,7 @@ def build_baggage(cfg, deals, data, pages, lastmod):
 
 # ---------- train luggage rules and "can I carry it?" ----------
 
-ANSWER = {"yes": ("yes", "Yes"), "no": ("no", "No"), "conditional": ("close", "With limits")}
+ANSWER = {"yes": ("yes", "Yes"), "no": ("no", "No"), "conditional": ("close", "With limits"), "unknown": ("na", "Not listed")}
 
 
 def tool_pills(p, current):
@@ -936,7 +936,7 @@ def build_can_i_carry(cfg, pages, lastmod):
 <p class="hint" id="carry-count" aria-live="polite">{count} items</p></form>
 <div class="table-wrap"><table class="compare carry-table" id="carry-table"><thead><tr><th>Item</th><th>Cabin bag</th><th>Check-in</th><th>Rule</th></tr></thead>{"".join(groups)}</table></div>
 <p class="hint" id="carry-none" hidden>No match. Try another word, or check the airline's own list.</p>
-<p class="checked">"With limits" means it's allowed only in the way the rule says. Security staff can still refuse any item, and airlines can be stricter, so check your airline before you fly.</p>
+<p class="checked">"With limits" means it's allowed only in the way the rule says. "Not listed" means the official pages we checked don't say. Security staff can still refuse any item, and airlines can be stricter, so check your airline before you fly.</p>
 <aside class="tip">{icon("ruler", "icon tip-icon")}<div><strong>Packing your cabin bag?</strong><p>Check its size with the <a href="checker.html">cabin bag checker</a>, and use a <a href="../packing/index.html">packing checklist</a>.</p></div></aside>
 {faq_html}
 <h2>Sources</h2>
