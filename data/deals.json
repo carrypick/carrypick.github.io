@@ -228,7 +228,8 @@
       "Weight": "About 150 g",
       "Battery": "Included"
     },
-    "skip_if": "you rarely fly. A home bathroom scale can do the job once in a while."
+    "skip_if": "you rarely fly. A home bathroom scale can do the job once in a while.",
+    "telegram_posted_at": "2026-11-03T06:05:35+05:30"
   },
   {
     "asin": "B0BTD4S4XF",
@@ -253,7 +254,8 @@
       "Rain cover": "No",
       "Warranty": "1 year global"
     },
-    "skip_if": "you need rain protection. No rain cover is listed, and the fabric isn't water-resistant."
+    "skip_if": "you need rain protection. No rain cover is listed, and the fabric isn't water-resistant.",
+    "telegram_posted_at": "2026-11-03T06:05:35+05:30"
   },
   {
     "asin": "B097GCJFW2",
