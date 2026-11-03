@@ -1421,6 +1421,177 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod):
     lastmod[path] = updated
 
 
+# ---------- size and weight tools ----------
+
+# Wrist size (cm) -> dial size (mm). A rule of thumb from common watch-fitting advice, not a fixed rule.
+WRIST_ROWS = [(0, 15, 28, 36, "Small wrist"), (15, 16.5, 34, 38, "Slim wrist"), (16.5, 18, 38, 42, "Average wrist"),
+              (18, 19.5, 40, 44, "Wide wrist"), (19.5, 99, 42, 46, "Very wide wrist")]
+# Typical laptop sizes by screen size (width x depth, cm). Real laptops vary by a few cm.
+LAPTOP_ROWS = [(13.3, "30–31 x 21–22 cm"), (14, "31–33 x 21–23 cm"), (15.6, "35–36 x 23–25 cm"), (16, "35–36 x 24–26 cm"), (17.3, "39–40 x 26–28 cm")]
+# Typical weights (kg) for the bag weight estimator. Real items vary; weigh the bag to be sure.
+BAG_ITEMS = [("Clothes", [("T-shirt or top", 0.2), ("Shirt", 0.25), ("Jeans", 0.7), ("Trousers", 0.45), ("Shorts", 0.25),
+                          ("Kurta", 0.3), ("Saree", 0.6), ("Salwar suit", 0.5), ("Nightwear set", 0.3), ("Underwear", 0.05),
+                          ("Socks (pair)", 0.05), ("Sweater", 0.5), ("Light jacket", 0.6), ("Heavy winter jacket", 1.2), ("Thermal set", 0.3)]),
+             ("Shoes", [("Sneakers (pair)", 0.8), ("Formal shoes (pair)", 1.0), ("Sandals or slippers (pair)", 0.3)]),
+             ("Bathroom and health", [("Toiletry kit", 1.0), ("Towel", 0.5), ("Medicines kit", 0.3)]),
+             ("Electronics", [("Laptop", 1.6), ("Laptop charger", 0.3), ("Phone charger and cables", 0.15), ("Power bank", 0.3), ("Camera", 0.7)]),
+             ("Other", [("Book", 0.4), ("Umbrella", 0.4), ("Box of sweets or snacks", 1.0), ("Water bottle (empty)", 0.2)])]
+BAG_TYPES = [("Backpack", 0.6), ("Soft cabin trolley", 2.4), ("Hard cabin trolley", 2.7), ("Medium check-in trolley", 3.5), ("Large check-in trolley", 4.5), ("Duffle bag", 1.2)]
+
+
+def first_number(text):
+    m = re.search(r"(\d+(?:\.\d+)?)", text or "")
+    return float(m.group(1)) if m else None
+
+
+def build_tools(cfg, deals, pages, lastmod):
+    """Watch size by wrist, backpack by laptop size, and packed bag weight (tools/*.html, static/tools.js)."""
+    updated = "2026-11-03"
+
+    def finish(path, title, seo, desc, crumb, body, faq):
+        faq_html, faq_schema = faq_block(faq)
+        body = body.replace("{faq}", faq_html)
+        crumbs = crumbs_schema(cfg, [("Home", ""), (crumb, path)])
+        pages.append(write(path, page(cfg, seo, desc, body, 1, path,
+                                      [tool_article(cfg, seo, desc, path, updated, updated), crumbs, faq_schema], og_type="article")))
+        lastmod[path] = updated
+
+    def head(title, crumb, sub, tint, glyph):
+        inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span>{e(crumb)}</nav>
+      <h1>{e(title)}</h1>
+      <p class="muted small">{e(sub)}</p>"""
+        return page_head(tint, f'<div class="media media-tile tint-{tint}">{icon(glyph, "icon media-icon")}</div>', inner, "../")
+
+    def tagged(d, attr, value):
+        return card(cfg, d, "../").replace('<article class="card"', f'<article class="card" {attr}="{value}"', 1)
+
+    # Watch size by wrist
+    path = "tools/watch-size.html"
+    watches = []
+    for d in deals:
+        mm = first_number(d.get("specs", {}).get("Case size"))
+        if d["category"] == "watches" and mm and "couple" not in d["title"].lower():
+            watches.append((mm, d))
+    watches.sort(key=lambda x: x[0])
+    rows = "".join(f'<tr data-wrist="{lo}-{hi}"><th scope="row">{e(label)}</th><td>{"Under 15 cm" if lo == 0 else ("Over 19.5 cm" if hi == 99 else "%s–%s cm" % (num(lo), num(hi)))}</td><td>{a}–{b} mm</td></tr>'
+                   for lo, hi, a, b, label in WRIST_ROWS)
+    cards = "".join(tagged(d, "data-mm", num(mm)) for mm, d in watches)
+    title = "Watch size chart: which dial size suits your wrist?"
+    seo = "Watch size chart India: which watch dial size suits my wrist?"
+    desc = "Measure your wrist in cm and see which watch dial size (in mm) suits it, from 28 mm to 46 mm, with our watch picks in that size."
+    body = f"""{head(title, "Watch size by wrist", "A free tool. Updated " + fmt_date(updated), "watches", "watch")}
+<div class="wrap"><article class="guide">
+<div class="answer"><h2>Quick answer</h2><ul>
+<li>Wrap a strip of paper or a string around your wrist bone, mark it, and measure it with a ruler in cm.</li>
+<li>Most men's wrists are about 16–18 cm and suit a 38–42 mm dial. Slimmer wrists look better with 34–38 mm.</li>
+<li>Bigger isn't always better: the lugs (the ends that hold the strap) shouldn't stick out past your wrist.</li>
+</ul></div>
+<form class="checker" onsubmit="return false">
+<div class="checker-fields"><label>Your wrist size<input id="ws-cm" type="number" min="10" max="30" step="0.5" inputmode="decimal" placeholder="e.g. 17"></label>
+<label>Unit<select id="ws-unit"><option value="cm">cm</option><option value="in">inches</option></select></label></div>
+<p class="checker-total" id="ws-out" aria-live="polite">Type your wrist size to see the dial sizes that suit it.</p>
+</form>
+<h2>Wrist size to dial size chart</h2>
+<div class="table-wrap"><table class="compare" id="ws-table"><thead><tr><th>Wrist</th><th>Wrist size</th><th>Dial size that suits it</th></tr></thead><tbody>{rows}</tbody></table></div>
+<p class="checked">A rule of thumb, not a strict rule. A thin case and a leather strap look smaller; a thick steel watch looks bigger. Try one on if you can.</p>
+<h2>Our watch picks by dial size</h2>
+<p id="ws-picks-note">Sorted from small to large. Type your wrist size above to see the ones that suit it.</p>
+<div class="grid" id="ws-picks">{cards}</div>
+<p>More help: <a href="../guides/first-analog-watch-guide.html">how to choose your first analog watch</a>.</p>
+{{faq}}
+{tool_pills("../", path)}
+</article></div>
+<script src="../assets/tools.js" defer></script>
+{telegram_band(cfg, "../")}"""
+    finish(path, title, seo, desc, "Watch size by wrist", body, [
+        ("How do I measure my wrist for a watch?", "Wrap a strip of paper or a string around your wrist just above the wrist bone, mark where it meets, and measure that length with a ruler in cm."),
+        ("What watch size is best for a 17 cm wrist?", "A 17 cm wrist is average. A dial of about 38–42 mm usually suits it."),
+        ("Is a 42 mm watch too big?", "Not for an average or wide wrist (about 16.5 cm and up). On a slim wrist under 16 cm, 36–38 mm usually looks better."),
+        ("What size watch suits women?", "Most women's watches are 28–36 mm. On a slim wrist, 28–34 mm is a safe choice.")])
+
+    # Backpack by laptop size
+    path = "tools/laptop-backpack.html"
+    bags = []
+    for d in deals:
+        if d["category"] != "backpacks":
+            continue
+        fit = d.get("specs", {}).get("Laptop") or d.get("specs", {}).get("Laptop fit") or ""
+        sizes = [float(x) for x in re.findall(r"(\d+(?:\.\d+)?)\s*(?:–|-|inch)", fit)]
+        bags.append((max(sizes) if sizes else 0, fit, d))
+    bags.sort(key=lambda x: -x[0])
+    cards = "".join(tagged(d, "data-inch", num(inch) if inch else "0") for inch, fit, d in bags)
+    rows = "".join(f'<tr><th scope="row">{num(s)} inch</th><td>{e(dims)}</td></tr>' for s, dims in LAPTOP_ROWS)
+    title = "Which backpack fits my laptop? Laptop backpack size guide"
+    seo = "Laptop backpack size guide: will a 15.6 or 17 inch laptop fit?"
+    desc = "Pick your laptop's screen size (13 to 17 inch) and see which of our laptop backpacks fit it, plus typical laptop sizes in cm."
+    body = f"""{head(title, "Backpack for my laptop", "A free tool. Updated " + fmt_date(updated), "backpacks", "backpack")}
+<div class="wrap"><article class="guide">
+<div class="answer"><h2>Quick answer</h2><ul>
+<li>Laptop sizes are the screen measured corner to corner, in inches. A "15.6 inch" laptop is about 36 cm wide.</li>
+<li>A bag "for 15.6 inch laptops" fits most 15.6 inch and smaller laptops. For 16 or 17 inch laptops, look for a bag that says 17 inch.</li>
+<li>Gaming laptops are often thicker and wider, so check your laptop's width and the bag's sleeve size.</li>
+</ul></div>
+<form class="checker" onsubmit="return false">
+<label>Your laptop's screen size<select id="lb-size"><option value="">Choose…</option><option value="13.3">13 or 13.3 inch</option><option value="14">14 inch</option><option value="15.6">15 or 15.6 inch</option><option value="16">16 inch</option><option value="17.3">17 or 17.3 inch</option></select></label>
+<p class="checker-total" id="lb-out" aria-live="polite">Choose your laptop size to see the backpacks that fit it.</p>
+</form>
+<h2>Our laptop backpacks</h2>
+<div class="grid" id="lb-picks">{cards}</div>
+<p class="checked">Based on the laptop size each seller lists on Amazon. Bags that don't list a size are shown as "check listing".</p>
+<h2>Typical laptop sizes</h2>
+<div class="table-wrap"><table class="compare"><thead><tr><th>Screen size</th><th>Typical laptop size (width x depth)</th></tr></thead><tbody>{rows}</tbody></table></div>
+<p class="checked">Real laptops vary by a few cm. Measure yours, or check its size on the maker's website.</p>
+<p>More help: <a href="../guides/laptop-backpack-guide.html">how to choose a laptop backpack</a>.</p>
+{{faq}}
+{tool_pills("../", path)}
+</article></div>
+<script src="../assets/tools.js" defer></script>
+{telegram_band(cfg, "../")}"""
+    finish(path, title, seo, desc, "Backpack for my laptop", body, [
+        ("Will a 15.6 inch laptop fit in a 15 inch bag?", "Sometimes, but it can be tight. A bag made for 15.6 inch laptops is the safer choice."),
+        ("What size backpack do I need for a 17 inch laptop?", "One that says it fits 17 inch laptops. These bags usually hold 28 litres or more."),
+        ("How do I know my laptop's size?", "The size is the screen, measured corner to corner. It's usually in the laptop's name or on the box, or measure the width of the laptop itself in cm.")])
+
+    # Packed bag weight
+    path = "tools/bag-weight.html"
+    groups = "".join(
+        f'<section class="pack-group"><h2>{e(name)}</h2><ul>' + "".join(
+            f'<li><label class="bw-item"><span>{e(item)} <small class="muted">about {num(kg)} kg</small></span>'
+            f'<input type="number" min="0" max="50" step="1" inputmode="numeric" value="0" data-kg="{kg}" aria-label="How many: {e(item)}"></label></li>'
+            for item, kg in items) + "</ul></section>" for name, items in BAG_ITEMS)
+    bag_opts = "".join(f'<option value="{kg}">{e(name)} (about {num(kg)} kg empty)</option>' for name, kg in BAG_TYPES)
+    scale = next((d for d in deals if "scale" in d["title"].lower()), None)
+    scale_html = f'<a href="../picks/{scale["asin"]}.html">luggage scale</a>' if scale else "luggage scale"
+    title = "How heavy is my bag? Packed bag weight calculator"
+    seo = "Bag weight calculator: will my packed bag be under 7 kg or 15 kg?"
+    desc = "Add what you're packing and see roughly how heavy your bag will be, against 7 kg cabin and 15–30 kg check-in limits. Free, no sign-up."
+    body = f"""{head(title, "Bag weight calculator", "A free tool. Updated " + fmt_date(updated), "travel-gear", "scale" if "scale" in ICONS else "ruler")}
+<div class="wrap"><article class="guide">
+<div class="answer"><h2>Quick answer</h2><ul>
+<li>Most Indian airlines allow a 7 kg cabin bag and 15 kg of check-in baggage on domestic flights.</li>
+<li>The bag counts too: a hard cabin trolley is about 2.5–3 kg empty, which leaves only about 4–4.5 kg for your things.</li>
+<li>This tool uses typical weights. To be sure, weigh the packed bag at home with a {scale_html}.</li>
+</ul></div>
+<form class="checker packer" id="bw" onsubmit="return false">
+<div class="checker-fields"><label>Your bag<select id="bw-bag">{bag_opts}</select></label>
+<label>Weight limit<select id="bw-limit"><option value="7">7 kg (cabin bag)</option><option value="15">15 kg (domestic check-in)</option><option value="20">20 kg</option><option value="23">23 kg</option><option value="25">25 kg</option><option value="30">30 kg</option></select></label></div>
+<p class="checker-total" id="bw-out" aria-live="polite"></p>
+<p class="hint"><button type="button" class="link-btn" id="bw-clear">Start again</button></p>
+</form>
+<div class="pack-list">{groups}</div>
+<p class="checked">Typical weights for adult clothes and common items. Real items vary, so leave a little room and weigh the bag before you leave.</p>
+<p>More help: <a href="../baggage/index.html">baggage rules for Indian airlines</a>, <a href="../baggage/checker.html">will my bag fit?</a> and <a href="../packing/index.html">packing checklists</a>.</p>
+{{faq}}
+{tool_pills("../", path)}
+</article></div>
+<script src="../assets/tools.js" defer></script>
+{telegram_band(cfg, "../")}"""
+    finish(path, title, seo, desc, "Bag weight calculator", body, [
+        ("How much can I pack in a 7 kg cabin bag?", "A hard cabin trolley weighs about 2.5–3 kg empty, so you have about 4–4.5 kg left: roughly clothes for 2–3 days, a toiletry kit and a charger. A light backpack leaves more room."),
+        ("How heavy is a laptop?", "Most laptops weigh about 1.2–2 kg, plus about 0.3 kg for the charger."),
+        ("How can I check my bag's weight at home?", "Use a small hand-held luggage scale: hook the bag on and lift it. Or weigh yourself on a bathroom scale with and without the bag and subtract.")])
+
+
 # ---------- packing checklists ----------
 
 PACKING_FILE = ROOT / "data" / "packing.json"
@@ -1577,6 +1748,12 @@ def build():
                       "See train rules", "train", "backpacks"))
     if HINDI_FILE.exists() and airlines and FLIGHT_ITEMS_FILE.exists() and RAILWAYS_FILE.exists():
         HINDI_PAGES.update(HINDI_PATHS)
+    TOOLS.append(("tools/bag-weight.html", "Bag weight calculator", "Free tool", "How heavy is my bag?",
+                  "Add what you're packing and see if your bag stays under 7 kg or 15 kg.", "Weigh it", "check", "luggage"))
+    TOOLS.append(("tools/laptop-backpack.html", "Backpack for my laptop", "Free tool", "Which backpack fits my laptop?",
+                  "Pick your laptop size, from 13 to 17 inch, and see the backpacks that fit it.", "Find a backpack", "backpack", "backpacks"))
+    TOOLS.append(("tools/watch-size.html", "Watch size by wrist", "Free tool", "Which watch size suits my wrist?",
+                  "Measure your wrist and see the dial sizes, in mm, that look right on it.", "Find my size", "watch", "watches"))
     if PACKING_FILE.exists():
         TOOLS.append(("packing/index.html", "Packing checklists", "Free checklist", "Packing checklists for every trip",
                       "Weekend, wedding, hills, beach, train or abroad: tick off what to pack, with quantities.",
@@ -1798,6 +1975,7 @@ def build():
     if FLIGHT_ITEMS_FILE.exists():
         build_can_i_carry(cfg, pages, lastmod)
     build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod)
+    build_tools(cfg, deals, pages, lastmod)
     if trips:
         build_trips(cfg, trips, deals_by_asin, pages, lastmod)
     if HINDI_PAGES:
