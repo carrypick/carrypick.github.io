@@ -21,6 +21,7 @@ from common import IST, ROOT, amazon_link, load_config, load_deals
 DOCS = ROOT / "docs"
 ARTICLES_DIR = ROOT / "content" / "articles"
 TRIPS_DIR = ROOT / "content" / "trips"
+TRIPS_HI_DIR = ROOT / "content" / "trips-hi"  # Hindi versions, same file names as content/trips
 AIRLINES_FILE = ROOT / "data" / "airlines.json"
 INTL_AIRLINES_FILE = ROOT / "data" / "airlines_intl.json"
 PHOTOS_FILE = ROOT / "data" / "photos.json"
@@ -692,6 +693,43 @@ def build_trips(cfg, trips, deals_by_asin, pages, lastmod):
                                                 "Plan a trip to %s: best time, weather, getting there, getting around, local rules and packing lists." % places,
                                                 body, 1, "trips/index.html", [crumbs])))
     lastmod["trips/index.html"] = max(t["updated"] for t in trips)
+
+
+def build_trips_hi(cfg, trips_hi, deals_by_asin, pages, lastmod):
+    """Hindi trip guides from content/trips-hi/<slug>.md -> hi/trips/<slug>.html, paired with trips/<slug>.html."""
+    for t in trips_hi:
+        path = "hi/trips/%s.html" % t["slug"]
+        p = "../../"
+        content = render_markdown(t["body"], cfg, deals_by_asin, p, "trips-hi/%s.md" % t["slug"])
+        glance = [part.split("=", 1) for part in t.get("glance", "").split(" | ") if "=" in part]
+        glance_html = ('<div class="answer"><h2>%s एक नज़र में</h2><div class="table-wrap"><table class="compare glance"><tbody>%s</tbody></table></div></div>'
+                       % (e(t.get("place", t["title"])), "".join('<tr><th scope="row">%s</th><td>%s</td></tr>' % (e(k.strip()), md_inline(v.strip(), p))
+                                                                  for k, v in glance))) if glance else ""
+        inner = f"""<nav class="crumbs"><a href="{p}index.html">होम</a><span>/</span><a href="{p}trips/index.html">Trip guides</a><span>/</span>{e(t.get("place", t["title"]))}</nav>
+      <h1>{e(t['title'])}</h1>
+      <p class="muted small">{hi_date(t['updated'])} को अपडेट किया गया</p>"""
+        art = f'<div class="media media-tile tint-travel-gear">{icon("pin", "icon media-icon")}</div>'
+        body = f"""{page_head("travel-gear", art, inner, p, t.get("photo"))}
+<div class="wrap"><article class="guide">
+{glance_html}
+{content}
+<p class="checked">हम Amazon Associate हैं और योग्य ख़रीदारी पर कमीशन कमाते हैं। आपके लिए क़ीमत वही रहती है।</p>
+</article></div>
+{telegram_band(cfg, p)}"""
+        image = photo_og(cfg, t["photo"]) if t.get("photo") in PHOTOS else abs_url(cfg, "assets/logo.png")
+        article = {"@context": "https://schema.org", "@type": "Article", "headline": t.get("seo_title", t["title"]),
+                   "description": t["description"], "datePublished": t["date"], "dateModified": t["updated"],
+                   "inLanguage": "hi-IN", "image": image, "about": {"@type": "TouristDestination", "name": t.get("place", t["title"])},
+                   "mainEntityOfPage": abs_url(cfg, path), "author": org_schema(cfg), "publisher": org_schema(cfg)}
+        crumbs = crumbs_schema(cfg, [("होम", ""), ("Trip guides", "trips/index.html"), (t.get("place", t["title"]), path)])
+        schema = [article, crumbs]
+        faq = md_faq(t["body"].replace("## सवाल-जवाब", "## Questions"))
+        if faq:
+            schema.append({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+                {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq]})
+        pages.append(write(path, page(cfg, t.get("seo_title", t["title"]), t["description"], body, 2, path, schema,
+                                      og_type="article", photo=t.get("photo"), lang="hi")))
+        lastmod[path] = t["updated"]
 
 
 # ---------- baggage rules and bag checker ----------
@@ -1838,6 +1876,10 @@ def build():
                       "See train rules", "train", "backpacks"))
     if HINDI_FILE.exists() and airlines and FLIGHT_ITEMS_FILE.exists() and RAILWAYS_FILE.exists():
         HINDI_PAGES.update(HINDI_PATHS)
+    trips_hi = load_articles(TRIPS_HI_DIR) if TRIPS_HI_DIR.exists() else []
+    for t in trips_hi:
+        if (TRIPS_DIR / (t["slug"] + ".md")).exists():
+            HINDI_PAGES["trips/%s.html" % t["slug"]] = "hi/trips/%s.html" % t["slug"]
     TOOLS.append(("tools/bag-weight.html", "Bag weight calculator", "Free tool", "How heavy is my bag?",
                   "Add what you're packing and see if your bag stays under 7 kg or 15 kg.", "Weigh it", "check", "luggage"))
     TOOLS.append(("tools/laptop-backpack.html", "Backpack for my laptop", "Free tool", "Which backpack fits my laptop?",
@@ -2068,6 +2110,8 @@ def build():
     build_tools(cfg, deals, pages, lastmod)
     if trips:
         build_trips(cfg, trips, deals_by_asin, pages, lastmod)
+    if trips_hi:
+        build_trips_hi(cfg, trips_hi, deals_by_asin, pages, lastmod)
     if HINDI_PAGES:
         build_hindi(cfg, deals, airlines, pages, lastmod)
 
