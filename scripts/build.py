@@ -1416,7 +1416,7 @@ SIZE_ROWS = [(18, "Small cabin bag", "1–3 days"), (20, "Cabin", "2–4 days"),
 KG_ROWS = [3, 7, 10, 15, 20, 23, 25, 30, 32]
 
 
-def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod):
+def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
     """Inches/cm and kg/lb chart for luggage, with airline limits converted (baggage/luggage-size-chart.html)."""
     path = "baggage/luggage-size-chart.html"
     updated = "2026-11-03"
@@ -1428,15 +1428,15 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod):
     kg_rows = "".join(f"<tr><th scope=\"row\">{k} kg</th><td>{lb(k)} lb</td></tr>" for k in KG_ROWS)
     air_rows, us_fit = "", []
     us = [22 * 2.54, 14 * 2.54, 9 * 2.54]
-    for a in (airlines or {}).get("airlines", []):
+    for a in (airlines or {}).get("airlines", []) + (intl or {}).get("airlines", []):
         c = a["cabin"]
-        if not (c.get("dims_cm") and c.get("total_cm")):
+        if not c.get("dims_cm"):
             continue
         air_rows += (f'<tr><th scope="row"><a href="{a["slug"]}.html">{e(a["name"])}</a></th>'
-                     f'<td>{" x ".join(num(x) for x in c["dims_cm"])} cm<span class="why">{num(c["total_cm"])} cm in total</span></td>'
-                     f'<td>{" x ".join(inch(x) for x in c["dims_cm"])} in<span class="why">{inch(c["total_cm"])} in in total</span></td>'
+                     f'<td>{" x ".join(num(x) for x in c["dims_cm"])} cm' + (f'<span class="why">{num(c["total_cm"])} cm in total</span>' if c.get("total_cm") else "") + '</td>'
+                     f'<td>{" x ".join(inch(x) for x in c["dims_cm"])} in' + (f'<span class="why">{inch(c["total_cm"])} in in total</span>' if c.get("total_cm") else "") + '</td>'
                      f'<td>{num(c["kg"])} kg<span class="why">{lb(c["kg"])} lb</span></td></tr>')
-        if size_fit(us, c)[0]:
+        if size_fit(us, c)[0] and a.get("scope") != "international":
             us_fit.append(a["name"])
     us_cm = " x ".join(num(round(x, 1)) for x in us)
     us_answer = ("22 x 14 x 9 inches is %s cm, %s cm in total. By size it fits %s, but it's a little over the other Indian airlines' limits."
@@ -1486,7 +1486,7 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod):
 <p>Sizes are the bag's height. Sellers don't always say whether it includes the wheels, so check the full size on the listing.</p>
 <div class="table-wrap"><table class="compare"><thead><tr><th>Inches</th><th>cm</th><th>Size</th><th>Trip length</th></tr></thead><tbody>{size_rows}</tbody></table></div>
 {size_fig}
-{('<h2>Cabin bag limits of Indian airlines, in inches</h2><div class="table-wrap"><table class="compare"><thead><tr><th>Airline</th><th>Size limit (cm)</th><th>In inches</th><th>Weight</th></tr></thead><tbody>' + air_rows + '</tbody></table></div><p class="checked">Domestic economy limits, from our <a href="index.html">baggage rules page</a>. Check your ticket and the airline before you fly.</p>') if air_rows else ""}
+{('<h2>Cabin bag limits in inches: Indian and Gulf airlines</h2><div class="table-wrap"><table class="compare"><thead><tr><th>Airline</th><th>Size limit (cm)</th><th>In inches</th><th>Weight</th></tr></thead><tbody>' + air_rows + '</tbody></table></div><p class="checked">Economy limits: domestic flights for Indian airlines, India routes for Gulf airlines. From our <a href="index.html">baggage rules</a> and <a href="international.html">Gulf airline</a> pages. Check your ticket before you fly.</p>') if air_rows else ""}
 <h2>Check-in bag size</h2>
 <p>Most Indian airlines limit each checked bag to <strong>158 cm in total</strong> (length + width + height), which is about {inch(158)} inches, and <strong>32 kg</strong> (about {lb(32)} lb). A large 75–79 cm trolley usually stays within 158 cm; an extra-large one may not.</p>
 <h2>Kilograms to pounds</h2>
@@ -2064,7 +2064,7 @@ def build():
         build_railways(cfg, deals, pages, lastmod)
     if FLIGHT_ITEMS_FILE.exists():
         build_can_i_carry(cfg, pages, lastmod)
-    build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod)
+    build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl_airlines)
     build_tools(cfg, deals, pages, lastmod)
     if trips:
         build_trips(cfg, trips, deals_by_asin, pages, lastmod)
