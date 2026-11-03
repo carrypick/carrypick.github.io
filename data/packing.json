@@ -1,0 +1,499 @@
+{
+  "_note": "Packing checklist tool (tools/packing-checklist.html). qty: a number, or per_day, per_day_plus_1, per_2_days, per_3_days (rounded up, at least 1). trips: list of trip slugs, or all. pick: an ASIN from data/deals.json, link: a site path.",
+  "trips": [
+    {
+      "slug": "weekend",
+      "label": "Weekend trip",
+      "days": 2,
+      "title": "Weekend trip packing list",
+      "intro": "Two or three days away? Pack light. One cabin trolley or a 30–40 litre backpack is enough, and you skip the queue at the baggage belt."
+    },
+    {
+      "slug": "week",
+      "label": "Week-long holiday",
+      "days": 6,
+      "title": "Packing list for a week-long holiday",
+      "intro": "A week away usually fits in a medium check-in trolley, or in a cabin trolley if you pack smart and plan to wash clothes once."
+    },
+    {
+      "slug": "business",
+      "label": "Work trip",
+      "days": 3,
+      "title": "Business trip packing list",
+      "intro": "Keep work trips simple: one cabin bag, outfits that mix and match, and your laptop and chargers within reach."
+    },
+    {
+      "slug": "wedding",
+      "label": "Wedding",
+      "days": 3,
+      "title": "Wedding packing list: what to carry to a family wedding",
+      "intro": "Weddings mean many functions and many outfits. Count one outfit per function, pack the heavy ones flat, and keep jewellery and the gift in your cabin bag."
+    },
+    {
+      "slug": "hills",
+      "label": "Winter hill trip",
+      "days": 5,
+      "title": "Hill station packing list for winter: Manali, Shimla, Kashmir",
+      "intro": "Hill stations get very cold from November to February. Pack in layers, carry thermals, and protect your skin from the dry air and strong sun."
+    },
+    {
+      "slug": "beach",
+      "label": "Beach trip",
+      "days": 4,
+      "title": "Beach trip packing list for Goa and more",
+      "intro": "Beach trips need light cotton clothes, sun protection and somewhere to keep wet things. Leave room in the bag for what you buy there."
+    },
+    {
+      "slug": "train",
+      "label": "Long train journey",
+      "days": 2,
+      "title": "Train journey packing list for Indian Railways",
+      "intro": "Long train journeys are easier with food, water, a way to lock your bag and something warm for the AC coach. Keep valuables in a small bag on you."
+    },
+    {
+      "slug": "abroad",
+      "label": "Trip abroad",
+      "days": 7,
+      "title": "International trip packing list for Indians",
+      "intro": "Going abroad? Documents come first: passport, visa, insurance and some local currency. Then check your airline's baggage allowance before you pack."
+    }
+  ],
+  "groups": [
+    {
+      "name": "Documents and money",
+      "items": [
+        {
+          "id": "id-proof",
+          "name": "Photo ID (Aadhaar, driving licence or voter ID)",
+          "trips": "all"
+        },
+        {
+          "id": "tickets",
+          "name": "Tickets and boarding passes, saved on your phone",
+          "trips": "all"
+        },
+        {
+          "id": "bookings",
+          "name": "Hotel booking details and addresses",
+          "trips": "all"
+        },
+        {
+          "id": "cash",
+          "name": "Some cash, plus UPI and a debit card",
+          "trips": "all"
+        },
+        {
+          "id": "passport",
+          "name": "Passport and visa",
+          "trips": [
+            "abroad"
+          ]
+        },
+        {
+          "id": "forex",
+          "name": "Forex card or some local currency",
+          "trips": [
+            "abroad"
+          ]
+        },
+        {
+          "id": "insurance",
+          "name": "Travel insurance papers",
+          "trips": [
+            "abroad"
+          ]
+        },
+        {
+          "id": "office-id",
+          "name": "Office ID and visiting cards",
+          "trips": [
+            "business"
+          ]
+        },
+        {
+          "id": "invite",
+          "name": "Wedding invite with the venue address",
+          "trips": [
+            "wedding"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Clothes",
+      "items": [
+        {
+          "id": "tops",
+          "name": "T-shirts or tops",
+          "qty": "per_day",
+          "trips": [
+            "weekend",
+            "week",
+            "hills",
+            "beach",
+            "train",
+            "abroad"
+          ]
+        },
+        {
+          "id": "formal-shirts",
+          "name": "Formal shirts or tops",
+          "qty": "per_day",
+          "trips": [
+            "business"
+          ]
+        },
+        {
+          "id": "ethnic",
+          "name": "Ethnic outfits for the functions",
+          "qty": "per_day",
+          "trips": [
+            "wedding"
+          ]
+        },
+        {
+          "id": "bottoms",
+          "name": "Trousers or jeans",
+          "qty": "per_3_days",
+          "trips": "all"
+        },
+        {
+          "id": "underwear",
+          "name": "Underwear",
+          "qty": "per_day_plus_1",
+          "trips": "all"
+        },
+        {
+          "id": "socks",
+          "name": "Socks",
+          "qty": "per_day",
+          "trips": [
+            "weekend",
+            "week",
+            "business",
+            "wedding",
+            "hills",
+            "train",
+            "abroad"
+          ]
+        },
+        {
+          "id": "nightwear",
+          "name": "Nightwear",
+          "qty": "per_3_days",
+          "trips": "all"
+        },
+        {
+          "id": "walking-shoes",
+          "name": "Comfortable walking shoes",
+          "qty": 1,
+          "trips": "all"
+        },
+        {
+          "id": "formal-shoes",
+          "name": "Formal shoes",
+          "qty": 1,
+          "trips": [
+            "business",
+            "wedding"
+          ]
+        },
+        {
+          "id": "slippers",
+          "name": "Slippers or flip-flops",
+          "qty": 1,
+          "trips": "all"
+        },
+        {
+          "id": "sweater",
+          "name": "Light jacket or sweater (flights and trains are cold)",
+          "qty": 1,
+          "trips": [
+            "weekend",
+            "week",
+            "business",
+            "wedding",
+            "train",
+            "abroad"
+          ]
+        },
+        {
+          "id": "thermals",
+          "name": "Thermal innerwear",
+          "qty": 2,
+          "trips": [
+            "hills"
+          ]
+        },
+        {
+          "id": "winter-gear",
+          "name": "Heavy jacket, woollen cap and gloves",
+          "trips": [
+            "hills"
+          ]
+        },
+        {
+          "id": "blazer",
+          "name": "Blazer or jacket for meetings",
+          "qty": 1,
+          "trips": [
+            "business"
+          ]
+        },
+        {
+          "id": "swimwear",
+          "name": "Swimwear",
+          "qty": 1,
+          "trips": [
+            "beach"
+          ]
+        },
+        {
+          "id": "sun-hat",
+          "name": "Sunglasses and a cap or hat",
+          "trips": [
+            "week",
+            "beach",
+            "abroad"
+          ]
+        },
+        {
+          "id": "rain",
+          "name": "Umbrella or raincoat in the monsoon (June to September)",
+          "trips": [
+            "weekend",
+            "week",
+            "business",
+            "wedding",
+            "train",
+            "abroad"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Toiletries",
+      "items": [
+        {
+          "id": "teeth",
+          "name": "Toothbrush and toothpaste",
+          "trips": "all"
+        },
+        {
+          "id": "wash",
+          "name": "Soap or body wash, and shampoo in travel sizes",
+          "trips": "all"
+        },
+        {
+          "id": "deo",
+          "name": "Deodorant",
+          "trips": "all"
+        },
+        {
+          "id": "comb",
+          "name": "Comb and hair ties",
+          "trips": "all"
+        },
+        {
+          "id": "shaving",
+          "name": "Shaving kit",
+          "trips": "all"
+        },
+        {
+          "id": "sunscreen",
+          "name": "Sunscreen",
+          "trips": [
+            "week",
+            "hills",
+            "beach",
+            "abroad"
+          ]
+        },
+        {
+          "id": "lip-balm",
+          "name": "Moisturiser and lip balm",
+          "trips": [
+            "hills"
+          ]
+        },
+        {
+          "id": "wipes",
+          "name": "Wet wipes, tissues and hand sanitiser",
+          "trips": "all"
+        },
+        {
+          "id": "makeup",
+          "name": "Make-up and accessories for the functions",
+          "trips": [
+            "wedding"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health",
+      "items": [
+        {
+          "id": "medicines",
+          "name": "Your regular medicines, with the prescription",
+          "trips": "all"
+        },
+        {
+          "id": "first-aid",
+          "name": "Basic first aid: band-aids, a pain reliever and ORS",
+          "trips": "all"
+        },
+        {
+          "id": "motion",
+          "name": "Medicine for motion sickness on hill roads",
+          "trips": [
+            "hills"
+          ]
+        },
+        {
+          "id": "repellent",
+          "name": "Mosquito repellent",
+          "trips": [
+            "beach",
+            "train",
+            "week"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electronics",
+      "items": [
+        {
+          "id": "phone",
+          "name": "Phone and charger",
+          "trips": "all"
+        },
+        {
+          "id": "power-bank",
+          "name": "Power bank (keep it in your cabin bag, never in check-in)",
+          "trips": "all",
+          "link": "baggage/can-i-carry.html"
+        },
+        {
+          "id": "earphones",
+          "name": "Earphones",
+          "trips": "all"
+        },
+        {
+          "id": "laptop",
+          "name": "Laptop and charger",
+          "trips": [
+            "business"
+          ]
+        },
+        {
+          "id": "adapter",
+          "name": "Universal travel adapter",
+          "trips": [
+            "abroad"
+          ]
+        },
+        {
+          "id": "extension",
+          "name": "Small extension board (hotel rooms have few sockets)",
+          "trips": [
+            "week",
+            "business",
+            "wedding"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Travel extras",
+      "items": [
+        {
+          "id": "scale",
+          "name": "Luggage scale to avoid extra baggage fees",
+          "trips": [
+            "week",
+            "wedding",
+            "abroad"
+          ],
+          "pick": "B07Q822CWX"
+        },
+        {
+          "id": "cubes",
+          "name": "Packing cubes",
+          "trips": [
+            "week",
+            "abroad",
+            "wedding"
+          ],
+          "pick": "B0C4TV4M2F"
+        },
+        {
+          "id": "pillow",
+          "name": "Neck pillow and eye mask",
+          "trips": [
+            "train",
+            "abroad",
+            "week"
+          ],
+          "pick": "B0C7BM18PB"
+        },
+        {
+          "id": "bottle",
+          "name": "Water bottle",
+          "trips": "all"
+        },
+        {
+          "id": "snacks",
+          "name": "Dry snacks",
+          "trips": [
+            "train",
+            "hills",
+            "weekend"
+          ]
+        },
+        {
+          "id": "chain-lock",
+          "name": "Chain and lock to secure your bag to the berth",
+          "trips": [
+            "train"
+          ]
+        },
+        {
+          "id": "bedsheet",
+          "name": "Bedsheet and a light blanket (bedding comes only in AC coaches)",
+          "trips": [
+            "train"
+          ]
+        },
+        {
+          "id": "daypack",
+          "name": "Small backpack for day trips",
+          "trips": [
+            "week",
+            "hills",
+            "beach",
+            "abroad"
+          ],
+          "link": "category/backpacks.html"
+        },
+        {
+          "id": "ziplock",
+          "name": "Zip-lock bags for wet clothes",
+          "trips": [
+            "beach",
+            "hills"
+          ]
+        },
+        {
+          "id": "gift",
+          "name": "Gift for the couple",
+          "trips": [
+            "wedding"
+          ],
+          "link": "guides/wedding-gift-guide.html"
+        }
+      ]
+    }
+  ]
+}

@@ -70,5 +70,12 @@
     fields[3].focus();
   });
   fields.forEach(function (f) { f.addEventListener("input", update); });
+  // Links from a pick page (?bag=ASIN) open with that bag's size filled in.
+  var bag = new URLSearchParams(window.location.search).get("bag");
+  var index = data.picks.findIndex(function (p) { return p.asin === bag; });
+  if (index >= 0) {
+    $("bc-pick").value = String(index);
+    $("bc-pick").dispatchEvent(new Event("change"));
+  }
   update();
 })();

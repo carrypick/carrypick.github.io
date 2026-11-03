@@ -1,0 +1,55 @@
+{
+  "_note": "Indian Railways luggage rules (baggage/train-luggage-rules.html). Checked against indianrail.gov.in 'Rules for luggage' on 3 Nov 2026. Re-check every 3 months. Items from news only are labelled as such in the text.",
+  "checked": "2026-11-03",
+  "classes": [
+    {"class": "AC First Class", "free_kg": 70, "marginal_kg": 15, "max_kg": 150},
+    {"class": "AC 2-tier / First Class", "free_kg": 50, "marginal_kg": 10, "max_kg": 100},
+    {"class": "AC 3-tier / AC Chair Car", "free_kg": 40, "marginal_kg": 10, "max_kg": 40},
+    {"class": "Sleeper", "free_kg": 40, "marginal_kg": 10, "max_kg": 80},
+    {"class": "Second Class", "free_kg": 35, "marginal_kg": 10, "max_kg": 70}
+  ],
+  "quick": [
+    "Free luggage: 70 kg in AC First, 50 kg in AC 2-tier and First Class, 40 kg in AC 3-tier, AC Chair Car and Sleeper, and 35 kg in Second Class.",
+    "You can carry more in your coach if you book it at the luggage office and pay 1.5 times the luggage rate: up to 150 kg in AC First, 100 kg in AC 2-tier, 80 kg in Sleeper and 70 kg in Second Class.",
+    "In AC 3-tier and AC Chair Car, 40 kg is also the maximum. Anything more must go in the luggage van.",
+    "Suitcases up to 100 x 60 x 25 cm can go in the compartment. In AC 3-tier and AC Chair Car the limit is smaller: 55 x 45 x 22.5 cm.",
+    "Children aged 5 to 11 get half the adult allowance, up to 50 kg."
+  ],
+  "allowance_note": "The maximum includes the free allowance. Book anything above the free allowance at the station's luggage office before you travel. Indian Railways also allows a small margin (15 kg in AC First, 10 kg in other classes) before the heaviest penalty applies, but that extra weight is still charged.",
+  "size": {
+    "dims_cm": [100, 60, 25],
+    "ac3_dims_cm": [55, 45, 22.5],
+    "text": "Trunks, suitcases and boxes up to 100 x 60 x 25 cm (length x breadth x height, measured outside) can be carried in the compartment as personal luggage. In AC 3-tier and AC Chair Car coaches the maximum is 55 x 45 x 22.5 cm, about the size of a small cabin trolley. Bigger luggage must travel in the brake van (luggage van), and an oversized trunk found in the compartment is charged and moved there."
+  },
+  "excess": "Booked extra luggage that travels with you in the coach costs 1.5 times the luggage rate, with a minimum charge of ₹30. If staff find unbooked luggage over your allowance during the journey or at your destination, the extra weight is charged at six times the luggage rate, with a minimum of ₹50.",
+  "booking": "Take your luggage and your journey ticket to the luggage office at the station at least 30 minutes before the train's departure time. If you book your seat in advance, you can book your luggage in advance too. Pack it securely and label it with your name and address in English or Hindi. Heavy or bulky items such as trunks travel in the brake van of your train.",
+  "not_allowed": [
+    "Explosive, dangerous or inflammable things, such as firecrackers, kerosene, petrol and gas",
+    "Gas cylinders, including empty ones",
+    "Acids and other corrosive substances",
+    "Offensive articles that could harm or disturb other passengers",
+    "Dead poultry and game",
+    "Goods for trade: these must be booked as parcels, not carried as personal luggage"
+  ],
+  "notes": [
+    "Dogs can travel in an AC First Class or First Class compartment only if your fellow passengers agree and you pay in advance. Otherwise they travel in a dog box in the brake van. Dogs are not allowed in AC sleeper, AC Chair Car, Sleeper or Second Class coaches.",
+    "Scooters and motorcycles have no free allowance. You can book one as luggage if you travel on the same train: the petrol tank must be empty, and you need a copy of the registration certificate and a photo ID.",
+    "An oxygen cylinder with its stand is allowed free in all classes for a patient with a medical certificate.",
+    "If booked luggage is lost or damaged and you didn't declare its value, the railway pays at most ₹100 per kg.",
+    "News reports say that since 31 July 2026, passengers with confirmed tickets can book extra luggage online while booking the ticket. We couldn't find this on an official Indian Railways page yet.",
+    "In 2025, news reports said some stations, starting with Prayagraj, plan airport-style luggage weighing. We found no official notice that it has started."
+  ],
+  "faq": [
+    {"q": "How much luggage can I carry free on Indian trains?", "a": "70 kg in AC First Class, 50 kg in AC 2-tier and First Class, 40 kg in AC 3-tier, AC Chair Car and Sleeper, and 35 kg in Second Class."},
+    {"q": "Can I take a large suitcase in an AC 3-tier coach?", "a": "Only up to 55 x 45 x 22.5 cm. Bigger suitcases must be booked in the brake van. In other classes the limit is 100 x 60 x 25 cm."},
+    {"q": "What if my luggage is over the free allowance?", "a": "Book the extra weight at the luggage office before you travel and pay 1.5 times the luggage rate (minimum ₹30). Unbooked extra luggage found on the train is charged six times the rate (minimum ₹50). In AC 3-tier and AC Chair Car you can't book extra luggage into the coach; it must go in the luggage van."},
+    {"q": "How much luggage can a child carry on a train?", "a": "Children aged 5 to 11 get half the adult free allowance, up to 50 kg."},
+    {"q": "Can I carry a gas cylinder or firecrackers on a train?", "a": "No. Explosive, inflammable and dangerous goods, including gas cylinders, are not allowed as luggage."}
+  ],
+  "sources": [
+    {"label": "Indian Railways: rules for luggage", "url": "https://indianrail.gov.in/luggage_Rule.html"},
+    {"label": "Parcel and luggage rules", "url": "https://parcel.indianrail.gov.in/parcel_rules"},
+    {"label": "Prohibited items", "url": "https://parcel.indianrail.gov.in/parcel_prohibited.jsp"},
+    {"label": "Commercial Manual, chapter 8", "url": "https://ir.indianrailways.gov.in/railwayboard/uploads/codesmanual/CommManual-I/ComercialManualCh8_data.htm"}
+  ]
+}

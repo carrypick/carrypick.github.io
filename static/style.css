@@ -314,6 +314,34 @@ img { max-width: 100%; }
   .head-photo img { aspect-ratio: 16 / 10; }
 }
 
+/* Can I carry it? */
+.guide-wide { max-width: 900px; }
+.carry-table { min-width: 640px; }
+.carry-table td:nth-child(2), .carry-table td:nth-child(3) { min-width: 0; white-space: nowrap; }
+.carry-table .group-row th { background: var(--tint-none); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+.src { font-size: 0.78rem; color: var(--muted); }
+
+/* Packing checklists */
+.trip-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 18px; }
+.trip-chip { padding: 6px 14px; border-radius: 999px; background: var(--surface); border: 1px solid var(--line); color: var(--ink); text-decoration: none; font-weight: 700; font-size: 0.9rem; }
+.trip-chip:hover { border-color: var(--brand); color: var(--brand); }
+.trip-chip.on { background: var(--brand); border-color: var(--brand); color: var(--brand-ink); }
+.packer label { max-width: 220px; }
+.link-btn + .link-btn { margin-left: 12px; }
+.link-btn { padding: 0; border: 0; background: none; color: var(--brand); font: inherit; font-weight: 700; text-decoration: underline; cursor: pointer; }
+.pack-group h2 { margin: 26px 0 10px; font-size: 1.15rem; }
+.pack-group ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.pack-group li { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; padding: 10px 14px; border-radius: 12px; background: var(--surface); border: 1px solid var(--line); }
+.pack-group label { display: flex; align-items: flex-start; gap: 10px; flex: 1 1 240px; cursor: pointer; }
+.pack-group input[type=checkbox] { width: 20px; height: 20px; margin: 2px 0 0; flex: none; accent-color: var(--brand); }
+.pack-group input:checked + span { color: var(--muted); text-decoration: line-through; }
+.pk-qty { color: var(--brand); white-space: nowrap; }
+.pk-more { font-size: 0.85rem; font-weight: 700; }
+@media print {
+  .site-header, .band, .site-footer, .trip-chips, .packer, .page-head .photo, .pk-more { display: none !important; }
+  .pack-group li { break-inside: avoid; border-color: #999; }
+}
+
 /* Footer */
 .site-footer { margin-top: 0; padding: 44px 0 24px; background: #0a2a33; color: #b8cbd1; }
 .band + .site-footer { margin-top: 0; }

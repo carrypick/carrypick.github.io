@@ -1,6 +1,8 @@
 {
   "site_name": "CarryPick",
   "tagline": "Hand-picked bags, luggage and watches from Amazon India",
+  "home_title": "CarryPick: bags, luggage, watches and travel tools for India",
+  "home_description": "Hand-picked bags, luggage and watches from Amazon India, plus airline and train baggage rules, a cabin bag checker and packing lists.",
   "base_url": "https://carrypick.github.io",
   "amazon_tag": "carrypick-21",
   "channel_tags": {
@@ -17,6 +19,7 @@
       "hashtag": "#Backpacks",
       "icon": "backpack",
       "photo": "backpack-street",
+      "seo_title": "Best laptop backpacks and college bags in India",
       "guide": "laptop-backpack-guide",
       "intro": "Backpacks for college, office and weekend trips. We check laptop size, litres, padding and rain protection.",
       "tip": "Match the laptop sleeve to your laptop size, and choose 25–30 litres for everyday college use."
@@ -27,6 +30,7 @@
       "hashtag": "#Luggage",
       "icon": "suitcase",
       "photo": "trolley-walk",
+      "seo_title": "Best trolley bags and cabin luggage in India",
       "guide": "cabin-luggage-guide",
       "intro": "Cabin and check-in trolleys for Indian flights and train journeys.",
       "tip": "Most Indian airlines allow a 7 kg cabin bag. Add length + width + height and check your airline's limit before you buy."
@@ -37,6 +41,7 @@
       "hashtag": "#TravelGear",
       "icon": "plane",
       "photo": "packed-suitcase",
+      "seo_title": "Travel accessories: luggage scales, packing cubes and neck pillows",
       "guide": "cabin-luggage-guide",
       "intro": "Small things that make trips easier: luggage scales, packing cubes and neck pillows.",
       "tip": "Weigh your bag at home before you fly to avoid extra-baggage charges at the airport."
@@ -47,10 +52,12 @@
       "hashtag": "#Watches",
       "icon": "watch",
       "photo": "watch-wrist",
+      "seo_title": "Best analog watches for men and women in India",
       "guide": "first-analog-watch-guide",
       "intro": "Analog watches for daily wear, office and gifting, from brands with service centres across India.",
       "tip": "30 m water resistance means splash-proof only. Take the watch off before a bath or a swim."
     }
   },
-  "google_site_verification": "J1a1nkbqBSD4GD5IA0-q65aSsjz6WSl_dqXE9T3YW7k"
+  "google_site_verification": "J1a1nkbqBSD4GD5IA0-q65aSsjz6WSl_dqXE9T3YW7k",
+  "indexnow_key": "6b999987a31d80090eece50a701065be"
 }
