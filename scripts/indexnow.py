@@ -23,6 +23,8 @@ def main():
     key, base = cfg.get("indexnow_key"), cfg["base_url"].rstrip("/")
     if not key:
         sys.exit("Error: add indexnow_key to data/config.json first.")
+    if any(arg.startswith("-") for arg in sys.argv[1:]):
+        sys.exit(__doc__)
     if len(sys.argv) > 1:
         urls = [base + "/" + path.lstrip("/") for path in sys.argv[1:]]
     else:
