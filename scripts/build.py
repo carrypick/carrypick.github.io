@@ -134,16 +134,6 @@ def lang_pair(path):
     return next(((en, hi) for en, hi in HINDI_PAGES.items() if path in (en, hi)), None)
 
 
-def lang_switch(path, p):
-    """Link to the same page in the other language, for the page header."""
-    pair = lang_pair(path)
-    if not pair:
-        return ""
-    if path == pair[0]:
-        return f'<p class="lang-switch"><a href="{p}{pair[1]}" hreflang="hi" lang="hi">हिंदी में पढ़ें</a></p>'
-    return f'<p class="lang-switch"><a href="{p}{pair[0]}" hreflang="en" lang="en">Read in English</a></p>'
-
-
 # Languages offered through Google Translate in the header menu (code, name in that language, name in English).
 GT_LANGS = [("bn", "বাংলা", "Bengali"), ("mr", "मराठी", "Marathi"), ("ta", "தமிழ்", "Tamil"), ("te", "తెలుగు", "Telugu"),
             ("kn", "ಕನ್ನಡ", "Kannada"), ("gu", "ગુજરાતી", "Gujarati"), ("ml", "മലയാളം", "Malayalam"), ("pa", "ਪੰਜਾਬੀ", "Punjabi"),
@@ -826,7 +816,7 @@ def build_baggage(cfg, deals, data, pages, lastmod):
     desc = ("Cabin bag size and weight, extra small bag and free check-in baggage for IndiGo, Air India, "
             "Air India Express, Akasa Air and SpiceJet domestic flights, checked against official websites.")
     limits_fig = diagram_figure("cabin-limits", "../") if "cabin-limits" in DIAGRAMS else ""
-    body = f"""{head(title, "Baggage rules", "Checked on " + fmt_date(checked) + " against each airline's official website", BAGGAGE_PHOTO, lang_switch("baggage/index.html", "../"))}
+    body = f"""{head(title, "Baggage rules", "Checked on " + fmt_date(checked) + " against each airline's official website", BAGGAGE_PHOTO)}
 <div class="wrap"><article class="guide">
 <p class="lead">Domestic economy limits for India's main airlines, in one place. Tap an airline for the full rules, fare types and tips.</p>
 {checker_cta}
@@ -1032,7 +1022,7 @@ def build_railways(cfg, deals, pages, lastmod):
                                                                last["class"], " x ".join(num(x) for x in size["dims_cm"]), fmt_date(checked)))
     inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="index.html">Baggage rules</a><span>/</span>Trains</nav>
       <h1>{e(title)}</h1>
-      <p class="muted small">Checked on {fmt_date(checked)} against Indian Railways' official pages</p>{lang_switch("baggage/train-luggage-rules.html", "../")}"""
+      <p class="muted small">Checked on {fmt_date(checked)} against Indian Railways' official pages</p>"""
     body = f"""{page_head("backpacks", f'<div class="media media-tile tint-backpacks">{icon("train", "icon media-icon")}</div>', inner, "../")}
 <div class="wrap"><article class="guide">
 <div class="answer"><h2>Quick answer</h2><ul>{"".join("<li>%s</li>" % e(x) for x in data["quick"])}</ul></div>
@@ -1089,7 +1079,7 @@ def build_can_i_carry(cfg, pages, lastmod):
             "cabin bag or check-in baggage on flights in India. Checked %s." % (count, fmt_date(checked)))
     inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="index.html">Baggage rules</a><span>/</span>Can I carry it?</nav>
       <h1>{e(title)}</h1>
-      <p class="muted small">Checked on {fmt_date(checked)} against BCAS, DGCA and airline pages</p>{lang_switch("baggage/can-i-carry.html", "../")}"""
+      <p class="muted small">Checked on {fmt_date(checked)} against BCAS, DGCA and airline pages</p>"""
     body = f"""{page_head("watches", f'<div class="media media-tile tint-watches">{icon("shield", "icon media-icon")}</div>', inner, "../")}
 <div class="wrap"><article class="guide guide-wide">
 <div class="answer"><h2>The rules most people get wrong</h2><ul>{"".join("<li>%s</li>" % e(x) for x in data["key_rules"])}</ul></div>
@@ -1144,7 +1134,7 @@ def build_hindi(cfg, deals, airlines, pages, lastmod):
     def head(path, title, crumb, sub, tint, art):
         inner = f"""<nav class="crumbs"><a href="../index.html">{L["home"]}</a><span>/</span>{e(crumb)}</nav>
       <h1>{e(title)}</h1>
-      <p class="muted small">{e(sub)}</p>{lang_switch(path, "../")}"""
+      <p class="muted small">{e(sub)}</p>"""
         return page_head(tint, f'<div class="media media-tile tint-{tint}">{art}</div>', inner, "../")
 
     def pills(current):
