@@ -840,7 +840,7 @@ def load_airlines(path=AIRLINES_FILE):
 
 
 def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_cta, scale_link):
-    """baggage/international.html: economy baggage on flights between India and the Gulf (data/airlines_intl.json)."""
+    """baggage/international.html: economy baggage on international flights from India (data/airlines_intl.json)."""
     airlines, checked = intl["airlines"], intl["checked"]
     names = [a["name"] for a in airlines]
     rows = "".join(f"""<tr><th scope="row"><a href="{a['slug']}.html">{e(a['name'])}</a><span class="why">{e(a.get('hub', ''))}</span></th>
@@ -852,20 +852,20 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
         + "".join("<td>%s</td>" % fit_badge(*size_fit(dims, a["cabin"])[::2]) for a in airlines) + "</tr>"
         for d, dims, kg in picks)
     faq = [
-        ("How many kg can I take from India to Dubai?", "On Emirates, 20 kg to 35 kg of checked baggage depending on your fare; on flydubai, none on Lite, 20 kg on Value and 30 kg on Flex; on Air Arabia, none on Basic. All three allow a 7 kg cabin bag."),
-        ("Which Gulf airline has the smallest cabin bag limit?", "Qatar Airways: 50 x 37 x 25 cm and 7 kg, smaller than most 55 cm trolleys sold in India. Measure your bag before you fly."),
-        ("Can I carry a bag tied with rope or a cloth bundle?", "Qatar Airways won't accept bags tied with rope or string or wrapped in blankets. flydubai and Emirates ask for bags with a flat side and no loose straps, and may make you repack in a box."),
-        ("Can I use a power bank on Emirates?", "No. Since 1 October 2025 Emirates doesn't allow using or charging power banks on board. You can still carry one under 100 Wh in your cabin bag, never in checked baggage. Etihad, flydubai and Air Arabia also ban using them on board."),
-        ("What is the maximum weight of one checked bag?", "32 kg on all five airlines, even if your total allowance is higher. Split heavy luggage into two bags."),
+        ("How many kg can I take from India to Dubai?", "It depends on the airline and fare: Emirates gives 20–35 kg, IndiGo 30 kg on regular fares, Air India 25–35 kg, and flydubai 20–30 kg (none on Lite). All allow a 7 kg cabin bag."),
+        ("Which airline has the smallest cabin bag limit?", "Gulf Air: 6 kg and 45 x 40 x 30 cm. Qatar Airways is also strict at 50 x 37 x 25 cm. Most 55 cm trolleys sold in India are too big for both."),
+        ("Can I carry a bag tied with rope or a cloth bundle?", "Usually not. Qatar Airways and Gulf Air refuse bags tied with rope or wrapped in blankets, and Dubai, Sharjah, Bahrain and Muscat airports have similar rules. Pack things in a suitcase or a sealed box."),
+        ("Can I use a power bank on Emirates?", "No. Since 1 October 2025 Emirates doesn't allow using or charging power banks on board. You can still carry one under 100 Wh in your cabin bag, never in checked baggage. Most other airlines here have similar rules."),
+        ("What is the maximum weight of one checked bag?", "32 kg on every airline here, even if your total allowance is higher. On Saudia and Kuwait Airways economy, each piece is 23 kg."),
     ]
     faq_html, faq_schema = faq_block(faq)
-    title = "Baggage rules for flights from India to the Gulf"
-    seo = "Baggage allowance India to Dubai, Doha, Abu Dhabi %s: Emirates, Qatar, flydubai" % checked[:4]
-    desc = ("Cabin bag size and weight, personal item and checked baggage by fare for Emirates, Qatar Airways, Etihad, flydubai "
-            "and Air Arabia on flights from India. Checked against official websites, %s." % fmt_date(checked))
-    body = f"""{head(title, '<a href="index.html">Baggage rules</a><span>/</span>Gulf airlines', "Checked on " + fmt_date(checked) + " against each airline's official website &middot; economy, India routes", BAGGAGE_PHOTO)}
+    title = "Baggage rules for international flights from India"
+    seo = "International baggage allowance from India %s: Emirates, Qatar, Saudia, IndiGo, Air India" % checked[:4]
+    desc = ("Cabin bag size and checked baggage by fare for %d airlines on flights from India to the Gulf and Singapore, "
+            "including Emirates, Qatar Airways, Saudia, IndiGo and Air India. Checked against official websites, %s." % (len(airlines), fmt_date(checked)))
+    body = f"""{head(title, '<a href="index.html">Baggage rules</a><span>/</span>International', "Checked on " + fmt_date(checked) + " against each airline's official website &middot; economy, India routes", BAGGAGE_PHOTO)}
 <div class="wrap"><article class="guide">
-<p class="lead">Economy baggage on flights between India and Dubai, Doha, Abu Dhabi and Sharjah, in one place. Tap an airline for the full rules, infant allowance and tips.</p>
+<p class="lead">Economy baggage on flights between India and the Gulf (Dubai, Doha, Abu Dhabi, Sharjah, Jeddah, Muscat, Bahrain, Kuwait) and Singapore, in one place. Tap an airline for the full rules, infant allowance and tips.</p>
 {checker_cta}
 <h2>Cabin and checked baggage at a glance</h2>
 <div class="table-wrap"><table class="compare"><thead><tr><th>Airline</th><th>Cabin bag</th><th>Cabin size limit</th><th>Extra small bag</th><th>Checked baggage (economy)</th></tr></thead><tbody>{rows}</tbody></table></div>
@@ -873,20 +873,20 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
 <h2>Rules that catch travellers out</h2>
 <ul>
 <li><strong>32 kg per bag.</strong> Even with a 35 or 40 kg allowance, no single bag can weigh more than 32 kg. Split heavy luggage into two bags.</li>
-<li><strong>Weight, not pieces.</strong> All five airlines use the weight concept on India routes, so your total kg is what counts. flydubai allows up to 3 bags, and Air Arabia up to 2.</li>
-<li><strong>Bags need a flat side.</strong> Qatar Airways refuses round bags and bundles tied with rope or wrapped in blankets. Emirates and flydubai ask you to repack odd-shaped items in a box.</li>
-<li><strong>Power banks stay in the cabin, switched off.</strong> Emirates, Etihad, flydubai and Air Arabia don't allow using them on board. Qatar Airways bans charging a power bank on board. Never pack one in a checked bag.</li>
-<li><strong>Cheap fares may have no checked bag.</strong> Etihad Basic, flydubai Lite and Air Arabia Basic include only a cabin bag. Buying extra baggage online before you fly is much cheaper than at the airport.</li>
+<li><strong>Weight or pieces?</strong> Most airlines here count your total kg. Kuwait Airways counts pieces (2 x 23 kg on Economy), and Saudia's economy bags are 23 kg each. Some airlines also limit the number of bags: IndiGo 2, Air Arabia 2, flydubai 3.</li>
+<li><strong>Bags need a flat side.</strong> Qatar Airways and Gulf Air refuse round bags and bundles tied with rope or wrapped in blankets. Emirates and flydubai ask you to repack odd-shaped items in a box, and Muscat airport charges extra for them.</li>
+<li><strong>Power banks stay in the cabin.</strong> Most of these airlines don't allow using or charging power banks on board, and Qatar Airways bans charging them. Never pack one in a checked bag.</li>
+<li><strong>Cheap fares may have no checked bag.</strong> Etihad Basic, flydubai Lite, Air Arabia Basic, IndiGo Lite and Kuwait Airways Zero Bag include only a cabin bag. Buying extra baggage online before you fly is much cheaper than at the airport.</li>
 <li><strong>Medicines into the UAE.</strong> Controlled medicines need approval from the UAE health ministry before you travel. Carry the prescription.</li>
 <li><strong>Keep gold, cash and documents with you.</strong> flydubai says not to pack money, jewellery or precious metals in checked bags.</li>
 </ul>
 <h2>Do our cabin picks fit?</h2>
-<p>Based on the size listed on Amazon. Qatar Airways' 50 cm limit is the hardest to meet, so a backpack is often the safest cabin bag.</p>
+<p>Based on the size listed on Amazon. Gulf Air's and Qatar Airways' limits are the hardest to meet, so a backpack is often the safest cabin bag.</p>
 <div class="table-wrap"><table class="compare"><thead><tr><th>Our pick</th>{matrix_head}</tr></thead><tbody>{matrix_rows}</tbody></table></div>
 <p>Weigh your packed bags at home with a {scale_link}, and try our <a href="../tools/bag-weight.html">bag weight calculator</a>.</p>
 {faq_html}
-<h2>Indian airlines too</h2>
-<p>IndiGo and Air India Express also fly to the Gulf, but their international allowances differ from their domestic ones. Check your ticket, and see our <a href="index.html">baggage rules for Indian airlines</a> for domestic flights.</p>
+<h2>Flying within India?</h2>
+<p>Domestic allowances are smaller: usually a 7 kg cabin bag and 15 kg of check-in baggage. See our <a href="index.html">baggage rules for Indian airlines</a>.</p>
 {tool_pills("../", "baggage/international.html")}
 </article></div>
 {telegram_band(cfg, "../")}"""
@@ -943,7 +943,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None):
     body = f"""{head(title, "Baggage rules", "Checked on " + fmt_date(checked) + " against each airline's official website", BAGGAGE_PHOTO)}
 <div class="wrap"><article class="guide">
 <p class="lead">Domestic economy limits for India's main airlines, in one place. Tap an airline for the full rules, fare types and tips.</p>
-{('<p>Flying abroad? See the <a href="international.html">baggage rules for Emirates, Qatar Airways, Etihad, flydubai and Air Arabia</a> on flights from India.</p>') if intl_airlines else ''}
+{('<p>Flying abroad? See the <a href="international.html">international baggage rules</a> for Emirates, Qatar Airways, Saudia, Singapore Airlines, IndiGo and Air India and more, on flights from India.</p>') if intl_airlines else ''}
 {checker_cta}
 <h2>Cabin and check-in baggage at a glance</h2>
 <div class="table-wrap"><table class="compare"><thead><tr><th>Airline</th><th>Cabin bag</th><th>Cabin size limit</th><th>Extra small bag</th><th>Free check-in (domestic)</th></tr></thead><tbody>{rows}</tbody></table></div>
@@ -991,11 +991,12 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None):
             faq.insert(2, ("Can I carry a laptop bag or handbag too?", a["personal"]["summary"] + "."))
         faq_html = "".join("<h3>%s</h3><p>%s</p>" % (e(q), e(ans)) for q, ans in faq)
         if abroad:
-            title = "%s baggage allowance from India: cabin bag and checked baggage" % a["name"]
-            seo = "%s baggage allowance from India %s: cabin bag size and kg by fare" % (a["name"], year)
+            nm = a.get("page_name", a["name"])
+            title = "%s baggage allowance from India: cabin bag and checked baggage" % nm
+            seo = "%s baggage allowance from India %s: cabin bag size and kg by fare" % (nm, year)
             desc = "%s economy baggage on India flights: %s, %s. Checked baggage: %s. Checked %s." % (
-                a["name"], cabin["summary"], size_limit_text(cabin), a["checkin_summary"], fmt_date(a_checked))
-            crumb_html = '<a href="index.html">Baggage rules</a><span>/</span><a href="international.html">Gulf airlines</a>'
+                nm, cabin["summary"], size_limit_text(cabin), a["checkin_summary"], fmt_date(a_checked))
+            crumb_html = '<a href="index.html">Baggage rules</a><span>/</span><a href="international.html">International</a>'
             scope_text = "economy on India routes"
         else:
             title = "%s baggage rules: cabin bag size, weight and check-in" % a["name"]
@@ -1037,7 +1038,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None):
 {telegram_band(cfg, "../")}"""
         path = "baggage/%s.html" % a["slug"]
         crumbs = crumbs_schema(cfg, [("Home", ""), ("Baggage rules", "baggage/index.html")]
-                               + ([("Gulf airlines", "baggage/international.html")] if abroad else []) + [(a["name"], path)])
+                               + ([("International", "baggage/international.html")] if abroad else []) + [(a["name"], path)])
         faq_schema = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
             {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": ans}} for q, ans in faq]}
         pages.append(write(path, page(cfg, seo, desc, body, 1, path, [article_schema(seo, desc, path), crumbs, faq_schema],
@@ -1050,7 +1051,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None):
     # Bag checker
     # Some airlines have a smaller limit on some planes; the checker shows those as extra rows.
     rows_for_checker = []
-    for a in airlines + intl_airlines:
+    for a in airlines + [x for x in intl_airlines if x.get("checker", True)]:
         rows_for_checker.append((a["slug"], a["name"], a["slug"], a["cabin"]))
         for i, v in enumerate(a["cabin"].get("variants", []), 1):
             rows_for_checker.append(("%s-%d" % (a["slug"], i), "%s (%s)" % (a["name"], v["label"]), a["slug"],
@@ -1066,10 +1067,10 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None):
                           '<td class="r-size"><span class="fit fit-na">Enter size</span></td>'
                           '<td class="r-kg"><span class="fit fit-na">Enter weight</span></td></tr>'
                           for key, name, page_slug, c in rows_for_checker)
-    title = "Will my bag fit? Cabin bag checker for Indian and Gulf airlines" if intl_airlines else "Will my bag fit? Cabin bag checker for Indian airlines"
+    title = "Will my bag fit? Cabin bag checker for Indian and international airlines" if intl_airlines else "Will my bag fit? Cabin bag checker for Indian airlines"
     seo = "Cabin bag size checker: will my bag fit IndiGo, Air India, Akasa or SpiceJet?"
     desc = ("Type your bag's length, width, height and weight to see if it fits the cabin baggage limits of India's main airlines"
-            + (" and Emirates, Qatar Airways, Etihad, flydubai and Air Arabia." if intl_airlines else "."))
+            + (", plus Emirates, Qatar Airways, Saudia, Singapore Airlines and other international airlines." if intl_airlines else "."))
     body = f"""{head(title, '<a href="index.html">Baggage rules</a>', "Airline limits checked on " + fmt_date(checked) + " &middot; economy")}
 <div class="wrap"><article class="guide">
 <form class="checker" id="bag-checker" onsubmit="return false">
@@ -1094,7 +1095,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None):
 <ul>
 <li>We compare your bag's longest side with the airline's longest allowed side, and so on, because a bag can be turned to fit.</li>
 <li>When an airline gives a total size (length + width + height), we add up your three sides.</li>
-<li>These are the standard economy limits: domestic flights for Indian airlines, and India routes for Gulf airlines. Your fare, route or aircraft can change them.</li>
+<li>These are the standard economy limits: domestic flights for Indian airlines, and India routes for international airlines. Your fare, route or aircraft can change them.</li>
 </ul>
 <p>See the <a href="index.html">full baggage rules for each airline</a>, or read <a href="../guides/cabin-luggage-guide.html">how to pick a cabin trolley</a>.</p>
 {tool_pills("../", "baggage/checker.html")}
@@ -1466,7 +1467,7 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
     kg_rows = "".join(f"<tr><th scope=\"row\">{k} kg</th><td>{lb(k)} lb</td></tr>" for k in KG_ROWS)
     air_rows, us_fit = "", []
     us = [22 * 2.54, 14 * 2.54, 9 * 2.54]
-    for a in (airlines or {}).get("airlines", []) + (intl or {}).get("airlines", []):
+    for a in (airlines or {}).get("airlines", []) + [x for x in (intl or {}).get("airlines", []) if x.get("checker", True)]:
         c = a["cabin"]
         if not c.get("dims_cm"):
             continue
@@ -1524,7 +1525,7 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
 <p>Sizes are the bag's height. Sellers don't always say whether it includes the wheels, so check the full size on the listing.</p>
 <div class="table-wrap"><table class="compare"><thead><tr><th>Inches</th><th>cm</th><th>Size</th><th>Trip length</th></tr></thead><tbody>{size_rows}</tbody></table></div>
 {size_fig}
-{('<h2>Cabin bag limits in inches: Indian and Gulf airlines</h2><div class="table-wrap"><table class="compare"><thead><tr><th>Airline</th><th>Size limit (cm)</th><th>In inches</th><th>Weight</th></tr></thead><tbody>' + air_rows + '</tbody></table></div><p class="checked">Economy limits: domestic flights for Indian airlines, India routes for Gulf airlines. From our <a href="index.html">baggage rules</a> and <a href="international.html">Gulf airline</a> pages. Check your ticket before you fly.</p>') if air_rows else ""}
+{('<h2>Cabin bag limits in inches: Indian and international airlines</h2><div class="table-wrap"><table class="compare"><thead><tr><th>Airline</th><th>Size limit (cm)</th><th>In inches</th><th>Weight</th></tr></thead><tbody>' + air_rows + '</tbody></table></div><p class="checked">Economy limits: domestic flights for Indian airlines, India routes for international airlines. From our <a href="index.html">baggage rules</a> and <a href="international.html">international baggage</a> pages. Check your ticket before you fly.</p>') if air_rows else ""}
 <h2>Check-in bag size</h2>
 <p>Most Indian airlines limit each checked bag to <strong>158 cm in total</strong> (length + width + height), which is about {inch(158)} inches, and <strong>32 kg</strong> (about {lb(32)} lb). A large 75–79 cm trolley usually stays within 158 cm; an extra-large one may not.</p>
 <h2>Kilograms to pounds</h2>
@@ -1860,9 +1861,9 @@ def build():
         TOOLS.append(("baggage/checker.html", "Cabin bag checker", "Free tool", "Will my bag fit? Cabin bag checker",
                       "Type your bag's size and weight and see which airlines accept it as a cabin bag.", "Check your bag", "ruler", "luggage"))
     if intl_airlines:
-        TOOLS.append(("baggage/international.html", "Gulf airline baggage", "Emirates &middot; Qatar &middot; flydubai &middot; Air Arabia",
-                      "Baggage rules for flights to the Gulf", "Cabin bag size and checked kg by fare for flights from India to Dubai, Doha, Abu Dhabi and Sharjah.",
-                      "See Gulf rules", "plane", "luggage"))
+        TOOLS.append(("baggage/international.html", "International baggage rules", "Emirates &middot; Qatar &middot; Saudia &middot; Singapore",
+                      "Baggage rules for international flights", "Cabin bag size and checked kg by fare for 12 airlines flying from India to the Gulf and Singapore.",
+                      "See the rules", "plane", "luggage"))
     TOOLS.append(("baggage/luggage-size-chart.html", "Luggage size chart", "Inches &middot; cm &middot; kg &middot; lb",
                   "Luggage size chart: inches to cm", "20, 24 or 28 inch? Trolley sizes in cm, airline cabin limits in inches, and kg to pounds.",
                   "See the chart", "ruler", "travel-gear"))
