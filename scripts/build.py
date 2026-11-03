@@ -19,6 +19,7 @@ from common import IST, ROOT, amazon_link, load_config, load_deals
 
 DOCS = ROOT / "docs"
 ARTICLES_DIR = ROOT / "content" / "articles"
+TRIPS_DIR = ROOT / "content" / "trips"
 AIRLINES_FILE = ROOT / "data" / "airlines.json"
 PHOTOS_FILE = ROOT / "data" / "photos.json"
 RAILWAYS_FILE = ROOT / "data" / "railways.json"
@@ -57,6 +58,7 @@ ICONS = {
     "ruler": '<rect x="2.5" y="8" width="19" height="8" rx="1.5"/><path d="M6.5 8v3M10.5 8v4M14.5 8v3M18.5 8v4"/>',
     "pin": '<path d="M12 21s-6-5.4-6-10a6 6 0 0 1 12 0c0 4.6-6 10-6 10z"/><circle cx="12" cy="11" r="2.2"/>',
     "send": '<path d="M21 4 3 11l6.5 2.5L19 7l-7 8.2V20l3.2-3.6L19 19.5z"/>',
+    "globe": '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/>',
     "chat": '<path d="M20.5 11.5a8.5 8.5 0 0 1-12.6 7.4L3.5 20l1.2-4.2A8.5 8.5 0 1 1 20.5 11.5z"/>',
     "book": '<path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 1 6.5 18H20v3H6.5"/>',
     "tag": '<path d="M3.5 12.2V4.5a1 1 0 0 1 1-1h7.7l8.3 8.3-8.7 8.7z"/><circle cx="8" cy="8" r="1.6"/>',
@@ -142,6 +144,36 @@ def lang_switch(path, p):
     return f'<p class="lang-switch"><a href="{p}{pair[0]}" hreflang="en" lang="en">Read in English</a></p>'
 
 
+# Languages offered through Google Translate in the header menu (code, name in that language, name in English).
+GT_LANGS = [("bn", "বাংলা", "Bengali"), ("mr", "मराठी", "Marathi"), ("ta", "தமிழ்", "Tamil"), ("te", "తెలుగు", "Telugu"),
+            ("kn", "ಕನ್ನಡ", "Kannada"), ("gu", "ગુજરાતી", "Gujarati"), ("ml", "മലയാളം", "Malayalam"), ("pa", "ਪੰਜਾਬੀ", "Punjabi"),
+            ("ru", "Русский", "Russian"), ("de", "Deutsch", "German"), ("fr", "Français", "French"), ("es", "Español", "Spanish")]
+
+
+def language_menu(path, p, lang):
+    """Header language menu: our own English and Hindi pages where both exist; Google Translate for the rest.
+    Google's script loads only after a visitor picks one of those languages (static/site.js)."""
+    pair = lang_pair(path)
+    if lang == "hi":
+        en = f'<a href="{p}{pair[0]}" lang="en" data-gt-reset>English</a>'
+        hi = '<span class="on" lang="hi" aria-current="true">हिंदी</span>'
+    else:
+        en = '<button type="button" class="on" data-lang="en" lang="en" aria-current="true">English</button>'
+        hi = (f'<a href="{p}{pair[1]}" lang="hi" data-gt-reset>हिंदी</a>' if pair
+              else '<button type="button" data-lang="hi" lang="hi" title="Hindi, by Google Translate">हिंदी <small lang="en">Google</small></button>')
+    others = "".join(f'<button type="button" data-lang="{c}" lang="{c}" title="{name}">{native}</button>' for c, native, name in GT_LANGS)
+    return f"""<details class="lang-menu notranslate">
+      <summary aria-label="Choose language">{icon("globe", "icon icon-sm")}<span class="lang-code">{"हिं" if lang == "hi" else "EN"}</span></summary>
+      <div class="lang-panel">
+        <p class="lang-head">Language</p>
+        <div class="lang-grid">{en}{hi}</div>
+        <p class="lang-head">Translate with Google</p>
+        <div class="lang-grid">{others}</div>
+        <p class="lang-note">{"हिंदी पेज हमने ख़ुद लिखे हैं। " if lang == "hi" else ""}Other languages are machine translations by Google and may have mistakes. Google Translate loads only after you pick a language.</p>
+      </div>
+    </details>"""
+
+
 def page(cfg, title, description, body, depth, path, schema=None, og_type="website", photo=None, robots="max-image-preview:large", lang="en"):
     p = "../" * depth
     name = e(cfg["site_name"])
@@ -206,12 +238,13 @@ def page(cfg, title, description, body, depth, path, schema=None, og_type="websi
 <body>
 <header class="site-header">
   <div class="wrap header-row">
-    <a class="brand" href="{p}index.html"><img src="{p}assets/logo.png" alt="" width="34" height="34"><span>{name}</span></a>
-    <nav class="main-nav">{nav}<a class="nav-keep" href="{p}baggage/index.html">Baggage<span class="nav-long"> rules</span></a><a class="nav-keep" href="{p}guides/index.html">Guides</a></nav>
+    <a class="brand notranslate" href="{p}index.html"><img src="{p}assets/logo.png" alt="" width="34" height="34"><span>{name}</span></a>
+    <nav class="main-nav">{nav}<a class="nav-keep" href="{p}baggage/index.html">Baggage<span class="nav-long"> rules</span></a>{('<a class="nav-keep" href="%strips/index.html">Trips</a>' % p) if TRIPS_DIR.exists() else ""}<a class="nav-keep" href="{p}guides/index.html">Guides</a></nav>
     {tg_btn}
+    {language_menu(path, p, lang)}
   </div>
 </header>
-<p class="disclosure-bar"><span class="wrap">We may earn a commission when you buy through links on this site. {DISCLOSURE}</span></p>
+<p class="disclosure-bar"><span class="wrap">We may earn a commission when you buy through links on this site. <span class="notranslate">{DISCLOSURE}</span></span></p>
 <script>window.CARRYPICK_TAGS = {json.dumps(cfg.get("channel_tags", {}))};</script>
 <script src="{p}assets/site.js" defer></script>
 <main>
@@ -226,6 +259,7 @@ def page(cfg, title, description, body, depth, path, schema=None, og_type="websi
     <div><h4>Categories</h4><ul>{foot_cats}</ul></div>
     <div><h4>CarryPick</h4><ul>
       <li><a href="{p}guides/index.html">Buying guides</a></li>
+      {('<li><a href="%strips/index.html">Trip guides</a></li>' % p) if TRIPS_DIR.exists() else ""}
       {"".join('<li><a href="%s%s">%s</a></li>' % (p, t[0], e(t[1])) for t in TOOLS)}
       {hindi_foot}
       <li><a href="{p}about.html">About us</a></li>
@@ -238,7 +272,7 @@ def page(cfg, title, description, body, depth, path, schema=None, og_type="websi
     </ul></div>
   </div>
   <div class="wrap footer-bottom">
-    <p>{DISCLOSURE} Prices and availability are shown only on Amazon.in and can change at any time.</p>
+    <p><span class="notranslate">{DISCLOSURE}</span> Prices and availability are shown only on Amazon.in and can change at any time.</p>
     <p>&copy; {date.today().year} {name}</p>
   </div>
 </footer>
@@ -458,10 +492,17 @@ def md_inline(text, p):
 
 
 def render_markdown(md, cfg, deals_by_asin, p, source):
-    out, para, items, list_tag = [], [], [], None
+    out, para, items, list_tag, rows = [], [], [], None, []
 
     def flush():
-        nonlocal para, items, list_tag
+        nonlocal para, items, list_tag, rows
+        if rows:
+            cells = [[c.strip() for c in r.strip("|").split("|")] for r in rows if not re.fullmatch(r"[\s|:-]+", r)]
+            head = "".join("<th>%s</th>" % md_inline(c, p) for c in cells[0])
+            body = "".join("<tr>%s</tr>" % "".join(("<th scope=\"row\">%s</th>" if i == 0 else "<td>%s</td>") % md_inline(c, p)
+                                                    for i, c in enumerate(r)) for r in cells[1:])
+            out.append('<div class="table-wrap"><table class="compare"><thead><tr>%s</tr></thead><tbody>%s</tbody></table></div>' % (head, body))
+            rows = []
         if para:
             out.append("<p>%s</p>" % md_inline(" ".join(para), p))
             para = []
@@ -478,6 +519,10 @@ def render_markdown(md, cfg, deals_by_asin, p, source):
         ol = re.match(r"^\d+\. (.+)", line)
         if not line:
             flush()
+        elif line.startswith("|"):
+            if para or items:
+                flush()
+            rows.append(line)
         elif diagram:
             flush()
             out.append(diagram_figure(diagram.group(1), p))
@@ -514,9 +559,19 @@ def render_markdown(md, cfg, deals_by_asin, p, source):
     return "\n".join(out)
 
 
-def load_articles():
+def md_faq(md):
+    """Questions and answers from a '## Questions' section (### question, then the answer paragraph), for FAQPage data."""
+    section = re.search(r"^## Questions\n(.*?)(?=^## |\Z)", md, re.S | re.M)
+    if not section:
+        return []
+    plain = lambda t: re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", t).replace("**", "")
+    return [(q.strip(), plain(" ".join(a.split())))
+            for q, a in re.findall(r"^### (.+?)\n(.*?)(?=^### |\Z)", section.group(1), re.S | re.M) if a.strip()]
+
+
+def load_articles(directory=ARTICLES_DIR):
     articles = []
-    for path in sorted(ARTICLES_DIR.glob("*.md")):
+    for path in sorted(directory.glob("*.md")):
         text = path.read_text(encoding="utf-8")
         match = re.match(r"^---\n(.*?)\n---\n(.*)$", text, re.S)
         if not match:
@@ -548,6 +603,82 @@ def guide_cards(cfg, articles, p):
   </div>
 </a>""")
     return '<div class="guide-grid">%s</div>' % "".join(cards)
+
+
+def trip_cards(trips, p):
+    cards = []
+    for t in trips:
+        art = ('<div class="guide-art guide-photo">%s</div>' % photo_img(t["photo"], p, "(min-width: 700px) 360px, 100vw", alt="")
+               if t.get("photo") in PHOTOS else f'<div class="guide-art tint-travel-gear">{icon("pin", "icon guide-icon")}</div>')
+        best = " &middot; Best: %s" % e(t["best"]) if t.get("best") else ""
+        cards.append(f"""<a class="guide-card" href="{p}trips/{t['slug']}.html">
+  {art}
+  <div class="guide-body">
+    <p class="eyebrow">Trip guide{best}</p>
+    <h3>{e(t['title'])}</h3>
+    <p>{e(t['description'])}</p>
+    <span class="more">Plan your trip {icon("arrow", "icon icon-sm")}</span>
+  </div>
+</a>""")
+    return '<div class="guide-grid">%s</div>' % "".join(cards)
+
+
+def build_trips(cfg, trips, deals_by_asin, pages, lastmod):
+    """Destination trip guides from content/trips/*.md (front matter: place, best, glance "Label=Value | ...", packing)."""
+    for t in trips:
+        if t.get("photo") and t["photo"] not in PHOTOS:
+            sys.exit("Error: trip %s uses photo %s, which is not in data/photos.json" % (t["slug"], t["photo"]))
+        content = render_markdown(t["body"], cfg, deals_by_asin, "../", "trips/%s.md" % t["slug"])
+        glance = [part.split("=", 1) for part in t.get("glance", "").split(" | ") if "=" in part]
+        glance_html = ('<div class="answer"><h2>%s at a glance</h2><div class="table-wrap"><table class="compare glance"><tbody>%s</tbody></table></div></div>'
+                       % (e(t.get("place", t["title"])), "".join('<tr><th scope="row">%s</th><td>%s</td></tr>' % (e(k.strip()), md_inline(v.strip(), "../"))
+                                                                  for k, v in glance))) if glance else ""
+        pack = t.get("packing")
+        pack_link = (f'our <a href="../packing/{e(pack)}.html">packing checklist</a>' if pack and (DOCS / "packing" / (pack + ".html")).exists()
+                     else 'our <a href="../packing/index.html">packing checklists</a>')
+        tip = (f'<aside class="tip">{icon("check", "icon tip-icon")}<div><strong>Packing for {e(t.get("place", "your trip"))}?</strong>'
+               f'<p>Tick things off with {pack_link}, check <a href="../baggage/can-i-carry.html">what you can carry on the flight</a>, '
+               f'and see the <a href="../baggage/index.html">airline baggage rules</a>.</p></div></aside>')
+        inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="index.html">Trip guides</a><span>/</span>{e(t.get("place", t["title"]))}</nav>
+      <h1>{e(t['title'])}</h1>
+      <p class="muted small">Updated {fmt_date(t['updated'])} &middot; {t['minutes']} min read</p>"""
+        art = f'<div class="media media-tile tint-travel-gear">{icon("pin", "icon media-icon")}</div>'
+        body = f"""{page_head("travel-gear", art, inner, "../", t.get("photo"))}
+<div class="wrap"><article class="guide">
+{glance_html}
+{content}
+{tip}
+{tool_pills("../", "")}
+</article></div>
+{telegram_band(cfg, "../")}"""
+        path = "trips/%s.html" % t["slug"]
+        image = photo_og(cfg, t["photo"]) if t.get("photo") in PHOTOS else abs_url(cfg, "assets/logo.png")
+        article = {"@context": "https://schema.org", "@type": "Article", "headline": t.get("seo_title", t["title"]),
+                   "description": t["description"], "datePublished": t["date"], "dateModified": t["updated"],
+                   "inLanguage": "en-IN", "image": image, "about": {"@type": "TouristDestination", "name": t.get("place", t["title"])},
+                   "mainEntityOfPage": abs_url(cfg, path), "author": org_schema(cfg), "publisher": org_schema(cfg)}
+        crumbs = crumbs_schema(cfg, [("Home", ""), ("Trip guides", "trips/index.html"), (t.get("place", t["title"]), path)])
+        schema = [article, crumbs]
+        faq = md_faq(t["body"])
+        if faq:
+            schema.append({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+                {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq]})
+        pages.append(write(path, page(cfg, t.get("seo_title", t["title"]), t["description"], body, 1, path, schema,
+                                      og_type="article", photo=t.get("photo"))))
+        lastmod[path] = t["updated"]
+
+    places = ", ".join(t.get("place", t["title"]) for t in trips)
+    inner = """<nav class="crumbs"><a href="../index.html">Home</a><span>/</span>Trip guides</nav>
+      <h1>Trip guides for India</h1>
+      <p class="muted small">When to go, how to get there, local rules and what to pack</p>"""
+    body = f"""{page_head("travel-gear", f'<div class="media media-tile tint-travel-gear">{icon("pin", "icon media-icon")}</div>', inner, "../")}
+<div class="wrap section">{trip_cards(trips, "../")}</div>
+{telegram_band(cfg, "../")}"""
+    crumbs = crumbs_schema(cfg, [("Home", ""), ("Trip guides", "trips/index.html")])
+    pages.append(write("trips/index.html", page(cfg, "Trip guides for India: %s" % places,
+                                                "Plan a trip to %s: best time, weather, getting there, getting around, local rules and packing lists." % places,
+                                                body, 1, "trips/index.html", [crumbs])))
+    lastmod["trips/index.html"] = max(t["updated"] for t in trips)
 
 
 # ---------- baggage rules and bag checker ----------
@@ -1293,7 +1424,7 @@ def pack_qty(rule, days):
     return max(1, -(-value // 1)) if not isinstance(value, int) else max(1, value)
 
 
-def build_packing(cfg, deals_by_asin, pages, lastmod):
+def build_packing(cfg, deals_by_asin, pages, lastmod, trip_guides=()):
     data = json.loads(PACKING_FILE.read_text(encoding="utf-8"))
     trips = data["trips"]
     paths = {t["slug"]: ("index.html" if t["slug"] == "week" else t["slug"] + ".html") for t in trips}
@@ -1328,6 +1459,9 @@ def build_packing(cfg, deals_by_asin, pages, lastmod):
                             + f'</label>{more}</li>')
             if rows:
                 groups_html.append(f'<section class="pack-group"><h2>{e(group["name"])}</h2><ul>{"".join(rows)}</ul></section>')
+        going = [g for g in trip_guides if g.get("packing") == slug]
+        going_html = ('<p class="small">Planning the trip? Read our %s.</p>' % " and ".join(
+            f'<a href="../trips/{g["slug"]}.html">{e(g.get("place", g["title"]))} trip guide</a>' for g in going)) if going else ""
         title = trip["title"]
         desc = "%s %s A free checklist with %d items and quantities for your number of days. Tick things off as you pack." % (
             title + ":", trip["intro"].split(". ")[0] + ".", count)
@@ -1337,6 +1471,7 @@ def build_packing(cfg, deals_by_asin, pages, lastmod):
         body = f"""{page_head("travel-gear", media(cfg, "travel-gear", "media media-tile"), inner, "../", "packed-suitcase")}
 <div class="wrap"><article class="guide">
 <nav class="trip-chips" aria-label="Packing lists for other trips">{chips}</nav>
+{going_html}
 <form class="checker packer" id="packer" onsubmit="return false">
   <label>How many days?<input id="pk-days" type="number" inputmode="numeric" min="1" max="30" value="{trip['days']}"></label>
   <p class="checker-total"><span id="pk-count">{count} things to pack</span></p>
@@ -1387,6 +1522,7 @@ def build():
     deals_by_asin = {d["asin"]: d for d in deals}
     articles = load_articles()
     articles_by_slug = {a["slug"]: a for a in articles}
+    trips = load_articles(TRIPS_DIR) if TRIPS_DIR.exists() else []
 
     if DOCS.exists():
         for child in DOCS.iterdir():
@@ -1516,6 +1652,7 @@ def build():
   </ol>
 </section>
 {baggage_promo}
+{('<section class="wrap section">' + section_head("Trip guides", '<a class="see-all" href="trips/index.html">All trips ' + icon("arrow", "icon icon-sm") + '</a>') + trip_cards(trips[:3], "") + '</section>') if trips else ''}
 {('<section class="wrap section">' + section_head("Buying guides", '<a class="see-all" href="guides/index.html">All guides ' + icon("arrow", "icon icon-sm") + '</a>') + guide_cards(cfg, articles[:3], "") + '</section>') if articles else ''}
 {telegram_band(cfg, "")}"""
     home_schema = [{"@context": "https://schema.org", "@type": "WebSite", "name": cfg["site_name"],
@@ -1643,12 +1780,14 @@ def build():
     if airlines:
         build_baggage(cfg, deals, airlines, pages, lastmod)
     if PACKING_FILE.exists():
-        build_packing(cfg, deals_by_asin, pages, lastmod)
+        build_packing(cfg, deals_by_asin, pages, lastmod, trips)
     if RAILWAYS_FILE.exists():
         build_railways(cfg, deals, pages, lastmod)
     if FLIGHT_ITEMS_FILE.exists():
         build_can_i_carry(cfg, pages, lastmod)
     build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod)
+    if trips:
+        build_trips(cfg, trips, deals_by_asin, pages, lastmod)
     if HINDI_PAGES:
         build_hindi(cfg, deals, airlines, pages, lastmod)
 
@@ -1683,10 +1822,11 @@ def build():
 <p>{name} is a participant in the Amazon Associates Programme. When you click a "Check price on Amazon" button and buy something, Amazon may pay us a small commission. You pay the same price.</p>
 <p>Links that earn us a commission are marked "Paid link". Commissions help us keep this site free. They do not change which products we pick.</p>"""),
         "privacy.html": ("Privacy policy", f"""<h1>Privacy policy</h1>
-<p>{name} does not ask for your name, email or any personal details, and this site does not set its own cookies.</p>
+<p>{name} does not ask for your name, email or any personal details, and this site sets no cookies of its own, except one that remembers your language if you choose Google Translate (see below).</p>
 <ul>
 <li>This site is hosted on GitHub Pages. GitHub may keep basic server logs, such as IP addresses, for security. See GitHub's privacy statement.</li>
 <li>Fonts are loaded from Google Fonts, which may log your IP address. See Google's privacy policy.</li>
+<li>If you pick a language in the language menu other than English or our own Hindi pages, the page loads Google Translate, which sends the page text to Google to translate it. A cookie called "googtrans" then remembers your choice on this site. Pick English in the menu to remove it.</li>
 <li>When you click a link to Amazon.in, Amazon may set cookies to track the referral. See Amazon.in's privacy notice.</li>
 <li>If you join our Telegram channel, Telegram's privacy policy applies.</li>
 </ul>

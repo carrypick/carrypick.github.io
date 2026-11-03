@@ -55,6 +55,26 @@
       "unsplash": "rUXh5USKfUQ", "image": "1532968899863-5b52ef155913",
       "credit": "Briana Tozour", "profile": "https://unsplash.com/@britozour",
       "alt": "Travellers with trolley bags walking through a sunlit airport terminal"
+    },
+    "goa-palolem": {
+      "unsplash": "eSRtxPd9q1c", "image": "1614082242765-7c98ca0f3df3",
+      "credit": "Sumit Sourav", "profile": "https://unsplash.com/@sumit731",
+      "alt": "Colourful beach huts under tall coconut palms on Palolem Beach, South Goa"
+    },
+    "manali-town": {
+      "unsplash": "Xpwj1j1HX34", "image": "1597167231350-d057a45dc868",
+      "credit": "Naman Jaswani", "profile": "https://unsplash.com/@nj2797",
+      "alt": "Manali's green-roofed hotels below snow-covered mountains"
+    },
+    "jaipur-hawa-mahal": {
+      "unsplash": "W3qWtMNwRf0", "image": "1650530777057-3a7dbc24bf6c",
+      "credit": "Nikunj Mundra", "profile": "https://unsplash.com/@nikunjmundra",
+      "alt": "The pink sandstone windows of Hawa Mahal in Jaipur"
+    },
+    "kerala-houseboat": {
+      "unsplash": "ii0oWs5abCo", "image": "1593693411515-c20261bcad6e",
+      "credit": "Abhishek Prasad", "profile": "https://unsplash.com/@whatsabhidoing",
+      "alt": "A thatched houseboat on the palm-lined backwaters of Alappuzha, Kerala"
     }
   }
 }

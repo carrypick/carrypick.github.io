@@ -383,3 +383,32 @@ main > :last-child:not(.band) { margin-bottom: 56px; }
 .lang-switch { margin: 8px 0 0; font-weight: 700; font-size: 0.9rem; }
 .lang-switch a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
 html[lang="hi-IN"] body { font-family: "Plus Jakarta Sans", "Noto Sans Devanagari", system-ui, sans-serif; line-height: 1.7; }
+
+/* Language menu */
+.lang-menu { position: relative; flex: none; }
+.lang-menu summary { list-style: none; display: inline-flex; align-items: center; gap: 5px; padding: 7px 11px; border: 1px solid var(--line); border-radius: 999px; cursor: pointer; font-weight: 700; font-size: 0.85rem; color: var(--ink); background: var(--surface); }
+.lang-menu summary::-webkit-details-marker { display: none; }
+.lang-menu[open] summary { border-color: var(--brand); color: var(--brand); }
+.lang-panel { position: absolute; right: 0; top: calc(100% + 8px); width: min(300px, calc(100vw - 32px)); padding: 14px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow); z-index: 30; }
+.lang-head { margin: 0 0 8px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+.lang-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; margin-bottom: 12px; }
+.lang-grid a, .lang-grid button, .lang-grid span { display: block; padding: 8px 10px; border-radius: 10px; border: 1px solid var(--line); background: none; color: var(--ink); font: inherit; font-size: 0.92rem; text-align: left; text-decoration: none; cursor: pointer; }
+.lang-grid a:hover, .lang-grid button:hover { border-color: var(--brand); }
+.lang-grid .on { border-color: var(--brand); color: var(--brand); font-weight: 700; cursor: default; }
+.lang-note { margin: 0; font-size: 0.75rem; line-height: 1.45; color: var(--muted); }
+.gt-notice { margin: 0; padding: 7px 0; font-size: 0.8rem; background: color-mix(in srgb, var(--brand) 10%, var(--bg)); border-bottom: 1px solid var(--line); }
+.gt-notice .wrap { display: block; }
+/* Google Translate: hide its own top banner and hover pop-ups (our .gt-notice bar replaces the banner). */
+iframe.skiptranslate, .goog-te-banner-frame, #goog-gt-tt, .goog-te-balloon-frame, .VIpgJd-ZVi9od-ORHb-OEVmcd, .VIpgJd-ZVi9od-aZ2wEe-wOHMyf { display: none !important; }
+body { top: 0 !important; }
+.goog-text-highlight { background: none !important; box-shadow: none !important; }
+
+/* Phones and small tablets: brand, Telegram and language on top; all menu links in a scrollable second row */
+@media (max-width: 860px) {
+  .header-row { flex-wrap: wrap; height: auto; gap: 10px; padding-top: 10px; }
+  .brand { margin-right: auto; }
+  .main-nav { order: 3; width: 100%; margin: 0; gap: 18px; overflow-x: auto; padding: 2px 0 10px; scrollbar-width: none; }
+  .main-nav::-webkit-scrollbar { display: none; }
+  .main-nav a:not(.nav-keep) { display: inline; }
+}
+.lang-grid small { font-size: 0.68rem; font-weight: 600; color: var(--muted); }
