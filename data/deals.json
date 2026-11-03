@@ -230,7 +230,8 @@
       "Battery": "Included"
     },
     "skip_if": "you rarely fly. A home bathroom scale can do the job once in a while.",
-    "telegram_posted_at": "2026-11-03T06:05:35+05:30"
+    "telegram_posted_at": "2026-11-03T06:05:35+05:30",
+    "deal_seen_at": "2026-11-03T10:08:00+05:30"
   },
   {
     "asin": "B0BTD4S4XF",
@@ -257,7 +258,8 @@
       "Warranty": "1 year global"
     },
     "skip_if": "you need rain protection. No rain cover is listed, and the fabric isn't water-resistant.",
-    "telegram_posted_at": "2026-11-03T06:05:35+05:30"
+    "telegram_posted_at": "2026-11-03T06:05:35+05:30",
+    "deal_seen_at": "2026-11-03T10:08:00+05:30"
   },
   {
     "asin": "B097GCJFW2",
@@ -283,7 +285,8 @@
       "Lock": "TSA",
       "Warranty": "3 years"
     },
-    "skip_if": "you only fly within India. A polypropylene bag like the Pentagon Pro is enough."
+    "skip_if": "you only fly within India. A polypropylene bag like the Pentagon Pro is enough.",
+    "deal_seen_at": "2026-11-03T10:08:00+05:30"
   },
   {
     "asin": "B099WNYHY2",
@@ -428,7 +431,8 @@
       "Rain cover": "Yes",
       "Warranty": "Not listed"
     },
-    "skip_if": "you want a light, compact bag. 34 litres and 600 g is on the bigger side."
+    "skip_if": "you want a light, compact bag. 34 litres and 600 g is on the bigger side.",
+    "deal_seen_at": "2026-11-03T10:08:00+05:30"
   },
   {
     "asin": "B0C7BM18PB",
@@ -446,7 +450,8 @@
     "best_for": [
       "Night journeys"
     ],
-    "skip_if": "your trips are short. It's most useful on long, overnight journeys."
+    "skip_if": "your trips are short. It's most useful on long, overnight journeys.",
+    "deal_seen_at": "2026-11-03T10:08:00+05:30"
   },
   {
     "asin": "B097GDKGHS",
@@ -546,7 +551,8 @@
       "Water resistance": "30 m",
       "Warranty": "1 year"
     },
-    "skip_if": "you'll wear it in rain or sweat a lot. Leather straps don't like water."
+    "skip_if": "you'll wear it in rain or sweat a lot. Leather straps don't like water.",
+    "deal_seen_at": "2026-11-03T10:08:00+05:30"
   },
   {
     "asin": "B0GPQQPC7Q",
@@ -572,6 +578,7 @@
       "Lock": "3-digit combination",
       "Warranty": "Not listed"
     },
-    "skip_if": "you have little storage space at home. Three hard bags need room."
+    "skip_if": "you have little storage space at home. Three hard bags need room.",
+    "deal_seen_at": "2026-11-03T10:08:00+05:30"
   }
 ]

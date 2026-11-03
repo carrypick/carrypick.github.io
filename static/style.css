@@ -287,6 +287,13 @@ img { max-width: 100%; }
 .airline-links a:hover { color: var(--brand); border-color: var(--brand); }
 @media (min-width: 640px) { .checker-fields { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
 
+/* Deal badges: no prices, shown by site.js for 24 hours only */
+[hidden] { display: none !important; }
+.deal-badge { position: absolute; left: 12px; bottom: 12px; padding: 4px 10px; border-radius: 999px; background: var(--accent); color: var(--accent-ink); font-size: 0.75rem; font-weight: 800; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12); }
+.deal-inline { position: static; display: inline-block; margin-bottom: 6px; box-shadow: none; }
+.deal-note { display: block; margin: 0 0 14px; padding: 10px 12px; border-radius: 10px; background: color-mix(in srgb, var(--accent) 14%, var(--surface)); color: var(--ink); font-size: 0.9rem; font-weight: 600; }
+.deal-intro { margin: -8px 0 16px; }
+
 /* Stock photos (scene-setting only, never product images) and our diagrams */
 .photo { margin: 0; }
 .photo img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; border-radius: var(--radius); background: var(--tint-none); }

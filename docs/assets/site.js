@@ -16,3 +16,29 @@
     a.href = url.toString();
   });
 })();
+
+// "Deal spotted" badges show only for 24 hours after Amazon showed a deal label (DEAL_HOURS in build.py).
+// The words are written here, not in the HTML, so an expired deal claim never stays on the page.
+(function () {
+  var HOURS = 24;
+  function when(d) {
+    try {
+      return d.toLocaleString("en-IN", { timeZone: "Asia/Kolkata", day: "numeric", month: "short", hour: "numeric", minute: "2-digit" });
+    } catch (err) { return d.toDateString(); }
+  }
+  document.querySelectorAll("[data-deal-seen]").forEach(function (el) {
+    var seen = new Date(el.getAttribute("data-deal-seen"));
+    var left = seen.getTime() + HOURS * 3600 * 1000 - Date.now();
+    if (!(left > 0)) return;
+    if (el.classList.contains("deal-note")) {
+      el.textContent = "We spotted a deal on Amazon.in on " + when(seen) + ". Deals can end at any time, so check today's price.";
+    } else if (el.classList.contains("deal-badge")) {
+      el.textContent = "Deal spotted " + when(seen);
+    }
+    el.hidden = false;
+    setTimeout(function () { el.hidden = true; }, left);
+  });
+  document.querySelectorAll("[data-deal-section]").forEach(function (section) {
+    if (section.querySelector("[data-deal-seen]:not([hidden])")) section.hidden = false;
+  });
+})();

@@ -11,11 +11,11 @@ import json
 import re
 import shutil
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from html import escape as e
 
 import diagrams
-from common import ROOT, amazon_link, load_config, load_deals
+from common import IST, ROOT, amazon_link, load_config, load_deals
 
 DOCS = ROOT / "docs"
 ARTICLES_DIR = ROOT / "content" / "articles"
@@ -25,6 +25,7 @@ STATIC_DIR = ROOT / "static"
 PHOTO_DIR = STATIC_DIR / "photos"
 HERO_PHOTO = "traveller-sunset"
 BAGGAGE_PHOTO = "airport-terminal"
+DEAL_HOURS = 24  # how long a "Deal spotted" badge shows (site.js hides it after this, and must match)
 PHOTOS = {}    # filled by build() from data/photos.json
 DIAGRAMS = {}  # filled by build() from scripts/diagrams.py
 DISCLOSURE = "As an Amazon Associate I earn from qualifying purchases."
@@ -49,6 +50,7 @@ ICONS = {
     "send": '<path d="M21 4 3 11l6.5 2.5L19 7l-7 8.2V20l3.2-3.6L19 19.5z"/>',
     "chat": '<path d="M20.5 11.5a8.5 8.5 0 0 1-12.6 7.4L3.5 20l1.2-4.2A8.5 8.5 0 1 1 20.5 11.5z"/>',
     "book": '<path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 1 6.5 18H20v3H6.5"/>',
+    "tag": '<path d="M3.5 12.2V4.5a1 1 0 0 1 1-1h7.7l8.3 8.3-8.7 8.7z"/><circle cx="8" cy="8" r="1.6"/>',
     "bulb": '<path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.6.4 1 1.1 1 1.8V16h5v-.3c0-.7.4-1.4 1-1.8A6 6 0 0 0 12 3z"/>',
 }
 
@@ -200,6 +202,21 @@ def buy_button(cfg, deal, label="Check price on Amazon", big=False):
     return f'<a class="{cls}" href="{href}" {BUY_ATTRS}>{label}</a><span class="paid">Paid link</span>'
 
 
+def fresh_deal(deal):
+    """The time Amazon showed a deal label for this pick, if that was less than DEAL_HOURS ago."""
+    if not deal.get("deal_seen_at"):
+        return None
+    seen = datetime.fromisoformat(deal["deal_seen_at"])
+    return seen if datetime.now(IST) - seen < timedelta(hours=DEAL_HOURS) else None
+
+
+def deal_badge(deal, cls="deal-badge"):
+    """Empty and hidden in the HTML: site.js writes "Deal spotted <time>" and removes it after DEAL_HOURS,
+    so no expired deal claim stays on the page. Never a price or % off."""
+    seen = fresh_deal(deal)
+    return f'<span class="{cls}" data-deal-seen="{seen.isoformat()}" hidden></span>' if seen else ""
+
+
 def media(cfg, category, cls="media"):
     return f'<div class="{cls} tint-{category}">{icon(cfg["categories"][category]["icon"], "icon media-icon")}</div>'
 
@@ -289,13 +306,14 @@ def chips(tags, cls="chip-tag"):
     return "".join('<span class="%s">%s</span>' % (cls, e(t)) for t in tags)
 
 
-def card(cfg, deal, p):
+def card(cfg, deal, p, deal_only=False):
     href = f"{p}picks/{deal['asin']}.html"
     badge = f'<span class="badge">Best for {e(deal["best_for"][0])}</span>' if deal.get("best_for") else ""
     brand = f'<p class="brand-name">{e(deal["brand"])}</p>' if deal.get("brand") else ""
     feats = "".join("<li>%s%s</li>" % (icon("check", "icon icon-check"), e(h)) for h in deal["highlights"][:2])
-    return f"""<article class="card">
-  <a class="card-media" href="{href}" tabindex="-1" aria-hidden="true">{media(cfg, deal['category'])}{badge}</a>
+    hide = f' data-deal-seen="{fresh_deal(deal).isoformat()}" hidden' if deal_only else ""
+    return f"""<article class="card"{hide}>
+  <a class="card-media" href="{href}" tabindex="-1" aria-hidden="true">{media(cfg, deal['category'])}{badge}{deal_badge(deal)}</a>
   <div class="card-body">
     {brand}
     <h3><a href="{href}">{e(deal['title'])}</a></h3>
@@ -315,6 +333,7 @@ def inline_pick(cfg, deal, p):
     return f"""<aside class="inline-pick">
   {media(cfg, deal['category'], 'media media-sm')}
   <div class="inline-body">
+    {deal_badge(deal, "deal-badge deal-inline")}
     {brand}
     <h4><a href="{p}picks/{deal['asin']}.html">{e(deal['title'])}</a></h4>
     <ul class="mini-features">{items}</ul>
@@ -827,6 +846,15 @@ def build():
     tg_cta = (f'<a class="btn btn-ghost" href="{e(tg)}" target="_blank" rel="noopener">{icon("send", "icon icon-sm")} Join on Telegram</a>'
               if tg else "")
     picks_html = grid(cfg, deals[:8], "") if deals else '<p class="muted">New picks are coming soon.</p>'
+    fresh = sorted((d for d in deals if fresh_deal(d)), key=lambda d: d["deal_seen_at"], reverse=True)[:8]
+    deals_html = ""
+    if fresh:
+        cards = "\n".join(card(cfg, d, "", deal_only=True) for d in fresh)
+        deals_html = f"""<section class="wrap section" id="deals" data-deal-section hidden>
+  {section_head("Deals spotted today")}
+  <p class="muted small deal-intro">Amazon.in showed a deal on these picks in the last 24 hours. Deals can end at any time, so check today's price on Amazon.</p>
+  <div class="grid">{cards}</div>
+</section>"""
     baggage_promo = ""
     if airlines:
         baggage_art = ('<div class="guide-art guide-photo">%s</div>' % photo_img(BAGGAGE_PHOTO, "", "(min-width: 700px) 360px, 100vw", alt="")
@@ -870,6 +898,7 @@ def build():
   {section_head("Shop by category")}
   <div class="cat-grid">{cat_tiles}</div>
 </section>
+{deals_html}
 <section class="wrap section" id="latest">
   {section_head("Latest picks")}
   {picks_html}
@@ -916,6 +945,7 @@ def build():
     {note}
     {best}
     <div class="cta-box">
+      {deal_badge(d, "deal-note")}
       {buy_button(cfg, d, "Check today's price on Amazon", big=True)}
       <p>Prices and stock change often. Amazon.in shows the latest price.</p>
     </div>
