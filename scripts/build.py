@@ -645,7 +645,8 @@ def build_trips(cfg, trips, deals_by_asin, pages, lastmod):
                        % (e(t.get("place", t["title"])), "".join('<tr><th scope="row">%s</th><td>%s</td></tr>' % (e(k.strip()), md_inline(v.strip(), "../"))
                                                                   for k, v in glance))) if glance else ""
         pack = t.get("packing")
-        pack_link = (f'our <a href="../packing/{e(pack)}.html">packing checklist</a>' if pack and (DOCS / "packing" / (pack + ".html")).exists()
+        pack_file = "index.html" if pack == "week" else "%s.html" % pack
+        pack_link = (f'our <a href="../packing/{pack_file}">packing checklist</a>' if pack and (DOCS / "packing" / pack_file).exists()
                      else 'our <a href="../packing/index.html">packing checklists</a>')
         tip = (f'<aside class="tip">{icon("check", "icon tip-icon")}<div><strong>Packing for {e(t.get("place", "your trip"))}?</strong>'
                f'<p>Tick things off with {pack_link}, check <a href="../baggage/can-i-carry.html">what you can carry on the flight</a>, '
