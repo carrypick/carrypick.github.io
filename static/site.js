@@ -99,3 +99,15 @@
   script.src = "https://translate.google.com/translate_a/element.js?cb=cpTranslateInit";
   document.head.appendChild(script);
 })();
+
+// "Copy link" in the share bar.
+(function () {
+  document.querySelectorAll("[data-share-copy]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var url = btn.getAttribute("data-share-copy"), label = btn.querySelector("span");
+      function done() { label.textContent = btn.getAttribute("data-done"); }
+      if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, function () { window.prompt("Copy this link:", url); });
+      else window.prompt("Copy this link:", url);
+    });
+  });
+})();

@@ -11,6 +11,7 @@ import json
 import re
 import shutil
 import sys
+import urllib.parse
 from datetime import date, datetime, timedelta
 from html import escape as e
 
@@ -58,6 +59,7 @@ ICONS = {
     "ruler": '<rect x="2.5" y="8" width="19" height="8" rx="1.5"/><path d="M6.5 8v3M10.5 8v4M14.5 8v3M18.5 8v4"/>',
     "pin": '<path d="M12 21s-6-5.4-6-10a6 6 0 0 1 12 0c0 4.6-6 10-6 10z"/><circle cx="12" cy="11" r="2.2"/>',
     "send": '<path d="M21 4 3 11l6.5 2.5L19 7l-7 8.2V20l3.2-3.6L19 19.5z"/>',
+    "link": '<path d="M10 14a4.5 4.5 0 0 0 6.4 0l3-3a4.5 4.5 0 0 0-6.4-6.4l-1 1"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3 3a4.5 4.5 0 0 0 6.4 6.4l1-1"/>',
     "globe": '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/>',
     "chat": '<path d="M20.5 11.5a8.5 8.5 0 0 1-12.6 7.4L3.5 20l1.2-4.2A8.5 8.5 0 1 1 20.5 11.5z"/>',
     "book": '<path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 1 6.5 18H20v3H6.5"/>',
@@ -164,8 +166,30 @@ def language_menu(path, p, lang):
     </details>"""
 
 
+def share_bar(cfg, path, title, lang="en"):
+    """WhatsApp, Telegram and copy-link buttons, so readers can pass a guide, tool or pick on to friends and family."""
+    if not cfg["base_url"]:
+        return ""
+    url = abs_url(cfg, "" if path == "index.html" else path)
+    text = urllib.parse.quote(title + " " + url)
+    hi = lang == "hi"
+    return f"""<div class="wrap share">
+  <p class="share-head">{"यह पेज शेयर करें" if hi else "Share this page"}</p>
+  <div class="share-row">
+    <a class="share-btn share-wa" href="https://wa.me/?text={text}" target="_blank" rel="noopener">{icon("chat", "icon icon-sm")}<span>WhatsApp</span></a>
+    <a class="share-btn share-tg" href="https://t.me/share/url?url={urllib.parse.quote(url)}&amp;text={urllib.parse.quote(title)}" target="_blank" rel="noopener">{icon("send", "icon icon-sm")}<span>Telegram</span></a>
+    <button type="button" class="share-btn" data-share-copy="{e(url)}" data-done="{"कॉपी हो गया" if hi else "Link copied"}">{icon("link", "icon icon-sm")}<span>{"लिंक कॉपी करें" if hi else "Copy link"}</span></button>
+  </div>
+</div>"""
+
+
 def page(cfg, title, description, body, depth, path, schema=None, og_type="website", photo=None, robots="max-image-preview:large", lang="en"):
     p = "../" * depth
+    if og_type == "article" or path.startswith("picks/"):
+        # Share buttons go just above the Telegram/WhatsApp band at the end of guides, tools, trips and picks.
+        bar = share_bar(cfg, path, title or cfg["site_name"], lang)
+        band = '<section class="band">'
+        body = body.replace(band, bar + "\n" + band, 1) if band in body else body + bar
     name = e(cfg["site_name"])
     description = clip(description)
     if not title:

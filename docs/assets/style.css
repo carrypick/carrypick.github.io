@@ -410,3 +410,13 @@ body { top: 0 !important; }
   .main-nav a:not(.nav-keep) { display: inline; }
 }
 .lang-grid small { font-size: 0.68rem; font-weight: 600; color: var(--muted); }
+
+/* Share bar */
+.share { margin-top: 8px; margin-bottom: 32px; }
+.share-head { margin: 0 0 10px; font-weight: 700; }
+.share-row { display: flex; flex-wrap: wrap; gap: 10px; }
+.share-btn { display: inline-flex; align-items: center; gap: 8px; padding: 9px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font: inherit; font-weight: 700; font-size: 0.9rem; text-decoration: none; cursor: pointer; }
+.share-btn:hover { border-color: var(--brand); }
+.share-wa .icon { color: #1fa855; }
+.share-tg .icon { color: #229ed9; }
+@media print { .share { display: none !important; } }
