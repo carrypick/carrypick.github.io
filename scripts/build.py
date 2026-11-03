@@ -209,8 +209,6 @@ def page(cfg, title, description, body, depth, path, schema=None, og_type="websi
               % (e(tg), icon("send", "icon icon-sm"))) if tg else ""
     html_lang, og_locale = ("hi-IN", "hi_IN") if lang == "hi" else ("en-IN", "en_IN")
     hindi_font = '\n<link rel="stylesheet" href="%s">' % HINDI_FONT if lang == "hi" else ""
-    hindi_foot = ('<li><a href="%s%s" lang="hi">हिंदी में बैगेज नियम</a></li>' % (p, HINDI_PAGES["baggage/index.html"])
-                  if "baggage/index.html" in HINDI_PAGES else "")
     foot_cats = "".join(
         '<li><a href="%scategory/%s.html">%s</a></li>' % (p, slug, e(c["name"])) for slug, c in cfg["categories"].items()
     )
@@ -261,7 +259,6 @@ def page(cfg, title, description, body, depth, path, schema=None, og_type="websi
       <li><a href="{p}guides/index.html">Buying guides</a></li>
       {('<li><a href="%strips/index.html">Trip guides</a></li>' % p) if TRIPS_DIR.exists() else ""}
       {"".join('<li><a href="%s%s">%s</a></li>' % (p, t[0], e(t[1])) for t in TOOLS)}
-      {hindi_foot}
       <li><a href="{p}about.html">About us</a></li>
       <li><a href="{p}contact.html">Contact</a></li>
       {follow_links(cfg)}
