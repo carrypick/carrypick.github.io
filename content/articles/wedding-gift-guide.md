@@ -4,6 +4,7 @@ title: Wedding gift ideas: watches and travel bags couples actually use
 description: Pair watches for the couple, watches for the bride and groom, and bags for the honeymoon, with tips to pick the right one.
 date: 2026-11-02
 category: watches
+photo: gift-box
 ---
 Wedding season in India brings a long list of functions and gifts. Couples often receive many decorative items they never use. A good watch or a travel bag is different: they use it every day or on every trip, and they remember who gave it.
 

@@ -3,6 +3,8 @@
 Run:  python3 scripts/build.py
 Amazon rules built in: disclosure on every page, no prices, no ratings,
 no product images, no auto-redirects, buy links marked as paid.
+Free stock photos (data/photos.json) only illustrate guides, categories and
+the home page; pick pages and product cards never show them.
 """
 
 import json
@@ -12,12 +14,19 @@ import sys
 from datetime import date, datetime
 from html import escape as e
 
+import diagrams
 from common import ROOT, amazon_link, load_config, load_deals
 
 DOCS = ROOT / "docs"
 ARTICLES_DIR = ROOT / "content" / "articles"
 AIRLINES_FILE = ROOT / "data" / "airlines.json"
+PHOTOS_FILE = ROOT / "data" / "photos.json"
 STATIC_DIR = ROOT / "static"
+PHOTO_DIR = STATIC_DIR / "photos"
+HERO_PHOTO = "traveller-sunset"
+BAGGAGE_PHOTO = "airport-terminal"
+PHOTOS = {}    # filled by build() from data/photos.json
+DIAGRAMS = {}  # filled by build() from scripts/diagrams.py
 DISCLOSURE = "As an Amazon Associate I earn from qualifying purchases."
 KEEP_IN_DOCS = {"CNAME"}
 BUY_ATTRS = 'rel="sponsored nofollow noopener" target="_blank"'
@@ -94,7 +103,7 @@ def schema_tags(cfg, schema):
                    % json.dumps(s, ensure_ascii=False).replace("</", "<\\/") for s in schema)
 
 
-def page(cfg, title, description, body, depth, path, schema=None, og_type="website"):
+def page(cfg, title, description, body, depth, path, schema=None, og_type="website", photo=None):
     p = "../" * depth
     name = e(cfg["site_name"])
     full_title = e(title) + " | " + name if title else name + " | " + e(cfg["tagline"])
@@ -102,8 +111,13 @@ def page(cfg, title, description, body, depth, path, schema=None, og_type="websi
     if cfg["base_url"]:
         base = cfg["base_url"].rstrip("/")
         url = base + "/" + path
-        head_extra = ('<link rel="canonical" href="%s">\n<meta property="og:url" content="%s">\n'
-                      '<meta property="og:image" content="%s/assets/logo.png">' % (e(url), e(url), e(base)))
+        head_extra = '<link rel="canonical" href="%s">\n<meta property="og:url" content="%s">\n' % (e(url), e(url))
+        if photo in PHOTOS:
+            head_extra += ('<meta property="og:image" content="%s">\n<meta property="og:image:width" content="1200">\n'
+                           '<meta property="og:image:height" content="630">\n<meta name="twitter:card" content="summary_large_image">'
+                           % e(photo_og(cfg, photo)))
+        else:
+            head_extra += '<meta property="og:image" content="%s/assets/logo.png">' % e(base)
     if cfg.get("google_site_verification"):
         head_extra += '\n<meta name="google-site-verification" content="%s">' % e(cfg["google_site_verification"])
     nav = "".join(
@@ -188,6 +202,87 @@ def buy_button(cfg, deal, label="Check price on Amazon", big=False):
 
 def media(cfg, category, cls="media"):
     return f'<div class="{cls} tint-{category}">{icon(cfg["categories"][category]["icon"], "icon media-icon")}</div>'
+
+
+# ---------- stock photos and our own diagrams ----------
+
+def webp_size(path):
+    """Width and height of a WebP file, read from its header."""
+    data = path.read_bytes()[:30]
+    kind = data[12:16]
+    if kind == b"VP8 ":
+        return int.from_bytes(data[26:28], "little") & 0x3FFF, int.from_bytes(data[28:30], "little") & 0x3FFF
+    if kind == b"VP8L":
+        b = data[21:25]
+        return 1 + (((b[1] & 0x3F) << 8) | b[0]), 1 + (((b[3] & 0x0F) << 10) | (b[2] << 2) | ((b[1] & 0xC0) >> 6))
+    if kind == b"VP8X":
+        return 1 + int.from_bytes(data[24:27], "little"), 1 + int.from_bytes(data[27:30], "little")
+    sys.exit("Error: %s is not a WebP file this script can read" % path.name)
+
+
+def load_photos():
+    if not PHOTOS_FILE.exists():
+        return {}
+    photos = json.loads(PHOTOS_FILE.read_text(encoding="utf-8"))["photos"]
+    for slot, info in photos.items():
+        big = PHOTO_DIR / ("%s-1600.webp" % slot)
+        if not big.exists():
+            sys.exit("Error: photo %s is missing. Run: python3 scripts/fetch_photos.py" % slot)
+        info["size"] = webp_size(big)
+    return photos
+
+
+def photo_og(cfg, slot):
+    return abs_url(cfg, "assets/photos/%s-og.jpg" % slot)
+
+
+def photo_img(slot, p, sizes, eager=False, alt=None):
+    info = PHOTOS[slot]
+    base = "%sassets/photos/%s" % (p, slot)
+    load = 'fetchpriority="high"' if eager else 'loading="lazy" decoding="async"'
+    return (f'<img src="{base}-800.webp" srcset="{base}-800.webp 800w, {base}-1600.webp 1600w" sizes="{sizes}" '
+            f'width="{info["size"][0]}" height="{info["size"][1]}" alt="{e(info["alt"] if alt is None else alt)}" {load}>')
+
+
+def photo_credit(slot):
+    info = PHOTOS[slot]
+    return (f'Photo: <a href="{e(info["profile"])}" target="_blank" rel="noopener">{e(info["credit"])}</a> on '
+            f'<a href="https://unsplash.com/photos/{e(info["unsplash"])}" target="_blank" rel="noopener">Unsplash</a>')
+
+
+def photo_figure(slot, p, sizes, cls="photo", eager=False):
+    return f'<figure class="{cls}">{photo_img(slot, p, sizes, eager)}<figcaption>{photo_credit(slot)}</figcaption></figure>'
+
+
+def diagram_figure(name, p):
+    if name not in DIAGRAMS:
+        sys.exit("Error: unknown diagram %s (see scripts/diagrams.py)" % name)
+    svg, alt, caption = DIAGRAMS[name]
+    w, h = re.search(r'viewBox="0 0 (\d+) (\d+)"', svg).groups()
+    return (f'<figure class="diagram"><img src="{p}assets/diagrams/{name}.svg" width="{w}" height="{h}" '
+            f'alt="{e(alt)}" loading="lazy" decoding="async"><figcaption>{e(caption)}</figcaption></figure>')
+
+
+def page_head(tint, art, inner, p, photo=None):
+    """Top of category, guide and baggage pages: a photo on the right when there is one, else the icon tile."""
+    if photo in PHOTOS:
+        figure = photo_figure(photo, p, "(min-width: 760px) 440px, 100vw", "photo head-photo", eager=True)
+        return f"""<section class="page-head tint-{tint}">
+  <div class="wrap page-head-grid">
+    <div>
+      {inner}
+    </div>
+    {figure}
+  </div>
+</section>"""
+    return f"""<section class="page-head tint-{tint}">
+  <div class="wrap page-head-row">
+    {art}
+    <div>
+      {inner}
+    </div>
+  </div>
+</section>"""
 
 
 def chips(tags, cls="chip-tag"):
@@ -306,10 +401,14 @@ def render_markdown(md, cfg, deals_by_asin, p, source):
         line = raw.strip()
         pick = re.fullmatch(r"\[\[pick:([A-Z0-9]{10})\]\]", line)
         compare = re.fullmatch(r"\[\[compare:([A-Z0-9,]+)\]\]", line)
+        diagram = re.fullmatch(r"\[\[diagram:([a-z0-9-]+)\]\]", line)
         ul = re.match(r"^- (.+)", line)
         ol = re.match(r"^\d+\. (.+)", line)
         if not line:
             flush()
+        elif diagram:
+            flush()
+            out.append(diagram_figure(diagram.group(1), p))
         elif compare:
             flush()
             asins = compare.group(1).split(",")
@@ -362,9 +461,13 @@ def guide_cards(cfg, articles, p):
     cards = []
     for a in articles:
         cat = a.get("category")
-        art = icon(cfg["categories"][cat]["icon"], "icon guide-icon") if cat in cfg["categories"] else icon("book", "icon guide-icon")
+        if a.get("photo") in PHOTOS:
+            art = '<div class="guide-art guide-photo">%s</div>' % photo_img(a["photo"], p, "(min-width: 700px) 360px, 100vw", alt="")
+        else:
+            glyph = icon(cfg["categories"][cat]["icon"] if cat in cfg["categories"] else "book", "icon guide-icon")
+            art = f'<div class="guide-art tint-{e(cat or "none")}">{glyph}</div>'
         cards.append(f"""<a class="guide-card" href="{p}guides/{a['slug']}.html">
-  <div class="guide-art tint-{e(cat or 'none')}">{art}</div>
+  {art}
   <div class="guide-body">
     <p class="eyebrow">Buying guide &middot; {a['minutes']} min read</p>
     <h3>{e(a['title'])}</h3>
@@ -496,22 +599,17 @@ def build_baggage(cfg, deals, data, pages, lastmod):
     others = lambda current: '<ul class="airline-links">' + "".join(
         f'<li><a href="{a["slug"]}.html">{e(a["name"])}</a></li>' for a in airlines if a["slug"] != current) + "</ul>"
 
-    def head(title, crumb_html, sub):
-        return f"""<section class="page-head tint-luggage">
-  <div class="wrap page-head-row">
-    {media(cfg, "luggage", "media media-tile")}
-    <div>
-      <nav class="crumbs"><a href="../index.html">Home</a><span>/</span>{crumb_html}</nav>
+    def head(title, crumb_html, sub, photo=None):
+        inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span>{crumb_html}</nav>
       <h1>{e(title)}</h1>
-      <p class="muted small">{sub}</p>
-    </div>
-  </div>
-</section>"""
+      <p class="muted small">{sub}</p>"""
+        return page_head("luggage", media(cfg, "luggage", "media media-tile"), inner, "../", photo)
 
-    def article_schema(title, desc, path):
+    def article_schema(title, desc, path, photo=None):
+        image = photo_og(cfg, photo) if photo in PHOTOS else abs_url(cfg, "assets/logo.png")
         return {"@context": "https://schema.org", "@type": "Article", "headline": title, "description": desc,
                 "datePublished": data.get("published", checked), "dateModified": checked, "inLanguage": "en-IN",
-                "image": abs_url(cfg, "assets/logo.png"), "mainEntityOfPage": abs_url(cfg, path),
+                "image": image, "mainEntityOfPage": abs_url(cfg, path),
                 "author": org_schema(cfg), "publisher": org_schema(cfg)}
 
     # Hub page
@@ -527,13 +625,16 @@ def build_baggage(cfg, deals, data, pages, lastmod):
     seo = "Baggage rules for Indian airlines %s: cabin and check-in limits" % year
     desc = ("Cabin bag size and weight, extra small bag and free check-in baggage for IndiGo, Air India, "
             "Air India Express, Akasa Air and SpiceJet domestic flights, checked against official websites.")
-    body = f"""{head(title, "Baggage rules", "Checked on " + fmt_date(checked) + " against each airline's official website")}
+    limits_fig = diagram_figure("cabin-limits", "../") if "cabin-limits" in DIAGRAMS else ""
+    body = f"""{head(title, "Baggage rules", "Checked on " + fmt_date(checked) + " against each airline's official website", BAGGAGE_PHOTO)}
 <div class="wrap"><article class="guide">
 <p class="lead">Domestic economy limits for India's main airlines, in one place. Tap an airline for the full rules, fare types and tips.</p>
 {checker_cta}
 <h2>Cabin and check-in baggage at a glance</h2>
 <div class="table-wrap"><table class="compare"><thead><tr><th>Airline</th><th>Cabin bag</th><th>Cabin size limit</th><th>Extra small bag</th><th>Free check-in (domestic)</th></tr></thead><tbody>{rows}</tbody></table></div>
 {disclaimer}
+<h2>Cabin bag limits side by side</h2>
+{limits_fig}
 <h2>Do our cabin picks fit?</h2>
 <p>Many "55 cm" cabin trolleys are a little bigger than the limits once you add up all three sides. A backpack is often the safest cabin bag. Here's how our picks compare, using the size listed on Amazon.</p>
 <div class="table-wrap"><table class="compare"><thead><tr><th>Our pick</th>{matrix_head}</tr></thead><tbody>{matrix_rows}</tbody></table></div>
@@ -549,7 +650,8 @@ def build_baggage(cfg, deals, data, pages, lastmod):
 {telegram_band(cfg, "../")}"""
     path = "baggage/index.html"
     crumbs = crumbs_schema(cfg, [("Home", ""), (title, path)])
-    pages.append(write(path, page(cfg, seo, desc, body, 1, path, [article_schema(seo, desc, path), crumbs], og_type="article")))
+    pages.append(write(path, page(cfg, seo, desc, body, 1, path, [article_schema(seo, desc, path, BAGGAGE_PHOTO), crumbs],
+                                  og_type="article", photo=BAGGAGE_PHOTO)))
     lastmod[path] = checked
 
     # One page per airline
@@ -582,6 +684,7 @@ def build_baggage(cfg, deals, data, pages, lastmod):
 {checker_cta}
 <h2>Cabin baggage</h2>
 <p>{e(cabin.get('detail', cabin['summary'] + '.'))}</p>
+{diagram_figure("cabin-limits-" + a["slug"], "../") if "cabin-limits-" + a["slug"] in DIAGRAMS else ""}
 <h2>Check-in baggage (domestic)</h2>
 <table class="specs">{checkin_rows}</table>
 {('<p>' + e(a['checkin_note']) + '</p>') if a.get('checkin_note') else ''}
@@ -643,6 +746,8 @@ def build_baggage(cfg, deals, data, pages, lastmod):
 <noscript><p>This checker needs JavaScript. You can still compare the limits on our <a href="index.html">baggage rules page</a>.</p></noscript>
 <div class="table-wrap"><table class="result-table" id="bc-results"><thead><tr><th>Airline</th><th>Size</th><th>Weight</th></tr></thead><tbody>{result_rows}</tbody></table></div>
 {disclaimer}
+<h2>How to measure your bag</h2>
+{diagram_figure("measure-bag", "../")}
 <h2>How this works</h2>
 <ul>
 <li>We compare your bag's longest side with the airline's longest allowed side, and so on, because a bag can be turned to fit.</li>
@@ -694,6 +799,17 @@ def build():
     lastmod = {}
     tg = telegram_url(cfg)
 
+    PHOTOS.update(load_photos())
+    for slot in [c.get("photo") for c in cfg["categories"].values()] + [a.get("photo") for a in articles]:
+        if slot and slot not in PHOTOS:
+            sys.exit("Error: photo %s is used but not listed in data/photos.json" % slot)
+    airlines = load_airlines()
+    DIAGRAMS.update(diagrams.build_all(airlines["airlines"] if airlines else [],
+                                       fmt_date(airlines["checked"]) if airlines else ""))
+    (DOCS / "assets" / "diagrams").mkdir()
+    for name, (svg, alt, caption) in DIAGRAMS.items():
+        (DOCS / "assets" / "diagrams" / (name + ".svg")).write_text(svg, encoding="utf-8")
+
     # Home
     cat_tiles = "".join(
         f"""<a class="cat-tile" href="category/{slug}.html">
@@ -703,19 +819,23 @@ def build():
 </a>"""
         for slug, c in cfg["categories"].items()
     )
-    hero_art = "".join(
-        f'<div class="hero-bubble tint-{slug}">{icon(c["icon"], "icon")}</div>' for slug, c in cfg["categories"].items()
-    )
+    if HERO_PHOTO in PHOTOS:
+        hero_art = photo_figure(HERO_PHOTO, "", "(min-width: 760px) 42vw, 100vw", "photo hero-photo", eager=True)
+    else:
+        hero_art = '<div class="hero-art" aria-hidden="true">%s</div>' % "".join(
+            f'<div class="hero-bubble tint-{slug}">{icon(c["icon"], "icon")}</div>' for slug, c in cfg["categories"].items())
     tg_cta = (f'<a class="btn btn-ghost" href="{e(tg)}" target="_blank" rel="noopener">{icon("send", "icon icon-sm")} Join on Telegram</a>'
               if tg else "")
     picks_html = grid(cfg, deals[:8], "") if deals else '<p class="muted">New picks are coming soon.</p>'
     baggage_promo = ""
-    if AIRLINES_FILE.exists():
+    if airlines:
+        baggage_art = ('<div class="guide-art guide-photo">%s</div>' % photo_img(BAGGAGE_PHOTO, "", "(min-width: 700px) 360px, 100vw", alt="")
+                       if BAGGAGE_PHOTO in PHOTOS else '<div class="guide-art tint-travel-gear">%s</div>' % icon("plane", "icon guide-icon"))
         baggage_promo = f"""<section class="wrap section">
   {section_head("Flying soon?")}
   <div class="guide-grid">
     <a class="guide-card" href="baggage/index.html">
-      <div class="guide-art tint-travel-gear">{icon("plane", "icon guide-icon")}</div>
+      {baggage_art}
       <div class="guide-body"><p class="eyebrow">IndiGo &middot; Air India &middot; Akasa &middot; SpiceJet</p>
       <h3>Baggage rules for Indian airlines</h3><p>Cabin bag size and weight, and free check-in baggage, all in one place.</p>
       <span class="more">See the rules {icon("arrow", "icon icon-sm")}</span></div>
@@ -736,7 +856,7 @@ def build():
       <p class="lead">Hand-picked products from Amazon India. We check size, material, weight and warranty, then explain it in simple words.</p>
       <div class="hero-ctas"><a class="btn btn-amazon btn-big" href="#latest">See latest picks</a>{tg_cta}</div>
     </div>
-    <div class="hero-art" aria-hidden="true">{hero_art}</div>
+    {hero_art}
   </div>
 </section>
 <section class="trust">
@@ -768,7 +888,7 @@ def build():
     home_schema = [{"@context": "https://schema.org", "@type": "WebSite", "name": cfg["site_name"],
                     "url": abs_url(cfg), "description": cfg["tagline"], "inLanguage": "en-IN",
                     "publisher": org_schema(cfg)}]
-    pages.append(write("index.html", page(cfg, "", cfg["tagline"], body, 0, "", home_schema)))
+    pages.append(write("index.html", page(cfg, "", cfg["tagline"], body, 0, "", home_schema, photo=HERO_PHOTO)))
 
     # Pick pages
     for d in deals:
@@ -823,16 +943,10 @@ def build():
         items_html = grid(cfg, items, "../") if items else '<p class="muted">New picks are coming soon.</p>'
         related_html = (f'<section class="section">{section_head("Guides")}{guide_cards(cfg, related, "../")}</section>'
                         if related else "")
-        body = f"""<section class="page-head tint-{slug}">
-  <div class="wrap page-head-row">
-    {media(cfg, slug, 'media media-tile')}
-    <div>
-      <nav class="crumbs"><a href="../index.html">Home</a><span>/</span>{e(cat['name'])}</nav>
+        inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span>{e(cat['name'])}</nav>
       <h1>{e(cat['name'])}</h1>
-      <p class="lead">{e(cat['intro'])}</p>
-    </div>
-  </div>
-</section>
+      <p class="lead">{e(cat['intro'])}</p>"""
+        body = f"""{page_head(slug, media(cfg, slug, 'media media-tile'), inner, "../", cat.get("photo"))}
 <div class="wrap section">
   {tip_box(cfg, slug, '../', articles_by_slug)}
   {items_html}
@@ -842,7 +956,7 @@ def build():
         desc = "Hand-picked %s from Amazon India. %s" % (cat["name"].lower(), cat["intro"])
         path = "category/%s.html" % slug
         crumbs = crumbs_schema(cfg, [("Home", ""), (cat["name"], path)])
-        pages.append(write(path, page(cfg, cat["name"], desc, body, 1, path, [crumbs])))
+        pages.append(write(path, page(cfg, cat["name"], desc, body, 1, path, [crumbs], photo=cat.get("photo"))))
 
     # Guides
     body = f"""<section class="page-head">
@@ -856,29 +970,23 @@ def build():
         content = render_markdown(a["body"], cfg, deals_by_asin, "../", a["slug"] + ".md")
         cat = a.get("category")
         art = media(cfg, cat, "media media-tile") if cat in cfg["categories"] else ""
-        body = f"""<section class="page-head tint-{e(cat or 'none')}">
-  <div class="wrap page-head-row">
-    {art}
-    <div>
-      <nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="index.html">Guides</a></nav>
+        inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="index.html">Guides</a></nav>
       <h1>{e(a['title'])}</h1>
-      <p class="muted small">Updated {fmt_date(a['updated'])} &middot; {a['minutes']} min read</p>
-    </div>
-  </div>
-</section>
+      <p class="muted small">Updated {fmt_date(a['updated'])} &middot; {a['minutes']} min read</p>"""
+        body = f"""{page_head(e(cat or 'none'), art, inner, "../", a.get("photo"))}
 <div class="wrap"><article class="guide">{content}</article></div>
 {telegram_band(cfg, "../")}"""
         path = "guides/%s.html" % a["slug"]
+        image = photo_og(cfg, a["photo"]) if a.get("photo") in PHOTOS else abs_url(cfg, "assets/logo.png")
         article = {"@context": "https://schema.org", "@type": "Article", "headline": a["title"],
                    "description": a["description"], "datePublished": a["date"], "dateModified": a["updated"],
-                   "inLanguage": "en-IN", "image": abs_url(cfg, "assets/logo.png"),
+                   "inLanguage": "en-IN", "image": image,
                    "mainEntityOfPage": abs_url(cfg, path), "author": org_schema(cfg), "publisher": org_schema(cfg)}
         crumbs = crumbs_schema(cfg, [("Home", ""), ("Guides", "guides/index.html"), (a["title"], path)])
         pages.append(write(path, page(cfg, a.get("seo_title", a["title"]), a["description"], body, 1, path,
-                                      [article, crumbs], og_type="article")))
+                                      [article, crumbs], og_type="article", photo=a.get("photo"))))
         lastmod[path] = a["updated"]
 
-    airlines = load_airlines()
     if airlines:
         build_baggage(cfg, deals, airlines, pages, lastmod)
 
@@ -892,6 +1000,11 @@ def build():
     if cfg["contact_email"]:
         contact_lines.append(f'<li>Email: <a href="mailto:{e(cfg["contact_email"])}">{e(cfg["contact_email"])}</a></li>')
     contact_html = "<ul>%s</ul>" % "".join(contact_lines) if contact_lines else "<p>Contact details are coming soon.</p>"
+    photo_credits = ""
+    if PHOTOS:
+        photo_credits = ("<h2>Photos and diagrams</h2>\n<p>The photos on our home, category and guide pages are free stock photos "
+                         "that set the scene. They are not photos of the products we pick. Our diagrams are drawn by us.</p>\n<ul>%s</ul>"
+                         % "".join("<li>%s</li>" % photo_credit(slot) for slot in PHOTOS))
     info = {
         "about.html": ("About us", f"""<h1>About {name}</h1>
 <p>{name} is a small team that helps shoppers in India pick good bags, luggage and watches on Amazon.in.</p>
@@ -901,7 +1014,8 @@ def build():
 <li>We pick products that suit everyday Indian use, like college, office commutes and domestic flights.</li>
 <li>We never accept money from brands to list a product.</li>
 </ul>
-<p>We don't show prices because they change many times a day. The button on each pick takes you to Amazon.in, where you see the current price.</p>"""),
+<p>We don't show prices because they change many times a day. The button on each pick takes you to Amazon.in, where you see the current price.</p>
+{photo_credits}"""),
         "disclosure.html": ("Affiliate disclosure", f"""<h1>Affiliate disclosure</h1>
 <p><strong>{DISCLOSURE}</strong></p>
 <p>{name} is a participant in the Amazon Associates Programme. When you click a "Check price on Amazon" button and buy something, Amazon may pay us a small commission. You pay the same price.</p>
@@ -941,6 +1055,8 @@ def build():
             sys.exit("Error: disclosure missing on %s" % html_file)
         if re.search(r'http-equiv="refresh"|location\.(href|replace)', text, re.I):
             sys.exit("Error: auto-redirect found on %s" % html_file)
+        if html_file.parent.name == "picks" and "assets/photos/" in text:
+            sys.exit("Error: a stock photo is on pick page %s, where it could pass as the product" % html_file)
 
     print("Built %d pages (%d picks, %d guides) into docs/" % (len(pages), len(deals), len(articles)))
 

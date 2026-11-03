@@ -5,6 +5,7 @@ description: The 7 kg and 115 cm rule explained, why "55 cm" bags can still be t
 date: 2026-10-23
 updated: 2026-11-03
 category: luggage
+photo: cabin-bag-airport
 ---
 Getting stopped at the airport gate because your cabin bag is too heavy or too big is stressful and can cost money. This guide explains the rules and how to pick a trolley bag that fits them.
 
@@ -20,9 +21,13 @@ Other airlines have similar rules, but they can differ by fare type and they cha
 
 We've put the rules for IndiGo, Air India, Air India Express, Akasa Air and SpiceJet on one page: see our [baggage rules for Indian airlines](../baggage/index.html). To test your own bag, use the [cabin bag checker](../baggage/checker.html).
 
+[[diagram:cabin-limits]]
+
 ## Why "55 cm cabin size" isn't the full story
 
 Most cabin trolleys are sold as "55 cm". That's only the **height**. Airlines usually check the **total** of length + width + height, wheels and handles included.
+
+[[diagram:measure-bag]]
 
 Here's how three popular 55 cm bags add up, using the dimensions listed by the sellers:
 

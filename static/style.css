@@ -175,7 +175,7 @@ img { max-width: 100%; }
 .guide-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 18px; }
 .guide-card { display: flex; flex-direction: column; border-radius: var(--radius); overflow: hidden; background: var(--surface); border: 1px solid var(--line); text-decoration: none; color: var(--ink); box-shadow: var(--shadow); transition: transform 0.15s ease; }
 .guide-card:hover { transform: translateY(-3px); }
-.guide-art { display: grid; place-items: center; height: 110px; }
+.guide-art { display: grid; place-items: center; height: 150px; }
 .guide-icon { width: 52px; height: 52px; }
 .guide-body { padding: 16px 18px 18px; }
 .guide-body h3 { margin: 0 0 6px; font-size: 1.08rem; }
@@ -286,6 +286,26 @@ img { max-width: 100%; }
 .airline-links a { display: inline-block; padding: 6px 14px; border-radius: 999px; background: var(--surface); border: 1px solid var(--line); text-decoration: none; font-weight: 700; color: var(--ink); }
 .airline-links a:hover { color: var(--brand); border-color: var(--brand); }
 @media (min-width: 640px) { .checker-fields { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+
+/* Stock photos (scene-setting only, never product images) and our diagrams */
+.photo { margin: 0; }
+.photo img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; border-radius: var(--radius); background: var(--tint-none); }
+.photo figcaption { margin-top: 6px; font-size: 0.72rem; color: var(--muted); }
+.photo figcaption a { color: inherit; }
+.hero-photo img { box-shadow: 0 18px 40px rgba(0, 0, 0, 0.3); }
+.hero-photo figcaption { color: #9fc3cc; }
+.page-head-grid { display: grid; grid-template-columns: 1fr; gap: 20px; align-items: center; }
+.head-photo img { aspect-ratio: 16 / 9; }
+.guide-photo { overflow: hidden; background: var(--tint-none); }
+.guide-photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.diagram { margin: 26px 0; text-align: center; }
+.diagram img { display: block; width: auto; max-width: 100%; max-height: 620px; height: auto; margin: 0 auto; border-radius: 14px; border: 1px solid var(--line); }
+.diagram figcaption { max-width: 520px; margin: 8px auto 0; font-size: 0.85rem; color: var(--muted); }
+@media (min-width: 760px) {
+  .page-head-grid { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 36px; }
+  .hero-photo img { aspect-ratio: 4 / 3; }
+  .head-photo img { aspect-ratio: 16 / 10; }
+}
 
 /* Footer */
 .site-footer { margin-top: 0; padding: 44px 0 24px; background: #0a2a33; color: #b8cbd1; }

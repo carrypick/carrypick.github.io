@@ -1,0 +1,60 @@
+{
+  "_note": "Free Unsplash photos (Unsplash License: free for commercial use, credit not required but we give it). Only for mood pictures on the home page, categories, guides and baggage pages - never on product cards or pick pages, so no photo is passed off as the product. Checked by eye for brand logos and recognisable faces. Run scripts/fetch_photos.py after adding one.",
+  "photos": {
+    "traveller-sunset": {
+      "unsplash": "_g1WdcKcV3w", "image": "1473625247510-8ceb1760943f",
+      "credit": "Mantas Hesthaven", "profile": "https://unsplash.com/@mantashesthaven",
+      "alt": "A traveller with a cabin trolley looking out at a sunset from under an archway"
+    },
+    "backpack-street": {
+      "unsplash": "i1H9UvHDBL4", "image": "1618901041775-7327dd8de820",
+      "credit": "Alexandra Tran", "profile": "https://unsplash.com/@alexgoesglobal",
+      "alt": "A woman carrying a brown canvas backpack, seen from behind"
+    },
+    "trolley-walk": {
+      "unsplash": "lT_uN_5atEw", "image": "1558413203-528a11565bf4",
+      "credit": "Gabrielle Henderson", "profile": "https://unsplash.com/@gabriellefaithhenderson",
+      "alt": "A traveller pulling a pink cabin trolley through an airport"
+    },
+    "packed-suitcase": {
+      "unsplash": "UGydbuGHTK0", "image": "1779364815233-84ec09c6d6d5",
+      "credit": "Jens Riesenberg", "profile": "https://unsplash.com/@infernisvox",
+      "alt": "An open cabin suitcase packed with clothes, a passport and a zip organiser"
+    },
+    "watch-wrist": {
+      "unsplash": "vPdielVue18", "image": "1685802404517-b614798edde2",
+      "credit": "Jan Light", "profile": "https://unsplash.com/@juanlightstudio",
+      "alt": "An analog watch with a black leather strap on a wrist"
+    },
+    "cabin-bag-airport": {
+      "unsplash": "xFItahF3CY4", "image": "1495320520040-44186a20c601",
+      "credit": "Michał Parzuchowski", "profile": "https://unsplash.com/@mparzuchowski",
+      "alt": "A black cabin trolley standing in an airport departure lounge"
+    },
+    "backpack-field": {
+      "unsplash": "Gu1vRNMmvUY", "image": "1536562833330-a59dc2305a5c",
+      "credit": "Andrew Neel", "profile": "https://unsplash.com/@andrewtneel",
+      "alt": "A man carrying a grey laptop backpack across a frosty field"
+    },
+    "watch-mesh": {
+      "unsplash": "JMljwG1tPM4", "image": "1707467884808-220ddf0a1704",
+      "credit": "Olga Kovalski", "profile": "https://unsplash.com/@kovalskihelga",
+      "alt": "A black-dial analog watch with a metal mesh strap"
+    },
+    "trolley-handles": {
+      "unsplash": "CLOTsiik9yo", "image": "1776753422713-3bd2db4c98cc",
+      "credit": "Braden Wagner", "profile": "https://unsplash.com/@inventorb",
+      "alt": "The handles of three suitcases of different heights in a hotel lobby"
+    },
+    "gift-box": {
+      "unsplash": "f94JPVrDbnY", "image": "1513201099705-a9746e1e201f",
+      "credit": "Jess Bailey", "profile": "https://unsplash.com/@jessbaileydesigns",
+      "alt": "A gift wrapped in brown paper with a pink ribbon"
+    },
+    "airport-terminal": {
+      "unsplash": "rUXh5USKfUQ", "image": "1532968899863-5b52ef155913",
+      "credit": "Briana Tozour", "profile": "https://unsplash.com/@britozour",
+      "alt": "Travellers with trolley bags walking through a sunlit airport terminal"
+    }
+  }
+}

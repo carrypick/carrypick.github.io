@@ -4,6 +4,7 @@ title: How to choose a laptop backpack for college or office
 description: Laptop size, litres, comfort and monsoon protection explained simply, with our picks.
 date: 2026-10-23
 category: backpacks
+photo: backpack-field
 ---
 A good backpack can last you four years of college or many years of office commutes. A bad one hurts your shoulders in a week. Here's what actually matters, in order.
 

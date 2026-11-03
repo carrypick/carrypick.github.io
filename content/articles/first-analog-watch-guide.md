@@ -3,7 +3,9 @@ seo_title: How to choose your first analog watch in India
 title: How to choose your first analog watch
 description: Dial size, strap type, water resistance and warranty in plain words, with picks for men and women.
 date: 2026-10-23
+updated: 2026-11-03
 category: watches
+photo: watch-mesh
 ---
 An analog watch, the kind with hands, still looks smart in an interview, at the office or at a wedding. It also makes a safe gift. Here's how to pick one without confusion.
 
@@ -16,6 +18,8 @@ Dial (case) size is measured in millimetres (mm) across the watch face.
 - **41–45 mm:** large and bold. Looks best on wider wrists.
 
 Not sure? Choose **38–40 mm** for men and **28–34 mm** for women. These sizes suit most people.
+
+[[diagram:watch-sizes]]
 
 ## 2. Choose a strap for how you'll wear it
 

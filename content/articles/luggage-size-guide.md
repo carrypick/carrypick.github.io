@@ -3,7 +3,9 @@ seo_title: What size luggage do I need? Cabin vs medium vs large
 title: What size luggage do you need? A simple guide by trip length
 description: Cabin, medium or large? Match your trolley size to your trip, airline limits and how you travel, plus hard vs soft luggage.
 date: 2026-11-02
+updated: 2026-11-03
 category: luggage
+photo: trolley-handles
 ---
 Buying the wrong size suitcase is a common mistake. Too small, and you sit on it to close it. Too big, and you pay for extra baggage or drag a half-empty bag around. Here's how to pick the right size.
 
@@ -15,6 +17,8 @@ These are rough guides. Every brand's sizes differ a little, so always check the
 - **Short trip (2–4 days):** a **cabin trolley**, about 55 cm tall and 35–45 litres.
 - **One week (5–8 days):** a **medium check-in trolley**, about 65–69 cm tall.
 - **Long holiday or family trip (10+ days):** a **large trolley**, about 75–79 cm tall.
+
+[[diagram:luggage-sizes]]
 
 ## Check your airline first
 
