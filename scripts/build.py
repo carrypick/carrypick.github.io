@@ -35,7 +35,7 @@ BAGGAGE_PHOTO = "airport-terminal"
 DEAL_HOURS = 24  # how long a "Deal spotted" badge shows (site.js hides it after this, and must match)
 PHOTOS = {}    # filled by build() from data/photos.json
 DIAGRAMS = {}  # filled by build() from scripts/diagrams.py
-TOOLS = []     # travel tool pages, filled by build(): (path, short name, eyebrow, title, text, link text, icon, tint)
+TOOLS = []     # travel tool pages, filled by build(): (path, short name, eyebrow, title, text, link text, icon, tint, photo)
 HINDI_PAGES = {}  # English path -> its Hindi version, filled by build() when data/hindi.json exists
 DISCLOSURE = "As an Amazon Associate I earn from qualifying purchases."
 KEEP_IN_DOCS = {"CNAME"}
@@ -357,8 +357,10 @@ def photo_img(slot, p, sizes, eager=False, alt=None):
     info = PHOTOS[slot]
     base = "%sassets/photos/%s" % (p, slot)
     load = 'fetchpriority="high"' if eager else 'loading="lazy" decoding="async"'
+    # "focus" in data/photos.json (e.g. "50% 80%") keeps the subject in view when a card crops the photo.
+    focus = f' style="object-position: {e(info["focus"])}"' if info.get("focus") else ""
     return (f'<img src="{base}-800.webp" srcset="{base}-800.webp 800w, {base}-1600.webp 1600w" sizes="{sizes}" '
-            f'width="{info["size"][0]}" height="{info["size"][1]}" alt="{e(info["alt"] if alt is None else alt)}" {load}>')
+            f'width="{info["size"][0]}" height="{info["size"][1]}" alt="{e(info["alt"] if alt is None else alt)}"{focus} {load}>')
 
 
 def photo_credit(slot):
@@ -1857,24 +1859,24 @@ def build():
     if airlines:
         TOOLS.append(("baggage/index.html", "Airline baggage rules", "IndiGo &middot; Air India &middot; Akasa &middot; SpiceJet",
                       "Baggage rules for Indian airlines", "Cabin bag size and weight, and free check-in baggage, all in one place.",
-                      "See the rules", "plane", "travel-gear"))
+                      "See the rules", "plane", "travel-gear", BAGGAGE_PHOTO))
         TOOLS.append(("baggage/checker.html", "Cabin bag checker", "Free tool", "Will my bag fit? Cabin bag checker",
-                      "Type your bag's size and weight and see which airlines accept it as a cabin bag.", "Check your bag", "ruler", "luggage"))
+                      "Type your bag's size and weight and see which airlines accept it as a cabin bag.", "Check your bag", "ruler", "luggage", "plane-cabin"))
     if intl_airlines:
         TOOLS.append(("baggage/international.html", "International baggage rules", "Emirates &middot; Qatar &middot; Saudia &middot; Singapore",
                       "Baggage rules for international flights", "Cabin bag size and checked kg by fare for 12 airlines flying from India to the Gulf and Singapore.",
-                      "See the rules", "plane", "luggage"))
+                      "See the rules", "plane", "luggage", "plane-window"))
     TOOLS.append(("baggage/luggage-size-chart.html", "Luggage size chart", "Inches &middot; cm &middot; kg &middot; lb",
                   "Luggage size chart: inches to cm", "20, 24 or 28 inch? Trolley sizes in cm, airline cabin limits in inches, and kg to pounds.",
-                  "See the chart", "ruler", "travel-gear"))
+                  "See the chart", "ruler", "travel-gear", "tape-measure"))
     if FLIGHT_ITEMS_FILE.exists():
         TOOLS.append(("baggage/can-i-carry.html", "Can I carry it on a flight?", "Free tool", "Can I carry it on a flight?",
                       "Power banks, perfume, pickles, dry coconut: see what goes in your cabin bag and what goes in check-in.",
-                      "Search items", "shield", "watches"))
+                      "Search items", "shield", "watches", "baggage-belt"))
     if RAILWAYS_FILE.exists():
         TOOLS.append(("baggage/train-luggage-rules.html", "Train luggage rules", "Indian Railways",
                       "How much luggage can you carry on a train?", "Free luggage allowance for every class, size limits and charges.",
-                      "See train rules", "train", "backpacks"))
+                      "See train rules", "train", "backpacks", "train-engine"))
     if HINDI_FILE.exists() and airlines and FLIGHT_ITEMS_FILE.exists() and RAILWAYS_FILE.exists():
         HINDI_PAGES.update(HINDI_PATHS)
     trips_hi = load_articles(TRIPS_HI_DIR) if TRIPS_HI_DIR.exists() else []
@@ -1882,15 +1884,15 @@ def build():
         if (TRIPS_DIR / (t["slug"] + ".md")).exists():
             HINDI_PAGES["trips/%s.html" % t["slug"]] = "hi/trips/%s.html" % t["slug"]
     TOOLS.append(("tools/bag-weight.html", "Bag weight calculator", "Free tool", "How heavy is my bag?",
-                  "Add what you're packing and see if your bag stays under 7 kg or 15 kg.", "Weigh it", "check", "luggage"))
+                  "Add what you're packing and see if your bag stays under 7 kg or 15 kg.", "Weigh it", "check", "luggage", "bathroom-scale"))
     TOOLS.append(("tools/laptop-backpack.html", "Backpack for my laptop", "Free tool", "Which backpack fits my laptop?",
-                  "Pick your laptop size, from 13 to 17 inch, and see the backpacks that fit it.", "Find a backpack", "backpack", "backpacks"))
+                  "Pick your laptop size, from 13 to 17 inch, and see the backpacks that fit it.", "Find a backpack", "backpack", "backpacks", "backpack-field"))
     TOOLS.append(("tools/watch-size.html", "Watch size by wrist", "Free tool", "Which watch size suits my wrist?",
-                  "Measure your wrist and see the dial sizes, in mm, that look right on it.", "Find my size", "watch", "watches"))
+                  "Measure your wrist and see the dial sizes, in mm, that look right on it.", "Find my size", "watch", "watches", "watch-wrist"))
     if PACKING_FILE.exists():
         TOOLS.append(("packing/index.html", "Packing checklists", "Free checklist", "Packing checklists for every trip",
                       "Weekend, wedding, hills, beach, train or abroad: tick off what to pack, with quantities.",
-                      "Start packing", "check", "travel-gear"))
+                      "Start packing", "check", "travel-gear", "packed-suitcase"))
 
     # Home
     cat_tiles = "".join(
@@ -1921,9 +1923,9 @@ def build():
     baggage_promo = ""
     if TOOLS:
         cards = []
-        for path, short, eyebrow, title, text, more, glyph, tint in TOOLS:
-            if path == "baggage/index.html" and BAGGAGE_PHOTO in PHOTOS:
-                art = '<div class="guide-art guide-photo">%s</div>' % photo_img(BAGGAGE_PHOTO, "", "(min-width: 700px) 360px, 100vw", alt="")
+        for path, short, eyebrow, title, text, more, glyph, tint, slot in TOOLS:
+            if slot in PHOTOS:
+                art = '<div class="guide-art guide-photo">%s</div>' % photo_img(slot, "", "(min-width: 700px) 360px, 100vw", alt="")
             else:
                 art = f'<div class="guide-art tint-{tint}">{icon(glyph, "icon guide-icon")}</div>'
             cards.append(f"""<a class="guide-card" href="{path}">

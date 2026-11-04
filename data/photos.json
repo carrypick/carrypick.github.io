@@ -69,12 +69,42 @@
     "jaipur-hawa-mahal": {
       "unsplash": "W3qWtMNwRf0", "image": "1650530777057-3a7dbc24bf6c",
       "credit": "Nikunj Mundra", "profile": "https://unsplash.com/@nikunjmundra",
-      "alt": "The pink sandstone windows of Hawa Mahal in Jaipur"
+      "alt": "The pink sandstone windows of Hawa Mahal in Jaipur", "focus": "50% 78%"
     },
     "kerala-houseboat": {
       "unsplash": "ii0oWs5abCo", "image": "1593693411515-c20261bcad6e",
       "credit": "Abhishek Prasad", "profile": "https://unsplash.com/@whatsabhidoing",
       "alt": "A thatched houseboat on the palm-lined backwaters of Alappuzha, Kerala"
+    },
+    "train-engine": {
+      "unsplash": "9okX_vs8JSc", "image": "1685858874777-b87106319be7",
+      "credit": "Arun Prakash", "profile": "https://unsplash.com/@its_arunprakash",
+      "alt": "An Indian Railways diesel engine on a track through green forest"
+    },
+    "plane-window": {
+      "unsplash": "C0KdBbibUYo", "image": "1527605158555-853f200063e9",
+      "credit": "William Bayreuther", "profile": "https://unsplash.com/@wbayreuther",
+      "alt": "A plane wing above the clouds, seen through a cabin window"
+    },
+    "plane-cabin": {
+      "unsplash": "4cojnjkAj2o", "image": "1762961412793-d383bb1510ef",
+      "credit": "Alexander Schimmeck", "profile": "https://unsplash.com/@alschim",
+      "alt": "Overhead bins above the seats in an airplane cabin"
+    },
+    "tape-measure": {
+      "unsplash": "cixohzDpNIo", "image": "1523901839036-a3030662f220",
+      "credit": "Siora Photography", "profile": "https://unsplash.com/@siora18",
+      "alt": "A cloth tape measure marked in centimetres"
+    },
+    "bathroom-scale": {
+      "unsplash": "TLEI9o1HdY4", "image": "1646829873498-e874cfa27933",
+      "credit": "Joachim Schnürle", "profile": "https://unsplash.com/@joa70",
+      "alt": "A bathroom weighing scale on a wooden floor"
+    },
+    "baggage-belt": {
+      "unsplash": "S0u5ugYRNFo", "image": "1762965119363-af950b523dca",
+      "credit": "Alexander Schimmeck", "profile": "https://unsplash.com/@alschim",
+      "alt": "Suitcases on an airport baggage belt"
     }
   }
 }

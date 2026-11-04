@@ -303,7 +303,7 @@ img { max-width: 100%; }
 .hero-photo figcaption { color: #9fc3cc; }
 .page-head-grid { display: grid; grid-template-columns: 1fr; gap: 20px; align-items: center; }
 .head-photo img { aspect-ratio: 16 / 9; }
-.guide-photo { overflow: hidden; background: var(--tint-none); }
+.guide-photo { display: block; overflow: hidden; background: var(--tint-none); }
 .guide-photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .diagram { margin: 26px 0; text-align: center; }
 .diagram img { display: block; width: auto; max-width: 100%; max-height: 620px; height: auto; margin: 0 auto; border-radius: 14px; border: 1px solid var(--line); }
