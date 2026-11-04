@@ -3,7 +3,7 @@ seo_title: Kerala trip guide for Christmas and New Year 2026–27: Kochi, Munnar
 title: Kerala in winter: Kochi, Munnar and the backwaters at Christmas and New Year
 description: Plan Kerala for December and January: the weather, airports, the Cochin Carnival in Fort Kochi, houseboats in Alappuzha, Eravikulam in Munnar, beach safety and the 1 January dry day.
 date: 2026-11-03
-updated: 2026-11-03
+updated: 2026-11-04
 place: Kerala
 best: Nov–Feb
 photo: kerala-houseboat
@@ -96,13 +96,17 @@ So pack light cotton clothes for the coast and the backwaters, and a warm jacket
 
 ## What to pack for Kerala in winter
 
-- Light cotton clothes, a hat and sunscreen for the coast.
+- Light cotton clothes, a hat and sunscreen for the coast. See our [sunscreen guide](../guides/travel-sunscreen-guide.html).
 - A warm jacket for Munnar, where nights can be close to freezing.
 - Modest clothes for temples and churches.
 - Mosquito repellent for the backwaters.
 - A waterproof phone pouch for boat trips and the beach:
 
 [[pick:B094JBDRKX]]
+
+- A rain poncho for December showers on the coast:
+
+[[pick:B09XJ2D8VM]]
 
 Heading to Munnar too? See our [winter hill trip packing list](../packing/hills.html).
 

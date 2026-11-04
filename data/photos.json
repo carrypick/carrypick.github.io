@@ -2,109 +2,173 @@
   "_note": "Free Unsplash photos (Unsplash License: free for commercial use, credit not required but we give it). Only for mood pictures on the home page, categories, guides and baggage pages - never on product cards or pick pages, so no photo is passed off as the product. Checked by eye for brand logos and recognisable faces. Run scripts/fetch_photos.py after adding one.",
   "photos": {
     "traveller-sunset": {
-      "unsplash": "_g1WdcKcV3w", "image": "1473625247510-8ceb1760943f",
-      "credit": "Mantas Hesthaven", "profile": "https://unsplash.com/@mantashesthaven",
+      "unsplash": "_g1WdcKcV3w",
+      "image": "1473625247510-8ceb1760943f",
+      "credit": "Mantas Hesthaven",
+      "profile": "https://unsplash.com/@mantashesthaven",
       "alt": "A traveller with a cabin trolley looking out at a sunset from under an archway"
     },
     "backpack-street": {
-      "unsplash": "i1H9UvHDBL4", "image": "1618901041775-7327dd8de820",
-      "credit": "Alexandra Tran", "profile": "https://unsplash.com/@alexgoesglobal",
+      "unsplash": "i1H9UvHDBL4",
+      "image": "1618901041775-7327dd8de820",
+      "credit": "Alexandra Tran",
+      "profile": "https://unsplash.com/@alexgoesglobal",
       "alt": "A woman carrying a brown canvas backpack, seen from behind"
     },
     "trolley-walk": {
-      "unsplash": "lT_uN_5atEw", "image": "1558413203-528a11565bf4",
-      "credit": "Gabrielle Henderson", "profile": "https://unsplash.com/@gabriellefaithhenderson",
+      "unsplash": "lT_uN_5atEw",
+      "image": "1558413203-528a11565bf4",
+      "credit": "Gabrielle Henderson",
+      "profile": "https://unsplash.com/@gabriellefaithhenderson",
       "alt": "A traveller pulling a pink cabin trolley through an airport"
     },
     "packed-suitcase": {
-      "unsplash": "UGydbuGHTK0", "image": "1779364815233-84ec09c6d6d5",
-      "credit": "Jens Riesenberg", "profile": "https://unsplash.com/@infernisvox",
+      "unsplash": "UGydbuGHTK0",
+      "image": "1779364815233-84ec09c6d6d5",
+      "credit": "Jens Riesenberg",
+      "profile": "https://unsplash.com/@infernisvox",
       "alt": "An open cabin suitcase packed with clothes, a passport and a zip organiser"
     },
     "watch-wrist": {
-      "unsplash": "vPdielVue18", "image": "1685802404517-b614798edde2",
-      "credit": "Jan Light", "profile": "https://unsplash.com/@juanlightstudio",
+      "unsplash": "vPdielVue18",
+      "image": "1685802404517-b614798edde2",
+      "credit": "Jan Light",
+      "profile": "https://unsplash.com/@juanlightstudio",
       "alt": "An analog watch with a black leather strap on a wrist"
     },
     "cabin-bag-airport": {
-      "unsplash": "xFItahF3CY4", "image": "1495320520040-44186a20c601",
-      "credit": "Michał Parzuchowski", "profile": "https://unsplash.com/@mparzuchowski",
+      "unsplash": "xFItahF3CY4",
+      "image": "1495320520040-44186a20c601",
+      "credit": "Michał Parzuchowski",
+      "profile": "https://unsplash.com/@mparzuchowski",
       "alt": "A black cabin trolley standing in an airport departure lounge"
     },
     "backpack-field": {
-      "unsplash": "Gu1vRNMmvUY", "image": "1536562833330-a59dc2305a5c",
-      "credit": "Andrew Neel", "profile": "https://unsplash.com/@andrewtneel",
+      "unsplash": "Gu1vRNMmvUY",
+      "image": "1536562833330-a59dc2305a5c",
+      "credit": "Andrew Neel",
+      "profile": "https://unsplash.com/@andrewtneel",
       "alt": "A man carrying a grey laptop backpack across a frosty field"
     },
     "watch-mesh": {
-      "unsplash": "JMljwG1tPM4", "image": "1707467884808-220ddf0a1704",
-      "credit": "Olga Kovalski", "profile": "https://unsplash.com/@kovalskihelga",
+      "unsplash": "JMljwG1tPM4",
+      "image": "1707467884808-220ddf0a1704",
+      "credit": "Olga Kovalski",
+      "profile": "https://unsplash.com/@kovalskihelga",
       "alt": "A black-dial analog watch with a metal mesh strap"
     },
     "trolley-handles": {
-      "unsplash": "CLOTsiik9yo", "image": "1776753422713-3bd2db4c98cc",
-      "credit": "Braden Wagner", "profile": "https://unsplash.com/@inventorb",
+      "unsplash": "CLOTsiik9yo",
+      "image": "1776753422713-3bd2db4c98cc",
+      "credit": "Braden Wagner",
+      "profile": "https://unsplash.com/@inventorb",
       "alt": "The handles of three suitcases of different heights in a hotel lobby"
     },
     "gift-box": {
-      "unsplash": "f94JPVrDbnY", "image": "1513201099705-a9746e1e201f",
-      "credit": "Jess Bailey", "profile": "https://unsplash.com/@jessbaileydesigns",
+      "unsplash": "f94JPVrDbnY",
+      "image": "1513201099705-a9746e1e201f",
+      "credit": "Jess Bailey",
+      "profile": "https://unsplash.com/@jessbaileydesigns",
       "alt": "A gift wrapped in brown paper with a pink ribbon"
     },
     "airport-terminal": {
-      "unsplash": "rUXh5USKfUQ", "image": "1532968899863-5b52ef155913",
-      "credit": "Briana Tozour", "profile": "https://unsplash.com/@britozour",
+      "unsplash": "rUXh5USKfUQ",
+      "image": "1532968899863-5b52ef155913",
+      "credit": "Briana Tozour",
+      "profile": "https://unsplash.com/@britozour",
       "alt": "Travellers with trolley bags walking through a sunlit airport terminal"
     },
     "goa-palolem": {
-      "unsplash": "eSRtxPd9q1c", "image": "1614082242765-7c98ca0f3df3",
-      "credit": "Sumit Sourav", "profile": "https://unsplash.com/@sumit731",
+      "unsplash": "eSRtxPd9q1c",
+      "image": "1614082242765-7c98ca0f3df3",
+      "credit": "Sumit Sourav",
+      "profile": "https://unsplash.com/@sumit731",
       "alt": "Colourful beach huts under tall coconut palms on Palolem Beach, South Goa"
     },
     "manali-town": {
-      "unsplash": "Xpwj1j1HX34", "image": "1597167231350-d057a45dc868",
-      "credit": "Naman Jaswani", "profile": "https://unsplash.com/@nj2797",
+      "unsplash": "Xpwj1j1HX34",
+      "image": "1597167231350-d057a45dc868",
+      "credit": "Naman Jaswani",
+      "profile": "https://unsplash.com/@nj2797",
       "alt": "Manali's green-roofed hotels below snow-covered mountains"
     },
     "jaipur-hawa-mahal": {
-      "unsplash": "W3qWtMNwRf0", "image": "1650530777057-3a7dbc24bf6c",
-      "credit": "Nikunj Mundra", "profile": "https://unsplash.com/@nikunjmundra",
-      "alt": "The pink sandstone windows of Hawa Mahal in Jaipur", "focus": "50% 78%"
+      "unsplash": "W3qWtMNwRf0",
+      "image": "1650530777057-3a7dbc24bf6c",
+      "credit": "Nikunj Mundra",
+      "profile": "https://unsplash.com/@nikunjmundra",
+      "alt": "The pink sandstone windows of Hawa Mahal in Jaipur",
+      "focus": "50% 78%"
     },
     "kerala-houseboat": {
-      "unsplash": "ii0oWs5abCo", "image": "1593693411515-c20261bcad6e",
-      "credit": "Abhishek Prasad", "profile": "https://unsplash.com/@whatsabhidoing",
+      "unsplash": "ii0oWs5abCo",
+      "image": "1593693411515-c20261bcad6e",
+      "credit": "Abhishek Prasad",
+      "profile": "https://unsplash.com/@whatsabhidoing",
       "alt": "A thatched houseboat on the palm-lined backwaters of Alappuzha, Kerala"
     },
     "train-engine": {
-      "unsplash": "9okX_vs8JSc", "image": "1685858874777-b87106319be7",
-      "credit": "Arun Prakash", "profile": "https://unsplash.com/@its_arunprakash",
+      "unsplash": "9okX_vs8JSc",
+      "image": "1685858874777-b87106319be7",
+      "credit": "Arun Prakash",
+      "profile": "https://unsplash.com/@its_arunprakash",
       "alt": "An Indian Railways diesel engine on a track through green forest"
     },
     "plane-window": {
-      "unsplash": "C0KdBbibUYo", "image": "1527605158555-853f200063e9",
-      "credit": "William Bayreuther", "profile": "https://unsplash.com/@wbayreuther",
+      "unsplash": "C0KdBbibUYo",
+      "image": "1527605158555-853f200063e9",
+      "credit": "William Bayreuther",
+      "profile": "https://unsplash.com/@wbayreuther",
       "alt": "A plane wing above the clouds, seen through a cabin window"
     },
     "plane-cabin": {
-      "unsplash": "4cojnjkAj2o", "image": "1762961412793-d383bb1510ef",
-      "credit": "Alexander Schimmeck", "profile": "https://unsplash.com/@alschim",
+      "unsplash": "4cojnjkAj2o",
+      "image": "1762961412793-d383bb1510ef",
+      "credit": "Alexander Schimmeck",
+      "profile": "https://unsplash.com/@alschim",
       "alt": "Overhead bins above the seats in an airplane cabin"
     },
     "tape-measure": {
-      "unsplash": "cixohzDpNIo", "image": "1523901839036-a3030662f220",
-      "credit": "Siora Photography", "profile": "https://unsplash.com/@siora18",
+      "unsplash": "cixohzDpNIo",
+      "image": "1523901839036-a3030662f220",
+      "credit": "Siora Photography",
+      "profile": "https://unsplash.com/@siora18",
       "alt": "A cloth tape measure marked in centimetres"
     },
     "bathroom-scale": {
-      "unsplash": "TLEI9o1HdY4", "image": "1646829873498-e874cfa27933",
-      "credit": "Joachim Schnürle", "profile": "https://unsplash.com/@joa70",
+      "unsplash": "TLEI9o1HdY4",
+      "image": "1646829873498-e874cfa27933",
+      "credit": "Joachim Schnürle",
+      "profile": "https://unsplash.com/@joa70",
       "alt": "A bathroom weighing scale on a wooden floor"
     },
     "baggage-belt": {
-      "unsplash": "S0u5ugYRNFo", "image": "1762965119363-af950b523dca",
-      "credit": "Alexander Schimmeck", "profile": "https://unsplash.com/@alschim",
+      "unsplash": "S0u5ugYRNFo",
+      "image": "1762965119363-af950b523dca",
+      "credit": "Alexander Schimmeck",
+      "profile": "https://unsplash.com/@alschim",
       "alt": "Suitcases on an airport baggage belt"
+    },
+    "boots-mountain": {
+      "unsplash": "wnMUFNRcCek",
+      "image": "1600100315760-ac46b65f6fdd",
+      "credit": "Ali Kazal",
+      "profile": "https://unsplash.com/@lureofadventure",
+      "alt": "A hiker in brown boots standing on a rock above snow-covered mountains"
+    },
+    "handbag-grey": {
+      "unsplash": "J4DnKxz_3sA",
+      "image": "1605733513597-a8f8341084e6",
+      "credit": "mostafa mahmoudi",
+      "profile": "https://unsplash.com/@mostafa_mahmoudi24",
+      "alt": "A grey leather satchel with gold buckles"
+    },
+    "snow-jacket": {
+      "unsplash": "pQm90mYMnt0",
+      "image": "1548950939-629ecb4d7101",
+      "credit": "Joshua Hanson",
+      "profile": "https://unsplash.com/@joshuahanson43",
+      "alt": "A person in a red hooded winter jacket, seen from behind, in falling snow"
     }
   }
 }

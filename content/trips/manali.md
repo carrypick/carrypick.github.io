@@ -3,7 +3,7 @@ seo_title: Manali in winter 2026–27: snow, Atal Tunnel, Rohtang and New Year g
 title: Manali in winter: snow, roads and a New Year trip guide
 description: Plan Manali for December and January: when snow usually comes, getting there from Delhi and Chandigarh, Rohtang and the Atal Tunnel in winter, green tax, snow driving and what to pack.
 date: 2026-11-03
-updated: 2026-11-03
+updated: 2026-11-04
 place: Manali
 best: Dec–Feb for snow
 photo: manali-town
@@ -101,9 +101,17 @@ If you aren't used to mountain driving, take a local taxi from an authorised sta
 
 Use our [winter hill trip packing list](../packing/hills.html). The most important things:
 
-- Thermal innerwear, a heavy jacket, a woollen cap and gloves.
-- Waterproof shoes with a good grip for snow and ice.
+- Thermal innerwear, a heavy jacket, a woollen cap and gloves. See [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html).
+- Waterproof shoes with a good grip for snow and ice. See our [travel shoes guide](../guides/travel-shoes-guide.html).
 - Moisturiser, lip balm and sunscreen: the air is dry and the sun is strong on snow.
+- A cap, neck warmer and gloves in one set:
+
+[[pick:B08L6QPD8N]]
+
+- A lip balm with SPF:
+
+[[pick:B0CND4C95T]]
+
 - A rain cover for your backpack, for snow and wet days:
 
 [[pick:B097JJ2CK6]]

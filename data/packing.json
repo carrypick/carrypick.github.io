@@ -187,7 +187,8 @@
           "id": "walking-shoes",
           "name": "Comfortable walking shoes",
           "qty": 1,
-          "trips": "all"
+          "trips": "all",
+          "link": "category/shoes.html"
         },
         {
           "id": "formal-shoes",
@@ -202,7 +203,8 @@
           "id": "slippers",
           "name": "Slippers or flip-flops",
           "qty": 1,
-          "trips": "all"
+          "trips": "all",
+          "link": "category/shoes.html"
         },
         {
           "id": "sweater",
@@ -223,14 +225,16 @@
           "qty": 2,
           "trips": [
             "hills"
-          ]
+          ],
+          "link": "guides/winter-clothes-for-hill-trips.html"
         },
         {
           "id": "winter-gear",
           "name": "Heavy jacket, woollen cap and gloves",
           "trips": [
             "hills"
-          ]
+          ],
+          "link": "guides/winter-clothes-for-hill-trips.html"
         },
         {
           "id": "blazer",
@@ -255,7 +259,8 @@
             "week",
             "beach",
             "abroad"
-          ]
+          ],
+          "pick": "B0999SJPWC"
         },
         {
           "id": "rain",
@@ -267,7 +272,8 @@
             "wedding",
             "train",
             "abroad"
-          ]
+          ],
+          "pick": "B09XJ2D8VM"
         }
       ]
     },
@@ -307,14 +313,16 @@
             "hills",
             "beach",
             "abroad"
-          ]
+          ],
+          "pick": "B0GLFM2Z4Z"
         },
         {
           "id": "lip-balm",
           "name": "Moisturiser and lip balm",
           "trips": [
             "hills"
-          ]
+          ],
+          "pick": "B0CND4C95T"
         },
         {
           "id": "wipes",

@@ -3,7 +3,7 @@ seo_title: Goa trip guide for Christmas and New Year 2026–27: weather, airport
 title: Goa for Christmas and New Year: a simple trip guide
 description: Plan Goa for December and January: the weather, Dabolim or Mopa airport, trains, taxis and scooters, beach rules and fines, New Year crowds and tips for foreign visitors.
 date: 2026-11-03
-updated: 2026-11-03
+updated: 2026-11-04
 place: Goa
 best: Nov–Feb
 photo: goa-palolem
@@ -130,11 +130,17 @@ Also remember:
 ## What to pack for Goa
 
 - Light cotton clothes, swimwear and one light sweater or shawl for the evening.
-- Sunscreen, sunglasses, a cap and flip-flops.
+- Sunscreen, sunglasses, a cap and flip-flops. See our [sunscreen guide](../guides/travel-sunscreen-guide.html) and [shoes and sandals](../category/shoes.html).
 - Mosquito repellent.
 - A waterproof pouch for your phone, cash and hotel key on the beach and on boat trips:
 
 [[pick:B094JBDRKX]]
+
+A body sunscreen in the largest size allowed in a cabin bag, and polarized sunglasses for the glare:
+
+[[pick:B0GLFM2Z4Z]]
+
+[[pick:B0999SJPWC]]
 
 Flying with only a cabin bag? This one is listed at exactly IndiGo's 55 x 35 x 25 cm limit:
 

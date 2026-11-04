@@ -3,7 +3,7 @@ seo_title: Jaipur trip guide for winter 2026–27: weather, monument tickets and
 title: Jaipur in winter: a simple trip guide for Christmas and New Year
 description: Plan Jaipur for December and January: cold mornings, monument hours and the composite ticket, getting there from Delhi and Agra, the metro, markets and January festivals.
 date: 2026-11-03
-updated: 2026-11-03
+updated: 2026-11-04
 place: Jaipur
 best: Oct–Mar
 photo: jaipur-hawa-mahal
@@ -102,8 +102,8 @@ Jaipur has three World Heritage listings: Jantar Mantar (2010), Amer Fort as one
 ## What to pack for Jaipur in winter
 
 - A warm jacket or sweater, plus light layers for the afternoon.
-- Comfortable walking shoes: forts mean slopes and steps.
-- Sunglasses, a cap and sunscreen.
+- Comfortable [walking shoes](../guides/travel-shoes-guide.html): forts mean slopes and steps.
+- Sunglasses, a cap and [sunscreen](../guides/travel-sunscreen-guide.html).
 - A small backpack with an anti-theft pocket for crowded markets:
 
 [[pick:B0DPKFT27W]]

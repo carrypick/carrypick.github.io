@@ -14,11 +14,19 @@
   --tint-luggage: #e5edf8;
   --tint-travel-gear: #f7ecdf;
   --tint-watches: #eee8f6;
+  --tint-clothing: #fbe9ea;
+  --tint-shoes: #eaf1e0;
+  --tint-handbags: #f9e6f0;
+  --tint-skincare: #fff4d6;
   --tint-none: #eef1f3;
   --icon-backpacks: #1f7a55;
   --icon-luggage: #2b5aa0;
   --icon-travel-gear: #b4612a;
   --icon-watches: #6b48a8;
+  --icon-clothing: #b23a48;
+  --icon-shoes: #55772a;
+  --icon-handbags: #a8327a;
+  --icon-skincare: #a66a00;
   --radius: 18px;
   --shadow: 0 1px 2px rgba(20, 32, 43, 0.06), 0 8px 24px rgba(20, 32, 43, 0.06);
 }
@@ -41,11 +49,19 @@
     --tint-luggage: #18212f;
     --tint-travel-gear: #2b2117;
     --tint-watches: #231d2f;
+    --tint-clothing: #2d1b1e;
+    --tint-shoes: #1f2716;
+    --tint-handbags: #2c1a26;
+    --tint-skincare: #2a2312;
     --tint-none: #1c2329;
     --icon-backpacks: #6fd3a5;
     --icon-luggage: #8db5f0;
     --icon-travel-gear: #f0a66c;
     --icon-watches: #b89cf0;
+    --icon-clothing: #f2a0aa;
+    --icon-shoes: #b4d48a;
+    --icon-handbags: #eda3cf;
+    --icon-skincare: #f2c766;
     --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.25);
   }
 }
@@ -129,6 +145,10 @@ img { max-width: 100%; }
 .tint-luggage { background: var(--tint-luggage); color: var(--icon-luggage); }
 .tint-travel-gear { background: var(--tint-travel-gear); color: var(--icon-travel-gear); }
 .tint-watches { background: var(--tint-watches); color: var(--icon-watches); }
+.tint-clothing { background: var(--tint-clothing); color: var(--icon-clothing); }
+.tint-shoes { background: var(--tint-shoes); color: var(--icon-shoes); }
+.tint-handbags { background: var(--tint-handbags); color: var(--icon-handbags); }
+.tint-skincare { background: var(--tint-skincare); color: var(--icon-skincare); }
 .tint-none { background: var(--tint-none); color: var(--brand); }
 
 /* Category tiles */
@@ -191,13 +211,17 @@ img { max-width: 100%; }
 
 /* Page heads */
 .page-head { padding: 28px 0 30px; border-bottom: 1px solid var(--line); background: var(--surface); }
-.page-head.tint-backpacks, .page-head.tint-luggage, .page-head.tint-travel-gear, .page-head.tint-watches, .page-head.tint-none { color: var(--ink); }
+.page-head.tint-backpacks, .page-head.tint-luggage, .page-head.tint-travel-gear, .page-head.tint-watches, .page-head.tint-clothing, .page-head.tint-shoes, .page-head.tint-handbags, .page-head.tint-skincare, .page-head.tint-none { color: var(--ink); }
 .page-head-row { display: flex; gap: 20px; align-items: center; }
 .page-head .media { background: var(--surface); box-shadow: var(--shadow); }
 .page-head.tint-backpacks .media { color: var(--icon-backpacks); }
 .page-head.tint-luggage .media { color: var(--icon-luggage); }
 .page-head.tint-travel-gear .media { color: var(--icon-travel-gear); }
 .page-head.tint-watches .media { color: var(--icon-watches); }
+.page-head.tint-clothing .media { color: var(--icon-clothing); }
+.page-head.tint-shoes .media { color: var(--icon-shoes); }
+.page-head.tint-handbags .media { color: var(--icon-handbags); }
+.page-head.tint-skincare .media { color: var(--icon-skincare); }
 .page-head h1 { margin: 0.15em 0 0.2em; }
 .page-head .lead { margin: 0; }
 .crumbs { display: flex; flex-wrap: wrap; gap: 8px; font-size: 0.85rem; color: var(--muted); margin: 18px 0 4px; }
@@ -402,13 +426,13 @@ body { top: 0 !important; }
 .goog-text-highlight { background: none !important; box-shadow: none !important; }
 
 /* Phones and small tablets: brand, Telegram and language on top; all menu links in a scrollable second row */
-@media (max-width: 860px) {
-  .header-row { flex-wrap: wrap; height: auto; gap: 10px; padding-top: 10px; }
-  .brand { margin-right: auto; }
-  .main-nav { order: 3; width: 100%; margin: 0; gap: 18px; overflow-x: auto; padding: 2px 0 10px; scrollbar-width: none; }
-  .main-nav::-webkit-scrollbar { display: none; }
-  .main-nav a:not(.nav-keep) { display: inline; }
-}
+/* The menu has its own row at every width: the links don't fit beside the logo */
+.header-row { flex-wrap: wrap; height: auto; gap: 10px; padding-top: 10px; }
+.brand { margin-right: auto; }
+.main-nav { order: 3; width: 100%; margin: 0; gap: 18px; overflow-x: auto; padding: 2px 0 10px; scrollbar-width: none; }
+.main-nav::-webkit-scrollbar { display: none; }
+.main-nav a:not(.nav-keep) { display: inline; white-space: nowrap; }
+.main-nav a { white-space: nowrap; }
 .lang-grid small { font-size: 0.68rem; font-weight: 600; color: var(--muted); }
 
 /* Share bar */

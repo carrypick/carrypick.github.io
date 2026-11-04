@@ -3,7 +3,7 @@ seo_title: Where to go in India in December and January 2026–27: beach, snow o
 title: Where to go in India in December and January
 description: Beach, snow, forts or backwaters? Compare Goa, Manali, Jaipur and Kerala for a Christmas or New Year trip: weather, how to get there, crowds and what to pack.
 date: 2026-11-03
-updated: 2026-11-03
+updated: 2026-11-04
 place: India in winter
 best: Dec–Jan
 photo: traveller-sunset
@@ -58,6 +58,7 @@ Read the full [Kerala trip guide](kerala.html).
 - **Book hotels and transport early.** Christmas to New Year is peak season in all four places, and prices and availability get worse every week.
 - **Check your baggage limits.** Most Indian airlines allow a 7 kg cabin bag and 15 kg of check-in baggage on domestic flights. See our [baggage rules for Indian airlines](../baggage/index.html), and weigh your bag with our [bag weight calculator](../tools/bag-weight.html).
 - **Check what you can carry.** Dry coconut and camphor are banned in all bags on flights, and power banks must stay in your cabin bag. Search our [can I carry it?](../baggage/can-i-carry.html) list.
+- **Dress for the place.** See [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html), [which shoes to take](../guides/travel-shoes-guide.html) and our [sunscreen guide](../guides/travel-sunscreen-guide.html).
 
 ## Questions
 

@@ -66,6 +66,11 @@ ICONS = {
     "chat": '<path d="M20.5 11.5a8.5 8.5 0 0 1-12.6 7.4L3.5 20l1.2-4.2A8.5 8.5 0 1 1 20.5 11.5z"/>',
     "book": '<path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 1 6.5 18H20v3H6.5"/>',
     "tag": '<path d="M3.5 12.2V4.5a1 1 0 0 1 1-1h7.7l8.3 8.3-8.7 8.7z"/><circle cx="8" cy="8" r="1.6"/>',
+    "jacket": '<path d="M9 3.5 5 6 3 14l3 1 1-3v9h10v-9l1 3 3-1-2-8-4-2.5"/><path d="M9 3.5 12 6l3-2.5M12 6v15"/>',
+    "shoe": '<path d="M3 8c1.5 1 3 1 4.5 0l5.2 5c1 1 2.4 1.5 3.8 1.5h3.2A1.8 1.8 0 0 1 21.5 16.3v1.7a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/>'
+            '<path d="M3 15.5h18.3M9.8 10.3 8.3 11.8M12 12.5l-1.5 1.5"/>',
+    "handbag": '<path d="M5.5 9h13l1.5 11.5a.5.5 0 0 1-.5.5h-15a.5.5 0 0 1-.5-.5z"/><path d="M8.5 12V7a3.5 3.5 0 0 1 7 0v5"/>',
+    "sun": '<circle cx="12" cy="12" r="4"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6 7 7M17 17l1.4 1.4M5.6 18.4 7 17M17 7l1.4-1.4"/>',
     "bulb": '<path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.6.4 1 1.1 1 1.8V16h5v-.3c0-.7.4-1.4 1-1.8A6 6 0 0 0 12 3z"/>',
 }
 
@@ -473,7 +478,7 @@ def telegram_band(cfg, p):
     <img src="{p}assets/logo.png" alt="" width="72" height="72">
     <div>
       <h2>New picks every day on Telegram{' and WhatsApp' if wa else ''}</h2>
-      <p>Hand-picked bags, luggage and watches on sale, plus quick buying tips. No spam.</p>
+      <p>Hand-picked bags, luggage, watches and travel essentials on sale, plus quick buying tips. No spam.</p>
     </div>
     <div class="band-ctas">
       <a class="btn btn-light" href="{e(url)}" target="_blank" rel="noopener">{icon("send", "icon icon-sm")} Join on Telegram</a>
@@ -2074,11 +2079,11 @@ def build():
 
     # Guides
     body = f"""<section class="page-head">
-  <div class="wrap"><h1>Buying guides</h1><p class="lead">Simple, honest guides to help you choose bags, luggage and watches.</p></div>
+  <div class="wrap"><h1>Buying guides</h1><p class="lead">Simple, honest guides to help you choose bags, luggage, watches and what to pack.</p></div>
 </section>
 <div class="wrap section">{guide_cards(cfg, articles, "../") if articles else '<p class="muted">Coming soon.</p>'}</div>"""
     crumbs = crumbs_schema(cfg, [("Home", ""), ("Guides", "guides/index.html")])
-    pages.append(write("guides/index.html", page(cfg, "Buying guides for bags, luggage and watches", "Simple buying guides for India: cabin bag rules, laptop backpacks, luggage sizes by trip length, your first analog watch and wedding gifts.",
+    pages.append(write("guides/index.html", page(cfg, "Buying guides for bags, luggage, watches and travel essentials", "Simple buying guides for India: cabin bag rules, laptop backpacks, luggage sizes by trip length, your first analog watch and wedding gifts.",
                                                  body, 1, "guides/index.html", [crumbs])))
     for a in articles:
         content = render_markdown(a["body"], cfg, deals_by_asin, "../", a["slug"] + ".md")
@@ -2135,7 +2140,7 @@ def build():
                          % "".join("<li>%s</li>" % photo_credit(slot) for slot in PHOTOS))
     info = {
         "about.html": ("About CarryPick: how we pick products", f"""<h1>About {name}</h1>
-<p>{name} is a small team that helps shoppers in India pick good bags, luggage and watches on Amazon.in.</p>
+<p>{name} is a small team that helps shoppers in India pick good bags, luggage, watches and travel essentials on Amazon.in.</p>
 <h2>How we choose products</h2>
 <ul>
 <li>We read the full product details: size, capacity, material, weight and warranty.</li>
@@ -2163,7 +2168,7 @@ def build():
                      + tool_pills("", "")),
     }
     info_desc = {
-        "about.html": "How %s picks bags, luggage and watches for India: we read every detail, match real Indian use and never take money from brands to list a product." % cfg["site_name"],
+        "about.html": "How %s picks bags, luggage, watches and travel essentials for India: we read every detail, match real Indian use and never take money from brands to list a product." % cfg["site_name"],
         "disclosure.html": "%s is an Amazon Associate. How our paid links work, what we earn and why it never changes which products we pick." % cfg["site_name"],
         "privacy.html": "%s asks for no personal details and sets no cookies of its own. What GitHub, Google Fonts and Amazon may log when you visit." % cfg["site_name"],
         "contact.html": "Questions, corrections or ideas for %s? Reach us on Telegram or WhatsApp." % cfg["site_name"],

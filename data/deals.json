@@ -1,5 +1,742 @@
 [
   {
+    "asin": "B01MQJJCD1",
+    "added_at": "2026-11-04T23:03:29+05:30",
+    "title": "Lux Cottswool Men's Cotton Thermal Set",
+    "category": "clothing",
+    "highlights": [
+      "1 top and 1 bottom pyjama",
+      "100% cotton (as listed)",
+      "Round neck",
+      "Wash as per the tag"
+    ],
+    "note": "A simple thermal set to wear under your clothes on cold days.",
+    "brand": "Lux Cottswool",
+    "best_for": [
+      "Hill trips",
+      "Men"
+    ],
+    "specs": {
+      "For": "Men",
+      "Pack": "Top and bottom",
+      "Fabric": "100% cotton",
+      "Weight": "400 g",
+      "Care": "As per tag"
+    },
+    "skip_if": "you plan hard treks: cotton holds sweat, so a synthetic or wool base layer is better."
+  },
+  {
+    "asin": "B0BH4XLXPX",
+    "added_at": "2026-11-04T23:03:29+05:30",
+    "title": "Lux Cottswool Women's Thermal Top and Lower Set",
+    "category": "clothing",
+    "highlights": [
+      "Matching top and lower",
+      "Stretchable, snug fit to wear under clothes",
+      "V-neck",
+      "Machine wash"
+    ],
+    "note": "A full thermal set for cold nights and sightseeing days.",
+    "brand": "Lux Cottswool",
+    "best_for": [
+      "Hill trips",
+      "Women"
+    ],
+    "specs": {
+      "For": "Women",
+      "Pack": "Top and lower",
+      "Fabric": "100% cotton per the specs; a cottswool blend per the description",
+      "Weight": "200 g",
+      "Care": "Machine wash"
+    },
+    "skip_if": "you plan hard treks: a synthetic or wool base layer handles sweat better."
+  },
+  {
+    "asin": "B0CGHZF9Z1",
+    "added_at": "2026-11-04T23:03:29+05:30",
+    "title": "Boldfit Men's Hooded Puffer Jacket",
+    "category": "clothing",
+    "highlights": [
+      "Wind-resistant and water-repellent (as listed)",
+      "Polyester with a hood",
+      "Listed at about 470 g",
+      "Regular fit"
+    ],
+    "note": "A padded jacket to wear over a sweater and thermals.",
+    "brand": "Boldfit",
+    "best_for": [
+      "Hill trips",
+      "Men"
+    ],
+    "specs": {
+      "For": "Men",
+      "Weight": "470 g",
+      "Fabric": "Polyester",
+      "Hood": "Yes",
+      "Care": "Hand wash only"
+    },
+    "skip_if": "you expect heavy snow or very deep cold: it's a light padded jacket, not an expedition one."
+  },
+  {
+    "asin": "B07V4DCFH8",
+    "added_at": "2026-11-04T23:03:29+05:30",
+    "title": "Symbol Women's Quilted Hooded Jacket",
+    "category": "clothing",
+    "highlights": [
+      "100% polyester shell, lining and fill",
+      "Hooded, regular fit",
+      "Plus sizes available",
+      "Listed at about 300 g"
+    ],
+    "note": "A light quilted jacket to wear over a sweater and thermals.",
+    "brand": "Symbol",
+    "best_for": [
+      "Hill trips",
+      "Women"
+    ],
+    "specs": {
+      "For": "Women",
+      "Weight": "300 g",
+      "Fabric": "Polyester",
+      "Hood": "Yes",
+      "Care": "Dry clean only"
+    },
+    "skip_if": "you don't want to dry clean it, or you expect heavy snow."
+  },
+  {
+    "asin": "B08L6QPD8N",
+    "added_at": "2026-11-04T23:03:29+05:30",
+    "title": "Gajraj Winter Cap, Neck Warmer and Gloves Set",
+    "category": "clothing",
+    "highlights": [
+      "3 pieces: knit cap, neck warmer and gloves",
+      "Stretchable, for men and women",
+      "Acrylic with a soft fur lining (as listed)",
+      "About 250 g"
+    ],
+    "note": "Covers your head, neck and hands with one purchase.",
+    "brand": "Gajraj",
+    "best_for": [
+      "Hill trips",
+      "Snow"
+    ],
+    "specs": {
+      "For": "Men and women",
+      "Pack": "Cap, neck warmer, gloves",
+      "Weight": "250 g",
+      "Fabric": "Acrylic, fur lining",
+      "Care": "Hand wash"
+    },
+    "skip_if": "you'll handle wet snow for long: knit gloves soak through."
+  },
+  {
+    "asin": "B0999SJPWC",
+    "added_at": "2026-11-04T23:03:29+05:30",
+    "title": "Vincent Chase Polarized Square Sunglasses",
+    "category": "clothing",
+    "highlights": [
+      "Polarized lenses with 100% UV protection, up to 400 nm (as listed)",
+      "TR90 frame, about 26 g",
+      "Frame size 56-19-140 mm"
+    ],
+    "note": "Light polarized sunglasses for beach glare and bright snow.",
+    "brand": "Vincent Chase",
+    "best_for": [
+      "Beach trips",
+      "Snow"
+    ],
+    "specs": {
+      "For": "Men and women",
+      "Size": "Large (56-19-140 mm)",
+      "Weight": "26 g",
+      "Lens": "Polarized, 100% UV (as listed)",
+      "Frame": "TR90"
+    },
+    "skip_if": "you have a narrow face: it's listed as a large frame."
+  },
+  {
+    "asin": "B09XJ2D8VM",
+    "added_at": "2026-11-04T23:03:29+05:30",
+    "title": "Rocksport Unisex Hooded Rain Poncho",
+    "category": "clothing",
+    "highlights": [
+      "PU 2000 mm waterproof coating (as listed)",
+      "Long enough to cover you and a backpack",
+      "Folds to 27 x 10 x 9 cm, about 350 g",
+      "Adjustable drawstring hood"
+    ],
+    "note": "Fits over your bag as well as you, and packs small.",
+    "brand": "Rocksport",
+    "best_for": [
+      "Rain",
+      "Monsoon trips"
+    ],
+    "specs": {
+      "For": "Men and women",
+      "Size": "One size (S to XL)",
+      "Weight": "350 g",
+      "Water": "PU 2000 mm (as listed)",
+      "Fabric": "Polyester"
+    },
+    "skip_if": "you ride a bike: a loose poncho flaps in the wind."
+  },
+  {
+    "asin": "B075G5HC8P",
+    "added_at": "2026-11-04T23:03:29+05:30",
+    "title": "Sparx Men's SS 453 Sandals",
+    "category": "shoes",
+    "highlights": [
+      "Hook-and-loop straps you can adjust",
+      "Faux leather",
+      "Flat, casual design"
+    ],
+    "note": "Everyday strap sandals for warm places.",
+    "brand": "Sparx",
+    "best_for": [
+      "Warm places",
+      "Daily use"
+    ],
+    "specs": {
+      "For": "Men",
+      "Type": "Sandals",
+      "Material": "Faux leather",
+      "Water": "Not water resistant (as listed)",
+      "Closure": "Hook and loop"
+    },
+    "skip_if": "you'll wear them in the sea or in heavy rain.",
+    "deal_seen_at": "2026-11-04T23:03:00+05:30"
+  },
+  {
+    "asin": "B09RPDCKZC",
+    "added_at": "2026-11-04T23:03:29+05:30",
+    "title": "Campus Men's Oxyfit (N) Walking Shoes",
+    "category": "shoes",
+    "highlights": [
+      "Breathable mesh upper",
+      "Memory foam insole",
+      "Foam sole for cushioning (as listed)",
+      "Slip-on"
+    ],
+    "note": "Slip-on walking shoes for airports, forts and long city days.",
+    "brand": "Campus",
+    "best_for": [
+      "Sightseeing",
+      "Airports"
+    ],
+    "specs": {
+      "For": "Men",
+      "Type": "Walking shoes",
+      "Material": "Mesh",
+      "Sole": "Rubber",
+      "Water": "Not water resistant (as listed)",
+      "Closure": "Pull-on"
+    },
+    "skip_if": "you expect rain or snow."
+  },
+  {
+    "asin": "B07VY4YY61",
+    "added_at": "2026-11-04T23:03:29+05:30",
+    "title": "Sparx Women's Pull-On Walking Shoes",
+    "category": "shoes",
+    "highlights": [
+      "Mesh upper with an EVA sole",
+      "Pull-on, so they're quick at airport security",
+      "Comes in a storage box"
+    ],
+    "note": "Easy shoes for long sightseeing days, and quick to take off at security.",
+    "brand": "Sparx",
+    "best_for": [
+      "Sightseeing",
+      "Airports"
+    ],
+    "specs": {
+      "For": "Women",
+      "Type": "Walking shoes",
+      "Material": "Mesh",
+      "Sole": "EVA",
+      "Water": "Water resistant (as listed)",
+      "Closure": "Pull-on"
+    },
+    "skip_if": "you'll walk on snow or wet rock: mesh gets wet quickly.",
+    "deal_seen_at": "2026-11-04T23:03:00+05:30"
+  },
+  {
+    "asin": "B0BJ7L6V4H",
+    "added_at": "2026-11-04T23:03:29+05:30",
+    "title": "Bacca Bucci Men's Lace-Up Winter Boots",
+    "category": "shoes",
+    "highlights": [
+      "Ankle-high, seam-sealed cold-weather boots (as listed)",
+      "Listed as mildly waterproof",
+      "Anti-slip rubber sole",
+      "Lace-up"
+    ],
+    "note": "Warm boots for snow trips, if you don't need a technical hiking shoe.",
+    "brand": "Bacca Bucci",
+    "best_for": [
+      "Snow",
+      "Hill trips"
+    ],
+    "specs": {
+      "For": "Men",
+      "Type": "Boots",
+      "Height": "Ankle",
+      "Weight": "1.38 kg (as listed)",
+      "Water": "Water resistant (as listed)",
+      "Closure": "Lace-up"
+    },
+    "skip_if": "you're flying with only a cabin bag and can't wear them on the plane: they're heavy."
+  },
+  {
+    "asin": "B0CLWBZQKL",
+    "added_at": "2026-11-04T23:03:29+05:30",
+    "title": "Columbia Men's Transverse Hike Waterproof Hiking Shoes",
+    "category": "shoes",
+    "highlights": [
+      "Called waterproof in the title; the specs say water resistant",
+      "Ankle height, lace-up",
+      "Synthetic upper",
+      "Breathable (as listed)"
+    ],
+    "note": "An outdoor-brand shoe for wet trails, slush and snowy town roads.",
+    "brand": "Columbia",
+    "best_for": [
+      "Hill trips",
+      "Rain"
+    ],
+    "specs": {
+      "For": "Men",
+      "Type": "Hiking shoes",
+      "Height": "Ankle",
+      "Water": "Waterproof in title, water resistant in specs",
+      "Closure": "Lace-up"
+    },
+    "skip_if": "you only walk in town in dry weather: a walking shoe is enough."
+  },
+  {
+    "asin": "B0DK2RRQD2",
+    "added_at": "2026-11-04T23:03:29+05:30",
+    "title": "Columbia Women's Peakfreak Hera OutDry Waterproof Hiking Shoes",
+    "category": "shoes",
+    "highlights": [
+      "Listed as waterproof",
+      "Rubber sole, lace-up",
+      "About 309 g per shoe in UK size 5",
+      "Quick-dry comfort (as listed)"
+    ],
+    "note": "An outdoor-brand shoe for wet trails, slush and snowy town roads.",
+    "brand": "Columbia",
+    "best_for": [
+      "Hill trips",
+      "Rain"
+    ],
+    "specs": {
+      "For": "Women",
+      "Type": "Hiking shoes",
+      "Weight": "309 g per shoe",
+      "Water": "Waterproof (as listed)",
+      "Sole": "Rubber",
+      "Closure": "Lace-up"
+    },
+    "skip_if": "you only walk in town in dry weather: a walking shoe is enough."
+  },
+  {
+    "asin": "B0BRL1WYPH",
+    "added_at": "2026-11-04T23:03:29+05:30",
+    "title": "YOHO Drizzle Soft Flip-Flops for Women",
+    "category": "shoes",
+    "highlights": [
+      "Rubber, listed as waterproof",
+      "Anti-skid sole (as listed)",
+      "Slip-on thong strap",
+      "Light to pack"
+    ],
+    "note": "Simple flip-flops for the beach and for hotel bathrooms.",
+    "brand": "YOHO",
+    "best_for": [
+      "Beach trips",
+      "Hotels"
+    ],
+    "specs": {
+      "For": "Women",
+      "Type": "Flip-flops",
+      "Material": "Rubber",
+      "Water": "Waterproof (as listed)",
+      "Closure": "Slip-on"
+    },
+    "skip_if": "you'll walk long distances: choose sandals with straps."
+  },
+  {
+    "asin": "B0GLFM2Z4Z",
+    "added_at": "2026-11-04T23:03:29+05:30",
+    "title": "WishCare Sunscreen Body Lotion SPF 50 PA++++ (100 ml)",
+    "category": "skincare",
+    "highlights": [
+      "SPF 50 PA++++ (as listed)",
+      "Made for the body, not only the face",
+      "100 ml, the largest size allowed in a cabin bag",
+      "Listed with no white cast"
+    ],
+    "note": "The body sunscreen to take if you're flying with only a cabin bag.",
+    "brand": "WishCare",
+    "best_for": [
+      "Beach trips",
+      "Cabin bag"
+    ],
+    "specs": {
+      "Size": "100 ml",
+      "SPF": "50",
+      "PA": "PA++++",
+      "Type": "Body sunscreen",
+      "Cabin bag": "Yes, exactly 100 ml",
+      "Skin type": "All (as listed)"
+    },
+    "skip_if": "you'll be on the beach for many days: 100 ml goes quickly, so put a bigger bottle in check-in."
+  },
+  {
+    "asin": "B07VP5JFRB",
+    "added_at": "2026-11-04T23:03:29+05:30",
+    "title": "Re'equil Ultra Matte Dry Touch Sunscreen SPF 50 PA++++ (50 g)",
+    "category": "skincare",
+    "highlights": [
+      "SPF 50 PA++++ (as listed)",
+      "Matte finish with minimal white cast (as listed)",
+      "Listed as water and sweat resistant",
+      "50 g tube"
+    ],
+    "note": "A matte sunscreen for hot, sweaty days on the beach or in the city.",
+    "brand": "Re'equil",
+    "best_for": [
+      "Hot weather",
+      "Beach trips"
+    ],
+    "specs": {
+      "Size": "50 g",
+      "SPF": "50",
+      "PA": "PA++++",
+      "Type": "Face sunscreen",
+      "Cabin bag": "Yes, under 100 ml",
+      "Skin type": "All (as listed)"
+    },
+    "skip_if": "you prefer a dewy finish."
+  },
+  {
+    "asin": "B09FPS9D5T",
+    "added_at": "2026-11-04T23:03:29+05:30",
+    "title": "Minimalist Sunscreen SPF 50 PA++++ (50 g)",
+    "category": "skincare",
+    "highlights": [
+      "SPF 50 PA++++ (as listed)",
+      "4 UV filters named on the listing",
+      "Unscented",
+      "50 g tube"
+    ],
+    "note": "An unscented, hydrating sunscreen, listed for dry and all skin types.",
+    "brand": "Minimalist",
+    "best_for": [
+      "Daily use",
+      "Dry skin"
+    ],
+    "specs": {
+      "Size": "50 g",
+      "SPF": "50",
+      "PA": "PA++++",
+      "Type": "Face sunscreen",
+      "Cabin bag": "Yes, under 100 ml",
+      "Skin type": "All (as listed)"
+    },
+    "skip_if": "you want a fully matte finish."
+  },
+  {
+    "asin": "B0BQN2YWN5",
+    "added_at": "2026-11-04T23:03:29+05:30",
+    "title": "Dot & Key Watermelon Cooling Sunscreen SPF 50+ PA++++ (50 g)",
+    "category": "skincare",
+    "highlights": [
+      "SPF 50+ PA++++ (as listed)",
+      "Listed as cooling and oil-controlling",
+      "50 g tube",
+      "For all, combination, normal and oily skin (as listed)"
+    ],
+    "note": "Suits humid places such as Goa and Kerala if your skin gets oily.",
+    "brand": "Dot & Key",
+    "best_for": [
+      "Humid places",
+      "Oily skin"
+    ],
+    "specs": {
+      "Size": "50 g",
+      "SPF": "50+",
+      "PA": "PA++++",
+      "Type": "Face sunscreen",
+      "Cabin bag": "Yes, under 100 ml",
+      "Skin type": "All, combination, normal, oily (as listed)"
+    },
+    "skip_if": "you have very dry skin."
+  },
+  {
+    "asin": "B0CND4C95T",
+    "added_at": "2026-11-04T23:03:29+05:30",
+    "title": "WishCare Ceramide Lip Balm SPF 50 PA++++ (5 g)",
+    "category": "skincare",
+    "highlights": [
+      "SPF 50 PA++++ (as listed)",
+      "Natural and untinted",
+      "Stick form, about 5 g",
+      "Contains kojic acid and niacinamide"
+    ],
+    "note": "Lips burn and crack too, in strong sun and in dry mountain air.",
+    "brand": "WishCare",
+    "best_for": [
+      "Beach trips",
+      "Hill trips"
+    ],
+    "specs": {
+      "Size": "5 g",
+      "SPF": "50",
+      "PA": "PA++++",
+      "Type": "Lip balm",
+      "Cabin bag": "Yes, small stick"
+    },
+    "skip_if": "you only want a basic balm: this one also lists lip-lightening ingredients."
+  },
+  {
+    "asin": "B0GHXYQ318",
+    "added_at": "2026-11-04T23:03:29+05:30",
+    "title": "Cetaphil Moisturising Lotion for Face and Body (59 ml)",
+    "category": "skincare",
+    "highlights": [
+      "Small 59 ml bottle",
+      "Fragrance-free",
+      "Non-greasy (as listed)",
+      "Listed for dry, normal and sensitive skin"
+    ],
+    "note": "Useful for dry hill air and long flights, in a size that fits your liquids pouch.",
+    "brand": "Cetaphil",
+    "best_for": [
+      "Hill trips",
+      "Flights"
+    ],
+    "specs": {
+      "Size": "59 ml",
+      "Type": "Moisturiser",
+      "Cabin bag": "Yes, under 100 ml",
+      "Skin type": "Dry, normal, sensitive (as listed)"
+    },
+    "skip_if": "you need it for your whole body for a week: 59 ml won't last that long."
+  },
+  {
+    "asin": "B0GSBCDNRB",
+    "added_at": "2026-11-04T23:03:29+05:30",
+    "title": "Cetaphil Gentle Skin Hydrating Face Wash (59 ml)",
+    "category": "skincare",
+    "highlights": [
+      "Small 59 ml bottle",
+      "Paraben-free and sulphate-free (as listed)",
+      "Unscented",
+      "Listed for dry to normal, sensitive skin"
+    ],
+    "note": "A small face wash that saves you taking a big bottle out of your cabin bag.",
+    "brand": "Cetaphil",
+    "best_for": [
+      "Cabin bag",
+      "Dry skin"
+    ],
+    "specs": {
+      "Size": "59 ml",
+      "Type": "Face wash",
+      "Cabin bag": "Yes, under 100 ml",
+      "Skin type": "Dry, normal, sensitive (as listed)"
+    },
+    "skip_if": "you have very oily skin: Cetaphil sells a separate version for that."
+  },
+  {
+    "asin": "B0DGQNLJX7",
+    "added_at": "2026-11-04T23:03:29+05:30",
+    "title": "Zouk Women's Office Essential Tote Bag",
+    "category": "handbags",
+    "highlights": [
+      "Padded compartment for a laptop up to 14 inch, plus an iPad slot",
+      "Elastic water bottle holder",
+      "Back zip pocket for quick access",
+      "Jute and vegan leather with a water-resistant lining"
+    ],
+    "note": "A work bag that can also be your personal bag on a flight.",
+    "brand": "Zouk",
+    "best_for": [
+      "Office",
+      "Flights"
+    ],
+    "specs": {
+      "For": "Women",
+      "Size": "39.5 x 12.6 x 24.5 cm",
+      "Weight": "668 g",
+      "Laptop": "Up to 14 inch",
+      "Material": "Jute and vegan leather"
+    },
+    "skip_if": "your laptop is bigger than 14 inches."
+  },
+  {
+    "asin": "B08HWFWGNX",
+    "added_at": "2026-11-04T23:03:28+05:30",
+    "title": "Lavie Women's Betula Small Tote Handbag",
+    "category": "handbags",
+    "highlights": [
+      "Top zip closure",
+      "5 pockets to organise small things",
+      "Faux leather",
+      "Small tote size"
+    ],
+    "note": "An everyday handbag with enough pockets to find things quickly.",
+    "brand": "Lavie",
+    "best_for": [
+      "Daily use",
+      "Gifts"
+    ],
+    "specs": {
+      "For": "Women",
+      "Size": "26.5 x 10 x 24.5 cm",
+      "Weight": "800 g",
+      "Material": "Faux leather",
+      "Closure": "Zip",
+      "Pockets": "5"
+    },
+    "skip_if": "you need to carry a laptop, or you want a very light bag."
+  },
+  {
+    "asin": "B0F5GS19M1",
+    "added_at": "2026-11-04T23:03:28+05:30",
+    "title": "Lyrovo Crescent Crossbody Bag",
+    "category": "handbags",
+    "highlights": [
+      "Very light: about 140 g",
+      "Main zip pocket and a front zip pocket",
+      "Wide adjustable strap",
+      "Nylon with a polyester lining"
+    ],
+    "note": "The lightest bag in this list, at about 140 g.",
+    "brand": "Lyrovo",
+    "best_for": [
+      "Sightseeing",
+      "Light packing"
+    ],
+    "specs": {
+      "For": "Men and women",
+      "Size": "30 x 7 x 23 cm",
+      "Weight": "140 g",
+      "Material": "Nylon",
+      "Closure": "Zip",
+      "Pockets": "3"
+    },
+    "skip_if": "you need a structured bag for the office."
+  },
+  {
+    "asin": "B07PFF4RYC",
+    "added_at": "2026-11-04T23:03:28+05:30",
+    "title": "Storite Padded Mini Sling Crossbody Bag",
+    "category": "handbags",
+    "highlights": [
+      "3 zip pockets and 1 open side pocket",
+      "Room for a passport, phone and wallet",
+      "Water bottle pocket",
+      "Adjustable shoulder strap"
+    ],
+    "note": "A small sling for men or women, to keep travel documents close to you.",
+    "brand": "Storite",
+    "best_for": [
+      "Airports",
+      "Sightseeing"
+    ],
+    "specs": {
+      "For": "Men and women",
+      "Size": "25 x 16 x 7.5 cm",
+      "Weight": "230 g",
+      "Material": "Nylon",
+      "Closure": "Zip",
+      "Pockets": "4"
+    },
+    "skip_if": "you need to carry a tablet or laptop: it's too small."
+  },
+  {
+    "asin": "B0BQWF3TJK",
+    "added_at": "2026-11-04T23:03:28+05:30",
+    "title": "Zouk Vegan Leather Flap Sling Bag",
+    "category": "handbags",
+    "highlights": [
+      "5.6 litres, about 230 g",
+      "Inner zip pocket and a back zip pocket",
+      "Adjustable crossbody strap",
+      "Water-resistant inner lining"
+    ],
+    "note": "A light crossbody bag that also looks smart enough for dinner.",
+    "brand": "Zouk",
+    "best_for": [
+      "Sightseeing",
+      "Daily use"
+    ],
+    "specs": {
+      "For": "Women",
+      "Size": "29 x 2 x 25 cm (empty)",
+      "Capacity": "5.6 L",
+      "Weight": "242 g",
+      "Material": "Vegan leather",
+      "Closure": "Magnetic flap"
+    },
+    "skip_if": "you want a zip over the main compartment: it closes with a magnetic flap."
+  },
+  {
+    "asin": "B0B3JBRB6J",
+    "added_at": "2026-11-04T23:03:28+05:30",
+    "title": "Lavie Women's Ushawu Satchel Bag",
+    "category": "handbags",
+    "highlights": [
+      "Compact, structured shape",
+      "Faux leather with a zip closure",
+      "Listed at only 350 g"
+    ],
+    "note": "A small, neat satchel for work and for gifting.",
+    "brand": "Lavie",
+    "best_for": [
+      "Office",
+      "Gifts"
+    ],
+    "specs": {
+      "For": "Women",
+      "Size": "25 x 10 x 24 cm",
+      "Weight": "350 g",
+      "Material": "Faux leather",
+      "Closure": "Zip",
+      "Pockets": "1"
+    },
+    "skip_if": "you like many pockets: the listing shows only one."
+  },
+  {
+    "asin": "B08XXTRC1Q",
+    "added_at": "2026-11-04T23:03:28+05:30",
+    "title": "WildHorn Leather Sling Messenger Bag for Men",
+    "category": "handbags",
+    "highlights": [
+      "Listed as genuine leather",
+      "1 main compartment and 2 inner compartments",
+      "Adjustable strap",
+      "Magnetic button closure"
+    ],
+    "note": "A small leather sling for men who want something neater than a nylon bag.",
+    "brand": "WildHorn",
+    "best_for": [
+      "Men",
+      "Daily use"
+    ],
+    "specs": {
+      "For": "Men",
+      "Size": "20.3 x 26.7 x 7 cm",
+      "Weight": "400 g",
+      "Material": "Leather (as listed)",
+      "Closure": "Magnetic button"
+    },
+    "skip_if": "you often walk through crowded markets: a magnetic closure is easier to open than a zip."
+  },
+  {
     "asin": "B0B6CM781M",
     "added_at": "2026-11-04T09:09:23+05:30",
     "title": "Mokobara Transit 30L Laptop Backpack, Water Resistant",
