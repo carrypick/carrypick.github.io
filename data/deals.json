@@ -1,5 +1,89 @@
 [
   {
+    "asin": "B0B6CM781M",
+    "added_at": "2026-11-04T09:09:23+05:30",
+    "title": "Mokobara Transit 30L Laptop Backpack, Water Resistant",
+    "category": "backpacks",
+    "highlights": [
+      "30 litres, fits laptops up to 15.6 inch",
+      "Padded laptop area and flat-opening tech compartment",
+      "Luggage sleeve to slide over a trolley handle",
+      "12-month warranty"
+    ],
+    "note": "A well-organised office and travel bag, with many pockets and a luggage sleeve.",
+    "brand": "Mokobara",
+    "best_for": [
+      "Office",
+      "Travel"
+    ],
+    "specs": {
+      "Capacity": "30 L",
+      "Laptop": "Up to 15.6 inch",
+      "Size": "48 x 31 x 16 cm",
+      "Weight": "1.6 kg",
+      "Material": "Nylon with vegan leather, water resistant",
+      "Warranty": "12 months"
+    },
+    "skip_if": "you want a very light bag: it weighs 1.6 kg when empty.",
+    "deal_seen_at": "2026-11-04T09:08:00+05:30"
+  },
+  {
+    "asin": "B0GZKSXPZR",
+    "added_at": "2026-11-04T09:09:23+05:30",
+    "title": "Aristocrat Comet Set of 2 Hard Trolley Bags (Cabin + Medium)",
+    "category": "luggage",
+    "highlights": [
+      "Two bags in one set: cabin and medium",
+      "81 litres in total",
+      "8 spinner wheels and combination lock",
+      "3-year global warranty"
+    ],
+    "note": "One set for two people, or for short and long trips, good for wedding season.",
+    "brand": "Aristocrat",
+    "best_for": [
+      "Couples",
+      "Honeymoon"
+    ],
+    "specs": {
+      "Size": "Medium: 66 x 47 x 28 cm; cabin: Not listed",
+      "Capacity": "81 L in total",
+      "Weight": "5.9 kg (both bags)",
+      "Shell": "Hard shell",
+      "Wheels": "8 spinner wheels",
+      "Warranty": "3 years"
+    },
+    "skip_if": "you need a bag that surely fits a cabin limit: the listing does not give the cabin bag's size, so measure it when it arrives.",
+    "deal_seen_at": "2026-11-04T09:08:00+05:30"
+  },
+  {
+    "asin": "B0FGJQXMLG",
+    "added_at": "2026-11-04T09:09:23+05:30",
+    "title": "Safari Luma Neo 55 cm Hard Trolley Bag, Printed Polycarbonate",
+    "category": "luggage",
+    "highlights": [
+      "55 cm, 46 litres, printed hard shell",
+      "8 spinner wheels that turn 360 degrees",
+      "Combination lock and telescopic handle",
+      "3-year international warranty"
+    ],
+    "note": "A bright hard-shell bag that is easy to spot, with a long warranty for short trips.",
+    "brand": "Safari",
+    "best_for": [
+      "Short trips",
+      "Train trips"
+    ],
+    "specs": {
+      "Size": "55 x 40 x 23 cm (118 cm total)",
+      "Capacity": "46 L",
+      "Weight": "2.5 kg",
+      "Shell": "Hard, polycarbonate",
+      "Wheels": "8 spinner wheels",
+      "Warranty": "3 years"
+    },
+    "skip_if": "you want a cabin bag for IndiGo, Air India, Akasa or SpiceJet: its listed size adds up to 118 cm, above their 115 cm limit.",
+    "deal_seen_at": "2026-11-04T09:08:00+05:30"
+  },
+  {
     "asin": "B094JBDRKX",
     "added_at": "2026-11-03T15:08:08+05:30",
     "title": "Spigen Waterproof Phone Pouch, 2 Pack (IPX8)",
@@ -79,7 +163,7 @@
       "Warranty": "18 months"
     },
     "skip_if": "you need a rain cover: none is listed with this bag.",
-    "deal_seen_at": "2026-11-03T14:29:00+05:30"
+    "deal_seen_at": "2026-11-04T09:08:00+05:30"
   },
   {
     "asin": "B0F5HGLC5Q",
@@ -690,7 +774,7 @@
       "Warranty": "1 year"
     },
     "skip_if": "you'll wear it in rain or sweat a lot. Leather straps don't like water.",
-    "deal_seen_at": "2026-11-03T10:08:00+05:30"
+    "deal_seen_at": "2026-11-04T09:08:00+05:30"
   },
   {
     "asin": "B0GPQQPC7Q",
