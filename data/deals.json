@@ -1,5 +1,89 @@
 [
   {
+    "asin": "B0B34WJK3X",
+    "added_at": "2026-11-05T09:09:34+05:30",
+    "title": "Fur Jaden 40L Weekender Laptop Backpack with Anti-Theft Pocket",
+    "category": "backpacks",
+    "highlights": [
+      "40 litres, fits laptops up to 15.6 inch",
+      "Anti-theft pocket on the back",
+      "Padded shoulder straps and air mesh back",
+      "1-year manufacturer warranty"
+    ],
+    "note": "A big, light backpack for weekend trips, with a hidden pocket for your valuables.",
+    "brand": "Fur Jaden",
+    "best_for": [
+      "Weekend trips",
+      "Travel"
+    ],
+    "specs": {
+      "Capacity": "40 L",
+      "Laptop": "Up to 15.6 inch",
+      "Size": "50 x 30 x 25 cm",
+      "Weight": "600 to 700 g (listing gives both)",
+      "Water resistance": "Water resistant",
+      "Warranty": "1 year"
+    },
+    "skip_if": "you want a small daily bag: at 40 litres and 50 cm tall, it is large for everyday use.",
+    "deal_seen_at": "2026-11-05T09:09:00+05:30"
+  },
+  {
+    "asin": "B0B6BVXCCD",
+    "added_at": "2026-11-05T09:09:34+05:30",
+    "title": "American Tourister Splash 55 cm Hard Trolley Bag, Polycarbonate",
+    "category": "luggage",
+    "highlights": [
+      "55 cm polycarbonate hard shell in bright colours",
+      "Light for its size, at 2 kg",
+      "4 spinner wheels and 3-digit recessed lock",
+      "3-year international warranty"
+    ],
+    "note": "A light, colourful hard-shell bag from a known brand, with a long warranty.",
+    "brand": "American Tourister",
+    "best_for": [
+      "Short trips",
+      "Train trips"
+    ],
+    "specs": {
+      "Size": "55 x 37 x 24 cm (116 cm total)",
+      "Capacity": "50 L (as listed)",
+      "Weight": "2 kg",
+      "Shell": "Hard, polycarbonate",
+      "Wheels": "4 spinner wheels",
+      "Warranty": "3 years"
+    },
+    "skip_if": "you want a cabin bag for IndiGo, Air India, Akasa or SpiceJet: its listed size adds up to 116 cm, above their 115 cm limit.",
+    "deal_seen_at": "2026-11-05T09:09:00+05:30"
+  },
+  {
+    "asin": "B0DDTS3ZKS",
+    "added_at": "2026-11-05T09:09:34+05:30",
+    "title": "Mokobara Transit 54 cm Hard Trolley Bag, Polycarbonate",
+    "category": "luggage",
+    "highlights": [
+      "54 x 37.5 x 23.5 cm, 40 litres, for 3 to 5 day trips",
+      "Polycarbonate hard shell",
+      "8 silent spinner wheels and one-push TSA lock",
+      "3-year warranty"
+    ],
+    "note": "A strong hard-shell bag for short trips, with quiet wheels and a long warranty.",
+    "brand": "Mokobara",
+    "best_for": [
+      "Short trips",
+      "Flights"
+    ],
+    "specs": {
+      "Size": "54 x 37.5 x 23.5 cm (115 cm total)",
+      "Capacity": "40 L",
+      "Weight": "3.23 kg",
+      "Shell": "Hard, polycarbonate",
+      "Wheels": "8 spinner wheels",
+      "Warranty": "3 years"
+    },
+    "skip_if": "you need every side inside the airline limit: the total is 115 cm, but the 37.5 cm width is above the 35 cm limit of IndiGo, Akasa and SpiceJet.",
+    "deal_seen_at": "2026-11-05T09:09:00+05:30"
+  },
+  {
     "asin": "B01MQJJCD1",
     "added_at": "2026-11-04T23:03:29+05:30",
     "title": "Lux Cottswool Men's Cotton Thermal Set",
@@ -762,7 +846,7 @@
       "Warranty": "12 months"
     },
     "skip_if": "you want a very light bag: it weighs 1.6 kg when empty.",
-    "deal_seen_at": "2026-11-04T09:08:00+05:30"
+    "deal_seen_at": "2026-11-05T09:09:00+05:30"
   },
   {
     "asin": "B0GZKSXPZR",
@@ -900,7 +984,7 @@
       "Warranty": "18 months"
     },
     "skip_if": "you need a rain cover: none is listed with this bag.",
-    "deal_seen_at": "2026-11-04T09:08:00+05:30"
+    "deal_seen_at": "2026-11-05T09:09:00+05:30"
   },
   {
     "asin": "B0F5HGLC5Q",
@@ -1218,7 +1302,7 @@
     },
     "skip_if": "you need rain protection. No rain cover is listed, and the fabric isn't water-resistant.",
     "telegram_posted_at": "2026-11-03T06:05:35+05:30",
-    "deal_seen_at": "2026-11-03T10:08:00+05:30"
+    "deal_seen_at": "2026-11-05T09:09:00+05:30"
   },
   {
     "asin": "B097GCJFW2",
