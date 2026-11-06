@@ -68,6 +68,8 @@ A medium bag has room for more than 15 kg, especially with shoes and winter clot
 
 Indian Railways allows suitcases up to 100 x 60 x 25 cm in most classes, and only 55 x 45 x 22.5 cm in AC 3-tier and AC Chair Car. Most medium trolleys are deeper than these limits on paper. See our [train luggage rules](../baggage/train-luggage-rules.html).
 
+Prefer to buy from a brand's own store? See [VIP trolley bags: sizes, warranty and returns](vip-bags-guide.html).
+
 ## Questions
 
 ### What is a 24 inch trolley bag in cm?

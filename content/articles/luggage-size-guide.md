@@ -58,6 +58,8 @@ Remember that **the bag's own weight counts**. A hard cabin trolley often weighs
 
 [[compare:B097BG6DX1,B097GCJFW2,B097GDKGHS,B097BH9MD5,B07M9BRCQ5]]
 
+Prefer to buy from a brand's own store? See [VIP trolley bags: sizes, warranty and returns](vip-bags-guide.html).
+
 ## Before you buy
 
 1. Decide your usual trip length.

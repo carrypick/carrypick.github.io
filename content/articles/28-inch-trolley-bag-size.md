@@ -76,6 +76,8 @@ Want all three sizes? This set has a cabin, medium and large bag, but its large 
 
 [[pick:B097BH9MD5]]
 
+Prefer to buy from a brand's own store? See [VIP trolley bags: sizes, warranty and returns](vip-bags-guide.html).
+
 ## Questions
 
 ### What is a 28 inch trolley bag in cm?

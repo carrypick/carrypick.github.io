@@ -518,7 +518,15 @@ def booking_box(cfg, place):
     return f'<div class="cta-box">{links}<p>Prices and rooms are shown on the booking site. We have not checked each hotel, so read recent reviews first.</p></div>'
 
 
+def shop_box(cfg, shop):
+    """Hand-placed link to a shop's own site (EarnKaro). Only on pages with no Amazon picks."""
+    return (f'<div class="cta-box"><div class="book-row"><a class="btn btn-amazon" href="{e(cfg["shop_partners"][shop])}" {BUY_ATTRS}>Visit {e(shop)}</a>'
+            f'<span class="paid">Paid link</span></div><p>Prices and stock are shown on the shop\'s own site. We have not tested these products.</p></div>')
+
+
 def render_markdown(md, cfg, deals_by_asin, p, source):
+    if "[[shop:" in md and ("[[pick:" in md or "[[compare:" in md):
+        sys.exit("Error: %s mixes a [[shop:]] link with Amazon picks. Keep other shops' links away from Amazon picks." % source)
     out, para, items, list_tag, rows = [], [], [], None, []
 
     def flush():
@@ -543,6 +551,7 @@ def render_markdown(md, cfg, deals_by_asin, p, source):
         compare = re.fullmatch(r"\[\[compare:([A-Z0-9,]+)\]\]", line)
         diagram = re.fullmatch(r"\[\[diagram:([a-z0-9-]+)\]\]", line)
         booking = re.fullmatch(r"\[\[book:([^\]]+)\]\]", line)
+        shop = re.fullmatch(r"\[\[shop:([^\]]+)\]\]", line)
         ul = re.match(r"^- (.+)", line)
         ol = re.match(r"^\d+\. (.+)", line)
         if not line:
@@ -551,6 +560,9 @@ def render_markdown(md, cfg, deals_by_asin, p, source):
             if para or items:
                 flush()
             rows.append(line)
+        elif shop:
+            flush()
+            out.append(shop_box(cfg, shop.group(1)))
         elif diagram:
             flush()
             out.append(diagram_figure(diagram.group(1), p))
@@ -2168,7 +2180,7 @@ def build():
         "disclosure.html": ("Affiliate disclosure", f"""<h1>Affiliate disclosure</h1>
 <p><strong>{DISCLOSURE}</strong></p>
 <p>{name} is a participant in the Amazon Associates Programme. When you click a "Check price on Amazon" button and buy something, Amazon may pay us a small commission. You pay the same price.</p>
-<p>Our trip guides also have hotel links to Agoda and Booking.com. These go through EarnKaro, an affiliate service. If you book through one, we may earn a commission, and you pay the same price. Amazon is not part of these links.</p>
+<p>Our trip guides also have hotel links to Agoda and Booking.com. Our <a href="guides/vip-bags-guide.html">VIP bags guide</a> has links to VIP's own store. These go through EarnKaro, an affiliate service. If you book or buy through one, we may earn a commission, and you pay the same price. Amazon is not part of these links.</p>
 <p>Links that earn us a commission are marked "Paid link". Commissions help us keep this site free. They do not change which products we pick.</p>"""),
         "privacy.html": ("Privacy policy", f"""<h1>Privacy policy</h1>
 <p>{name} does not ask for your name, email or any personal details, and this site sets no cookies of its own, except one that remembers your language if you choose Google Translate (see below).</p>
@@ -2177,7 +2189,7 @@ def build():
 <li>Fonts are loaded from Google Fonts, which may log your IP address. See Google's privacy policy.</li>
 <li>If you pick a language in the language menu other than English or our own Hindi pages, the page loads Google Translate, which sends the page text to Google to translate it. A cookie called "googtrans" then remembers your choice on this site. Pick English in the menu to remove it.</li>
 <li>When you click a link to Amazon.in, Amazon may set cookies to track the referral. See Amazon.in's privacy notice.</li>
-<li>When you click a hotel link in a trip guide, it goes through EarnKaro's link services (bitli.in and linkredirect.in) to the booking site. These services and the booking site may set cookies and log your visit to track the referral. See their privacy policies.</li>
+<li>When you click a hotel link in a trip guide or a shop link in our VIP bags guide, it goes through EarnKaro's link services (bitli.in and linkredirect.in) to that site. These services and that site may set cookies and log your visit to track the referral. See their privacy policies.</li>
 <li>If you join our Telegram channel, Telegram's privacy policy applies.</li>
 </ul>
 <p>Questions? See our <a href="contact.html">contact page</a>.</p>"""),
