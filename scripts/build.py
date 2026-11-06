@@ -513,7 +513,7 @@ def md_inline(text, p):
 
 def booking_box(cfg, place):
     """Hand-placed hotel links (EarnKaro). Trip guides only, never next to Amazon picks."""
-    links = "".join(f'<a class="btn" href="{e(url)}" {BUY_ATTRS}>Search {e(place)} on {e(name)}</a><span class="paid">Paid link</span> '
+    links = "".join(f'<div class="book-row"><a class="btn btn-amazon" href="{e(url)}" {BUY_ATTRS}>Search {e(place)} on {e(name)}</a><span class="paid">Paid link</span></div>'
                     for name, url in cfg["booking_partners"].items())
     return f'<div class="cta-box">{links}<p>Prices and rooms are shown on the booking site. We have not checked each hotel, so read recent reviews first.</p></div>'
 

@@ -245,6 +245,8 @@ img { max-width: 100%; }
 .chip-tag { padding: 4px 12px; border-radius: 999px; background: var(--tint-none); color: var(--ink); font-size: 0.85rem; font-weight: 600; }
 .cta-box { margin: 20px 0 8px; padding: 20px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow); }
 .cta-box .paid { margin-left: 10px; }
+.book-row { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 0; margin-bottom: 10px; }
+.book-row .paid { white-space: nowrap; }
 .cta-box p { margin: 12px 0 0; color: var(--muted); font-size: 0.88rem; }
 .features { list-style: none; padding: 0; margin: 0 0 24px; display: grid; gap: 10px; }
 .features li { display: flex; gap: 10px; padding: 12px 14px; border-radius: 12px; background: var(--surface); border: 1px solid var(--line); }
