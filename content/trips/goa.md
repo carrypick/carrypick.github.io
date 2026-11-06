@@ -13,6 +13,8 @@ glance: Best time=November to February, Goa's peak season | Weather in Dec–Jan
 ---
 Christmas and New Year are Goa's busiest weeks. The weather is at its best, the churches are lit up, and visitors come from all over India and the world. This guide covers what you need to plan: the weather, which airport to fly into, how to get around, the beach rules that carry big fines, the New Year crowds, and what to pack.
 
+Still choosing? Compare Goa, Manali, Jaipur and Kerala in [where to go in December and January](where-to-go-in-december-january.html). Going in late January? See our [Republic Day long weekend ideas](republic-day-long-weekend-2027.html).
+
 ## Weather in December and January
 
 Goa is warm and dry in winter. The India Meteorological Department's long-term averages:

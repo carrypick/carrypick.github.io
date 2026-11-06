@@ -115,3 +115,5 @@ A set of three sizes suits families who travel often:
 2. Measure your bag's total size (L + W + H).
 3. Weigh the packed bag at home.
 4. Keep power banks, laptops and medicines in your cabin bag. Power banks are not allowed in checked baggage.
+
+Not flying soon? See what to expect from Amazon's [Republic Day sale](republic-day-sale-guide.html).

@@ -5,6 +5,7 @@ description: Useful New Year gift ideas: watches for him and her, pair watches f
 date: 2026-11-06
 category: watches
 photo: gift-box
+feature_until: 2027-01-01
 ---
 A good New Year gift is one that gets used long after the party is over. Here are simple ideas for family, friends and people who love to travel. 1 January 2027 falls on a Friday, so plan your gifts before the holiday rush.
 

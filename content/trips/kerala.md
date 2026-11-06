@@ -12,6 +12,8 @@ glance: Best time=November to February, Kerala's peak season | Weather in Dec–
 ---
 Kerala is at its best from November to February: the monsoon is over, the backwaters are calm, and the hills around Munnar are cool and green. A classic winter trip is Kochi, then Munnar, then a houseboat night in Alappuzha, ending at a beach in Varkala or Kovalam. This guide covers the weather, getting around, New Year in Fort Kochi and the rules that catch visitors out.
 
+Still choosing? Compare Goa, Manali, Jaipur and Kerala in [where to go in December and January](where-to-go-in-december-january.html). Going in late January? See our [Republic Day long weekend ideas](republic-day-long-weekend-2027.html).
+
 ## Weather in December and January
 
 | Place | December | January |

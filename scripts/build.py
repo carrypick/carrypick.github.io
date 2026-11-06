@@ -1329,6 +1329,8 @@ def build_hindi(cfg, deals, airlines, pages, lastmod):
                                                    (HINDI_PATHS["baggage/can-i-carry.html"], hi["flight_items"]),
                                                    (HINDI_PATHS["baggage/train-luggage-rules.html"], hi["railways"]))]
         links = "".join(f'<li><a href="../{path}">{e(name)}</a></li>' for path, name in mine if path != current)
+        if TRIPS_HI_DIR.exists():
+            links += "".join(f'<li><a href="../hi/trips/{t["slug"]}.html">{e(t.get("place", t["title"]))} ट्रिप गाइड</a></li>' for t in load_articles(TRIPS_HI_DIR))
         links += "".join(f'<li><a href="../{t[0]}" lang="en">{e(t[1])} (English)</a></li>' for t in TOOLS if t[0] not in HINDI_PATHS)
         return f'<h2>{L["more_tools"]}</h2><ul class="airline-links">{links}</ul>'
 
@@ -1977,6 +1979,8 @@ def build():
     {"".join(cards)}
   </div>
 </section>"""
+    # Seasonal guides with an unexpired feature_until go first on the home page
+    home_guides = sorted(articles, key=lambda a: a.get("feature_until", "") < date.today().isoformat())
     body = f"""<section class="hero">
   <div class="wrap hero-row">
     <div class="hero-copy">
@@ -2014,7 +2018,7 @@ def build():
 </section>
 {baggage_promo}
 {('<section class="wrap section">' + section_head("Trip guides", '<a class="see-all" href="trips/index.html">All trips ' + icon("arrow", "icon icon-sm") + '</a>') + trip_cards(trips[:3], "") + '</section>') if trips else ''}
-{('<section class="wrap section">' + section_head("Buying guides", '<a class="see-all" href="guides/index.html">All guides ' + icon("arrow", "icon icon-sm") + '</a>') + guide_cards(cfg, articles[:3], "") + '</section>') if articles else ''}
+{('<section class="wrap section">' + section_head("Buying guides", '<a class="see-all" href="guides/index.html">All guides ' + icon("arrow", "icon icon-sm") + '</a>') + guide_cards(cfg, home_guides[:3], "") + '</section>') if articles else ''}
 {telegram_band(cfg, "")}"""
     home_schema = [{"@context": "https://schema.org", "@type": "WebSite", "name": cfg["site_name"],
                     "url": abs_url(cfg), "description": cfg["tagline"], "inLanguage": "en-IN",

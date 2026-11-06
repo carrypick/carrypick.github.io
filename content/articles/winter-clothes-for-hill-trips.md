@@ -5,6 +5,7 @@ description: How to dress for Manali, Shimla or Kashmir in winter: three simple 
 date: 2026-11-04
 category: clothing
 photo: snow-jacket
+feature_until: 2027-01-31
 ---
 You don't need expensive clothes for a winter trip to the hills, but you do need the right layers. Nights in Manali can fall below −5 °C, while a sunny afternoon can feel mild, so one thick jacket isn't enough. You need clothes you can add and take off.
 
@@ -68,3 +69,5 @@ Going in the monsoon, or to Kerala? A poncho is small, and it covers your bag to
 - **Clothes sizes vary between brands.** Check the size chart on each Amazon page before you order.
 
 Don't forget your feet: see our [travel shoes guide](travel-shoes-guide.html). Then use the [winter hill trip packing list](../packing/hills.html) and read our [Manali winter guide](../trips/manali.html).
+
+Still deciding on a place? See [where to go in December and January](../trips/where-to-go-in-december-january.html).

@@ -67,3 +67,5 @@ Prefer to buy from a brand's own store? See [VIP trolley bags: sizes, warranty a
 3. Compare the bag's own weight. Lighter leaves more room for your things.
 4. Pick hard shell for flights, soft or duffle for trains and road trips.
 5. Weigh the packed bag at home with a [luggage scale](../picks/B07Q822CWX.html).
+
+Not in a hurry? See what to expect from Amazon's [Republic Day sale](republic-day-sale-guide.html).

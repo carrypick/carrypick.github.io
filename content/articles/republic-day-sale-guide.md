@@ -5,6 +5,7 @@ description: Amazon hasn't announced its 2027 Republic Day sale yet. Last year's
 date: 2026-11-06
 category: luggage
 photo: packed-suitcase
+feature_until: 2027-01-25
 ---
 Amazon hasn't announced its Great Republic Day Sale for 2027 yet. Last year's sale began on **16 January**. We'll update this page when the dates are out. Until then, here's how to be ready, so you buy the right bag or watch and not just the biggest discount.
 

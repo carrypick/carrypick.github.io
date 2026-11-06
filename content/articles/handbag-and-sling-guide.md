@@ -73,3 +73,5 @@ A small leather sling:
 [[compare:B0F5GS19M1,B0BQWF3TJK,B07PFF4RYC,B08XXTRC1Q]]
 
 Need something bigger? See our [laptop backpack guide](laptop-backpack-guide.html) and [wedding gift guide](wedding-gift-guide.html).
+
+Buying it as a present? See our [New Year gift ideas](new-year-gift-ideas.html).

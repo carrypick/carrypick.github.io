@@ -83,3 +83,5 @@ Well-known brands in India, such as Titan, Fastrack, Sonata, Timex and Casio, ha
 1. If you don't know their wrist size, a **metal strap** is easiest because a shop can resize it.
 2. A **medium dial (36–40 mm)** is the safest size for men.
 3. Keep the box and invoice for the warranty.
+
+Looking for more present ideas? See our [New Year gift ideas](new-year-gift-ideas.html) and [wedding gift guide](wedding-gift-guide.html). Not in a hurry? See what to expect from Amazon's [Republic Day sale](republic-day-sale-guide.html).

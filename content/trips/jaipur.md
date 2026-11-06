@@ -12,6 +12,8 @@ glance: Best time=October to March. Winter runs from mid-December to mid-Februar
 ---
 Jaipur, the Pink City, is one corner of India's "Golden Triangle" with Delhi and Agra. Rajasthan Tourism calls winter the best season to visit: sunny days and chilly nights. This guide covers the weather, how to get there, monument hours and tickets, the Christmas and New Year crowds, and what to pack.
 
+Still choosing? Compare Goa, Manali, Jaipur and Kerala in [where to go in December and January](where-to-go-in-december-january.html). Going in late January? See our [Republic Day long weekend ideas](republic-day-long-weekend-2027.html).
+
 ## Weather in December and January
 
 The India Meteorological Department (IMD) says Jaipur's winter runs from mid-December to mid-February. Its long-term averages:
