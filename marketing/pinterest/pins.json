@@ -1,0 +1,110 @@
+[
+  {
+    "slug": "size-chart",
+    "image": "size-chart.jpg",
+    "board": "Luggage Size Guides",
+    "title": "Trolley bag size chart: inches to cm",
+    "alt": "A chart of trolley bag sizes from 18 to 32 inches converted to cm, with bag type and trip length.",
+    "link": "https://carrypick.github.io/baggage/luggage-size-chart.html",
+    "description": "Trolley bag sizes from 18 to 32 inches in cm, with the kind of bag and trip length for each. Some brands sell 55 cm bags as 20 inch, so check the cm before you buy. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "large-158",
+    "image": "large-158.jpg",
+    "board": "Luggage Size Guides",
+    "title": "Most large trolley bags go over the airline size limit",
+    "alt": "26 of 31 large trolleys checked are listed over 158 cm. The five within the limit are listed by name with their total size.",
+    "link": "https://carrypick.github.io/guides/28-inch-trolley-bag-size.html",
+    "description": "We checked 31 large trolley bags on Amazon.in: 26 are listed over the 158 cm limit most Indian airlines set for a checked bag. See the 5 that aren't, and whether you need a large bag at all. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "twenty-inch",
+    "image": "twenty-inch.jpg",
+    "board": "Luggage Size Guides",
+    "title": "Is your \"20 inch\" trolley bag really 20 inches?",
+    "alt": "20 inches is 50.8 cm, but some cabin bags sold as 20 inch are listed at 56 to 58 cm. Airlines also check width and depth.",
+    "link": "https://carrypick.github.io/guides/20-inch-trolley-bag-size.html",
+    "description": "A 20 inch trolley is 50.8 cm, but many sold as 20 inch in India are 55 cm or taller. See the cabin limits of Indian airlines, how much it holds and which bags fit. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "medium-pack",
+    "image": "medium-pack.jpg",
+    "board": "Luggage Size Guides",
+    "title": "24 inch trolley bag: how much can you really pack?",
+    "alt": "A table showing how much you can pack on 15, 20 and 25 kg allowances with light, typical and heavy medium trolleys.",
+    "link": "https://carrypick.github.io/guides/24-inch-trolley-bag-size.html",
+    "description": "A 24 inch trolley is 61 cm, but most medium bags in India are 65–69 cm. The bag's own weight counts towards your allowance. See what 36 medium trolleys really measure. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "cabin-limits",
+    "image": "cabin-limits.jpg",
+    "board": "Flight and Train Baggage Rules",
+    "title": "Cabin bag size limits for Indian airlines",
+    "alt": "A table of cabin bag size limits in cm for IndiGo, Air India, Air India Express, Akasa Air and SpiceJet.",
+    "link": "https://carrypick.github.io/baggage/index.html",
+    "description": "Cabin bag limits for IndiGo, Air India, Air India Express, Akasa Air and SpiceJet in cm, on one page. Most allow 7 kg, but the sizes differ. Check your own bag with our free checker. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "dont-pack",
+    "image": "dont-pack.jpg",
+    "board": "Flight and Train Baggage Rules",
+    "title": "What you can't pack for a flight in India",
+    "alt": "Lists of items banned in all bags, items not allowed in cabin bags, and the rules for power banks and liquids on Indian flights.",
+    "link": "https://carrypick.github.io/baggage/can-i-carry.html",
+    "description": "Dry coconut, camphor and lighters are banned in all bags. Power banks can only go in your cabin bag. Search our list to see what you can carry on Indian flights. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "train-luggage",
+    "image": "train-luggage.jpg",
+    "board": "Flight and Train Baggage Rules",
+    "title": "Indian Railways luggage limits by class",
+    "alt": "A table of free luggage limits by train class on Indian Railways, with suitcase size limits.",
+    "link": "https://carrypick.github.io/baggage/train-luggage-rules.html",
+    "description": "How much luggage you can carry free on Indian trains, class by class, and the suitcase size limits in each coach. Checked against Indian Railways' own rules. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "new-year-gifts",
+    "image": "new-year-gifts.jpg",
+    "board": "Gift Ideas",
+    "title": "New Year gift ideas people actually use",
+    "alt": "A wrapped gift with a pink ribbon, with the words New Year gift ideas people actually use.",
+    "link": "https://carrypick.github.io/guides/new-year-gift-ideas.html",
+    "description": "Useful New Year gift ideas for 2027: watches for him and her, pair watches for parents, handbags and small travel gifts. Plus how to choose and when to order. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "republic-weekend",
+    "image": "republic-weekend.jpg",
+    "board": "India Trip Ideas",
+    "title": "Republic Day long weekend 2027: 4-day trip ideas",
+    "alt": "Hawa Mahal in Jaipur, with the words Republic Day long weekend 2027.",
+    "link": "https://carrypick.github.io/trips/republic-day-long-weekend-2027.html",
+    "description": "26 January 2027 is a Tuesday, so one day off gives you 4 days. Compare Jaipur, Manali, Goa and Kerala, see how parade tickets work, and when train booking opens. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "where-to-go",
+    "image": "where-to-go.jpg",
+    "board": "India Trip Ideas",
+    "title": "Where to go in India in December and January",
+    "alt": "A houseboat on the Kerala backwaters, with the words Where to go in India this winter.",
+    "link": "https://carrypick.github.io/trips/where-to-go-in-december-january.html",
+    "description": "Beach, snow, forts or backwaters? Compare Goa, Manali, Jaipur and Kerala for a Christmas or New Year trip: the weather, how to get there, crowds and what to pack. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "goa-winter",
+    "image": "goa-winter.jpg",
+    "board": "India Trip Ideas",
+    "title": "Goa for Christmas and New Year: a simple trip guide",
+    "alt": "A beach in Goa with palm trees, with the words Going to Goa this winter?",
+    "link": "https://carrypick.github.io/trips/goa.html",
+    "description": "Plan Goa for December and January: the weather, Mopa or Dabolim airport, trains, taxis and scooters, beach rules and fines, and New Year crowds. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "hill-clothes",
+    "image": "hill-clothes.jpg",
+    "board": "Packing and What to Wear",
+    "title": "What to wear on a winter hill trip in India",
+    "alt": "A person in a winter jacket in the snow, with the words What to wear on a winter hill trip.",
+    "link": "https://carrypick.github.io/guides/winter-clothes-for-hill-trips.html",
+    "description": "What to wear in Manali and the hills in winter: how to layer, what to wear on your feet, and what to carry for snow. As an Amazon Associate I earn from qualifying purchases."
+  }
+]
