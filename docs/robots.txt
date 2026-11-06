@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://carrypick.github.io/sitemap.xml
+Sitemap: https://carrypick.github.io/feed.xml

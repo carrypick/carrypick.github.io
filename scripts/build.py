@@ -101,6 +101,8 @@ def follow_links(cfg):
         links.append('<li><a href="%s" target="_blank" rel="noopener">Telegram channel</a></li>' % e(telegram_url(cfg)))
     if cfg.get("whatsapp_channel"):
         links.append('<li><a href="%s" target="_blank" rel="noopener">WhatsApp channel</a></li>' % e(cfg["whatsapp_channel"]))
+    if cfg.get("pinterest_url"):
+        links.append('<li><a href="%s" target="_blank" rel="noopener">Pinterest</a></li>' % e(cfg["pinterest_url"]))
     return "".join(links)
 
 
@@ -221,6 +223,10 @@ def page(cfg, title, description, body, depth, path, schema=None, og_type="websi
             head_extra += '<meta property="og:image" content="%s/assets/logo.png">' % e(base)
     if cfg.get("google_site_verification"):
         head_extra += '\n<meta name="google-site-verification" content="%s">' % e(cfg["google_site_verification"])
+    if cfg.get("pinterest_site_verification"):
+        head_extra += '\n<meta name="p:domain_verify" content="%s">' % e(cfg["pinterest_site_verification"])
+    if cfg.get("base_url"):
+        head_extra += '\n<link rel="alternate" type="application/atom+xml" title="%s guides" href="%s/feed.xml">' % (e(cfg["site_name"]), e(cfg["base_url"].rstrip("/")))
     nav = "".join(
         '<a href="%scategory/%s.html">%s</a>' % (p, slug, e(c["name"].split(" &")[0]))
         for slug, c in cfg["categories"].items()
@@ -2225,7 +2231,18 @@ def build():
             'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">%s</urlset>\n' % urls,
             encoding="utf-8",
         )
-        (DOCS / "robots.txt").write_text("User-agent: *\nAllow: /\nSitemap: %ssitemap.xml\n" % base, encoding="utf-8")
+        # Atom feed of the guides: readers can follow it, and Google accepts it as a second sitemap.
+        entries = sorted([("guides/%s.html" % a["slug"], a) for a in articles] + [("trips/%s.html" % t["slug"], t) for t in trips],
+                         key=lambda x: x[1]["updated"], reverse=True)
+        (DOCS / "feed.xml").write_text(
+            '<?xml version="1.0" encoding="UTF-8"?>\n<feed xmlns="http://www.w3.org/2005/Atom"><title>%s guides</title><id>%s</id>'
+            '<link rel="self" href="%sfeed.xml"/><link href="%s"/><updated>%sT00:00:00+05:30</updated><author><name>%s</name></author>%s</feed>\n'
+            % (e(cfg["site_name"]), e(base), e(base), e(base), entries[0][1]["updated"], e(cfg["site_name"]),
+               "".join('<entry><title>%s</title><id>%s</id><link href="%s"/><updated>%sT00:00:00+05:30</updated><summary>%s</summary></entry>'
+                       % (e(x["title"]), e(base + path), e(base + path), x["updated"], e(x["description"])) for path, x in entries)),
+            encoding="utf-8",
+        )
+        (DOCS / "robots.txt").write_text("User-agent: *\nAllow: /\nSitemap: %ssitemap.xml\nSitemap: %sfeed.xml\n" % (base, base), encoding="utf-8")
         if cfg.get("indexnow_key"):
             # Public key file that proves to IndexNow (Bing and others) that we own this site; see scripts/indexnow.py.
             (DOCS / (cfg["indexnow_key"] + ".txt")).write_text(cfg["indexnow_key"], encoding="utf-8")
