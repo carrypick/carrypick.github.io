@@ -106,5 +106,122 @@
     "alt": "A person in a winter jacket in the snow, with the words What to wear on a winter hill trip.",
     "link": "https://carrypick.github.io/guides/winter-clothes-for-hill-trips.html",
     "description": "What to wear in Manali and the hills in winter: how to dress in three layers, which thermals and jackets to take, and small things like caps, gloves and sunglasses. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "manali-winter",
+    "image": "manali-winter.jpg",
+    "board": "India Trip Ideas",
+    "title": "Manali in winter: snow, roads and a New Year trip guide",
+    "alt": "Manali town with mountains, with the words Manali in winter: snow isn't guaranteed.",
+    "link": "https://carrypick.github.io/trips/manali.html",
+    "description": "Plan Manali for December and January: when snow usually comes, getting there from Delhi and Chandigarh, Rohtang and the Atal Tunnel in winter, green tax and what to pack. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "kerala-winter",
+    "image": "kerala-winter.jpg",
+    "board": "India Trip Ideas",
+    "title": "Kerala in winter: Kochi, Munnar and the backwaters",
+    "alt": "A houseboat on the Kerala backwaters, with the words Kerala in winter.",
+    "link": "https://carrypick.github.io/trips/kerala.html",
+    "description": "Plan Kerala for December and January: the weather, airports, the Cochin Carnival in Fort Kochi, houseboats in Alappuzha, Eravikulam in Munnar and beach safety. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "jaipur-winter",
+    "image": "jaipur-winter.jpg",
+    "board": "India Trip Ideas",
+    "title": "Jaipur in winter: a simple trip guide",
+    "alt": "Hawa Mahal in Jaipur, with the words Jaipur in winter.",
+    "link": "https://carrypick.github.io/trips/jaipur.html",
+    "description": "Plan Jaipur for December and January: cold mornings, monument hours and the composite ticket, getting there from Delhi and Agra, the metro, markets and January festivals. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "hill-packing",
+    "image": "hill-packing.jpg",
+    "board": "Packing and What to Wear",
+    "title": "Hill station packing list for winter",
+    "alt": "Boots on a mountain trail, with the words Hill station packing list for winter.",
+    "link": "https://carrypick.github.io/packing/hills.html",
+    "description": "A simple winter packing list for Manali, Shimla and Kashmir. Choose your trip length and tick things off as you pack. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "beach-packing",
+    "image": "beach-packing.jpg",
+    "board": "Packing and What to Wear",
+    "title": "Beach trip packing list for Goa and more",
+    "alt": "Palm trees by a beach in Goa, with the words Beach trip packing list.",
+    "link": "https://carrypick.github.io/packing/beach.html",
+    "description": "A simple beach trip packing list for Goa and more. Choose your trip length and tick things off as you pack. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "shoes-table",
+    "image": "shoes-table.jpg",
+    "board": "Packing and What to Wear",
+    "title": "Which shoes to take on a trip in India",
+    "alt": "A table matching snow, forts, beach, rain and flights to the shoes to take.",
+    "link": "https://carrypick.github.io/guides/travel-shoes-guide.html",
+    "description": "Choose shoes by the trip: waterproof shoes for snow, walking shoes for forts, sandals for the beach and slip-ons for flights. Most trips need only two pairs. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "sunscreen-100ml",
+    "image": "sunscreen-100ml.jpg",
+    "board": "Packing and What to Wear",
+    "title": "Sunscreen on a flight: the 100 ml cabin bag rule",
+    "alt": "The rules for sunscreen in a cabin bag: 100 ml or less, one clear 1-litre bag, and bigger bottles in the check-in bag.",
+    "link": "https://carrypick.github.io/guides/travel-sunscreen-guide.html",
+    "description": "Sunscreen, lotion and face wash count as liquids on flights. See the 100 ml rule, what SPF and PA mean, and how much sunscreen a trip really needs. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "bag-weight",
+    "image": "bag-weight.jpg",
+    "board": "Luggage Size Guides",
+    "title": "How much does your bag weigh before you pack?",
+    "alt": "A table of typical empty weights for a backpack, duffle bag and cabin, medium and large trolleys.",
+    "link": "https://carrypick.github.io/tools/bag-weight.html",
+    "description": "Empty bags use up your baggage allowance too. See typical weights for backpacks, duffles and trolleys, then add up your things with our free bag weight calculator. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "watch-size",
+    "image": "watch-size.jpg",
+    "board": "Watches and Everyday Bags",
+    "title": "What watch size suits your wrist?",
+    "alt": "A table matching wrist sizes in cm to watch dial sizes in mm.",
+    "link": "https://carrypick.github.io/tools/watch-size.html",
+    "description": "A simple guide to dial size by wrist size in cm. Measure your wrist, then use our free watch size tool. It's a rule of thumb, not a fixed rule. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "laptop-backpack",
+    "image": "laptop-backpack.jpg",
+    "board": "Watches and Everyday Bags",
+    "title": "Will your laptop fit your backpack?",
+    "alt": "A table of typical laptop width and depth in cm for 13.3 to 17.3 inch screens.",
+    "link": "https://carrypick.github.io/tools/laptop-backpack.html",
+    "description": "Typical laptop sizes by screen size in cm, so you can check a backpack's sleeve before you buy. Use our free laptop backpack tool. Real laptops vary by a few cm. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "handbag-type",
+    "image": "handbag-type.jpg",
+    "board": "Watches and Everyday Bags",
+    "title": "Handbag, tote or sling: which should you choose?",
+    "alt": "A table comparing tote, satchel and crossbody sling bags, with what each is best for and what to watch out for.",
+    "link": "https://carrypick.github.io/guides/handbag-and-sling-guide.html",
+    "description": "Tote, satchel or crossbody sling? Compare them for work and travel, and see airline personal bag limits in India. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "vip-store",
+    "image": "vip-store.jpg",
+    "board": "Luggage Size Guides",
+    "title": "VIP trolley bags: sizes, warranty and returns",
+    "alt": "Facts about buying from VIP's own store: sizes, warranty, delivery and the 3-day return rule.",
+    "link": "https://carrypick.github.io/guides/vip-bags-guide.html",
+    "description": "Thinking of buying from VIP's own website? See its cabin, medium and large sizes, the warranty, delivery, the 3-day return rule and what to check first. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "wedding-gifts",
+    "image": "wedding-gifts.jpg",
+    "board": "Gift Ideas",
+    "title": "Wedding gift ideas couples actually use",
+    "alt": "A watch on a wrist, with the words Wedding gift ideas couples actually use.",
+    "link": "https://carrypick.github.io/guides/wedding-gift-guide.html",
+    "description": "Pair watches for the couple, watches for the bride and groom, and bags for the honeymoon, with tips to pick the right one. As an Amazon Associate I earn from qualifying purchases."
   }
 ]

@@ -113,7 +113,7 @@ def abs_url(cfg, path=""):
 
 
 def org_schema(cfg):
-    same_as = [u for u in (telegram_url(cfg), cfg.get("whatsapp_channel")) if u]
+    same_as = [u for u in (telegram_url(cfg), cfg.get("whatsapp_channel"), cfg.get("pinterest_url")) if u]
     return {"@type": "Organization", "name": cfg["site_name"], "url": abs_url(cfg),
             "logo": abs_url(cfg, "assets/logo.png"), "sameAs": same_as}
 

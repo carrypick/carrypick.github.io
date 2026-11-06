@@ -174,6 +174,94 @@ PINS = [
          description="What to wear in Manali and the hills in winter: how to dress in three layers, which thermals and jackets to take, and small things like caps, gloves and sunglasses.",
          alt="A person in a winter jacket in the snow, with the words What to wear on a winter hill trip.",
          html=photo("snow-jacket", "What to wear on a winter hill trip", "Simple layers for Manali and the hills")),
+    dict(slug="manali-winter", board="India Trip Ideas", link="trips/manali.html",
+         title="Manali in winter: snow, roads and a New Year trip guide",
+         description="Plan Manali for December and January: when snow usually comes, getting there from Delhi and Chandigarh, Rohtang and the Atal Tunnel in winter, green tax and what to pack.",
+         alt="Manali town with mountains, with the words Manali in winter: snow isn't guaranteed.",
+         html=photo("manali-town", "Manali in winter: snow isn't guaranteed", "When snow usually comes, the roads, green tax and what to pack")),
+    dict(slug="kerala-winter", board="India Trip Ideas", link="trips/kerala.html",
+         title="Kerala in winter: Kochi, Munnar and the backwaters",
+         description="Plan Kerala for December and January: the weather, airports, the Cochin Carnival in Fort Kochi, houseboats in Alappuzha, Eravikulam in Munnar and beach safety.",
+         alt="A houseboat on the Kerala backwaters, with the words Kerala in winter.",
+         html=photo("kerala-houseboat", "Kerala in winter", "Kochi, Munnar, houseboats and the New Year carnival")),
+    dict(slug="jaipur-winter", board="India Trip Ideas", link="trips/jaipur.html",
+         title="Jaipur in winter: a simple trip guide",
+         description="Plan Jaipur for December and January: cold mornings, monument hours and the composite ticket, getting there from Delhi and Agra, the metro, markets and January festivals.",
+         alt="Hawa Mahal in Jaipur, with the words Jaipur in winter.",
+         html=photo("jaipur-hawa-mahal", "Jaipur in winter", "Forts, palaces, monument tickets and cold mornings")),
+    dict(slug="hill-packing", board="Packing and What to Wear", link="packing/hills.html",
+         title="Hill station packing list for winter",
+         description="A simple winter packing list for Manali, Shimla and Kashmir. Choose your trip length and tick things off as you pack.",
+         alt="Boots on a mountain trail, with the words Hill station packing list for winter.",
+         html=photo("boots-mountain", "Hill station packing list for winter", "For Manali, Shimla and Kashmir")),
+    dict(slug="beach-packing", board="Packing and What to Wear", link="packing/beach.html",
+         title="Beach trip packing list for Goa and more",
+         description="A simple beach trip packing list for Goa and more. Choose your trip length and tick things off as you pack.",
+         alt="Palm trees by a beach in Goa, with the words Beach trip packing list.",
+         html=photo("goa-palolem", "Beach trip packing list", "For Goa and more. Tick things off as you pack")),
+    dict(slug="shoes-table", board="Packing and What to Wear", link="guides/travel-shoes-guide.html",
+         title="Which shoes to take on a trip in India",
+         description="Choose shoes by the trip: waterproof shoes for snow, walking shoes for forts, sandals for the beach and slip-ons for flights. Most trips need only two pairs.",
+         alt="A table matching snow, forts, beach, rain and flights to the shoes to take.",
+         html=chart("Packing light", "Which shoes for which trip?", table(
+             ["Trip", "What to take"],
+             [["Snow", "Waterproof shoes or boots with a grippy sole"], ["Forts and cities", "Cushioned walking shoes"], ["Beach", "Sandals or flip-flops"],
+              ["Rainy places", "Sandals that can get wet"], ["Flights and trains", "Slip-on shoes"]])
+             + '<p class="note"><strong>Most trips need only two pairs:</strong> one to walk in, and one light pair for the hotel or the beach.</p>')),
+    dict(slug="sunscreen-100ml", board="Packing and What to Wear", link="guides/travel-sunscreen-guide.html",
+         title="Sunscreen on a flight: the 100 ml cabin bag rule",
+         description="Sunscreen, lotion and face wash count as liquids on flights. See the 100 ml rule, what SPF and PA mean, and how much sunscreen a trip really needs.",
+         alt="The rules for sunscreen in a cabin bag: 100 ml or less, one clear 1-litre bag, and bigger bottles in the check-in bag.",
+         html=chart("Flying with skincare", "Sunscreen on a flight: the 100 ml rule",
+                    group("Each container: 100 ml or less", "A half-empty 200 ml bottle still isn't allowed, because the rule is about the size of the container.")
+                    + group("One clear bag", "All your liquids go in one clear, resealable bag of up to 1 litre.")
+                    + group("Anything bigger", "It goes in your check-in bag.")
+                    + group("It's not only sunscreen", "Lotion, face wash and gel count as liquids too."))),
+    dict(slug="bag-weight", board="Luggage Size Guides", link="tools/bag-weight.html",
+         title="How much does your bag weigh before you pack?",
+         description="Empty bags use up your baggage allowance too. See typical weights for backpacks, duffles and trolleys, then add up your things with our free bag weight calculator.",
+         alt="A table of typical empty weights for a backpack, duffle bag and cabin, medium and large trolleys.",
+         html=chart("Before you pack", "How heavy is your bag when it's empty?", table(
+             ["Bag", "Typical weight"],
+             [["Backpack", "0.6 kg"], ["Duffle bag", "1.2 kg"], ["Soft cabin trolley", "2.4 kg"], ["Hard cabin trolley", "2.7 kg"], ["Medium check-in trolley", "3.5 kg"], ["Large check-in trolley", "4.5 kg"]])
+             + '<p class="note"><strong>It all counts.</strong> Add up your things with our free bag weight calculator. Real bags vary, so weigh yours.</p>')),
+    dict(slug="watch-size", board="Watches and Everyday Bags", link="tools/watch-size.html",
+         title="What watch size suits your wrist?",
+         description="A simple guide to dial size by wrist size in cm. Measure your wrist, then use our free watch size tool. It's a rule of thumb, not a fixed rule.",
+         alt="A table matching wrist sizes in cm to watch dial sizes in mm.",
+         html=chart("Choosing a watch", "What watch size suits your wrist?", table(
+             ["Wrist", "Dial size"],
+             [["Under 15 cm", "28–36 mm"], ["15–16.5 cm", "34–38 mm"], ["16.5–18 cm", "38–42 mm"], ["18–19.5 cm", "40–44 mm"], ["Over 19.5 cm", "42–46 mm"]])
+             + '<p class="note"><strong>A rule of thumb, not a fixed rule.</strong> Wrap a tape or thread around your wrist to measure it.</p>')),
+    dict(slug="laptop-backpack", board="Watches and Everyday Bags", link="tools/laptop-backpack.html",
+         title="Will your laptop fit your backpack?",
+         description="Typical laptop sizes by screen size in cm, so you can check a backpack's sleeve before you buy. Use our free laptop backpack tool. Real laptops vary by a few cm.",
+         alt="A table of typical laptop width and depth in cm for 13.3 to 17.3 inch screens.",
+         html=chart("Choosing a backpack", "Will your laptop fit your backpack?", table(
+             ["Screen", "Typical size"],
+             [["13.3 inch", "30–31 x 21–22 cm"], ["14 inch", "31–33 x 21–23 cm"], ["15.6 inch", "35–36 x 23–25 cm"], ["16 inch", "35–36 x 24–26 cm"], ["17.3 inch", "39–40 x 26–28 cm"]])
+             + '<p class="note"><strong>Real laptops vary by a few cm.</strong> Compare your laptop with the sleeve size on the listing.</p>')),
+    dict(slug="handbag-type", board="Watches and Everyday Bags", link="guides/handbag-and-sling-guide.html",
+         title="Handbag, tote or sling: which should you choose?",
+         description="Tote, satchel or crossbody sling? Compare them for work and travel, and see airline personal bag limits in India.",
+         alt="A table comparing tote, satchel and crossbody sling bags, with what each is best for and what to watch out for.",
+         html=chart("Choosing a bag", "Tote, satchel or sling?", table(
+             ["Type", "Best for", "Watch out for"],
+             [["Tote", "Office, laptop, daily use", "Heavy on one shoulder"], ["Satchel", "Work, smart occasions", "Holds less than a tote"], ["Crossbody sling", "Sightseeing, markets, airports", "Rarely fits a tablet"]])
+             + '<p class="note"><strong>Start with what you carry,</strong> then choose the shape.</p>')),
+    dict(slug="vip-store", board="Luggage Size Guides", link="guides/vip-bags-guide.html",
+         title="VIP trolley bags: sizes, warranty and returns",
+         description="Thinking of buying from VIP's own website? See its cabin, medium and large sizes, the warranty, delivery, the 3-day return rule and what to check first.",
+         alt="Facts about buying from VIP's own store: sizes, warranty, delivery and the 3-day return rule.",
+         html=chart("Buying direct", "VIP trolley bags on VIP's own store", table(
+             ["What", "VIP's site says"],
+             [["Sizes", "Cabin, medium and large"], ["Warranty", "3 years on the models we read"], ["Delivery", "3–5 business days"], ["Returns", "Within 3 days, unused, with tags"]])
+             + '<p class="note"><strong>Check before you order.</strong> The pages we read gave no width, depth or bag weight. Read on 6 Nov 2026.</p>')),
+    dict(slug="wedding-gifts", board="Gift Ideas", link="guides/wedding-gift-guide.html",
+         title="Wedding gift ideas couples actually use",
+         description="Pair watches for the couple, watches for the bride and groom, and bags for the honeymoon, with tips to pick the right one.",
+         alt="A watch on a wrist, with the words Wedding gift ideas couples actually use.",
+         html=photo("watch-mesh", "Wedding gift ideas couples actually use", "Pair watches and bags for the honeymoon")),
 ]
 
 
