@@ -8,6 +8,8 @@ photo: trolley-walk
 ---
 VIP is one of India's best-known luggage brands, and it sells directly on its own website. The same store also sells its other brands: Skybags, Caprese, Alfa, Aristocrat and Savoy Paris. Here's what we found on VIP's site, and what to check before you order.
 
+**Coupon: CK15.** Enter this code on VIP's site for 15% off. We tried it in VIP's cart on 6 Nov 2026, and it took 15% off a VIP Vero Cabin. Coupons can change or end, so check the discount before you pay.
+
 [[shop:VIP Bags]]
 
 ## Quick facts
@@ -48,6 +50,10 @@ So "55" is a cabin size by height, "65–69" is medium and "79–80" is large. N
 [[shop:VIP Bags]]
 
 ## Questions
+
+### Is there a coupon code for VIP Bags?
+
+Yes, at the time of writing. Code CK15 took 15% off a VIP Vero Cabin in VIP's cart when we tried it on 6 Nov 2026. It may not apply to every order, and it can end, so check the discount before you pay.
 
 ### Does VIP sell directly on its own website?
 
