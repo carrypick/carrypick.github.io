@@ -3,7 +3,7 @@ seo_title: What size luggage do I need? Cabin vs medium vs large
 title: What size luggage do you need? A simple guide by trip length
 description: Cabin, medium or large? Match your trolley size to your trip, airline limits and how you travel, plus hard vs soft luggage.
 date: 2026-11-02
-updated: 2026-11-03
+updated: 2026-11-06
 category: luggage
 photo: trolley-handles
 ---
@@ -11,12 +11,12 @@ Buying the wrong size suitcase is a common mistake. Too small, and you sit on it
 
 ## Quick answer: size by trip length
 
-These are rough guides. Every brand's sizes differ a little, so always check the litres and dimensions on the listing. Seeing sizes in inches? Our [luggage size chart](../baggage/luggage-size-chart.html) converts them to cm.
+These are rough guides. Every brand's sizes differ a little, so always check the litres and dimensions on the listing. Seeing sizes in inches? Our [luggage size chart](../baggage/luggage-size-chart.html) converts them to cm, and we explain [20 inch](20-inch-trolley-bag-size.html), [24 inch](24-inch-trolley-bag-size.html) and [28 inch](28-inch-trolley-bag-size.html) trolleys in detail.
 
 - **Weekend (1–3 days):** a duffle or a backpack, about 30–40 litres.
 - **Short trip (2–4 days):** a **cabin trolley**, about 55 cm tall and 35–45 litres.
 - **One week (5–8 days):** a **medium check-in trolley**, about 65–69 cm tall.
-- **Long holiday or family trip (10+ days):** a **large trolley**, about 75–79 cm tall.
+- **Long holiday or family trip (10+ days):** a **large trolley**, about 75–79 cm tall. Check the total size first: [most large bags we checked](28-inch-trolley-bag-size.html) are listed over the 158 cm airline limit.
 
 [[diagram:luggage-sizes]]
 
@@ -48,7 +48,7 @@ Remember that **the bag's own weight counts**. A hard cabin trolley often weighs
 
 **All sizes in one set (families):**
 
-[[pick:B0GPQQPC7Q]]
+[[pick:B097BH9MD5]]
 
 **Weekend duffle (1–3 days, trains, road trips):**
 
@@ -56,7 +56,7 @@ Remember that **the bag's own weight counts**. A hard cabin trolley often weighs
 
 ### Compare them
 
-[[compare:B097BG6DX1,B097GCJFW2,B097GDKGHS,B0GPQQPC7Q,B07M9BRCQ5]]
+[[compare:B097BG6DX1,B097GCJFW2,B097GDKGHS,B097BH9MD5,B07M9BRCQ5]]
 
 ## Before you buy
 

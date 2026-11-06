@@ -3,11 +3,11 @@ seo_title: Cabin bag size rules in India: 7 kg, 115 cm and 55 cm trolleys
 title: Cabin bag rules for Indian flights and how to pick the right trolley
 description: The 7 kg and 115 cm rule explained, why "55 cm" bags can still be too big, and our cabin and check-in picks.
 date: 2026-10-23
-updated: 2026-11-03
+updated: 2026-11-06
 category: luggage
 photo: cabin-bag-airport
 ---
-Getting stopped at the airport gate because your cabin bag is too heavy or too big is stressful and can cost money. This guide explains the rules and how to pick a trolley bag that fits them.
+Getting stopped at the airport gate because your cabin bag is too heavy or too big is stressful and can cost money. This guide explains the rules and how to pick a trolley bag that fits them. Looking at a bag sold as "20 inch"? See [what 20 inch really means](20-inch-trolley-bag-size.html).
 
 ## The cabin bag rule on most Indian domestic flights
 
@@ -99,9 +99,9 @@ For check-in luggage, size depends on trip length:
 
 [[pick:B097GDKGHS]]
 
-A set of three sizes is good value for families who travel often:
+A set of three sizes suits families who travel often:
 
-[[pick:B0GPQQPC7Q]]
+[[pick:B097BH9MD5]]
 
 ## Pack smarter
 

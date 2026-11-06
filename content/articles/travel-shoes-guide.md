@@ -70,4 +70,4 @@ Flip-flops for women:
 - **Wear your heaviest pair on the flight.** They don't count towards your bag's weight.
 - **Put shoes in a bag or a packing cube** so they don't dirty your clothes.
 
-Use our [packing checklist](../tools/packing-checklist.html) to plan the rest of your bag. Heading to the hills? Read [what to wear on a winter hill trip](winter-clothes-for-hill-trips.html).
+Use our [packing checklist](../packing/index.html) to plan the rest of your bag. Heading to the hills? Read [what to wear on a winter hill trip](winter-clothes-for-hill-trips.html).

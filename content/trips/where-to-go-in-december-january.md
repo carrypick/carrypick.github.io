@@ -3,7 +3,7 @@ seo_title: Where to go in India in December and January 2026–27: beach, snow o
 title: Where to go in India in December and January
 description: Beach, snow, forts or backwaters? Compare Goa, Manali, Jaipur and Kerala for a Christmas or New Year trip: weather, how to get there, crowds and what to pack.
 date: 2026-11-03
-updated: 2026-11-04
+updated: 2026-11-06
 place: India in winter
 best: Dec–Jan
 photo: traveller-sunset
@@ -44,6 +44,12 @@ Read the full [Jaipur trip guide](jaipur.html).
 Kerala is warm on the coast and cool in the Munnar hills. Spend a night on a houseboat in Alappuzha, walk the tea estates in Munnar, and end on the cliffs at Varkala. In Fort Kochi, New Year's Eve ends with the Pappanji burning on the beach at midnight. Note that 1 January is a dry day in Kerala.
 
 Read the full [Kerala trip guide](kerala.html).
+
+## Long weekends in early 2027
+
+- **New Year:** 1 January 2027 is a Friday, so the weekend makes three days if your office gives it as a holiday. It isn't a national holiday everywhere, so check.
+- **Republic Day:** 26 January 2027 is a Tuesday. Take Monday off, and you get four days. See our [Republic Day long weekend ideas](republic-day-long-weekend-2027.html).
+- **Gifts:** if you're not travelling, see our [New Year gift ideas](../guides/new-year-gift-ideas.html).
 
 ## How to choose
 

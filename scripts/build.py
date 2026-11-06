@@ -688,7 +688,7 @@ def build_trips(cfg, trips, deals_by_asin, pages, lastmod):
                                       og_type="article", photo=t.get("photo"))))
         lastmod[path] = t["updated"]
 
-    places = ", ".join(t.get("place", t["title"]) for t in trips)
+    places = ", ".join(t.get("place", t["title"]) for t in trips if t.get("hub_title") != "no")
     inner = """<nav class="crumbs"><a href="../index.html">Home</a><span>/</span>Trip guides</nav>
       <h1>Trip guides for India</h1>
       <p class="muted small">When to go, how to get there, local rules and what to pack</p>"""
@@ -1465,7 +1465,7 @@ KG_ROWS = [3, 7, 10, 15, 20, 23, 25, 30, 32]
 def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
     """Inches/cm and kg/lb chart for luggage, with airline limits converted (baggage/luggage-size-chart.html)."""
     path = "baggage/luggage-size-chart.html"
-    updated = "2026-11-03"
+    updated = "2026-11-06"
     cm = lambda inches: num(round(inches * 2.54, 1))
     inch = lambda c: num(round(c / 2.54, 1))
     lb = lambda kg: num(round(kg * 2.20462, 1))
@@ -1492,19 +1492,19 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
     indigo = next((a for a in (airlines or {}).get("airlines", []) if a["slug"] == "indigo"), None)
     quick = ["1 inch is 2.54 cm. So a 20-inch bag is %s cm, a 24-inch bag is %s cm and a 28-inch bag is %s cm." % (cm(20), cm(24), cm(28)),
              "Indian brands mostly sell trolleys by height in cm: about 55 cm for cabin, 65–69 cm for medium and 75–79 cm for large.",
-             "A 22-inch bag (%s cm) is closest to the usual 55 cm cabin height. A 20-inch bag is smaller." % cm(22)]
+             "A 22-inch bag (%s cm) is closest to the usual 55 cm cabin height. A true 20-inch bag is smaller, but some brands sell 55 cm bags as \"20 inch\" and 65 cm bags as \"24 inch\", so check the cm." % cm(22)]
     if indigo:
         quick.append("IndiGo's cabin limit, %s cm, is %s inches." % (" x ".join(num(x) for x in indigo["cabin"]["dims_cm"]),
                                                                      " x ".join(inch(x) for x in indigo["cabin"]["dims_cm"])))
     quick.append("The inch size is only the height. Airlines check length, width and height, wheels and handles included.")
-    faq = [("What is 20 inch luggage in cm?", "20 inches is %s cm. That's smaller than the usual 55 cm cabin trolley sold in India." % cm(20)),
+    faq = [("What is 20 inch luggage in cm?", "20 inches is %s cm. That's smaller than the usual 55 cm cabin trolley sold in India, though some brands sell 55 cm bags as \"20 inch\"." % cm(20)),
            ("Is a 24 inch suitcase cabin or check-in?", "Check-in. 24 inches is %s cm, too tall for the 55–56 cm cabin limits of Indian airlines. It's a small medium-size bag, good for 4–6 days." % cm(24)),
            ("How many inches is a 55 cm cabin bag?", "55 cm is %s inches." % inch(55)),
            ("What is 22 x 14 x 9 inches in cm?", us_answer),
            ("How many pounds is 23 kg?", "23 kg is about %s lb. 7 kg, the usual Indian cabin bag limit, is about %s lb." % (lb(23), lb(7)))]
     faq_html, faq_schema = faq_block(faq)
-    picks = [deals_by_asin[a] for a in ("B097JLKP8X", "B0F5HGLC5Q", "B097GDKGHS", "B0GPQQPC7Q") if a in deals_by_asin]
-    picks_html = (f'<h2>Our picks by size</h2><p>Cabin trolleys that fit IndiGo or Air India by their listed size, a medium check-in bag and a set of three.</p>'
+    picks = [deals_by_asin[a] for a in ("B097JLKP8X", "B0F5HGLC5Q", "B0GNSKLF5Z", "B0GX5VFHMS") if a in deals_by_asin]
+    picks_html = (f'<h2>Our picks by size</h2><p>Cabin trolleys that fit IndiGo or Air India by their listed size, a light medium check-in bag and a large one within 158 cm.</p>'
                   f'{grid(cfg, picks, "../")}') if picks else ""
     size_fig = diagram_figure("luggage-sizes", "../") if "luggage-sizes" in DIAGRAMS else ""
     title = "Luggage size chart: inches to cm for cabin, medium and large bags"
@@ -1534,13 +1534,13 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
 {size_fig}
 {('<h2>Cabin bag limits in inches: Indian and international airlines</h2><div class="table-wrap"><table class="compare"><thead><tr><th>Airline</th><th>Size limit (cm)</th><th>In inches</th><th>Weight</th></tr></thead><tbody>' + air_rows + '</tbody></table></div><p class="checked">Economy limits: domestic flights for Indian airlines, India routes for international airlines. From our <a href="index.html">baggage rules</a> and <a href="international.html">international baggage</a> pages. Check your ticket before you fly.</p>') if air_rows else ""}
 <h2>Check-in bag size</h2>
-<p>Most Indian airlines limit each checked bag to <strong>158 cm in total</strong> (length + width + height), which is about {inch(158)} inches, and <strong>32 kg</strong> (about {lb(32)} lb). A large 75–79 cm trolley usually stays within 158 cm; an extra-large one may not.</p>
+<p>Most Indian airlines limit each checked bag to <strong>158 cm in total</strong> (length + width + height), which is about {inch(158)} inches, and <strong>32 kg</strong> (about {lb(32)} lb). Many large trolleys go over that: of the 31 large models we checked on Amazon.in on 6 Nov 2026, <strong>26 were listed over 158 cm</strong>. See <a href="../guides/28-inch-trolley-bag-size.html">the 5 that weren't</a>.</p>
 <h2>Kilograms to pounds</h2>
 <p>Indian airlines use kg. Foreign airlines, US websites and some luggage scales show pounds.</p>
 <div class="table-wrap"><table class="compare"><thead><tr><th>kg</th><th>Pounds (lb)</th></tr></thead><tbody>{kg_rows}</tbody></table></div>
 {picks_html}
 {faq_html}
-<p>More help: <a href="../guides/luggage-size-guide.html">what size luggage you need</a> and <a href="../guides/cabin-luggage-guide.html">how to pick a cabin trolley</a>.</p>
+<p>More help: <a href="../guides/20-inch-trolley-bag-size.html">20 inch</a>, <a href="../guides/24-inch-trolley-bag-size.html">24 inch</a> and <a href="../guides/28-inch-trolley-bag-size.html">28 inch</a> trolleys in detail, <a href="../guides/luggage-size-guide.html">what size luggage you need</a> and <a href="../guides/cabin-luggage-guide.html">how to pick a cabin trolley</a>.</p>
 {tool_pills("../", path)}
 </article></div>
 <script src="../assets/sizes.js" defer></script>
@@ -2102,8 +2102,13 @@ def build():
                    "inLanguage": "en-IN", "image": image,
                    "mainEntityOfPage": abs_url(cfg, path), "author": org_schema(cfg), "publisher": org_schema(cfg)}
         crumbs = crumbs_schema(cfg, [("Home", ""), ("Guides", "guides/index.html"), (a["title"], path)])
+        schema = [article, crumbs]
+        faq = md_faq(a["body"])
+        if faq:
+            schema.append({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+                {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": ans}} for q, ans in faq]})
         pages.append(write(path, page(cfg, a.get("seo_title", a["title"]), a["description"], body, 1, path,
-                                      [article, crumbs], og_type="article", photo=a.get("photo"))))
+                                      schema, og_type="article", photo=a.get("photo"))))
         lastmod[path] = a["updated"]
 
     if airlines:

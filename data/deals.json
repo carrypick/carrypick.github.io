@@ -1,5 +1,172 @@
 [
   {
+    "asin": "B097BH9MD5",
+    "added_at": "2026-11-06T08:39:19+05:30",
+    "title": "Safari Thorium Neo Set of 3 Trolley Bags (55, 66 and 77 cm)",
+    "category": "luggage",
+    "highlights": [
+      "Cabin, medium and large bags in one set",
+      "Hard polycarbonate shells with 8 spinner wheels",
+      "3-digit combination lock on each bag",
+      "3-year warranty"
+    ],
+    "note": "Three sizes in one purchase, for families who travel often.",
+    "brand": "Safari",
+    "best_for": [
+      "Families",
+      "Gifts"
+    ],
+    "specs": {
+      "Size": "55, 66 and 77 cm; large bag 77 x 56 x 31 cm (164 cm total)",
+      "Weight": "10.5 kg (all three)",
+      "Shell": "Hard, polycarbonate",
+      "Wheels": "8 spinner wheels",
+      "Lock": "3-digit combination",
+      "Warranty": "3 years"
+    },
+    "skip_if": "you worry about airline size limits: the large bag is listed at 164 cm, over the usual 158 cm."
+  },
+  {
+    "asin": "B097G7K6FZ",
+    "added_at": "2026-11-06T08:39:19+05:30",
+    "title": "Safari Astra Neo 76 cm Large Check-in Trolley, Polycarbonate",
+    "category": "luggage",
+    "highlights": [
+      "155 cm in total, within the usual 158 cm airline limit",
+      "98 litres",
+      "Hard polycarbonate shell with 8 spinner wheels",
+      "3-digit combination lock"
+    ],
+    "note": "A hard polycarbonate shell in a large size that's listed within 158 cm.",
+    "brand": "Safari",
+    "best_for": [
+      "Long trips",
+      "Families"
+    ],
+    "specs": {
+      "Size": "76 x 51 x 28 cm (155 cm total)",
+      "Capacity": "98 L",
+      "Weight": "4.3 kg",
+      "Shell": "Hard, polycarbonate",
+      "Wheels": "8 spinner wheels",
+      "Lock": "3-digit combination",
+      "Warranty": "3 years, international"
+    },
+    "skip_if": "you want the lightest large bag: the two others on our list weigh 0.7–0.8 kg less."
+  },
+  {
+    "asin": "B0F5HLYQK3",
+    "added_at": "2026-11-06T08:39:19+05:30",
+    "title": "American Tourister Liftoff+ 79 cm Large Check-in Trolley, TSA Lock",
+    "category": "luggage",
+    "highlights": [
+      "Listed at 3.5 kg, light for a large bag",
+      "95.5 litres",
+      "Mounted TSA lock",
+      "Hard polypropylene shell with 8 spinner wheels"
+    ],
+    "note": "A tall bag with a lot of room, listed at exactly 158 cm in total and only 3.5 kg.",
+    "brand": "American Tourister",
+    "best_for": [
+      "Long trips",
+      "Flights abroad"
+    ],
+    "specs": {
+      "Size": "79 x 49 x 30 cm (158 cm total)",
+      "Capacity": "95.5 L",
+      "Weight": "3.5 kg",
+      "Shell": "Hard, polypropylene",
+      "Wheels": "8 spinner wheels",
+      "Lock": "TSA",
+      "Warranty": "3 years, international"
+    },
+    "skip_if": "you overpack: it's listed at exactly 158 cm, so a bulging bag can go over."
+  },
+  {
+    "asin": "B0GX5VFHMS",
+    "added_at": "2026-11-06T08:39:18+05:30",
+    "title": "Skybags Swirl 75 cm Large Check-in Trolley",
+    "category": "luggage",
+    "highlights": [
+      "152 cm in total, the smallest of the 31 large trolleys we checked",
+      "Listed at 3.6 kg",
+      "3-digit combination lock and anti-theft zip",
+      "Hard polypropylene shell with 8 spinner wheels"
+    ],
+    "note": "A large bag that stays well inside the usual 158 cm airline limit, and it's light too.",
+    "brand": "Skybags",
+    "best_for": [
+      "Long trips",
+      "Flights"
+    ],
+    "specs": {
+      "Size": "75 x 49.5 x 27.5 cm (152 cm total)",
+      "Capacity": "82 L (one listing field says 109 L)",
+      "Weight": "3.6 kg",
+      "Shell": "Hard, polypropylene",
+      "Wheels": "8 spinner wheels",
+      "Lock": "3-digit combination",
+      "Warranty": "3 years, international"
+    },
+    "skip_if": "you want the most space: other large trolleys list more litres, but most are over 158 cm."
+  },
+  {
+    "asin": "B0GNSKLF5Z",
+    "added_at": "2026-11-06T08:39:18+05:30",
+    "title": "Kamiliant by American Tourister Rock-Lite 68 cm Medium Check-in Trolley",
+    "category": "luggage",
+    "highlights": [
+      "Listed at 2.52 kg, the lightest of the 36 medium trolleys we checked",
+      "66 litres",
+      "Hard shell with double spinner wheels",
+      "3-digit combination lock"
+    ],
+    "note": "The lightest medium trolley we found, so it suits 15 kg fares.",
+    "brand": "Kamiliant",
+    "best_for": [
+      "15 kg fares",
+      "About a week"
+    ],
+    "specs": {
+      "Size": "68 x 47 x 29 cm (144 cm total)",
+      "Capacity": "66 L",
+      "Weight": "2.52 kg",
+      "Shell": "Hard, polypropylene",
+      "Wheels": "8 spinner wheels",
+      "Lock": "3-digit combination",
+      "Warranty": "Not listed"
+    },
+    "skip_if": "you want a stated warranty: the listing we read doesn't give one."
+  },
+  {
+    "asin": "B0F5HNW8D1",
+    "added_at": "2026-11-06T08:39:18+05:30",
+    "title": "American Tourister Liftoff+ 67 cm Medium Check-in Trolley, TSA Lock",
+    "category": "luggage",
+    "highlights": [
+      "Listed at 2.9 kg, light for a medium bag",
+      "70 litres",
+      "Hard polypropylene shell with 8 spinner wheels",
+      "Mounted TSA lock"
+    ],
+    "note": "A light medium bag: at 2.9 kg, more of your baggage allowance goes to your things.",
+    "brand": "American Tourister",
+    "best_for": [
+      "About a week",
+      "Flights abroad"
+    ],
+    "specs": {
+      "Size": "67 x 45 x 29 cm (141 cm total)",
+      "Capacity": "70 L",
+      "Weight": "2.9 kg",
+      "Shell": "Hard, polypropylene",
+      "Wheels": "8 spinner wheels",
+      "Lock": "TSA",
+      "Warranty": "3 years, international"
+    },
+    "skip_if": "you pack heavy on a 15 kg fare: 70 litres can easily go over 15 kg."
+  },
+  {
     "asin": "B0B34WJK3X",
     "added_at": "2026-11-05T09:09:34+05:30",
     "title": "Fur Jaden 40L Weekender Laptop Backpack with Anti-Theft Pocket",
@@ -1599,29 +1766,29 @@
   },
   {
     "asin": "B0GPQQPC7Q",
-    "title": "Kamiliant by American Tourister Harrier Edge 3-Piece Luggage Set (56, 68, 78 cm)",
+    "title": "Kamiliant by American Tourister Harrier Edge 68 cm Medium Check-in Trolley",
     "category": "luggage",
     "highlights": [
-      "Three sizes in one set: small, medium and large",
-      "Hard polypropylene shells with 8 spinner wheels",
-      "3-digit combination lock on each bag",
-      "Impact-resistant shell for rough baggage handling"
+      "64 litres",
+      "Hard polypropylene shell with 8 spinner wheels",
+      "3-digit combination lock",
+      "Top and side handles"
     ],
-    "note": "Covers every trip size in one purchase, good for families.",
+    "note": "A plain, roomy medium bag for a trip of about a week.",
     "added_at": "2026-10-23T16:35:00+05:30",
     "brand": "Kamiliant",
     "best_for": [
-      "Families"
+      "About a week"
     ],
     "specs": {
-      "Size": "56, 68 and 78 cm",
-      "Capacity": "Not listed",
-      "Weight": "9.9 kg (all three)",
-      "Shell": "Polypropylene",
+      "Size": "68 x 46 x 28 cm (142 cm total)",
+      "Capacity": "64 L",
+      "Weight": "3.85 kg",
+      "Shell": "Hard, polypropylene",
+      "Wheels": "8 spinner wheels",
       "Lock": "3-digit combination",
       "Warranty": "Not listed"
     },
-    "skip_if": "you have little storage space at home. Three hard bags need room.",
-    "deal_seen_at": "2026-11-03T10:08:00+05:30"
+    "skip_if": "you fly on 15 kg fares: at 3.85 kg, it's heavier than most medium trolleys we checked."
   }
 ]
