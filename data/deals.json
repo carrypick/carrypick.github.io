@@ -1,5 +1,89 @@
 [
   {
+    "asin": "B0FKH35M4C",
+    "added_at": "2026-11-06T09:10:10+05:30",
+    "title": "American Tourister Nexa Style 01 36L Backpack",
+    "category": "backpacks",
+    "highlights": [
+      "36 litres with 3 compartments",
+      "Front pocket for phone, wallet and keys",
+      "Padded back panel and adjustable straps",
+      "1-year global warranty"
+    ],
+    "note": "A big, light everyday backpack for college, with room for books and daily gear.",
+    "brand": "American Tourister",
+    "best_for": [
+      "College",
+      "Daily use"
+    ],
+    "specs": {
+      "Capacity": "36 L",
+      "Size": "47 x 33 x 24 cm",
+      "Weight": "510 g",
+      "Compartments": "3",
+      "Laptop": "Not listed",
+      "Warranty": "1 year"
+    },
+    "skip_if": "you walk in the rain a lot: the listing says it is not water resistant.",
+    "deal_seen_at": "2026-11-06T09:10:00+05:30"
+  },
+  {
+    "asin": "B0HF4DKV91",
+    "added_at": "2026-11-06T09:10:10+05:30",
+    "title": "uppercase Topo 50 cm Duffle Bag, 36 L",
+    "category": "luggage",
+    "highlights": [
+      "36 litres, one large main compartment",
+      "Twin handles and adjustable shoulder strap",
+      "PVC front pocket for quick access",
+      "4-year international warranty"
+    ],
+    "note": "A light soft duffle for short trips or the gym, with a long warranty.",
+    "brand": "uppercase",
+    "best_for": [
+      "Weekend trips",
+      "Gym"
+    ],
+    "specs": {
+      "Size": "50 x 26 x 28 cm",
+      "Capacity": "36 L",
+      "Weight": "740 g",
+      "Material": "Polyester",
+      "Water resistance": "Moisture resistant",
+      "Warranty": "4 years"
+    },
+    "skip_if": "you need wheels. You carry this bag by hand or on your shoulder.",
+    "deal_seen_at": "2026-11-06T09:10:00+05:30"
+  },
+  {
+    "asin": "B0F5HL94LK",
+    "added_at": "2026-11-06T09:10:09+05:30",
+    "title": "American Tourister Ivy 2.0 55 cm Hard Trolley Bag, Polypropylene",
+    "category": "luggage",
+    "highlights": [
+      "55 x 36.5 x 25.5 cm, polypropylene hard shell",
+      "8 spinner wheels and telescopic handle",
+      "Mounted combination lock",
+      "3-year international warranty"
+    ],
+    "note": "A light hard-shell bag from a known brand, with smooth wheels and a long warranty.",
+    "brand": "American Tourister",
+    "best_for": [
+      "Short trips",
+      "Train trips"
+    ],
+    "specs": {
+      "Size": "55 x 36.5 x 25.5 cm (117 cm total)",
+      "Capacity": "Not listed",
+      "Weight": "2.2 kg",
+      "Shell": "Hard, polypropylene",
+      "Wheels": "8 spinner wheels",
+      "Warranty": "3 years"
+    },
+    "skip_if": "you want a cabin bag for an Indian airline: its listed size adds up to 117 cm, above the 115 cm limit of the five airlines we checked.",
+    "deal_seen_at": "2026-11-06T09:10:00+05:30"
+  },
+  {
     "asin": "B097BH9MD5",
     "added_at": "2026-11-06T08:39:19+05:30",
     "title": "Safari Thorium Neo Set of 3 Trolley Bags (55, 66 and 77 cm)",
@@ -248,7 +332,7 @@
       "Warranty": "3 years"
     },
     "skip_if": "you need every side inside the airline limit: the total is 115 cm, but the 37.5 cm width is above the 35 cm limit of IndiGo, Akasa and SpiceJet.",
-    "deal_seen_at": "2026-11-05T09:09:00+05:30"
+    "deal_seen_at": "2026-11-06T09:10:00+05:30"
   },
   {
     "asin": "B01MQJJCD1",
@@ -1151,7 +1235,7 @@
       "Warranty": "18 months"
     },
     "skip_if": "you need a rain cover: none is listed with this bag.",
-    "deal_seen_at": "2026-11-05T09:09:00+05:30"
+    "deal_seen_at": "2026-11-06T09:10:00+05:30"
   },
   {
     "asin": "B0F5HGLC5Q",
@@ -1469,7 +1553,7 @@
     },
     "skip_if": "you need rain protection. No rain cover is listed, and the fabric isn't water-resistant.",
     "telegram_posted_at": "2026-11-03T06:05:35+05:30",
-    "deal_seen_at": "2026-11-05T09:09:00+05:30"
+    "deal_seen_at": "2026-11-06T09:10:00+05:30"
   },
   {
     "asin": "B097GCJFW2",
@@ -1496,7 +1580,7 @@
       "Warranty": "3 years"
     },
     "skip_if": "you only fly within India. A polypropylene bag like the Pentagon Pro is enough.",
-    "deal_seen_at": "2026-11-03T10:08:00+05:30"
+    "deal_seen_at": "2026-11-06T09:10:00+05:30"
   },
   {
     "asin": "B099WNYHY2",
