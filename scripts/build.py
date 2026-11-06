@@ -545,7 +545,7 @@ def render_markdown(md, cfg, deals_by_asin, p, source):
             head = "".join("<th>%s</th>" % md_inline(c, p) for c in cells[0])
             body = "".join("<tr>%s</tr>" % "".join(("<th scope=\"row\">%s</th>" if i == 0 else "<td>%s</td>") % md_inline(c, p)
                                                     for i, c in enumerate(r)) for r in cells[1:])
-            out.append('<div class="table-wrap"><table class="compare"><thead><tr>%s</tr></thead><tbody>%s</tbody></table></div>' % (head, body))
+            out.append('<div class="table-wrap"><table class="compare snug"><thead><tr>%s</tr></thead><tbody>%s</tbody></table></div>' % (head, body))
             rows = []
         if para:
             out.append("<p>%s</p>" % md_inline(" ".join(para), p))
@@ -682,7 +682,7 @@ def build_trips(cfg, trips, deals_by_asin, pages, lastmod):
             sys.exit("Error: trip %s uses photo %s, which is not in data/photos.json" % (t["slug"], t["photo"]))
         content = render_markdown(t["body"], cfg, deals_by_asin, "../", "trips/%s.md" % t["slug"])
         glance = [part.split("=", 1) for part in t.get("glance", "").split(" | ") if "=" in part]
-        glance_html = ('<div class="answer"><h2>%s at a glance</h2><div class="table-wrap"><table class="compare glance"><tbody>%s</tbody></table></div></div>'
+        glance_html = ('<div class="answer"><h2>%s at a glance</h2><div class="table-wrap"><table class="compare snug glance"><tbody>%s</tbody></table></div></div>'
                        % (e(t.get("place", t["title"])), "".join('<tr><th scope="row">%s</th><td>%s</td></tr>' % (e(k.strip()), md_inline(v.strip(), "../"))
                                                                   for k, v in glance))) if glance else ""
         pack = t.get("packing")
@@ -741,7 +741,7 @@ def build_trips_hi(cfg, trips_hi, deals_by_asin, pages, lastmod):
         p = "../../"
         content = render_markdown(t["body"], cfg, deals_by_asin, p, "trips-hi/%s.md" % t["slug"])
         glance = [part.split("=", 1) for part in t.get("glance", "").split(" | ") if "=" in part]
-        glance_html = ('<div class="answer"><h2>%s एक नज़र में</h2><div class="table-wrap"><table class="compare glance"><tbody>%s</tbody></table></div></div>'
+        glance_html = ('<div class="answer"><h2>%s एक नज़र में</h2><div class="table-wrap"><table class="compare snug glance"><tbody>%s</tbody></table></div></div>'
                        % (e(t.get("place", t["title"])), "".join('<tr><th scope="row">%s</th><td>%s</td></tr>' % (e(k.strip()), md_inline(v.strip(), p))
                                                                   for k, v in glance))) if glance else ""
         inner = f"""<nav class="crumbs"><a href="{p}index.html">होम</a><span>/</span><a href="{p}trips/index.html">Trip guides</a><span>/</span>{e(t.get("place", t["title"]))}</nav>
@@ -1214,7 +1214,7 @@ def build_railways(cfg, deals, pages, lastmod):
 <div class="wrap"><article class="guide">
 <div class="answer"><h2>Quick answer</h2><ul>{"".join("<li>%s</li>" % e(x) for x in data["quick"])}</ul></div>
 <h2>Free luggage allowance by class</h2>
-<div class="table-wrap"><table class="compare"><thead><tr><th>Class</th><th>Free allowance</th><th>Maximum, with charges</th></tr></thead><tbody>{rows}</tbody></table></div>
+<div class="table-wrap"><table class="compare snug"><thead><tr><th>Class</th><th>Free allowance</th><th>Maximum, with charges</th></tr></thead><tbody>{rows}</tbody></table></div>
 <p>{e(data["allowance_note"])}</p>
 <h2>Size limit for suitcases and trunks</h2>
 <p>{e(size["text"])}</p>
@@ -1494,6 +1494,9 @@ SIZE_ROWS = [(18, "Small cabin bag", "1–3 days"), (20, "Cabin", "2–4 days"),
              (24, "Small medium", "4–6 days"), (26, "Medium", "5–8 days"), (28, "Large", "8–12 days"),
              (30, "Large", "10+ days, families"), (32, "Extra large: check the 158 cm limit", "Long trips")]
 KG_ROWS = [3, 7, 10, 15, 20, 23, 25, 30, 32]
+# From guides/trolley-bag-capacity-kg-litres: keep the two in step
+CAPACITY_ROWS = [("Cabin", "About 55 cm", "39 L", "2.5 kg", "6–12 kg"), ("Medium", "65–69 cm", "69 L", "3.4 kg", "10–21 kg"),
+                 ("Large", "75–80 cm", "108 L", "4.3 kg", "16–32 kg")]
 
 
 def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
@@ -1506,6 +1509,8 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
     size_rows = "".join(f'<tr><th scope="row">{i} inch</th><td>{cm(i)} cm</td><td>{e(kind)}</td><td>{e(trip)}</td></tr>'
                         for i, kind, trip in SIZE_ROWS)
     kg_rows = "".join(f"<tr><th scope=\"row\">{k} kg</th><td>{lb(k)} lb</td></tr>" for k in KG_ROWS)
+    capacity_rows = "".join(f'<tr><th scope="row">{kind}</th><td>{height}</td><td>{litres}</td><td>{empty}</td><td>{clothes}</td></tr>'
+                            for kind, height, litres, empty, clothes in CAPACITY_ROWS)
     air_rows, us_fit = "", []
     us = [22 * 2.54, 14 * 2.54, 9 * 2.54]
     for a in (airlines or {}).get("airlines", []) + [x for x in (intl or {}).get("airlines", []) if x.get("checker", True)]:
@@ -1531,7 +1536,8 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
         quick.append("IndiGo's cabin limit, %s cm, is %s inches." % (" x ".join(num(x) for x in indigo["cabin"]["dims_cm"]),
                                                                      " x ".join(inch(x) for x in indigo["cabin"]["dims_cm"])))
     quick.append("The inch size is only the height. Airlines check length, width and height, wheels and handles included.")
-    faq = [("What is 20 inch luggage in cm?", "20 inches is %s cm. That's smaller than the usual 55 cm cabin trolley sold in India, though some brands sell 55 cm bags as \"20 inch\"." % cm(20)),
+    faq = [("What is the size of a medium trolley bag in cm?", "Most medium trolleys sold in India are 65–69 cm tall and 135–147 cm in total, from the 36 models we read. They listed 45–93 litres, and 69 litres was typical."),
+           ("What is 20 inch luggage in cm?", "20 inches is %s cm. That's smaller than the usual 55 cm cabin trolley sold in India, though some brands sell 55 cm bags as \"20 inch\"." % cm(20)),
            ("Is a 24 inch suitcase cabin or check-in?", "Check-in. 24 inches is %s cm, too tall for the 55–56 cm cabin limits of Indian airlines. It's a small medium-size bag, good for 4–6 days." % cm(24)),
            ("How many inches is a 55 cm cabin bag?", "55 cm is %s inches." % inch(55)),
            ("What is 22 x 14 x 9 inches in cm?", us_answer),
@@ -1541,10 +1547,10 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
     picks_html = (f'<h2>Our picks by size</h2><p>Cabin trolleys that fit IndiGo or Air India by their listed size, a light medium check-in bag and a large one within 158 cm.</p>'
                   f'{grid(cfg, picks, "../")}') if picks else ""
     size_fig = diagram_figure("luggage-sizes", "../") if "luggage-sizes" in DIAGRAMS else ""
-    title = "Luggage size chart: inches to cm for cabin, medium and large bags"
-    seo = "Luggage size chart in inches and cm: 20, 24 and 28 inch trolley sizes"
-    desc = ("Trolley bag sizes from 18 to 32 inches in cm, the cabin limits of IndiGo, Air India and other Indian airlines in inches, "
-            "and kg to pounds for baggage allowances. Free converter.")
+    title = "Trolley bag size chart: cm, inches, litres and kg"
+    seo = "Trolley bag size chart in cm, inches and litres (20, 24, 28 inch)"
+    desc = ("Trolley bag sizes from 18 to 32 inches in cm, with typical litres and weight for cabin, medium and large bags, "
+            "plus cabin limits for IndiGo, Air India and other airlines. Free converter.")
     inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="index.html">Baggage rules</a><span>/</span>Size chart</nav>
       <h1>{e(title)}</h1>
       <p class="muted small">Updated {fmt_date(updated)}</p>"""
@@ -1564,17 +1570,20 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
 </form>
 <h2>Trolley sizes in inches and cm</h2>
 <p>Sizes are the bag's height. Sellers don't always say whether it includes the wheels, so check the full size on the listing.</p>
-<div class="table-wrap"><table class="compare"><thead><tr><th>Inches</th><th>cm</th><th>Size</th><th>Trip length</th></tr></thead><tbody>{size_rows}</tbody></table></div>
+<div class="table-wrap"><table class="compare snug"><thead><tr><th>Inches</th><th>cm</th><th>Size</th><th>Trip length</th></tr></thead><tbody>{size_rows}</tbody></table></div>
 {size_fig}
-{('<h2>Cabin bag limits in inches: Indian and international airlines</h2><div class="table-wrap"><table class="compare"><thead><tr><th>Airline</th><th>Size limit (cm)</th><th>In inches</th><th>Weight</th></tr></thead><tbody>' + air_rows + '</tbody></table></div><p class="checked">Economy limits: domestic flights for Indian airlines, India routes for international airlines. From our <a href="index.html">baggage rules</a> and <a href="international.html">international baggage</a> pages. Check your ticket before you fly.</p>') if air_rows else ""}
+{('<h2>Cabin bag limits in inches: Indian and international airlines</h2><div class="table-wrap"><table class="compare snug"><thead><tr><th>Airline</th><th>Size limit (cm)</th><th>In inches</th><th>Weight</th></tr></thead><tbody>' + air_rows + '</tbody></table></div><p class="checked">Economy limits: domestic flights for Indian airlines, India routes for international airlines. From our <a href="index.html">baggage rules</a> and <a href="international.html">international baggage</a> pages. Check your ticket before you fly.</p>') if air_rows else ""}
+<h2>Size chart in litres and kg</h2>
+<p>From 80 trolley models we read on Amazon.in on 6 Nov 2026. The clothes column is our rough estimate, not a test. Your airline ticket is usually the real limit. See <a href="../guides/trolley-bag-capacity-kg-litres.html">trolley bag capacity in kg and litres</a>.</p>
+<div class="table-wrap"><table class="compare snug"><thead><tr><th>Size</th><th>Height</th><th>Listed litres (typical)</th><th>Empty bag (typical)</th><th>Clothes it could hold</th></tr></thead><tbody>{capacity_rows}</tbody></table></div>
 <h2>Check-in bag size</h2>
 <p>Most Indian airlines limit each checked bag to <strong>158 cm in total</strong> (length + width + height), which is about {inch(158)} inches, and <strong>32 kg</strong> (about {lb(32)} lb). Many large trolleys go over that: of the 31 large models we checked on Amazon.in on 6 Nov 2026, <strong>26 were listed over 158 cm</strong>. See <a href="../guides/28-inch-trolley-bag-size.html">the 5 that weren't</a>.</p>
 <h2>Kilograms to pounds</h2>
 <p>Indian airlines use kg. Foreign airlines, US websites and some luggage scales show pounds.</p>
-<div class="table-wrap"><table class="compare"><thead><tr><th>kg</th><th>Pounds (lb)</th></tr></thead><tbody>{kg_rows}</tbody></table></div>
+<div class="table-wrap"><table class="compare snug"><thead><tr><th>kg</th><th>Pounds (lb)</th></tr></thead><tbody>{kg_rows}</tbody></table></div>
 {picks_html}
 {faq_html}
-<p>More help: <a href="../guides/20-inch-trolley-bag-size.html">20 inch</a>, <a href="../guides/24-inch-trolley-bag-size.html">24 inch</a> and <a href="../guides/28-inch-trolley-bag-size.html">28 inch</a> trolleys in detail, <a href="../guides/luggage-size-guide.html">what size luggage you need</a> and <a href="../guides/cabin-luggage-guide.html">how to pick a cabin trolley</a>.</p>
+<p>More help: <a href="../guides/trolley-bag-capacity-kg-litres.html">how many kg each size holds</a>, <a href="../guides/20-inch-trolley-bag-size.html">20 inch</a>, <a href="../guides/24-inch-trolley-bag-size.html">24 inch</a> and <a href="../guides/28-inch-trolley-bag-size.html">28 inch</a> trolleys in detail, <a href="../guides/luggage-size-guide.html">what size luggage you need</a> and <a href="../guides/cabin-luggage-guide.html">how to pick a cabin trolley</a>.</p>
 {tool_pills("../", path)}
 </article></div>
 <script src="../assets/sizes.js" defer></script>

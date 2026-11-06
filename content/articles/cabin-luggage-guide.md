@@ -58,6 +58,8 @@ An empty hard-shell cabin trolley usually weighs **2.5–3 kg**. With a 7 kg lim
 - **Polypropylene (PP)** is light and good value. It's fine for most domestic trips.
 - **Polycarbonate (PC)** flexes under impact instead of cracking. It's tougher, and usually costs a bit more.
 
+See what the listings really weigh in [polycarbonate vs polypropylene](polycarbonate-vs-polypropylene-luggage.html).
+
 ## Wheels and locks
 
 - **8 spinner wheels** (4 double wheels) roll more smoothly than 4 wheels, especially on airport floors.

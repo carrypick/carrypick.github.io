@@ -15,7 +15,7 @@ A 24 inch trolley bag is **61 cm** tall. It's a check-in bag, not a cabin bag. I
 - **It suits a trip of about a week,** or a shorter trip with heavy clothes.
 - **The bag's own weight counts.** On a 15 kg fare, a typical medium bag leaves you about 11.6 kg.
 
-Need other sizes? See our [luggage size chart](../baggage/luggage-size-chart.html) or the guides to [20 inch](20-inch-trolley-bag-size.html) and [28 inch](28-inch-trolley-bag-size.html) trolleys.
+Need other sizes? See our [luggage size chart](../baggage/luggage-size-chart.html) or the guides to [20 inch](20-inch-trolley-bag-size.html) and [28 inch](28-inch-trolley-bag-size.html) trolleys. How much does each size hold? See [trolley bag capacity in kg and litres](trolley-bag-capacity-kg-litres.html).
 
 ## What medium trolleys really measure
 

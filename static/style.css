@@ -276,6 +276,13 @@ img { max-width: 100%; }
 .compare th, .compare td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: top; }
 .compare thead th { background: var(--tint-none); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
 .compare tbody th { font-weight: 700; min-width: 180px; }
+/* Short tables (markdown, size charts) shrink to the screen; product tables above keep their width and scroll */
+.compare.snug { min-width: 0; }
+.compare.snug td, .compare.snug tbody th { min-width: 0; }
+@media (max-width: 560px) {
+  .compare.snug th, .compare.snug td { padding: 9px 8px; font-size: 0.84rem; }
+  .compare.snug thead th { font-size: 0.68rem; letter-spacing: 0.02em; }
+}
 .compare tbody th a { color: var(--ink); text-decoration: none; }
 .compare tbody th a:hover { color: var(--brand); }
 .compare tbody tr:last-child th, .compare tbody tr:last-child td { border-bottom: 0; }

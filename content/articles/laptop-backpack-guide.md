@@ -89,3 +89,5 @@ Branded bags usually come with a **1-year warranty** on zips and stitching, and 
 3. Does it have padded straps and a padded back?
 4. Is there a rain cover, or will I carry an umbrella?
 5. Does it have at least a 1-year warranty?
+
+Not sure how many litres you need? See our [backpack size chart](backpack-size-chart-litres.html).

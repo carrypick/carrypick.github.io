@@ -26,11 +26,15 @@ Bag size only matters if the airline accepts it. For example, IndiGo's official 
 
 Remember that **the bag's own weight counts**. A hard cabin trolley often weighs 2.5–3 kg, and a medium one around 3.5 kg.
 
+How much does each size hold? See [trolley bag capacity in kg and litres](trolley-bag-capacity-kg-litres.html).
+
 ## Hard or soft luggage?
 
 - **Hard shell (polypropylene or polycarbonate):** protects things inside better, handles rain well and is easy to wipe clean. It doesn't stretch, so you can't overpack it. Most popular for flights.
 - **Soft (fabric or leatherette):** lighter, can squeeze into tight spaces like train berths or car boots, and often has outside pockets. It protects fragile items less.
 - **Duffle bags:** the lightest and most flexible, but you carry them by hand or on your shoulder. Great for weekends, trains and road trips.
+
+Choosing a hard shell? See [polycarbonate vs polypropylene](polycarbonate-vs-polypropylene-luggage.html). Choosing a brand? See [trolley bag brands compared](best-trolley-bag-brands-india.html) and [American Tourister vs Safari](american-tourister-vs-safari.html).
 
 ## Our picks by size
 

@@ -15,7 +15,7 @@ A 20 inch trolley bag is **50.8 cm** tall. But in India, the number on a listing
 - **Height isn't enough.** Airlines also check width and depth, wheels and handles included.
 - **Weight counts too.** Most Indian airlines allow 7 kg in the cabin, and that includes the bag.
 
-Need other sizes? See our [luggage size chart](../baggage/luggage-size-chart.html).
+Need other sizes? See our [luggage size chart](../baggage/luggage-size-chart.html). How much does each size hold? See [trolley bag capacity in kg and litres](trolley-bag-capacity-kg-litres.html).
 
 ## "20 inch" on the listing and the real size
 
