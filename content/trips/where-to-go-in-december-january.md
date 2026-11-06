@@ -51,6 +51,12 @@ Read the full [Kerala trip guide](kerala.html).
 - **Republic Day:** 26 January 2027 is a Tuesday. Take Monday off, and you get four days. See our [Republic Day long weekend ideas](republic-day-long-weekend-2027.html).
 - **Gifts:** if you're not travelling, see our [New Year gift ideas](../guides/new-year-gift-ideas.html).
 
+## Where to book your stay
+
+Compare hotels and homestays for your dates on these sites:
+
+[[book:hotels]]
+
 ## How to choose
 
 - **Want snow?** Go to Manali, but plan for January or February for a better chance, and check the forecast.

@@ -89,6 +89,12 @@ Also remember:
 - **Sunburn:** news reports say the December 2026 Sunburn festival is in Mumbai, not Goa.
 - **Clubs:** after the nightclub fire at Arpora in December 2025, which killed 25 people, authorities inspected clubs and sealed several. Wherever you party, note the exits.
 
+## Where to book your stay
+
+Book only places registered with the Department of Tourism. Compare hotels and homestays for your dates on these sites:
+
+[[book:Goa]]
+
 ## North Goa or South Goa?
 
 **North Goa** is busier, with more nightlife, shacks and markets. **South Goa** is quieter, with wider beaches and more green cover.

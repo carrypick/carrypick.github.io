@@ -50,6 +50,10 @@ News reports said you needed to register with a mobile number and a government p
 - **Fog:** January fog in North India can delay early flights and trains, so leave spare time for connections.
 - **Bags:** check your [airline's cabin and check-in limits](../baggage/index.html) and the [train luggage rules](../baggage/train-luggage-rules.html).
 
+Compare hotels for your dates:
+
+[[book:hotels]]
+
 ## What to pack
 
 For four days, a cabin bag may be enough, except for a snow trip. See [what size luggage you need](../guides/luggage-size-guide.html).

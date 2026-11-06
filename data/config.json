@@ -9,6 +9,10 @@
     "tg": "carrypicktg-21",
     "wa": "carrypickwa-21"
   },
+  "booking_partners": {
+    "Agoda": "https://bitli.in/vPiu9nT",
+    "Booking.com": "https://bitli.in/r2zRmSo"
+  },
   "telegram_channel": "@carrypick",
   "whatsapp_channel": "https://whatsapp.com/channel/0029VbDekeR6LwHmUXBPlY0Y",
   "contact_email": "",

@@ -81,6 +81,12 @@ Jaipur has three World Heritage listings: Jantar Mantar (2010), Amer Fort as one
 - **Jaipur Literature Festival:** 14–18 January 2027 at Hotel Clarks Amer, its 20th year.
 - **Kite festival:** on Makar Sankranti, around 14 January, the sky fills with kites and the tourism department holds a kite festival.
 
+## Where to book your stay
+
+Rajasthan Tourism advises staying in approved hotels. Compare hotels and homestays for your dates on these sites:
+
+[[book:Jaipur]]
+
 ## Shopping and food
 
 - **Markets:** Johari Bazaar (jewellery and textiles), Bapu Bazaar (mojari shoes and textiles), Chandpole Bazaar (marble), Nehru Bazaar and MI Road. Rajasthan Tourism says most markets close on Sundays.

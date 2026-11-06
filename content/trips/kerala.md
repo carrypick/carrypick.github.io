@@ -75,6 +75,12 @@ So pack light cotton clothes for the coast and the backwaters, and a warm jacket
 - **Dry day on 1 January:** in Kerala the first day of every month is a dry day, so liquor shops (BEVCO) and bars stay closed on 1 January 2027, according to news reports. Plan ahead if you want a drink on New Year's Day.
 - **Book early:** November to February is peak season, and Christmas–New Year is the busiest time for houseboats and hotels.
 
+## Where to book your stay
+
+Compare hotels and homestays for your dates on these sites:
+
+[[book:Kerala]]
+
 ## Rules and tips
 
 - **Plastic:** Kerala has banned single-use plastic and plastic carry bags since 2020. Carry a cloth bag and a refillable bottle.

@@ -511,6 +511,13 @@ def md_inline(text, p):
     )
 
 
+def booking_box(cfg, place):
+    """Hand-placed hotel links (EarnKaro). Trip guides only, never next to Amazon picks."""
+    links = "".join(f'<a class="btn" href="{e(url)}" {BUY_ATTRS}>Search {e(place)} on {e(name)}</a><span class="paid">Paid link</span> '
+                    for name, url in cfg["booking_partners"].items())
+    return f'<div class="cta-box">{links}<p>Prices and rooms are shown on the booking site. We have not checked each hotel, so read recent reviews first.</p></div>'
+
+
 def render_markdown(md, cfg, deals_by_asin, p, source):
     out, para, items, list_tag, rows = [], [], [], None, []
 
@@ -535,6 +542,7 @@ def render_markdown(md, cfg, deals_by_asin, p, source):
         pick = re.fullmatch(r"\[\[pick:([A-Z0-9]{10})\]\]", line)
         compare = re.fullmatch(r"\[\[compare:([A-Z0-9,]+)\]\]", line)
         diagram = re.fullmatch(r"\[\[diagram:([a-z0-9-]+)\]\]", line)
+        booking = re.fullmatch(r"\[\[book:([^\]]+)\]\]", line)
         ul = re.match(r"^- (.+)", line)
         ol = re.match(r"^\d+\. (.+)", line)
         if not line:
@@ -546,6 +554,9 @@ def render_markdown(md, cfg, deals_by_asin, p, source):
         elif diagram:
             flush()
             out.append(diagram_figure(diagram.group(1), p))
+        elif booking:
+            flush()
+            out.append(booking_box(cfg, booking.group(1)))
         elif compare:
             flush()
             asins = compare.group(1).split(",")
@@ -2157,6 +2168,7 @@ def build():
         "disclosure.html": ("Affiliate disclosure", f"""<h1>Affiliate disclosure</h1>
 <p><strong>{DISCLOSURE}</strong></p>
 <p>{name} is a participant in the Amazon Associates Programme. When you click a "Check price on Amazon" button and buy something, Amazon may pay us a small commission. You pay the same price.</p>
+<p>Our trip guides also have hotel links to Agoda and Booking.com. These go through EarnKaro, an affiliate service. If you book through one, we may earn a commission, and you pay the same price. Amazon is not part of these links.</p>
 <p>Links that earn us a commission are marked "Paid link". Commissions help us keep this site free. They do not change which products we pick.</p>"""),
         "privacy.html": ("Privacy policy", f"""<h1>Privacy policy</h1>
 <p>{name} does not ask for your name, email or any personal details, and this site sets no cookies of its own, except one that remembers your language if you choose Google Translate (see below).</p>
@@ -2165,6 +2177,7 @@ def build():
 <li>Fonts are loaded from Google Fonts, which may log your IP address. See Google's privacy policy.</li>
 <li>If you pick a language in the language menu other than English or our own Hindi pages, the page loads Google Translate, which sends the page text to Google to translate it. A cookie called "googtrans" then remembers your choice on this site. Pick English in the menu to remove it.</li>
 <li>When you click a link to Amazon.in, Amazon may set cookies to track the referral. See Amazon.in's privacy notice.</li>
+<li>When you click a hotel link in a trip guide, it goes through EarnKaro's link services (bitli.in and linkredirect.in) to the booking site. These services and the booking site may set cookies and log your visit to track the referral. See their privacy policies.</li>
 <li>If you join our Telegram channel, Telegram's privacy policy applies.</li>
 </ul>
 <p>Questions? See our <a href="contact.html">contact page</a>.</p>"""),
@@ -2175,7 +2188,7 @@ def build():
     info_desc = {
         "about.html": "How %s picks bags, luggage, watches and travel essentials for India: we read every detail, match real Indian use and never take money from brands to list a product." % cfg["site_name"],
         "disclosure.html": "%s is an Amazon Associate. How our paid links work, what we earn and why it never changes which products we pick." % cfg["site_name"],
-        "privacy.html": "%s asks for no personal details and sets no cookies of its own. What GitHub, Google Fonts and Amazon may log when you visit." % cfg["site_name"],
+        "privacy.html": "%s asks for no personal details and sets no cookies of its own. What GitHub, Google Fonts, Amazon and our hotel link partners may log when you visit." % cfg["site_name"],
         "contact.html": "Questions, corrections or ideas for %s? Reach us on Telegram or WhatsApp." % cfg["site_name"],
     }
     for path, (title, text) in info.items():

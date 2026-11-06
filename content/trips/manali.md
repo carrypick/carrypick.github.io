@@ -78,6 +78,12 @@ If you aren't used to mountain driving, take a local taxi from an authorised sta
 - **Roads jam on New Year's Eve.** In past years, police divided Manali into sectors, added extra staff, and made buses drop passengers in town and park outside it. Walk around town where you can.
 - **Carry photo ID.** Hotels and homestays record every guest's ID.
 
+## Where to book your stay
+
+Stay in registered hotels or homestays. Compare hotels and homestays for your dates on these sites:
+
+[[book:Manali]]
+
 ## Local rules
 
 - **Polythene is banned** in Himachal Pradesh. Carry a cloth bag, and take your waste back with you.
