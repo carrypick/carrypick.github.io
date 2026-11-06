@@ -517,11 +517,14 @@ def md_inline(text, p):
     )
 
 
-def booking_box(cfg, place):
+def booking_box(cfg, place, hindi=False):
     """Hand-placed hotel links (EarnKaro). Trip guides only, never next to Amazon picks."""
-    links = "".join(f'<div class="book-row"><a class="btn btn-amazon" href="{e(url)}" {BUY_ATTRS}>Search {e(place)} on {e(name)}</a><span class="paid">Paid link</span></div>'
+    label = "{name} पर {place} के होटल देखें" if hindi else "Search {place} on {name}"
+    note = ("कीमत और कमरे बुकिंग साइट पर दिखते हैं। हमने हर होटल की जाँच नहीं की है, इसलिए पहले हाल के रिव्यू पढ़ें।" if hindi else
+            "Prices and rooms are shown on the booking site. We have not checked each hotel, so read recent reviews first.")
+    links = "".join(f'<div class="book-row"><a class="btn btn-amazon" href="{e(url)}" {BUY_ATTRS}>{e(label.format(name=name, place=place))}</a><span class="paid">Paid link</span></div>'
                     for name, url in cfg["booking_partners"].items())
-    return f'<div class="cta-box">{links}<p>Prices and rooms are shown on the booking site. We have not checked each hotel, so read recent reviews first.</p></div>'
+    return f'<div class="cta-box">{links}<p>{note}</p></div>'
 
 
 def shop_box(cfg, shop):
@@ -574,7 +577,7 @@ def render_markdown(md, cfg, deals_by_asin, p, source):
             out.append(diagram_figure(diagram.group(1), p))
         elif booking:
             flush()
-            out.append(booking_box(cfg, booking.group(1)))
+            out.append(booking_box(cfg, booking.group(1), source.startswith("trips-hi")))
         elif compare:
             flush()
             asins = compare.group(1).split(",")
