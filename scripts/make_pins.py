@@ -171,7 +171,7 @@ PINS = [
          html=photo("goa-palolem", "Going to Goa this winter?", "Weather, which airport to use, beach rules and fines, and what to pack")),
     dict(slug="hill-clothes", board="Packing and What to Wear", link="guides/winter-clothes-for-hill-trips.html",
          title="What to wear on a winter hill trip in India",
-         description="What to wear in Manali and the hills in winter: how to layer, what to wear on your feet, and what to carry for snow.",
+         description="What to wear in Manali and the hills in winter: how to dress in three layers, which thermals and jackets to take, and small things like caps, gloves and sunglasses.",
          alt="A person in a winter jacket in the snow, with the words What to wear on a winter hill trip.",
          html=photo("snow-jacket", "What to wear on a winter hill trip", "Simple layers for Manali and the hills")),
 ]
