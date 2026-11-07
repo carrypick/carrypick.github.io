@@ -1,5 +1,63 @@
 [
   {
+    "asin": "B097B3S4C7",
+    "added_at": "2026-11-07T09:09:20+05:30",
+    "title": "Safari Solace 30L Laptop Backpack with Rain Cover",
+    "category": "backpacks",
+    "highlights": [
+      "30 litres with 2 compartments",
+      "Rain cover and anti-theft back pocket",
+      "Trolley sleeve and multi-level organizer",
+      "Padded shoulder straps and back panel"
+    ],
+    "note": "A light everyday backpack for college or office, with a rain cover included.",
+    "brand": "Safari",
+    "best_for": [
+      "College",
+      "Office"
+    ],
+    "specs": {
+      "Capacity": "30 L",
+      "Size": "48 x 34 x 20 cm",
+      "Weight": "500 g",
+      "Compartments": "2",
+      "Material": "Polyester",
+      "Laptop": "Not listed",
+      "Warranty": "Not listed"
+    },
+    "skip_if": "you have a large laptop: the listing does not say which laptop size fits, so measure before you buy.",
+    "deal_seen_at": "2026-11-07T09:08:00+05:30"
+  },
+  {
+    "asin": "B0F5HNT2J6",
+    "added_at": "2026-11-07T09:09:20+05:30",
+    "title": "American Tourister Ivy 2.0 68 cm Medium Check-in Trolley",
+    "category": "luggage",
+    "highlights": [
+      "64 litres",
+      "Hard polypropylene shell with 8 spinner wheels",
+      "Mounted combination lock",
+      "3-year international warranty"
+    ],
+    "note": "A roomy medium hard bag for a trip of about a week, with a long warranty.",
+    "brand": "American Tourister",
+    "best_for": [
+      "About a week",
+      "Family trips"
+    ],
+    "specs": {
+      "Size": "68 x 46.5 x 29.5 cm (144 cm total)",
+      "Capacity": "64 L",
+      "Weight": "3.3 kg",
+      "Shell": "Hard, polypropylene",
+      "Wheels": "8 spinner wheels",
+      "Lock": "Combination",
+      "Warranty": "3 years, international"
+    },
+    "skip_if": "you want a TSA lock for trips to the US: the listing shows a combination lock, not a TSA lock.",
+    "deal_seen_at": "2026-11-07T09:08:00+05:30"
+  },
+  {
     "asin": "B0FKH35M4C",
     "added_at": "2026-11-06T09:10:10+05:30",
     "title": "American Tourister Nexa Style 01 36L Backpack",
@@ -81,7 +139,7 @@
       "Warranty": "3 years"
     },
     "skip_if": "you want a cabin bag for an Indian airline: its listed size adds up to 117 cm, above the 115 cm limit of the five airlines we checked.",
-    "deal_seen_at": "2026-11-06T09:10:00+05:30"
+    "deal_seen_at": "2026-11-07T09:08:00+05:30"
   },
   {
     "asin": "B097BH9MD5",
@@ -1263,7 +1321,7 @@
       "Warranty": "3 years, international"
     },
     "skip_if": "you fly IndiGo or Akasa Air: at 40 cm wide it is over their 35 cm limit.",
-    "deal_seen_at": "2026-11-03T14:29:00+05:30"
+    "deal_seen_at": "2026-11-07T09:08:00+05:30"
   },
   {
     "asin": "B097JLKP8X",
@@ -1553,7 +1611,7 @@
     },
     "skip_if": "you need rain protection. No rain cover is listed, and the fabric isn't water-resistant.",
     "telegram_posted_at": "2026-11-03T06:05:35+05:30",
-    "deal_seen_at": "2026-11-06T09:10:00+05:30"
+    "deal_seen_at": "2026-11-07T09:08:00+05:30"
   },
   {
     "asin": "B097GCJFW2",
