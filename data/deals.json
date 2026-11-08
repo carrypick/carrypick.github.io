@@ -1,5 +1,61 @@
 [
   {
+    "asin": "B097JM3NX5",
+    "added_at": "2026-11-08T09:09:28+05:30",
+    "title": "Safari Omega Pro 35L Laptop Backpack with Rain Cover",
+    "category": "backpacks",
+    "highlights": [
+      "35 litres with 3 compartments",
+      "Rain cover included",
+      "Bottle and umbrella holder pockets",
+      "Padded back, shoulder straps and laptop compartment"
+    ],
+    "note": "A roomy backpack for college or short trips, with a rain cover for the monsoon.",
+    "brand": "Safari",
+    "best_for": [
+      "College",
+      "Travel"
+    ],
+    "specs": {
+      "Capacity": "35 L",
+      "Size": "48.5 x 32 x 22 cm",
+      "Compartments": "3",
+      "Laptop": "Up to 17 inches (details table)",
+      "Material": "Polyester",
+      "Weight": "Not listed"
+    },
+    "skip_if": "you want a slim bag for a small laptop: at 35 litres this is a big backpack.",
+    "deal_seen_at": "2026-11-08T09:08:00+05:30"
+  },
+  {
+    "asin": "B0D87KZP1Z",
+    "added_at": "2026-11-08T09:09:28+05:30",
+    "title": "Gear Classic 4 31L Anti-Theft Laptop Backpack, Faux Leather",
+    "category": "backpacks",
+    "highlights": [
+      "31 litres with 2 compartments",
+      "Padded sleeve for laptops up to 15.6 inches",
+      "Anti-theft pocket",
+      "Water-resistant faux leather"
+    ],
+    "note": "A smart everyday backpack for office or college, with a padded 15.6 inch laptop sleeve.",
+    "brand": "Gear",
+    "best_for": [
+      "Office",
+      "College"
+    ],
+    "specs": {
+      "Capacity": "31 L",
+      "Size": "47.5 x 31.5 x 19 cm",
+      "Weight": "700 g",
+      "Laptop": "Up to 15.6 inches",
+      "Material": "Faux leather",
+      "Warranty": "Not listed"
+    },
+    "skip_if": "you want a bag you can machine wash: the listing says hand wash only.",
+    "deal_seen_at": "2026-11-08T09:07:00+05:30"
+  },
+  {
     "asin": "B097B3S4C7",
     "added_at": "2026-11-07T09:09:20+05:30",
     "title": "Safari Solace 30L Laptop Backpack with Rain Cover",
@@ -362,7 +418,7 @@
       "Warranty": "3 years"
     },
     "skip_if": "you want a cabin bag for IndiGo, Air India, Akasa or SpiceJet: its listed size adds up to 116 cm, above their 115 cm limit.",
-    "deal_seen_at": "2026-11-05T09:09:00+05:30"
+    "deal_seen_at": "2026-11-08T09:09:00+05:30"
   },
   {
     "asin": "B0DDTS3ZKS",
@@ -1293,7 +1349,7 @@
       "Warranty": "18 months"
     },
     "skip_if": "you need a rain cover: none is listed with this bag.",
-    "deal_seen_at": "2026-11-06T09:10:00+05:30"
+    "deal_seen_at": "2026-11-08T09:09:00+05:30"
   },
   {
     "asin": "B0F5HGLC5Q",
@@ -1611,7 +1667,7 @@
     },
     "skip_if": "you need rain protection. No rain cover is listed, and the fabric isn't water-resistant.",
     "telegram_posted_at": "2026-11-03T06:05:35+05:30",
-    "deal_seen_at": "2026-11-07T09:08:00+05:30"
+    "deal_seen_at": "2026-11-08T09:09:00+05:30"
   },
   {
     "asin": "B097GCJFW2",
@@ -1638,7 +1694,7 @@
       "Warranty": "3 years"
     },
     "skip_if": "you only fly within India. A polypropylene bag like the Pentagon Pro is enough.",
-    "deal_seen_at": "2026-11-06T09:10:00+05:30"
+    "deal_seen_at": "2026-11-08T09:09:00+05:30"
   },
   {
     "asin": "B099WNYHY2",
