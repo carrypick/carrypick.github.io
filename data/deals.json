@@ -1,5 +1,61 @@
 [
   {
+    "asin": "B0F194MP93",
+    "added_at": "2026-11-09T09:11:14+05:30",
+    "title": "uppercase Vector 75 cm Large Check-in Trolley, 124 L",
+    "category": "luggage",
+    "highlights": [
+      "Large 124 litre bag",
+      "8 spinner wheels",
+      "TSA lock and anti-theft zippers",
+      "Zip net pocket and PVC pocket inside"
+    ],
+    "note": "A big check-in bag for long trips, with a TSA lock and a long warranty.",
+    "brand": "uppercase",
+    "best_for": [
+      "Long trips",
+      "Flights abroad"
+    ],
+    "specs": {
+      "Size": "75.5 x 53 x 31 cm (159.5 cm total)",
+      "Capacity": "124 L",
+      "Weight": "3.84 kg",
+      "Shell": "Hard",
+      "Lock": "TSA",
+      "Warranty": "5 years or more (listing)"
+    },
+    "skip_if": "you fly IndiGo: 159.5 cm in total is just over its 158 cm limit for a checked bag.",
+    "deal_seen_at": "2026-11-09T09:10:00+05:30"
+  },
+  {
+    "asin": "B0DN1MNKZ4",
+    "added_at": "2026-11-09T09:11:13+05:30",
+    "title": "Mokobara Aisle Trunk 65 cm Medium Check-in Trolley, 70 L",
+    "category": "luggage",
+    "highlights": [
+      "70 litres, made for 7 to 14 day trips",
+      "Makrolon polycarbonate hard shell",
+      "8 silent-run spinner wheels",
+      "TSA lock and YKK zippers"
+    ],
+    "note": "A deep medium bag with zip mesh sections on both sides, for one or two week trips.",
+    "brand": "Mokobara",
+    "best_for": [
+      "About a week",
+      "Family trips"
+    ],
+    "specs": {
+      "Size": "65 x 41 x 30 cm (136 cm total)",
+      "Capacity": "70 L",
+      "Weight": "3.87 kg",
+      "Shell": "Hard, polycarbonate",
+      "Lock": "TSA",
+      "Warranty": "3 years"
+    },
+    "skip_if": "you want a light bag: at 3.87 kg it uses a big part of a 15 kg allowance.",
+    "deal_seen_at": "2026-11-09T09:10:00+05:30"
+  },
+  {
     "asin": "B097JM3NX5",
     "added_at": "2026-11-08T09:09:28+05:30",
     "title": "Safari Omega Pro 35L Laptop Backpack with Rain Cover",
@@ -418,7 +474,7 @@
       "Warranty": "3 years"
     },
     "skip_if": "you want a cabin bag for IndiGo, Air India, Akasa or SpiceJet: its listed size adds up to 116 cm, above their 115 cm limit.",
-    "deal_seen_at": "2026-11-08T09:09:00+05:30"
+    "deal_seen_at": "2026-11-09T09:09:00+05:30"
   },
   {
     "asin": "B0DDTS3ZKS",
@@ -1667,7 +1723,7 @@
     },
     "skip_if": "you need rain protection. No rain cover is listed, and the fabric isn't water-resistant.",
     "telegram_posted_at": "2026-11-03T06:05:35+05:30",
-    "deal_seen_at": "2026-11-08T09:09:00+05:30"
+    "deal_seen_at": "2026-11-09T09:09:00+05:30"
   },
   {
     "asin": "B097GCJFW2",
@@ -1694,7 +1750,7 @@
       "Warranty": "3 years"
     },
     "skip_if": "you only fly within India. A polypropylene bag like the Pentagon Pro is enough.",
-    "deal_seen_at": "2026-11-08T09:09:00+05:30"
+    "deal_seen_at": "2026-11-09T09:09:00+05:30"
   },
   {
     "asin": "B099WNYHY2",
