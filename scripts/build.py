@@ -27,6 +27,7 @@ INTL_AIRLINES_FILE = ROOT / "data" / "airlines_intl.json"
 PHOTOS_FILE = ROOT / "data" / "photos.json"
 RAILWAYS_FILE = ROOT / "data" / "railways.json"
 FLIGHT_ITEMS_FILE = ROOT / "data" / "flight_items.json"
+CARRY_DIR = ROOT / "content" / "carry"  # one page per flight item; front matter 'item' names its row in flight_items.json
 HINDI_FILE = ROOT / "data" / "hindi.json"
 STATIC_DIR = ROOT / "static"
 PHOTO_DIR = STATIC_DIR / "photos"
@@ -1243,9 +1244,80 @@ def build_railways(cfg, deals, pages, lastmod):
     lastmod[path] = checked
 
 
-def build_can_i_carry(cfg, pages, lastmod):
+def load_carry_pages(data):
+    """content/carry/*.md, in the order of the big table. Each page's answers and rule come from its row in
+    data/flight_items.json (front matter 'item'), so a rule is written in one place only."""
+    if not CARRY_DIR.exists():
+        return []
+    order = {it["item"]: i for i, it in enumerate(it for g in data["groups"] for it in g["items"])}
+    items = {it["item"]: it for g in data["groups"] for it in g["items"]}
+    out = []
+    for a in load_articles(CARRY_DIR):
+        it = items.get(a.get("item"))
+        if not it:
+            sys.exit("Error: content/carry/%s.md names item %r, which is not in data/flight_items.json" % (a["slug"], a.get("item")))
+        missing = [k for k in ("cabin_short", "checked_short") if not it.get(k)]
+        if missing:
+            sys.exit("Error: flight item %r has a page but no %s in data/flight_items.json" % (it["item"], ", ".join(missing)))
+        if "[[shop:" in a["body"] or "[[book:" in a["body"]:
+            sys.exit("Error: content/carry/%s.md links to another shop. These pages carry Amazon picks only." % a["slug"])
+        out.append((a, it))
+    return sorted(out, key=lambda x: order[x[1]["item"]])
+
+
+def build_carry_items(cfg, data, carry, deals_by_asin, pages, lastmod):
+    """One page per item, e.g. baggage/can-i-carry/power-bank.html: the direct answers, the rule and its source
+    from data/flight_items.json, then the explanation, FAQ and links from content/carry/<slug>.md."""
+    count = sum(len(g["items"]) for g in data["groups"])
+    p = "../../"
+    for a, it in carry:
+        path = "baggage/can-i-carry/%s.html" % a["slug"]
+        checked = it.get("rechecked", data["checked"])
+        rows = ""
+        for where, label in (("cabin", "Cabin bag"), ("checked", "Check-in bag")):
+            state, word = ANSWER[it[where]]
+            rows += f'<tr><th scope="row">{label}</th><td><span class="fit fit-{state}">{word}</span> {e(it[where + "_short"])}</td></tr>'
+        sources = [s.split("=", 1) for s in a.get("sources", "").split(" | ") if "=" in s]
+        related = [r.split("=", 1) for r in a.get("related", "").split(" | ") if "=" in r]
+        others = "".join(f'<li><a href="{b["slug"]}.html">{e(jt["item"])}</a></li>' for b, jt in carry if b["slug"] != a["slug"])
+        content = render_markdown(a["body"], cfg, deals_by_asin, p, "carry/%s.md" % a["slug"])
+        inner = f"""<nav class="crumbs"><a href="{p}index.html">Home</a><span>/</span><a href="../index.html">Baggage rules</a><span>/</span><a href="../can-i-carry.html">Can I carry it?</a><span>/</span>{e(it["item"])}</nav>
+      <h1>{e(a["title"])}</h1>
+      <p class="muted small">Checked on {fmt_date(checked)} against {e(a.get("checked_against", "official airline and airport pages"))}</p>"""
+        body = f"""{page_head("watches", f'<div class="media media-tile tint-watches">{icon("shield", "icon media-icon")}</div>', inner, p)}
+<div class="wrap"><article class="guide">
+<div class="answer"><h2>Quick answer</h2>
+<div class="table-wrap"><table class="compare snug"><tbody>{rows}</tbody></table></div>
+<p class="checked">Checking more than one thing? See all {count} items on our <a href="../can-i-carry.html">Can I carry it on a flight?</a> list.</p></div>
+<h2>The rule</h2>
+<p>{e(it["rule"])} <a class="src" href="{e(it["source"])}" target="_blank" rel="noopener">Source</a></p>
+<p class="checked">Checked on {fmt_date(checked)}. Security staff can still refuse any item, and airlines can be stricter or change their rules, so check your airline before you fly.</p>
+{content}
+<h2>Sources</h2>
+<p>{sources_html([{"label": label, "url": url} for label, url in sources])}</p>
+<h2>More items people ask about</h2>
+<ul class="airline-links">{others}<li><a href="../can-i-carry.html">All {count} items</a></li></ul>
+{('<h2>Related guides</h2><ul class="airline-links">%s</ul>' % "".join(f'<li><a href="{p}{e(u)}">{e(label)}</a></li>' for u, label in related)) if related else ""}
+</article></div>
+{telegram_band(cfg, p)}"""
+        seo = a.get("seo_title", a["title"])
+        crumbs = crumbs_schema(cfg, [("Home", ""), ("Baggage rules", "baggage/index.html"), ("Can I carry it?", "baggage/can-i-carry.html"),
+                                     (it["item"], path)])
+        updated = max(a["updated"], checked)
+        schema = [tool_article(cfg, seo, a["description"], path, a["date"], updated), crumbs]
+        faq = md_faq(a["body"])
+        if faq:
+            schema.append({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+                {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": ans}} for q, ans in faq]})
+        pages.append(write(path, page(cfg, seo, a["description"], body, 2, path, schema, og_type="article")))
+        lastmod[path] = updated
+
+
+def build_can_i_carry(cfg, deals_by_asin, pages, lastmod):
     data = json.loads(FLIGHT_ITEMS_FILE.read_text(encoding="utf-8"))
     checked = data["checked"]
+    carry = load_carry_pages(data)
+    page_of = {it["item"]: a["slug"] for a, it in carry}
     groups = []
     for group in data["groups"]:
         rows = []
@@ -1255,10 +1327,18 @@ def build_can_i_carry(cfg, pages, lastmod):
                 state, label = ANSWER[it[where]]
                 cells += f'<td><span class="fit fit-{state}">{label}</span></td>'
             words = " ".join([it["item"]] + it.get("also", []))
-            rows.append(f'<tr data-words="{e(words.lower())}"><th scope="row">{e(it["item"])}</th>{cells}'
+            name = e(it["item"])
+            if it["item"] in page_of:
+                name = f'<a href="can-i-carry/{page_of[it["item"]]}.html">{name}</a>'
+            rows.append(f'<tr data-words="{e(words.lower())}"><th scope="row">{name}</th>{cells}'
                         f'<td>{e(it["rule"])} <a class="src" href="{e(it["source"])}" target="_blank" rel="noopener">Source</a></td></tr>')
         groups.append(f'<tbody data-group><tr class="group-row"><th colspan="4" scope="colgroup">{e(group["name"])}</th></tr>{"".join(rows)}</tbody>')
     count = sum(len(g["items"]) for g in data["groups"])
+    most_asked = ""
+    if carry:
+        links = "".join(f'<li><a href="can-i-carry/{a["slug"]}.html">{e(it["item"])}</a></li>' for a, it in carry)
+        most_asked = (f'<h2>Most asked items, in detail</h2><p>How much you can take, the rule on each airline and how to pack it:</p>'
+                      f'<ul class="airline-links">{links}</ul>')
     faq_html, faq_schema = faq_block([(f["q"], f["a"]) for f in data["faq"]])
     title = "Can I carry it on a flight? Cabin and check-in rules in India"
     seo = "Can I carry it on a flight in India? Cabin and check-in item list %s" % checked[:4]
@@ -1275,6 +1355,7 @@ def build_can_i_carry(cfg, pages, lastmod):
 <div class="table-wrap"><table class="compare carry-table" id="carry-table"><thead><tr><th>Item</th><th>Cabin bag</th><th>Check-in</th><th>Rule</th></tr></thead>{"".join(groups)}</table></div>
 <p class="hint" id="carry-none" hidden>No match. Try another word, or check the airline's own list.</p>
 <p class="checked">"With limits" means it's allowed only in the way the rule says. "Not listed" means the official pages we checked don't say. Security staff can still refuse any item, and airlines can be stricter, so check your airline before you fly.</p>
+{most_asked}
 <aside class="tip">{icon("ruler", "icon tip-icon")}<div><strong>Packing your cabin bag?</strong><p>Check its size with the <a href="checker.html">cabin bag checker</a>, and use a <a href="../packing/index.html">packing checklist</a>.</p></div></aside>
 {faq_html}
 <h2>Sources</h2>
@@ -1285,9 +1366,11 @@ def build_can_i_carry(cfg, pages, lastmod):
 {telegram_band(cfg, "../")}"""
     path = "baggage/can-i-carry.html"
     crumbs = crumbs_schema(cfg, [("Home", ""), ("Baggage rules", "baggage/index.html"), ("Can I carry it?", path)])
+    modified = max([checked] + [it.get("rechecked", checked) for g in data["groups"] for it in g["items"]])
     pages.append(write(path, page(cfg, seo, desc, body, 1, path,
-                                  [tool_article(cfg, seo, desc, path, checked, checked), crumbs, faq_schema], og_type="article")))
-    lastmod[path] = checked
+                                  [tool_article(cfg, seo, desc, path, checked, modified), crumbs, faq_schema], og_type="article")))
+    lastmod[path] = modified
+    build_carry_items(cfg, data, carry, deals_by_asin, pages, lastmod)
 
 
 # ---------- Hindi versions of the tool pages ----------
@@ -2163,7 +2246,7 @@ def build():
     if RAILWAYS_FILE.exists():
         build_railways(cfg, deals, pages, lastmod)
     if FLIGHT_ITEMS_FILE.exists():
-        build_can_i_carry(cfg, pages, lastmod)
+        build_can_i_carry(cfg, deals_by_asin, pages, lastmod)
     build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl_airlines)
     build_tools(cfg, deals, pages, lastmod)
     if trips:

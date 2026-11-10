@@ -1,5 +1,5 @@
 {
- "_note": "'Can I carry it on a flight?' (baggage/can-i-carry.html). States: yes, no, conditional (allowed with limits), unknown (not stated on the official pages we checked). Key rules checked by hand on 3 Nov 2026 on Kannur Airport's BCAS-based list and Akasa Air's conditions of carriage. Re-check every 3 months.",
+ "_note": "'Can I carry it on a flight?' (baggage/can-i-carry.html). States: yes, no, conditional (allowed with limits), unknown (not stated on the official pages we checked). Key rules checked by hand on 3 Nov 2026 on Kannur Airport's BCAS-based list and Akasa Air's conditions of carriage. Re-check every 3 months. 10 Nov 2026: items with 'rechecked' were checked again on IndiGo's and Air India's official lists and Akasa Air's conditions of carriage; 'cabin_short' and 'checked_short' are the direct answers on that item's own page (content/carry/*.md).",
  "checked": "2026-11-03",
  "key_rules": [
   "Power banks go only in your cabin bag. Keep them with you, not in the overhead bin, and don't use or charge them during the flight.",
@@ -16,13 +16,16 @@
      "item": "Power bank",
      "cabin": "conditional",
      "checked": "no",
-     "rule": "Cabin bag only. Keep it in the seat pocket, under the seat or on you, never in the overhead bin. You can't use or charge it during the flight. Akasa Air allows up to 2 power banks or spare batteries, each up to 100 Wh.",
+     "rule": "Cabin bag only. Keep it in the seat pocket, under the seat or on you, never in the overhead bin. You can't use or charge it during the flight. Akasa Air and Air India allow up to 2 power banks or spare batteries, each up to 100 Wh. IndiGo needs the rating printed on it and refuses any over 160 Wh.",
      "source": "https://www.akasaair.com/quick-links/conditions-of-carriage",
      "also": [
       "powerbank",
       "battery pack",
       "portable charger"
-     ]
+     ],
+     "cabin_short": "Up to 2 power banks of 100 Wh or less on Akasa Air and Air India. Keep it with you, not in the overhead bin, and don't use it on board.",
+     "checked_short": "IndiGo, Air India and Akasa Air all ban power banks in check-in bags, even switched off.",
+     "rechecked": "2026-11-10"
     },
     {
      "item": "MOBIKINS MK-PB-04 power bank",
@@ -68,6 +71,21 @@
       "camera battery",
       "battery"
      ]
+    },
+    {
+     "item": "Trimmer",
+     "cabin": "conditional",
+     "checked": "conditional",
+     "rule": "A trimmer with a built-in battery is fine in the cabin. In check-in it must be fully switched off and protected from turning on. IndiGo's list puts a trimmer without a battery in check-in only.",
+     "source": "https://www.goindigo.in/baggage/dangerous-goods-policy.html",
+     "also": [
+      "beard trimmer",
+      "hair trimmer",
+      "electric trimmer"
+     ],
+     "rechecked": "2026-11-10",
+     "cabin_short": "Yes, if it has a built-in battery. IndiGo's list says a trimmer without a battery goes in check-in only.",
+     "checked_short": "Yes, switched fully off and protected so it can't turn on in the bag."
     },
     {
      "item": "Smart bag with a fixed battery",
@@ -136,25 +154,29 @@
      "item": "Perfume",
      "cabin": "conditional",
      "checked": "conditional",
-     "rule": "Cabin bag: bottles of 100 ml or less inside the 1-litre clear bag. Check-in: SpiceJet allows toiletries up to 2 litres or 2 kg in total, with no bottle over 500 ml.",
-     "source": "https://www.aai.aero/en/node/92938",
+     "rule": "Cabin bag: bottles of 100 ml or less inside the 1-litre clear bag, but IndiGo's list doesn't allow perfume or deo in the cabin at all. Check-in: up to 2 litres or 2 kg of toiletries in total, with no bottle over 500 ml (IndiGo, Air India, SpiceJet).",
+     "source": "https://www.goindigo.in/baggage/dangerous-goods-policy.html",
      "also": [
       "attar",
       "scent",
       "fragrance"
-     ]
+     ],
+     "cabin_short": "Only small bottles: 100 ml or less, inside your clear 1-litre liquids bag. Not on IndiGo, whose list doesn't allow perfume in the cabin.",
+     "checked_short": "Yes. Up to 2 litres or 2 kg of perfume and toiletries in total, and no single bottle over 500 ml.",
+     "rechecked": "2026-11-10"
     },
     {
      "item": "Deodorant spray",
      "cabin": "conditional",
      "checked": "conditional",
-     "rule": "Sprays follow the liquids rule in the cabin: 100 ml or less, inside the 1-litre clear bag. Check-in: within SpiceJet's 2-litre toiletries limit, up to 500 ml per can.",
-     "source": "https://www.aai.aero/en/node/92938",
+     "rule": "Sprays follow the liquids rule in the cabin: 100 ml or less, inside the 1-litre clear bag. IndiGo's list doesn't allow deo in the cabin. Check-in: within the 2-litre toiletries limit, up to 500 ml per can, with the cap on.",
+     "source": "https://www.goindigo.in/baggage/dangerous-goods-policy.html",
      "also": [
       "deo",
       "aerosol",
       "hair spray"
-     ]
+     ],
+     "rechecked": "2026-11-10"
     },
     {
      "item": "Hand sanitiser",
@@ -197,14 +219,17 @@
     {
      "item": "Medicines",
      "cabin": "yes",
-     "checked": "yes",
-     "rule": "Keep the medicines you need in your cabin bag. Liquid medicines and inhalers over 100 ml are allowed with a prescription.",
-     "source": "https://www.aai.aero/en/node/92938",
+     "checked": "conditional",
+     "rule": "Keep the medicines you need in your cabin bag. Liquid medicines and inhalers over 100 ml are allowed with a prescription. IndiGo accepts medicines in check-in only with a prescription.",
+     "source": "https://www.goindigo.in/baggage/dangerous-goods-policy.html",
      "also": [
       "tablets",
       "inhaler",
       "syrup"
-     ]
+     ],
+     "cabin_short": "Keep the medicines you need with you. Liquid medicines over 100 ml are allowed if you need them on the journey and carry the prescription.",
+     "checked_short": "Yes, with a prescription on IndiGo. Akasa Air advises not to put medicines in check-in, because a bag can be late or lost.",
+     "rechecked": "2026-11-10"
     },
     {
      "item": "Insulin",
@@ -249,36 +274,43 @@
      "item": "Ghee and coconut oil",
      "cabin": "conditional",
      "checked": "conditional",
-     "rule": "Check-in: up to 5 litres or 5 kg. Cabin bag: only in containers of 100 ml or less inside the 1-litre clear bag.",
-     "source": "https://kannurairport.aero/corporate/security",
+     "rule": "Check-in: up to 5 litres or 5 kg (Air India, airport security list). Cabin bag: only in containers of 100 ml or less inside the 1-litre clear bag, and IndiGo doesn't allow ghee in the cabin at all.",
+     "source": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html",
      "also": [
       "ghee",
       "oil"
-     ]
+     ],
+     "cabin_short": "Only a little: containers of 100 ml or less in your clear 1-litre bag. IndiGo doesn't allow ghee in the cabin at all.",
+     "checked_short": "Yes. Up to 5 litres or 5 kg per person, packed so it can't leak.",
+     "rechecked": "2026-11-10"
     },
     {
      "item": "Pickle",
      "cabin": "conditional",
-     "checked": "unknown",
-     "rule": "Oily or runny food follows the 100 ml liquids rule in the cabin, and Akasa Air doesn't allow oily or strong-smelling food on board. Pack it sealed and leak-proof.",
-     "source": "https://www.akasaair.com/quick-links/conditions-of-carriage",
+     "checked": "conditional",
+     "rule": "Check-in: allowed if packed so it can't leak or break (IndiGo, Air India). Cabin: IndiGo doesn't allow pickle, Air India doesn't allow chilli pickle, and oily pickle follows the 100 ml liquids rule. Akasa Air doesn't allow oily or strong-smelling food on board.",
+     "source": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html",
      "also": [
       "achar",
       "achaar"
-     ]
+     ],
+     "rechecked": "2026-11-10"
     },
     {
      "item": "Sweets and home food",
      "cabin": "conditional",
      "checked": "conditional",
-     "rule": "Dry snacks, biscuits and sweets are fine on board; messy, oily or strong-smelling food isn't (Akasa Air). In check-in, pack food so it can't leak.",
-     "source": "https://www.akasaair.com/quick-links/conditions-of-carriage",
+     "rule": "Dry sweets, snacks and biscuits are fine in both bags (IndiGo). Oily, messy or strong-smelling food isn't allowed on board (Akasa Air), and IndiGo doesn't take oily food in either bag. In check-in, pack food so it can't leak.",
+     "source": "https://www.goindigo.in/baggage/dangerous-goods-policy.html",
      "also": [
       "mithai",
       "snacks",
       "namkeen",
       "tiffin"
-     ]
+     ],
+     "cabin_short": "Yes for dry sweets, snacks and biscuits. No oily, messy or strong-smelling food, and sweets in syrup count as liquid.",
+     "checked_short": "Yes for dry sweets and food packed so it can't leak. IndiGo doesn't accept oily food, even in check-in.",
+     "rechecked": "2026-11-10"
     },
     {
      "item": "Spice powders (chilli, masala)",
@@ -364,11 +396,14 @@
     },
     {
      "item": "Umbrella",
-     "cabin": "yes",
-     "checked": "unknown",
-     "rule": "Allowed in the cabin. SpiceJet lets you carry one on top of your cabin allowance.",
-     "source": "https://corporate.spicejet.com/Charter.aspx",
-     "also": []
+     "cabin": "conditional",
+     "checked": "yes",
+     "rule": "Folding umbrellas and umbrellas with a blunt tip can go in the cabin after the security check. An umbrella with a sharp tip goes in check-in (IndiGo, Air India). SpiceJet lets you carry one on top of your cabin allowance, and Akasa Air a compact folding one.",
+     "source": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html",
+     "also": [],
+     "cabin_short": "Yes for a folding umbrella or one with a blunt tip. An umbrella with a sharp tip must go in check-in.",
+     "checked_short": "Any umbrella, including a long one with a sharp tip.",
+     "rechecked": "2026-11-10"
     },
     {
      "item": "Walking stick",
@@ -448,15 +483,18 @@
      "item": "Alcohol (bought outside the airport)",
      "cabin": "no",
      "checked": "conditional",
-     "rule": "On domestic flights, pack it in check-in: up to 5 litres per person of drinks with 24–70% alcohol, in retail packaging (SpiceJet). You can't drink it on board or take it to or from dry states such as Bihar and Gujarat.",
-     "source": "https://corporate.spicejet.com/airtravelbaggagefaq.aspx",
+     "rule": "On domestic flights, pack it in check-in: up to 5 litres per person of drinks with 24–70% alcohol, in retail packaging (IndiGo, Air India, SpiceJet). Akasa Air also takes drinks of 24% or less in retail packaging. You can't drink it on board or take it to or from dry states such as Bihar and Gujarat.",
+     "source": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html",
      "also": [
       "liquor",
       "whisky",
       "wine",
       "beer",
       "daru"
-     ]
+     ],
+     "cabin_short": "Not alcohol from outside the airport. Alcohol you buy after security can go in the cabin, sealed in the shop's bag.",
+     "checked_short": "Yes. Up to 5 litres per person of 24–70% alcohol, in its shop packing. Nothing over 70%.",
+     "rechecked": "2026-11-10"
     },
     {
      "item": "Duty-free alcohol",
@@ -499,11 +537,11 @@
   },
   {
    "q": "Can I carry ghee on a flight?",
-   "a": "In check-in, up to 5 litres or 5 kg is allowed. In your cabin bag, only in containers of 100 ml or less inside the clear 1-litre bag."
+   "a": "In check-in, up to 5 litres or 5 kg is allowed. In your cabin bag, only in containers of 100 ml or less inside the clear 1-litre bag, and IndiGo doesn't allow ghee in the cabin at all."
   },
   {
    "q": "Can I carry perfume in my cabin bag?",
-   "a": "Yes, if each bottle is 100 ml or less and fits in your clear 1-litre liquids bag. Bigger bottles go in check-in."
+   "a": "On most airlines, yes, if each bottle is 100 ml or less and fits in your clear 1-litre liquids bag. IndiGo's list doesn't allow perfume or deo in the cabin, so on IndiGo pack it in check-in."
   },
   {
    "q": "Can I carry a razor on a flight?",
@@ -511,7 +549,7 @@
   },
   {
    "q": "Can I carry alcohol on a domestic flight?",
-   "a": "In check-in only, up to 5 litres per person of 24–70% alcohol in retail packaging (SpiceJet), and not to or from dry states. Sealed duty-free alcohol can go in the cabin."
+   "a": "In check-in only, up to 5 litres per person of 24–70% alcohol in retail packaging (IndiGo, Air India, SpiceJet), and not to or from dry states. Sealed duty-free alcohol can go in the cabin."
   },
   {
    "q": "Can I carry medicines on a flight?",
@@ -526,6 +564,14 @@
   {
    "label": "Airports Authority of India",
    "url": "https://www.aai.aero/en/node/92938"
+  },
+  {
+   "label": "IndiGo list of things not allowed in flight",
+   "url": "https://www.goindigo.in/baggage/dangerous-goods-policy.html"
+  },
+  {
+   "label": "Air India restricted items",
+   "url": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html"
   },
   {
    "label": "Akasa Air conditions of carriage",
