@@ -164,8 +164,9 @@ img { max-width: 100%; }
 .media-tile .media-icon { width: 34px; height: 34px; }
 .media-sm { width: 88px; height: 88px; flex: none; }
 .media-sm .media-icon { width: 44px; height: 44px; }
-.media-xl { width: 100%; aspect-ratio: 1 / 1; border-radius: 24px; }
-.media-xl .media-icon { width: 38%; height: 38%; stroke-width: 1.2; }
+/* Our own drawing of each pick (scripts/pick_art.py), never a product photo. The tint behind matches the drawing's own. */
+.art { display: block; }
+.art img { display: block; width: 100%; height: auto; }
 
 /* Product cards */
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 18px; }
@@ -174,6 +175,7 @@ img { max-width: 100%; }
 .card-media { position: relative; display: block; }
 .card-media .media { height: 150px; border-radius: 0; }
 .card-media .media-icon { width: 64px; height: 64px; }
+.card-media .art img { height: 180px; object-fit: contain; }
 .badge { position: absolute; left: 12px; top: 12px; padding: 4px 10px; border-radius: 999px; background: var(--surface); color: var(--ink); font-size: 0.75rem; font-weight: 700; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); }
 .card-body { padding: 14px 16px 6px; flex: 1; }
 .brand-name { margin: 0 0 4px; font-size: 0.78rem; font-weight: 700; color: var(--brand); text-transform: uppercase; letter-spacing: 0.06em; }
@@ -236,8 +238,9 @@ img { max-width: 100%; }
 
 /* Pick page */
 .pick { display: grid; grid-template-columns: 1fr; gap: 28px; margin-top: 12px; }
-.pick-media { position: relative; }
-.media-brand { position: absolute; left: 18px; bottom: 14px; margin: 0; padding: 4px 12px; border-radius: 999px; background: var(--surface); font-weight: 800; font-size: 0.85rem; }
+.pick-media { position: relative; margin: 0; }
+.pick-art .art { border-radius: 24px; overflow: hidden; }
+.pick-art figcaption { margin: 8px 4px 0; font-size: 0.82rem; color: var(--muted); }
 .pick-info h1 { margin-top: 0.1em; }
 .pick-info h2 { margin: 28px 0 12px; font-size: 1.2rem; }
 .chips { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 14px 0 6px; }
@@ -258,6 +261,7 @@ img { max-width: 100%; }
 .guide li { margin-bottom: 8px; }
 .inline-pick { display: flex; gap: 16px; margin: 22px 0; padding: 16px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow); }
 .inline-body { flex: 1; min-width: 0; }
+.inline-art { flex: none; align-self: flex-start; width: 136px; border-radius: 12px; overflow: hidden; }
 .inline-pick h4 { margin: 0 0 8px; font-size: 1.05rem; }
 .inline-pick h4 a { color: var(--ink); text-decoration: none; }
 .inline-pick h4 a:hover { color: var(--brand); }
@@ -410,7 +414,8 @@ main > :last-child:not(.band) { margin-bottom: 56px; }
   .nav-long { display: none; }
   .nav-cta { padding: 8px 10px; }
   .inline-pick { flex-direction: column; }
-  .inline-pick .media-sm { width: 100%; height: 90px; }
+  .inline-art { width: 100%; }
+  .inline-art img { height: 170px; object-fit: contain; }
   .page-head-row { flex-direction: column; align-items: flex-start; }
 }
 html[lang="hi-IN"] body { font-family: "Plus Jakarta Sans", "Noto Sans Devanagari", system-ui, sans-serif; line-height: 1.7; }

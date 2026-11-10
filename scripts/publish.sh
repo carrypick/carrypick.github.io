@@ -4,6 +4,8 @@
 set -e
 cd "$(dirname "$0")/.."
 
+# Share images of new picks' drawings (needs Chrome; the build falls back to the logo without them).
+python3 scripts/make_pick_images.py || echo "Share images skipped; the site still builds."
 python3 scripts/build.py
 
 if ! git remote get-url origin >/dev/null 2>&1; then

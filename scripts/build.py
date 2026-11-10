@@ -4,7 +4,8 @@ Run:  python3 scripts/build.py
 Amazon rules built in: disclosure on every page, no prices, no ratings,
 no product images, no auto-redirects, buy links marked as paid.
 Free stock photos (data/photos.json) only illustrate guides, categories and
-the home page; pick pages and product cards never show them.
+the home page; pick pages and product cards never show them. Instead each pick
+shows our own drawing, made from its listed size and details (scripts/pick_art.py).
 """
 
 import json
@@ -16,6 +17,7 @@ from datetime import date, datetime, timedelta
 from html import escape as e
 
 import diagrams
+import pick_art
 from common import IST, ROOT, amazon_link, load_config, load_deals
 
 DOCS = ROOT / "docs"
@@ -36,6 +38,8 @@ BAGGAGE_PHOTO = "airport-terminal"
 DEAL_HOURS = 24  # how long a "Deal spotted" badge shows (site.js hides it after this, and must match)
 PHOTOS = {}    # filled by build() from data/photos.json
 DIAGRAMS = {}  # filled by build() from scripts/diagrams.py
+PICK_ART = {}  # ASIN -> (svg, alt), our drawing of each pick, filled by build() from scripts/pick_art.py
+PICK_ART_DIR = STATIC_DIR / "picks"  # share images of the drawings, made by scripts/make_pick_images.py
 TOOLS = []     # travel tool pages, filled by build(): (path, short name, eyebrow, title, text, link text, icon, tint, photo)
 HINDI_PAGES = {}  # English path -> its Hindi version, filled by build() when data/hindi.json exists
 DISCLOSURE = "As an Amazon Associate I earn from qualifying purchases."
@@ -193,7 +197,8 @@ def share_bar(cfg, path, title, lang="en"):
 </div>"""
 
 
-def page(cfg, title, description, body, depth, path, schema=None, og_type="website", photo=None, robots="max-image-preview:large", lang="en"):
+def page(cfg, title, description, body, depth, path, schema=None, og_type="website", photo=None, robots="max-image-preview:large", lang="en",
+         share_image=None):
     p = "../" * depth
     if og_type == "article" or path.startswith("picks/"):
         # Share buttons go just above the Telegram/WhatsApp band at the end of guides, tools, trips and picks.
@@ -216,10 +221,13 @@ def page(cfg, title, description, body, depth, path, schema=None, og_type="websi
         if pair:
             head_extra += "".join('<link rel="alternate" hreflang="%s" href="%s">\n' % (code, e(base + "/" + target))
                                   for code, target in (("en-IN", pair[0]), ("hi-IN", pair[1]), ("x-default", pair[0])))
-        if photo in PHOTOS:
+        og = abs_url(cfg, share_image[0]) if share_image else (photo_og(cfg, photo) if photo in PHOTOS else None)
+        if og:
             head_extra += ('<meta property="og:image" content="%s">\n<meta property="og:image:width" content="1200">\n'
                            '<meta property="og:image:height" content="630">\n<meta name="twitter:card" content="summary_large_image">'
-                           % e(photo_og(cfg, photo)))
+                           % e(og))
+            if share_image:
+                head_extra += '\n<meta property="og:image:alt" content="%s">' % e(share_image[1])
         else:
             head_extra += '<meta property="og:image" content="%s/assets/logo.png">' % e(base)
     if cfg.get("google_site_verification"):
@@ -333,6 +341,19 @@ def media(cfg, category, cls="media"):
     return f'<div class="{cls} tint-{category}">{icon(cfg["categories"][category]["icon"], "icon media-icon")}</div>'
 
 
+def pick_img(deal, p, eager=False):
+    """Our own drawing of a pick (never a product photo). Width and height stop the layout from jumping."""
+    load = 'fetchpriority="high"' if eager else 'loading="lazy" decoding="async"'
+    return (f'<img src="{p}assets/picks/{deal["asin"]}.svg" width="{pick_art.W}" height="{pick_art.H}" '
+            f'alt="{e(PICK_ART[deal["asin"]][1])}" {load}>')
+
+
+def share_image(asin):
+    """The 1200 x 630 share image of a pick's drawing, if scripts/make_pick_images.py has made one."""
+    found = sorted(PICK_ART_DIR.glob(asin + "-*.jpg")) if PICK_ART_DIR.exists() else []
+    return ("assets/picks/" + found[-1].name, PICK_ART[asin][1]) if found else None
+
+
 # ---------- stock photos and our own diagrams ----------
 
 def webp_size(path):
@@ -427,7 +448,7 @@ def card(cfg, deal, p, deal_only=False):
     feats = "".join("<li>%s%s</li>" % (icon("check", "icon icon-check"), e(h)) for h in deal["highlights"][:2])
     hide = f' data-deal-seen="{fresh_deal(deal).isoformat()}" hidden' if deal_only else ""
     return f"""<article class="card"{hide}>
-  <a class="card-media" href="{href}" tabindex="-1" aria-hidden="true">{media(cfg, deal['category'])}{badge}{deal_badge(deal)}</a>
+  <a class="card-media" href="{href}" tabindex="-1" aria-hidden="true"><span class="art tint-{deal['category']}">{pick_img(deal, p)}</span>{badge}{deal_badge(deal)}</a>
   <div class="card-body">
     {brand}
     <h3><a href="{href}">{e(deal['title'])}</a></h3>
@@ -445,7 +466,7 @@ def inline_pick(cfg, deal, p):
     items = "".join("<li>%s%s</li>" % (icon("check", "icon icon-check"), e(h)) for h in deal["highlights"][:3])
     brand = f'<p class="brand-name">{e(deal["brand"])}</p>' if deal.get("brand") else ""
     return f"""<aside class="inline-pick">
-  {media(cfg, deal['category'], 'media media-sm')}
+  <a class="art inline-art tint-{deal['category']}" href="{p}picks/{deal['asin']}.html" tabindex="-1" aria-hidden="true">{pick_img(deal, p)}</a>
   <div class="inline-body">
     {deal_badge(deal, "deal-badge deal-inline")}
     {brand}
@@ -1987,6 +2008,11 @@ def build():
     (DOCS / "assets" / "diagrams").mkdir()
     for name, (svg, alt, caption) in DIAGRAMS.items():
         (DOCS / "assets" / "diagrams" / (name + ".svg")).write_text(svg, encoding="utf-8")
+    indigo = next((a["cabin"]["dims_cm"] for a in airlines["airlines"] if a["slug"] == "indigo"), None) if airlines else None
+    PICK_ART.update(pick_art.build_all(deals, indigo or (55, 35, 25)))
+    (DOCS / "assets" / "picks").mkdir(exist_ok=True)
+    for asin, (svg, alt) in PICK_ART.items():
+        (DOCS / "assets" / "picks" / (asin + ".svg")).write_text(svg, encoding="utf-8")
     if airlines:
         TOOLS.append(("baggage/index.html", "Airline baggage rules", "IndiGo &middot; Air India &middot; Akasa &middot; SpiceJet",
                       "Baggage rules for Indian airlines", "Cabin bag size and weight, and free check-in baggage, all in one place.",
@@ -2148,7 +2174,8 @@ def build():
         body = f"""<div class="wrap">
 <nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="../category/{d['category']}.html">{e(cat['name'])}</a></nav>
 <article class="pick">
-  <div class="pick-media">{media(cfg, d['category'], 'media media-xl')}{('<p class="media-brand">' + e(d['brand']) + '</p>') if d.get('brand') else ''}</div>
+  <figure class="pick-media pick-art"><div class="art tint-{d['category']}">{pick_img(d, "../", eager=True)}</div>
+    <figcaption>Our drawing, made from the listed size and details. It is not a photo of the product: Amazon.in shows the real photos.</figcaption></figure>
   <div class="pick-info">
     {brand}
     <h1>{e(d['title'])}</h1>
@@ -2176,7 +2203,7 @@ def build():
                                            "See the specs, who it suits and who should skip it."])))
         path = "picks/%s.html" % d["asin"]
         crumbs = crumbs_schema(cfg, [("Home", ""), (cat["name"], "category/%s.html" % d["category"]), (d["title"], path)])
-        pages.append(write(path, page(cfg, d["title"], desc, body, 1, path, [crumbs])))
+        pages.append(write(path, page(cfg, d["title"], desc, body, 1, path, [crumbs], share_image=share_image(d["asin"]))))
         lastmod[path] = d["added_at"][:10]
 
     # Category pages
@@ -2266,11 +2293,13 @@ def build():
     if cfg["contact_email"]:
         contact_lines.append(f'<li>Email: <a href="mailto:{e(cfg["contact_email"])}">{e(cfg["contact_email"])}</a></li>')
     contact_html = "<ul>%s</ul>" % "".join(contact_lines) if contact_lines else "<p>Contact details are coming soon.</p>"
-    photo_credits = ""
+    photo_credits = ("<h2>Photos, drawings and diagrams</h2>\n<p>Each pick has a simple drawing that we make ourselves from its listed "
+                     "size and details, drawn to scale where the listing gives a size. It is not a photo of the product, so check "
+                     "the real photos on Amazon.in before you buy. Our diagrams are drawn by us too.</p>")
     if PHOTOS:
-        photo_credits = ("<h2>Photos and diagrams</h2>\n<p>The photos on our home, category and guide pages are free stock photos "
-                         "that set the scene. They are not photos of the products we pick. Our diagrams are drawn by us.</p>\n<ul>%s</ul>"
-                         % "".join("<li>%s</li>" % photo_credit(slot) for slot in PHOTOS))
+        photo_credits += ("\n<p>The photos on our home, category and guide pages are free stock photos that set the scene. "
+                          "They are not photos of the products we pick.</p>\n<ul>%s</ul>"
+                          % "".join("<li>%s</li>" % photo_credit(slot) for slot in PHOTOS))
     info = {
         "about.html": ("About CarryPick: how we pick products", f"""<h1>About {name}</h1>
 <p>{name} is a small team that helps shoppers in India pick good bags, luggage, watches and travel essentials on Amazon.in.</p>
@@ -2320,6 +2349,8 @@ def build():
             """Our photos and diagrams on a page, listed for Google Images."""
             text = (DOCS / path).read_text(encoding="utf-8")
             found = sorted(set(re.findall(r'assets/photos/[a-z0-9-]+-1600\.webp|assets/diagrams/[a-z0-9-]+\.svg', text)))
+            if path.startswith("picks/"):
+                found.append("assets/picks/%s.svg" % path[6:-5])  # only its own drawing, not the cards below
             return "".join("<image:image><image:loc>%s</image:loc></image:image>" % e(base + f) for f in found)
 
         urls = "".join("<url><loc>%s</loc>%s%s</url>" % (e(base + ("" if p == "index.html" else p)),
@@ -2355,6 +2386,13 @@ def build():
             sys.exit("Error: auto-redirect found on %s" % html_file)
         if html_file.parent.name == "picks" and "assets/photos/" in text:
             sys.exit("Error: a stock photo is on pick page %s, where it could pass as the product" % html_file)
+        if html_file.parent.name == "picks" and 'src="../assets/picks/%s.svg"' % html_file.stem not in text:
+            sys.exit("Error: pick page %s doesn't show its drawing" % html_file)
+    # Our drawings may only be our own vector shapes: no embedded or linked pictures, and always the note.
+    for svg_file in (DOCS / "assets" / "picks").glob("*.svg"):
+        text = svg_file.read_text(encoding="utf-8")
+        if re.search(r"<image|<foreignObject|href=|data:", text) or pick_art.NOTE not in text:
+            sys.exit("Error: %s must be our own drawing with the note '%s'" % (svg_file, pick_art.NOTE))
 
     print("Built %d pages (%d picks, %d guides) into docs/" % (len(pages), len(deals), len(articles)))
 
