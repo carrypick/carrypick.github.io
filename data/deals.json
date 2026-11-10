@@ -1,5 +1,61 @@
 [
   {
+    "asin": "B073JYDK7P",
+    "added_at": "2026-11-10T09:42:23+05:30",
+    "title": "Skybags Cardiff 55 cm Travel Duffle Bag, 39 L",
+    "category": "luggage",
+    "highlights": [
+      "39 litres, one large main compartment",
+      "Extra pockets for small things",
+      "Polyester body",
+      "Butterfly lock"
+    ],
+    "note": "A roomy soft duffle from Skybags for short trips and train journeys.",
+    "brand": "Skybags",
+    "best_for": [
+      "Weekend trips",
+      "Train journeys"
+    ],
+    "specs": {
+      "Size": "55 x 29 x 30 cm (114 cm total)",
+      "Capacity": "39 L",
+      "Weight": "2.33 kg",
+      "Material": "Polyester",
+      "Wheels": "Not listed",
+      "Warranty": "Listing is unclear (says 3 years and 1 year)"
+    },
+    "skip_if": "you want a cabin bag for IndiGo: at 30 cm deep it is over the 25 cm limit.",
+    "deal_seen_at": "2026-11-10T09:43:00+05:30"
+  },
+  {
+    "asin": "B0C65ZF9SP",
+    "added_at": "2026-11-10T09:42:23+05:30",
+    "title": "American Tourister RON 28L Laptop Backpack with Rain Cover",
+    "category": "backpacks",
+    "highlights": [
+      "Laptop sleeve fits up to 17.3 inches",
+      "Rain cover included",
+      "2 large zip compartments and a front zip pocket",
+      "2 side bottle pockets"
+    ],
+    "note": "A light 28 litre bag with a rain cover, good for college or office with a big laptop.",
+    "brand": "American Tourister",
+    "best_for": [
+      "College",
+      "17-inch laptops"
+    ],
+    "specs": {
+      "Capacity": "28 L",
+      "Size": "46 x 31 x 23 cm",
+      "Laptop fit": "Up to 17.3 inch",
+      "Weight": "780 g",
+      "Rain cover": "Yes",
+      "Warranty": "1 year global"
+    },
+    "skip_if": "you need lots of small pockets: it has 2 main compartments and one front pocket.",
+    "deal_seen_at": "2026-11-10T09:40:00+05:30"
+  },
+  {
     "asin": "B0F194MP93",
     "added_at": "2026-11-09T09:11:14+05:30",
     "title": "uppercase Vector 75 cm Large Check-in Trolley, 124 L",
@@ -81,7 +137,7 @@
       "Weight": "Not listed"
     },
     "skip_if": "you want a slim bag for a small laptop: at 35 litres this is a big backpack.",
-    "deal_seen_at": "2026-11-08T09:08:00+05:30"
+    "deal_seen_at": "2026-11-10T09:41:00+05:30"
   },
   {
     "asin": "B0D87KZP1Z",
@@ -195,7 +251,7 @@
       "Warranty": "1 year"
     },
     "skip_if": "you walk in the rain a lot: the listing says it is not water resistant.",
-    "deal_seen_at": "2026-11-06T09:10:00+05:30"
+    "deal_seen_at": "2026-11-10T09:41:00+05:30"
   },
   {
     "asin": "B0HF4DKV91",
@@ -251,7 +307,7 @@
       "Warranty": "3 years"
     },
     "skip_if": "you want a cabin bag for an Indian airline: its listed size adds up to 117 cm, above the 115 cm limit of the five airlines we checked.",
-    "deal_seen_at": "2026-11-07T09:08:00+05:30"
+    "deal_seen_at": "2026-11-10T09:41:00+05:30"
   },
   {
     "asin": "B097BH9MD5",
@@ -446,7 +502,7 @@
       "Warranty": "1 year"
     },
     "skip_if": "you want a small daily bag: at 40 litres and 50 cm tall, it is large for everyday use.",
-    "deal_seen_at": "2026-11-05T09:09:00+05:30"
+    "deal_seen_at": "2026-11-10T09:41:00+05:30"
   },
   {
     "asin": "B0B6BVXCCD",
@@ -1461,7 +1517,8 @@
       "Lock": "Combination lock",
       "Warranty": "3 years, international"
     },
-    "skip_if": "you fly Air India or Air India Express a lot: at 25 cm deep it is over their 20 cm and 23 cm limits."
+    "skip_if": "you fly Air India or Air India Express a lot: at 25 cm deep it is over their 20 cm and 23 cm limits.",
+    "deal_seen_at": "2026-11-10T09:41:00+05:30"
   },
   {
     "asin": "B07M9BRCQ5",
