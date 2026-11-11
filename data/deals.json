@@ -1,5 +1,61 @@
 [
   {
+    "asin": "B073XL1C3W",
+    "added_at": "2026-11-11T09:08:56+05:30",
+    "title": "American Tourister Jamaica 58 cm Soft Trolley Bag, 48 L",
+    "category": "luggage",
+    "highlights": [
+      "48 litres, expandable",
+      "4 spinner wheels",
+      "Number lock",
+      "2 compartments"
+    ],
+    "note": "A soft, expandable small trolley from a big brand with lots of happy buyers.",
+    "brand": "American Tourister",
+    "best_for": [
+      "Short trips",
+      "Train journeys"
+    ],
+    "specs": {
+      "Size": "59.6 x 40.1 x 29.5 cm",
+      "Capacity": "48 L",
+      "Weight": "2.9 kg",
+      "Material": "Polyester (soft)",
+      "Wheels": "4 spinner",
+      "Warranty": "3 years international"
+    },
+    "skip_if": "you need a cabin bag for Indian airlines: at 59.6 x 40.1 x 29.5 cm it is bigger than the usual cabin limits.",
+    "deal_seen_at": "2026-11-11T09:03:00+05:30"
+  },
+  {
+    "asin": "B09X74T7BP",
+    "added_at": "2026-11-11T09:08:56+05:30",
+    "title": "Aristocrat Cadet 52 cm Travel Duffle Bag, 40 L",
+    "category": "luggage",
+    "highlights": [
+      "40 litres, one large main compartment",
+      "Front pocket for tickets and chargers",
+      "Padded adjustable shoulder strap",
+      "Water-resistant polyester"
+    ],
+    "note": "A simple, light duffle from a VIP brand for short trips and train journeys.",
+    "brand": "Aristocrat",
+    "best_for": [
+      "Weekend trips",
+      "Train journeys"
+    ],
+    "specs": {
+      "Size": "50.5 x 28 x 27.5 cm",
+      "Capacity": "40 L",
+      "Weight": "2 kg",
+      "Material": "Polyester",
+      "Wheels": "No",
+      "Warranty": "3 years"
+    },
+    "skip_if": "you want a cabin bag for IndiGo: at 27.5 cm deep it is over the 25 cm limit.",
+    "deal_seen_at": "2026-11-11T09:06:00+05:30"
+  },
+  {
     "asin": "B073JYDK7P",
     "added_at": "2026-11-10T09:42:23+05:30",
     "title": "Skybags Cardiff 55 cm Travel Duffle Bag, 39 L",
