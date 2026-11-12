@@ -2175,7 +2175,7 @@ def build():
 <nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="../category/{d['category']}.html">{e(cat['name'])}</a></nav>
 <article class="pick">
   <figure class="pick-media pick-art"><div class="art tint-{d['category']}">{pick_img(d, "../", eager=True)}</div>
-    <figcaption>Our drawing, made from the listed size and details. It is not a photo of the product: Amazon.in shows the real photos.</figcaption></figure>
+    <figcaption>Our drawing, made from the listed size, colour and details. It is not a photo of the product: Amazon.in shows the real photos.</figcaption></figure>
   <div class="pick-info">
     {brand}
     <h1>{e(d['title'])}</h1>
@@ -2294,7 +2294,7 @@ def build():
         contact_lines.append(f'<li>Email: <a href="mailto:{e(cfg["contact_email"])}">{e(cfg["contact_email"])}</a></li>')
     contact_html = "<ul>%s</ul>" % "".join(contact_lines) if contact_lines else "<p>Contact details are coming soon.</p>"
     photo_credits = ("<h2>Photos, drawings and diagrams</h2>\n<p>Each pick has a simple drawing that we make ourselves from its listed "
-                     "size and details, drawn to scale where the listing gives a size. It is not a photo of the product, so check "
+                     "size, colour and details, drawn to scale where the listing gives a size. It is not a photo of the product, so check "
                      "the real photos on Amazon.in before you buy. Our diagrams are drawn by us too.</p>")
     if PHOTOS:
         photo_credits += ("\n<p>The photos on our home, category and guide pages are free stock photos that set the scene. "

@@ -4,7 +4,7 @@ Examples:
   python3 scripts/add_deal.py --link-only "https://www.amazon.in/Some-Bag/dp/B0ABCDEFGH/ref=sr_1_1?keywords=bag"
   python3 scripts/add_deal.py "https://amzn.in/d/abc123" --title "Skybags Brat 46 cm Backpack" \
       --category backpacks --highlight "3 compartments" --highlight "Fits a 15.6 inch laptop" \
-      --note "Light and roomy for college" --brand Skybags --best-for College \
+      --note "Light and roomy for college" --brand Skybags --colour Blue --best-for College \
       --spec "Capacity=30 L" --spec "Warranty=1 year" --skip-if "you need a rain cover."
   python3 scripts/add_deal.py B0ABCDEFGH --deal-seen "2026-11-03T09:15"   # Amazon shows a deal label right now
   python3 scripts/add_deal.py B0ABCDEFGH --no-deal                         # remove the deal badge
@@ -31,6 +31,8 @@ def main():
     parser.add_argument("--highlight", action="append", default=[], help="a key feature (repeat for more)")
     parser.add_argument("--note", help="one line on why we picked it")
     parser.add_argument("--brand")
+    parser.add_argument("--colour", help='the colour this link sells, as the listing names it, e.g. "Sea blue" '
+                                         '(our drawing uses it)')
     parser.add_argument("--best-for", action="append", default=[], help="short tag like College (repeat for more)")
     parser.add_argument("--spec", action="append", default=[], help='a spec as "Name=Value" (repeat for more)')
     parser.add_argument("--skip-if", help='ends the sentence "Skip it if ...", e.g. "you need wheels."')
@@ -93,6 +95,8 @@ def main():
         deal["note"] = args.note
     if args.brand:
         deal["brand"] = args.brand
+    if args.colour:
+        deal["colour"] = args.colour
     if args.best_for:
         deal["best_for"] = args.best_for
     if specs:

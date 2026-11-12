@@ -12,6 +12,7 @@
     ],
     "note": "A medium hard trolley from American Tourister with a 3-year global warranty.",
     "brand": "American Tourister",
+    "colour": "Lime and turquoise",
     "best_for": [
       "Week-long trips",
       "Check-in bag"
@@ -40,6 +41,7 @@
     ],
     "note": "A big, tough check-in case from Safari with thousands of ratings and a 3-year warranty.",
     "brand": "Safari",
+    "colour": "Gunmetal",
     "best_for": [
       "Long trips",
       "Family travel"
@@ -68,6 +70,7 @@
     ],
     "note": "A soft, expandable small trolley from a big brand with lots of happy buyers.",
     "brand": "American Tourister",
+    "colour": "Wine red",
     "best_for": [
       "Short trips",
       "Train journeys"
@@ -96,6 +99,7 @@
     ],
     "note": "A simple, light duffle from a VIP brand for short trips and train journeys.",
     "brand": "Aristocrat",
+    "colour": "Navy blue",
     "best_for": [
       "Weekend trips",
       "Train journeys"
@@ -124,6 +128,7 @@
     ],
     "note": "A roomy soft duffle from Skybags for short trips and train journeys.",
     "brand": "Skybags",
+    "colour": "Blue",
     "best_for": [
       "Weekend trips",
       "Train journeys"
@@ -152,6 +157,7 @@
     ],
     "note": "A light 28 litre bag with a rain cover, good for college or office with a big laptop.",
     "brand": "American Tourister",
+    "colour": "Black",
     "best_for": [
       "College",
       "17-inch laptops"
@@ -180,6 +186,7 @@
     ],
     "note": "A big check-in bag for long trips, with a TSA lock and a long warranty.",
     "brand": "uppercase",
+    "colour": "Green",
     "best_for": [
       "Long trips",
       "Flights abroad"
@@ -208,6 +215,7 @@
     ],
     "note": "A deep medium bag with zip mesh sections on both sides, for one or two week trips.",
     "brand": "Mokobara",
+    "colour": "Olive",
     "best_for": [
       "About a week",
       "Family trips"
@@ -236,6 +244,7 @@
     ],
     "note": "A roomy backpack for college or short trips, with a rain cover for the monsoon.",
     "brand": "Safari",
+    "colour": "Black",
     "best_for": [
       "College",
       "Travel"
@@ -264,6 +273,7 @@
     ],
     "note": "A smart everyday backpack for office or college, with a padded 15.6 inch laptop sleeve.",
     "brand": "Gear",
+    "colour": "Teal and brown",
     "best_for": [
       "Office",
       "College"
@@ -292,6 +302,7 @@
     ],
     "note": "A light everyday backpack for college or office, with a rain cover included.",
     "brand": "Safari",
+    "colour": "Dark grey",
     "best_for": [
       "College",
       "Office"
@@ -321,6 +332,7 @@
     ],
     "note": "A roomy medium hard bag for a trip of about a week, with a long warranty.",
     "brand": "American Tourister",
+    "colour": "Black",
     "best_for": [
       "About a week",
       "Family trips"
@@ -350,6 +362,7 @@
     ],
     "note": "A big, light everyday backpack for college, with room for books and daily gear.",
     "brand": "American Tourister",
+    "colour": "Olive",
     "best_for": [
       "College",
       "Daily use"
@@ -378,6 +391,7 @@
     ],
     "note": "A light soft duffle for short trips or the gym, with a long warranty.",
     "brand": "uppercase",
+    "colour": "Blue",
     "best_for": [
       "Weekend trips",
       "Gym"
@@ -406,6 +420,7 @@
     ],
     "note": "A light hard-shell bag from a known brand, with smooth wheels and a long warranty.",
     "brand": "American Tourister",
+    "colour": "Black",
     "best_for": [
       "Short trips",
       "Train trips"
@@ -434,6 +449,7 @@
     ],
     "note": "Three sizes in one purchase, for families who travel often.",
     "brand": "Safari",
+    "colour": "Dusk green",
     "best_for": [
       "Families",
       "Gifts"
@@ -461,6 +477,7 @@
     ],
     "note": "A hard polycarbonate shell in a large size that's listed within 158 cm.",
     "brand": "Safari",
+    "colour": "Silver",
     "best_for": [
       "Long trips",
       "Families"
@@ -489,6 +506,7 @@
     ],
     "note": "A tall bag with a lot of room, listed at exactly 158 cm in total and only 3.5 kg.",
     "brand": "American Tourister",
+    "colour": "Sea blue",
     "best_for": [
       "Long trips",
       "Flights abroad"
@@ -517,6 +535,7 @@
     ],
     "note": "A large bag that stays well inside the usual 158 cm airline limit, and it's light too.",
     "brand": "Skybags",
+    "colour": "Beige",
     "best_for": [
       "Long trips",
       "Flights"
@@ -545,6 +564,7 @@
     ],
     "note": "The lightest medium trolley we found, so it suits 15 kg fares.",
     "brand": "Kamiliant",
+    "colour": "Black",
     "best_for": [
       "15 kg fares",
       "About a week"
@@ -573,6 +593,7 @@
     ],
     "note": "A light medium bag: at 2.9 kg, more of your baggage allowance goes to your things.",
     "brand": "American Tourister",
+    "colour": "Sea blue",
     "best_for": [
       "About a week",
       "Flights abroad"
@@ -601,6 +622,7 @@
     ],
     "note": "A big, light backpack for weekend trips, with an anti-theft pocket for your valuables.",
     "brand": "Fur Jaden",
+    "colour": "Dark grey",
     "best_for": [
       "Weekend trips",
       "Travel"
@@ -629,6 +651,7 @@
     ],
     "note": "A light, colourful hard-shell bag from a known brand, with a long warranty.",
     "brand": "American Tourister",
+    "colour": "Coral and teal",
     "best_for": [
       "Short trips",
       "Train trips"
@@ -657,6 +680,7 @@
     ],
     "note": "A strong hard-shell bag for short trips, with quiet wheels and a long warranty.",
     "brand": "Mokobara",
+    "colour": "Black and yellow",
     "best_for": [
       "Short trips",
       "Flights"
@@ -685,6 +709,7 @@
     ],
     "note": "A simple thermal set to wear under your clothes on cold days.",
     "brand": "Lux Cottswool",
+    "colour": "Black",
     "best_for": [
       "Hill trips",
       "Men"
@@ -711,6 +736,7 @@
     ],
     "note": "A full thermal set for cold nights and sightseeing days.",
     "brand": "Lux Cottswool",
+    "colour": "Black",
     "best_for": [
       "Hill trips",
       "Women"
@@ -737,6 +763,7 @@
     ],
     "note": "A padded jacket to wear over a sweater and thermals.",
     "brand": "Boldfit",
+    "colour": "Charcoal black",
     "best_for": [
       "Hill trips",
       "Men"
@@ -763,6 +790,7 @@
     ],
     "note": "A light quilted jacket to wear over a sweater and thermals.",
     "brand": "Symbol",
+    "colour": "Black",
     "best_for": [
       "Hill trips",
       "Women"
@@ -789,6 +817,7 @@
     ],
     "note": "Covers your head, neck and hands with one purchase.",
     "brand": "Gajraj",
+    "colour": "Grey",
     "best_for": [
       "Hill trips",
       "Snow"
@@ -814,6 +843,7 @@
     ],
     "note": "Light polarized sunglasses for beach glare and bright snow.",
     "brand": "Vincent Chase",
+    "colour": "Black frame, grey lenses",
     "best_for": [
       "Beach trips",
       "Snow"
@@ -840,6 +870,7 @@
     ],
     "note": "Fits over your bag as well as you, and packs small.",
     "brand": "Rocksport",
+    "colour": "Army green",
     "best_for": [
       "Rain",
       "Monsoon trips"
@@ -865,6 +896,7 @@
     ],
     "note": "Everyday strap sandals for warm places.",
     "brand": "Sparx",
+    "colour": "Blue grey",
     "best_for": [
       "Warm places",
       "Daily use"
@@ -892,6 +924,7 @@
     ],
     "note": "Slip-on walking shoes for airports, forts and long city days.",
     "brand": "Campus",
+    "colour": "Blue and grey",
     "best_for": [
       "Sightseeing",
       "Airports"
@@ -918,6 +951,7 @@
     ],
     "note": "Easy shoes for long sightseeing days, and quick to take off at security.",
     "brand": "Sparx",
+    "colour": "Grey and pink",
     "best_for": [
       "Sightseeing",
       "Airports"
@@ -946,6 +980,7 @@
     ],
     "note": "Warm boots for snow trips, if you don't need a technical hiking shoe.",
     "brand": "Bacca Bucci",
+    "colour": "Black",
     "best_for": [
       "Snow",
       "Hill trips"
@@ -973,6 +1008,7 @@
     ],
     "note": "An outdoor-brand shoe for wet trails, slush and snowy town roads.",
     "brand": "Columbia",
+    "colour": "Brown",
     "best_for": [
       "Hill trips",
       "Rain"
@@ -999,6 +1035,7 @@
     ],
     "note": "An outdoor-brand shoe for wet trails, slush and snowy town roads.",
     "brand": "Columbia",
+    "colour": "Black and deep red",
     "best_for": [
       "Hill trips",
       "Rain"
@@ -1026,6 +1063,7 @@
     ],
     "note": "Simple flip-flops for the beach and for hotel bathrooms.",
     "brand": "YOHO",
+    "colour": "Beige",
     "best_for": [
       "Beach trips",
       "Hotels"
@@ -1236,6 +1274,7 @@
     ],
     "note": "A work bag that can also be your personal bag on a flight.",
     "brand": "Zouk",
+    "colour": "Multicolour mandala print",
     "best_for": [
       "Office",
       "Flights"
@@ -1262,6 +1301,7 @@
     ],
     "note": "An everyday handbag with enough pockets to find things quickly.",
     "brand": "Lavie",
+    "colour": "Black",
     "best_for": [
       "Daily use",
       "Gifts"
@@ -1289,6 +1329,7 @@
     ],
     "note": "The lightest bag in this list, at about 140 g.",
     "brand": "Lyrovo",
+    "colour": "Beige",
     "best_for": [
       "Sightseeing",
       "Light packing"
@@ -1316,6 +1357,7 @@
     ],
     "note": "A small sling for men or women, to keep travel documents close to you.",
     "brand": "Storite",
+    "colour": "Dark grey",
     "best_for": [
       "Airports",
       "Sightseeing"
@@ -1343,6 +1385,7 @@
     ],
     "note": "A light crossbody bag that also looks smart enough for dinner.",
     "brand": "Zouk",
+    "colour": "Multicolour mandala print",
     "best_for": [
       "Sightseeing",
       "Daily use"
@@ -1369,6 +1412,7 @@
     ],
     "note": "A small, neat satchel for work and for gifting.",
     "brand": "Lavie",
+    "colour": "Mint",
     "best_for": [
       "Office",
       "Gifts"
@@ -1396,6 +1440,7 @@
     ],
     "note": "A small leather sling for men who want something neater than a nylon bag.",
     "brand": "WildHorn",
+    "colour": "Dark brown",
     "best_for": [
       "Men",
       "Daily use"
@@ -1422,6 +1467,7 @@
     ],
     "note": "A well-organised office and travel bag, with many pockets and a luggage sleeve.",
     "brand": "Mokobara",
+    "colour": "Black",
     "best_for": [
       "Office",
       "Travel"
@@ -1450,6 +1496,7 @@
     ],
     "note": "One set for two people, or for short and long trips, good for wedding season.",
     "brand": "Aristocrat",
+    "colour": "Champagne",
     "best_for": [
       "Couples",
       "Honeymoon"
@@ -1478,6 +1525,7 @@
     ],
     "note": "A bright hard-shell bag that is easy to spot, with a long warranty for short trips.",
     "brand": "Safari",
+    "colour": "Multicolour print",
     "best_for": [
       "Short trips",
       "Train trips"
@@ -1506,6 +1554,7 @@
     ],
     "note": "Keeps your phone, cash and hotel key dry on the beach, on boat trips and in the rain.",
     "brand": "Spigen",
+    "colour": "Clear",
     "best_for": [
       "Beach trips",
       "Rain"
@@ -1533,6 +1582,7 @@
     ],
     "note": "A simple, classic Titan for office wear and a safe wedding-season gift.",
     "brand": "Titan",
+    "colour": "Silver dial, brown strap",
     "best_for": [
       "Gifting",
       "Office"
@@ -1560,6 +1610,7 @@
     ],
     "note": "A light office and travel bag with a hidden back pocket for your wallet and passport.",
     "brand": "Swiss Military",
+    "colour": "Black",
     "best_for": [
       "Office",
       "Travel"
@@ -1588,6 +1639,7 @@
     ],
     "note": "A light hard-shell cabin bag whose slim 20 cm depth fits Air India's 55 x 40 x 20 cm limit.",
     "brand": "American Tourister",
+    "colour": "Olive",
     "best_for": [
       "Flights",
       "Air India"
@@ -1616,6 +1668,7 @@
     ],
     "note": "One of the few hard cabin trolleys listed within 55 x 35 x 25 cm, so it fits IndiGo, Akasa Air and SpiceJet's Boeing limit.",
     "brand": "Safari",
+    "colour": "Vanilla",
     "best_for": [
       "Flights",
       "Work trips"
@@ -1645,6 +1698,7 @@
     ],
     "note": "A smart-looking bag for a 3–4 day trip.",
     "brand": "Fur Jaden",
+    "colour": "Brown",
     "best_for": [
       "Honeymoon",
       "Weekend trips"
@@ -1672,6 +1726,7 @@
     ],
     "note": "A dressy watch that works for wedding functions and everyday wear.",
     "brand": "Titan",
+    "colour": "Rose gold, mother of pearl dial",
     "best_for": [
       "Bride",
       "Gift"
@@ -1697,6 +1752,7 @@
     ],
     "note": "A simple, classic pair that suits both office and occasions.",
     "brand": "Timex",
+    "colour": "Silver dial, two-tone strap",
     "best_for": [
       "Couples",
       "Anniversary"
@@ -1722,6 +1778,7 @@
     ],
     "note": "The same idea as Titan Bandhan from Titan's value brand.",
     "brand": "Sonata",
+    "colour": "Blue dial, silver strap",
     "best_for": [
       "Couples",
       "Value gift"
@@ -1747,6 +1804,7 @@
     ],
     "note": "A classic wedding gift from India's best-known watch brand.",
     "brand": "Titan",
+    "colour": "White dial, silver and rose gold strap",
     "best_for": [
       "Couples",
       "Wedding gift"
@@ -1773,6 +1831,7 @@
     "added_at": "2026-10-23T18:00:00+05:30",
     "telegram_posted_at": "2026-11-02T22:03:10+05:30",
     "brand": "Safari",
+    "colour": "Black",
     "best_for": [
       "College",
       "Monsoon"
@@ -1801,6 +1860,7 @@
     "added_at": "2026-10-23T17:55:00+05:30",
     "telegram_posted_at": "2026-11-02T21:54:59+05:30",
     "brand": "Safari",
+    "colour": "Navy",
     "best_for": [
       "Domestic flights"
     ],
@@ -1828,6 +1888,7 @@
     "added_at": "2026-10-23T17:50:00+05:30",
     "telegram_posted_at": "2026-11-02T22:03:10+05:30",
     "brand": "Titan",
+    "colour": "Black dial, silver strap",
     "best_for": [
       "Office",
       "Gift"
@@ -1853,6 +1914,7 @@
     "note": "Weigh your bag at home and avoid extra-baggage charges at the airport.",
     "added_at": "2026-10-23T17:45:00+05:30",
     "brand": "GoTrippin",
+    "colour": "Silver",
     "best_for": [
       "Frequent flyers"
     ],
@@ -1879,6 +1941,7 @@
     "note": "A good pick if you carry a big 17-inch laptop.",
     "added_at": "2026-10-23T17:40:00+05:30",
     "brand": "American Tourister",
+    "colour": "Black",
     "best_for": [
       "17-inch laptops"
     ],
@@ -1907,6 +1970,7 @@
     "note": "A tougher polycarbonate shell, good if you also fly abroad.",
     "added_at": "2026-10-23T17:35:00+05:30",
     "brand": "Safari",
+    "colour": "Gunmetal",
     "best_for": [
       "International trips"
     ],
@@ -1934,6 +1998,7 @@
     "note": "A simple, sporty everyday watch for men or women.",
     "added_at": "2026-10-23T17:30:00+05:30",
     "brand": "Fastrack",
+    "colour": "Black",
     "best_for": [
       "Everyday",
       "Unisex"
@@ -1959,6 +2024,7 @@
     "note": "A comfort-first backpack for long daily commutes.",
     "added_at": "2026-10-23T17:25:00+05:30",
     "brand": "Wesley",
+    "colour": "Charcoal black",
     "best_for": [
       "Long commutes"
     ],
@@ -1985,6 +2051,7 @@
     "note": "Fit more into a cabin bag and find things fast.",
     "added_at": "2026-10-23T17:20:00+05:30",
     "brand": "FLYNGO",
+    "colour": "Beige",
     "best_for": [
       "Packing light"
     ],
@@ -2003,6 +2070,7 @@
     "note": "Best for work travel: laptop and clothes in one bag.",
     "added_at": "2026-10-23T17:15:00+05:30",
     "brand": "American Tourister",
+    "colour": "Black",
     "best_for": [
       "Work trips"
     ],
@@ -2029,6 +2097,7 @@
     "note": "A bold dial and a longer warranty than most watches at this level.",
     "added_at": "2026-10-23T17:10:00+05:30",
     "brand": "Casio",
+    "colour": "Black dial, black strap",
     "best_for": [
       "Bold look"
     ],
@@ -2053,6 +2122,7 @@
     "note": "Works as an office bag and a weekend travel bag.",
     "added_at": "2026-10-23T17:05:00+05:30",
     "brand": "Safari",
+    "colour": "Olive",
     "best_for": [
       "Office + travel"
     ],
@@ -2080,6 +2150,7 @@
     "note": "Makes night buses, trains and flights more comfortable.",
     "added_at": "2026-10-23T17:00:00+05:30",
     "brand": "Amazon Basics",
+    "colour": "Black",
     "best_for": [
       "Night journeys"
     ],
@@ -2125,6 +2196,7 @@
     "note": "An elegant everyday watch and a safe gift choice.",
     "added_at": "2026-10-23T16:50:00+05:30",
     "brand": "Titan",
+    "colour": "Champagne dial, gold strap",
     "best_for": [
       "Women",
       "Gift"
@@ -2150,6 +2222,7 @@
     "note": "A slimmer, smarter-looking bag for the office.",
     "added_at": "2026-10-23T16:45:00+05:30",
     "brand": "Tommy Hilfiger",
+    "colour": "Black",
     "best_for": [
       "Office"
     ],
@@ -2175,6 +2248,7 @@
     "note": "A smart casual watch that goes with jeans or formals.",
     "added_at": "2026-10-23T16:40:00+05:30",
     "brand": "Timex",
+    "colour": "Blue dial, tan strap",
     "best_for": [
       "Smart casual"
     ],
@@ -2200,6 +2274,7 @@
     "note": "A plain, roomy medium bag for a trip of about a week.",
     "added_at": "2026-10-23T16:35:00+05:30",
     "brand": "Kamiliant",
+    "colour": "Slate grey",
     "best_for": [
       "About a week"
     ],
