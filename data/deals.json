@@ -437,7 +437,7 @@
     "deal_seen_at": "2026-11-10T09:41:00+05:30"
   },
   {
-    "asin": "B097BH9MD5",
+    "asin": "B097BHFQVS",
     "added_at": "2026-11-06T08:39:19+05:30",
     "title": "Safari Thorium Neo Set of 3 Trolley Bags (55, 66 and 77 cm)",
     "category": "luggage",
@@ -462,7 +462,10 @@
       "Lock": "3-digit combination",
       "Warranty": "3 years"
     },
-    "skip_if": "you worry about airline size limits: the large bag is listed at 164 cm, over the usual 158 cm."
+    "skip_if": "you worry about airline size limits: the large bag is listed at 164 cm, over the usual 158 cm.",
+    "old_asins": [
+      "B097BH9MD5"
+    ]
   },
   {
     "asin": "B097G7K6FZ",
@@ -2158,30 +2161,34 @@
     "deal_seen_at": "2026-11-03T10:08:00+05:30"
   },
   {
-    "asin": "B097GDKGHS",
-    "title": "Safari Pentagon Pro 65 cm Medium Check-in Trolley Bag",
+    "asin": "B097GR45SS",
+    "title": "Safari Pentagon Pro 66 cm Medium Check-in Trolley Bag",
     "category": "luggage",
     "highlights": [
       "Medium check-in size, good for week-long trips",
-      "Polypropylene hard shell, weighs about 3.4 kg",
-      "8 spinner wheels and a 3-digit combination lock",
-      "3-year international warranty"
+      "Polypropylene hard shell, 73 litres, weighs about 3.5 kg",
+      "8 spinner wheels and a combination lock",
+      "5-year international warranty (as listed)"
     ],
     "note": "Pairs well with the 55 cm cabin bag from the same range.",
     "added_at": "2026-10-23T16:55:00+05:30",
     "brand": "Safari",
+    "colour": "Luxury beige",
     "best_for": [
       "Week-long trips"
     ],
     "specs": {
-      "Size": "65 cm (medium)",
-      "Capacity": "Not listed",
-      "Weight": "3.4 kg",
+      "Size": "66 x 47 x 28 cm (141 cm total)",
+      "Capacity": "73 L",
+      "Weight": "3.5 kg",
       "Shell": "Polypropylene",
-      "Lock": "3-digit combination",
-      "Warranty": "3 years"
+      "Lock": "Combination",
+      "Warranty": "5 years, international (listing)"
     },
-    "skip_if": "you only travel with cabin baggage."
+    "skip_if": "you only travel with cabin baggage.",
+    "old_asins": [
+      "B097GDKGHS"
+    ]
   },
   {
     "asin": "B07CR1JQBY",

@@ -76,7 +76,7 @@ American Tourister's cabin bags are lighter. That matters when the limit is 7 kg
 
 **Medium, Safari:**
 
-[[pick:B097GDKGHS]]
+[[pick:B097GR45SS]]
 
 **Large, American Tourister:**
 
@@ -88,7 +88,7 @@ American Tourister's cabin bags are lighter. That matters when the limit is 7 kg
 
 ### Compare them
 
-[[compare:B0F5HNW8D1,B097GDKGHS,B0F5HLYQK3,B097G7K6FZ]]
+[[compare:B0F5HNW8D1,B097GR45SS,B0F5HLYQK3,B097G7K6FZ]]
 
 Looking at other brands too? See [trolley bag brands compared](best-trolley-bag-brands-india.html).
 

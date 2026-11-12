@@ -2206,6 +2206,17 @@ def build():
         pages.append(write(path, page(cfg, d["title"], desc, body, 1, path, [crumbs], share_image=share_image(d["asin"]))))
         lastmod[path] = d["added_at"][:10]
 
+    # When Amazon changes a listing we move the pick to the new ASIN ("old_asins" in deals.json). The old address
+    # keeps a plain page with a link to the new one: no auto-redirect, kept out of the sitemap and search results.
+    for d in deals:
+        for old in d.get("old_asins", []):
+            path = "picks/%s.html" % old
+            body = (f'<div class="wrap"><article class="prose"><h1>This pick has moved</h1>'
+                    f'<p>Amazon changed the listing we linked to, so this pick now has a new page:</p>'
+                    f'<p><a href="{d["asin"]}.html">{e(d["title"])}</a></p></article></div>')
+            write(path, page(cfg, "This pick has moved", "This pick now has a new page: %s." % d["title"], body, 1, path,
+                             robots="noindex"))
+
     # Category pages
     for slug, cat in cfg["categories"].items():
         items = [d for d in deals if d["category"] == slug]
@@ -2378,6 +2389,7 @@ def build():
             (DOCS / (cfg["indexnow_key"] + ".txt")).write_text(cfg["indexnow_key"], encoding="utf-8")
 
     # Self-check: Amazon requires the disclosure everywhere, and no page may auto-redirect.
+    moved = {old for d in deals for old in d.get("old_asins", [])}
     for html_file in DOCS.rglob("*.html"):
         text = html_file.read_text(encoding="utf-8")
         if DISCLOSURE not in text:
@@ -2386,7 +2398,8 @@ def build():
             sys.exit("Error: auto-redirect found on %s" % html_file)
         if html_file.parent.name == "picks" and "assets/photos/" in text:
             sys.exit("Error: a stock photo is on pick page %s, where it could pass as the product" % html_file)
-        if html_file.parent.name == "picks" and 'src="../assets/picks/%s.svg"' % html_file.stem not in text:
+        if (html_file.parent.name == "picks" and html_file.stem not in moved
+                and 'src="../assets/picks/%s.svg"' % html_file.stem not in text):
             sys.exit("Error: pick page %s doesn't show its drawing" % html_file)
     # Our drawings may only be our own vector shapes: no embedded or linked pictures, and always the note.
     for svg_file in (DOCS / "assets" / "picks").glob("*.svg"):

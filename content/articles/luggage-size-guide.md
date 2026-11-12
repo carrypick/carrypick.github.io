@@ -48,11 +48,11 @@ Choosing a hard shell? See [polycarbonate vs polypropylene](polycarbonate-vs-pol
 
 **Medium check-in (about a week):**
 
-[[pick:B097GDKGHS]]
+[[pick:B097GR45SS]]
 
 **All sizes in one set (families):**
 
-[[pick:B097BH9MD5]]
+[[pick:B097BHFQVS]]
 
 **Weekend duffle (1–3 days, trains, road trips):**
 
@@ -60,7 +60,7 @@ Choosing a hard shell? See [polycarbonate vs polypropylene](polycarbonate-vs-pol
 
 ### Compare them
 
-[[compare:B097BG6DX1,B097GCJFW2,B097GDKGHS,B097BH9MD5,B07M9BRCQ5]]
+[[compare:B097BG6DX1,B097GCJFW2,B097GR45SS,B097BHFQVS,B07M9BRCQ5]]
 
 Prefer to buy from a brand's own store? See [VIP trolley bags: sizes, warranty and returns](vip-bags-guide.html).
 

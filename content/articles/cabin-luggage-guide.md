@@ -99,11 +99,11 @@ For check-in luggage, size depends on trip length:
 - **Medium (about 65 cm):** about a week of clothes. Easy to keep under a 15 kg domestic limit.
 - **Large (75 cm and above):** long holidays and international trips with bigger allowances. A full large bag can easily cross 15 kg, so weigh it.
 
-[[pick:B097GDKGHS]]
+[[pick:B097GR45SS]]
 
 A set of three sizes suits families who travel often:
 
-[[pick:B097BH9MD5]]
+[[pick:B097BHFQVS]]
 
 ## Pack smarter
 

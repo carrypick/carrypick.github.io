@@ -58,11 +58,11 @@ A medium bag has room for more than 15 kg, especially with shoes and winter clot
 
 **A popular medium size from Safari:**
 
-[[pick:B097GDKGHS]]
+[[pick:B097GR45SS]]
 
 ### Compare them
 
-[[compare:B0GNSKLF5Z,B0F5HNW8D1,B097GDKGHS]]
+[[compare:B0GNSKLF5Z,B0F5HNW8D1,B097GR45SS]]
 
 ## On a train
 

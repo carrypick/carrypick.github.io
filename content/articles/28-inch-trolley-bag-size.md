@@ -76,7 +76,7 @@ Listings can be wrong. Other colours of the Liftoff+ showed sizes that can't be 
 
 Want all three sizes? This set has a cabin, medium and large bag, but its large bag is listed at 164 cm:
 
-[[pick:B097BH9MD5]]
+[[pick:B097BHFQVS]]
 
 Prefer to buy from a brand's own store? See [VIP trolley bags: sizes, warranty and returns](vip-bags-guide.html).
 

@@ -76,7 +76,7 @@ Here are gift ideas that work, grouped by who you're buying for.
 
 A three-piece set covers every trip, from a weekend away to a long holiday. It's a big, practical gift, good to give as a group of friends or family.
 
-[[pick:B097BH9MD5]]
+[[pick:B097BHFQVS]]
 
 Looking for a New Year present instead? See our [New Year gift ideas](new-year-gift-ideas.html).
 
