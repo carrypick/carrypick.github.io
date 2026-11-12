@@ -1,5 +1,61 @@
 [
   {
+    "asin": "B0GPNHYQV4",
+    "added_at": "2026-11-12T09:09:47+05:30",
+    "title": "American Tourister Qubiz 68 cm Medium Check-in Trolley",
+    "category": "luggage",
+    "highlights": [
+      "68.5 litres, medium check-in size",
+      "Polypropylene hard shell",
+      "8 spinner wheels",
+      "Built-in combination lock"
+    ],
+    "note": "A medium hard trolley from American Tourister with a 3-year global warranty.",
+    "brand": "American Tourister",
+    "best_for": [
+      "Week-long trips",
+      "Check-in bag"
+    ],
+    "specs": {
+      "Size": "46 x 28 x 68 cm",
+      "Capacity": "68.5 L",
+      "Weight": "3.2 kg",
+      "Material": "Polypropylene (hard)",
+      "Wheels": "8 spinner",
+      "Warranty": "3 years global"
+    },
+    "skip_if": "you want a cabin bag: at 68 cm it must go in the check-in hold.",
+    "deal_seen_at": "2026-11-12T09:09:00+05:30"
+  },
+  {
+    "asin": "B097GSHFK2",
+    "added_at": "2026-11-12T09:09:47+05:30",
+    "title": "Safari Thorium Royale 77 cm Large Check-in Trolley, Polycarbonate",
+    "category": "luggage",
+    "highlights": [
+      "120 litres for long trips",
+      "Polycarbonate hard shell",
+      "TSA-approved lock",
+      "8 spinner wheels and a wet pouch inside"
+    ],
+    "note": "A big, tough check-in case from Safari with thousands of ratings and a 3-year warranty.",
+    "brand": "Safari",
+    "best_for": [
+      "Long trips",
+      "Family travel"
+    ],
+    "specs": {
+      "Size": "56 x 31 x 77 cm",
+      "Capacity": "120 L",
+      "Weight": "4.5 kg",
+      "Material": "Polycarbonate (hard)",
+      "Wheels": "8 spinner",
+      "Warranty": "3 years (manufacturing defects)"
+    },
+    "skip_if": "you fly IndiGo: at 56 + 31 + 77 = 164 cm it is over its 158 cm limit for one checked bag, and it weighs 4.5 kg empty.",
+    "deal_seen_at": "2026-11-12T09:08:00+05:30"
+  },
+  {
     "asin": "B073XL1C3W",
     "added_at": "2026-11-11T09:08:56+05:30",
     "title": "American Tourister Jamaica 58 cm Soft Trolley Bag, 48 L",
@@ -137,7 +193,7 @@
       "Warranty": "5 years or more (listing)"
     },
     "skip_if": "you fly IndiGo: 159.5 cm in total is just over its 158 cm limit for a checked bag.",
-    "deal_seen_at": "2026-11-09T09:10:00+05:30"
+    "deal_seen_at": "2026-11-12T09:09:00+05:30"
   },
   {
     "asin": "B0DN1MNKZ4",
