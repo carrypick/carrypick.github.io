@@ -1,5 +1,92 @@
 [
   {
+    "asin": "B0CPFQC55D",
+    "added_at": "2026-11-14T09:09:08+05:30",
+    "title": "Wesley Luxur 45L Overnighter Travel Laptop Backpack",
+    "category": "backpacks",
+    "highlights": [
+      "45 litres with 4 zip compartments",
+      "Laptop sleeve up to 16 inches",
+      "Luggage strap to slide onto a trolley handle",
+      "Metal YKK two-way zippers"
+    ],
+    "note": "A big, well-rated travel backpack from Wesley that can replace a small bag for 3–5 day trips.",
+    "brand": "Wesley",
+    "colour": "Charcoal Black",
+    "best_for": [
+      "Weekend trips",
+      "Office"
+    ],
+    "specs": {
+      "Capacity": "45 L",
+      "Size": "47 x 34 x 23 cm",
+      "Weight": "800 g",
+      "Material": "Polyester, water repellent",
+      "Laptop sleeve": "Up to 16 inches",
+      "Warranty": "Not listed"
+    },
+    "skip_if": "you want a small daily bag for college: at 45 litres it is large and bulky.",
+    "deal_seen_at": "2026-11-14T09:08:00+05:30"
+  },
+  {
+    "asin": "B014MN9RCM",
+    "added_at": "2026-11-14T09:09:08+05:30",
+    "title": "Invicta Pro Diver 8932OB Black Dial Men's Watch, Steel Strap",
+    "category": "watches",
+    "highlights": [
+      "Black dial, quartz movement",
+      "Water resistant to 200 metres",
+      "Stainless steel case and strap",
+      "Fold-over clasp with safety lock"
+    ],
+    "note": "A classic diver-style steel watch from Invicta with thousands of ratings and 200 m water resistance.",
+    "brand": "Invicta",
+    "colour": "Silver",
+    "best_for": [
+      "Gift for him",
+      "Everyday wear"
+    ],
+    "specs": {
+      "Case size": "37.5 mm",
+      "Case thickness": "11 mm",
+      "Water resistance": "200 m",
+      "Movement": "Quartz",
+      "Glass": "Mineral crystal",
+      "Warranty": "Not listed"
+    },
+    "skip_if": "you have a large wrist and like big watches: the case is only 37.5 mm wide.",
+    "deal_seen_at": "2026-11-14T09:08:00+05:30"
+  },
+  {
+    "asin": "B0D9NZVJQ4",
+    "added_at": "2026-11-14T09:09:08+05:30",
+    "title": "Skybags Trooper 55 cm Cabin Trolley, Hard ABS Shell",
+    "category": "luggage",
+    "highlights": [
+      "31 litres, cabin size (55 cm)",
+      "Light ABS hard shell, 2.45 kg",
+      "4 spinner wheels",
+      "3-digit combination lock and compression straps"
+    ],
+    "note": "A light, printed cabin trolley from Skybags with over 22,000 ratings and a 5-year international warranty.",
+    "brand": "Skybags",
+    "colour": "White & Yellow",
+    "best_for": [
+      "Short trips",
+      "Cabin bag"
+    ],
+    "specs": {
+      "Size": "38 x 21 x 55 cm",
+      "Capacity": "31 L",
+      "Weight": "2.45 kg",
+      "Material": "ABS (hard)",
+      "Lock": "3-digit combination lock",
+      "Warranty": "5 years international"
+    },
+    "skip_if": "your airline checks each side strictly: at 38 cm wide it is over the 35 cm width limit of IndiGo, Akasa and SpiceJet, even though the total is 114 cm.",
+    "deal_seen_at": "2026-11-14T09:07:00+05:30"
+  },
+  {
     "asin": "B0CV7NC8JB",
     "added_at": "2026-11-13T09:10:43+05:30",
     "title": "uppercase Campus 04 33L Backpack, Double Compartment",
@@ -2042,7 +2129,7 @@
       "Warranty": "3 years"
     },
     "skip_if": "you only fly within India. A polypropylene bag like the Pentagon Pro is enough.",
-    "deal_seen_at": "2026-11-13T09:09:00+05:30"
+    "deal_seen_at": "2026-11-14T09:08:00+05:30"
   },
   {
     "asin": "B099WNYHY2",
