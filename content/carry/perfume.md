@@ -18,7 +18,7 @@ So on IndiGo, put every bottle of perfume, attar and deo spray in your check-in 
 
 - Each bottle must be **100 ml or less**. A 150 ml bottle that is half empty still isn't allowed. The size printed on the bottle counts, not what's left inside (Air India).
 - All your liquids, creams and gels go in **one clear, resealable bag of up to 1 litre**. That includes perfume, deo spray, toothpaste, face wash and sunscreen.
-- Take the clear bag out of your cabin bag at the security check.
+- Take the clear bag out of your cabin bag at the security check. See our [100 ml rule page](liquids.html) for what counts as a liquid.
 
 Air India's list of liquids names perfumes, deodorants and other sprays, so a deo spray follows exactly the same rule as perfume.
 

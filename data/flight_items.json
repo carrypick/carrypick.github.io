@@ -1,5 +1,5 @@
 {
- "_note": "'Can I carry it on a flight?' (baggage/can-i-carry.html). States: yes, no, conditional (allowed with limits), unknown (not stated on the official pages we checked). Key rules checked by hand on 3 Nov 2026 on Kannur Airport's BCAS-based list and Akasa Air's conditions of carriage. Re-check every 3 months. 10 Nov 2026: items with 'rechecked' were checked again on IndiGo's and Air India's official lists and Akasa Air's conditions of carriage; 'cabin_short' and 'checked_short' are the direct answers on that item's own page (content/carry/*.md).",
+ "_note": "'Can I carry it on a flight?' (baggage/can-i-carry.html). States: yes, no, conditional (allowed with limits), unknown (not stated on the official pages we checked). Key rules checked by hand on 3 Nov 2026 on Kannur Airport's BCAS-based list and Akasa Air's conditions of carriage. Re-check every 3 months. 10 Nov 2026: items with 'rechecked' were checked again on IndiGo's and Air India's official lists and Akasa Air's conditions of carriage; 'cabin_short' and 'checked_short' are the direct answers on that item's own page (content/carry/*.md). 15 Nov 2026: more items rechecked on the same lists plus SpiceJet's terms and the AAI list; 'rechecked' shows which. New rows: Cigarettes, Nail cutter, Coconut, Dry fruits, Honey, Hair dryer, Hair straightener.",
  "checked": "2026-11-03",
  "key_rules": [
   "Power banks go only in your cabin bag. Keep them with you, not in the overhead bin, and don't use or charge them during the flight.",
@@ -94,6 +94,33 @@
      "checked_short": "Yes, switched fully off and protected so it can't turn on in the bag."
     },
     {
+     "item": "Hair dryer",
+     "cabin": "yes",
+     "checked": "yes",
+     "source": "https://www.goindigo.in/baggage/dangerous-goods-policy.html",
+     "rechecked": "2026-11-15",
+     "rule": "Allowed in both bags (IndiGo). Hair curlers that run on gas are banned in any bag (Air India).",
+     "also": [
+      "hairdryer",
+      "blow dryer"
+     ],
+     "cabin_short": "Yes. IndiGo's list allows a hair dryer in your cabin bag.",
+     "checked_short": "Yes. IndiGo's list allows it in check-in too."
+    },
+    {
+     "item": "Hair straightener",
+     "cabin": "unknown",
+     "checked": "unknown",
+     "source": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html",
+     "rechecked": "2026-11-15",
+     "rule": "Not named on IndiGo's, Air India's or Akasa Air's lists. Air India bans hair curlers that run on gas in any bag. Ask your airline about cordless (battery) straighteners.",
+     "also": [
+      "straightener",
+      "hair curler",
+      "curling iron"
+     ]
+    },
+    {
      "item": "Smart bag with a fixed battery",
      "cabin": "no",
      "checked": "no",
@@ -145,7 +172,7 @@
      "cabin": "conditional",
      "checked": "yes",
      "rule": "Cabin bag: each container 100 ml or less, all in one clear, resealable bag of up to 1 litre, shown separately at security. Anything bigger goes in check-in.",
-     "source": "https://kannurairport.aero/corporate/security",
+     "source": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html",
      "also": [
       "shampoo",
       "toothpaste",
@@ -154,8 +181,15 @@
       "water",
       "juice",
       "gel",
-      "oil"
-     ]
+      "oil",
+      "100 ml",
+      "water bottle",
+      "face wash",
+      "lip balm"
+     ],
+     "rechecked": "2026-11-15",
+     "cabin_short": "Only in containers of 100 ml or less, all inside one clear, resealable 1-litre bag. A bigger bottle isn't allowed, even if it's half empty.",
+     "checked_short": "Yes. Bigger bottles go in check-in. Toiletry sprays: up to 500 ml a can and 2 litres in total."
     },
     {
      "item": "Perfume",
@@ -342,6 +376,40 @@
      "cabin_short": "Yes for dry sweets, snacks and biscuits. No oily, messy or strong-smelling food, and sweets in syrup count as liquid.",
      "checked_short": "Yes for dry sweets and food packed so it can't leak. IndiGo doesn't accept oily food, even in check-in.",
      "rechecked": "2026-11-10"
+    },
+    {
+     "item": "Dry fruits",
+     "cabin": "yes",
+     "checked": "yes",
+     "source": "https://www.goindigo.in/baggage/dangerous-goods-policy.html",
+     "rechecked": "2026-11-15",
+     "rule": "Allowed in both bags (IndiGo). Dry coconut (copra) is the exception: it's banned in both bags.",
+     "also": [
+      "dry fruit",
+      "dryfruits",
+      "kaju",
+      "badam",
+      "kishmish",
+      "akhrot",
+      "pista",
+      "cashew",
+      "almonds",
+      "raisins"
+     ],
+     "cabin_short": "Yes. IndiGo's list allows dry fruits in your cabin bag.",
+     "checked_short": "Yes, but not dry coconut (copra), which is banned in both bags."
+    },
+    {
+     "item": "Honey",
+     "cabin": "conditional",
+     "checked": "conditional",
+     "source": "https://www.goindigo.in/baggage/dangerous-goods-policy.html",
+     "rechecked": "2026-11-15",
+     "rule": "Up to 100 ml in the cabin, inside your clear liquids bag. In check-in, sealed and packed properly (IndiGo).",
+     "also": [
+      "shahad",
+      "madhu"
+     ]
     },
     {
      "item": "Spice powders (chilli, masala)",
