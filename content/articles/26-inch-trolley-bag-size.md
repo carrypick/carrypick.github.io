@@ -47,7 +47,7 @@ Medium. In India, trolleys come in three main sizes:
 | Medium | 65–69 cm | About 26 | 5–8 days |
 | Large | 75–80 cm | About 30 | 8–12 days, families |
 
-A 26 inch bag is too tall for the cabin: Indian airlines allow about 55 cm. For the cabin, see our [20 inch trolley guide](20-inch-trolley-bag-size.html).
+A 26 inch bag is too tall for the cabin: Indian airlines allow about 55 cm. For the cabin, see our [22 inch trolley guide](22-inch-trolley-bag-size.html).
 
 ## How many kg can a 26 inch trolley hold?
 

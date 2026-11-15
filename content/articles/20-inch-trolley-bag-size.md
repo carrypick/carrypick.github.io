@@ -20,7 +20,7 @@ A 20 inch trolley bag is **50.8 cm** tall. But in India, the number on a listing
 [[top:B097JLKP8X|For IndiGo and Akasa Air|Listed at 55 x 35 x 25 cm, within the cabin limit of IndiGo, Akasa Air and SpiceJet's Boeing planes. 2.7 kg empty.]]
 [[top:B0F5HGLC5Q|For Air India|Only 20 cm deep, so by its listed size it fits Air India's 55 x 40 x 20 cm limit. 2.2 kg empty.]]
 
-Need other sizes? See our [luggage size chart](../baggage/luggage-size-chart.html). How much does each size hold? See [trolley bag capacity in kg and litres](trolley-bag-capacity-kg-litres.html).
+Need other sizes? See our [luggage size chart](../baggage/luggage-size-chart.html) or the [22 inch trolley guide](22-inch-trolley-bag-size.html). How much does each size hold? See [trolley bag capacity in kg and litres](trolley-bag-capacity-kg-litres.html).
 
 ## "20 inch" on the listing and the real size
 

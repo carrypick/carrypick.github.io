@@ -1,5 +1,34 @@
 [
   {
+    "asin": "B0F9FMQZWN",
+    "added_at": "2026-11-15T22:03:37+05:30",
+    "title": "Safari Astra Neo 56 cm Cabin Trolley, Polycarbonate",
+    "category": "luggage",
+    "highlights": [
+      "Listed at 56 x 36 x 23 cm, 115 cm in total: exactly Air India Express's cabin limit",
+      "Only 2.3 kg empty, leaving 4.7 kg of a 7 kg cabin allowance",
+      "Hard polycarbonate shell, 42 litres",
+      "8 spinner wheels, 3-digit combination lock, 3-year warranty"
+    ],
+    "note": "A light 22 inch class cabin trolley that fits Air India Express by its listed size.",
+    "brand": "Safari",
+    "colour": "Dark Champagne",
+    "best_for": [
+      "Air India Express",
+      "Short trips"
+    ],
+    "specs": {
+      "Size": "56 x 36 x 23 cm (115 cm total)",
+      "Capacity": "42 L",
+      "Weight": "2.3 kg",
+      "Shell": "Hard, polycarbonate",
+      "Wheels": "8 spinner wheels",
+      "Lock": "3-digit combination",
+      "Warranty": "3 years (manufacturing defects)"
+    },
+    "skip_if": "you fly IndiGo, Air India, Akasa Air or SpiceJet: at 56 cm tall it is 1 cm over their 55 cm cabin limit."
+  },
+  {
     "asin": "B0F9FTG9ZS",
     "added_at": "2026-11-15T22:01:16+05:30",
     "title": "Safari Astra Neo 66 cm Medium Check-in Trolley, Polycarbonate",

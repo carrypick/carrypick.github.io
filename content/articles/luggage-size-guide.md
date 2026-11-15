@@ -14,7 +14,7 @@ Buying the wrong size suitcase is a common mistake. Too small, and you sit on it
 These are rough guides. Every brand's sizes differ a little, so always check the litres and dimensions on the listing. Seeing sizes in inches? Our [luggage size chart](../baggage/luggage-size-chart.html) converts them to cm, and we explain [20 inch](20-inch-trolley-bag-size.html), [24 inch](24-inch-trolley-bag-size.html), [28 inch](28-inch-trolley-bag-size.html) and [32 inch](32-inch-trolley-bag-size.html) trolleys in detail.
 
 - **Weekend (1–3 days):** a duffle or a backpack, about 30–40 litres.
-- **Short trip (2–4 days):** a **cabin trolley**, about 55 cm tall and 35–45 litres.
+- **Short trip (2–4 days):** a **cabin trolley**, about 55 cm tall (about [22 inches](22-inch-trolley-bag-size.html)) and 35–45 litres.
 - **One week (5–8 days):** a **medium check-in trolley**, about 65–69 cm tall, like a [26 inch (66 cm) bag](26-inch-trolley-bag-size.html).
 - **Long holiday or family trip (10+ days):** a **large trolley**, about 75–79 cm tall. Check the total size first: [most large bags we checked](28-inch-trolley-bag-size.html) are listed over the 158 cm airline limit.
 

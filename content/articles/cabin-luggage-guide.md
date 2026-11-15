@@ -7,7 +7,7 @@ updated: 2026-11-15
 category: luggage
 photo: cabin-bag-airport
 ---
-Getting stopped at the airport gate because your cabin bag is too heavy or too big is stressful and can cost money. This guide explains the rules and how to pick a trolley bag that fits them. Looking at a bag sold as "20 inch"? See [what 20 inch really means](20-inch-trolley-bag-size.html).
+Getting stopped at the airport gate because your cabin bag is too heavy or too big is stressful and can cost money. This guide explains the rules and how to pick a trolley bag that fits them. Looking at a bag sold as "20 inch" or "22 inch"? See what [20 inch](20-inch-trolley-bag-size.html) and [22 inch](22-inch-trolley-bag-size.html) really mean.
 
 ## The cabin bag rule on most Indian domestic flights
 
