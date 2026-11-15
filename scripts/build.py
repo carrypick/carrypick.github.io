@@ -17,6 +17,7 @@ from datetime import date, datetime, timedelta
 from html import escape as e
 
 import diagrams
+import hindi_pages
 import pick_art
 from common import IST, ROOT, amazon_link, load_config, load_deals
 
@@ -594,7 +595,7 @@ def shop_box(cfg, shop):
 def anchor(text):
     """An id for a heading, so other pages and our pick boxes can link straight to a section."""
     text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text).replace("**", "")
-    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+    return re.sub(r"[^a-z0-9\u0900-\u0963\u0966-\u097f]+", "-", text.lower()).strip("-")  # Devanagari kept for Hindi headings
 
 
 def flight_box(cfg, place=None, scope="domestic", hindi=False):
@@ -1965,14 +1966,7 @@ def build_hindi(cfg, deals, airlines, pages, lastmod):
         return page_head(tint, f'<div class="media media-tile tint-{tint}">{art}</div>', inner, "../")
 
     def pills(current):
-        mine = [(path, t["crumb"]) for path, t in ((HINDI_PATHS["baggage/index.html"], hi["airlines"]),
-                                                   (HINDI_PATHS["baggage/can-i-carry.html"], hi["flight_items"]),
-                                                   (HINDI_PATHS["baggage/train-luggage-rules.html"], hi["railways"]))]
-        links = "".join(f'<li><a href="../{path}">{e(name)}</a></li>' for path, name in mine if path != current)
-        if TRIPS_HI_DIR.exists():
-            links += "".join(f'<li><a href="../hi/trips/{t["slug"]}.html">{e(t.get("place", t["title"]))} ट्रिप गाइड</a></li>' for t in load_articles(TRIPS_HI_DIR))
-        links += "".join(f'<li><a href="../{t[0]}" lang="en">{e(t[1])} (English)</a></li>' for t in TOOLS if t[0] not in HINDI_PATHS)
-        return f'<h2>{L["more_tools"]}</h2><ul class="airline-links">{links}</ul>'
+        return hindi_pages.tool_links(sys.modules[__name__], current, "../")
 
     def finish(path, title, seo, desc, body, checked, crumb, faq_schema):
         crumbs = crumbs_schema(cfg, [(L["home"], ""), (crumb, path)])
@@ -2038,6 +2032,7 @@ def build_hindi(cfg, deals, airlines, pages, lastmod):
     path = HINDI_PATHS["baggage/can-i-carry.html"]
     checked = flight["checked"]
     states = {k: (v[0], L[k]) for k, v in ANSWER.items()}
+    hi_pages = hindi_pages.carry_links(sys.modules[__name__])
     groups, count = [], 0
     for group in flight["groups"]:
         rows = []
@@ -2048,7 +2043,8 @@ def build_hindi(cfg, deals, airlines, pages, lastmod):
                 h = {"name": it["item"], "rule": it["rule"], "words": ""}
             cells = "".join('<td><span class="fit fit-%s">%s</span></td>' % states[it[where]] for where in ("cabin", "checked"))
             words = " ".join([h["name"], h.get("words", ""), it["item"]] + it.get("also", []))
-            rows.append(f'<tr data-words="{e(words.lower())}"><th scope="row">{e(h["name"])}<span class="why" lang="en">{e(it["item"])}</span></th>{cells}'
+            name = f'<a href="{hi_pages[it["item"]]}">{e(h["name"])}</a>' if it["item"] in hi_pages else e(h["name"])
+            rows.append(f'<tr data-words="{e(words.lower())}"><th scope="row">{name}<span class="why" lang="en">{e(it["item"])}</span></th>{cells}'
                         f'<td>{e(h["rule"])} <a class="src" href="{e(it["source"])}" target="_blank" rel="noopener">{L["sources"]}</a></td></tr>')
             count += 1
         name = t["groups"].get(group["name"], group["name"])
@@ -2064,6 +2060,8 @@ def build_hindi(cfg, deals, airlines, pages, lastmod):
 <div class="table-wrap"><table class="compare carry-table" id="carry-table"><thead><tr>{"".join("<th>%s</th>" % e(x) for x in t["head"])}</tr></thead>{"".join(groups)}</table></div>
 <p class="hint" id="carry-none" hidden>{e(t["none"])}</p>
 <p class="checked">{e(t["legend"])}</p>
+{('<h2>सबसे ज़्यादा पूछी जाने वाली चीज़ें, विस्तार से</h2><p>कितना ले जा सकते हैं, हर एयरलाइन का नियम और पैक कैसे करें:</p><ul class="airline-links">'
+  + "".join(f'<li><a href="{href}">{e(t["items"].get(item, {}).get("name", item))}</a></li>' for item, href in hi_pages.items()) + '</ul>') if hi_pages else ""}
 {faq_html}
 <h2>{L["sources"]}</h2>
 <p lang="en">{sources_html(flight["sources"])}</p>
@@ -2167,10 +2165,13 @@ SIZE_CHART_PICKS = [
 ]
 
 
+SIZE_CHART_UPDATED = "2026-11-15"  # bump when the size chart's facts change; the Hindi chart (scripts/hindi_pages.py) warns until it matches
+
+
 def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
     """Inches/cm and kg/lb chart for luggage, with airline limits converted (baggage/luggage-size-chart.html)."""
     path = "baggage/luggage-size-chart.html"
-    updated = "2026-11-15"
+    updated = SIZE_CHART_UPDATED
     cm = lambda inches: num(round(inches * 2.54, 1))
     inch = lambda c: num(round(c / 2.54, 1))
     lb = lambda kg: num(round(kg * 2.20462, 1))
@@ -2636,6 +2637,8 @@ def build():
     for t in trips_hi:
         if (TRIPS_DIR / (t["slug"] + ".md")).exists():
             HINDI_PAGES["trips/%s.html" % t["slug"]] = "hi/trips/%s.html" % t["slug"]
+    if HINDI_PAGES:
+        hindi_pages.register(sys.modules[__name__], extra)  # Hindi size chart, item pages and extra baggage pages
     TOOLS.append(("tools/bag-weight.html", "Bag weight calculator", "Free tool", "How heavy is my bag?",
                   "Add what you're packing and see if your bag stays under 7 kg or 15 kg.", "Weigh it", "check", "luggage", "bathroom-scale"))
     TOOLS.append(("tools/laptop-backpack.html", "Backpack for my laptop", "Free tool", "Which backpack fits my laptop?",
@@ -2893,6 +2896,7 @@ def build():
         build_trips_hi(cfg, trips_hi, deals_by_asin, pages, lastmod)
     if HINDI_PAGES:
         build_hindi(cfg, deals, airlines, pages, lastmod)
+        hindi_pages.build_all(sys.modules[__name__], cfg, deals, deals_by_asin, airlines, intl_airlines, extra, pages, lastmod)
 
     # Info pages
     name = e(cfg["site_name"])
