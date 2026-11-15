@@ -31,6 +31,8 @@ These examples assume nothing else new in your bags. Customs decides the value i
 - **Tablets:** the rule says "laptop including notepad". It doesn't name tablets such as the iPad, so ask the officer before you count one as your free laptop.
 - **Flying with it:** keep laptops and power banks in your cabin bag. See our [laptop rules for flights](../can-i-carry/laptop.html).
 
+[[pick:B0C3RB9X98]]
+
 ## How many iPhones can I bring?
 
 The rules don't give a number. What matters:
