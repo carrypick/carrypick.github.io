@@ -49,6 +49,8 @@ IndiGo allows more than two laptops in the cabin. Like Akasa Air, it sets a limi
 
 Watch the weight: two laptops with their chargers can easily use half of a 7 kg cabin allowance.
 
+Bringing a new laptop home from abroad? Indian Customs allows one new laptop duty free per passenger aged 18 or older. See our [customs rules for iPhones and laptops](../customs/iphone-and-laptop.html).
+
 ## Big batteries and old MacBooks
 
 - The usual limit is **100 Wh** per battery. Batteries over 100 Wh need your airline's approval, and Akasa Air doesn't allow laptops over 100 Wh.
