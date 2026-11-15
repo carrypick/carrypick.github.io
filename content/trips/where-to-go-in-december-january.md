@@ -31,7 +31,7 @@ Read the full [Goa trip guide](goa.html) and our [Goa packing list](../guides/go
 
 Manali is the classic snow trip, but snow isn't guaranteed: December 2025 was almost completely dry, and the first big snowfall came only in late January 2026. Rohtang Pass is closed in winter, and police often stop cars beyond Solang after snow. Keep your dates flexible, and pack thermals.
 
-Read the full [Manali winter guide](manali.html), and see [what to wear in Manali in December](../guides/what-to-wear-in-manali-in-december.html).
+Read the full [Manali winter guide](manali.html), and see [what to wear in Manali in December](../guides/what-to-wear-in-manali-in-december.html). Want colder weather and deeper snow? See [Kashmir in December](kashmir-in-december.html).
 
 ## Jaipur: for forts, palaces and markets
 
