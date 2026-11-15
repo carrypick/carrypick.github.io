@@ -3010,6 +3010,9 @@ def build():
         pages.append(write(path, page(cfg, title, info_desc.get(path, title + " - " + cfg["site_name"]), body, 0, path,
                                       robots="noindex" if path == "404.html" else "max-image-preview:large")))
 
+    if HINDI_PAGES:
+        hindi_pages.check_links(sys.modules[__name__], [p for p in pages if p.startswith("hi/")])
+
     # Sitemap and robots (only once we know the live address)
     if cfg["base_url"]:
         base = cfg["base_url"].rstrip("/") + "/"

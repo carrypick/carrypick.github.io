@@ -11,6 +11,7 @@ Every Hindi text that repeats an English fact keeps a copy of the English it was
 the build prints a warning, so update the Hindi at the same time.
 """
 
+import hashlib
 import json
 import re
 import unicodedata
@@ -393,5 +394,275 @@ def build_all(B, cfg, deals, deals_by_asin, airlines, intl, extra, pages, lastmo
         build_extra(B, cfg, deals_by_asin, extra, pages, lastmod)
 
 
+def check_links(B, paths):
+    """Hindi pages link to each other and to English pages by hand, so stop the build on a link to a page we don't have.
+    build.py calls this after every page is written."""
+    bad = []
+    for path in paths:
+        html = (B.DOCS / path).read_text(encoding="utf-8")
+        for href in re.findall(r'href="([^"#?]+)', html):
+            if href.startswith(("http:", "https:", "mailto:", "//")):
+                continue
+            target = (B.DOCS / path).parent.joinpath(href).resolve()
+            if target.is_dir():
+                target = target / "index.html"
+            if not target.exists():
+                bad.append("%s -> %s" % (path, href))
+    if bad:
+        B.sys.exit("Error: Hindi pages link to missing pages:\n  " + "\n  ".join(sorted(set(bad))))
+
+
+# ---------- extra baggage charges ----------
+
+EXTRA_FIELDS = ("free", "prepaid_note", "airport_text", "piece_short", "piece_text", "cabin_short", "cabin_text", "lite", "notes")
+
+
+def extra_hindi(B, extra):
+    """slug -> Hindi wording of that airline's entry in data/extra_baggage.json, warning when the English has changed."""
+    t = load_hindi()["extra_baggage"]
+    if t["checked"] != extra["checked"]:
+        warn("data/hindi.json extra_baggage was checked %s, but data/extra_baggage.json %s. Update the Hindi text."
+             % (t["checked"], extra["checked"]))
+    out = {}
+    for x in extra["airlines"]:
+        h = t["by_airline"].get(x["slug"])
+        if not h:
+            continue
+        en = hashlib.sha1(json.dumps({k: x.get(k) for k in EXTRA_FIELDS}, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:10]
+        if h.get("en") != en:
+            warn("the English extra baggage text for %s changed (fingerprint %s, Hindi written from %s). Update data/hindi.json "
+                 "extra_baggage and set its 'en' to the new fingerprint." % (x["slug"], en, h.get("en")))
+        out[x["slug"]] = h
+    return out
+
+
+def hi_airport_cost(x, kg):
+    """Like build.airport_cost, in Hindi: '₹4,250 तक', '₹4,000 + टैक्स'."""
+    text = "₹{:,}".format(int(x["airport_per_kg"] * kg))
+    if x.get("airport_upto"):
+        text += " तक"
+    if x.get("airport_tax"):
+        text += " + टैक्स"
+    return text
+
+
+def hi_prepaid_summary(B, x):
+    if not x["prepaid"]:
+        return None
+    first = [(kg, price) for kg, price in x["prepaid"] if kg in (3, 5, 10)] or x["prepaid"][:3]
+    parts = ["%d kg %s" % (kg, B.rupees(price)) for kg, price in first]
+    rates = sorted(price / kg for kg, price in x["prepaid"])
+    lo, hi_ = B.rupees(round(rates[0])), B.rupees(round(rates[-1]))
+    rate = lo if lo == hi_ else "%s से %s" % (lo, hi_)
+    return "%s और %s (लगभग %s प्रति kg)" % (", ".join(parts[:-1]), parts[-1], rate)
+
+
 def build_extra(B, cfg, deals_by_asin, extra, pages, lastmod):
-    pass  # filled in below
+    H = extra_hindi(B, extra)
+    rows_all = [x for x in extra["airlines"] if x["slug"] in H]
+    checked, year = extra["checked"], extra["checked"][:4]
+    day = B.hi_date(checked)
+    rupees = B.rupees
+    scale = deals_by_asin.get("B07Q822CWX")
+    disclaimer = ('<p class="checked">फ़ीस अक्सर बदलती है और आपके किराए और रूट पर निर्भर कर सकती है। पैसे देते समय जो क़ीमत दिखे, वही अंतिम है, '
+                  "इसलिए उड़ान से पहले अपनी बुकिंग और एयरलाइन की आधिकारिक वेबसाइट ज़रूर देखें।</p>")
+
+    # Hub
+    p = "../"
+    with_prepaid = [x for x in rows_all if x["prepaid"]]
+    per_kg = sorted(price / kg for x in with_prepaid for kg, price in x["prepaid"])
+    airport = sorted(x["airport_per_kg"] for x in rows_all)
+    pre_lo, pre_hi = rupees(round(per_kg[0])), rupees(round(per_kg[-1]))
+    air_lo, air_hi = rupees(airport[0]), rupees(airport[-1])
+    scale_link = f'<a href="../picks/{scale["asin"]}.html">लगेज स्केल</a>' if scale else "लगेज स्केल"
+    slabs = (3, 5, 10, 15)
+    pre_rows = []
+    for x in rows_all:
+        if x["prepaid"]:
+            cells = "".join("<td>%s</td>" % (rupees(x["prepaid_map"][kg]) if kg in x["prepaid_map"] else "–") for kg in slabs)
+        else:
+            cells = '<td colspan="%d">लिखा नहीं (Air India के मुताबिक़ एयरपोर्ट रेट से 20%% तक कम)</td>' % len(slabs)
+        pre_rows.append(f'<tr><th scope="row"><a href="extra-baggage-charges/{x["slug"]}.html">{e(x["name"])}</a></th>{cells}</tr>')
+    air_rows = "".join(f'<tr><th scope="row">{e(x["name"])}</th><td>{e(H[x["slug"]]["airport_text"])}</td><td>{e(H[x["slug"]].get("piece_short", "–"))}</td>'
+                       f'<td>{e(H[x["slug"]].get("cabin_short", "–"))}</td></tr>' for x in rows_all)
+    five_rows, five_parts = [], []
+    for x in rows_all:
+        online = x["prepaid_map"].get(5)
+        at_airport = hi_airport_cost(x, 5)
+        if online:
+            save = rupees(x["airport_per_kg"] * 5 - online) + (" तक" if x.get("airport_upto") else "")
+            five_rows.append(f'<tr><th scope="row">{e(x["name"])}</th><td>{rupees(online)}</td><td>{e(at_airport)}</td><td>{e(save)}</td></tr>')
+            five_parts.append("%s पर ऑनलाइन %s, एयरपोर्ट पर %s" % (x["name"], rupees(online), at_airport))
+        else:
+            five_rows.append(f'<tr><th scope="row">{e(x["name"])}</th><td>लिखा नहीं</td><td>{e(at_airport)}</td><td>20% तक</td></tr>')
+            five_parts.append("%s पर एयरपोर्ट पर %s (ऑनलाइन क़ीमत लिखी नहीं)" % (x["name"], at_airport))
+    small = [x for x in with_prepaid if min(x["prepaid_map"]) == 3]
+    indigo = next((x for x in rows_all if x["slug"] == "indigo"), None)
+    two_kg_line = ""
+    if indigo and small and all(x["airport_per_kg"] * 2 < x["prepaid_map"][3] for x in small):
+        two_kg_line = (f'<li><strong>सिर्फ़ 1 या 2 kg ज़्यादा?</strong> ऑनलाइन सबसे छोटा स्लैब 3 kg का है। IndiGo पर एयरपोर्ट पर 2 kg '
+                       f'{rupees(indigo["airport_per_kg"] * 2)} का पड़ता है, जो 3 kg स्लैब ({rupees(indigo["prepaid_map"][3])}) से कम है। '
+                       '3 kg स्लैब वाली बाक़ी एयरलाइनों पर भी यही बात है।</li>')
+    faq = [("घरेलू उड़ानों पर एक्स्ट्रा बैगेज चार्ज प्रति kg कितना है?",
+            f"एयरपोर्ट काउंटर पर IndiGo, Air India, Air India Express, Akasa Air और SpiceJet फ्री चेक-इन बैगेज (आमतौर पर 15 kg) से ऊपर हर kg के "
+            f"{air_lo} से {air_hi} लेती हैं। उड़ान से पहले ऑनलाइन ख़रीदें तो लगभग {pre_lo} से {pre_hi} प्रति kg पड़ता है, 3, 5 और 10 kg जैसे स्लैब में।")]
+    if indigo:
+        faq.append(("IndiGo में एक्स्ट्रा बैगेज चार्ज प्रति kg कितना है?",
+                    "एयरपोर्ट पर %s। ऑनलाइन IndiGo 3 kg के %s, 5 kg के %s और 10 kg के %s लेता है, यानी %s प्रति kg।" % (
+                        H["indigo"]["airport_text"], rupees(indigo["prepaid_map"][3]), rupees(indigo["prepaid_map"][5]),
+                        rupees(indigo["prepaid_map"][10]), rupees(indigo["prepaid_map"][5] // 5))))
+    faq += [("5 kg एक्स्ट्रा बैगेज कितने का पड़ता है?", "; ".join(five_parts) + "।"),
+            ("Air India में घरेलू उड़ान पर एक्स्ट्रा बैगेज चार्ज कितना है?",
+             "एयरपोर्ट पर ₹800 प्रति kg + टैक्स। Air India कहता है कि पहले से ऑनलाइन पैसे देने पर 20% तक बचत होती है, लेकिन प्रीपेड क़ीमतें नहीं बताता: वे Manage Booking में दिखती हैं।"),
+            ("क्या एयरपोर्ट पर एक्स्ट्रा बैगेज ख़रीद सकते हैं?",
+             "हाँ। चेक-इन काउंटर पर एयरपोर्ट रेट से पैसे देने होते हैं, जो उड़ान से पहले ऑनलाइन ख़रीदने से प्रति kg महँगा है। ऑनलाइन ख़रीदना आमतौर पर उड़ान से 2 या 3 घंटे पहले बंद हो जाता है।"),
+            ("केबिन बैग 7 kg से ज़्यादा हो तो क्या होगा?",
+             "यह एयरलाइन पर निर्भर है। Air India ₹3,000 में 12 kg तक ले जाने देता है। Air India Express 3 या 5 kg और बेचता है (Xtra Carry-On), और SpiceJet पहले से ₹700 प्रति kg या "
+             "एयरपोर्ट पर ₹750 प्रति kg लेता है, 5 kg तक। IndiGo और Akasa Air भारी केबिन बैग की कोई फ़ीस नहीं बताते, इसलिए उसे चेक-इन करना पड़ सकता है।"),
+            ("क्या एक्स्ट्रा बैग के साथ एक्स्ट्रा वज़न मिलता है?",
+             "नहीं। IndiGo, Air India Express, Akasa Air और SpiceJet पर दूसरा बैग लगभग ₹950 से ₹1,000 का है, और इस फ़ीस में कोई वज़न नहीं मिलता। फ्री बैगेज से ऊपर हर kg का चार्ज फिर भी लगता है।"),
+            ("क्या प्रीपेड एक्स्ट्रा बैगेज का पैसा वापस मिलता है?",
+             "इस्तेमाल न हुए किलो का नहीं: 5 kg ख़रीदें और 3 kg ज़्यादा ले जाएँ, तो कोई रिफ़ंड नहीं। एयरलाइन फ्लाइट कैंसिल करे तो पैसा वापस मिलता है, और कुछ एयरलाइनें समय पर पूरी बुकिंग कैंसिल करने पर भी लौटाती हैं।")]
+    faq_block, faq_schema = faq_html(B, faq)
+    sources = "".join(f'<li><strong>{e(x["name"])}:</strong> {B.sources_html(x["sources"])}</li>' for x in rows_all)
+    pick_box = B.inline_pick(cfg, scale, p) if scale else ""
+    title = "घरेलू उड़ानों पर एक्स्ट्रा बैगेज चार्ज"
+    seo = "फ्लाइट में एक्स्ट्रा बैगेज चार्ज %s: IndiGo, Air India, Akasa, SpiceJet प्रति kg" % year
+    desc = (f"IndiGo, Air India, Air India Express, Akasa Air और SpiceJet की घरेलू उड़ानों पर एक्स्ट्रा बैगेज चार्ज: ऑनलाइन स्लैब, एयरपोर्ट पर प्रति kg रेट, "
+            f"एक्स्ट्रा बैग और 7 kg से भारी केबिन बैग। {day} को जाँचा गया।")
+    body = f"""{head(B, [("flight-baggage-rules.html", "बैगेज नियम"), (None, "एक्स्ट्रा बैगेज चार्ज")], title,
+                "%s को हर एयरलाइन की आधिकारिक वेबसाइट से जाँचा गया · घरेलू उड़ानें" % day, "luggage", B.icon("suitcase", "icon media-icon"), p,
+                "Flight me extra baggage ka charge kitna lagta hai? IndiGo, Air India, Akasa aur SpiceJet ke rate.")}
+<div class="wrap"><article class="guide">
+<p class="lead">आपका सामान फ्री बैगेज से ज़्यादा है? यहाँ भारत की बड़ी एयरलाइनों के घरेलू उड़ानों पर एक्स्ट्रा किलो, एक्स्ट्रा बैग और भारी केबिन बैग के चार्ज हैं, और कम पैसे देने के तरीक़े भी।</p>
+<div class="answer"><h2>सीधा जवाब</h2><ul>
+<li><strong>एयरपोर्ट पर:</strong> फ्री चेक-इन बैगेज (आमतौर पर 15 kg) से ऊपर हर kg के {air_lo} से {air_hi}।</li>
+<li><strong>उड़ान से पहले ऑनलाइन:</strong> लगभग {pre_lo} से {pre_hi} प्रति kg, 3, 5 और 10 kg जैसे स्लैब में।</li>
+<li><strong>एक्स्ट्रा बैग:</strong> लगभग ₹950 से ₹1,000, और इसमें कोई एक्स्ट्रा वज़न नहीं मिलता।</li>
+<li><strong>7 kg से भारी केबिन बैग:</strong> हर एयरलाइन का नियम बहुत अलग है। नीचे टेबल देखें।</li>
+</ul></div>
+<h2>एयरलाइन के हिसाब से एक्स्ट्रा बैगेज चार्ज</h2>
+<p>हर एयरलाइन की पूरी जानकारी: हर ऑनलाइन स्लैब, एक्स्ट्रा बैग, भारी केबिन बैग और Lite किराए।</p>
+<ul class="airline-links">{"".join(f'<li><a href="extra-baggage-charges/{x["slug"]}.html">{e(x["name"])}</a></li>' for x in rows_all)}</ul>
+<h2>ऑनलाइन (प्रीपेड) एक्स्ट्रा बैगेज</h2>
+<p>बुकिंग के बाद ऑनलाइन ख़रीदे गए एक्स्ट्रा चेक-इन वज़न के हर स्लैब की क़ीमत।</p>
+<div class="table-wrap"><table class="compare snug"><thead><tr><th>एयरलाइन</th>{"".join("<th>%d kg</th>" % kg for kg in slabs)}</tr></thead><tbody>{"".join(pre_rows)}</tbody></table></div>
+<h2>एयरपोर्ट पर, एक्स्ट्रा बैग और भारी केबिन बैग</h2>
+<div class="table-wrap"><table class="compare snug"><thead><tr><th>एयरलाइन</th><th>एयरपोर्ट पर</th><th>एक्स्ट्रा बैग</th><th>7 kg से भारी केबिन बैग</th></tr></thead><tbody>{air_rows}</tbody></table></div>
+<p class="checked">{day} को जाँचा गया। फ़ीस अक्सर बदलती है और आपके किराए और रूट पर निर्भर कर सकती है। पैसे देते समय जो क़ीमत दिखे, वही अंतिम है, इसलिए उड़ान से पहले अपनी बुकिंग और एयरलाइन की वेबसाइट ज़रूर देखें।</p>
+<h2>एयरपोर्ट या ऑनलाइन: 5 kg एक्स्ट्रा कितने का</h2>
+<div class="table-wrap"><table class="compare snug"><thead><tr><th>एयरलाइन</th><th>ऑनलाइन</th><th>एयरपोर्ट पर</th><th>बचत</th></tr></thead><tbody>{"".join(five_rows)}</tbody></table></div>
+<p>यहाँ हर एयरलाइन पर ऑनलाइन ख़रीदना सस्ता है, लेकिन सिर्फ़ ₹50 से ₹100 प्रति kg। असली बचत उन किलो के पैसे न देने में है जिनकी ज़रूरत नहीं:</p>
+<ul>
+<li><strong>प्रीपेड किलो का पैसा वापस नहीं मिलता।</strong> 5 kg ख़रीदें और 3 kg ज़्यादा ले जाएँ, तो बाक़ी 2 kg बेकार जाते हैं।</li>
+{two_kg_line}
+<li><strong>पहले तौलें, फिर स्लैब ख़रीदें।</strong> पैक करके घर पर बैग तौलें, फिर सबसे छोटा स्लैब लें जो काफ़ी हो।</li>
+<li><strong>ऑनलाइन ख़रीदने का समय जल्दी ख़त्म होता है:</strong> IndiGo, Air India, Air India Express और Akasa Air पर उड़ान से 2 घंटे पहले, SpiceJet पर 3 घंटे पहले।</li>
+</ul>
+<h2>एक्स्ट्रा बैगेज चार्ज से कैसे बचें</h2>
+<ul>
+<li><strong>घर पर बैग तौलें।</strong> एक {scale_link} एयरपोर्ट पर कुछ किलो के चार्ज से सस्ता पड़ता है। ज़्यादातर चेक-इन बैग 15 kg और केबिन बैग 7 kg तक जाते हैं।</li>
+<li><strong>हल्का बैग चुनें।</strong> ख़ाली ट्रॉली का वज़न आमतौर पर केबिन साइज में लगभग 2.5 kg और मीडियम और लार्ज साइज में 3.4 से 4.3 kg होता है, और यह सब आपके फ्री वज़न में से जाता है। हमारे <a href="trolley-bag-size-chart.html">ट्रॉली बैग साइज चार्ट</a> में आम वज़न देखें।</li>
+<li><strong>पैक करने से पहले जोड़ लें।</strong> हमारा <a href="../tools/bag-weight.html" lang="en">bag weight calculator (English)</a> बताता है कि बैग 7 kg और 15 kg से कम रहेगा या नहीं।</li>
+<li><strong>केबिन बैग का साइज सही रखें।</strong> बहुत बड़ा केबिन बैग चेक-इन हो जाता है और आपके चेक-इन वज़न में गिना जाता है। <a href="../baggage/checker.html" lang="en">cabin bag checker (English)</a> आज़माएँ।</li>
+<li><strong>भारी चीज़ें पहन लें।</strong> उड़ान के लिए जैकेट और सबसे भारी जूते पहनें।</li>
+<li><strong>अपना किराया देखें।</strong> IndiGo Lite और Air India Express Xpress Lite किराए में चेक-इन बैग बिल्कुल नहीं मिलता।</li>
+<li><strong>साथ में जा रहे हैं?</strong> SpiceJet एक बुकिंग के यात्रियों को चेक-इन बैगेज मिलाने देता है। बाक़ी एयरलाइनें हर यात्री का वज़न अलग गिनती हैं, इसलिए अपना टिकट देखें।</li>
+<li><strong>हर बैग 32 kg से कम रखें।</strong> यहाँ कोई भी एयरलाइन इससे भारी एक बैग नहीं लेती, पैसे देने पर भी।</li>
+</ul>
+{pick_box}
+{faq_block}
+<h2>स्रोत</h2>
+<p>एयरलाइनों के आधिकारिक पेज, {day} को पढ़े गए:</p>
+<ul lang="en">{sources}</ul>
+<p>हर एयरलाइन का फ्री बैगेज हमारे <a href="flight-baggage-rules.html">फ्लाइट बैगेज नियम</a> पेज पर देखें।</p>
+{tool_links(B, EXTRA_HUB, p)}
+<p class="checked">{HI_DISCLOSURE}</p>
+</article></div>
+{B.telegram_band(cfg, p)}"""
+    finish(B, cfg, pages, lastmod, EXTRA_HUB, seo, desc, body, 1,
+           [("होम", ""), ("बैगेज नियम", "hi/flight-baggage-rules.html"), ("एक्स्ट्रा बैगेज चार्ज", EXTRA_HUB)],
+           extra.get("published", checked), checked, faq_schema)
+
+    # One page per airline
+    p = "../../"
+    scale_link = f'<a href="{p}picks/{scale["asin"]}.html">लगेज स्केल</a>' if scale else "लगेज स्केल"
+    for x in rows_all:
+        h, name = H[x["slug"]], x["name"]
+        path = "hi/extra-baggage-charges/%s.html" % x["slug"]
+        summary = hi_prepaid_summary(B, x)
+        if x["prepaid"]:
+            rows = []
+            for kg, price in x["prepaid"]:
+                saving = x["airport_per_kg"] * kg - price
+                save = (rupees(saving) + (" तक" if x.get("airport_upto") else "")) if saving > 0 else "–"
+                rows.append(f'<tr><th scope="row">{kg} kg</th><td>{rupees(price)}</td><td>{e(hi_airport_cost(x, kg))}</td><td>{e(save)}</td></tr>')
+            table = ('<div class="table-wrap"><table class="compare snug"><thead><tr><th>एक्स्ट्रा वज़न</th><th>ऑनलाइन</th><th>एयरपोर्ट पर</th>'
+                     f'<th>बचत</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>')
+            table_head = "%s ऑनलाइन एक्स्ट्रा बैगेज (घरेलू)" % name
+        else:
+            rows = "".join(f'<tr><th scope="row">{kg} kg</th><td>{e(hi_airport_cost(x, kg))}</td></tr>' for kg in (3, 5, 10, 15))
+            table = ('<div class="table-wrap"><table class="compare snug"><thead><tr><th>एक्स्ट्रा वज़न</th><th>एयरपोर्ट पर</th></tr></thead>'
+                     f'<tbody>{rows}</tbody></table></div>')
+            table_head = "%s एयरपोर्ट पर एक्स्ट्रा बैगेज (घरेलू)" % name
+        notes = "".join("<li>%s</li>" % e(n) for n in h.get("notes", []))
+        five = x["prepaid_map"].get(5)
+        faq = [("%s में एक्स्ट्रा बैगेज चार्ज प्रति kg कितना है?" % name,
+                "एयरपोर्ट पर %s की घरेलू उड़ानों में %s लगता है। " % (name, h["airport_text"])
+                + ("उड़ान से पहले ऑनलाइन: %s।" % summary if summary else h["prepaid_note"])),
+               ("%s में 5 kg एक्स्ट्रा बैगेज कितने का है?" % name,
+                ("ऑनलाइन %s, या एयरपोर्ट पर %s।" % (rupees(five), hi_airport_cost(x, 5))) if five else
+                ("एयरपोर्ट पर %s। %s प्रीपेड क़ीमत नहीं बताता; यह बुकिंग के बाद Manage Booking में दिखती है।" % (hi_airport_cost(x, 5), name))),
+               ("%s में एयरपोर्ट पर एक्स्ट्रा बैगेज चार्ज कितना है?" % name,
+                "फ्री चेक-इन बैगेज (%s) से ऊपर %s।" % (h.get("free", "अपना टिकट देखें"), h["airport_text"])),
+               ("%s में एक्स्ट्रा बैगेज कैसे जोड़ें?" % name, h["prepaid_note"]),
+               ("%s में केबिन बैग 7 kg से ज़्यादा हो तो क्या होगा?" % name, h["cabin_text"]),
+               ("क्या %s एक्स्ट्रा बैग का अलग चार्ज लेता है?" % name, h["piece_text"])]
+        faq_block, faq_schema = faq_html(B, faq)
+        others = '<ul class="airline-links">' + "".join(
+            f'<li><a href="{o["slug"]}.html">{e(o["name"])}</a></li>' for o in rows_all if o["slug"] != x["slug"]) + "</ul>"
+        title = "%s एक्स्ट्रा बैगेज चार्ज: प्रति kg, ऑनलाइन और एयरपोर्ट पर" % name
+        seo = "%s एक्स्ट्रा बैगेज चार्ज %s: प्रति kg रेट, ऑनलाइन और एयरपोर्ट" % (name, year)
+        desc = ("%s की घरेलू उड़ानों पर एक्स्ट्रा बैगेज चार्ज: एयरपोर्ट पर %s%s। एक्स्ट्रा बैग: %s। 7 kg से भारी केबिन बैग: %s। %s को जाँचा गया।" % (
+            name, h["airport_text"], ("; ऑनलाइन " + summary) if summary else "", h.get("piece_short", "नीचे देखें"),
+            h.get("cabin_short", "नीचे देखें"), day))
+        hinglish = "%s flight me extra baggage charges kitne hain? Per kg rate, 5 kg ka charge aur airport ka rate." % name
+        prepaid_li = e(summary) if summary else "%s ने नहीं बताया (उसके मुताबिक़ एयरपोर्ट रेट से 20%% तक कम)" % e(name)
+        body = f"""{head(B, [("../flight-baggage-rules.html", "बैगेज नियम"), ("../extra-baggage-charges.html", "एक्स्ट्रा बैगेज चार्ज"), (None, name)], title,
+                    "%s को %s की आधिकारिक वेबसाइट से जाँचा गया · घरेलू उड़ानें" % (day, name), "luggage", B.icon("suitcase", "icon media-icon"), p, hinglish)}
+<div class="wrap"><article class="guide">
+<div class="answer"><h2>सीधा जवाब</h2><ul>
+<li><strong>फ्री चेक-इन बैगेज:</strong> {e(h.get("free", "अपना टिकट देखें"))}।</li>
+<li><strong>ऑनलाइन (प्रीपेड):</strong> {prepaid_li}।</li>
+<li><strong>एयरपोर्ट पर:</strong> {e(h["airport_text"])}।</li>
+<li><strong>एक्स्ट्रा बैग:</strong> {e(h.get("piece_short", "नीचे देखें"))}।</li>
+<li><strong>7 kg से भारी केबिन बैग:</strong> {e(h.get("cabin_short", "नीचे देखें"))}।</li>
+</ul></div>
+<h2>{e(table_head)}</h2>
+{table}
+<p>{e(h["prepaid_note"])}</p>
+<h2>एक्स्ट्रा बैग</h2>
+<p>{e(h["piece_text"])}</p>
+<h2>7 kg से भारी केबिन बैग</h2>
+<p>{e(h["cabin_text"])}</p>
+{('<h2>Lite किराए</h2><p>' + e(h["lite"]) + '</p>') if h.get("lite") else ''}
+{('<h2>ध्यान रखें</h2><ul>' + notes + '</ul>') if notes else ''}
+<h2>कम पैसे कैसे दें</h2>
+<ul>
+<li><strong>घर पर बैग तौलें</strong>, {scale_link} से, फिर सबसे छोटा स्लैब ख़रीदें जो एक्स्ट्रा वज़न के लिए काफ़ी हो। इस्तेमाल न हुए प्रीपेड किलो का पैसा वापस नहीं मिलता।</li>
+<li><strong>केबिन बैग का साइज देखें</strong>, हमारे <a href="{p}baggage/checker.html" lang="en">cabin bag checker (English)</a> में: बहुत बड़ा बैग चेक-इन हो जाता है।</li>
+<li><strong>पैकिंग लिस्ट जोड़ें</strong>, <a href="{p}tools/bag-weight.html" lang="en">bag weight calculator (English)</a> से।</li>
+</ul>
+<p>{e(name)} की बाक़ी एयरलाइनों से तुलना हमारे <a href="../extra-baggage-charges.html">एक्स्ट्रा बैगेज चार्ज</a> पेज पर देखें, और फ्री बैगेज <a href="../flight-baggage-rules.html">फ्लाइट बैगेज नियम</a> पेज पर।</p>
+{faq_block}
+<h2>स्रोत</h2>
+<p>{e(name)} के आधिकारिक पेज, {day} को पढ़े गए: <span lang="en">{B.sources_html(x["sources"])}</span></p>
+{disclaimer}
+<h2>बाक़ी एयरलाइनों के एक्स्ट्रा बैगेज चार्ज</h2>
+{others}
+{tool_links(B, path, p)}
+<p class="checked">{HI_DISCLOSURE}</p>
+</article></div>
+{B.telegram_band(cfg, p)}"""
+        finish(B, cfg, pages, lastmod, path, seo, desc, body, 2,
+               [("होम", ""), ("एक्स्ट्रा बैगेज चार्ज", EXTRA_HUB), (name, path)], extra.get("published", checked), checked, faq_schema)
