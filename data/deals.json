@@ -1,5 +1,63 @@
 [
   {
+    "asin": "B097B36DQR",
+    "added_at": "2026-11-15T09:11:16+05:30",
+    "title": "Safari Imperia 66 cm Duffle Trolley Bag, 60 L",
+    "category": "luggage",
+    "highlights": [
+      "60 litres, wide top opening",
+      "Light polyester fabric, 2.11 kg",
+      "2 wheels and a telescopic trolley handle",
+      "3-year international warranty"
+    ],
+    "note": "A light, roomy duffle on wheels from Safari with over 5,000 ratings, easy to pack for long trips.",
+    "brand": "Safari",
+    "colour": "Black",
+    "best_for": [
+      "Family trips",
+      "Train journeys"
+    ],
+    "specs": {
+      "Size": "66 x 33 x 37 cm",
+      "Capacity": "60 L",
+      "Weight": "2.11 kg",
+      "Material": "Polyester (soft)",
+      "Lock": "Not listed",
+      "Warranty": "3 years international"
+    },
+    "skip_if": "you want a cabin bag: at 66 cm long it is too big to carry on a plane and must go in check-in.",
+    "deal_seen_at": "2026-11-15T09:10:00+05:30"
+  },
+  {
+    "asin": "B0D62KP35W",
+    "added_at": "2026-11-15T09:11:16+05:30",
+    "title": "American Tourister Ivy NXT 55 cm Cabin Trolley, Polycarbonate",
+    "category": "luggage",
+    "highlights": [
+      "33.5 litres, cabin size (55 cm)",
+      "Polycarbonate hard shell",
+      "4 spinner wheels",
+      "Mounted TSA lock"
+    ],
+    "note": "The cabin size of American Tourister's Ivy NXT, with a tough polycarbonate shell and a 3-year international warranty.",
+    "brand": "American Tourister",
+    "colour": "Silver",
+    "best_for": [
+      "Short trips",
+      "Cabin bag"
+    ],
+    "specs": {
+      "Size": "38 x 24.5 x 55 cm",
+      "Capacity": "33.5 L",
+      "Weight": "3.18 kg",
+      "Material": "Polycarbonate (hard)",
+      "Lock": "TSA lock",
+      "Warranty": "3 years international"
+    },
+    "skip_if": "your airline checks cabin bags strictly: at 38 x 24.5 x 55 cm it adds up to 117.5 cm, over IndiGo's 115 cm total and 35 cm width limit.",
+    "deal_seen_at": "2026-11-15T09:09:00+05:30"
+  },
+  {
     "asin": "B0CPFQC55D",
     "added_at": "2026-11-14T09:09:08+05:30",
     "title": "Wesley Luxur 45L Overnighter Travel Laptop Backpack",
@@ -2129,7 +2187,7 @@
       "Warranty": "3 years"
     },
     "skip_if": "you only fly within India. A polypropylene bag like the Pentagon Pro is enough.",
-    "deal_seen_at": "2026-11-14T09:08:00+05:30"
+    "deal_seen_at": "2026-11-15T09:10:00+05:30"
   },
   {
     "asin": "B099WNYHY2",
