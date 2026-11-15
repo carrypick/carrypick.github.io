@@ -52,6 +52,8 @@ E-cigarettes, vapes, heated tobacco devices and e-hookahs are banned in both bag
 
 Other countries set their own limits on how many cigarettes you can bring in, and some ban vapes. Check the customs rules of the country you're flying to before you pack.
 
+Coming back to India? Indian Customs allows 100 cigarettes, or 25 cigars, or 125 g of tobacco duty free. See our [customs rules for alcohol and cigarettes](../customs/alcohol-and-cigarettes.html).
+
 ## What to do instead
 
 - Keep your cigarettes in their packet in your cabin bag.

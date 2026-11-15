@@ -32,6 +32,8 @@ You can't carry alcohol from outside the airport in your cabin bag (IndiGo, Air 
 
 See the [duty-free alcohol rule](../can-i-carry.html?q=duty) in the full list.
 
+How much can you bring in from abroad? Indian Customs allows **2 litres** per passenger duty free. See our [customs rules for alcohol and cigarettes](../customs/alcohol-and-cigarettes.html).
+
 ## You can't drink it on board
 
 Akasa Air's rules say you can't drink your own alcohol on the plane, and an airline can refuse to fly a passenger who is drunk. Keep the bottle sealed until you reach your destination.

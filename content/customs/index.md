@@ -46,7 +46,7 @@ The Baggage Rules, 2026 replaced the Baggage Rules, 2016 from **2 February 2026*
 
 These can't use your ₹75,000 or ₹25,000 allowance:
 
-- Alcohol or wine over **2 litres**.
+- Alcohol or wine over **2 litres** (see [what 2 litres means in bottles](customs/alcohol-and-cigarettes.html)).
 - Cigarettes over **100**, cigars over **25**, or tobacco over **125 g**.
 - **Gold or silver that isn't jewellery**, such as bars, biscuits and coins.
 - **Televisions.**
@@ -113,7 +113,7 @@ The same rules apply whichever country you fly in from. The big three questions 
 
 - **Gold:** jewellery up to 20 g (men) or 40 g (women) is free only after more than a year abroad. Gold bars and coins always need declaring. See our [gold rules](customs/gold.html).
 - **iPhones and electronics:** they use your ₹75,000 allowance. One new laptop is extra.
-- **Alcohol:** 2 litres per passenger. Bottles from the duty-free shop count too.
+- **Alcohol:** 2 litres per passenger. Bottles from the duty-free shop count too. See our [alcohol and cigarette limits](customs/alcohol-and-cigarettes.html).
 
 Bringing back gifts? Weigh your bags before you leave for the airport. Gifts and bottles add up fast, and most airlines won't take a single bag over 32 kg. See the limits on our [international baggage rules](international.html) page.
 
