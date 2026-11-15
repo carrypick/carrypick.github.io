@@ -3,6 +3,7 @@ seo_title: New Year gift ideas 2027: watches, bags and travel gifts people actua
 title: New Year gift ideas 2027: useful gifts for family, friends and travellers
 description: Useful New Year gift ideas: watches for him and her, pair watches for parents, handbags and small travel gifts. Plus how to choose, and when to order.
 date: 2026-11-06
+updated: 2026-11-15
 category: watches
 photo: gift-box
 feature_until: 2027-01-01
@@ -96,7 +97,7 @@ Know someone going away? Match the gift to the place.
 
 [[pick:B094JBDRKX]]
 
-Our [Goa](../trips/goa.html), [Manali](../trips/manali.html), [Jaipur](../trips/jaipur.html) and [Kerala](../trips/kerala.html) guides say what to pack for each place. Shopping for a wedding too? See our [wedding gift ideas](wedding-gift-guide.html).
+Our [Goa](../trips/goa.html), [Manali](../trips/manali.html), [Jaipur](../trips/jaipur.html) and [Kerala](../trips/kerala.html) guides say what to pack for each place. Shopping for a wedding too? See our [wedding gift ideas](wedding-gift-guide.html). Buying for work? See our [Secret Santa gift ideas for office colleagues](secret-santa-gift-ideas-for-office.html) and [gift ideas for your boss](gift-for-boss.html). For friends who are always on the move, see [gifts for travellers](gifts-for-travellers.html).
 
 ## Questions
 
@@ -106,7 +107,7 @@ Pair watches are an easy choice, because you don't have to choose for one person
 
 ### What is a good small New Year gift for a colleague or friend?
 
-Choose something practical for what they do. A luggage scale or packing cubes suit someone who flies often. A small sling suits someone who wants a lighter everyday bag.
+Choose something practical for what they do. A luggage scale or packing cubes suit someone who flies often. A small sling suits someone who wants a lighter everyday bag. For an office gift exchange, see our [Secret Santa ideas](secret-santa-gift-ideas-for-office.html).
 
 ### When should I order a New Year gift?
 
