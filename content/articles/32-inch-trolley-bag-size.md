@@ -20,7 +20,7 @@ A 32 inch trolley bag is **81.3 cm** tall. That's the biggest size most brands m
 [[top:B0F5HLYQK3|Biggest within 158 cm|79 cm tall (31.1 inches) and listed at exactly 158 cm in total, so it's within the limit of every Indian airline. 3.5 kg empty, with a TSA lock.]]
 [[top:B0BLNY575N|A true 32 inch bag|81 cm tall and 3.3 kg empty, the lightest of the 11 extra-large bags we read. At 159 cm it's 1 cm over the 158 cm limit, so take it on airlines that allow more.]]
 
-Need other sizes? See our [luggage size chart](../baggage/luggage-size-chart.html), or the guides to [24 inch](24-inch-trolley-bag-size.html) and [28 inch](28-inch-trolley-bag-size.html) trolleys. Flying abroad? See [trolley bag size for international travel](trolley-bag-size-for-international-travel.html).
+Need other sizes? See our [luggage size chart](../baggage/luggage-size-chart.html), or the guides to [26 inch](26-inch-trolley-bag-size.html) and [28 inch](28-inch-trolley-bag-size.html) trolleys. Flying abroad? See [trolley bag size for international travel](trolley-bag-size-for-international-travel.html).
 
 ## What the biggest trolleys really measure
 
@@ -84,7 +84,7 @@ The bag's own weight counts against your allowance:
 | 23 kg (one piece abroad) | 19.7 kg | 18.85 kg | 17.95 kg |
 | 32 kg (the most for one bag) | 28.7 kg | 27.85 kg | 26.95 kg |
 
-A bag of 100 litres or more can easily hold over 23 kg, so weigh it at home with a [luggage scale](../picks/B07Q822CWX.html). On a 15 kg fare, a [medium trolley](24-inch-trolley-bag-size.html) is lighter and holds enough.
+A bag of 100 litres or more can easily hold over 23 kg, so weigh it at home with a [luggage scale](../picks/B07Q822CWX.html). On a 15 kg fare, a [26 inch medium trolley](26-inch-trolley-bag-size.html) is lighter and holds enough.
 
 ## Our picks
 

@@ -20,7 +20,7 @@ A 24 inch trolley bag is **61 cm** tall. It's a check-in bag, not a cabin bag. I
 [[top:B0GNSKLF5Z|Lightest, for 15 kg fares|68 cm and only 2.52 kg empty, the lightest medium trolley we found, so more of your allowance goes to your things.]]
 [[top:B0F5HNW8D1|For trips abroad|67 cm, 70 litres and 2.9 kg empty, with a TSA lock.]]
 
-Need other sizes? See our [luggage size chart](../baggage/luggage-size-chart.html) or the guides to [20 inch](20-inch-trolley-bag-size.html) and [28 inch](28-inch-trolley-bag-size.html) trolleys. How much does each size hold? See [trolley bag capacity in kg and litres](trolley-bag-capacity-kg-litres.html).
+Need other sizes? See our [luggage size chart](../baggage/luggage-size-chart.html) or the guides to [20 inch](20-inch-trolley-bag-size.html), [26 inch](26-inch-trolley-bag-size.html) and [28 inch](28-inch-trolley-bag-size.html) trolleys. How much does each size hold? See [trolley bag capacity in kg and litres](trolley-bag-capacity-kg-litres.html).
 
 ## What medium trolleys really measure
 

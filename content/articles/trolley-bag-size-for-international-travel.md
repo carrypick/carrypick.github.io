@@ -49,7 +49,7 @@ A 23 kg limit includes the bag. Here is what's left with the typical bag of each
 | Large | 75–80 cm | 4.3 kg | 18.7 kg | 16–32 kg |
 | Extra large | 79–82 cm | 4.15 kg | 18.85 kg | 17–34 kg |
 
-The clothes column is our rough estimate from the listed litres, not a test. A medium bag fills up before 23 kg with light clothes, but can reach it with books, shoes or food. A large bag has room for all 23 kg. An extra-large bag can hold more than you're allowed, and almost all of them are over 158 cm: see our [32 inch trolley guide](32-inch-trolley-bag-size.html).
+The clothes column is our rough estimate from the listed litres, not a test. A [medium bag](26-inch-trolley-bag-size.html) fills up before 23 kg with light clothes, but can reach it with books, shoes or food. A large bag has room for all 23 kg. An extra-large bag can hold more than you're allowed, and almost all of them are over 158 cm: see our [32 inch trolley guide](32-inch-trolley-bag-size.html).
 
 Most large bags are over 158 cm too. On 6 Nov 2026, 26 of the 31 large models we read were. On 15 Nov we read 6 more of 75–78 cm, and only 2 were within 158 cm: the Urban Jungle Caliber 75 cm (156 cm) and the Carlton Kensington 77 cm (156.5 cm). See the others in our [28 inch trolley guide](28-inch-trolley-bag-size.html).
 

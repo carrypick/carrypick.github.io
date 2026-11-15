@@ -15,7 +15,7 @@ These are rough guides. Every brand's sizes differ a little, so always check the
 
 - **Weekend (1–3 days):** a duffle or a backpack, about 30–40 litres.
 - **Short trip (2–4 days):** a **cabin trolley**, about 55 cm tall and 35–45 litres.
-- **One week (5–8 days):** a **medium check-in trolley**, about 65–69 cm tall.
+- **One week (5–8 days):** a **medium check-in trolley**, about 65–69 cm tall, like a [26 inch (66 cm) bag](26-inch-trolley-bag-size.html).
 - **Long holiday or family trip (10+ days):** a **large trolley**, about 75–79 cm tall. Check the total size first: [most large bags we checked](28-inch-trolley-bag-size.html) are listed over the 158 cm airline limit.
 
 [[toppicks:Our picks by trip length|More picks for each size|#our-picks-by-size]]

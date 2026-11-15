@@ -1,5 +1,34 @@
 [
   {
+    "asin": "B0F9FTG9ZS",
+    "added_at": "2026-11-15T22:01:16+05:30",
+    "title": "Safari Astra Neo 66 cm Medium Check-in Trolley, Polycarbonate",
+    "category": "luggage",
+    "highlights": [
+      "Listed at 66 x 44 x 26 cm, 136 cm in total: the slimmest 66 cm bag we read",
+      "Hard polycarbonate shell, 3.3 kg empty",
+      "68 litres, about a week of clothes",
+      "8 spinner wheels, 3-digit combination lock, 3-year warranty"
+    ],
+    "note": "A slim, fairly light 26 inch (66 cm) hard-shell trolley, well within the 158 cm check-in limit.",
+    "brand": "Safari",
+    "colour": "Dark Champagne",
+    "best_for": [
+      "About a week",
+      "Check-in bag"
+    ],
+    "specs": {
+      "Size": "66 x 44 x 26 cm (136 cm total)",
+      "Capacity": "68 L",
+      "Weight": "3.3 kg",
+      "Shell": "Hard, polycarbonate",
+      "Wheels": "8 spinner wheels",
+      "Lock": "3-digit combination",
+      "Warranty": "3 years (manufacturing defects)"
+    },
+    "skip_if": "you want a cabin bag: at 66 cm it must go in check-in."
+  },
+  {
     "asin": "B0D797J551",
     "added_at": "2026-11-15T21:58:46+05:30",
     "title": "Urban Jungle by Safari The Caliber 75 cm Large Trolley, Polycarbonate, TSA Lock",
