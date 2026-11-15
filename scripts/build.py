@@ -959,7 +959,21 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
     lastmod[path] = checked
 
 
-def build_baggage(cfg, deals, data, pages, lastmod, intl=None):
+def extra_section(a, extra_by_slug):
+    """Short 'Extra baggage charges' block on a domestic airline page, linking to its fees page."""
+    x = extra_by_slug.get(a["slug"])
+    if not x or a.get("scope") == "international":
+        return ""
+    summary = prepaid_summary(x)
+    return (f'<h2>Extra baggage charges</h2><ul>'
+            f'<li><strong>Prepaid online:</strong> {e(summary) if summary else "not listed (Air India says up to 20% less than the airport rate)"}.</li>'
+            f'<li><strong>At the airport:</strong> {e(x["airport_text"])}.</li>'
+            f'<li><strong>Extra bag:</strong> {e(x.get("piece_short", "see the fees page"))}.</li>'
+            f'<li><strong>Cabin bag over 7 kg:</strong> {e(x.get("cabin_short", "see the fees page"))}.</li></ul>'
+            f'<p>See every slab and rule on <a href="extra-baggage-charges/{x["slug"]}.html">{e(a["name"])} extra baggage charges</a>.</p>')
+
+
+def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
     """Indian airlines (data) get the hub table; international airlines (intl) get their own hub. All get a page and checker rows."""
     airlines = data["airlines"]
     intl_airlines = intl["airlines"] if intl else []
@@ -1022,6 +1036,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None):
 <li><strong>Remember the bag's own weight.</strong> A hard cabin trolley often weighs 2.5–3 kg of your 7 kg.</li>
 <li><strong>Check your fare.</strong> Some cheap fares include cabin baggage only.</li>
 </ul>
+{('<p>Already over the limit? Compare <a href="extra-baggage-charges.html">extra baggage charges by airline</a>: prepaid slabs, the airport rate per kg and fees for heavy cabin bags.</p>') if extra else ''}
 <p>More help: <a href="../guides/cabin-luggage-guide.html">how to pick a cabin trolley</a> and <a href="../guides/luggage-size-guide.html">what size luggage you need</a>.</p>
 {tool_pills("../", "baggage/index.html")}
 </article></div>
@@ -1033,6 +1048,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None):
     lastmod[path] = checked
 
     # One page per airline
+    extra_by_slug = {x["slug"]: x for x in extra["airlines"]} if extra else {}
     for a in airlines + intl_airlines:
         abroad = a.get("scope") == "international"
         a_checked = intl["checked"] if abroad else checked
@@ -1047,6 +1063,12 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None):
             (("How much checked baggage do I get on %s from India?" if abroad else "How much free check-in baggage do I get on %s domestic flights?") % a["name"],
              a["checkin_summary"] + ". It depends on your fare type, so check your ticket."),
         ]
+        fees = extra_by_slug.get(a["slug"]) if not abroad else None
+        if fees:
+            summary = prepaid_summary(fees)
+            faq.append(("What are %s extra baggage charges?" % a["name"],
+                        "On domestic flights, %s charges %s at the airport%s. An extra bag costs %s." % (
+                            a["name"], fees["airport_text"], (". Online, before you fly: " + summary) if summary else "", fees.get("piece_short", "extra"))))
         if abroad and a.get("infant"):
             faq.append(("How much baggage does an infant get on %s?" % a["name"], a["infant"]))
         if a.get("personal"):
@@ -1083,6 +1105,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None):
 <table class="specs">{checkin_rows}</table>
 {('<p>' + e(a['checkin_note']) + '</p>') if a.get('checkin_note') else ''}
 {('<h2>Infants</h2><p>' + e(a['infant']) + '</p>') if abroad and a.get('infant') else ''}
+{extra_section(a, extra_by_slug)}
 {('<h2>Good to know</h2><ul>' + notes + '</ul>') if notes else ''}
 <h2>Do our cabin picks fit {e(a['name'])}?</h2>
 <p>Based on the size listed on Amazon. The "weight" column shows what's left of the {num(cabin['kg']) if cabin.get('kg') else ''} kg limit after the bag itself.</p>
@@ -1205,6 +1228,114 @@ def airport_cost(x, kg):
     return text
 
 
+def extra_path(slug):
+    return "baggage/extra-baggage-charges/%s.html" % slug
+
+
+def prepaid_summary(x):
+    """'3 kg ₹2,250, 5 kg ₹3,750 and 10 kg ₹7,500 (about ₹750 per kg)', or None when the airline lists no prepaid prices."""
+    if not x["prepaid"]:
+        return None
+    first = [(kg, price) for kg, price in x["prepaid"] if kg in (3, 5, 10)] or x["prepaid"][:3]
+    parts = ["%d kg %s" % (kg, rupees(price)) for kg, price in first]
+    rates = sorted(price / kg for kg, price in x["prepaid"])
+    rate = rupees(round(rates[0])) if round(rates[0]) == round(rates[-1]) else "%s to %s" % (rupees(round(rates[0])), rupees(round(rates[-1])))
+    return "%s and %s (about %s per kg)" % (", ".join(parts[:-1]), parts[-1], rate)
+
+
+def build_extra_airlines(cfg, deals_by_asin, extra, pages, lastmod):
+    """One page per airline: baggage/extra-baggage-charges/<slug>.html."""
+    checked = extra["checked"]
+    year = checked[:4]
+    p = "../../"
+    scale = deals_by_asin.get("B07Q822CWX")
+    scale_link = f'<a href="{p}picks/{scale["asin"]}.html">luggage scale</a>' if scale else "luggage scale"
+    disclaimer = ('<p class="checked">Fees change often and can depend on your fare and route. The price shown when you pay is final, '
+                  "so always check your booking and the airline's official website before you fly.</p>")
+    for x in extra["airlines"]:
+        name, path = x["name"], extra_path(x["slug"])
+        summary = prepaid_summary(x)
+        if x["prepaid"]:
+            rows = []
+            for kg, price in x["prepaid"]:
+                saving = x["airport_per_kg"] * kg - price
+                save = (("up to " if x.get("airport_upto") else "") + rupees(saving)) if saving > 0 else "–"
+                rows.append(f'<tr><th scope="row">{kg} kg</th><td>{rupees(price)}</td><td>{e(airport_cost(x, kg))}</td><td>{e(save)}</td></tr>')
+            table = ('<div class="table-wrap"><table class="compare snug"><thead><tr><th>Extra weight</th><th>Online</th><th>At the airport</th>'
+                     f'<th>You save</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>')
+            table_head = "%s prepaid excess baggage (domestic)" % name
+        else:
+            rows = "".join(f'<tr><th scope="row">{kg} kg</th><td>{e(airport_cost(x, kg))}</td></tr>' for kg in (3, 5, 10, 15))
+            table = ('<div class="table-wrap"><table class="compare snug"><thead><tr><th>Extra weight</th><th>At the airport</th></tr></thead>'
+                     f'<tbody>{rows}</tbody></table></div>')
+            table_head = "%s excess baggage at the airport (domestic)" % name
+        notes = "".join("<li>%s</li>" % e(n) for n in x.get("notes", []))
+        five = x["prepaid_map"].get(5)
+        faq = [
+            ("What are %s extra baggage charges per kg?" % name,
+             "At the airport, %s charges %s on domestic flights. " % (name, x["airport_text"])
+             + ("Bought online before you fly: %s." % summary if summary else x["prepaid_note"])),
+            ("How much is 5 kg extra baggage on %s?" % name,
+             ("%s online, or %s at the airport." % (rupees(five), airport_cost(x, 5))) if five else
+             ("%s at the airport. %s doesn't list a prepaid price; you see it in Manage Booking after you book." % (airport_cost(x, 5), name))),
+            ("What are %s excess baggage charges at the airport?" % name,
+             "%s above your free check-in allowance (%s)." % (x["airport_text"][0].upper() + x["airport_text"][1:], x.get("free", "see your ticket"))),
+            ("How to add extra baggage in %s?" % name, x["prepaid_note"]),
+            ("What if my %s cabin bag is more than 7 kg?" % name, x["cabin_text"]),
+            ("Does %s charge for an extra piece of baggage?" % name, x["piece_text"]),
+        ]
+        faq_html, faq_schema = faq_block(faq)
+        others = '<ul class="airline-links">' + "".join(
+            f'<li><a href="{o["slug"]}.html">{e(o["name"])}</a></li>' for o in extra["airlines"] if o["slug"] != x["slug"]) + "</ul>"
+        title = "%s extra baggage charges: per kg, prepaid and at the airport" % name
+        seo = "%s extra baggage charges %s: per kg, prepaid and airport rates" % (name, year)
+        desc = ("%s excess baggage charges on domestic flights: %s at the airport%s. Extra bag: %s. Cabin bag over 7 kg: %s. Checked %s." % (
+            name, x["airport_text"], ("; online " + summary) if summary else "", x.get("piece_short", "see below"),
+            x.get("cabin_short", "see below"), fmt_date(checked)))
+        inner = f"""<nav class="crumbs"><a href="{p}index.html">Home</a><span>/</span><a href="../index.html">Baggage rules</a><span>/</span><a href="../extra-baggage-charges.html">Extra baggage charges</a></nav>
+      <h1>{e(title)}</h1>
+      <p class="muted small">Checked on {fmt_date(checked)} against {e(name)}'s official website &middot; domestic flights</p>"""
+        body = f"""{page_head("luggage", media(cfg, "luggage", "media media-tile"), inner, p)}
+<div class="wrap"><article class="guide">
+<div class="answer"><h2>Quick answer</h2><ul>
+<li><strong>Free check-in baggage:</strong> {e(x.get("free", "see your ticket"))}.</li>
+<li><strong>Prepaid online:</strong> {e(summary) if summary else "not listed by " + e(name) + " (up to 20% less than the airport rate, it says)"}.</li>
+<li><strong>At the airport:</strong> {e(x["airport_text"])}.</li>
+<li><strong>Extra bag:</strong> {e(x.get("piece_short", "see below"))}.</li>
+<li><strong>Cabin bag over 7 kg:</strong> {e(x.get("cabin_short", "see below"))}.</li>
+</ul></div>
+<h2>{e(table_head)}</h2>
+{table}
+<p>{e(x["prepaid_note"])}</p>
+<h2>Extra bags</h2>
+<p>{e(x["piece_text"])}</p>
+<h2>Cabin bag over 7 kg</h2>
+<p>{e(x["cabin_text"])}</p>
+{('<h2>Lite fares</h2><p>' + e(x["lite"]) + '</p>') if x.get("lite") else ''}
+{('<h2>Good to know</h2><ul>' + notes + '</ul>') if notes else ''}
+<h2>How to pay less</h2>
+<ul>
+<li><strong>Weigh your bag at home</strong> with a {scale_link}, then buy the smallest slab that covers the extra weight. Prepaid kilos you don't use aren't refunded.</li>
+<li><strong>Check the cabin bag size</strong> in our <a href="../checker.html">cabin bag checker</a>: a bag that's too big gets checked in.</li>
+<li><strong>Add up your packing list</strong> with the <a href="{p}tools/bag-weight.html">bag weight calculator</a>.</li>
+</ul>
+<p>Compare {e(name)} with other airlines on our <a href="../extra-baggage-charges.html">extra baggage charges</a> page, and see the free allowance on the <a href="../{x["slug"]}.html">{e(name)} baggage rules</a> page.</p>
+{faq_html}
+<h2>Source</h2>
+<p>Official {e(name)} pages, read on {fmt_date(checked)}: {sources_html(x["sources"])}</p>
+{disclaimer}
+<h2>Extra baggage charges on other airlines</h2>
+{others}
+{tool_pills(p, "")}
+</article></div>
+{telegram_band(cfg, p)}"""
+        crumbs = crumbs_schema(cfg, [("Home", ""), ("Baggage rules", "baggage/index.html"), ("Extra baggage charges", EXTRA_PATH), (name, path)])
+        pages.append(write(path, page(cfg, seo, desc, body, 2, path,
+                                      [tool_article(cfg, seo, desc, path, extra.get("published", checked), checked), crumbs, faq_schema],
+                                      og_type="article")))
+        lastmod[path] = checked
+
+
 def build_extra_baggage(cfg, deals_by_asin, extra, pages, lastmod):
     """Hub page comparing excess baggage fees on domestic flights."""
     checked = extra["checked"]
@@ -1226,7 +1357,7 @@ def build_extra_baggage(cfg, deals_by_asin, extra, pages, lastmod):
             cells = "".join("<td>%s</td>" % (rupees(x["prepaid_map"][kg]) if kg in x["prepaid_map"] else "–") for kg in slabs)
         else:
             cells = '<td colspan="%d">Not listed (Air India says up to 20%% less than the airport rate)</td>' % len(slabs)
-        pre_rows.append(f'<tr><th scope="row">{e(x["name"])}</th>{cells}</tr>')
+        pre_rows.append(f'<tr><th scope="row"><a href="extra-baggage-charges/{x["slug"]}.html">{e(x["name"])}</a></th>{cells}</tr>')
     air_rows = "".join(f'<tr><th scope="row">{e(x["name"])}</th><td>{e(x["airport_text"])}</td><td>{e(x.get("piece_short", "–"))}</td>'
                        f'<td>{e(x.get("cabin_short", "–"))}</td></tr>' for x in rows_all)
     five_rows = []
@@ -1295,6 +1426,9 @@ def build_extra_baggage(cfg, deals_by_asin, extra, pages, lastmod):
 <li><strong>An extra bag:</strong> about ₹950 to ₹1,000, and it includes no extra weight.</li>
 <li><strong>Cabin bag over 7 kg:</strong> the rules differ a lot by airline. See the table below.</li>
 </ul></div>
+<h2>Extra baggage charges by airline</h2>
+<p>Full details for each airline: every prepaid slab, extra bags, heavy cabin bags and Lite fares.</p>
+<ul class="airline-links">{"".join(f'<li><a href="extra-baggage-charges/{x["slug"]}.html">{e(x["name"])}</a></li>' for x in rows_all)}</ul>
 <h2>Prepaid extra baggage (bought online)</h2>
 <p>The price for each slab of extra check-in weight, bought online after booking.</p>
 <div class="table-wrap"><table class="compare snug"><thead><tr><th>Airline</th>{"".join("<th>%d kg</th>" % kg for kg in slabs)}</tr></thead><tbody>{"".join(pre_rows)}</tbody></table></div>
@@ -1336,6 +1470,7 @@ def build_extra_baggage(cfg, deals_by_asin, extra, pages, lastmod):
                                         [tool_article(cfg, seo, desc, EXTRA_PATH, extra.get("published", checked), checked), crumbs, faq_schema],
                                         og_type="article", photo="bathroom-scale")))
     lastmod[EXTRA_PATH] = checked
+    build_extra_airlines(cfg, deals_by_asin, extra, pages, lastmod)
 
 
 # ---------- train luggage rules and "can I carry it?" ----------
@@ -2451,7 +2586,7 @@ def build():
         lastmod[path] = a["updated"]
 
     if airlines:
-        build_baggage(cfg, deals, airlines, pages, lastmod, intl_airlines)
+        build_baggage(cfg, deals, airlines, pages, lastmod, intl_airlines, extra)
     if extra:
         build_extra_baggage(cfg, deals_by_asin, extra, pages, lastmod)
     if PACKING_FILE.exists():
