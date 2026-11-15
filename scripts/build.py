@@ -2024,7 +2024,7 @@ def build_customs(cfg, deals_by_asin, customs, pages, lastmod):
                  + ("Customs rules" if is_hub else f'<a href="../customs.html">Customs rules</a><span>/</span>{e(a.get("nav", a["title"]))}'))
         inner = f"""<nav class="crumbs">{crumb}</nav>
       <h1>{e(a["title"])}</h1>
-      <p class="muted small">Checked on {fmt_date(a["checked"])} against the Baggage Rules, 2026 and other official CBIC and RBI documents</p>"""
+      <p class="muted small">Checked on {fmt_date(a["checked"])} against {e(a.get("checked_against", "the Baggage Rules, 2026 and other official CBIC documents"))}</p>"""
         art = f'<div class="media media-tile tint-travel-gear">{icon("globe", "icon media-icon")}</div>'
         links = [(customs_path(b), b.get("nav", b["title"])) for b in customs if b is not a]
         others = "".join(f'<li><a href="{p}{e(u)}">{e(label)}</a></li>' for u, label in links)

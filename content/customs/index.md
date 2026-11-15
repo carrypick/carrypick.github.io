@@ -5,6 +5,7 @@ description: Flying into India? Since 2 Feb 2026 the duty-free allowance is ₹7
 date: 2026-11-15
 checked: 2026-11-15
 nav: Customs rules: overview
+checked_against: the Baggage Rules, 2026 and other official CBIC and RBI documents
 photo: baggage-belt
 lead: Coming home from Dubai, the US or anywhere abroad? Here's what Indian Customs lets you bring in without paying duty, what you must declare, and how much duty you pay on the rest. India's new Baggage Rules, 2026 apply since 2 February 2026.
 quick: **Duty-free allowance:** goods worth ₹75,000 per person for Indian residents, NRIs, OCI cardholders and foreigners living in India; ₹25,000 for foreign tourists. Only when you arrive by air or sea. | **Also duty free:** your used personal things, and one new laptop if you're 18 or older. | **Alcohol and cigarettes:** up to 2 litres of alcohol, and 100 cigarettes (or 25 cigars or 125 g of tobacco). | **Gold jewellery:** 20 g for men and 40 g for women, only if you lived abroad for more than one year. | **Over the limit?** Duty is 35% of the value above your allowance. Declare it on the Atithi app and use the Red Channel. | **Cash:** declare foreign currency notes over US$5,000, or more than US$10,000 in all. Indian notes: up to ₹25,000.
@@ -58,7 +59,7 @@ Goods in **commercial quantity**, meaning more than you'd need for yourself and 
 - **35% of the value above your allowance.** This rate comes from CBIC's baggage duty notification, updated for the 2026 rules.
 - **Example:** an Indian resident brings a new phone worth ₹1,00,000 and nothing else. ₹25,000 is above the allowance, and 35% of that is ₹8,750. The officer works out the final amount, which can include a surcharge.
 - **The 35% rate doesn't cover** alcohol over 2 litres, extra cigarettes, gold or silver bars and coins, flat-screen TVs and firearms. Those pay the normal customs duty, which is usually higher.
-- **Gold** has its own rules and duty rate for people who lived abroad for 6 months or more.
+- **Gold** has its own rules and duty rate for people who lived abroad for 6 months or more. See [how much gold you can bring](customs/gold.html).
 
 You pay at the Red Channel before you leave the airport. If you can't pay, Customs can keep the goods and give you a detention receipt, so you can clear them later or take them back when you fly out.
 
@@ -110,7 +111,7 @@ For the ₹3 lakh and ₹7.5 lakh limits, you can't have used this benefit in th
 
 The same rules apply whichever country you fly in from. The big three questions from Dubai travellers:
 
-- **Gold:** jewellery up to 20 g (men) or 40 g (women) is free only after more than a year abroad. Gold bars and coins always need declaring.
+- **Gold:** jewellery up to 20 g (men) or 40 g (women) is free only after more than a year abroad. Gold bars and coins always need declaring. See our [gold rules](customs/gold.html).
 - **iPhones and electronics:** they use your ₹75,000 allowance. One new laptop is extra.
 - **Alcohol:** 2 litres per passenger. Bottles from the duty-free shop count too.
 
