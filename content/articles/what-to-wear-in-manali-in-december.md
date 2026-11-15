@@ -9,7 +9,7 @@ feature_until: 2027-01-15
 ---
 Manali in December is cold, mostly dry and often sunny. Nights go below freezing, and snow is possible but not certain. The answer is simple: dress in layers that you can add and take off, and wear waterproof shoes with a good grip.
 
-Planning the whole trip? Read our [Manali winter guide](../trips/manali.html) for roads, the Atal Tunnel and New Year crowds. For the basics of layering, see [what to wear on a winter hill trip](winter-clothes-for-hill-trips.html).
+Planning the whole trip? Read our [Manali winter guide](../trips/manali.html) for roads, the Atal Tunnel, New Year crowds and places to stay. For the basics of layering, see [what to wear on a winter hill trip](winter-clothes-for-hill-trips.html).
 
 ## How cold is Manali in December?
 

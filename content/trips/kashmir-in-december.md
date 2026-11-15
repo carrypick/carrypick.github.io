@@ -69,6 +69,12 @@ Srinagar, Gulmarg, Sonamarg and Pahalgam town are the usual winter trips. Rules 
 - **Carry some cash** for taxis, ponies and small shops.
 - **Book a room with proper heating,** and ask about hot water before you book.
 
+## Where to book your stay
+
+Book a hotel or houseboat with heating and hot water. Compare stays for your dates on these sites:
+
+[[book:Kashmir]]
+
 ## What to wear in Kashmir in December
 
 Dress in layers, as for Manali, but plan for colder nights, especially in Gulmarg and Pahalgam:
@@ -123,12 +129,6 @@ For the full list, use our [winter hill trip packing list](../packing/hills.html
 [[pick:B0GHXYQ318]]
 
 [[pick:B0CND4C95T]]
-
-## Where to book your stay
-
-Book a hotel or houseboat with heating and hot water. Compare stays for your dates on these sites:
-
-[[book:Kashmir]]
 
 ## For foreign visitors
 

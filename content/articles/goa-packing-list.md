@@ -9,7 +9,7 @@ feature_until: 2027-01-10
 ---
 Goa in December and January is hot in the day and pleasant at night, with almost no rain. So you need less than you think: light clothes, good sun care, one warm layer and the right shoes. This list tells you what to pack and why.
 
-Want to tick things off as you pack? Use our [beach trip checklist](../packing/beach.html). Still planning the trip? Read our [Goa guide for Christmas and New Year](../trips/goa.html).
+Want to tick things off as you pack? Use our [beach trip checklist](../packing/beach.html). Still planning the trip? Read our [Goa guide for Christmas and New Year](../trips/goa.html), with airports, beach rules and places to stay.
 
 ## Goa weather in December and January
 
