@@ -20,7 +20,7 @@ A 32 inch trolley bag is **81.3 cm** tall. That's the biggest size most brands m
 [[top:B0F5HLYQK3|Biggest within 158 cm|79 cm tall (31.1 inches) and listed at exactly 158 cm in total, so it's within the limit of every Indian airline. 3.5 kg empty, with a TSA lock.]]
 [[top:B0BLNY575N|A true 32 inch bag|81 cm tall and 3.3 kg empty, the lightest of the 11 extra-large bags we read. At 159 cm it's 1 cm over the 158 cm limit, so take it on airlines that allow more.]]
 
-Need other sizes? See our [luggage size chart](../baggage/luggage-size-chart.html), or the guides to [24 inch](24-inch-trolley-bag-size.html) and [28 inch](28-inch-trolley-bag-size.html) trolleys. Flying abroad? See [international baggage rules](../baggage/international.html).
+Need other sizes? See our [luggage size chart](../baggage/luggage-size-chart.html), or the guides to [24 inch](24-inch-trolley-bag-size.html) and [28 inch](28-inch-trolley-bag-size.html) trolleys. Flying abroad? See [trolley bag size for international travel](trolley-bag-size-for-international-travel.html).
 
 ## What the biggest trolleys really measure
 
@@ -132,4 +132,4 @@ A 32 inch trolley is about 5 cm taller. It's usually wider and deeper too, which
 
 Listed sizes and weights read on Amazon.in on 15 Nov 2026, for 11 trolleys 79–82 cm tall, one colour each. The Liftoff+ 79 cm was read on 6 Nov 2026. These came from Amazon search results, so they aren't every bag on sale. Sellers don't always say whether wheels are included. Airline limits are from our [baggage rules](../baggage/index.html) (checked 3 Nov 2026). Check your airline before you fly.
 
-[[next:#our-picks=Compare our three big-bag picks|28-inch-trolley-bag-size.html=See large trolleys within the 158 cm limit|../baggage/international.html=Flying abroad? See baggage rules by airline]]
+[[next:#our-picks=Compare our three big-bag picks|28-inch-trolley-bag-size.html=See large trolleys within the 158 cm limit|trolley-bag-size-for-international-travel.html=Flying abroad? Pick a bag for a 23 kg allowance]]

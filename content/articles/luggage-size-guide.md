@@ -27,7 +27,7 @@ These are rough guides. Every brand's sizes differ a little, so always check the
 
 ## Check your airline first
 
-Bag size only matters if the airline accepts it. For example, IndiGo's official baggage page allows a **7 kg cabin bag** with a total size of **115 cm** (length + width + height), and **15 kg of check-in baggage** on domestic flights for standard fares. Rules vary by airline and fare, so check before you fly. Our [cabin bag guide](cabin-luggage-guide.html) explains this in detail.
+Bag size only matters if the airline accepts it. For example, IndiGo's official baggage page allows a **7 kg cabin bag** with a total size of **115 cm** (length + width + height), and **15 kg of check-in baggage** on domestic flights for standard fares. Rules vary by airline and fare, so check before you fly. Our [cabin bag guide](cabin-luggage-guide.html) explains this in detail. Flying abroad? See [trolley bag size for international travel](trolley-bag-size-for-international-travel.html).
 
 Remember that **the bag's own weight counts**. A hard cabin trolley often weighs 2.5–3 kg, and a medium one around 3.5 kg.
 

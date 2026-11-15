@@ -1141,6 +1141,7 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
 <div class="table-wrap"><table class="compare"><thead><tr><th>Our pick</th>{matrix_head}</tr></thead><tbody>{matrix_rows}</tbody></table></div>
 <p>Weigh your packed bags at home with a {scale_link}, and try our <a href="../tools/bag-weight.html">bag weight calculator</a>.</p>
 {faq_html}
+<p>Buying a check-in bag for this trip? See <a href="../guides/trolley-bag-size-for-international-travel.html">which trolley size fits a 23 kg bag and the 158 cm limit</a>.</p>
 <h2>Flying within India?</h2>
 <p>Domestic allowances are smaller: usually a 7 kg cabin bag and 15 kg of check-in baggage. See our <a href="index.html">baggage rules for Indian airlines</a>.</p>
 {tool_pills("../", "baggage/international.html")}
@@ -2267,7 +2268,7 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
 <div class="table-wrap"><table class="compare snug"><thead><tr><th>kg</th><th>Pounds (lb)</th></tr></thead><tbody>{kg_rows}</tbody></table></div>
 {end_html}
 {faq_html}
-<p>More help: <a href="../guides/trolley-bag-capacity-kg-litres.html">how many kg each size holds</a>, <a href="../guides/20-inch-trolley-bag-size.html">20 inch</a>, <a href="../guides/24-inch-trolley-bag-size.html">24 inch</a>, <a href="../guides/28-inch-trolley-bag-size.html">28 inch</a> and <a href="../guides/32-inch-trolley-bag-size.html">32 inch</a> trolleys in detail, <a href="../guides/luggage-size-guide.html">what size luggage you need</a> and <a href="../guides/cabin-luggage-guide.html">how to pick a cabin trolley</a>.</p>
+<p>More help: <a href="../guides/trolley-bag-capacity-kg-litres.html">how many kg each size holds</a>, <a href="../guides/20-inch-trolley-bag-size.html">20 inch</a>, <a href="../guides/24-inch-trolley-bag-size.html">24 inch</a>, <a href="../guides/28-inch-trolley-bag-size.html">28 inch</a> and <a href="../guides/32-inch-trolley-bag-size.html">32 inch</a> trolleys in detail, <a href="../guides/trolley-bag-size-for-international-travel.html">a bag for international flights</a>, <a href="../guides/luggage-size-guide.html">what size luggage you need</a> and <a href="../guides/cabin-luggage-guide.html">how to pick a cabin trolley</a>.</p>
 {tool_pills("../", path)}
 </article></div>
 <script src="../assets/sizes.js" defer></script>

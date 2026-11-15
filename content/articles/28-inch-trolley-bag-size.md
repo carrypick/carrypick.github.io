@@ -58,7 +58,7 @@ Listings can be wrong. Other colours of the Liftoff+ showed sizes that can't be 
 ## Do you really need a large trolley?
 
 - **On a 15 kg fare, probably not.** A 4.3 kg bag leaves you 10.7 kg, and a medium trolley can usually hold that.
-- **With 20–25 kg or more, it starts to make sense,** for example on some Air India fares and many [international flights](../baggage/international.html).
+- **With 20–25 kg or more, it starts to make sense,** for example on some Air India fares and many [international flights](../baggage/international.html). See [which trolley size fits a 23 kg bag](trolley-bag-size-for-international-travel.html).
 - **For a family,** one large bag can hold things for two people, but it can only be as heavy as one person's allowance allows, unless your airline lets you pool baggage. Ask your airline.
 
 ## Our picks, all within 158 cm by their listed size

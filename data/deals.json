@@ -1,5 +1,34 @@
 [
   {
+    "asin": "B0D797J551",
+    "added_at": "2026-11-15T21:58:46+05:30",
+    "title": "Urban Jungle by Safari The Caliber 75 cm Large Trolley, Polycarbonate, TSA Lock",
+    "category": "luggage",
+    "highlights": [
+      "Listed at 75 x 51 x 30 cm, 156 cm in total: within the 158 cm limit",
+      "Hard polycarbonate shell with a TSA-approved lock",
+      "105 litres, with compression straps inside",
+      "8 spinner wheels and a 5-year international warranty"
+    ],
+    "note": "A large hard-shell bag within 158 cm with a TSA lock, for one 23 kg bag on flights abroad.",
+    "brand": "Urban Jungle by Safari",
+    "colour": "Black",
+    "best_for": [
+      "Flights abroad",
+      "Long trips"
+    ],
+    "specs": {
+      "Size": "75 x 51 x 30 cm (156 cm total)",
+      "Capacity": "105 L",
+      "Weight": "4.5 kg",
+      "Shell": "Hard, polycarbonate",
+      "Wheels": "8 spinner wheels",
+      "Lock": "TSA",
+      "Warranty": "5 years, international"
+    },
+    "skip_if": "you want a light bag: at 4.5 kg empty it leaves 18.5 kg of a 23 kg allowance for your things."
+  },
+  {
     "asin": "B0BLNY575N",
     "added_at": "2026-11-15T21:54:12+05:30",
     "title": "it luggage Census 81 cm Extra Large Soft Trolley Bag, TSA Lock",
