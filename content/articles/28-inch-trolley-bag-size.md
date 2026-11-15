@@ -3,6 +3,7 @@ seo_title: 28 inch trolley bag in cm: size and the 158 cm airline limit
 title: 28 inch trolley bag: size in cm, and why most large bags go over the 158 cm limit
 description: A 28 inch trolley is 71 cm, but most large bags in India are 75–80 cm. We checked 31 models: 26 are listed over the 158 cm airline limit. See the 5 that aren't.
 date: 2026-11-06
+updated: 2026-11-15
 category: luggage
 photo: baggage-belt
 ---
@@ -14,6 +15,10 @@ A 28 inch trolley bag is **71.1 cm** tall. In India, brands sell large bags at 7
 - **It's a check-in bag** for long trips or families.
 - **26 of the 31 large models we checked are listed over 158 cm** in total (length + width + height).
 - **On a 15 kg fare, you may not need one.** A [medium trolley](24-inch-trolley-bag-size.html) is lighter and easier to handle.
+
+[[toppicks:Our picks for this size|Compare all three|#our-picks-all-within-158-cm-by-their-listed-size]]
+[[top:B0GX5VFHMS|Smallest total, and light|75 cm tall and 152 cm in total, well inside the 158 cm limit. 3.6 kg empty.]]
+[[top:B0F5HLYQK3|Most room for its weight|79 cm and 95.5 litres, listed at exactly 158 cm in total. 3.5 kg empty, with a TSA lock.]]
 
 How much does each size hold? See [trolley bag capacity in kg and litres](trolley-bag-capacity-kg-litres.html).
 
@@ -101,3 +106,5 @@ Of the 31 models we checked on 6 Nov 2026, these were listed at 158 cm or less: 
 ## Sources
 
 Listed sizes and weights read on Amazon.in on 6 Nov 2026, for 31 large models after removing repeat colours and listings with clear errors. These came from Amazon search results, so they aren't every bag on sale. Sellers don't always say whether wheels are included. Airline limits checked on 3 Nov 2026: see our [baggage rules](../baggage/index.html). Check your airline before you fly.
+
+[[next:#our-picks-all-within-158-cm-by-their-listed-size=Compare our three large picks|24-inch-trolley-bag-size.html=Packing for a 15 kg fare? See medium trolleys|../baggage/extra-baggage-charges.html=Extra baggage charges by airline]]

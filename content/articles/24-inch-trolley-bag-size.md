@@ -3,6 +3,7 @@ seo_title: 24 inch trolley bag in cm: size, weight and how much you can pack
 title: 24 inch trolley bag: size in cm, weight and how much you can pack
 description: A 24 inch trolley is 61 cm, but most sold in India are 65–69 cm. See what 36 medium bags really measure and how much you can pack on a 15 kg fare.
 date: 2026-11-06
+updated: 2026-11-15
 category: luggage
 photo: trolley-walk
 ---
@@ -14,6 +15,10 @@ A 24 inch trolley bag is **61 cm** tall. It's a check-in bag, not a cabin bag. I
 - **It's too tall for the cabin.** Indian airlines limit cabin bags to about 55 cm.
 - **It suits a trip of about a week,** or a shorter trip with heavy clothes.
 - **The bag's own weight counts.** On a 15 kg fare, a typical medium bag leaves you about 11.6 kg.
+
+[[toppicks:Our picks for this size|Compare all three|#our-picks]]
+[[top:B0GNSKLF5Z|Lightest, for 15 kg fares|68 cm and only 2.52 kg empty, the lightest medium trolley we found, so more of your allowance goes to your things.]]
+[[top:B0F5HNW8D1|For trips abroad|67 cm, 70 litres and 2.9 kg empty, with a TSA lock.]]
 
 Need other sizes? See our [luggage size chart](../baggage/luggage-size-chart.html) or the guides to [20 inch](20-inch-trolley-bag-size.html) and [28 inch](28-inch-trolley-bag-size.html) trolleys. How much does each size hold? See [trolley bag capacity in kg and litres](trolley-bag-capacity-kg-litres.html).
 
@@ -95,3 +100,5 @@ Not exactly. 65 cm is 25.6 inches, and 24 inches is 61 cm. Some brands still sel
 ## Sources
 
 Listed sizes and weights read on Amazon.in on 6 Nov 2026, for 36 medium models after removing repeat colours and listings with clear errors. These came from Amazon search results, so they aren't every bag on sale. Sellers don't always say whether wheels are included. Airline allowances checked on 3 Nov 2026: see our [baggage rules](../baggage/index.html). Train limits: [Indian Railways](https://indianrail.gov.in/luggage_Rule.html).
+
+[[next:#our-picks=Compare our three medium picks|cabin-luggage-guide.html#our-cabin-bag-picks=Add a cabin bag that fits IndiGo or Air India|28-inch-trolley-bag-size.html=Need more room? See 28 inch (large) trolleys]]

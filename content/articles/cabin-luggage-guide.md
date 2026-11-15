@@ -3,7 +3,7 @@ seo_title: Cabin bag size rules in India: 7 kg, 115 cm and 55 cm trolleys
 title: Cabin bag rules for Indian flights and how to pick the right trolley
 description: The 7 kg and 115 cm rule explained, why "55 cm" bags can still be too big, and our cabin and check-in picks.
 date: 2026-10-23
-updated: 2026-11-06
+updated: 2026-11-15
 category: luggage
 photo: cabin-bag-airport
 ---
@@ -18,6 +18,10 @@ Take IndiGo, India's biggest airline, as an example. Its official baggage page a
 - **15 kg of check-in baggage** on domestic flights for standard fares.
 
 Other airlines have similar rules, but they can differ by fare type and they change from time to time. Air India, for example, limits the cabin bag to **55 x 40 x 20 cm**, so a deep trolley can be too thick even if the total is fine. **Always check your airline's baggage page before you fly.**
+
+[[toppicks:Cabin trolleys that fit by their listed size|Compare all five cabin picks|#our-cabin-bag-picks]]
+[[top:B097JLKP8X|For IndiGo and Akasa Air|Listed at 55 x 35 x 25 cm and 115 cm in total, within the limit of IndiGo, Akasa Air and SpiceJet's Boeing planes. 2.7 kg empty.]]
+[[top:B0F5HGLC5Q|For Air India|Only 20 cm deep, so by its listed size it fits Air India's 55 x 40 x 20 cm limit. 2.2 kg empty.]]
 
 We've put the rules for IndiGo, Air India, Air India Express, Akasa Air and SpiceJet on one page: see our [baggage rules for Indian airlines](../baggage/index.html). To test your own bag, use the [cabin bag checker](../baggage/checker.html).
 
@@ -119,3 +123,5 @@ A set of three sizes suits families who travel often:
 4. Keep power banks, laptops and medicines in your cabin bag. Power banks are not allowed in checked baggage.
 
 Not flying soon? See what to expect from Amazon's [Republic Day sale](republic-day-sale-guide.html).
+
+[[next:#our-cabin-bag-picks=Compare our cabin bag picks|../baggage/luggage-size-chart.html=Trolley bag sizes in cm and inches|../baggage/checker.html=Check your own bag against every airline]]

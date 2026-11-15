@@ -3,6 +3,7 @@ seo_title: 20 inch trolley bag in cm: size, cabin rules and how much it holds
 title: 20 inch trolley bag: size in cm, and is it allowed in the cabin?
 description: A 20 inch trolley is 50.8 cm, but many sold as "20 inch" in India are 55 cm or taller. See airline limits, how much it holds and two bags that fit.
 date: 2026-11-06
+updated: 2026-11-15
 category: luggage
 photo: cabin-bag-airport
 ---
@@ -14,6 +15,10 @@ A 20 inch trolley bag is **50.8 cm** tall. But in India, the number on a listing
 - **It's a cabin size.** It suits a trip of about 2–4 days.
 - **Height isn't enough.** Airlines also check width and depth, wheels and handles included.
 - **Weight counts too.** Most Indian airlines allow 7 kg in the cabin, and that includes the bag.
+
+[[toppicks:Our picks for this size|Why we picked them|#two-cabin-trolleys-that-fit-by-their-listed-size]]
+[[top:B097JLKP8X|For IndiGo and Akasa Air|Listed at 55 x 35 x 25 cm, within the cabin limit of IndiGo, Akasa Air and SpiceJet's Boeing planes. 2.7 kg empty.]]
+[[top:B0F5HGLC5Q|For Air India|Only 20 cm deep, so by its listed size it fits Air India's 55 x 40 x 20 cm limit. 2.2 kg empty.]]
 
 Need other sizes? See our [luggage size chart](../baggage/luggage-size-chart.html). How much does each size hold? See [trolley bag capacity in kg and litres](trolley-bag-capacity-kg-litres.html).
 
@@ -91,3 +96,5 @@ About 2–4 days. It depends on how much you pack and on the 7 kg limit, not onl
 ## Sources
 
 Listed sizes and weights read on Amazon.in on 3 and 6 Nov 2026. Sellers can change them, and they don't always say whether wheels are included. Airline limits checked on 3 Nov 2026: [IndiGo](https://www.goindigo.in/baggage/cabin-baggage.html), [Air India](https://www.airindia.com/in/en/travel-information/baggage-guidelines/cabin-baggage.html), [Air India Express](https://www.airindiaexpress.com/support/faqs/baggage), [Akasa Air](https://www.akasaair.com/quick-links/baggage) and [SpiceJet](https://corporate.spicejet.com/Baggage.aspx). Train limits: [Indian Railways](https://indianrail.gov.in/luggage_Rule.html). Check your airline before you fly.
+
+[[next:cabin-luggage-guide.html#our-cabin-bag-picks=See all five cabin trolleys we picked|../baggage/checker.html=Check a bag's size against every airline|24-inch-trolley-bag-size.html=Going for a week? See 24 inch (medium) trolleys]]

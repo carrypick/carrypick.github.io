@@ -495,6 +495,34 @@ def compare_table(cfg, deals, p):
             f'<tbody>{"".join(rows)}</tbody></table></div>')
 
 
+TOP_PICKS_TITLE = "Our picks for this size"
+
+
+def top_picks(cfg, rows, p, title=TOP_PICKS_TITLE, more=""):
+    """A short list near the top of a page: one pick per need, a one-line reason each and the Amazon button.
+    rows: (deal, label, reason). more: optional HTML for a link under the list."""
+    if not rows:
+        return ""
+    items = "".join(f"""<li class="tp">
+  <a class="tp-art art tint-{d['category']}" href="{p}picks/{d['asin']}.html" tabindex="-1" aria-hidden="true">{pick_img(d, p)}</a>
+  <div class="tp-body">
+    <p class="tp-label">{e(label)}</p>
+    <h3 class="tp-title"><a href="{p}picks/{d['asin']}.html">{e(d['title'])}</a></h3>
+    <p class="tp-why">{e(reason)}</p>
+    <div class="tp-buy">{buy_button(cfg, d)}</div>
+  </div>
+</li>""" for d, label, reason in rows)
+    more_html = f'<p class="tp-more">{more}</p>' if more else ""
+    return f'<section class="top-picks"><h2>{e(title)}</h2><ul class="tp-list">{items}</ul>{more_html}</section>'
+
+
+def next_step(links, title="Next step", text=""):
+    """A box at the end of a page that says where to go next. links: (href, label)."""
+    items = "".join(f'<li><a href="{e(href)}">{e(label)} {icon("arrow", "icon icon-sm")}</a></li>' for href, label in links)
+    text_html = f"<p>{text}</p>" if text else ""
+    return f'<aside class="next-step"><h2>{e(title)}</h2>{text_html}<ul>{items}</ul></aside>'
+
+
 def telegram_band(cfg, p):
     url = telegram_url(cfg)
     if not url:
@@ -556,13 +584,25 @@ def shop_box(cfg, shop):
             f'<span class="paid">Paid link</span></div><p>Prices and stock are shown on the shop\'s own site. We have not tested these products.</p></div>')
 
 
+def anchor(text):
+    """An id for a heading, so other pages and our pick boxes can link straight to a section."""
+    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text).replace("**", "")
+    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+
+
 def render_markdown(md, cfg, deals_by_asin, p, source):
-    if "[[shop:" in md and ("[[pick:" in md or "[[compare:" in md):
+    if "[[shop:" in md and ("[[pick:" in md or "[[compare:" in md or "[[top:" in md):
         sys.exit("Error: %s mixes a [[shop:]] link with Amazon picks. Keep other shops' links away from Amazon picks." % source)
     out, para, items, list_tag, rows = [], [], [], None, []
+    tops, top_head = [], None  # [[toppicks:Title|More link text|#anchor]] then one [[top:ASIN|Label|Reason]] line per pick
 
     def flush():
-        nonlocal para, items, list_tag, rows
+        nonlocal para, items, list_tag, rows, tops, top_head
+        if tops:
+            title, more_text, more_href = (list(top_head or []) + ["", "", ""])[:3]
+            more = '<a href="%s">%s</a>' % (e(more_href), e(more_text)) if more_text and more_href else ""
+            out.append(top_picks(cfg, tops, p, title or TOP_PICKS_TITLE, more))
+            tops, top_head = [], None
         if rows:
             cells = [[c.strip() for c in r.strip("|").split("|")] for r in rows if not re.fullmatch(r"[\s|:-]+", r)]
             head = "".join("<th>%s</th>" % md_inline(c, p) for c in cells[0])
@@ -584,6 +624,9 @@ def render_markdown(md, cfg, deals_by_asin, p, source):
         diagram = re.fullmatch(r"\[\[diagram:([a-z0-9-]+)\]\]", line)
         booking = re.fullmatch(r"\[\[book:([^\]]+)\]\]", line)
         shop = re.fullmatch(r"\[\[shop:([^\]]+)\]\]", line)
+        toppicks = re.fullmatch(r"\[\[toppicks:([^\]]+)\]\]", line)
+        top = re.fullmatch(r"\[\[top:([A-Z0-9]{10})\|([^|\]]+)\|([^\]]+)\]\]", line)
+        nxt = re.fullmatch(r"\[\[next:([^\]]+)\]\]", line)
         ul = re.match(r"^- (.+)", line)
         ol = re.match(r"^\d+\. (.+)", line)
         if not line:
@@ -595,6 +638,22 @@ def render_markdown(md, cfg, deals_by_asin, p, source):
         elif shop:
             flush()
             out.append(shop_box(cfg, shop.group(1)))
+        elif toppicks:
+            flush()
+            top_head = [x.strip() for x in toppicks.group(1).split("|")]
+        elif top:
+            if para or items or rows:
+                flush()
+            deal = deals_by_asin.get(top.group(1))
+            if deal is None:
+                sys.exit("Error: %s uses [[top:%s]] but that ASIN is not in data/deals.json" % (source, top.group(1)))
+            tops.append((deal, top.group(2).strip(), top.group(3).strip()))
+        elif nxt:
+            flush()
+            links = [x.split("=", 1) for x in nxt.group(1).split("|")]
+            if any(len(x) != 2 for x in links):
+                sys.exit("Error: %s has a [[next:]] link without path=Label" % source)
+            out.append(next_step([(h.strip(), t.strip()) for h, t in links]))
         elif diagram:
             flush()
             out.append(diagram_figure(diagram.group(1), p))
@@ -619,7 +678,7 @@ def render_markdown(md, cfg, deals_by_asin, p, source):
             out.append("<h3>%s</h3>" % md_inline(line[4:], p))
         elif line.startswith("## "):
             flush()
-            out.append("<h2>%s</h2>" % md_inline(line[3:], p))
+            out.append('<h2 id="%s">%s</h2>' % (anchor(line[3:]), md_inline(line[3:], p)))
         elif ul or ol:
             tag = "ul" if ul else "ol"
             if para or (list_tag and list_tag != tag):
@@ -890,6 +949,42 @@ def fit_table(cfg, airline, picks, p):
             f'<th>Fits {e(airline["name"])}?</th><th>Weight</th><th></th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>')
 
 
+def litres(deal):
+    m = re.search(r"(\d+(?:\.\d+)?)\s*L\b", deal.get("specs", {}).get("Capacity", ""))
+    return float(m.group(1)) if m else 0
+
+
+def airline_top_rows(name, cabins, picks):
+    """Up to three of our picks that fit every cabin limit in `cabins` by listed size: a trolley, the backpack
+    with the most litres and the lightest backpack. Each gets a short reason from its listed size and weight."""
+    fits = [(d, dims, kg) for d, dims, kg in picks if all(size_fit(dims, c)[0] for c in cabins)]
+    limit = min((c["kg"] for c in cabins if c.get("kg")), default=None)
+    size = lambda dims: " x ".join(num(x) for x in sorted(dims, reverse=True))
+    kgs = lambda kg: "%g" % kg
+    whose = name + ("'" if name.endswith("s") else "'s")
+    left = lambda kg: (", so about %s kg of the %s kg limit is left for your things" % (num(round(limit - kg, 1)), num(limit))
+                       if kg is not None and limit and limit > kg else "")
+    rows, used = [], set()
+    trolley = next(((d, dims, kg) for d, dims, kg in fits if d["category"] == "luggage"), None)
+    if trolley:
+        d, dims, kg = trolley
+        rows.append((d, "Cabin trolley", "Listed at %s cm, within %s limit. %s kg empty%s." % (size(dims), whose, kgs(kg), left(kg))
+                     if kg is not None else "Listed at %s cm, within %s limit." % (size(dims), whose)))
+        used.add(d["asin"])
+    bags = [x for x in fits if x[0]["category"] == "backpacks" and x[0]["asin"] not in used]
+    roomy = max(bags, key=lambda x: (litres(x[0]), -(x[2] or 9)), default=None)
+    if roomy and litres(roomy[0]):
+        d, dims, kg = roomy
+        rows.append((d, "Most room in a backpack", "%s litres, the biggest of our backpacks that fit %s by listed size (%s cm)." % (
+            num(litres(d)), name, size(dims))))
+        used.add(d["asin"])
+    light = min((x for x in bags if x[2] is not None and x[0]["asin"] not in used), key=lambda x: x[2], default=None)
+    if light:
+        d, dims, kg = light
+        rows.append((d, "Lightest backpack", "Only %s kg empty%s. Listed at %s cm." % (kgs(kg), left(kg), size(dims))))
+    return rows
+
+
 def load_airlines(path=AIRLINES_FILE):
     if not path.exists():
         return None
@@ -1016,6 +1111,19 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
     desc = ("Cabin bag size and weight, extra small bag and free check-in baggage for IndiGo, Air India, "
             "Air India Express, Akasa Air and SpiceJet domestic flights, checked against official websites.")
     limits_fig = diagram_figure("cabin-limits", "../") if "cabin-limits" in DIAGRAMS else ""
+    join_names = lambda names: names[0] if len(names) == 1 else ", ".join(names[:-1]) + " and " + names[-1]
+    hub_rows = []
+    for d, dims, kg in picks:
+        names = [a["name"] for a in airlines if size_fit(dims, a["cabin"])[0]]
+        if d["category"] == "luggage" and names:
+            hub_rows.append((len(names), d, "Cabin trolley for " + join_names(names), "Listed at %s cm%s." % (
+                " x ".join(num(x) for x in sorted(dims, reverse=True)), (", %g kg empty" % kg) if kg is not None else "")))
+    hub_rows = [r[1:] for r in sorted(hub_rows, key=lambda r: -r[0])]
+    hub_rows += [(d, "Backpack that fits all %d airlines" % len(airlines), why)
+                 for d, label, why in airline_top_rows("all %d airlines" % len(airlines), [a["cabin"] for a in airlines], picks)
+                 if label == "Most room in a backpack"]
+    hub_picks = top_picks(cfg, hub_rows, "../", "Cabin bags that fit by their listed size",
+                          '<a href="#our-picks-fit">See all our picks against each airline</a>')
     body = f"""{head(title, "Baggage rules", "Checked on " + fmt_date(checked) + " against each airline's official website", BAGGAGE_PHOTO)}
 <div class="wrap"><article class="guide">
 <p class="lead">Domestic economy limits for India's main airlines, in one place. Tap an airline for the full rules, fare types and tips.</p>
@@ -1024,9 +1132,10 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
 <h2>Cabin and check-in baggage at a glance</h2>
 <div class="table-wrap"><table class="compare"><thead><tr><th>Airline</th><th>Cabin bag</th><th>Cabin size limit</th><th>Extra small bag</th><th>Free check-in (domestic)</th></tr></thead><tbody>{rows}</tbody></table></div>
 {disclaimer}
+{hub_picks}
 <h2>Cabin bag limits side by side</h2>
 {limits_fig}
-<h2>Do our cabin picks fit?</h2>
+<h2 id="our-picks-fit">Do our cabin picks fit?</h2>
 <p>Many "55 cm" cabin trolleys are a little bigger than the limits once you add up all three sides. A backpack is often the safest cabin bag. Here's how our picks compare, using the size listed on Amazon.</p>
 <div class="table-wrap"><table class="compare"><thead><tr><th>Our pick</th>{matrix_head}</tr></thead><tbody>{matrix_rows}</tbody></table></div>
 <h2>How to avoid extra baggage charges</h2>
@@ -1037,7 +1146,10 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
 <li><strong>Check your fare.</strong> Some cheap fares include cabin baggage only.</li>
 </ul>
 {('<p>Already over the limit? Compare <a href="extra-baggage-charges.html">extra baggage charges by airline</a>: prepaid slabs, the airport rate per kg and fees for heavy cabin bags.</p>') if extra else ''}
-<p>More help: <a href="../guides/cabin-luggage-guide.html">how to pick a cabin trolley</a> and <a href="../guides/luggage-size-guide.html">what size luggage you need</a>.</p>
+{next_step([("../guides/cabin-luggage-guide.html#our-cabin-bag-picks", "Cabin trolleys we picked, and the airlines each one fits"),
+            ("luggage-size-chart.html", "Trolley bag sizes in cm and inches"),
+            ("../guides/luggage-size-guide.html", "What size luggage you need for your trip"),
+            ("checker.html", "Check your own bag against every airline")], "Shop by size")}
 {tool_pills("../", "baggage/index.html")}
 </article></div>
 {telegram_band(cfg, "../")}"""
@@ -1097,6 +1209,8 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
 {('<li><strong>Extra small bag:</strong> ' + e(a['personal']['summary']) + '.</li>') if a.get('personal') else ''}
 <li><strong>{"Checked baggage" if abroad else "Free check-in"}:</strong> {e(a['checkin_summary'])}.</li>
 </ul></div>
+{top_picks(cfg, airline_top_rows(a["name"], [cabin], picks), "../", "Cabin bags that fit " + a["name"],
+           '<a href="#our-picks-fit">See all our picks checked against this limit</a>')}
 {checker_cta}
 <h2>Cabin baggage</h2>
 <p>{e(cabin.get('detail', cabin['summary'] + '.'))}</p>
@@ -1107,7 +1221,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
 {('<h2>Infants</h2><p>' + e(a['infant']) + '</p>') if abroad and a.get('infant') else ''}
 {extra_section(a, extra_by_slug)}
 {('<h2>Good to know</h2><ul>' + notes + '</ul>') if notes else ''}
-<h2>Do our cabin picks fit {e(a['name'])}?</h2>
+<h2 id="our-picks-fit">Do our cabin picks fit {e(a['name'])}?</h2>
 <p>Based on the size listed on Amazon. The "weight" column shows what's left of the {num(cabin['kg']) if cabin.get('kg') else ''} kg limit after the bag itself.</p>
 {fit_table(cfg, a, picks, "../")}
 <p>Weigh your packed bag at home with a {scale_link} before you leave.</p>
@@ -1118,6 +1232,11 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
 <h2>Other airlines</h2>
 {others(a['slug'], intl_airlines if abroad else airlines)}
 {('<p>Flying within India? See the <a href="index.html">baggage rules for Indian airlines</a>.</p>') if abroad else ''}
+{next_step([("../guides/cabin-luggage-guide.html#our-cabin-bag-picks", "Cabin trolleys we picked, and the airlines each one fits"),
+            ("luggage-size-chart.html", "Trolley bag sizes in cm and inches"),
+            ("checker.html", "Check your own bag against " + a["name"] + "'s limit")]
+           + ([] if abroad or a["slug"] not in extra_by_slug else [(extra_path(a["slug"])[len("baggage/"):], a["name"] + " extra baggage charges")]),
+           "Shop by size", "Need a bag that fits " + e(a["name"]) + "? Start with the cabin size, then add a check-in bag for longer trips.")}
 {tool_pills("../", "")}
 </article></div>
 {telegram_band(cfg, "../")}"""
@@ -1904,19 +2023,33 @@ KG_ROWS = [3, 7, 10, 15, 20, 23, 25, 30, 32]
 # From guides/trolley-bag-capacity-kg-litres: keep the two in step
 CAPACITY_ROWS = [("Cabin", "About 55 cm", "39 L", "2.5 kg", "6–12 kg"), ("Medium", "65–69 cm", "69 L", "3.4 kg", "10–21 kg"),
                  ("Large", "75–80 cm", "108 L", "4.3 kg", "16–32 kg")]
+# Size chart rows that link to a guide for that size (paths from baggage/)
+SIZE_GUIDES = {20: "../guides/20-inch-trolley-bag-size.html", 22: "../guides/cabin-luggage-guide.html",
+               24: "../guides/24-inch-trolley-bag-size.html", 28: "../guides/28-inch-trolley-bag-size.html"}
+CAPACITY_GUIDES = {"Cabin": "../guides/cabin-luggage-guide.html", "Medium": "../guides/24-inch-trolley-bag-size.html",
+                   "Large": "../guides/28-inch-trolley-bag-size.html"}
+# One pick per size near the top of the size chart. Keep the reasons true to each pick's listed specs in data/deals.json.
+SIZE_CHART_PICKS = [
+    ("B097JLKP8X", "Cabin size, for IndiGo", "Listed at 55 x 35 x 25 cm, within the cabin limit of IndiGo, Akasa Air and SpiceJet's Boeing planes. 2.7 kg empty."),
+    ("B0F5HGLC5Q", "Cabin size, for Air India", "Only 20 cm deep, so by its listed size it fits Air India's 55 x 40 x 20 cm limit. 2.2 kg empty."),
+    ("B0GNSKLF5Z", "Medium, 65–69 cm", "The lightest medium trolley we found, at 2.52 kg, so more of a 15 kg fare is left for your things."),
+    ("B0GX5VFHMS", "Large, 75–80 cm", "Listed at 152 cm in total, inside the 158 cm check-in limit that most large trolleys go over."),
+]
 
 
 def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
     """Inches/cm and kg/lb chart for luggage, with airline limits converted (baggage/luggage-size-chart.html)."""
     path = "baggage/luggage-size-chart.html"
-    updated = "2026-11-06"
+    updated = "2026-11-15"
     cm = lambda inches: num(round(inches * 2.54, 1))
     inch = lambda c: num(round(c / 2.54, 1))
     lb = lambda kg: num(round(kg * 2.20462, 1))
-    size_rows = "".join(f'<tr><th scope="row">{i} inch</th><td>{cm(i)} cm</td><td>{e(kind)}</td><td>{e(trip)}</td></tr>'
+    size_rows = "".join(f'<tr><th scope="row">' + (f'<a href="{SIZE_GUIDES[i]}">{i} inch</a>' if i in SIZE_GUIDES else f'{i} inch')
+                        + f'</th><td>{cm(i)} cm</td><td>{e(kind)}</td><td>{e(trip)}</td></tr>'
                         for i, kind, trip in SIZE_ROWS)
     kg_rows = "".join(f"<tr><th scope=\"row\">{k} kg</th><td>{lb(k)} lb</td></tr>" for k in KG_ROWS)
-    capacity_rows = "".join(f'<tr><th scope="row">{kind}</th><td>{height}</td><td>{litres}</td><td>{empty}</td><td>{clothes}</td></tr>'
+    capacity_rows = "".join(f'<tr><th scope="row"><a href="{CAPACITY_GUIDES[kind]}">{kind}</a></th><td>{height}</td><td>{litres}</td><td>{empty}</td><td>{clothes}</td></tr>'
+                            if kind in CAPACITY_GUIDES else f'<tr><th scope="row">{kind}</th><td>{height}</td><td>{litres}</td><td>{empty}</td><td>{clothes}</td></tr>'
                             for kind, height, litres, empty, clothes in CAPACITY_ROWS)
     air_rows, us_fit = "", []
     us = [22 * 2.54, 14 * 2.54, 9 * 2.54]
@@ -1950,20 +2083,33 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
            ("What is 22 x 14 x 9 inches in cm?", us_answer),
            ("How many pounds is 23 kg?", "23 kg is about %s lb. 7 kg, the usual Indian cabin bag limit, is about %s lb." % (lb(23), lb(7)))]
     faq_html, faq_schema = faq_block(faq)
-    picks = [deals_by_asin[a] for a in ("B097JLKP8X", "B0F5HGLC5Q", "B0GNSKLF5Z", "B0GX5VFHMS") if a in deals_by_asin]
-    picks_html = (f'<h2>Our picks by size</h2><p>Cabin trolleys that fit IndiGo or Air India by their listed size, a light medium check-in bag and a large one within 158 cm.</p>'
-                  f'{grid(cfg, picks, "../")}') if picks else ""
+    picks_html = top_picks(cfg, [(deals_by_asin[a], label, why) for a, label, why in SIZE_CHART_PICKS if a in deals_by_asin], "../",
+                           "Our picks for each size",
+                           'Why we chose them: <a href="../guides/cabin-luggage-guide.html#our-cabin-bag-picks">cabin</a>, '
+                           '<a href="../guides/24-inch-trolley-bag-size.html#our-picks">medium</a> and '
+                           '<a href="../guides/28-inch-trolley-bag-size.html#our-picks-all-within-158-cm-by-their-listed-size">large</a> picks compared')
+    end_html = next_step([("../guides/cabin-luggage-guide.html#our-cabin-bag-picks", "Cabin trolleys that fit IndiGo and Air India"),
+                          ("../guides/24-inch-trolley-bag-size.html#our-picks", "Medium check-in trolleys (65–69 cm)"),
+                          ("../guides/28-inch-trolley-bag-size.html#our-picks-all-within-158-cm-by-their-listed-size", "Large trolleys within the 158 cm limit"),
+                          ("checker.html", "Check your own bag against every airline")],
+                         "Found your size? Pick a bag", "See the bags we picked for that size, with each one's listed size, weight and the airlines it fits.")
     size_fig = diagram_figure("luggage-sizes", "../") if "luggage-sizes" in DIAGRAMS else ""
     title = "Trolley bag size chart: cm, inches, litres and kg"
-    seo = "Trolley bag size chart in cm, inches and litres (20, 24, 28 inch)"
-    desc = ("Trolley bag sizes from 18 to 32 inches in cm, with typical litres and weight for cabin, medium and large bags, "
-            "plus cabin limits for IndiGo, Air India and other airlines. Free converter.")
+    seo = "Trolley bag sizes in cm and inches: suitcase size chart"
+    desc = ("Trolley bag sizes in cm: 20 inch is %s cm, 24 inch %s cm, 28 inch %s cm. Cabin, medium and large suitcase sizes "
+            "with litres, kg and airline limits." % (cm(20), cm(24), cm(28)))
     inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="index.html">Baggage rules</a><span>/</span>Size chart</nav>
       <h1>{e(title)}</h1>
       <p class="muted small">Updated {fmt_date(updated)}</p>"""
     body = f"""{page_head("luggage", f'<div class="media media-tile tint-luggage">{icon("ruler", "icon media-icon")}</div>', inner, "../")}
 <div class="wrap"><article class="guide">
+<p class="lead">Trolley bags are sold by height. Here is each size in inches and cm, with the trip it suits. Tap a size for its full guide.</p>
+<h2>Trolley sizes in inches and cm</h2>
+<div class="table-wrap"><table class="compare snug"><thead><tr><th>Inches</th><th>cm</th><th>Size</th><th>Trip length</th></tr></thead><tbody>{size_rows}</tbody></table></div>
+<p class="small">Sizes are the bag's height. Sellers don't always say whether it includes the wheels, so check the full size on the listing.</p>
+{picks_html}
 <div class="answer"><h2>Quick answer</h2><ul>{"".join("<li>%s</li>" % e(x) for x in quick)}</ul></div>
+<h2>Convert inches, cm, kg and lb</h2>
 <form class="checker" onsubmit="return false">
 <div class="checker-fields"><label>Number<input id="cv-n" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g. 22"></label>
 <label>From<select id="cv-unit"><option value="in">inches</option><option value="cm">cm</option><option value="kg">kg</option><option value="lb">lb</option></select></label></div>
@@ -1975,9 +2121,6 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
 <p class="checker-total" id="cv-bag" aria-live="polite"></p>
 <p class="hint"><a id="cv-check" href="checker.html">Open the cabin bag checker</a></p>
 </form>
-<h2>Trolley sizes in inches and cm</h2>
-<p>Sizes are the bag's height. Sellers don't always say whether it includes the wheels, so check the full size on the listing.</p>
-<div class="table-wrap"><table class="compare snug"><thead><tr><th>Inches</th><th>cm</th><th>Size</th><th>Trip length</th></tr></thead><tbody>{size_rows}</tbody></table></div>
 {size_fig}
 {('<h2>Cabin bag limits in inches: Indian and international airlines</h2><div class="table-wrap"><table class="compare snug"><thead><tr><th>Airline</th><th>Size limit (cm)</th><th>In inches</th><th>Weight</th></tr></thead><tbody>' + air_rows + '</tbody></table></div><p class="checked">Economy limits: domestic flights for Indian airlines, India routes for international airlines. From our <a href="index.html">baggage rules</a> and <a href="international.html">international baggage</a> pages. Check your ticket before you fly.</p>') if air_rows else ""}
 <h2>Size chart in litres and kg</h2>
@@ -1988,7 +2131,7 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
 <h2>Kilograms to pounds</h2>
 <p>Indian airlines use kg. Foreign airlines, US websites and some luggage scales show pounds.</p>
 <div class="table-wrap"><table class="compare snug"><thead><tr><th>kg</th><th>Pounds (lb)</th></tr></thead><tbody>{kg_rows}</tbody></table></div>
-{picks_html}
+{end_html}
 {faq_html}
 <p>More help: <a href="../guides/trolley-bag-capacity-kg-litres.html">how many kg each size holds</a>, <a href="../guides/20-inch-trolley-bag-size.html">20 inch</a>, <a href="../guides/24-inch-trolley-bag-size.html">24 inch</a> and <a href="../guides/28-inch-trolley-bag-size.html">28 inch</a> trolleys in detail, <a href="../guides/luggage-size-guide.html">what size luggage you need</a> and <a href="../guides/cabin-luggage-guide.html">how to pick a cabin trolley</a>.</p>
 {tool_pills("../", path)}
@@ -2476,16 +2619,14 @@ def build():
                 f'<tr><th scope="row"><a href="../baggage/{a["slug"]}.html">{e(a["name"])}</a>'
                 f'<span class="why">{e(short_limit_text(a["cabin"]))}</span></th><td>{fit_badge(*size_fit(dims, a["cabin"])[::2])}</td></tr>'
                 for a in airlines["airlines"])
-            fit_html = f"""<h2>Will it fit as a cabin bag?</h2>
+            fit_html = f"""<section class="pick-fit"><h2>Will it fit as a cabin bag?</h2>
 <p>Its listed size is {" x ".join(num(x) for x in dims)} cm, {num(sum(dims))} cm in total. Here's how that compares with each airline's cabin limit.</p>
 <table class="specs">{fit_rows}</table>
-<p class="small"><a href="../baggage/checker.html?bag={d['asin']}">Open it in the cabin bag checker</a> to add its packed weight. Always check your airline before you fly.</p>"""
+<p class="small"><a href="../baggage/checker.html?bag={d['asin']}">Open it in the cabin bag checker</a> to add its packed weight. Always check your airline before you fly.</p></section>"""
         body = f"""<div class="wrap">
 <nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="../category/{d['category']}.html">{e(cat['name'])}</a></nav>
 <article class="pick">
-  <figure class="pick-media pick-art"><div class="art tint-{d['category']}">{pick_img(d, "../", eager=True)}</div>
-    <figcaption>Our drawing, made from the listed size, colour and details. It is not a photo of the product: Amazon.in shows the real photos.</figcaption></figure>
-  <div class="pick-info">
+  <div class="pick-top">
     {brand}
     <h1>{e(d['title'])}</h1>
     {note}
@@ -2493,12 +2634,16 @@ def build():
     <div class="cta-box">
       {deal_badge(d, "deal-note")}
       {buy_button(cfg, d, "Check today's price on Amazon", big=True)}
-      <p>Prices and stock change often. Amazon.in shows the latest price.</p>
+      <p>Prices and stock change often. Amazon.in shows the latest price and real photos.</p>
     </div>
+  </div>
+  {fit_html}
+  <figure class="pick-media pick-art"><div class="art tint-{d['category']}">{pick_img(d, "../", eager=True)}</div>
+    <figcaption>Our drawing, made from the listed size, colour and details. It is not a photo of the product: Amazon.in shows the real photos.</figcaption></figure>
+  <div class="pick-info">
     <h2>Key features</h2>
     <ul class="features">{features}</ul>
     {specs_html}
-    {fit_html}
     {skip_html}
     {tip_box(cfg, d['category'], '../', articles_by_slug)}
     <p class="muted small">Added {fmt_date(d['added_at'])}</p>
