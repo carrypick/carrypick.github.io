@@ -25,13 +25,13 @@ December and January are the best months for most of India: the monsoon is long 
 
 Goa is warm, dry and sunny in winter, and New Year's Eve is its biggest night. Fly into Mopa for North Goa's busy beaches, or Dabolim for central and South Goa. Remember the rules that bring big fines: no drinking or cooking on the beach, helmets on scooters, and loudspeakers only until midnight from 24 to 31 December.
 
-Read the full [Goa trip guide](goa.html) and the [beach trip packing list](../packing/beach.html).
+Read the full [Goa trip guide](goa.html) and our [Goa packing list](../guides/goa-packing-list.html).
 
 ## Manali: for snow and mountains
 
 Manali is the classic snow trip, but snow isn't guaranteed: December 2025 was almost completely dry, and the first big snowfall came only in late January 2026. Rohtang Pass is closed in winter, and police often stop cars beyond Solang after snow. Keep your dates flexible, and pack thermals.
 
-Read the full [Manali winter guide](manali.html) and the [winter hill trip packing list](../packing/hills.html).
+Read the full [Manali winter guide](manali.html), and see [what to wear in Manali in December](../guides/what-to-wear-in-manali-in-december.html).
 
 ## Jaipur: for forts, palaces and markets
 

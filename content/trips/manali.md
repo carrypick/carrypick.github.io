@@ -107,7 +107,7 @@ Stay in registered hotels or homestays. Compare hotels and homestays for your da
 
 ## What to pack for Manali in winter
 
-Use our [winter hill trip packing list](../packing/hills.html). The most important things:
+See [what to wear in Manali in December](../guides/what-to-wear-in-manali-in-december.html) for layers, snow clothes and shoes, and tick things off with our [winter hill trip packing list](../packing/hills.html). The most important things:
 
 - Thermal innerwear, a heavy jacket, a woollen cap and gloves. See [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html).
 - Waterproof shoes with a good grip for snow and ice. See our [travel shoes guide](../guides/travel-shoes-guide.html).

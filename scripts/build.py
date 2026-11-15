@@ -2286,7 +2286,8 @@ def build():
     articles = load_articles()
     articles_by_slug = {a["slug"]: a for a in articles}
     trips = load_articles(TRIPS_DIR) if TRIPS_DIR.exists() else []
-    trips.sort(key=lambda t: -int(t.get("priority", 0)))  # "priority: 1" in front matter lists a trip first
+    # A trip with an unexpired "feature_until: YYYY-MM-DD" goes first, then "priority: 1" trips, then the rest by date
+    trips.sort(key=lambda t: (t.get("feature_until", "") < date.today().isoformat(), -int(t.get("priority", 0))))
 
     if DOCS.exists():
         for child in DOCS.iterdir():

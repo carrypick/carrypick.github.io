@@ -137,6 +137,8 @@ Book only places registered with the Department of Tourism. Compare hotels and h
 
 ## What to pack for Goa
 
+See our full [Goa packing list](../guides/goa-packing-list.html), with lists for women, men, couples and kids. The basics:
+
 - Light cotton clothes, swimwear and one light sweater or shawl for the evening.
 - Sunscreen, sunglasses, a cap and flip-flops. See our [sunscreen guide](../guides/travel-sunscreen-guide.html) and [shoes and sandals](../category/shoes.html).
 - Mosquito repellent.
