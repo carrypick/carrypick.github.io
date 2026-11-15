@@ -1,0 +1,120 @@
+{
+  "_note": "Extra baggage fees for domestic flights in India, read on each airline's official pages. 'prepaid' is [kg, rupees] for slabs bought online; null means the airline doesn't publish a figure. Re-check about every 3 months and bump 'checked'.",
+  "published": "2026-11-15",
+  "checked": "2026-11-15",
+  "airlines": [
+    {
+      "slug": "indigo",
+      "free": "15 kg, 1 piece (none on Lite fares)",
+      "prepaid": [[3, 2250], [5, 3750], [10, 7500], [15, 11250], [20, 15000], [25, 18750], [30, 22500], [40, 30000]],
+      "prepaid_note": "Buy up to 2 hours before departure on IndiGo's website or through its call centre.",
+      "airport_per_kg": 800,
+      "airport_text": "₹800 per kg",
+      "piece_short": "₹1,000",
+      "piece_text": "₹1,000 for each extra bag, booked ahead or at the airport, up to 2 extra bags. The fee buys no extra weight: every kg over 15 kg is still charged. (IndiGo's conditions of carriage show ₹900 for booking ahead; its fees page shows ₹1,000.)",
+      "cabin_short": "No fee listed",
+      "cabin_text": "IndiGo allows one cabin bag up to 7 kg and lists no fee for a heavier one. Its Lite fare terms say a cabin bag over the weight or size limit is charged as a check-in bag. On other fares, expect to check in a heavy cabin bag, where it counts towards your 15 kg.",
+      "lite": "Lite fares have no free check-in bag. A 15 kg bag costs ₹2,000, booked ahead or at the airport.",
+      "notes": [
+        "Codeshare passengers can add excess or extra bags only at the check-in counter.",
+        "Flying IndiGo within India to connect with another airline's international flight? You get 15 kg, and IndiGo charges ₹700 per kg above that.",
+        "IndiGo's own international connections have prepaid packs: 8 kg ₹7,000, 15 kg ₹12,500 and 30 kg ₹25,000. Book them at least 6 hours before departure.",
+        "No single checked bag may weigh more than 32 kg, even if you pay."
+      ],
+      "sources": [
+        {"label": "Fees and charges (domestic)", "url": "https://www.goindigo.in/information/fees-and-charges.html"},
+        {"label": "Excess baggage", "url": "https://www.goindigo.in/baggage/excess-baggage.html"},
+        {"label": "Baggage allowance", "url": "https://www.goindigo.in/baggage/baggage-allowance.html"}
+      ]
+    },
+    {
+      "slug": "air-india",
+      "free": "15 to 25 kg, depending on fare",
+      "prepaid": null,
+      "prepaid_note": "Air India says paying ahead saves up to 20% on the airport rate, but it doesn't list prepaid prices. You see them in Manage Booking after you book. Prepay up to 2 hours before departure (6 hours for a single bag of up to 32 kg), online, by phone or at an Air India office.",
+      "airport_per_kg": 800,
+      "airport_tax": true,
+      "airport_text": "₹800 per kg plus tax",
+      "piece_short": "Not listed",
+      "piece_text": "With less than 25 kg of free baggage you get 1 bag; with 25 kg or more, 2 bags. Air India says charges may apply for extra bags but doesn't list a domestic fee. A bag over 158 cm in total (length + width + height) costs ₹2,000 plus tax as oversized baggage.",
+      "cabin_short": "Up to 12 kg for ₹3,000",
+      "cabin_text": "Your free cabin bag is 7 kg. On domestic flights you can carry a cabin bag of up to 12 kg if you pay an excess hand baggage charge of ₹3,000. A cabin bag over 12 kg must be checked in, and excess baggage charges apply.",
+      "notes": [
+        "Prepaid baggage isn't refunded if your bags weigh less than what you bought.",
+        "Air India refunds prepaid baggage if it cancels the flight, or if you cancel the booking at least 48 hours before departure. No refund on a no-show.",
+        "On a return trip, the return flight needs its own excess baggage payment.",
+        "Bags over 32 kg or 200 cm in total aren't taken as checked baggage and must go as cargo."
+      ],
+      "sources": [
+        {"label": "Excess baggage", "url": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/excess-baggage.html"},
+        {"label": "Cabin baggage", "url": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/cabin-baggage.html"}
+      ]
+    },
+    {
+      "slug": "air-india-express",
+      "free": "15 kg, 1 piece (none on Xpress Lite)",
+      "prepaid": [[3, 2250], [5, 3750], [10, 7500], [15, 11250], [25, 18750]],
+      "prepaid_note": "Buy up to 2 hours before departure through Manage Booking, the Tia chat assistant or selected travel agents. Air India Express says prices can vary by travel date but won't be higher than its fee list. Its fees include taxes.",
+      "airport_per_kg": 850,
+      "airport_upto": true,
+      "airport_text": "up to ₹850 per kg",
+      "piece_short": "₹950 ahead, ₹1,000 at airport",
+      "piece_text": "Each extra bag has a handling charge: ₹950 if you book it ahead, ₹1,000 at the airport. You pay it even if you have bought extra kilos.",
+      "cabin_short": "+3 kg ₹2,100, +5 kg ₹3,500",
+      "cabin_text": "Your free cabin baggage is 7 kg. The Xtra Carry-On add-on adds 3 kg for ₹2,100 or 5 kg for ₹3,500, for up to 12 kg in one or two cabin bags. At the boarding gate, the fee list shows a gate baggage charge of ₹3,000.",
+      "lite": "Xpress Lite fares have no free check-in bag. Booked ahead, 10 kg costs ₹1,000, 15 kg ₹1,500, 20 kg ₹4,500, 30 kg ₹10,500 and 40 kg ₹16,500. At the airport, one 15 kg bag costs ₹2,000 and one 20 kg bag ₹5,500.",
+      "notes": [
+        "Connecting to an international flight? International Connecting Baggage packs cost ₹7,000 for 8 kg, ₹12,500 for 15 kg and ₹25,000 for 30 kg. The airline checks your onward boarding pass.",
+        "No single item may weigh more than 32 kg."
+      ],
+      "sources": [
+        {"label": "Fees and charges (PDF)", "url": "https://www.airindiaexpress.com/content/dam/airindiaexpress/documents/mandatory-disclosure/fees-and-charges.pdf"},
+        {"label": "Baggage questions", "url": "https://www.airindiaexpress.com/support/faqs/baggage"}
+      ]
+    },
+    {
+      "slug": "akasa-air",
+      "free": "15 kg, 1 piece",
+      "prepaid": [[3, 2250], [5, 3750], [10, 7500], [15, 11250], [20, 15000], [30, 22500]],
+      "prepaid_note": "Buy online up to 2 hours before departure.",
+      "airport_per_kg": 800,
+      "airport_text": "₹800 per kg",
+      "piece_short": "₹1,000",
+      "piece_text": "₹1,000 for each extra bag, booked ahead or at the airport. It includes no weight. Akasa's example: with a 15 kg bag and a 9 kg bag, you pay for one extra bag plus 9 kg of excess baggage. A bag over 158 cm in total costs ₹2,500 as oversize baggage.",
+      "cabin_short": "No fee listed",
+      "cabin_text": "Akasa allows one cabin bag up to 7 kg and 115 cm in total, plus a personal item of up to 3 kg. It lists no fee for a heavier cabin bag, so expect to check it in.",
+      "notes": [
+        "Prepaid excess baggage can't be changed or cancelled on its own, but it's refunded if you cancel the booking and moves with a date change. No refund on a no-show.",
+        "Buy it separately for each flight.",
+        "Student fares get one bag of up to 25 kg on domestic flights.",
+        "International connection packs: 8 kg ₹5,000, 10 kg ₹6,000, 15 kg ₹9,000, 30 kg ₹18,000, on the website, app or Akasa Care Centre only."
+      ],
+      "sources": [
+        {"label": "Excess baggage", "url": "https://www.akasaair.com/add-ons/excess-baggage"},
+        {"label": "Baggage", "url": "https://www.akasaair.com/quick-links/baggage"}
+      ]
+    },
+    {
+      "slug": "spicejet",
+      "free": "15 kg, 1 piece",
+      "prepaid": [[3, 2085], [5, 3475], [10, 6950], [15, 10425], [20, 13900], [30, 20850]],
+      "prepaid_note": "Buy up to 3 hours before departure on SpiceJet's website, app or reservation centre.",
+      "airport_per_kg": 775,
+      "airport_text": "₹775 per kg",
+      "piece_short": "₹950 ahead, ₹1,000 at airport",
+      "piece_text": "One extra bag costs ₹950 booked ahead (₹1,900 for two, the most you can add), or ₹1,000 per bag at the airport.",
+      "cabin_short": "₹700/kg ahead, ₹750/kg at airport",
+      "cabin_text": "Your free cabin baggage is 7 kg, and a laptop bag or purse counts towards it. Carry More On-board adds up to 5 kg (12 kg in all) for ₹700 per kg, booked at least 12 hours before departure. At the airport, extra cabin weight costs ₹750 per kg, up to 5 kg. Anything over 12 kg must be checked in at airport rates.",
+      "notes": [
+        "Prepaid kilos can't be cancelled or saved: buy 5 kg and use 4, and the spare kilo is lost.",
+        "Passengers on the same booking (PNR) can combine their checked baggage, but no single bag may weigh more than 32 kg.",
+        "International connection packs: 8 kg ₹4,800, 15 kg ₹9,000, 30 kg ₹18,000.",
+        "On SpiceJet's Q400 planes the cabin bag limit is smaller: 50 x 35 x 23 cm."
+      ],
+      "sources": [
+        {"label": "Excess baggage", "url": "https://corporate.spicejet.com/ExcessBaggage.aspx"},
+        {"label": "Fees and charges", "url": "https://corporate.spicejet.com/FeesCharges.aspx"}
+      ]
+    }
+  ]
+}

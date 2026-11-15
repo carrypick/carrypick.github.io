@@ -29,6 +29,7 @@ INTL_AIRLINES_FILE = ROOT / "data" / "airlines_intl.json"
 PHOTOS_FILE = ROOT / "data" / "photos.json"
 RAILWAYS_FILE = ROOT / "data" / "railways.json"
 FLIGHT_ITEMS_FILE = ROOT / "data" / "flight_items.json"
+EXTRA_BAGGAGE_FILE = ROOT / "data" / "extra_baggage.json"  # excess baggage fees by airline (domestic)
 CARRY_DIR = ROOT / "content" / "carry"  # one page per flight item; front matter 'item' names its row in flight_items.json
 HINDI_FILE = ROOT / "data" / "hindi.json"
 STATIC_DIR = ROOT / "static"
@@ -1170,6 +1171,173 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None):
     lastmod[path] = checked
 
 
+# ---------- extra baggage charges (data/extra_baggage.json) ----------
+
+EXTRA_PATH = "baggage/extra-baggage-charges.html"
+
+
+def rupees(n):
+    return "₹{:,}".format(int(n))
+
+
+def load_extra_baggage(airlines):
+    """Fees by airline, joined to airlines.json for the name and the baggage rules page."""
+    if not EXTRA_BAGGAGE_FILE.exists() or not airlines:
+        return None
+    data = json.loads(EXTRA_BAGGAGE_FILE.read_text(encoding="utf-8"))
+    names = {a["slug"]: a for a in airlines["airlines"]}
+    for x in data["airlines"]:
+        missing = [k for k in ("slug", "airport_per_kg", "airport_text", "piece_text", "cabin_text", "sources") if not x.get(k)]
+        if missing or x["slug"] not in names:
+            sys.exit("Error: extra baggage entry %s is missing %s or isn't in airlines.json" % (x.get("slug", "?"), ", ".join(missing)))
+        x["name"] = names[x["slug"]]["name"]
+        x["prepaid_map"] = dict(x["prepaid"] or [])
+    return data
+
+
+def airport_cost(x, kg):
+    """What kg extra costs at the airport counter, as text ('up to' and 'plus tax' when the airline says so)."""
+    text = rupees(x["airport_per_kg"] * kg)
+    if x.get("airport_upto"):
+        text = "up to " + text
+    if x.get("airport_tax"):
+        text += " + tax"
+    return text
+
+
+def build_extra_baggage(cfg, deals_by_asin, extra, pages, lastmod):
+    """Hub page comparing excess baggage fees on domestic flights."""
+    checked = extra["checked"]
+    year = checked[:4]
+    rows_all = extra["airlines"]
+    with_prepaid = [x for x in rows_all if x["prepaid"]]
+    per_kg = sorted(price / kg for x in with_prepaid for kg, price in x["prepaid"])
+    airport = sorted(x["airport_per_kg"] for x in rows_all)
+    pre_lo, pre_hi = rupees(round(per_kg[0])), rupees(round(per_kg[-1]))
+    air_lo, air_hi = rupees(airport[0]), rupees(airport[-1])
+    p = "../"
+    scale = deals_by_asin.get("B07Q822CWX")
+    scale_link = f'<a href="../picks/{scale["asin"]}.html">luggage scale</a>' if scale else "luggage scale"
+
+    slabs = (3, 5, 10, 15)
+    pre_rows = []
+    for x in rows_all:
+        if x["prepaid"]:
+            cells = "".join("<td>%s</td>" % (rupees(x["prepaid_map"][kg]) if kg in x["prepaid_map"] else "–") for kg in slabs)
+        else:
+            cells = '<td colspan="%d">Not listed (Air India says up to 20%% less than the airport rate)</td>' % len(slabs)
+        pre_rows.append(f'<tr><th scope="row">{e(x["name"])}</th>{cells}</tr>')
+    air_rows = "".join(f'<tr><th scope="row">{e(x["name"])}</th><td>{e(x["airport_text"])}</td><td>{e(x.get("piece_short", "–"))}</td>'
+                       f'<td>{e(x.get("cabin_short", "–"))}</td></tr>' for x in rows_all)
+    five_rows = []
+    for x in rows_all:
+        online = x["prepaid_map"].get(5)
+        at_airport = airport_cost(x, 5)
+        if online:
+            saving = x["airport_per_kg"] * 5 - online
+            save = ("up to " if x.get("airport_upto") else "") + rupees(saving)
+            five_rows.append(f'<tr><th scope="row">{e(x["name"])}</th><td>{rupees(online)}</td><td>{e(at_airport)}</td><td>{e(save)}</td></tr>')
+        else:
+            five_rows.append(f'<tr><th scope="row">{e(x["name"])}</th><td>Not listed</td><td>{e(at_airport)}</td><td>Up to 20%</td></tr>')
+    # Is the smallest prepaid slab worth it for 1-2 kg? Worked out from each airline's own figures.
+    small = [x for x in with_prepaid if min(x["prepaid_map"]) == 3]
+    two_kg_cheaper = all(x["airport_per_kg"] * 2 < x["prepaid_map"][3] for x in small)
+    indigo = next((x for x in rows_all if x["slug"] == "indigo"), None)
+    two_kg_line = ""
+    if two_kg_cheaper and indigo:
+        two_kg_line = (f'<li><strong>Only 1 or 2 kg over?</strong> The smallest slab online is 3 kg. On IndiGo, 2 kg at the airport costs '
+                       f'{rupees(indigo["airport_per_kg"] * 2)}, less than the 3 kg slab at {rupees(indigo["prepaid_map"][3])}. '
+                       'The same is true on the other airlines with a 3 kg slab.</li>')
+
+    faq = [
+        ("What are extra baggage charges per kg on domestic flights in India?",
+         "At the airport counter, IndiGo, Air India, Air India Express, Akasa Air and SpiceJet charge %s to %s per kg above your free check-in allowance, "
+         "which is usually 15 kg. Bought online before you fly, it works out to about %s to %s per kg, sold in slabs such as 3, 5 and 10 kg." % (air_lo, air_hi, pre_lo, pre_hi)),
+    ]
+    if indigo:
+        faq.append(("What are IndiGo extra baggage charges per kg?",
+                    "%s at the airport. Bought online, IndiGo charges %s for 3 kg, %s for 5 kg and %s for 10 kg, which is %s per kg." % (
+                        indigo["airport_text"], rupees(indigo["prepaid_map"][3]), rupees(indigo["prepaid_map"][5]),
+                        rupees(indigo["prepaid_map"][10]), rupees(indigo["prepaid_map"][5] // 5))))
+    faq += [
+        ("What are Air India extra baggage charges for domestic flights?",
+         "₹800 per kg plus tax at the airport. Air India says paying ahead online saves up to 20%, but it doesn't list prepaid prices: you see them in Manage Booking."),
+        ("Can I buy extra baggage at the airport?",
+         "Yes. You pay at the check-in counter at the airport rate, which costs more per kg than buying online before you fly. Online purchase usually closes 2 or 3 hours before departure."),
+        ("What happens if my cabin bag is more than 7 kg?",
+         "It depends on the airline. Air India lets you carry up to 12 kg for ₹3,000. Air India Express sells 3 or 5 kg more (Xtra Carry-On), and SpiceJet charges ₹700 per kg ahead or ₹750 at the airport, up to 5 kg more. "
+         "IndiGo and Akasa Air list no fee for a heavier cabin bag, so expect to check it in."),
+        ("Does an extra bag include extra weight?",
+         "No. A second bag costs about ₹950 to ₹1,000 on IndiGo, Air India Express, Akasa Air and SpiceJet, and that fee buys no weight. Every kg over your free allowance is still charged."),
+        ("Is prepaid excess baggage refundable?",
+         "Not for kilos you don't use: if you buy 5 kg and carry 3 kg extra, there's no refund. Airlines do refund it if they cancel the flight, and some refund it when you cancel the whole booking in time."),
+    ]
+    faq_html, faq_schema = faq_block(faq)
+    sources = "".join(f'<li><strong>{e(x["name"])}:</strong> {sources_html(x["sources"])}</li>' for x in rows_all)
+    pick_box = inline_pick(cfg, scale, p) if scale else ""
+    guides = [("cabin-luggage-guide", "how to pick a cabin trolley"), ("polycarbonate-vs-polypropylene-luggage", "polycarbonate vs polypropylene luggage"),
+              ("trolley-bag-capacity-kg-litres", "trolley bag capacity in kg and litres")]
+    guide_links = ", ".join(f'<a href="../guides/{slug}.html">{text}</a>' for slug, text in guides if (ARTICLES_DIR / (slug + ".md")).exists())
+
+    title = "Extra baggage charges on domestic flights in India"
+    seo = "Extra baggage charges per kg %s: IndiGo, Air India, Akasa, SpiceJet" % year
+    desc = ("Excess baggage charges on IndiGo, Air India, Air India Express, Akasa Air and SpiceJet domestic flights: prepaid slabs, "
+            "airport rate per kg, extra bags and cabin bags over 7 kg. Checked %s." % fmt_date(checked))
+    inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="index.html">Baggage rules</a><span>/</span>Extra baggage charges</nav>
+      <h1>{e(title)}</h1>
+      <p class="muted small">Checked on {fmt_date(checked)} against each airline's official website &middot; domestic flights</p>"""
+    body = f"""{page_head("luggage", media(cfg, "luggage", "media media-tile"), inner, p, "bathroom-scale")}
+<div class="wrap"><article class="guide">
+<p class="lead">Over your free baggage allowance? Here's what India's main airlines charge for extra kilos, extra bags and heavy cabin bags on domestic flights, and how to pay less.</p>
+<div class="answer"><h2>Quick answer</h2><ul>
+<li><strong>At the airport:</strong> {air_lo} to {air_hi} per kg over your free check-in allowance (usually 15 kg).</li>
+<li><strong>Online, before you fly:</strong> about {pre_lo} to {pre_hi} per kg, sold in slabs such as 3, 5 and 10 kg.</li>
+<li><strong>An extra bag:</strong> about ₹950 to ₹1,000, and it includes no extra weight.</li>
+<li><strong>Cabin bag over 7 kg:</strong> the rules differ a lot by airline. See the table below.</li>
+</ul></div>
+<h2>Prepaid extra baggage (bought online)</h2>
+<p>The price for each slab of extra check-in weight, bought online after booking.</p>
+<div class="table-wrap"><table class="compare snug"><thead><tr><th>Airline</th>{"".join("<th>%d kg</th>" % kg for kg in slabs)}</tr></thead><tbody>{"".join(pre_rows)}</tbody></table></div>
+<h2>At the airport, extra bags and heavy cabin bags</h2>
+<div class="table-wrap"><table class="compare snug"><thead><tr><th>Airline</th><th>At the airport</th><th>Extra bag</th><th>Cabin bag over 7 kg</th></tr></thead><tbody>{air_rows}</tbody></table></div>
+<p class="checked">Checked on {fmt_date(checked)}. Fees change often and can depend on your fare and route. The price shown when you pay is final, so always check your booking and the airline's website before you fly.</p>
+<h2>Airport or online: what 5 kg extra costs</h2>
+<div class="table-wrap"><table class="compare snug"><thead><tr><th>Airline</th><th>Online</th><th>At the airport</th><th>You save</th></tr></thead><tbody>{"".join(five_rows)}</tbody></table></div>
+<p>Buying online is cheaper on every airline here, but only by about ₹50 to ₹100 per kg. The bigger saving comes from not paying for kilos you don't need:</p>
+<ul>
+<li><strong>Prepaid kilos aren't refunded.</strong> Buy 5 kg, carry 3 kg extra, and the other 2 kg are lost.</li>
+{two_kg_line}
+<li><strong>Buy the slab after you weigh.</strong> Pack, weigh the bag at home, then buy the smallest slab that covers it.</li>
+<li><strong>The online window closes early:</strong> 2 hours before departure on IndiGo, Air India, Air India Express and Akasa Air, 3 hours on SpiceJet.</li>
+</ul>
+<h2>How to avoid extra baggage charges</h2>
+<ul>
+<li><strong>Weigh your bags at home.</strong> A {scale_link} costs less than a few kilos at the airport. Most check-in bags are allowed 15 kg, and most cabin bags 7 kg.</li>
+<li><strong>Choose a lighter bag.</strong> An empty trolley typically weighs about 2.5 kg in cabin size and 3.4 to 4.3 kg in medium and large sizes, all taken from your allowance. See typical weights in our <a href="luggage-size-chart.html">trolley bag size chart</a>.</li>
+<li><strong>Add it up before you pack.</strong> Our <a href="../tools/bag-weight.html">bag weight calculator</a> shows if you'll stay under 7 kg and 15 kg.</li>
+<li><strong>Make sure the cabin bag fits.</strong> A cabin bag that's too big gets checked in and counts towards your check-in weight. Try the <a href="checker.html">cabin bag checker</a>.</li>
+<li><strong>Wear the heavy things.</strong> Put on your jacket and heaviest shoes for the flight.</li>
+<li><strong>Check your fare.</strong> IndiGo Lite and Air India Express Xpress Lite fares include no check-in bag at all.</li>
+<li><strong>Travelling together?</strong> SpiceJet lets passengers on one booking combine their check-in baggage. Other airlines count each passenger's allowance separately, so check your ticket.</li>
+<li><strong>Keep every bag under 32 kg.</strong> No airline here takes a heavier single bag, even if you pay.</li>
+</ul>
+{pick_box}
+<p>More help: {guide_links}.</p>
+{faq_html}
+<h2>Sources</h2>
+<p>Official airline pages, read on {fmt_date(checked)}:</p>
+<ul>{sources}</ul>
+<p>See also the free baggage allowance for each airline on our <a href="index.html">baggage rules for Indian airlines</a> page.</p>
+{tool_pills("../", EXTRA_PATH)}
+</article></div>
+{telegram_band(cfg, "../")}"""
+    crumbs = crumbs_schema(cfg, [("Home", ""), ("Baggage rules", "baggage/index.html"), ("Extra baggage charges", EXTRA_PATH)])
+    pages.append(write(EXTRA_PATH, page(cfg, seo, desc, body, 1, EXTRA_PATH,
+                                        [tool_article(cfg, seo, desc, EXTRA_PATH, extra.get("published", checked), checked), crumbs, faq_schema],
+                                        og_type="article", photo="bathroom-scale")))
+    lastmod[EXTRA_PATH] = checked
+
+
 # ---------- train luggage rules and "can I carry it?" ----------
 
 ANSWER = {"yes": ("yes", "Yes"), "no": ("no", "No"), "conditional": ("close", "With limits"), "unknown": ("na", "Not listed")}
@@ -2019,6 +2187,11 @@ def build():
                       "See the rules", "plane", "travel-gear", BAGGAGE_PHOTO))
         TOOLS.append(("baggage/checker.html", "Cabin bag checker", "Free tool", "Will my bag fit? Cabin bag checker",
                       "Type your bag's size and weight and see which airlines accept it as a cabin bag.", "Check your bag", "ruler", "luggage", "plane-cabin"))
+    extra = load_extra_baggage(airlines)
+    if extra:
+        TOOLS.append((EXTRA_PATH, "Extra baggage charges", "IndiGo &middot; Air India &middot; Akasa &middot; SpiceJet",
+                      "Extra baggage charges by airline", "Prepaid slabs, the airport rate per kg, extra bags and cabin bags over 7 kg, side by side.",
+                      "Compare charges", "suitcase", "luggage", ""))
     if intl_airlines:
         TOOLS.append(("baggage/international.html", "International baggage rules", "Emirates &middot; Qatar &middot; Saudia &middot; Singapore",
                       "Baggage rules for international flights", "Cabin bag size and checked kg by fare for 12 airlines flying from India to the Gulf and Singapore.",
@@ -2279,6 +2452,8 @@ def build():
 
     if airlines:
         build_baggage(cfg, deals, airlines, pages, lastmod, intl_airlines)
+    if extra:
+        build_extra_baggage(cfg, deals_by_asin, extra, pages, lastmod)
     if PACKING_FILE.exists():
         build_packing(cfg, deals_by_asin, pages, lastmod, trips)
     if RAILWAYS_FILE.exists():
