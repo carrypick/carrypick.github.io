@@ -223,5 +223,239 @@
     "alt": "A watch on a wrist, with the words Wedding gift ideas couples actually use.",
     "link": "https://carrypick.github.io/guides/wedding-gift-guide.html",
     "description": "Pair watches for the couple, watches for the bride and groom, and bags for the honeymoon, with tips to pick the right one. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "trolley-kg",
+    "image": "trolley-kg.jpg",
+    "board": "Luggage Size Guides",
+    "title": "How many kg does a trolley bag hold? 55, 65 and 75 cm sizes",
+    "alt": "A table of typical listed litres, rough kg of clothes and empty weight for 55 cm, 65–69 cm and 75–80 cm trolley bags.",
+    "link": "https://carrypick.github.io/guides/trolley-bag-capacity-kg-litres.html",
+    "description": "Listed litres and a rough kg guide for cabin, medium and large trolleys, from 80 models on Amazon.in. Your fare usually sets the real limit, and the empty bag's weight counts too. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "at-vs-safari",
+    "image": "at-vs-safari.jpg",
+    "board": "Luggage Size Guides",
+    "title": "American Tourister vs Safari trolley bags: which is better?",
+    "alt": "A table comparing typical American Tourister and Safari medium and large trolleys by empty weight, listed litres and total size.",
+    "link": "https://carrypick.github.io/guides/american-tourister-vs-safari.html",
+    "description": "We compared the two brands' trolleys on Amazon.in by empty weight, listed litres and full size. American Tourister was lighter, Safari listed more litres. Neither wins on everything, and we haven't tested them. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "brands-weight",
+    "image": "brands-weight.jpg",
+    "board": "Luggage Size Guides",
+    "title": "Best trolley bag brands in India: 7 brands compared by weight",
+    "alt": "A table of typical empty weights and litres of medium trolleys from seven brands, from 2.97 kg to 3.75 kg.",
+    "link": "https://carrypick.github.io/guides/best-trolley-bag-brands-india.html",
+    "description": "American Tourister, Safari, Aristocrat, Skybags, Kamiliant, VIP and L'Attitude compared by what their Amazon.in listings say: empty weight, litres and full size. There's no single best brand, so choose by your fare and airline. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "pc-vs-pp",
+    "image": "pc-vs-pp.jpg",
+    "board": "Luggage Size Guides",
+    "title": "Polycarbonate vs polypropylene trolley bags: which is better?",
+    "alt": "A table of typical weights of polypropylene and polycarbonate cabin, medium and large trolleys.",
+    "link": "https://carrypick.github.io/guides/polycarbonate-vs-polypropylene-luggage.html",
+    "description": "Sellers say polycarbonate is tougher and polypropylene lighter. We checked 62 Amazon.in listings by weight, and the gap was only 0.2–0.25 kg in medium and large bags. See which shell suits your trip. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "backpack-litres",
+    "image": "backpack-litres.jpg",
+    "board": "Luggage Size Guides",
+    "title": "Backpack size chart in litres: which size do you need?",
+    "alt": "A chart of backpack sizes in litres, what each suits and whether it usually fits as a cabin bag on Indian flights.",
+    "link": "https://carrypick.github.io/guides/backpack-size-chart-litres.html",
+    "description": "What 20, 30, 40 and 60 litre backpacks suit, and the largest size that fits Indian airline cabin limits. For most people who fly, 30–40 litres is the largest useful size. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "carry-power-bank",
+    "image": "carry-power-bank.jpg",
+    "board": "Flight and Train Baggage Rules",
+    "title": "Can I carry a power bank on a flight in India?",
+    "alt": "Power bank rules on Indian flights: cabin bag only, up to 2 of 100 Wh or less, banned in check-in bags, and no charging on board.",
+    "link": "https://carrypick.github.io/baggage/can-i-carry/power-bank.html",
+    "description": "Power banks go in your cabin bag only, never in check-in. See how many you can take, the 100 Wh limit in mAh, and the rules on IndiGo, Air India and Akasa Air. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "carry-perfume",
+    "image": "carry-perfume.jpg",
+    "board": "Flight and Train Baggage Rules",
+    "title": "Can I carry perfume on a flight in India?",
+    "alt": "Perfume rules on Indian flights: 100 ml bottles in the cabin liquids bag, not in the cabin on IndiGo, up to 2 litres in check-in.",
+    "link": "https://carrypick.github.io/baggage/can-i-carry/perfume.html",
+    "description": "Small bottles of 100 ml or less can go in your cabin bag, but not on IndiGo. In check-in you can take up to 2 litres of toiletries in total. Rules for attar, deo sprays and how to pack perfume. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "carry-trimmer",
+    "image": "carry-trimmer.jpg",
+    "board": "Flight and Train Baggage Rules",
+    "title": "Can I carry a trimmer on a flight in India?",
+    "alt": "Trimmer rules on Indian flights: cabin bag yes with a built-in battery, check-in yes when switched fully off.",
+    "link": "https://carrypick.github.io/baggage/can-i-carry/trimmer.html",
+    "description": "A trimmer with a built-in battery can go in your cabin bag. In check-in it must be switched fully off. What IndiGo's list says, plus blades, scissors in grooming kits and spare batteries. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "carry-ghee",
+    "image": "carry-ghee.jpg",
+    "board": "Flight and Train Baggage Rules",
+    "title": "Can I carry ghee on a flight in India?",
+    "alt": "Ghee rules on Indian flights: up to 5 kg in check-in, only 100 ml containers in the cabin, not in the cabin on IndiGo.",
+    "link": "https://carrypick.github.io/baggage/can-i-carry/ghee.html",
+    "description": "Ghee goes in your check-in bag, up to 5 kg or 5 litres. In the cabin it counts as a liquid, and IndiGo doesn't allow it there at all. How to pack a ghee tin so it doesn't leak. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "carry-alcohol",
+    "image": "carry-alcohol.jpg",
+    "board": "Flight and Train Baggage Rules",
+    "title": "Can I carry alcohol on a domestic flight in India?",
+    "alt": "Alcohol rules on Indian domestic flights: up to 5 litres in check-in, not in the cabin unless bought after security, no drinking on board.",
+    "link": "https://carrypick.github.io/baggage/can-i-carry/alcohol.html",
+    "description": "On domestic flights, alcohol goes in check-in: up to 5 litres of 24–70% drinks in sealed shop packing. Plus beer and wine, duty-free bottles, dry states and how to pack bottles. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "carry-umbrella",
+    "image": "carry-umbrella.jpg",
+    "board": "Flight and Train Baggage Rules",
+    "title": "Can I carry an umbrella on a flight in India?",
+    "alt": "Umbrella rules on Indian flights: folding or blunt-tip umbrellas in the cabin, sharp-tip umbrellas in check-in.",
+    "link": "https://carrypick.github.io/baggage/can-i-carry/umbrella.html",
+    "description": "A folding umbrella can go in your cabin bag, and on some airlines on top of your cabin allowance. An umbrella with a sharp tip goes in check-in. Rules for IndiGo, Air India, Akasa Air and SpiceJet. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "carry-sweets",
+    "image": "carry-sweets.jpg",
+    "board": "Flight and Train Baggage Rules",
+    "title": "Can I carry sweets and home food on a flight in India?",
+    "alt": "Food rules on Indian flights: dry sweets and snacks in both bags, sweets in syrup count as liquid, no oily food on IndiGo.",
+    "link": "https://carrypick.github.io/baggage/can-i-carry/sweets-and-home-food.html",
+    "description": "Dry sweets, namkeen and snacks are fine in both bags. Sweets in syrup count as liquid, and oily food has its own rules. What IndiGo, Air India and Akasa Air allow, and how to pack food. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "carry-medicines",
+    "image": "carry-medicines.jpg",
+    "board": "Flight and Train Baggage Rules",
+    "title": "Can I carry medicines on a flight in India?",
+    "alt": "Medicine rules on Indian flights: keep them in your cabin bag, liquids over 100 ml with a prescription, check-in only with a prescription on IndiGo.",
+    "link": "https://carrypick.github.io/baggage/can-i-carry/medicines.html",
+    "description": "Yes. Keep medicines in your cabin bag. When you need a prescription, syrups over 100 ml, insulin and ice packs, and IndiGo's check-in rule for medicines without a prescription. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "cabin-rules",
+    "image": "cabin-rules.jpg",
+    "board": "Flight and Train Baggage Rules",
+    "title": "Cabin bag rules in India: 7 kg, 115 cm, and why 55 cm isn't enough",
+    "alt": "Cabin bag rules on Indian flights: 7 kg, 115 cm in total, and a 55 cm bag that adds up to 116 cm.",
+    "link": "https://carrypick.github.io/guides/cabin-luggage-guide.html",
+    "description": "Most Indian airlines allow one 7 kg cabin bag up to 115 cm in total. A trolley sold as \"55 cm\" tells you only its height. We checked 83 hard 55 cm trolleys, and 70 were too wide for IndiGo. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "bag-checker",
+    "image": "bag-checker.jpg",
+    "board": "Flight and Train Baggage Rules",
+    "title": "Will your cabin bag fit? Free cabin bag size checker",
+    "alt": "Three steps to check a cabin bag, and the cabin size limits of IndiGo, Akasa Air, SpiceJet, Air India and Air India Express.",
+    "link": "https://carrypick.github.io/baggage/checker.html",
+    "description": "Type your bag's length, width, height and weight to see if it fits the cabin limits of IndiGo, Air India, Air India Express, Akasa Air and SpiceJet, plus Emirates, Qatar Airways, Saudia and more. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "indigo-rules",
+    "image": "indigo-rules.jpg",
+    "board": "Flight and Train Baggage Rules",
+    "title": "IndiGo baggage rules: cabin bag size and check-in allowance",
+    "alt": "IndiGo baggage limits: a 7 kg cabin bag of 55 x 35 x 25 cm, and check-in allowance by fare from none on Lite to 15 kg plus 10 kg on the student fare.",
+    "link": "https://carrypick.github.io/baggage/indigo.html",
+    "description": "IndiGo allows one 7 kg cabin bag up to 55 x 35 x 25 cm and 115 cm in total, plus a 3 kg personal item. Check-in is 15 kg on Saver and Flexi Plus fares and none on Lite. Each checked bag can be up to 158 cm. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "air-india-rules",
+    "image": "air-india-rules.jpg",
+    "board": "Flight and Train Baggage Rules",
+    "title": "Air India baggage rules: cabin bag size and check-in by fare",
+    "alt": "Air India baggage limits: a 7 kg cabin bag of 55 x 40 x 20 cm, and check-in of 15 kg on Value, 20 kg on Classic and 25 kg on Flex.",
+    "link": "https://carrypick.github.io/baggage/air-india.html",
+    "description": "Air India allows one 7 kg cabin bag up to 55 x 40 x 20 cm, so a deep trolley can be too thick. Free check-in is 15 kg on Value and 25 kg on Flex. Classic is 20 kg on one Air India page and 15 kg on another. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "gulf-rules",
+    "image": "gulf-rules.jpg",
+    "board": "Flight and Train Baggage Rules",
+    "title": "Baggage allowance from India to the Gulf: Emirates, Qatar, Saudia and more",
+    "alt": "A table of cabin bag limits for Emirates, Qatar Airways, Etihad, flydubai, Air Arabia and Saudia on flights from India.",
+    "link": "https://carrypick.github.io/baggage/international.html",
+    "description": "Cabin bag size and checked baggage by fare for 12 airlines flying from India to the Gulf and Singapore, including Emirates, Qatar Airways, Etihad, flydubai, Air Arabia, Saudia, IndiGo and Air India. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "size-by-trip",
+    "image": "size-by-trip.jpg",
+    "board": "Luggage Size Guides",
+    "title": "What size luggage do you need? Cabin, medium or large by trip length",
+    "alt": "A table matching trip length to bag size, from a 30–40 litre backpack for a weekend to a 75–79 cm large trolley for 10 days or more.",
+    "link": "https://carrypick.github.io/guides/luggage-size-guide.html",
+    "description": "Match your bag to your trip: a backpack for a weekend, a 55 cm cabin trolley for 2–4 days, a 65–69 cm medium bag for a week, and a 75–79 cm large bag for 10 days or more. Plus hard vs soft luggage. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "pick-indigo-cabin",
+    "image": "pick-indigo-cabin.jpg",
+    "board": "Luggage Size Guides",
+    "title": "A hard cabin trolley listed at exactly IndiGo's 55 x 35 x 25 cm limit",
+    "alt": "Our drawing of the Safari 55 cm cabin trolley at its listed 55 x 35 x 25 cm, inside IndiGo's dashed cabin limit. Illustration, not a product photo.",
+    "link": "https://carrypick.github.io/picks/B097JLKP8X.html",
+    "description": "Most hard 55 cm trolleys are too wide for IndiGo. This Safari polycarbonate cabin bag is listed at 55 x 35 x 25 cm, 43 L and 2.7 kg, with a laptop section. The picture is our own drawing from its listed size, not a product photo. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "pick-air-india-cabin",
+    "image": "pick-air-india-cabin.jpg",
+    "board": "Luggage Size Guides",
+    "title": "Cabin trolley for Air India: listed at 55 x 40 x 20 cm and 2.2 kg",
+    "alt": "Our drawing of the American Tourister Liftoff+ Small at its listed 55 x 40 x 20 cm, wider than IndiGo's dashed limit. Illustration, not a product photo.",
+    "link": "https://carrypick.github.io/picks/B0F5HGLC5Q.html",
+    "description": "Air India's cabin limit is 55 x 40 x 20 cm, so many trolleys are too deep. The American Tourister Liftoff+ Small is listed at exactly that size and 2.2 kg, with a TSA lock. It's 5 cm too wide for IndiGo. Our own drawing, not a product photo. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "pick-light-medium",
+    "image": "pick-light-medium.jpg",
+    "board": "Luggage Size Guides",
+    "title": "The lightest medium trolley we found: 2.52 kg, good for 15 kg fares",
+    "alt": "Our drawing of the Kamiliant Rock-Lite 68 cm medium trolley at its listed size. Illustration, not a product photo.",
+    "link": "https://carrypick.github.io/picks/B0GNSKLF5Z.html",
+    "description": "The Kamiliant Rock-Lite 68 cm is listed at 2.52 kg, the lightest of the 36 medium trolleys we checked on Amazon.in. On a 15 kg fare, that leaves about 12.5 kg for your things. The picture is our own drawing, not a product photo. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "pick-158-large",
+    "image": "pick-158-large.jpg",
+    "board": "Luggage Size Guides",
+    "title": "A large trolley listed at exactly the 158 cm airline limit, and only 3.5 kg",
+    "alt": "Our drawing of the American Tourister Liftoff+ 79 cm large trolley at its listed 79 x 49 x 30 cm. Illustration, not a product photo.",
+    "link": "https://carrypick.github.io/picks/B0F5HLYQK3.html",
+    "description": "Most large trolleys we checked go over 158 cm in total. The American Tourister Liftoff+ 79 cm is listed at 79 x 49 x 30 cm, exactly 158 cm, and 3.5 kg, with a TSA lock. The picture is our own drawing, not a product photo. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "pick-pc-large",
+    "image": "pick-pc-large.jpg",
+    "board": "Luggage Size Guides",
+    "title": "A large polycarbonate trolley listed within the 158 cm limit",
+    "alt": "Our drawing of the Safari Astra Neo 76 cm large trolley at its listed 76 x 51 x 28 cm. Illustration, not a product photo.",
+    "link": "https://carrypick.github.io/picks/B097G7K6FZ.html",
+    "description": "The Safari Astra Neo 76 cm is listed at 76 x 51 x 28 cm, 155 cm in total, with 98 litres and a hard polycarbonate shell. Most large bags we checked go over 158 cm. The picture is our own drawing, not a product photo. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "pick-valex",
+    "image": "pick-valex.jpg",
+    "board": "Watches and Everyday Bags",
+    "title": "A 28 litre laptop backpack that fits Indian airlines' cabin limits",
+    "alt": "Our drawing of the American Tourister Valex 28 litre backpack at its listed size, inside IndiGo's dashed cabin limit. Illustration, not a product photo.",
+    "link": "https://carrypick.github.io/picks/B0BTD4S4XF.html",
+    "description": "The American Tourister Valex is listed at 47.5 x 32.5 x 20 cm and 510 g, with a sleeve for laptops up to 17 inches. By listed size it fits IndiGo, Air India, Air India Express, Akasa Air and SpiceJet. Our own drawing, not a product photo. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "pick-scale",
+    "image": "pick-scale.jpg",
+    "board": "Packing and What to Wear",
+    "title": "Weigh your bag at home before the airport does",
+    "alt": "Our drawing of a digital luggage scale with a hook. Illustration, not a product photo.",
+    "link": "https://carrypick.github.io/picks/B07Q822CWX.html",
+    "description": "A small digital luggage scale weighs bags up to 50 kg in 0.1 kg steps, so you can check your 7 kg cabin bag and 15 kg check-in bag before you leave. This one weighs about 150 g. The picture is our own drawing, not a product photo. As an Amazon Associate I earn from qualifying purchases."
   }
 ]

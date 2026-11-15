@@ -54,7 +54,13 @@ td:first-child{font-weight:800}
 .over h1{font-size:96px;margin-bottom:26px}
 .over p{font-size:42px;line-height:1.28;font-weight:500;margin-bottom:34px}
 .over .foot{padding:0;color:#fff}
-.over .foot small{color:#d8e4e8}"""
+.over .foot small{color:#d8e4e8}
+.head.small{padding:56px 64px 48px}
+.head.small h1{font-size:68px}
+.head.small+.body{gap:16px}
+.head.small+.body td,.head.small+.body th{padding:11px 22px}
+.art{position:relative;flex:none;height:604px;border-radius:22px;overflow:hidden;box-shadow:0 0 0 2px #e7e2d8}
+.art img{position:absolute;left:0;top:-50px;width:1325px}"""
 
 
 def table(head, rows):
@@ -81,6 +87,19 @@ def photo(slot, title, sub):
     return ('<img class="photo" src="%s" alt=""><div class="shade"></div><div class="over"><h1>%s</h1><p>%s</p>%s</div>'
             % (src, e(title), e(sub), foot()))
 
+
+def pick(kicker, title, asin, rows, note):
+    """A pick pin: the drawing part of our own share image (static/picks/<ASIN>-*.jpg), cropped, with listed facts.
+    The share image keeps its "Illustration, not a product photo" label inside the crop."""
+    found = sorted((ROOT / "static" / "picks").glob(asin + "-*.jpg"))
+    if not found:
+        sys.exit("Error: no share image for %s. Run scripts/make_pick_images.py first." % asin)
+    return ('<div class="head small"><p class="kicker">%s</p><h1>%s</h1></div><div class="body"><div class="art"><img src="%s" alt=""></div>%s'
+            '<p class="note">%s</p></div>%s' % (e(kicker), e(title), found[-1].as_uri(), table(["From the listing", ""], rows), note, foot()))
+
+
+CARRY = "Can I carry it? Flights in India"
+CHECKED_10 = '<p class="note">Checked on airline sites on 10 Nov 2026. Rules change, so check before you fly.</p>'
 
 PINS = [
     dict(slug="size-chart", board="Luggage Size Guides", link="baggage/luggage-size-chart.html",
@@ -262,6 +281,228 @@ PINS = [
          description="Pair watches for the couple, watches for the bride and groom, and bags for the honeymoon, with tips to pick the right one.",
          alt="A watch on a wrist, with the words Wedding gift ideas couples actually use.",
          html=photo("watch-mesh", "Wedding gift ideas couples actually use", "Pair watches and bags for the honeymoon")),
+    # 15 Nov 2026: pages that had no pin yet. Luggage size pins got the only impressions so far, so most of these are luggage and flight rules.
+    dict(slug="trolley-kg", board="Luggage Size Guides", link="guides/trolley-bag-capacity-kg-litres.html",
+         title="How many kg does a trolley bag hold? 55, 65 and 75 cm sizes",
+         description="Listed litres and a rough kg guide for cabin, medium and large trolleys, from 80 models on Amazon.in. Your fare usually sets the real limit, and the empty bag's weight counts too.",
+         alt="A table of typical listed litres, rough kg of clothes and empty weight for 55 cm, 65–69 cm and 75–80 cm trolley bags.",
+         html=chart("Trolley bag capacity", "How many kg does a trolley hold?", table(
+             ["Size", "Litres", "Clothes, rough", "Empty bag"],
+             [["Cabin 55 cm", "39 L", "6–12 kg", "2.5 kg"], ["Medium 65–69 cm", "69 L", "10–21 kg", "3.4 kg"], ["Large 75–80 cm", "108 L", "16–32 kg", "4.3 kg"]])
+             + '<p class="note"><strong>The kg column is our rough estimate,</strong> not a test: about 0.15–0.3 kg per litre of packed clothes.</p>'
+             + group("Your ticket sets the limit", "On a 15 kg fare, a typical medium bag leaves 11.6 kg for your things. A typical large one leaves 10.7 kg.")
+             + '<p class="note">Typical listed figures from 80 models on Amazon.in, 6 Nov 2026.</p>')),
+    dict(slug="at-vs-safari", board="Luggage Size Guides", link="guides/american-tourister-vs-safari.html",
+         title="American Tourister vs Safari trolley bags: which is better?",
+         description="We compared the two brands' trolleys on Amazon.in by empty weight, listed litres and full size. American Tourister was lighter, Safari listed more litres. Neither wins on everything, and we haven't tested them.",
+         alt="A table comparing typical American Tourister and Safari medium and large trolleys by empty weight, listed litres and total size.",
+         html=chart("Trolley bags compared", "American Tourister vs Safari", table(
+             ["Typical listing", "Am. Tourister", "Safari"],
+             [["Medium: empty weight", "3.3 kg", "3.5 kg"], ["Medium: litres", "70 L", "75.5 L"], ["Large: empty weight", "4 kg", "4.5 kg"],
+              ["Large: litres", "104 L", "113 L"], ["Large: total size", "167 cm", "160 cm"]])
+             + '<div class="big"><div><b>Lighter</b><span>American Tourister</span></div><div><b>More litres</b><span>Safari</span></div></div>'
+             + '<p class="note">Listings read on Amazon.in on 6 Nov 2026. We haven\'t tested these bags.</p>')),
+    dict(slug="brands-weight", board="Luggage Size Guides", link="guides/best-trolley-bag-brands-india.html",
+         title="Best trolley bag brands in India: 7 brands compared by weight",
+         description="American Tourister, Safari, Aristocrat, Skybags, Kamiliant, VIP and L'Attitude compared by what their Amazon.in listings say: empty weight, litres and full size. There's no single best brand, so choose by your fare and airline.",
+         alt="A table of typical empty weights and litres of medium trolleys from seven brands, from 2.97 kg to 3.75 kg.",
+         html=chart("Medium trolleys compared", "Which trolley brand is lightest?", table(
+             ["Brand", "Empty weight", "Litres"],
+             [["Kamiliant", "2.97 kg", "65 L"], ["L'Attitude", "3.24 kg", "60 L"], ["American Tourister", "3.3 kg", "70 L"], ["Safari", "3.5 kg", "75.5 L"],
+              ["Aristocrat", "3.5 kg", "71 L"], ["Skybags", "3.57 kg", "66 L"], ["VIP", "3.75 kg", "68 L"]])
+             + '<p class="note"><strong>Typical medium bags</strong> in Amazon.in listings, 6 Nov 2026. Only 1 VIP listing, so treat it as rough.</p>')),
+    dict(slug="pc-vs-pp", board="Luggage Size Guides", link="guides/polycarbonate-vs-polypropylene-luggage.html",
+         title="Polycarbonate vs polypropylene trolley bags: which is better?",
+         description="Sellers say polycarbonate is tougher and polypropylene lighter. We checked 62 Amazon.in listings by weight, and the gap was only 0.2–0.25 kg in medium and large bags. See which shell suits your trip.",
+         alt="A table of typical weights of polypropylene and polycarbonate cabin, medium and large trolleys.",
+         html=chart("Hard trolley shells", "Polycarbonate vs polypropylene",
+                    '<p class="note"><strong>Sellers say</strong> polycarbonate (PC) is tougher and polypropylene (PP) is lighter. We checked the weight.</p>'
+                    + table(["Size", "PP: typical", "PC: typical"], [["Cabin", "2.53 kg", "2.4 kg"], ["Medium", "3.3 kg", "3.5 kg"], ["Large", "4.25 kg", "4.5 kg"]])
+                    + '<div class="big"><div><b>0.2 kg</b><span>about how much lighter PP was in medium and large bags</span></div>'
+                      '<div><b>2 kg</b><span>the lightest cabin bag we read, and it was PC</span></div></div>'
+                    + '<p class="note">Listings on Amazon.in, 6 Nov 2026. We haven\'t drop-tested anything.</p>')),
+    dict(slug="backpack-litres", board="Luggage Size Guides", link="guides/backpack-size-chart-litres.html",
+         title="Backpack size chart in litres: which size do you need?",
+         description="What 20, 30, 40 and 60 litre backpacks suit, and the largest size that fits Indian airline cabin limits. For most people who fly, 30–40 litres is the largest useful size.",
+         alt="A chart of backpack sizes in litres, what each suits and whether it usually fits as a cabin bag on Indian flights.",
+         html=chart("Backpack size guide", "Backpack size chart in litres", table(
+             ["Litres", "Good for", "Cabin bag?"],
+             [["15–20 L", "School, college, daily", "Usually"], ["20–30 L", "Office, day trips", "Usually"], ["30–40 L", "2–4 day trips", "Often"],
+              ["40–50 L", "3–5 days, light treks", "Rarely"], ["50–70 L", "Treks of a few days", "No"], ["70 L+", "Long treks", "No"]])
+             + '<p class="note"><strong>30–40 L is the largest useful size</strong> for most people who fly. IndiGo\'s 55 x 35 x 25 cm box holds 48 L, and a full backpack bulges.</p>')),
+    dict(slug="carry-power-bank", board="Flight and Train Baggage Rules", link="baggage/can-i-carry/power-bank.html",
+         title="Can I carry a power bank on a flight in India?",
+         description="Power banks go in your cabin bag only, never in check-in. See how many you can take, the 100 Wh limit in mAh, and the rules on IndiGo, Air India and Akasa Air.",
+         alt="Power bank rules on Indian flights: cabin bag only, up to 2 of 100 Wh or less, banned in check-in bags, and no charging on board.",
+         html=chart(CARRY, "Power bank on a flight: which bag?",
+                    group("Cabin bag: yes", "Up to 2 power banks of 100 Wh or less on Akasa Air and Air India. Keep it with you, not in the overhead bin.")
+                    + group("Check-in bag: no", "IndiGo, Air India and Akasa Air all ban power banks in check-in bags, even switched off.")
+                    + group("On board", "You can't use or charge it during the flight. IndiGo needs the rating printed on it.")
+                    + CHECKED_10)),
+    dict(slug="carry-perfume", board="Flight and Train Baggage Rules", link="baggage/can-i-carry/perfume.html",
+         title="Can I carry perfume on a flight in India?",
+         description="Small bottles of 100 ml or less can go in your cabin bag, but not on IndiGo. In check-in you can take up to 2 litres of toiletries in total. Rules for attar, deo sprays and how to pack perfume.",
+         alt="Perfume rules on Indian flights: 100 ml bottles in the cabin liquids bag, not in the cabin on IndiGo, up to 2 litres in check-in.",
+         html=chart(CARRY, "Perfume on a flight: cabin or check-in?",
+                    group("Cabin bag: small bottles only", "100 ml or less each, inside your clear 1-litre liquids bag.")
+                    + group("Flying IndiGo?", "IndiGo's list doesn't allow perfume or deo in the cabin at all. Pack it in check-in.")
+                    + group("Check-in bag: yes", "Up to 2 litres or 2 kg of perfume and toiletries in total, and no bottle over 500 ml.")
+                    + CHECKED_10)),
+    dict(slug="carry-trimmer", board="Flight and Train Baggage Rules", link="baggage/can-i-carry/trimmer.html",
+         title="Can I carry a trimmer on a flight in India?",
+         description="A trimmer with a built-in battery can go in your cabin bag. In check-in it must be switched fully off. What IndiGo's list says, plus blades, scissors in grooming kits and spare batteries.",
+         alt="Trimmer rules on Indian flights: cabin bag yes with a built-in battery, check-in yes when switched fully off.",
+         html=chart(CARRY, "Trimmer on a flight: which bag?",
+                    group("Cabin bag: yes", "If it has a built-in battery. IndiGo's list says a trimmer without a battery goes in check-in only.")
+                    + group("Check-in bag: yes", "Switched fully off and protected so it can't turn on in the bag.")
+                    + group("Grooming kit?", "Scissors are banned in the cabin, and many kits have a small pair. Take them out, or pack the kit in check-in.")
+                    + CHECKED_10)),
+    dict(slug="carry-ghee", board="Flight and Train Baggage Rules", link="baggage/can-i-carry/ghee.html",
+         title="Can I carry ghee on a flight in India?",
+         description="Ghee goes in your check-in bag, up to 5 kg or 5 litres. In the cabin it counts as a liquid, and IndiGo doesn't allow it there at all. How to pack a ghee tin so it doesn't leak.",
+         alt="Ghee rules on Indian flights: up to 5 kg in check-in, only 100 ml containers in the cabin, not in the cabin on IndiGo.",
+         html=chart(CARRY, "Ghee on a flight: cabin or check-in?",
+                    group("Check-in bag: yes", "Up to 5 litres or 5 kg per person, packed so it can't leak.")
+                    + group("Cabin bag: only a little", "Ghee counts as a liquid: containers of 100 ml or less, in your clear 1-litre bag.")
+                    + group("Flying IndiGo?", "IndiGo doesn't allow ghee in the cabin at all.")
+                    + CHECKED_10)),
+    dict(slug="carry-alcohol", board="Flight and Train Baggage Rules", link="baggage/can-i-carry/alcohol.html",
+         title="Can I carry alcohol on a domestic flight in India?",
+         description="On domestic flights, alcohol goes in check-in: up to 5 litres of 24–70% drinks in sealed shop packing. Plus beer and wine, duty-free bottles, dry states and how to pack bottles.",
+         alt="Alcohol rules on Indian domestic flights: up to 5 litres in check-in, not in the cabin unless bought after security, no drinking on board.",
+         html=chart(CARRY, "Alcohol on a domestic flight",
+                    group("Check-in bag: yes", "Up to 5 litres per person of 24–70% alcohol, in its shop packing. Nothing over 70%.")
+                    + group("Cabin bag: no", "Not alcohol from outside the airport. If you buy it after security, it can go in the cabin, sealed in the shop's bag.")
+                    + group("Also", "You can't drink it on board, or take it to or from dry states such as Bihar and Gujarat.")
+                    + CHECKED_10)),
+    dict(slug="carry-umbrella", board="Flight and Train Baggage Rules", link="baggage/can-i-carry/umbrella.html",
+         title="Can I carry an umbrella on a flight in India?",
+         description="A folding umbrella can go in your cabin bag, and on some airlines on top of your cabin allowance. An umbrella with a sharp tip goes in check-in. Rules for IndiGo, Air India, Akasa Air and SpiceJet.",
+         alt="Umbrella rules on Indian flights: folding or blunt-tip umbrellas in the cabin, sharp-tip umbrellas in check-in.",
+         html=chart(CARRY, "Umbrella on a flight: which bag?",
+                    group("Cabin bag: folding or blunt tip", "A folding umbrella, or one with a blunt tip, can go in the cabin.")
+                    + group("Sharp tip: check-in only", "Your check-in bag can take any umbrella, including a long one with a sharp tip.")
+                    + group("On top of your allowance", "SpiceJet lets you carry one on top of your cabin bag allowance.")
+                    + CHECKED_10)),
+    dict(slug="carry-sweets", board="Flight and Train Baggage Rules", link="baggage/can-i-carry/sweets-and-home-food.html",
+         title="Can I carry sweets and home food on a flight in India?",
+         description="Dry sweets, namkeen and snacks are fine in both bags. Sweets in syrup count as liquid, and oily food has its own rules. What IndiGo, Air India and Akasa Air allow, and how to pack food.",
+         alt="Food rules on Indian flights: dry sweets and snacks in both bags, sweets in syrup count as liquid, no oily food on IndiGo.",
+         html=chart(CARRY, "Sweets and home food on a flight",
+                    group("Cabin bag", "Yes for dry sweets, snacks and biscuits. Sweets in syrup count as liquid.")
+                    + group("Not on board", "Oily, messy or strong-smelling food.")
+                    + group("Check-in bag", "Yes for dry sweets and food packed so it can't leak. IndiGo doesn't take oily food, even in check-in.")
+                    + CHECKED_10)),
+    dict(slug="carry-medicines", board="Flight and Train Baggage Rules", link="baggage/can-i-carry/medicines.html",
+         title="Can I carry medicines on a flight in India?",
+         description="Yes. Keep medicines in your cabin bag. When you need a prescription, syrups over 100 ml, insulin and ice packs, and IndiGo's check-in rule for medicines without a prescription.",
+         alt="Medicine rules on Indian flights: keep them in your cabin bag, liquids over 100 ml with a prescription, check-in only with a prescription on IndiGo.",
+         html=chart(CARRY, "Medicines on a flight: keep them with you",
+                    group("Cabin bag: yes", "Keep the medicines you need with you. Liquid medicines over 100 ml are allowed if you need them on the journey and carry the prescription.")
+                    + group("Check-in bag", "Yes, with a prescription on IndiGo. Akasa Air advises against it, because a bag can be late or lost.")
+                    + CHECKED_10)),
+    dict(slug="cabin-rules", board="Flight and Train Baggage Rules", link="guides/cabin-luggage-guide.html",
+         title="Cabin bag rules in India: 7 kg, 115 cm, and why 55 cm isn't enough",
+         description="Most Indian airlines allow one 7 kg cabin bag up to 115 cm in total. A trolley sold as \"55 cm\" tells you only its height. We checked 83 hard 55 cm trolleys, and 70 were too wide for IndiGo.",
+         alt="Cabin bag rules on Indian flights: 7 kg, 115 cm in total, and a 55 cm bag that adds up to 116 cm.",
+         html=chart("Flying in India", "Cabin bag rules: 7 kg and 115 cm",
+                    '<div class="big"><div><b>7 kg</b><span>one cabin bag, the bag included</span></div><div><b>115 cm</b><span>length + width + height, wheels included</span></div></div>'
+                    + group('"55 cm" is only the height', "Safari Pentagon Pro 55 cm: 55 + 38 + 23 = 116 cm. A little over 115 cm on paper.")
+                    + group("Plus a personal item", "IndiGo allows one up to 3 kg, like a purse or a small laptop bag.")
+                    + '<p class="note"><strong>70 of 83</strong> hard "55 cm" trolleys we checked were 36–41 cm wide, over IndiGo\'s 35 cm limit.</p>')),
+    dict(slug="bag-checker", board="Flight and Train Baggage Rules", link="baggage/checker.html",
+         title="Will your cabin bag fit? Free cabin bag size checker",
+         description="Type your bag's length, width, height and weight to see if it fits the cabin limits of IndiGo, Air India, Air India Express, Akasa Air and SpiceJet, plus Emirates, Qatar Airways, Saudia and more.",
+         alt="Three steps to check a cabin bag, and the cabin size limits of IndiGo, Akasa Air, SpiceJet, Air India and Air India Express.",
+         html=chart("Free tool", "Will your cabin bag fit?",
+                    group("1. Measure all three sides", "Height, width and depth in cm, with the wheels and handles.")
+                    + group("2. Weigh it packed", "Most Indian airlines allow 7 kg, including the bag.")
+                    + group("3. Type them in", "See which airlines your bag fits, and by how many cm it's over.")
+                    + table(["Airline", "Cabin size limit"], [["IndiGo, Akasa, SpiceJet", "55 x 35 x 25 cm"], ["Air India", "55 x 40 x 20 cm"], ["Air India Express", "56 x 36 x 23 cm"]]))),
+    dict(slug="indigo-rules", board="Flight and Train Baggage Rules", link="baggage/indigo.html",
+         title="IndiGo baggage rules: cabin bag size and check-in allowance",
+         description="IndiGo allows one 7 kg cabin bag up to 55 x 35 x 25 cm and 115 cm in total, plus a 3 kg personal item. Check-in is 15 kg on Saver and Flexi Plus fares and none on Lite. Each checked bag can be up to 158 cm.",
+         alt="IndiGo baggage limits: a 7 kg cabin bag of 55 x 35 x 25 cm, and check-in allowance by fare from none on Lite to 15 kg plus 10 kg on the student fare.",
+         html=chart("IndiGo domestic flights", "IndiGo baggage rules",
+                    '<div class="big"><div><b>7 kg</b><span>cabin bag, 55 x 35 x 25 cm, 115 cm in total</span></div><div><b>15 kg</b><span>check-in on Saver and Flexi Plus fares</span></div></div>'
+                    + table(["Fare", "Check-in bag"], [["Lite", "None, cabin bag only"], ["Saver, Flexi Plus", "15 kg, 1 piece"], ["IndiGo UpFront", "15 kg + 5 kg"], ["Student fare", "15 kg + 10 kg"]])
+                    + '<p class="note"><strong>Plus one personal item up to 3 kg.</strong> Checked on IndiGo\'s site on 3 Nov 2026.</p>')),
+    dict(slug="air-india-rules", board="Flight and Train Baggage Rules", link="baggage/air-india.html",
+         title="Air India baggage rules: cabin bag size and check-in by fare",
+         description="Air India allows one 7 kg cabin bag up to 55 x 40 x 20 cm, so a deep trolley can be too thick. Free check-in is 15 kg on Value and 25 kg on Flex. Classic is 20 kg on one Air India page and 15 kg on another.",
+         alt="Air India baggage limits: a 7 kg cabin bag of 55 x 40 x 20 cm, and check-in of 15 kg on Value, 20 kg on Classic and 25 kg on Flex.",
+         html=chart("Air India domestic flights", "Air India baggage rules",
+                    '<div class="big"><div><b>7 kg</b><span>cabin bag, 55 x 40 x 20 cm</span></div><div><b>20 cm</b><span>deep at most, slimmer than many trolleys</span></div></div>'
+                    + table(["Fare", "Check-in bag"], [["Economy Value", "15 kg, 1 piece"], ["Economy Classic", "20 kg (one page says 15 kg)"], ["Economy Flex", "25 kg, up to 2 pieces"]])
+                    + '<p class="note"><strong>Check the allowance on your ticket.</strong> Checked on Air India\'s site on 3 Nov 2026.</p>')),
+    dict(slug="gulf-rules", board="Flight and Train Baggage Rules", link="baggage/international.html",
+         title="Baggage allowance from India to the Gulf: Emirates, Qatar, Saudia and more",
+         description="Cabin bag size and checked baggage by fare for 12 airlines flying from India to the Gulf and Singapore, including Emirates, Qatar Airways, Etihad, flydubai, Air Arabia, Saudia, IndiGo and Air India.",
+         alt="A table of cabin bag limits for Emirates, Qatar Airways, Etihad, flydubai, Air Arabia and Saudia on flights from India.",
+         html=chart("Flying to the Gulf", "Cabin bag limits for Gulf flights", table(
+             ["Airline", "Cabin bag"],
+             [["Emirates", "7 kg, 55 x 38 x 22 cm"], ["Qatar Airways", "7 kg, 50 x 37 x 25 cm"], ["Etihad", "7 kg, 56 x 36 x 23 cm"],
+              ["flydubai", "7 kg, 55 x 38 x 20 cm"], ["Air Arabia", "7 kg, 55 x 40 x 20 cm"], ["Saudia", "7 kg, 56 x 45 x 25 cm"]])
+             + '<p class="note"><strong>Checked bags depend on your fare:</strong> none on some basic fares, up to 40 kg on others.</p>'
+             + '<p class="note">Checked on airline sites on 3 Nov 2026. Rules change, so check before you fly.</p>')),
+    dict(slug="size-by-trip", board="Luggage Size Guides", link="guides/luggage-size-guide.html",
+         title="What size luggage do you need? Cabin, medium or large by trip length",
+         description="Match your bag to your trip: a backpack for a weekend, a 55 cm cabin trolley for 2–4 days, a 65–69 cm medium bag for a week, and a 75–79 cm large bag for 10 days or more. Plus hard vs soft luggage.",
+         alt="A table matching trip length to bag size, from a 30–40 litre backpack for a weekend to a 75–79 cm large trolley for 10 days or more.",
+         html=chart("Luggage size guide", "What size luggage do you need?", table(
+             ["Trip", "Bag"],
+             [["Weekend, 1–3 days", "Duffle or backpack, 30–40 L"], ["2–4 days", "Cabin trolley, about 55 cm"], ["A week, 5–8 days", "Medium trolley, 65–69 cm"], ["10 days or more", "Large trolley, 75–79 cm"]])
+             + group("The bag's own weight counts", "A hard cabin trolley often weighs 2.5–3 kg, and a medium one around 3.5 kg.")
+             + '<p class="note"><strong>Check the total size of a large bag.</strong> Most we checked are listed over the 158 cm airline limit.</p>')),
+    dict(slug="pick-indigo-cabin", board="Luggage Size Guides", link="picks/B097JLKP8X.html",
+         title="A hard cabin trolley listed at exactly IndiGo's 55 x 35 x 25 cm limit",
+         description="Most hard 55 cm trolleys are too wide for IndiGo. This Safari polycarbonate cabin bag is listed at 55 x 35 x 25 cm, 43 L and 2.7 kg, with a laptop section. The picture is our own drawing from its listed size, not a product photo.",
+         alt="Our drawing of the Safari 55 cm cabin trolley at its listed 55 x 35 x 25 cm, inside IndiGo's dashed cabin limit. Illustration, not a product photo.",
+         html=pick("Cabin bag that fits IndiGo", "Fits IndiGo's limit by listed size", "B097JLKP8X",
+                   [["Listed size", "55 x 35 x 25 cm"], ["Weight", "2.7 kg"], ["Fits", "IndiGo, Akasa Air, SpiceJet"]],
+                   "<strong>Safari 55 cm cabin trolley.</strong> Our drawing, to its listed size. Not a product photo.")),
+    dict(slug="pick-air-india-cabin", board="Luggage Size Guides", link="picks/B0F5HGLC5Q.html",
+         title="Cabin trolley for Air India: listed at 55 x 40 x 20 cm and 2.2 kg",
+         description="Air India's cabin limit is 55 x 40 x 20 cm, so many trolleys are too deep. The American Tourister Liftoff+ Small is listed at exactly that size and 2.2 kg, with a TSA lock. It's 5 cm too wide for IndiGo. Our own drawing, not a product photo.",
+         alt="Our drawing of the American Tourister Liftoff+ Small at its listed 55 x 40 x 20 cm, wider than IndiGo's dashed limit. Illustration, not a product photo.",
+         html=pick("Cabin bag for Air India", "Slim enough for Air India's 20 cm limit", "B0F5HGLC5Q",
+                   [["Listed size", "55 x 40 x 20 cm, 2.2 kg"], ["Air India", "Fits by listed size"], ["IndiGo (dashed)", "5 cm too wide"]],
+                   "<strong>American Tourister Liftoff+ Small.</strong> Our drawing, to its listed size. Not a product photo.")),
+    dict(slug="pick-light-medium", board="Luggage Size Guides", link="picks/B0GNSKLF5Z.html",
+         title="The lightest medium trolley we found: 2.52 kg, good for 15 kg fares",
+         description="The Kamiliant Rock-Lite 68 cm is listed at 2.52 kg, the lightest of the 36 medium trolleys we checked on Amazon.in. On a 15 kg fare, that leaves about 12.5 kg for your things. The picture is our own drawing, not a product photo.",
+         alt="Our drawing of the Kamiliant Rock-Lite 68 cm medium trolley at its listed size. Illustration, not a product photo.",
+         html=pick("Medium bag for a 15 kg fare", "The lightest medium trolley we found", "B0GNSKLF5Z",
+                   [["Listed size", "68 x 47 x 29 cm"], ["Weight", "2.52 kg"], ["Litres", "66 L"]],
+                   "<strong>Kamiliant Rock-Lite 68 cm.</strong> Lightest of 36 medium trolleys we checked. Our drawing, not a product photo.")),
+    dict(slug="pick-158-large", board="Luggage Size Guides", link="picks/B0F5HLYQK3.html",
+         title="A large trolley listed at exactly the 158 cm airline limit, and only 3.5 kg",
+         description="Most large trolleys we checked go over 158 cm in total. The American Tourister Liftoff+ 79 cm is listed at 79 x 49 x 30 cm, exactly 158 cm, and 3.5 kg, with a TSA lock. The picture is our own drawing, not a product photo.",
+         alt="Our drawing of the American Tourister Liftoff+ 79 cm large trolley at its listed 79 x 49 x 30 cm. Illustration, not a product photo.",
+         html=pick("Large bag within 158 cm", "Exactly 158 cm, and only 3.5 kg", "B0F5HLYQK3",
+                   [["Listed size", "79 x 49 x 30 cm"], ["Total", "158 cm"], ["Weight", "3.5 kg"]],
+                   "<strong>American Tourister Liftoff+ 79 cm.</strong> Our drawing, to its listed size. Not a product photo.")),
+    dict(slug="pick-pc-large", board="Luggage Size Guides", link="picks/B097G7K6FZ.html",
+         title="A large polycarbonate trolley listed within the 158 cm limit",
+         description="The Safari Astra Neo 76 cm is listed at 76 x 51 x 28 cm, 155 cm in total, with 98 litres and a hard polycarbonate shell. Most large bags we checked go over 158 cm. The picture is our own drawing, not a product photo.",
+         alt="Our drawing of the Safari Astra Neo 76 cm large trolley at its listed 76 x 51 x 28 cm. Illustration, not a product photo.",
+         html=pick("Large polycarbonate bag", "155 cm in total, under the 158 cm limit", "B097G7K6FZ",
+                   [["Listed size", "76 x 51 x 28 cm"], ["Litres", "98 L"], ["Weight", "4.3 kg"]],
+                   "<strong>Safari Astra Neo 76 cm.</strong> Our drawing, to its listed size. Not a product photo.")),
+    dict(slug="pick-valex", board="Watches and Everyday Bags", link="picks/B0BTD4S4XF.html",
+         title="A 28 litre laptop backpack that fits Indian airlines' cabin limits",
+         description="The American Tourister Valex is listed at 47.5 x 32.5 x 20 cm and 510 g, with a sleeve for laptops up to 17 inches. By listed size it fits IndiGo, Air India, Air India Express, Akasa Air and SpiceJet. Our own drawing, not a product photo.",
+         alt="Our drawing of the American Tourister Valex 28 litre backpack at its listed size, inside IndiGo's dashed cabin limit. Illustration, not a product photo.",
+         html=pick("Laptop backpack for flights", "28 L that fits all five airlines", "B0BTD4S4XF",
+                   [["Listed size", "47.5 x 32.5 x 20 cm"], ["Weight", "510 g"], ["Laptop", "Up to 17 inch"]],
+                   "<strong>American Tourister Valex 28 L.</strong> Fits IndiGo, Air India, Air India Express, Akasa Air and SpiceJet by listed size.")),
+    dict(slug="pick-scale", board="Packing and What to Wear", link="picks/B07Q822CWX.html",
+         title="Weigh your bag at home before the airport does",
+         description="A small digital luggage scale weighs bags up to 50 kg in 0.1 kg steps, so you can check your 7 kg cabin bag and 15 kg check-in bag before you leave. This one weighs about 150 g. The picture is our own drawing, not a product photo.",
+         alt="Our drawing of a digital luggage scale with a hook. Illustration, not a product photo.",
+         html=pick("Before you fly", "Weigh your bag at home first", "B07Q822CWX",
+                   [["Weighs up to", "50 kg"], ["Steps", "0.1 kg"], ["Its own weight", "About 150 g"]],
+                   "<strong>GoTrippin digital luggage scale.</strong> Our drawing, not a product photo.")),
 ]
 
 
