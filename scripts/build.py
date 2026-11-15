@@ -29,6 +29,7 @@ INTL_AIRLINES_FILE = ROOT / "data" / "airlines_intl.json"
 PHOTOS_FILE = ROOT / "data" / "photos.json"
 RAILWAYS_FILE = ROOT / "data" / "railways.json"
 FLIGHT_ITEMS_FILE = ROOT / "data" / "flight_items.json"
+COUPONS_FILE = ROOT / "data" / "coupons.json"  # tested shop coupons (VIP's CK15); the morning task updates "checked" and "status"
 EXTRA_BAGGAGE_FILE = ROOT / "data" / "extra_baggage.json"  # excess baggage fees by airline (domestic)
 CARRY_DIR = ROOT / "content" / "carry"  # one page per flight item; front matter 'item' names its row in flight_items.json
 HINDI_FILE = ROOT / "data" / "hindi.json"
@@ -84,6 +85,12 @@ ICONS = {
 def icon(name, cls="icon"):
     return ('<svg class="%s" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" '
             'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">%s</svg>' % (cls, ICONS[name]))
+
+
+def and_list(names):
+    """["A", "B", "C"] -> "A, B and C"."""
+    names = list(names)
+    return names[0] if len(names) == 1 else ", ".join(names[:-1]) + " and " + names[-1]
 
 
 def fmt_date(value):
@@ -590,9 +597,78 @@ def anchor(text):
     return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
 
 
+def flight_box(cfg, place=None, scope="domestic", hindi=False):
+    """Hand-placed flight links (EarnKaro): Cleartrip for any airline, plus airlines that pay only on international
+    bookings. Trip guides and the international baggage hub only, never next to Amazon picks."""
+    partners = [(name, f["url"]) for name, f in cfg["flight_partners"].items() if scope in f["scope"]]
+    if hindi:
+        label = "{name} पर {place} की फ़्लाइट देखें" if place else "{name} पर फ़्लाइट देखें"
+        note = "किराया और सीटें बुकिंग साइट पर दिखती हैं। पैसे देने से पहले देखें कि आपके किराए में कितना सामान शामिल है।"
+    else:
+        label = "Compare flights to {place} on {name}" if place else "Check fares on {name}"
+        note = ("Fares and seats are shown on the booking site. Before you pay, check how much baggage your fare includes."
+                if scope == "domestic" else
+                "Cleartrip shows fares from many airlines. The other links go to the airline's own website. "
+                "Before you pay, check how much baggage your fare includes.")
+    links = "".join(f'<div class="book-row"><a class="btn btn-amazon" href="{e(url)}" {BUY_ATTRS}>{e(label.format(name=name, place=place))}</a><span class="paid">Paid link</span></div>'
+                    for name, url in partners)
+    return f'<div class="cta-box">{links}<p>{note}</p></div>'
+
+
+def load_coupons():
+    """data/coupons.json: shop name -> code, discount, status ("working" or "ended"), checked (last test date),
+    brands and brands_checked. Pages never write a code themselves; they use the tokens below, so an ended code
+    disappears everywhere when the morning task sets its status to "ended"."""
+    if not COUPONS_FILE.exists():
+        return {}
+    coupons = json.loads(COUPONS_FILE.read_text(encoding="utf-8"))
+    coupons.pop("_note", None)
+    for shop, c in coupons.items():
+        if c.get("status") not in ("working", "ended") or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", c.get("checked", "")):
+            sys.exit("Error: data/coupons.json: %s needs status working or ended, and checked YYYY-MM-DD" % shop)
+    return coupons
+
+
+def coupon_text(coupons, kind, shop):
+    """Inline coupon text for {{coupon-<kind>:<shop>}} tokens."""
+    if shop not in coupons:
+        sys.exit("Error: {{coupon-%s:%s}} names a shop that is not in data/coupons.json" % (kind, shop))
+    c = coupons[shop]
+    ok = c["status"] == "working"
+    checked = fmt_date(c["checked"])
+    texts = {
+        "checked": checked,
+        "short": ("%s for %s off" % (c["code"], c["discount"])) if ok else "no working code right now",
+        "line": ("Code **%s** took %s off in %s's cart when we last checked, on %s. Coupons can end at any time, so check the discount before you pay."
+                 % (c["code"], c["discount"], c.get("cart", shop), checked)) if ok else
+                ("We have no working code right now. The last code we found, %s, stopped working when we checked on %s." % (c["code"], checked)),
+        "brands": ("When we tested %s on %s, it took %s off %s bags on %s's website." % (c["code"], fmt_date(c["brands_checked"]), c["discount"], c["brands"], c.get("cart", shop)))
+                  if ok else "We have no working code right now.",
+    }
+    if kind not in texts:
+        sys.exit("Error: unknown coupon token {{coupon-%s:%s}}" % (kind, shop))
+    return texts[kind]
+
+
+def coupon_box(coupons, shop):
+    """[[coupon:<shop>]]: the code, when we last tested it, and that it may end. Only on pages with no Amazon picks."""
+    if shop not in coupons:
+        sys.exit("Error: [[coupon:%s]] names a shop that is not in data/coupons.json" % shop)
+    c = coupons[shop]
+    if c["status"] != "working":
+        return (f'<div class="cta-box coupon-box"><p><strong>No working code right now.</strong> The last code we found, {e(c["code"])}, '
+                f'stopped working when we checked on {fmt_date(c["checked"])}. We check again most mornings.</p></div>')
+    return (f'<div class="cta-box coupon-box"><p class="coupon-line"><span class="coupon-code notranslate">{e(c["code"])}</span>'
+            f'<span><strong>{e(c["discount"])} off</strong> in {e(c.get("cart", shop))}\'s cart</span></p>'
+            f'<p>Checked on <strong>{fmt_date(c["checked"])}</strong>: we added a bag to an empty cart on {e(c.get("cart", shop))}\'s website and typed the code. '
+            f'We never place an order, and we empty the cart afterwards. Coupons can end at any time, so check the discount before you pay.</p></div>')
+
+
 def render_markdown(md, cfg, deals_by_asin, p, source):
     if "[[shop:" in md and ("[[pick:" in md or "[[compare:" in md or "[[top:" in md):
         sys.exit("Error: %s mixes a [[shop:]] link with Amazon picks. Keep other shops' links away from Amazon picks." % source)
+    if "[[coupon:" in md and ("[[pick:" in md or "[[compare:" in md or "[[top:" in md):
+        sys.exit("Error: %s mixes a coupon with Amazon picks. Coupon text must never sit on a page with Amazon picks." % source)
     out, para, items, list_tag, rows = [], [], [], None, []
     tops, top_head = [], None  # [[toppicks:Title|More link text|#anchor]] then one [[top:ASIN|Label|Reason]] line per pick
 
@@ -624,6 +700,8 @@ def render_markdown(md, cfg, deals_by_asin, p, source):
         diagram = re.fullmatch(r"\[\[diagram:([a-z0-9-]+)\]\]", line)
         booking = re.fullmatch(r"\[\[book:([^\]]+)\]\]", line)
         shop = re.fullmatch(r"\[\[shop:([^\]]+)\]\]", line)
+        fly = re.fullmatch(r"\[\[fly:([^\]]+)\]\]", line)
+        coupon = re.fullmatch(r"\[\[coupon:([^\]]+)\]\]", line)
         toppicks = re.fullmatch(r"\[\[toppicks:([^\]]+)\]\]", line)
         top = re.fullmatch(r"\[\[top:([A-Z0-9]{10})\|([^|\]]+)\|([^\]]+)\]\]", line)
         nxt = re.fullmatch(r"\[\[next:([^\]]+)\]\]", line)
@@ -638,6 +716,13 @@ def render_markdown(md, cfg, deals_by_asin, p, source):
         elif shop:
             flush()
             out.append(shop_box(cfg, shop.group(1)))
+        elif fly:
+            flush()
+            where = fly.group(1)
+            out.append(flight_box(cfg, None if where == "flights" else where, "domestic", source.startswith("trips-hi")))
+        elif coupon:
+            flush()
+            out.append(coupon_box(load_coupons(), coupon.group(1)))
         elif toppicks:
             flush()
             top_head = [x.strip() for x in toppicks.group(1).split("|")]
@@ -713,6 +798,18 @@ def load_articles(directory=ARTICLES_DIR):
         meta = dict(line.split(": ", 1) for line in match.group(1).splitlines() if ": " in line)
         meta.update(slug=path.stem, body=match.group(2))
         meta.setdefault("updated", meta["date"])
+        coupons = load_coupons()
+        for shop, c in coupons.items():
+            if re.search(r"\b%s\b" % re.escape(c["code"]), text):
+                sys.exit("Error: %s writes the code %s. Use {{coupon-line:%s}} or [[coupon:%s]] so it updates from data/coupons.json." % (path.name, c["code"], shop, shop))
+        if "{{coupon-" in text or "[[coupon:" in text:
+            if any(tag in meta["body"] for tag in ("[[pick:", "[[compare:", "[[top:")):
+                sys.exit("Error: %s has coupon text and Amazon picks. Keep coupons off pages with Amazon picks." % path.name)
+            used = set(re.findall(r"\{\{coupon-[a-z]+:([^}]+)\}\}", text)) | set(re.findall(r"\[\[coupon:([^\]]+)\]\]", text))
+            for key in ("title", "seo_title", "description", "body"):
+                if key in meta:
+                    meta[key] = re.sub(r"\{\{coupon-([a-z]+):([^}]+)\}\}", lambda m: coupon_text(coupons, m.group(1), m.group(2)), meta[key])
+            meta["updated"] = max([meta["updated"]] + [coupons[s_]["checked"] for s_ in used if s_ in coupons])
         meta["minutes"] = max(1, round(len(re.sub(r"\[\[pick:\w+\]\]", "", meta["body"]).split()) / 200))
         articles.append(meta)
     return sorted(articles, key=lambda a: a["date"], reverse=True)
@@ -1027,6 +1124,8 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
 <h2>Cabin and checked baggage at a glance</h2>
 <div class="table-wrap"><table class="compare"><thead><tr><th>Airline</th><th>Cabin bag</th><th>Cabin size limit</th><th>Extra small bag</th><th>Checked baggage (economy)</th></tr></thead><tbody>{rows}</tbody></table></div>
 {disclaimer}
+<p>Still choosing a flight? Compare fares, then check the baggage your fare includes before you pay:</p>
+{flight_box(cfg, None, "international") if cfg.get("flight_partners") else ""}
 <h2>Rules that catch travellers out</h2>
 <ul>
 <li><strong>32 kg per bag.</strong> Even with a 35 or 40 kg allowance, no single bag can weigh more than 32 kg. Split heavy luggage into two bags.</li>
@@ -1716,7 +1815,7 @@ def load_carry_pages(data):
         missing = [k for k in ("cabin_short", "checked_short") if not it.get(k)]
         if missing:
             sys.exit("Error: flight item %r has a page but no %s in data/flight_items.json" % (it["item"], ", ".join(missing)))
-        if "[[shop:" in a["body"] or "[[book:" in a["body"]:
+        if any(tag in a["body"] for tag in ("[[shop:", "[[book:", "[[fly:", "[[coupon:")):
             sys.exit("Error: content/carry/%s.md links to another shop. These pages carry Amazon picks only." % a["slug"])
         out.append((a, it))
     return sorted(out, key=lambda x: order[x[1]["item"]])
@@ -2824,7 +2923,8 @@ def build():
         "disclosure.html": ("Affiliate disclosure", f"""<h1>Affiliate disclosure</h1>
 <p><strong>{DISCLOSURE}</strong></p>
 <p>{name} is a participant in the Amazon Associates Programme. When you click a "Check price on Amazon" button and buy something, Amazon may pay us a small commission. You pay the same price.</p>
-<p>Our trip guides also have hotel links to Agoda and Booking.com. Our <a href="guides/vip-bags-guide.html">VIP bags guide</a> has links to VIP's own store. These go through EarnKaro, an affiliate service. If you book or buy through one, we may earn a commission, and you pay the same price. Amazon is not part of these links.</p>
+<p>Our trip guides also have hotel links to {and_list(list(cfg["booking_partners"]))}, and flight links to {and_list([n for n, f in cfg["flight_partners"].items() if "domestic" in f["scope"]])}. Our <a href="baggage/international.html">international baggage page</a> has flight links to {and_list([n for n, f in cfg["flight_partners"].items() if "international" in f["scope"]])}. Our <a href="guides/vip-bags-guide.html">VIP bags guide</a> and <a href="guides/vip-bags-coupon-code.html">VIP coupon page</a> have links to VIP's own store. These go through EarnKaro, an affiliate service. If you book or buy through one, we may earn a commission, and you pay the same price. Amazon is not part of these links.</p>
+<p>The VIP coupon page shows a code that EarnKaro lists for VIP's store. We test it in VIP's cart without placing an order, and show the date of our last check.</p>
 <p>Links that earn us a commission are marked "Paid link". Commissions help us keep this site free. They do not change which products we pick.</p>"""),
         "privacy.html": ("Privacy policy", f"""<h1>Privacy policy</h1>
 <p>{name} does not ask for your name, email or any personal details, and this site sets no cookies of its own, except one that remembers your language if you choose Google Translate (see below).</p>
@@ -2833,7 +2933,7 @@ def build():
 <li>Fonts are loaded from Google Fonts, which may log your IP address. See Google's privacy policy.</li>
 <li>If you pick a language in the language menu other than English or our own Hindi pages, the page loads Google Translate, which sends the page text to Google to translate it. A cookie called "googtrans" then remembers your choice on this site. Pick English in the menu to remove it.</li>
 <li>When you click a link to Amazon.in, Amazon may set cookies to track the referral. See Amazon.in's privacy notice.</li>
-<li>When you click a hotel link in a trip guide or a shop link in our VIP bags guide, it goes through EarnKaro's link services (bitli.in and linkredirect.in) to that site. These services and that site may set cookies and log your visit to track the referral. See their privacy policies.</li>
+<li>When you click a hotel or flight link in a trip guide, a flight link on our international baggage page, or a shop link on our VIP bags guide or VIP coupon page, it goes through EarnKaro's link services (bitli.in and linkredirect.in) to that site. These services and that site may set cookies and log your visit to track the referral. See their privacy policies.</li>
 <li>If you join our Telegram channel, Telegram's privacy policy applies.</li>
 </ul>
 <p>Questions? See our <a href="contact.html">contact page</a>.</p>"""),
@@ -2844,7 +2944,7 @@ def build():
     info_desc = {
         "about.html": "How %s picks bags, luggage, watches and travel essentials for India: we read every detail, match real Indian use and never take money from brands to list a product." % cfg["site_name"],
         "disclosure.html": "%s is an Amazon Associate. How our paid links work, what we earn and why it never changes which products we pick." % cfg["site_name"],
-        "privacy.html": "%s asks for no personal details and sets no cookies of its own. What GitHub, Google Fonts, Amazon and our hotel link partners may log when you visit." % cfg["site_name"],
+        "privacy.html": "%s asks for no personal details and sets no cookies of its own. What GitHub, Google Fonts, Amazon and our hotel, flight and shop link partners may log when you visit." % cfg["site_name"],
         "contact.html": "Questions, corrections or ideas for %s? Reach us on Telegram or WhatsApp." % cfg["site_name"],
     }
     for path, (title, text) in info.items():

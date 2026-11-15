@@ -41,6 +41,10 @@ Distances are approximate road distances. Both airports have official taxi count
 
 Flying in? Check the [cabin bag rules for Indian airlines](../baggage/index.html) and [what you can carry on a flight](../baggage/can-i-carry.html). On the way home, remember that dry coconut and camphor are banned in all bags, and spice powders can't go in your cabin bag.
 
+Still to book? Compare fares to both airports:
+
+[[fly:Goa]]
+
 ## By train and road
 
 - **Train:** Goa is on the Konkan Railway. Thivim is the station for North Goa, Karmali for Panaji and Old Goa, Madgaon (Margao) for South Goa, and Canacona is about 3 km from Palolem. Every train stops at Madgaon. Mumbai to Goa takes about 8–9 hours on the fastest trains. See the [train luggage rules](../baggage/train-luggage-rules.html).

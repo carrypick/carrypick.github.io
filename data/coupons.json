@@ -1,0 +1,14 @@
+{
+  "_note": "Tested shop coupons. Pages use {{coupon-line:Shop}}, {{coupon-short:Shop}}, {{coupon-checked:Shop}}, {{coupon-brands:Shop}} and [[coupon:Shop]], never the code itself. The morning task (carrypick-morning-drafts) tests the code in an empty cart, never orders, and sets checked to that day; if the code stops working it sets status to ended. Only codes shown on EarnKaro or the shop's own site.",
+  "VIP Bags": {
+    "code": "CK15",
+    "discount": "15%",
+    "cart": "VIP",
+    "source": "EarnKaro's VIP Bags page: Get Flat 15% Off on All Orders Using Code: CK15",
+    "status": "working",
+    "checked": "2026-11-15",
+    "first_checked": "2026-11-06",
+    "brands": "VIP, Skybags, Aristocrat and Caprese",
+    "brands_checked": "2026-11-15"
+  }
+}

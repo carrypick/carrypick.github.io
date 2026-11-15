@@ -39,6 +39,8 @@ So pack in layers: a warm jacket or sweater for mornings and evenings, and light
 
 Going by train? Check the [Indian Railways luggage rules](../baggage/train-luggage-rules.html). Flying? See the [cabin bag rules for Indian airlines](../baggage/index.html).
 
+[[fly:Jaipur]]
+
 ## Getting around
 
 - **Jaipur Metro:** one line, from Mansarovar to Badi Chaupar in the old city, with 11 stations. Trains run every 10 minutes from about 6 AM to 10 PM. Badi Chaupar is the nearest stop for City Palace and Hawa Mahal.

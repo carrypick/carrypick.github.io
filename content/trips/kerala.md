@@ -37,6 +37,10 @@ So pack light cotton clothes for the coast and the backwaters, and a warm jacket
 - **KSRTC buses** connect most towns. Book long trips at onlineksrtcswift.com, linked from keralartc.com.
 - **In Kochi:** the Kochi Metro runs from Aluva to Thrippunithura, and the Kochi Water Metro boats link Fort Kochi, Mattancherry, Vypin and the High Court jetty.
 
+Flying in? Compare fares to Kochi or Thiruvananthapuram:
+
+[[fly:Kerala]]
+
 ## Kochi and Fort Kochi
 
 - **Chinese fishing nets:** giant cantilevered nets on teak and bamboo poles. Watch them from Vasco da Gama Square, best at sunset.

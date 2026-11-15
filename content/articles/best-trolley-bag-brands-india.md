@@ -62,7 +62,7 @@ Some groups are small, especially VIP, so treat them as a rough guide. Going ove
 - **Kamiliant** is sold as "Kamiliant by American Tourister". It had the lightest typical bags, all hard shells. We didn't find a warranty on the two we picked, so check before you buy.
 - **Aristocrat** has many soft-case bags as well as hard ones. It's one of the brands sold on VIP's own store.
 - **Skybags** is also sold on VIP's store. Its range mixes hard bags with the soft Rubik.
-- **VIP** showed few bags in our Amazon searches, so we can't say much from these numbers. Prefer to buy from VIP directly? See [VIP's sizes, warranty and returns](vip-bags-guide.html).
+- **VIP** showed few bags in our Amazon searches, so we can't say much from these numbers. Prefer to buy from VIP directly? See [VIP's sizes, warranty and returns](vip-bags-guide.html) and [the VIP coupon code we test](vip-bags-coupon-code.html).
 - **L'Attitude** lists its bags by both cm and inches. Its Meridian large bag was among the heaviest here, at 5.16 kg.
 
 ## Which brand for which trip?

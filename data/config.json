@@ -15,8 +15,30 @@
   "pinterest_url": "https://www.pinterest.com/carrypickindia/",
   "pinterest_site_verification": "b318d5c82aba4243760fecc664cdbddb",
   "booking_partners": {
+    "MakeMyTrip": "https://bitli.in/dgyRLzY",
     "Agoda": "https://bitli.in/vPiu9nT",
     "Booking.com": "https://bitli.in/r2zRmSo"
+  },
+  "flight_partners": {
+    "Cleartrip": {
+      "url": "https://bitli.in/ubEP1vx",
+      "scope": [
+        "domestic",
+        "international"
+      ]
+    },
+    "Air India": {
+      "url": "https://bitli.in/m8ObR7S",
+      "scope": [
+        "international"
+      ]
+    },
+    "Etihad Airways": {
+      "url": "https://bitli.in/9HVJfMb",
+      "scope": [
+        "international"
+      ]
+    }
   },
   "telegram_channel": "@carrypick",
   "whatsapp_channel": "https://whatsapp.com/channel/0029VbDekeR6LwHmUXBPlY0Y",

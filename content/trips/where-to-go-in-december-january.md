@@ -72,6 +72,10 @@ Compare hotels and homestays for your dates on these sites:
 - **Check what you can carry.** Dry coconut and camphor are banned in all bags on flights, and power banks must stay in your cabin bag. Search our [can I carry it?](../baggage/can-i-carry.html) list.
 - **Dress for the place.** See [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html), [which shoes to take](../guides/travel-shoes-guide.html) and our [sunscreen guide](../guides/travel-sunscreen-guide.html).
 
+Compare flights for your dates:
+
+[[fly:flights]]
+
 ## Questions
 
 ### Where should I go in India in December?

@@ -50,7 +50,9 @@ News reports said you needed to register with a mobile number and a government p
 - **Fog:** January fog in North India can delay early flights and trains, so leave spare time for connections.
 - **Bags:** check your [airline's cabin and check-in limits](../baggage/index.html) and the [train luggage rules](../baggage/train-luggage-rules.html).
 
-Compare hotels for your dates:
+Compare flights and hotels for your dates:
+
+[[fly:flights]]
 
 [[book:hotels]]
 
