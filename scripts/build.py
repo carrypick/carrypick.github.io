@@ -1637,10 +1637,22 @@ def build_railways(cfg, deals, pages, lastmod):
             cells = "".join("<td>%s</td>" % fit_badge(*size_fit(dims, {"dims_cm": lim})[::2]) for label, lim in limits)
             bag_rows.append(f'<tr><th scope="row"><a href="../picks/{d["asin"]}.html">{e(d["title"])}</a></th>'
                             f'<td>{" x ".join(num(x) for x in dims)} cm</td>{cells}</tr>')
+    ac3 = {"dims_cm": size["ac3_dims_cm"]}
+    ac3_text = " x ".join(num(x) for x in size["ac3_dims_cm"])
+    ac3_rows = []
+    for d in deals:
+        dims = parse_dims(d.get("specs", {}).get("Size"))
+        if d["category"] == "luggage" and dims and "duffle" not in d["title"].lower() and size_fit(dims, ac3)[0]:
+            kg = parse_kg(d.get("specs", {}).get("Weight"))
+            ac3_rows.append((kg if kg is not None else 99, d, "Fits AC 3-tier and Chair Car",
+                             "Listed at %s cm, inside the %s cm limit%s." % (" x ".join(num(x) for x in sorted(dims, reverse=True)), ac3_text,
+                                                                            (". %g kg empty" % kg) if kg is not None else "")))
+    ac3_html = top_picks(cfg, [r[1:] for r in sorted(ac3_rows, key=lambda r: r[0])][:3], "../",
+                         "Suitcases that fit the AC 3-tier limit", '<a href="#our-suitcases-fit">See all our suitcases against both limits</a>')
     bags_html = ""
     if bag_rows:
         heads = "".join("<th>%s<span class=why>%s cm</span></th>" % (e(label), " x ".join(num(x) for x in lim)) for label, lim in limits)
-        bags_html = ('<h2>Do our suitcases fit in the compartment?</h2><p>The limit is for trunks, suitcases and boxes. Based on the size listed on Amazon. '
+        bags_html = ('<h2 id="our-suitcases-fit">Do our suitcases fit in the compartment?</h2><p>The limit is for trunks, suitcases and boxes. Based on the size listed on Amazon. '
                      'A suitcase can be turned to fit, so we compare its longest side with the longest limit, and so on.</p><div class="table-wrap"><table class="compare">'
                      f'<thead><tr><th>Our pick</th><th>Listed size</th>{heads}</tr></thead><tbody>{"".join(bag_rows)}</tbody></table></div>')
     first, last = data["classes"][0], data["classes"][-1]
@@ -1663,6 +1675,7 @@ def build_railways(cfg, deals, pages, lastmod):
 <p>{e(data["allowance_note"])}</p>
 <h2>Size limit for suitcases and trunks</h2>
 <p>{e(size["text"])}</p>
+{ac3_html}
 {bags_html}
 <h2>Carrying extra luggage</h2>
 <p>{e(data["excess"])}</p>
@@ -1976,6 +1989,18 @@ def build_hindi(cfg, deals, airlines, pages, lastmod):
             cells = "".join("<td>%s</td>" % badge(*size_fit(dims, {"dims_cm": lim})[::2]) for lim in limits)
             bag_rows.append(f'<tr><th scope="row"><a href="../picks/{d["asin"]}.html">{e(d["title"])}</a></th>'
                             f'<td>{" x ".join(num(x) for x in dims)} cm</td>{cells}</tr>')
+    ac3 = {"dims_cm": size["ac3_dims_cm"]}
+    ac3_text = " x ".join(num(x) for x in size["ac3_dims_cm"])
+    ac3_rows = []
+    for d in deals:
+        dims = parse_dims(d.get("specs", {}).get("Size"))
+        if d["category"] == "luggage" and dims and "duffle" not in d["title"].lower() and size_fit(dims, ac3)[0]:
+            kg = parse_kg(d.get("specs", {}).get("Weight"))
+            ac3_rows.append((kg if kg is not None else 99, d, "Fits AC 3-tier and Chair Car",
+                             "Listed at %s cm, inside the %s cm limit%s." % (" x ".join(num(x) for x in sorted(dims, reverse=True)), ac3_text,
+                                                                            (". %g kg empty" % kg) if kg is not None else "")))
+    ac3_html = top_picks(cfg, [r[1:] for r in sorted(ac3_rows, key=lambda r: r[0])][:3], "../",
+                         "Suitcases that fit the AC 3-tier limit", '<a href="#our-suitcases-fit">See all our suitcases against both limits</a>')
     bags_html = ""
     if bag_rows:
         h0, h1, h2, h3 = t["bags_head"]
@@ -2021,6 +2046,9 @@ SIZE_ROWS = [(18, "Small cabin bag", "1–3 days"), (20, "Cabin", "2–4 days"),
              (24, "Small medium", "4–6 days"), (26, "Medium", "5–8 days"), (28, "Large", "8–12 days"),
              (30, "Large", "10+ days, families"), (32, "Extra large: check the 158 cm limit", "Long trips")]
 KG_ROWS = [3, 7, 10, 15, 20, 23, 25, 30, 32]
+# Heights Indian brands list in cm (people search "77 cm luggage in inches", "55 cm bag in inches")
+CM_ROWS = [(55, "Cabin"), (56, "Cabin"), (65, "Medium"), (66, "Medium"), (68, "Medium"), (69, "Medium"),
+           (75, "Large"), (76, "Large"), (77, "Large"), (78, "Large"), (79, "Large")]
 # From guides/trolley-bag-capacity-kg-litres: keep the two in step
 CAPACITY_ROWS = [("Cabin", "About 55 cm", "39 L", "2.5 kg", "6–12 kg"), ("Medium", "65–69 cm", "69 L", "3.4 kg", "10–21 kg"),
                  ("Large", "75–80 cm", "108 L", "4.3 kg", "16–32 kg")]
@@ -2049,6 +2077,7 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
                         + f'</th><td>{cm(i)} cm</td><td>{e(kind)}</td><td>{e(trip)}</td></tr>'
                         for i, kind, trip in SIZE_ROWS)
     kg_rows = "".join(f"<tr><th scope=\"row\">{k} kg</th><td>{lb(k)} lb</td></tr>" for k in KG_ROWS)
+    cm_rows = "".join(f'<tr><th scope="row">{c} cm</th><td>{inch(c)} in</td><td>{kind}</td></tr>' for c, kind in CM_ROWS)
     capacity_rows = "".join(f'<tr><th scope="row"><a href="{CAPACITY_GUIDES[kind]}">{kind}</a></th><td>{height}</td><td>{litres}</td><td>{empty}</td><td>{clothes}</td></tr>'
                             if kind in CAPACITY_GUIDES else f'<tr><th scope="row">{kind}</th><td>{height}</td><td>{litres}</td><td>{empty}</td><td>{clothes}</td></tr>'
                             for kind, height, litres, empty, clothes in CAPACITY_ROWS)
@@ -2077,7 +2106,8 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
         quick.append("IndiGo's cabin limit, %s cm, is %s inches." % (" x ".join(num(x) for x in indigo["cabin"]["dims_cm"]),
                                                                      " x ".join(inch(x) for x in indigo["cabin"]["dims_cm"])))
     quick.append("The inch size is only the height. Airlines check length, width and height, wheels and handles included.")
-    faq = [("What is the size of a medium trolley bag in cm?", "Most medium trolleys sold in India are 65–69 cm tall and 135–147 cm in total, from the 36 models we read. They listed 45–93 litres, and 69 litres was typical."),
+    faq = [("What is the size of a small trolley bag in cm?", "A small trolley usually means a cabin trolley, about 55 cm (%s inches) tall. Many are 36–41 cm wide, but IndiGo's cabin limit is 55 x 35 x 25 cm, so check all three sides before you buy." % inch(55)),
+           ("What is the size of a medium trolley bag in cm?", "Most medium trolleys sold in India are 65–69 cm (%s–%s inches) tall and 135–147 cm in total, from the 36 models we read. They listed 45–93 litres, and 69 litres was typical." % (inch(65), inch(69))),
            ("What is 20 inch luggage in cm?", "20 inches is %s cm. That's smaller than the usual 55 cm cabin trolley sold in India, though some brands sell 55 cm bags as \"20 inch\"." % cm(20)),
            ("Is a 24 inch suitcase cabin or check-in?", "Check-in. 24 inches is %s cm, too tall for the 55–56 cm cabin limits of Indian airlines. It's a small medium-size bag, good for 4–6 days." % cm(24)),
            ("How many inches is a 55 cm cabin bag?", "55 cm is %s inches." % inch(55)),
@@ -2109,6 +2139,9 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
 <div class="table-wrap"><table class="compare snug"><thead><tr><th>Inches</th><th>cm</th><th>Size</th><th>Trip length</th></tr></thead><tbody>{size_rows}</tbody></table></div>
 <p class="small">Sizes are the bag's height. Sellers don't always say whether it includes the wheels, so check the full size on the listing.</p>
 {picks_html}
+<h2>Indian trolley sizes in cm, in inches</h2>
+<p>Indian brands list trolleys by height in cm. Here is each common height in inches.</p>
+<div class="table-wrap"><table class="compare snug"><thead><tr><th>Listed height</th><th>Inches</th><th>Size</th></tr></thead><tbody>{cm_rows}</tbody></table></div>
 <div class="answer"><h2>Quick answer</h2><ul>{"".join("<li>%s</li>" % e(x) for x in quick)}</ul></div>
 <h2>Convert inches, cm, kg and lb</h2>
 <form class="checker" onsubmit="return false">
@@ -2160,6 +2193,12 @@ BAG_ITEMS = [("Clothes", [("T-shirt or top", 0.2), ("Shirt", 0.25), ("Jeans", 0.
              ("Bathroom and health", [("Toiletry kit", 1.0), ("Towel", 0.5), ("Medicines kit", 0.3)]),
              ("Electronics", [("Laptop", 1.6), ("Laptop charger", 0.3), ("Phone charger and cables", 0.15), ("Power bank", 0.3), ("Camera", 0.7)]),
              ("Other", [("Book", 0.4), ("Umbrella", 0.4), ("Box of sweets or snacks", 1.0), ("Water bottle (empty)", 0.2)])]
+# Picks under the bag weight calculator. Keep the reasons true to each pick's listed specs in data/deals.json.
+WEIGHT_PICKS = [
+    ("B07Q822CWX", "Weigh it at home", "A hand-held luggage scale: hook the bag on and lift. It reads up to 50 kg in 0.1 kg steps, and the battery is included."),
+    ("B0F5HGLC5Q", "Light cabin trolley", "2.2 kg empty, so about 4.8 kg of a 7 kg cabin limit is left for your things. Fits Air India by its listed size."),
+    ("B0GNSKLF5Z", "Light medium trolley", "2.52 kg empty, the lightest medium trolley we found, so about 12.5 kg of a 15 kg fare is left for your things."),
+]
 BAG_TYPES = [("Backpack", 0.6), ("Soft cabin trolley", 2.4), ("Hard cabin trolley", 2.7), ("Medium check-in trolley", 3.5), ("Large check-in trolley", 4.5), ("Duffle bag", 1.2)]
 
 
@@ -2286,6 +2325,8 @@ def build_tools(cfg, deals, pages, lastmod):
     bag_opts = "".join(f'<option value="{kg}">{e(name)} (about {num(kg)} kg empty)</option>' for name, kg in BAG_TYPES)
     scale = next((d for d in deals if "scale" in d["title"].lower()), None)
     scale_html = f'<a href="../picks/{scale["asin"]}.html">luggage scale</a>' if scale else "luggage scale"
+    by_asin = {d["asin"]: d for d in deals}
+    weight_rows = [(by_asin[a], label, why) for a, label, why in WEIGHT_PICKS if a in by_asin]
     title = "How heavy is my bag? Packed bag weight calculator"
     seo = "Bag weight calculator: will my packed bag be under 7 kg or 15 kg?"
     desc = "Add what you're packing and see roughly how heavy your bag will be, against 7 kg cabin and 15–30 kg check-in limits. Free, no sign-up."
@@ -2304,6 +2345,7 @@ def build_tools(cfg, deals, pages, lastmod):
 </form>
 <div class="pack-list">{groups}</div>
 <p class="checked">Typical weights for adult clothes and common items. Real items vary, so leave a little room and weigh the bag before you leave.</p>
+{top_picks(cfg, weight_rows, "../", "Over the limit? Weigh it, or start with a lighter bag")}
 <p>More help: <a href="../baggage/index.html">baggage rules for Indian airlines</a>, <a href="../baggage/checker.html">will my bag fit?</a> and <a href="../packing/index.html">packing checklists</a>.</p>
 {{faq}}
 {tool_pills("../", path)}
