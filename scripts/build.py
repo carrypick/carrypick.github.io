@@ -965,6 +965,11 @@ def parse_kg(text):
     return float(m.group(1)) / (1000 if m.group(2) == "g" else 1)
 
 
+def possessive(name):
+    """'Thai Airways' -> "Thai Airways'", 'IndiGo' -> "IndiGo's"."""
+    return name + ("'" if name.endswith("s") else "'s")
+
+
 def num(x):
     return ("%.1f" % x).rstrip("0").rstrip(".")
 
@@ -1094,9 +1099,30 @@ def load_airlines(path=AIRLINES_FILE):
     return data
 
 
+# Where the international airlines fly from India, by their "region" field (hub lead and descriptions).
+INTL_REGIONS = [("Gulf", "the Gulf", "the Gulf (Dubai, Doha, Abu Dhabi, Sharjah, Jeddah, Muscat, Bahrain, Kuwait)"),
+                ("Asia", "Asia", "South-East Asia (Singapore, Bangkok, Kuala Lumpur, Vietnam)"),
+                ("Europe", "Europe", "Europe and the UK (London, Frankfurt, Munich, Istanbul)")]
+
+
+def intl_where(airlines, long=False):
+    """'the Gulf and Asia' (or the long form with cities) for the regions these airlines cover."""
+    parts = [(lng if long else short) for key, short, lng in INTL_REGIONS if any(a.get("region") == key for a in airlines)]
+    return parts[0] if len(parts) == 1 else ", ".join(parts[:-1]) + " and " + parts[-1]
+
+
+def intl_checked(intl):
+    """(first, last) date any international airline was checked; an airline's own 'checked' wins over the file's."""
+    dates = [a.get("checked", intl["checked"]) for a in intl["airlines"]]
+    return min(dates), max(dates)
+
+
 def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_cta, scale_link):
     """baggage/international.html: economy baggage on international flights from India (data/airlines_intl.json)."""
-    airlines, checked = intl["airlines"], intl["checked"]
+    airlines = intl["airlines"]
+    first, checked = intl_checked(intl)
+    when = ("Checked on " + fmt_date(checked)) if first == checked else ("Checked between %s and %s" % (fmt_date(first), fmt_date(checked)))
+    slugs = {a["slug"] for a in airlines}
     names = [a["name"] for a in airlines]
     rows = "".join(f"""<tr><th scope="row"><a href="{a['slug']}.html">{e(a['name'])}</a><span class="why">{e(a.get('hub', ''))}</span></th>
 <td>{e(a['cabin']['summary'])}</td><td>{e(size_limit_text(a['cabin']))}</td>
@@ -1111,16 +1137,29 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
         ("Which airline has the smallest cabin bag limit?", "Gulf Air: 6 kg and 45 x 40 x 30 cm. Qatar Airways is also strict at 50 x 37 x 25 cm. Most 55 cm trolleys sold in India are too big for both."),
         ("Can I carry a bag tied with rope or a cloth bundle?", "Usually not. Qatar Airways and Gulf Air refuse bags tied with rope or wrapped in blankets, and Dubai, Sharjah, Bahrain and Muscat airports have similar rules. Pack things in a suitcase or a sealed box."),
         ("Can I use a power bank on Emirates?", "No. Since 1 October 2025 Emirates doesn't allow using or charging power banks on board. You can still carry one under 100 Wh in your cabin bag, never in checked baggage. Most other airlines here have similar rules."),
-        ("What is the maximum weight of one checked bag?", "32 kg on every airline here, even if your total allowance is higher. On Saudia and Kuwait Airways economy, each piece is 23 kg."),
+        ("What is the maximum weight of one checked bag?", "32 kg on every airline here, even if your total allowance is higher. On Saudia and Kuwait Airways economy, each piece is 23 kg."
+         + (" Thai Airways economy bags are 23 kg each too." if "thai-airways" in slugs else "")),
     ]
+    if "thai-airways" in slugs:
+        faq.insert(1, ("How much baggage can I take from India to Bangkok?",
+                       "On Thai Airways, one 23 kg bag on Saver and Standard fares and two 23 kg bags on Flexi and Full Flex, plus a 7 kg cabin bag. "
+                       "IndiGo gives 20 kg to Bangkok and Phuket on regular fares (25 kg on UpFront)."))
+    if "vietjet" in slugs:
+        faq.insert(2, ("Does Vietjet include checked baggage from India?",
+                       "Not on Eco fares: you get only 7 kg of cabin baggage and buy checked bags separately, cheapest with your ticket. "
+                       "Deluxe includes 20 kg and SkyBoss 30 kg."))
     faq_html, faq_schema = faq_block(faq)
     title = "Baggage rules for international flights from India"
-    seo = "International baggage allowance from India %s: Emirates, Qatar, Saudia, IndiGo, Air India" % checked[:4]
-    desc = ("Cabin bag size and checked baggage by fare for %d airlines on flights from India to the Gulf and Singapore, "
-            "including Emirates, Qatar Airways, Saudia, IndiGo and Air India. Checked against official websites, %s." % (len(airlines), fmt_date(checked)))
-    body = f"""{head(title, '<a href="index.html">Baggage rules</a><span>/</span>International', "Checked on " + fmt_date(checked) + " against each airline's official website &middot; economy, India routes", BAGGAGE_PHOTO)}
+    seo = "International baggage allowance from India %s: Emirates, Qatar, Thai, IndiGo, Air India" % checked[:4]
+    desc = ("Cabin bag size and checked baggage by fare for %d airlines on flights from India to %s, "
+            "including Emirates, Qatar Airways, Saudia, IndiGo and Air India. Checked against official websites, %s." % (
+                len(airlines), intl_where(airlines), fmt_date(checked)))
+    pieces = "Kuwait Airways counts pieces (2 x 23 kg on Economy)" + (
+        ", and so does Thai Airways since March 2026 (one or two 23 kg bags)" if "thai-airways" in slugs else "")
+    no_bag = ["Etihad Basic", "flydubai Lite", "Air Arabia Basic", "IndiGo Lite", "Kuwait Airways Zero Bag"] + (["Vietjet Eco"] if "vietjet" in slugs else [])
+    body = f"""{head(title, '<a href="index.html">Baggage rules</a><span>/</span>International', when + " against each airline's official website &middot; economy, India routes", BAGGAGE_PHOTO)}
 <div class="wrap"><article class="guide">
-<p class="lead">Economy baggage on flights between India and the Gulf (Dubai, Doha, Abu Dhabi, Sharjah, Jeddah, Muscat, Bahrain, Kuwait) and Singapore, in one place. Tap an airline for the full rules, infant allowance and tips.</p>
+<p class="lead">Economy baggage on flights between India and {e(intl_where(airlines, long=True))}, in one place. Tap an airline for the full rules, infant allowance and tips.</p>
 {checker_cta}
 <h2>Cabin and checked baggage at a glance</h2>
 <div class="table-wrap"><table class="compare"><thead><tr><th>Airline</th><th>Cabin bag</th><th>Cabin size limit</th><th>Extra small bag</th><th>Checked baggage (economy)</th></tr></thead><tbody>{rows}</tbody></table></div>
@@ -1130,10 +1169,10 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
 <h2>Rules that catch travellers out</h2>
 <ul>
 <li><strong>32 kg per bag.</strong> Even with a 35 or 40 kg allowance, no single bag can weigh more than 32 kg. Split heavy luggage into two bags.</li>
-<li><strong>Weight or pieces?</strong> Most airlines here count your total kg. Kuwait Airways counts pieces (2 x 23 kg on Economy), and Saudia's economy bags are 23 kg each. Some airlines also limit the number of bags: IndiGo 2, Air Arabia 2, flydubai 3.</li>
+<li><strong>Weight or pieces?</strong> Most airlines here count your total kg. {pieces}. Saudia's economy bags are 23 kg each. Some airlines also limit the number of bags: IndiGo 2, Air Arabia 2, flydubai 3.</li>
 <li><strong>Bags need a flat side.</strong> Qatar Airways and Gulf Air refuse round bags and bundles tied with rope or wrapped in blankets. Emirates and flydubai ask you to repack odd-shaped items in a box, and Muscat airport charges extra for them.</li>
 <li><strong>Power banks stay in the cabin.</strong> Most of these airlines don't allow using or charging power banks on board, and Qatar Airways bans charging them. Never pack one in a checked bag.</li>
-<li><strong>Cheap fares may have no checked bag.</strong> Etihad Basic, flydubai Lite, Air Arabia Basic, IndiGo Lite and Kuwait Airways Zero Bag include only a cabin bag. Buying extra baggage online before you fly is much cheaper than at the airport.</li>
+<li><strong>Cheap fares may have no checked bag.</strong> {", ".join(no_bag[:-1])} and {no_bag[-1]} include only a cabin bag. Buying extra baggage online before you fly is much cheaper than at the airport.</li>
 <li><strong>Medicines into the UAE.</strong> Controlled medicines need approval from the UAE health ministry before you travel. Carry the prescription.</li>
 <li><strong>Keep gold, cash and documents with you.</strong> flydubai says not to pack money, jewellery or precious metals in checked bags.</li>
 </ul>
@@ -1149,8 +1188,8 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
 </article></div>
 {telegram_band(cfg, "../")}"""
     path = "baggage/international.html"
-    crumbs = crumbs_schema(cfg, [("Home", ""), ("Baggage rules", "baggage/index.html"), ("Gulf airlines", path)])
-    pages.append(write(path, page(cfg, seo, desc, body, 1, path, [tool_article(cfg, seo, desc, path, checked, checked), crumbs, faq_schema],
+    crumbs = crumbs_schema(cfg, [("Home", ""), ("Baggage rules", "baggage/index.html"), ("International", path)])
+    pages.append(write(path, page(cfg, seo, desc, body, 1, path, [tool_article(cfg, seo, desc, path, intl["checked"], checked), crumbs, faq_schema],
                                   og_type="article", photo=BAGGAGE_PHOTO)))
     lastmod[path] = checked
 
@@ -1191,10 +1230,10 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
       <p class="muted small">{sub}</p>{extra}"""
         return page_head("luggage", media(cfg, "luggage", "media media-tile"), inner, "../", photo)
 
-    def article_schema(title, desc, path, photo=None):
+    def article_schema(title, desc, path, photo=None, modified=None):
         image = photo_og(cfg, photo) if photo in PHOTOS else abs_url(cfg, "assets/logo.png")
         return {"@context": "https://schema.org", "@type": "Article", "headline": title, "description": desc,
-                "datePublished": data.get("published", checked), "dateModified": checked, "inLanguage": "en-IN",
+                "datePublished": min(data.get("published", checked), modified or checked), "dateModified": modified or checked, "inLanguage": "en-IN",
                 "image": image, "mainEntityOfPage": abs_url(cfg, path),
                 "author": org_schema(cfg), "publisher": org_schema(cfg)}
 
@@ -1228,7 +1267,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
     body = f"""{head(title, "Baggage rules", "Checked on " + fmt_date(checked) + " against each airline's official website", BAGGAGE_PHOTO)}
 <div class="wrap"><article class="guide">
 <p class="lead">Domestic economy limits for India's main airlines, in one place. Tap an airline for the full rules, fare types and tips.</p>
-{('<p>Flying abroad? See the <a href="international.html">international baggage rules</a> for Emirates, Qatar Airways, Saudia, Singapore Airlines, IndiGo and Air India and more, on flights from India.</p>') if intl_airlines else ''}
+{('<p>Flying abroad? See the <a href="international.html">international baggage rules</a> for Emirates, Qatar Airways, Thai Airways, Singapore Airlines, IndiGo, Air India and more, on flights from India.</p>') if intl_airlines else ''}
 {checker_cta}
 <h2>Cabin and check-in baggage at a glance</h2>
 <div class="table-wrap"><table class="compare"><thead><tr><th>Airline</th><th>Cabin bag</th><th>Cabin size limit</th><th>Extra small bag</th><th>Free check-in (domestic)</th></tr></thead><tbody>{rows}</tbody></table></div>
@@ -1264,7 +1303,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
     extra_by_slug = {x["slug"]: x for x in extra["airlines"]} if extra else {}
     for a in airlines + intl_airlines:
         abroad = a.get("scope") == "international"
-        a_checked = intl["checked"] if abroad else checked
+        a_checked = a.get("checked") or (intl["checked"] if abroad else checked)
         cabin = a["cabin"]
         checkin_rows = "".join("<tr><th scope=\"row\">%s</th><td>%s</td></tr>" % (e(c["fare"]), e(c["allowance"])) for c in a["checkin"])
         notes = "".join("<li>%s</li>" % e(n) for n in a.get("notes", []))
@@ -1284,6 +1323,9 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
                             a["name"], fees["airport_text"], (". Online, before you fly: " + summary) if summary else "", fees.get("piece_short", "extra"))))
         if abroad and a.get("infant"):
             faq.append(("How much baggage does an infant get on %s?" % a["name"], a["infant"]))
+        excess = a.get("excess") if abroad else None
+        if excess:
+            faq.append(("What are %s extra baggage charges from India?" % a["name"], excess["summary"] + "."))
         if a.get("personal"):
             faq.insert(2, ("Can I carry a laptop bag or handbag too?", a["personal"]["summary"] + "."))
         faq_html = "".join("<h3>%s</h3><p>%s</p>" % (e(q), e(ans)) for q, ans in faq)
@@ -1302,7 +1344,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
                 a["name"], cabin["summary"], size_limit_text(cabin), a["checkin_summary"], fmt_date(a_checked))
             crumb_html = '<a href="index.html">Baggage rules</a>'
             scope_text = "domestic economy"
-        body = f"""{head(title, crumb_html, "Checked on " + fmt_date(a_checked) + " against " + e(a["name"]) + "'s official website &middot; " + scope_text)}
+        body = f"""{head(title, crumb_html, "Checked on " + fmt_date(a_checked) + " against " + e(possessive(a["name"])) + " official website &middot; " + scope_text)}
 <div class="wrap"><article class="guide">
 <div class="answer"><h2>Quick answer</h2><ul>
 <li><strong>Cabin bag:</strong> {e(cabin['summary'])}.</li>
@@ -1321,6 +1363,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
 {('<p>' + e(a['checkin_note']) + '</p>') if a.get('checkin_note') else ''}
 {('<h2>Infants</h2><p>' + e(a['infant']) + '</p>') if abroad and a.get('infant') else ''}
 {extra_section(a, extra_by_slug)}
+{('<h2>Extra baggage charges</h2><p>' + e(excess['summary']) + '.</p><ul>' + "".join("<li>%s</li>" % e(x) for x in excess.get("points", [])) + '</ul>') if excess else ''}
 {('<h2>Good to know</h2><ul>' + notes + '</ul>') if notes else ''}
 <h2 id="our-picks-fit">Do our cabin picks fit {e(a['name'])}?</h2>
 <p>Based on the size listed on Amazon. The "weight" column shows what's left of the {num(cabin['kg']) if cabin.get('kg') else ''} kg limit after the bag itself.</p>
@@ -1335,7 +1378,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
 {('<p>Flying within India? See the <a href="index.html">baggage rules for Indian airlines</a>.</p>') if abroad else ''}
 {next_step([("../guides/cabin-luggage-guide.html#our-cabin-bag-picks", "Cabin trolleys we picked, and the airlines each one fits"),
             ("luggage-size-chart.html", "Trolley bag sizes in cm and inches"),
-            ("checker.html", "Check your own bag against " + a["name"] + "'s limit")]
+            ("checker.html", "Check your own bag against " + possessive(a["name"]) + " limit")]
            + ([] if abroad or a["slug"] not in extra_by_slug else [(extra_path(a["slug"])[len("baggage/"):], a["name"] + " extra baggage charges")]),
            "Shop by size", "Need a bag that fits " + e(a["name"]) + "? Start with the cabin size, then add a check-in bag for longer trips.")}
 {tool_pills("../", "")}
@@ -1346,7 +1389,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
                                + ([("International", "baggage/international.html")] if abroad else []) + [(a["name"], path)])
         faq_schema = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
             {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": ans}} for q, ans in faq]}
-        pages.append(write(path, page(cfg, seo, desc, body, 1, path, [article_schema(seo, desc, path), crumbs, faq_schema],
+        pages.append(write(path, page(cfg, seo, desc, body, 1, path, [article_schema(seo, desc, path, modified=a_checked), crumbs, faq_schema],
                                       og_type="article")))
         lastmod[path] = a_checked
 
@@ -2618,7 +2661,8 @@ def build():
                       "Compare charges", "suitcase", "luggage", ""))
     if intl_airlines:
         TOOLS.append(("baggage/international.html", "International baggage rules", "Emirates &middot; Qatar &middot; Saudia &middot; Singapore",
-                      "Baggage rules for international flights", "Cabin bag size and checked kg by fare for 12 airlines flying from India to the Gulf and Singapore.",
+                      "Baggage rules for international flights", "Cabin bag size and checked kg by fare for %d airlines flying from India to %s." % (
+                          len(intl_airlines["airlines"]), intl_where(intl_airlines["airlines"])),
                       "See the rules", "plane", "luggage", "plane-window"))
     TOOLS.append(("baggage/luggage-size-chart.html", "Luggage size chart", "Inches &middot; cm &middot; kg &middot; lb",
                   "Luggage size chart: inches to cm", "20, 24 or 28 inch? Trolley sizes in cm, airline cabin limits in inches, and kg to pounds.",

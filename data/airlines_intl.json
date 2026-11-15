@@ -664,6 +664,239 @@
       ]
     },
     {
+      "slug": "thai-airways",
+      "name": "Thai Airways",
+      "scope": "international",
+      "region": "Asia",
+      "hub": "Bangkok (BKK)",
+      "checked": "2026-11-15",
+      "official_url": "https://www.thaiairways.com/en-in/content/baggage/checked-baggage/",
+      "cabin": {
+        "pieces": 1,
+        "kg": 7,
+        "dims_cm": [
+          56,
+          45,
+          25
+        ],
+        "total_cm": 115,
+        "summary": "One cabin bag up to 7 kg",
+        "detail": "Economy passengers may carry one cabin bag up to 7 kg. Thai's size table allows up to 56 x 45 x 25 cm, including wheels, handles and side pockets, but the same page also limits a cabin bag to about 115 cm (45 inches) in total. A bag at the full 56 x 45 x 25 cm adds up to 126 cm, so keep yours within 115 cm in total to be safe; our checker uses both limits. Bags may be spot-checked on a sizer or scale at check-in and at the gate."
+      },
+      "personal": {
+        "summary": "Small extras on top: a handbag, purse or laptop up to 37.5 x 25 x 12.5 cm (or 75 cm in total) and 1.5 kg, a walking stick and infant food"
+      },
+      "checkin": [
+        {
+          "fare": "Economy Saver",
+          "allowance": "1 bag up to 23 kg (Thai says some destinations have no free bag on Saver)"
+        },
+        {
+          "fare": "Economy Standard",
+          "allowance": "1 bag up to 23 kg"
+        },
+        {
+          "fare": "Economy Flexi",
+          "allowance": "2 bags, each up to 23 kg"
+        },
+        {
+          "fare": "Economy Full Flex",
+          "allowance": "2 bags, each up to 23 kg"
+        }
+      ],
+      "checkin_summary": "1 bag of 23 kg on Saver and Standard, 2 bags of 23 kg on Flexi and Full Flex",
+      "checkin_note": "Since 2 March 2026 (for tickets sold from 25 November 2025) Thai counts bags, not total kg, across its network, including flights to and from India. Each economy bag can weigh up to 23 kg and measure up to 158 cm in total, wheels and handles included. A heavier bag (23 to 32 kg) is charged as overweight at the airport, and no bag over 32 kg is accepted. Thai's page still shows its older weight-based table above the new rules; the piece rules are the current ones.",
+      "infant": "An infant without a seat gets one checked bag up to 23 kg in economy.",
+      "excess": {
+        "summary": "An extra bag between India and Bangkok costs USD 95 if you buy it at least 24 hours before the flight, or USD 115 at the airport",
+        "points": [
+          "Extra baggage is sold per bag. In economy each extra bag can weigh up to 23 kg and measure up to 158 cm. Buy it online, through Thai's call centre or office, or from your agent at least 24 hours before departure.",
+          "Prepaid prices for the 1st or 2nd extra bag from India: USD 95 to Bangkok, USD 115 to other Thai cities, USD 140 to Singapore, Malaysia or Vietnam, USD 170 to Japan or Korea, USD 205 to Sydney, Melbourne or Brisbane and USD 235 to Europe. A 3rd extra bag costs double (USD 190 to Bangkok).",
+          "At the airport the 1st or 2nd extra bag between India and Bangkok costs USD 115.",
+          "A bag of 23 to 32 kg, or 158 to 200 cm, is charged once more at the airport rate (USD 115 between India and Bangkok). A bag of 200 to 330 cm is charged one more time on top.",
+          "Charges are in US dollars, turned into rupees on the day you pay, and they aren't refundable."
+        ]
+      },
+      "notes": [
+        "Power banks: since 15 March 2025 you can't use a power bank on board. You may carry up to two, each up to 100 Wh, in your cabin bag only, never in checked baggage.",
+        "Thai may refuse checked bags that aren't properly packed. At Bangkok, Phuket and other AOT airports, bags bigger than 80 x 70 x 80 cm may have to be opened for inspection.",
+        "Liquids in your cabin bag must be in containers of 100 ml or less, all in one clear 1-litre resealable bag."
+      ],
+      "sources": [
+        {
+          "label": "Thai Airways checked baggage",
+          "url": "https://www.thaiairways.com/en-in/content/baggage/checked-baggage/"
+        },
+        {
+          "label": "Thai Airways carry-on baggage",
+          "url": "https://www.thaiairways.com/en-in/content/baggage/carry-on-baggage/"
+        },
+        {
+          "label": "Thai Airways excess baggage",
+          "url": "https://www.thaiairways.com/en-in/content/baggage/excess-baggage/"
+        },
+        {
+          "label": "Thai Airways dangerous goods",
+          "url": "https://www.thaiairways.com/en-in/content/baggage/dangerous-goods/"
+        },
+        {
+          "label": "Power bank announcement, 7 March 2025",
+          "url": "https://www.thaiairways.com/en-in/content/news-and-announcements/thai-announces-prohibition-of-power-bank-use-onboard/"
+        }
+      ]
+    },
+    {
+      "slug": "vietjet",
+      "name": "Vietjet",
+      "scope": "international",
+      "region": "Asia",
+      "hub": "Hanoi (HAN) and Ho Chi Minh City (SGN)",
+      "checked": "2026-11-15",
+      "official_url": "https://www.vietjetair.com/en/pages/baggage-service-1608369253127",
+      "cabin": {
+        "pieces": 1,
+        "kg": 7,
+        "dims_cm": [
+          56,
+          36,
+          23
+        ],
+        "total_cm": null,
+        "summary": "One cabin bag and one small item, 7 kg in total",
+        "detail": "On Eco and Deluxe fares you can take one main cabin bag up to 56 x 36 x 23 cm plus one small personal item, but both together must weigh no more than 7 kg. SkyBoss allows 10 kg. Every cabin bag needs a Vietjet cabin baggage tag from the check-in counter, or it can be refused at boarding, and bags may be weighed again at the gate, where fees are higher. Vietjet doesn't say whether wheels and handles count, so measure them in."
+      },
+      "personal": {
+        "summary": "One small item within the same 7 kg: a handbag up to 30 x 20 x 10 cm or a laptop bag up to 40 x 30 x 10 cm"
+      },
+      "checkin": [
+        {
+          "fare": "Eco",
+          "allowance": "No free checked bag (you can buy one)"
+        },
+        {
+          "fare": "Deluxe",
+          "allowance": "20 kg"
+        },
+        {
+          "fare": "SkyBoss",
+          "allowance": "30 kg, plus one golf set"
+        }
+      ],
+      "checkin_summary": "None on Eco, 20 kg on Deluxe and 30 kg on SkyBoss",
+      "checkin_note": "These are Vietjet's allowances for flights of under 7 hours, which includes its direct flights between India and Vietnam (longer routes, such as to Australia, get more). No single bag may weigh more than 32 kg or measure more than 119 x 119 x 81 cm. Checked baggage is cheapest when bought with your ticket or within 24 hours of booking, and dearest at the airport.",
+      "infant": "Infants under 2 get no baggage allowance on Vietjet. Strollers, wheelchairs and mobility aids travel free.",
+      "excess": {
+        "summary": "Buying 20 kg with your ticket costs 680,000 Vietnamese dong on India routes; at the airport it's 1,360,000 dong per 20 kg",
+        "points": [
+          "Prices are per person, per flight, in Vietnamese dong (VND); the booking page shows them in rupees. Vietjet's fee table puts India in its Japan, Korea and South Asia price group.",
+          "With your ticket or within 24 hours of booking: 20 kg costs 680,000 VND, 30 kg 1,040,000 VND and 40 kg 1,370,000 VND.",
+          "Later, up to 3 hours before departure: 20 kg costs 820,000 VND, 30 kg 1,300,000 VND and 40 kg 1,650,000 VND.",
+          "At the airport, within 3 hours of departure: 1,360,000 VND per 20 kg, and 340,000 VND for each kg over what you bought.",
+          "Eco and Deluxe passengers can add 2 kg of priority cabin baggage: 530,000 VND when booking, 630,000 VND later and 800,000 VND at the airport."
+        ]
+      },
+      "notes": [
+        "Power banks: up to two, each up to 100 Wh, in your cabin bag only, never in checked baggage. Using them during the flight is strictly prohibited, and they must be kept where crew can see them.",
+        "E-cigarettes and heated tobacco devices aren't accepted at all, not even in checked baggage.",
+        "Vietjet's India travel page lists direct flights to Vietnam from New Delhi, Mumbai, Ahmedabad, Bengaluru and Hyderabad.",
+        "Keep cash, jewellery, cameras, laptops and phones in your cabin bag, not in checked baggage."
+      ],
+      "sources": [
+        {
+          "label": "Vietjet baggage service",
+          "url": "https://www.vietjetair.com/en/pages/baggage-service-1608369253127"
+        },
+        {
+          "label": "Vietjet fare rules",
+          "url": "https://www.vietjetair.com/en/pages/fare-rules-1607053453722"
+        },
+        {
+          "label": "Vietjet fees and charges",
+          "url": "https://www.vietjetair.com/en/pages/fee-and-charges-1599130343851"
+        },
+        {
+          "label": "Vietjet power bank rules",
+          "url": "https://www.vietjetair.com/en/news/news-1697697232035/safety-regulations-regarding-power-banks-on-vietjet-flights-1784606492074"
+        },
+        {
+          "label": "Vietjet: flying from India to Vietnam",
+          "url": "https://www.vietjetair.com/en/pages/what-should-be-noted-when-flying-from-india-to-vietnam-1764232799894"
+        }
+      ]
+    },
+    {
+      "slug": "malaysia-airlines",
+      "name": "Malaysia Airlines",
+      "scope": "international",
+      "region": "Asia",
+      "hub": "Kuala Lumpur (KUL)",
+      "checked": "2026-11-15",
+      "official_url": "https://www.malaysiaairlines.com/in/en/travel-info/baggage/checked-baggage.html",
+      "cabin": {
+        "pieces": 1,
+        "kg": 7,
+        "dims_cm": [
+          56,
+          36,
+          23
+        ],
+        "total_cm": 115,
+        "summary": "One cabin bag up to 7 kg, small personal item included",
+        "detail": "Economy passengers may take one cabin bag up to 7 kg. A bag for the overhead bin can be up to 56 x 36 x 23 cm (115 cm in total). One personal item, such as a handbag, laptop bag or briefcase, is allowed as part of the same 7 kg and goes under the seat, up to 25 x 36 x 25 cm. Malaysia Airlines doesn't say whether wheels and handles count, so measure them in."
+      },
+      "personal": {
+        "summary": "One handbag, laptop bag, briefcase or small camera bag (or instead a duty-free bag, an overcoat or crutches), counted within the same 7 kg. Under-seat size up to 25 x 36 x 25 cm"
+      },
+      "checkin": [
+        {
+          "fare": "Economy Value",
+          "allowance": "20 kg"
+        },
+        {
+          "fare": "Economy Basic",
+          "allowance": "25 kg"
+        },
+        {
+          "fare": "Economy Flex",
+          "allowance": "35 kg"
+        }
+      ],
+      "checkin_summary": "20 kg on Value, 25 kg on Basic and 35 kg on Flex",
+      "checkin_note": "Malaysia Airlines counts the total weight of your checked bags, shown in kg on your ticket (flights between Malaysia and Japan have their own allowances). No single bag may weigh more than 32 kg, and each must measure less than 158 cm in total. A bag of 158 to 204 cm counts as oversized and may cost extra; anything bigger must go as cargo.",
+      "infant": "An infant may bring one bag (up to 115 cm) and a fully folding stroller, pram or carrycot as cabin items, together up to 10 kg. Strollers, car seats and wheelchairs can also be checked in free. The baggage page doesn't list a separate checked allowance for infants.",
+      "excess": {
+        "summary": "Extra weight from India costs USD 18 per kg to Malaysia and USD 37 per kg to Singapore, Thailand or Vietnam",
+        "points": [
+          "Excess baggage is charged per kg by distance zone, from where you start to your final destination. India is in Zone 3: USD 18 per kg to Malaysia, USD 37 to Singapore, Thailand, Vietnam, Indonesia or China, USD 48 to Australia or New Zealand and USD 54 to the UK or Europe.",
+          "You can buy extra baggage in advance in Manage My Booking or through the call centre, up to 24 hours before take-off. Malaysia Airlines recommends buying ahead but doesn't publish its prepaid prices on this page.",
+          "Extra baggage is non-refundable and works only on flights operated by Malaysia Airlines, not codeshare or MASwings flights.",
+          "If your bags still weigh more than your allowance plus what you bought, the counter charges the normal excess rate for the rest."
+        ]
+      },
+      "notes": [
+        "Power banks: up to two, in your cabin bag only. Using or charging them is banned for the whole flight, and they must stay with you (under the seat or in the seat pocket, not in the overhead bin). Those over 100 Wh need airline approval; over 160 Wh are banned.",
+        "Fresh or frozen seafood can't be checked in. It may go in the cabin only, properly packed without crushed ice, and subject to your destination's quarantine rules."
+      ],
+      "sources": [
+        {
+          "label": "Malaysia Airlines checked baggage",
+          "url": "https://www.malaysiaairlines.com/in/en/travel-info/baggage/checked-baggage.html"
+        },
+        {
+          "label": "Malaysia Airlines cabin baggage",
+          "url": "https://www.malaysiaairlines.com/in/en/travel-info/baggage/cabin-baggage.html"
+        },
+        {
+          "label": "Malaysia Airlines extra baggage",
+          "url": "https://www.malaysiaairlines.com/in/en/travel-info/baggage/extra-baggage.html"
+        },
+        {
+          "label": "Malaysia Airlines additional restrictions",
+          "url": "https://www.malaysiaairlines.com/in/en/travel-info/baggage/additional-restrictions.html"
+        }
+      ]
+    },
+    {
       "slug": "indigo-international",
       "name": "IndiGo (international)",
       "scope": "international",
