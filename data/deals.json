@@ -1,5 +1,34 @@
 [
   {
+    "asin": "B0BLNY575N",
+    "added_at": "2026-11-15T21:54:12+05:30",
+    "title": "it luggage Census 81 cm Extra Large Soft Trolley Bag, TSA Lock",
+    "category": "luggage",
+    "highlights": [
+      "81 cm tall, a true 32 inch bag",
+      "3.3 kg empty, the lightest of the 11 extra-large bags we read",
+      "Soft shell with a padded front panel and a front pocket",
+      "TSA-compatible combination lock and 8 spinner wheels"
+    ],
+    "note": "The lightest true 32 inch trolley we found, for flights that allow a checked bag bigger than 158 cm.",
+    "brand": "it luggage",
+    "colour": "Teal Sea",
+    "best_for": [
+      "Flights abroad",
+      "Long trips"
+    ],
+    "specs": {
+      "Size": "81 x 49 x 29 cm (159 cm total)",
+      "Capacity": "102 L (another listing field says 45 L)",
+      "Weight": "3.3 kg",
+      "Shell": "Soft",
+      "Wheels": "8 spinner wheels",
+      "Lock": "TSA-compatible combination",
+      "Warranty": "Not listed"
+    },
+    "skip_if": "you fly IndiGo, Air India, Akasa Air or SpiceJet: at 159 cm in total it is 1 cm over their 158 cm limit for a checked bag."
+  },
+  {
     "asin": "B097B36DQR",
     "added_at": "2026-11-15T09:11:16+05:30",
     "title": "Safari Imperia 66 cm Duffle Trolley Bag, 60 L",

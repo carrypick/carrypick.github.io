@@ -2153,7 +2153,8 @@ CAPACITY_ROWS = [("Cabin", "About 55 cm", "39 L", "2.5 kg", "6–12 kg"), ("Medi
                  ("Large", "75–80 cm", "108 L", "4.3 kg", "16–32 kg")]
 # Size chart rows that link to a guide for that size (paths from baggage/)
 SIZE_GUIDES = {20: "../guides/20-inch-trolley-bag-size.html", 22: "../guides/cabin-luggage-guide.html",
-               24: "../guides/24-inch-trolley-bag-size.html", 28: "../guides/28-inch-trolley-bag-size.html"}
+               24: "../guides/24-inch-trolley-bag-size.html", 28: "../guides/28-inch-trolley-bag-size.html",
+               30: "../guides/32-inch-trolley-bag-size.html#what-about-30-inch", 32: "../guides/32-inch-trolley-bag-size.html"}
 CAPACITY_GUIDES = {"Cabin": "../guides/cabin-luggage-guide.html", "Medium": "../guides/24-inch-trolley-bag-size.html",
                    "Large": "../guides/28-inch-trolley-bag-size.html"}
 # One pick per size near the top of the size chart. Keep the reasons true to each pick's listed specs in data/deals.json.
@@ -2266,7 +2267,7 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
 <div class="table-wrap"><table class="compare snug"><thead><tr><th>kg</th><th>Pounds (lb)</th></tr></thead><tbody>{kg_rows}</tbody></table></div>
 {end_html}
 {faq_html}
-<p>More help: <a href="../guides/trolley-bag-capacity-kg-litres.html">how many kg each size holds</a>, <a href="../guides/20-inch-trolley-bag-size.html">20 inch</a>, <a href="../guides/24-inch-trolley-bag-size.html">24 inch</a> and <a href="../guides/28-inch-trolley-bag-size.html">28 inch</a> trolleys in detail, <a href="../guides/luggage-size-guide.html">what size luggage you need</a> and <a href="../guides/cabin-luggage-guide.html">how to pick a cabin trolley</a>.</p>
+<p>More help: <a href="../guides/trolley-bag-capacity-kg-litres.html">how many kg each size holds</a>, <a href="../guides/20-inch-trolley-bag-size.html">20 inch</a>, <a href="../guides/24-inch-trolley-bag-size.html">24 inch</a>, <a href="../guides/28-inch-trolley-bag-size.html">28 inch</a> and <a href="../guides/32-inch-trolley-bag-size.html">32 inch</a> trolleys in detail, <a href="../guides/luggage-size-guide.html">what size luggage you need</a> and <a href="../guides/cabin-luggage-guide.html">how to pick a cabin trolley</a>.</p>
 {tool_pills("../", path)}
 </article></div>
 <script src="../assets/sizes.js" defer></script>

@@ -20,7 +20,7 @@ A 28 inch trolley bag is **71.1 cm** tall. In India, brands sell large bags at 7
 [[top:B0GX5VFHMS|Smallest total, and light|75 cm tall and 152 cm in total, well inside the 158 cm limit. 3.6 kg empty.]]
 [[top:B0F5HLYQK3|Most room for its weight|79 cm and 95.5 litres, listed at exactly 158 cm in total. 3.5 kg empty, with a TSA lock.]]
 
-How much does each size hold? See [trolley bag capacity in kg and litres](trolley-bag-capacity-kg-litres.html).
+How much does each size hold? See [trolley bag capacity in kg and litres](trolley-bag-capacity-kg-litres.html). Want an even bigger bag? See [32 inch trolleys](32-inch-trolley-bag-size.html): almost every bag of 79 cm or more is listed over 158 cm.
 
 ## What large trolleys really measure
 
