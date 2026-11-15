@@ -63,6 +63,7 @@ Airline staff don't measure every bag, but they can. Weigh each bag at home with
 
 - **A TSA lock** lets security staff in the USA open your bag without breaking the lock. It's useful if you fly to or through the USA.
 - **Cabin bags** are usually 7 kg abroad too, but sizes vary. Qatar Airways allows only 50 x 37 x 25 cm, smaller than most Indian 55 cm trolleys. See every airline's cabin limit in our [size chart](../baggage/luggage-size-chart.html) and how to pick one in our [cabin bag guide](cabin-luggage-guide.html).
+- **Coming back with gifts?** India's duty-free allowance is ₹75,000 per person since February 2026. See what you can bring in our [Indian customs rules](../baggage/customs.html).
 
 ## Our picks
 

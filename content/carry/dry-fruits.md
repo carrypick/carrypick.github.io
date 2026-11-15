@@ -34,6 +34,8 @@ Honey is runny, so in the cabin it counts as a liquid. IndiGo's list allows hone
 
 Other countries have their own rules on food at customs. This page is about flights within India, so check the customs rules of the country you're flying to.
 
+Flying back into India with dry fruits, dates or sweets as gifts? Gifts count towards your duty-free allowance. See our [Indian customs rules](../customs.html).
+
 ## What to do instead
 
 - Carry a small pack of dry fruits in your cabin bag as a snack for the journey.

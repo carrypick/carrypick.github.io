@@ -33,6 +33,7 @@ FLIGHT_ITEMS_FILE = ROOT / "data" / "flight_items.json"
 COUPONS_FILE = ROOT / "data" / "coupons.json"  # tested shop coupons (VIP's CK15); the morning task updates "checked" and "status"
 EXTRA_BAGGAGE_FILE = ROOT / "data" / "extra_baggage.json"  # excess baggage fees by airline (domestic)
 CARRY_DIR = ROOT / "content" / "carry"  # one page per flight item; front matter 'item' names its row in flight_items.json
+CUSTOMS_DIR = ROOT / "content" / "customs"  # Indian customs rules for passengers: index.md is the hub, the rest are item pages
 HINDI_FILE = ROOT / "data" / "hindi.json"
 STATIC_DIR = ROOT / "static"
 PHOTO_DIR = STATIC_DIR / "photos"
@@ -1176,6 +1177,8 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
 <li><strong>Medicines into the UAE.</strong> Controlled medicines need approval from the UAE health ministry before you travel. Carry the prescription.</li>
 <li><strong>Keep gold, cash and documents with you.</strong> flydubai says not to pack money, jewellery or precious metals in checked bags.</li>
 </ul>
+{('<p><strong>Flying back into India?</strong> Indian Customs allows goods worth ₹75,000 per person duty free since February 2026, plus 2 litres of alcohol. '
+  'Gold, iPhones and cash have their own limits: see our <a href="customs.html">Indian customs rules</a>.</p>') if CUSTOMS_DIR.exists() else ''}
 <h2>Do our cabin picks fit?</h2>
 <p>Based on the size listed on Amazon. Gulf Air's and Qatar Airways' limits are the hardest to meet, so a backpack is often the safest cabin bag.</p>
 <div class="table-wrap"><table class="compare"><thead><tr><th>Our pick</th>{matrix_head}</tr></thead><tbody>{matrix_rows}</tbody></table></div>
@@ -1268,6 +1271,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
 <div class="wrap"><article class="guide">
 <p class="lead">Domestic economy limits for India's main airlines, in one place. Tap an airline for the full rules, fare types and tips.</p>
 {('<p>Flying abroad? See the <a href="international.html">international baggage rules</a> for Emirates, Qatar Airways, Thai Airways, Singapore Airlines, IndiGo, Air India and more, on flights from India.</p>') if intl_airlines else ''}
+{('<p>Flying back into India? See the <a href="customs.html">Indian customs rules</a>: the ₹75,000 duty-free allowance, gold, alcohol and cash limits.</p>') if CUSTOMS_DIR.exists() else ''}
 {checker_cta}
 <h2>Cabin and check-in baggage at a glance</h2>
 <div class="table-wrap"><table class="compare"><thead><tr><th>Airline</th><th>Cabin bag</th><th>Cabin size limit</th><th>Extra small bag</th><th>Free check-in (domestic)</th></tr></thead><tbody>{rows}</tbody></table></div>
@@ -1974,6 +1978,85 @@ def build_can_i_carry(cfg, deals_by_asin, pages, lastmod):
     build_carry_items(cfg, data, carry, deals_by_asin, pages, lastmod)
 
 
+# ---------- Indian customs rules for passengers (content/customs/*.md) ----------
+
+CUSTOMS_PATH = "baggage/customs.html"
+NOT_ADVICE = ("This page explains the rules in simple words. It is not legal advice. Customs officers make the final decision, "
+              "and rules and duty rates can change, so check with Indian Customs (CBIC) or the Customs help desk at the airport if you're unsure.")
+
+
+def customs_path(a):
+    return CUSTOMS_PATH if a["slug"] == "index" else "baggage/customs/%s.html" % a["slug"]
+
+
+def load_customs():
+    """content/customs/index.md is the hub (baggage/customs.html); every other file is baggage/customs/<slug>.html.
+    Front matter: title, seo_title, description, date, checked, quick ("line | line"), sources ("Label=URL | ..."),
+    optional nav (short name for links), order and related ("path=Label | ...")."""
+    if not CUSTOMS_DIR.exists():
+        return []
+    found = load_articles(CUSTOMS_DIR)
+    for a in found:
+        missing = [k for k in ("checked", "quick", "sources") if not a.get(k)]
+        if missing:
+            sys.exit("Error: content/customs/%s.md is missing %s" % (a["slug"], ", ".join(missing)))
+        if any(tag in a["body"] for tag in ("[[shop:", "[[book:", "[[fly:", "[[coupon:")):
+            sys.exit("Error: content/customs/%s.md links to another shop. These pages carry Amazon picks only." % a["slug"])
+        a["updated"] = max(a["updated"], a["checked"])
+    if not any(a["slug"] == "index" for a in found):
+        sys.exit("Error: content/customs/ needs an index.md for the hub page")
+    return sorted(found, key=lambda a: (a["slug"] != "index", int(a.get("order", 99))))
+
+
+def build_customs(cfg, deals_by_asin, customs, pages, lastmod):
+    hub = customs[0]
+    subs = customs[1:]
+    for a in customs:
+        is_hub = a is hub
+        path = customs_path(a)
+        p = "../" if is_hub else "../../"
+        here = "" if is_hub else "../"  # from this page to baggage/
+        quick = "".join("<li>%s</li>" % md_inline(q.strip(), p) for q in a["quick"].split(" | ") if q.strip())
+        sources = [{"label": s.split("=", 1)[0].strip(), "url": s.split("=", 1)[1].strip()} for s in a["sources"].split(" | ") if "=" in s]
+        related = [r.split("=", 1) for r in a.get("related", "").split(" | ") if "=" in r]
+        content = render_markdown(a["body"], cfg, deals_by_asin, p, "customs/%s.md" % a["slug"])
+        crumb = (f'<a href="{p}index.html">Home</a><span>/</span><a href="{here}index.html">Baggage rules</a><span>/</span>'
+                 + ("Customs rules" if is_hub else f'<a href="../customs.html">Customs rules</a><span>/</span>{e(a.get("nav", a["title"]))}'))
+        inner = f"""<nav class="crumbs">{crumb}</nav>
+      <h1>{e(a["title"])}</h1>
+      <p class="muted small">Checked on {fmt_date(a["checked"])} against the Baggage Rules, 2026 and other official CBIC and RBI documents</p>"""
+        art = f'<div class="media media-tile tint-travel-gear">{icon("globe", "icon media-icon")}</div>'
+        links = [(customs_path(b), b.get("nav", b["title"])) for b in customs if b is not a]
+        others = "".join(f'<li><a href="{p}{e(u)}">{e(label)}</a></li>' for u, label in links)
+        body = f"""{page_head("travel-gear", art, inner, p, a.get("photo"))}
+<div class="wrap"><article class="guide">
+{('<p class="lead">' + md_inline(a["lead"], p) + '</p>') if a.get("lead") else ""}
+<div class="answer"><h2>Quick answer</h2><ul>{quick}</ul></div>
+<p class="checked">{NOT_ADVICE}</p>
+{content}
+<h2>Sources</h2>
+<p>Official documents, read on {fmt_date(a["checked"])}:</p>
+<ul>{"".join("<li>%s</li>" % sources_html([s]) for s in sources)}</ul>
+<p class="checked">Checked on {fmt_date(a["checked"])}. {NOT_ADVICE}</p>
+{(f'<h2>{"Customs rules by item" if is_hub else "More customs rules"}</h2><ul class="airline-links">{others}</ul>') if others else ""}
+{('<h2>Related guides</h2><ul class="airline-links">%s</ul>' % "".join(f'<li><a href="{p}{e(u.strip())}">{e(label.strip())}</a></li>' for u, label in related)) if related else ""}
+{tool_pills(p, path)}
+</article></div>
+{telegram_band(cfg, p)}"""
+        seo = a.get("seo_title", a["title"])
+        trail = [("Home", ""), ("Baggage rules", "baggage/index.html"), ("Customs rules", CUSTOMS_PATH)]
+        if not is_hub:
+            trail.append((a.get("nav", a["title"]), path))
+        schema = [tool_article(cfg, seo, a["description"], path, a["date"], a["updated"]), crumbs_schema(cfg, trail)]
+        faq = md_faq(a["body"])
+        if faq:
+            schema.append({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+                {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": ans}} for q, ans in faq]})
+        pages.append(write(path, page(cfg, seo, a["description"], body, 1 if is_hub else 2, path, schema,
+                                      og_type="article", photo=a.get("photo"))))
+        lastmod[path] = a["updated"]
+
+
 # ---------- Hindi versions of the tool pages ----------
 
 HINDI_PATHS = {"baggage/index.html": "hi/flight-baggage-rules.html",
@@ -2671,6 +2754,11 @@ def build():
         TOOLS.append(("baggage/can-i-carry.html", "Can I carry it on a flight?", "Free tool", "Can I carry it on a flight?",
                       "Power banks, perfume, pickles, dry coconut: see what goes in your cabin bag and what goes in check-in.",
                       "Search items", "shield", "watches", "baggage-belt"))
+    customs = load_customs()
+    if customs:
+        TOOLS.append((CUSTOMS_PATH, "Indian customs rules", "Duty free &middot; gold &middot; alcohol &middot; cash",
+                      "Customs rules for flying into India", "The ₹75,000 duty-free allowance, gold, alcohol, iPhones and cash: what you can bring without paying duty.",
+                      "See the rules", "globe", "travel-gear", ""))
     if RAILWAYS_FILE.exists():
         TOOLS.append(("baggage/train-luggage-rules.html", "Train luggage rules", "Indian Railways",
                       "How much luggage can you carry on a train?", "Free luggage allowance for every class, size limits and charges.",
@@ -2940,6 +3028,8 @@ def build():
         build_railways(cfg, deals, pages, lastmod)
     if FLIGHT_ITEMS_FILE.exists():
         build_can_i_carry(cfg, deals_by_asin, pages, lastmod)
+    if customs:
+        build_customs(cfg, deals_by_asin, customs, pages, lastmod)
     build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl_airlines)
     build_tools(cfg, deals, pages, lastmod)
     if trips:

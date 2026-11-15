@@ -48,6 +48,7 @@ Security can ask you what a liquid is, so keep it in its original bottle with th
 - Carry the prescription, or a photo of it on your phone as a backup.
 - Pack a few extra days of any medicine you take every day, in case your return is delayed.
 - Flying abroad? Some medicines that are sold freely in India are controlled in other countries. Check the rules of the country you're visiting before you fly.
+- Flying back into India? See what Indian Customs allows, and when to use the Red Channel, in our [Indian customs rules](../customs.html).
 
 ## What to do instead
 
