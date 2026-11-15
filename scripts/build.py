@@ -2696,8 +2696,16 @@ def build():
     {"".join(cards)}
   </div>
 </section>"""
-    # Seasonal guides with an unexpired feature_until go first on the home page
-    home_guides = sorted(articles, key=lambda a: a.get("feature_until", "") < date.today().isoformat())
+    # Seasonal guides with an unexpired feature_until go first on the home page: the season that ends soonest first
+    # (Christmas pages before New Year ones), then "priority: 1" guides, then newest first
+    today = date.today().isoformat()
+
+    def home_key(a):
+        until = a.get("feature_until", "")
+        live = until >= today
+        return (not live, until if live else "", -int(a.get("priority", 0)))
+
+    home_guides = sorted(articles, key=home_key)
     body = f"""<section class="hero">
   <div class="wrap hero-row">
     <div class="hero-copy">
