@@ -537,6 +537,32 @@ PINS = [
                     + group("Clothes", "Light cotton or linen, swimwear, and one outfit that covers shoulders and knees for churches.")
                     + group("One warm layer", "A light sweater or shawl for evenings, flights and AC buses.")
                     + group("Sun and shoes", "Sunscreen, sunglasses, a cap, flip-flops and sandals with straps."))),
+    # 15 Nov 2026: Christmas gift pages (feature_until 26 Dec), so these should go out by early December.
+    dict(slug="secret-santa", board="Gift Ideas", link="guides/secret-santa-gift-ideas-for-office.html",
+         title="Secret Santa gift ideas for office colleagues (men and women)",
+         description="Useful Secret Santa gifts for the office: a wallet gift set for a male colleague, a zip-around wallet for a female colleague, and a steel bottle or gadget organiser when you don't know them well. Plus simple rules for the gift exchange.",
+         alt="Secret Santa gift ideas for office colleagues: a wallet gift set, a zip-around wallet, a steel bottle, a gadget organiser and a toiletry bag.",
+         html=chart("Office Secret Santa", "Secret Santa gifts colleagues actually use",
+                    group("For a male colleague", "A leather wallet, keychain and pen set that comes in a gift box.")
+                    + group("For a female colleague", "A zip-around wallet with 3 sections and card slots.")
+                    + group("If you don't know them well", "A steel bottle for the desk, or a padded organiser for chargers and cables.")
+                    + group("If they travel for work", "A light toiletry bag or a luggage scale.")
+                    + '<p class="note"><strong>Skip perfume and clothes</strong> unless you know them well. Order by mid-December.</p>')),
+    dict(slug="boss-gifts", board="Gift Ideas", link="guides/gift-for-boss.html",
+         title="Gift ideas for your boss: Christmas and farewell",
+         description="Gift ideas for a male or female boss that look smart and get used: classic Titan watches, leather wallets, work bags, and travel gear for a boss who flies for work. Plus why a team gift and a signed card work best.",
+         alt="A watch on a wrist, with the words Gift ideas for your boss.",
+         html=photo("watch-wrist", "Gift ideas for your boss", "Watches, work bags and travel gear for a male or female boss")),
+    dict(slug="traveller-gifts", board="Gift Ideas", link="guides/gifts-for-travellers.html",
+         title="Gifts for someone who travels a lot",
+         description="People who travel a lot already have a suitcase. Give the small things they use on every trip: a toiletry bag, a gadget organiser, a passport holder or a luggage scale. Ideas for men and women, for work trips and holidays.",
+         alt="Gifts for someone who travels a lot, by type of traveller: work trips, trips abroad, train journeys and a bigger group gift.",
+         html=chart("Gift ideas", "Gifts for someone who travels a lot",
+                    group("Flies for work", "A toiletry bag and a padded organiser for chargers and cables.")
+                    + group("Going abroad", "A passport holder with SIM and card slots, and a luggage scale.")
+                    + group("Takes trains and buses", "A steel bottle and a neck pillow with an eye mask.")
+                    + group("A bigger gift from a group", "A cabin trolley whose listed size fits their airline.")
+                    + '<p class="note"><strong>Small things get used most:</strong> most travellers already own a suitcase.</p>')),
 ]
 
 
