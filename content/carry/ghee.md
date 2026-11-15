@@ -36,7 +36,7 @@ The ghee counts towards your check-in weight. A 5 kg tin uses a third of a 15 kg
 
 Coconut oil and cooking oil follow the same limits as ghee: up to 5 litres in check-in (Air India, airport security list), and 100 ml containers in the cabin liquids bag. IndiGo's list doesn't allow oily items in the cabin.
 
-**Dry coconut (copra, gola) is different: it is banned in both bags**, because it can catch fire. See the [dry coconut rule](../can-i-carry.html?q=copra).
+**Dry coconut (copra, gola) is different: it is banned in both bags**, because it can catch fire. See our [coconut rules](coconut.html).
 
 ## What to do instead
 

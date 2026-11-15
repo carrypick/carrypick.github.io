@@ -275,12 +275,29 @@
      "cabin": "no",
      "checked": "no",
      "rule": "Banned in both cabin and check-in baggage because it can catch fire.",
-     "source": "https://kannurairport.aero/corporate/security",
+     "source": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html",
      "also": [
       "copra",
       "khopra",
       "gola"
-     ]
+     ],
+     "rechecked": "2026-11-15"
+    },
+    {
+     "item": "Coconut",
+     "cabin": "no",
+     "checked": "conditional",
+     "source": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html",
+     "rechecked": "2026-11-15",
+     "rule": "Not allowed in the cabin (IndiGo, Air India). In check-in, Air India allows coconut and IndiGo allows small pieces only. Dry coconut (copra) is banned in both bags.",
+     "also": [
+      "nariyal",
+      "whole coconut",
+      "fresh coconut",
+      "coconut pieces"
+     ],
+     "cabin_short": "No. IndiGo and Air India don't allow coconut in the cabin bag.",
+     "checked_short": "Air India allows coconut. IndiGo allows only small pieces. Dry coconut (copra) is banned in both bags."
     },
     {
      "item": "Ghee and coconut oil",
@@ -306,7 +323,9 @@
       "achar",
       "achaar"
      ],
-     "rechecked": "2026-11-10"
+     "rechecked": "2026-11-15",
+     "cabin_short": "Not on IndiGo. Air India allows it, but not chilli pickle, and oily pickle counts as a liquid: 100 ml or less.",
+     "checked_short": "Yes, packed so it can't leak or break (IndiGo, Air India)."
     },
     {
      "item": "Sweets and home food",
@@ -329,13 +348,20 @@
      "cabin": "no",
      "checked": "yes",
      "rule": "All spices, powder or whole, including chilli, are banned in the cabin. Pack them in check-in.",
-     "source": "https://kannurairport.aero/corporate/security",
+     "source": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html",
      "also": [
       "masala",
       "chilli",
       "mirchi",
-      "haldi"
-     ]
+      "haldi",
+      "spices",
+      "masala powder",
+      "jeera",
+      "elaichi"
+     ],
+     "rechecked": "2026-11-15",
+     "cabin_short": "No. All spices, powder or whole, including chilli and masala, are banned in the cabin bag.",
+     "checked_short": "Yes. Pack them sealed, inside a zip bag, so the powder and the smell stay in."
     }
    ]
   },
