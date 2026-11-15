@@ -503,6 +503,40 @@ PINS = [
          html=pick("Before you fly", "Weigh your bag at home first", "B07Q822CWX",
                    [["Weighs up to", "50 kg"], ["Steps", "0.1 kg"], ["Its own weight", "About 150 g"]],
                    "<strong>GoTrippin digital luggage scale.</strong> Our drawing, not a product photo.")),
+    # 15 Nov 2026 (later): pages other sessions published the same day.
+    dict(slug="extra-baggage", board="Flight and Train Baggage Rules", link="baggage/extra-baggage-charges.html",
+         title="Extra baggage charges in India: IndiGo, Air India, Akasa, SpiceJet",
+         description="What extra kg cost on domestic flights, from each airline's own pages: prepaid slabs, the airport rate per kg, extra bag fees and heavier cabin bags. Buying extra kg online before you fly costs less per kg than at the counter.",
+         alt="A table of extra baggage charges on Indian domestic flights: 5 kg bought ahead and the airport rate per kg for IndiGo, Akasa Air, Air India Express, SpiceJet and Air India.",
+         html=chart("Flying in India", "Extra baggage charges by airline", table(
+             ["Airline", "5 kg ahead", "At the airport"],
+             [["IndiGo", "₹3,750", "₹800 a kg"], ["Akasa Air", "₹3,750", "₹800 a kg"], ["Air India Express", "₹3,750", "Up to ₹850 a kg"],
+              ["SpiceJet", "₹3,475", "₹775 a kg"], ["Air India", "Not listed", "₹800 a kg + tax"]])
+             + group("Pay ahead, not at the counter", "Extra kg bought online before you fly cost less per kg than at the airport.")
+             + '<p class="note">From each airline\'s own pages, 15 Nov 2026. Fees change, so check before you fly.</p>')),
+    dict(slug="kashmir-december", board="India Trip Ideas", link="trips/kashmir-in-december.html",
+         title="Kashmir in December: weather, snow in Gulmarg and what to wear",
+         description="Plan Srinagar, Gulmarg, Pahalgam and Sonamarg for December: IMD temperatures, when snow usually comes, Chillai Kalan from 21 December, the Gulmarg Gondola, trains and roads in winter, and what to wear.",
+         alt="Yellow gondola cabins above snowy slopes in Gulmarg, with the words Kashmir in December.",
+         html=photo("gulmarg-gondola", "Kashmir in December", "Snow in Gulmarg, the gondola, winter roads and what to wear")),
+    dict(slug="manali-december", board="Packing and What to Wear", link="guides/what-to-wear-in-manali-in-december.html",
+         title="What to wear in Manali in December: layers, shoes and packing list",
+         description="Manali in December is about 14 °C by day and 0 °C at night, and colder at the Atal Tunnel. Dress in layers you can add and take off, and wear waterproof shoes with a good grip. Packing lists for men, women and kids.",
+         alt="Manali's average December day and night temperatures, and a table of four clothing layers to wear.",
+         html=chart("Manali in December", "What to wear in Manali in December",
+                    '<div class="big"><div><b>14 °C</b><span>a typical December day in Manali</span></div><div><b>0 °C</b><span>a typical night. The snow points are colder</span></div></div>'
+                    + table(["Layer", "What to wear"], [["1. Next to skin", "Thermal top and bottom"], ["2. Middle", "Sweater or fleece"], ["3. Outside", "Padded jacket with a hood"], ["4. Extras", "Cap, gloves, woollen socks"]])
+                    + group("Shoes", "Waterproof, with a good grip.")
+                    + '<p class="note">IMD long-term averages. Snow is possible but not certain.</p>')),
+    dict(slug="goa-packing", board="Packing and What to Wear", link="guides/goa-packing-list.html",
+         title="Goa packing list for December and January: what to pack",
+         description="Goa in winter is hot by day and pleasant at night, with almost no rain. So pack light clothes, good sun care, one warm layer and the right shoes. A short list, plus what to pack for women, men and kids.",
+         alt="Goa's average December day and night temperatures, and a short packing list: light clothes, one warm layer, sun care and shoes.",
+         html=chart("Goa in December", "Goa packing list: the short version",
+                    '<div class="big"><div><b>33 °C</b><span>a typical December day</span></div><div><b>21 °C</b><span>a typical night, with almost no rain</span></div></div>'
+                    + group("Clothes", "Light cotton or linen, swimwear, and one outfit that covers shoulders and knees for churches.")
+                    + group("One warm layer", "A light sweater or shawl for evenings, flights and AC buses.")
+                    + group("Sun and shoes", "Sunscreen, sunglasses, a cap, flip-flops and sandals with straps."))),
 ]
 
 
