@@ -1,5 +1,176 @@
 [
   {
+    "asin": "B0BHC41KYN",
+    "added_at": "2026-11-15T22:15:44+05:30",
+    "title": "Spigen Vegan Leather RFID Passport Holder",
+    "category": "travel-gear",
+    "highlights": [
+      "Holds a passport, 4 cards, 2 SIM cards and a boarding pass",
+      "Pen holder, and a SIM tool in the box",
+      "Click-down lock and RFID-blocking material (as listed)",
+      "14.1 x 10.4 x 2.1 cm and 140 g"
+    ],
+    "note": "Keeps a passport, boarding pass and cards together on a trip abroad.",
+    "brand": "Spigen",
+    "colour": "Black",
+    "best_for": [
+      "Trips abroad"
+    ],
+    "specs": {
+      "Size": "14.1 x 10.4 x 2.1 cm",
+      "Weight": "140 g",
+      "Material": "Vegan leather",
+      "Holds": "Passport, 4 cards, 2 SIM cards, boarding pass, pen",
+      "RFID": "Blocking (as listed)",
+      "Closure": "Click-down lock"
+    },
+    "skip_if": "they only fly within India: an ID card and a phone boarding pass are enough.",
+    "deal_seen_at": "2026-11-15T22:13:00+05:30"
+  },
+  {
+    "asin": "B00NIWHQVI",
+    "added_at": "2026-11-15T22:15:44+05:30",
+    "title": "Milton Flip Lid 500 Thermosteel Bottle, 500 ml",
+    "category": "travel-gear",
+    "highlights": [
+      "Listed to keep drinks hot or cold for up to 24 hours",
+      "Double-walled SS304 stainless steel, vacuum insulated",
+      "Leak-proof flip lid, with a carry jacket",
+      "ISI certified, 1-year warranty"
+    ],
+    "note": "A gift that gets used every day: on the office desk, in the car or on a train.",
+    "brand": "Milton",
+    "colour": "Silver - Flip Lid",
+    "best_for": [
+      "Office",
+      "Train journeys"
+    ],
+    "specs": {
+      "Capacity": "500 ml",
+      "Size": "7 cm wide, 25 cm high",
+      "Weight": "About 320 g (listed as 11.3 oz)",
+      "Material": "SS304 stainless steel",
+      "Lid": "Flip lid",
+      "Warranty": "1 year",
+      "Care": "Hand wash only"
+    },
+    "skip_if": "they want to put it in a dishwasher: the listing says hand wash only."
+  },
+  {
+    "asin": "B0C3RB9X98",
+    "added_at": "2026-11-15T22:15:44+05:30",
+    "title": "Amazon Basics Travel Organiser for Cables and Chargers",
+    "category": "travel-gear",
+    "highlights": [
+      "3 padded dividers you can move or take out",
+      "5 mesh pockets with elastic loops for cables, chargers and earphones",
+      "Waterproof polyester with foam padding, double zips and a hand strap",
+      "24.5 x 18.5 x 11 cm and 192 g, so it fits in a backpack"
+    ],
+    "note": "Keeps chargers, cables and a power bank in one place, at the office and on every trip.",
+    "brand": "Amazon Basics",
+    "colour": "Grey",
+    "best_for": [
+      "Office",
+      "Frequent flyers"
+    ],
+    "specs": {
+      "Size": "24.5 x 11 x 18.5 cm",
+      "Weight": "192 g",
+      "Dividers": "3, detachable",
+      "Pockets": "5 mesh pockets",
+      "Material": "Waterproof polyester, foam padding (as listed)"
+    },
+    "skip_if": "they carry only a phone charger: a small zip pouch does that job."
+  },
+  {
+    "asin": "B0F2237QFM",
+    "added_at": "2026-11-15T22:15:44+05:30",
+    "title": "Lifelong Vegan Leather Toiletry Bag for Men and Women",
+    "category": "travel-gear",
+    "highlights": [
+      "Vegan leather outside, listed as water-resistant and easy to clean",
+      "Compartments for a shaving kit, toiletries or make-up",
+      "Listed at 15 x 20 x 18 cm and only 140 g",
+      "Zip closure, for men and women"
+    ],
+    "note": "A tidy toiletry bag is a gift a frequent traveller uses on every trip.",
+    "brand": "Lifelong",
+    "colour": "Tan",
+    "best_for": [
+      "Frequent flyers",
+      "Men and women"
+    ],
+    "specs": {
+      "For": "Men and women",
+      "Size": "15 x 20 x 18 cm (as listed)",
+      "Weight": "140 g",
+      "Material": "Vegan leather",
+      "Closure": "Zip",
+      "Water": "Water-resistant (as listed)"
+    },
+    "skip_if": "they want a hanging toiletry bag: the listing shows no hook."
+  },
+  {
+    "asin": "B0F13ZFVVX",
+    "added_at": "2026-11-15T22:15:44+05:30",
+    "title": "Lavie Women's Sacy Zip-Around Wallet",
+    "category": "handbags",
+    "highlights": [
+      "Zip-around wallet: the zip keeps cash and cards from falling out",
+      "3 sections and a slip pocket, with card slots",
+      "Carry it in the hand or inside a bigger handbag",
+      "Wipe clean with a damp cloth"
+    ],
+    "note": "A safe, useful gift for a female colleague or friend: almost everyone uses a wallet.",
+    "brand": "Lavie",
+    "colour": "Coffee",
+    "best_for": [
+      "Secret Santa",
+      "Women"
+    ],
+    "specs": {
+      "For": "Women",
+      "Closure": "Zip around",
+      "Sections": "3, plus a slip pocket",
+      "Material": "Leather (as listed)",
+      "Weight": "300 g (as listed)",
+      "Care": "Wipe with a damp cloth"
+    },
+    "skip_if": "you need to know it fits a phone: the listing gives no size."
+  },
+  {
+    "asin": "B0C3LRF94X",
+    "added_at": "2026-11-15T22:15:44+05:30",
+    "title": "WildHorn Leather Wallet, Keychain and Pen Gift Set for Men",
+    "category": "handbags",
+    "highlights": [
+      "A bi-fold wallet, a keychain and a pen in one gift box",
+      "Listed as full grain leather, with RFID protection",
+      "2 note sections, card slots, a coin pocket and a hidden pocket",
+      "Wallet listed at 4.5 x 3.7 inches (about 11.4 x 9.4 cm) and 150 g"
+    ],
+    "note": "A ready-to-give gift box for a male colleague, boss or friend, so there's nothing to wrap.",
+    "brand": "WildHorn",
+    "colour": "Brown M",
+    "best_for": [
+      "Secret Santa",
+      "Men"
+    ],
+    "specs": {
+      "For": "Men",
+      "In the box": "Wallet, keychain and pen",
+      "Size": "11.4 x 9.4 x 1.3 cm (wallet, listed as 4.5 x 3.7 x 0.5 inch)",
+      "Weight": "150 g (wallet)",
+      "Material": "Full grain leather (as listed)",
+      "RFID": "Protected (as listed)",
+      "Gift box": "21.6 x 14 x 3.2 cm (8.5 x 5.5 x 1.25 inch)",
+      "Warranty": "6 months"
+    },
+    "skip_if": "they carry lots of cards: the listing's details count only 2 card slots.",
+    "deal_seen_at": "2026-11-15T22:05:00+05:30"
+  },
+  {
     "asin": "B0F9FMQZWN",
     "added_at": "2026-11-15T22:03:37+05:30",
     "title": "Safari Astra Neo 56 cm Cabin Trolley, Polycarbonate",

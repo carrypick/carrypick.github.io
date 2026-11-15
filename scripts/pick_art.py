@@ -84,7 +84,7 @@ PALETTE = [
     ("navy blue", "#22325a"), ("wine red", "#6d1f33"), ("turquoise", "#2bb0ad"), ("lime", "#a9c94b"),
     ("red", "#c0392b"), ("navy", "#22325a"), ("olive", "#6b6d3b"), ("teal", "#1f7a7a"), ("coral", "#ee7b63"), ("mint", "#a6dac6"),
     ("beige", "#d8c7a6"), ("vanilla", "#efe2c4"), ("champagne", "#dcc7a1"), ("silver", "#c5cbd1"),
-    ("black", "#26292d"), ("grey", "#7d858d"), ("blue", "#2f5fa7"), ("green", "#3f7d55"), ("brown", "#7a4e2f"),
+    ("black", "#26292d"), ("grey", "#7d858d"), ("blue", "#2f5fa7"), ("green", "#3f7d55"), ("brown", "#7a4e2f"), ("coffee", "#5a3a26"),
     ("yellow", "#f1c232"), ("pink", "#e89ab1"), ("white", "#f6f6f4"), ("gold", "#d1ad5b"), ("tan", "#b07a45"),
 ]
 
@@ -505,8 +505,34 @@ def draw_backpack(d, limit):
                     "cabin limit as a dashed box" % (ndims(dims), ndims(limit)))
 
 
+def draw_wallet(d):
+    """A closed wallet seen from the front; a gift set adds the pen and keychain the listing names."""
+    sp, tl = d.get("specs", {}), d["title"].lower()
+    stitch = ' stroke-dasharray="4 3"'
+    if "zip" in tl:
+        out = (R(120, 100, 240, 140, 14) + R(131, 111, 218, 118, 9, "k", 1.4, ' stroke-dasharray="2 3" opacity=".7"')
+               + R(348, 96, 12, 24, 4, "p", 0) + L(354, 120, 354, 132, "pk", 2))
+        sub = sp.get("Sections") or ""
+        return dict(inner=out + bottom_info("Zip-around wallet", ("Sections: " + sub) if sub else ""), legend=False, info=[],
+                    scaled=False, alt="Simple drawing of a closed zip-around wallet")
+    set_ = "pen" in tl and "keychain" in tl
+    x0 = 92 if set_ else 155
+    out = (R(x0, 112, 170, 132, 10) + R(x0, 112, 16, 132, 6, "s k", 1.5)
+           + R(x0 + 24, 120, 138, 116, 7, "k", 1, stitch + ' opacity=".6"'))
+    if set_:
+        out += (R(300, 92, 14, 160, 7, "p", 0) + R(303, 86, 8, 36, 3, "s k", 1.2) + P("M300 252 L307 268 L314 252Z", "p", 0)
+                + C(380, 112, 15, "k", 3) + R(366, 128, 28, 70, 7) + R(372, 136, 16, 54, 5, "k", 1, stitch + ' opacity=".6"'))
+    size = parse_dims(sp.get("Size"))
+    first = "Wallet, keychain and pen" if set_ else "Bi-fold wallet"
+    second = "Wallet listed at %s × %s cm" % (n(size[0]), n(size[1])) if size else ""
+    return dict(inner=out + bottom_info(first, second), legend=False, info=[], scaled=False,
+                alt="Simple drawing of a closed bi-fold wallet" + (" with a pen and a keychain" if set_ else ""))
+
+
 def draw_handbag(d):
     sp, tl = d.get("specs", {}), d["title"].lower()
+    if "wallet" in tl:
+        return draw_wallet(d)
     dims = parse_dims(sp.get("Size"))
     kind = ("tote" if "tote" in tl else "satchel" if "satchel" in tl else "crescent" if "crescent" in tl
             else "flap" if "flap" in tl or "messenger" in tl else "sling")
@@ -909,6 +935,51 @@ def draw_skincare(d):
 
 def draw_travel(d):
     sp, tl = d.get("specs", {}), d["title"].lower()
+    zip_ = ' stroke-dasharray="2 3"'
+    if "toiletry" in tl:
+        out = (R(110, 128, 260, 136, 22) + P("M116 150 Q240 128 364 150", "k", 1.4, zip_) + R(344, 136, 20, 12, 4, "p", 0)
+               + P("M110 176 C84 176 84 226 110 226", "pk", 6) + L(132, 196, 348, 196, "k", 1, ' opacity=".3"'))
+        bits = " · ".join(x for x in (sp.get("Size", "").replace(" (as listed)", "").replace(" x ", " × ") or None,
+                                      sp.get("Weight")) if x)
+        return dict(inner=out + bottom_info("Toiletry bag", ("Listed at " + bits) if bits else ""), legend=False, info=[],
+                    scaled=False, alt="Simple drawing of a zipped toiletry bag with a side handle")
+    if "organiser" in tl or "organizer" in tl:
+        out = (R(104, 104, 272, 156, 18) + R(114, 114, 252, 136, 12, "k", 1.4, zip_ + ' opacity=".7"')
+               + R(364, 110, 12, 22, 4, "p", 0) + P("M104 150 C80 150 80 214 104 214", "pk", 6)
+               + L(240, 104, 240, 260, "k", 1, ' opacity=".25"'))
+        second = " · ".join(x for x in (("%s dividers" % sp["Dividers"].split(",")[0]) if sp.get("Dividers") else None,
+                                        sp.get("Pockets")) if x)
+        return dict(inner=out + bottom_info("Gadget organiser", second), legend=False, info=[], scaled=False,
+                    alt="Simple drawing of a closed, padded gadget organiser case with a hand strap")
+    if "bottle" in tl:
+        s, cx = 8.4, 240
+        size = re.findall(r"(\d+(?:\.\d+)?)\s*cm", sp.get("Size", ""))
+        wcm, hcm = (float(size[0]), float(size[1])) if len(size) >= 2 else (7.0, 25.0)
+        w, h = wcm * s, hcm * s
+        top, lid = FLOOR - h, 34
+        out = (L(150, FLOOR, 330, FLOOR, "k", 1.2, ' opacity=".3"')
+               + R(cx - w / 2, top + lid - 4, w, h - lid + 4, 12) + R(cx - w / 2 + 6, top + lid + 14, w - 12, 3, 1.5, "s", 0)
+               + R(cx - w / 2 + 4, top, w - 8, lid, 9, "p", 0) + R(cx + w / 2 - 14, top + 8, 6, 14, 3, "s", 0)
+               + dim_v(cx - w / 2 - 26, top, FLOOR, n(hcm) + " cm", "high")
+               + dim_h(cx - w / 2, cx + w / 2, FLOOR + 16, n(wcm) + " cm", "wide"))
+        cap = sp.get("Capacity")
+        return dict(inner=out, legend=False, info=[(cap, "t", 16, 700)] if cap else [], scaled=True,
+                    alt="Drawing of a steel bottle with a flip lid, drawn to its listed size of %s cm wide and %s cm high" % (n(wcm), n(hcm)))
+    if "passport" in tl:
+        dims = parse_dims(sp.get("Size")) or [14.1, 10.4, 2.1]
+        hcm, wcm = sorted(dims, reverse=True)[:2]
+        s, cx = 12.0, 228
+        w, h = wcm * s, hcm * s
+        x, top = cx - w / 2, FLOOR - h
+        out = (R(x + 18, top - 22, w - 44, 40, 3, "s k", 1.2) + R(x, top, w, h, 10)
+               + R(x + 9, top + 9, w - 18, h - 18, 6, "k", 1, ' stroke-dasharray="4 3" opacity=".6"')
+               + R(x + w - 10, top + h / 2 - 22, 26, 44, 6, "s k", 1.5) + C(x + w + 3, top + h / 2, 4)
+               + C(x + 10, top - 4, 9, "k", 2.5)
+               + dim_v(x - 18, top, FLOOR, n(hcm) + " cm", "high") + dim_h(x, x + w, FLOOR + 16, n(wcm) + " cm", "wide"))
+        info = [(lead_amount(sp.get("Weight"), "kg|g"), "t", 16, 700)] if sp.get("Weight") else []
+        return dict(inner=out, legend=False, info=info, scaled=True,
+                    alt="Drawing of a closed passport holder with a boarding pass tucked in and a clip-down lock, drawn to its "
+                        "listed size of %s cm high and %s cm wide" % (n(hcm), n(wcm)))
     if "pouch" in tl:
         out = ""
         for x in (128, 248):
