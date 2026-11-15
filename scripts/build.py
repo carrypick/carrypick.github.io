@@ -1293,6 +1293,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
 <noscript><p>This checker needs JavaScript. You can still compare the limits on our <a href="index.html">baggage rules page</a>.</p></noscript>
 <div class="table-wrap"><table class="result-table" id="bc-results"><thead><tr><th>Airline</th><th>Size</th><th>Weight</th></tr></thead><tbody>{result_rows}</tbody></table></div>
 {disclaimer}
+{top_picks(cfg, hub_rows, "../", "Bag too big? These fit by their listed size", '<a href="index.html#our-picks-fit">See all our picks against each airline</a>')}
 <h2>How to measure your bag</h2>
 {diagram_figure("measure-bag", "../")}
 <h2>How this works</h2>

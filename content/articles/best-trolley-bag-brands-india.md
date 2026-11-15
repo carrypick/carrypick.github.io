@@ -3,6 +3,7 @@ seo_title: Best trolley bag brands in India: 7 brands compared by weight and siz
 title: Best trolley bag brands in India: 7 brands compared
 description: American Tourister, Safari, Aristocrat, Skybags, Kamiliant, VIP and L'Attitude compared by listed weight, litres and full size. See which brand suits your trip.
 date: 2026-11-06
+updated: 2026-11-15
 category: luggage
 photo: baggage-belt
 ---
@@ -17,6 +18,10 @@ We haven't tested these bags, so nothing here tells you how long they last.
 - **Closest to the 158 cm check-in limit:** L'Attitude and Safari had the most large bags within it.
 - **Most soft-case choices:** Aristocrat. Skybags and VIP also have some.
 - **Warranty:** most models we picked list 3 years. We didn't find a warranty on the Kamiliant listings we picked.
+
+[[toppicks:Our top picks|Compare our picks by brand|#our-picks-by-brand]]
+[[top:B0GNSKLF5Z|Lightest: Kamiliant, medium|68 cm and only 2.52 kg empty, the lightest medium trolley we found, so it suits 15 kg fares.]]
+[[top:B0GX5VFHMS|Within 158 cm: Skybags, large|75 cm tall and 152 cm in total, inside the 158 cm check-in limit. 3.6 kg empty.]]
 
 ## Medium trolleys compared
 
@@ -127,3 +132,5 @@ VIP's own store sells VIP, Skybags, Aristocrat, Caprese, Alfa and Savoy Paris. S
 ## Sources
 
 We read 146 listings on Amazon.in on 6 Nov 2026, from Amazon search results. After removing repeat colours, sets, kids' bags and clear errors, 97 were left across all sizes and brands, including a few brands not shown here. They aren't every bag on sale, and "typical" means the middle value. We counted some listings that differ only in their listed litres, so these counts are a little higher than in our size guides. Warranty details come from our pick pages. VIP's brands: [VIP Bags](https://vipbags.com/), read 6 Nov 2026. Other company details: [Safari Industries profile](https://stockanalysis.com/quote/bom/523025/company) and [Samsonite Group](https://www.nasdaq.com/press-release/samsonite-international-sa-announces-change-corporate-name-samsonite-group-sa-2025-01).
+
+[[next:#our-picks-by-brand=Compare our picks by brand|american-tourister-vs-safari.html=American Tourister vs Safari, side by side|../baggage/luggage-size-chart.html=Trolley bag sizes in cm and inches]]

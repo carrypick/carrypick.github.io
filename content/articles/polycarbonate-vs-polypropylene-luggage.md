@@ -3,6 +3,7 @@ seo_title: Polycarbonate vs polypropylene trolley bags: which is better?
 title: Polycarbonate vs polypropylene trolley bags: which is better?
 description: Polycarbonate is usually called tougher and polypropylene lighter. We checked 62 Amazon.in listings by weight, and the gap was small. See which suits your trip.
 date: 2026-11-06
+updated: 2026-11-15
 category: luggage
 photo: trolley-walk
 ---
@@ -13,6 +14,10 @@ Most hard trolleys in India are polycarbonate (PC) or polypropylene (PP). Luggag
 - **Choose polycarbonate** if your bag will be checked in often and you want a tougher shell. Expect to pay a little more.
 - **Choose polypropylene** if you want a light, good-value bag for domestic trips.
 - **Don't choose by material alone.** The lightest cabin bag we read was polycarbonate, and the model matters more than the material.
+
+[[toppicks:Our picks in each material|Compare all four picks|#our-picks]]
+[[top:B097G7K6FZ|Polycarbonate, large|76 cm and 155 cm in total, within the 158 cm check-in limit by its listed size. 4.3 kg empty.]]
+[[top:B0GNSKLF5Z|Polypropylene, medium|68 cm and only 2.52 kg empty, the lightest medium trolley we found.]]
 
 ## How they compare
 
@@ -115,3 +120,5 @@ Hard is usually better for flights, because it protects your things and handles 
 ## Sources
 
 Listed weights and materials read on Amazon.in on 6 Nov 2026, from Amazon search results, after removing repeat colours, sets and clear errors. We counted only listings that named PC or PP in the title or material field. They aren't every bag on sale, and "typical" means the middle value. Material claims come from companies that sell luggage: [Travelpro's guide to shell materials](https://travelpro.com/pages/luggage-guide-to-shell-materials) and [Nasher Miles on PP vs PC](https://nashermiles.com/blogs/news/polypropylene-vs-polycarbonate-luggage), read 6 Nov 2026.
+
+[[next:#our-picks=Compare our four picks|best-trolley-bag-brands-india.html=Trolley bag brands compared|../baggage/luggage-size-chart.html=Trolley bag sizes in cm and inches]]

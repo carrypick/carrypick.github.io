@@ -3,6 +3,7 @@ seo_title: Trolley bag capacity: how many kg and litres by size (55, 65, 75 cm)
 title: Trolley bag capacity: how many kg and litres each size holds
 description: How many kg can a 55, 65 or 75 cm trolley hold? See the litres listed on 80 models on Amazon.in, a rough kg guide, and what your airline really allows.
 date: 2026-11-06
+updated: 2026-11-15
 category: luggage
 photo: packed-suitcase
 ---
@@ -21,6 +22,11 @@ The kg column is **our rough estimate, not a test**. We used about 0.15–0.3 kg
 - **Cabin bag:** it could hold more than most airlines allow. Most Indian airlines allow 7 kg, including the bag.
 - **Medium bag:** this is the best match for a 15 kg fare.
 - **Large bag:** it can hold more than a 15 kg fare allows, and it weighs more when empty.
+
+[[toppicks:Our picks for each size|Compare all three|#our-picks]]
+[[top:B0F5HGLC5Q|Cabin|2.2 kg empty, so about 4.8 kg of a 7 kg limit is left for your things. Fits Air India by its listed size.]]
+[[top:B0GNSKLF5Z|Medium, for 15 kg fares|2.52 kg empty, so about 12.5 kg of a 15 kg fare is left for your things. 66 litres listed.]]
+[[top:B0F5HLYQK3|Large|95.5 litres and 3.5 kg empty, listed at exactly 158 cm in total.]]
 
 Need the height in inches and cm? See our [trolley bag size chart](../baggage/luggage-size-chart.html).
 
@@ -123,3 +129,5 @@ Yes, as a check-in bag, if it's within your airline's limits. It's too big for t
 ## Sources
 
 Listed sizes, weights and litres read on Amazon.in on 6 Nov 2026, for 80 models after removing repeat colours and listings with clear errors. These came from Amazon search results, so they aren't every bag on sale. The kg per litre figure is our own rough estimate. We haven't packed and weighed these bags. Airline allowances checked on 3 Nov 2026: see our [baggage rules](../baggage/index.html).
+
+[[next:#our-picks=Compare our three picks|../baggage/luggage-size-chart.html=Trolley bag sizes in cm and inches|../tools/bag-weight.html=Work out what your packed bag weighs]]

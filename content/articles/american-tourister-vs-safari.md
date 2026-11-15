@@ -3,6 +3,7 @@ seo_title: American Tourister vs Safari trolley bags: which is better?
 title: American Tourister vs Safari trolley bags: which is better?
 description: We compared American Tourister and Safari trolleys listed on Amazon.in by weight, litres, full size and warranty. See which brand suits your trip and fare.
 date: 2026-11-06
+updated: 2026-11-15
 category: luggage
 photo: trolley-handles
 ---
@@ -13,7 +14,11 @@ American Tourister and Safari are two of the first names people see when buying 
 - **Lighter: American Tourister.** Its typical bags were 0.2 kg lighter in medium and 0.5 kg lighter in large.
 - **More listed litres: Safari.** But litres are often unreliable, so check the full size too.
 - **Large bags near the 158 cm limit: Safari.** Its typical large bag was 160 cm in total, against 167 cm. Most large bags from both brands still go over 158 cm.
-- **Warranty: no clear winner.** The models we picked from both brands list 3 years.
+- **Warranty: no clear winner.** The models we picked list 3 years, except Safari's Pentagon Pro medium, which lists 5.
+
+[[toppicks:Our picks from each brand|Compare all four picks|#our-picks]]
+[[top:B0F5HNW8D1|American Tourister, medium|67 cm, 70 litres and 2.9 kg empty, with a TSA lock and a 3-year international warranty.]]
+[[top:B097GR45SS|Safari, medium|66 cm, 73 litres and 3.5 kg empty, from the same Pentagon Pro range as our Safari cabin pick.]]
 
 **Our view:** choose American Tourister if your fare is tight on weight. Choose Safari if you want more listed room or a large polycarbonate bag. We haven't tested these bags, so this says nothing about how long they last.
 
@@ -104,7 +109,7 @@ In the listings we read, usually yes. Typical medium bags were 3.3 kg against 3.
 
 ### Which has the better warranty, American Tourister or Safari?
 
-The models we picked from both brands list 3 years, and some say it's international. Warranty can differ by model, so check the listing and keep your invoice.
+The models we picked list 3 years, except Safari's Pentagon Pro medium, which lists 5, and most say it's international. Warranty can differ by model, so check the listing and keep your invoice.
 
 ### Is Safari an Indian brand?
 
@@ -117,3 +122,5 @@ Not quite. Listings call it "Kamiliant by American Tourister", and Samsonite nam
 ## Sources
 
 Listed sizes, weights, litres and shell types read on Amazon.in on 6 Nov 2026, from Amazon search results, after removing repeat colours, sets, and listings with clear errors. They aren't every bag on sale, and "typical" means the middle value. We counted some listings that differ only in their listed litres, so these counts are a little higher than in our size guides. Cabin bag details come from our pick pages, read in Nov 2026. Airline limits checked on 3 Nov 2026: see our [baggage rules](../baggage/index.html). Company details: [Safari Industries profile](https://stockanalysis.com/quote/bom/523025/company) and [Samsonite Group](https://www.nasdaq.com/press-release/samsonite-international-sa-announces-change-corporate-name-samsonite-group-sa-2025-01).
+
+[[next:#our-picks=Compare our four picks|best-trolley-bag-brands-india.html=See more trolley brands compared|../baggage/luggage-size-chart.html=Trolley bag sizes in cm and inches]]

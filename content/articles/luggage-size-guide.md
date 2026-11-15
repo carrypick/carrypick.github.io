@@ -3,7 +3,7 @@ seo_title: What size luggage do I need? Cabin vs medium vs large
 title: What size luggage do you need? A simple guide by trip length
 description: Cabin, medium or large? Match your trolley size to your trip, airline limits and how you travel, plus hard vs soft luggage.
 date: 2026-11-02
-updated: 2026-11-06
+updated: 2026-11-15
 category: luggage
 photo: trolley-handles
 ---
@@ -17,6 +17,11 @@ These are rough guides. Every brand's sizes differ a little, so always check the
 - **Short trip (2–4 days):** a **cabin trolley**, about 55 cm tall and 35–45 litres.
 - **One week (5–8 days):** a **medium check-in trolley**, about 65–69 cm tall.
 - **Long holiday or family trip (10+ days):** a **large trolley**, about 75–79 cm tall. Check the total size first: [most large bags we checked](28-inch-trolley-bag-size.html) are listed over the 158 cm airline limit.
+
+[[toppicks:Our picks by trip length|More picks for each size|#our-picks-by-size]]
+[[top:B097JLKP8X|Short trip: cabin, 55 cm|Listed at 55 x 35 x 25 cm, within the cabin limit of IndiGo, Akasa Air and SpiceJet's Boeing planes. 2.7 kg empty.]]
+[[top:B0GNSKLF5Z|One week: medium, 68 cm|The lightest medium trolley we found, at 2.52 kg, so more of a 15 kg fare is left for your things.]]
+[[top:B0GX5VFHMS|Long trip: large, 75 cm|Listed at 152 cm in total, inside the 158 cm check-in limit that most large trolleys go over.]]
 
 [[diagram:luggage-sizes]]
 
@@ -73,3 +78,5 @@ Prefer to buy from a brand's own store? See [VIP trolley bags: sizes, warranty a
 5. Weigh the packed bag at home with a [luggage scale](../picks/B07Q822CWX.html).
 
 Not in a hurry? See what to expect from Amazon's [Republic Day sale](republic-day-sale-guide.html).
+
+[[next:#our-picks-by-size=Compare our picks by size|../baggage/luggage-size-chart.html=Trolley bag sizes in cm and inches|cabin-luggage-guide.html=Cabin bag rules and the trolleys that fit them]]

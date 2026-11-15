@@ -3,6 +3,7 @@ seo_title: Backpack size chart in litres: which size do you need?
 title: Backpack size chart in litres: which size do you need?
 description: What do 20, 30, 40 and 60 litre backpacks suit? See a simple size chart, the largest size that fits Indian airline cabin limits, and how to check the litres.
 date: 2026-11-06
+updated: 2026-11-15
 category: backpacks
 photo: backpack-street
 ---
@@ -20,6 +21,10 @@ Backpacks are sold by litres. A bigger number means more space, but also more we
 | 70 L and up | Long treks with a lot of gear | No, check it in |
 
 These are rough guides. Bulky winter clothes need more room, and light packers need less. **For most people who fly, 30–40 L is the largest useful size.**
+
+[[toppicks:Our picks by size|Compare all four backpacks|#our-picks]]
+[[top:B0BTD4S4XF|28 L, office and college|0.51 kg empty and 20 cm deep, so by its listed size it fits Air India's cabin limit as well as IndiGo's.]]
+[[top:B0B34WJK3X|40 L, longer trips|Listed at 50 x 30 x 25 cm, within IndiGo's and Akasa Air's cabin limit, and only 0.6–0.7 kg empty.]]
 
 ## Why 40 L is about the limit in the cabin
 
@@ -116,3 +121,5 @@ It means the seller says the bag holds about 40 litres. Brands measure this diff
 ## Sources
 
 Listed sizes, weights and litres come from our pick pages, read on Amazon.in in Nov 2026. Airline limits checked on 3 Nov 2026: see our [baggage rules](../baggage/index.html). Size guidance is our own rough guide, in line with [Osprey's backpack size guide](https://www.osprey.com/eu/blog/post/backpack-size-guide) and [REI on choosing a backpack](https://www.rei.com/learn/expert-advice/backpack), which are mainly about hiking packs. We haven't tested these backpacks.
+
+[[next:#our-picks=Compare our four backpacks|laptop-backpack-guide.html=Pick a laptop backpack|../baggage/index.html=Cabin bag rules for Indian airlines]]
