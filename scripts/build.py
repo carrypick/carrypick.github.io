@@ -641,7 +641,7 @@ def coupon_text(coupons, kind, shop):
         "short": ("%s for %s off" % (c["code"], c["discount"])) if ok else "no working code right now",
         "line": ("Code **%s** took %s off in %s's cart when we last checked, on %s. Coupons can end at any time, so check the discount before you pay."
                  % (c["code"], c["discount"], c.get("cart", shop), checked)) if ok else
-                ("We have no working code right now. The last code we found, %s, stopped working when we checked on %s." % (c["code"], checked)),
+                ("We have no working code right now. The last code we tested stopped working when we checked on %s." % checked),
         "brands": ("When we tested %s on %s, it took %s off %s bags on %s's website." % (c["code"], fmt_date(c["brands_checked"]), c["discount"], c["brands"], c.get("cart", shop)))
                   if ok else "We have no working code right now.",
     }
@@ -656,8 +656,8 @@ def coupon_box(coupons, shop):
         sys.exit("Error: [[coupon:%s]] names a shop that is not in data/coupons.json" % shop)
     c = coupons[shop]
     if c["status"] != "working":
-        return (f'<div class="cta-box coupon-box"><p><strong>No working code right now.</strong> The last code we found, {e(c["code"])}, '
-                f'stopped working when we checked on {fmt_date(c["checked"])}. We check again most mornings.</p></div>')
+        return (f'<div class="cta-box coupon-box"><p><strong>No working code right now.</strong> The last code we tested '
+                f'stopped working when we checked on {fmt_date(c["checked"])}.</p></div>')
     return (f'<div class="cta-box coupon-box"><p class="coupon-line"><span class="coupon-code notranslate">{e(c["code"])}</span>'
             f'<span><strong>{e(c["discount"])} off</strong> in {e(c.get("cart", shop))}\'s cart</span></p>'
             f'<p>Checked on <strong>{fmt_date(c["checked"])}</strong>: we added a bag to an empty cart on {e(c.get("cart", shop))}\'s website and typed the code. '
@@ -2990,10 +2990,13 @@ def build():
 
     # Self-check: Amazon requires the disclosure everywhere, and no page may auto-redirect.
     moved = {old for d in deals for old in d.get("old_asins", [])}
+    codes = [c["code"] for c in load_coupons().values()]
     for html_file in DOCS.rglob("*.html"):
         text = html_file.read_text(encoding="utf-8")
         if DISCLOSURE not in text:
             sys.exit("Error: disclosure missing on %s" % html_file)
+        if "amazon.in/" in text and any(re.search(r"\b%s\b" % re.escape(code), text) for code in codes):
+            sys.exit("Error: %s shows a coupon code and Amazon links. Keep coupon text (titles and descriptions too) off pages with Amazon links." % html_file)
         if re.search(r'http-equiv="refresh"|location\.(href|replace)', text, re.I):
             sys.exit("Error: auto-redirect found on %s" % html_file)
         if html_file.parent.name == "picks" and "assets/photos/" in text:
