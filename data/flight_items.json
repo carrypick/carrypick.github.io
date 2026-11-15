@@ -41,25 +41,31 @@
      "item": "Laptop",
      "cabin": "yes",
      "checked": "conditional",
-     "rule": "Take it out of your bag at security. Batteries over 100 Wh need airline approval. Keep it in your cabin bag: Akasa Air allows it in check-in only if fully switched off and protected, and SpiceJet says not to pack computers in check-in.",
-     "source": "https://www.akasaair.com/quick-links/conditions-of-carriage",
+     "rule": "Allowed in the cabin. Take it out of your bag at security. Check-in rules differ: IndiGo allows a laptop in check-in, Air India asks you to take the battery out and carry it in the cabin, Akasa Air needs it fully switched off and protected, and SpiceJet says not to pack computers in check-in. Batteries over 100 Wh need airline approval.",
+     "source": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html",
      "also": [
       "computer",
       "macbook",
       "tablet",
-      "ipad"
-     ]
+      "ipad",
+      "laptop charger",
+      "notebook"
+     ],
+     "rechecked": "2026-11-15",
+     "cabin_short": "Yes, on every airline we checked. Take it out of your bag at the security check.",
+     "checked_short": "Airlines differ. IndiGo allows it. Air India wants the battery taken out and carried in the cabin. The cabin is safer."
     },
     {
      "item": "Mobile phone",
      "cabin": "yes",
      "checked": "conditional",
-     "rule": "Allowed in the cabin. If you pack one in check-in, it must be fully switched off and protected from turning on.",
-     "source": "https://www.akasaair.com/quick-links/conditions-of-carriage",
+     "rule": "Allowed in the cabin. Air India's list doesn't allow phones in check-in. Akasa Air allows a phone in check-in only if it's fully switched off and protected from turning on.",
+     "source": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html",
      "also": [
       "phone",
       "smartphone"
-     ]
+     ],
+     "rechecked": "2026-11-15"
     },
     {
      "item": "Spare lithium batteries",
@@ -114,11 +120,12 @@
      "cabin": "no",
      "checked": "no",
      "rule": "Banned in both cabin and check-in baggage.",
-     "source": "https://kannurairport.aero/corporate/security",
+     "source": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html",
      "also": [
       "vape",
       "e cigarette"
-     ]
+     ],
+     "rechecked": "2026-11-15"
     },
     {
      "item": "Drone",
@@ -192,12 +199,17 @@
      "item": "Razor and blades",
      "cabin": "conditional",
      "checked": "yes",
-     "rule": "A safety razor with the blades in a cartridge is fine in the cabin. Loose razor blades are banned in the cabin, so pack them in check-in.",
-     "source": "https://kannurairport.aero/corporate/security",
+     "rule": "Safety razors, including disposable ones, are fine in both bags (Air India). Loose razor blades that aren't in a cartridge can't go in the cabin, so pack them in check-in (IndiGo, Air India).",
+     "source": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html",
      "also": [
       "shaving",
-      "blade"
-     ]
+      "blade",
+      "disposable razor",
+      "safety razor"
+     ],
+     "rechecked": "2026-11-15",
+     "cabin_short": "Yes for a safety or disposable razor with the blades in a cartridge. Loose blades aren't allowed.",
+     "checked_short": "Yes, including loose blades, wrapped so nobody gets cut."
     },
     {
      "item": "Holy water (Gangajal, Zamzam)",
@@ -343,12 +355,29 @@
     {
      "item": "Scissors",
      "cabin": "no",
-     "checked": "conditional",
-     "rule": "Not allowed in the cabin. Airlines may accept them in check-in.",
-     "source": "https://kannurairport.aero/corporate/security",
+     "checked": "yes",
+     "rule": "Not allowed in the cabin (IndiGo, Air India, airport security list). Pack them in check-in, wrapped so they can't hurt anyone.",
+     "source": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html",
      "also": [
       "kainchi"
-     ]
+     ],
+     "rechecked": "2026-11-15"
+    },
+    {
+     "item": "Nail cutter",
+     "cabin": "conditional",
+     "checked": "yes",
+     "source": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html",
+     "rechecked": "2026-11-15",
+     "rule": "Air India allows nail clippers without a knife, nail files and tweezers in both bags. A nail cutter with a fold-out knife or small scissors can't go in the cabin, so pack it in check-in.",
+     "also": [
+      "nail clipper",
+      "nailcutter",
+      "nail file",
+      "tweezers"
+     ],
+     "cabin_short": "Yes, if it has no fold-out knife or scissors. Air India allows nail clippers, nail files and tweezers in the cabin.",
+     "checked_short": "Yes, any nail cutter, including one with a knife or scissors."
     },
     {
      "item": "Kirpan",
@@ -421,12 +450,27 @@
    "name": "Fire and dangerous items",
    "items": [
     {
+     "item": "Cigarettes",
+     "cabin": "yes",
+     "checked": "yes",
+     "source": "https://www.goindigo.in/baggage/dangerous-goods-policy.html",
+     "rechecked": "2026-11-15",
+     "rule": "IndiGo's list allows cigarettes in both bags. Smoking isn't allowed on board, lighters are banned in both bags, and e-cigarettes are banned completely.",
+     "also": [
+      "cigarette",
+      "smoking"
+     ],
+     "cabin_short": "Yes. IndiGo's list allows cigarettes in the cabin bag. You can't smoke on board or carry a lighter.",
+     "checked_short": "Yes, IndiGo's list allows them in check-in too. Lighters and e-cigarettes are banned in both bags."
+    },
+    {
      "item": "Lighter",
      "cabin": "no",
      "checked": "no",
      "rule": "Banned in both cabin and check-in baggage.",
-     "source": "https://kannurairport.aero/corporate/security",
-     "also": []
+     "source": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html",
+     "also": [],
+     "rechecked": "2026-11-15"
     },
     {
      "item": "Matchbox",

@@ -33,8 +33,8 @@ In a check-in bag, Akasa Air says any battery device must be **completely switch
 
 ## Blades, scissors and grooming kits
 
-- **Scissors** are banned in the cabin bag (airport security list). Many grooming kits have a small pair, so take them out or pack the whole kit in check-in.
-- **Loose razor blades** are banned in the cabin. A safety razor with the blades in a cartridge is fine. See the [razor and blades rule](../can-i-carry.html?q=razor).
+- **Scissors** are banned in the cabin bag (airport security list). Many grooming kits have a small pair, so take them out or pack the whole kit in check-in. See our [nail cutter and scissors rules](nail-cutter.html).
+- **Loose razor blades** are banned in the cabin. A safety razor with the blades in a cartridge is fine. See our [razor rules](razor.html).
 - **Trimmer oil** is a liquid, so in the cabin it goes in your clear 1-litre liquids bag, in a bottle of 100 ml or less.
 
 ## Electric shavers
