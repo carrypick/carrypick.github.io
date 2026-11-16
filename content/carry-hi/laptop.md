@@ -24,7 +24,7 @@ related: hi/flight-baggage-rules.html=फ्लाइट में कितन�
 | SpiceJet | ले जा सकते हैं, लेकिन यह उसी 7 kg में गिना जाता है |
 | Air India Express | 30 x 40 x 10 cm तक, उसी 7 kg के अंदर |
 
-अपने केबिन बैग का साइज हमारे [केबिन बैग चेकर (English)](../../baggage/checker.html) से जाँचें, और हर एयरलाइन की सीमा हमारे [बैगेज नियम](../flight-baggage-rules.html) पेज पर देखें।
+अपने केबिन बैग का साइज हमारे [केबिन बैग चेकर](../cabin-bag-checker.html) से जाँचें, और हर एयरलाइन की सीमा हमारे [बैगेज नियम](../flight-baggage-rules.html) पेज पर देखें।
 
 ## चेक-इन बैग: एयरलाइनों के नियम अलग
 

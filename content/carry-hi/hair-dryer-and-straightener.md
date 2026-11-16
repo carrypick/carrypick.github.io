@@ -8,7 +8,7 @@ checked_against: IndiGo, Air India, Akasa Air और SpiceJet के निय�
 cabin_short: हाँ। IndiGo की लिस्ट हेयर ड्रायर केबिन बैग में ले जाने देती है।
 checked_short: हाँ। IndiGo की लिस्ट इसे चेक-इन में भी ले जाने देती है।
 rechecked: 2026-11-15
-related: hi/flight-baggage-rules.html=फ्लाइट में कितना सामान ले जा सकते हैं | hi/can-i-carry.html=फ्लाइट में क्या ले जा सकते हैं: पूरी लिस्ट | packing/wedding.html=Wedding packing list (English) | baggage/checker.html=Cabin bag checker (English)
+related: hi/flight-baggage-rules.html=फ्लाइट में कितना सामान ले जा सकते हैं | hi/can-i-carry.html=फ्लाइट में क्या ले जा सकते हैं: पूरी लिस्ट | packing/wedding.html=Wedding packing list (English) | hi/cabin-bag-checker.html=केबिन बैग चेकर
 ---
 ## एक नज़र में
 

@@ -8,7 +8,7 @@ checked_against: IndiGo, Air India, Akasa Air और SpiceJet के निय�
 cabin_short: हाँ, फ़ोल्ड होने वाला छाता या जिसकी नोक नुकीली न हो। नुकीली नोक वाला छाता चेक-इन में ही रखें।
 checked_short: कोई भी छाता, नुकीली नोक वाला लंबा छाता भी।
 rechecked: 2026-11-10
-related: hi/flight-baggage-rules.html=फ्लाइट में कितना सामान ले जा सकते हैं | hi/can-i-carry.html=फ्लाइट में क्या ले जा सकते हैं: पूरी लिस्ट | packing/hills.html=Hill trip packing list (English) | baggage/checker.html=Cabin bag checker (English)
+related: hi/flight-baggage-rules.html=फ्लाइट में कितना सामान ले जा सकते हैं | hi/can-i-carry.html=फ्लाइट में क्या ले जा सकते हैं: पूरी लिस्ट | packing/hills.html=Hill trip packing list (English) | hi/cabin-bag-checker.html=केबिन बैग चेकर
 ---
 ## नोक से तय होता है
 

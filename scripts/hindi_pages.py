@@ -4,6 +4,9 @@
 - hi/can-i-carry/<slug>.html          <- baggage/can-i-carry/<slug>.html (text in content/carry-hi/<slug>.md; the answers'
                                          yes/no and the Hindi rule come from data/flight_items.json and data/hindi.json)
 - hi/extra-baggage-charges.html (+ one page per airline) <- data/extra_baggage.json (Hindi wording in data/hindi.json "extra_baggage")
+- hi/cabin-bag-checker.html           <- baggage/checker.html (same airline rows and picks; static/checker.js takes its Hindi words from the page)
+- hi/guides/<slug>.html               <- guides/<slug>.html (text in content/articles-hi/<slug>.md)
+Hindi trip guides and guides with `matches: <English updated date>` are checked against the English page (check_twin).
 
 build.py calls register() before any page is written (so the English pages get hreflang tags and the language menu link),
 then build_all() at the end. B is the build module itself, so this file uses its helpers (page, top_picks, num ...).
@@ -102,6 +105,10 @@ def carry_hi(B):
 def register(B, extra):
     """Pair each Hindi page with its English page (hreflang tags, language menu). Call before any page is written."""
     B.HINDI_PAGES["baggage/luggage-size-chart.html"] = SIZE_PATH
+    if "baggage/index.html" in B.HINDI_PAGES:
+        B.HINDI_PAGES["baggage/checker.html"] = CHECKER_PATH
+    for h in guides_hi(B):
+        B.HINDI_PAGES["guides/%s.html" % h["slug"]] = "hi/guides/%s.html" % h["slug"]
     for h, a, it in carry_hi(B):
         B.HINDI_PAGES["baggage/can-i-carry/%s.html" % h["slug"]] = "hi/can-i-carry/%s.html" % h["slug"]
     hi = load_hindi()
@@ -122,10 +129,13 @@ def tool_links(B, current, p):
         mine.append((SIZE_PATH, "ट्रॉली बैग साइज चार्ट"))
     if B.HINDI_PAGES.get(B.EXTRA_PATH) == EXTRA_HUB:
         mine.append((EXTRA_HUB, "एक्स्ट्रा बैगेज चार्ज"))
+    if B.HINDI_PAGES.get("baggage/checker.html") == CHECKER_PATH:
+        mine.insert(1, (CHECKER_PATH, "केबिन बैग चेकर"))
+    mine += [("hi/guides/%s.html" % h["slug"], guide_short(h)) for h in guides_hi(B)]
     links = "".join(f'<li><a href="{p}{path}">{e(name)}</a></li>' for path, name in mine if path != current)
     if B.TRIPS_HI_DIR.exists():
         links += "".join(f'<li><a href="{p}hi/trips/{t["slug"]}.html">{e(t.get("place", t["title"]))} ट्रिप गाइड</a></li>'
-                         for t in B.load_articles(B.TRIPS_HI_DIR))
+                         for t in B.load_articles(B.TRIPS_HI_DIR) if "hi/trips/%s.html" % t["slug"] != current)
     links += "".join(f'<li><a href="{p}{t[0]}" lang="en">{e(t[1])} (English)</a></li>' for t in B.TOOLS if t[0] not in B.HINDI_PAGES)
     return f'<h2>और मुफ़्त टूल</h2><ul class="airline-links">{links}</ul>'
 
@@ -258,7 +268,7 @@ def build_size_chart(B, cfg, deals_by_asin, airlines, intl, pages, lastmod):
     end_html = B.next_step([("../guides/cabin-luggage-guide.html#our-cabin-bag-picks", "IndiGo और Air India में फिट केबिन ट्रॉली (English)"),
                             ("../guides/24-inch-trolley-bag-size.html#our-picks", "मीडियम चेक-इन ट्रॉली, 65–69 cm (English)"),
                             ("../guides/28-inch-trolley-bag-size.html#our-picks-all-within-158-cm-by-their-listed-size", "158 cm की सीमा में बड़ी ट्रॉली (English)"),
-                            ("../baggage/checker.html", "अपना बैग हर एयरलाइन से मिलाएँ (English)")],
+                            ("cabin-bag-checker.html", "अपना बैग हर एयरलाइन से मिलाएँ")],
                            "साइज मिल गया? अब बैग चुनें", "उस साइज के लिए हमारी चुनी ट्रॉलियाँ देखें, हर एक का लिस्टेड साइज, वज़न और कौन-सी एयरलाइन में फिट है।")
     size_fig = B.diagram_figure("luggage-sizes", p) if "luggage-sizes" in B.DIAGRAMS else ""
     title = "ट्रॉली बैग साइज चार्ट: cm, इंच, लीटर और kg"
@@ -299,7 +309,7 @@ def build_size_chart(B, cfg, deals_by_asin, airlines, intl, pages, lastmod):
 <label>चौड़ाई (इंच)<input id="cv-w" type="number" min="0" step="any" inputmode="decimal"></label>
 <label>ऊँचाई (इंच)<input id="cv-h" type="number" min="0" step="any" inputmode="decimal"></label></div>
 <p class="checker-total" id="cv-bag" aria-live="polite" data-bag="आपका बैग: {{cm}} cm, कुल {{total}} cm"></p>
-<p class="hint"><a id="cv-check" href="../baggage/checker.html" data-base="../baggage/checker.html" data-open="केबिन बैग चेकर खोलें (English)" data-ready="इस बैग को हर एयरलाइन से मिलाएँ (English)">केबिन बैग चेकर खोलें (English)</a></p>
+<p class="hint"><a id="cv-check" href="cabin-bag-checker.html" data-base="cabin-bag-checker.html" data-open="केबिन बैग चेकर खोलें" data-ready="इस बैग को हर एयरलाइन से मिलाएँ">केबिन बैग चेकर खोलें</a></p>
 </form>
 {size_fig}
 {('<h2>केबिन बैग की सीमा इंच में: भारतीय और विदेशी एयरलाइनें</h2><div class="table-wrap"><table class="compare snug"><thead><tr><th>एयरलाइन</th><th>साइज की सीमा (cm)</th><th>इंच में</th><th>वज़न</th></tr></thead><tbody>' + air_rows + '</tbody></table></div><p class="checked">इकॉनमी की सीमा: भारतीय एयरलाइनों के लिए घरेलू उड़ानें, विदेशी एयरलाइनों के लिए भारत के रूट। हमारे <a href="flight-baggage-rules.html">फ्लाइट बैगेज नियम</a> और <a href="../baggage/international.html" lang="en">international baggage</a> पेजों से। उड़ान से पहले अपना टिकट देखें।</p>') if air_rows else ""}
@@ -392,6 +402,9 @@ def build_all(B, cfg, deals, deals_by_asin, airlines, intl, extra, pages, lastmo
     build_carry(B, cfg, deals_by_asin, pages, lastmod)
     if B.HINDI_PAGES.get(B.EXTRA_PATH) == EXTRA_HUB:
         build_extra(B, cfg, deals_by_asin, extra, pages, lastmod)
+    if B.HINDI_PAGES.get("baggage/checker.html") == CHECKER_PATH:
+        build_checker(B, cfg, deals, airlines, intl, pages, lastmod)
+    build_guides(B, cfg, deals_by_asin, pages, lastmod)
 
 
 def check_links(B, paths):
@@ -564,7 +577,7 @@ def build_extra(B, cfg, deals_by_asin, extra, pages, lastmod):
 <li><strong>घर पर बैग तौलें।</strong> एक {scale_link} एयरपोर्ट पर कुछ किलो के चार्ज से सस्ता पड़ता है। ज़्यादातर चेक-इन बैग 15 kg और केबिन बैग 7 kg तक जाते हैं।</li>
 <li><strong>हल्का बैग चुनें।</strong> ख़ाली ट्रॉली का वज़न आमतौर पर केबिन साइज में लगभग 2.5 kg और मीडियम और लार्ज साइज में 3.4 से 4.3 kg होता है, और यह सब आपके फ्री वज़न में से जाता है। हमारे <a href="trolley-bag-size-chart.html">ट्रॉली बैग साइज चार्ट</a> में आम वज़न देखें।</li>
 <li><strong>पैक करने से पहले जोड़ लें।</strong> हमारा <a href="../tools/bag-weight.html" lang="en">bag weight calculator (English)</a> बताता है कि बैग 7 kg और 15 kg से कम रहेगा या नहीं।</li>
-<li><strong>केबिन बैग का साइज सही रखें।</strong> बहुत बड़ा केबिन बैग चेक-इन हो जाता है और आपके चेक-इन वज़न में गिना जाता है। <a href="../baggage/checker.html" lang="en">cabin bag checker (English)</a> आज़माएँ।</li>
+<li><strong>केबिन बैग का साइज सही रखें।</strong> बहुत बड़ा केबिन बैग चेक-इन हो जाता है और आपके चेक-इन वज़न में गिना जाता है। <a href="cabin-bag-checker.html">केबिन बैग चेकर</a> आज़माएँ।</li>
 <li><strong>भारी चीज़ें पहन लें।</strong> उड़ान के लिए जैकेट और सबसे भारी जूते पहनें।</li>
 <li><strong>अपना किराया देखें।</strong> IndiGo Lite और Air India Express Xpress Lite किराए में चेक-इन बैग बिल्कुल नहीं मिलता।</li>
 <li><strong>साथ में जा रहे हैं?</strong> SpiceJet एक बुकिंग के यात्रियों को चेक-इन बैगेज मिलाने देता है। बाक़ी एयरलाइनें हर यात्री का वज़न अलग गिनती हैं, इसलिए अपना टिकट देखें।</li>
@@ -650,7 +663,7 @@ def build_extra(B, cfg, deals_by_asin, extra, pages, lastmod):
 <h2>कम पैसे कैसे दें</h2>
 <ul>
 <li><strong>घर पर बैग तौलें</strong>, {scale_link} से, फिर सबसे छोटा स्लैब ख़रीदें जो एक्स्ट्रा वज़न के लिए काफ़ी हो। इस्तेमाल न हुए प्रीपेड किलो का पैसा वापस नहीं मिलता।</li>
-<li><strong>केबिन बैग का साइज देखें</strong>, हमारे <a href="{p}baggage/checker.html" lang="en">cabin bag checker (English)</a> में: बहुत बड़ा बैग चेक-इन हो जाता है।</li>
+<li><strong>केबिन बैग का साइज देखें</strong>, हमारे <a href="../cabin-bag-checker.html">केबिन बैग चेकर</a> में: बहुत बड़ा बैग चेक-इन हो जाता है।</li>
 <li><strong>पैकिंग लिस्ट जोड़ें</strong>, <a href="{p}tools/bag-weight.html" lang="en">bag weight calculator (English)</a> से।</li>
 </ul>
 <p>{e(name)} की बाक़ी एयरलाइनों से तुलना हमारे <a href="../extra-baggage-charges.html">एक्स्ट्रा बैगेज चार्ज</a> पेज पर देखें, और फ्री बैगेज <a href="../flight-baggage-rules.html">फ्लाइट बैगेज नियम</a> पेज पर।</p>
@@ -666,3 +679,262 @@ def build_extra(B, cfg, deals_by_asin, extra, pages, lastmod):
 {B.telegram_band(cfg, p)}"""
         finish(B, cfg, pages, lastmod, path, seo, desc, body, 2,
                [("होम", ""), ("एक्स्ट्रा बैगेज चार्ज", EXTRA_HUB), (name, path)], extra.get("published", checked), checked, faq_schema)
+
+
+# ---------- Hindi vs English drift check (trip guides and guides) ----------
+
+NUMBER = re.compile(r"\d+(?:[.,]\d+)*")
+
+
+def numbers(text):
+    """Every number in a page's markdown, without link targets, URLs and [[...]] tokens (those are the same in both)."""
+    text = re.sub(r"\[\[[^\]]*\]\]", " ", text)
+    text = re.sub(r"\]\([^)]*\)", "]", text)
+    text = re.sub(r"https?://\S+", " ", text)
+    return {n.replace(",", "") for n in NUMBER.findall(text)}
+
+
+def check_twin(B, h, directory, source):
+    """A Hindi page with `matches: <English updated date>` is checked against its English page: the date must match,
+    and the body and glance must use the same numbers. Anything else prints a warning so the Hindi is updated too."""
+    if not h.get("matches"):
+        return
+    a = next((x for x in B.load_articles(directory) if x["slug"] == h["slug"]), None)
+    if a is None:
+        B.sys.exit("Error: %s has no English page" % source)
+    if h["matches"] != a["updated"]:
+        warn("%s was matched to the English page of %s, but the English page was updated %s. Update the Hindi page and its matches."
+             % (source, h["matches"], a["updated"]))
+    en = numbers(a["body"] + "\n" + a.get("glance", ""))
+    hi = numbers(h["body"] + "\n" + h.get("glance", ""))
+    if hi - en:
+        warn("%s has numbers the English page doesn't: %s" % (source, ", ".join(sorted(hi - en))))
+    if en - hi:
+        warn("%s is missing numbers from the English page: %s" % (source, ", ".join(sorted(en - hi))))
+
+
+def hinglish_line(h):
+    return f'\n      <p class="muted small" lang="hi-Latn">{e(h["hinglish"])}</p>' if h.get("hinglish") else ""
+
+
+# ---------- guides (content/articles-hi/<slug>.md -> hi/guides/<slug>.html) ----------
+
+GUIDES_HI_DIR = ROOT / "content" / "articles-hi"  # same file names as content/articles
+
+
+_GUIDES_HI = None
+
+
+def guides_hi(B):
+    """content/articles-hi pages, each checked to have an English twin. Loaded once per build."""
+    global _GUIDES_HI
+    if _GUIDES_HI is not None:
+        return _GUIDES_HI
+    if not GUIDES_HI_DIR.exists():
+        _GUIDES_HI = []
+        return _GUIDES_HI
+    english = {a["slug"] for a in B.load_articles()}
+    out = []
+    for h in B.load_articles(GUIDES_HI_DIR):
+        if h["slug"] not in english:
+            B.sys.exit("Error: content/articles-hi/%s.md has no English page in content/articles" % h["slug"])
+        missing = [k for k in ("title", "description", "hinglish") if not h.get(k)]
+        if missing:
+            B.sys.exit("Error: content/articles-hi/%s.md is missing %s in its front matter" % (h["slug"], ", ".join(missing)))
+        out.append(h)
+    _GUIDES_HI = out
+    return out
+
+
+def guide_short(h):
+    return h.get("short") or h["title"].split(":")[0]
+
+
+def build_guides(B, cfg, deals_by_asin, pages, lastmod):
+    for h in guides_hi(B):
+        slug, p = h["slug"], "../../"
+        path = "hi/guides/%s.html" % slug
+        source = "content/articles-hi/%s.md" % slug
+        check_twin(B, h, B.ARTICLES_DIR, source)
+        content = B.render_markdown(h["body"], cfg, deals_by_asin, p, "articles-hi/%s.md" % slug)
+        cat = h.get("category")
+        art = B.media(cfg, cat, "media media-tile") if cat in cfg["categories"] else ""
+        inner = f"""<nav class="crumbs"><a href="{p}index.html">होम</a><span>/</span><a href="{p}guides/index.html" lang="en">Guides</a></nav>
+      <h1>{e(h['title'])}</h1>
+      <p class="muted small">{B.hi_date(h['updated'])} को अपडेट किया गया &middot; {h['minutes']} मिनट में पढ़ें</p>{hinglish_line(h)}"""
+        body = f"""{B.page_head(e(cat or 'none'), art, inner, p, h.get("photo"))}
+<div class="wrap"><article class="guide">
+{content}
+{tool_links(B, path, p)}
+<p class="checked">{HI_DISCLOSURE}</p>
+</article></div>
+{B.telegram_band(cfg, p)}"""
+        image = B.photo_og(cfg, h["photo"]) if h.get("photo") in B.PHOTOS else B.abs_url(cfg, "assets/logo.png")
+        seo = h.get("seo_title", h["title"])
+        article = {"@context": "https://schema.org", "@type": "Article", "headline": nfc(seo), "description": nfc(h["description"]),
+                   "datePublished": h["date"], "dateModified": h["updated"], "inLanguage": "hi-IN", "image": image,
+                   "mainEntityOfPage": B.abs_url(cfg, path), "author": B.org_schema(cfg), "publisher": B.org_schema(cfg)}
+        schema = [article, B.crumbs_schema(cfg, [("होम", ""), ("Guides", "guides/index.html"), (guide_short(h), path)])]
+        faq = B.md_faq(h["body"].replace("## सवाल-जवाब", "## Questions"))
+        if faq:
+            schema.append({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+                {"@type": "Question", "name": nfc(q), "acceptedAnswer": {"@type": "Answer", "text": nfc(ans)}} for q, ans in faq]})
+        pages.append(B.write(path, B.page(cfg, nfc(seo), nfc(h["description"]), nfc(body), 2, path, schema,
+                                          og_type="article", photo=h.get("photo"), lang="hi")))
+        lastmod[path] = h["updated"]
+
+
+# ---------- cabin bag checker (twin of baggage/checker.html, same airline data) ----------
+
+CHECKER_PATH = "hi/cabin-bag-checker.html"
+CHECKER_DATE = "2026-11-16"  # when the Hindi checker was first published
+CHECKER_WORDS = {"total": "आपका बैग: कुल {total} cm (लंबाई + चौड़ाई + ऊँचाई)", "size": "साइज लिखें", "weight": "वज़न लिखें",
+                 "none": "सीमा नहीं बताई", "fits": "फिट", "over": "{n} cm ज़्यादा", "big": "बहुत बड़ा",
+                 "side": "एक साइड {n} cm ज़्यादा", "sum": "कुल {total} cm, यानी {over} cm ज़्यादा", "ok": "ठीक",
+                 "spare": "{n} kg बाक़ी", "heavy": "बहुत भारी", "kgOver": "{n} kg ज़्यादा"}
+VARIANTS_HI = {"Q400 planes": "Q400 विमान"}
+
+
+def hi_join(names):
+    return names[0] if len(names) == 1 else ", ".join(names[:-1]) + " और " + names[-1]
+
+
+def hi_limit(B, c):
+    parts = []
+    if c.get("dims_cm"):
+        parts.append(" x ".join(B.num(x) for x in c["dims_cm"]) + " cm")
+    if c.get("total_cm"):
+        parts.append("कुल %s cm" % B.num(c["total_cm"]))
+    if c.get("kg"):
+        parts.append("%s kg" % B.num(c["kg"]))
+    return " · ".join(parts)
+
+
+def build_checker(B, cfg, deals, airlines, intl, pages, lastmod):
+    path, p = CHECKER_PATH, "../"
+    num = B.num
+    indian = airlines["airlines"]
+    checked = airlines["checked"]
+    rows_for_checker = []  # the same rows as the English checker (build.build_baggage)
+    for a in indian + [x for x in (intl or {}).get("airlines", []) if x.get("checker", True)]:
+        rows_for_checker.append((a["slug"], a["name"], a["slug"], a["cabin"]))
+        for i, v in enumerate(a["cabin"].get("variants", []), 1):
+            if v["label"] not in VARIANTS_HI:
+                warn("checker variant %r has no Hindi name in VARIANTS_HI" % v["label"])
+            rows_for_checker.append(("%s-%d" % (a["slug"], i), "%s (%s)" % (a["name"], VARIANTS_HI.get(v["label"], v["label"])), a["slug"],
+                                     dict(a["cabin"], dims_cm=v.get("dims_cm"), total_cm=v.get("total_cm"))))
+    picks = B.cabin_picks(deals)
+    js = {"airlines": [{"slug": key, "name": name, "kg": c.get("kg"), "dims": c.get("dims_cm"), "total": c.get("total_cm"),
+                        "either": bool(c.get("either"))} for key, name, page_slug, c in rows_for_checker],
+          "picks": [{"asin": d["asin"], "title": d["title"], "dims": dims, "kg": kg} for d, dims, kg in picks], "t": CHECKER_WORDS}
+    js_json = json.dumps(js, ensure_ascii=False).replace("</", "<\\/")
+    options = "".join('<option value="%d">%s</option>' % (i, e(d["title"])) for i, (d, dims, kg) in enumerate(picks))
+    result_rows = "".join(f'<tr data-slug="{key}"><th scope="row"><a href="../baggage/{page_slug}.html" lang="en">{e(name)}</a>'
+                          f'<span class="why">{e(hi_limit(B, c))}</span></th>'
+                          f'<td class="r-size"><span class="fit fit-na">{CHECKER_WORDS["size"]}</span></td>'
+                          f'<td class="r-kg"><span class="fit fit-na">{CHECKER_WORDS["weight"]}</span></td></tr>'
+                          for key, name, page_slug, c in rows_for_checker)
+
+    # Picks: the same rows as the English checker, in Hindi
+    size = lambda dims: " x ".join(num(x) for x in sorted(dims, reverse=True))
+    trolleys = []
+    for d, dims, kg in picks:
+        names = [a["name"] for a in indian if B.size_fit(dims, a["cabin"])[0]]
+        if d["category"] == "luggage" and names:
+            trolleys.append((len(names), d, "%s के लिए केबिन ट्रॉली" % hi_join(names),
+                             "लिस्टिंग में साइज %s cm%s।" % (size(dims), (", ख़ाली बैग %g kg का" % kg) if kg is not None else "")))
+    pick_rows = [r[1:] for r in sorted(trolleys, key=lambda r: -r[0])]
+    n = len(indian)
+    for d, label, why in B.airline_top_rows("all %d airlines" % n, [a["cabin"] for a in indian], picks):
+        if label == "Most room in a backpack":
+            dims = next(x[1] for x in picks if x[0]["asin"] == d["asin"])
+            pick_rows.append((d, "सभी %d एयरलाइनों में फिट बैकपैक" % n,
+                              "%s लीटर। लिस्टिंग के साइज (%s cm) के हिसाब से सभी %d एयरलाइनों में फिट होने वाले हमारे बैकपैक में सबसे बड़ा।"
+                              % (num(B.litres(d)), size(dims), n)))
+    picks_html = B.top_picks(cfg, pick_rows, p, "बैग बड़ा है? ये अपने लिस्टेड साइज से फिट हैं",
+                             '<a href="../baggage/index.html#our-picks-fit" lang="en">हमारी सभी पिक्स हर एयरलाइन से मिलाकर देखें (English)</a>')
+
+    # Quick answer and questions, from the same airline data
+    groups = {}
+    for a in indian:
+        if a["cabin"].get("dims_cm"):
+            groups.setdefault(" x ".join(num(x) for x in a["cabin"]["dims_cm"]), []).append(a["name"])
+    sizes_text = "; ".join("%s: %s cm" % (hi_join(names), dims) for dims, names in groups.items())
+    totals = {a["cabin"].get("total_cm") for a in indian}
+    kgs = {a["cabin"].get("kg") for a in indian}
+    same = []
+    if len(totals) == 1 and None not in totals:
+        same.append("कुल साइज (लंबाई + चौड़ाई + ऊँचाई) %s cm तक" % num(totals.pop()))
+    if len(kgs) == 1 and None not in kgs:
+        same.append("वज़न %s kg तक" % num(kgs.pop()))
+    same_text = (" सभी %d एयरलाइनों में %s।" % (n, " और ".join(same))) if same else ""
+    answer = ('<div class="answer"><h2>केबिन बैग का साइज कितना होता है?</h2>'
+              f'<p>भारत की {n} बड़ी एयरलाइनों में घरेलू इकॉनमी की केबिन बैग सीमा: {e(sizes_text)}।{e(same_text)}</p>'
+              '<p class="checked">यह सबसे बड़ी साइड से सबसे छोटी तक है, पहियों और हैंडल समेत। हर एयरलाइन के पूरे नियम हमारे '
+              '<a href="flight-baggage-rules.html">फ्लाइट बैगेज नियम</a> पेज पर हैं।</p></div>')
+    by_slug = {a["slug"]: a for a in indian}
+    faq = [("केबिन बैग का साइज कितना होता है?",
+            "भारत की बड़ी एयरलाइनों में घरेलू इकॉनमी के लिए: %s।%s" % (sizes_text, same_text))]
+    ind, ai = by_slug.get("indigo"), by_slug.get("air-india")
+    if ind and ai and ind["cabin"].get("dims_cm") and ai["cabin"].get("dims_cm"):
+        di, da = ind["cabin"]["dims_cm"], ai["cabin"]["dims_cm"]
+        faq.append(("क्या 55 cm का ट्रॉली बैग केबिन में चलेगा?",
+                    f"55 cm आमतौर पर बैग की सिर्फ़ ऊँचाई होती है। चौड़ाई और गहराई भी सीमा में होनी चाहिए: IndiGo में {num(di[1])} और "
+                    f"{num(di[2])} cm तक, Air India में {num(da[1])} और {num(da[2])} cm तक। अपने बैग की तीनों साइड ऊपर चेकर में लिखें।"))
+    faq.append(("केबिन बैग का साइज कैसे नापें?",
+                "बैग सीधा खड़ा करें और खींचने वाला हैंडल अंदर कर दें। पहियों के नीचे से सबसे ऊपर तक ऊँचाई नापें, फिर चौड़ाई और गहराई, "
+                "जेबों और हैंडल समेत। एयरलाइन पूरा बैग नापती है, सिर्फ़ उसका खोल नहीं।"))
+    faq_block, faq_schema = faq_html(B, faq)
+
+    title = "केबिन बैग साइज चेकर: मेरा बैग फ्लाइट में फिट होगा?"
+    seo = "केबिन बैग साइज चेकर: IndiGo, Air India, Akasa, SpiceJet में बैग फिट होगा?"
+    desc = ("अपने बैग की लंबाई, चौड़ाई, ऊँचाई और वज़न लिखें और देखें कि वह भारत की बड़ी एयरलाइनों की केबिन बैगेज सीमा में आता है या नहीं"
+            + (", साथ में Emirates, Qatar Airways, Saudia, Singapore Airlines और दूसरी विदेशी एयरलाइनें।" if (intl or {}).get("airlines") else "।"))
+    measure = B.diagram_figure("measure-bag", p) if "measure-bag" in B.DIAGRAMS else ""
+    body = f"""{head(B, [("flight-baggage-rules.html", "बैगेज नियम"), (None, "केबिन बैग चेकर")], title,
+                "एयरलाइन की सीमा %s को जाँची गई · इकॉनमी" % B.hi_date(checked), "luggage", B.icon("ruler", "icon media-icon"), p,
+                "Cabin bag ka size kitna hota hai? Apne bag ka size likhiye aur har airline ki limit se milaiye.")}
+<div class="wrap"><article class="guide">
+<p class="lead">अपने बैग की लंबाई, चौड़ाई, ऊँचाई और पैक करने के बाद का वज़न लिखें। हर एयरलाइन के सामने दिखेगा कि बैग उसकी केबिन सीमा में आता है या नहीं।</p>
+<form class="checker" id="bag-checker" onsubmit="return false">
+  <label>हमारी किसी पिक से भरें (ज़रूरी नहीं)
+    <select id="bc-pick"><option value="">बैग चुनें…</option>{options}</select>
+  </label>
+  <div class="checker-fields">
+    <label>लंबाई (cm)<input id="bc-l" type="number" inputmode="decimal" min="0" step="0.5" placeholder="55"></label>
+    <label>चौड़ाई (cm)<input id="bc-w" type="number" inputmode="decimal" min="0" step="0.5" placeholder="35"></label>
+    <label>ऊँचाई (cm)<input id="bc-h" type="number" inputmode="decimal" min="0" step="0.5" placeholder="25"></label>
+    <label>पैक बैग का वज़न (kg)<input id="bc-kg" type="number" inputmode="decimal" min="0" step="0.1" placeholder="7"></label>
+  </div>
+  <p class="checker-total" id="bc-total" aria-live="polite"></p>
+  <p class="hint">पूरा बैग नापें, पहियों और हैंडल समेत। लिखते ही नतीजे बदलते हैं।</p>
+</form>
+<noscript><p>यह चेकर JavaScript से चलता है। आप हमारे <a href="flight-baggage-rules.html">फ्लाइट बैगेज नियम</a> पेज पर भी सीमाएँ मिला सकते हैं।</p></noscript>
+<div class="table-wrap"><table class="result-table" id="bc-results"><thead><tr><th>एयरलाइन</th><th>साइज</th><th>वज़न</th></tr></thead><tbody>{result_rows}</tbody></table></div>
+<p class="checked">नियम अक्सर बदलते हैं और आपके किराए, रूट और विमान पर निर्भर कर सकते हैं। उड़ान से पहले अपना टिकट और एयरलाइन की आधिकारिक वेबसाइट ज़रूर देखें।</p>
+{answer}
+{picks_html}
+<h2>बैग का साइज कैसे नापें</h2>
+{measure}
+<ul>
+<li><strong>ऊँचाई:</strong> ज़मीन से, यानी पहियों के नीचे से, बैग के सबसे ऊपर तक। ऊपर वाला हैंडल भी गिनें।</li>
+<li><strong>चौड़ाई:</strong> एक तरफ़ से दूसरी तरफ़ तक, साइड वाले हैंडल समेत।</li>
+<li><strong>गहराई:</strong> आगे से पीछे तक, आगे की जेब और पीछे के पहियों समेत।</li>
+</ul>
+<h2>यह चेकर कैसे काम करता है</h2>
+<ul>
+<li>हम आपके बैग की सबसे लंबी साइड को एयरलाइन की सबसे लंबी अनुमत साइड से मिलाते हैं, फिर बाक़ी दोनों को, क्योंकि बैग को घुमाकर भी रखा जा सकता है।</li>
+<li>जब एयरलाइन कुल साइज (लंबाई + चौड़ाई + ऊँचाई) बताती है, तो हम आपकी तीनों साइड जोड़ते हैं।</li>
+<li>ये इकॉनमी की आम सीमाएँ हैं: भारतीय एयरलाइनों के लिए घरेलू उड़ानें, और विदेशी एयरलाइनों के लिए भारत के रूट। आपका किराया, रूट या विमान इन्हें बदल सकता है।</li>
+</ul>
+<p>हर एयरलाइन के पूरे नियम हमारे <a href="flight-baggage-rules.html">फ्लाइट बैगेज नियम</a> पेज पर देखें, ट्रॉली का साइज इंच और cm में <a href="trolley-bag-size-chart.html">ट्रॉली बैग साइज चार्ट</a> में, और 7 kg से भारी बैग का चार्ज <a href="extra-baggage-charges.html">एक्स्ट्रा बैगेज चार्ज</a> पेज पर। ट्रॉली चुननी है? पढ़ें <a href="../guides/cabin-luggage-guide.html" lang="en">how to pick a cabin trolley (English)</a>।</p>
+{faq_block}
+{tool_links(B, path, p)}
+<p class="checked">{HI_DISCLOSURE}</p>
+</article></div>
+<script type="application/json" id="bc-data">{js_json}</script>
+<script src="../assets/checker.js" defer></script>
+{B.telegram_band(cfg, p)}"""
+    finish(B, cfg, pages, lastmod, path, seo, desc, body, 1,
+           [("होम", ""), ("बैगेज नियम", "hi/flight-baggage-rules.html"), ("केबिन बैग चेकर", path)],
+           CHECKER_DATE, max(CHECKER_DATE, checked), faq_schema)

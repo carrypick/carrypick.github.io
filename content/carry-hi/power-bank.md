@@ -8,7 +8,7 @@ checked_against: IndiGo, Air India और Akasa Air के नियमों
 cabin_short: Akasa Air और Air India पर 100 Wh या कम के 2 पावर बैंक तक। इसे अपने पास रखें, ओवरहेड बिन में नहीं, और विमान में इसे इस्तेमाल न करें।
 checked_short: IndiGo, Air India और Akasa Air, तीनों चेक-इन बैग में पावर बैंक मना करते हैं, बंद (स्विच ऑफ़) हो तब भी।
 rechecked: 2026-11-10
-related: hi/flight-baggage-rules.html=फ्लाइट में कितना सामान ले जा सकते हैं | hi/can-i-carry.html=फ्लाइट में क्या ले जा सकते हैं: पूरी लिस्ट | baggage/checker.html=Cabin bag checker (English) | guides/cabin-luggage-guide.html=Cabin bag rules (English)
+related: hi/flight-baggage-rules.html=फ्लाइट में कितना सामान ले जा सकते हैं | hi/can-i-carry.html=फ्लाइट में क्या ले जा सकते हैं: पूरी लिस्ट | hi/cabin-bag-checker.html=केबिन बैग चेकर | guides/cabin-luggage-guide.html=Cabin bag rules (English)
 ---
 ## अपने पावर बैंक पर Wh कैसे पढ़ें
 

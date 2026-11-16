@@ -8,7 +8,7 @@ checked_against: Air India, IndiGo और एयरपोर्ट सुरक�
 cabin_short: सिर्फ़ 100 ml या कम के डिब्बों में, सब एक पारदर्शी, दोबारा बंद होने वाले 1 लीटर के बैग के अंदर। इससे बड़ी बोतल नहीं चलेगी, आधी ख़ाली हो तब भी।
 checked_short: हाँ। बड़ी बोतलें चेक-इन में रखें। टॉयलेटरी स्प्रे: हर कैन 500 ml तक और कुल 2 लीटर।
 rechecked: 2026-11-15
-related: hi/flight-baggage-rules.html=फ्लाइट में कितना सामान ले जा सकते हैं | hi/can-i-carry.html=फ्लाइट में क्या ले जा सकते हैं: पूरी लिस्ट | guides/cabin-luggage-guide.html=Cabin bag rules (English) | baggage/checker.html=Cabin bag checker (English)
+related: hi/flight-baggage-rules.html=फ्लाइट में कितना सामान ले जा सकते हैं | hi/can-i-carry.html=फ्लाइट में क्या ले जा सकते हैं: पूरी लिस्ट | guides/cabin-luggage-guide.html=Cabin bag rules (English) | hi/cabin-bag-checker.html=केबिन बैग चेकर
 ---
 ## 100 ml नियम छोटे में
 

@@ -927,12 +927,14 @@ def build_trips_hi(cfg, trips_hi, deals_by_asin, pages, lastmod):
                                                                   for k, v in glance))) if glance else ""
         inner = f"""<nav class="crumbs"><a href="{p}index.html">होम</a><span>/</span><a href="{p}trips/index.html">Trip guides</a><span>/</span>{e(t.get("place", t["title"]))}</nav>
       <h1>{e(t['title'])}</h1>
-      <p class="muted small">{hi_date(t['updated'])} को अपडेट किया गया</p>"""
+      <p class="muted small">{hi_date(t['updated'])} को अपडेट किया गया</p>{hindi_pages.hinglish_line(t)}"""
         art = f'<div class="media media-tile tint-travel-gear">{icon("pin", "icon media-icon")}</div>'
+        hindi_pages.check_twin(sys.modules[__name__], t, TRIPS_DIR, "content/trips-hi/%s.md" % t["slug"])
         body = f"""{page_head("travel-gear", art, inner, p, t.get("photo"))}
 <div class="wrap"><article class="guide">
 {glance_html}
 {content}
+{hindi_pages.tool_links(sys.modules[__name__], path, p)}
 <p class="checked">हम Amazon Associate हैं और योग्य ख़रीदारी पर कमीशन कमाते हैं। आपके लिए क़ीमत वही रहती है।</p>
 </article></div>
 {telegram_band(cfg, p)}"""

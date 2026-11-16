@@ -8,7 +8,7 @@ checked_against: IndiGo, Air India, Akasa Air और एयरपोर्ट �
 cabin_short: हाँ। IndiGo की लिस्ट केबिन बैग में सिगरेट ले जाने देती है। विमान में सिगरेट नहीं पी सकते और लाइटर नहीं ले जा सकते।
 checked_short: हाँ, IndiGo की लिस्ट चेक-इन में भी सिगरेट ले जाने देती है। लाइटर और ई-सिगरेट दोनों बैग में मना हैं।
 rechecked: 2026-11-15
-related: hi/flight-baggage-rules.html=फ्लाइट में कितना सामान ले जा सकते हैं | hi/can-i-carry.html=फ्लाइट में क्या ले जा सकते हैं: पूरी लिस्ट | guides/cabin-luggage-guide.html=Cabin bag rules (English) | baggage/checker.html=Cabin bag checker (English)
+related: hi/flight-baggage-rules.html=फ्लाइट में कितना सामान ले जा सकते हैं | hi/can-i-carry.html=फ्लाइट में क्या ले जा सकते हैं: पूरी लिस्ट | guides/cabin-luggage-guide.html=Cabin bag rules (English) | hi/cabin-bag-checker.html=केबिन बैग चेकर
 ---
 ## एक नज़र में
 
