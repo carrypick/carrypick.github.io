@@ -218,6 +218,20 @@
       "credit": "Aron Visuals",
       "profile": "https://unsplash.com/@aronvisuals",
       "alt": "A multi-tiered temple reflected in a calm lake in Bali"
+    },
+    "darjeeling-toy-train": {
+      "unsplash": "9X_jbcXDCjA",
+      "image": "1754737524646-d5159e91cbe7",
+      "credit": "Atharva Dixit",
+      "profile": "https://unsplash.com/@atharvad_jpeg",
+      "alt": "A blue toy train engine of the Darjeeling Himalayan Railway passing tall hillside buildings in Darjeeling"
+    },
+    "andaman-havelock": {
+      "unsplash": "Ut51vu0lUl0",
+      "image": "1723203606060-b0390c387a81",
+      "credit": "Jayanth Muppaneni",
+      "profile": "https://unsplash.com/@jay_5",
+      "alt": "A white sand beach on Swaraj Dweep (Havelock) with turquoise water and green forest, and two people walking at the water's edge"
     }
   }
 }

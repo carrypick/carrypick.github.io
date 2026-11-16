@@ -590,6 +590,17 @@ PINS = [
          description="Udaipur in December is about 26 °C by day and 8 °C at night, with almost no rain. A simple 2-day plan for City Palace, Lake Pichola boats, Bagore ki Haveli and Fateh Sagar, a third day for Kumbhalgarh and Ranakpur, the Shilpgram Utsav and what to wear.",
          alt="City Palace in Udaipur seen from Lake Pichola, with the words Udaipur trip plan.",
          html=photo("udaipur-city-palace", "Udaipur trip plan", "2 or 3 days in winter: palaces, lake boats, Shilpgram and day trips")),
+    # 16 Nov 2026 (2 PM job): Andaman and Darjeeling winter guides.
+    dict(slug="andaman-december", board="India Trip Ideas", link="trips/andaman-in-december.html",
+         title="Andaman in December: weather, ferries, permits and what to pack",
+         description="Andaman in December is warm, with days about 30–31 °C and nights about 24–26 °C, and some rain. Ferries to Havelock (Swaraj Dweep) and Neil (Shaheed Dweep), Jolly Buoy from mid-November, permits, coral and beach rules, the Island Tourism Festival (27–31 Dec 2026) and what to pack.",
+         alt="A white sand beach on Havelock with turquoise water, with the words Andaman in December.",
+         html=photo("andaman-havelock", "Andaman in December", "Weather, ferries to Havelock and Neil, permits and what to pack")),
+    dict(slug="darjeeling-december", board="India Trip Ideas", link="trips/darjeeling-in-december.html",
+         title="Darjeeling in December: weather, snow chances, toy train and what to wear",
+         description="Darjeeling in December is about 14 °C by day and 4 °C at night (IMD averages), and very dry, with clear views of Kanchenjunga. Snow in town is rare; Sandakphu gets it most winters. Tiger Hill sunrise and its vehicle pass, toy train joy rides and what to wear.",
+         alt="A blue Darjeeling toy train engine between hillside buildings, with the words Darjeeling in December.",
+         html=photo("darjeeling-toy-train", "Darjeeling in December", "Snow chances, Tiger Hill, the toy train and what to wear")),
     # 16 Nov 2026: packing lists for trips abroad from India, and the UAE customs page.
     dict(slug="thailand-packing", board="Packing and What to Wear", link="guides/thailand-packing-list.html",
          title="Thailand packing list from India: what to pack and wear",

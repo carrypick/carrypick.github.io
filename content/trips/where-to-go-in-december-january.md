@@ -1,25 +1,27 @@
 ---
 seo_title: Where to go in India in December and January 2026–27: beach, snow or heritage?
 title: Where to go in India in December and January
-description: Beach, snow, forts or backwaters? Compare Goa, Manali, Shimla, Rishikesh, Jaipur, Udaipur and Kerala for a Christmas or New Year trip: weather, how to get there, crowds and what to pack.
+description: Beach, snow, forts or backwaters? Compare Goa, Andaman, Manali, Shimla, Rishikesh, Darjeeling, Jaipur, Udaipur and Kerala for a Christmas or New Year trip: weather, how to get there, crowds and what to pack.
 date: 2026-11-03
 updated: 2026-11-16
 place: India in winter
 best: Dec–Jan
 photo: traveller-sunset
 priority: 1
-glance: For beaches and parties=[Goa](goa.html) | For snow=[Manali](manali.html) or [Shimla](shimla-in-december.html) (snow isn't guaranteed) | For the Ganga, yoga and rafting=[Rishikesh](rishikesh-in-december.html) | For forts and palaces=[Jaipur](jaipur.html) or [Udaipur](udaipur.html) | For backwaters and hills=[Kerala](kerala.html) | Book=As early as you can: Christmas to New Year is peak season everywhere
+glance: For beaches and parties=[Goa](goa.html) | For clear sea and coral=[Andaman](andaman-in-december.html) | For snow=[Manali](manali.html) or [Shimla](shimla-in-december.html) (snow isn't guaranteed) | For mountain views=[Darjeeling](darjeeling-in-december.html) | For the Ganga, yoga and rafting=[Rishikesh](rishikesh-in-december.html) | For forts and palaces=[Jaipur](jaipur.html) or [Udaipur](udaipur.html) | For backwaters and hills=[Kerala](kerala.html) | Book=As early as you can: Christmas to New Year is peak season everywhere
 ---
-December and January are the best months for most of India: the monsoon is long over, the skies are clear, and it's cool almost everywhere except the far south. They are also the busiest months, so it pays to choose well and book early. Here's how seven of India's favourite winter trips compare.
+December and January are the best months for most of India: the monsoon is long over, the skies are clear, and it's cool almost everywhere except the far south. They are also the busiest months, so it pays to choose well and book early. Here's how nine of India's favourite winter trips compare.
 
 ## Quick comparison
 
 | Trip | Best for | Weather in Dec–Jan | Fly to | Crowds |
 |---|---|---|---|---|
 | [Goa](goa.html) | Beaches, nightlife, churches | Warm: about 20–33 °C, almost no rain | Mopa (GOX) or Dabolim (GOI) | Very busy at New Year |
+| [Andaman](andaman-in-december.html) | Clear sea, coral, quiet beaches | Warm: days about 30–31 °C, nights about 24–26 °C; some rain in December | Sri Vijaya Puram (IXZ), then ferries | Very busy from Christmas to New Year |
 | [Manali](manali.html) | Snow, mountains, adventure | Freezing nights; can fall below −5 °C | Chandigarh, then drive; small airport at Bhuntar | Very busy, with traffic jams after snow |
 | [Shimla](shimla-in-december.html) | An easy hill trip, the toy train, snow nearby | Days about 9–12 °C, nights about 2–4 °C | Chandigarh, then drive or take the toy train from Kalka | Very busy at Christmas, New Year and after snow |
 | [Rishikesh](rishikesh-in-december.html) | Ganga aarti, yoga, rafting | Sunny days about 20–22 °C, nights about 7–8 °C | Dehradun (DED), or a train to Haridwar | Busy at New Year, and very crowded around the Kumbh bath on 14 January |
+| [Darjeeling](darjeeling-in-december.html) | Mountain views, the toy train, tea gardens | Clear and dry: days about 11–14 °C, nights about 2–4 °C | Bagdogra (IXB), or a train to New Jalpaiguri (NJP) | Busy from Christmas to New Year |
 | [Jaipur](jaipur.html) | Forts, palaces, markets | Sunny days about 22–24 °C, cold nights about 8–9 °C | Jaipur (JAI) | Busy, especially 25 Dec to 1 Jan |
 | [Udaipur](udaipur.html) | Lakes, palaces, a crafts fair | Sunny days about 25–26 °C, cold nights about 7–8 °C | Udaipur (UDR) | Busy from Christmas to New Year, and during the Shilpgram Utsav (usually 21–30 Dec) |
 | [Kerala](kerala.html) | Backwaters, tea hills, quiet beaches | Coast about 21–34 °C; Munnar nights 2–9 °C | Kochi (COK) or Thiruvananthapuram (TRV) | Busy, with huge crowds at Fort Kochi on New Year's Eve |
@@ -29,6 +31,12 @@ December and January are the best months for most of India: the monsoon is long 
 Goa is warm, dry and sunny in winter, and New Year's Eve is its biggest night. Fly into Mopa for North Goa's busy beaches, or Dabolim for central and South Goa. Remember the rules that bring big fines: no drinking or cooking on the beach, helmets on scooters, and loudspeakers only until midnight from 24 to 31 December.
 
 Read the full [Goa trip guide](goa.html) and our [Goa packing list](../guides/goa-packing-list.html).
+
+## Andaman: for clear sea and coral
+
+Andaman is warm in winter, with calm seas on most days, though December can still bring showers. Fly to Sri Vijaya Puram (Port Blair), then take a ferry to Swaraj Dweep (Havelock) for Radhanagar Beach, or to Shaheed Dweep (Neil). Jolly Buoy's coral reef opens from mid-November. Leave a spare day in case ferries are cancelled.
+
+Read the full [Andaman in December and January guide](andaman-in-december.html).
 
 ## Manali: for snow and mountains
 
@@ -47,6 +55,12 @@ Read the full [Shimla in December and January guide](shimla-in-december.html).
 Rishikesh has sunny days and cold nights in winter, and no snow. Rafting is open, and the evening Ganga aarti at Triveni Ghat and Parmarth Niketan starts around sunset. This winter, Ram Jhula and Lakshman Jhula are closed, so you cross on Bajrang Setu or Janki Setu. The Haridwar Ardh Kumbh starts on 14 January 2027, so expect crowds in mid-January.
 
 Read the full [Rishikesh in December and January guide](rishikesh-in-december.html).
+
+## Darjeeling: for mountain views and the toy train
+
+Darjeeling is cold, dry and clear in winter, and December mornings often give the best views of Kanchenjunga, from Tiger Hill at sunrise or from the Mall. Snow in the town itself is rare. Ride the toy train between Darjeeling and Ghum, past the Batasia Loop, and walk a tea garden.
+
+Read the full [Darjeeling in December and January guide](darjeeling-in-december.html).
 
 ## Jaipur: for forts, palaces and markets
 
