@@ -1,5 +1,63 @@
 [
   {
+    "asin": "B0DDTWN7DP",
+    "added_at": "2026-11-16T09:10:20+05:30",
+    "title": "Mokobara Transit 64 cm Medium Check-in Trolley, 65 L",
+    "category": "luggage",
+    "highlights": [
+      "65 litres, for 7-14 day trips",
+      "Makrolon polycarbonate hard shell",
+      "8 Hinomoto spinner wheels",
+      "One-push TSA lock and YKK zips"
+    ],
+    "note": "The check-in size of Mokobara's well-rated Transit, with a tough shell, TSA lock and a 3-year warranty.",
+    "brand": "Mokobara",
+    "colour": "Black Sunray",
+    "best_for": [
+      "1-2 week trips",
+      "Check-in bag"
+    ],
+    "specs": {
+      "Size": "64 x 43.5 x 26.5 cm (134 cm total)",
+      "Capacity": "65 L",
+      "Weight": "4.06 kg",
+      "Shell": "Hard, polycarbonate",
+      "Lock": "TSA lock",
+      "Warranty": "3 years"
+    },
+    "skip_if": "you fly on a 15 kg fare and want a light bag: it weighs 4.06 kg empty.",
+    "deal_seen_at": "2026-11-16T09:09:00+05:30"
+  },
+  {
+    "asin": "B0GNSQ1ZZL",
+    "added_at": "2026-11-16T09:10:20+05:30",
+    "title": "Kamiliant by American Tourister Rock-Lite 55 cm Cabin Trolley",
+    "category": "luggage",
+    "highlights": [
+      "35 litres, cabin size (55 cm)",
+      "Light hard shell, 2.03 kg",
+      "8 spinner wheels",
+      "3-digit combination lock"
+    ],
+    "note": "The cabin size of the light Rock-Lite, made by Samsonite in India, for weekend trips.",
+    "brand": "Kamiliant",
+    "colour": "Deep Ocean",
+    "best_for": [
+      "Short trips",
+      "Cabin bag"
+    ],
+    "specs": {
+      "Size": "37 x 25 x 55 cm (117 cm total)",
+      "Capacity": "35 L",
+      "Weight": "2.03 kg",
+      "Shell": "Hard, polypropylene",
+      "Lock": "3-digit combination",
+      "Warranty": "Not listed"
+    },
+    "skip_if": "your airline checks cabin bags strictly: at 37 x 25 x 55 cm it adds up to 117 cm, over IndiGo's 115 cm total and 35 cm width limit.",
+    "deal_seen_at": "2026-11-16T09:08:00+05:30"
+  },
+  {
     "asin": "B0BHC41KYN",
     "added_at": "2026-11-15T22:15:44+05:30",
     "title": "Spigen Vegan Leather RFID Passport Holder",
@@ -371,7 +429,7 @@
       "Warranty": "Not listed"
     },
     "skip_if": "you want a small daily bag for college: at 45 litres it is large and bulky.",
-    "deal_seen_at": "2026-11-14T09:08:00+05:30"
+    "deal_seen_at": "2026-11-16T09:09:00+05:30"
   },
   {
     "asin": "B014MN9RCM",
@@ -1069,7 +1127,8 @@
       "Lock": "3-digit combination",
       "Warranty": "Not listed"
     },
-    "skip_if": "you want a stated warranty: the listing we read doesn't give one."
+    "skip_if": "you want a stated warranty: the listing we read doesn't give one.",
+    "deal_seen_at": "2026-11-16T09:09:00+05:30"
   },
   {
     "asin": "B0F5HNW8D1",
@@ -2474,7 +2533,7 @@
       "Warranty": "3 years"
     },
     "skip_if": "you only fly within India. A polypropylene bag like the Pentagon Pro is enough.",
-    "deal_seen_at": "2026-11-15T09:10:00+05:30"
+    "deal_seen_at": "2026-11-16T09:09:00+05:30"
   },
   {
     "asin": "B099WNYHY2",
