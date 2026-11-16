@@ -25,7 +25,7 @@ January 2027 is only a guess based on last year. Dates and offers can change.
 ## Should you wait for the sale?
 
 - **Travelling before mid-January?** Don't wait. A bag that arrives after your trip is no use. See our [New Year trip guide](../trips/where-to-go-in-december-january.html).
-- **Buying for a Republic Day trip?** Remember that delivery takes time. See our [Republic Day long weekend ideas](../trips/republic-day-long-weekend-2027.html).
+- **Buying for a Republic Day trip?** Remember that delivery takes time. See our [Republic Day long weekend ideas](../trips/republic-day-long-weekend-2027.html). Going to the parade? Bags aren't allowed in, so read our [parade tickets guide](../trips/republic-day-parade-tickets-2027.html) first.
 - **No trip soon?** You can wait, and use the time to choose your size now.
 
 ## Before the sale: choose your size

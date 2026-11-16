@@ -3,11 +3,12 @@ seo_title: Republic Day long weekend 2027: 4-day trip ideas and parade tickets
 title: Republic Day long weekend 2027: where to go, and how to see the parade
 description: 26 January 2027 is a Tuesday, so one day off gives you 4 days. Compare Jaipur, Manali, Goa and Kerala, and see how Republic Day parade tickets work.
 date: 2026-11-06
+updated: 2026-11-16
 place: Republic Day weekend
 best: 23–26 Jan 2027
 hub_title: no
 photo: jaipur-hawa-mahal
-glance: Dates=Saturday 23 to Tuesday 26 January 2027, with one day off on Monday 25 | For forts and palaces=[Jaipur](jaipur.html) | For snow=[Manali](manali.html) (snow isn't guaranteed) | For a warm beach=[Goa](goa.html) | For backwaters and tea hills=[Kerala](kerala.html) | For the parade=New Delhi, tickets on the Aamantran site | Book trains=From about 24 November for a 23 January journey
+glance: Dates=Saturday 23 to Tuesday 26 January 2027, with one day off on Monday 25 | For forts and palaces=[Jaipur](jaipur.html) | For snow=[Manali](manali.html) (snow isn't guaranteed) | For a warm beach=[Goa](goa.html) | For backwaters and tea hills=[Kerala](kerala.html) | For the parade=New Delhi. See [how parade tickets work](republic-day-parade-tickets-2027.html) | Book trains=From about 24 November for a 23 January journey
 ---
 Republic Day 2027 falls on a **Tuesday**. Take Monday 25 January off, and you get four days: Saturday to Tuesday. It's a good winter break, but many people will have the same idea, so plan early.
 
@@ -41,7 +42,7 @@ The Republic Day parade takes place on Kartavya Path on 26 January. The 2027 tic
 | Beating Retreat rehearsal, 28 January | ₹20 |
 | Beating Retreat, 29 January | ₹100 |
 
-News reports said you needed to register with a mobile number and a government photo ID. Each day's quota can run out, so try early. Check Delhi Police's traffic advice before you set out, as many roads close for the parade.
+You need an original government photo ID. Each day's quota can run out, so try early. For the booking steps, the counters, gate times and the long list of things you can't take in, see our [Republic Day parade tickets guide](republic-day-parade-tickets-2027.html). Check Delhi Police's traffic advice before you set out, as many roads close for the parade.
 
 ## Book your travel early
 
@@ -90,7 +91,7 @@ Jaipur for forts, Goa for a warm beach, Kerala for backwaters and tea hills, or 
 
 ### How do I buy Republic Day parade tickets?
 
-In 2026, tickets were sold on the Aamantran website and at six booths in Delhi from 5 to 14 January. The 2027 details aren't out yet, so check the Defence Ministry's site in early January.
+In 2026, tickets were sold on the Aamantran website and at six booths in Delhi from 5 to 14 January. The 2027 details aren't out yet, so check the Defence Ministry's site from late December. Our [parade tickets guide](republic-day-parade-tickets-2027.html) has the full details.
 
 ### When does train booking open for Republic Day weekend?
 
