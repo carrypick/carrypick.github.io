@@ -157,7 +157,7 @@ Many people bring back cashews, Goan sweets, spices or feni. Check these rules b
 
 - **Dry coconut (copra) is banned** in both cabin and check-in bags, because it can catch fire.
 - **Spice powders** can't go in your cabin bag. Pack them in check-in.
-- **Feni and other alcohol** go only in check-in, up to 5 litres per person, sealed in shop packing. You can't take it to a dry state such as Gujarat or Bihar. See [can I carry alcohol on a flight?](../baggage/can-i-carry/alcohol.html)
+- **Feni and other alcohol** go only in check-in, up to 5 litres per person, in its shop packing. You can't take it to a dry state such as Gujarat or Bihar. See [can I carry alcohol on a flight?](../baggage/can-i-carry/alcohol.html)
 - **Sweets and home food:** see [can I carry sweets and home food?](../baggage/can-i-carry/sweets-and-home-food.html)
 
 For everything else, search our [can I carry it on a flight?](../baggage/can-i-carry.html) list.
@@ -186,7 +186,7 @@ Flip-flops for the beach, and one pair of sandals with straps or walking shoes f
 
 ### Can I bring cashews and feni back from Goa on a flight?
 
-Yes. Cashews are fine in either bag. Feni goes only in your check-in bag, up to 5 litres per person, in sealed shop packing, and not to dry states such as Gujarat or Bihar. Dry coconut is banned in all bags.
+Yes. Cashews are fine in either bag. Feni goes only in your check-in bag, up to 5 litres per person, in its shop packing, and not to dry states such as Gujarat or Bihar. Dry coconut is banned in all bags.
 
 ## Sources
 

@@ -621,7 +621,7 @@
      "item": "Alcohol (bought outside the airport)",
      "cabin": "no",
      "checked": "conditional",
-     "rule": "On domestic flights, pack it in check-in: up to 5 litres per person of drinks with 24–70% alcohol, in retail packaging (IndiGo, Air India, SpiceJet). Akasa Air also takes drinks of 24% or less in retail packaging. You can't drink it on board or take it to or from dry states such as Bihar and Gujarat.",
+     "rule": "On domestic flights, pack it in check-in: up to 5 litres per person of drinks with 24–70% alcohol, in its retail packaging (IndiGo, Air India, Akasa Air, SpiceJet, Air India Express). Rules for drinks of 24% or less differ by airline. You can't drink it on board or take it to or from dry states such as Bihar and Gujarat.",
      "source": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html",
      "also": [
       "liquor",
@@ -632,7 +632,7 @@
      ],
      "cabin_short": "Not alcohol from outside the airport. Alcohol you buy after security can go in the cabin, sealed in the shop's bag.",
      "checked_short": "Yes. Up to 5 litres per person of 24–70% alcohol, in its shop packing. Nothing over 70%.",
-     "rechecked": "2026-11-10"
+     "rechecked": "2026-11-16"
     },
     {
      "item": "Duty-free alcohol",
@@ -687,7 +687,7 @@
   },
   {
    "q": "Can I carry alcohol on a domestic flight?",
-   "a": "In check-in only, up to 5 litres per person of 24–70% alcohol in retail packaging (IndiGo, Air India, SpiceJet), and not to or from dry states. Sealed duty-free alcohol can go in the cabin."
+   "a": "In check-in only, up to 5 litres per person of 24–70% alcohol in retail packaging (IndiGo, Air India, Akasa Air, SpiceJet, Air India Express), and not to or from dry states. Sealed duty-free alcohol can go in the cabin."
   },
   {
    "q": "Can I carry medicines on a flight?",
