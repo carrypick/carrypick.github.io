@@ -631,6 +631,17 @@ PINS = [
                     + group("Temples", "Cover shoulders and knees. Many temples give or rent a sarong and sash.")
                     + group("Your bag", "IndiGo gives 20 kg to Bali on regular fares, and a 7 kg cabin bag.")
                     + '<p class="note">Weather: BMKG averages via WMO.</p>')),
+    # 16 Nov 2026: farewell gifts (all year, no feature date).
+    dict(slug="farewell-gifts", board="Gift Ideas", link="guides/farewell-gift-for-colleague.html",
+         title="Farewell gift ideas for a colleague, your boss or someone retiring",
+         description="Useful farewell gifts for a colleague: a wallet gift set for a male colleague, a zip-around wallet or a watch for a female colleague, a classic Titan for your boss, a passport holder for someone moving abroad, and a weekender bag for someone retiring. Plus how to choose a team gift.",
+         alt="Farewell gift ideas by who is leaving: a male colleague, a female colleague, your boss, someone moving abroad and someone retiring.",
+         html=chart("Farewell gifts", "Farewell gifts your colleague will use",
+                    group("For a male colleague", "A leather wallet, keychain and pen set that comes in a gift box.")
+                    + group("For a female colleague", "A zip-around wallet, or a Titan watch as a team gift.")
+                    + group("For your boss or a senior", "A classic watch or a slim laptop backpack.")
+                    + group("Moving abroad", "A passport holder, a luggage scale and packing cubes.")
+                    + group("Retiring", "A weekender bag for trips, or a couple watch set."))),
 ]
 
 
