@@ -1102,7 +1102,7 @@ def load_airlines(path=AIRLINES_FILE):
 
 # Where the international airlines fly from India, by their "region" field (hub lead and descriptions).
 INTL_REGIONS = [("Gulf", "the Gulf", "the Gulf (Dubai, Doha, Abu Dhabi, Sharjah, Jeddah, Muscat, Bahrain, Kuwait)"),
-                ("Asia", "Asia", "South-East Asia (Singapore, Bangkok, Kuala Lumpur, Vietnam)"),
+                ("Asia", "Asia", "South-East and East Asia (Singapore, Bangkok, Kuala Lumpur, Vietnam, Hong Kong)"),
                 ("Europe", "Europe", "Europe and the UK (London, Frankfurt, Munich, Istanbul)")]
 
 

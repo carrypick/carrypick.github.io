@@ -897,6 +897,78 @@
       ]
     },
     {
+      "slug": "cathay-pacific",
+      "name": "Cathay Pacific",
+      "scope": "international",
+      "region": "Asia",
+      "hub": "Hong Kong (HKG)",
+      "checked": "2026-11-16",
+      "official_url": "https://www.cathaypacific.com/cx/en_IN/book-a-trip/book-flights/new-economy-fares.html",
+      "cabin": {
+        "pieces": 1,
+        "kg": 7,
+        "dims_cm": [
+          56,
+          36,
+          23
+        ],
+        "total_cm": null,
+        "summary": "One cabin bag and one small item, 7 kg in total",
+        "detail": "For a Delhi to Hong Kong Economy ticket, Cathay's baggage calculator allows one cabin bag up to 56 x 36 x 23 cm plus one small item up to 40 x 30 x 15 cm that fits under the seat, with a total weight limit of 7 kg for both. Both sizes include wheels, handles and side pockets. Cabin crew can't lift bags for you, so check in anything too heavy to lift into the overhead locker yourself."
+      },
+      "personal": {
+        "summary": "One small item within the same 7 kg: a small handbag, laptop bag, small backpack, camera bag or briefcase up to 40 x 30 x 15 cm"
+      },
+      "checkin": [
+        {
+          "fare": "Economy Light",
+          "allowance": "1 bag up to 23 kg"
+        },
+        {
+          "fare": "Economy Essential",
+          "allowance": "2 bags, each up to 23 kg"
+        },
+        {
+          "fare": "Economy Flex",
+          "allowance": "2 bags, each up to 23 kg"
+        }
+      ],
+      "checkin_summary": "1 bag of 23 kg on Light, 2 bags of 23 kg on Essential and Flex",
+      "checkin_note": "Cathay counts bags (pieces), not total kg. Each bag can weigh up to 23 kg and measure up to 158 cm in total. We checked these figures in Cathay's baggage calculator for Delhi to Hong Kong; your e-ticket and Manage Booking show the allowance for your own trip.",
+      "infant": "An infant without a seat gets one checked bag up to 23 kg and 115 cm, plus an approved child seat, a small bag of food and nappies for the flight, and a foldable stroller (in the cabin if it fits the cabin bag size when folded and there's space).",
+      "excess": {
+        "summary": "An extra bag between India and Hong Kong costs USD 130, and a bag over 23 kg costs USD 100 more",
+        "points": [
+          "Extra bags are charged per piece by zone, and India is in Cathay's Zone 2. From India, an extra bag (up to 23 kg and 158 cm) costs USD 130 to Hong Kong, USD 150 to mainland China, Japan, Korea or South-East Asia, USD 200 to Australia, New Zealand, the UK or Europe, and USD 230 to the USA or Canada.",
+          "A bag of 23 to 32 kg costs an extra USD 100 to Hong Kong or Asia, or USD 150 to Australia, Europe or North America. A bag of 158 to 203 cm costs USD 200.",
+          "Buying extra baggage at least 24 hours before departure gives up to 10% off.",
+          "Fees are charged in local currency, plus tax. Bags over 32 kg or 203 cm need approval from Customer Care at least three working days before you fly."
+        ]
+      },
+      "notes": [
+        "Power banks: since 30 March 2026 you may carry at most two, in your cabin bag only, and you can't use or recharge them at any time during the flight. Extra power banks are confiscated at Hong Kong airport security.",
+        "Nail scissors, letter knives and other sharp, pointed items must go in checked baggage."
+      ],
+      "sources": [
+        {
+          "label": "Cathay Pacific Economy fares",
+          "url": "https://www.cathaypacific.com/cx/en_IN/book-a-trip/book-flights/new-economy-fares.html"
+        },
+        {
+          "label": "Cathay Pacific baggage calculator",
+          "url": "https://flights.cathaypacific.com/en_IN/baggage/baggage-calculator.html"
+        },
+        {
+          "label": "Cathay Pacific extra baggage charges",
+          "url": "https://www.cathaypacific.com/cx/en_IN/baggage/extra-baggage-charges/pay-cash-or-by-credit-card.html"
+        },
+        {
+          "label": "Cathay Pacific power bank restrictions",
+          "url": "https://www.cathaypacific.com/cx/en_IN/latest-news/security-and-operational-changes/restrictions-on-the-carriage-of-lithium-battery-power-banks.html"
+        }
+      ]
+    },
+    {
       "slug": "lufthansa",
       "name": "Lufthansa",
       "scope": "international",
@@ -1236,6 +1308,79 @@
         }
       ],
       "page_name": "Air India international"
+    },
+    {
+      "slug": "air-india-express-international",
+      "name": "Air India Express (international)",
+      "scope": "international",
+      "region": "Indian airline abroad",
+      "hub": "Kochi, Kozhikode, Delhi, Mumbai and Bengaluru",
+      "checker": false,
+      "checked": "2026-11-16",
+      "official_url": "https://www.airindiaexpress.com/support/faqs/baggage",
+      "cabin": {
+        "pieces": 2,
+        "kg": 7,
+        "dims_cm": [
+          56,
+          36,
+          23
+        ],
+        "total_cm": null,
+        "summary": "Two cabin items, 7 kg in total",
+        "detail": "On international flights you may carry two cabin items that together weigh no more than 7 kg: one bag up to 56 x 36 x 23 cm, including handles, wheels and side pockets, for the overhead locker, and one laptop bag, handbag or small backpack up to 40 x 30 x 10 cm for under the seat. Items strapped or tied together don't count as one piece. To carry more, pre-book checked baggage up to four hours before departure."
+      },
+      "personal": {
+        "summary": "One laptop bag, handbag or small backpack up to 40 x 30 x 10 cm, within the same 7 kg"
+      },
+      "checkin": [
+        {
+          "fare": "Xpress Lite",
+          "allowance": "No free checked bag (you can pre-book one)"
+        },
+        {
+          "fare": "Xpress Value",
+          "allowance": "30 kg; 20 kg on flights between India and Thailand or Nepal"
+        },
+        {
+          "fare": "Xpress Flex",
+          "allowance": "30 kg on the India website; 35 kg on the UAE website (25 kg on select routes)"
+        },
+        {
+          "fare": "Xpress Biz",
+          "allowance": "40 kg"
+        }
+      ],
+      "checkin_summary": "None on Lite, 30 kg on Value (20 kg to Thailand and Nepal), 30 to 35 kg on Flex and 40 kg on Biz",
+      "checkin_note": "Air India Express's baggage FAQ says international flights include 30 kg, except flights between India and Thailand or Nepal, which include 20 kg (Lite fares include none). Its India international page lists 30 kg in up to 2 pieces on Value and Flex, while its UAE booking page lists 35 kg on Flex (25 kg on select routes) and also sells a Classic fare with the same allowance as Value. Check the allowance shown for your fare before you pay.",
+      "excess": {
+        "summary": "Pre-book extra kg online in 5, 10, 15 or 25 kg packs; Air India Express says that's much cheaper than paying at the airport",
+        "points": [
+          "You can add 5, 10, 15 or 25 kg during web check-in under Manage on the website. Baggage can be bought or upgraded on the website, the app or the Tia chatbot up to four hours before departure.",
+          "Air India Express says pre-booked extra baggage is significantly cheaper than paying excess at the airport counter.",
+          "The fees document linked from its website is dated October 2023, so we haven't quoted prices from it. Check the current price when you book."
+        ]
+      },
+      "notes": [
+        "Smart bags: allowed only if a battery that can't be removed is very small (up to 0.3 g lithium metal or 2.7 Wh lithium-ion). Otherwise take the battery out and carry it in the cabin. Up to two spare batteries are allowed in cabin baggage.",
+        "Alcohol in checked baggage: Air India Express says your destination's customs rules decide how much you can carry.",
+        "Air India Express flies to 16 international destinations in the Gulf, South-East Asia and Nepal, mostly from Kerala, Delhi, Mumbai and Bengaluru."
+      ],
+      "sources": [
+        {
+          "label": "Air India Express baggage FAQ (international)",
+          "url": "https://www.airindiaexpress.com/support/faqs/baggage"
+        },
+        {
+          "label": "Air India Express international flights",
+          "url": "https://www.airindiaexpress.com/en-in/book-flights/international-flights"
+        },
+        {
+          "label": "Air India Express UAE booking page",
+          "url": "https://www.airindiaexpress.com/en-ae/book-flights/"
+        }
+      ],
+      "page_name": "Air India Express international"
     }
   ]
 }
