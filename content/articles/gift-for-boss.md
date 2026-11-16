@@ -98,6 +98,8 @@ A farewell gift should help with what comes next: a new job, a move or a long br
 - **Moving abroad:** a [passport holder](../picks/B0BHC41KYN.html) and a [luggage scale](../picks/B07Q822CWX.html).
 - **Taking a break to travel:** a [weekender duffle bag](../picks/B07M9BRCQ5.html) for 3–4 day trips.
 
+Someone else leaving the team, or retiring? See our [farewell gift ideas for colleagues](farewell-gift-for-colleague.html).
+
 [[pick:B07M9BRCQ5]]
 
 ## Questions
@@ -116,7 +118,7 @@ An elegant watch like the Titan Karishma, a work tote that holds a laptop, or a 
 
 ### What is a good farewell gift for a boss?
 
-Something for their next step: a watch for a new job, a passport holder if they're moving abroad, or a weekender bag if they're taking a break.
+Something for their next step: a watch for a new job, a passport holder if they're moving abroad, or a weekender bag if they're taking a break. More ideas are in our [farewell gift guide](farewell-gift-for-colleague.html).
 
 ### Is it OK to give a gift to your boss?
 
