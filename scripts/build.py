@@ -1154,6 +1154,10 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
                        "Not on Eco fares: you get only 7 kg of cabin baggage and buy checked bags separately, cheapest with your ticket. "
                        "Deluxe includes 20 kg and SkyBoss 30 kg."))
     faq_html, faq_schema = faq_block(faq)
+    trip_lists = [(slug, place) for slug, place in (("thailand", "Thailand"), ("dubai", "Dubai"), ("bali", "Bali"))
+                  if (ARTICLES_DIR / ("%s-packing-list.md" % slug)).exists()]
+    packing_abroad = ("<p>Packing for the trip? See our packing lists for %s.</p>" % and_list(
+        ['<a href="../guides/%s-packing-list.html">%s</a>' % (slug, place) for slug, place in trip_lists])) if trip_lists else ""
     title = "Baggage rules for international flights from India"
     seo = "International baggage allowance from India %s: Emirates, Qatar, Thai, IndiGo, Air India" % checked[:4]
     desc = ("Cabin bag size and checked baggage by fare for %d airlines on flights from India to %s, "
@@ -1180,7 +1184,7 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
 <li><strong>Bags need a flat side.</strong> Qatar Airways and Gulf Air refuse round bags and bundles tied with rope or wrapped in blankets. Emirates and flydubai ask you to repack odd-shaped items in a box, and Muscat airport charges extra for them.</li>
 <li><strong>Power banks stay in the cabin.</strong> Most of these airlines don't allow using or charging power banks on board, and Qatar Airways bans charging them. Never pack one in a checked bag.</li>
 <li><strong>Cheap fares may have no checked bag.</strong> {", ".join(no_bag[:-1])} and {no_bag[-1]} include only a cabin bag. Buying extra baggage online before you fly is much cheaper than at the airport.</li>
-<li><strong>Medicines into the UAE.</strong> Controlled medicines need approval from the UAE health ministry before you travel. Carry the prescription.</li>
+<li><strong>Medicines into the UAE.</strong> Controlled medicines need approval from the UAE health ministry before you travel. Carry the prescription.{(' See <a href="customs/uae-dubai.html">what you can carry from India to Dubai</a>.') if (CUSTOMS_DIR / "uae-dubai.md").exists() else ''}</li>
 <li><strong>Keep gold, cash and documents with you.</strong> flydubai says not to pack money, jewellery or precious metals in checked bags.</li>
 </ul>
 {('<p><strong>Flying back into India?</strong> Indian Customs allows goods worth ₹75,000 per person duty free since February 2026, plus 2 litres of alcohol. '
@@ -1191,6 +1195,7 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
 <p>Weigh your packed bags at home with a {scale_link}, and try our <a href="../tools/bag-weight.html">bag weight calculator</a>.</p>
 {faq_html}
 <p>Buying a check-in bag for this trip? See <a href="../guides/trolley-bag-size-for-international-travel.html">which trolley size fits a 23 kg bag and the 158 cm limit</a>.</p>
+{packing_abroad}
 <h2>Flying within India?</h2>
 <p>Domestic allowances are smaller: usually a 7 kg cabin bag and 15 kg of check-in baggage. See our <a href="index.html">baggage rules for Indian airlines</a>.</p>
 {tool_pills("../", "baggage/international.html")}
@@ -2010,7 +2015,7 @@ def customs_path(a):
 def load_customs():
     """content/customs/index.md is the hub (baggage/customs.html); every other file is baggage/customs/<slug>.html.
     Front matter: title, seo_title, description, date, checked, quick ("line | line"), sources ("Label=URL | ..."),
-    optional nav (short name for links), order and related ("path=Label | ...")."""
+    optional nav (short name for links), order, related ("path=Label | ...") and not_advice (for another country's rules)."""
     if not CUSTOMS_DIR.exists():
         return []
     found = load_articles(CUSTOMS_DIR)
@@ -2038,6 +2043,7 @@ def build_customs(cfg, deals_by_asin, customs, pages, lastmod):
         sources = [{"label": s.split("=", 1)[0].strip(), "url": s.split("=", 1)[1].strip()} for s in a["sources"].split(" | ") if "=" in s]
         related = [r.split("=", 1) for r in a.get("related", "").split(" | ") if "=" in r]
         content = render_markdown(a["body"], cfg, deals_by_asin, p, "customs/%s.md" % a["slug"])
+        not_advice = a.get("not_advice", NOT_ADVICE)
         crumb = (f'<a href="{p}index.html">Home</a><span>/</span><a href="{here}index.html">Baggage rules</a><span>/</span>'
                  + ("Customs rules" if is_hub else f'<a href="../customs.html">Customs rules</a><span>/</span>{e(a.get("nav", a["title"]))}'))
         inner = f"""<nav class="crumbs">{crumb}</nav>
@@ -2050,12 +2056,12 @@ def build_customs(cfg, deals_by_asin, customs, pages, lastmod):
 <div class="wrap"><article class="guide">
 {('<p class="lead">' + md_inline(a["lead"], p) + '</p>') if a.get("lead") else ""}
 <div class="answer"><h2>Quick answer</h2><ul>{quick}</ul></div>
-<p class="checked">{NOT_ADVICE}</p>
+<p class="checked">{not_advice}</p>
 {content}
 <h2>Sources</h2>
 <p>Official documents, read on {fmt_date(a["checked"])}:</p>
 <ul>{"".join("<li>%s</li>" % sources_html([s]) for s in sources)}</ul>
-<p class="checked">Checked on {fmt_date(a["checked"])}. {NOT_ADVICE}</p>
+<p class="checked">Checked on {fmt_date(a["checked"])}. {not_advice}</p>
 {(f'<h2>{"Customs rules by item" if is_hub else "More customs rules"}</h2><ul class="airline-links">{others}</ul>') if others else ""}
 {('<h2>Related guides</h2><ul class="airline-links">%s</ul>' % "".join(f'<li><a href="{p}{e(u.strip())}">{e(label.strip())}</a></li>' for u, label in related)) if related else ""}
 {tool_pills(p, path)}

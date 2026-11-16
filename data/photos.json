@@ -197,6 +197,27 @@
       "credit": "mahikul darji",
       "profile": "https://unsplash.com/@mahikul_darji",
       "alt": "City Palace in Udaipur seen from the water of Lake Pichola"
+    },
+    "bangkok-wat-arun": {
+      "unsplash": "0DKDTSFBXc8",
+      "image": "1613672803979-a6edfc5a179b",
+      "credit": "Anantachai Saothong",
+      "profile": "https://unsplash.com/@thisismanta",
+      "alt": "Wat Arun temple on the Chao Phraya river in Bangkok"
+    },
+    "dubai-burj-khalifa": {
+      "unsplash": "Fr6zexbmjmc",
+      "image": "1512453979798-5ea266f8880c",
+      "credit": "David Rodrigo",
+      "profile": "https://unsplash.com/@david__r",
+      "alt": "The Burj Khalifa and Dubai skyscrapers above a highway interchange"
+    },
+    "bali-lake-temple": {
+      "unsplash": "1kdIG_258bU",
+      "image": "1537996194471-e657df975ab4",
+      "credit": "Aron Visuals",
+      "profile": "https://unsplash.com/@aronvisuals",
+      "alt": "A multi-tiered temple reflected in a calm lake in Bali"
     }
   }
 }
