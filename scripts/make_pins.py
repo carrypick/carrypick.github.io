@@ -574,6 +574,22 @@ PINS = [
                     + group("Takes trains and buses", "A steel bottle and a neck pillow with an eye mask.")
                     + group("A bigger gift from a group", "A cabin trolley whose listed size fits their airline.")
                     + '<p class="note"><strong>Small things get used most:</strong> most travellers already own a suitcase.</p>')),
+    # 16 Nov 2026: winter trip guides.
+    dict(slug="shimla-december", board="India Trip Ideas", link="trips/shimla-in-december.html",
+         title="Shimla in December: snow chances, weather and what to wear",
+         description="Shimla in December is about 12 °C by day and 4 °C at night (IMD averages). Snow usually comes from late December to early March, and is much more likely in January and February. Plus the Kalka–Shimla toy train, snow at Kufri and Narkanda, winter roads and what to wear.",
+         alt="Snow on the pine trees and houses of a Shimla hillside, with the words Shimla in December.",
+         html=photo("shimla-snow", "Shimla in December", "Snow chances, the toy train, winter roads and what to wear")),
+    dict(slug="rishikesh-december", board="India Trip Ideas", link="trips/rishikesh-in-december.html",
+         title="Rishikesh in December: weather, rafting, Ganga aarti and what to wear",
+         description="Rishikesh in winter has sunny days and cold nights, and no snow. Rafting is open from September to June. This winter Ram Jhula and Lakshman Jhula are closed, and the Haridwar Kumbh starts on 14 January 2027. Weather, camps, aarti times, getting there and what to wear.",
+         alt="The Ganga at dusk in Rishikesh with temple towers on the bank, with the words Rishikesh in December.",
+         html=photo("rishikesh-ganga", "Rishikesh in December", "Rafting, the Ganga aarti, which bridges are open and what to wear")),
+    dict(slug="udaipur-winter", board="India Trip Ideas", link="trips/udaipur.html",
+         title="Udaipur trip plan for 2 or 3 days in winter",
+         description="Udaipur in December is about 26 °C by day and 8 °C at night, with almost no rain. A simple 2-day plan for City Palace, Lake Pichola boats, Bagore ki Haveli and Fateh Sagar, a third day for Kumbhalgarh and Ranakpur, the Shilpgram Utsav and what to wear.",
+         alt="City Palace in Udaipur seen from Lake Pichola, with the words Udaipur trip plan.",
+         html=photo("udaipur-city-palace", "Udaipur trip plan", "2 or 3 days in winter: palaces, lake boats, Shilpgram and day trips")),
 ]
 
 
