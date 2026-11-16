@@ -8,7 +8,7 @@ place: India in winter
 best: Dec–Jan
 photo: traveller-sunset
 priority: 1
-glance: For beaches and parties=[Goa](goa.html) | For snow=[Manali](manali.html) or [Shimla](shimla-in-december.html) (snow isn't guaranteed) | For forts and palaces=[Jaipur](jaipur.html) | For backwaters and hills=[Kerala](kerala.html) | Book=As early as you can: Christmas to New Year is peak season everywhere
+glance: For beaches and parties=[Goa](goa.html) | For snow=[Manali](manali.html) or [Shimla](shimla-in-december.html) (snow isn't guaranteed) | For the Ganga, yoga and rafting=[Rishikesh](rishikesh-in-december.html) | For forts and palaces=[Jaipur](jaipur.html) | For backwaters and hills=[Kerala](kerala.html) | Book=As early as you can: Christmas to New Year is peak season everywhere
 ---
 December and January are the best months for most of India: the monsoon is long over, the skies are clear, and it's cool almost everywhere except the far south. They are also the busiest months, so it pays to choose well and book early. Here's how four of India's favourite winter trips compare.
 
@@ -19,6 +19,7 @@ December and January are the best months for most of India: the monsoon is long 
 | [Goa](goa.html) | Beaches, nightlife, churches | Warm: about 20–33 °C, almost no rain | Mopa (GOX) or Dabolim (GOI) | Very busy at New Year |
 | [Manali](manali.html) | Snow, mountains, adventure | Freezing nights; can fall below −5 °C | Chandigarh, then drive; small airport at Bhuntar | Very busy, with traffic jams after snow |
 | [Shimla](shimla-in-december.html) | An easy hill trip, the toy train, snow nearby | Days about 9–12 °C, nights about 2–4 °C | Chandigarh, then drive or take the toy train from Kalka | Very busy at Christmas, New Year and after snow |
+| [Rishikesh](rishikesh-in-december.html) | Ganga aarti, yoga, rafting | Sunny days about 20–22 °C, nights about 7–8 °C | Dehradun (DED), or a train to Haridwar | Busy at New Year, and very crowded around the Kumbh bath on 14 January |
 | [Jaipur](jaipur.html) | Forts, palaces, markets | Sunny days about 22–24 °C, cold nights about 8–9 °C | Jaipur (JAI) | Busy, especially 25 Dec to 1 Jan |
 | [Kerala](kerala.html) | Backwaters, tea hills, quiet beaches | Coast about 21–34 °C; Munnar nights 2–9 °C | Kochi (COK) or Thiruvananthapuram (TRV) | Busy, with huge crowds at Fort Kochi on New Year's Eve |
 
@@ -39,6 +40,12 @@ Read the full [Manali winter guide](manali.html), and see [what to wear in Manal
 Shimla is the easiest hill station to reach from Delhi and Chandigarh, and the toy train from Kalka is a trip in itself. December is cold and mostly dry, with sunny days. Snow is much more likely in January and February: last winter, the first snow came only on 23 January 2026. For snow on a short trip, go up to Kufri or Narkanda.
 
 Read the full [Shimla in December and January guide](shimla-in-december.html).
+
+## Rishikesh: for the Ganga, yoga and rafting
+
+Rishikesh has sunny days and cold nights in winter, and no snow. Rafting is open, and the evening Ganga aarti at Triveni Ghat and Parmarth Niketan starts around sunset. This winter, Ram Jhula and Lakshman Jhula are closed, so you cross on Bajrang Setu or Janki Setu. The Haridwar Ardh Kumbh starts on 14 January 2027, so expect crowds in mid-January.
+
+Read the full [Rishikesh in December and January guide](rishikesh-in-december.html).
 
 ## Jaipur: for forts, palaces and markets
 
@@ -69,6 +76,7 @@ Compare hotels and homestays for your dates on these sites:
 - **Want snow?** Go to Manali or Shimla, but plan for January or February for a better chance, and check the forecast. Kashmir has the most snow.
 - **Want to party on New Year's Eve?** Goa, or the Cochin Carnival in Fort Kochi.
 - **Travelling with parents or children?** Jaipur and Kerala are calmer, with easy sightseeing and mild days.
+- **Want a short, calm trip from Delhi?** Rishikesh, for the Ganga aarti, yoga and rafting. Avoid the Kumbh bath days around 14 January.
 - **Visiting India for the first time?** Jaipur with Delhi and Agra, or Kerala, are easy first trips. Goa is popular with foreign visitors for a beach holiday.
 - **Short on time?** Pick one place. Moving between them takes most of a day.
 

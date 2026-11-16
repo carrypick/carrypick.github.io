@@ -183,6 +183,20 @@
       "credit": "Chandan Parihar",
       "profile": "https://unsplash.com/@parihar_saab",
       "alt": "Snow on the pine trees and houses of a Shimla hillside"
+    },
+    "rishikesh-ganga": {
+      "unsplash": "5DiMzk8dAiQ",
+      "image": "1646153110989-a9a8f03314f3",
+      "credit": "Swati Kedia",
+      "profile": "https://unsplash.com/@phoenix_2022",
+      "alt": "The Ganga at dusk in Rishikesh, with temple towers on the bank and a lit bridge in the distance"
+    },
+    "udaipur-city-palace": {
+      "unsplash": "6YRi00tdWeg",
+      "image": "1696861524777-978d87c7cff2",
+      "credit": "mahikul darji",
+      "profile": "https://unsplash.com/@mahikul_darji",
+      "alt": "City Palace in Udaipur seen from the water of Lake Pichola"
     }
   }
 }
