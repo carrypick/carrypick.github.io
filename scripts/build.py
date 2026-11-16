@@ -2634,6 +2634,11 @@ def pack_qty(rule, days):
     return max(1, -(-value // 1)) if not isinstance(value, int) else max(1, value)
 
 
+# Destination packing lists (guides) linked from the matching checklist, when the guide exists.
+PACKING_GUIDES = {"abroad": (("dubai", "Dubai"), ("thailand", "Thailand"), ("bali", "Bali")),
+                  "beach": (("goa", "Goa"), ("thailand", "Thailand"), ("bali", "Bali"))}
+
+
 def build_packing(cfg, deals_by_asin, pages, lastmod, trip_guides=()):
     data = json.loads(PACKING_FILE.read_text(encoding="utf-8"))
     trips = data["trips"]
@@ -2672,6 +2677,10 @@ def build_packing(cfg, deals_by_asin, pages, lastmod, trip_guides=()):
         going = [g for g in trip_guides if g.get("packing") == slug]
         going_html = ('<p class="small">Planning the trip? Read our %s.</p>' % " and ".join(
             f'<a href="../trips/{g["slug"]}.html">{e(g.get("place", g["title"]))} trip guide</a>' for g in going)) if going else ""
+        lists = [(s_, place) for s_, place in PACKING_GUIDES.get(slug, ()) if (ARTICLES_DIR / ("%s-packing-list.md" % s_)).exists()]
+        if lists:
+            going_html += '<p class="small">Want the full list, with what to wear and why? Read our packing lists for %s.</p>' % and_list(
+                f'<a href="../guides/{s_}-packing-list.html">{place}</a>' for s_, place in lists)
         title = trip["title"]
         desc = "%s %s A free checklist with %d items and quantities for your number of days. Tick things off as you pack." % (
             title + ":", trip["intro"].split(". ")[0] + ".", count)
@@ -2729,6 +2738,10 @@ def build():
             sys.exit("Error: deal %s is missing %s" % (d.get("asin", "?"), ", ".join(missing)))
         if d["category"] not in cfg["categories"]:
             sys.exit("Error: deal %s has unknown category %s" % (d["asin"], d["category"]))
+        # Amazon's Linking Requirements: no prices and no ratings (stars or rating counts) outside the API.
+        text = json.dumps([d.get(k) for k in ("title", "note", "highlights", "best_for", "skip_if")], ensure_ascii=False)
+        if re.search(r"(₹|\bRs\.?\s?|\bINR\s?)\d|\bratings\b|\bout of 5\b|\d stars?\b|★", text, re.I):
+            sys.exit("Error: deal %s mentions a price or Amazon ratings. Leave those to Amazon.in." % d["asin"])
     deals_by_asin = {d["asin"]: d for d in deals}
     articles = load_articles()
     articles_by_slug = {a["slug"]: a for a in articles}
