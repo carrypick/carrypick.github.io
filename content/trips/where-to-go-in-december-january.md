@@ -1,16 +1,16 @@
 ---
 seo_title: Where to go in India in December and January 2026–27: beach, snow or heritage?
 title: Where to go in India in December and January
-description: Beach, snow, forts or backwaters? Compare Goa, Manali, Jaipur and Kerala for a Christmas or New Year trip: weather, how to get there, crowds and what to pack.
+description: Beach, snow, forts or backwaters? Compare Goa, Manali, Shimla, Rishikesh, Jaipur, Udaipur and Kerala for a Christmas or New Year trip: weather, how to get there, crowds and what to pack.
 date: 2026-11-03
 updated: 2026-11-16
 place: India in winter
 best: Dec–Jan
 photo: traveller-sunset
 priority: 1
-glance: For beaches and parties=[Goa](goa.html) | For snow=[Manali](manali.html) or [Shimla](shimla-in-december.html) (snow isn't guaranteed) | For the Ganga, yoga and rafting=[Rishikesh](rishikesh-in-december.html) | For forts and palaces=[Jaipur](jaipur.html) | For backwaters and hills=[Kerala](kerala.html) | Book=As early as you can: Christmas to New Year is peak season everywhere
+glance: For beaches and parties=[Goa](goa.html) | For snow=[Manali](manali.html) or [Shimla](shimla-in-december.html) (snow isn't guaranteed) | For the Ganga, yoga and rafting=[Rishikesh](rishikesh-in-december.html) | For forts and palaces=[Jaipur](jaipur.html) or [Udaipur](udaipur.html) | For backwaters and hills=[Kerala](kerala.html) | Book=As early as you can: Christmas to New Year is peak season everywhere
 ---
-December and January are the best months for most of India: the monsoon is long over, the skies are clear, and it's cool almost everywhere except the far south. They are also the busiest months, so it pays to choose well and book early. Here's how four of India's favourite winter trips compare.
+December and January are the best months for most of India: the monsoon is long over, the skies are clear, and it's cool almost everywhere except the far south. They are also the busiest months, so it pays to choose well and book early. Here's how seven of India's favourite winter trips compare.
 
 ## Quick comparison
 
@@ -21,6 +21,7 @@ December and January are the best months for most of India: the monsoon is long 
 | [Shimla](shimla-in-december.html) | An easy hill trip, the toy train, snow nearby | Days about 9–12 °C, nights about 2–4 °C | Chandigarh, then drive or take the toy train from Kalka | Very busy at Christmas, New Year and after snow |
 | [Rishikesh](rishikesh-in-december.html) | Ganga aarti, yoga, rafting | Sunny days about 20–22 °C, nights about 7–8 °C | Dehradun (DED), or a train to Haridwar | Busy at New Year, and very crowded around the Kumbh bath on 14 January |
 | [Jaipur](jaipur.html) | Forts, palaces, markets | Sunny days about 22–24 °C, cold nights about 8–9 °C | Jaipur (JAI) | Busy, especially 25 Dec to 1 Jan |
+| [Udaipur](udaipur.html) | Lakes, palaces, a crafts fair | Sunny days about 25–26 °C, cold nights about 7–8 °C | Udaipur (UDR) | Busy from Christmas to New Year, and during the Shilpgram Utsav (usually 21–30 Dec) |
 | [Kerala](kerala.html) | Backwaters, tea hills, quiet beaches | Coast about 21–34 °C; Munnar nights 2–9 °C | Kochi (COK) or Thiruvananthapuram (TRV) | Busy, with huge crowds at Fort Kochi on New Year's Eve |
 
 ## Goa: for beaches and New Year parties
@@ -53,6 +54,12 @@ Jaipur has warm sunny afternoons and chilly mornings, perfect for walking around
 
 Read the full [Jaipur trip guide](jaipur.html).
 
+## Udaipur: for lakes and palaces
+
+Udaipur is warm and dry in winter, with cold evenings by Lake Pichola. Two days cover City Palace, a boat to the Jagmandir island palace, Bagore ki Haveli's evening dance show and Fateh Sagar. The Shilpgram Utsav crafts fair is usually held from 21 to 30 December. Add a third day for Kumbhalgarh and Ranakpur, or Chittorgarh.
+
+Read the full [Udaipur winter trip plan](udaipur.html).
+
 ## Kerala: for backwaters, tea hills and beaches
 
 Kerala is warm on the coast and cool in the Munnar hills. Spend a night on a houseboat in Alappuzha, walk the tea estates in Munnar, and end on the cliffs at Varkala. In Fort Kochi, New Year's Eve ends with the Pappanji burning on the beach at midnight. Note that 1 January is a dry day in Kerala.
@@ -77,6 +84,7 @@ Compare hotels and homestays for your dates on these sites:
 - **Want to party on New Year's Eve?** Goa, or the Cochin Carnival in Fort Kochi.
 - **Travelling with parents or children?** Jaipur and Kerala are calmer, with easy sightseeing and mild days.
 - **Want a short, calm trip from Delhi?** Rishikesh, for the Ganga aarti, yoga and rafting. Avoid the Kumbh bath days around 14 January.
+- **Love palaces and lakes?** Udaipur, with a day trip to Kumbhalgarh and Ranakpur. It pairs well with Jaipur if you have a week.
 - **Visiting India for the first time?** Jaipur with Delhi and Agra, or Kerala, are easy first trips. Goa is popular with foreign visitors for a beach holiday.
 - **Short on time?** Pick one place. Moving between them takes most of a day.
 
