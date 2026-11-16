@@ -692,6 +692,14 @@
   {
    "q": "Can I carry medicines on a flight?",
    "a": "Yes. Keep them in your cabin bag. Liquid medicines and inhalers over 100 ml are allowed with a prescription."
+  },
+  {
+   "q": "Can I carry a laptop in my check-in bag?",
+   "a": "It depends on the airline. IndiGo allows it, Air India asks you to take the battery out and carry it in the cabin, Akasa Air needs it fully switched off and protected, and SpiceJet says not to pack computers in check-in. Your cabin bag is the safe choice on every airline."
+  },
+  {
+   "q": "Can I carry pickle on a flight?",
+   "a": "Yes, in your check-in bag, packed so it can't leak or break. In the cabin, IndiGo doesn't allow pickle, Air India doesn't allow chilli pickle, and oily pickle counts as a liquid, so only 100 ml or less."
   }
  ],
  "sources": [

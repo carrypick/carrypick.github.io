@@ -1960,8 +1960,17 @@ def build_can_i_carry(cfg, deals_by_asin, pages, lastmod):
     inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="index.html">Baggage rules</a><span>/</span>Can I carry it?</nav>
       <h1>{e(title)}</h1>
       <p class="muted small">Checked on {fmt_date(checked)} against BCAS, DGCA and airline pages</p>"""
+    own_pages = (" The %d items people ask about most also have their own page, with the rules airline by airline and how to pack them."
+                 % len(carry)) if carry else ""
+    lead = (f'<p class="lead">Search {count} things people pack, from power banks and perfume to pickle and dry coconut. '
+            f'Each row shows whether it can go in your cabin bag, your check-in bag or neither on flights within India, '
+            f'with the rule and a link to the official page it comes from.{own_pages}</p>')
+    customs_tip = ('<aside class="tip">' + icon("plane", "icon tip-icon") + '<div><strong>Flying into India from abroad?</strong>'
+                   '<p>The airline rules are only half of it. See how much alcohol, gold and cash Indian Customs lets you bring in duty free, '
+                   'in our <a href="customs.html">customs rules for passengers</a>.</p></div></aside>') if CUSTOMS_DIR.exists() else ""
     body = f"""{page_head("watches", f'<div class="media media-tile tint-watches">{icon("shield", "icon media-icon")}</div>', inner, "../")}
 <div class="wrap"><article class="guide guide-wide">
+{lead}
 <div class="answer"><h2>The rules most people get wrong</h2><ul>{"".join("<li>%s</li>" % e(x) for x in data["key_rules"])}</ul></div>
 <form class="checker" onsubmit="return false"><label>Search an item<input id="carry-q" type="search" placeholder="power bank, perfume, pickle…" autocomplete="off"></label>
 <p class="hint" id="carry-count" aria-live="polite" data-all="{{n}} items" data-some="{{shown}} of {{n}} items">{count} items</p></form>
@@ -1970,6 +1979,7 @@ def build_can_i_carry(cfg, deals_by_asin, pages, lastmod):
 <p class="checked">"With limits" means it's allowed only in the way the rule says. "Not listed" means the official pages we checked don't say. Security staff can still refuse any item, and airlines can be stricter, so check your airline before you fly.</p>
 {most_asked}
 <aside class="tip">{icon("ruler", "icon tip-icon")}<div><strong>Packing your cabin bag?</strong><p>Check its size with the <a href="checker.html">cabin bag checker</a>, and use a <a href="../packing/index.html">packing checklist</a>.</p></div></aside>
+{customs_tip}
 {faq_html}
 <h2>Sources</h2>
 <p>{sources_html(data["sources"])}</p>
@@ -2129,12 +2139,18 @@ def build_hindi(cfg, deals, airlines, pages, lastmod):
                     f'<td>{e(t["cabin"] % num(c["kg"]))}</td><td>{e(size)}</td><td>{e(h["personal"])}</td><td>{e(h["checkin"])}</td></tr>')
         if h.get("note"):
             details.append(f'<h3>{e(a["name"])}</h3><p>{e(h["note"])} <a class="src" href="{e(a["official_url"])}" target="_blank" rel="noopener">{L["sources"]}</a></p>')
-    picks = cabin_picks(deals)
+    # Hindi readers get a short table: the 5 cabin trolleys and 3 backpacks that fit the most airlines
+    # (all 30-odd English product names would otherwise fill the page). The checker link in fit_more covers the rest.
+    scored = sorted(((sum(1 for a in airlines["airlines"] if size_fit(dims, a["cabin"])[0]), sum(dims), d, dims)
+                     for d, dims, kg in cabin_picks(deals)), key=lambda x: (-x[0], x[1]))
+    shown = ([x for x in scored if "trolley" in x[2]["title"].lower()][:5]
+             + [x for x in scored if x[2]["category"] == "backpacks"][:3])
     matrix_head = "".join("<th>%s</th>" % e(a["name"]) for a in airlines["airlines"])
     matrix_rows = "".join(
         f'<tr><th scope="row"><a href="../picks/{d["asin"]}.html">{e(d["title"])}</a><span class="why">{num(sum(dims))} cm</span></th>'
         + "".join("<td>%s</td>" % badge(*size_fit(dims, a["cabin"])[::2]) for a in airlines["airlines"]) + "</tr>"
-        for d, dims, kg in picks)
+        for fits, total, d, dims in shown)
+    fit_more = ("<p class=\"checked\">%s</p>" % (t["fit_more"] % len(scored))) if t.get("fit_more") and len(scored) > len(shown) else ""
     scale = next((d for d in deals if "scale" in d["title"].lower()), None)
     scale_html = f'<a href="../picks/{scale["asin"]}.html">{t["scale"]}</a>' if scale else t["scale"]
     faq_html, faq_schema = faq(t["faq"])
@@ -2152,6 +2168,7 @@ def build_hindi(cfg, deals, airlines, pages, lastmod):
 <h2>{e(t["h_fit"])}</h2>
 <p>{e(t["fit_intro"])}</p>
 <div class="table-wrap"><table class="compare"><thead><tr><th>{e(t["fit_head"])}</th>{matrix_head}</tr></thead><tbody>{matrix_rows}</tbody></table></div>
+{fit_more}
 <h2>{e(t["h_tips"])}</h2>
 <ul>{"".join("<li>%s</li>" % x.replace("{scale}", scale_html) for x in t["tips"])}</ul>
 {faq_html}

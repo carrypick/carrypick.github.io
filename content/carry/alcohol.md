@@ -1,9 +1,10 @@
 ---
 title: Can I carry alcohol on a flight in India?
-seo_title: Alcohol in flight rules India 2026: 5 litres in check-in, duty free, dry states
-description: On domestic flights, alcohol goes in check-in: up to 5 litres of 24 to 70% drinks in sealed shop packing. Beer and wine, duty-free bottles, dry states and how to pack bottles.
+seo_title: Alcohol in flight rules India 2026: how many bottles in check-in, duty free, dry states
+description: On domestic flights, alcohol goes in check-in: up to 5 litres per person, so six 750 ml bottles, sealed in shop packing. Bottles from Goa, beer and wine, duty free and dry states.
 item: Alcohol (bought outside the airport)
 date: 2026-11-10
+updated: 2026-11-16
 checked_against: IndiGo, Air India, Akasa Air and SpiceJet rules
 sources: Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Akasa Air conditions of carriage=https://www.akasaair.com/quick-links/conditions-of-carriage | SpiceJet baggage FAQ=https://corporate.spicejet.com/airtravelbaggagefaq.aspx | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security
 related: guides/polycarbonate-vs-polypropylene-luggage.html=Hard luggage: polycarbonate or polypropylene | tools/bag-weight.html=Bag weight calculator | baggage/index.html=Airline baggage rules | packing/wedding.html=Wedding packing list
@@ -16,7 +17,20 @@ IndiGo, Air India, Akasa Air and SpiceJet all use the same main rule for domesti
 - In its **retail packaging**: the sealed bottle as you bought it in the shop (Air India, Akasa Air, SpiceJet).
 - **Nothing over 70% alcohol**, in any bag.
 
-Six 750 ml bottles come to 4.5 litres, just under the limit.
+## How many bottles is 5 litres?
+
+| Bottle size | Most you can pack | Total |
+|---|---|---|
+| 180 ml (quarter) | 27 bottles | 4.86 litres |
+| 375 ml (half) | 13 bottles | 4.88 litres |
+| 750 ml (full) | 6 bottles | 4.5 litres |
+| 1 litre | 5 bottles | 5 litres |
+
+You can mix sizes, as long as the total stays at 5 litres or less. For example, four 750 ml bottles and two 1 litre bottles make exactly 5 litres. A seventh 750 ml bottle takes you to 5.25 litres, which is over the limit.
+
+The 5 litres is **per person**. Two people flying together can each pack up to 5 litres. It's simplest if each person's bottles go in their own checked bag, so nobody's bag goes over the limit.
+
+Bottles are heavy, too. The drink alone in six 750 ml bottles weighs more than 4 kg, and the glass adds more. On a 15 kg fare, that leaves much less room for your clothes, so add it up with our [bag weight calculator](../../tools/bag-weight.html).
 
 ## Beer and wine
 
@@ -44,6 +58,18 @@ Flying to or from a dry state such as **Bihar or Gujarat**? You can't take alcoh
 
 Akasa Air's rules also note that other laws can lower the 5-litre limit. In India, each state sets its own rules on how much liquor you can bring in, so check the rules of the state you're flying to before you pack several bottles.
 
+## Flying home from Goa with bottles
+
+Many people buy bottles in Goa to take home. The airline rule is the same as anywhere else: up to 5 litres per person, sealed, in your check-in bag, and nothing in your cabin bag unless you bought it after security at Goa's airport.
+
+The airline rule isn't the only one, though. The state you fly home to can limit how much liquor bought in another state you bring in, and some ask for a permit. Before you buy several bottles:
+
+- Check the excise rules of the state you're flying to.
+- Keep the shop bill with the bottles.
+- Don't fly into Bihar or Gujarat with alcohol at all.
+
+Planning the trip? See our [Goa trip guide](../../trips/goa.html).
+
 ## How to pack bottles
 
 - Keep each bottle sealed in its shop packing.
@@ -68,6 +94,14 @@ Akasa Air's rules also note that other laws can lower the 5-litre limit. In Indi
 ### How much alcohol can I carry on a domestic flight in India?
 
 Up to 5 litres per person of 24 to 70% alcohol, sealed in its shop packing, in your check-in bag (IndiGo, Air India, Akasa Air, SpiceJet).
+
+### How many bottles of alcohol can I carry on a flight?
+
+Six 750 ml bottles (4.5 litres) or five 1 litre bottles per person, in your check-in bag. Seven 750 ml bottles come to 5.25 litres, which is over the 5-litre limit.
+
+### How many bottles can I bring back from Goa by flight?
+
+The airline limit is the same 5 litres per person, so six 750 ml bottles. The state you fly home to may allow less, or ask for a permit, so check its excise rules before you buy.
 
 ### Can I carry alcohol in my cabin bag?
 

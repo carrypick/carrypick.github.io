@@ -1,9 +1,9 @@
 ---
 seo_title: Trolley bag capacity: how many kg and litres by size (55, 65, 75 cm)
 title: Trolley bag capacity: how many kg and litres each size holds
-description: How many kg can a 55, 65 or 75 cm trolley hold? See the litres listed on 80 models on Amazon.in, a rough kg guide, and what your airline really allows.
+description: How many kg can a 55, 65 or 75 cm trolley hold? Litres listed on 80 models on Amazon.in, a rough kg guide, and real packing lists for 7 kg and 15 kg.
 date: 2026-11-06
-updated: 2026-11-15
+updated: 2026-11-16
 category: luggage
 photo: packed-suitcase
 ---
@@ -75,6 +75,49 @@ If a bag's litres look far above its outside figure, don't choose it for that nu
 
 Example: a 70 L bag gives about 10.5–21 kg. On a 15 kg fare, it's more than big enough.
 
+## What 7 kg and 15 kg really hold
+
+We added up three ordinary packing lists, using the same typical weights as our [bag weight calculator](../tools/bag-weight.html). Your own clothes will weigh a little more or less.
+
+**3 days with a cabin bag only (7 kg), in a typical 2.5 kg cabin trolley:**
+
+| What | How many | Weight |
+|---|---|---|
+| T-shirts or tops | 3 | 0.6 kg |
+| Jeans and trousers | 1 of each | 1.15 kg |
+| Nightwear set | 1 | 0.3 kg |
+| Underwear and socks | 3 of each | 0.3 kg |
+| Sandals or slippers | 1 pair | 0.3 kg |
+| Toiletry kit | 1 | 1 kg |
+| Phone charger and cables | 1 | 0.15 kg |
+| **Your things** | | **3.8 kg** |
+| **With the bag** | | **6.3 kg** |
+
+That fits under 7 kg. Add a laptop and its charger (about 1.9 kg) and it comes to 8.2 kg, which is over. Carry the laptop in a small personal bag if your airline allows one: IndiGo, Air India and Akasa Air allow one of up to 3 kg, but on Air India Express and SpiceJet it counts in the same 7 kg. Keep a power bank in that small bag or on you too, because it can't go in the overhead bin.
+
+**7 days with a 15 kg check-in bag, in a typical 3.4 kg medium trolley:**
+
+| What | How many | Weight |
+|---|---|---|
+| T-shirts or tops | 5 | 1 kg |
+| Shirts | 2 | 0.5 kg |
+| Jeans | 2 | 1.4 kg |
+| Trousers and shorts | 1 of each | 0.7 kg |
+| Nightwear sets | 2 | 0.6 kg |
+| Underwear and socks | 7 of each | 0.7 kg |
+| Sweater | 1 | 0.5 kg |
+| Sneakers and sandals | 1 pair of each | 1.1 kg |
+| Toiletry kit, towel and medicines | 1 of each | 1.8 kg |
+| Box of sweets to take home | 1 | 1 kg |
+| **Your things** | | **9.3 kg** |
+| **With the bag** | | **12.7 kg** |
+
+That leaves about 2.3 kg spare. In a typical 4.3 kg large bag, the same things come to 13.6 kg, so only 1.4 kg is left.
+
+**5 days in the hills in winter, 15 kg check-in:** five T-shirts, two jeans, two thermal sets, two sweaters, a heavy jacket, nightwear, five sets of underwear and socks, sneakers, a toiletry kit and medicines come to about 8.1 kg. That's 11.5 kg in a medium bag. Wear the jacket on the plane and the bag drops to about 10.3 kg. See [what winter clothes to take](winter-clothes-for-hill-trips.html).
+
+So for most people, the airline's limit runs out long before a medium bag is full.
+
 ## Which size for which fare?
 
 - **7 kg cabin bag only:** a [cabin bag](cabin-luggage-guide.html) that weighs close to 2 kg.
@@ -105,6 +148,10 @@ Example: a 70 L bag gives about 10.5–21 kg. On a 15 kg fare, it's more than bi
 ### How many kg can a 55 cm trolley bag hold?
 
 About 6–12 kg of clothes, by our rough estimate. But most Indian airlines allow only 7 kg in the cabin, including the bag. A typical 2.5 kg cabin trolley leaves about 4.5 kg for your things.
+
+### What can I pack in a 7 kg cabin bag?
+
+About 3 days of clothes, a toiletry kit and a phone charger, if your trolley weighs about 2.5 kg. Our example came to 6.3 kg. A laptop and charger push it over 7 kg, so carry them in a small personal bag if your airline allows one.
 
 ### How many kg can a 65 cm trolley bag hold?
 

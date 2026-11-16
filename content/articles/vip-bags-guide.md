@@ -1,8 +1,9 @@
 ---
-seo_title: VIP trolley bags: sizes, warranty and returns on VIP's own store
-title: VIP trolley bags: sizes, warranty and returns on VIP's own store
-description: Thinking of buying from VIP's own website? See its cabin, medium and large sizes, the warranty, delivery and the 3-day return rule, and what to check first.
+seo_title: VIP trolley bags: all 19 ranges compared, polycarbonate or not, sizes and warranty
+title: VIP trolley bags: every range, sizes, warranty and returns
+description: All 19 VIP luggage lines on VIP's own store: which are polycarbonate, polypropylene or soft, which expand, their sizes, the warranty and the 3-day return rule.
 date: 2026-11-06
+updated: 2026-11-16
 category: luggage
 photo: trolley-walk
 ---
@@ -25,18 +26,44 @@ These come from VIP's own pages, read on 6 Nov 2026:
 | Damaged on arrival | Report within 36 hours |
 | Returns | Within 3 days of delivery, unused, with all tags and packaging |
 
+## VIP's range at a glance
+
+On 16 Nov 2026, VIP's website listed 19 VIP-brand luggage lines, plus laptop backpacks. This is what its own pages say about each one:
+
+| Line | Hard or soft | Sizes | What VIP's page says |
+|---|---|---|---|
+| Vero | Hard | Cabin, medium, large | Scratch-resistant polycarbonate, TSA lock, shoe and toiletry pouches |
+| Pod NXT | Hard | Cabin, medium, large | Scratch-resistant polycarbonate, wheels with suspension, TSA lock |
+| Barclay | Hard | Cabin, medium, large | Scratch-resistant polycarbonate, shoe and toiletry pouches |
+| Maxxplus | Hard | Cabin, medium, large | Polypropylene, expandable, TSA lock |
+| Classic | Hard | Cabin, medium, large | Polypropylene |
+| Flex | Hard | Cabin, medium, large | Expandable, TSA lock, the cabin size takes a laptop |
+| Aer Plus Pro | Hard | Laptop cabin, medium, large | Wheels that turn every way |
+| Alumina | Hard, 8 wheels | 55, 69, 80 | 360° wheels |
+| Zorro | Hard, 8 wheels | 55, 69, 80 | 360° wheels |
+| Dual Tone NXP | Hard, 8 wheels | 55, 67, 79 | 360° wheels |
+| Stargaze | Hard, 4 wheels | 55, 65 | 360° wheels |
+| Arlington | Hard, 8 wheels | 55 | Cabin size only |
+| Sleek | Soft | Cabin, laptop cabin, medium, large | Fabric with a moulded front, TSA lock, anti-theft zip |
+| Velar | Soft | Cabin, medium, large | Fabric, TSA lock, anti-theft zip |
+| Arrive | Soft | Cabin, medium, large | Fabric, TSA lock, expandable |
+| Grande | Soft | Cabin, large | Expandable, packing cube and shoe pouch |
+| Triumph | Soft | Large | – |
+| Triumph DFT and Grande DFT | Duffle on wheels | 55, 65 | D-shaped opening, detachable shoulder strap |
+| Proxima and Commuter | Laptop backpack | One size | 34 litres, laptops up to 15 inch |
+
+A dash means VIP's page didn't say. Where a line's page names no material, we haven't guessed it.
+
+## Which VIP line suits you?
+
+- **Want a hard shell?** VIP's pages name polycarbonate for Vero, Pod NXT and Barclay, and polypropylene for Maxxplus and Classic. Not sure which is better? See [polycarbonate or polypropylene](polycarbonate-vs-polypropylene-luggage.html).
+- **Carry a laptop on a cabin-only trip?** Flex, Aer Plus Pro and Sleek each list a cabin size that takes a laptop.
+- **Overpack on the way back?** Maxxplus, Flex, Arrive and Grande are expandable. An expanded bag is deeper, though, so it may no longer fit the cabin limit.
+- **Need something for road and train trips?** The duffles on wheels have a shoulder strap for stairs and platforms. See our [train luggage rules](../baggage/train-luggage-rules.html).
+
 ## Reading VIP's sizes
 
-VIP model names often include the height in cm:
-
-| Model | Sizes in the name |
-|---|---|
-| Dual Tone NXP | 55, 67 and 79 |
-| Alumina | 55, 69 and 80 |
-| Zorro | 55, 69 and 80 |
-| Stargaze | 55 and 65 |
-
-So "55" is a cabin size by height, "65–69" is medium and "79–80" is large. Not sure which you need? See [what size luggage you need](luggage-size-guide.html).
+Alumina, Zorro, Dual Tone NXP, Stargaze and Arlington put the height in cm in their names. "55" is a cabin size by height, "65–69" is medium and "79–80" is large. The other lines just say cabin, medium or large. Not sure which you need? See [what size luggage you need](luggage-size-guide.html).
 
 ## What to check before you order
 
@@ -67,10 +94,18 @@ The VIP models we read on 6 Nov 2026 showed a 3-year warranty covering the frame
 
 VIP's policy allows return requests within 3 days of delivery. The bag must be unused, in its original condition, with all tags, packaging and accessories, and it must pass VIP's inspection.
 
+### Which VIP trolley bags are polycarbonate?
+
+On VIP's website on 16 Nov 2026, the Vero, Pod NXT and Barclay pages said polycarbonate. Maxxplus and Classic said polypropylene. Some lines' pages didn't name a material.
+
+### Which VIP trolley bags are expandable?
+
+Maxxplus, Flex, Arrive and Grande, going by VIP's own pages on 16 Nov 2026. Expanding makes the bag deeper, so a cabin bag may not fit the airline's limit when it's expanded.
+
 ### What do the numbers in VIP bag names mean?
 
 They usually show the height in cm. A "55" is a cabin size by height, but check its width and depth too before you fly.
 
 ## Sources
 
-Read on 6 Nov 2026: [VIP Bags](https://vipbags.com/) and its [return and refund policy](https://vipbags.com/policies/refund-policy). We have not tested these bags. Prices and offers are shown on VIP's site, and VIP can change its details and rules.
+Read on 6 Nov 2026: [VIP Bags](https://vipbags.com/) and its [return and refund policy](https://vipbags.com/policies/refund-policy). The range table comes from the VIP-brand product pages on vipbags.com, read on 16 Nov 2026. We have not tested these bags. Prices and offers are shown on VIP's site, and VIP can change its details and rules.
