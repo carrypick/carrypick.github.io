@@ -178,6 +178,17 @@ PINS = [
          description="26 January 2027 is a Tuesday, so one day off gives you 4 days. Compare Jaipur, Manali, Goa and Kerala, see how parade tickets work, and when train booking opens.",
          alt="Hawa Mahal in Jaipur, with the words Republic Day long weekend 2027.",
          html=photo("jaipur-hawa-mahal", "Republic Day long weekend 2027", "1 day off = 4 days, 23–26 January. Jaipur, Manali, Goa or Kerala?")),
+    dict(slug="parade-tickets", board="India Trip Ideas", link="trips/republic-day-parade-tickets-2027.html",
+         title="Republic Day parade tickets 2027: how to book, price and rules",
+         description="How Republic Day parade and Beating Retreat tickets work: the Defence Ministry's Aamantran site and Delhi counters, last year's prices and dates, the ID you need and what you can't take in. 2027 dates aren't announced yet.",
+         alt="A table of last year's Republic Day ticket sale dates and prices, where to book, and items not allowed at the parade.",
+         html=chart("Republic Day 2027, New Delhi", "Parade tickets: what to know", table(
+             ["Last year (2026)", ""],
+             [["Ticket sale", "5–14 Jan, from 9 AM"], ["Parade", "₹100 and ₹20"], ["Beating Retreat", "₹100"],
+              ["Its rehearsal", "₹20"], ["Parade rehearsal", "Free pass"]])
+             + group("Where to book", "The Defence Ministry's Aamantran website or app, or ticket counters in Delhi.")
+             + group("Not allowed inside", "Bags, food, water bottles, power banks, umbrellas, coins.")
+             + '<p class="note"><strong>2027 dates not announced yet.</strong> Checked 16 Nov 2026.</p>')),
     dict(slug="where-to-go", board="India Trip Ideas", link="trips/where-to-go-in-december-january.html",
          title="Where to go in India in December and January",
          description="Beach, snow, forts or backwaters? Compare Goa, Manali, Jaipur and Kerala for a Christmas or New Year trip: the weather, how to get there, crowds and what to pack.",
