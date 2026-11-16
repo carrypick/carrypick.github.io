@@ -196,7 +196,7 @@ def build_size_chart(B, cfg, deals_by_asin, airlines, intl, pages, lastmod):
         air_rows += (f'<tr><th scope="row"><a href="../baggage/{a["slug"]}.html" lang="en">{e(a["name"])}</a></th>'
                      f'<td>{" x ".join(num(x) for x in c["dims_cm"])} cm' + (f'<span class="why">कुल {num(total)} cm</span>' if total else "") + "</td>"
                      f'<td>{" x ".join(inch(x) for x in c["dims_cm"])} इंच' + (f'<span class="why">कुल {inch(total)} इंच</span>' if total else "") + "</td>"
-                     f'<td>{num(c["kg"])} kg<span class="why">{lb(c["kg"])} lb</span></td></tr>')
+                     + (f'<td>{num(c["kg"])} kg<span class="why">{lb(c["kg"])} lb</span></td></tr>' if c.get("kg") else "<td>सीमा नहीं बताई</td></tr>"))
         if B.size_fit(us, c)[0] and a.get("scope") != "international":
             us_fit.append(a["name"])
     us_cm, us_total = " x ".join(num(round(x, 1)) for x in us), num(round(sum(us), 1))

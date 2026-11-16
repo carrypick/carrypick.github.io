@@ -897,6 +897,220 @@
       ]
     },
     {
+      "slug": "lufthansa",
+      "name": "Lufthansa",
+      "scope": "international",
+      "region": "Europe",
+      "hub": "Frankfurt (FRA) and Munich (MUC)",
+      "checked": "2026-11-15",
+      "official_url": "https://www.lufthansa.com/in/en/prepare-for-your-trip/baggage/free-baggage",
+      "cabin": {
+        "pieces": 1,
+        "kg": 8,
+        "dims_cm": [
+          55,
+          40,
+          23
+        ],
+        "total_cm": null,
+        "summary": "One cabin bag up to 8 kg, plus a small personal item",
+        "detail": "In Economy on long-haul flights, such as those to and from India, you can take one cabin bag up to 8 kg and 55 x 40 x 23 cm, plus one personal item up to 40 x 30 x 15 cm that fits under the seat. A garment bag, a folding pocket buggy or duty-free shopping counts within this allowance. Lufthansa checks cabin bags at the airport: one that breaks the rules is put in the hold at your cost, EUR 60 to 110 (USD 75 to 125) depending on the route, paid by credit card only. Lufthansa doesn't say whether wheels and handles count, so measure them in."
+      },
+      "personal": {
+        "summary": "One personal item up to 40 x 30 x 15 cm, such as a handbag or laptop bag, stowed under the seat"
+      },
+      "checkin": [
+        {
+          "fare": "Economy Light",
+          "allowance": "No free checked bag (the first bag can be added at a reduced price)"
+        },
+        {
+          "fare": "Economy (other fares)",
+          "allowance": "1 bag up to 23 kg"
+        },
+        {
+          "fare": "Premium Economy",
+          "allowance": "2 bags, each up to 23 kg (1 bag on Premium Economy Light)"
+        }
+      ],
+      "checkin_summary": "None on Economy Light, 1 bag of 23 kg on other Economy fares",
+      "checkin_note": "These are Lufthansa's allowances for intercontinental flights, which include flights between India and Europe. Each Economy bag can weigh up to 23 kg and measure up to 158 cm in total; heavier or bigger bags count as excess baggage, and nothing over 32 kg is accepted. Lufthansa says the allowance printed on your ticket is the one that applies, and it can depend on your route and Miles & More status.",
+      "infant": "A baby under 2 gets one checked bag up to 23 kg and 158 cm, except on Light fares, plus one free item such as a folding stroller (checked) or a car seat (in the cabin). On Economy Light, only the adult travelling with the baby can buy an extra bag.",
+      "excess": {
+        "summary": "On Economy Light the first bag costs EUR 70 to 85 online or EUR 105 at check-in, each way; on other fares an extra 23 kg bag costs EUR 120 to 220 online, depending on distance",
+        "points": [
+          "Lufthansa charges flat rates per bag that depend on how far you fly. Its page doesn't say which distance band India flights fall into, so the ranges below cover all its intercontinental bands.",
+          "First bag on an Economy Light fare, per direction: EUR 70 to 85 on lufthansa.com, EUR 105 at check-in.",
+          "Extra 23 kg bag on other Economy fares: EUR 120 to 220 online, EUR 160 to 260 at the check-in desk.",
+          "A bag over 23 kg (up to 32 kg) or over 158 cm costs a flat EUR 100 to 150; a bag over both costs EUR 200 to 300.",
+          "Fees are charged in the currency of your departure airport, and local taxes may be added. You can book extra bags under My Bookings, at the airport or through the Service Center."
+        ]
+      },
+      "notes": [
+        "Power banks: up to two, each up to 100 Wh, in your cabin bag only. Charging or using them on board is prohibited, and they mustn't go in the overhead locker: keep them under the seat in front, in the seat pocket or on you.",
+        "Flying into India and connecting to a domestic flight? You must collect your bags, clear customs and check them in again.",
+        "On journeys to or from the USA or Canada, the baggage rules of the first airline on your ticket usually apply to the whole trip."
+      ],
+      "sources": [
+        {
+          "label": "Lufthansa free baggage rules",
+          "url": "https://www.lufthansa.com/in/en/prepare-for-your-trip/baggage/free-baggage"
+        },
+        {
+          "label": "Lufthansa carry-on baggage",
+          "url": "https://www.lufthansa.com/in/en/carry-on-baggage"
+        },
+        {
+          "label": "Lufthansa excess baggage",
+          "url": "https://www.lufthansa.com/in/en/prepare-for-your-trip/baggage/excess-baggage"
+        },
+        {
+          "label": "Lufthansa: buying a bag at check-in",
+          "url": "https://www.lufthansa.com/in/en/prepare-for-your-trip/baggage/baggage-conditions"
+        },
+        {
+          "label": "Lufthansa electronic devices and batteries",
+          "url": "https://www.lufthansa.com/in/en/prepare-for-your-trip/baggage/electronic-devices-and-batteries"
+        }
+      ]
+    },
+    {
+      "slug": "british-airways",
+      "name": "British Airways",
+      "scope": "international",
+      "region": "Europe",
+      "hub": "London Heathrow (LHR)",
+      "checked": "2026-11-15",
+      "official_url": "https://www.britishairways.com/content/information/baggage-essentials",
+      "cabin": {
+        "pieces": 1,
+        "kg": null,
+        "dims_cm": [
+          56,
+          45,
+          25
+        ],
+        "total_cm": null,
+        "summary": "One cabin bag plus one handbag or backpack",
+        "detail": "Every passenger, even on hand-baggage-only fares, may bring one cabin bag up to 56 x 45 x 25 cm, wheels and handles included, and one handbag or backpack up to 40 x 30 x 15 cm that fits under the seat in front. British Airways' baggage page gives no weight limit for cabin bags, but you must be able to lift yours into the overhead locker without help. The bigger bag may have to go in the hold on busy flights, so keep valuables, electronics and medicines in the handbag."
+      },
+      "personal": {
+        "summary": "One handbag or backpack up to 40 x 30 x 15 cm that fits under the seat in front of you"
+      },
+      "checkin": [
+        {
+          "fare": "Economy Basic (hand baggage only)",
+          "allowance": "No free checked bag"
+        },
+        {
+          "fare": "Economy",
+          "allowance": "1 bag up to 23 kg"
+        },
+        {
+          "fare": "Premium Economy",
+          "allowance": "2 bags, each up to 23 kg (1 bag on a few routes)"
+        }
+      ],
+      "checkin_summary": "None on Basic, 1 bag of 23 kg on Economy and 2 bags of 23 kg on Premium Economy",
+      "checkin_note": "Each checked bag can weigh up to 23 kg and measure up to 90 x 75 x 43 cm. The 23 kg can't be shared between bags, and no bag may weigh more than 32 kg. British Airways' table doesn't list separate allowances for India routes, so check yours in Manage My Booking.",
+      "infant": "An infant under 2 gets one 23 kg checked bag in every cabin, except on hand-baggage-only (Basic) fares, plus an extra bag for in-flight essentials. Each infant and child can also check in up to two of these free, even on Basic fares: a folding pushchair, a car or booster seat, a travel cot or a baby back carrier.",
+      "excess": {
+        "summary": "A bag of 23 to 32 kg costs GBP 65 (USD 100) each way; extra bags are priced by destination and are cheapest in Manage My Booking before check-in",
+        "points": [
+          "Heavy bag charge: GBP 65, EUR 75 or USD 100 per overweight bag (23 to 32 kg) per one-way journey, turned into local currency when you fly from India. Many airports, including Heathrow, take only cards.",
+          "Extra bags: you can pay for up to 10. The price depends on your destination and how many you add; British Airways shows it in Manage My Booking and doesn't publish a price list for India.",
+          "Add extra bags online before you check in to get the discounted online rate (card or Avios). After check-in, only the higher airport rate is available.",
+          "Prepaid extra bags can be refunded if you cancel them before the flight leaves.",
+          "Oversize items up to 190 x 75 x 65 cm are usually accepted within your allowance; tell British Airways at least 48 hours before you fly."
+        ]
+      },
+      "notes": [
+        "Power banks: up to two per person, each up to 100 Wh with the capacity printed on it, in your hand baggage only. Seat power can't be used to charge them, and they must stay in the seat pocket or a bag under the seat. If your cabin bag goes in the hold, take power banks and spare batteries out first.",
+        "You can't pool your checked allowance with another traveller, even on the same booking.",
+        "Large screens such as TVs and computer monitors aren't accepted as checked baggage."
+      ],
+      "sources": [
+        {
+          "label": "British Airways baggage essentials",
+          "url": "https://www.britishairways.com/content/information/baggage-essentials"
+        },
+        {
+          "label": "British Airways family baggage",
+          "url": "https://www.britishairways.com/content/information/family-travel/baggage"
+        },
+        {
+          "label": "British Airways restricted items and batteries",
+          "url": "https://www.britishairways.com/content/information/baggage-essentials/liquids-and-restrictions"
+        }
+      ]
+    },
+    {
+      "slug": "turkish-airlines",
+      "name": "Turkish Airlines",
+      "scope": "international",
+      "region": "Europe",
+      "hub": "Istanbul (IST)",
+      "checked": "2026-11-16",
+      "official_url": "https://www.turkishairlines.com/en-in/any-questions/carry-on-baggage/",
+      "cabin": {
+        "pieces": 1,
+        "kg": 8,
+        "dims_cm": [
+          55,
+          40,
+          23
+        ],
+        "total_cm": null,
+        "summary": "One cabin bag up to 8 kg, plus a 4 kg personal item",
+        "detail": "Economy passengers may take one cabin bag up to 55 x 40 x 23 cm and 8 kg, and one personal item up to 40 x 30 x 15 cm and 4 kg that goes under the seat. Show your cabin bag at check-in to get it tagged: at the gate, untagged bags that break the rules are charged and put in the hold. On full flights you may be asked to check in a standard cabin bag, free of charge. Turkish Airlines doesn't say whether wheels and handles count, so measure them in."
+      },
+      "personal": {
+        "summary": "One personal item up to 40 x 30 x 15 cm and 4 kg, such as a handbag or laptop bag"
+      },
+      "checkin": [
+        {
+          "fare": "EcoFly, ExtraFly, FlexFly and PrimeFly",
+          "allowance": "Not published for India routes; Turkish Airlines says it varies by route and shows it in its baggage calculator and on your ticket"
+        },
+        {
+          "fare": "Each bag (economy)",
+          "allowance": "Up to 23 kg on piece-system routes, never over 32 kg, and up to 158 cm in total"
+        }
+      ],
+      "checkin_summary": "Depends on your route and fare; Turkish Airlines shows it in its baggage calculator and on your ticket, not on its pages",
+      "checkin_note": "Turkish Airlines uses a piece system on some routes and a weight (kg) system on others, and its pages don't say which applies to India or how much each fare includes. Some EcoFly fares include no checked bag at all. On piece-system routes each economy bag can weigh up to 23 kg; on every route a single bag can't weigh more than 32 kg, and bags of 158 to 292 cm cost an oversize fee.",
+      "infant": "An infant may have one 8 kg cabin bag and a stroller up to 115 cm. The infant's checked allowance is one 23 kg bag on piece-system routes or 10 kg on weight-system routes, but nothing on EcoFly routes that have no free checked bag.",
+      "excess": {
+        "summary": "Turkish Airlines doesn't publish extra baggage prices for India routes; its calculator shows them. An oversized bag costs USD 110 on flights to or from Türkiye",
+        "points": [
+          "Extra baggage prices depend on your route and fare package (EcoFly, ExtraFly, PrimeFly and others). Turkish Airlines shows them in its baggage calculator, not on its pages, and says they can change up to 8 hours before the flight.",
+          "Oversize bags (158 to 292 cm, wheels not counted) cost USD 110 each on flights to or from Türkiye, such as India to Istanbul, and USD 150 on journeys that only connect in Istanbul, such as India to the USA. Bags over 292 cm aren't accepted.",
+          "You can pay oversize fees at a Turkish Airlines sales office, at airport check-in or through the call centre.",
+          "Star Alliance Gold members get one extra bag on piece-system routes or 20 kg more on weight-system routes."
+        ]
+      },
+      "notes": [
+        "Liquids in checked baggage: no more than 5 litres in total, in sealed containers of up to 1 litre each, packed so they can't leak. Leaky cardboard or tin boxes, sacks and plastic bags aren't accepted.",
+        "Some airports don't let transit passengers carry liquids over 100 ml through transfer security, even sealed duty-free. Check your connecting airport's rules.",
+        "Travellers on different bookings (PNRs) can't combine their checked allowances."
+      ],
+      "sources": [
+        {
+          "label": "Turkish Airlines cabin baggage",
+          "url": "https://www.turkishairlines.com/en-in/any-questions/carry-on-baggage/"
+        },
+        {
+          "label": "Turkish Airlines checked baggage",
+          "url": "https://www.turkishairlines.com/en-in/any-questions/checked-baggage/"
+        },
+        {
+          "label": "Turkish Airlines fare rules",
+          "url": "https://www.turkishairlines.com/en-in/any-questions/fare-rules/"
+        }
+      ],
+      "seo_title": "Turkish Airlines baggage allowance from India 2026: 8 kg cabin bag size and checked bag rules"
+    },
+    {
       "slug": "indigo-international",
       "name": "IndiGo (international)",
       "scope": "international",

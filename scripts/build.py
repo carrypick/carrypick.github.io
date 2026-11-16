@@ -1145,6 +1145,10 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
         faq.insert(1, ("How much baggage can I take from India to Bangkok?",
                        "On Thai Airways, one 23 kg bag on Saver and Standard fares and two 23 kg bags on Flexi and Full Flex, plus a 7 kg cabin bag. "
                        "IndiGo gives 20 kg to Bangkok and Phuket on regular fares (25 kg on UpFront)."))
+    if {"british-airways", "lufthansa"} <= slugs:
+        faq.insert(1, ("How much baggage can I take from India to the UK or Europe?",
+                       "In Economy, British Airways and Lufthansa each include one checked bag of up to 23 kg (none on BA's Basic or Lufthansa's Light fares), "
+                       "plus a cabin bag and a small personal item. Heavier bags, up to 32 kg, cost extra."))
     if "vietjet" in slugs:
         faq.insert(2, ("Does Vietjet include checked baggage from India?",
                        "Not on Eco fares: you get only 7 kg of cabin baggage and buy checked bags separately, cheapest with your ticket. "
@@ -1156,8 +1160,10 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
             "including Emirates, Qatar Airways, Saudia, IndiGo and Air India. Checked against official websites, %s." % (
                 len(airlines), intl_where(airlines), fmt_date(checked)))
     pieces = "Kuwait Airways counts pieces (2 x 23 kg on Economy)" + (
-        ", and so does Thai Airways since March 2026 (one or two 23 kg bags)" if "thai-airways" in slugs else "")
-    no_bag = ["Etihad Basic", "flydubai Lite", "Air Arabia Basic", "IndiGo Lite", "Kuwait Airways Zero Bag"] + (["Vietjet Eco"] if "vietjet" in slugs else [])
+        ", and so does Thai Airways since March 2026 (one or two 23 kg bags)" if "thai-airways" in slugs else "") + (
+        ". British Airways and Lufthansa give Economy one 23 kg bag" if {"british-airways", "lufthansa"} <= slugs else "")
+    no_bag = (["Etihad Basic", "flydubai Lite", "Air Arabia Basic", "IndiGo Lite", "Kuwait Airways Zero Bag"] + (["Vietjet Eco"] if "vietjet" in slugs else [])
+              + (["British Airways Basic"] if "british-airways" in slugs else []) + (["Lufthansa Economy Light"] if "lufthansa" in slugs else []))
     body = f"""{head(title, '<a href="index.html">Baggage rules</a><span>/</span>International', when + " against each airline's official website &middot; economy, India routes", BAGGAGE_PHOTO)}
 <div class="wrap"><article class="guide">
 <p class="lead">Economy baggage on flights between India and {e(intl_where(airlines, long=True))}, in one place. Tap an airline for the full rules, infant allowance and tips.</p>
@@ -1333,10 +1339,12 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
         if a.get("personal"):
             faq.insert(2, ("Can I carry a laptop bag or handbag too?", a["personal"]["summary"] + "."))
         faq_html = "".join("<h3>%s</h3><p>%s</p>" % (e(q), e(ans)) for q, ans in faq)
+        weight_note = (('The "weight" column shows what\'s left of the %s kg limit after the bag itself.' % num(cabin["kg"])) if cabin.get("kg")
+                       else e(a["name"]) + " gives no weight limit for cabin bags, so the weight column shows no figure.")
         if abroad:
             nm = a.get("page_name", a["name"])
             title = "%s baggage allowance from India: cabin bag and checked baggage" % nm
-            seo = "%s baggage allowance from India %s: cabin bag size and kg by fare" % (nm, year)
+            seo = a.get("seo_title") or "%s baggage allowance from India %s: cabin bag size and kg by fare" % (nm, year)
             desc = "%s economy baggage on India flights: %s, %s. Checked baggage: %s. Checked %s." % (
                 nm, cabin["summary"], size_limit_text(cabin), a["checkin_summary"], fmt_date(a_checked))
             crumb_html = '<a href="index.html">Baggage rules</a><span>/</span><a href="international.html">International</a>'
@@ -1370,7 +1378,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
 {('<h2>Extra baggage charges</h2><p>' + e(excess['summary']) + '.</p><ul>' + "".join("<li>%s</li>" % e(x) for x in excess.get("points", [])) + '</ul>') if excess else ''}
 {('<h2>Good to know</h2><ul>' + notes + '</ul>') if notes else ''}
 <h2 id="our-picks-fit">Do our cabin picks fit {e(a['name'])}?</h2>
-<p>Based on the size listed on Amazon. The "weight" column shows what's left of the {num(cabin['kg']) if cabin.get('kg') else ''} kg limit after the bag itself.</p>
+<p>Based on the size listed on Amazon. {weight_note}</p>
 {fit_table(cfg, a, picks, "../")}
 <p>Weigh your packed bag at home with a {scale_link} before you leave.</p>
 <section class="faq"><h2>Questions</h2>{faq_html}</section>
@@ -2318,7 +2326,7 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
         air_rows += (f'<tr><th scope="row"><a href="{a["slug"]}.html">{e(a["name"])}</a></th>'
                      f'<td>{" x ".join(num(x) for x in c["dims_cm"])} cm' + (f'<span class="why">{num(c["total_cm"])} cm in total</span>' if c.get("total_cm") else "") + '</td>'
                      f'<td>{" x ".join(inch(x) for x in c["dims_cm"])} in' + (f'<span class="why">{inch(c["total_cm"])} in in total</span>' if c.get("total_cm") else "") + '</td>'
-                     f'<td>{num(c["kg"])} kg<span class="why">{lb(c["kg"])} lb</span></td></tr>')
+                     + (f'<td>{num(c["kg"])} kg<span class="why">{lb(c["kg"])} lb</span></td></tr>' if c.get("kg") else '<td>No limit given</td></tr>'))
         if size_fit(us, c)[0] and a.get("scope") != "international":
             us_fit.append(a["name"])
     us_cm = " x ".join(num(round(x, 1)) for x in us)
