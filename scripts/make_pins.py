@@ -590,6 +590,47 @@ PINS = [
          description="Udaipur in December is about 26 °C by day and 8 °C at night, with almost no rain. A simple 2-day plan for City Palace, Lake Pichola boats, Bagore ki Haveli and Fateh Sagar, a third day for Kumbhalgarh and Ranakpur, the Shilpgram Utsav and what to wear.",
          alt="City Palace in Udaipur seen from Lake Pichola, with the words Udaipur trip plan.",
          html=photo("udaipur-city-palace", "Udaipur trip plan", "2 or 3 days in winter: palaces, lake boats, Shilpgram and day trips")),
+    # 16 Nov 2026: packing lists for trips abroad from India, and the UAE customs page.
+    dict(slug="thailand-packing", board="Packing and What to Wear", link="guides/thailand-packing-list.html",
+         title="Thailand packing list from India: what to pack and wear",
+         description="Thailand is hot all year, and mostly dry in Bangkok from December to February. Pack light cotton clothes, one outfit that covers shoulders and knees for temples, a light jacket for the north, rain gear for Phuket, and a cabin bag that fits your airline.",
+         alt="Bangkok's average December day and night temperatures, and a short Thailand packing list: light clothes, a temple outfit, rain gear and the right cabin bag.",
+         html=chart("Thailand from India", "Thailand packing list: the short version",
+                    '<div class="big"><div><b>31 °C</b><span>a typical December day in Bangkok</span></div><div><b>21 °C</b><span>a typical night. Chiang Mai is cooler</span></div></div>'
+                    + group("Clothes", "Light cotton or linen, swimwear, and one outfit that covers shoulders and knees for temples.")
+                    + group("Rain and sun", "A poncho for Phuket showers in November and December. Sunscreen, a cap and sunglasses.")
+                    + group("Your bag", "IndiGo gives 20 kg to Bangkok, Phuket and Krabi on regular fares, and a 7 kg cabin bag.")
+                    + '<p class="note">Weather: Thai Meteorological Department averages via WMO.</p>')),
+    dict(slug="dubai-packing", board="Packing and What to Wear", link="guides/dubai-packing-list.html",
+         title="Dubai packing list from India: what to pack and wear",
+         description="Dubai is warm and dry from November to March, with cool nights in December and January. Pack light clothes, modest outfits for malls, souks and mosques, a warm layer for the desert safari, and a cabin bag that fits Emirates, flydubai or IndiGo.",
+         alt="Dubai's average December day and night temperatures, and a short Dubai packing list: light clothes, modest outfits, a warm layer and the cabin bag limit.",
+         html=chart("Dubai from India", "Dubai packing list: the short version",
+                    '<div class="big"><div><b>26 °C</b><span>a typical December day in Dubai</span></div><div><b>15 °C</b><span>a typical night. Take a jacket</span></div></div>'
+                    + group("Clothes", "Light cotton for the day, and outfits that cover shoulders and knees for malls, souks and mosques.")
+                    + group("One warm layer", "A light jacket or shawl for winter evenings, the desert safari and cold malls.")
+                    + group("Your bag", "Emirates: one 7 kg cabin bag, 55 x 38 x 22 cm. Check-in 20–35 kg by fare.")
+                    + '<p class="note">Weather: UAE NCM averages via WMO.</p>')),
+    dict(slug="uae-customs", board="Flight and Train Baggage Rules", link="baggage/customs/uae-dubai.html",
+         title="What can I carry from India to Dubai? UAE customs rules",
+         description="UAE customs lets you bring gifts worth AED 3,000, 200 cigarettes and 4 litres of alcohol duty free. Declare more than AED 60,000 in cash or gold. Poppy seeds (khus khus) and paan are banned, and medicines like tramadol and pregabalin need a prescription.",
+         alt="A table of UAE duty-free limits: AED 3,000 of gifts, 200 cigarettes, 4 litres of alcohol and cash over AED 60,000 to declare, plus banned items and the medicine rule.",
+         html=chart("Flying India to Dubai", "UAE customs: what you can bring in", table(
+             ["What", "Duty-free limit"],
+             [["Gifts and perfume", "AED 3,000"], ["Cigarettes", "200"], ["Alcohol (18+)", "4 litres"], ["Cash and gold", "Declare over 60,000"]])
+             + group("Banned", "Poppy seeds (khus khus), paan and betel leaves, drugs, fake goods.")
+             + group("Controlled medicines", "Tramadol, pregabalin, codeine and others: prescription, up to 3 months.")
+             + '<p class="note">Limits in AED. Checked 16 Nov 2026.</p>')),
+    dict(slug="bali-packing", board="Packing and What to Wear", link="guides/bali-packing-list.html",
+         title="Bali packing list from India: what to pack and wear",
+         description="Bali is hot all year, and December and January bring rain on most days. Pack quick-dry clothes, a rain poncho, sandals that can get wet, a temple outfit that covers shoulders and knees, and pay the Rp 150,000 Bali levy on the official Love Bali site.",
+         alt="Denpasar's December rain and temperatures, and a short Bali packing list: quick-dry clothes, rain gear, a temple outfit and the bag allowance.",
+         html=chart("Bali from India", "Bali packing list: the short version",
+                    '<div class="big"><div><b>22 days</b><span>with rain in a typical December in Denpasar</span></div><div><b>33 °C</b><span>a typical December day</span></div></div>'
+                    + group("Rain gear", "A poncho, quick-dry clothes and a waterproof phone pouch.")
+                    + group("Temples", "Cover shoulders and knees. Many temples give or rent a sarong and sash.")
+                    + group("Your bag", "IndiGo gives 20 kg to Bali on regular fares, and a 7 kg cabin bag.")
+                    + '<p class="note">Weather: BMKG averages via WMO.</p>')),
 ]
 
 
