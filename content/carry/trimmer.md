@@ -1,23 +1,24 @@
 ---
 title: Can I carry a trimmer on a flight in India?
 seo_title: Trimmer in flight: cabin bag or check-in? India rules 2026
-description: A trimmer with a built-in battery can go in your cabin bag. In check-in it must be fully switched off. What IndiGo's list says, scissors in grooming kits, blades and spare batteries.
+description: A trimmer with a built-in battery can go in your cabin bag. In check-in it must be fully switched off. What the IndiGo, SpiceJet and Air India Express lists say, electric shavers, grooming kits and spare batteries.
 item: Trimmer
 date: 2026-11-10
-checked_against: IndiGo's list and Akasa Air's battery rules
-sources: IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Akasa Air conditions of carriage=https://www.akasaair.com/quick-links/conditions-of-carriage | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security | Airports Authority of India=https://www.aai.aero/en/node/92938
+updated: 2026-11-16
+checked_against: IndiGo, SpiceJet, Air India Express and Akasa Air rules
+sources: IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Akasa Air conditions of carriage=https://www.akasaair.com/quick-links/conditions-of-carriage | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security | Airports Authority of India=https://www.aai.aero/en/node/92938 | IndiGo dangerous goods table (PDF)=https://www.goindigo.in/content/dam/s6web/in/en/assets/static-pages/baggage/IndiGo-DGR-Table.pdf | SpiceJet dangerous goods list=https://corporate.spicejet.com/DGR.aspx | Air India Express prohibited items (PDF)=https://www.airindiaexpress.com/content/dam/airindiaexpress/documents/mandatory-disclosure/AIX_Prohibited_Items.pdf
 related: packing/weekend.html=Weekend packing list | packing/business.html=Work trip packing list | guides/cabin-luggage-guide.html=Cabin bag rules | baggage/index.html=Airline baggage rules
 ---
-## What IndiGo's list says
+## What the airline lists say
 
-Of the airline pages we checked, only IndiGo's names trimmers. It has two rows:
+Three airline lists name trimmers: IndiGo, SpiceJet and Air India Express. All three have the same two rows:
 
 | Trimmer | Cabin bag | Check-in |
 |---|---|---|
-| With a built-in battery | Yes | Yes, fully switched off and protected from turning on |
+| With a built-in battery | Yes | Yes, fully switched off and protected from turning on (IndiGo) |
 | Without a battery | No | Yes |
 
-A rechargeable trimmer has a built-in battery, so it can go in your cabin bag. IndiGo doesn't explain the second row. If your trimmer has no battery, for example one that only works when plugged in, pack it in check-in when you fly IndiGo.
+A rechargeable trimmer has a built-in battery, so it can go in your cabin bag. None of the three explains the second row. If your trimmer has no battery, for example one that only works when plugged in, pack it in check-in. Air India's and Akasa Air's pages don't name trimmers.
 
 ## The battery rules behind it
 
@@ -39,20 +40,25 @@ In a check-in bag, Akasa Air says any battery device must be **completely switch
 
 ## Electric shavers
 
-Electric shavers aren't named on the IndiGo, Air India or Akasa Air pages we checked. A shaver with a built-in battery is a battery device, so the same battery rules apply as for a trimmer. If you're not sure, ask your airline before you fly.
+Electric shavers aren't named on any of the airline pages we checked (IndiGo, Air India, Akasa Air, SpiceJet and Air India Express), or on the airport security lists based on BCAS rules. BCAS's own list didn't load when we tried it. A rechargeable shaver is a battery device, so:
+
+- **Cabin bag:** every airline we checked allows phones and other small battery devices in the cabin, so this is the safe place for a shaver.
+- **Check-in:** IndiGo's dangerous goods table and Akasa Air allow battery devices if they're fully switched off and can't turn on. Air India's page keeps phones and laptops with batteries out of check-in, and doesn't mention shavers.
+
+If you're not sure, ask your airline before you fly.
 
 ## What to do instead
 
 - Short trip with only a cabin bag: carry a rechargeable trimmer with the travel lock on.
 - Charge it fully at home, so you don't need the charger on a short trip.
-- Corded trimmer on IndiGo: pack it in check-in.
+- Corded trimmer: pack it in check-in (IndiGo, SpiceJet, Air India Express).
 - Take the scissors out of your grooming kit before you pack it in your cabin bag.
 
 ## Questions
 
 ### Can I carry a trimmer in my cabin bag?
 
-Yes, if it has a built-in battery. IndiGo's list allows a trimmer with a battery in both bags. It says a trimmer without a battery goes in check-in only.
+Yes, if it has a built-in battery. IndiGo, SpiceJet and Air India Express allow a trimmer with a battery in both bags. They put a trimmer without a battery in check-in only.
 
 ### Can I carry a trimmer in my check-in bag?
 
@@ -60,8 +66,8 @@ Yes. It must be fully switched off and protected so it can't turn on, for exampl
 
 ### Is a beard trimmer a sharp object at airport security?
 
-None of the airline pages we checked treats it as one, and IndiGo's list allows a trimmer with a battery in the cabin. Loose razor blades and scissors are different: they are banned in the cabin.
+None of the airline pages we checked treats it as one, and IndiGo, SpiceJet and Air India Express allow a trimmer with a battery in the cabin. Loose razor blades and scissors are different: they are banned in the cabin.
 
 ### Can I carry an electric shaver on a flight?
 
-Shavers aren't named on the airline pages we checked. One with a built-in battery follows the same battery rules as a trimmer. Ask your airline if you're not sure.
+The airline pages and airport lists we checked don't name shavers. A rechargeable shaver is a battery device, and small battery devices are allowed in the cabin, so pack it in your cabin bag. Ask your airline if you want to put it in check-in.

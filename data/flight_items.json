@@ -82,15 +82,15 @@
      "item": "Trimmer",
      "cabin": "conditional",
      "checked": "conditional",
-     "rule": "A trimmer with a built-in battery is fine in the cabin. In check-in it must be fully switched off and protected from turning on. IndiGo's list puts a trimmer without a battery in check-in only.",
+     "rule": "A trimmer with a built-in battery is fine in the cabin. In check-in it must be fully switched off and protected from turning on. IndiGo, SpiceJet and Air India Express put a trimmer without a battery in check-in only.",
      "source": "https://www.goindigo.in/baggage/dangerous-goods-policy.html",
      "also": [
       "beard trimmer",
       "hair trimmer",
       "electric trimmer"
      ],
-     "rechecked": "2026-11-10",
-     "cabin_short": "Yes, if it has a built-in battery. IndiGo's list says a trimmer without a battery goes in check-in only.",
+     "rechecked": "2026-11-16",
+     "cabin_short": "Yes, if it has a built-in battery. A trimmer without a battery goes in check-in only (IndiGo, SpiceJet, Air India Express).",
      "checked_short": "Yes, switched fully off and protected so it can't turn on in the bag."
     },
     {
@@ -241,7 +241,7 @@
       "disposable razor",
       "safety razor"
      ],
-     "rechecked": "2026-11-15",
+     "rechecked": "2026-11-16",
      "cabin_short": "Yes for a safety or disposable razor with the blades in a cartridge. Loose blades aren't allowed.",
      "checked_short": "Yes, including loose blades, wrapped so nobody gets cut."
     },
