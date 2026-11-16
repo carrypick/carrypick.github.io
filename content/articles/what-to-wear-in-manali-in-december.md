@@ -164,7 +164,7 @@ Most people reach Manali on an overnight Volvo bus from Delhi or Chandigarh. Wea
 
 ## Going to Shimla too?
 
-Shimla is a little warmer than Manali at night. IMD's December averages are about 12 °C by day and 4 °C at night. But IMD's lowest ever reading in Shimla, −12.2 °C, was in December, on 13 December 1963. So pack the same layers and shoes for both places. Higher places near Shimla, such as Kufri and Narkanda, usually see snow more often than the town.
+Shimla is a little warmer than Manali at night. IMD's December averages are about 12 °C by day and 4 °C at night. But IMD's lowest ever reading in Shimla, −12.2 °C, was in December, on 13 December 1963. So pack the same layers and shoes for both places. Higher places near Shimla, such as Kufri and Narkanda, usually see snow more often than the town. For the weather, snow chances, the toy train and winter roads, read our [Shimla in December guide](../trips/shimla-in-december.html).
 
 ## Questions
 

@@ -12,7 +12,7 @@ glance: Weather in December=Srinagar about 10 °C by day and −1 °C at night. 
 ---
 Kashmir in December is cold, quiet and often snowy. Srinagar's nights go below freezing, Gulmarg is colder still, and the hardest part of winter, Chillai Kalan, starts on 21 December. This guide covers the weather, the chances of snow, getting there in winter, and what to wear.
 
-Still choosing? Compare other winter trips in [where to go in December and January](where-to-go-in-december-january.html). Going to Himachal instead? See [what to wear in Manali in December](../guides/what-to-wear-in-manali-in-december.html).
+Still choosing? Compare other winter trips in [where to go in December and January](where-to-go-in-december-january.html). Going to Himachal instead? See [what to wear in Manali in December](../guides/what-to-wear-in-manali-in-december.html) and [Shimla in December](shimla-in-december.html).
 
 ## Weather in December
 
