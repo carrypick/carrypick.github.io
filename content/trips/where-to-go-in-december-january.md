@@ -1,16 +1,16 @@
 ---
 seo_title: Where to go in India in December and January 2026–27: beach, snow or heritage?
 title: Where to go in India in December and January
-description: Beach, snow, forts or backwaters? Compare Goa, Andaman, Manali, Shimla, Rishikesh, Darjeeling, Jaipur, Udaipur and Kerala for a Christmas or New Year trip: weather, how to get there, crowds and what to pack.
+description: Beach, snow, forts or backwaters? Compare Goa, Andaman, Manali, Shimla, Rishikesh, Darjeeling, Ooty, Varanasi, Jaipur, Udaipur and Kerala for a Christmas or New Year trip: weather, how to get there, crowds and what to pack.
 date: 2026-11-03
-updated: 2026-11-16
+updated: 2026-11-17
 place: India in winter
 best: Dec–Jan
 photo: traveller-sunset
 priority: 1
 glance: For beaches and parties=[Goa](goa.html) | For clear sea and coral=[Andaman](andaman-in-december.html) | For snow=[Manali](manali.html) or [Shimla](shimla-in-december.html) (snow isn't guaranteed) | For mountain views=[Darjeeling](darjeeling-in-december.html) | For the Ganga, yoga and rafting=[Rishikesh](rishikesh-in-december.html) | For forts and palaces=[Jaipur](jaipur.html) or [Udaipur](udaipur.html) | For backwaters and hills=[Kerala](kerala.html) | Book=As early as you can: Christmas to New Year is peak season everywhere
 ---
-December and January are the best months for most of India: the monsoon is long over, the skies are clear, and it's cool almost everywhere except the far south. They are also the busiest months, so it pays to choose well and book early. Here's how nine of India's favourite winter trips compare.
+December and January are the best months for most of India: the monsoon is long over, the skies are clear, and it's cool almost everywhere except the far south. They are also the busiest months, so it pays to choose well and book early. Here's how eleven of India's favourite winter trips compare.
 
 ## Quick comparison
 
@@ -22,6 +22,8 @@ December and January are the best months for most of India: the monsoon is long 
 | [Shimla](shimla-in-december.html) | An easy hill trip, the toy train, snow nearby | Days about 9–12 °C, nights about 2–4 °C | Chandigarh, then drive or take the toy train from Kalka | Very busy at Christmas, New Year and after snow |
 | [Rishikesh](rishikesh-in-december.html) | Ganga aarti, yoga, rafting | Sunny days about 20–22 °C, nights about 7–8 °C | Dehradun (DED), or a train to Haridwar | Busy at New Year, and very crowded around the Kumbh bath on 14 January |
 | [Darjeeling](darjeeling-in-december.html) | Mountain views, the toy train, tea gardens | Clear and dry: days about 11–14 °C, nights about 2–4 °C | Bagdogra (IXB), or a train to New Jalpaiguri (NJP) | Busy from Christmas to New Year |
+| [Ooty](ooty-in-december.html) | Tea hills, the Nilgiri toy train, frosty mornings | Days about 21 °C, nights about 6–7 °C; frost but no snow | Coimbatore (CJB), then about 89 km by road | Busy from Christmas to New Year; e-pass needed for cars |
+| [Varanasi](varanasi-in-december.html) | Ghats, the Ganga aarti, temples | Days about 22–24 °C, nights about 9–10 °C; foggy mornings | Varanasi (VNS) | Very crowded at Kashi Vishwanath at New Year |
 | [Jaipur](jaipur.html) | Forts, palaces, markets | Sunny days about 22–24 °C, cold nights about 8–9 °C | Jaipur (JAI) | Busy, especially 25 Dec to 1 Jan |
 | [Udaipur](udaipur.html) | Lakes, palaces, a crafts fair | Sunny days about 25–26 °C, cold nights about 7–8 °C | Udaipur (UDR) | Busy from Christmas to New Year, and during the Shilpgram Utsav (usually 21–30 Dec) |
 | [Kerala](kerala.html) | Backwaters, tea hills, quiet beaches | Coast about 21–34 °C; Munnar nights 2–9 °C | Kochi (COK) or Thiruvananthapuram (TRV) | Busy, with huge crowds at Fort Kochi on New Year's Eve |
@@ -62,6 +64,18 @@ Darjeeling is cold, dry and clear in winter, and December mornings often give th
 
 Read the full [Darjeeling in December and January guide](darjeeling-in-december.html).
 
+## Ooty: for tea hills and the toy train
+
+Ooty is cool by day and cold at night in winter. It doesn't snow, but clear January mornings bring frost on the grass. Ride the Nilgiri toy train up from Mettupalayam (it stops after landslides, so check first), and visit the Botanical Garden, Doddabetta and the tea estates. Cars from outside the Nilgiris need an e-pass.
+
+Read the full [Ooty in December and January guide](ooty-in-december.html).
+
+## Varanasi: for the ghats and the Ganga aarti
+
+Varanasi is dry with sunny afternoons in winter, but mornings are cold and often foggy, which delays trains and flights. Take a boat along the ghats, watch the evening aarti at Dashashwamedh Ghat (around 6 PM in winter), and visit Sarnath (its museum is closed on Fridays). Kashi Vishwanath is extremely crowded at New Year.
+
+Read the full [Varanasi in December and January guide](varanasi-in-december.html).
+
 ## Jaipur: for forts, palaces and markets
 
 Jaipur has warm sunny afternoons and chilly mornings, perfect for walking around forts. Combine it with Delhi and Agra for the Golden Triangle. In January, the Jaipur Literature Festival (14–18 January 2027) and the kite festival around 14 January add more to see.
@@ -97,6 +111,8 @@ Compare hotels and homestays for your dates on these sites:
 - **Want snow?** Go to Manali or Shimla, but plan for January or February for a better chance, and check the forecast. Kashmir has the most snow.
 - **Want to party on New Year's Eve?** Goa, or the Cochin Carnival in Fort Kochi.
 - **Travelling with parents or children?** Jaipur and Kerala are calmer, with easy sightseeing and mild days.
+- **Want a hill trip in the south?** Ooty, easy from Bangalore and Coimbatore. Expect frost, not snow.
+- **Want temples and the ghats?** Varanasi, but keep spare time for fog delays.
 - **Want a short, calm trip from Delhi?** Rishikesh, for the Ganga aarti, yoga and rafting. Avoid the Kumbh bath days around 14 January.
 - **Love palaces and lakes?** Udaipur, with a day trip to Kumbhalgarh and Ranakpur. It pairs well with Jaipur if you have a week.
 - **Visiting India for the first time?** Jaipur with Delhi and Agra, or Kerala, are easy first trips. Goa is popular with foreign visitors for a beach holiday.

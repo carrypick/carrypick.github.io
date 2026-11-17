@@ -11,7 +11,7 @@ glance: Weather in December=Sunny days about 22 °C, cold nights about 8 °C (IM
 ---
 Rishikesh in December and January is cool and sunny by day and cold at night. The town sits low, by the Ganga, so there's no snow, and the rafting season is open. This winter, two things are different: the famous Ram Jhula and Lakshman Jhula bridges are both closed, and the Haridwar Ardh Kumbh starts on 14 January 2027. This guide covers the weather, rafting and camps, the Ganga aarti, the bridges, getting there and what to wear.
 
-Still choosing? Compare other winter trips in [where to go in December and January](where-to-go-in-december-january.html). Want snow instead? See [Shimla in December](shimla-in-december.html) or [Manali in winter](manali.html).
+Still choosing? Compare other winter trips in [where to go in December and January](where-to-go-in-december-january.html). Want snow instead? See [Shimla in December](shimla-in-december.html) or [Manali in winter](manali.html). Want the Ganga with old temples and ghats? See [Varanasi in December](varanasi-in-december.html).
 
 ## Weather in December and January
 

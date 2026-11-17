@@ -68,6 +68,6 @@ Going in the monsoon, or to Kerala? A poncho is small, and it covers your bag to
 - **Check the care label.** Some jackets are dry clean only.
 - **Clothes sizes vary between brands.** Check the size chart on each Amazon page before you order.
 
-Don't forget your feet: see our [travel shoes guide](travel-shoes-guide.html). Then use the [winter hill trip packing list](../packing/hills.html) and read our [Manali winter guide](../trips/manali.html). Going in December? See [what to wear in Manali in December](what-to-wear-in-manali-in-december.html), our [Shimla in December guide](../trips/shimla-in-december.html) our [Kashmir in December guide](../trips/kashmir-in-december.html) or our [Darjeeling in December guide](../trips/darjeeling-in-december.html).
+Don't forget your feet: see our [travel shoes guide](travel-shoes-guide.html). Then use the [winter hill trip packing list](../packing/hills.html) and read our [Manali winter guide](../trips/manali.html). Going in December? See [what to wear in Manali in December](what-to-wear-in-manali-in-december.html), our [Shimla in December guide](../trips/shimla-in-december.html), our [Kashmir in December guide](../trips/kashmir-in-december.html), our [Darjeeling in December guide](../trips/darjeeling-in-december.html) or our [Ooty in December guide](../trips/ooty-in-december.html). For cold mornings on the plains, see [Varanasi in December](../trips/varanasi-in-december.html).
 
 Still deciding on a place? See [where to go in December and January](../trips/where-to-go-in-december-january.html).

@@ -12,7 +12,7 @@ glance: Weather in December=About 14 °C by day and 4 °C at night (IMD averages
 ---
 Darjeeling in December is cold, dry and clear. The days are sunny, the nights are close to freezing, and the views of Kanchenjunga are among the best of the year. Many people hope for snow, but snow in Darjeeling town is rare. This guide covers the weather, the real chances of snow, Tiger Hill at sunrise, the toy train, how to get there and what to wear.
 
-Still choosing? Compare Goa, Manali, Shimla and more in [where to go in December and January](where-to-go-in-december-january.html). Want snow for sure? [Kashmir in December](kashmir-in-december.html) and [Manali in winter](manali.html) get much more. Want warm sea instead? See [Andaman in December](andaman-in-december.html).
+Still choosing? Compare Goa, Manali, Shimla and more in [where to go in December and January](where-to-go-in-december-january.html). Want snow for sure? [Kashmir in December](kashmir-in-december.html) and [Manali in winter](manali.html) get much more. Want warm sea instead? See [Andaman in December](andaman-in-december.html). In the south, [Ooty in December](ooty-in-december.html) has a toy train too.
 
 ## Darjeeling weather in December and January
 

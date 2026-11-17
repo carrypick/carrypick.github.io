@@ -25,7 +25,7 @@ Still choosing? Compare Goa, Manali, Jaipur and Kerala in [where to go in Decemb
 
 Coastal figures are long-term averages from the India Meteorological Department (1991–2020). Munnar's come from tea research station records for January 2026; on some winter nights the hills touch 0 °C, and frost forms on the grass.
 
-So pack light cotton clothes for the coast and the backwaters, and a warm jacket for Munnar's evenings and mornings.
+So pack light cotton clothes for the coast and the backwaters, and a warm jacket for Munnar's evenings and mornings. Want another tea-hill town nearby? See [Ooty in December](ooty-in-december.html), with its toy train and frosty mornings.
 
 ## Getting there and around
 
