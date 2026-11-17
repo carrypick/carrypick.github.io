@@ -1,5 +1,63 @@
 [
   {
+    "asin": "B0FSXZGLJX",
+    "added_at": "2026-11-17T09:10:42+05:30",
+    "title": "Skybags Nero 20L Laptop Backpack (up to 15 inch)",
+    "category": "backpacks",
+    "highlights": [
+      "20 litres, 3 sections",
+      "Padded laptop slot, up to 15 inch",
+      "Air-mesh padded back",
+      "Hidden zip pocket for valuables"
+    ],
+    "note": "A light, simple everyday laptop bag from Skybags, well rated by many buyers.",
+    "brand": "Skybags",
+    "colour": "Green",
+    "best_for": [
+      "College",
+      "Office"
+    ],
+    "specs": {
+      "Capacity": "20 L",
+      "Size": "31 x 13 x 45 cm",
+      "Weight": "520 g",
+      "Material": "Polyester",
+      "Laptop": "Up to 15 inch",
+      "Water resistance": "Not water resistant"
+    },
+    "skip_if": "you walk or ride in the rain a lot: the listing says it is not water resistant and has no rain cover.",
+    "deal_seen_at": "2026-11-17T09:10:00+05:30"
+  },
+  {
+    "asin": "B0BV7D2KXQ",
+    "added_at": "2026-11-17T09:10:42+05:30",
+    "title": "uppercase JFK Small 56 cm Hard Cabin Trolley Bag",
+    "category": "luggage",
+    "highlights": [
+      "45 litres, small 56 cm size",
+      "Hard shell, 2.56 kg",
+      "8 spinner wheels",
+      "Built-in laundry compartment"
+    ],
+    "note": "A light, well-rated small hard trolley from an Indian brand, with a long 5.5-year warranty.",
+    "brand": "uppercase",
+    "colour": "Teal Blue",
+    "best_for": [
+      "Short trips",
+      "Train and bus travel"
+    ],
+    "specs": {
+      "Size": "40 x 26.5 x 55.5 cm (122 cm total)",
+      "Capacity": "45 L",
+      "Weight": "2.56 kg",
+      "Shell": "Hard",
+      "Lock": "3-digit combination",
+      "Warranty": "2000 days (about 5.5 years)"
+    },
+    "skip_if": "you need a bag that passes strict airline cabin checks: at 40 x 26.5 x 55.5 cm it adds up to 122 cm, over the 115 cm limit of IndiGo and Air India.",
+    "deal_seen_at": "2026-11-17T09:09:00+05:30"
+  },
+  {
     "asin": "B0DDTWN7DP",
     "added_at": "2026-11-16T09:10:20+05:30",
     "title": "Mokobara Transit 64 cm Medium Check-in Trolley, 65 L",
