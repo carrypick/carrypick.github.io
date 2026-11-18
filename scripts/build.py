@@ -1164,7 +1164,7 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
                        "Deluxe includes 20 kg and SkyBoss 30 kg."))
     faq_html, faq_schema = faq_block(faq)
     trip_lists = [(slug, place) for slug, place in (("thailand", "Thailand"), ("dubai", "Dubai"), ("bali", "Bali"), ("vietnam", "Vietnam"),
-                                                     ("maldives", "the Maldives"), ("sri-lanka", "Sri Lanka"))
+                                                     ("maldives", "the Maldives"), ("sri-lanka", "Sri Lanka"), ("bhutan", "Bhutan"))
                   if (ARTICLES_DIR / ("%s-packing-list.md" % slug)).exists()]
     packing_abroad = ("<p>Packing for the trip? See our packing lists for %s.</p>" % and_list(
         ['<a href="../guides/%s-packing-list.html">%s</a>' % (slug, place) for slug, place in trip_lists])) if trip_lists else ""
@@ -2644,7 +2644,7 @@ def pack_qty(rule, days):
 
 # Destination packing lists (guides) linked from the matching checklist, when the guide exists.
 PACKING_GUIDES = {"abroad": (("dubai", "Dubai"), ("thailand", "Thailand"), ("bali", "Bali"), ("vietnam", "Vietnam"),
-                             ("maldives", "the Maldives"), ("sri-lanka", "Sri Lanka")),
+                             ("maldives", "the Maldives"), ("sri-lanka", "Sri Lanka"), ("bhutan", "Bhutan")),
                   "beach": (("goa", "Goa"), ("andaman", "Andaman"), ("thailand", "Thailand"), ("bali", "Bali"),
                             ("maldives", "the Maldives"))}
 

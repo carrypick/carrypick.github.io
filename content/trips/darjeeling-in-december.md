@@ -58,6 +58,8 @@ The Darjeeling Himalayan Railway opened to Darjeeling in 1881. It is a narrow-ga
 - **Book on IRCTC,** and book early for Christmas and New Year.
 - **The full NJP–Darjeeling train can stop after landslides.** In 2024 it was suspended from July to mid-November. Check the latest status before you plan your trip around it.
 
+Going on to Bhutan? Indians need a passport or voter ID and pay a daily fee. See our [Bhutan packing list](../guides/bhutan-packing-list.html).
+
 ## Things to do in winter
 
 - **Tiger Hill sunrise.** At dawn, the Kanchenjunga peaks catch the first light before the hills below. On clear days you can also see the tops of Everest, Makalu and Lhotse far away. Jeeps leave Darjeeling at about 4 AM. Since September 2019 every vehicle needs a free pass from the Darjeeling traffic office, collected the day before, and the number of vehicles each day is limited. Your hotel or driver usually arranges it, but ask them early in peak season.

@@ -5,6 +5,7 @@ description: Plan Ooty for December or January: IMD temperatures, why you'll see
 date: 2026-11-17
 updated: 2026-11-18
 place: Ooty
+photo: ooty-tea-estate
 best: Oct–Jun; Dec–Jan are the coldest
 packing: hills
 feature_until: 2027-01-31

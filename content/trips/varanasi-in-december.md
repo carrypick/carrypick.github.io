@@ -5,6 +5,7 @@ description: Plan Varanasi for December or January: IMD temperatures, winter fog
 date: 2026-11-17
 updated: 2026-11-18
 place: Varanasi
+photo: varanasi-ghats-boat
 best: Oct–Mar; Dec–Jan are the coldest
 packing: weekend
 feature_until: 2027-01-31

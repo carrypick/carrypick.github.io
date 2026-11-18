@@ -267,6 +267,33 @@
       "profile": "https://unsplash.com/@element5digital",
       "alt": "Four wrapped gift boxes under a Christmas tree",
       "focus": "45% 52%"
+    },
+    "ooty-tea-estate": {
+      "commons": "File:Tea Estate in Ooty, Tamil Nadu.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:Tea_Estate_in_Ooty,_Tamil_Nadu.JPG",
+      "credit": "KARTY JazZ",
+      "profile": "https://commons.wikimedia.org/wiki/User:KARTY_JazZ",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "alt": "Rows of green tea bushes on a rolling hill near Ooty, with a few tall trees against a blue sky"
+    },
+    "varanasi-ghats-boat": {
+      "commons": "File:Varanasi ghats from opposite bank of Ganges.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Varanasi_ghats_from_opposite_bank_of_Ganges.jpg",
+      "credit": "neverbutterfly",
+      "profile": "https://www.flickr.com/people/7451276@N08",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "alt": "A blue wooden rowing boat on the far bank of the Ganga, facing the old stone palaces of Darbhanga Ghat and Munshi Ghat in Varanasi"
+    },
+    "bhutan-tigers-nest": {
+      "commons": "File:Bhutan-Paro-136-Taktshang-Tigernest-gje.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Bhutan-Paro-136-Taktshang-Tigernest-gje.jpg",
+      "credit": "Gerd Eichmann",
+      "profile": "https://commons.wikimedia.org/wiki/User:Gerd_Eichmann",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "alt": "Tiger's Nest monastery (Paro Taktsang) built into a steep cliff above forest near Paro, Bhutan"
     }
   }
 }
