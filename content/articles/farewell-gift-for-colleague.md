@@ -86,7 +86,7 @@ A gift for someone senior should look smart and stay professional. A watch or a 
 
 [[pick:B07N8GRWTZ]]
 
-More ideas, for Christmas and birthdays too, are in our [gift ideas for your boss](gift-for-boss.html).
+More ideas, for Christmas and birthdays too, are in our [gift ideas for your boss](gift-for-boss.html). Shopping for family this Christmas? See our [Christmas gifts for kids](christmas-gifts-for-kids.html), and gifts for [a girlfriend or wife](christmas-gift-for-girlfriend-or-wife.html) or [a boyfriend or husband](christmas-gift-for-boyfriend-or-husband.html).
 
 ## For a colleague starting a new job
 

@@ -97,7 +97,7 @@ Know someone going away? Match the gift to the place.
 
 [[pick:B094JBDRKX]]
 
-Our [Goa](../trips/goa.html), [Manali](../trips/manali.html), [Jaipur](../trips/jaipur.html) and [Kerala](../trips/kerala.html) guides say what to pack for each place. Shopping for a wedding too? See our [wedding gift ideas](wedding-gift-guide.html). Buying for work? See our [Secret Santa gift ideas for office colleagues](secret-santa-gift-ideas-for-office.html) and [gift ideas for your boss](gift-for-boss.html). For friends who are always on the move, see [gifts for travellers](gifts-for-travellers.html).
+Our [Goa](../trips/goa.html), [Manali](../trips/manali.html), [Jaipur](../trips/jaipur.html) and [Kerala](../trips/kerala.html) guides say what to pack for each place. Shopping for a wedding too? See our [wedding gift ideas](wedding-gift-guide.html). Buying for work? See our [Secret Santa gift ideas for office colleagues](secret-santa-gift-ideas-for-office.html) and [gift ideas for your boss](gift-for-boss.html). For friends who are always on the move, see [gifts for travellers](gifts-for-travellers.html). Shopping for Christmas too? See our [Christmas gifts for kids](christmas-gifts-for-kids.html), and gifts for [a girlfriend or wife](christmas-gift-for-girlfriend-or-wife.html) or [a boyfriend or husband](christmas-gift-for-boyfriend-or-husband.html).
 
 ## Questions
 

@@ -98,7 +98,7 @@ A farewell gift should help with what comes next: a new job, a move or a long br
 - **Moving abroad:** a [passport holder](../picks/B0BHC41KYN.html) and a [luggage scale](../picks/B07Q822CWX.html).
 - **Taking a break to travel:** a [weekender duffle bag](../picks/B07M9BRCQ5.html) for 3–4 day trips.
 
-Someone else leaving the team, or retiring? See our [farewell gift ideas for colleagues](farewell-gift-for-colleague.html).
+Someone else leaving the team, or retiring? See our [farewell gift ideas for colleagues](farewell-gift-for-colleague.html). Shopping for family too? See our [Christmas gifts for kids](christmas-gifts-for-kids.html), and gifts for [a girlfriend or wife](christmas-gift-for-girlfriend-or-wife.html) or [a boyfriend or husband](christmas-gift-for-boyfriend-or-husband.html).
 
 [[pick:B07M9BRCQ5]]
 

@@ -74,6 +74,8 @@ People who travel a lot already have a bag. What they often don't have are the s
 
 [[pick:B07H3K85H5]]
 
+More ideas for him are in our [Christmas gifts for a boyfriend or husband](christmas-gift-for-boyfriend-or-husband.html).
+
 ## For a girlfriend or wife who travels a lot
 
 **A very light crossbody bag for sightseeing.** It weighs about 140 g.
@@ -91,6 +93,8 @@ People who travel a lot already have a bag. What they often don't have are the s
 **A travel-size moisturiser.** At 59 ml it's under the 100 ml cabin limit.
 
 [[pick:B0GHXYQ318]]
+
+More ideas for her are in our [Christmas gifts for a girlfriend or wife](christmas-gift-for-girlfriend-or-wife.html).
 
 ## For someone flying abroad
 
@@ -128,7 +132,7 @@ Our [trolley bag size for international travel](trolley-bag-size-for-internation
 
 [[pick:B094JBDRKX]]
 
-See our [Manali in December](what-to-wear-in-manali-in-december.html), [Kashmir in December](../trips/kashmir-in-december.html) and [Goa packing list](goa-packing-list.html) guides for what else to pack. Shopping for colleagues too? See our [Secret Santa gift ideas](secret-santa-gift-ideas-for-office.html).
+See our [Manali in December](what-to-wear-in-manali-in-december.html), [Kashmir in December](../trips/kashmir-in-december.html) and [Goa packing list](goa-packing-list.html) guides for what else to pack. Shopping for colleagues too? See our [Secret Santa gift ideas](secret-santa-gift-ideas-for-office.html). For family, see our [Christmas gifts for kids](christmas-gifts-for-kids.html), and gifts for [a girlfriend or wife](christmas-gift-for-girlfriend-or-wife.html) or [a boyfriend or husband](christmas-gift-for-boyfriend-or-husband.html).
 
 ## Questions
 
