@@ -81,7 +81,7 @@ Compare hotels and resorts for your dates. Many people stay two or three nights 
 
 ## What to wear and pack for Andaman
 
-Andaman is hot and humid, with sudden showers, so pack light.
+Andaman is hot and humid, with sudden showers, so pack light. Our [Andaman packing list](../guides/andaman-packing-list.html) has the full list, with outfits for women, men and couples.
 
 - **Clothes:** light cotton or linen, shorts, and a dress or kurta for the evenings. One long-sleeved shirt helps against sun and mosquitoes.
 - **Swimwear** and a quick-dry towel.
@@ -91,7 +91,7 @@ Andaman is hot and humid, with sudden showers, so pack light.
 - **Bags:** a dry bag or zip pouches keep your phone and ID dry on the ferries.
 - **Medicines:** pills for seasickness if boats upset you, plus your usual medicines.
 
-For a full list, see the [beach trip packing checklist](../packing/beach.html) and the [Goa packing list](../guides/goa-packing-list.html), which suits any Indian beach trip. Choosing a bag? See our [luggage size guide](../guides/luggage-size-guide.html).
+To tick things off as you pack, use the [beach trip packing checklist](../packing/beach.html). Choosing a bag? See our [luggage size guide](../guides/luggage-size-guide.html).
 
 ## Health and safety
 

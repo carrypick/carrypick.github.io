@@ -2636,7 +2636,7 @@ def pack_qty(rule, days):
 
 # Destination packing lists (guides) linked from the matching checklist, when the guide exists.
 PACKING_GUIDES = {"abroad": (("dubai", "Dubai"), ("thailand", "Thailand"), ("bali", "Bali")),
-                  "beach": (("goa", "Goa"), ("thailand", "Thailand"), ("bali", "Bali"))}
+                  "beach": (("goa", "Goa"), ("andaman", "Andaman"), ("thailand", "Thailand"), ("bali", "Bali"))}
 
 
 def build_packing(cfg, deals_by_asin, pages, lastmod, trip_guides=()):
