@@ -26,8 +26,8 @@ Long-term averages (1991–2020) from Viet Nam's Meteorological and Hydrological
 | Da Nang | About 25 °C | About 21 °C | About 272 mm, on about 21 days |
 | Ho Chi Minh City | About 32 °C | About 24 °C | About 41 mm |
 
-- **Hanoi and the north are cool in winter.** January is the coldest month in Hanoi, at about 20 °C in the day and 15 °C at night. Pack a light jacket or sweater and long trousers.
-- **Hill towns are colder.** Sa Pa and Da Lat are high up and colder than the cities, so take a warm layer if you go there.
+- **Hanoi and the north are cool in winter.** January is the coldest month in Hanoi, at about 20 °C in the day and 15 °C at night, and Vietnam's tourism authority says cold spells from late December to March bring lows of about 10 °C. Pack a light jacket or sweater and long trousers.
+- **Sa Pa is much colder.** The tourism authority says Sa Pa is much cooler than the rest of the country from late December to March, with occasional snowfall in January. Take a warm jacket if you go.
 - **Da Nang and Hoi An are wet from September to December.** October is the wettest month in Da Nang, at about 658 mm, and November and December still bring rain on about 21 days. February to April is much drier.
 - **Ho Chi Minh City is hot all year.** December to April is the dry season, with only about 1–5 rainy days a month. May to October is the rainy season.
 - **Hanoi is hot and wet in summer.** From June to August, days are about 33 °C, with about 230–335 mm of rain a month.
@@ -52,6 +52,8 @@ If you pack only these, you'll be fine:
 - **Passport.** Keep it on you, not in your check-in bag. Carry a photocopy and a photo of it on your phone, kept apart from the passport.
 - **Print or save your bookings:** return ticket, hotel bookings and travel insurance. Check the entry rules for Indian passport holders on Vietnam's official e-visa portal or the Vietnamese embassy's website before you fly.
 - **Cash.** RBI lets a bank or money changer sell you up to US$3,000 in foreign currency notes per trip, and you can take up to ₹25,000 in Indian notes. Put the rest on a forex card. Vietnam's tourism authority says hotels, restaurants and spas generally accept international cards. See [how much cash you can carry abroad](../baggage/customs/cash-and-currency.html).
+- **Pre-arrival form.** Vietjet says foreign passport holders landing in Ho Chi Minh City, Hanoi, Phu Quoc or Cam Ranh (Nha Trang) must fill in a pre-arrival declaration. Vietnam's Ministry of Public Security called it an optional trial when it started in 2026. It's free on the official site, [prearrival.immigration.gov.vn](https://prearrival.immigration.gov.vn), within 3 days before you arrive, and gives you a QR code to save. Use only that site: the ministry warns of fake ones.
+- **Declare large amounts of cash and gold.** Vietnam asks you to declare cash over US$5,000 (or the same value in rupees or other money) or over 15 million dong, and gold jewellery of 300 g or more.
 - **Keep cash, cards and your passport in a bag that zips shut.** Vietnam's tourism authority warns of bag snatching by people on motorbikes in crowded areas, so carry your bag on the side away from the road.
 - **Riding a motorbike?** The tourism authority says to wear a helmet and carry an International Driving Permit.
 
@@ -60,7 +62,7 @@ If you pack only these, you'll be fine:
 ## What to wear in Vietnam
 
 - **In the north from December to March:** long trousers, full-sleeved tops and a light jacket or sweater. Hanoi nights are about 15 °C, and Ha Long Bay can be very cold in January, says the tourism authority, so bring warm layers.
-- **In Sa Pa:** a warmer jacket. The tourism authority says Sa Pa is cool all year, with cold winters and occasional frost around Fansipan.
+- **In Sa Pa:** a warmer jacket, a cap and gloves. The tourism authority says Sa Pa is cool all year, with cold winters, occasional frost around Fansipan and occasional snow in January.
 - **In Da Nang and Hoi An from September to December:** quick-dry clothes and a rain jacket or poncho. This is the late rainy season, with storms and floods some years.
 - **In Ho Chi Minh City and the south:** light cotton clothes, shorts and dresses. It's about 32 °C in the day.
 - **One outfit that covers shoulders and knees,** for pagodas, temples and the Ho Chi Minh Mausoleum. See the dress rules below.
@@ -72,6 +74,7 @@ Vietnam's tourism authority says to dress respectfully at pagodas, temples, reli
 
 - **Cover your shoulders and knees.** Long trousers or a long skirt, and a top with sleeves.
 - **Take off your hat and shoes** before you go into a sacred shrine, when you're asked to.
+- **At the Ho Chi Minh Mausoleum,** the tourism authority says to dress formally and keep quiet inside, and photos are strictly forbidden inside.
 
 A light scarf or stole in your bag covers your shoulders when you need it.
 
@@ -112,7 +115,7 @@ Walking shoes for men:
 - **Mosquito repellent with DEET.** Vietnam's tourism authority says dengue is more common across the country than malaria. It advises repellent and light long-sleeved clothes in the evening.
 - **A rain poncho or small umbrella,** for Da Nang and Hoi An from September to December, and anywhere from May to October.
 - **Sunscreen, SPF 30 or higher,** sunglasses and a cap for the south and the beaches. Read our [sunscreen guide](travel-sunscreen-guide.html).
-- **Your regular medicines** in their original packs, with your prescription. If you have a medical condition, the tourism authority advises carrying a doctor's letter that describes it and its treatment.
+- **Your regular medicines,** with your prescription. Vietnam's rules let you bring medicines for yourself without a permit up to 30 days' supply on your prescription, or up to US$200 in value. Narcotic medicines are limited to 7 days and psychotropic ones, such as some sleeping pills, to 10 days, as per the prescription. If you have a medical condition, the tourism authority advises carrying a doctor's letter that describes it and its treatment.
 - **A small medical kit:** the tourism authority suggests repellent, paracetamol, anti-itch cream, sunscreen and antihistamines. Add ORS and something for an upset stomach.
 - **Drink bottled or filtered water,** as the tourism authority advises, and carry a refillable bottle.
 
@@ -169,7 +172,7 @@ A 100 ml body sunscreen fits the liquid rule for cabin bags:
 - **About a week or more:** a medium trolley. Leave space for shopping.
 - **Moving between Hanoi, Ha Long, Da Nang and Ho Chi Minh City?** Internal flights and overnight trains are easier with one light bag each.
 
-What you can take depends on your airline and fare. Vietjet lists direct flights to Vietnam from New Delhi, Mumbai, Ahmedabad, Bengaluru and Hyderabad. Economy rules on flights between India and Vietnam, from our airline pages:
+What you can take depends on your airline and fare. Vietjet lists direct flights to Vietnam from New Delhi, Mumbai, Ahmedabad, Bengaluru and Hyderabad. IndiGo flies direct to Hanoi from Delhi and Kolkata, and from Mumbai since 25 October 2026. Air India flies daily from Delhi to Ho Chi Minh City and five times a week to Hanoi. Economy rules on flights between India and Vietnam, from our airline pages:
 
 | Airline | Cabin bag | Check-in bag |
 |---|---|---|
@@ -195,7 +198,8 @@ Packing cubes keep warm and summer clothes apart:
 
 ## What not to pack
 
-- **Vapes, e-cigarettes and heated tobacco.** Vietnam's National Assembly banned them from 2025: the law prohibits their trade, import, storage, transport and use. Vietjet doesn't accept e-cigarettes or heated tobacco devices in any bag, not even in check-in.
+- **Vapes, e-cigarettes and heated tobacco.** Vietnam's National Assembly banned them from 2025: the law prohibits their trade, import, storage, transport and use. Using one can be fined 3–5 million dong. Vietjet doesn't accept e-cigarettes or heated tobacco devices in any bag, not even in check-in.
+- **More than Vietnam's duty-free limits.** Each adult can bring 1.5 litres of spirits (or 2 litres of wine under 20%, or 3 litres of beer), and 200 cigarettes (or 20 cigars or 250 g of tobacco). Under-18s get no alcohol or tobacco allowance. Other goods are duty free up to 10 million dong in total.
 - **A power bank in your check-in bag.** It goes only in your cabin bag.
 - **Big bottles in your cabin bag.** Each liquid must be 100 ml or less, in one clear 1-litre bag. Bigger bottles go in check-in. See [can I carry liquids?](../baggage/can-i-carry/liquids.html)
 - **Cash, jewellery, cameras, laptops and phones in your check-in bag.** Vietjet asks you to keep them in your cabin bag.
@@ -243,10 +247,14 @@ Yes, often. Da Nang averages about 486 mm of rain on about 21 days in November, 
 
 No. Vietnam banned e-cigarettes and heated tobacco from 2025, including their import, transport and use. Vietjet doesn't accept them in any bag.
 
+### Do I need to fill in a form before landing in Vietnam?
+
+Vietjet says foreign passport holders landing in Ho Chi Minh City, Hanoi, Phu Quoc or Cam Ranh must fill in a pre-arrival declaration, though Vietnam's Ministry of Public Security called it optional when the trial began. It's free on [prearrival.immigration.gov.vn](https://prearrival.immigration.gov.vn), within 3 days before you arrive. You don't need a customs form if your goods are within the duty-free limits and your cash is under US$5,000.
+
 ### How much baggage can I take from India to Vietnam?
 
 IndiGo gives 30 kg to Vietnam on regular fares, and Air India 25–35 kg by fare. Vietjet's Eco fares have no free check-in bag, Deluxe gives 20 kg and SkyBoss 30 kg. All allow 7 kg in the cabin; on Vietjet that 7 kg includes your small item.
 
 ## Sources
 
-Checked on 18 Nov 2026: Viet Nam Meteorological and Hydrological Administration averages on the WMO's World Weather Information Service for [Hanoi](https://worldweather.wmo.int/en/city.html?cityId=308), [Da Nang](https://worldweather.wmo.int/en/city.html?cityId=656) and [Ho Chi Minh City](https://worldweather.wmo.int/en/city.html?cityId=309); the Vietnam National Authority of Tourism's [travel FAQs](https://vietnam.travel/faqs/) (dress code, central Vietnam storms, dengue, motorbikes and bag snatching), [weather and climate](https://vietnam.travel/things-to-do/weather-and-climate-vietnam/), [Sa Pa](https://vietnam.travel/place-to-go/northern-midlands-mountains/sapa/), [health and safety](https://vietnam.travel/plan-your-trip/health-safety/) and [currency and payments](https://vietnam.travel/things-to-do/currency-and-payments-vietnam/) pages; and the Vietnamese Government News portal on the e-cigarette ban ([National Assembly decision](https://en.baochinhphu.vn/viet-nam-to-ban-e-cigarettes-from-2025-111241201154851979.htm), [Resolution 173/2024/QH15](https://en.baochinhphu.vn/who-welcomes-national-assemblys-strong-stance-on-banned-e-cigarettes-and-heated-tobacco-products-111251211145742441.htm)). Cash rules come from our [cash and currency page](../baggage/customs/cash-and-currency.html), based on RBI rules. Baggage rules come from our airline pages, checked against each airline's website. Rules change, so check before you travel.
+Checked on 18 Nov 2026: Viet Nam Meteorological and Hydrological Administration averages on the WMO's World Weather Information Service for [Hanoi](https://worldweather.wmo.int/en/city.html?cityId=308), [Da Nang](https://worldweather.wmo.int/en/city.html?cityId=656) and [Ho Chi Minh City](https://worldweather.wmo.int/en/city.html?cityId=309); the Vietnam National Authority of Tourism's [travel FAQs](https://vietnam.travel/faqs/) (dress code, central Vietnam storms, dengue, motorbikes and bag snatching), [weather and climate](https://vietnam.travel/things-to-do/weather-and-climate-vietnam/), [Sa Pa](https://vietnam.travel/place-to-go/northern-midlands-mountains/sapa/), [health and safety](https://vietnam.travel/plan-your-trip/health-safety/) and [currency and payments](https://vietnam.travel/things-to-do/currency-and-payments-vietnam/) pages; Vietnam's official gazette on [duty-free allowances (Decree 134/2016)](https://congbao.chinhphu.vn/noi-dung-van-ban-so-134-2016-nd-cp-21147) and [personal medicines (Decree 163/2025)](https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-163-2025-nd-cp-45343/57280.htm); the State Bank of Vietnam's [cash declaration rule (Circular 15/2011)](https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=152210) and the [government portal on cash and gold declarations](https://xaydungchinhsach.chinhphu.vn/muc-phat-voi-nguoi-xuat-nhap-canh-khong-khai-khai-sai-so-tien-mat-vang-mang-theo-vuot-muc-quy-dinh-119260520111349618.htm); the Ministry of Public Security on the [pre-arrival information system](https://en.bocongan.gov.vn/article/immigration-department-launches-pre-arrival-information-system-1778670404) and [Vietjet's pre-arrival notice](https://newweb.vietjetair.com/en/news/travel-advisory-1703142776627/pre-arrival-information-declaration-for-entry-to-vietnam-1781142398718); VNAT's [Hanoi heritage sites](https://vietnam.travel/things-to-do/hanoi-six-heritage-sites/) (Mausoleum rules); IndiGo's [Hanoi routes](https://www.goindigo.in/press-releases/indigo-strengthens-connectivity-to-hanoi.html) and [Air India's Hanoi service](https://www.airindia.com/in/en/newsroom/press-release/air-india-lands-at-hanoi-beginning-services-to-its-second-gateway-in-vietnam.html); the government portal on the [fine for using e-cigarettes](https://baochinhphu.vn/siet-chat-quan-ly-thuoc-la-dien-tu-thuoc-la-nung-nong-de-chan-he-luy-lau-dai-102260127124125379.htm); and the Vietnamese Government News portal on the e-cigarette ban ([National Assembly decision](https://en.baochinhphu.vn/viet-nam-to-ban-e-cigarettes-from-2025-111241201154851979.htm), [Resolution 173/2024/QH15](https://en.baochinhphu.vn/who-welcomes-national-assemblys-strong-stance-on-banned-e-cigarettes-and-heated-tobacco-products-111251211145742441.htm)). Cash rules come from our [cash and currency page](../baggage/customs/cash-and-currency.html), based on RBI rules. Baggage rules come from our airline pages, checked against each airline's website. Rules change, so check before you travel.
