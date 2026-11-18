@@ -85,7 +85,7 @@ PALETTE = [
     ("red", "#c0392b"), ("navy", "#22325a"), ("olive", "#6b6d3b"), ("teal", "#1f7a7a"), ("coral", "#ee7b63"), ("mint", "#a6dac6"),
     ("beige", "#d8c7a6"), ("vanilla", "#efe2c4"), ("champagne", "#dcc7a1"), ("silver", "#c5cbd1"),
     ("black", "#26292d"), ("grey", "#7d858d"), ("blue", "#2f5fa7"), ("green", "#3f7d55"), ("brown", "#7a4e2f"), ("coffee", "#5a3a26"),
-    ("yellow", "#f1c232"), ("pink", "#e89ab1"), ("white", "#f6f6f4"), ("gold", "#d1ad5b"), ("tan", "#b07a45"),
+    ("yellow", "#f1c232"), ("pink", "#e89ab1"), ("aqua", "#45b8c4"), ("white", "#f6f6f4"), ("gold", "#d1ad5b"), ("tan", "#b07a45"),
 ]
 
 
@@ -581,6 +581,10 @@ def watch_look(d):
         tone = "brown" if "brown" in s + t else "tan" if "tan " in t + " " else "black"
         strap = ("leather", {"brown": "#7b4a2b", "tan": "#b07a45", "black": "#2a2623"}[tone])
         name = ("black " if tone == "black" and "black strap" in t else tone + " " if tone != "black" else "") + "leather strap"
+    elif "polyurethane" in s:
+        # A kids' PU strap in the colour the listing names, e.g. "Polyurethane (PU), blue".
+        word = next((w for w, _ in PALETTE if re.search(r"\b%s\b" % w, s)), "")
+        strap, name = ("rubber", dict(PALETTE).get(word, "#25292d")), (word + " " if word else "") + "PU strap"
     elif "silicone" in s or "rubber" in s:
         strap, name = ("rubber", "#25292d"), "black silicone strap" if "black" in t else "silicone strap"
     elif "two-tone" in s or "two-tone" in t:

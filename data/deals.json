@@ -1,5 +1,146 @@
 [
   {
+    "asin": "B0BS3M2XQV",
+    "added_at": "2026-11-18T09:12:16+05:30",
+    "title": "Zoop by Titan Kids' Analog Watch, White Dial, Blue Strap",
+    "category": "watches",
+    "highlights": [
+      "White analog dial with hands, for learning to tell the time",
+      "40 mm plastic case, 9 mm thin",
+      "Soft PU strap in blue with a buckle",
+      "Water resistant to 30 m (splash-proof, not for swimming)"
+    ],
+    "note": "A first analog watch from Zoop, Titan's brand for kids, for a boy or a girl.",
+    "brand": "Zoop",
+    "colour": "Blue",
+    "best_for": [
+      "Kids",
+      "First watch"
+    ],
+    "specs": {
+      "Case size": "40 mm",
+      "Case": "Plastic, 9 mm thick",
+      "Strap": "Polyurethane (PU), blue",
+      "Dial": "White, analog",
+      "Water resistance": "30 m",
+      "Warranty": "Not listed"
+    },
+    "skip_if": "they want a digital watch with an alarm or a stopwatch: this one has hands only."
+  },
+  {
+    "asin": "B0BS3KJHCF",
+    "added_at": "2026-11-18T09:12:16+05:30",
+    "title": "Zoop by Titan Kids' Analog Watch, White Dial, Pink Strap",
+    "category": "watches",
+    "highlights": [
+      "White analog dial with hands, for learning to tell the time",
+      "40 mm plastic case, 9 mm thin",
+      "Soft PU strap in pink with a buckle",
+      "Water resistant to 30 m (splash-proof, not for swimming)"
+    ],
+    "note": "A first analog watch from Zoop, Titan's brand for kids, for a boy or a girl.",
+    "brand": "Zoop",
+    "colour": "Pink",
+    "best_for": [
+      "Kids",
+      "First watch"
+    ],
+    "specs": {
+      "Case size": "40 mm",
+      "Case": "Plastic, 9 mm thick",
+      "Strap": "Polyurethane (PU), pink",
+      "Dial": "White, analog",
+      "Water resistance": "30 m",
+      "Warranty": "Not listed"
+    },
+    "skip_if": "they want a digital watch with an alarm or a stopwatch: this one has hands only."
+  },
+  {
+    "asin": "B0GLNP4FCQ",
+    "added_at": "2026-11-18T09:12:16+05:30",
+    "title": "uppercase Sprout 23L School Bag for Kids, 2 Compartments",
+    "category": "backpacks",
+    "highlights": [
+      "Two main compartments with an organiser inside",
+      "Front zip pocket and a side bottle pocket",
+      "Well-padded shoulder straps and back",
+      "Made from recycled materials (as listed), 560 g"
+    ],
+    "note": "A school bag for younger kids from uppercase, listed for elementary school, with a 500-day warranty.",
+    "brand": "uppercase",
+    "colour": "Aqua",
+    "best_for": [
+      "School",
+      "Younger kids"
+    ],
+    "specs": {
+      "Capacity": "23 L",
+      "Size": "43 x 30 x 18 cm (H x W x D)",
+      "Weight": "560 g",
+      "Material": "Polyester, recycled (as listed)",
+      "Print": "Dinosaurs",
+      "Warranty": "500 days"
+    },
+    "skip_if": "the child is 10 or older and carries lots of books: a 35 to 40 litre bag holds more."
+  },
+  {
+    "asin": "B0F1YPQFLD",
+    "added_at": "2026-11-18T09:12:16+05:30",
+    "title": "Safari Rove 37L School Bag for Boys and Girls, 3 Compartments",
+    "category": "backpacks",
+    "highlights": [
+      "37 litres with 3 compartments and a bottle holder",
+      "Quick-access front pocket",
+      "Padded shoulder straps, back and carry handle",
+      "Water-resistant polyester, 600 g"
+    ],
+    "note": "A roomy school bag from Safari for older kids and teens, with a 1-year warranty.",
+    "brand": "Safari",
+    "colour": "Pearl blue",
+    "best_for": [
+      "School",
+      "Older kids and teens"
+    ],
+    "specs": {
+      "Capacity": "37 L",
+      "Size": "50 x 34 x 22 cm (H x W x D)",
+      "Weight": "600 g",
+      "Material": "Polyester, water resistant",
+      "Compartments": "3",
+      "Laptop sleeve": "Not listed",
+      "Warranty": "1 year"
+    },
+    "skip_if": "the child is small: at 50 cm high it's a big bag for a young child."
+  },
+  {
+    "asin": "B0GF7ZH2QN",
+    "added_at": "2026-11-18T09:12:16+05:30",
+    "title": "Milton Steel Indus 400 Kids' Water Bottle with Straw, 390 ml",
+    "category": "travel-gear",
+    "highlights": [
+      "Stainless steel inside, plastic outside, PU insulated",
+      "Flip-top sipper lid with a straw",
+      "Listed as leak-proof and spill-proof",
+      "Carry belt, and only 228 g"
+    ],
+    "note": "A school bottle that's easy for small hands: flip the lid and sip.",
+    "brand": "Milton",
+    "colour": "Blue",
+    "best_for": [
+      "School",
+      "Picnics"
+    ],
+    "specs": {
+      "Capacity": "390 ml",
+      "Size": "9.8 cm wide, 20.8 cm high",
+      "Weight": "228 g",
+      "Material": "Stainless steel inner, plastic outer",
+      "Lid": "Flip-top sipper with a straw",
+      "Care": "Hand wash only, not dishwasher safe"
+    },
+    "skip_if": "you want an all-steel bottle: the outside is plastic."
+  },
+  {
     "asin": "B0C5DR262Q",
     "added_at": "2026-11-18T09:09:25+05:30",
     "title": "Aristocrat Airpro Set of 3 Trolley Bags (55, 66 and 76 cm)",
