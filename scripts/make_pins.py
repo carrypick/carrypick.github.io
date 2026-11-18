@@ -690,6 +690,27 @@ PINS = [
                     + group("Boats and beaches", "Floaters that can get wet, a waterproof pouch, a towel and a steel bottle.")
                     + group("Your bags", "Ferries: 25 kg Deck, 30 kg Bunk, 40 kg Cabin. Flights: 15 kg.")
                     + '<p class="note">Weather: IMD Port Blair station. Ferry rules: DSS.</p>')),
+    dict(slug="vietnam-packing", board="Packing and What to Wear", link="guides/vietnam-packing-list.html",
+         title="Vietnam packing list from India: what to pack and wear in December",
+         description="Vietnam has three kinds of weather in winter: Hanoi is cool, about 22 °C by day and 15 °C at night, Da Nang and Hoi An are rainy, and Ho Chi Minh City is hot, about 32 °C. Pack a light jacket, a poncho, summer clothes, a temple outfit, and leave your vape at home: Vietnam bans them.",
+         alt="December weather in Hanoi, Da Nang and Ho Chi Minh City, and a short Vietnam packing list: a jacket for the north, a poncho for the centre and summer clothes for the south.",
+         html=chart("Vietnam from India", "Vietnam packing list: the short version", table(
+             ["December", "Day", "Night"],
+             [["Hanoi", "22 °C", "15 °C"], ["Da Nang", "25 °C", "21 °C"], ["Ho Chi Minh City", "32 °C", "24 °C"]])
+             + group("North", "A light jacket and long trousers. Sa Pa is colder.")
+             + group("Centre and south", "A poncho for Da Nang and Hoi An, summer clothes for the south.")
+             + group("Don't pack", "Vapes and e-cigarettes: Vietnam bans them.")
+             + '<p class="note">Weather: VNMHA averages via WMO.</p>')),
+    dict(slug="maldives-packing", board="Packing and What to Wear", link="guides/maldives-packing-list.html",
+         title="Maldives packing list from India: what to pack and wear, for couples",
+         description="The Maldives is about 30 °C all year. Pack beach clothes, modest outfits for Malé and local islands, light evening wear, sunscreen and a waterproof pouch. Don't bring alcohol, idols for worship or a vape, and pack light for seaplanes: Trans Maldivian allows 20 kg plus 5 kg of hand luggage.",
+         alt="Malé's average day temperature and the seaplane bag limit, and a short Maldives packing list: what to wear and what you can't bring in.",
+         html=chart("Maldives from India", "Maldives packing list: the short version",
+                    '<div class="big"><div><b>30 °C</b><span>a typical day in Malé, all year</span></div><div><b>20 + 5 kg</b><span>on a Trans Maldivian seaplane</span></div></div>'
+                    + group("Clothes", "Beachwear for resorts, modest clothes for Malé and local islands.")
+                    + group("Sun and sea", "Sunscreen, polarized sunglasses and a waterproof pouch.")
+                    + group("Don't bring", "Alcohol, pork, idols for worship, vapes and e-cigarettes.")
+                    + '<p class="note">Weather: Maldives Met Service via WMO.</p>')),
 ]
 
 
