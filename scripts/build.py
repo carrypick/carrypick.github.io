@@ -244,6 +244,8 @@ def page(cfg, title, description, body, depth, path, schema=None, og_type="websi
         head_extra += '\n<meta name="google-site-verification" content="%s">' % e(cfg["google_site_verification"])
     if cfg.get("pinterest_site_verification"):
         head_extra += '\n<meta name="p:domain_verify" content="%s">' % e(cfg["pinterest_site_verification"])
+    if cfg.get("cuelinks_site_verification"):
+        head_extra += '\n<meta name="cuelinks-verification" content="%s">' % e(cfg["cuelinks_site_verification"])
     if cfg.get("base_url"):
         head_extra += '\n<link rel="alternate" type="application/atom+xml" title="%s guides" href="%s/feed.xml">' % (e(cfg["site_name"]), e(cfg["base_url"].rstrip("/")))
     nav = "".join(
