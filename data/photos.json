@@ -1,5 +1,5 @@
 {
-  "_note": "Free Unsplash photos (Unsplash License: free for commercial use, credit not required but we give it). Only for mood pictures on the home page, categories, guides and baggage pages - never on product cards or pick pages, so no photo is passed off as the product. Checked by eye for brand logos and recognisable faces. Run scripts/fetch_photos.py after adding one.",
+  "_note": "Free photos from Unsplash (Unsplash License: free for commercial use, credit not required but we give it) and from Wikimedia Commons (free licences such as CC BY, CC BY-SA or the Free Art License: we credit the author, the licence and the file page; \"commons\" is the file title). Only for mood pictures on the home page, categories, guides and baggage pages - never on product cards or pick pages, so no photo is passed off as the product. Checked by eye for brand logos and recognisable faces. Run scripts/fetch_photos.py after adding one.",
   "photos": {
     "traveller-sunset": {
       "unsplash": "_g1WdcKcV3w",
@@ -232,6 +232,33 @@
       "credit": "Jayanth Muppaneni",
       "profile": "https://unsplash.com/@jay_5",
       "alt": "A white sand beach on Swaraj Dweep (Havelock) with turquoise water and green forest, and two people walking at the water's edge"
+    },
+    "vietnam-trang-an": {
+      "commons": "File:Trang An Landscape Complex, Ninh Binh Province, Vietnam, 20240202 1447 5310.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Trang_An_Landscape_Complex,_Ninh_Binh_Province,_Vietnam,_20240202_1447_5310.jpg",
+      "credit": "Jakub Hałun",
+      "profile": "https://commons.wikimedia.org/wiki/User:Jakubhal",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "alt": "Small rowing boats on a calm green river between limestone cliffs and trees at Trang An, Ninh Binh, in northern Vietnam"
+    },
+    "maldives-jetty": {
+      "commons": "File:Diamonds Thudufushi Beach and Water Villas, May 2017 -08.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Diamonds_Thudufushi_Beach_and_Water_Villas,_May_2017_-08.jpg",
+      "credit": "Martin Falbisoner",
+      "profile": "https://commons.wikimedia.org/wiki/User:Martin_Falbisoner",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "alt": "A wooden jetty over turquoise water leading to a small island with white sand, palm trees and red-roofed buildings, in Ari Atoll, Maldives"
+    },
+    "sri-lanka-ella-train": {
+      "commons": "File:SL Demodara near Ella asv2020-01 img02.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:SL_Demodara_near_Ella_asv2020-01_img02.jpg",
+      "credit": "A.Savin",
+      "profile": "https://commons.wikimedia.org/wiki/User:A.Savin",
+      "license": "Free Art License",
+      "license_url": "https://artlibre.org/licence/lal/en/",
+      "alt": "A blue train crossing the Nine Arches Bridge between forest and tea gardens at Demodara, near Ella, Sri Lanka"
     }
   }
 }

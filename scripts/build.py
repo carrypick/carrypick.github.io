@@ -408,6 +408,10 @@ def photo_img(slot, p, sizes, eager=False, alt=None):
 
 def photo_credit(slot):
     info = PHOTOS[slot]
+    if info.get("commons"):  # Wikimedia Commons photos need the author, the licence and the file page
+        return (f'Photo: <a href="{e(info["profile"])}" target="_blank" rel="noopener">{e(info["credit"])}</a>, '
+                f'<a href="{e(info["license_url"])}" target="_blank" rel="noopener">{e(info["license"])}</a>, via '
+                f'<a href="{e(info["page"])}" target="_blank" rel="noopener">Wikimedia Commons</a>')
     return (f'Photo: <a href="{e(info["profile"])}" target="_blank" rel="noopener">{e(info["credit"])}</a> on '
             f'<a href="https://unsplash.com/photos/{e(info["unsplash"])}" target="_blank" rel="noopener">Unsplash</a>')
 
