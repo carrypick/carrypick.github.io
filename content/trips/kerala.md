@@ -73,6 +73,10 @@ Flying in? Compare fares to Kochi or Thiruvananthapuram:
 - **Kovalam:** Lighthouse Beach has a 36 m lighthouse and calmer water for swimming. Swim only in the flagged areas near lifeguards. Undercurrents can appear suddenly, even near the shore, and foreign tourists have drowned at both beaches.
 - **Rough-sea alerts:** stay out of the water when the weather office or INCOIS issues a high-wave warning.
 
+Prefer a ready-made trip? Compare tour packages, and check what each one includes before you book:
+
+[[tours:Kerala]]
+
 ## Christmas and New Year in Kerala
 
 - **Cochin Carnival, Fort Kochi:** runs over the last two weeks of December. At midnight on 31 December, a giant effigy of an old man, the Pappanji, is burnt on the beach to see out the year, and a carnival rally follows on 1 January. Incredible India lists 13 December 2026 as the start date, but the organisers haven't confirmed the 2026 programme yet.

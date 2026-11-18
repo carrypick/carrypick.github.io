@@ -114,6 +114,10 @@ The Nilgiris has strict plastic rules, and vehicles are checked at the entry poi
 - **Coonoor:** Sims Park, and Dolphin's Nose (about 12 km from Coonoor) for valley views.
 - **Frost at dawn** at the racecourse or on the Avalanche road. Some dam areas are closed, so watch from the roadside.
 
+Prefer a ready-made trip? Compare tour packages, and check what each one includes before you book:
+
+[[tours:Ooty]]
+
 ## Christmas and New Year in Ooty
 
 - **Book early.** Ooty is busy from Christmas to New Year, with visitors from Bangalore, Chennai and Kerala.

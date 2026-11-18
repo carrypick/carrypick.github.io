@@ -112,6 +112,10 @@ Going by train? Check the [Indian Railways luggage rules](../baggage/train-lugga
 - **Chittorgarh Fort,** about 115 km away, is the other UNESCO hill fort near Udaipur, with the Vijay Stambh (Tower of Victory) and Rani Padmini's palace.
 - **Eklingji** (22 km) and **Nathdwara** (about 50 km) are important temples. Darshan happens at set times, with long breaks in between.
 
+Prefer a ready-made trip? Compare tour packages, and check what each one includes before you book:
+
+[[tours:Udaipur]]
+
 ## Where to book your stay
 
 For walks to the palace and the ghats, stay near Lake Pichola: around Lal Ghat and Gangaur Ghat on the east bank, or Ambrai and Hanuman Ghat on the west bank, which face the City Palace. Fateh Sagar is quieter and less crowded. Compare hotels and homestays for your dates:

@@ -74,6 +74,10 @@ If you aren't used to mountain driving, take a local taxi from an authorised sta
 - **Naggar Castle:** 22 km away, now a heritage hotel and museum run by Himachal Tourism, near the Roerich Art Gallery.
 - **Manali Winter Carnival:** Himachal Tourism says it's held every year in the first week of January. The 2027 dates haven't been announced yet.
 
+Prefer a ready-made trip? Compare tour packages, and check what each one includes before you book:
+
+[[tours:Manali]]
+
 ## Christmas and New Year crowds
 
 - **Hotels fill up.** In January 2026, when snow finally came on a long weekend, hotels were full and traffic jams stretched up to 8 km. Book early, and stay in registered hotels or homestays.

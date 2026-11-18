@@ -124,6 +124,10 @@ Book only places registered with the Department of Tourism. Compare hotels and h
 - **Spice plantations:** mostly around Ponda, with tours and Goan lunches.
 - **Markets:** the Saturday Night Bazaar at Arpora (from 5 PM, November to April), the Anjuna flea market on Wednesdays, and Mapusa's Friday market.
 
+Prefer a ready-made trip? Compare tour packages, and check what each one includes before you book:
+
+[[tours:Goa]]
+
 ## For foreign visitors
 
 - **Visa:** most nationalities need an e-Tourist Visa from the official site only, [indianvisaonline.gov.in](https://indianvisaonline.gov.in/evisa/tvoa.html). Apply at least 4 days before you arrive (up to 120 days before). Your passport needs 6 months' validity and 2 blank pages. Both Goa airports, Dabolim and Mopa, accept e-Visa arrivals.

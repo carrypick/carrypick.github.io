@@ -86,6 +86,10 @@ Going by train? Check the [Indian Railways luggage rules](../baggage/train-lugga
 - **Adventure.** Besides rafting, Mohanchatti has bungee jumping and a giant swing, both from a height of up to 83 m, according to Uttarakhand Tourism.
 - **Day trips.** Haridwar's Har Ki Pauri has a famous Ganga aarti at dusk every day, but avoid the Kumbh bath days. For a chance of snow, Dhanaulti (2,250 m) and Mussoorie are the nearest hill stations, but snow there isn't guaranteed.
 
+Prefer a ready-made trip? Compare tour packages, and check what each one includes before you book:
+
+[[tours:Rishikesh]]
+
 ## Where to book your stay
 
 With two bridges closed, pick a stay on the side of the river where you'll spend most of your time: Tapovan and Lakshman Jhula for cafes and rafting pick-ups, or Muni ki Reti and Swargashram for the ghats and ashrams. Compare hotels and homestays for your dates:

@@ -67,6 +67,10 @@ Havelock and Neil were renamed Swaraj Dweep and Shaheed Dweep in December 2018. 
 - **Scuba diving** on Swaraj and Shaheed Dweep. Introductory dives are open to anyone 10 or older, and no special permit is needed. Tell the dive centre about any health problems before you dive.
 - **Island Tourism Festival:** this year it runs from 27 to 31 December 2026 in Sri Vijaya Puram.
 
+Prefer a ready-made trip? Compare tour packages, and check what each one includes before you book:
+
+[[tours:Andaman]]
+
 ## Christmas and New Year in Andaman
 
 - **Book flights, ferries and hotels early.** Late December is the busiest time, and the festival adds to the crowds.

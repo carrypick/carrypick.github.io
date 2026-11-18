@@ -78,6 +78,10 @@ Buying the five main sights one by one would cost ₹600 for an Indian adult and
 
 Jaipur has three World Heritage listings: Jantar Mantar (2010), Amer Fort as one of the Hill Forts of Rajasthan (2013), and the walled city of Jaipur itself (2019).
 
+Prefer a ready-made trip? Compare tour packages, and check what each one includes before you book:
+
+[[tours:Jaipur]]
+
 ## Christmas, New Year and January
 
 - **Crowds:** the last week of December is very busy. Book hotels and trains early, and reach Amer when it opens.

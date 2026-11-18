@@ -56,11 +56,17 @@ The gondola goes up from Gulmarg in two stages: Phase 1 to Kongdori, and Phase 2
 
 Flying? See the [cabin bag rules for Indian airlines](../baggage/index.html) and [what you can carry on a flight](../baggage/can-i-carry.html). Taking the train? See the [train luggage rules](../baggage/train-luggage-rules.html).
 
+[[fly:Srinagar]]
+
 ## Which places are open?
 
 After the attack near Pahalgam in April 2025, many tourist spots in Jammu and Kashmir were closed. They reopened in stages: by February 2026, 42 places had reopened, including Yusmarg and Doodhpathri, and the Chief Minister said all the rest would reopen by May 2026.
 
 Srinagar, Gulmarg, Sonamarg and Pahalgam town are the usual winter trips. Rules can change at short notice, so check with your hotel or the tourism office before you go to a smaller spot.
+
+Prefer a ready-made trip? Compare tour packages, and check what each one includes before you book:
+
+[[tours:Kashmir]]
 
 ## Phones, money and cold-weather tips
 

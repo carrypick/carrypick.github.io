@@ -22,23 +22,62 @@
   },
   "flight_partners": {
     "Cleartrip": {
-      "url": "https://bitli.in/ubEP1vx",
+      "url": "https://clnk.in/Elde",
       "scope": [
         "domestic",
         "international"
       ]
     },
     "Air India": {
-      "url": "https://bitli.in/m8ObR7S",
+      "url": "https://clnk.in/Eldc",
       "scope": [
+        "domestic",
         "international"
       ]
+    },
+    "Akasa Air": {
+      "url": "https://clnk.in/Eldb",
+      "scope": [
+        "domestic"
+      ],
+      "serves": [
+        "Chandigarh",
+        "चंडीगढ़",
+        "Bagdogra",
+        "Port Blair",
+        "Goa",
+        "गोवा",
+        "Jaipur",
+        "Kerala",
+        "Udaipur",
+        "उदयपुर",
+        "Varanasi",
+        "वाराणसी",
+        "Srinagar",
+        "श्रीनगर"
+      ],
+      "serves_checked": "2026-11-18: akasaair.com home page and Wikipedia's Akasa Air destinations list; not Dehradun or Coimbatore"
     },
     "Etihad Airways": {
       "url": "https://bitli.in/9HVJfMb",
       "scope": [
         "international"
       ]
+    }
+  },
+  "tour_partners": {
+    "Thrillophilia": {
+      "Manali": "https://clnk.in/ElcY",
+      "Shimla": "https://clnk.in/ElcZ",
+      "Rishikesh": "https://clnk.in/Elc1",
+      "Kashmir": "https://clnk.in/Elc2",
+      "Darjeeling": "https://clnk.in/Elc4",
+      "Andaman": "https://clnk.in/Elc5",
+      "Kerala": "https://clnk.in/Elc6",
+      "Goa": "https://clnk.in/Elc7",
+      "Ooty": "https://clnk.in/Elc8",
+      "Udaipur": "https://clnk.in/Elc9",
+      "Jaipur": "https://clnk.in/Elda"
     }
   },
   "telegram_channel": "@carrypick",

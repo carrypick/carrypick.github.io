@@ -69,6 +69,10 @@ The narrow-gauge line from Kalka to Shimla was built between 1898 and 1903 and h
 - **Kufri, Fagu and Narkanda for snow.** These are the closest places to find snow. Narkanda, near Hatu Peak, has slopes for skiing when there's enough snow.
 - **Mashobra and Naldehra** (12 km and 23 km) are quieter spots with pine forests, and **Tattapani** (53 km) has hot springs by the Sutlej river.
 
+Prefer a ready-made trip? Compare tour packages, and check what each one includes before you book:
+
+[[tours:Shimla]]
+
 ## Christmas, New Year and snow days
 
 - **Book early.** Shimla is very busy from Christmas to New Year, and even more on the days just after a snowfall, when people drive up from Delhi, Punjab and Haryana.

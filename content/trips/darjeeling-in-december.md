@@ -70,6 +70,10 @@ Going on to Bhutan? Indians need a passport or voter ID and pay a daily fee. See
 - **Day trips:** Mirik (a lake town) and Kalimpong are a few hours away by road.
 - **Sandakphu for snow:** the trek or jeep road from Manebhanjan goes through Singalila National Park. You need an entry permit and a registered guide. Darjeeling Police posts a health advice note for visitors to Sandakphu and Phalut; read it before you go, and don't go when police say roads are closed.
 
+Prefer a ready-made trip? Compare tour packages, and check what each one includes before you book:
+
+[[tours:Darjeeling]]
+
 ## Christmas and New Year in Darjeeling
 
 - **Book early.** Darjeeling is busy from Christmas to New Year, and hotels near the Mall fill up first.
