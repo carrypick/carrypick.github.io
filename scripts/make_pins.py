@@ -574,6 +574,32 @@ PINS = [
                     + group("Takes trains and buses", "A steel bottle and a neck pillow with an eye mask.")
                     + group("A bigger gift from a group", "A cabin trolley whose listed size fits their airline.")
                     + '<p class="note"><strong>Small things get used most:</strong> most travellers already own a suitcase.</p>')),
+    # 18 Nov 2026: family Christmas gift pages (feature_until 26 Dec), so these should also go out by early December.
+    dict(slug="kids-christmas-gifts", board="Gift Ideas", link="guides/christmas-gifts-for-kids.html",
+         title="Christmas gifts for kids: useful ideas for boys and girls",
+         description="Christmas gifts kids use every day: a first analog watch from Titan's kids' brand Zoop in blue or pink, a school bag for younger kids or teens, a steel sipper bottle, and travel gifts for a December family trip. Plus simple return gift ideas for a Christmas party.",
+         alt="Wrapped gifts under a Christmas tree, with the words Christmas gifts for kids.",
+         html=photo("christmas-tree-gifts", "Christmas gifts for kids", "Watches, school bags and bottles for boys and girls")),
+    dict(slug="christmas-gifts-for-her", board="Gift Ideas", link="guides/christmas-gift-for-girlfriend-or-wife.html",
+         title="Christmas gift ideas for your girlfriend or wife (plus mom and sister)",
+         description="Christmas gifts she'll use: a dressy Titan Raga watch for your girlfriend, a Titan Karishma or a neat tote for your wife, a zip-around wallet as a smaller gift, and a light crossbody bag or packing cubes if she loves to travel. Plus ideas for mom and your sister.",
+         alt="Christmas gift ideas for a girlfriend, a wife, a woman who loves to travel and mom.",
+         html=chart("Christmas gifts", "Christmas gifts for your girlfriend or wife",
+                    group("For your girlfriend", "A dressy Titan Raga watch, or a vegan leather sling.")
+                    + group("For your wife", "A Titan Karishma watch, or a small tote with 5 pockets.")
+                    + group("If she loves to travel", "A crossbody bag of about 140 g, or packing cubes.")
+                    + group("For mom", "Pair watches for mom and dad, or a thermal set for winter.")
+                    + '<p class="note"><strong>A smaller gift:</strong> a zip-around wallet. Skip clothes in a size you have to guess.</p>')),
+    dict(slug="christmas-gifts-for-him", board="Gift Ideas", link="guides/christmas-gift-for-boyfriend-or-husband.html",
+         title="Christmas gift ideas for your boyfriend or husband (plus dad and brother)",
+         description="Christmas gifts he'll use: a Timex Classics watch or polarized sunglasses for your boyfriend, a Titan Classique or a wallet gift set for your husband, a weekender duffle if he travels, and an easy-to-read Casio or a thermal set for dad.",
+         alt="Christmas gift ideas for a boyfriend, a husband, a man who loves to travel and dad.",
+         html=chart("Christmas gifts", "Christmas gifts for your boyfriend or husband",
+                    group("For your boyfriend", "A Timex Classics watch, or polarized sunglasses.")
+                    + group("For your husband", "A Titan Classique watch, or a wallet, keychain and pen set.")
+                    + group("If he loves to travel", "A 35 litre weekender duffle, or a toiletry bag.")
+                    + group("For dad", "A Casio watch with a date window, or a thermal set.")
+                    + '<p class="note"><strong>Upgrade what he uses every day:</strong> a watch, a wallet or a work bag.</p>')),
     # 16 Nov 2026: winter trip guides.
     dict(slug="shimla-december", board="India Trip Ideas", link="trips/shimla-in-december.html",
          title="Shimla in December: snow chances, weather and what to wear",
