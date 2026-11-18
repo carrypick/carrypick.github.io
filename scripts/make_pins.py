@@ -653,6 +653,17 @@ PINS = [
                     + group("For your boss or a senior", "A classic watch or a slim laptop backpack.")
                     + group("Moving abroad", "A passport holder, a luggage scale and packing cubes.")
                     + group("Retiring", "A weekender bag for trips, or a couple watch set."))),
+    # 18 Nov 2026: more packing lists (Andaman, then trips abroad).
+    dict(slug="andaman-packing", board="Packing and What to Wear", link="guides/andaman-packing-list.html",
+         title="Andaman packing list: what to pack and wear, for women, men and couples",
+         description="Andaman is warm all year, at about 30 °C, and December still brings showers. Pack light cotton clothes and dresses, swimwear, a rain poncho, floaters that can get wet, a waterproof pouch for ferries, a towel and a steel bottle. Government ferries allow 25–40 kg by class.",
+         alt="Port Blair's December weather and a short Andaman packing list: light clothes, rain gear, shoes that can get wet and the ferry baggage limits.",
+         html=chart("Andaman trip", "Andaman packing list: the short version",
+                    '<div class="big"><div><b>30 °C</b><span>a typical December day in Sri Vijaya Puram</span></div><div><b>113 mm</b><span>of rain in a usual December</span></div></div>'
+                    + group("Clothes", "Light cotton, swimwear with a cover-up, a long-sleeved top and a poncho.")
+                    + group("Boats and beaches", "Floaters that can get wet, a waterproof pouch, a towel and a steel bottle.")
+                    + group("Your bags", "Ferries: 25 kg Deck, 30 kg Bunk, 40 kg Cabin. Flights: 15 kg.")
+                    + '<p class="note">Weather: IMD Port Blair station. Ferry rules: DSS.</p>')),
 ]
 
 
