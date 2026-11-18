@@ -1,5 +1,63 @@
 [
   {
+    "asin": "B0C5DR262Q",
+    "added_at": "2026-11-18T09:09:25+05:30",
+    "title": "Aristocrat Airpro Set of 3 Trolley Bags (55, 66 and 76 cm)",
+    "category": "luggage",
+    "highlights": [
+      "Cabin, medium and large bags in one set",
+      "Hard polypropylene shells",
+      "8 spinner wheels on each bag",
+      "3-digit combination lock, 3-year warranty"
+    ],
+    "note": "A well-rated set from VIP's Aristocrat brand that covers every trip size at once.",
+    "brand": "Aristocrat",
+    "colour": "Teal Blue",
+    "best_for": [
+      "Families",
+      "Wedding and gift"
+    ],
+    "specs": {
+      "Sizes": "55 cm, 66 cm and 76 cm",
+      "Weight": "10.6 kg (all 3 bags)",
+      "Shell": "Polypropylene (hard)",
+      "Lock": "3-digit combination lock",
+      "Capacity": "Not listed",
+      "Warranty": "3 years"
+    },
+    "skip_if": "you need a cabin bag that surely passes airline checks: the listing does not give the small bag's exact size.",
+    "deal_seen_at": "2026-11-18T09:08:00+05:30"
+  },
+  {
+    "asin": "B0H7JYWHV6",
+    "added_at": "2026-11-18T09:09:24+05:30",
+    "title": "Safari Benson 66 cm Medium Check-in Trolley, Polypropylene",
+    "category": "luggage",
+    "highlights": [
+      "Medium 66 cm check-in size, 77 litres",
+      "Hard polypropylene shell",
+      "8 spinner wheels and TSA lock",
+      "5-year warranty, made in India"
+    ],
+    "note": "A light, simple medium check-in bag from Safari with a TSA lock and a long warranty.",
+    "brand": "Safari",
+    "colour": "Fossil",
+    "best_for": [
+      "Family trips",
+      "Week-long trips"
+    ],
+    "specs": {
+      "Size": "28 x 47 x 66 cm",
+      "Capacity": "77 L",
+      "Weight": "3.5 kg",
+      "Shell": "Polypropylene (hard)",
+      "Lock": "TSA approved combination lock",
+      "Warranty": "5 years"
+    },
+    "skip_if": "you want a cabin bag: this is a 66 cm check-in size and must go in the hold.",
+    "deal_seen_at": "2026-11-18T09:08:00+05:30"
+  },
+  {
     "asin": "B0FSXZGLJX",
     "added_at": "2026-11-17T09:10:42+05:30",
     "title": "Skybags Nero 20L Laptop Backpack (up to 15 inch)",
