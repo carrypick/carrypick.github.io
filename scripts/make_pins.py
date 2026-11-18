@@ -711,6 +711,16 @@ PINS = [
                     + group("Sun and sea", "Sunscreen, polarized sunglasses and a waterproof pouch.")
                     + group("Don't bring", "Alcohol, pork, idols for worship, vapes and e-cigarettes.")
                     + '<p class="note">Weather: Maldives Met Service via WMO.</p>')),
+    dict(slug="sri-lanka-packing", board="Packing and What to Wear", link="guides/sri-lanka-packing-list.html",
+         title="Sri Lanka packing list from India: what to pack and wear",
+         description="Sri Lanka's coasts are about 30 °C, but Nuwara Eliya nights are about 9–11 °C in winter. Pack light clothes, a warm layer for the hills, a rain poncho and temple clothes that cover shoulders and legs. Don't bring cigarettes, beedis, gutka or fruit: Sri Lanka Customs doesn't allow them in.",
+         alt="Colombo and Nuwara Eliya December temperatures, and a short Sri Lanka packing list: light clothes, a warm layer, temple clothes and what you can't bring in.",
+         html=chart("Sri Lanka from India", "Sri Lanka packing list: the short version",
+                    '<div class="big"><div><b>30 °C</b><span>a typical December day in Colombo</span></div><div><b>11 °C</b><span>a December night in Nuwara Eliya</span></div></div>'
+                    + group("Clothes", "Light cotton, a warm layer for the hills, and a poncho.")
+                    + group("Temples", "Cover shoulders and legs. No shorts or sleeveless tops in Kandy.")
+                    + group("Don't bring", "Cigarettes, beedis, gutka or fresh fruit.")
+                    + '<p class="note">Weather: National Meteorological Centre via WMO.</p>')),
 ]
 
 
