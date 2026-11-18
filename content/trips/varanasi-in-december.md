@@ -76,7 +76,7 @@ Add a third day:
 - **Special darshan can stop on rush days.** Last winter the temple stopped VIP, protocol and sparsh (touch) darshan from 24 December to 3 January.
 - **Temple hours:** the temple opens at 2:30 AM and closes at 11 PM. Mangala Aarti is from 3 AM to 4 AM. General darshan is from 4 AM to 11 AM and from 12 noon to 7 PM, with the midday Bhog Aarti from 11:30 AM to 12 noon. The Sapta Rishi Aarti is from 7 PM to 8:30 PM, the Shringar/Bhog Aarti starts at 9 PM, and the Shayan Aarti at 10:30 PM. These are the temple trust's times; they can change on festival days.
 - **Phones are not allowed inside.** Leave phones, bags and other gadgets in the lockers near the gates, or at your hotel.
-- **Check timings and tickets on the official site,** [shrikashivishwanath.org](https://www.shrikashivishwanath.org/). Book Mangla Aarti (very early morning) there too, well ahead for the New Year week.
+- **Check timings and tickets on the official site,** [shrikashivishwanath.org](https://www.shrikashivishwanath.org/). Book Mangala Aarti (very early morning) there too, well ahead for the New Year week.
 
 ## Getting to Varanasi
 
