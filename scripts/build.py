@@ -2,7 +2,7 @@
 
 Run:  python3 scripts/build.py
 Amazon rules built in: disclosure on every page, no prices, no ratings,
-no product images, no auto-redirects, buy links marked as paid.
+no product images, no auto-redirects, a commission line at the top of every page and rel="sponsored" on buy links.
 Free stock photos (data/photos.json) only illustrate guides, categories and
 the home page; pick pages and product cards never show them. Instead each pick
 shows our own drawing, made from its listed size and details (scripts/pick_art.py).
@@ -329,7 +329,7 @@ def page(cfg, title, description, body, depth, path, schema=None, og_type="websi
 def buy_button(cfg, deal, label="Check price on Amazon", big=False):
     cls = "btn btn-amazon btn-big" if big else "btn btn-amazon"
     href = e(amazon_link(deal["asin"], cfg["amazon_tag"]))
-    return f'<a class="{cls}" href="{href}" {BUY_ATTRS}>{label}</a><span class="paid">Paid link</span>'
+    return f'<a class="{cls}" href="{href}" {BUY_ATTRS}>{label}</a>'
 
 
 def fresh_deal(deal):
@@ -503,7 +503,7 @@ def compare_table(cfg, deals, p):
         cells = "".join("<td>%s</td>" % e(d.get("specs", {}).get(k, "–")) for k in keys)
         link = e(amazon_link(d["asin"], cfg["amazon_tag"]))
         rows.append(f'<tr><th scope="row"><a href="{p}picks/{d["asin"]}.html">{e(d["title"])}</a></th>{cells}'
-                    f'<td><a class="table-buy" href="{link}" {BUY_ATTRS}>Check price</a><span class="paid">Paid link</span></td></tr>')
+                    f'<td><a class="table-buy" href="{link}" {BUY_ATTRS}>Check price</a></td></tr>')
     return (f'<div class="table-wrap"><table class="compare"><thead><tr><th>Product</th>{head}<th></th></tr></thead>'
             f'<tbody>{"".join(rows)}</tbody></table></div>')
 
@@ -584,9 +584,10 @@ def md_inline(text, p):
 def booking_box(cfg, place, hindi=False):
     """Hand-placed hotel links (EarnKaro). Trip guides only, never next to Amazon picks."""
     label = "{name} पर {place} के होटल देखें" if hindi else "Search {place} on {name}"
-    note = ("कीमत और कमरे बुकिंग साइट पर दिखते हैं। हमने हर होटल की जाँच नहीं की है, इसलिए पहले हाल के रिव्यू पढ़ें।" if hindi else
-            "Prices and rooms are shown on the booking site. We have not checked each hotel, so read recent reviews first.")
-    links = "".join(f'<div class="book-row"><a class="btn btn-amazon" href="{e(url)}" {BUY_ATTRS}>{e(label.format(name=name, place=place))}</a><span class="paid">Paid link</span></div>'
+    note = ("कीमत और कमरे बुकिंग साइट पर दिखते हैं। हमने हर होटल की जाँच नहीं की है, इसलिए पहले हाल के रिव्यू पढ़ें। इन लिंक से बुक करने पर हमें कमीशन मिल सकता है, आपको कोई अतिरिक्त खर्च नहीं।" if hindi else
+            "Prices and rooms are shown on the booking site. We have not checked each hotel, so read recent reviews first. "
+            "We may earn a commission if you book through these links, at no extra cost to you.")
+    links = "".join(f'<div class="book-row"><a class="btn btn-amazon" href="{e(url)}" {BUY_ATTRS}>{e(label.format(name=name, place=place))}</a></div>'
                     for name, url in cfg["booking_partners"].items())
     return f'<div class="cta-box">{links}<p>{note}</p></div>'
 
@@ -594,7 +595,8 @@ def booking_box(cfg, place, hindi=False):
 def shop_box(cfg, shop):
     """Hand-placed link to a shop's own site (EarnKaro). Only on pages with no Amazon picks."""
     return (f'<div class="cta-box"><div class="book-row"><a class="btn btn-amazon" href="{e(cfg["shop_partners"][shop])}" {BUY_ATTRS}>Visit {e(shop)}</a>'
-            f'<span class="paid">Paid link</span></div><p>Prices and stock are shown on the shop\'s own site. We have not tested these products.</p></div>')
+            f'</div><p>Prices and stock are shown on the shop\'s own site. We have not tested these products. '
+            f'We may earn a commission if you buy through this link, at no extra cost to you.</p></div>')
 
 
 def anchor(text):
@@ -609,14 +611,15 @@ def flight_box(cfg, place=None, scope="domestic", hindi=False):
     partners = [(name, f["url"]) for name, f in cfg["flight_partners"].items() if scope in f["scope"]]
     if hindi:
         label = "{name} पर {place} की फ़्लाइट देखें" if place else "{name} पर फ़्लाइट देखें"
-        note = "किराया और सीटें बुकिंग साइट पर दिखती हैं। पैसे देने से पहले देखें कि आपके किराए में कितना सामान शामिल है।"
+        note = "किराया और सीटें बुकिंग साइट पर दिखती हैं। पैसे देने से पहले देखें कि आपके किराए में कितना सामान शामिल है। इन लिंक से बुक करने पर हमें कमीशन मिल सकता है।"
     else:
         label = "Compare flights to {place} on {name}" if place else "Check fares on {name}"
         note = ("Fares and seats are shown on the booking site. Before you pay, check how much baggage your fare includes."
                 if scope == "domestic" else
                 "Cleartrip shows fares from many airlines. The other links go to the airline's own website. "
                 "Before you pay, check how much baggage your fare includes.")
-    links = "".join(f'<div class="book-row"><a class="btn btn-amazon" href="{e(url)}" {BUY_ATTRS}>{e(label.format(name=name, place=place))}</a><span class="paid">Paid link</span></div>'
+        note += " We may earn a commission if you book through these links, at no extra cost to you."
+    links = "".join(f'<div class="book-row"><a class="btn btn-amazon" href="{e(url)}" {BUY_ATTRS}>{e(label.format(name=name, place=place))}</a></div>'
                     for name, url in partners)
     return f'<div class="cta-box">{links}<p>{note}</p></div>'
 
@@ -1054,7 +1057,7 @@ def fit_table(cfg, airline, picks, p):
 <td>{" x ".join(num(x) for x in dims)} cm<span class="why">{num(sum(dims))} cm in total</span></td>
 <td>{fit_badge(ok, over)}{('<span class="why">' + e(why) + '</span>') if why else ''}</td>
 <td>{e(left) or '–'}</td>
-<td><a class="table-buy" href="{link}" {BUY_ATTRS}>Check price</a><span class="paid">Paid link</span></td></tr>""")
+<td><a class="table-buy" href="{link}" {BUY_ATTRS}>Check price</a></td></tr>""")
     return ('<div class="table-wrap"><table class="compare"><thead><tr><th>Our pick</th><th>Listed size</th>'
             f'<th>Fits {e(airline["name"])}?</th><th>Weight</th><th></th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>')
 
@@ -3126,7 +3129,7 @@ def build():
 <p>{name} is a participant in the Amazon Associates Programme. When you click a "Check price on Amazon" button and buy something, Amazon may pay us a small commission. You pay the same price.</p>
 <p>Our trip guides also have hotel links to {and_list(list(cfg["booking_partners"]))}, and flight links to {and_list([n for n, f in cfg["flight_partners"].items() if "domestic" in f["scope"]])}. Our <a href="baggage/international.html">international baggage page</a> has flight links to {and_list([n for n, f in cfg["flight_partners"].items() if "international" in f["scope"]])}. Our <a href="guides/vip-bags-guide.html">VIP bags guide</a> and <a href="guides/vip-bags-coupon-code.html">VIP coupon page</a> have links to VIP's own store. These go through EarnKaro, an affiliate service. If you book or buy through one, we may earn a commission, and you pay the same price. Amazon is not part of these links.</p>
 <p>The VIP coupon page shows a code that EarnKaro lists for VIP's store. We test it in VIP's cart without placing an order, and show the date of our last check.</p>
-<p>Links that earn us a commission are marked "Paid link". Commissions help us keep this site free. They do not change which products we pick.</p>"""),
+<p>Amazon buy buttons and the hotel, flight and shop links on this site may earn us a commission, at no extra cost to you. Every page says so in the line at the top. Commissions help us keep this site free. They do not change which products we pick.</p>"""),
         "privacy.html": ("Privacy policy", f"""<h1>Privacy policy</h1>
 <p>{name} does not ask for your name, email or any personal details, and this site sets no cookies of its own, except one that remembers your language if you choose Google Translate (see below).</p>
 <ul>
