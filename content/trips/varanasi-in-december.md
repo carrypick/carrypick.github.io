@@ -1,15 +1,16 @@
 ---
-seo_title: Varanasi in December 2026: weather, temperature, fog, Ganga aarti and what to wear
-title: Varanasi in December and January: weather, fog and what to wear
-description: Plan Varanasi for December or January: IMD temperatures, winter fog and train delays, Ganga aarti times, Kashi Vishwanath at New Year, the new ropeway, Sarnath, getting there and what to wear for ladies and men.
+seo_title: Varanasi in December 2026: 2–3 day trip plan, weather, fog, Ganga aarti and what to wear
+title: Varanasi in December and January: weather, a 2–3 day trip plan and what to wear
+description: Plan Varanasi for December or January: IMD temperatures, winter fog and train delays, a 2-day and 3-day trip plan, Ganga aarti and Kashi Vishwanath timings, New Year crowds, the new ropeway, Sarnath, getting there and what to wear.
 date: 2026-11-17
+updated: 2026-11-18
 place: Varanasi
 best: Oct–Mar; Dec–Jan are the coldest
 packing: weekend
 feature_until: 2027-01-31
-glance: Weather in December=About 24 °C by day and 10 °C at night (IMD averages) | January=Colder: about 22 °C by day and 9 °C at night | Rain=Almost none in December | Fog=Dense fog is common from late December to January. It delays trains and flights | Evening aarti=Dashashwamedh Ghat, around 6 PM in winter | Get there=Fly to Varanasi (VNS), or take a train to Varanasi Junction (BSB) | Emergency=112
+glance: Weather in December=About 24 °C by day and 10 °C at night (IMD averages) | January=Colder: about 22 °C by day and 9 °C at night | Rain=Almost none in December | Fog=Dense fog is common from late December to January. It delays trains and flights | How long=2 days for the ghats, the temple and Sarnath, 3 with a spare foggy morning | Evening aarti=Dashashwamedh Ghat, around 6 PM in winter | Kashi Vishwanath=Opens 2:30 AM, closes 11 PM (temple trust) | Get there=Fly to Varanasi (VNS), or take a train to Varanasi Junction (BSB) | Emergency=112
 ---
-Varanasi in December and January is cool, dry and often foggy. Afternoons are sunny and pleasant for walking the ghats. Mornings and nights are cold, and the river breeze makes them feel colder. This guide covers the weather and fog, the Ganga aarti, Kashi Vishwanath at New Year, the new ropeway, how to get there and what to wear.
+Varanasi in December and January is cool, dry and often foggy. Afternoons are sunny and pleasant for walking the ghats. Mornings and nights are cold, and the river breeze makes them feel colder. This guide covers the weather and fog, a simple 2-day and 3-day plan, the Ganga aarti, Kashi Vishwanath timings and New Year crowds, the new ropeway, how to get there and what to wear.
 
 Still choosing? Compare Goa, Manali, Rishikesh and more in [where to go in December and January](where-to-go-in-december-january.html). Want the Ganga with hills and rafting? See [Rishikesh in December](rishikesh-in-december.html).
 
@@ -35,6 +36,33 @@ Long-term averages for Varanasi from the India Meteorological Department (IMD, 1
 - **Flights can be delayed or diverted.** Fog often delays flights into Varanasi in the morning. If you can, choose an afternoon flight and keep a free day before anything important.
 - **Morning boat rides may see little.** On foggy mornings you may not see the far bank. Sunrise views are better on clear days, so keep a spare morning if the boat ride matters to you.
 
+## Varanasi trip plan: 2 days
+
+The old city runs along the river, and most sights are on the ghats or in the lanes behind them. Stay near the ghats and walk; the lanes are too narrow for cars.
+
+**Day 1: Kashi Vishwanath, the ghats and the evening aarti**
+
+1. **Kashi Vishwanath** early in the morning. General darshan is from 4 AM to 11 AM, and again from 12 noon to 7 PM, says the temple trust. Leave your phone and bag at the hotel or in a locker.
+2. **The old lanes** around the temple for breakfast, Banarasi silk and brassware.
+3. **A ghat walk** in the afternoon sun, from Assi Ghat to Dashashwamedh. Manikarnika, the main cremation ghat, is a short walk further on. Don't take photos of cremations.
+4. **The evening Ganga aarti** at Dashashwamedh Ghat. It starts after sunset, so come about 45 minutes early for a place on the steps, or watch from a boat.
+
+**Day 2: a dawn boat ride and Sarnath**
+
+1. **A boat ride at sunrise** along the ghats. Fix the fare and the time with the boatman first, and ask for a life jacket.
+2. **Subah-e-Banaras at Assi Ghat,** the morning aarti and music at dawn. Check the time locally, because it changes with the season.
+3. **Sarnath,** about 10 km away, where the Buddha gave his first sermon. The Sarnath Museum is open from 10 AM to 5 PM and is closed on Fridays, so don't plan Sarnath on a Friday.
+4. **Back to the ghats** in the evening, or an early night if your train leaves the next morning.
+
+## Varanasi trip plan: 3 days
+
+Add a third day:
+
+- **A spare morning for fog.** Late December and January mornings are often foggy. If fog hid the river on your boat ride, try again.
+- **Mangala Aarti at Kashi Vishwanath,** from 3 AM to 4 AM, for ticket holders only. Book on the temple's official site, well ahead for the New Year week.
+- **The aarti from the other side:** if you watched from the steps on Day 1, watch from a boat this time, or the other way round.
+- **Time for delays.** Keep this day free before a flight or a long train, because fog delays trains and morning flights.
+
 ## The Ganga aarti
 
 - **Dashashwamedh Ghat** has the main evening aarti. It follows sunset, so in winter it starts around 6 PM, about an hour earlier than in summer. Arrive 45 minutes early to get a place on the steps or a boat.
@@ -42,10 +70,11 @@ Long-term averages for Varanasi from the India Meteorological Department (IMD, 1
 - **Assi Ghat** has a morning aarti and music programme at dawn, called Subah-e-Banaras. Check the time locally, because it changes with the season.
 - **Carry a warm layer.** The ghats get cold quickly after sunset, and you will sit for about an hour.
 
-## Kashi Vishwanath at New Year
+## Kashi Vishwanath timings and New Year crowds
 
 - **Christmas to New Year is the busiest time.** From 24 December 2025 to 1 January 2026, more than 30 lakh devotees visited the temple, according to news reports. On 1 January 2026, about 3.5 lakh came by the afternoon.
 - **Special darshan can stop on rush days.** Last winter the temple stopped VIP, protocol and sparsh (touch) darshan from 24 December to 3 January.
+- **Temple hours:** the temple opens at 2:30 AM and closes at 11 PM. Mangala Aarti is from 3 AM to 4 AM. General darshan is from 4 AM to 11 AM and from 12 noon to 7 PM, with the midday Bhog Aarti from 11:30 AM to 12 noon. The Sapta Rishi Aarti is from 7 PM to 8:30 PM, the Shringar/Bhog Aarti starts at 9 PM, and the Shayan Aarti at 10:30 PM. These are the temple trust's times; they can change on festival days.
 - **Phones are not allowed inside.** Leave phones, bags and other gadgets in the lockers near the gates, or at your hotel.
 - **Check timings and tickets on the official site,** [shrikashivishwanath.org](https://www.shrikashivishwanath.org/). Book Mangla Aarti (very early morning) there too, well ahead for the New Year week.
 
@@ -63,7 +92,7 @@ Going by train? Check the [Indian Railways luggage rules](../baggage/train-lugga
 ## Things to do in winter
 
 - **A boat ride along the ghats** at sunrise or before the evening aarti.
-- **Walk the ghats** from Assi to Dashashwamedh in the afternoon sun. Manikarnika, the main cremation ghat, is on the way. Don't take photos of cremations.
+- **Walk the ghats** from Assi to Dashashwamedh in the afternoon sun. Manikarnika, the main cremation ghat, is a short walk further on. Don't take photos of cremations.
 - **Sarnath,** about 10 km away, where the Buddha gave his first sermon. The Sarnath Museum is open from 10 AM to 5 PM and is **closed on Fridays**.
 - **The old lanes** for food, Banarasi silk and brassware. Go in the afternoon, when it's warm.
 - **Dev Deepawali is on 24 November 2026,** when lakhs of lamps light the ghats. It falls before most December trips, so plan for late November if you want to see it.
@@ -109,6 +138,14 @@ For more help, see [what to wear on a winter hill trip](../guides/winter-clothes
 
 IMD's long-term averages are about 24 °C in the day and 10 °C at night. The coldest December night on record was 2.2 °C. January is a little colder, at about 22 °C by day and 9 °C at night.
 
+### How many days are enough for Varanasi?
+
+Two days are enough for Kashi Vishwanath, a ghat walk, the evening aarti, a sunrise boat ride and Sarnath. Add a third day in winter, as a spare morning in case fog hides the river, and as time for train or flight delays.
+
+### What are the Kashi Vishwanath darshan timings?
+
+The temple trust says the temple opens at 2:30 AM and closes at 11 PM. General darshan is from 4 AM to 11 AM and from 12 noon to 7 PM. Mangala Aarti, from 3 AM to 4 AM, is for ticket holders. Timings can change on festival days and in the New Year rush.
+
 ### Is December a good time to visit Varanasi?
 
 Yes. December is dry, with sunny afternoons, and it's a comfortable time to walk the ghats. Late December brings fog and cold mornings, and Christmas to New Year is very crowded, so book early and keep spare time for train or flight delays.
@@ -139,4 +176,4 @@ Both have a famous Ganga aarti. Varanasi is about the ghats, the old city and it
 
 ## Sources
 
-Checked on 17 Nov 2026: IMD's 1991–2020 averages and records for Varanasi (as tabled on [Wikipedia's Varanasi page](https://en.wikipedia.org/wiki/Varanasi), which cites IMD), [Incredible India: Sarnath Museum](https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/sarnath-museum) and [Dev Deepawali](https://www.incredibleindia.gov.in/en/festivals-and-events/uttar-pradesh/illuminating-the-eternal-spirit-of-kashi), the [Ministry of Tourism helpline](https://tourism.gov.in/sites/default/files/2026-02/Ministry%20of%20Tourism%20has%20set%20up%20a%2024x7%20Multi-Lingual%20Tourist%20Helpline.pdf), [Shri Kashi Vishwanath temple](https://www.shrikashivishwanath.org/) and [Indian e-Visa](https://indianvisaonline.gov.in/evisa/tvoa.html). From news reports: winter fog train cancellations in 2025–26 ([NewsPoint](https://www.newspointapp.com/english/india/10-trains-cancelled-till-february-end-check-the-complete-list/articleshow/125999207.cms)), the New Year darshan changes ([Free Press Journal](https://www.freepressjournal.in/india/kashi-vishwanath-temple-suspends-sparsh-and-protocol-darshan-till-january-3-amid-new-year-devotee-rush)) and crowds ([India TV](https://www.indiatvnews.com/news/india/devotees-throng-kashi-ayodhya-and-other-religious-sites-to-mark-the-beginning-of-new-year-2026-2026-01-01-1024029), [NewsDrum](https://www.newsdrum.in/national/massive-pilgrim-surge-across-up-on-new-year-10964201)), the ropeway ([Wikipedia: Kashi ropeway](https://en.wikipedia.org/wiki/Kashi_ropeway), [The Print](https://theprint.in/india/varanasi-ropeway-fare-fixed-at-rs-50-for-cantonment-godowlia-route/2969019/)), Dev Deepawali 2026 ([Free Press Journal](https://www.freepressjournal.in/lifestyle/dev-deepavali-2026-varanasi-to-glow-with-lakhs-of-diyas-on-november-24-all-you-need-to-know)) and the Delhi–Varanasi Vande Bharat ([Wikipedia](https://en.wikipedia.org/wiki/Varanasi%E2%80%93New_Delhi_Vande_Bharat_Express)). Aarti times come from local travel sites and vary with sunset. Weather and timings change, so check before you travel.
+Checked on 17 and 18 Nov 2026: IMD's 1991–2020 averages and records for Varanasi (as tabled on [Wikipedia's Varanasi page](https://en.wikipedia.org/wiki/Varanasi), which cites IMD), [Incredible India: Sarnath Museum](https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/sarnath-museum) and [Dev Deepawali](https://www.incredibleindia.gov.in/en/festivals-and-events/uttar-pradesh/illuminating-the-eternal-spirit-of-kashi), the [Ministry of Tourism helpline](https://tourism.gov.in/sites/default/files/2026-02/Ministry%20of%20Tourism%20has%20set%20up%20a%2024x7%20Multi-Lingual%20Tourist%20Helpline.pdf), [Shri Kashi Vishwanath temple](https://www.shrikashivishwanath.org/) and its [daily rituals and aarti times](https://shrikashivishwanath.org/general/rituals) and [Indian e-Visa](https://indianvisaonline.gov.in/evisa/tvoa.html). From news reports: winter fog train cancellations in 2025–26 ([NewsPoint](https://www.newspointapp.com/english/india/10-trains-cancelled-till-february-end-check-the-complete-list/articleshow/125999207.cms)), the New Year darshan changes ([Free Press Journal](https://www.freepressjournal.in/india/kashi-vishwanath-temple-suspends-sparsh-and-protocol-darshan-till-january-3-amid-new-year-devotee-rush)) and crowds ([India TV](https://www.indiatvnews.com/news/india/devotees-throng-kashi-ayodhya-and-other-religious-sites-to-mark-the-beginning-of-new-year-2026-2026-01-01-1024029), [NewsDrum](https://www.newsdrum.in/national/massive-pilgrim-surge-across-up-on-new-year-10964201)), the ropeway ([Wikipedia: Kashi ropeway](https://en.wikipedia.org/wiki/Kashi_ropeway), [The Print](https://theprint.in/india/varanasi-ropeway-fare-fixed-at-rs-50-for-cantonment-godowlia-route/2969019/)), Dev Deepawali 2026 ([Free Press Journal](https://www.freepressjournal.in/lifestyle/dev-deepavali-2026-varanasi-to-glow-with-lakhs-of-diyas-on-november-24-all-you-need-to-know)) and the Delhi–Varanasi Vande Bharat ([Wikipedia](https://en.wikipedia.org/wiki/Varanasi%E2%80%93New_Delhi_Vande_Bharat_Express)). Aarti times come from local travel sites and vary with sunset. Weather and timings change, so check before you travel.
