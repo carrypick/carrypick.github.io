@@ -232,6 +232,7 @@ Not sure about an item on the flight? Search our [can I carry it on a flight?](.
 
 - **Weigh your bag before you leave the hotel.** Woollens, tea and crafts add up fast, and Drukair's cabin limit is only 5 kg.
 - For what you can bring into India, see our [Indian customs rules](../baggage/customs.html) and [alcohol and cigarette limits](../baggage/customs/alcohol-and-cigarettes.html).
+- **Also going to Nepal?** Only a passport or original voter ID works on flights there too. See our [Nepal packing list](nepal-packing-list.html).
 - **Going on to Darjeeling or Sikkim by road?** See our [Darjeeling in December guide](../trips/darjeeling-in-december.html).
 
 [[pick:B07Q822CWX]]

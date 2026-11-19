@@ -58,7 +58,7 @@ The Darjeeling Himalayan Railway opened to Darjeeling in 1881. It is a narrow-ga
 - **Book on IRCTC,** and book early for Christmas and New Year.
 - **The full NJP–Darjeeling train can stop after landslides.** In 2024 it was suspended from July to mid-November. Check the latest status before you plan your trip around it.
 
-Going on to Bhutan? Indians need a passport or voter ID and pay a daily fee. See our [Bhutan packing list](../guides/bhutan-packing-list.html).
+Going on to Bhutan? Indians need a passport or voter ID and pay a daily fee. See our [Bhutan packing list](../guides/bhutan-packing-list.html). Going to Nepal? See our [Nepal packing list](../guides/nepal-packing-list.html).
 
 ## Things to do in winter
 

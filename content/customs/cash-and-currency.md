@@ -81,4 +81,4 @@ Sell them to a bank or money changer, or deposit them in a Resident Foreign Curr
 
 ### How much cash can I carry to Nepal?
 
-Indian notes of ₹100 and smaller are allowed. ₹200 and ₹500 notes are allowed up to ₹25,000 in all.
+Indian notes of ₹100 and smaller are allowed. ₹200 and ₹500 notes are allowed up to ₹25,000 in all. For documents and what to pack, see our [Nepal packing list](../../guides/nepal-packing-list.html).
