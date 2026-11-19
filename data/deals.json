@@ -1,5 +1,92 @@
 [
   {
+    "asin": "B0HHJN8WPR",
+    "added_at": "2026-11-19T09:39:03+05:30",
+    "title": "American Tourister Zevo 25L Daypack, 2 Compartments",
+    "category": "backpacks",
+    "highlights": [
+      "25 litre everyday size",
+      "2 main compartments and a bottle holder",
+      "Light at 360 g",
+      "1-year international warranty"
+    ],
+    "note": "A light, simple American Tourister bag for school and daily trips.",
+    "brand": "American Tourister",
+    "colour": "Blue",
+    "best_for": [
+      "School",
+      "Everyday use"
+    ],
+    "specs": {
+      "Capacity": "25 L",
+      "Size": "18 x 31 x 47 cm",
+      "Weight": "360 g",
+      "Material": "Polyester",
+      "Laptop sleeve": "Not listed",
+      "Warranty": "1 year international"
+    },
+    "skip_if": "you carry a laptop or travel in rain: the listing names no laptop sleeve and says it is not water resistant.",
+    "deal_seen_at": "2026-11-19T09:35:00+05:30"
+  },
+  {
+    "asin": "B0GXWMY8YY",
+    "added_at": "2026-11-19T09:39:03+05:30",
+    "title": "Wildcraft Animal Kingdom Tiger 45L Laptop Backpack, 3 Compartments",
+    "category": "backpacks",
+    "highlights": [
+      "Big 45 litre size, 3 zip compartments",
+      "Padded laptop space, up to 15 inch",
+      "Padded shoulder straps and back",
+      "Water resistant polyester, made in India"
+    ],
+    "note": "A roomy Wildcraft bag for college and short trips, with space for a laptop.",
+    "brand": "Wildcraft",
+    "colour": "Grey",
+    "best_for": [
+      "College",
+      "Weekend trips"
+    ],
+    "specs": {
+      "Capacity": "45 L",
+      "Size": "27 x 32 x 48 cm",
+      "Laptop": "Up to 15 inch",
+      "Weight": "400 g (as listed)",
+      "Material": "Polyester, water resistant",
+      "Warranty": "Not listed"
+    },
+    "skip_if": "you want a plain look: this one has an animal print.",
+    "deal_seen_at": "2026-11-19T09:35:00+05:30"
+  },
+  {
+    "asin": "B07QS9K2VT",
+    "added_at": "2026-11-19T09:39:03+05:30",
+    "title": "Timex Women's Analog Watch, Silver Dial, Rose Gold Band",
+    "category": "watches",
+    "highlights": [
+      "34 mm round silver dial",
+      "Rose gold metal band with buckle",
+      "Quartz movement",
+      "Water resistant up to 30 m"
+    ],
+    "note": "A small, classic Timex for women that works for office and gifts.",
+    "brand": "Timex",
+    "colour": "Rose Gold",
+    "best_for": [
+      "Gift for her",
+      "Daily wear"
+    ],
+    "specs": {
+      "Dial": "34 mm, silver",
+      "Case": "Brass",
+      "Band": "Rose gold metal",
+      "Movement": "Quartz",
+      "Water resistance": "30 m",
+      "Model": "TWEL12804"
+    },
+    "skip_if": "you want a big dial: this one is small at 34 mm.",
+    "deal_seen_at": "2026-11-19T09:35:00+05:30"
+  },
+  {
     "asin": "B0BS3M2XQV",
     "added_at": "2026-11-18T09:12:16+05:30",
     "title": "Zoop by Titan Kids' Analog Watch, White Dial, Blue Strap",
