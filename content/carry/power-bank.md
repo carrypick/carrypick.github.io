@@ -16,6 +16,8 @@ Airlines set the limit in **watt-hours (Wh)**, but most power banks in India are
 
 3.7 is the voltage of the cells inside most power banks. If your label shows a different cell voltage, use that number instead.
 
+Or let our [power bank flight checker](../../tools/power-bank-flight-check.html) work it out: type the mAh and see the Wh and the verdict for each airline.
+
 | Power bank | About | Air India and Akasa Air (up to 100 Wh) | IndiGo (up to 160 Wh) |
 |---|---|---|---|
 | 10,000 mAh | 37 Wh | Yes | Yes |

@@ -1,0 +1,26 @@
+{
+  "checked": "2026-11-20",
+  "note": "Rules read on each airline's own page on 20 Nov 2026 (IndiGo and Air India in the built-in browser, Akasa Air with curl). DGCA's circular on using power banks in flight could not be found on dgca.gov.in, so the page says it is reported, not confirmed. Re-check with data/flight_items.json.",
+  "voltage": 3.7,
+  "airlines": [
+    {"name": "IndiGo", "max_wh": 160, "max_count": null,
+     "rule": "Cabin bag only. The power rating must be printed on the power bank. Over 160 Wh is not allowed.",
+     "source": "https://www.goindigo.in/baggage/dangerous-goods-policy.html", "source_label": "IndiGo list of things not allowed in flight"},
+    {"name": "Air India", "max_wh": 100, "max_count": 2,
+     "rule": "Cabin bag only, up to 100 Wh, no more than 2 spare batteries per person. Not in the overhead bin.",
+     "source": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html", "source_label": "Air India restricted items"},
+    {"name": "Akasa Air", "max_wh": 100, "max_count": 2,
+     "rule": "Cabin bag only, up to 2, each up to 100 Wh, in the box or a plastic bag. You can't use or charge it during the flight, and it can't go in the overhead bin.",
+     "source": "https://www.akasaair.com/quick-links/conditions-of-carriage", "source_label": "Akasa Air conditions of carriage"}
+  ],
+  "on_board": [
+    {"text": "Don't use your power bank to charge a phone during the flight, and don't charge the power bank itself.",
+     "who": "Akasa Air's conditions of carriage say this. News reports from January 2026 say DGCA's dangerous goods advisory circular bans it on all Indian flights, but we couldn't find the circular on DGCA's website, so treat it as the rule on every airline."},
+    {"text": "Keep it in the seat pocket, under the seat in front or on you, not in the overhead bin.",
+     "who": "Air India and Akasa Air both say this."},
+    {"text": "The MOBIKINS MK-PB-04 power bank is banned on every flight to, from and within India, in any bag.",
+     "who": "Air India's and Akasa Air's pages say DGCA banned it."},
+    {"text": "Keep each power bank in its box or a separate plastic bag, so the ends can't touch metal.",
+     "who": "Air India and Akasa Air ask for this."}
+  ]
+}

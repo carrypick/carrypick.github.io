@@ -16,6 +16,9 @@ from common import ROOT
 SHOE_FILE = ROOT / "data" / "shoe_sizes.json"
 SHOE_PATH = "tools/shoe-size.html"
 SHOE_UPDATED = "2026-11-20"
+POWER_FILE = ROOT / "data" / "power_banks.json"
+POWER_PATH = "tools/power-bank-flight-check.html"
+POWER_SIZES = (5000, 10000, 20000, 26800, 30000, 40000, 50000)  # mAh rows in the no-JS table
 
 # Category pages that link to a tool, under the "Before you buy" tip: category slug -> (tool path, link text).
 CATEGORY_TOOLS = {"shoes": (SHOE_PATH, "Not sure of your size? Use our shoe size converter")}
@@ -26,6 +29,10 @@ def register(B):
         B.TOOLS.append((SHOE_PATH, "Shoe size converter", "Free tool", "Shoe size chart: India to US, EU and cm",
                         "Measure your foot in cm, or pick the size you know, and see it in India/UK, US and EU sizes.",
                         "Find my size", "shoe", "shoes", ""))
+    if POWER_FILE.exists():
+        B.TOOLS.append((POWER_PATH, "Power bank flight checker", "Free tool", "Is my power bank allowed on the flight?",
+                        "Type the mAh on your power bank and see its watt-hours, and if IndiGo, Air India and Akasa Air let it on board.",
+                        "Check my power bank", "shield", "travel-gear", ""))
 
 
 def category_link(B, slug, p):
@@ -39,6 +46,8 @@ def category_link(B, slug, p):
 def build_all(B, cfg, deals, pages, lastmod):
     if SHOE_FILE.exists():
         build_shoe_size(B, cfg, deals, pages, lastmod)
+    if POWER_FILE.exists():
+        build_power_bank(B, cfg, deals, pages, lastmod)
 
 
 def _finish(B, cfg, pages, lastmod, path, seo, desc, crumb, body, faq, updated):
@@ -172,3 +181,106 @@ def build_shoe_size(B, cfg, deals, pages, lastmod):
          % (k5["uk"], k5["age"], cm_text(B, k5))),
     ]
     _finish(B, cfg, pages, lastmod, path, seo, desc, "Shoe size converter", body, faq, SHOE_UPDATED)
+
+
+def power_verdict(wh, airlines):
+    """Same rule as static/power-bank.js: ("yes"|"close"|"no", headline)."""
+    if wh <= min(a["max_wh"] for a in airlines):
+        return "yes", "Allowed in your cabin bag"
+    if wh <= max(a["max_wh"] for a in airlines):
+        return "close", "Needs airline approval"
+    return "no", "Not allowed on Indian flights"
+
+
+def build_power_bank(B, cfg, deals, pages, lastmod):
+    data = json.loads(POWER_FILE.read_text(encoding="utf-8"))
+    path = POWER_PATH
+    airlines = data["airlines"]
+    volt = data["voltage"]
+    checked = B.fmt_date(data["checked"])
+    low, high = min(a["max_wh"] for a in airlines), max(a["max_wh"] for a in airlines)
+    by_low = " and ".join(a["name"] for a in airlines if a["max_wh"] == low)
+    by_high = " and ".join(a["name"] for a in airlines if a["max_wh"] == high)
+
+    def mah_for(wh):
+        return int(round(wh * 1000 / volt, -2))
+
+    def yes_no(ok):
+        return '<span class="fit fit-yes">Yes</span>' if ok else '<span class="fit fit-no">No</span>'
+
+    head_cells = "".join("<th>%s</th>" % e(a["name"]) for a in airlines)
+    size_rows = "".join(
+        f'<tr><th scope="row">{m:,} mAh</th><td>{B.num(m * volt / 1000)} Wh</td>'
+        + "".join("<td>%s</td>" % yes_no(m * volt / 1000 <= a["max_wh"]) for a in airlines) + "</tr>"
+        for m in POWER_SIZES)
+    airline_rows = "".join(
+        f'<tr><th scope="row">{e(a["name"])}</th><td>Up to {a["max_wh"]} Wh</td>'
+        f'<td>{e(a["rule"])} <a class="src" href="{e(a["source"])}" target="_blank" rel="noopener">Source</a></td></tr>'
+        for a in airlines)
+    on_board = "".join(f'<li><strong>{e(r["text"])}</strong> <span class="muted">{e(r["who"])}</span></li>' for r in data["on_board"])
+    sources = ", ".join(f'<a href="{e(a["source"])}" target="_blank" rel="noopener">{e(a["source_label"])}</a>' for a in airlines)
+    picks = [d for d in deals if "power bank" in d["title"].lower()]
+    if picks:
+        more_links = '<a href="#picks">Power banks we picked</a> &middot; <a href="../baggage/can-i-carry/power-bank.html">Power bank rules in full</a>'
+    else:
+        more_links = '<a href="../baggage/can-i-carry/power-bank.html">Power bank rules in full</a> &middot; <a href="../baggage/can-i-carry.html">What else can I carry?</a>'
+    picks_html = ""
+    if picks:
+        picks_html = '<h2 id="picks">Power banks we picked</h2><div class="grid">%s</div>' % "".join(B.card(cfg, d, "../") for d in picks)
+    title = "Is my power bank allowed on the flight? mAh to Wh checker"
+    seo = "Power bank allowed in flight? mAh to Wh checker for IndiGo, Air India, Akasa"
+    desc = ("Type your power bank's mAh and see its watt-hours (Wh) and whether IndiGo, Air India and Akasa Air allow it in the cabin. "
+            "Power banks are never allowed in check-in bags. Rules checked on %s." % checked)
+    body = f"""{_head(B, title, "Power bank flight checker", "A free tool. Rules checked on " + checked, "travel-gear", "shield")}
+<div class="wrap"><article class="guide">
+<div class="answer"><h2>Quick answer</h2><ul>
+<li><strong>Power banks go in your cabin bag only, never in check-in.</strong> Every Indian airline here says so.</li>
+<li>Up to {low} Wh (about {mah_for(low):,} mAh) is fine on all three airlines. {by_high} takes up to {high} Wh; {by_low} stop at {low} Wh.</li>
+<li>You can't use your power bank or charge it during the flight, and it can't go in the overhead bin.</li>
+</ul></div>
+<form class="checker" id="pb" onsubmit="return false" data-volt="{volt}" data-low="{low}" data-high="{high}">
+<div class="checker-fields"><label>Capacity (mAh)<input id="pb-mah" type="number" min="100" max="100000" step="100" inputmode="numeric" placeholder="e.g. 20000"></label>
+<label>Cell voltage (V)<input id="pb-v" type="number" min="1" max="30" step="0.01" inputmode="decimal" value="{volt}"></label>
+<label>Or the Wh on the label<input id="pb-wh" type="number" min="1" max="1000" step="0.1" inputmode="decimal" placeholder="e.g. 74"></label></div>
+<p class="hint">The mAh and Wh are printed on the back of the power bank. Most use {volt} V cells; if the label gives another cell voltage, use that.</p>
+<p class="checker-total" id="pb-out" aria-live="polite">Type your power bank's mAh to see its watt-hours and whether you can fly with it.</p>
+<div id="pb-result" hidden>
+<div class="table-wrap"><table class="compare snug" id="pb-airlines"><thead><tr><th>Airline</th><th>Cabin bag</th><th>Check-in</th></tr></thead><tbody>
+{"".join(f'<tr data-max="{a["max_wh"]}"><th scope="row">{e(a["name"])}</th><td class="pb-cabin"></td><td><span class="fit fit-no">No</span></td></tr>' for a in airlines)}
+</tbody></table></div>
+<p class="hint" id="pb-note"></p>
+<p>{more_links}</p>
+</div>
+</form>
+<h2>Common power bank sizes</h2>
+<p>Watt-hours = mAh x {volt} ÷ 1,000. Cabin bag only, on every airline.</p>
+<div class="table-wrap"><table class="compare"><thead><tr><th>Power bank</th><th>About</th>{head_cells}</tr></thead><tbody>{size_rows}</tbody></table></div>
+<h2>The rules by airline</h2>
+<p>No airline here allows a power bank in a check-in bag.</p>
+<div class="table-wrap"><table class="compare"><thead><tr><th>Airline</th><th>Cabin bag</th><th>What the airline says</th></tr></thead><tbody>{airline_rows}</tbody></table></div>
+<p class="checked">Checked on {checked} on {sources}. Security staff can still refuse any item, and airlines can change their rules, so check your airline before you fly.</p>
+<h2>On the plane</h2>
+<ul>{on_board}</ul>
+<h2>What "needs airline approval" means</h2>
+<p>A power bank over {low} Wh and up to {high} Wh is allowed on {by_high}'s list, but {by_low}'s pages allow only up to {low} Wh. Ask your airline before you fly, or take a smaller one. Over {high} Wh, no airline here takes it.</p>
+<p class="checked">Not confirmed: we couldn't find DGCA's circular on in-flight use on DGCA's own website, so that rule is from Akasa Air's page and news reports. Everything else above is from the airlines' own pages, not from BCAS or DGCA circulars.</p>
+{picks_html}
+<p>More help: <a href="../baggage/can-i-carry/power-bank.html">can I carry a power bank on a flight?</a>, <a href="../baggage/can-i-carry.html">what else you can carry</a> and <a href="../baggage/index.html">baggage rules for Indian airlines</a>.</p>
+{{faq}}
+{B.tool_pills("../", path)}
+</article></div>
+<script src="../assets/power-bank.js" defer></script>
+{B.telegram_band(cfg, "../")}"""
+    faq = [
+        ("Is a 20000 mAh power bank allowed in flight in India?",
+         "Yes, in your cabin bag. At %s V it is about %s Wh, under the %s Wh limit of %s and the %s Wh limit of %s."
+         % (volt, B.num(20000 * volt / 1000), low, by_low, high, by_high)),
+        ("How do I convert mAh to Wh?", "Multiply the mAh by the voltage and divide by 1,000. For a 10,000 mAh power bank with %s V cells: 10,000 x %s ÷ 1,000 = %s Wh."
+         % (volt, volt, B.num(10000 * volt / 1000))),
+        ("Can I keep a power bank in check-in baggage?", "No. IndiGo, Air India and Akasa Air all ban power banks in check-in bags. Akasa Air says a check-in bag with a power bank in it won't be loaded."),
+        ("Can I use a power bank during the flight?", "No. Akasa Air's rules ban using or charging power banks during the flight, and news reports say DGCA has banned it on all Indian flights. Charge your phone before you board."),
+        ("What is the biggest power bank allowed on IndiGo?", "IndiGo's list allows power banks up to %s Wh (about %s mAh at %s V), with the power rating printed on it."
+         % (high, "{:,}".format(mah_for(high)), volt)),
+        ("How many power banks can I carry?", "Air India and Akasa Air allow 2 spare batteries per person, and a power bank counts as one. IndiGo's list doesn't give a number, so keep to two."),
+    ]
+    _finish(B, cfg, pages, lastmod, path, seo, desc, "Power bank flight checker", body, faq, data["checked"])
