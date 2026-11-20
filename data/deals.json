@@ -1,5 +1,92 @@
 [
   {
+    "asin": "B097B2PQTG",
+    "added_at": "2026-11-20T09:09:23+05:30",
+    "title": "Safari Omega Plus 30L Laptop Backpack with Rain Cover (up to 17 inch)",
+    "category": "backpacks",
+    "highlights": [
+      "Laptop sleeve for up to 17 inch",
+      "2 compartments with organiser",
+      "Rain cover in a bottom pocket",
+      "Padded straps and back"
+    ],
+    "note": "A roomy Safari bag for big laptops, with a rain cover for monsoon days.",
+    "brand": "Safari",
+    "colour": "Black",
+    "best_for": [
+      "College",
+      "Office"
+    ],
+    "specs": {
+      "Capacity": "30 L",
+      "Size": "19 x 32 x 48.5 cm",
+      "Laptop": "Up to 17 inch",
+      "Weight": "500 g",
+      "Material": "Polyester",
+      "Warranty": "Not listed"
+    },
+    "skip_if": "you want a plain look: this one has an all-over print.",
+    "deal_seen_at": "2026-11-20T09:08:00+05:30"
+  },
+  {
+    "asin": "B097KFYPCG",
+    "added_at": "2026-11-20T09:09:22+05:30",
+    "title": "Gear Alphamount Trekking Rucksack, 45-48 L, Water Resistant",
+    "category": "backpacks",
+    "highlights": [
+      "Big rucksack for treks and hill trips",
+      "Cushioned back panel and shoulder straps",
+      "Light at 560 g",
+      "Water resistant polyester, made in India"
+    ],
+    "note": "A light Gear rucksack for winter treks and long hill trips.",
+    "brand": "Gear",
+    "colour": "Black Yellow",
+    "best_for": [
+      "Trekking",
+      "Hill trips"
+    ],
+    "specs": {
+      "Capacity": "45 to 48 L (listing gives both)",
+      "Size": "23 x 30 x 65.5 cm",
+      "Weight": "560 g",
+      "Material": "Polyester, water resistant",
+      "Laptop sleeve": "Not listed",
+      "Warranty": "1 year"
+    },
+    "skip_if": "you need a laptop bag for office: the listing names no laptop sleeve.",
+    "deal_seen_at": "2026-11-20T09:09:00+05:30"
+  },
+  {
+    "asin": "B0CDC7QR7T",
+    "added_at": "2026-11-20T09:09:22+05:30",
+    "title": "Fastrack Women's Analog Watch, Pink Dial, Silver Metal Strap",
+    "category": "watches",
+    "highlights": [
+      "32.3 mm round pink dial",
+      "Silver metal bracelet strap",
+      "Quartz movement",
+      "2-year warranty"
+    ],
+    "note": "A light, pretty Fastrack watch for college, office and gifts.",
+    "brand": "Fastrack",
+    "colour": "Pink",
+    "best_for": [
+      "Gift for her",
+      "College"
+    ],
+    "specs": {
+      "Dial": "32.3 mm, pink",
+      "Case": "Brass, steel back",
+      "Strap": "Silver metal",
+      "Movement": "Quartz",
+      "Water resistance": "30 m (3 ATM)",
+      "Model": "6268SM02"
+    },
+    "skip_if": "you want a big dial: this one is small at 32 mm.",
+    "deal_seen_at": "2026-11-20T09:08:00+05:30"
+  },
+  {
     "asin": "B0HHJN8WPR",
     "added_at": "2026-11-19T09:39:03+05:30",
     "title": "American Tourister Zevo 25L Daypack, 2 Compartments",
