@@ -8,6 +8,8 @@ photo: gift-box
 ---
 A good farewell gift helps with what comes next for your colleague: a new job, a move to another city or country, or retirement. Most teams put money together for one useful gift and add a card signed by everyone.
 
+**Not sure?** [Try the gift finder](../tools/gift-finder.html#for=colleague): answer 2 or 3 quick questions and see the gift ideas that match.
+
 [[toppicks:Our quick picks|See all the ideas|#for-a-male-colleague]]
 [[top:B0C3LRF94X|For a male colleague|A leather wallet, a keychain and a pen that come in a gift box, so there's nothing to wrap.]]
 [[top:B0F13ZFVVX|For a female colleague|A zip-around wallet with 3 sections and card slots. The zip keeps cash and cards from falling out.]]

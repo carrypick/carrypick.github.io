@@ -10,6 +10,8 @@ priority: 1
 ---
 In an office Secret Santa, the best gift is something your colleague will use at work or on a trip, not one more thing for the drawer. Christmas 2026 falls on a Friday, so many offices will swap gifts in the week before it.
 
+**Not sure?** [Try the gift finder](../tools/gift-finder.html#for=santa): answer 2 or 3 quick questions and see the gift ideas that match.
+
 [[toppicks:Our quick picks|See all the ideas|#gifts-for-a-male-colleague]]
 [[top:B0C3LRF94X|For a male colleague|A leather wallet, a keychain and a pen that come in a gift box, so there's nothing to wrap.]]
 [[top:B0F13ZFVVX|For a female colleague|A zip-around wallet with 3 sections and card slots. The zip keeps coins and cards from falling out.]]

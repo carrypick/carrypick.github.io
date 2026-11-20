@@ -20,6 +20,7 @@ import diagrams
 import hindi_pages
 import more_tools
 import pack_maker
+import gift_finder
 import pick_art
 from common import IST, ROOT, amazon_link, load_config, load_deals
 
@@ -2893,6 +2894,7 @@ def build():
     TOOLS.append(("tools/watch-size.html", "Watch size by wrist", "Free tool", "Which watch size suits my wrist?",
                   "Measure your wrist and see the dial sizes, in mm, that look right on it.", "Find my size", "watch", "watches", "watch-wrist"))
     more_tools.register(sys.modules[__name__])  # shoe size converter, power bank flight checker
+    gift_finder.register(sys.modules[__name__])  # gift finder quiz, first on the tools list
     if PACKING_FILE.exists():
         TOOLS.append((pack_maker.PATH, "Packing list maker", "Free tool", "Make a packing list for your trip",
                       "Beach, hills, abroad, pilgrimage or a wedding: pick the days, month and who is going, then tick, print or share.",
@@ -3162,6 +3164,7 @@ def build():
         hindi_pages.build_all(sys.modules[__name__], cfg, deals, deals_by_asin, airlines, intl_airlines, extra, pages, lastmod)
     if PACKING_FILE.exists():
         pack_maker.build(sys.modules[__name__], cfg, deals_by_asin, pages, lastmod)  # after guides and trips, so its links can be checked
+    gift_finder.build(sys.modules[__name__], cfg, deals_by_asin, pages, lastmod)  # after the gift guides, so its links can be checked
 
     # Info pages
     name = e(cfg["site_name"])

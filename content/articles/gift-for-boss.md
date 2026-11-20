@@ -9,6 +9,8 @@ feature_until: 2026-12-26
 ---
 A good gift for your boss is professional, useful and not too personal. A watch from a known brand, a smart work bag or something for their business trips all fit. Many teams buy one bigger gift together for Christmas, a birthday or a farewell.
 
+**Not sure?** [Try the gift finder](../tools/gift-finder.html#for=boss): answer 2 or 3 quick questions and see the gift ideas that match.
+
 [[toppicks:Our quick picks|See all the ideas|#for-a-male-boss]]
 [[top:B018VZBTLY|For a male boss|A classic Titan with a 42 mm silver dial on a brown leather strap, and a 2-year warranty.]]
 [[top:B07CR1JQBY|For a female boss|A champagne dial on a gold-tone metal strap that suits office wear and functions. 2-year warranty.]]

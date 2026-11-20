@@ -9,6 +9,8 @@ feature_until: 2026-12-26
 ---
 People who travel a lot already have a bag. What they often don't have are the small things that make every trip easier: a tidy toiletry bag, a case for chargers, a luggage scale. These gifts get used on every journey, for Christmas, a birthday or a farewell. Saying goodbye to a colleague? See our [farewell gift ideas](farewell-gift-for-colleague.html).
 
+**Not sure?** [Try the gift finder](../tools/gift-finder.html#for=traveller): answer 2 or 3 quick questions and see the gift ideas that match.
+
 [[toppicks:Our quick picks|See all the ideas|#for-someone-who-travels-for-work]]
 [[top:B0F2237QFM|For someone who flies for work|A vegan leather toiletry bag, only 140 g, for a shaving kit or make-up. For men and women.]]
 [[top:B0C3RB9X98|For someone with lots of gadgets|Chargers, cables, earphones and a power bank in one padded case, with 3 movable dividers.]]

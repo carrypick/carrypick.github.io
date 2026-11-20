@@ -9,6 +9,8 @@ feature_until: 2026-12-26
 ---
 A good Christmas gift for your girlfriend or wife fits her day: a watch she can wear to work and to functions, a bag that holds what she carries, or something for the trip you're taking together. Here are ideas for her, plus a few for mom and your sister. Christmas 2026 falls on a Friday, so order by mid-December.
 
+**Not sure?** [Try the gift finder](../tools/gift-finder.html#for=her): answer 2 or 3 quick questions and see the gift ideas that match.
+
 [[toppicks:Our quick picks|See all the ideas|#for-your-girlfriend]]
 [[top:B08LKXV22C|For your girlfriend|A dressy Titan Raga with a mother of pearl dial and a rose gold strap with crystals. It looks like jewellery.]]
 [[top:B07CR1JQBY|For your wife|A Titan Karishma with a champagne dial on a gold-tone strap, for office and functions. 2-year warranty.]]
