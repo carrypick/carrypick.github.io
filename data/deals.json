@@ -1,5 +1,460 @@
 [
   {
+    "asin": "B07MZ3B4SS",
+    "added_at": "2026-11-20T14:05:31+05:30",
+    "title": "Labnoft Men's Reversible Belt, Black and Brown",
+    "category": "wallets-belts",
+    "highlights": [
+      "Reversible: black on one side, brown on the other",
+      "Turning buckle, so one belt works with black and brown shoes",
+      "Cut to fit waists 28 to 44; strap 49 inches long and 3.25 cm wide",
+      "PU (vegan) leather, 220 g"
+    ],
+    "note": "Two belts in one, so you pack one belt for a trip instead of two.",
+    "brand": "Labnoft",
+    "colour": "Black and brown",
+    "best_for": [
+      "Men",
+      "Light packers"
+    ],
+    "specs": {
+      "For": "Men",
+      "Waist": "28 to 44 inches (cut to size)",
+      "Width": "3.25 cm",
+      "Strap length": "49 inches (about 124 cm)",
+      "Buckle": "Turning metal buckle",
+      "Material": "PU (vegan) leather, not real leather",
+      "Weight": "220 g",
+      "Warranty": "6 months"
+    },
+    "skip_if": "you want real leather: it's PU leather."
+  },
+  {
+    "asin": "B0CXF2K4K7",
+    "added_at": "2026-11-20T14:05:31+05:30",
+    "title": "Hammonds Flycatcher Genuine Leather Auto-Lock Belt for Men",
+    "category": "wallets-belts",
+    "highlights": [
+      "Genuine leather strap, 1.5 inch (about 3.8 cm) wide",
+      "Auto-lock slide buckle, so there are no holes to punch",
+      "Fits waist sizes 28 to 46 (as listed)",
+      "Silver zinc buckle; 6-month warranty"
+    ],
+    "note": "One belt for office and weekends; the slide buckle fits any notch between sizes.",
+    "brand": "Hammonds Flycatcher",
+    "colour": "Blazing brown",
+    "best_for": [
+      "Men",
+      "Office"
+    ],
+    "specs": {
+      "For": "Men",
+      "Waist": "28 to 46 inches (as listed)",
+      "Width": "3.8 cm (1.5 inch)",
+      "Buckle": "Auto-lock, silver",
+      "Material": "Genuine leather",
+      "Weight": "170 g",
+      "Warranty": "6 months"
+    },
+    "skip_if": "you like a classic pin buckle with holes: this one slides and locks.",
+    "deal_seen_at": "2026-11-20T14:00:00+05:30"
+  },
+  {
+    "asin": "B07HD1H1RH",
+    "added_at": "2026-11-20T14:05:31+05:30",
+    "title": "Contacts Genuine Leather Wallet for Men with 14 Card Slots and RFID Blocking",
+    "category": "wallets-belts",
+    "highlights": [
+      "14 card slots and an ID window",
+      "2 zip compartments and a button closure",
+      "Genuine leather, RFID blocking (as listed)",
+      "11.5 x 9.5 x 2 cm, 170 g; comes in a gift pouch"
+    ],
+    "note": "For someone who carries many cards: Aadhaar, licence, metro card and bank cards all fit.",
+    "brand": "Contacts",
+    "colour": "Brown",
+    "best_for": [
+      "Men",
+      "Lots of cards"
+    ],
+    "specs": {
+      "For": "Men",
+      "Style": "Bifold with button closure",
+      "Card slots": "14, plus an ID window",
+      "Zip pockets": "2",
+      "Size": "11.5 x 9.5 x 2 cm",
+      "Weight": "170 g",
+      "Material": "Genuine leather, polyester lining",
+      "RFID": "Blocking (as listed)",
+      "Warranty": "3 months"
+    },
+    "skip_if": "you want a thin wallet: with 14 slots and 2 zips it gets thick when full."
+  },
+  {
+    "asin": "B079TN3GCD",
+    "added_at": "2026-11-20T14:05:31+05:30",
+    "title": "WildHorn Slim Bifold Leather Wallet for Men with RFID Blocking",
+    "category": "wallets-belts",
+    "highlights": [
+      "Top grain leather, lined in leather (as listed)",
+      "10 card slots and a coin pocket",
+      "Slim bifold, 11 x 9 x 2 cm and 150 g",
+      "RFID blocking (as listed); 6-month warranty"
+    ],
+    "note": "A slim everyday wallet that fits a front trouser pocket, and an easy gift.",
+    "brand": "WildHorn",
+    "colour": "Brown",
+    "best_for": [
+      "Men",
+      "Gifts"
+    ],
+    "specs": {
+      "For": "Men",
+      "Style": "Slim bifold",
+      "Card slots": "10",
+      "Coin pocket": "Yes",
+      "Size": "11 x 9 x 2 cm",
+      "Weight": "150 g",
+      "Material": "Top grain leather (as listed)",
+      "RFID": "Blocking (as listed)",
+      "Warranty": "6 months"
+    },
+    "skip_if": "you want a zip for coins and receipts: it closes as a plain bifold."
+  },
+  {
+    "asin": "B0CFWTTCCQ",
+    "added_at": "2026-11-20T14:05:13+05:30",
+    "title": "Eyewearlabs OKNO Polarized Rectangular Sports Sunglasses",
+    "category": "sunglasses",
+    "highlights": [
+      "Polarized, UV400-rated black lenses (as listed)",
+      "Medium frame, 50-16-142 mm",
+      "Polycarbonate frame with non-slip sport arms",
+      "Comes with a carrying case; 8-month warranty"
+    ],
+    "note": "Grippy arms that stay on during cricket, cycling, treks and boat rides.",
+    "brand": "Eyewearlabs",
+    "colour": "Barton matte black",
+    "best_for": [
+      "Sports",
+      "Treks"
+    ],
+    "specs": {
+      "For": "Men and women",
+      "Shape": "Rectangular",
+      "Size": "Medium (50-16-142 mm)",
+      "Lens": "Polarized, black, UV400",
+      "Polarized": "Yes",
+      "Frame": "Polycarbonate",
+      "In the box": "Carrying case",
+      "Warranty": "8 months (not for scratches or breakage)"
+    },
+    "skip_if": "you want a dressy look: it's a sporty wrap shape."
+  },
+  {
+    "asin": "B09KV28F4P",
+    "added_at": "2026-11-20T14:05:13+05:30",
+    "title": "Vincent Chase Polarized Round Sunglasses (VC S13112)",
+    "category": "sunglasses",
+    "highlights": [
+      "Polarized green lenses with 100% UV protection (as listed)",
+      "Medium frame, 51-20-145 mm",
+      "Gold stainless steel frame, about 18 g",
+      "For men and women"
+    ],
+    "note": "A light, retro round frame that suits smaller faces.",
+    "brand": "Vincent Chase",
+    "colour": "Frame gold / lens green",
+    "best_for": [
+      "Narrow faces",
+      "Men and women"
+    ],
+    "specs": {
+      "For": "Men and women",
+      "Shape": "Round",
+      "Size": "Medium (51-20-145 mm)",
+      "Lens": "Polarized, green, 100% UV",
+      "Polarized": "Yes",
+      "Frame": "Stainless steel, gold",
+      "Weight": "18 g"
+    },
+    "skip_if": "you have a wide face: 51 mm lenses are on the small side."
+  },
+  {
+    "asin": "B08VGMBLQW",
+    "added_at": "2026-11-20T14:05:13+05:30",
+    "title": "Vincent Chase Polarized Aviator Sunglasses (VC 5158/P)",
+    "category": "sunglasses",
+    "highlights": [
+      "Polarized grey lenses that block 100% UV up to 400 nm (as listed)",
+      "Medium frame, 57-16-140 mm in the details table",
+      "Stainless steel frame, about 20 g",
+      "For men and women"
+    ],
+    "note": "The classic pilot shape with polarized lenses, for driving and beach glare.",
+    "brand": "Vincent Chase",
+    "colour": "Black frame, grey lenses",
+    "best_for": [
+      "Driving",
+      "Men and women"
+    ],
+    "specs": {
+      "For": "Men and women",
+      "Shape": "Aviator (pilot)",
+      "Size": "Medium (57-16-140 mm)",
+      "Lens": "Polarized, grey, 100% UV up to 400 nm",
+      "Polarized": "Yes",
+      "Frame": "Stainless steel",
+      "Weight": "20 g"
+    },
+    "skip_if": "you need an exact fit: the description gives a slightly different size (58-14-135 mm), so compare with a pair you own."
+  },
+  {
+    "asin": "B074PYMMCQ",
+    "added_at": "2026-11-20T14:05:13+05:30",
+    "title": "Fastrack UV-Protected Cat-Eye Sunglasses for Women",
+    "category": "sunglasses",
+    "highlights": [
+      "Brown gradient lenses with UV protection (not polarized)",
+      "Large frame, 60-11-150 mm",
+      "Very light: about 13 g",
+      "6-month warranty"
+    ],
+    "note": "A light cat-eye frame for women that's easy to wear all day on a holiday.",
+    "brand": "Fastrack",
+    "colour": "Brown",
+    "best_for": [
+      "Women",
+      "City trips"
+    ],
+    "specs": {
+      "For": "Women",
+      "Shape": "Cat-eye",
+      "Size": "Large (60-11-150 mm)",
+      "Lens": "UV protected, brown gradient",
+      "Polarized": "No",
+      "Frame": "Plastic",
+      "Weight": "13 g",
+      "Warranty": "6 months"
+    },
+    "skip_if": "you have a small face: it's listed as a large frame with 60 mm lenses."
+  },
+  {
+    "asin": "B07FM7TPPY",
+    "added_at": "2026-11-20T14:05:12+05:30",
+    "title": "Fastrack UV-Protected Wayfarer Sunglasses for Men",
+    "category": "sunglasses",
+    "highlights": [
+      "UV-protected green polycarbonate lenses (not polarized)",
+      "Medium frame, 56-21-144 mm",
+      "Light plastic frame, about 20 g",
+      "Comes with a microfibre cloth and a box; 6-month warranty"
+    ],
+    "note": "A classic wayfarer shape for city trips and drives, from a brand you'll find in every Indian mall.",
+    "brand": "Fastrack",
+    "colour": "Green",
+    "best_for": [
+      "Men",
+      "Road trips"
+    ],
+    "specs": {
+      "For": "Men",
+      "Shape": "Wayfarer (square)",
+      "Size": "Medium (56-21-144 mm)",
+      "Lens": "UV protected, green, polycarbonate",
+      "Polarized": "No",
+      "Frame": "Plastic",
+      "Weight": "20 g",
+      "Warranty": "6 months"
+    },
+    "skip_if": "you want less glare off water or snow: these lenses aren't polarized."
+  },
+  {
+    "asin": "B0DCZ3WDTB",
+    "added_at": "2026-11-20T14:04:52+05:30",
+    "title": "Xiaomi Power Bank 4i 20000mAh 33W",
+    "category": "travel-tech",
+    "highlights": [
+      "20,000 mAh, about 74 Wh: under the 100 Wh limit on Air India and Akasa Air",
+      "33 W fast charging with PD 3.0, and Type C in and out",
+      "Triple output ports (as listed)",
+      "440 g, 15 x 7.2 x 2.6 cm"
+    ],
+    "note": "Enough to charge a phone several times on a long trip with no plug points.",
+    "brand": "Xiaomi",
+    "colour": "Black",
+    "best_for": [
+      "Long trips",
+      "Treks"
+    ],
+    "specs": {
+      "Capacity": "20,000 mAh",
+      "Watt-hours": "About 74 Wh (20,000 mAh x 3.7 V)",
+      "Output": "33 W",
+      "Ports": "Type C in and out, 3 output ports (as listed)",
+      "Size": "15 x 7.2 x 2.6 cm",
+      "Weight": "440 g",
+      "Recharge time": "About 4.8 hours (as listed)",
+      "Warranty": "1 year"
+    },
+    "skip_if": "you travel light: at 440 g it's heavy for a handbag."
+  },
+  {
+    "asin": "B0DWSS3Q5K",
+    "added_at": "2026-11-20T14:04:52+05:30",
+    "title": "Ambrane Stylo N10 10000mAh Power Bank with Built-in Type C Cable",
+    "category": "travel-tech",
+    "highlights": [
+      "10,000 mAh, about 37 Wh, with a Type C cable built in",
+      "22.5 W output; supports PD 3.0, QC 3.0, PPS and VOOC (as listed)",
+      "A Type C and a USB-A port, so it charges two devices at once",
+      "234 g, 13 x 6 x 1.6 cm"
+    ],
+    "note": "The cable is part of the power bank, so there's nothing to forget at the hotel.",
+    "brand": "Ambrane",
+    "colour": "Black",
+    "best_for": [
+      "Flights",
+      "Light packers"
+    ],
+    "specs": {
+      "Capacity": "10,000 mAh",
+      "Watt-hours": "About 37 Wh (10,000 mAh x 3.7 V)",
+      "Output": "22.5 W",
+      "Ports": "Built-in Type C cable, plus Type C and USB-A",
+      "Size": "13 x 6 x 1.6 cm",
+      "Weight": "234 g",
+      "Cells": "Lithium polymer",
+      "Recharge time": "About 3.5 hours with a 20 W charger (as listed)",
+      "Warranty": "6 months"
+    },
+    "skip_if": "your phone charges with a Lightning cable: the built-in cable is Type C.",
+    "deal_seen_at": "2026-11-20T13:50:00+05:30"
+  },
+  {
+    "asin": "B0D73W5Q39",
+    "added_at": "2026-11-20T14:04:52+05:30",
+    "title": "Xiaomi Power Bank 4i 10000mAh 22.5W",
+    "category": "travel-tech",
+    "highlights": [
+      "10,000 mAh, about 37 Wh: under the limit on IndiGo, Air India and Akasa Air",
+      "22.5 W fast charging, with 3 output ports (as listed)",
+      "Steel casing, 280 g, 14.7 x 7.4 x 1.5 cm",
+      "Recharges in about 3.5 hours (as listed)"
+    ],
+    "note": "A slim, everyday power bank for flights, trains and long sightseeing days.",
+    "brand": "Xiaomi",
+    "colour": "Coral purple",
+    "best_for": [
+      "Flights",
+      "Day trips"
+    ],
+    "specs": {
+      "Capacity": "10,000 mAh",
+      "Watt-hours": "About 37 Wh (10,000 mAh x 3.7 V)",
+      "Output": "22.5 W",
+      "Ports": "Type C in and out, 3 output ports (as listed)",
+      "Size": "14.7 x 7.4 x 1.5 cm",
+      "Weight": "280 g",
+      "Body": "Steel",
+      "Recharge time": "About 3.5 hours (as listed)",
+      "Warranty": "1 year"
+    },
+    "skip_if": "you need to charge a laptop: 22.5 W is for phones and earbuds."
+  },
+  {
+    "asin": "B0F94K1BSP",
+    "added_at": "2026-11-20T14:04:51+05:30",
+    "title": "Ceptics 7-in-1 Universal Travel Adapter with 100W Retractable USB-C Cable",
+    "category": "travel-tech",
+    "highlights": [
+      "100 W GaN charging: 2 USB-C, 2 USB-A and a pull-out USB-C cable (as listed)",
+      "A universal socket and a US/Japan socket",
+      "Plugs for Type A (US, Japan), I (Australia, China), C (Europe) and G (UK, Singapore)",
+      "8 A fuse and child-safety shutters; 150 g, 9 x 4 x 4 cm"
+    ],
+    "note": "Strong enough to charge a laptop, a phone and a watch from one wall socket.",
+    "brand": "Ceptics",
+    "colour": "Galaxy black",
+    "best_for": [
+      "Laptops",
+      "Work trips"
+    ],
+    "specs": {
+      "Type": "Universal travel adapter with USB",
+      "USB ports": "2 USB-C, 2 USB-A, plus a built-in USB-C cable",
+      "Max USB output": "100 W (as listed)",
+      "Sockets": "Universal, and US/Japan",
+      "Plugs": "Type A, C, G and I",
+      "Size": "9 x 4 x 4 cm",
+      "Weight": "150 g",
+      "Converts voltage": "No"
+    },
+    "skip_if": "you only charge a phone: a simpler adapter does the job.",
+    "deal_seen_at": "2026-11-20T13:45:00+05:30"
+  },
+  {
+    "asin": "B07WDJR33C",
+    "added_at": "2026-11-20T14:04:51+05:30",
+    "title": "GoTrippin 25W Universal Travel Adapter with 2 USB-C and 1 USB-A",
+    "category": "travel-tech",
+    "highlights": [
+      "2 USB-C ports (25 W) and 1 USB-A port (18 W), plus a socket for US and Japan plugs",
+      "Slide-out plugs for 180+ countries, including the UK, Europe, the USA and Japan (as listed)",
+      "Input 100-250 V, max load 10 A (as listed)",
+      "64 x 55 x 55 mm and comes with a carry pouch"
+    ],
+    "note": "Charges a phone and earbuds at the same time from one plug point, without your Indian charger.",
+    "brand": "GoTrippin",
+    "colour": "Black",
+    "best_for": [
+      "Phones",
+      "Trips abroad"
+    ],
+    "specs": {
+      "Type": "Universal travel adapter with USB",
+      "USB ports": "2 USB-C (25 W), 1 USB-A (18 W)",
+      "Socket": "US and Japan plugs",
+      "Size": "6.4 x 5.5 x 5.5 cm",
+      "Weight": "150 g (listed in the details; the description says 110 g)",
+      "Input": "100-250 V, max 10 A",
+      "In the box": "Carry pouch",
+      "Converts voltage": "No"
+    },
+    "skip_if": "you need to plug in an Indian 3-pin plug: its socket takes US and Japan plugs.",
+    "deal_seen_at": "2026-11-20T13:47:00+05:30"
+  },
+  {
+    "asin": "B0DPKYKC8J",
+    "added_at": "2026-11-20T14:04:51+05:30",
+    "title": "Ambrane ATA-03 Universal Travel Socket Adapter",
+    "category": "travel-tech",
+    "highlights": [
+      "Pull-out plugs for US, UK, EU and Australian sockets, for 150+ countries (as listed)",
+      "A 9-hole universal socket on the front for many plug types (as listed)",
+      "No USB ports: plug in your own charger",
+      "96 g, 6 x 6 x 3 cm"
+    ],
+    "note": "The simplest way to plug your Indian charger, trimmer or hair dryer into a foreign socket.",
+    "brand": "Ambrane",
+    "colour": "Black",
+    "best_for": [
+      "Trips abroad",
+      "Hair dryers"
+    ],
+    "specs": {
+      "Type": "Universal travel adapter (socket only)",
+      "Plugs": "US, UK, EU and Australia (as listed)",
+      "USB ports": "None listed",
+      "Size": "6 x 6 x 3 cm",
+      "Weight": "96 g",
+      "Max load": "2500 W (as listed)",
+      "Converts voltage": "No",
+      "Warranty": "6 months"
+    },
+    "skip_if": "you want to charge a phone without its own charger: it has no USB ports."
+  },
+  {
     "asin": "B097B2PQTG",
     "added_at": "2026-11-20T09:09:23+05:30",
     "title": "Safari Omega Plus 30L Laptop Backpack with Rain Cover (up to 17 inch)",
@@ -604,7 +1059,7 @@
     "asin": "B0F13ZFVVX",
     "added_at": "2026-11-15T22:15:44+05:30",
     "title": "Lavie Women's Sacy Zip-Around Wallet",
-    "category": "handbags",
+    "category": "wallets-belts",
     "highlights": [
       "Zip-around wallet: the zip keeps cash and cards from falling out",
       "3 sections and a slip pocket, with card slots",
@@ -632,7 +1087,7 @@
     "asin": "B0C3LRF94X",
     "added_at": "2026-11-15T22:15:44+05:30",
     "title": "WildHorn Leather Wallet, Keychain and Pen Gift Set for Men",
-    "category": "handbags",
+    "category": "wallets-belts",
     "highlights": [
       "A bi-fold wallet, a keychain and a pen in one gift box",
       "Listed as full grain leather, with RFID protection",
@@ -1816,7 +2271,7 @@
     "asin": "B0999SJPWC",
     "added_at": "2026-11-04T23:03:29+05:30",
     "title": "Vincent Chase Polarized Square Sunglasses",
-    "category": "clothing",
+    "category": "sunglasses",
     "highlights": [
       "Polarized lenses with 100% UV protection, up to 400 nm (as listed)",
       "TR90 frame, about 26 g",
@@ -1831,10 +2286,12 @@
     ],
     "specs": {
       "For": "Men and women",
+      "Shape": "Square",
       "Size": "Large (56-19-140 mm)",
-      "Weight": "26 g",
-      "Lens": "Polarized, 100% UV (as listed)",
-      "Frame": "TR90"
+      "Lens": "Polarized, grey, 100% UV (as listed)",
+      "Polarized": "Yes",
+      "Frame": "TR90",
+      "Weight": "26 g"
     },
     "skip_if": "you have a narrow face: it's listed as a large frame."
   },

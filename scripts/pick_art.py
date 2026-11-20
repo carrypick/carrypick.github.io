@@ -22,7 +22,8 @@ FLOOR = 272
 NOTE = "Illustration, not a product photo"
 SCALED = " · listed sizes drawn to scale"
 CSS_FILE = Path(__file__).resolve().parent.parent / "static" / "style.css"
-CATS = ("luggage", "backpacks", "watches", "clothing", "shoes", "skincare", "handbags", "travel-gear")
+CATS = ("luggage", "backpacks", "watches", "clothing", "shoes", "skincare", "handbags", "travel-gear",
+        "travel-tech", "sunglasses", "wallets-belts")
 DASH = ' stroke-dasharray="7 5"'
 
 # Pixels per cm (bags) or per mm (watches, glasses), fixed per kind so picks of one kind compare fairly.
@@ -78,7 +79,7 @@ def style(cat, paint=""):
 
 # Colour words, longest first so "blue grey" wins over "blue", with the shade we paint each one.
 PALETTE = [
-    ("charcoal black", "#2e3236"), ("army green", "#56603a"), ("dusk green", "#5f7d6e"), ("sea blue", "#5aa3b5"),
+    ("charcoal black", "#2e3236"), ("coral purple", "#9d86c2"), ("army green", "#56603a"), ("dusk green", "#5f7d6e"), ("sea blue", "#5aa3b5"),
     ("slate grey", "#66717c"), ("dark grey", "#4a5057"), ("dark brown", "#4a2f20"), ("deep red", "#7a2834"),
     ("blue grey", "#6b7f95"), ("rose gold", "#d6a28e"), ("gunmetal", "#4f565d"), ("charcoal", "#363b40"),
     ("navy blue", "#22325a"), ("wine red", "#6d1f33"), ("turquoise", "#2bb0ad"), ("lime", "#a9c94b"),
@@ -859,29 +860,138 @@ def draw_clothing(d):
                 legend=False, info=[], scaled=False, alt="Simple drawing of a folded thermal %s" % (" and ".join(p.lower() for p in parts)))
 
 
+LENS_TINT = [("grey", "#4f565d"), ("green", "#3d5a40"), ("brown", "#6b4a2e"), ("blue", "#2f4f7a"), ("black", "#23272b")]
+
+
+def lens_path(x, y, w, h, shape):
+    """The left lens (outer side at x). The right lens is drawn as its mirror image."""
+    if shape == "round":
+        r = w / 2
+        return '<circle cx="%s" cy="%s" r="%s"' % (n(x + r), n(y + h / 2), n(r))
+    if shape == "pilot":
+        d = D("M%s %s Q%s %s %s %s C%s %s %s %s %s %s C%s %s %s %s %s %sZ", x, y + 6, x + w / 2, y - 6, x + w, y + 6,
+              x + w + 4, y + h * .62, x + w * .78, y + h, x + w * .5, y + h, x + w * .14, y + h, x - 6, y + h * .55, x, y + 6)
+    elif shape == "cat":
+        d = D("M%s %s Q%s %s %s %s C%s %s %s %s %s %s C%s %s %s %s %s %sZ", x + w, y + 10, x + w * .45, y, x - 8, y - 12,
+              x, y + h * .62, x + w * .22, y + h, x + w * .55, y + h, x + w * .9, y + h, x + w, y + h * .6, x + w, y + 10)
+    else:
+        rx = 10 if shape == "wayfarer" else 18
+        return '<rect x="%s" y="%s" width="%s" height="%s" rx="%s"' % (n(x), n(y), n(w), n(h), rx)
+    return '<path d="%s"' % d
+
+
 def draw_glasses(d):
-    sp = d.get("specs", {})
+    sp, tl = d.get("specs", {}), d["title"].lower()
     m = re.search(r"(\d+)-(\d+)-(\d+)", sp.get("Size") or "")
     lens, bridge, arm = (float(x) for x in m.groups()) if m else (54, 18, 140)
+    shape = ("round" if "round" in tl else "pilot" if "pilot" in tl or "aviator" in tl else "cat" if "cat-eye" in tl or "cateye" in tl
+             else "wayfarer" if "wayfarer" in tl else "rect" if "rectangular" in tl or "sport" in tl else "square")
     s = SCALE["glasses"]
     lw, bw = lens * s, bridge * s
-    lh = lw * .78
+    lh = lw * {"round": 1.0, "pilot": .86, "cat": .7, "wayfarer": .72, "rect": .6}.get(shape, .78)
     total = 2 * lw + bw
     x0, y0 = (W - total) / 2, 168 - lh / 2
-    out = ""
-    lens_col = "#5a6168" if "grey lens" in (d.get("colour") or "").lower() else "#2c3742"
-    for lx in (x0, x0 + lw + bw):
-        out += ('<rect x="%s" y="%s" width="%s" height="%s" rx="18" class="pk" stroke-width="7" style="fill:%s;fill-opacity:.85"/>'
-                % (n(lx), n(y0), n(lw), n(lh), lens_col))
-    out += P(D("M%s %s Q%s %s %s %s", x0 + lw, y0 + 14, W / 2, y0 - 2, x0 + lw + bw, y0 + 14), "pk", 6)
-    out += R(x0 - 10, y0 + 8, 12, 12, 3, "p", 0) + R(x0 + total - 2, y0 + 8, 12, 12, 3, "p", 0)
-    out += dim_h(x0, x0 + lw, y0 - 18, n(lens) + " mm", "lens", above=True)
+    colour = (d.get("colour") or "").lower()
+    lens_words = colour.split("lens")[-1] + " " + (sp.get("Lens") or "").lower()
+    if "lens" not in colour:
+        lens_words += " " + colour
+    lens_col = next((hx for word, hx in LENS_TINT if re.search(r"\b%s\b" % word, lens_words)), "#2c3742")
+    frame_words = colour.split("lens")[0] if "frame" in colour else ""
+    frame_col = (colours_in(frame_words) or ["#26292d"])[0]
+    thick = 4 if shape in ("round", "pilot") else 7
+    one = lens_path(x0, y0, lw, lh, shape) + ' style="fill:%s;fill-opacity:.85;stroke:%s" stroke-width="%d"/>' % (lens_col, frame_col, thick)
+    out = one + '<g transform="matrix(-1 0 0 1 %d 0)">%s</g>' % (W, one)
+    bar = '<path d="%s" style="fill:none;stroke:%s" stroke-width="%d" stroke-linecap="round"/>'
+    out += bar % (D("M%s %s Q%s %s %s %s", x0 + lw, y0 + 14, W / 2, y0 - 2, x0 + lw + bw, y0 + 14), frame_col, 5)
+    if shape == "pilot":
+        out += bar % (D("M%s %s H%s", x0 + lw * .6, y0 - 1, x0 + lw + bw + lw * .4), frame_col, 3)
+    out += ('<rect x="%s" y="%s" width="12" height="12" rx="3" style="fill:%s"/>' % (n(x0 - 10), n(y0 + 8), frame_col)
+            + '<rect x="%s" y="%s" width="12" height="12" rx="3" style="fill:%s"/>' % (n(x0 + total - 2), n(y0 + 8), frame_col))
+    out += dim_h(x0, x0 + lw, y0 - 22, n(lens) + " mm", "lens", above=True)
     out += dim_h(x0 + lw, x0 + lw + bw, y0 + lh + 20, n(bridge) + " mm", "bridge")
     lens_text = (sp.get("Lens") or "").split(",")[0].strip()
     info = [("Arms %s mm" % n(arm), "t", 15, 700)] if m else []
     first = " · ".join(x for x in ("Frame " + sp["Frame"] if sp.get("Frame") else None, lens_text + " lenses" if lens_text else None) if x)
-    return dict(inner=out + bottom_info("", first, 312), legend=False, info=info, scaled=bool(m),
-                alt="Drawing of square sunglasses from the front, with %s mm lenses and a %s mm bridge drawn to scale" % (n(lens), n(bridge)))
+    words = {"round": "round", "pilot": "aviator", "cat": "cat-eye", "wayfarer": "wayfarer", "rect": "rectangular"}.get(shape, "square")
+    return dict(inner=out + bottom_info("", first, 318), legend=False, info=info, scaled=bool(m),
+                alt="Drawing of %s sunglasses from the front, with %s mm lenses and a %s mm bridge drawn to scale" % (words, n(lens), n(bridge)))
+
+
+# ---------- travel tech: adapters and power banks, drawn to their listed size ----------
+
+def draw_tech(d):
+    sp, tl = d.get("specs", {}), d["title"].lower()
+    dims = sorted(parse_dims(sp.get("Size")) or [], reverse=True)
+    weight = lead_amount(sp.get("Weight"), "kg|g") if sp.get("Weight") else ""
+    if "power bank" in tl or "powerbank" in tl:
+        s = 15.0
+        lcm, wcm, tcm = dims if len(dims) == 3 else (14.0, 7.0, 1.5)
+        w, h = lcm * s, wcm * s
+        x, y = (W - w) / 2 - 30, 168 - h / 2
+        out = (R(x, y, w, h, 14) + R(x + 12, y + 12, w - 24, h - 24, 9, "k", 1, ' opacity=".35"')
+               + "".join(C(x + w - 22 - i * 12, y + h - 16, 3.2, "s") for i in range(4)))
+        for i, port in enumerate(("c", "a")):
+            py = y + h / 2 - 22 + i * 30
+            out += R(x - 5, py, 10, 16 if port == "a" else 12, 3 if port == "c" else 1, "p", 0)
+        if "cable" in tl:
+            out += P(D("M%s %s C%s %s %s %s %s %s", x + w, y + 22, x + w + 46, y + 22, x + w + 46, y + h - 22, x + w + 2, y + h - 28), "pk", 5)
+        side_x = x + w + 62
+        out += R(side_x, y, tcm * s, h, 4, "s k", 1.5)
+        out += dim_h(x, x + w, y + h + 22, n(lcm) + " cm", "long") + dim_v(x - 26, y, y + h, n(wcm) + " cm", "wide")
+        out += label(side_x + tcm * s / 2, y + h + 26, n(tcm) + " cm", "thick")
+        cap = re.match(r"\s*([\d,]+)\s*mAh", sp.get("Capacity") or "")
+        cap = cap.group(1) + " mAh" if cap else ""
+        wh = re.search(r"(\d+(?:\.\d+)?)\s*Wh", sp.get("Watt-hours") or "")
+        info = [(cap, "t", 16, 700), ("about %s Wh" % wh.group(1) if wh else "", "m", 13, 400), (weight, "m", 13, 400)]
+        return dict(inner=out, legend=False, info=info, scaled=True,
+                    alt="Drawing of a power bank, top and side views, drawn to its listed size of %s cm" % ndims([lcm, wcm, tcm]))
+    s = 22.0
+    wcm, hcm = (dims[0], dims[1]) if len(dims) >= 2 else (6.0, 6.0)
+    w, h = wcm * s, hcm * s
+    x, y = (W - w) / 2, 168 - h / 2
+    out = R(x, y, w, h, 16)
+    # A universal socket face, and the USB ports the listing counts along the bottom edge.
+    out += R(x + w * .2, y + h * .18, w * .6, h * .4, 10, "s k", 1.5)
+    out += P(D("M%s %s V%s M%s %s V%s M%s %s H%s", x + w * .38, y + h * .26, y + h * .44, x + w * .62, y + h * .26, y + h * .44,
+               x + w * .44, y + h * .5, x + w * .56), "pk", 4)
+    ports = sp.get("USB ports") or ""
+    cc = int((re.search(r"(\d+)\s*USB-C", ports) or [0, 0])[1])
+    aa = int((re.search(r"(\d+)\s*USB-A", ports) or [0, 0])[1])
+    slots = ["c"] * cc + ["a"] * aa
+    for i, port in enumerate(slots):
+        px = x + w / 2 - (len(slots) * 22) / 2 + i * 22 + 4
+        out += R(px, y + h * .72, 14, 8 if port == "c" else 10, 4 if port == "c" else 1, "p", 0)
+    out += R(x + w * .36, y + h, 6, 26, 2, "p", 0) + R(x + w * .58, y + h, 6, 26, 2, "p", 0)
+    if "cable" in tl:
+        out += P(D("M%s %s C%s %s %s %s %s %s", x + w, y + h * .3, x + w + 60, y + h * .3, x + w + 60, y + h * .9, x + w + 8, y + h * .95), "pk", 5)
+    out += dim_h(x, x + w, y - 22, n(wcm) + " cm", "wide", above=True) + dim_v(x - 26, y, y + h, n(hcm) + " cm", "high")
+    first = ("%d USB-C, %d USB-A" % (cc, aa)) if slots else "No USB ports"
+    return dict(inner=out + bottom_info("", first + (" · " + weight if weight else ""), 330), legend=False, info=[], scaled=bool(dims),
+                alt="Drawing of a universal travel adapter from the front, with its pull-out plug pins, drawn to its listed size")
+
+
+# ---------- belts ----------
+
+def draw_belt(d):
+    sp, tl = d.get("specs", {}), d["title"].lower()
+    wcm = first_cm(sp.get("Width") or "") or 3.5
+    s = 16.0
+    h = wcm * s
+    x, y = 104, 160 - h / 2
+    out = R(x + 46, y, 300, h, 6) + R(x + 52, y + 5, 288, h - 10, 4, "k", 1, ' stroke-dasharray="4 3" opacity=".5"')
+    if "reversible" in tl:
+        out += R(x + 240, y, 106, h, 6, "a k")
+        out += T(x + 293, y + h + 22, "other side", "m", 12.5)
+    out += "".join(C(x + 270 + i * 18, y + h / 2, 3.5, "p") for i in range(4) if "auto" not in tl and "reversible" not in tl)
+    out += R(x, y - 12, 56, h + 24, 8, "pk", 6, ' style="fill:none"')
+    if "auto" in tl or "reversible" in tl:
+        out += R(x + 4, y - 8, 48, h + 16, 6, "p", 0)
+    else:
+        out += L(x + 28, y - 10, x + 28, y + h + 10, "pk", 4)
+    out += dim_v(x - 18, y, y + h, n(wcm) + " cm", "wide")
+    waist = sp.get("Waist") or ""
+    return dict(inner=out + bottom_info("Belt", ("Fits waist " + waist) if waist else "", 262), legend=False, info=[], scaled=True,
+                alt="Drawing of a belt with its buckle, with the strap width drawn to its listed size of %s cm" % n(wcm))
 
 
 # ---------- skincare: tube, bottle or stick, sized by how much it holds ----------
@@ -1057,7 +1167,9 @@ def frame(cat, alt, parts, limit, css=""):
 DRAW = {"luggage": lambda d, lim: draw_luggage(d, lim), "backpacks": lambda d, lim: draw_backpack(d, lim),
         "watches": lambda d, lim: draw_watch(d), "handbags": lambda d, lim: draw_handbag(d),
         "shoes": lambda d, lim: draw_shoe(d), "clothing": lambda d, lim: draw_clothing(d),
-        "skincare": lambda d, lim: draw_skincare(d), "travel-gear": lambda d, lim: draw_travel(d)}
+        "skincare": lambda d, lim: draw_skincare(d), "travel-gear": lambda d, lim: draw_travel(d),
+        "travel-tech": lambda d, lim: draw_tech(d), "sunglasses": lambda d, lim: draw_glasses(d),
+        "wallets-belts": lambda d, lim: draw_belt(d) if "belt" in d["title"].lower() else draw_wallet(d)}
 
 
 def colour_words(colour):

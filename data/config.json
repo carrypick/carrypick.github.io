@@ -117,6 +117,17 @@
       "intro": "Small things that make trips easier: luggage scales, packing cubes, neck pillows, toiletry bags, gadget organisers and passport holders.",
       "tip": "Weigh your bag at home before you fly to avoid extra-baggage charges at the airport."
     },
+    "travel-tech": {
+      "name": "Travel Tech",
+      "emoji": "🔌",
+      "hashtag": "#TravelTech",
+      "icon": "plug",
+      "photo": "plane-window",
+      "seo_title": "Power banks for flights and universal travel adapters in India",
+      "guide": "power-bank-and-travel-adapter-guide",
+      "intro": "Power banks that stay under the airline limit, and universal adapters for plugs abroad. We read the mAh, the ports and the size on each listing.",
+      "tip": "Power banks go in your cabin bag only, never in check-in. 10,000 and 20,000 mAh power banks (about 37 and 74 Wh) are under the 100 Wh limit on Indian airlines."
+    },
     "watches": {
       "name": "Watches",
       "emoji": "⌚",
@@ -127,6 +138,17 @@
       "guide": "first-analog-watch-guide",
       "intro": "Analog watches for daily wear, office and gifting, from brands with service centres across India.",
       "tip": "30 m water resistance means splash-proof only. Take the watch off before a bath or a swim."
+    },
+    "sunglasses": {
+      "name": "Sunglasses",
+      "emoji": "🕶️",
+      "hashtag": "#Sunglasses",
+      "icon": "glasses",
+      "photo": "maldives-jetty",
+      "seo_title": "Polarized and UV-protected sunglasses for men and women in India",
+      "guide": "sunglasses-buying-guide",
+      "intro": "Sunglasses for beaches, snow and long drives. We read the lens width, bridge and arm length, and whether the lenses are polarized, on each listing.",
+      "tip": "The three numbers on a frame, like 56-19-140, are lens width, bridge and arm length in mm. If your face is narrow, pick a lens width of about 50 to 52 mm."
     },
     "clothing": {
       "name": "Clothing & Winter Wear",
@@ -158,8 +180,19 @@
       "photo": "handbag-grey",
       "seo_title": "Handbags, tote bags and sling bags for work and travel in India",
       "guide": "handbag-and-sling-guide",
-      "intro": "Totes, satchels, crossbody slings and wallets for work, sightseeing and flights. We check the size, the weight and how each one closes.",
+      "intro": "Totes, satchels and crossbody slings for work, sightseeing and flights. We check the size, the weight and how each one closes.",
       "tip": "On some airlines a purse or laptop bag counts inside your 7 kg cabin limit. Check your airline before you pack."
+    },
+    "wallets-belts": {
+      "name": "Wallets & Belts",
+      "emoji": "👛",
+      "hashtag": "#Wallets",
+      "icon": "wallet",
+      "photo": "gift-box",
+      "seo_title": "Leather wallets and belts for men and women: gift-friendly picks in India",
+      "guide": "wallet-and-belt-buying-guide",
+      "intro": "Wallets and belts that make easy gifts. We read the card slots, the leather type, the size and the waist range on each listing.",
+      "tip": "\"Genuine leather\" is real leather, but a lower grade than \"full grain\" or \"top grain\". \"Vegan\" or \"PU\" leather is not leather at all."
     },
     "skincare": {
       "name": "Sun Care & Skincare",

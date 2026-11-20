@@ -18,6 +18,9 @@
   --tint-shoes: #eaf1e0;
   --tint-handbags: #f9e6f0;
   --tint-skincare: #fff4d6;
+  --tint-travel-tech: #e7eaf8;
+  --tint-sunglasses: #e2f3f1;
+  --tint-wallets-belts: #e9ecef;
   --tint-none: #eef1f3;
   --icon-backpacks: #1f7a55;
   --icon-luggage: #2b5aa0;
@@ -27,6 +30,9 @@
   --icon-shoes: #55772a;
   --icon-handbags: #a8327a;
   --icon-skincare: #a66a00;
+  --icon-travel-tech: #3c4ba0;
+  --icon-sunglasses: #147a70;
+  --icon-wallets-belts: #4a5568;
   --radius: 18px;
   --shadow: 0 1px 2px rgba(20, 32, 43, 0.06), 0 8px 24px rgba(20, 32, 43, 0.06);
 }
@@ -53,6 +59,9 @@
     --tint-shoes: #1f2716;
     --tint-handbags: #2c1a26;
     --tint-skincare: #2a2312;
+    --tint-travel-tech: #1b1e30;
+    --tint-sunglasses: #152927;
+    --tint-wallets-belts: #1f242a;
     --tint-none: #1c2329;
     --icon-backpacks: #6fd3a5;
     --icon-luggage: #8db5f0;
@@ -62,6 +71,9 @@
     --icon-shoes: #b4d48a;
     --icon-handbags: #eda3cf;
     --icon-skincare: #f2c766;
+    --icon-travel-tech: #a3aef0;
+    --icon-sunglasses: #6fd0c4;
+    --icon-wallets-belts: #b3bfcc;
     --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.25);
   }
 }
@@ -149,6 +161,9 @@ img { max-width: 100%; }
 .tint-shoes { background: var(--tint-shoes); color: var(--icon-shoes); }
 .tint-handbags { background: var(--tint-handbags); color: var(--icon-handbags); }
 .tint-skincare { background: var(--tint-skincare); color: var(--icon-skincare); }
+.tint-travel-tech { background: var(--tint-travel-tech); color: var(--icon-travel-tech); }
+.tint-sunglasses { background: var(--tint-sunglasses); color: var(--icon-sunglasses); }
+.tint-wallets-belts { background: var(--tint-wallets-belts); color: var(--icon-wallets-belts); }
 .tint-none { background: var(--tint-none); color: var(--brand); }
 
 /* Category tiles */
