@@ -57,7 +57,7 @@ IndiGo, Air India और SpiceJet चेक-इन में परफ़्य�
 
 [[pick:B09231NL5H]]
 
-महिलाओं के लिए और गिफ़्ट सेट, 17 ml का पॉकेट स्प्रे, और EDP, EDT और इत्र में फ़र्क हमारी [perfume buying guide (English)](../../guides/perfume-buying-guide.html) में देखें।
+महिलाओं के लिए और गिफ़्ट सेट, 17 ml का पॉकेट स्प्रे, और EDP, EDT और इत्र में फ़र्क हमारी [परफ़्यूम गिफ़्ट सेट गाइड](../guides/perfume-buying-guide.html) में देखें।
 
 ## एयरलाइन के हिसाब से
 
