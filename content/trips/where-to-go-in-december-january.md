@@ -1,14 +1,14 @@
 ---
 seo_title: Where to go in India in December and January 2026–27: beach, snow or heritage?
 title: Where to go in India in December and January
-description: Beach, snow, forts or backwaters? Compare Goa, Andaman, Manali, Shimla, Rishikesh, Darjeeling, Ooty, Varanasi, Jaipur, Udaipur and Kerala for a Christmas or New Year trip: weather, how to get there, crowds and what to pack.
+description: Beach, snow, forts or backwaters? Compare Goa, Andaman, Manali, Shimla, Rishikesh, Darjeeling, Bhutan, Ooty, Varanasi, Jaipur, Udaipur and Kerala for a Christmas or New Year trip: weather, how to get there, crowds and what to pack.
 date: 2026-11-03
 updated: 2026-11-17
 place: India in winter
 best: Dec–Jan
 photo: traveller-sunset
 priority: 1
-glance: For beaches and parties=[Goa](goa.html) | For clear sea and coral=[Andaman](andaman-in-december.html) | For snow=[Manali](manali.html) or [Shimla](shimla-in-december.html) (snow isn't guaranteed) | For mountain views=[Darjeeling](darjeeling-in-december.html) | For the Ganga, yoga and rafting=[Rishikesh](rishikesh-in-december.html) | For forts and palaces=[Jaipur](jaipur.html) or [Udaipur](udaipur.html) | For backwaters and hills=[Kerala](kerala.html) | Book=As early as you can: Christmas to New Year is peak season everywhere
+glance: For beaches and parties=[Goa](goa.html) | For clear sea and coral=[Andaman](andaman-in-december.html) | For snow=[Manali](manali.html) or [Shimla](shimla-in-december.html) (snow isn't guaranteed) | For mountain views=[Darjeeling](darjeeling-in-december.html) | Abroad, without a visa=[Bhutan](bhutan-in-december.html) | For the Ganga, yoga and rafting=[Rishikesh](rishikesh-in-december.html) | For forts and palaces=[Jaipur](jaipur.html) or [Udaipur](udaipur.html) | For backwaters and hills=[Kerala](kerala.html) | Book=As early as you can: Christmas to New Year is peak season everywhere
 ---
 December and January are the best months for most of India: the monsoon is long over, the skies are clear, and it's cool almost everywhere except the far south. They are also the busiest months, so it pays to choose well and book early. Here's how eleven of India's favourite winter trips compare.
 
@@ -22,6 +22,7 @@ December and January are the best months for most of India: the monsoon is long 
 | [Shimla](shimla-in-december.html) | An easy hill trip, the toy train, snow nearby | Days about 9–12 °C, nights about 2–4 °C | Chandigarh, then drive or take the toy train from Kalka | Very busy at Christmas, New Year and after snow |
 | [Rishikesh](rishikesh-in-december.html) | Ganga aarti, yoga, rafting | Sunny days about 20–22 °C, nights about 7–8 °C | Dehradun (DED), or a train to Haridwar | Busy at New Year, and very crowded around the Kumbh bath on 14 January |
 | [Darjeeling](darjeeling-in-december.html) | Mountain views, the toy train, tea gardens | Clear and dry: days about 11–14 °C, nights about 2–4 °C | Bagdogra (IXB), or a train to New Jalpaiguri (NJP) | Busy from Christmas to New Year |
+| [Bhutan](bhutan-in-december.html) | Dzongs, mountain passes, a festival at Dochula on 13 Dec | Sunny days about 15–20 °C; nights about 0 °C or below in Paro and Thimphu | Paro (PBH), or Bagdogra and the road via Phuentsholing | Busy at Christmas and New Year; book flights early |
 | [Ooty](ooty-in-december.html) | Tea hills, the Nilgiri toy train, frosty mornings | Days about 21 °C, nights about 6–7 °C; frost but no snow | Coimbatore (CJB), then about 89 km by road | Busy from Christmas to New Year; e-pass needed for cars |
 | [Varanasi](varanasi-in-december.html) | Ghats, the Ganga aarti, temples | Days about 22–24 °C, nights about 9–10 °C; foggy mornings | Varanasi (VNS) | Very crowded at Kashi Vishwanath at New Year |
 | [Jaipur](jaipur.html) | Forts, palaces, markets | Sunny days about 22–24 °C, cold nights about 8–9 °C | Jaipur (JAI) | Busy, especially 25 Dec to 1 Jan |
@@ -63,6 +64,12 @@ Read the full [Rishikesh in December and January guide](rishikesh-in-december.ht
 Darjeeling is cold, dry and clear in winter, and December mornings often give the best views of Kanchenjunga, from Tiger Hill at sunrise or from the Mall. Snow in the town itself is rare. Ride the toy train between Darjeeling and Ghum, past the Batasia Loop, and walk a tea garden.
 
 Read the full [Darjeeling in December and January guide](darjeeling-in-december.html).
+
+## Bhutan: for dzongs, passes and a winter festival
+
+Bhutan is dry and sunny in December, with freezing nights in Paro and Thimphu. Indians need no visa, only a passport or original voter ID and the daily fee of ₹1,200. Watch the Druk Wangyel Tshechu at Dochula on 13 December, see the black-necked cranes in Phobjikha, and hike to Tiger's Nest.
+
+Read the full [Bhutan in December and January guide](bhutan-in-december.html).
 
 ## Ooty: for tea hills and the toy train
 

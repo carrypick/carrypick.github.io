@@ -6,7 +6,7 @@ date: 2026-11-18
 category: travel-gear
 photo: bhutan-tigers-nest
 ---
-Bhutan is a mountain country, so it's cool most of the year and cold in winter. Paro and Thimphu go below freezing on December and January nights, but the days are often sunny. Indians don't need a visa, but you do need the right ID and you pay a daily fee. This list tells you what documents to carry, what to wear, and which bag to take, for a trip from India.
+Bhutan is a mountain country, so it's cool most of the year and cold in winter. Paro and Thimphu go below freezing on December and January nights, but the days are often sunny. Indians don't need a visa, but you do need the right ID and you pay a daily fee. This list tells you what documents to carry, what to wear, and which bag to take, for a trip from India. For the weather, festivals and a day-by-day plan, see [Bhutan in December and January](../trips/bhutan-in-december.html).
 
 Want to tick things off as you pack? Use our [checklist for trips abroad](../packing/abroad.html) and the [hill trip checklist](../packing/hills.html). For how to layer winter clothes, see [what to wear on a winter hill trip](winter-clothes-for-hill-trips.html). Travelling with kids or a baby, or need it for your exact dates? Make your own list with the [packing list maker](../tools/packing-list-maker.html).
 
