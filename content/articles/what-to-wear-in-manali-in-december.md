@@ -88,6 +88,8 @@ Polarized sunglasses for snow glare:
 
 [[pick:B0999SJPWC]]
 
+More pairs, and how to pick the right size, in our [sunglasses buying guide](sunglasses-buying-guide.html). Phones drain fast in the cold, so a [power bank](../picks/B0D73W5Q39.html) in your daypack helps too.
+
 ## Which shoes to take
 
 Shoes matter more than anything else in Manali in December. Mornings can be icy, and afternoons turn snow into slush.

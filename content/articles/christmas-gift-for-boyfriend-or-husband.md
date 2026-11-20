@@ -51,6 +51,8 @@ Buying for the woman in your life, or the kids? See our [Christmas gifts for a g
 
 [[pick:B0999SJPWC]]
 
+Not sure of the size or shape? Our [sunglasses buying guide](sunglasses-buying-guide.html) explains the numbers and has aviator, round and sports pairs too.
+
 **A small leather sling for days when he carries only a phone and a wallet:**
 
 [[pick:B08XXTRC1Q]]
@@ -68,6 +70,12 @@ Buying for the woman in your life, or the kids? See our [Christmas gifts for a g
 **A wallet gift set.** A bi-fold leather wallet with RFID protection, a keychain and a pen, in one gift box.
 
 [[pick:B0C3LRF94X]]
+
+**Or a leather belt with an auto-lock buckle.** It slides to fit waists from 28 to 46, so you don't need his exact size:
+
+[[pick:B0CXF2K4K7]]
+
+More wallets and belts, and what "genuine" and "full grain" leather mean, in our [wallet and belt guide](wallet-and-belt-buying-guide.html).
 
 **A slim laptop backpack that looks smart in meetings.** It fits a 15 inch laptop:
 

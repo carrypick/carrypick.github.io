@@ -56,6 +56,8 @@ Snow is bright, and the sun is strong in the mountains. Take polarized sunglasse
 
 [[pick:B0999SJPWC]]
 
+For snow, a big or wrap-around frame keeps out more light from the sides. Our [sunglasses buying guide](sunglasses-buying-guide.html) has more shapes and explains UV400.
+
 ## Rain gear
 
 Going in the monsoon, or to Kerala? A poncho is small, and it covers your bag too:

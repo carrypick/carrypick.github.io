@@ -42,6 +42,12 @@ A good gift for your boss is professional, useful and not too personal. A watch 
 
 [[pick:B0C3LRF94X]]
 
+**Or a leather belt with an auto-lock buckle.** It slides to fit waists from 28 to 46, so you don't need his exact size:
+
+[[pick:B0CXF2K4K7]]
+
+More wallets and belts, and what "genuine" and "full grain" leather mean, in our [wallet and belt guide](wallet-and-belt-buying-guide.html).
+
 **A leather sling for days when he doesn't need a laptop:**
 
 [[pick:B08XXTRC1Q]]

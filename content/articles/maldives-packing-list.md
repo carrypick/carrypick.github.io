@@ -164,6 +164,11 @@ See [can I carry medicines on a flight?](../baggage/can-i-carry/medicines.html)
 - **Power bank:** in your cabin bag only, never in check-in. The state airline Maldivian allows up to 2 power banks, each up to 100 Wh, and you can't use them to charge anything during the flight. See [can I carry a power bank?](../baggage/can-i-carry/power-bank.html)
 - **Drones need approval.** The Maldives Civil Aviation Authority reviews every drone flight case by case. You may need approval from the Maldives National Defence Force, and from your resort or the island council.
 
+
+The Maldives uses several plug types (D, G, J, K and L), so one adapter that takes them all is simplest. Plug types for other countries are in our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html).
+
+[[pick:B07WDJR33C]]
+
 ## Which bag to take
 
 - **About 4–5 nights:** a cabin trolley or a soft bag is enough. Beach clothes are light.

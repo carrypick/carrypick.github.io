@@ -114,6 +114,10 @@ A 100 ml body sunscreen fits the liquid rule for cabin bags:
 
 [[pick:B0C3RB9X98]]
 
+Which plugs does Bali use? See the table in our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html). This adapter has slide-out plugs for most countries and USB ports for your phone:
+
+[[pick:B07WDJR33C]]
+
 ## Beach and day-trip bag
 
 - **A waterproof pouch** for your phone, cash and room key on boat trips to Nusa Penida and at waterfalls.

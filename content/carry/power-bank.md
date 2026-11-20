@@ -62,6 +62,18 @@ A swollen, cracked or very hot power bank isn't safe on any trip. Leave it at ho
 - If yours is 30,000 mAh or bigger, check your airline first or leave it at home.
 - Checked your bag in by mistake with a power bank inside? Tell the check-in staff straight away.
 
+## Power banks under the 100 Wh limit
+
+Both of these are well under the limit on IndiGo, Air India and Akasa Air. A 10,000 mAh one for most trips:
+
+[[pick:B0D73W5Q39]]
+
+A 20,000 mAh one (about 74 Wh) for long trips and treks:
+
+[[pick:B0DCZ3WDTB]]
+
+Flying abroad too? Our [power bank and travel adapter guide](../../guides/power-bank-and-travel-adapter-guide.html) lists the plug types for Thailand, Dubai, Bali, the UK, the US and more.
+
 ## By airline
 
 | Airline | Cabin bag | Check-in | Limit | How many |

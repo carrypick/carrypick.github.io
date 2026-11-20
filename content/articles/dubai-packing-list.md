@@ -103,6 +103,8 @@ Polarized sunglasses cut the glare from sand and water:
 
 [[pick:B0999SJPWC]]
 
+More shapes and sizes, and how to read UV and polarized labels, in our [sunglasses buying guide](sunglasses-buying-guide.html).
+
 ## Sun and health
 
 - **Sunscreen, SPF 30 or higher,** even in winter. Read our [sunscreen guide](travel-sunscreen-guide.html).
@@ -122,6 +124,10 @@ A 100 ml body sunscreen fits the liquid rule for cabin bags:
 - **A cable organiser** keeps chargers, cables and the adapter in one place.
 
 [[pick:B0C3RB9X98]]
+
+Which plugs does Dubai use? See the table in our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html). This adapter has slide-out plugs for most countries and USB ports for your phone:
+
+[[pick:B07WDJR33C]]
 
 ## What to pack for women
 

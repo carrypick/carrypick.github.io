@@ -40,6 +40,8 @@ A good farewell gift helps with what comes next for your colleague: a new job, a
 
 [[pick:B0C3LRF94X]]
 
+More wallets and belts, and what "genuine" and "full grain" leather mean, in our [wallet and belt guide](wallet-and-belt-buying-guide.html).
+
 **A small leather sling for someone who carries only a phone, a wallet and keys:**
 
 [[pick:B08XXTRC1Q]]

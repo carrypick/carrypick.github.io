@@ -82,6 +82,8 @@ Polarized sunglasses cut the glare from water:
 
 [[pick:B0999SJPWC]]
 
+More shapes and sizes, and how to read UV and polarized labels, in our [sunglasses buying guide](sunglasses-buying-guide.html).
+
 ## Beach bag
 
 - **A small sling or tote** for your phone, cash and sunscreen. Beaches are open from 7 AM to sunset, says Goa Tourism, and you'll carry things all day.

@@ -44,6 +44,8 @@ Buying for your manager instead? See our [gift ideas for your boss](gift-for-bos
 
 [[pick:B0C3LRF94X]]
 
+More wallets and belts, and what "genuine" and "full grain" leather mean, in our [wallet and belt guide](wallet-and-belt-buying-guide.html).
+
 **A small leather sling for someone who carries only a phone and a wallet:**
 
 [[pick:B08XXTRC1Q]]
