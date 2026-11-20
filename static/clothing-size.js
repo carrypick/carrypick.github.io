@@ -36,6 +36,16 @@
     }).filter(Boolean).join(" · ");
   }
 
+  // Rows right after r with the same body numbers (ONLY gives 27 and 28 one row of numbers): "27 or 28".
+  function twins(id, r) {
+    var list = rows(id), i = list.indexOf(r), key = function (x) {
+      return [].slice.call(x.attributes).filter(function (a) { return a.name.indexOf("data-m-") === 0; })
+        .map(function (a) { return a.name + "=" + a.value; }).join(";");
+    }, out = [];
+    while (++i < list.length && key(list[i]) === key(r)) out.push(list[i].querySelector("th").textContent);
+    return out;
+  }
+
   // How a row reads in the result: the table's data-say template, or "UK 12 (M · US 8–10 · EU 40–42)".
   function say(id, r) {
     var t = table(id), tpl = t.getAttribute("data-say"), size = r.querySelector("th").textContent;
@@ -78,7 +88,9 @@
       li.appendChild(document.createTextNode((res.over ? "bigger" : "smaller") + " than this chart goes, by " + LABEL[res.m] + "."));
     } else {
       res.row.classList.add("on");
-      li.appendChild(document.createTextNode(say(id, res.row) +
+      var tw = twins(id, res.row);
+      tw.forEach(function (s) { rows(id).filter(function (x) { return x.querySelector("th").textContent === s; })[0].classList.add("on"); });
+      li.appendChild(document.createTextNode(say(id, res.row).replace(/^(\S+)/, function (s) { return tw.length ? s + " or " + tw.join(" or ") : s; }) +
         (res.between ? ". You're between two sizes, so we picked the bigger one." : "")));
     }
     return li;

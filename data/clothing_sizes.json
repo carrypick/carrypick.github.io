@@ -1,6 +1,6 @@
 {
  "checked": "2026-11-20",
- "note": "Body measurements (to fit), copied as each brand gives them on 20 Nov 2026. Marks & Spencer India: marksandspencer.in size guides (women's tops, dresses and bottoms, men's casual shirts, formal shirts and formal trousers, boys, girls). US and EU sizes for women are M&S's own conversion table on marksandspencer.com (tops page; the dresses page gives the same numbers), which pairs sizes: UK 8-10 = US 4-6 = EU 36-38. M&S gives no US/EU for UK 6 or for bottoms, so those cells are empty. M&S India's women's tops page lists 132 cm for both UK 26 and UK 28, so we stop at UK 26. Libas: kurta and kurti chart on libas.in/pages/size-chart, in inches. Levi's India: the size guide on the 511 slim jeans page (waist in cm; Levi's charts differ a little by fit). M&S India's men's casual trousers chart repeats the chest numbers in cm, so it is not used. Indian brands such as Peter England size formal shirts by collar (36, 38, 39, 40...) but their charts give garment measurements, not body sizes, so they are not used.",
+ "note": "Body measurements (to fit), copied as each brand gives them on 20 Nov 2026. Marks & Spencer India: marksandspencer.in size guides (women's tops, dresses and bottoms, men's casual shirts, formal shirts and formal trousers, boys, girls). US and EU sizes for women are M&S's own conversion table on marksandspencer.com (tops page; the dresses page gives the same numbers), which pairs sizes: UK 8-10 = US 4-6 = EU 36-38. M&S gives no US/EU for UK 6 or for bottoms, so those cells are empty. M&S India's women's tops page lists 132 cm for both UK 26 and UK 28, so we stop at UK 26. Libas: kurta and kurti chart on libas.in/pages/size-chart, in inches. Levi's India: the size guide on the 511 slim jeans page (waist in cm; Levi's charts differ a little by fit). M&S India's men's casual trousers chart repeats the chest numbers in cm, so it is not used. ONLY India: the women's jeans size chart on its product pages (the same chart on two jeans checked 20 Nov 2026), body waist and hips in cm, with letter, UK and US sizes; sizes 25 and 26 share one row of numbers, and so on in pairs. Indian brands such as Peter England size formal shirts by collar (36, 38, 39, 40...) but their charts give garment measurements, not body sizes, so they are not used.",
  "sources": [
   {
    "id": "ms-in",
@@ -25,6 +25,12 @@
    "brand": "Levi's India",
    "label": "Levi's India 511 jeans size guide",
    "url": "https://levi.in/products/mens-511-mid-indigo-slim-fit-mid-rise-jeans-182981765"
+  },
+  {
+   "id": "only",
+   "brand": "ONLY India",
+   "label": "ONLY India women's jeans size chart",
+   "url": "https://www.only.in/products/255107201-dark-blue-denim"
   }
  ],
  "garments": [
@@ -86,6 +92,7 @@
     "hips"
    ],
    "charts": [
+    "only-women-jeans",
     "ms-women-bottoms"
    ]
   },
@@ -381,6 +388,105 @@
      "Letter": "XXL",
      "US": "20–22",
      "EU": "52–54"
+    }
+   ]
+  },
+  {
+   "id": "only-women-jeans",
+   "source": "only",
+   "title": "Women's jeans (ONLY India)",
+   "url": "https://www.only.in/products/255107201-dark-blue-denim",
+   "unit": "cm",
+   "size_head": "Size",
+   "measures": [
+    "waist",
+    "hips"
+   ],
+   "cols": [
+    "Letter",
+    "UK",
+    "US"
+   ],
+   "rows": [
+    {
+     "size": "25",
+     "waist": 62,
+     "hips": 88,
+     "Letter": "XS",
+     "UK": "6",
+     "US": "2"
+    },
+    {
+     "size": "26",
+     "waist": 62,
+     "hips": 88,
+     "Letter": "XS",
+     "UK": "6",
+     "US": "2"
+    },
+    {
+     "size": "27",
+     "waist": 67,
+     "hips": 93,
+     "Letter": "S",
+     "UK": "8",
+     "US": "4"
+    },
+    {
+     "size": "28",
+     "waist": 67,
+     "hips": 93,
+     "Letter": "S",
+     "UK": "8",
+     "US": "4"
+    },
+    {
+     "size": "29",
+     "waist": 72,
+     "hips": 98,
+     "Letter": "M",
+     "UK": "10",
+     "US": "6"
+    },
+    {
+     "size": "30",
+     "waist": 72,
+     "hips": 98,
+     "Letter": "M",
+     "UK": "10",
+     "US": "6"
+    },
+    {
+     "size": "31",
+     "waist": 77,
+     "hips": 103,
+     "Letter": "L",
+     "UK": "12",
+     "US": "8"
+    },
+    {
+     "size": "32",
+     "waist": 77,
+     "hips": 103,
+     "Letter": "L",
+     "UK": "12",
+     "US": "8"
+    },
+    {
+     "size": "33",
+     "waist": 82,
+     "hips": 108,
+     "Letter": "XL",
+     "UK": "14",
+     "US": "10"
+    },
+    {
+     "size": "34",
+     "waist": 82,
+     "hips": 108,
+     "Letter": "XL",
+     "UK": "14",
+     "US": "10"
     }
    ]
   },

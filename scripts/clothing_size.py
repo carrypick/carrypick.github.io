@@ -145,6 +145,7 @@ def build_all(B, cfg, deals, pages, lastmod):
     f38, lib_m = row("ms-men-formal", "38"), row("libas-kurta", "M")
     xl, xl_t = row("ms-men-tops", "XL"), row("ms-men-trousers", "XL")
     lev32 = row("levis-men-jeans", "32")
+    w28, w30 = row("only-women-jeans", "28"), row("only-women-jeans", "30")
     m_trousers = next(r for r in charts["ms-men-trousers"]["rows"] if span(r["waist"])[0] <= lev32["waist"] <= span(r["waist"])[1])
     boy5 = row("ms-boys", "5–6 years")
 
@@ -177,7 +178,7 @@ def build_all(B, cfg, deals, pages, lastmod):
     title = "Size chart for men, women and kids in India: UK, US and EU to Indian size"
     seo = "Clothing size chart India: UK, US, EU to Indian size for men, women, kids"
     desc = ("Free clothing size converter for India. Enter your chest, bust, waist or hips in cm or inches, or pick a size, "
-            "and see UK, US, EU and letter sizes (XS to XXL) for men, women and kids, from M&S India, Libas and Levi's India charts.")
+            "and see UK, US, EU and letter sizes (XS to XXL) for men, women and kids, from M&S India, ONLY India, Libas and Levi's India charts.")
     body = f"""{more_tools._head(B, title, "Clothing size converter", "A free tool. Updated " + B.fmt_date(UPDATED), "clothing", "jacket")}
 <div class="wrap"><article class="guide">
 <div class="answer"><h2>Quick answer</h2><ul>
@@ -214,6 +215,9 @@ def build_all(B, cfg, deals, pages, lastmod):
 <p class="checked">Checked on {checked} on {src_links}. Sizes vary by brand and by fit (slim, regular, relaxed), so the size chart on the product page is the one to trust.</p>
 <h2>UK, US and EU sizes for women</h2>
 <p>M&amp;S's own table gives UK, US and EU sizes in pairs: UK 8–10 is US 4–6 and EU 36–38 (Small), and UK 12–14 is US 8–10 and EU 40–42 (Medium). Up to UK 26, M&amp;S's US number is 4 less than the UK one and the EU number is 28 more. Other brands can differ, and M&amp;S gives no US or EU sizes for trousers.</p>
+<h2>Women's jeans sizes 26, 28, 30, 32</h2>
+<p>Women's jeans in India are often sold by number. On ONLY India's chart, a size {w28["size"]} jeans is an {w28["Letter"]}, a UK {w28["UK"]} and a US {w28["US"]}, for a {B.num(w28["waist"])} cm waist and {B.num(w28["hips"])} cm hips. A size {w30["size"]} is an {w30["Letter"]} (UK {w30["UK"]}, US {w30["US"]}), for a {B.num(w30["waist"])} cm waist and {B.num(w30["hips"])} cm hips. ONLY gives the same numbers to each pair of sizes (25 and 26, 27 and 28, and so on), so either size of a pair fits the same body. ONLY's product pages also list each size's own garment measurements under Size Details.</p>
+<p>Brands differ: ONLY's UK 10 jeans are for a {cm("only-women-jeans", "30", "waist")} waist, but M&amp;S's UK 10 trousers are for a {cm("ms-women-bottoms", "UK 10", "waist")} waist. Use the chart of the brand you buy.</p>
 <h2>Men's shirt sizes 38, 39, 40, 42</h2>
 <p>Formal shirts in India are often sold by collar size in cm. On M&amp;S India's chart, a {f38["size"]} collar is a {f38["Letter"]} with a {cm("ms-men-formal", "38", "chest")} chest, and a 42 collar is an L. T-shirts and casual shirts go by letter: an M fits a {cm("ms-men-tops", "M", "chest")} chest on M&amp;S's chart.</p>
 <p>Kids' clothes are sold by age, but children of the same age differ a lot. Go by height first: if your child is between two sizes, take the bigger one.</p>
@@ -237,6 +241,12 @@ def build_all(B, cfg, deals, pages, lastmod):
         ("How do I convert UK size to Indian size for clothes?",
          "Many stores in India, like Marks & Spencer India, sell clothes in UK sizes, so a UK 12 is the same size here. On M&S's chart a women's UK 12 is a Medium, for a %s bust."
          % cm("ms-women-tops", "UK 12", "bust")),
+        ("What is 28 size jeans for women?",
+         "On ONLY India's chart, size 28 jeans are an %s, a UK %s and a US %s, for a waist of %s cm (about %s in) and hips of %s cm."
+         % (w28["Letter"], w28["UK"], w28["US"], B.num(w28["waist"]), B.num(half(w28["waist"] / 2.54)), B.num(w28["hips"]))),
+        ("What is size 30 jeans for women in US and UK size?",
+         "On ONLY India's chart, size 30 is a UK %s and a US %s (%s), for a %s cm waist and %s cm hips."
+         % (w30["UK"], w30["US"], w30["Letter"], B.num(w30["waist"]), B.num(w30["hips"]))),
         ("What is US size to Indian size for women's clothes?",
          "On M&S's table, US 4–6 is UK 8–10 and EU 36–38 (Small), and US 8–10 is UK 12–14 and EU 40–42 (Medium). Sizes in India are usually given as UK sizes or letters."),
         ("What does kurti size 38 mean?",
