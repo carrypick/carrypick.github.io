@@ -37,7 +37,7 @@
   function show(n) {
     step = n;
     steps.forEach(function (s, i) { $("gf-q-" + s).hidden = i !== n; });
-    var total = find(data.who, pick.who) && find(data.who, pick.who).occasion ? 2 : 3;
+    var total = n > 0 && find(data.who, pick.who) && find(data.who, pick.who).occasion ? 2 : 3;
     var shown = n === 2 && total === 2 ? 2 : n + 1;
     $("gf-step").textContent = "Question " + shown + " of " + total;
     $("gf-nav").hidden = n === 0;

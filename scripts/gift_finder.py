@@ -138,7 +138,7 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
     for w in data["who"]:
         links = " &middot; ".join(f'<a href="{e(g(h))}">{e(t)}</a>' for h, t in w["guides"])
         picks = ", ".join(f'<a href="../picks/{a}.html">{e(deal[a]["title"])}</a>' for a in w["picks"][:NOJS_PICKS])
-        rows.append(f"""<div class="gf-row" id="for-{w["slug"]}"><h3>For {e(w["for"])}</h3>
+        rows.append(f"""<div class="gf-row" id="for-{w["slug"]}"><h3>For {e(w["for"])}{" (Secret Santa)" if w.get("occasion") == "secret-santa" else ""}</h3>
 <p>{e(w["line"])}</p>
 <p><strong>Read:</strong> {links}</p>
 <p class="small"><strong>Top picks:</strong> {picks}</p></div>""")
@@ -152,8 +152,7 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
     inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span>Gift finder</nav>
       <h1>{e(title)}</h1>
       <p class="muted small">A free tool. Answer 2 or 3 quick questions. Updated {B.fmt_date(UPDATED)}</p>"""
-    head = B.page_head("watches", f'<div class="media media-tile tint-watches">{B.icon("gift", "icon media-icon")}</div>', inner, "../",
-                       photo="gift-box")
+    head = B.page_head("watches", f'<div class="media media-tile tint-watches">{B.icon("gift", "icon media-icon")}</div>', inner, "../")  # no head photo: the quiz stays near the top on phones
     faq = [
         ("What is a good Christmas gift for men?",
          "A watch he'll wear every day, like the %s or the %s, a leather wallet gift set from %s, or a sling bag. "
