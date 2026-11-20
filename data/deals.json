@@ -1,5 +1,32 @@
 [
   {
+    "asin": "B0DT719TQS",
+    "added_at": "2026-11-20T18:30:00+05:30",
+    "title": "Ajmal Gold Series Attar Gift Set, 4 x 5 ml roll-on (Dubai Oud, Blu Moon, White Oud, Rose Gold)",
+    "category": "perfumes",
+    "highlights": [
+      "Four 5 ml roll-on attars: Dubai Oud, Blu Moon, White Oud and Rose Gold",
+      "Non-alcoholic perfume oil (as listed)",
+      "Woody, musky and warm amber notes (as listed)",
+      "For men and women; made in India"
+    ],
+    "note": "An alcohol-free gift for Eid, weddings or anyone who finds sprays too strong.",
+    "brand": "Ajmal",
+    "best_for": [
+      "Attar",
+      "Eid gift"
+    ],
+    "specs": {
+      "Type": "Attar (roll-on perfume oil)",
+      "Size": "4 x 5 ml",
+      "For": "Men and women",
+      "Scents": "Dubai Oud, Blu Moon, White Oud, Rose Gold",
+      "Alcohol": "None (as listed)",
+      "Cabin bag": "5 ml each, fits the 100 ml rule (not on IndiGo)"
+    },
+    "skip_if": "they like fresh, light scents: oud is rich and heavy."
+  },
+  {
     "asin": "B09231NL5H",
     "added_at": "2026-11-20T16:05:00+05:30",
     "title": "Bella Vita Luxury Men Perfume Gift Set, 4 x 20 ml EDP (Klub, Oud, CEO, G.O.A.T)",

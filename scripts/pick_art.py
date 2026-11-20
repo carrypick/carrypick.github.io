@@ -1088,7 +1088,7 @@ def draw_perfume(d):
         for line in wrap(sp["Cabin bag"], 24):
             out += T(tx, y + 19, line, "t", 14, "start", 700)
             y += 19
-    what = "pocket perfume spray" if pocket else "perfume bottle"
+    what = "pocket perfume spray" if pocket else "attar roll-on bottle" if "attar" in tl else "perfume bottle"
     words = {2: "two", 3: "three", 4: "four"}
     alt = ("Simple drawing of %s %s ml %ss" % (words[count], n(ml), what)) if count > 1 else "Simple drawing of a %s %s" % (amount, what)
     return dict(inner=out, legend=False, info=[], scaled=False, alt=alt)

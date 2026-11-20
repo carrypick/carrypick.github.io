@@ -4,7 +4,7 @@ title: Perfume gift sets for men and women: EDP vs EDT, attar and travel sizes
 description: How to choose a perfume or a perfume gift set in India: EDP, EDT, deo and attar in plain words, how long each lasts on skin, 20 ml travel sizes and the 100 ml cabin rule, and gift tips for him and her.
 date: 2026-11-20
 category: perfumes
-photo: gift-box
+photo: perfume-bottle
 ---
 Perfume is one of the easiest gifts in India, and one of the easiest to get wrong. The words on the box (EDP, EDT, deo, body perfume) tell you how strong it is and how long it lasts. Here's what they mean in plain words, plus which sizes you can take on a flight.
 
@@ -12,6 +12,7 @@ Perfume is one of the easiest gifts in India, and one of the easiest to get wron
 [[top:B09231NL5H|Gift set for men|Four 20 ml eau de parfum sprays from Bella Vita, so he can try four scents instead of one.]]
 [[top:B09232XNTX|Gift set for women|Four 20 ml floral and fruity eau de parfum sprays from Bella Vita, small enough for a handbag.]]
 [[top:B0DSVXW4GD|For a couple|Skinn by Titan's 24Seven box: two scents for her and two for him, 20 ml each.]]
+[[top:B0DT719TQS|Attar, no alcohol|Four 5 ml Ajmal roll-on attars, including Dubai Oud and Rose Gold, for Eid and weddings.]]
 [[top:B079H12TC8|Pocket perfume|A flat 17 ml Engage spray that fits a shirt pocket, for a quick top-up on the go.]]
 
 ## EDP, EDT, deo or attar: what's the difference?
@@ -32,6 +33,8 @@ These ranges come from the usual industry terms, but brands differ. One brand's 
 **Deo vs perfume:** a deodorant is made to fight body odour and smells lighter. A perfume is made for the scent. Many Indian "body perfumes" and "no gas deos" sit in between.
 
 **Attar vs perfume:** attar is a perfume oil without alcohol, sold in small roll-on or dab bottles. It sits close to the skin and doesn't spread far, so it suits people who don't like strong sprays, and those who avoid alcohol for religious reasons. Oud and rose attars are popular gifts for Eid and weddings.
+
+[[photo:attar-bottles]]
 
 ## How long does each one last on skin?
 
@@ -63,6 +66,7 @@ That's why **20 ml gift sets and pocket sprays are handy for trips**: they fit t
 | Park Avenue men's set | EDP | 4 x 20 ml | Yes (not on IndiGo) |
 | Engage women's set | EDP | 4 x 20 ml | Yes (not on IndiGo) |
 | Engage On pocket perfume | Pocket spray | 17 ml | Yes (not on IndiGo) |
+| Ajmal Gold Series | Attar roll-on | 4 x 5 ml | Yes (not on IndiGo) |
 
 Going to Dubai? It's a famous place to buy oud and attar. Big bottles you buy there go in your check-in bag on the way home. See our [Dubai packing list](dubai-packing-list.html).
 
@@ -108,6 +112,12 @@ Skinn by Titan's 24Seven box: Floral and Caramel for her, Woody and Aqua for him
 A flat 17 ml pocket spray for a quick top-up before a meeting or after a flight:
 
 [[pick:B079H12TC8]]
+
+## An attar gift set
+
+Four 5 ml roll-on attars from Ajmal, with no alcohol (as listed): Dubai Oud, Blu Moon, White Oud and Rose Gold. A good gift for Eid or a wedding.
+
+[[pick:B0DT719TQS]]
 
 ## Before you buy
 

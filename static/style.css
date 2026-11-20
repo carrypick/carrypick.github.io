@@ -401,6 +401,7 @@ img { max-width: 100%; }
 .photo img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; border-radius: var(--radius); background: var(--tint-none); }
 .photo figcaption { margin-top: 6px; font-size: 0.72rem; color: var(--muted); }
 .photo figcaption a { color: inherit; }
+.in-photo { margin: 22px 0; }
 .hero-photo img { box-shadow: 0 18px 40px rgba(0, 0, 0, 0.3); }
 .hero-photo figcaption { color: #9fc3cc; }
 .page-head-grid { display: grid; grid-template-columns: 1fr; gap: 20px; align-items: center; }

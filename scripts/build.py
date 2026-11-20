@@ -761,6 +761,7 @@ def render_markdown(md, cfg, deals_by_asin, p, source):
         pick = re.fullmatch(r"\[\[pick:([A-Z0-9]{10})\]\]", line)
         compare = re.fullmatch(r"\[\[compare:([A-Z0-9,]+)\]\]", line)
         diagram = re.fullmatch(r"\[\[diagram:([a-z0-9-]+)\]\]", line)
+        inline_photo = re.fullmatch(r"\[\[photo:([a-z0-9-]+)\]\]", line)  # a free photo from data/photos.json, with its credit
         booking = re.fullmatch(r"\[\[book:([^\]]+)\]\]", line)
         shop = re.fullmatch(r"\[\[shop:([^\]]+)\]\]", line)
         fly = re.fullmatch(r"\[\[fly:([^\]]+)\]\]", line)
@@ -809,6 +810,11 @@ def render_markdown(md, cfg, deals_by_asin, p, source):
         elif diagram:
             flush()
             out.append(diagram_figure(diagram.group(1), p))
+        elif inline_photo:
+            flush()
+            if inline_photo.group(1) not in PHOTOS:
+                sys.exit("Error: %s uses [[photo:%s]] but that photo is not in data/photos.json" % (source, inline_photo.group(1)))
+            out.append(photo_figure(inline_photo.group(1), p, "(min-width: 760px) 680px, 100vw", "photo in-photo"))
         elif booking:
             flush()
             out.append(booking_box(cfg, booking.group(1), source.startswith("trips-hi")))
