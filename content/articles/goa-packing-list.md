@@ -47,6 +47,7 @@ If you pack only these, you'll be fine:
 - **Swimwear for the beach and pool only.** Put a shirt, kaftan or sarong over it when you walk to shops and restaurants. Nudity on beaches and in public places is punishable by law in India.
 - **One nicer outfit** for a party, a club night or a good dinner.
 - **A light layer for the evening.** A thin sweater, shawl or light jacket.
+- **Buying clothes online for the trip?** Check your size first with our [clothing size converter](../tools/clothing-size.html), then the brand's own size chart.
 
 ## Shoes
 

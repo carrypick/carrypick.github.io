@@ -156,7 +156,7 @@ def build_shoe_size(B, cfg, deals, pages, lastmod):
 <p class="checked">Checked on {checked} on {src}. Sizes vary by brand: sports brands often use a different US size for the same UK size, and some shoes run small or wide. The size chart on each product page is the one to trust.</p>
 <p>Kids' sizes go up from 7 to 13, then start again at 1. Leave a little growing room: if your child's foot is between two sizes, take the bigger one.</p>
 {picks_html}
-<p>More help: <a href="../guides/travel-shoes-guide.html">which shoes to take on a trip</a> and <a href="../category/shoes.html">all our shoes and sandals</a>.</p>
+<p>More help: <a href="../guides/travel-shoes-guide.html">which shoes to take on a trip</a>, <a href="../category/shoes.html">all our shoes and sandals</a> and our <a href="clothing-size.html">clothing size converter</a> for shirts, jeans, kurtas and kids' clothes.</p>
 {{faq}}
 {B.tool_pills("../", path)}
 </article></div>

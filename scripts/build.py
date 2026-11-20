@@ -16,6 +16,7 @@ import urllib.parse
 from datetime import date, datetime, timedelta
 from html import escape as e
 
+import clothing_size
 import diagrams
 import hindi_pages
 import more_tools
@@ -2896,6 +2897,7 @@ def build():
                   "Measure your wrist and see the dial sizes, in mm, that look right on it.", "Find my size", "watch", "watches", "watch-wrist"))
     more_tools.register(sys.modules[__name__])  # shoe size converter, power bank flight checker
     gift_finder.register(sys.modules[__name__])  # gift finder quiz, first on the tools list
+    clothing_size.register(sys.modules[__name__])  # clothing size converter
     if PACKING_FILE.exists():
         TOOLS.append((pack_maker.PATH, "Packing list maker", "Free tool", "Make a packing list for your trip",
                       "Beach, hills, abroad, pilgrimage or a wedding: pick the days, month and who is going, then tick, print or share.",
@@ -3156,6 +3158,7 @@ def build():
     build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl_airlines)
     build_tools(cfg, deals, pages, lastmod)
     more_tools.build_all(sys.modules[__name__], cfg, deals, pages, lastmod)
+    clothing_size.build_all(sys.modules[__name__], cfg, deals, pages, lastmod)
     if trips:
         build_trips(cfg, trips, deals_by_asin, pages, lastmod)
     if trips_hi:

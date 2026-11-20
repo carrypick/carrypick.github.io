@@ -546,7 +546,7 @@ body { top: 0 !important; }
 @media print { .share { display: none !important; } }
 
 /* Size and weight tools */
-#ws-table tr.on th, #ws-table tr.on td, .ss-table tr.on th, .ss-table tr.on td { background: color-mix(in srgb, var(--brand) 12%, var(--surface)); font-weight: 700; }
+#ws-table tr.on th, #ws-table tr.on td, .ss-table tr.on th, .ss-table tr.on td, .cs-table tr.on th, .cs-table tr.on td { background: color-mix(in srgb, var(--brand) 12%, var(--surface)); font-weight: 700; }
 .fit-tag { margin: 8px 0 0; }
 .cat-tool { margin: -6px 0 18px; font-weight: 700; }
 .bw-item { display: flex; justify-content: space-between; align-items: center; gap: 12px; width: 100%; }

@@ -64,6 +64,7 @@ If you pack only these, you'll be fine:
 - **Swimwear for the beach and the pool.** Put a shirt or kaftan over it when you walk to shops and restaurants.
 - **One light layer.** Malls, buses, trains and flights are cold, and Chiang Mai nights are about 14–15 °C in December and January.
 - **One nicer outfit** for a rooftop bar, a show or a good dinner.
+- **Buying clothes online for the trip?** Check your size first with our [clothing size converter](../tools/clothing-size.html), then the brand's own size chart.
 
 ## What to wear to temples and the Grand Palace
 

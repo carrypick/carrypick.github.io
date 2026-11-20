@@ -76,6 +76,7 @@ Dubai's official tourism site, Visit Dubai, says most clothes are fine in the ci
 - **Swimwear for the beach and the pool only.** Put something over it when you leave.
 - **One warm layer** for winter evenings, the desert and cold malls.
 - **One nicer outfit** for a dinner cruise, a rooftop or a good restaurant.
+- **Buying clothes online for the trip?** Check your size first with our [clothing size converter](../tools/clothing-size.html), then the brand's own size chart.
 
 ## Shoes
 

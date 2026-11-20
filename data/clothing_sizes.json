@@ -1,0 +1,1013 @@
+{
+ "checked": "2026-11-20",
+ "note": "Body measurements (to fit), copied as each brand gives them on 20 Nov 2026. Marks & Spencer India: marksandspencer.in size guides (women's tops, dresses and bottoms, men's casual shirts, formal shirts and formal trousers, boys, girls). US and EU sizes for women are M&S's own conversion table on marksandspencer.com (tops page; the dresses page gives the same numbers), which pairs sizes: UK 8-10 = US 4-6 = EU 36-38. M&S gives no US/EU for UK 6 or for bottoms, so those cells are empty. M&S India's women's tops page lists 132 cm for both UK 26 and UK 28, so we stop at UK 26. Libas: kurta and kurti chart on libas.in/pages/size-chart, in inches. Levi's India: the size guide on the 511 slim jeans page (waist in cm; Levi's charts differ a little by fit). M&S India's men's casual trousers chart repeats the chest numbers in cm, so it is not used. Indian brands such as Peter England size formal shirts by collar (36, 38, 39, 40...) but their charts give garment measurements, not body sizes, so they are not used.",
+ "sources": [
+  {
+   "id": "ms-in",
+   "brand": "Marks & Spencer India",
+   "label": "Marks & Spencer India size guides",
+   "url": "https://www.marksandspencer.in/sizeguides/?cid=sizeguidewomens-tops"
+  },
+  {
+   "id": "ms-intl",
+   "brand": "Marks & Spencer",
+   "label": "M&S international size conversion",
+   "url": "https://www.marksandspencer.com/us/sizeguides/sizeguidewomens/sizeguidewomens-tops.html"
+  },
+  {
+   "id": "libas",
+   "brand": "Libas",
+   "label": "Libas size chart",
+   "url": "https://www.libas.in/pages/size-chart"
+  },
+  {
+   "id": "levis",
+   "brand": "Levi's India",
+   "label": "Levi's India 511 jeans size guide",
+   "url": "https://levi.in/products/mens-511-mid-indigo-slim-fit-mid-rise-jeans-182981765"
+  }
+ ],
+ "garments": [
+  {
+   "slug": "men-tops",
+   "who": "men",
+   "label": "Shirts and T-shirts",
+   "measures": [
+    "chest"
+   ],
+   "charts": [
+    "ms-men-tops",
+    "ms-men-formal"
+   ]
+  },
+  {
+   "slug": "men-bottoms",
+   "who": "men",
+   "label": "Trousers and jeans",
+   "measures": [
+    "waist"
+   ],
+   "charts": [
+    "levis-men-jeans",
+    "ms-men-trousers"
+   ]
+  },
+  {
+   "slug": "women-tops",
+   "who": "women",
+   "label": "Tops and kurtas",
+   "measures": [
+    "bust"
+   ],
+   "charts": [
+    "ms-women-tops",
+    "libas-kurta"
+   ]
+  },
+  {
+   "slug": "women-dresses",
+   "who": "women",
+   "label": "Dresses",
+   "measures": [
+    "bust",
+    "waist",
+    "hips"
+   ],
+   "charts": [
+    "ms-women-dresses"
+   ]
+  },
+  {
+   "slug": "women-bottoms",
+   "who": "women",
+   "label": "Jeans and trousers",
+   "measures": [
+    "waist",
+    "hips"
+   ],
+   "charts": [
+    "ms-women-bottoms"
+   ]
+  },
+  {
+   "slug": "kids",
+   "who": "kids",
+   "label": "Clothes by age",
+   "measures": [
+    "height",
+    "chest"
+   ],
+   "charts": [
+    "ms-boys",
+    "ms-girls"
+   ]
+  }
+ ],
+ "charts": [
+  {
+   "id": "ms-women-tops",
+   "source": "ms-in",
+   "title": "Women's tops (Marks & Spencer India)",
+   "url": "https://www.marksandspencer.in/sizeguides/?cid=sizeguidewomens-tops",
+   "unit": "cm",
+   "size_head": "UK size",
+   "measures": [
+    "bust",
+    "waist"
+   ],
+   "cols": [
+    "Letter",
+    "US",
+    "EU"
+   ],
+   "cols_source": "ms-intl",
+   "rows": [
+    {
+     "size": "UK 6",
+     "bust": 78,
+     "waist": 61,
+     "Letter": "XS",
+     "US": "",
+     "EU": ""
+    },
+    {
+     "size": "UK 8",
+     "bust": 82,
+     "waist": 65,
+     "Letter": "S",
+     "US": "4–6",
+     "EU": "36–38"
+    },
+    {
+     "size": "UK 10",
+     "bust": 87,
+     "waist": 70,
+     "Letter": "S",
+     "US": "4–6",
+     "EU": "36–38"
+    },
+    {
+     "size": "UK 12",
+     "bust": 92,
+     "waist": 75,
+     "Letter": "M",
+     "US": "8–10",
+     "EU": "40–42"
+    },
+    {
+     "size": "UK 14",
+     "bust": 97,
+     "waist": 80.5,
+     "Letter": "M",
+     "US": "8–10",
+     "EU": "40–42"
+    },
+    {
+     "size": "UK 16",
+     "bust": 102.5,
+     "waist": 86,
+     "Letter": "L",
+     "US": "12–14",
+     "EU": "44–46"
+    },
+    {
+     "size": "UK 18",
+     "bust": 108,
+     "waist": 92,
+     "Letter": "L",
+     "US": "12–14",
+     "EU": "44–46"
+    },
+    {
+     "size": "UK 20",
+     "bust": 114,
+     "waist": 98,
+     "Letter": "XL",
+     "US": "16–18",
+     "EU": "48–50"
+    },
+    {
+     "size": "UK 22",
+     "bust": 120,
+     "waist": 104,
+     "Letter": "XL",
+     "US": "16–18",
+     "EU": "48–50"
+    },
+    {
+     "size": "UK 24",
+     "bust": 126,
+     "waist": 110,
+     "Letter": "XXL",
+     "US": "20–22",
+     "EU": "52–54"
+    },
+    {
+     "size": "UK 26",
+     "bust": 132,
+     "waist": 116,
+     "Letter": "XXL",
+     "US": "20–22",
+     "EU": "52–54"
+    }
+   ]
+  },
+  {
+   "id": "libas-kurta",
+   "source": "libas",
+   "title": "Kurtas and kurtis (Libas)",
+   "url": "https://www.libas.in/pages/size-chart",
+   "unit": "in",
+   "size_head": "Size",
+   "measures": [
+    "bust",
+    "waist",
+    "hips"
+   ],
+   "cols": [],
+   "rows": [
+    {
+     "size": "XS",
+     "bust": 34,
+     "waist": 30,
+     "hips": 36
+    },
+    {
+     "size": "S",
+     "bust": 36,
+     "waist": 32,
+     "hips": 38
+    },
+    {
+     "size": "M",
+     "bust": 38,
+     "waist": 34,
+     "hips": 40
+    },
+    {
+     "size": "L",
+     "bust": 40,
+     "waist": 36,
+     "hips": 42
+    },
+    {
+     "size": "XL",
+     "bust": 42,
+     "waist": 38,
+     "hips": 44
+    },
+    {
+     "size": "XXL",
+     "bust": 44,
+     "waist": 40,
+     "hips": 46
+    }
+   ]
+  },
+  {
+   "id": "ms-women-dresses",
+   "source": "ms-in",
+   "title": "Women's dresses (Marks & Spencer India)",
+   "url": "https://www.marksandspencer.in/sizeguides/?cid=sizeguidewomens-dresses",
+   "unit": "cm",
+   "size_head": "UK size",
+   "measures": [
+    "bust",
+    "waist",
+    "hips"
+   ],
+   "cols": [
+    "Letter",
+    "US",
+    "EU"
+   ],
+   "cols_source": "ms-intl",
+   "rows": [
+    {
+     "size": "UK 6",
+     "bust": 78,
+     "waist": 61,
+     "hips": 86,
+     "Letter": "",
+     "US": "",
+     "EU": ""
+    },
+    {
+     "size": "UK 8",
+     "bust": 82,
+     "waist": 65,
+     "hips": 90,
+     "Letter": "S",
+     "US": "4–6",
+     "EU": "36–38"
+    },
+    {
+     "size": "UK 10",
+     "bust": 87,
+     "waist": 70,
+     "hips": 95,
+     "Letter": "S",
+     "US": "4–6",
+     "EU": "36–38"
+    },
+    {
+     "size": "UK 12",
+     "bust": 92,
+     "waist": 75,
+     "hips": 100,
+     "Letter": "M",
+     "US": "8–10",
+     "EU": "40–42"
+    },
+    {
+     "size": "UK 14",
+     "bust": 97,
+     "waist": 80.5,
+     "hips": 105,
+     "Letter": "M",
+     "US": "8–10",
+     "EU": "40–42"
+    },
+    {
+     "size": "UK 16",
+     "bust": 102.5,
+     "waist": 86,
+     "hips": 110,
+     "Letter": "L",
+     "US": "12–14",
+     "EU": "44–46"
+    },
+    {
+     "size": "UK 18",
+     "bust": 108,
+     "waist": 92,
+     "hips": 115,
+     "Letter": "L",
+     "US": "12–14",
+     "EU": "44–46"
+    },
+    {
+     "size": "UK 20",
+     "bust": 114,
+     "waist": 98,
+     "hips": 121,
+     "Letter": "XL",
+     "US": "16–18",
+     "EU": "48–50"
+    },
+    {
+     "size": "UK 22",
+     "bust": 120,
+     "waist": 104,
+     "hips": 127,
+     "Letter": "XL",
+     "US": "16–18",
+     "EU": "48–50"
+    },
+    {
+     "size": "UK 24",
+     "bust": 126,
+     "waist": 110,
+     "hips": 133,
+     "Letter": "XXL",
+     "US": "20–22",
+     "EU": "52–54"
+    },
+    {
+     "size": "UK 26",
+     "bust": 132,
+     "waist": 116,
+     "hips": 139,
+     "Letter": "XXL",
+     "US": "20–22",
+     "EU": "52–54"
+    }
+   ]
+  },
+  {
+   "id": "ms-women-bottoms",
+   "source": "ms-in",
+   "title": "Women's jeans, trousers and skirts (Marks & Spencer India)",
+   "url": "https://www.marksandspencer.in/sizeguides/?cid=sizeguidewomens-bottoms",
+   "unit": "cm",
+   "size_head": "UK size",
+   "measures": [
+    "waist",
+    "hips"
+   ],
+   "cols": [
+    "Letter"
+   ],
+   "rows": [
+    {
+     "size": "UK 6",
+     "waist": 61,
+     "hips": 86,
+     "Letter": "XS"
+    },
+    {
+     "size": "UK 8",
+     "waist": 65,
+     "hips": 90,
+     "Letter": "S"
+    },
+    {
+     "size": "UK 10",
+     "waist": 70,
+     "hips": 95,
+     "Letter": "S"
+    },
+    {
+     "size": "UK 12",
+     "waist": 75,
+     "hips": 100,
+     "Letter": "M"
+    },
+    {
+     "size": "UK 14",
+     "waist": 80.5,
+     "hips": 105,
+     "Letter": "M"
+    },
+    {
+     "size": "UK 16",
+     "waist": 86,
+     "hips": 110,
+     "Letter": "L"
+    },
+    {
+     "size": "UK 18",
+     "waist": 92,
+     "hips": 115,
+     "Letter": "L"
+    },
+    {
+     "size": "UK 20",
+     "waist": 98,
+     "hips": 121,
+     "Letter": "XL"
+    },
+    {
+     "size": "UK 22",
+     "waist": 104,
+     "hips": 127,
+     "Letter": "XL"
+    },
+    {
+     "size": "UK 24",
+     "waist": 110,
+     "hips": 133,
+     "Letter": "XXL"
+    }
+   ]
+  },
+  {
+   "id": "ms-men-tops",
+   "source": "ms-in",
+   "title": "Men's T-shirts, polos and casual shirts (Marks & Spencer India)",
+   "url": "https://www.marksandspencer.in/sizeguides/?cid=sizeguidemens-casualshirts",
+   "unit": "cm",
+   "size_head": "Size",
+   "measures": [
+    "chest"
+   ],
+   "cols": [],
+   "rows": [
+    {
+     "size": "XS",
+     "chest": [
+      81,
+      86
+     ]
+    },
+    {
+     "size": "S",
+     "chest": [
+      87,
+      94
+     ]
+    },
+    {
+     "size": "M",
+     "chest": [
+      97,
+      102
+     ]
+    },
+    {
+     "size": "L",
+     "chest": [
+      104,
+      109
+     ]
+    },
+    {
+     "size": "XL",
+     "chest": [
+      112,
+      117
+     ]
+    },
+    {
+     "size": "2XL",
+     "chest": [
+      119,
+      125
+     ]
+    },
+    {
+     "size": "3XL",
+     "chest": [
+      126,
+      132
+     ]
+    },
+    {
+     "size": "4XL",
+     "chest": [
+      132,
+      137
+     ]
+    },
+    {
+     "size": "5XL",
+     "chest": [
+      142,
+      147
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ms-men-formal",
+   "source": "ms-in",
+   "title": "Men's formal shirts by collar size (Marks & Spencer India)",
+   "url": "https://www.marksandspencer.in/sizeguides/?cid=sizeguidemens-formalshirts",
+   "unit": "cm",
+   "size_head": "Collar (cm)",
+   "measures": [
+    "chest"
+   ],
+   "cols": [
+    "Collar (in)",
+    "Letter"
+   ],
+   "rows": [
+    {
+     "size": "36",
+     "chest": 86,
+     "Collar (in)": "14",
+     "Letter": "S"
+    },
+    {
+     "size": "37",
+     "chest": 91,
+     "Collar (in)": "14½",
+     "Letter": "S"
+    },
+    {
+     "size": "38",
+     "chest": 96,
+     "Collar (in)": "15",
+     "Letter": "M"
+    },
+    {
+     "size": "39–40",
+     "chest": 102,
+     "Collar (in)": "15½",
+     "Letter": "M"
+    },
+    {
+     "size": "41",
+     "chest": 107,
+     "Collar (in)": "16",
+     "Letter": "L"
+    },
+    {
+     "size": "42",
+     "chest": 112,
+     "Collar (in)": "16½",
+     "Letter": "L"
+    },
+    {
+     "size": "43",
+     "chest": 117,
+     "Collar (in)": "17",
+     "Letter": "XL"
+    },
+    {
+     "size": "44–45",
+     "chest": 122,
+     "Collar (in)": "17½",
+     "Letter": "2XL"
+    },
+    {
+     "size": "46",
+     "chest": 127,
+     "Collar (in)": "18",
+     "Letter": "2XL"
+    },
+    {
+     "size": "47",
+     "chest": 132,
+     "Collar (in)": "18½",
+     "Letter": "3XL"
+    },
+    {
+     "size": "48",
+     "chest": 137,
+     "Collar (in)": "19",
+     "Letter": "3XL"
+    },
+    {
+     "size": "49–50",
+     "chest": 142,
+     "Collar (in)": "19½",
+     "Letter": "4XL"
+    },
+    {
+     "size": "50",
+     "chest": 147,
+     "Collar (in)": "20",
+     "Letter": "4XL"
+    },
+    {
+     "size": "52",
+     "chest": 152,
+     "Collar (in)": "20½",
+     "Letter": "5XL"
+    },
+    {
+     "size": "53",
+     "chest": 157,
+     "Collar (in)": "21",
+     "Letter": "5XL"
+    }
+   ],
+   "say": "collar {size} cm ({Collar (in)} in), {Letter}"
+  },
+  {
+   "id": "levis-men-jeans",
+   "source": "levis",
+   "title": "Men's jeans (Levi's India, 511 slim fit)",
+   "url": "https://levi.in/products/mens-511-mid-indigo-slim-fit-mid-rise-jeans-182981765",
+   "unit": "cm",
+   "size_head": "Size",
+   "measures": [
+    "waist"
+   ],
+   "cols": [],
+   "rows": [
+    {
+     "size": "26",
+     "waist": 69.85
+    },
+    {
+     "size": "27",
+     "waist": 72.39
+    },
+    {
+     "size": "28",
+     "waist": 74.93
+    },
+    {
+     "size": "29",
+     "waist": 77.47
+    },
+    {
+     "size": "30",
+     "waist": 80.01
+    },
+    {
+     "size": "31",
+     "waist": 82.55
+    },
+    {
+     "size": "32",
+     "waist": 85.09
+    },
+    {
+     "size": "33",
+     "waist": 87.63
+    },
+    {
+     "size": "34",
+     "waist": 90.17
+    },
+    {
+     "size": "35",
+     "waist": 92.71
+    },
+    {
+     "size": "36",
+     "waist": 95.25
+    },
+    {
+     "size": "38",
+     "waist": 100.33
+    },
+    {
+     "size": "40",
+     "waist": 105.41
+    },
+    {
+     "size": "42",
+     "waist": 110.49
+    },
+    {
+     "size": "44",
+     "waist": 115.57
+    }
+   ]
+  },
+  {
+   "id": "ms-men-trousers",
+   "source": "ms-in",
+   "title": "Men's formal trousers (Marks & Spencer India)",
+   "url": "https://www.marksandspencer.in/sizeguides/?cid=sizeguidemens-formaltrousers",
+   "unit": "cm",
+   "size_head": "Size",
+   "measures": [
+    "waist"
+   ],
+   "cols": [],
+   "rows": [
+    {
+     "size": "S",
+     "waist": [
+      76,
+      81
+     ]
+    },
+    {
+     "size": "M",
+     "waist": [
+      84,
+      89
+     ]
+    },
+    {
+     "size": "L",
+     "waist": [
+      91,
+      97
+     ]
+    },
+    {
+     "size": "XL",
+     "waist": [
+      99,
+      104
+     ]
+    },
+    {
+     "size": "2XL",
+     "waist": [
+      107,
+      112
+     ]
+    },
+    {
+     "size": "3XL",
+     "waist": [
+      114,
+      119
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ms-boys",
+   "source": "ms-in",
+   "title": "Boys (Marks & Spencer India)",
+   "url": "https://www.marksandspencer.in/sizeguides/?cid=sizeguidekids-boys",
+   "unit": "cm",
+   "size_head": "Age (years)",
+   "measures": [
+    "height",
+    "chest",
+    "waist"
+   ],
+   "cols": [],
+   "rows": [
+    {
+     "size": "2–3 years",
+     "height": 98,
+     "chest": 54,
+     "waist": 52
+    },
+    {
+     "size": "3–4 years",
+     "height": 104,
+     "chest": 56,
+     "waist": 53.5
+    },
+    {
+     "size": "4–5 years",
+     "height": 110,
+     "chest": 58,
+     "waist": 55
+    },
+    {
+     "size": "5–6 years",
+     "height": 116,
+     "chest": 61,
+     "waist": 56
+    },
+    {
+     "size": "6–7 years",
+     "height": 122,
+     "chest": 63,
+     "waist": 57
+    },
+    {
+     "size": "7–8 years",
+     "height": 128,
+     "chest": 66,
+     "waist": 59
+    },
+    {
+     "size": "8–9 years",
+     "height": 134,
+     "chest": 69,
+     "waist": 61
+    },
+    {
+     "size": "9–10 years",
+     "height": 140,
+     "chest": 72,
+     "waist": 63.5
+    },
+    {
+     "size": "10–11 years",
+     "height": 146,
+     "chest": 75,
+     "waist": 66
+    },
+    {
+     "size": "11–12 years",
+     "height": 152,
+     "chest": 78,
+     "waist": 68
+    },
+    {
+     "size": "12–13 years",
+     "height": 158,
+     "chest": 82,
+     "waist": 70
+    },
+    {
+     "size": "13–14 years",
+     "height": 164,
+     "chest": 86,
+     "waist": 73
+    },
+    {
+     "size": "14–15 years",
+     "height": 170,
+     "chest": 90,
+     "waist": 76.5
+    },
+    {
+     "size": "15–16 years",
+     "height": 176,
+     "chest": 94,
+     "waist": 81
+    }
+   ]
+  },
+  {
+   "id": "ms-girls",
+   "source": "ms-in",
+   "title": "Girls (Marks & Spencer India)",
+   "url": "https://www.marksandspencer.in/sizeguides/?cid=sizeguidekids-girls",
+   "unit": "cm",
+   "size_head": "Age (years)",
+   "measures": [
+    "height",
+    "chest",
+    "waist",
+    "hips"
+   ],
+   "cols": [],
+   "rows": [
+    {
+     "size": "2–3 years",
+     "height": 98,
+     "chest": 54,
+     "waist": 52,
+     "hips": 55
+    },
+    {
+     "size": "3–4 years",
+     "height": 104,
+     "chest": 56,
+     "waist": 53.5,
+     "hips": 58
+    },
+    {
+     "size": "4–5 years",
+     "height": 110,
+     "chest": 58,
+     "waist": 55,
+     "hips": 61
+    },
+    {
+     "size": "5–6 years",
+     "height": 116,
+     "chest": 61,
+     "waist": 56,
+     "hips": 64
+    },
+    {
+     "size": "6–7 years",
+     "height": 122,
+     "chest": 63,
+     "waist": 57,
+     "hips": 67
+    },
+    {
+     "size": "7–8 years",
+     "height": 128,
+     "chest": 66,
+     "waist": 58,
+     "hips": 70
+    },
+    {
+     "size": "8–9 years",
+     "height": 134,
+     "chest": 69,
+     "waist": 60,
+     "hips": 73.5
+    },
+    {
+     "size": "9–10 years",
+     "height": 140,
+     "chest": 72,
+     "waist": 62,
+     "hips": 77
+    },
+    {
+     "size": "10–11 years",
+     "height": 146,
+     "chest": 75,
+     "waist": 63,
+     "hips": 80
+    },
+    {
+     "size": "11–12 years",
+     "height": 152,
+     "chest": 78,
+     "waist": 64,
+     "hips": 84
+    },
+    {
+     "size": "12–13 years",
+     "height": 158,
+     "chest": 83,
+     "waist": 65.5,
+     "hips": 88
+    },
+    {
+     "size": "13–14 years",
+     "height": 164,
+     "chest": 87,
+     "waist": 67,
+     "hips": 92
+    },
+    {
+     "size": "14–15 years",
+     "height": null,
+     "chest": [
+      87,
+      91
+     ],
+     "waist": [
+      67,
+      71
+     ],
+     "hips": [
+      92,
+      96
+     ]
+    },
+    {
+     "size": "15–16 years",
+     "height": null,
+     "chest": [
+      91,
+      95
+     ],
+     "waist": [
+      71,
+      73.5
+     ],
+     "hips": [
+      96,
+      100
+     ]
+    }
+   ]
+  }
+ ]
+}
