@@ -1,4 +1,4 @@
-// Packing checklist: quantities follow the number of days (same rules as pack_qty() in scripts/build.py).
+// Packing checklist: quantities follow the number of days, up to the item's cap (same rules as pack_qty() in scripts/build.py).
 // Ticks are saved in this browser only, one list per trip type.
 (function () {
   var list = document.querySelector(".pack-list");
@@ -7,7 +7,8 @@
   var key = "cp_pack_" + list.getAttribute("data-trip");
   var boxes = [].slice.call(list.querySelectorAll("input[type=checkbox]"));
   var rules = { per_day: function (n) { return n; }, per_day_plus_1: function (n) { return n + 1; },
-                per_2_days: function (n) { return n / 2; }, per_3_days: function (n) { return n / 3; } };
+                per_day_plus_2: function (n) { return n + 2; }, per_2_days: function (n) { return n / 2; },
+                per_3_days: function (n) { return n / 3; }, six_per_day: function (n) { return 6 * n; } };
 
   function load() { try { return JSON.parse(localStorage.getItem(key) || "[]"); } catch (err) { return []; } }
   function save() {
@@ -23,7 +24,8 @@
     list.querySelectorAll(".pk-qty").forEach(function (q) {
       var rule = q.getAttribute("data-qty");
       var value = /^\d+$/.test(rule) ? Number(rule) : Math.ceil(rules[rule](n));
-      q.textContent = "× " + Math.max(1, value);
+      var cap = Number(q.getAttribute("data-cap")) || Infinity;
+      q.textContent = "× " + Math.min(cap, Math.max(1, value));
     });
   }
 

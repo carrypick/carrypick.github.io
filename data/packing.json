@@ -1,5 +1,5 @@
 {
-  "_note": "Packing checklist tool (tools/packing-checklist.html). qty: a number, or per_day, per_day_plus_1, per_2_days, per_3_days (rounded up, at least 1). trips: list of trip slugs, or all. pick: an ASIN from data/deals.json, link: a site path.",
+  "_note": "Packing checklists (packing/*.html, static/packing.js) and the packing list maker (tools/packing-list-maker.html, static/pack-maker.js). qty: a number, or per_day, per_day_plus_1, per_day_plus_2, per_2_days, per_3_days, six_per_day (rounded up, at least 1); cap: the most to pack, because you can wash clothes. trips: the ready lists the item is on, or all. maker: when the maker shows it, a list of condition sets (any set can match; inside a set every key must match): type, who, by, where, season (lists) and min_days. {} means always. pick: an ASIN from data/deals.json, link: a site path.",
   "trips": [
     {
       "slug": "weekend",
@@ -65,28 +65,71 @@
         {
           "id": "id-proof",
           "name": "Photo ID (Aadhaar, driving licence or voter ID)",
-          "trips": "all"
+          "trips": "all",
+          "maker": [
+            {}
+          ]
         },
         {
           "id": "tickets",
           "name": "Tickets and boarding passes, saved on your phone",
-          "trips": "all"
+          "trips": "all",
+          "maker": [
+            {}
+          ]
         },
         {
           "id": "bookings",
           "name": "Hotel booking details and addresses",
-          "trips": "all"
+          "trips": "all",
+          "maker": [
+            {}
+          ]
         },
         {
           "id": "cash",
           "name": "Some cash, plus UPI and a debit card",
-          "trips": "all"
+          "trips": "all",
+          "maker": [
+            {}
+          ]
         },
         {
           "id": "passport",
           "name": "Passport and visa",
           "trips": [
             "abroad"
+          ],
+          "maker": [
+            {
+              "where": [
+                "abroad"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "visa-printouts",
+          "name": "Printouts of your visa, return ticket and first hotel booking (immigration may ask)",
+          "trips": [],
+          "maker": [
+            {
+              "where": [
+                "abroad"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "photos",
+          "name": "Two passport-size photos (for a visa on arrival or a local SIM)",
+          "trips": [],
+          "maker": [
+            {
+              "where": [
+                "abroad"
+              ]
+            }
           ]
         },
         {
@@ -94,6 +137,13 @@
           "name": "Forex card or some local currency",
           "trips": [
             "abroad"
+          ],
+          "maker": [
+            {
+              "where": [
+                "abroad"
+              ]
+            }
           ]
         },
         {
@@ -101,6 +151,50 @@
           "name": "Travel insurance papers",
           "trips": [
             "abroad"
+          ],
+          "maker": [
+            {
+              "where": [
+                "abroad"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kids-id",
+          "name": "Kids' ID: Aadhaar or birth certificate (their own passport if abroad)",
+          "trips": [],
+          "maker": [
+            {
+              "who": [
+                "kids",
+                "baby"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yatra-slip",
+          "name": "Darshan, puja or yatra registration slip, if your temple needs one",
+          "trips": [],
+          "maker": [
+            {
+              "type": [
+                "pilgrimage"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "car-papers",
+          "name": "If you drive: driving licence, RC, insurance and PUC papers",
+          "trips": [],
+          "maker": [
+            {
+              "by": [
+                "road"
+              ]
+            }
           ]
         },
         {
@@ -108,6 +202,13 @@
           "name": "Office ID and visiting cards",
           "trips": [
             "business"
+          ],
+          "maker": [
+            {
+              "type": [
+                "business"
+              ]
+            }
           ]
         },
         {
@@ -115,6 +216,13 @@
           "name": "Wedding invite with the venue address",
           "trips": [
             "wedding"
+          ],
+          "maker": [
+            {
+              "type": [
+                "wedding"
+              ]
+            }
           ]
         }
       ]
@@ -125,7 +233,8 @@
         {
           "id": "tops",
           "name": "T-shirts or tops",
-          "qty": "per_day",
+          "qty": "per_day_plus_1",
+          "cap": 8,
           "trips": [
             "weekend",
             "week",
@@ -133,40 +242,156 @@
             "beach",
             "train",
             "abroad"
+          ],
+          "maker": [
+            {
+              "type": [
+                "beach",
+                "hills",
+                "city",
+                "abroad",
+                "pilgrimage"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "shorts",
+          "name": "Shorts and light cotton clothes",
+          "qty": "per_2_days",
+          "cap": 4,
+          "trips": [],
+          "maker": [
+            {
+              "type": [
+                "beach"
+              ]
+            },
+            {
+              "season": [
+                "summer"
+              ],
+              "type": [
+                "city",
+                "abroad",
+                "pilgrimage"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cover-up",
+          "name": "Beach cover-up, kaftan or sarong",
+          "qty": 1,
+          "trips": [],
+          "maker": [
+            {
+              "type": [
+                "beach"
+              ],
+              "who": [
+                "women"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "temple-clothes",
+          "name": "Modest clothes that cover shoulders and knees, for temples",
+          "trips": [],
+          "maker": [
+            {
+              "type": [
+                "pilgrimage"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "smart-outfit",
+          "name": "One smart outfit for a nice dinner or a party",
+          "qty": 1,
+          "trips": [],
+          "maker": [
+            {
+              "type": [
+                "beach",
+                "city",
+                "abroad"
+              ],
+              "min_days": 3
+            }
+          ]
+        },
+        {
+          "id": "stole",
+          "name": "Scarf, dupatta or stole to cover your head at temples and gurdwaras",
+          "trips": [],
+          "maker": [
+            {
+              "type": [
+                "pilgrimage"
+              ]
+            }
           ]
         },
         {
           "id": "formal-shirts",
           "name": "Formal shirts or tops",
           "qty": "per_day",
+          "cap": 7,
           "trips": [
             "business"
+          ],
+          "maker": [
+            {
+              "type": [
+                "business"
+              ]
+            }
           ]
         },
         {
           "id": "ethnic",
           "name": "Ethnic outfits for the functions",
           "qty": "per_day",
+          "cap": 8,
           "trips": [
             "wedding"
+          ],
+          "maker": [
+            {
+              "type": [
+                "wedding"
+              ]
+            }
           ]
         },
         {
           "id": "bottoms",
           "name": "Trousers or jeans",
           "qty": "per_3_days",
-          "trips": "all"
+          "cap": 4,
+          "trips": "all",
+          "maker": [
+            {}
+          ]
         },
         {
           "id": "underwear",
           "name": "Underwear",
           "qty": "per_day_plus_1",
-          "trips": "all"
+          "cap": 8,
+          "trips": "all",
+          "maker": [
+            {}
+          ]
         },
         {
           "id": "socks",
           "name": "Socks",
           "qty": "per_day",
+          "cap": 7,
           "trips": [
             "weekend",
             "week",
@@ -175,20 +400,62 @@
             "hills",
             "train",
             "abroad"
+          ],
+          "maker": [
+            {
+              "type": [
+                "hills",
+                "city",
+                "abroad",
+                "pilgrimage",
+                "business",
+                "wedding"
+              ]
+            },
+            {
+              "by": [
+                "flight",
+                "train"
+              ]
+            }
           ]
         },
         {
           "id": "nightwear",
           "name": "Nightwear",
           "qty": "per_3_days",
-          "trips": "all"
+          "cap": 3,
+          "trips": "all",
+          "maker": [
+            {}
+          ]
         },
         {
           "id": "walking-shoes",
           "name": "Comfortable walking shoes",
           "qty": 1,
           "trips": "all",
-          "link": "category/shoes.html"
+          "link": "category/shoes.html",
+          "maker": [
+            {}
+          ]
+        },
+        {
+          "id": "snow-shoes",
+          "name": "Waterproof shoes with good grip for snow and wet roads",
+          "qty": 1,
+          "trips": [],
+          "link": "category/shoes.html",
+          "maker": [
+            {
+              "type": [
+                "hills"
+              ],
+              "season": [
+                "winter"
+              ]
+            }
+          ]
         },
         {
           "id": "formal-shoes",
@@ -197,6 +464,14 @@
           "trips": [
             "business",
             "wedding"
+          ],
+          "maker": [
+            {
+              "type": [
+                "business",
+                "wedding"
+              ]
+            }
           ]
         },
         {
@@ -204,7 +479,10 @@
           "name": "Slippers or flip-flops",
           "qty": 1,
           "trips": "all",
-          "link": "category/shoes.html"
+          "link": "category/shoes.html",
+          "maker": [
+            {}
+          ]
         },
         {
           "id": "sweater",
@@ -217,6 +495,19 @@
             "wedding",
             "train",
             "abroad"
+          ],
+          "maker": [
+            {
+              "by": [
+                "flight",
+                "train"
+              ]
+            },
+            {
+              "season": [
+                "winter"
+              ]
+            }
           ]
         },
         {
@@ -226,7 +517,26 @@
           "trips": [
             "hills"
           ],
-          "link": "guides/winter-clothes-for-hill-trips.html"
+          "link": "guides/winter-clothes-for-hill-trips.html",
+          "maker": [
+            {
+              "type": [
+                "hills"
+              ]
+            },
+            {
+              "type": [
+                "pilgrimage",
+                "city"
+              ],
+              "season": [
+                "winter"
+              ],
+              "where": [
+                "india"
+              ]
+            }
+          ]
         },
         {
           "id": "winter-gear",
@@ -234,7 +544,14 @@
           "trips": [
             "hills"
           ],
-          "link": "guides/winter-clothes-for-hill-trips.html"
+          "link": "guides/winter-clothes-for-hill-trips.html",
+          "maker": [
+            {
+              "type": [
+                "hills"
+              ]
+            }
+          ]
         },
         {
           "id": "blazer",
@@ -242,6 +559,13 @@
           "qty": 1,
           "trips": [
             "business"
+          ],
+          "maker": [
+            {
+              "type": [
+                "business"
+              ]
+            }
           ]
         },
         {
@@ -250,6 +574,13 @@
           "qty": 1,
           "trips": [
             "beach"
+          ],
+          "maker": [
+            {
+              "type": [
+                "beach"
+              ]
+            }
           ]
         },
         {
@@ -260,7 +591,22 @@
             "beach",
             "abroad"
           ],
-          "pick": "B0999SJPWC"
+          "pick": "B0999SJPWC",
+          "maker": [
+            {
+              "type": [
+                "beach",
+                "city",
+                "abroad",
+                "pilgrimage"
+              ]
+            },
+            {
+              "season": [
+                "summer"
+              ]
+            }
+          ]
         },
         {
           "id": "rain",
@@ -273,7 +619,14 @@
             "train",
             "abroad"
           ],
-          "pick": "B09XJ2D8VM"
+          "pick": "B09XJ2D8VM",
+          "maker": [
+            {
+              "season": [
+                "monsoon"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -283,27 +636,69 @@
         {
           "id": "teeth",
           "name": "Toothbrush and toothpaste",
-          "trips": "all"
+          "trips": "all",
+          "maker": [
+            {}
+          ]
         },
         {
           "id": "wash",
           "name": "Soap or body wash, and shampoo in travel sizes",
-          "trips": "all"
+          "trips": "all",
+          "maker": [
+            {}
+          ]
+        },
+        {
+          "id": "toiletry-bag",
+          "name": "Toiletry bag to keep it all together",
+          "trips": [],
+          "pick": "B0F2237QFM",
+          "maker": [
+            {
+              "min_days": 3
+            }
+          ]
         },
         {
           "id": "deo",
           "name": "Deodorant",
-          "trips": "all"
+          "trips": "all",
+          "maker": [
+            {}
+          ]
         },
         {
           "id": "comb",
           "name": "Comb and hair ties",
-          "trips": "all"
+          "trips": "all",
+          "maker": [
+            {}
+          ]
         },
         {
           "id": "shaving",
           "name": "Shaving kit",
-          "trips": "all"
+          "trips": "all",
+          "maker": [
+            {
+              "who": [
+                "men"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "periods",
+          "name": "Sanitary pads, tampons or a menstrual cup",
+          "trips": [],
+          "maker": [
+            {
+              "who": [
+                "women"
+              ]
+            }
+          ]
         },
         {
           "id": "sunscreen",
@@ -314,7 +709,23 @@
             "beach",
             "abroad"
           ],
-          "pick": "B0GLFM2Z4Z"
+          "pick": "B0GLFM2Z4Z",
+          "maker": [
+            {
+              "type": [
+                "beach",
+                "hills",
+                "city",
+                "abroad",
+                "pilgrimage"
+              ]
+            },
+            {
+              "season": [
+                "summer"
+              ]
+            }
+          ]
         },
         {
           "id": "lip-balm",
@@ -322,18 +733,68 @@
           "trips": [
             "hills"
           ],
-          "pick": "B0CND4C95T"
+          "pick": "B0CND4C95T",
+          "maker": [
+            {
+              "type": [
+                "hills"
+              ]
+            },
+            {
+              "season": [
+                "winter"
+              ]
+            }
+          ]
         },
         {
           "id": "wipes",
           "name": "Wet wipes, tissues and hand sanitiser",
-          "trips": "all"
+          "trips": "all",
+          "maker": [
+            {}
+          ]
         },
         {
           "id": "makeup",
           "name": "Make-up and accessories for the functions",
           "trips": [
             "wedding"
+          ],
+          "maker": [
+            {
+              "type": [
+                "wedding"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "jewellery",
+          "name": "Jewellery in a small pouch, kept in your cabin bag",
+          "trips": [],
+          "maker": [
+            {
+              "type": [
+                "wedding"
+              ],
+              "who": [
+                "women"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "liquids-bag",
+          "name": "Clear 1-litre zip bag for cabin liquids (each bottle 100 ml or less)",
+          "trips": [],
+          "link": "baggage/can-i-carry.html",
+          "maker": [
+            {
+              "by": [
+                "flight"
+              ]
+            }
           ]
         }
       ]
@@ -344,18 +805,39 @@
         {
           "id": "medicines",
           "name": "Your regular medicines, with the prescription",
-          "trips": "all"
+          "trips": "all",
+          "maker": [
+            {}
+          ]
         },
         {
           "id": "first-aid",
           "name": "Basic first aid: band-aids, a pain reliever and ORS",
-          "trips": "all"
+          "trips": "all",
+          "maker": [
+            {}
+          ]
         },
         {
           "id": "motion",
           "name": "Medicine for motion sickness on hill roads",
           "trips": [
             "hills"
+          ],
+          "maker": [
+            {
+              "type": [
+                "hills"
+              ]
+            },
+            {
+              "type": [
+                "pilgrimage"
+              ],
+              "by": [
+                "road"
+              ]
+            }
           ]
         },
         {
@@ -365,6 +847,23 @@
             "beach",
             "train",
             "week"
+          ],
+          "maker": [
+            {
+              "type": [
+                "beach"
+              ]
+            },
+            {
+              "season": [
+                "monsoon"
+              ]
+            },
+            {
+              "by": [
+                "train"
+              ]
+            }
           ]
         }
       ]
@@ -375,24 +874,40 @@
         {
           "id": "phone",
           "name": "Phone and charger",
-          "trips": "all"
+          "trips": "all",
+          "maker": [
+            {}
+          ]
         },
         {
           "id": "power-bank",
           "name": "Power bank (keep it in your cabin bag, never in check-in)",
           "trips": "all",
-          "link": "baggage/can-i-carry.html"
+          "link": "baggage/can-i-carry.html",
+          "maker": [
+            {}
+          ]
         },
         {
           "id": "earphones",
           "name": "Earphones",
-          "trips": "all"
+          "trips": "all",
+          "maker": [
+            {}
+          ]
         },
         {
           "id": "laptop",
           "name": "Laptop and charger",
           "trips": [
             "business"
+          ],
+          "maker": [
+            {
+              "type": [
+                "business"
+              ]
+            }
           ]
         },
         {
@@ -400,6 +915,25 @@
           "name": "Universal travel adapter",
           "trips": [
             "abroad"
+          ],
+          "maker": [
+            {
+              "where": [
+                "abroad"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "roaming",
+          "name": "International roaming pack, or a local SIM or eSIM",
+          "trips": [],
+          "maker": [
+            {
+              "where": [
+                "abroad"
+              ]
+            }
           ]
         },
         {
@@ -409,6 +943,65 @@
             "week",
             "business",
             "wedding"
+          ],
+          "maker": [
+            {
+              "type": [
+                "business",
+                "wedding"
+              ]
+            },
+            {
+              "min_days": 5
+            }
+          ]
+        },
+        {
+          "id": "cable-pouch",
+          "name": "Pouch for cables and chargers",
+          "trips": [],
+          "pick": "B0C3RB9X98",
+          "maker": [
+            {
+              "type": [
+                "business"
+              ]
+            },
+            {
+              "where": [
+                "abroad"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "phone-pouch",
+          "name": "Waterproof phone pouch for the beach or rain",
+          "trips": [],
+          "pick": "B094JBDRKX",
+          "maker": [
+            {
+              "type": [
+                "beach"
+              ]
+            },
+            {
+              "season": [
+                "monsoon"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "car-kit",
+          "name": "Car charger and a phone holder for maps",
+          "trips": [],
+          "maker": [
+            {
+              "by": [
+                "road"
+              ]
+            }
           ]
         }
       ]
@@ -424,7 +1017,19 @@
             "wedding",
             "abroad"
           ],
-          "pick": "B07Q822CWX"
+          "pick": "B07Q822CWX",
+          "maker": [
+            {
+              "by": [
+                "flight"
+              ]
+            },
+            {
+              "type": [
+                "wedding"
+              ]
+            }
+          ]
         },
         {
           "id": "cubes",
@@ -434,7 +1039,22 @@
             "abroad",
             "wedding"
           ],
-          "pick": "B0C4TV4M2F"
+          "pick": "B0C4TV4M2F",
+          "maker": [
+            {
+              "min_days": 4
+            },
+            {
+              "type": [
+                "wedding"
+              ]
+            },
+            {
+              "where": [
+                "abroad"
+              ]
+            }
+          ]
         },
         {
           "id": "pillow",
@@ -444,12 +1064,28 @@
             "abroad",
             "week"
           ],
-          "pick": "B0C7BM18PB"
+          "pick": "B0C7BM18PB",
+          "maker": [
+            {
+              "by": [
+                "train",
+                "road"
+              ]
+            },
+            {
+              "where": [
+                "abroad"
+              ]
+            }
+          ]
         },
         {
           "id": "bottle",
           "name": "Water bottle",
-          "trips": "all"
+          "trips": "all",
+          "maker": [
+            {}
+          ]
         },
         {
           "id": "snacks",
@@ -458,6 +1094,25 @@
             "train",
             "hills",
             "weekend"
+          ],
+          "maker": [
+            {
+              "by": [
+                "train",
+                "road"
+              ]
+            },
+            {
+              "type": [
+                "hills",
+                "pilgrimage"
+              ]
+            },
+            {
+              "who": [
+                "kids"
+              ]
+            }
           ]
         },
         {
@@ -465,6 +1120,13 @@
           "name": "Chain and lock to secure your bag to the berth",
           "trips": [
             "train"
+          ],
+          "maker": [
+            {
+              "by": [
+                "train"
+              ]
+            }
           ]
         },
         {
@@ -472,6 +1134,13 @@
           "name": "Bedsheet and a light blanket (bedding comes only in AC coaches)",
           "trips": [
             "train"
+          ],
+          "maker": [
+            {
+              "by": [
+                "train"
+              ]
+            }
           ]
         },
         {
@@ -483,7 +1152,33 @@
             "beach",
             "abroad"
           ],
-          "link": "category/backpacks.html"
+          "link": "category/backpacks.html",
+          "maker": [
+            {
+              "type": [
+                "beach",
+                "hills",
+                "city",
+                "abroad",
+                "pilgrimage"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sling",
+          "name": "Small sling bag for your phone, cash and ID",
+          "trips": [],
+          "pick": "B07PFF4RYC",
+          "maker": [
+            {
+              "type": [
+                "city",
+                "pilgrimage",
+                "abroad"
+              ]
+            }
+          ]
         },
         {
           "id": "ziplock",
@@ -491,6 +1186,19 @@
           "trips": [
             "beach",
             "hills"
+          ],
+          "maker": [
+            {
+              "type": [
+                "beach",
+                "hills"
+              ]
+            },
+            {
+              "season": [
+                "monsoon"
+              ]
+            }
           ]
         },
         {
@@ -499,9 +1207,800 @@
           "trips": [
             "wedding"
           ],
-          "link": "guides/wedding-gift-guide.html"
+          "link": "guides/wedding-gift-guide.html",
+          "maker": [
+            {
+              "type": [
+                "wedding"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "temple-bag",
+          "name": "Cloth bag for prasad and flowers, and to carry your shoes",
+          "trips": [],
+          "maker": [
+            {
+              "type": [
+                "pilgrimage"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "For kids",
+      "items": [
+        {
+          "id": "kids-clothes",
+          "name": "Kids' clothes: one set a day, plus 2 spare",
+          "qty": "per_day_plus_2",
+          "cap": 9,
+          "trips": [],
+          "maker": [
+            {
+              "who": [
+                "kids"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kids-nightwear",
+          "name": "Kids' nightwear",
+          "qty": "per_2_days",
+          "cap": 4,
+          "trips": [],
+          "maker": [
+            {
+              "who": [
+                "kids"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kids-warm",
+          "name": "Warm jacket, cap and mittens for the kids",
+          "trips": [],
+          "pick": "B08L6QPD8N",
+          "maker": [
+            {
+              "who": [
+                "kids",
+                "baby"
+              ],
+              "type": [
+                "hills"
+              ]
+            },
+            {
+              "who": [
+                "kids",
+                "baby"
+              ],
+              "season": [
+                "winter"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kids-sun",
+          "name": "Kids' sunscreen and a sun hat",
+          "trips": [],
+          "maker": [
+            {
+              "who": [
+                "kids"
+              ],
+              "type": [
+                "beach"
+              ]
+            },
+            {
+              "who": [
+                "kids"
+              ],
+              "season": [
+                "summer"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kids-swim",
+          "name": "Kids' swimwear and arm bands",
+          "trips": [],
+          "maker": [
+            {
+              "who": [
+                "kids"
+              ],
+              "type": [
+                "beach"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kids-medicines",
+          "name": "Kids' medicines: fever syrup, ORS and a thermometer",
+          "trips": [],
+          "maker": [
+            {
+              "who": [
+                "kids"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kids-bottle",
+          "name": "Kids' water bottle and their favourite snacks",
+          "trips": [],
+          "pick": "B0GF7ZH2QN",
+          "maker": [
+            {
+              "who": [
+                "kids"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kids-fun",
+          "name": "Books, colours or a small toy for the journey",
+          "trips": [],
+          "maker": [
+            {
+              "who": [
+                "kids"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "For the baby",
+      "items": [
+        {
+          "id": "diapers",
+          "name": "Diapers (about 6 a day; buy more there on long trips)",
+          "qty": "six_per_day",
+          "cap": 40,
+          "trips": [],
+          "maker": [
+            {
+              "who": [
+                "baby"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "baby-wipes",
+          "name": "Baby wipes and diaper rash cream",
+          "trips": [],
+          "maker": [
+            {
+              "who": [
+                "baby"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "baby-changing",
+          "name": "Changing mat and small bags for used diapers",
+          "trips": [],
+          "maker": [
+            {
+              "who": [
+                "baby"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "baby-clothes",
+          "name": "Baby clothes: one set a day, plus 2 spare",
+          "qty": "per_day_plus_2",
+          "cap": 10,
+          "trips": [],
+          "maker": [
+            {
+              "who": [
+                "baby"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "baby-food",
+          "name": "Formula or baby food, feeding bottles and a bottle brush",
+          "trips": [],
+          "maker": [
+            {
+              "who": [
+                "baby"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "baby-blanket",
+          "name": "Baby blanket and two muslin cloths",
+          "trips": [],
+          "maker": [
+            {
+              "who": [
+                "baby"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "baby-medicines",
+          "name": "Baby medicines your doctor suggests, and a thermometer",
+          "trips": [],
+          "maker": [
+            {
+              "who": [
+                "baby"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "baby-carrier",
+          "name": "Baby carrier or a light foldable stroller",
+          "trips": [],
+          "maker": [
+            {
+              "who": [
+                "baby"
+              ]
+            }
+          ]
         }
       ]
     }
-  ]
+  ],
+  "maker": {
+    "types": [
+      {
+        "slug": "beach",
+        "label": "Beach",
+        "list": "beach"
+      },
+      {
+        "slug": "hills",
+        "label": "Hills or snow",
+        "list": "hills"
+      },
+      {
+        "slug": "city",
+        "label": "City or sightseeing",
+        "list": "week"
+      },
+      {
+        "slug": "abroad",
+        "label": "Trip abroad",
+        "list": "abroad",
+        "where": "abroad"
+      },
+      {
+        "slug": "pilgrimage",
+        "label": "Pilgrimage",
+        "list": "week"
+      },
+      {
+        "slug": "business",
+        "label": "Work trip",
+        "list": "business"
+      },
+      {
+        "slug": "wedding",
+        "label": "Wedding",
+        "list": "wedding"
+      }
+    ],
+    "who": [
+      {
+        "slug": "men",
+        "label": "Men"
+      },
+      {
+        "slug": "women",
+        "label": "Women"
+      },
+      {
+        "slug": "kids",
+        "label": "Kids"
+      },
+      {
+        "slug": "baby",
+        "label": "Baby"
+      }
+    ],
+    "by": [
+      {
+        "slug": "flight",
+        "label": "Flight"
+      },
+      {
+        "slug": "train",
+        "label": "Train"
+      },
+      {
+        "slug": "road",
+        "label": "Car or bus"
+      }
+    ],
+    "seasons": {
+      "1": "winter",
+      "2": "winter",
+      "3": "summer",
+      "4": "summer",
+      "5": "summer",
+      "6": "monsoon",
+      "7": "monsoon",
+      "8": "monsoon",
+      "9": "monsoon",
+      "10": "summer",
+      "11": "winter",
+      "12": "winter"
+    },
+    "notes": [
+      {
+        "maker": [
+          {
+            "by": [
+              "flight"
+            ]
+          }
+        ],
+        "text": "<strong>Power banks go in your cabin bag only</strong>, never in check-in. Keep them with you, not in the overhead bin, and don't use them on board. Many airlines allow up to 2, each 100 Wh or less. Not sure about yours? Use the <a href=\"../tools/power-bank-flight-check.html\">power bank flight checker</a>."
+      },
+      {
+        "maker": [
+          {
+            "by": [
+              "flight"
+            ]
+          }
+        ],
+        "text": "<strong>Liquids in the cabin bag:</strong> each bottle 100 ml or less, all in one clear 1-litre zip bag. This applies on domestic flights too. Pack bigger bottles in check-in."
+      },
+      {
+        "maker": [
+          {
+            "by": [
+              "flight"
+            ]
+          }
+        ],
+        "text": "Not sure about an item? Search <a href=\"../baggage/can-i-carry.html\">what you can carry on a flight</a>, and check your bag with the <a href=\"../baggage/checker.html\">cabin bag checker</a>."
+      },
+      {
+        "maker": [
+          {
+            "by": [
+              "flight"
+            ],
+            "who": [
+              "baby"
+            ]
+          }
+        ],
+        "text": "<strong>Baby food and milk</strong> for the journey are allowed in the cabin above 100 ml. Security may ask to check them."
+      },
+      {
+        "maker": [
+          {
+            "by": [
+              "train"
+            ]
+          }
+        ],
+        "text": "<strong>On the train:</strong> keep valuables in a small bag on you and lock the big bag to the berth. See how much the <a href=\"../baggage/train-luggage-rules.html\">train luggage rules</a> allow."
+      },
+      {
+        "maker": [
+          {
+            "where": [
+              "abroad"
+            ]
+          }
+        ],
+        "text": "<strong>Passport:</strong> most countries want it valid for at least 6 months after you arrive. Check the visa rules for your country, and <a href=\"../baggage/customs.html\">what you can bring back to India duty free</a>."
+      },
+      {
+        "maker": [
+          {
+            "type": [
+              "pilgrimage"
+            ]
+          }
+        ],
+        "text": "<strong>At the temple:</strong> many temples don't allow phones, leather or bags inside. Most have a cloak room or lockers near the gate, so carry little."
+      },
+      {
+        "maker": [
+          {
+            "type": [
+              "hills"
+            ],
+            "season": [
+              "winter"
+            ]
+          }
+        ],
+        "text": "<strong>Snow:</strong> roads can close after heavy snow. Keep one extra day free, and wear layers you can take off in the car."
+      }
+    ],
+    "guides": [
+      {
+        "maker": [
+          {
+            "type": [
+              "beach"
+            ],
+            "where": [
+              "india"
+            ]
+          }
+        ],
+        "links": [
+          [
+            "guides/goa-packing-list.html",
+            "Goa packing list"
+          ],
+          [
+            "guides/andaman-packing-list.html",
+            "Andaman packing list"
+          ],
+          [
+            "packing/beach.html",
+            "Beach trip checklist"
+          ]
+        ]
+      },
+      {
+        "maker": [
+          {
+            "type": [
+              "beach"
+            ],
+            "where": [
+              "abroad"
+            ]
+          }
+        ],
+        "links": [
+          [
+            "guides/thailand-packing-list.html",
+            "Thailand packing list"
+          ],
+          [
+            "guides/bali-packing-list.html",
+            "Bali packing list"
+          ],
+          [
+            "guides/maldives-packing-list.html",
+            "Maldives packing list"
+          ],
+          [
+            "guides/sri-lanka-packing-list.html",
+            "Sri Lanka packing list"
+          ]
+        ]
+      },
+      {
+        "maker": [
+          {
+            "where": [
+              "abroad"
+            ]
+          }
+        ],
+        "links": [
+          [
+            "packing/abroad.html",
+            "International trip checklist"
+          ],
+          [
+            "guides/dubai-packing-list.html",
+            "Dubai packing list"
+          ],
+          [
+            "guides/thailand-packing-list.html",
+            "Thailand packing list"
+          ],
+          [
+            "guides/bali-packing-list.html",
+            "Bali packing list"
+          ],
+          [
+            "guides/vietnam-packing-list.html",
+            "Vietnam packing list"
+          ],
+          [
+            "guides/maldives-packing-list.html",
+            "Maldives packing list"
+          ],
+          [
+            "guides/sri-lanka-packing-list.html",
+            "Sri Lanka packing list"
+          ],
+          [
+            "guides/bhutan-packing-list.html",
+            "Bhutan packing list"
+          ],
+          [
+            "guides/nepal-packing-list.html",
+            "Nepal packing list"
+          ],
+          [
+            "baggage/international.html",
+            "Baggage rules for international flights"
+          ]
+        ]
+      },
+      {
+        "maker": [
+          {
+            "type": [
+              "hills"
+            ]
+          }
+        ],
+        "links": [
+          [
+            "guides/winter-clothes-for-hill-trips.html",
+            "Winter clothes for hill trips"
+          ],
+          [
+            "packing/hills.html",
+            "Hill station checklist"
+          ],
+          [
+            "trips/manali.html",
+            "Manali trip guide"
+          ],
+          [
+            "trips/kashmir-in-december.html",
+            "Kashmir in December"
+          ],
+          [
+            "trips/shimla-in-december.html",
+            "Shimla in December"
+          ]
+        ]
+      },
+      {
+        "maker": [
+          {
+            "type": [
+              "city"
+            ],
+            "where": [
+              "india"
+            ]
+          }
+        ],
+        "links": [
+          [
+            "packing/index.html",
+            "Week-long holiday checklist"
+          ],
+          [
+            "trips/jaipur.html",
+            "Jaipur trip guide"
+          ],
+          [
+            "trips/udaipur.html",
+            "Udaipur trip guide"
+          ]
+        ]
+      },
+      {
+        "maker": [
+          {
+            "type": [
+              "pilgrimage"
+            ]
+          }
+        ],
+        "links": [
+          [
+            "trips/varanasi-in-december.html",
+            "Varanasi trip guide"
+          ],
+          [
+            "trips/rishikesh-in-december.html",
+            "Rishikesh trip guide"
+          ]
+        ]
+      },
+      {
+        "maker": [
+          {
+            "type": [
+              "business"
+            ]
+          }
+        ],
+        "links": [
+          [
+            "packing/business.html",
+            "Business trip checklist"
+          ],
+          [
+            "tools/laptop-backpack.html",
+            "Which backpack fits my laptop?"
+          ]
+        ]
+      },
+      {
+        "maker": [
+          {
+            "type": [
+              "wedding"
+            ]
+          }
+        ],
+        "links": [
+          [
+            "packing/wedding.html",
+            "Wedding packing checklist"
+          ],
+          [
+            "guides/wedding-gift-guide.html",
+            "Wedding gift ideas"
+          ]
+        ]
+      },
+      {
+        "maker": [
+          {
+            "by": [
+              "train"
+            ]
+          }
+        ],
+        "links": [
+          [
+            "packing/train.html",
+            "Train journey checklist"
+          ]
+        ]
+      },
+      {
+        "maker": [
+          {
+            "by": [
+              "flight"
+            ]
+          }
+        ],
+        "links": [
+          [
+            "baggage/index.html",
+            "Baggage rules for Indian airlines"
+          ],
+          [
+            "tools/bag-weight.html",
+            "Bag weight calculator"
+          ]
+        ]
+      }
+    ],
+    "shop": [
+      {
+        "maker": [
+          {
+            "type": [
+              "beach"
+            ]
+          }
+        ],
+        "cats": [
+          "travel-gear",
+          "skincare",
+          "shoes",
+          "backpacks"
+        ]
+      },
+      {
+        "maker": [
+          {
+            "type": [
+              "hills"
+            ]
+          }
+        ],
+        "cats": [
+          "clothing",
+          "shoes",
+          "skincare",
+          "backpacks"
+        ]
+      },
+      {
+        "maker": [
+          {
+            "type": [
+              "city",
+              "pilgrimage"
+            ]
+          }
+        ],
+        "cats": [
+          "backpacks",
+          "shoes",
+          "handbags",
+          "travel-gear"
+        ]
+      },
+      {
+        "maker": [
+          {
+            "type": [
+              "abroad"
+            ]
+          }
+        ],
+        "cats": [
+          "luggage",
+          "travel-gear",
+          "backpacks"
+        ]
+      },
+      {
+        "maker": [
+          {
+            "type": [
+              "business"
+            ]
+          }
+        ],
+        "cats": [
+          "backpacks",
+          "luggage",
+          "watches"
+        ]
+      },
+      {
+        "maker": [
+          {
+            "type": [
+              "wedding"
+            ]
+          }
+        ],
+        "cats": [
+          "luggage",
+          "handbags",
+          "watches"
+        ]
+      },
+      {
+        "maker": [
+          {
+            "by": [
+              "flight"
+            ]
+          }
+        ],
+        "cats": [
+          "luggage"
+        ]
+      }
+    ]
+  }
 }

@@ -8,7 +8,7 @@ photo: bangkok-wat-arun
 ---
 Thailand is hot all year. From December to February it's also mostly dry in Bangkok, Pattaya and Chiang Mai, and the north gets cool at night. So pack light clothes, good sun care, one outfit for temples and one light jacket. This list tells you what to pack and why, for a trip from India.
 
-Want to tick things off as you pack? Use our [checklist for trips abroad](../packing/abroad.html). Going to the islands? Add our [beach trip checklist](../packing/beach.html).
+Want to tick things off as you pack? Use our [checklist for trips abroad](../packing/abroad.html). Going to the islands? Add our [beach trip checklist](../packing/beach.html). Travelling with kids or a baby, or need it for your exact dates? Make your own list with the [packing list maker](../tools/packing-list-maker.html).
 
 [[toppicks:Our picks for a Thailand trip|See the bag rules by airline|#which-bag-to-take]]
 [[top:B097JLKP8X|Cabin bag for IndiGo and Thai Airways|Listed at 55 x 35 x 25 cm, exactly IndiGo's limit, and 115 cm in total, which Thai Airways also allows.]]

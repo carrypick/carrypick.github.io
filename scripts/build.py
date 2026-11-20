@@ -19,6 +19,7 @@ from html import escape as e
 import diagrams
 import hindi_pages
 import more_tools
+import pack_maker
 import pick_art
 from common import IST, ROOT, amazon_link, load_config, load_deals
 
@@ -2681,16 +2682,17 @@ def build_tools(cfg, deals, pages, lastmod):
 # ---------- packing checklists ----------
 
 PACKING_FILE = ROOT / "data" / "packing.json"
-QTY_RULES = {"per_day": lambda n: n, "per_day_plus_1": lambda n: n + 1,
-             "per_2_days": lambda n: n / 2, "per_3_days": lambda n: n / 3}
+QTY_RULES = {"per_day": lambda n: n, "per_day_plus_1": lambda n: n + 1, "per_day_plus_2": lambda n: n + 2,
+             "per_2_days": lambda n: n / 2, "per_3_days": lambda n: n / 3, "six_per_day": lambda n: 6 * n}
 
 
-def pack_qty(rule, days):
-    """Same rule as qty() in static/packing.js."""
+def pack_qty(rule, days, cap=None):
+    """Same rule as quantities() in static/packing.js and qty() in static/pack-maker.js."""
     if rule is None:
         return None
     value = rule if isinstance(rule, (int, float)) else QTY_RULES[rule](days)
-    return max(1, -(-value // 1)) if not isinstance(value, int) else max(1, value)
+    value = max(1, -(-value // 1)) if not isinstance(value, int) else max(1, value)
+    return min(cap, value) if cap else value
 
 
 # Destination packing lists (guides) linked from the matching checklist, when the guide exists.
@@ -2724,14 +2726,15 @@ def build_packing(cfg, deals_by_asin, pages, lastmod, trip_guides=()):
                 if item["trips"] != "all" and slug not in item["trips"]:
                     continue
                 count += 1
-                qty = pack_qty(item.get("qty"), trip["days"])
+                qty = pack_qty(item.get("qty"), trip["days"], item.get("cap"))
+                cap_attr = ' data-cap="%d"' % item["cap"] if item.get("cap") else ""
                 more = ""
                 if item.get("pick"):
                     more = f' <a class="pk-more" href="../picks/{item["pick"]}.html">Our pick</a>'
                 elif item.get("link") and (item["link"] != "baggage/can-i-carry.html" or FLIGHT_ITEMS_FILE.exists()):
                     more = f' <a class="pk-more" href="../{item["link"]}">See more</a>'
                 rows.append(f'<li><label><input type="checkbox" data-id="{e(item["id"])}"> <span>{e(item["name"])}</span>'
-                            + (f' <b class="pk-qty" data-qty="{e(str(item["qty"]))}">× {num(qty)}</b>' if qty else "")
+                            + (f' <b class="pk-qty" data-qty="{e(str(item["qty"]))}"{cap_attr}>× {num(qty)}</b>' if qty else "")
                             + f'</label>{more}</li>')
             if rows:
                 groups_html.append(f'<section class="pack-group"><h2>{e(group["name"])}</h2><ul>{"".join(rows)}</ul></section>')
@@ -2742,6 +2745,8 @@ def build_packing(cfg, deals_by_asin, pages, lastmod, trip_guides=()):
         if lists:
             going_html += '<p class="small">Want the full list, with what to wear and why? Read our packing lists for %s.</p>' % and_list(
                 f'<a href="../guides/{s_}-packing-list.html">{place}</a>' for s_, place in lists)
+        going_html += ('<p class="small">Want a list for your own trip, with kids or a baby, the month and how you travel? '
+                       'Try the <a href="../tools/packing-list-maker.html">packing list maker</a>.</p>')
         title = trip["title"]
         desc = "%s %s A free checklist with %d items and quantities for your number of days. Tick things off as you pack." % (
             title + ":", trip["intro"].split(". ")[0] + ".", count)
@@ -2886,6 +2891,9 @@ def build():
                   "Measure your wrist and see the dial sizes, in mm, that look right on it.", "Find my size", "watch", "watches", "watch-wrist"))
     more_tools.register(sys.modules[__name__])  # shoe size converter, power bank flight checker
     if PACKING_FILE.exists():
+        TOOLS.append((pack_maker.PATH, "Packing list maker", "Free tool", "Make a packing list for your trip",
+                      "Beach, hills, abroad, pilgrimage or a wedding: pick the days, month and who is going, then tick, print or share.",
+                      "Make my list", "check", "travel-gear", "trolley-walk"))
         TOOLS.append(("packing/index.html", "Packing checklists", "Free checklist", "Packing checklists for every trip",
                       "Weekend, wedding, hills, beach, train or abroad: tick off what to pack, with quantities.",
                       "Start packing", "check", "travel-gear", "packed-suitcase"))
@@ -3149,6 +3157,8 @@ def build():
     if HINDI_PAGES:
         build_hindi(cfg, deals, airlines, pages, lastmod)
         hindi_pages.build_all(sys.modules[__name__], cfg, deals, deals_by_asin, airlines, intl_airlines, extra, pages, lastmod)
+    if PACKING_FILE.exists():
+        pack_maker.build(sys.modules[__name__], cfg, deals_by_asin, pages, lastmod)  # after guides and trips, so its links can be checked
 
     # Info pages
     name = e(cfg["site_name"])

@@ -8,7 +8,7 @@ photo: maldives-jetty
 ---
 The Maldives is hot all year, at about 30 °C, so you won't need a single sweater. What matters more is where you stay: resorts are relaxed, but Malé and the local islands expect modest clothes. There are also strict rules on what you can bring in, and seaplanes have tight bag limits. This list tells you what to pack and why, for a trip from India.
 
-Want to tick things off as you pack? Use our [beach trip checklist](../packing/beach.html) and our [checklist for trips abroad](../packing/abroad.html).
+Want to tick things off as you pack? Use our [beach trip checklist](../packing/beach.html) and our [checklist for trips abroad](../packing/abroad.html). Travelling with kids or a baby, or need it for your exact dates? Make your own list with the [packing list maker](../tools/packing-list-maker.html).
 
 [[toppicks:Our picks for a Maldives trip|See the bag rules for flights and seaplanes|#which-bag-to-take]]
 [[top:B094JBDRKX|Waterproof pouch for boats and snorkelling|Two IPX8 pouches for your phone, cash and room key, with a neck strap. The touch screen works through the pouch.]]

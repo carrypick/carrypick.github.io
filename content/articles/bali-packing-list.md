@@ -8,7 +8,7 @@ photo: bali-lake-temple
 ---
 Bali is hot all year. November to March are the wet months, with rain on most days in December and January, so pack light clothes that dry fast, a rain poncho and sandals that can get wet. Add one temple outfit and good sun care. This list tells you what to pack and why, for a trip from India.
 
-Want to tick things off as you pack? Use our [checklist for trips abroad](../packing/abroad.html) and our [beach trip checklist](../packing/beach.html).
+Want to tick things off as you pack? Use our [checklist for trips abroad](../packing/abroad.html) and our [beach trip checklist](../packing/beach.html). Travelling with kids or a baby, or need it for your exact dates? Make your own list with the [packing list maker](../tools/packing-list-maker.html).
 
 [[toppicks:Our picks for a Bali trip|See the bag rules by airline|#which-bag-to-take]]
 [[top:B097JLKP8X|Cabin bag for IndiGo|Listed at 55 x 35 x 25 cm, exactly IndiGo's cabin limit, and 115 cm in total, which Thai Airways and Singapore Airlines also allow.]]
