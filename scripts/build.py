@@ -18,6 +18,7 @@ from html import escape as e
 
 import diagrams
 import hindi_pages
+import more_tools
 import pick_art
 from common import IST, ROOT, amazon_link, load_config, load_deals
 
@@ -2883,6 +2884,7 @@ def build():
                   "Pick your laptop size, from 13 to 17 inch, and see the backpacks that fit it.", "Find a backpack", "backpack", "backpacks", "backpack-field"))
     TOOLS.append(("tools/watch-size.html", "Watch size by wrist", "Free tool", "Which watch size suits my wrist?",
                   "Measure your wrist and see the dial sizes, in mm, that look right on it.", "Find my size", "watch", "watches", "watch-wrist"))
+    more_tools.register(sys.modules[__name__])  # shoe size converter, power bank flight checker
     if PACKING_FILE.exists():
         TOOLS.append(("packing/index.html", "Packing checklists", "Free checklist", "Packing checklists for every trip",
                       "Weekend, wedding, hills, beach, train or abroad: tick off what to pack, with quantities.",
@@ -3077,6 +3079,7 @@ def build():
         body = f"""{page_head(slug, media(cfg, slug, 'media media-tile'), inner, "../", cat.get("photo"))}
 <div class="wrap section">
   {tip_box(cfg, slug, '../', articles_by_slug)}
+  {more_tools.category_link(sys.modules[__name__], slug, '../')}
   {items_html}
   {related_html}
 </div>
@@ -3138,6 +3141,7 @@ def build():
         build_customs(cfg, deals_by_asin, customs, pages, lastmod)
     build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl_airlines)
     build_tools(cfg, deals, pages, lastmod)
+    more_tools.build_all(sys.modules[__name__], cfg, deals, pages, lastmod)
     if trips:
         build_trips(cfg, trips, deals_by_asin, pages, lastmod)
     if trips_hi:

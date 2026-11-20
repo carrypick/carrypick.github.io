@@ -64,7 +64,7 @@ Flip-flops for women:
 
 ## Buying and packing tips
 
-- **Most sizes in India are UK sizes.** Check the size chart on the Amazon page, because brands differ.
+- **Most sizes in India are UK sizes.** Find yours in US, EU and cm with our [shoe size converter](../tools/shoe-size.html), then check the size chart on the Amazon page, because brands differ.
 - **For snow, allow for thick socks.** Try them on with the socks you'll wear.
 - **Never take new shoes on a trip without breaking them in.** Wear them around home for a few days first, and return them if they hurt.
 - **Wear your heaviest pair on the flight.** They don't count towards your bag's weight.

@@ -1,0 +1,49 @@
+{
+  "checked": "2026-11-20",
+  "note": "Men's and women's rows are Bata India's size guide, read on bata.com (India site) on 20 Nov 2026. Kids' rows are Campus's kids size chart, read on campusshoes.com on 20 Nov 2026. cm is foot length, not shoe length. Copy the numbers exactly as each brand gives them, even where a brand's own ranges overlap.",
+  "sources": [
+    {"label": "Bata India size guide", "url": "https://www.bata.com/on/demandware.store/Sites-bata-in-Site/en_IN/Product-ContentAssetInPdp?asset=size-guide-asset&pid=500_2021_8214179"},
+    {"label": "Campus kids size chart", "url": "https://www.campusshoes.com/pages/kids-size-chart"}
+  ],
+  "groups": [
+    {"slug": "men", "label": "Men", "brand": "Bata India",
+     "rows": [
+       {"uk": "5", "us": "5.5", "eu": "39", "cm": [23.4, 24.1]},
+       {"uk": "6", "us": "6.5", "eu": "40", "cm": [24.2, 24.9]},
+       {"uk": "7", "us": "7.5", "eu": "41", "cm": [25.0, 25.7]},
+       {"uk": "8", "us": "8.5", "eu": "42", "cm": [25.8, 26.5]},
+       {"uk": "9", "us": "9.5", "eu": "43", "cm": [26.6, 27.3]},
+       {"uk": "10", "us": "10.5", "eu": "44", "cm": [27.4, 28.3]},
+       {"uk": "11", "us": "11.5", "eu": "45", "cm": [28.2, 28.9]},
+       {"uk": "12", "us": "12.5", "eu": "46", "cm": [29.0, 29.7]},
+       {"uk": "13", "us": "13.5", "eu": "47", "cm": [29.8, 30.5]}
+     ]},
+    {"slug": "women", "label": "Women", "brand": "Bata India",
+     "rows": [
+       {"uk": "2", "us": "2.5", "eu": "35", "cm": [20.9, 21.6]},
+       {"uk": "3", "us": "3.5", "eu": "36", "cm": [21.7, 22.4]},
+       {"uk": "4", "us": "4.5", "eu": "37", "cm": [22.5, 23.3]},
+       {"uk": "5", "us": "5.5", "eu": "38", "cm": [23.4, 24.1]},
+       {"uk": "6", "us": "6.5", "eu": "39", "cm": [24.2, 24.9]},
+       {"uk": "7", "us": "7.5", "eu": "40", "cm": [25.0, 25.7]},
+       {"uk": "8", "us": "8.5", "eu": "41", "cm": [25.8, 26.5]},
+       {"uk": "9", "us": "9.5", "eu": "42", "cm": [26.6, 27.3]},
+       {"uk": "10", "us": "11", "eu": "43", "cm": [27.4, 28.3]}
+     ]},
+    {"slug": "kids", "label": "Kids", "brand": "Campus",
+     "rows": [
+       {"uk": "7", "kids": true, "us": "8", "eu": "24", "cm": [14.2, 15.0], "age": "1.5–2"},
+       {"uk": "8", "kids": true, "us": "9", "eu": "25", "cm": [15.0, 15.8], "age": "2–2.5"},
+       {"uk": "9", "kids": true, "us": "10", "eu": "26.5", "cm": [15.9, 16.7], "age": "2.5–3"},
+       {"uk": "10", "kids": true, "us": "11", "eu": "28", "cm": [16.7, 17.5], "age": "3–3.5"},
+       {"uk": "11", "kids": true, "us": "12", "eu": "29", "cm": [17.6, 18.4], "age": "3.5–4"},
+       {"uk": "12", "kids": true, "us": "13", "eu": "30.5", "cm": [18.4, 19.2], "age": "4–4.5"},
+       {"uk": "13", "kids": true, "us": "1", "eu": "32", "cm": [19.3, 20.1], "age": "4.5–5.5"},
+       {"uk": "1", "us": "2", "eu": "33", "cm": [20.1, 20.9], "age": "5.5–6.5"},
+       {"uk": "2", "us": "3", "eu": "34", "cm": [20.9, 21.7], "age": "6.5–7.5"},
+       {"uk": "3", "us": "4", "eu": "35.5", "cm": [21.8, 22.6], "age": "7.5–8.5"},
+       {"uk": "4", "us": "5", "eu": "37", "cm": [22.6, 23.4], "age": "8.5–9.5"},
+       {"uk": "5", "us": "6", "eu": "38", "cm": [23.5, 24.3], "age": "9.5–11"}
+     ]}
+  ]
+}
