@@ -49,6 +49,18 @@ That's a lot for one trip. Four 100 ml bottles use only 400 ml of the 2 litres.
 - No check-in bag on IndiGo? Buy a small perfume at your destination.
 - Carry wet wipes or a small towel for freshening up on a long journey.
 
+## Travel-size perfumes under 100 ml
+
+Gift sets of small 20 ml bottles fit your clear liquids bag on Air India and Akasa Air (on IndiGo, pack them in check-in too). Four scents for men:
+
+[[pick:B09231NL5H]]
+
+And four for women:
+
+[[pick:B09232XNTX]]
+
+More gift sets and a 17 ml pocket spray, plus EDP vs EDT vs attar in plain words, in our [perfume buying guide](../../guides/perfume-buying-guide.html). Or see all our [perfume picks](../../category/perfumes.html).
+
 ## By airline
 
 | Airline | Cabin bag | Check-in |

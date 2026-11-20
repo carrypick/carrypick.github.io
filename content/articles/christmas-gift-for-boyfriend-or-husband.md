@@ -55,6 +55,10 @@ Buying for the woman in your life, or the kids? See our [Christmas gifts for a g
 
 Not sure of the size or shape? Our [sunglasses buying guide](sunglasses-buying-guide.html) explains the numbers and has aviator, round and sports pairs too.
 
+**A perfume gift set: four 20 ml EDPs to try.** Woody, oud and citrus scents from Bella Vita:
+
+[[pick:B09231NL5H]]
+
 **A small leather sling for days when he carries only a phone and a wallet:**
 
 [[pick:B08XXTRC1Q]]
@@ -78,6 +82,8 @@ Not sure of the size or shape? Our [sunglasses buying guide](sunglasses-buying-g
 [[pick:B0CXF2K4K7]]
 
 More wallets and belts, and what "genuine" and "full grain" leather mean, in our [wallet and belt guide](wallet-and-belt-buying-guide.html).
+
+For a husband who wears perfume to the office, see the Park Avenue set and more in our [perfume buying guide](perfume-buying-guide.html).
 
 **A slim laptop backpack that looks smart in meetings.** It fits a 15 inch laptop:
 

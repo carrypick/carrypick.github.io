@@ -74,6 +74,12 @@ More wallets and belts, and what "genuine" and "full grain" leather mean, in our
 
 [[pick:B0F5GS19M1]]
 
+**A perfume gift set from Engage: four 20 ml EDPs.** Small enough for her handbag:
+
+[[pick:B0CSK7YP3H]]
+
+For a male colleague, see the men's sets in our [perfume buying guide](perfume-buying-guide.html).
+
 ## For your boss, manager or a senior colleague
 
 A gift for someone senior should look smart and stay professional. A watch or a work bag from a known brand is the safe choice, given by the whole team.

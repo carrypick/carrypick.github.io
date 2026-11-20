@@ -48,6 +48,12 @@ Buying for your manager instead? See our [gift ideas for your boss](gift-for-bos
 
 More wallets and belts, and what "genuine" and "full grain" leather mean, in our [wallet and belt guide](wallet-and-belt-buying-guide.html).
 
+**A small add-on: a 17 ml pocket perfume** that fits a shirt pocket, for a quick spray before a meeting:
+
+[[pick:B079H12TC8]]
+
+More perfume gift sets for men and women in our [perfume buying guide](perfume-buying-guide.html).
+
 **A small leather sling for someone who carries only a phone and a wallet:**
 
 [[pick:B08XXTRC1Q]]

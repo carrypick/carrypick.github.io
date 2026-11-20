@@ -40,6 +40,14 @@ Here are gift ideas that work, grouped by who you're buying for.
 
 [[compare:B07PY6CQYV,B07SCLW4HY,B01N56X1EW]]
 
+### A perfume box for both of them
+
+Skinn by Titan's 24Seven pack has two 20 ml EDPs for the bride and two for the groom:
+
+[[pick:B0DSVXW4GD]]
+
+More perfume gift sets in our [perfume buying guide](perfume-buying-guide.html).
+
 ## For the bride
 
 **Dressy: Titan Raga Charm.** It has a mother of pearl dial and a crystal-studded rose gold strap, and looks like jewellery.

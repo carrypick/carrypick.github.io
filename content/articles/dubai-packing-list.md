@@ -210,6 +210,7 @@ More on what you can bring in: [UAE customs rules](../baggage/customs/uae-dubai.
 - **Gold** has its own limits: see [how much gold you can bring from Dubai](../baggage/customs/gold.html).
 - **Buying an iPhone or laptop?** See [iPhone and laptop rules](../baggage/customs/iphone-and-laptop.html).
 - **Perfume, attar and liquids** over 100 ml go in your check-in bag. See [can I carry perfume?](../baggage/can-i-carry/perfume.html)
+- **Dubai is famous for oud and attar.** Want to know what EDP, EDT and attar mean before you shop? See our [perfume buying guide](perfume-buying-guide.html).
 - **Weigh your bag before you leave the hotel.** Shopping and gifts add up fast.
 
 [[pick:B07Q822CWX]]

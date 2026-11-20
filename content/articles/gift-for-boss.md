@@ -50,6 +50,12 @@ A good gift for your boss is professional, useful and not too personal. A watch 
 
 More wallets and belts, and what "genuine" and "full grain" leather mean, in our [wallet and belt guide](wallet-and-belt-buying-guide.html).
 
+**A perfume gift set for the office: Park Avenue.** Four 20 ml EDPs in a gift box:
+
+[[pick:B0GXWJZKT4]]
+
+More sets, and EDP vs EDT, in our [perfume buying guide](perfume-buying-guide.html).
+
 **A leather sling for days when he doesn't need a laptop:**
 
 [[pick:B08XXTRC1Q]]

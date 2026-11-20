@@ -23,7 +23,7 @@ NOTE = "Illustration, not a product photo"
 SCALED = " · listed sizes drawn to scale"
 CSS_FILE = Path(__file__).resolve().parent.parent / "static" / "style.css"
 CATS = ("luggage", "backpacks", "watches", "clothing", "shoes", "skincare", "handbags", "travel-gear",
-        "travel-tech", "sunglasses", "wallets-belts")
+        "travel-tech", "sunglasses", "wallets-belts", "perfumes")
 DASH = ' stroke-dasharray="7 5"'
 
 # Pixels per cm (bags) or per mm (watches, glasses), fixed per kind so picks of one kind compare fairly.
@@ -1045,6 +1045,55 @@ def draw_skincare(d):
                 alt="Simple drawing of a %s %s (%s)" % (amount_text, (sp.get("Type") or "skincare product").lower(), name))
 
 
+# ---------- perfumes: spray bottles, sized by how much each one holds ----------
+
+def draw_perfume(d):
+    sp, tl = d.get("specs", {}), d["title"].lower()
+    size = sp.get("Size") or ""
+    m = re.search(r"(\d+)\s*[x×]\s*(\d+(?:\.\d+)?)\s*ml", size, re.I)
+    count, ml = (int(m.group(1)), float(m.group(2))) if m else (1, float((re.search(r"(\d+(?:\.\d+)?)\s*ml", size, re.I) or [0, 50])[1]))
+    count = max(1, min(count, 4))
+    hh = 200 * (ml / 100) ** (1 / 3)
+    pocket = "pocket" in tl
+    bw = hh * (.6 if pocket else .5)
+    gap = 12
+    if count * bw + (count - 1) * gap > 200:
+        bw = (200 - (count - 1) * gap) / count
+    row = count * bw + (count - 1) * gap
+    x0, cx0 = 140 - row / 2, 0
+    out = L(40, FLOOR, 246, FLOOR, "k", 1.2, ' opacity=".3"')
+    for i in range(count):
+        x = x0 + i * (bw + gap)
+        body_h = hh * .66
+        y = FLOOR - body_h
+        cx0 = x + bw / 2
+        out += R(x, y, bw, body_h, 5 if pocket else bw * .16)
+        out += R(x + 4, y + body_h * .3, bw - 8, body_h * .7 - 4, 3, "s", 0, ' style="fill:#b57fcf;fill-opacity:.7"')
+        out += R(cx0 - bw * .14, y - hh * .07, bw * .28, hh * .07, 1.5, "p", 0)
+        cap_w = bw * (.4 if pocket else .6)
+        out += R(cx0 - cap_w / 2, FLOOR - hh, cap_w, hh * .27, 4, "s k", 1.6)
+        out += L(x + 6, y + 8, x + 6, y + body_h * .5, "", 2, ' stroke="#ffffff" opacity=".6"')
+    tx = 262
+    amount = ("%d × %s ml" % (count, n(ml))) if count > 1 else "%s ml" % n(ml)
+    out += T(tx, 120, amount, "dt", 30, "start", 700)
+    y = 152
+    for text, cls, fs, weight in ((sp.get("Type"), "t", 16, 700), (sp.get("For"), "m", 14, 400)):
+        if text:
+            for line in wrap(text, 24):
+                out += T(tx, y, line, cls, fs, "start", weight)
+                y += 22
+    if sp.get("Cabin bag"):
+        out += T(tx, y + 6, "Cabin bag", "m", 13, "start")
+        y += 6
+        for line in wrap(sp["Cabin bag"], 24):
+            out += T(tx, y + 19, line, "t", 14, "start", 700)
+            y += 19
+    what = "pocket perfume spray" if pocket else "perfume bottle"
+    words = {2: "two", 3: "three", 4: "four"}
+    alt = ("Simple drawing of %s %s ml %ss" % (words[count], n(ml), what)) if count > 1 else "Simple drawing of a %s %s" % (amount, what)
+    return dict(inner=out, legend=False, info=[], scaled=False, alt=alt)
+
+
 # ---------- travel gear ----------
 
 def draw_travel(d):
@@ -1169,7 +1218,8 @@ DRAW = {"luggage": lambda d, lim: draw_luggage(d, lim), "backpacks": lambda d, l
         "shoes": lambda d, lim: draw_shoe(d), "clothing": lambda d, lim: draw_clothing(d),
         "skincare": lambda d, lim: draw_skincare(d), "travel-gear": lambda d, lim: draw_travel(d),
         "travel-tech": lambda d, lim: draw_tech(d), "sunglasses": lambda d, lim: draw_glasses(d),
-        "wallets-belts": lambda d, lim: draw_belt(d) if "belt" in d["title"].lower() else draw_wallet(d)}
+        "wallets-belts": lambda d, lim: draw_belt(d) if "belt" in d["title"].lower() else draw_wallet(d),
+        "perfumes": lambda d, lim: draw_perfume(d)}
 
 
 def colour_words(colour):

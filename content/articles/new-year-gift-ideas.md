@@ -69,6 +69,14 @@ A matching pair means you don't have to choose for just one person.
 
 [[pick:B0BQWF3TJK]]
 
+**A perfume gift set for her or for him.** Four 20 ml EDPs, so they can try a few scents:
+
+[[pick:B09232XNTX]]
+
+[[pick:B09231NL5H]]
+
+More sets and what EDP, EDT and attar mean in our [perfume buying guide](perfume-buying-guide.html).
+
 ## For someone who travels
 
 **A luggage scale helps them avoid extra-baggage charges:**

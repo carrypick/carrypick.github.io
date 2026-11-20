@@ -29,6 +29,7 @@ Buying for the man in your life, or the kids? See our [Christmas gifts for a boy
 | Her, if she loves to travel | [Crescent crossbody bag](../picks/B0F5GS19M1.html) or [packing cubes](../picks/B0C4TV4M2F.html) |
 | Your mom | [Pair watches for mom and dad](../picks/B07PY6CQYV.html) or a [thermal set](../picks/B0BH4XLXPX.html) for winter |
 | Your sister | [Small satchel](../picks/B0B3JBRB6J.html) or a [zip-around wallet](../picks/B0F13ZFVVX.html) |
+| Her, if you don't know what to get | A [perfume gift set](../picks/B09232XNTX.html) of four 20 ml scents |
 
 ## How to choose a Christmas gift for her
 
@@ -74,6 +75,12 @@ Buying for the man in your life, or the kids? See our [Christmas gifts for a boy
 **A smaller gift: a zip-around wallet.** It has 3 sections and a slip pocket.
 
 [[pick:B0F13ZFVVX]]
+
+**A perfume gift set: four 20 ml floral and fruity EDPs.** If you don't know her favourite scent, four small bottles let her find one:
+
+[[pick:B09232XNTX]]
+
+EDP or EDT? Floral or woody? Our [perfume buying guide](perfume-buying-guide.html) explains it in plain words, with more sets for her.
 
 ## For her if she loves to travel
 
