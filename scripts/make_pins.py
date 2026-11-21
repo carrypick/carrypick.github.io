@@ -923,6 +923,14 @@ PINS = [
          description="Indians need a visa for Singapore, applied for through an authorised agent, and an SG Arrival Card before landing. See the visa fee and time, direct flights from India, a simple 5-day plan, December weather and the Christmas lights on Orchard Road.",
          alt="The Supertree Grove in Singapore, with the words Singapore trip from India.",
          html=photo("singapore-supertrees", "Singapore trip from India", "Visa, SG Arrival Card, a 5-day plan and the weather in December")),
+    dict(slug="grooming-kit", board="Gift Ideas", link="guides/grooming-kit-buying-guide.html",
+         title="Grooming kit or trimmer for men: how to choose one and gift it",
+         description="Trimmer, beard trimmer, multi-groomer, 10-in-1, hybrid: what the names mean in plain words, what to check on the listing and how to take a trimmer on a flight. A simple guide if you are buying a grooming kit for your husband, brother or dad.",
+         alt="A table of trimmer types: beard trimmer, all-in-one grooming kit and hybrid trimmer-shaver, with what each is good for.",
+         html=chart("Grooming gift guide", "Trimmer or grooming kit?",
+                    table(["Type", "Good for"], [["Beard trimmer", "Shaping a beard and moustache"], ["All-in-one kit", "Beard, home haircut, body, nose and ears"], ["Hybrid (like OneBlade)", "Stubble, edges and a close shave"]])
+                    + group("What 10-in-1 means", "It counts every head and comb. It doesn't mean ten motors.")
+                    + '<p class="note"><strong>Check the run time and charging</strong> on the listing before you buy.</p>')),
 ]
 
 
