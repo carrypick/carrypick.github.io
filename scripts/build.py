@@ -17,6 +17,7 @@ from datetime import date, datetime, timedelta
 from html import escape as e
 
 import bag_weight
+import carry_on_guide
 import cite_box
 import clothing_size
 import visa_india
@@ -1402,6 +1403,7 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
 <h2>Cabin and checked baggage at a glance</h2>
 <div class="table-wrap"><table class="compare"><thead><tr><th>Airline</th><th>Cabin bag</th><th>Cabin size limit</th><th>Extra small bag</th><th>Checked baggage (economy)</th></tr></thead><tbody>{rows}</tbody></table></div>
 {disclaimer}
+{'<p>Flying within the US or Europe? See <a href="../guides/carry-on-size-by-airline.html">carry-on size by airline (worldwide)</a> for American, Delta, United, Southwest, Ryanair, easyJet, Air France and KLM.</p>' if carry_on_guide.WORLD_FILE.exists() else ''}
 <p>Still choosing a flight? Compare fares, then check the baggage your fare includes before you pay:</p>
 {flight_box(cfg, None, "international") if cfg.get("flight_partners") else ""}
 <h2>Rules that catch travellers out</h2>
@@ -1645,8 +1647,11 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
     # Bag checker
     # Some airlines have a smaller limit on some planes; the checker shows those as extra rows.
     rows_for_checker = []
-    for a in airlines + [x for x in intl_airlines if x.get("checker", True)]:
-        rows_for_checker.append((a["slug"], a["name"], a["slug"], a["cabin"]))
+    world = carry_on_guide.load_world(sys.modules[__name__])
+    for a in airlines + [x for x in intl_airlines if x.get("checker", True)] + (world["airlines"] if world else []):
+        # World airlines have no baggage page: their name links to their row on the carry-on size guide.
+        page_slug = carry_on_guide.page_href(a, "../") if a.get("scope") == "worldwide" else a["slug"]
+        rows_for_checker.append((a["slug"], a["name"], page_slug, a["cabin"]))
         for i, v in enumerate(a["cabin"].get("variants", []), 1):
             rows_for_checker.append(("%s-%d" % (a["slug"], i), "%s (%s)" % (a["name"], v["label"]), a["slug"],
                                      dict(a["cabin"], dims_cm=v.get("dims_cm"), total_cm=v.get("total_cm"))))
@@ -1656,7 +1661,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
                "picks": [{"asin": d["asin"], "title": d["title"], "dims": dims, "kg": kg} for d, dims, kg in picks]}
     js_json = json.dumps(js_data).replace("</", "<\\/")
     options = "".join('<option value="%d">%s</option>' % (i, e(d["title"])) for i, (d, dims, kg) in enumerate(picks))
-    result_rows = "".join(f'<tr data-slug="{key}"><th scope="row"><a href="{page_slug}.html">{e(name)}</a>'
+    result_rows = "".join(f'<tr data-slug="{key}"><th scope="row"><a href="{page_slug if "#" in page_slug else page_slug + ".html"}">{e(name)}</a>'
                           f'<span class="why">{e(short_limit_text(c))}</span></th>'
                           '<td class="r-size"><span class="fit fit-na">Enter size</span></td>'
                           '<td class="r-kg"><span class="fit fit-na">Enter weight</span></td></tr>'
@@ -1690,9 +1695,9 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
 <ul>
 <li>We compare your bag's longest side with the airline's longest allowed side, and so on, because a bag can be turned to fit.</li>
 <li>When an airline gives a total size (length + width + height), we add up your three sides.</li>
-<li>These are the standard economy limits: domestic flights for Indian airlines, and India routes for international airlines. Your fare, route or aircraft can change them.</li>
+<li>These are the standard economy limits: domestic flights for Indian airlines, India routes for international airlines, and the airlines' general rules for US and European airlines such as American, Delta, Ryanair and easyJet. Your fare, route or aircraft can change them.</li>
 </ul>
-<p>See the <a href="index.html">full baggage rules for each airline</a>, or read <a href="../guides/cabin-luggage-guide.html">how to pick a cabin trolley</a>.</p>
+<p>See the <a href="index.html">full baggage rules for each airline</a>, compare <a href="../guides/carry-on-size-by-airline.html">carry-on size by airline worldwide</a>, or read <a href="../guides/cabin-luggage-guide.html">how to pick a cabin trolley</a>.</p>
 {tool_pills("../", "baggage/checker.html")}
 </article></div>
 <script type="application/json" id="bc-data">{js_json}</script>
@@ -3274,6 +3279,7 @@ def build():
     build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl_airlines)
     build_tools(cfg, deals, pages, lastmod)
     bag_weight.build(sys.modules[__name__], cfg, deals, pages, lastmod)
+    carry_on_guide.build(sys.modules[__name__], cfg, deals, pages, lastmod)
     more_tools.build_all(sys.modules[__name__], cfg, deals, pages, lastmod)
     clothing_size.build_all(sys.modules[__name__], cfg, deals, pages, lastmod)
     trip_calc.build_all(sys.modules[__name__], cfg, deals, pages, lastmod)

@@ -36,7 +36,7 @@ def _power_bank():
 
 def _checker():
     dates, src = [], []
-    for name in ("airlines.json", "airlines_intl.json"):
+    for name in ("airlines.json", "airlines_intl.json", "airlines_world.json"):
         d = _load(name)
         if d.get("checked"):
             dates.append(d["checked"])

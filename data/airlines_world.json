@@ -1,0 +1,252 @@
+{
+  "_note": "Major US and European airlines that don't fly the India routes in airlines_intl.json (guides/carry-on-size-by-airline.html, the cabin bag checker and the excess baggage calculator). Read on each airline's own website on 'checked'. Sizes in cm as the airline states them (Southwest gives inches only; we converted). Re-check every ~3 months.",
+  "checked": "2026-11-21",
+  "airlines": [
+    {
+      "slug": "american-airlines",
+      "name": "American Airlines",
+      "scope": "worldwide",
+      "region": "North America",
+      "official_url": "https://www.aa.com/i18n/travel-info/baggage/carry-on-baggage.jsp",
+      "cabin": {
+        "pieces": 1,
+        "kg": null,
+        "dims_cm": [56, 36, 23],
+        "summary": "One carry-on bag up to 56 x 36 x 23 cm (22 x 14 x 9 in), no weight limit given",
+        "detail": "One carry-on bag up to 22 x 14 x 9 inches (56 x 36 x 23 cm) including handles and wheels. It must fit in the overhead bin or under the seat and in the airport sizer. American's page gives no weight limit. On regional American Eagle planes, a carry-on bigger than the personal item size is checked at the gate for free."
+      },
+      "personal": {
+        "summary": "One personal item, like a purse or small handbag, up to 45 x 35 x 20 cm (18 x 14 x 8 in) that fits under the seat in front of you"
+      },
+      "checkin": [
+        {"fare": "Main Cabin (US domestic)", "allowance": "No free checked bag: 1st bag $50 ($45 if you pay online), 2nd bag $60 ($55 online)"},
+        {"fare": "Basic Economy (US domestic)", "allowance": "No free checked bag: $5 more than Main Cabin for the 1st and 2nd bag"},
+        {"fare": "Each bag (economy)", "allowance": "Up to 50 lb (23 kg) and 62 in (158 cm) in total"}
+      ],
+      "checkin_summary": "Paid on US domestic flights; each bag up to 23 kg",
+      "checkin_note": "These fees apply within and between the US, Canada, Mexico, the Caribbean (except Cuba and Haiti), Central America (except Panama) and Guyana, per person and each way (updated by American on 18 May 2026). Each checked bag can weigh 50 lb (23 kg) and measure 62 in (158 cm) in total; heavier and bigger bags cost more.",
+      "excess": {
+        "summary": "On US domestic flights the 1st checked bag costs $50 ($45 online) and the 2nd $60 ($55 online), each way; Basic Economy pays $5 more",
+        "points": ["Fees are per person and each direction of travel. Bag fees paid at the airport are non-refundable.", "Bags over 50 lb (23 kg) or 62 in (158 cm) have their own oversize and overweight charges on American's website."]
+      },
+      "notes": ["Batteries and e-cigarettes can't go in checked bags. If your carry-on has to be checked at the gate, take them out first."],
+      "sources": [
+        {"label": "Carry-on bags", "url": "https://www.aa.com/i18n/travel-info/baggage/carry-on-baggage.jsp"},
+        {"label": "Checked bag policy", "url": "https://www.aa.com/i18n/travel-info/baggage/checked-baggage-policy.jsp"}
+      ]
+    },
+    {
+      "slug": "delta",
+      "name": "Delta Air Lines",
+      "scope": "worldwide",
+      "region": "North America",
+      "official_url": "https://www.delta.com/us/en/baggage/carry-on-baggage",
+      "cabin": {
+        "pieces": 1,
+        "kg": null,
+        "dims_cm": [56, 35, 23],
+        "total_cm": 114,
+        "summary": "One carry-on bag up to 56 x 35 x 23 cm (22 x 14 x 9 in), no weight limit given",
+        "detail": "One carry-on bag and one personal item are free. The carry-on can be up to 22 x 14 x 9 inches (56 x 35 x 23 cm), and the three sides together must not add up to more than 45 inches (114 cm). Delta's page gives no weight limit."
+      },
+      "personal": {
+        "summary": "One personal item free, such as a purse, briefcase, small backpack, camera bag or laptop bag. Delta gives no size for it"
+      },
+      "checkin": [
+        {"fare": "Delta Main and Comfort (US domestic)", "allowance": "No free checked bag: 1st bag $45, 2nd bag $55, each way"},
+        {"fare": "Each bag (economy)", "allowance": "Up to 50 lb (23 kg) and 62 in (157 cm) in total"}
+      ],
+      "checkin_summary": "Paid on US domestic flights; each bag up to 23 kg",
+      "checkin_note": "Delta Main, Comfort and Premium Select bags can weigh up to 50 lb (23 kg) and measure 62 in (157 cm) in total. Medallion members and eligible Delta SkyMiles American Express card members check their first bag free. Bags of 100 lb (45 kg) or more aren't accepted.",
+      "excess": {
+        "summary": "On US domestic flights a bag of 51 to 70 lb (23 to 31.75 kg) costs $100 and one of 71 to under 100 lb costs $200, on top of the bag fee",
+        "points": ["Checked bag fees on US domestic flights: $45 for the 1st bag and $55 for the 2nd, each way. A 3rd bag costs $200.", "Overweight: 51-70 lb (23-31.75 kg) $100; 71 to under 100 lb (32-45.36 kg) $200. Bags of 100 lb or more aren't accepted.", "Oversize: 63 to 80 in (161-203 cm) in total costs $200."]
+      },
+      "notes": ["Power banks: carry-on only, at most two per person, each up to 100 Wh. Keep them under the seat or in the seat pocket, not in the overhead bin, and don't recharge them on board."],
+      "sources": [
+        {"label": "Carry-on baggage", "url": "https://www.delta.com/us/en/baggage/carry-on-baggage"},
+        {"label": "Baggage overview", "url": "https://www.delta.com/us/en/baggage/overview"},
+        {"label": "Excess and overweight baggage", "url": "https://www.delta.com/us/en/baggage/checked-baggage/excess-overweight-baggage"}
+      ]
+    },
+    {
+      "slug": "united",
+      "name": "United Airlines",
+      "scope": "worldwide",
+      "region": "North America",
+      "official_url": "https://www.united.com/en/us/fly/baggage/carry-on-bags.html",
+      "cabin": {
+        "pieces": 1,
+        "kg": null,
+        "dims_cm": [56, 35, 23],
+        "summary": "One carry-on bag up to 56 x 35 x 23 cm (22 x 14 x 9 in), not on most Basic Economy tickets",
+        "detail": "Your carry-on must fit in the overhead bin: 9 x 14 x 22 inches (23 x 35 x 56 cm), including handle and wheels. United's page gives no weight limit. Basic Economy allows only a personal item on most trips; a carry-on is allowed only to South America, across the Atlantic or across the Pacific."
+      },
+      "personal": {
+        "summary": "One personal item up to 43 x 25 x 22 cm (17 x 10 x 9 in) that fits under the seat, such as a purse, backpack or laptop bag"
+      },
+      "checkin": [
+        {"fare": "Economy", "allowance": "Depends on your route and ticket date; United's baggage fee calculator shows it"},
+        {"fare": "Basic Economy", "allowance": "No free checked bag: fees start at $45 prepaid, $50 at the counter and $75 at the gate (tickets bought from 3 Apr 2026)"},
+        {"fare": "Each bag (economy)", "allowance": "Up to 50 lb (23 kg) and 62 in in total"}
+      ],
+      "checkin_summary": "Depends on route and fare; each bag up to 23 kg",
+      "checkin_note": "Each economy checked bag can weigh up to 50 lb (23 kg) and measure up to 62 in in total (76 x 52 x 30 cm). United raised bag fees on many routes in 2026, depending on when you bought your ticket.",
+      "excess": {
+        "summary": "United shows bag fees in its baggage fee calculator. On Basic Economy, bag fees start at $45 prepaid, $50 at the counter and $75 at the gate for tickets bought from 3 Apr 2026",
+        "points": ["Fees for domestic flights and flights to Canada, Mexico and the Caribbean rose for tickets bought from 3 Apr 2026; flights to Europe, Africa, Asia and South America from 12 May 2026.", "Bags over the size and weight limits, and extra bags, have their own fees."]
+      },
+      "notes": [],
+      "sources": [
+        {"label": "Carry-on bags", "url": "https://www.united.com/en/us/fly/baggage/carry-on-bags.html"},
+        {"label": "Checked bags", "url": "https://www.united.com/en/us/fly/baggage/checked-bags.html"}
+      ]
+    },
+    {
+      "slug": "southwest",
+      "name": "Southwest Airlines",
+      "scope": "worldwide",
+      "region": "North America",
+      "official_url": "https://support.southwest.com/helpcenter/article/carryon-baggage-policy",
+      "cabin": {
+        "pieces": 1,
+        "kg": null,
+        "dims_cm": [61, 41, 25],
+        "summary": "One carry-on bag up to 24 x 16 x 10 in (about 61 x 41 x 25 cm), no weight limit given",
+        "detail": "One carry-on bag for the overhead bin, up to 24 inches long, 16 inches wide and 10 inches high (about 61 x 41 x 25 cm, our conversion). Wheels, handles and attachments count. Southwest gives no weight limit."
+      },
+      "personal": {
+        "summary": "One personal item under the seat, such as a purse, briefcase, laptop case, backpack or small camera. Southwest gives no size for it"
+      },
+      "checkin": [
+        {"fare": "All fares", "allowance": "No free checked bag (Southwest says checked bag fees apply)"},
+        {"fare": "Each bag", "allowance": "Up to 50 lb and 62 in in total"}
+      ],
+      "checkin_summary": "Paid; each bag up to 50 lb",
+      "checkin_note": "Each checked bag can weigh up to 50 lb and measure up to 62 in in total (length + width + height), wheels and handles included.",
+      "notes": ["Overweight or oversize fees paid at the airport need a physical credit card."],
+      "sources": [
+        {"label": "Carry-on and personal item policy", "url": "https://support.southwest.com/helpcenter/article/carryon-baggage-policy"},
+        {"label": "Checked bag policy", "url": "https://support.southwest.com/helpcenter/article/checked-baggage-policy"}
+      ]
+    },
+    {
+      "slug": "ryanair",
+      "name": "Ryanair",
+      "scope": "worldwide",
+      "region": "Europe",
+      "official_url": "https://www.ryanair.com/gb/en/useful-info/help-centre/terms-and-conditions",
+      "cabin": {
+        "pieces": 1,
+        "kg": 10,
+        "dims_cm": [55, 40, 20],
+        "summary": "Free: one small bag up to 40 x 30 x 20 cm. A 10 kg cabin bag up to 55 x 40 x 20 cm only with Priority & 2 Cabin Bags",
+        "detail": "Every passenger may take one small bag of up to 40 x 30 x 20 cm on board for free. With Priority & 2 Cabin Bags (included in Regular and Flexi Plus) you can also take a larger cabin bag of up to 10 kg and 55 x 40 x 20 cm. Extra or oversized bags are refused at the gate or put in the hold for a fee."
+      },
+      "personal": {
+        "summary": "One small bag up to 40 x 30 x 20 cm, free on every fare. Ryanair gives no weight limit for it"
+      },
+      "checkin": [
+        {"fare": "Fares without a bag", "allowance": "No free checked bag (10 kg, 20 kg and 23 kg bags cost extra)"}
+      ],
+      "checkin_summary": "Paid: 10 kg, 20 kg or 23 kg bags",
+      "checkin_note": "You can check in up to three bags for a fee. A 10 kg check-in bag goes to the bag-drop desk before security.",
+      "excess": {
+        "summary": "Excess checked baggage costs €/£13 per kg at the airport",
+        "points": ["Priority & 2 Cabin Bags: €/£12.49 to €/£36 at booking, €/£19.99 to €/£45.50 later or at the airport.", "10 kg check-in bag: €/£10.49 to €/£44.99 at booking, €/£24 to €/£75 later or at the airport.", "20 kg check-in bag: €/£21.49 to €/£59.99 per flight online at booking, €/£39.99 to €/£75 later or at the airport.", "23 kg check-in bag: €/£28.99 to €/£80.99 per flight at booking, €/£54 to €/£80.99 later or at the airport."]
+      },
+      "notes": ["Infants on a parent's lap get no small bag allowance."],
+      "sources": [
+        {"label": "Terms and conditions of carriage, article 8 (effective 25 Jun 2026)", "url": "https://www.ryanair.com/gb/en/useful-info/help-centre/terms-and-conditions"},
+        {"label": "Fees", "url": "https://www.ryanair.com/gb/en/useful-info/help-centre/fees"}
+      ]
+    },
+    {
+      "slug": "easyjet",
+      "name": "easyJet",
+      "scope": "worldwide",
+      "region": "Europe",
+      "official_url": "https://www.easyjet.com/en/help/baggage/cabin-bags",
+      "cabin": {
+        "pieces": 1,
+        "kg": null,
+        "dims_cm": [56, 45, 25],
+        "summary": "Free: one under-seat bag up to 45 x 36 x 20 cm and 15 kg. A large cabin bag up to 56 x 45 x 25 cm costs extra",
+        "detail": "Everyone can bring one small under-seat bag for free, up to 45 x 36 x 20 cm including handles and wheels, weighing up to 15 kg. A large cabin bag of up to 56 x 45 x 25 cm can be booked (it comes with Speedy Boarding), or is included for easyJet Plus members and Inclusive Plus fares. At the gate it costs £60."
+      },
+      "personal": {
+        "summary": "The free under-seat bag: up to 45 x 36 x 20 cm and 15 kg"
+      },
+      "checkin": [
+        {"fare": "Fares without a hold bag", "allowance": "No free checked bag (15 kg and 23 kg hold bags cost extra)"}
+      ],
+      "checkin_summary": "Paid: 15 kg or 23 kg hold bags",
+      "checkin_note": "Up to three hold bags per person, and you can add weight online in 3 kg steps. No single bag can weigh more than 32 kg, and each must be under 275 cm in total. People on the same booking can pool their weight.",
+      "excess": {
+        "summary": "Adding hold bags online is always cheaper than at the airport bag drop desk, where it costs £60; a large cabin bag costs £60 at the gate",
+        "points": ["Add hold luggage in Manage Bookings up to two hours before departure.", "Extra weight can be added online in 3 kg steps."]
+      },
+      "notes": [],
+      "sources": [
+        {"label": "Cabin bags", "url": "https://www.easyjet.com/en/help/baggage/cabin-bags"},
+        {"label": "Hold luggage", "url": "https://www.easyjet.com/en/help/baggage/hold-luggage"}
+      ]
+    },
+    {
+      "slug": "air-france",
+      "name": "Air France",
+      "scope": "worldwide",
+      "region": "Europe",
+      "official_url": "https://wwws.airfrance.in/information/bagages/bagage-cabine-soute",
+      "cabin": {
+        "pieces": 1,
+        "kg": 12,
+        "dims_cm": [55, 35, 25],
+        "summary": "Up to one hand bag (55 x 35 x 25 cm) plus one small bag, 12 kg in total",
+        "detail": "In Economy you get 0 or 1 hand baggage, depending on your fare, plus 1 small bag, with a maximum total weight of 12 kg. Hand baggage can be up to 55 x 35 x 25 cm including pockets, wheels and handles, and goes in the overhead bin."
+      },
+      "personal": {
+        "summary": "One small bag up to 40 x 30 x 15 cm under the seat, within the same 12 kg"
+      },
+      "checkin": [
+        {"fare": "Economy Light", "allowance": "No checked bag included"},
+        {"fare": "Other Economy fares", "allowance": "1 or 2 bags, each up to 23 kg, depending on the fare"}
+      ],
+      "checkin_summary": "0 to 2 bags of 23 kg, depending on fare",
+      "checkin_note": "In Economy you get 0 to 2 checked bags depending on your fare, each up to 23 kg. Your exact allowance is shown when you choose a flight and in My Bookings.",
+      "notes": ["Infants without a seat may check one bag of up to 10 kg, except on the Light fare."],
+      "sources": [
+        {"label": "Cabin and checked baggage", "url": "https://wwws.airfrance.in/information/bagages/bagage-cabine-soute"}
+      ]
+    },
+    {
+      "slug": "klm",
+      "name": "KLM",
+      "scope": "worldwide",
+      "region": "Europe",
+      "official_url": "https://www.klm.co.in/information/baggage/hand-baggage-allowance",
+      "cabin": {
+        "pieces": 1,
+        "kg": 12,
+        "dims_cm": [55, 35, 25],
+        "summary": "One hand bag (55 x 35 x 25 cm) plus one small bag, 12 kg in total; only a small bag on Basic",
+        "detail": "On Light, Standard and Flex tickets you can bring 1 small bag of up to 40 x 30 x 15 cm and 1 piece of hand baggage of up to 55 x 35 x 25 cm including handles and wheels, together up to 12 kg. Basic tickets include only the small bag; you can buy hand baggage in My Trip up to 4 hours before departure."
+      },
+      "personal": {
+        "summary": "One small bag up to 40 x 30 x 15 cm under the seat, within the same 12 kg"
+      },
+      "checkin": [
+        {"fare": "Basic", "allowance": "No checked bag included"},
+        {"fare": "Light", "allowance": "No checked bag included"},
+        {"fare": "Standard and Flex", "allowance": "1 bag up to 23 kg"}
+      ],
+      "checkin_summary": "None on Basic and Light; 1 x 23 kg on Standard and Flex",
+      "checkin_note": "Each checked bag can be up to 158 cm in total (length + width + height) including handles and wheels. On some routes Standard and Flex include a second bag.",
+      "notes": [],
+      "sources": [
+        {"label": "Hand baggage allowance", "url": "https://www.klm.co.in/information/baggage/hand-baggage-allowance"},
+        {"label": "Checked baggage allowance", "url": "https://www.klm.co.in/information/baggage/checked-baggage-allowance"}
+      ]
+    }
+  ]
+}

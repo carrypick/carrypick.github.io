@@ -14,6 +14,8 @@ import json
 import re
 from html import escape as e
 
+import carry_on_guide
+
 PATH = "tools/bag-weight.html"
 UPDATED = "2026-11-21"
 KG = r"(\d+(?:\.\d+)?) kg"
@@ -83,7 +85,7 @@ def airline_record(a, scope, extra, checked):
         if c["fare"].lower().startswith("each bag"):
             continue
         fares.append(dict(fare=c["fare"], text=c["allowance"], rule=parse_allowance(c["allowance"])))
-    rec = dict(slug=a["slug"], name=a.get("page_name") or a["name"], scope=scope, page="baggage/%s.html" % a["slug"],
+    rec = dict(slug=a["slug"], name=a.get("page_name") or a["name"], scope=scope, page=carry_on_guide.page_href(dict(a, scope=scope), ""),
                official=a["official_url"], sources=a["sources"], checked=a.get("checked") or checked,
                cabin_kg=a["cabin"].get("kg"), cabin_text=a["cabin"].get("summary", ""),
                personal_text=(a.get("personal") or {}).get("summary", ""), personal_shared=shared, personal_kg=pkg,
@@ -113,6 +115,9 @@ def load(B):
     out = [airline_record(a, "domestic", fees.get(a["slug"]), dom["checked"]) for a in dom["airlines"]]
     if intl:
         out += [airline_record(a, "international", None, intl["checked"]) for a in intl["airlines"]]
+    world = carry_on_guide.load_world(B)
+    if world:
+        out += [airline_record(a, "worldwide", None, world["checked"]) for a in world["airlines"]]
     return out
 
 
@@ -166,6 +171,7 @@ def build(B, cfg, deals, pages, lastmod):
         return
     dom = [r for r in rows if r["scope"] == "domestic"]
     intl = [r for r in rows if r["scope"] == "international"]
+    world = [r for r in rows if r["scope"] == "worldwide"]
     by_asin = {d["asin"]: d for d in deals}
     picks = [(by_asin[a], label, why) for a, label, why in WEIGHT_PICKS if a in by_asin]
     scale = by_asin.get("B07Q822CWX")
@@ -194,8 +200,8 @@ def build(B, cfg, deals, pages, lastmod):
 </ul></div>
 <form class="checker bw-calc" id="bw" onsubmit="return false" hidden>
 <div class="checker-fields bw-top">
-<label>Flight<select id="bw-route"><option value="domestic">Within India</option><option value="international">International</option></select></label>
-<label>Airline<select id="bw-airline" data-domestic="{e(opts(dom))}" data-international="{e(opts(intl))}">{opts(dom)}</select></label>
+<label>Flight<select id="bw-route"><option value="domestic">Within India</option><option value="international">International (to or from India)</option><option value="worldwide">US and Europe airlines</option></select></label>
+<label>Airline<select id="bw-airline" data-domestic="{e(opts(dom))}" data-international="{e(opts(intl))}" data-worldwide="{e(opts(world))}">{opts(dom)}</select></label>
 <label class="bw-wide">Fare<select id="bw-fare"></select></label>
 </div>
 <p class="hint" id="bw-allow"></p>
@@ -221,9 +227,12 @@ def build(B, cfg, deals, pages, lastmod):
 <h2>Baggage allowance by airline: international flights</h2>
 <p>Economy allowances on flights to and from India, from each airline's own pages.</p>
 {_allowance_table(B, intl)}
+<h2>Baggage allowance by airline: US and European airlines</h2>
+<p>American, Delta, United, Southwest, Ryanair, easyJet, Air France and KLM, from their own websites. Compare carry-on sizes on our <a href="../{carry_on_guide.PATH}">carry-on size by airline</a> chart.</p>
+{_allowance_table(B, world)}
 <h2>Excess baggage on international flights</h2>
 <p>International airlines price extra weight by route, so most don't publish one rate per kg. This is what their pages say.</p>
-{_intl_fee_table(B, intl)}
+{_intl_fee_table(B, intl + world)}
 <h2>How to avoid excess baggage fees</h2>
 <ul>
 <li><strong>Weigh every bag at home.</strong> A {scale_html} is cheaper than one extra kilo at most airport counters.</li>
