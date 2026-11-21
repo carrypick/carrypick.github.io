@@ -721,6 +721,121 @@ PINS = [
                     + group("Temples", "Cover shoulders and legs. No shorts or sleeveless tops in Kandy.")
                     + group("Don't bring", "Cigarettes, beedis, gutka or fresh fruit.")
                     + '<p class="note">Weather: National Meteorological Centre via WMO.</p>')),
+    dict(slug="ooty-december", board="India Trip Ideas", link="trips/ooty-in-december.html",
+         title="Ooty in December: weather, frost (no snow) and a 2-3 day plan",
+         description="Ooty in December is about 21 °C by day and 7 °C at night (IMD averages). It doesn't snow, but cold mornings bring ground frost. Plan 2 or 3 days with the toy train, tea gardens and Doddabetta, plus the e-pass and what to wear.",
+         alt="Green tea estate hills in Ooty, with the words Ooty in December.",
+         html=photo("ooty-tea-estate", "Ooty in December", "About 21 °C by day, 7 °C at night. Frost, not snow. A 2–3 day plan")),
+    dict(slug="varanasi-december", board="India Trip Ideas", link="trips/varanasi-in-december.html",
+         title="Varanasi in December: weather, fog, the aarti and a 2-3 day plan",
+         description="Varanasi in December is about 24 °C by day and 10 °C at night (IMD averages), and dense fog is common from late December. Plan the ghats, the Ganga aarti, Kashi Vishwanath and Sarnath in 2 or 3 days, and what to wear.",
+         alt="Boats on the Ganga beside the ghats of Varanasi, with the words Varanasi in December.",
+         html=photo("varanasi-ghats-boat", "Varanasi in December", "Cool, dry and often foggy. Ghats, aarti and Sarnath in 2–3 days")),
+    dict(slug="bhutan-december", board="India Trip Ideas", link="trips/bhutan-in-december.html",
+         title="Bhutan in December: weather, snow chances, festivals and a 6-day plan",
+         description="Bhutan in December is sunny by day (about 15-20 °C) and freezing at night in Paro and Thimphu. Snow is possible on the high passes. See the December festivals, how to get there from India, the SDF for Indians and what to wear.",
+         alt="Tiger's Nest monastery on a cliff in Bhutan, with the words Bhutan in December.",
+         html=photo("bhutan-tigers-nest", "Bhutan in December", "Sunny days, freezing nights, festivals and a 6-day plan")),
+    dict(slug="bhutan-packing", board="Packing and What to Wear", link="guides/bhutan-packing-list.html",
+         title="Bhutan packing list from India: documents, clothes and bag limits",
+         description="Indians don't need a visa for Bhutan, but you need a passport or original voter ID, a guide and the daily SDF. Pack thermals for nights near 0 °C in Paro and Thimphu, walking shoes for Tiger's Nest, and a small cabin bag for Drukair.",
+         alt="Bhutan short list: passport or voter ID, no visa, SDF Nu 1,200 a night, thermals and Paro and Thimphu night temperatures.",
+         html=chart("Bhutan from India", "Bhutan packing list: the short version",
+                    '<div class="big"><div><b>No visa</b><span>passport or original voter ID, plus a guide</span></div><div><b>Nu 1,200</b><span>daily fee per person per night for Indians (SDF)</span></div></div>'
+                    + group("Cold nights", "Thermals, a warm jacket, cap and gloves. Paro and Thimphu fall to about 0 °C.")
+                    + group("Temples and treks", "Long sleeves and trousers for dzongs. Grip shoes for Tiger's Nest.")
+                    + group("Bag", "Drukair's cabin limit is 45 x 35 x 20 cm.")
+                    + '<p class="note">Rules from Bhutan\'s Department of Tourism. Checked 18 Nov 2026.</p>')),
+    dict(slug="nepal-packing", board="Packing and What to Wear", link="guides/nepal-packing-list.html",
+         title="Nepal packing list from India: documents, money and what to wear",
+         description="Indians don't need a visa for Nepal, but only a passport or an original voter ID is accepted on flights, and Indian notes above ₹100 have a ₹25,000 limit. Pack for Kathmandu nights near 3 °C, temple clothes and a cabin bag that fits.",
+         alt="Nepal short list: only passport or voter ID accepted on flights, ₹25,000 limit on ₹200 and ₹500 notes, and Kathmandu January temperatures.",
+         html=chart("Nepal from India", "Nepal packing list: the short version",
+                    '<div class="big"><div><b>2 IDs</b><span>only a passport or original voter ID works on flights</span></div><div><b>₹25,000</b><span>limit in ₹200 and ₹500 notes per person</span></div></div>'
+                    + group("Cold nights", "Kathmandu is about 20 °C by day and 4 °C at night in December.")
+                    + group("Temples", "Clothes that cover shoulders and knees. Shoes that are easy to take off.")
+                    + group("Don't take", "Aadhaar, PAN or a driving licence as your travel ID. They aren't accepted.")
+                    + '<p class="note">Rules from the Embassy of India in Kathmandu and Nepal Rastra Bank.</p>')),
+    dict(slug="travel-tech", board="Flight and Train Baggage Rules", link="category/travel-tech.html",
+         title="Power banks and travel adapters for flights: what to look for",
+         description="Power banks go in your cabin bag only. 10,000 and 20,000 mAh power banks are about 37 and 74 Wh, under the 100 Wh limit on Indian airlines. Our picks list the mAh, ports and size, plus universal adapters for plugs abroad.",
+         alt="A table of power bank sizes in mAh and watt-hours, with a note that they go in the cabin bag only.",
+         html=chart("Travel tech", "Power banks for flights",
+                    table(["Power bank", "Watt-hours", "Cabin bag"], [["10,000 mAh", "37 Wh", "Yes"], ["20,000 mAh", "74 Wh", "Yes"], ["26,800 mAh", "99 Wh", "Yes"], ["30,000 mAh", "111 Wh", "IndiGo only"]])
+                    + group("Cabin bag only", "Never in check-in, on every Indian airline.")
+                    + group("Going abroad?", "A universal adapter covers the plugs in most countries.")
+                    + '<p class="note">Rules checked 20 Nov 2026. Watt-hours = mAh x 3.7 ÷ 1,000.</p>')),
+    dict(slug="sunglasses", board="Watches and Everyday Bags", link="category/sunglasses.html",
+         title="How to read sunglasses numbers: 56-19-140 and polarized lenses",
+         description="The three numbers on a frame, like 56-19-140, are lens width, bridge and arm length in mm. Narrow face? Try 50 to 52 mm lenses. See sunglasses for beaches, snow and driving, with polarized and UV details read from each listing.",
+         alt="A chart explaining the three numbers on a sunglasses frame: lens width, bridge width and arm length in millimetres.",
+         html=chart("Sunglasses guide", "What do the numbers on sunglasses mean?",
+                    '<div class="stat">56-19-140</div>'
+                    + table(["On the arm", "What it is"], [["56", "Lens width, mm"], ["19", "Bridge, mm"], ["140", "Arm length, mm"]])
+                    + group("Narrow face?", "Try a lens width of about 50 to 52 mm.")
+                    + group("Polarized or UV?", "Polarized cuts glare on water and roads. Check for UV400 too.")
+                    )),
+    dict(slug="wallets-belts", board="Gift Ideas", link="category/wallets-belts.html",
+         title="Wallet and belt gifts: genuine, full grain and vegan leather explained",
+         description="Genuine leather is real leather, but a lower grade than full grain or top grain. Vegan or PU leather is not leather at all. See wallets and belts that make easy gifts, with card slots, leather type and waist range read from each listing.",
+         alt="A table comparing full grain, top grain, genuine and vegan leather, for choosing a wallet or belt gift.",
+         html=chart("Wallets and belts", "Which leather is it? A gift guide",
+                    table(["Label", "What it means"], [["Full grain", "Real leather, higher grade"], ["Top grain", "Real leather, higher grade"], ["Genuine", "Real leather, lower grade"], ["Vegan or PU", "Not leather at all"]])
+                    + group("Wallet gift", "Check the card slots, RFID blocking and zip or bifold.")
+                    + group("Belt gift", "Check the waist range. A reversible belt works with black and brown shoes.")
+                    + '<p class="note">Read from product listings. Good for Secret Santa and Christmas.</p>')),
+    dict(slug="perfumes", board="Gift Ideas", link="category/perfumes.html",
+         title="Perfume gift sets for flights: the 100 ml cabin rule and IndiGo's ban",
+         description="Perfume is a liquid at airport security: 100 ml or less in your clear 1-litre bag. IndiGo doesn't allow perfume in the cabin at all, so pack it in check-in. See gift sets, attars and pocket sprays from Indian brands.",
+         alt="A real perfume bottle photo with the words Perfume gifts and the 100 ml cabin rule.",
+         html=photo("perfume-bottle", "Perfume gifts for travellers", "Cabin bags: 100 ml or less each. IndiGo: pack it in check-in")),
+    dict(slug="perfume-guide", board="Gift Ideas", link="guides/perfume-buying-guide.html",
+         title="EDP vs EDT vs attar: perfume gift guide with travel sizes",
+         description="The words on a perfume box tell you how strong it is and how long it lasts. Learn EDP, EDT, deo and attar in plain words, which sizes you can take on a flight, and gift sets for men, women and couples.",
+         alt="A table comparing EDP, EDT, deo or body spray and attar by strength and how long they last.",
+         html=chart("Perfume gift guide", "EDP, EDT, deo or attar?",
+                    table(["Type", "In plain words"], [["EDP", "Strong, most of a day"], ["EDT", "Medium, a few hours"], ["Body mist or deo", "Light, 1–2 hours"], ["Attar", "Pure oil, no alcohol"]])
+                    + group("On a flight", "Bottles of 100 ml or less in your clear 1-litre bag. IndiGo: check-in only.")
+                    + group("Gift tip", "Sets of four 20 ml sprays let them try four scents.")
+                    + '<p class="note">Rules checked on airline sites. They can change.</p>')),
+    dict(slug="shoe-size-tool", board="Packing and What to Wear", link="tools/shoe-size.html",
+         title="Shoe size chart for India: India/UK to US, EU and cm",
+         description="India and UK shoe sizes are the same number. On Bata India's chart, a men's UK 8 is a US 8.5 and an EU 42, for a foot of 25.8 to 26.5 cm. Measure your foot in cm and use the free converter for men, women and kids.",
+         alt="A shoe size chart showing India or UK 6 to 10 with US, EU sizes and foot length in cm.",
+         html=chart("Free shoe size tool", "Shoe size chart for India",
+                    table(["India / UK", "US", "EU", "Foot cm"], [["6", "6.5", "40", "24.2–24.9"], ["7", "7.5", "41", "25–25.7"], ["8", "8.5", "42", "25.8–26.5"], ["9", "9.5", "43", "26.6–27.3"], ["10", "10.5", "44", "27.4–28.3"]])
+                    + '<p class="note"><strong>India and UK are the same number.</strong> Men\'s sizes, from Bata India\'s chart. Measure your foot in cm: it is the surest way.</p>')),
+    dict(slug="power-bank-tool", board="Flight and Train Baggage Rules", link="tools/power-bank-flight-check.html",
+         title="Is my power bank allowed on the flight? mAh to Wh checker",
+         description="Type your power bank's mAh to see its watt-hours and whether IndiGo, Air India and Akasa Air allow it. Up to 100 Wh is fine on all three. Power banks go in the cabin bag only, never in check-in.",
+         alt="A table of power bank sizes from 5,000 to 30,000 mAh with watt-hours and whether IndiGo, Air India and Akasa Air allow them.",
+         html=chart("Free flight checker", "Is my power bank allowed?",
+                    table(["Power bank", "Wh", "IndiGo", "Air India", "Akasa"], [["10,000 mAh", "37", "Yes", "Yes", "Yes"], ["20,000 mAh", "74", "Yes", "Yes", "Yes"], ["26,800 mAh", "99", "Yes", "Yes", "Yes"], ["30,000 mAh", "111", "Yes", "No", "No"]])
+                    + group("Always", "Cabin bag only. Never in check-in.")
+                    + '<p class="note"><strong>Wh = mAh x 3.7 ÷ 1,000.</strong> Rules checked 20 Nov 2026.</p>')),
+    dict(slug="packing-list-maker", board="Packing and What to Wear", link="tools/packing-list-maker.html",
+         title="Free packing list maker: a list for your trip, days and month",
+         description="Pick the kind of trip, the days, the month and who is going, and get a packing list with the right counts. Tick items off, print it or share it on WhatsApp. Free, and your ticks stay in your browser.",
+         alt="Steps of the packing list maker: choose trip type, days, month and who is going, then tick items off.",
+         html=chart("Free tool", "Make your own packing list",
+                    table(["Step", "You choose"], [["1", "Beach, hills, city or abroad"], ["2", "How many days"], ["3", "The month"], ["4", "Who is going"]])
+                    + group("You get", "A list with counts for your days. Tick items off, print it or share it.")
+                    + '<p class="note"><strong>Rule of thumb:</strong> one top a day plus one spare, trousers for every 3 days.</p>')),
+    dict(slug="gift-finder", board="Gift Ideas", link="tools/gift-finder.html",
+         title="Gift finder quiz: what gift should I give? Answer 3 questions",
+         description="Not sure what to give? Say who the gift is for, the occasion and how big a gift, and get ideas for Christmas, Secret Santa, farewell, birthday or wedding. Free quiz with links to our gift guides.",
+         alt="Three questions of the gift finder quiz: who is it for, what is the occasion, and how big a gift.",
+         html=chart("Free quiz", "What gift should I give?",
+                    table(["Question", "Examples"], [["1. Who is it for?", "Boss, wife, kids, parents"], ["2. What occasion?", "Christmas, farewell, wedding"], ["3. How big?", "Token, nice or big gift"]])
+                    + group("Then", "See ideas for that person, with links to our full gift guides.")
+                    + '<p class="note">Takes under a minute. No sign-up.</p>')),
+    dict(slug="clothing-size", board="Packing and What to Wear", link="tools/clothing-size.html",
+         title="Size chart for men, women and kids in India: UK, US, EU to Indian size",
+         description="India has no single size system. Measure your chest, waist and hips in cm, then convert UK, US and EU sizes to Indian sizes for tops, jeans and kids' clothes. Free converter. Sizes vary by brand.",
+         alt="A women's size chart for M&S India with UK, US, EU and bust size in cm.",
+         html=chart("Free size converter", "Clothing size chart for India",
+                    table(["UK", "Letter", "US", "EU", "Bust cm"], [["8", "S", "4–6", "36–38", "82"], ["10", "S", "4–6", "36–38", "87"], ["12", "M", "8–10", "40–42", "92"], ["14", "M", "8–10", "40–42", "97"], ["16", "L", "12–14", "44–46", "102.5"]])
+                    + '<p class="note"><strong>Go by your body in cm, not the letter.</strong> Women\'s tops from Marks &amp; Spencer India\'s chart. Sizes vary by brand.</p>')),
 ]
 
 
