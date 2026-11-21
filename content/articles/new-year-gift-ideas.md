@@ -10,7 +10,7 @@ feature_until: 2027-01-01
 ---
 A good New Year gift is one that gets used long after the party is over. Here are simple ideas for family, friends and people who love to travel. 1 January 2027 falls on a Friday, so plan your gifts before the holiday rush.
 
-**Not sure?** [Try the gift finder](../tools/gift-finder.html): answer 2 or 3 quick questions and see the gift ideas that match.
+**Not sure?** [Try the gift finder](../tools/gift-finder.html#occ=new-year): choose who it's for and see the gift ideas that match.
 
 ## Quick ideas
 

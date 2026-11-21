@@ -9,7 +9,7 @@ priority: 1
 ---
 A good birthday gift is something the person will use every week and think of you: a watch, a wallet, a bag that fits their day or a small perfume set. Below are ideas for each person in your life, plus simple lines to write in the card.
 
-**Not sure?** [Try the gift finder](../tools/gift-finder.html): pick who it's for and "Birthday", and see the gift ideas that match.
+**Not sure?** [Try the gift finder](../tools/gift-finder.html#occ=birthday): pick who it's for and "Birthday", and see the gift ideas that match.
 
 [[toppicks:Our quick picks|See all the ideas|#for-your-husband]]
 [[top:B07H3K85H5|For your husband|A Timex with a blue dial on a tan leather strap. The 39.7 mm size suits most wrists, for office and weekends.]]

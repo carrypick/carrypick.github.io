@@ -9,7 +9,7 @@ priority: 1
 ---
 An anniversary gift says "I'd choose you again". The best ones are things you'll both see every day, like a watch, or something for time together, like bags for a weekend trip. Below are ideas for your husband or wife, for your parents and for a couple you love, plus lines to write in the card.
 
-**Not sure?** [Try the gift finder](../tools/gift-finder.html): pick who it's for and "Anniversary", and see the gift ideas that match.
+**Not sure?** [Try the gift finder](../tools/gift-finder.html#occ=anniversary): pick who it's for and "Anniversary", and see the gift ideas that match.
 
 [[toppicks:Our quick picks|See all the ideas|#for-your-husband]]
 [[top:B018VZBTLY|For your husband|A classic Titan with a 42 mm silver dial on a brown leather strap, and a 2-year warranty.]]

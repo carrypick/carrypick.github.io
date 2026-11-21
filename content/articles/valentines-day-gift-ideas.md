@@ -8,7 +8,7 @@ photo: red-roses
 ---
 Roses and chocolates are gone in a day. A Valentine's Day gift they use every day, like a watch, a perfume or a bag, reminds them of you every time they pick it up. Here are ideas for your girlfriend, wife, boyfriend or husband, a few things you can share as a couple, and a gift plan for Valentine week. Valentine's Day 2027 falls on a Sunday, so order by early February.
 
-**Not sure?** [Try the gift finder](../tools/gift-finder.html#for=her): choose who it's for and "Valentine's Day", and see the gift ideas that match.
+**Not sure?** [Try the gift finder](../tools/gift-finder.html#occ=valentines): choose who it's for and "Valentine's Day", and see the gift ideas that match.
 
 [[toppicks:Our quick picks|See all the ideas|#for-your-girlfriend]]
 [[top:B08LKXV22C|For your girlfriend|A dressy Titan Raga with a mother of pearl dial and a rose gold strap with crystals. It looks like jewellery.]]

@@ -9,7 +9,7 @@ feature_until: 2026-12-26
 ---
 Most men are easy to buy for if you think about what they carry every day: a watch, a wallet, a bag for work. A better version of one of those gets used every day long after Christmas. Here are ideas for your boyfriend or husband, plus a few for dad and your brother. Christmas 2026 falls on a Friday, so order by mid-December.
 
-**Not sure?** [Try the gift finder](../tools/gift-finder.html#for=him): answer 2 or 3 quick questions and see the gift ideas that match.
+**Not sure?** [Try the gift finder](../tools/gift-finder.html#for=him&occ=christmas): answer one quick question and see the gift ideas that match.
 
 [[toppicks:Our quick picks|See all the ideas|#for-your-boyfriend]]
 [[top:B07H3K85H5|For your boyfriend|A Timex Classics with a blue dial on a tan leather strap. A 39.7 mm case suits most wrists, with a 1-year warranty.]]

@@ -9,7 +9,7 @@ photo: gift-box
 ---
 Wedding season in India brings a long list of functions and gifts. Couples often receive many decorative items they never use. A good watch or a travel bag is different: they use it every day or on every trip, and they remember who gave it.
 
-**Not sure?** [Try the gift finder](../tools/gift-finder.html): answer 2 or 3 quick questions and see the gift ideas that match.
+**Not sure?** [Try the gift finder](../tools/gift-finder.html#occ=wedding): choose who it's for and see the gift ideas that match.
 
 Here are gift ideas that work, grouped by who you're buying for.
 

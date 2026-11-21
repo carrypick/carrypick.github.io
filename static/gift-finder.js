@@ -1,6 +1,7 @@
 // Gift finder quiz: who -> occasion -> optional size, then pick cards and guide links.
 // Data comes from data/gift_finder.json (embedded as #gf-data); the rule matches results() in scripts/gift_finder.py.
-// Links like gift-finder.html#for=her start the quiz with that person chosen.
+// Links like gift-finder.html#for=her start the quiz with that person chosen; #for=her&occ=birthday also picks the
+// occasion (straight to the last question), and #occ=birthday alone picks the occasion and asks only who it is for.
 (function () {
   var $ = function (id) { return document.getElementById(id); };
   var box = $("gf"), dataEl = $("gf-data"), pool = $("gf-pool");
@@ -13,6 +14,7 @@
   var steps = ["who", "occ", "size"];
   var pick = { who: "", occ: "", size: "" };
   var step = 0;
+  var preOcc = "";  // occasion from the link (#occ=...), used once when the person is chosen
   var result = $("gf-result");
 
   function find(list, slug) { for (var i = 0; i < list.length; i++) if (list[i].slug === slug) return list[i]; return null; }
@@ -84,6 +86,7 @@
     if (q === "who") {
       var w = find(data.who, v);
       if (w.occasion) { pick.occ = w.occasion; pick.size = pick.size || w.size || ""; show(2); return; }
+      if (preOcc) { pick.occ = preOcc; preOcc = ""; show(2); return; }
       show(1);
     } else if (q === "occ") {
       show(2);
@@ -113,6 +116,7 @@
   $("gf-nojs").hidden = true;
   box.hidden = false;
   show(0);
-  var m = /(?:^|[#&])for=([a-z-]+)/.exec(location.hash);
+  var m = /(?:^|[#&])for=([a-z-]+)/.exec(location.hash), mo = /(?:^|[#&])occ=([a-z-]+)/.exec(location.hash);
+  if (mo && find(data.occasions, mo[1])) preOcc = mo[1];
   if (m && find(data.who, m[1])) choose("who", m[1]);
 })();

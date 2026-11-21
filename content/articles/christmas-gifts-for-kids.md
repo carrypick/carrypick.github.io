@@ -9,7 +9,7 @@ feature_until: 2026-12-26
 ---
 The Christmas gifts kids remember are often the ones they use every day: a watch of their own, a new school bag, a bottle for the lunch break. These ideas suit boys and girls from about 5 to 15, and they're still useful long after Christmas. Christmas 2026 falls on a Friday, so order by mid-December.
 
-**Not sure?** [Try the gift finder](../tools/gift-finder.html#for=kids): answer 2 or 3 quick questions and see the gift ideas that match.
+**Not sure?** [Try the gift finder](../tools/gift-finder.html#for=kids&occ=christmas): answer one quick question and see the gift ideas that match.
 
 [[toppicks:Our quick picks|See all the ideas|#gifts-for-younger-kids-5-to-9]]
 [[top:B0BS3M2XQV|A first watch for a boy|An analog watch from Titan's kids' brand Zoop, with a white dial and a blue strap. Splash-proof to 30 m.]]
