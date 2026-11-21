@@ -113,6 +113,18 @@ Thailand is warm and mostly dry in December: Bangkok averages about 31 °C by da
 
 Read the full [Thailand trip guide](thailand-trip-from-india.html), and see our [Thailand packing list](../guides/thailand-packing-list.html).
 
+## Hong Kong: for Disneyland and a short city trip abroad
+
+Hong Kong is at its best in December: it's the driest month, about 20 °C by day and 16 °C at night on the Hong Kong Observatory's averages. Indians need no visa for up to 14 days, but must complete a free online pre-arrival registration first and carry the signed slip. Spend two days in the city and one at Disneyland or Ocean Park.
+
+Read the full [Hong Kong trip guide](hong-kong-trip-from-india.html).
+
+## Japan: for winter lights, Mount Fuji and bullet trains
+
+Japan is cold in December, Tokyo about 12 °C by day and 4 °C at night, but mostly dry and sunny, so Mount Fuji views are often clear. Indians need a visa (an eVISA through VFS), and applications open 3 months before travel, so apply early. Pack a warm jacket and layers.
+
+Read the full [Japan trip guide](japan-trip-from-india.html).
+
 ## Vietnam: for Ha Long Bay and a cool Hanoi winter
 
 In December, Hanoi is cool and dry, about 22 °C by day and 15 °C at night, and Ho Chi Minh City is hot and dry, about 32 °C. Da Nang and Hoi An are rainy, with rain on about 21 days, so plan fewer days there. Indians need an e-visa (US$25 for a single entry), applied for online on Vietnam's official portal before you fly.

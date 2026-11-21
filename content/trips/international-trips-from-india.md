@@ -1,7 +1,7 @@
 ---
 seo_title: International trips from India (2026–27): foreign trips by flight time, best months and visa type
 title: International trips from India: where to go, by flight time, season and visa
-description: Choosing a foreign trip from India? Compare Nepal, Bhutan, Sri Lanka, the Maldives, Dubai, Thailand, Vietnam, Malaysia, Singapore and Bali by distance and rough flying time from Delhi and Mumbai, the best months, the visa type for Indians, and whether each suits a honeymoon or a family trip. Links to our trip guides, packing lists and baggage rules.
+description: Choosing a foreign trip from India? Compare Nepal, Bhutan, Sri Lanka, the Maldives, Dubai, Thailand, Vietnam, Malaysia, Hong Kong, Singapore, Bali and Japan by distance and rough flying time from Delhi and Mumbai, the best months, the visa type for Indians, and whether each suits a honeymoon or a family trip. Links to our trip guides, packing lists and baggage rules.
 date: 2026-11-21
 place: International trips
 hub_title: no
@@ -28,8 +28,10 @@ Distance is the straight-line distance from Delhi (DEL) or Mumbai (BOM) airport,
 | [Thailand](thailand-trip-from-india.html) | About 2,950 km / 3,030 km | About 4 hours | November to February | [No visa for 30 days](../guides/visa-free-countries-for-indians.html#thailand) |
 | [Vietnam](vietnam-trip-from-india.html) | About 3,000 km (Hanoi) / 3,740 km (Ho Chi Minh City) | About 4 to 5 hours | March to May; December to April in the south | [e-visa online](../guides/visa-free-countries-for-indians.html#vietnam) |
 | [Malaysia](malaysia-trip-from-india.html) | About 3,880 km / 3,620 km | About 5 hours | December to February for Langkawi and Penang | [No visa for 30 days until 31 Dec 2026](../guides/visa-free-countries-for-indians.html#malaysia) |
+| [Hong Kong](hong-kong-trip-from-india.html) | About 3,750 km / 4,270 km | About 5 hours from Delhi | October to December | [No visa for 14 days](../guides/visa-free-countries-for-indians.html#hong-kong), after a free online pre-arrival registration |
 | [Singapore](singapore-trip-from-india.html) | About 4,160 km / 3,920 km | About 5½ hours | February to April | [Visa through an agent](../guides/visa-free-countries-for-indians.html#singapore) |
 | [Bali (Indonesia)](bali-trip-from-india.html) | About 5,820 km / 5,570 km | About 7½ hours | April to October | [Visa on arrival or e-VOA](../guides/visa-free-countries-for-indians.html#indonesia) |
+| [Japan](japan-trip-from-india.html) | About 5,860 km / 6,730 km (Tokyo) | About 8 hours from Delhi | Late March to May; October and November | [eVISA through VFS](../guides/visa-free-countries-for-indians.html#japan) |
 
 Not every city has a direct flight to every country. Each trip guide lists the direct flights from Indian cities, with the date we checked.
 
@@ -51,6 +53,11 @@ Short trips abroad mean less time in the air and less tiredness, so you get more
 - **[Singapore](singapore-trip-from-india.html):** gardens, Sentosa, Universal Studios and clean, safe streets. Indians need a visa through an agent. The easiest city trip abroad with kids. Many Indians combine it with Malaysia: see the [Singapore + Malaysia combo](malaysia-trip-from-india.html#singapore-malaysia-combo).
 - **[Bali](bali-trip-from-india.html):** the longest flight on this page. Indians get a visa on arrival. Rice terraces, temples, villas and beaches; a favourite honeymoon trip.
 
+## East Asia: Hong Kong and Japan
+
+- **[Hong Kong](hong-kong-trip-from-india.html):** about 5 hours from Delhi. Indians need no visa for up to 14 days after a free online pre-arrival registration. Disneyland, Ocean Park, Victoria Peak and the harbour; a short city trip that suits families.
+- **[Japan](japan-trip-from-india.html):** the longest flight on this page, about 8 hours from Delhi to Tokyo. Indians need a visa, now an eVISA through VFS. Tokyo, Mount Fuji, Kyoto, Osaka and bullet trains; cherry blossom in late March and early April.
+
 ## Best international trips from India in December
 
 December and January are holiday months in India, and they suit these trips best:
@@ -61,6 +68,8 @@ December and January are holiday months in India, and they suit these trips best
 - **[Dubai](dubai-trip-from-india.html):** warm days and cool evenings, the best time of year there.
 - **[Malaysia](malaysia-trip-from-india.html):** good for Langkawi and Penang; avoid the east coast islands, where the monsoon is at its peak.
 - **[Vietnam](vietnam-trip-from-india.html):** dry and warm in the south; cool in Hanoi.
+- **[Hong Kong](hong-kong-trip-from-india.html):** its driest month, about 20 °C by day; cool evenings.
+- **[Japan](japan-trip-from-india.html):** cold (Tokyo about 12 °C by day, 4 °C at night) but mostly dry and sunny, with winter lights.
 - **[Nepal](nepal-in-december.html) and [Bhutan](bhutan-in-december.html):** clear mountain views and sunny days, but very cold nights.
 - **Less ideal in December:** [Singapore](singapore-trip-from-india.html) (its wettest month, with short showers) and [Bali](bali-trip-from-india.html) (the wet season).
 
@@ -71,9 +80,9 @@ Christmas to New Year is the busiest time everywhere, so book early. Comparing w
 Many people asking for a "cheap" foreign trip really want a short flight and an easy visa, with no visa office and no long wait. These are the simplest for an Indian passport right now:
 
 - **No visa at all:** [Nepal](nepal-in-december.html) and [Bhutan](bhutan-in-december.html) (Bhutan has an entry permit and a daily fee).
-- **No visa for a short tourist stay:** [Thailand](thailand-trip-from-india.html) (30 days) and [Malaysia](malaysia-trip-from-india.html) (30 days, until 31 December 2026).
+- **No visa for a short tourist stay:** [Thailand](thailand-trip-from-india.html) (30 days), [Malaysia](malaysia-trip-from-india.html) (30 days, until 31 December 2026) and [Hong Kong](hong-kong-trip-from-india.html) (14 days, after a free online pre-arrival registration).
 - **A free visa online, or a visa on arrival:** [Sri Lanka](sri-lanka-trip-from-india.html) (free ETA), the [Maldives](maldives-trip-from-india.html) and [Bali](bali-trip-from-india.html) (visa on arrival).
-- **Apply before you fly:** [Vietnam](vietnam-trip-from-india.html) (e-visa online), [Singapore](singapore-trip-from-india.html) (through an agent in India) and [Dubai](dubai-trip-from-india.html) (through a tourism company, airline or hotel).
+- **Apply before you fly:** [Vietnam](vietnam-trip-from-india.html) (e-visa online), [Singapore](singapore-trip-from-india.html) (through an agent in India), [Japan](japan-trip-from-india.html) (eVISA through VFS) and [Dubai](dubai-trip-from-india.html) (through a tourism company, airline or hotel).
 
 Rules change, and the officer at the airport decides on entry. Check our [visa guide](../guides/visa-free-countries-for-indians.html) and the trip guide before you book, and carry your return ticket and hotel booking.
 
@@ -88,6 +97,8 @@ Rules change, and the officer at the airport decides on entry. Check our [visa g
 | [Singapore](singapore-trip-from-india.html) | Fine as a city break | Very good: theme parks, zoo, clean and safe |
 | [Malaysia](malaysia-trip-from-india.html) | Good: Langkawi's beaches | Very good: Indian food, Genting, easy visa for now |
 | [Dubai](dubai-trip-from-india.html) | Fine as a city break | Very good: theme parks, malls, the desert |
+| [Hong Kong](hong-kong-trip-from-india.html) | Fine as a city break | Very good: Disneyland, Ocean Park, easy trains |
+| [Japan](japan-trip-from-india.html) | Good: Kyoto, Mount Fuji, cherry blossom | Good: Disneyland and Universal Studios, safe trains; long flight |
 | [Vietnam](vietnam-trip-from-india.html) | Good: Ha Long Bay cruises, Hoi An | Fine: more travel between cities |
 | [Nepal](nepal-in-december.html) | Good: Pokhara's lake and mountains | Good: no visa, short flight; cold nights in winter |
 | [Bhutan](bhutan-in-december.html) | Good: quiet, scenic, unhurried | Fine: lots of driving on mountain roads |
@@ -106,7 +117,7 @@ Each list has what to wear, the bag limits by airline and the things you can't b
 - [Bhutan packing list](../guides/bhutan-packing-list.html)
 - [Singapore packing list](../guides/singapore-packing-list.html)
 
-Going to Malaysia or another country? Use the [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or ask the [what to wear helper](../tools/what-to-wear.html).
+Going to Malaysia, Hong Kong, Japan or another country? Use the [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or ask the [what to wear helper](../tools/what-to-wear.html).
 
 ## Baggage, customs and power banks
 
