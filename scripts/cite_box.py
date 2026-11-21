@@ -100,6 +100,7 @@ HI_TOOLS = {
     "hi/shoe-size.html": ("tools/shoe-size.html", "जूते का साइज कन्वर्टर"),
     "hi/clothing-size.html": ("tools/clothing-size.html", "कपड़ों का साइज कन्वर्टर"),
     "hi/gift-finder.html": ("tools/gift-finder.html", "गिफ़्ट फ़ाइंडर क्विज़"),
+    "hi/guides/visa-free-countries-for-indians.html": ("guides/visa-free-countries-for-indians.html", "भारतीयों के लिए वीज़ा गाइड (वीज़ा-फ़्री देश)"),
     "hi/what-to-wear.html": ("tools/what-to-wear.html", "क्या पहनें हेल्पर"),
 }
 HI_WORDS = {"head": "इस टूल का हवाला दें या लिंक करें",

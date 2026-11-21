@@ -99,7 +99,7 @@ TOOLS_HI = []  # (hindi path, link text) of every Hindi tool page that exists, f
 
 
 def english_path(hi_path):
-    return {SHOE_PATH: SHOE_EN, POWER_PATH: POWER_EN, PACK_PATH: PACK_EN, GIFT_PATH: GIFT_EN, CLOTH_PATH: CLOTH_EN}.get(hi_path) or next((en for en, h in PAIRS.items() if h == hi_path), "")
+    return {"hi/guides/visa-free-countries-for-indians.html": "guides/visa-free-countries-for-indians.html", SHOE_PATH: SHOE_EN, POWER_PATH: POWER_EN, PACK_PATH: PACK_EN, GIFT_PATH: GIFT_EN, CLOTH_PATH: CLOTH_EN}.get(hi_path) or next((en for en, h in PAIRS.items() if h == hi_path), "")
 
 
 PAIRS = {}  # filled below by register(): English path -> Hindi path (all tools)
@@ -127,11 +127,16 @@ def register(B):
     if PACK_FILE.exists() and (ROOT / "data" / "packing.json").exists():
         B.HINDI_PAGES[PACK_EN] = PACK_PATH
         TOOLS_HI.append((PACK_PATH, "पैकिंग लिस्ट मेकर"))
+    import hindi_visa
+    hindi_visa.register(B, TOOLS_HI)  # hi/guides/visa-free-countries-for-indians.html, built by build_all below
     import what_to_wear_hi
     what_to_wear_hi.register(B, TOOLS_HI, PAIRS)  # hi/what-to-wear.html, built by what_to_wear.build()
 
 
 def build_all(B, cfg, deals, pages, lastmod):
+    import hindi_visa
+    if B.HINDI_PAGES.get("guides/visa-free-countries-for-indians.html") == hindi_visa.HI_PATH:
+        hindi_visa.build(B, cfg, pages, lastmod)
     if SHOE_FILE.exists():
         build_shoe(B, cfg, deals, pages, lastmod)
     if B.HINDI_PAGES.get(CLOTH_EN) == CLOTH_PATH:
