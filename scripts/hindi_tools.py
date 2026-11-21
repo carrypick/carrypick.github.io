@@ -394,7 +394,12 @@ def build_pack(B, cfg, deals_by_asin, pages, lastmod):
     if len(mk["notes"]) != len(hw["notes"]):
         miss.append("notes (%d in English, %d in Hindi)" % (len(mk["notes"]), len(hw["notes"])))
     if miss:
-        B.sys.exit("Error: data/hindi_pack.json has no Hindi for: %s" % ", ".join(map(str, miss)))
+        H.warn("data/hindi_pack.json has no Hindi for: %s (English shown for now)" % ", ".join(map(str, miss)))
+    hw["items"] = dict({i["id"]: i["name"] for g in data["groups"] for i in g["items"]}, **hw["items"])
+    hw["groups"] = dict({g["name"]: g["name"] for g in data["groups"]}, **hw["groups"])
+    hw["types"] = dict({t["slug"]: t["label"] for t in mk["types"]}, **hw["types"])
+    hw["trips"] = dict({t["slug"]: t["label"] for t in trips}, **hw["trips"])
+    hw["notes"] = hw["notes"] + [n["text"] for n in mk["notes"][len(hw["notes"]):]]
     exists = lambda path: (B.DOCS / path).exists()
     list_path = {t["slug"]: "packing/" + ("index.html" if t["slug"] == "week" else t["slug"] + ".html") for t in trips}
 
@@ -416,7 +421,8 @@ def build_pack(B, cfg, deals_by_asin, pages, lastmod):
 
     def link(href, en_label):
         if href not in hw["links"]:
-            B.sys.exit("Error: data/hindi_pack.json has no Hindi label for %s" % href)
+            H.warn("data/hindi_pack.json has no Hindi label for %s (English shown for now)" % href)
+            return ["../" + href, en_label + " (English)"]
         return list(hi_link(B, href, hw["links"][href]))
 
     guides = []
@@ -425,7 +431,7 @@ def build_pack(B, cfg, deals_by_asin, pages, lastmod):
         if links:
             guides.append({"when": row["maker"], "links": links})
     cats = cfg["categories"]
-    shop = [{"when": row["maker"], "links": [["../category/%s.html" % c, hw["cats"][c]] for c in row["cats"]
+    shop = [{"when": row["maker"], "links": [["../category/%s.html" % c, hw["cats"].get(c, cats[c]["name"])] for c in row["cats"]
                                              if c in cats and exists("category/%s.html" % c)]} for row in mk["shop"]]
     payload = {
         "groups": [{"name": hw["groups"][g["name"]], "key": g["name"], "items": [item_json(i) for i in g["items"]]} for g in data["groups"]],
