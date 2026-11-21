@@ -30,7 +30,7 @@ PACKING = {"thailand": "thailand", "uae": "dubai", "indonesia": "bali", "vietnam
 TRIP_PREFIX = {"thailand": ("thailand", "bangkok", "phuket"), "uae": ("dubai", "uae", "abu-dhabi"), "indonesia": ("bali", "indonesia"),
                "malaysia": ("malaysia", "kuala-lumpur", "langkawi"), "vietnam": ("vietnam",), "sri-lanka": ("sri-lanka",),
                "maldives": ("maldives",), "singapore": ("singapore",), "nepal": ("nepal",), "bhutan": ("bhutan",),
-               "japan": ("japan", "tokyo"), "hong-kong": ("hong-kong",), "georgia": ("georgia",), "kazakhstan": ("kazakhstan", "almaty"),
+               "japan": ("japan", "tokyo"), "hong-kong": ("hong-kong",), "georgia": ("georgia",), "kazakhstan": ("kazakhstan", "almaty"), "turkey": ("turkey", "istanbul", "cappadocia"), "azerbaijan": ("azerbaijan", "baku"),
                "schengen": ("europe", "switzerland"), "mauritius": ("mauritius",)}
 CSS = """<style>
 .vz-form{display:grid;gap:10px;grid-template-columns:1fr;margin:18px 0}
