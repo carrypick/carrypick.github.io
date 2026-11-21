@@ -95,7 +95,7 @@ def build(B, cfg, pages, lastmod):
         links = [re.sub(r'<a href="([^"]+)">([^<]+)</a>', lambda m: _link(B, m), x) for x in V.our_links(B, c["slug"])]
         if links:
             extra += '<p class="vz-also">CarryPick पर: %s</p>' % " &middot; ".join(links)
-        search = " ".join([name(c), c["name"], c.get("aka", ""), HI_STATUS[c["status"]][0], V.STATUS[c["status"]][0]]).lower()
+        search = " ".join([name(c), c["name"], c.get("aka", ""), words.get(c["slug"], {}).get("aka", ""), HI_STATUS[c["status"]][0], V.STATUS[c["status"]][0]]).lower()
         aka = (' <span class="muted small" lang="en">(%s)</span>' % e(c["aka"])) if c.get("aka") else ""
         fee = hw(c, "fee") or "आधिकारिक पेज देखें"
         stay = hw(c, "stay") or "–"
