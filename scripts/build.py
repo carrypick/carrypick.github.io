@@ -334,8 +334,8 @@ def page(cfg, title, description, body, depth, path, schema=None, og_type="websi
     </ul></div>
   </div>
   <div class="wrap footer-bottom">
-    <p><span class="notranslate">{DISCLOSURE}</span> Prices and availability are shown only on Amazon.in and can change at any time.</p>
-    <p>&copy; {date.today().year} {name}</p>
+    <p><span class="notranslate">{DISCLOSURE}</span> Prices and availability are shown only on {"Amazon.in and Amazon.com" if GLOBAL else "Amazon.in"} and can change at any time.</p>
+    <p>&copy; {date.today().year} {name}</p>{region_switch(p)}
   </div>
 </footer>
 </body>
@@ -343,12 +343,97 @@ def page(cfg, title, description, body, depth, path, schema=None, og_type="websi
 """
 
 
+def global_disclosure(cfg):
+    """Disclosure paragraph about Amazon.com and global partners, only when geo buttons are on."""
+    if not GLOBAL:
+        return ""
+    text = ("<p>We are also in the Amazon.com Associates Programme. If you are shopping from outside India, our buttons "
+            "can take you to Amazon.com instead: to the same product when we have matched it, or to an Amazon.com search "
+            "for it (the button then says so). Amazon.com may pay us a commission on what you buy there, at no extra cost "
+            "to you. Use the \"Shopping from\" switch at the bottom of any page to choose India or another country.</p>\n")
+    if GLOBAL["partners"]:
+        text += ("<p>For visitors outside India, some hotel and tour boxes link to %s instead of our India partners. "
+                 "We may earn a commission if you book through these links, at no extra cost to you.</p>\n"
+                 % and_list(list(dict.fromkeys(gp["name"] for gp in GLOBAL["partners"]))))
+    return text
+
+
+def global_privacy():
+    """Privacy lines about Amazon.com and the region switch, only when geo buttons are on."""
+    if not GLOBAL:
+        return ""
+    return ("<li>When you click a link to Amazon.com, Amazon may set cookies to track the referral. See Amazon.com's privacy notice.</li>\n"
+            "<li>To choose between Amazon.in and Amazon.com buttons, a small script reads your browser's time zone on your own device. "
+            "Nothing is sent to us. If you use the \"Shopping from\" switch, your choice is saved in your browser's local storage "
+            "(cp_region), not in a cookie.</li>\n")
+
+
+def region_switch(p):
+    """Footer "Shopping from" switch and static/geo.js, only when geo buttons are on."""
+    if not GLOBAL:
+        return ""
+    return (f'\n    <p class="region-switch" hidden>Shopping from: '
+            f'<button type="button" data-set-region="in">India</button> / '
+            f'<button type="button" data-set-region="global">Other country</button></p>'
+            f'\n    <script src="{p}assets/geo.js" defer></script>')
+
+
 # ---------- building blocks ----------
+
+# ---------- geo-aware buy buttons (switched off until config amazon_global.enabled is true) ----------
+# Visitors in India keep the Amazon.in link in the HTML. When switched on, each Amazon.in link also carries
+# data-global-href (amazon.com, the owner's own -20 tag) and static/geo.js swaps href and label for visitors
+# outside India. No redirects: the visitor still clicks the button. Without JS the Amazon.in link stays.
+GLOBAL = None  # set by build() from check_amazon_global(): {"store", "tag", "partners"} when switched on
+
+
+def check_amazon_global(cfg):
+    """Refuse to switch on without a real-looking amazon.com tag. Returns the settings when on, else None."""
+    g = cfg.get("amazon_global") or {}
+    if not g.get("enabled"):
+        return None
+    tag = (g.get("tag") or "").strip()
+    if not tag:
+        sys.exit("Error: config amazon_global is enabled but has no tag. Read the Amazon.com Associates tag from the dashboard, never guess it.")
+    if not re.fullmatch(r"[a-z0-9][a-z0-9-]{0,40}-20", tag):
+        sys.exit("Error: config amazon_global tag %r does not look like an Amazon.com tag (letters, digits, dashes, ending -20)" % tag)
+    if tag == cfg.get("amazon_tag") or tag in cfg.get("channel_tags", {}).values():
+        sys.exit("Error: config amazon_global tag must be the Amazon.com tag, not an Amazon.in one")
+    store = (g.get("store") or "https://www.amazon.com").rstrip("/")
+    if store != "https://www.amazon.com":
+        sys.exit("Error: config amazon_global store must be https://www.amazon.com")
+    partners = cfg.get("global_partners") or []
+    for gp in partners:
+        if gp.get("kind") not in ("hotels", "tours") or not gp.get("name") or not str(gp.get("url", "")).startswith("https://"):
+            sys.exit("Error: config global_partners entries need kind (hotels or tours), name and an https url: %r" % gp)
+    return {"store": store, "tag": tag, "partners": partners}
+
+
+def global_link(deal):
+    """(amazon.com url, label) for a pick: its own amazon.com page when asin_us is known, else an honest search."""
+    tag = GLOBAL["tag"]
+    if deal.get("asin_us"):
+        return "%s/dp/%s?tag=%s" % (GLOBAL["store"], deal["asin_us"], tag), "Check price on Amazon.com"
+    words = " ".join(x for x in (deal.get("brand"), deal.get("model") or deal["title"]) if x)
+    words = [w for w in dict.fromkeys(words.split()) if re.search(r"\w", w)]  # "PUMA PUMA Boys - Suit" -> PUMA Boys Suit
+    words = " ".join(words[:10])
+    return "%s/s?k=%s&tag=%s" % (GLOBAL["store"], urllib.parse.quote_plus(words), tag), "Search on Amazon.com"
+
+
+def global_attrs(deal, short=False):
+    """Extra attributes for an Amazon.in link; empty (today's HTML, byte for byte) while switched off."""
+    if not GLOBAL:
+        return ""
+    url, label = global_link(deal)
+    if short:
+        label = "Search Amazon.com" if "/s?" in url else "Check Amazon.com"
+    return f' data-global-href="{e(url)}" data-global-label="{e(label)}"'
+
 
 def buy_button(cfg, deal, label="Check price on Amazon", big=False):
     cls = "btn btn-amazon btn-big" if big else "btn btn-amazon"
     href = e(amazon_link(deal["asin"], cfg["amazon_tag"]))
-    return f'<a class="{cls}" href="{href}" {BUY_ATTRS}>{label}</a>'
+    return f'<a class="{cls}" href="{href}" {BUY_ATTRS}{global_attrs(deal)}>{label}</a>'
 
 
 def fresh_deal(deal):
@@ -522,7 +607,7 @@ def compare_table(cfg, deals, p):
         cells = "".join("<td>%s</td>" % e(d.get("specs", {}).get(k, "–")) for k in keys)
         link = e(amazon_link(d["asin"], cfg["amazon_tag"]))
         rows.append(f'<tr><th scope="row"><a href="{p}picks/{d["asin"]}.html">{e(d["title"])}</a></th>{cells}'
-                    f'<td><a class="table-buy" href="{link}" {BUY_ATTRS}>Check price</a></td></tr>')
+                    f'<td><a class="table-buy" href="{link}" {BUY_ATTRS}{global_attrs(d, True)}>Check price</a></td></tr>')
     return (f'<div class="table-wrap"><table class="compare"><thead><tr><th>Product</th>{head}<th></th></tr></thead>'
             f'<tbody>{"".join(rows)}</tbody></table></div>')
 
@@ -610,7 +695,25 @@ def booking_box(cfg, place, hindi=False):
     skip = set(dom.get("partners", [])) if place in dom.get("international_places", []) else set()  # e.g. MakeMyTrip pays only for Indian hotels
     links = "".join(f'<div class="book-row"><a class="btn btn-amazon" href="{e(url)}" {BUY_ATTRS}>{e(label.format(name=name, place=place))}</a></div>'
                     for name, url in cfg["booking_partners"].items() if name not in skip)
-    return f'<div class="cta-box">{links}<p>{note}</p></div>'
+    return regional_box("hotels", place, f'<div class="cta-box">{links}<p>{note}</p></div>', label, note)
+
+
+IN_ATTR = ' data-region="in"'
+
+
+def regional_box(kind, place, box, label, note):
+    """While geo buttons are off, the box as it is. When on: the India-only box (EarnKaro hotels, Thrillophilia via
+    Cuelinks: they pay for India traffic only) gets data-region="in"; if config global_partners has a partner of
+    this kind, a second box for visitors outside India follows it, hidden until static/geo.js shows it."""
+    if not GLOBAL:
+        return box
+    glob = [gp for gp in GLOBAL["partners"] if gp["kind"] == kind and (not gp.get("places") or place in gp["places"])]
+    if not glob:
+        return box.replace('<div class="cta-box">', '<div class="cta-box" data-region="in">', 1)
+    links = "".join(f'<div class="book-row"><a class="btn btn-amazon" href="{e(gp["url"])}" {BUY_ATTRS}>{e(label.format(name=gp["name"], place=place))}</a></div>'
+                    for gp in glob)
+    return (box.replace('<div class="cta-box">', '<div class="cta-box" data-region="in" data-has-global>', 1)
+            + f'<div class="cta-box" data-region="global" hidden>{links}<p>{note}</p></div>')
 
 
 def shop_box(cfg, shop):
@@ -645,7 +748,9 @@ def flight_box(cfg, place=None, scope="domestic", hindi=False):
                 "Fares and seats are shown on the booking site. ")
         note += "Before you pay, check how much baggage your fare includes."
         note += " We may earn a commission if you book through these links, at no extra cost to you."
-    links = "".join(f'<div class="book-row"><a class="btn btn-amazon" href="{e(url)}" {BUY_ATTRS}>{e(label.format(name=name, place=place))}</a></div>'
+    india_only = {name for name, f in cfg["flight_partners"].items() if f.get("india_only")} if GLOBAL else set()
+    links = "".join(f'<div class="book-row"{IN_ATTR if name in india_only else ""}>'
+                    f'<a class="btn btn-amazon" href="{e(url)}" {BUY_ATTRS}>{e(label.format(name=name, place=place))}</a></div>'
                     for name, url in partners)
     return f'<div class="cta-box">{links}<p>{note}</p></div>'
 
@@ -665,7 +770,7 @@ def tours_box(cfg, key, shown=None, hindi=False):
             "We may earn a commission if you book through these links, at no extra cost to you.")
     links = "".join(f'<div class="book-row"><a class="btn btn-amazon" href="{e(url)}" {BUY_ATTRS}>{e(label.format(name=name, place=place))}</a></div>'
                     for name, url in partners)
-    return f'<div class="cta-box">{links}<p>{note}</p></div>'
+    return regional_box("tours", place, f'<div class="cta-box">{links}<p>{note}</p></div>', label, note)
 
 
 def link_network(url):
@@ -1133,7 +1238,7 @@ def fit_table(cfg, airline, picks, p):
 <td>{" x ".join(num(x) for x in dims)} cm<span class="why">{num(sum(dims))} cm in total</span></td>
 <td>{fit_badge(ok, over)}{('<span class="why">' + e(why) + '</span>') if why else ''}</td>
 <td>{e(left) or '–'}</td>
-<td><a class="table-buy" href="{link}" {BUY_ATTRS}>Check price</a></td></tr>""")
+<td><a class="table-buy" href="{link}" {BUY_ATTRS}{global_attrs(d, True)}>Check price</a></td></tr>""")
     return ('<div class="table-wrap"><table class="compare"><thead><tr><th>Our pick</th><th>Listed size</th>'
             f'<th>Fits {e(airline["name"])}?</th><th>Weight</th><th></th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>')
 
@@ -2827,12 +2932,16 @@ def write(path, html):
 
 
 def build():
+    global GLOBAL
     cfg = load_config()
     deals = load_deals()
+    GLOBAL = check_amazon_global(cfg)
     for d in deals:
         missing = [k for k in ("asin", "title", "category", "highlights", "added_at") if not d.get(k)]
         if missing:
             sys.exit("Error: deal %s is missing %s" % (d.get("asin", "?"), ", ".join(missing)))
+        if d.get("asin_us") is not None and not re.fullmatch(r"[A-Z0-9]{10}", d["asin_us"]):
+            sys.exit("Error: deal %s has asin_us %r, which is not a 10-character amazon.com ASIN" % (d["asin"], d["asin_us"]))
         if d["category"] not in cfg["categories"]:
             sys.exit("Error: deal %s has unknown category %s" % (d["asin"], d["category"]))
         # Amazon's Linking Requirements: no prices and no ratings (stars or rating counts) outside the API.
@@ -3237,12 +3346,12 @@ def build():
 <li>We pick products for real travel and daily use, like flights, trains, college and office commutes. We know India best, and our trip guides cover places around the world.</li>
 <li>We never accept money from brands to list a product.</li>
 </ul>
-<p>We don't show prices because they change many times a day. The button on each pick takes you to Amazon.in, where you see the current price.</p>
+<p>We don't show prices because they change many times a day. The button on each pick takes you to {"Amazon.in (or Amazon.com if you shop from outside India)" if GLOBAL else "Amazon.in"}, where you see the current price.</p>
 {photo_credits}"""),
         "disclosure.html": ("Affiliate disclosure", f"""<h1>Affiliate disclosure</h1>
 <p><strong>{DISCLOSURE}</strong></p>
 <p>{name} is a participant in the Amazon Associates Programme. When you click a "Check price on Amazon" button and buy something, Amazon may pay us a small commission. You pay the same price.</p>
-<p>Our trip guides also have hotel links to {and_list(list(cfg["booking_partners"]))}, flight links to {and_list([n for n, f in cfg["flight_partners"].items() if "domestic" in f["scope"]])}, and tour package links to {and_list(list(cfg.get("tour_partners", {})))}. Our <a href="baggage/international.html">international baggage page</a> has flight links to {and_list([n for n, f in cfg["flight_partners"].items() if "international" in f["scope"]])}. Our <a href="guides/vip-bags-guide.html">VIP bags guide</a> and <a href="guides/vip-bags-coupon-code.html">VIP coupon page</a> have links to VIP's own store. These go through two affiliate services: {network_text}. If you book or buy through one, we may earn a commission, and you pay the same price. Amazon is not part of these links.</p>
+{global_disclosure(cfg)}<p>Our trip guides also have hotel links to {and_list(list(cfg["booking_partners"]))}, flight links to {and_list([n for n, f in cfg["flight_partners"].items() if "domestic" in f["scope"]])}, and tour package links to {and_list(list(cfg.get("tour_partners", {})))}. Our <a href="baggage/international.html">international baggage page</a> has flight links to {and_list([n for n, f in cfg["flight_partners"].items() if "international" in f["scope"]])}. Our <a href="guides/vip-bags-guide.html">VIP bags guide</a> and <a href="guides/vip-bags-coupon-code.html">VIP coupon page</a> have links to VIP's own store. These go through two affiliate services: {network_text}. If you book or buy through one, we may earn a commission, and you pay the same price. Amazon is not part of these links.</p>
 <p>The VIP coupon page shows a code that EarnKaro lists for VIP's store. We test it in VIP's cart without placing an order, and show the date of our last check.</p>
 <p>Amazon buy buttons and the hotel, flight, tour and shop links on this site may earn us a commission, at no extra cost to you. Every page says so in the line at the top. Commissions help us keep this site free. They do not change which products we pick.</p>"""),
         "privacy.html": ("Privacy policy", f"""<h1>Privacy policy</h1>
@@ -3252,7 +3361,7 @@ def build():
 <li>Fonts are loaded from Google Fonts, which may log your IP address. See Google's privacy policy.</li>
 <li>If you pick a language in the language menu other than English or our own Hindi pages, the page loads Google Translate, which sends the page text to Google to translate it. A cookie called "googtrans" then remembers your choice on this site. Pick English in the menu to remove it.</li>
 <li>When you click a link to Amazon.in, Amazon may set cookies to track the referral. See Amazon.in's privacy notice.</li>
-<li>When you click a hotel, flight or tour link in a trip guide, a flight link on our international baggage page, or a shop link on our VIP bags guide or VIP coupon page, it goes through the link services of EarnKaro (bitli.in and linkredirect.in) or Cuelinks (clnk.in and linksredirect.com) to that site. These services and that site may set cookies and log your visit to track the referral. See their privacy policies.</li>
+{global_privacy()}<li>When you click a hotel, flight or tour link in a trip guide, a flight link on our international baggage page, or a shop link on our VIP bags guide or VIP coupon page, it goes through the link services of EarnKaro (bitli.in and linkredirect.in) or Cuelinks (clnk.in and linksredirect.com) to that site. These services and that site may set cookies and log your visit to track the referral. See their privacy policies.</li>
 <li>If you join our Telegram channel, Telegram's privacy policy applies.</li>
 </ul>
 <p>Questions? See our <a href="contact.html">contact page</a>.</p>"""),

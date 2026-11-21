@@ -5,6 +5,9 @@
   "home_description": "Hand-picked bags, luggage, watches, travel clothes, shoes and sun care (shop links go to Amazon India), plus airline baggage rules, a cabin bag checker, packing lists and trip tools for travellers in India and around the world.",
   "base_url": "https://carrypick.github.io",
   "amazon_tag": "carrypick-21",
+  "amazon_global": {"enabled": false, "store": "https://www.amazon.com", "tag": null, "note": "Owner's Amazon.com Associates tag; read from the dashboard, never guessed. The build refuses enabled true without a tag ending -20. See guides/05-global-signups.md"},
+  "global_partners": [],
+  "global_partners_note": "Travel partners for visitors outside India, used only when amazon_global is on. Each entry: {\"kind\": \"hotels\" or \"tours\", \"name\", \"url\" (https), \"places\": optional list}. Empty until those accounts exist.",
   "channel_tags": {
     "tg": "carrypicktg-21",
     "wa": "carrypickwa-21"
@@ -38,6 +41,7 @@
     },
     "Akasa Air": {
       "url": "https://clnk.in/Eldb",
+      "india_only": true, "india_only_why": "Cuelinks pays for Akasa on India traffic only; hidden for visitors outside India when amazon_global is on",
       "scope": [
         "domestic"
       ],
