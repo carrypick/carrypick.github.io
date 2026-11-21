@@ -6,7 +6,7 @@ item: Coconut
 date: 2026-11-15
 checked_against: IndiGo, Air India, Akasa Air and airport security rules
 sources: Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Akasa Air conditions of carriage=https://www.akasaair.com/quick-links/conditions-of-carriage | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security
-related: tools/bag-weight.html=Bag weight calculator | trips/kerala.html=Kerala trip guide | guides/trolley-bag-capacity-kg-litres.html=How many kg a trolley bag holds | baggage/index.html=Airline baggage rules
+related: tools/bag-weight.html=Excess baggage calculator | trips/kerala.html=Kerala trip guide | guides/trolley-bag-capacity-kg-litres.html=How many kg a trolley bag holds | baggage/index.html=Airline baggage rules
 ---
 ## The short answer
 

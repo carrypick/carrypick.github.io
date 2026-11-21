@@ -16,6 +16,7 @@ import urllib.parse
 from datetime import date, datetime, timedelta
 from html import escape as e
 
+import bag_weight
 import cite_box
 import clothing_size
 import visa_india
@@ -1383,7 +1384,7 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
 <h2>Do our cabin picks fit?</h2>
 <p>Based on the size listed on Amazon. Gulf Air's and Qatar Airways' limits are the hardest to meet, so a backpack is often the safest cabin bag.</p>
 <div class="table-wrap"><table class="compare"><thead><tr><th>Our pick</th>{matrix_head}</tr></thead><tbody>{matrix_rows}</tbody></table></div>
-<p>Weigh your packed bags at home with a {scale_link}, and try our <a href="../tools/bag-weight.html">bag weight calculator</a>.</p>
+<p>Weigh your packed bags at home with a {scale_link}, and check them against your fare with our <a href="../tools/bag-weight.html">excess baggage calculator</a>.</p>
 {faq_html}
 <p>Buying a check-in bag for this trip? See <a href="../guides/trolley-bag-size-for-international-travel.html">which trolley size fits a 23 kg bag and the 158 cm limit</a>.</p>
 {packing_abroad}
@@ -1791,7 +1792,7 @@ def build_extra_airlines(cfg, deals_by_asin, extra, pages, lastmod):
 <ul>
 <li><strong>Weigh your bag at home</strong> with a {scale_link}, then buy the smallest slab that covers the extra weight. Prepaid kilos you don't use aren't refunded.</li>
 <li><strong>Check the cabin bag size</strong> in our <a href="../checker.html">cabin bag checker</a>: a bag that's too big gets checked in.</li>
-<li><strong>Add up your packing list</strong> with the <a href="{p}tools/bag-weight.html">bag weight calculator</a>.</li>
+<li><strong>Type your real bag weights</strong> into the <a href="{p}tools/bag-weight.html">excess baggage calculator</a> to see how many kg you are over and what it costs.</li>
 </ul>
 <p>Compare {e(name)} with other airlines on our <a href="../extra-baggage-charges.html">extra baggage charges</a> page, and see the free allowance on the <a href="../{x["slug"]}.html">{e(name)} baggage rules</a> page.</p>
 {faq_html}
@@ -1922,7 +1923,7 @@ def build_extra_baggage(cfg, deals_by_asin, extra, pages, lastmod):
 <ul>
 <li><strong>Weigh your bags at home.</strong> A {scale_link} costs less than a few kilos at the airport. Most check-in bags are allowed 15 kg, and most cabin bags 7 kg.</li>
 <li><strong>Choose a lighter bag.</strong> An empty trolley typically weighs about 2.5 kg in cabin size and 3.4 to 4.3 kg in medium and large sizes, all taken from your allowance. See typical weights in our <a href="luggage-size-chart.html">trolley bag size chart</a>.</li>
-<li><strong>Add it up before you pack.</strong> Our <a href="../tools/bag-weight.html">bag weight calculator</a> shows if you'll stay under 7 kg and 15 kg.</li>
+<li><strong>Check the weights against your fare.</strong> Our <a href="../tools/bag-weight.html">excess baggage calculator</a> shows how many kg you are over and the airline's fee.</li>
 <li><strong>Make sure the cabin bag fits.</strong> A cabin bag that's too big gets checked in and counts towards your check-in weight. Try the <a href="checker.html">cabin bag checker</a>.</li>
 <li><strong>Wear the heavy things.</strong> Put on your jacket and heaviest shoes for the flight.</li>
 <li><strong>Check your fare.</strong> IndiGo Lite and Air India Express Xpress Lite fares include no check-in bag at all.</li>
@@ -2637,21 +2638,6 @@ WRIST_ROWS = [(0, 15, 28, 36, "Small wrist"), (15, 16.5, 34, 38, "Slim wrist"), 
               (18, 19.5, 40, 44, "Wide wrist"), (19.5, 99, 42, 46, "Very wide wrist")]
 # Typical laptop sizes by screen size (width x depth, cm). Real laptops vary by a few cm.
 LAPTOP_ROWS = [(13.3, "30–31 x 21–22 cm"), (14, "31–33 x 21–23 cm"), (15.6, "35–36 x 23–25 cm"), (16, "35–36 x 24–26 cm"), (17.3, "39–40 x 26–28 cm")]
-# Typical weights (kg) for the bag weight estimator. Real items vary; weigh the bag to be sure.
-BAG_ITEMS = [("Clothes", [("T-shirt or top", 0.2), ("Shirt", 0.25), ("Jeans", 0.7), ("Trousers", 0.45), ("Shorts", 0.25),
-                          ("Kurta", 0.3), ("Saree", 0.6), ("Salwar suit", 0.5), ("Nightwear set", 0.3), ("Underwear", 0.05),
-                          ("Socks (pair)", 0.05), ("Sweater", 0.5), ("Light jacket", 0.6), ("Heavy winter jacket", 1.2), ("Thermal set", 0.3)]),
-             ("Shoes", [("Sneakers (pair)", 0.8), ("Formal shoes (pair)", 1.0), ("Sandals or slippers (pair)", 0.3)]),
-             ("Bathroom and health", [("Toiletry kit", 1.0), ("Towel", 0.5), ("Medicines kit", 0.3)]),
-             ("Electronics", [("Laptop", 1.6), ("Laptop charger", 0.3), ("Phone charger and cables", 0.15), ("Power bank", 0.3), ("Camera", 0.7)]),
-             ("Other", [("Book", 0.4), ("Umbrella", 0.4), ("Box of sweets or snacks", 1.0), ("Water bottle (empty)", 0.2)])]
-# Picks under the bag weight calculator. Keep the reasons true to each pick's listed specs in data/deals.json.
-WEIGHT_PICKS = [
-    ("B07Q822CWX", "Weigh it at home", "A hand-held luggage scale: hook the bag on and lift. It reads up to 50 kg in 0.1 kg steps, and the battery is included."),
-    ("B0F5HGLC5Q", "Light cabin trolley", "2.2 kg empty, so about 4.8 kg of a 7 kg cabin limit is left for your things. Fits Air India by its listed size."),
-    ("B0GNSKLF5Z", "Light medium trolley", "2.52 kg empty, the lightest medium trolley we found, so about 12.5 kg of a 15 kg fare is left for your things."),
-]
-BAG_TYPES = [("Backpack", 0.6), ("Soft cabin trolley", 2.4), ("Hard cabin trolley", 2.7), ("Medium check-in trolley", 3.5), ("Large check-in trolley", 4.5), ("Duffle bag", 1.2)]
 
 
 def first_number(text):
@@ -2660,7 +2646,7 @@ def first_number(text):
 
 
 def build_tools(cfg, deals, pages, lastmod):
-    """Watch size by wrist, backpack by laptop size, and packed bag weight (tools/*.html, static/tools.js)."""
+    """Watch size by wrist and backpack by laptop size (tools/*.html, static/tools.js)."""
     updated = "2026-11-03"
 
     def finish(path, title, seo, desc, crumb, body, faq):
@@ -2766,48 +2752,6 @@ def build_tools(cfg, deals, pages, lastmod):
         ("Will a 15.6 inch laptop fit in a 15 inch bag?", "Sometimes, but it can be tight. A bag made for 15.6 inch laptops is the safer choice."),
         ("What size backpack do I need for a 17 inch laptop?", "One that says it fits 17 inch laptops. These bags usually hold 28 litres or more."),
         ("How do I know my laptop's size?", "The size is the screen, measured corner to corner. It's usually in the laptop's name or on the box, or measure the width of the laptop itself in cm.")])
-
-    # Packed bag weight
-    path = "tools/bag-weight.html"
-    groups = "".join(
-        f'<section class="pack-group"><h2>{e(name)}</h2><ul>' + "".join(
-            f'<li><label class="bw-item"><span>{e(item)} <small class="muted">about {num(kg)} kg</small></span>'
-            f'<input type="number" min="0" max="50" step="1" inputmode="numeric" value="0" data-kg="{kg}" aria-label="How many: {e(item)}"></label></li>'
-            for item, kg in items) + "</ul></section>" for name, items in BAG_ITEMS)
-    bag_opts = "".join(f'<option value="{kg}">{e(name)} (about {num(kg)} kg empty)</option>' for name, kg in BAG_TYPES)
-    scale = next((d for d in deals if "scale" in d["title"].lower()), None)
-    scale_html = f'<a href="../picks/{scale["asin"]}.html">luggage scale</a>' if scale else "luggage scale"
-    by_asin = {d["asin"]: d for d in deals}
-    weight_rows = [(by_asin[a], label, why) for a, label, why in WEIGHT_PICKS if a in by_asin]
-    title = "How heavy is my bag? Packed bag weight calculator"
-    seo = "Bag weight calculator: will my packed bag be under 7 kg or 15 kg?"
-    desc = "Add what you're packing and see roughly how heavy your bag will be, against 7 kg cabin and 15–30 kg check-in limits. Free, no sign-up."
-    body = f"""{head(title, "Bag weight calculator", "A free tool. Updated " + fmt_date(updated), "travel-gear", "scale" if "scale" in ICONS else "ruler")}
-<div class="wrap"><article class="guide">
-<div class="answer"><h2>Quick answer</h2><ul>
-<li>Most Indian airlines allow a 7 kg cabin bag and 15 kg of check-in baggage on domestic flights.</li>
-<li>The bag counts too: a hard cabin trolley is about 2.5–3 kg empty, which leaves only about 4–4.5 kg for your things.</li>
-<li>This tool uses typical weights. To be sure, weigh the packed bag at home with a {scale_html}.</li>
-</ul></div>
-<form class="checker packer" id="bw" onsubmit="return false">
-<div class="checker-fields"><label>Your bag<select id="bw-bag">{bag_opts}</select></label>
-<label>Weight limit<select id="bw-limit"><option value="7">7 kg (cabin bag)</option><option value="15">15 kg (domestic check-in)</option><option value="20">20 kg</option><option value="23">23 kg</option><option value="25">25 kg</option><option value="30">30 kg</option></select></label></div>
-<p class="checker-total" id="bw-out" aria-live="polite"></p>
-<p class="hint"><button type="button" class="link-btn" id="bw-clear">Start again</button></p>
-</form>
-<div class="pack-list">{groups}</div>
-<p class="checked">Typical weights for adult clothes and common items. Real items vary, so leave a little room and weigh the bag before you leave.</p>
-{top_picks(cfg, weight_rows, "../", "Over the limit? Weigh it, or start with a lighter bag")}
-<p>More help: <a href="../baggage/index.html">baggage rules for Indian airlines</a>, <a href="../baggage/checker.html">will my bag fit?</a> and <a href="../packing/index.html">packing checklists</a>.</p>
-{{faq}}
-{tool_pills("../", path)}
-</article></div>
-<script src="../assets/tools.js" defer></script>
-{telegram_band(cfg, "../")}"""
-    finish(path, title, seo, desc, "Bag weight calculator", body, [
-        ("How much can I pack in a 7 kg cabin bag?", "A hard cabin trolley weighs about 2.5–3 kg empty, so you have about 4–4.5 kg left: roughly clothes for 2–3 days, a toiletry kit and a charger. A light backpack leaves more room."),
-        ("How heavy is a laptop?", "Most laptops weigh about 1.2–2 kg, plus about 0.3 kg for the charger."),
-        ("How can I check my bag's weight at home?", "Use a small hand-held luggage scale: hook the bag on and lift it. Or weigh yourself on a bathroom scale with and without the bag and subtract.")])
 
 
 # ---------- packing checklists ----------
@@ -3023,8 +2967,7 @@ def build():
             HINDI_PAGES["trips/%s.html" % t["slug"]] = "hi/trips/%s.html" % t["slug"]
     if HINDI_PAGES:
         hindi_pages.register(sys.modules[__name__], extra)  # Hindi size chart, item pages and extra baggage pages
-    TOOLS.append(("tools/bag-weight.html", "Bag weight calculator", "Free tool", "How heavy is my bag?",
-                  "Add what you're packing and see if your bag stays under 7 kg or 15 kg.", "Weigh it", "check", "luggage", "bathroom-scale"))
+    bag_weight.register(sys.modules[__name__])  # excess baggage calculator (tools/bag-weight.html)
     TOOLS.append(("tools/laptop-backpack.html", "Backpack for my laptop", "Free tool", "Which backpack fits my laptop?",
                   "Pick your laptop size, from 13 to 17 inch, and see the backpacks that fit it.", "Find a backpack", "backpack", "backpacks", "backpack-field"))
     TOOLS.append(("tools/watch-size.html", "Watch size by wrist", "Free tool", "Which watch size suits my wrist?",
@@ -3295,6 +3238,7 @@ def build():
         build_customs(cfg, deals_by_asin, customs, pages, lastmod)
     build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl_airlines)
     build_tools(cfg, deals, pages, lastmod)
+    bag_weight.build(sys.modules[__name__], cfg, deals, pages, lastmod)
     more_tools.build_all(sys.modules[__name__], cfg, deals, pages, lastmod)
     clothing_size.build_all(sys.modules[__name__], cfg, deals, pages, lastmod)
     trip_calc.build_all(sys.modules[__name__], cfg, deals, pages, lastmod)

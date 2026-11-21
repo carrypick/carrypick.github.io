@@ -7,7 +7,7 @@ date: 2026-11-10
 updated: 2026-11-21
 checked_against: IndiGo, Air India, Akasa Air, SpiceJet and Air India Express rules
 sources: Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | IndiGo dangerous goods table (PDF)=https://www.goindigo.in/content/dam/s6web/in/en/assets/static-pages/baggage/IndiGo-DGR-Table.pdf | Akasa Air conditions of carriage=https://www.akasaair.com/quick-links/conditions-of-carriage | SpiceJet baggage FAQ=https://corporate.spicejet.com/airtravelbaggagefaq.aspx | SpiceJet dangerous goods list=https://corporate.spicejet.com/DGR.aspx | Air India Express baggage FAQ=https://www.airindiaexpress.com/support/faqs/baggage | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security | BCAS list of items banned in the cabin (archived copy, read 21 Nov 2026)=https://web.archive.org/web/20240919062225/https://bcasindia.gov.in/passenger_pdf/prohibited.pdf
-related: guides/polycarbonate-vs-polypropylene-luggage.html=Hard luggage: polycarbonate or polypropylene | tools/bag-weight.html=Bag weight calculator | baggage/index.html=Airline baggage rules | packing/wedding.html=Wedding packing list
+related: guides/polycarbonate-vs-polypropylene-luggage.html=Hard luggage: polycarbonate or polypropylene | tools/bag-weight.html=Excess baggage calculator | baggage/index.html=Airline baggage rules | packing/wedding.html=Wedding packing list
 ---
 ## Check-in: up to 5 litres
 
@@ -32,7 +32,7 @@ You can mix sizes, as long as the total stays at 5 litres or less. For example, 
 
 The 5 litres is **per person**. Two people flying together can each pack up to 5 litres. It's simplest if each person's bottles go in their own checked bag, so nobody's bag goes over the limit.
 
-Bottles are heavy, too. The drink alone in six 750 ml bottles weighs more than 4 kg, and the glass adds more. On a 15 kg fare, that leaves much less room for your clothes, so add it up with our [bag weight calculator](../../tools/bag-weight.html).
+Bottles are heavy, too. The drink alone in six 750 ml bottles weighs more than 4 kg, and the glass adds more. On a 15 kg fare, that leaves much less room for your clothes, so weigh the packed bag and check it with our [excess baggage calculator](../../tools/bag-weight.html).
 
 ## Beer and wine
 

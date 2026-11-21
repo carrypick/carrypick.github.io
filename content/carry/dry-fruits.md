@@ -6,7 +6,7 @@ item: Dry fruits
 date: 2026-11-15
 checked_against: IndiGo, Air India and airport security rules
 sources: IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security
-related: guides/wedding-gift-guide.html=Wedding gift ideas | guides/new-year-gift-ideas.html=New Year gift ideas | tools/bag-weight.html=Bag weight calculator | baggage/index.html=Airline baggage rules
+related: guides/wedding-gift-guide.html=Wedding gift ideas | guides/new-year-gift-ideas.html=New Year gift ideas | tools/bag-weight.html=Excess baggage calculator | baggage/index.html=Airline baggage rules
 ---
 ## Dry fruits: yes in both bags
 

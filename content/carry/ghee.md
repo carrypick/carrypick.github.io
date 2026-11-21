@@ -6,7 +6,7 @@ item: Ghee and coconut oil
 date: 2026-11-10
 checked_against: IndiGo, Air India and airport security rules
 sources: Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security | Akasa Air conditions of carriage=https://www.akasaair.com/quick-links/conditions-of-carriage
-related: tools/bag-weight.html=Bag weight calculator | guides/trolley-bag-capacity-kg-litres.html=How many kg a trolley bag holds | baggage/index.html=Airline baggage rules | packing/wedding.html=Wedding packing list
+related: tools/bag-weight.html=Excess baggage calculator | guides/trolley-bag-capacity-kg-litres.html=How many kg a trolley bag holds | baggage/index.html=Airline baggage rules | packing/wedding.html=Wedding packing list
 ---
 ## Why ghee counts as a liquid
 

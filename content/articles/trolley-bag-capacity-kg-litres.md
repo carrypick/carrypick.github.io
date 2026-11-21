@@ -70,14 +70,14 @@ If a bag's litres look far above its outside figure, don't choose it for that nu
 1. Take the listed litres, or the outside size x 0.8.
 2. Multiply by 0.15 and by 0.3. That's your rough range in kg for clothes.
 3. Compare it with your allowance, after taking off the bag's own weight.
-4. Add up your real things with our [bag weight calculator](../tools/bag-weight.html).
+4. Weigh the packed bag, then type the weight into our [excess baggage calculator](../tools/bag-weight.html) to see if you're over your fare's allowance.
 5. Weigh the packed bag at home with a [luggage scale](../picks/B07Q822CWX.html).
 
 Example: a 70 L bag gives about 10.5–21 kg. On a 15 kg fare, it's more than big enough.
 
 ## What 7 kg and 15 kg really hold
 
-We added up three ordinary packing lists, using the same typical weights as our [bag weight calculator](../tools/bag-weight.html). Your own clothes will weigh a little more or less.
+We added up three ordinary packing lists, using typical weights for adult clothes and common items. Your own clothes will weigh a little more or less.
 
 **3 days with a cabin bag only (7 kg), in a typical 2.5 kg cabin trolley:**
 
@@ -177,4 +177,4 @@ Yes, as a check-in bag, if it's within your airline's limits. It's too big for t
 
 Listed sizes, weights and litres read on Amazon.in on 6 Nov 2026, for 80 models after removing repeat colours and listings with clear errors. These came from Amazon search results, so they aren't every bag on sale. The kg per litre figure is our own rough estimate. We haven't packed and weighed these bags. Airline allowances checked on 3 Nov 2026: see our [baggage rules](../baggage/index.html).
 
-[[next:#our-picks=Compare our three picks|../baggage/luggage-size-chart.html=Trolley bag sizes in cm and inches|../tools/bag-weight.html=Work out what your packed bag weighs]]
+[[next:#our-picks=Compare our three picks|../baggage/luggage-size-chart.html=Trolley bag sizes in cm and inches|../tools/bag-weight.html=Check your bag against your airline's allowance]]

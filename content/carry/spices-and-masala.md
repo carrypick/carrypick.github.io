@@ -6,7 +6,7 @@ item: Spice powders (chilli, masala)
 date: 2026-11-15
 checked_against: Air India, IndiGo and airport security rules
 sources: Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security
-related: tools/bag-weight.html=Bag weight calculator | packing/abroad.html=Packing list for trips abroad | packing/wedding.html=Wedding packing list | baggage/index.html=Airline baggage rules
+related: tools/bag-weight.html=Excess baggage calculator | packing/abroad.html=Packing list for trips abroad | packing/wedding.html=Wedding packing list | baggage/index.html=Airline baggage rules
 ---
 ## Cabin bag: no spices at all
 

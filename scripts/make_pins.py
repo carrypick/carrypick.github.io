@@ -249,12 +249,12 @@ PINS = [
                     + group("It's not only sunscreen", "Lotion, face wash and gel count as liquids too."))),
     dict(slug="bag-weight", board="Luggage Size Guides", link="tools/bag-weight.html",
          title="How much does your bag weigh before you pack?",
-         description="Empty bags use up your baggage allowance too. See typical weights for backpacks, duffles and trolleys, then add up your things with our free bag weight calculator.",
+         description="Empty bags use up your baggage allowance too. See typical weights for backpacks, duffles and trolleys, then check your packed bags against your airline's allowance with our free excess baggage calculator.",
          alt="A table of typical empty weights for a backpack, duffle bag and cabin, medium and large trolleys.",
          html=chart("Before you pack", "How heavy is your bag when it's empty?", table(
              ["Bag", "Typical weight"],
              [["Backpack", "0.6 kg"], ["Duffle bag", "1.2 kg"], ["Soft cabin trolley", "2.4 kg"], ["Hard cabin trolley", "2.7 kg"], ["Medium check-in trolley", "3.5 kg"], ["Large check-in trolley", "4.5 kg"]])
-             + '<p class="note"><strong>It all counts.</strong> Add up your things with our free bag weight calculator. Real bags vary, so weigh yours.</p>')),
+             + '<p class="note"><strong>It all counts.</strong> The empty bag uses your allowance. Weigh yours, then check it with our free excess baggage calculator.</p>')),
     dict(slug="watch-size", board="Watches and Everyday Bags", link="tools/watch-size.html",
          title="What watch size suits your wrist?",
          description="A simple guide to dial size by wrist size in cm. Measure your wrist, then use our free watch size tool. It's a rule of thumb, not a fixed rule.",

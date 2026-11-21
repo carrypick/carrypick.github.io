@@ -66,7 +66,7 @@ Going in the monsoon, or to Kerala? A poncho is small, and it covers your bag to
 
 ## Packing tips
 
-- **Wear your jacket and boots on the flight.** They don't count towards your bag's weight, and most Indian airlines allow only 7 kg in the cabin. Weigh your bag with our [bag weight calculator](../tools/bag-weight.html).
+- **Wear your jacket and boots on the flight.** They don't count towards your bag's weight, and most Indian airlines allow only 7 kg in the cabin. Weigh your bag, then check it against your fare with our [excess baggage calculator](../tools/bag-weight.html).
 - **Check the care label.** Some jackets are dry clean only.
 - **Clothes sizes vary between brands.** Check the size chart on each Amazon page before you order.
 

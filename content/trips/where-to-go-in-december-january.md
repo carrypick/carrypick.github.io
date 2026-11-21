@@ -229,7 +229,7 @@ Compare hotels and homestays for your dates on these sites:
 ## Book early, travel light
 
 - **Book hotels and transport early.** Christmas to New Year is peak season in all four places, and prices and availability get worse every week.
-- **Check your baggage limits.** Most Indian airlines allow a 7 kg cabin bag and 15 kg of check-in baggage on domestic flights. See our [baggage rules for Indian airlines](../baggage/index.html), and weigh your bag with our [bag weight calculator](../tools/bag-weight.html).
+- **Check your baggage limits.** Most Indian airlines allow a 7 kg cabin bag and 15 kg of check-in baggage on domestic flights. See our [baggage rules for Indian airlines](../baggage/index.html), then weigh your bag and check it with our [excess baggage calculator](../tools/bag-weight.html).
 - **Check what you can carry.** Dry coconut and camphor are banned in all bags on flights, and power banks must stay in your cabin bag. Search our [can I carry it?](../baggage/can-i-carry.html) list.
 - **Dress for the place.** See [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html), [which shoes to take](../guides/travel-shoes-guide.html) and our [sunscreen guide](../guides/travel-sunscreen-guide.html).
 

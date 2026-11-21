@@ -6,7 +6,7 @@ item: Sweets and home food
 date: 2026-11-10
 checked_against: IndiGo, Air India, Akasa Air and airport security rules
 sources: IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Akasa Air conditions of carriage=https://www.akasaair.com/quick-links/conditions-of-carriage | Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security
-related: packing/wedding.html=Wedding packing list | guides/wedding-gift-guide.html=Wedding gift ideas | tools/bag-weight.html=Bag weight calculator | baggage/index.html=Airline baggage rules
+related: packing/wedding.html=Wedding packing list | guides/wedding-gift-guide.html=Wedding gift ideas | tools/bag-weight.html=Excess baggage calculator | baggage/index.html=Airline baggage rules
 ---
 ## Food by food
 

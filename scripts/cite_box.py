@@ -47,6 +47,17 @@ def _checker():
     return (max(dates) if dates else None), src
 
 
+def _excess():
+    """Excess baggage calculator: the airline rules plus the domestic excess fee pages."""
+    checked, src = _checker()
+    d = _load("extra_baggage.json")
+    names = {a["slug"]: a["name"] for a in _load("airlines.json").get("airlines", [])}
+    for a in d.get("airlines", []):
+        if a.get("sources"):
+            src.append(("%s: excess baggage fees" % names.get(a["slug"], a["slug"]), a["sources"][0]["url"]))
+    return max(filter(None, [checked, d.get("checked")]), default=None), src
+
+
 def _simple(name):
     def get():
         d = _load(name)
@@ -82,6 +93,7 @@ def _what_to_wear():
 TOOLS = {
     "tools/power-bank-flight-check.html": _power_bank,
     "baggage/checker.html": _checker,
+    "tools/bag-weight.html": _excess,
     "tools/packing-list-maker.html": _simple("flight_items.json"),
     "tools/shoe-size.html": _simple("shoe_sizes.json"),
     "tools/clothing-size.html": _simple("clothing_sizes.json"),

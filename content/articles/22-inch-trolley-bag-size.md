@@ -70,7 +70,7 @@ A medium bag in inches is about 26: see our [26 inch trolley guide](26-inch-trol
 - **In the cabin:** a 7 kg limit includes the bag. A 2.3 kg bag leaves 4.7 kg for your things, and a 2.8 kg bag only 4.2 kg.
 - **As a check-in bag:** it can hold roughly 6–12 kg of clothes, by our estimate. That's less than a 15 kg fare allows, so a small check-in bag only makes sense for short trips. See [trolley bag capacity in kg and litres](trolley-bag-capacity-kg-litres.html).
 
-Add up your things with our [bag weight calculator](../tools/bag-weight.html).
+Weigh it packed, then check it against your fare with our [excess baggage calculator](../tools/bag-weight.html).
 
 ## Our picks
 

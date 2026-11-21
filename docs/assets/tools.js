@@ -58,22 +58,4 @@
         : "None of our picks lists that size yet.";
     });
   }
-
-  // Packed bag weight: every item input carries its typical weight in kg.
-  if ($("bw")) {
-    var inputs = [].slice.call(document.querySelectorAll("#bw ~ .pack-list input[data-kg], .pack-list input[data-kg]"));
-    var weigh = function () {
-      var bag = parseFloat($("bw-bag").value), limit = parseFloat($("bw-limit").value), things = 0;
-      inputs.forEach(function (i) { things += (parseFloat(i.value) || 0) * parseFloat(i.getAttribute("data-kg")); });
-      var total = bag + things, left = limit - total;
-      $("bw-out").textContent = "About " + round(total) + " kg in total (bag " + round(bag) + " kg + things " + round(things) + " kg). " +
-        (left >= 0 ? "About " + round(left) + " kg left of your " + limit + " kg limit." : "About " + round(-left) + " kg over your " + limit + " kg limit.");
-      $("bw-out").classList.toggle("over", left < 0);
-    };
-    inputs.forEach(function (i) { i.addEventListener("input", weigh); });
-    $("bw-bag").addEventListener("change", weigh);
-    $("bw-limit").addEventListener("change", weigh);
-    $("bw-clear").addEventListener("click", function () { inputs.forEach(function (i) { i.value = 0; }); weigh(); });
-    weigh();
-  }
 })();

@@ -55,7 +55,7 @@ Got a bag in mind? Type its size into our [cabin bag checker](../baggage/checker
 
 - **Litres:** cabin trolleys we checked on 6 Nov listed about 30–57 litres. Bags of the same size can list very different numbers, so treat litres as a rough guide.
 - **Weight:** the same bags weighed about 2–3 kg empty. A 2.5 kg bag leaves you only **4.5 kg** for your things on a 7 kg limit.
-- **What to do:** if you can't get under 7 kg, buy a lighter bag, or move heavy items to a check-in bag. Our [bag weight calculator](../tools/bag-weight.html) can help you plan.
+- **What to do:** if you can't get under 7 kg, buy a lighter bag, or move heavy items to a check-in bag. Our [excess baggage calculator](../tools/bag-weight.html) shows how many kg you are over and what the airline charges.
 
 ## Two cabin trolleys that fit by their listed size
 
