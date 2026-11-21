@@ -207,6 +207,17 @@
       "intro": "Perfume gift sets and pocket sprays from Indian brands, in bottles of 100 ml or less that fit the cabin liquids rule. We read the type (EDP or body spray) and the ml on each listing.",
       "tip": "Perfume is a liquid at airport security: bottles of 100 ml or less in your clear 1-litre bag. IndiGo doesn't allow perfume in the cabin at all, so pack it in check-in."
     },
+    "grooming": {
+      "name": "Grooming",
+      "emoji": "🪒",
+      "hashtag": "#Grooming",
+      "icon": "trimmer",
+      "photo": "trimmer-blade",
+      "seo_title": "Grooming kits and trimmers for men in India: gifts and travel picks",
+      "guide": "grooming-kit-buying-guide",
+      "intro": "Trimmers and all-in-one grooming kits from Philips, Havells, Bombay Shaving Company and Beardo. We read the attachments, the run time, the charging port and the travel lock on each listing.",
+      "tip": "A rechargeable trimmer can go in your cabin bag. In check-in it must be fully switched off, so a travel lock or a cap over the blade helps. Take any scissors out of the kit first: they aren't allowed in the cabin."
+    },
     "skincare": {
       "name": "Sun Care & Skincare",
       "emoji": "🧴",

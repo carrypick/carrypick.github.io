@@ -57,6 +57,14 @@ If you're not sure, ask your airline before you fly.
 - Leave loose blades at home and buy them at your destination.
 - Grooming kit with scissors? See our [nail cutter and scissors rules](nail-cutter.html).
 
+## A trimmer instead of a razor
+
+Want to skip blades in your cabin bag? A rechargeable trimmer can go in the cabin. The Philips OneBlade trims and shaves, wet or dry, and has a cap over the blade:
+
+[[pick:B0CRF6NJC3]]
+
+More trimmers and grooming kits in our [grooming kit buying guide](../../guides/grooming-kit-buying-guide.html).
+
 ## Questions
 
 ### Can I carry a razor in my cabin bag?

@@ -103,6 +103,10 @@ Roses and chocolates are gone in a day. A Valentine's Day gift they use every da
 
 [[pick:B08XXTRC1Q]]
 
+**A trimmer that also shaves: Philips OneBlade.** Wet or dry, USB charging and a cap over the blade for his gym bag:
+
+[[pick:B0CRF6NJC3]]
+
 ## For your husband
 
 **A classic Titan for the office.** A 42 mm silver dial on a brown leather strap, a thin 9 mm case and a 2-year warranty.
@@ -120,6 +124,12 @@ Roses and chocolates are gone in a day. A Valentine's Day gift they use every da
 **An office-style perfume set from Park Avenue: four 20 ml EDPs:**
 
 [[pick:B0GXWJZKT4]]
+
+**An all-in-one grooming kit: Philips' 10 tools for beard, hair and body,** with up to 90 minutes of run time (as listed):
+
+[[pick:B0G6CRGH27]]
+
+More grooming kits in our [grooming kit buying guide](grooming-kit-buying-guide.html).
 
 ## For both of you: pair watches and a perfume box
 

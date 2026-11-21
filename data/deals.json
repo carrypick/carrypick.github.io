@@ -4110,5 +4110,186 @@
       "Warranty": "Not listed"
     },
     "skip_if": "you fly on 15 kg fares: at 3.85 kg, it's heavier than most medium trolleys we checked."
+  },
+  {
+    "asin": "B0G6CRGH27",
+    "added_at": "2026-11-21T15:00:00+05:30",
+    "title": "Philips All-in-One Trimmer MG3941/15, 10-in-1 Grooming Kit for Face, Hair, Body and Nose, 90 min run time",
+    "category": "grooming",
+    "highlights": [
+      "10 tools for beard, head hair, body, nose and ear (as listed)",
+      "Adjustable comb from 3 to 7 mm",
+      "Up to 90 minutes cordless run time (as listed)",
+      "Stainless steel blades; 2-year warranty in the title"
+    ],
+    "note": "One kit for the beard, a home haircut and body hair: the safe all-rounder gift for a husband.",
+    "brand": "Philips",
+    "colour": "Green",
+    "best_for": [
+      "All-in-one kit",
+      "Gift for husband"
+    ],
+    "specs": {
+      "Type": "All-in-one grooming kit",
+      "Attachments": "10 tools in the kit",
+      "Run time": "Up to 90 min",
+      "Charging": "Rechargeable, 4 hours to charge (plug type not listed)",
+      "Comb lengths": "3 to 7 mm",
+      "Wet or dry": "Not listed",
+      "Travel lock": "Not listed",
+      "Model": "MG3941/15"
+    },
+    "skip_if": "he only trims his beard: a simple beard trimmer is smaller and lighter to pack."
+  },
+  {
+    "asin": "B0GSQQNKQC",
+    "added_at": "2026-11-21T15:00:00+05:30",
+    "title": "Philips Beard Trimmer for Men BT1244/18 with Skin Protect Comb, USB charging, 30 min run time",
+    "category": "grooming",
+    "highlights": [
+      "A simple beard trimmer with rounded blade tips (as listed)",
+      "USB charging",
+      "Up to 30 minutes run time (as listed)",
+      "No oil needed; 2-year warranty in the title"
+    ],
+    "note": "A small, light beard trimmer that charges from a USB cable, for a weekend bag.",
+    "brand": "Philips",
+    "colour": "Blue",
+    "best_for": [
+      "Beard only",
+      "Small gift"
+    ],
+    "specs": {
+      "Type": "Beard trimmer",
+      "Attachments": "Skin protect comb",
+      "Run time": "Up to 30 min",
+      "Charging": "USB",
+      "Wet or dry": "Not listed",
+      "Travel lock": "Not listed",
+      "Weight": "150 g",
+      "Model": "BT1244/18"
+    },
+    "skip_if": "he also wants to cut his hair or trim body hair: pick an all-in-one kit."
+  },
+  {
+    "asin": "B0CHSCR7B7",
+    "added_at": "2026-11-21T15:00:00+05:30",
+    "title": "Bombay Shaving Company 11-in-1 All-in-One Trimmer for Men, Beard, Hair and Body, Type C, IPX6, 90 min",
+    "category": "grooming",
+    "highlights": [
+      "Heads for beard, hair, body, nose and ear, plus two adjustable combs",
+      "Up to 90 minutes run time from a 90-minute charge (as listed)",
+      "Type-C charging with an LED charging light",
+      "IPX6 waterproof: safe for wet use and rinsing (as listed)"
+    ],
+    "note": "A full kit that charges on the same Type-C cable as most new phones.",
+    "brand": "Bombay Shaving Company",
+    "colour": "Gray",
+    "best_for": [
+      "All-in-one kit",
+      "Type-C charging"
+    ],
+    "specs": {
+      "Type": "All-in-one grooming kit",
+      "Attachments": "11-in-1: heads for beard, hair, body, nose and ear, 2 adjustable combs",
+      "Run time": "Up to 90 min",
+      "Charging": "USB Type-C, 90 min to charge",
+      "Wet or dry": "Wet and dry (IPX6)",
+      "Travel lock": "Not listed (Smart-Lock holds the length setting)",
+      "In the box": "Trimmer, attachment heads, combs, USB cable, cleaning brush, lubricating oil",
+      "Model": "ATB451"
+    },
+    "skip_if": "you fly cabin-bag only and don't want the trimmer oil in your liquids bag: leave the oil at home."
+  },
+  {
+    "asin": "B0GYSCXRPT",
+    "added_at": "2026-11-21T15:00:00+05:30",
+    "title": "Beardo Godfather Premium Trimmer Kit for Men, 6 Magnetic Attachments, 120 Min Run Time, Travel Lock, Aluminium Body",
+    "category": "grooming",
+    "highlights": [
+      "6 magnetic heads: narrow and wide T-blades, body groomer, foil shaver, precision head, nose and ear trimmer",
+      "Up to 120 minutes run time (as listed)",
+      "Travel lock, so it can't switch on in your bag",
+      "Aluminium body with self-sharpening blades"
+    ],
+    "note": "The travel pick: a long run time and a travel lock, the thing airlines want for check-in bags.",
+    "brand": "Beardo",
+    "colour": "Black",
+    "best_for": [
+      "Travel lock",
+      "Premium gift"
+    ],
+    "specs": {
+      "Type": "All-in-one grooming kit",
+      "Attachments": "6 magnetic heads, including a foil shaver",
+      "Run time": "Up to 120 min",
+      "Charging": "Rechargeable (plug type not listed)",
+      "Wet or dry": "Not listed",
+      "Travel lock": "Yes",
+      "Body": "Aluminium",
+      "Model": "BDTO059"
+    },
+    "skip_if": "you want something light: the listing gives 770 g, which looks like the packed weight of the whole kit."
+  },
+  {
+    "asin": "B0CRF6NJC3",
+    "added_at": "2026-11-21T15:00:00+05:30",
+    "title": "Philips OneBlade Turbo2X Hybrid Trimmer and Shaver QP2724/10, Trim, Edge and Shave, Wet and Dry",
+    "category": "grooming",
+    "highlights": [
+      "Trims, edges and shaves with one dual-sided blade",
+      "3 click-on combs: 1, 3 and 5 mm stubble",
+      "100% waterproof (IPX7): use wet or dry, with or without foam",
+      "USB-A charging and a protective cap for the bag (as listed)"
+    ],
+    "note": "The easiest one to pack: it charges from a laptop or power bank and the cap covers the blade.",
+    "brand": "Philips",
+    "colour": "Lime green",
+    "best_for": [
+      "Travel",
+      "Wet and dry"
+    ],
+    "specs": {
+      "Type": "Hybrid trimmer and shaver",
+      "Attachments": "3 click-on combs (1, 3, 5 mm)",
+      "Run time": "Up to 45 min",
+      "Charging": "USB-A cable",
+      "Wet or dry": "Wet and dry (IPX7)",
+      "Travel lock": "Not listed; a protective cap comes with it",
+      "In the box": "Handle, 3 combs, USB-A charging cable",
+      "Blade": "Replaceable, lasts up to 4 months (as listed)",
+      "Model": "QP2724/10"
+    },
+    "skip_if": "he keeps a long beard: OneBlade combs stop at 5 mm."
+  },
+  {
+    "asin": "B0DDSKBFSL",
+    "added_at": "2026-11-21T15:00:00+05:30",
+    "title": "Havells Turbo 10 in 1 Grooming Kit GS6110 for Hair, Face, Ear and Nose, Type-C, up to 90 min",
+    "category": "grooming",
+    "highlights": [
+      "10 attachments for hair, beard, moustache, nose, ear and body",
+      "10 combs from 3 to 13 mm (6 U-blade, 4 T-blade)",
+      "Up to 90 minutes run time from a 90-minute charge (as listed)",
+      "Type-C port: charges from most phone chargers and power banks"
+    ],
+    "note": "An Indian brand's full kit with long combs for a home haircut, on a Type-C cable.",
+    "brand": "Havells",
+    "colour": "Grey",
+    "best_for": [
+      "Home haircut",
+      "Type-C charging"
+    ],
+    "specs": {
+      "Type": "All-in-one grooming kit",
+      "Attachments": "10 attachments, 10 combs from 3 to 13 mm",
+      "Run time": "Up to 90 min",
+      "Charging": "USB Type-C, 90 min to charge",
+      "Wet or dry": "Heads rinse under running water",
+      "Travel lock": "Not listed",
+      "Weight": "229 g",
+      "Model": "GS6110"
+    },
+    "skip_if": "he wants to use it in the shower: the listing only says the heads can be rinsed."
   }
 ]

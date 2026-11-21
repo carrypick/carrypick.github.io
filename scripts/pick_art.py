@@ -23,7 +23,7 @@ NOTE = "Illustration, not a product photo"
 SCALED = " · listed sizes drawn to scale"
 CSS_FILE = Path(__file__).resolve().parent.parent / "static" / "style.css"
 CATS = ("luggage", "backpacks", "watches", "clothing", "shoes", "skincare", "handbags", "travel-gear",
-        "travel-tech", "sunglasses", "wallets-belts", "perfumes")
+        "travel-tech", "sunglasses", "wallets-belts", "perfumes", "grooming")
 DASH = ' stroke-dasharray="7 5"'
 
 # Pixels per cm (bags) or per mm (watches, glasses), fixed per kind so picks of one kind compare fairly.
@@ -81,11 +81,11 @@ def style(cat, paint=""):
 PALETTE = [
     ("charcoal black", "#2e3236"), ("coral purple", "#9d86c2"), ("army green", "#56603a"), ("dusk green", "#5f7d6e"), ("sea blue", "#5aa3b5"),
     ("slate grey", "#66717c"), ("dark grey", "#4a5057"), ("dark brown", "#4a2f20"), ("deep red", "#7a2834"),
-    ("blue grey", "#6b7f95"), ("rose gold", "#d6a28e"), ("gunmetal", "#4f565d"), ("charcoal", "#363b40"),
+    ("blue grey", "#6b7f95"), ("lime green", "#9ccb3b"), ("rose gold", "#d6a28e"), ("gunmetal", "#4f565d"), ("charcoal", "#363b40"),
     ("navy blue", "#22325a"), ("wine red", "#6d1f33"), ("turquoise", "#2bb0ad"), ("lime", "#a9c94b"),
     ("red", "#c0392b"), ("navy", "#22325a"), ("olive", "#6b6d3b"), ("teal", "#1f7a7a"), ("coral", "#ee7b63"), ("mint", "#a6dac6"),
     ("beige", "#d8c7a6"), ("vanilla", "#efe2c4"), ("champagne", "#dcc7a1"), ("silver", "#c5cbd1"),
-    ("black", "#26292d"), ("grey", "#7d858d"), ("blue", "#2f5fa7"), ("green", "#3f7d55"), ("brown", "#7a4e2f"), ("coffee", "#5a3a26"),
+    ("black", "#26292d"), ("grey", "#7d858d"), ("gray", "#7d858d"), ("blue", "#2f5fa7"), ("green", "#3f7d55"), ("brown", "#7a4e2f"), ("coffee", "#5a3a26"),
     ("yellow", "#f1c232"), ("pink", "#e89ab1"), ("aqua", "#45b8c4"), ("white", "#f6f6f4"), ("gold", "#d1ad5b"), ("tan", "#b07a45"),
 ]
 
@@ -1094,6 +1094,61 @@ def draw_perfume(d):
     return dict(inner=out, legend=False, info=[], scaled=False, alt=alt)
 
 
+# ---------- grooming: a trimmer and its click-on combs, from the listed run time and parts ----------
+
+def draw_grooming(d):
+    sp, tl = d.get("specs", {}), d["title"].lower()
+    kind = (sp.get("Type") or "").lower()
+    hybrid = "oneblade" in tl or "hybrid" in kind
+    cx, top = 112, 64
+    bw = 46
+    # The handle: a rounded body that narrows a little towards the bottom.
+    body = D("M%s %s H%s L%s %s Q%s %s %s %s H%s Q%s %s %s %s Z", cx - bw / 2, top + 30, cx + bw / 2, cx + bw / 2 - 5, FLOOR - 18,
+             cx + bw / 2 - 5, FLOOR, cx + bw / 2 - 20, FLOOR, cx - bw / 2 + 20, cx - bw / 2 + 5, FLOOR, cx - bw / 2 + 5, FLOOR - 18)
+    out = L(40, FLOOR, 246, FLOOR, "k", 1.2, ' opacity=".3"') + P(body)
+    if hybrid:
+        # A wide, flat blade across the top, as on a hybrid trimmer-shaver.
+        out += R(cx - 38, top + 6, 76, 22, 8, "s k", 1.8) + L(cx - 30, top + 17, cx + 30, top + 17, "pk", 2.4)
+    else:
+        out += R(cx - 30, top + 6, 60, 24, 4, "s k", 1.8)
+        out += "".join(L(cx - 26 + i * 6.5, top + 6, cx - 26 + i * 6.5, top + 14, "pk", 1.6) for i in range(9))
+    out += C(cx, top + 92, 9, "s", 0) + C(cx, top + 92, 4.5, "p")
+    out += R(cx - 4, top + 120, 8, 30, 4, "p", 0, ' opacity=".55"')
+    # Combs or heads beside it: one small comb for each one the listing counts, up to six.
+    att = sp.get("Attachments") or ""
+    m = re.search(r"(\d+)\s*(?:-in-1|in 1|tools|attachments|magnetic|click-on|combs)", att + " " + tl, re.I)
+    listed = int(m.group(1)) if m else (1 if "comb" in att.lower() else 0)
+    count = max(0, min(listed, 6))
+    for i in range(count):
+        col, row = i % 2, i // 2
+        x, y = 166 + col * 40, 118 + row * 50
+        out += R(x, y, 30, 36, 5, "s k", 1.5)
+        out += "".join(L(x + 5 + j * 5, y, x + 5 + j * 5, y + 9, "ks", 1.3) for j in range(5))
+    tx = 262
+    run = re.search(r"(\d+)\s*min", sp.get("Run time") or "")
+    out += T(tx, 112, (run.group(1) + " min") if run else "Run time", "dt", 30, "start", 700)
+    out += T(tx, 132, "run time (as listed)" if run else "not listed", "m", 13, "start")
+    y = 162
+    charge = sp.get("Charging") or ""
+    port = "USB-C" if "type-c" in charge.lower() else "USB-A" if "usb-a" in charge.lower() else "USB" if "usb" in charge.lower() else ""
+    wet = (sp.get("Wet or dry") or "").lower()
+    lines = [(sp.get("Type"), "t", 15, 700)]
+    if port:
+        lines.append((port + " charging", "m", 14, 400))
+    if wet.startswith("wet"):
+        lines.append(("Wet and dry", "m", 14, 400))
+    if (sp.get("Travel lock") or "").lower().startswith("yes"):
+        lines.append(("Travel lock", "m", 14, 400))
+    for text, cls, fs, weight in lines:
+        if text:
+            for line in wrap(text, 22):
+                out += T(tx, y, line, cls, fs, "start", weight)
+                y += 21
+    what = "hybrid trimmer and shaver" if hybrid else "beard trimmer" if "beard" in kind else "trimmer"
+    alt = "Simple drawing of a %s" % what + (" and %d of its %d listed tools" % (count, listed) if listed > count else " with %d click-on combs or heads" % count if count > 1 else "")
+    return dict(inner=out, legend=False, info=[], scaled=False, alt=alt)
+
+
 # ---------- travel gear ----------
 
 def draw_travel(d):
@@ -1219,7 +1274,7 @@ DRAW = {"luggage": lambda d, lim: draw_luggage(d, lim), "backpacks": lambda d, l
         "skincare": lambda d, lim: draw_skincare(d), "travel-gear": lambda d, lim: draw_travel(d),
         "travel-tech": lambda d, lim: draw_tech(d), "sunglasses": lambda d, lim: draw_glasses(d),
         "wallets-belts": lambda d, lim: draw_belt(d) if "belt" in d["title"].lower() else draw_wallet(d),
-        "perfumes": lambda d, lim: draw_perfume(d)}
+        "perfumes": lambda d, lim: draw_perfume(d), "grooming": lambda d, lim: draw_grooming(d)}
 
 
 def colour_words(colour):

@@ -81,6 +81,12 @@ Not sure of the size or shape? Our [sunglasses buying guide](sunglasses-buying-g
 
 [[pick:B0CXF2K4K7]]
 
+**A grooming kit: Havells' 10-in-1 trimmer.** Combs from 3 to 13 mm for his beard and a home haircut, on a Type-C cable like his phone:
+
+[[pick:B0DDSKBFSL]]
+
+More trimmers and travel-friendly kits in our [grooming kit buying guide](grooming-kit-buying-guide.html).
+
 More wallets and belts, and what "genuine" and "full grain" leather mean, in our [wallet and belt guide](wallet-and-belt-buying-guide.html).
 
 For a husband who wears perfume to the office, see the Park Avenue set and more in our [perfume buying guide](perfume-buying-guide.html).

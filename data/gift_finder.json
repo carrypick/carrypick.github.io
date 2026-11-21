@@ -20,7 +20,8 @@
     "B097JLKP8X": "big", "B097GCJFW2": "big", "B0F5HGLC5Q": "big", "B097BHFQVS": "big",
     "B09231NL5H": "nice", "B09232XNTX": "nice", "B0DSVXW4GD": "nice", "B0GXWJZKT4": "nice", "B0CSK7YP3H": "nice", "B079H12TC8": "small",
     "B0CDC7QR7T": "nice", "B07QS9K2VT": "nice", "B074PYMMCQ": "nice", "B07FM7TPPY": "nice", "B09KV28F4P": "nice", "B0DWSS3Q5K": "nice",
-    "B07HD1H1RH": "small", "B079TN3GCD": "small", "B0DT719TQS": "small"
+    "B07HD1H1RH": "small", "B079TN3GCD": "small", "B0DT719TQS": "small",
+    "B0G6CRGH27": "nice", "B0DDSKBFSL": "nice", "B0CHSCR7B7": "nice", "B0CRF6NJC3": "nice", "B0GYSCXRPT": "big", "B0GSQQNKQC": "small"
   },
   "who": [
     {"slug": "colleague", "for": "a colleague", "label": "A colleague", "line": "Something useful at a desk or on a work trip, not too personal.",
@@ -33,9 +34,9 @@
     {"slug": "her", "for": "your wife or girlfriend", "label": "Wife or girlfriend", "line": "A dressy watch, a perfume gift set, a bag she'll carry every day, or something for her next trip.",
      "picks": ["B08LKXV22C", "B07CR1JQBY", "B0BQWF3TJK", "B09232XNTX", "B0F5GS19M1", "B0F13ZFVVX", "B08HWFWGNX", "B0DSVXW4GD", "B0DGQNLJX7", "B0CND4C95T", "B0CSK7YP3H", "B07V4DCFH8", "B0C4TV4M2F", "B0B3JBRB6J", "B0GHXYQ318"],
      "guides": [["guides/christmas-gift-for-girlfriend-or-wife.html", "Gift ideas for your girlfriend or wife"], ["guides/perfume-buying-guide.html#perfume-gift-sets-for-women", "Perfume gift sets for women"]]},
-    {"slug": "him", "for": "your husband or boyfriend", "label": "Husband or boyfriend", "line": "A watch, a perfume gift set, a leather wallet or sling, or a bag for weekends away.",
-     "picks": ["B07H3K85H5", "B018VZBTLY", "B0C3LRF94X", "B09231NL5H", "B07M9BRCQ5", "B099WNYHY2", "B0GXWJZKT4", "B0999SJPWC", "B08XXTRC1Q", "B00ISNVQMW", "B0DSVXW4GD", "B0CXF2K4K7", "B07N8GRWTZ", "B0F2237QFM", "B0CGHZF9Z1"],
-     "guides": [["guides/christmas-gift-for-boyfriend-or-husband.html", "Gift ideas for your boyfriend or husband"], ["guides/perfume-buying-guide.html#perfume-gift-sets-for-men", "Perfume gift sets for men"]]},
+    {"slug": "him", "for": "your husband or boyfriend", "label": "Husband or boyfriend", "line": "A watch, a perfume gift set, a grooming kit, a leather wallet or sling, or a bag for weekends away.",
+     "picks": ["B07H3K85H5", "B018VZBTLY", "B0C3LRF94X", "B09231NL5H", "B07M9BRCQ5", "B099WNYHY2", "B0GXWJZKT4", "B0999SJPWC", "B08XXTRC1Q", "B00ISNVQMW", "B0DSVXW4GD", "B0CXF2K4K7", "B07N8GRWTZ", "B0F2237QFM", "B0CGHZF9Z1", "B0G6CRGH27", "B0GYSCXRPT", "B0CRF6NJC3", "B0DDSKBFSL", "B0CHSCR7B7", "B0GSQQNKQC"],
+     "guides": [["guides/christmas-gift-for-boyfriend-or-husband.html", "Gift ideas for your boyfriend or husband"], ["guides/perfume-buying-guide.html#perfume-gift-sets-for-men", "Perfume gift sets for men"], ["guides/grooming-kit-buying-guide.html", "Grooming kits and trimmers for men"]]},
     {"slug": "kids", "for": "kids", "label": "Kids", "line": "A first watch, a school bag or a steel bottle: gifts that get used every day.",
      "picks": ["B0BS3M2XQV", "B0BS3KJHCF", "B0GLNP4FCQ", "B0F1YPQFLD", "B0GF7ZH2QN", "B099WNYHY2", "B07PFF4RYC", "B0C4TV4M2F", "B094JBDRKX", "B0C7BM18PB"],
      "guides": [["guides/christmas-gifts-for-kids.html", "Christmas gifts for kids: boys and girls"]]},
@@ -45,7 +46,7 @@
                 ["guides/christmas-gift-for-girlfriend-or-wife.html#for-your-mom", "Gifts for your mom"],
                 ["guides/new-year-gift-ideas.html#for-parents-pair-watches", "Pair watches for parents"]]},
     {"slug": "sibling", "for": "your brother or sister", "label": "Brother or sister", "line": "A watch with some style, a sling bag or sunglasses.",
-     "picks": ["B014MN9RCM", "B0B3JBRB6J", "B099WNYHY2", "B0999SJPWC", "B079H12TC8", "B07PFF4RYC", "B0BQWF3TJK", "B0C3LRF94X", "B0F13ZFVVX", "B0F5GS19M1", "B0C4TV4M2F"],
+     "picks": ["B014MN9RCM", "B0B3JBRB6J", "B099WNYHY2", "B0999SJPWC", "B079H12TC8", "B07PFF4RYC", "B0BQWF3TJK", "B0C3LRF94X", "B0F13ZFVVX", "B0F5GS19M1", "B0C4TV4M2F", "B0CRF6NJC3", "B0GSQQNKQC", "B0CHSCR7B7", "B0DDSKBFSL"],
      "guides": [["guides/christmas-gift-for-boyfriend-or-husband.html#for-your-brother", "Gifts for your brother"],
                 ["guides/christmas-gift-for-girlfriend-or-wife.html#for-your-sister", "Gifts for your sister"]]},
     {"slug": "friend", "for": "a friend", "label": "A friend", "line": "Sunglasses, a watch, a wallet set or a small perfume set: easy gifts for a male or female friend.",

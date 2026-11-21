@@ -91,6 +91,7 @@ ICONS = {
     "glasses": '<circle cx="6.5" cy="14" r="3.5"/><circle cx="17.5" cy="14" r="3.5"/><path d="M10 13.5c1.2-1 2.8-1 4 0M3 13l1.5-6.5H7M21 13l-1.5-6.5H17"/>',
     "wallet": '<rect x="3" y="6" width="18" height="13" rx="2.5"/><path d="M3 9.5h13.5a1 1 0 0 1 1 1V17"/><path d="M16 13.5h5v3.5h-5a1.75 1.75 0 0 1 0-3.5z"/>',
     "perfume": '<rect x="6.5" y="10" width="11" height="11" rx="2.5"/><path d="M10 10V7.5h4V10M9.5 4.5h5v3h-5zM16 5.5h2.5"/>',
+    "trimmer": '<rect x="8.5" y="8" width="7" height="13" rx="3"/><path d="M7.5 3.5h9V8h-9zM9.5 3.5V5.5M12 3.5V5.5M14.5 3.5V5.5"/><circle cx="12" cy="12.5" r="1.2"/>',
     "bulb": '<path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.6.4 1 1.1 1 1.8V16h5v-.3c0-.7.4-1.4 1-1.8A6 6 0 0 0 12 3z"/>',
 }
 

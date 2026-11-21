@@ -54,6 +54,18 @@ If you're not sure, ask your airline before you fly.
 - Corded trimmer: pack it in check-in (IndiGo, SpiceJet, Air India Express).
 - Take the scissors out of your grooming kit before you pack it in your cabin bag.
 
+## Trimmers that are easy to fly with
+
+A travel lock or a cap over the blade helps keep a trimmer switched off in your bag. Beardo's Godfather kit lists a travel lock and up to 120 minutes of run time:
+
+[[pick:B0GYSCXRPT]]
+
+The Philips OneBlade charges from a USB cable and comes with a protective cap:
+
+[[pick:B0CRF6NJC3]]
+
+Trimmer vs grooming kit, run time, Type-C charging and gift ideas in our [grooming kit buying guide](../../guides/grooming-kit-buying-guide.html), or see all our [grooming picks](../../category/grooming.html).
+
 ## Questions
 
 ### Can I carry a trimmer in my cabin bag?

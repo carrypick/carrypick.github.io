@@ -54,6 +54,12 @@ Looking for a birthday gift instead? See our [birthday gift ideas for everyone](
 
 [[pick:B0GXWJZKT4]]
 
+**A premium grooming kit: Beardo Godfather.** An aluminium body, six magnetic heads, up to 120 minutes of run time and a travel lock for trips together (as listed):
+
+[[pick:B0GYSCXRPT]]
+
+More trimmers and grooming kits, and how to choose one, in our [grooming kit buying guide](grooming-kit-buying-guide.html).
+
 **A slim steel watch for office: Titan Karishma.** A black dial on a silver-tone steel strap, with a 2-year warranty:
 
 [[pick:B00ISNVQMW]]

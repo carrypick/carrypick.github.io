@@ -57,6 +57,12 @@ Buying for an anniversary instead? See our [anniversary gift ideas for husband, 
 
 [[pick:B09231NL5H]]
 
+**A grooming kit he'll use every week: Philips' 10-tool all-in-one trimmer.** Beard, hair, body, nose and ears, with up to 90 minutes of run time (as listed):
+
+[[pick:B0G6CRGH27]]
+
+Trimmer or grooming kit? Run times, charging and more kits in our [grooming kit buying guide](grooming-kit-buying-guide.html).
+
 **A leather belt with an auto-lock buckle.** There are no holes to punch, and it fits waist sizes 28 to 46 (as listed):
 
 [[pick:B0CXF2K4K7]]
