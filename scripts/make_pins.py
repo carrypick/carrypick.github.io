@@ -931,6 +931,88 @@ PINS = [
                     table(["Type", "Good for"], [["Beard trimmer", "Shaping a beard and moustache"], ["All-in-one kit", "Beard, home haircut, body, nose and ears"], ["Hybrid (like OneBlade)", "Stubble, edges and a close shave"]])
                     + group("What 10-in-1 means", "It counts every head and comb. It doesn't mean ten motors.")
                     + '<p class="note"><strong>Check the run time and charging</strong> on the listing before you buy.</p>')),
+    dict(slug="long-weekends-2027", board="India Trip Ideas", link="tools/long-weekends-2027.html",
+         title="Long weekends 2027 in India: holiday list and leave planner",
+         description="Plan your 2027 breaks from the official central government holiday list: 4 long weekends need no leave, and 3 days of leave can give you 9 days off. Filter by month and leave days with our free planner. States and companies have their own lists.",
+         alt="A table of 2027 long weekends: Good Friday, Mahavir Jayanti, Id-ul-Zuha and Diwali need no leave, and a 9-day break needs 3 days of leave.",
+         html=chart("Free leave planner", "Long weekends 2027 in India", table(
+             ["Long weekend", "Dates"],
+             [["Good Friday", "26–28 Mar"], ["Mahavir Jayanti", "17–19 Apr"], ["Id-ul-Zuha", "15–17 May"], ["Diwali", "29–31 Oct"]])
+             + group("No leave needed", "These 4 long weekends come free with the holidays.")
+             + group("Longest break", "9 days for 3 days of leave, 20–28 Mar or 15–23 May.")
+             + '<p class="note">From the central government holiday list. Your state or company may differ. Checked 21 Nov 2026.</p>')),
+    dict(slug="visa-free-countries", board="India Trip Ideas", link="guides/visa-free-countries-for-indians.html",
+         title="Visa-free countries for Indians: visa on arrival and e-visa list",
+         description="Which countries let Indian passport holders in without a visa, with a visa on arrival or with an e-visa? A searchable list of 29 countries, with each rule checked on the country's official site. Visa rules change often, so check before you book.",
+         alt="Counts of countries by visa type for Indians: 7 visa-free, 2 visa on arrival, 7 e-visa, 9 visa needed and 4 not confirmed.",
+         html=chart("Checked 21 Nov 2026", "Visa-free countries for Indians",
+                    '<div class="big"><div><b>7</b><span>visa-free, like Thailand, Nepal and Bhutan</span></div><div><b>2</b><span>visa on arrival: Bali and the Maldives</span></div></div>'
+                    + '<div class="big"><div><b>7</b><span>e-visa online, like Vietnam and Sri Lanka</span></div><div><b>9</b><span>visa needed first, like Dubai and Singapore</span></div></div>'
+                    + '<p class="note"><strong>Rules change often.</strong> We checked each one on the country\'s official site. Confirm with the embassy before you book.</p>')),
+    dict(slug="trip-budget", board="Packing and What to Wear", link="tools/trip-budget-calculator.html",
+         title="Trip budget calculator: plan your trip and split the bill",
+         description="A free trip budget calculator: add your travel, hotel, food, local transport, tickets and visa fees, then see the total, the cost per person and per day. Split the bill with friends too. You type your own amounts.",
+         alt="A checklist of what to add to a trip budget: travel, hotel, food, local transport, activities, visa fees and a buffer.",
+         html=chart("Free tool", "Trip budget calculator", table(
+             ["Add up", "How"],
+             [["Travel there and back", "per person"], ["Hotel", "room x nights"], ["Food", "per person per day"], ["Local transport", "per day"], ["Tickets", "whole group"], ["Visa or permit", "per person"]])
+             + group("Then add a buffer", "Shopping plus 10% or so for surprises.")
+             + '<p class="note"><strong>Split the bill with friends</strong> and see who pays whom. You type the amounts, we do the sums.</p>')),
+    dict(slug="road-trip-cost", board="India Trip Ideas", link="tools/road-trip-cost-calculator.html",
+         title="Road trip fuel cost calculator for petrol, diesel and CNG",
+         description="Work out the fuel for your road trip: distance divided by mileage, times the fuel price. Add tolls and parking, and split the cost between everyone in the car. Free, for petrol, diesel and CNG.",
+         alt="The sums for road trip cost: fuel needed is distance divided by mileage, and trip cost is fuel plus tolls and parking.",
+         html=chart("Free tool", "Road trip fuel cost calculator",
+                    group("Fuel needed", "Distance in km ÷ mileage in km per litre")
+                    + group("Fuel cost", "Fuel needed x price per litre at your pump")
+                    + group("Trip cost", "Fuel + tolls + parking, then split by people")
+                    + '<p class="note"><strong>Example:</strong> a 600 km round trip at 15 km/l needs 40 litres. For CNG, use km per kg.</p>'
+                    + '<p class="note">Works for petrol, diesel, CNG and bikes.</p>')),
+    dict(slug="abroad-hub", board="India Trip Ideas", link="trips/international-trips-from-india.html",
+         title="International trips from India: flight time, best months and visa type",
+         description="Compare Nepal, Bhutan, Sri Lanka, the Maldives, Dubai, Thailand, Vietnam, Malaysia, Singapore and Bali: rough flying time from Delhi and Mumbai, best months, the kind of visa Indians need, and which suit a honeymoon or a family trip.",
+         alt="A table of international trips from India with rough flying time and visa type for Nepal, Sri Lanka, Maldives, Dubai and Thailand.",
+         html=chart("Trips abroad from India", "Flight time and visa type", table(
+             ["Country", "Rough flight", "Visa"],
+             [["Nepal", "1½ h from Delhi", "None"], ["Sri Lanka", "2½ h from Mumbai", "Free ETA"], ["Maldives", "2½ h from Mumbai", "On arrival"],
+              ["Dubai", "3 h", "Before you fly"], ["Thailand", "4 h", "None, 30 days"], ["Vietnam", "4–5 h", "e-visa"]])
+             + '<p class="note"><strong>Flight times are a rough guide</strong> from distance. Your ticket shows the real time.</p>'
+             + '<p class="note">Also: Bhutan, Malaysia, Singapore and Bali. Checked 21 Nov 2026.</p>')),
+    dict(slug="thailand-trip", board="India Trip Ideas", link="trips/thailand-trip-from-india.html",
+         title="Thailand trip from India: visa, 5 to 7-day plan and December weather",
+         description="Indians don't need a visa for up to 30 days in Thailand, but there is a free TDAC arrival card to fill in online. See flights from India, a 5 to 7-day plan, the weather in December, getting around and vegetarian food.",
+         alt="Wat Arun temple in Bangkok, with the words Thailand trip from India.",
+         html=photo("bangkok-wat-arun", "Thailand trip from India", "Visa-free for 30 days, the TDAC card, a 5 to 7-day plan and December weather")),
+    dict(slug="dubai-trip", board="India Trip Ideas", link="trips/dubai-trip-from-india.html",
+         title="Dubai trip from India: visa, 5-day plan and December weather",
+         description="Most Indians need a visa before flying to Dubai, usually through a tourism company, airline or hotel. See who gets a visa on arrival, direct flights, a 5-day plan with an Abu Dhabi day trip, the metro and the weather in December.",
+         alt="The Burj Khalifa in Dubai, with the words Dubai trip from India.",
+         html=photo("dubai-burj-khalifa", "Dubai trip from India", "Visa, a 5-day plan with Abu Dhabi, the metro and December weather")),
+    dict(slug="bali-trip", board="India Trip Ideas", link="trips/bali-trip-from-india.html",
+         title="Bali trip from India: visa, 6-day itinerary and honeymoon tips",
+         description="Indians get a visa on arrival in Bali for 30 days. See the All Indonesia arrival card, the Bali tourist levy, flights from India, a 6-day plan, honeymoon tips, the weather in December and vegetarian food.",
+         alt="Rice terraces in Bali, with the words Bali trip from India.",
+         html=photo("bali-rice-terraces", "Bali trip from India", "Visa on arrival, a 6-day plan, honeymoon tips and the weather")),
+    dict(slug="maldives-trip", board="India Trip Ideas", link="trips/maldives-trip-from-india.html",
+         title="Maldives trip from India: visa, resort or local island, honeymoon tips",
+         description="Indians get a tourist visa on arrival in the Maldives. See the free IMUGA form, the green tax, resort vs local island, speedboat and seaplane transfers, a 5-day plan and the rules on alcohol and idols.",
+         alt="Overwater villas in the Maldives at sunset, with the words Maldives trip from India.",
+         html=photo("maldives-villas-sunset", "Maldives trip from India", "Visa on arrival, resort or local island, a 5-day plan and honeymoon tips")),
+    dict(slug="sri-lanka-trip", board="India Trip Ideas", link="trips/sri-lanka-trip-from-india.html",
+         title="Sri Lanka trip from India: free ETA, 6-day itinerary and Ramayana trail",
+         description="Indians need a free ETA, applied for online, for Sri Lanka. See direct flights, a 6-day itinerary with Sigiriya, Kandy, Ella and the south coast, the Ramayana sites, weather by month and vegetarian food.",
+         alt="The train through Ella in Sri Lanka, with the words Sri Lanka trip from India.",
+         html=photo("sri-lanka-ella-train", "Sri Lanka trip from India", "The free ETA, a 6-day itinerary and the Ramayana trail")),
+    dict(slug="vietnam-trip", board="India Trip Ideas", link="trips/vietnam-trip-from-india.html",
+         title="Vietnam trip from India: e-visa, 7-day itinerary and December weather",
+         description="Indians need an e-visa for Vietnam, applied for online before you fly. See the pre-arrival form, direct flights, a 5 or 7-day itinerary with Hanoi, Ha Long Bay and Hoi An, the weather in December and vegetarian food.",
+         alt="Trang An in Vietnam, with the words Vietnam trip from India.",
+         html=photo("vietnam-trang-an", "Vietnam trip from India", "The e-visa, a 7-day itinerary and the weather in December")),
+    dict(slug="malaysia-trip", board="India Trip Ideas", link="trips/malaysia-trip-from-india.html",
+         title="Malaysia trip from India: visa-free entry, MDAC and a 5-day plan",
+         description="Indians can visit Malaysia without a visa for up to 30 days until 31 December 2026, and fill in the free MDAC arrival card online. See flights, a 5-day plan, the best time to go, a Singapore combo and vegetarian food.",
+         alt="The Petronas Towers in Kuala Lumpur, with the words Malaysia trip from India.",
+         html=photo("kuala-lumpur-petronas", "Malaysia trip from India", "Visa-free until 31 Dec 2026, the MDAC card and a 5-day plan")),
 ]
 
 
