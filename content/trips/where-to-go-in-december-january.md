@@ -1,7 +1,7 @@
 ---
 seo_title: Where to go in India in December and January 2026–27: beach, snow or heritage?
 title: Where to go in India in December and January
-description: Beach, snow, forts or backwaters? Compare Goa, Andaman, Manali, Shimla, Rishikesh, Darjeeling, Bhutan, Nepal, Singapore, Sri Lanka, Thailand, Ooty, Varanasi, Jaipur, Udaipur and Kerala for a Christmas or New Year trip: weather, how to get there, crowds and what to pack.
+description: Beach, snow, forts or backwaters? Compare Goa, Andaman, Manali, Shimla, Rishikesh, Darjeeling, Bhutan, Nepal, Singapore, Sri Lanka, Thailand, Vietnam, Ooty, Varanasi, Jaipur, Udaipur and Kerala for a Christmas or New Year trip: weather, how to get there, crowds and what to pack.
 date: 2026-11-03
 updated: 2026-11-21
 place: India in winter
@@ -29,6 +29,7 @@ Plan your budget with our [trip budget calculator](../tools/trip-budget-calculat
 | [Singapore](singapore-trip-from-india.html) | Gardens by the Bay, Sentosa, Christmas lights on Orchard Road | Warm and humid, about 30 °C by day; the wettest month, with short showers | Direct flights from many Indian cities to Changi (SIN); visa needed | Busiest and costliest from Christmas to New Year |
 | [Sri Lanka](sri-lanka-trip-from-india.html) | Sigiriya, Kandy, tea hills, Ramayana sites | Colombo about 30 °C by day; some rain in December, drier in January | Direct flights from many Indian cities to Colombo (CMB); free ETA for Indians | Busy from Christmas to New Year |
 | [Thailand](thailand-trip-from-india.html) | Bangkok's temples and markets, Phuket and Krabi beaches | Warm and mostly dry: Bangkok about 31 °C by day, 21 °C at night | Direct flights from many Indian cities to Bangkok, some to Phuket and Krabi; no visa for up to 30 days | Busy and costly from Christmas to New Year |
+| [Vietnam](vietnam-trip-from-india.html) | Hanoi, Ha Long Bay cruises, Ho Chi Minh City | Hanoi cool, about 22 °C by day and 15 °C at night; Ho Chi Minh City about 32 °C and dry; Da Nang and Hoi An rainy | Direct flights from several Indian cities to Hanoi (HAN) and Ho Chi Minh City (SGN); e-visa needed | Busy from Christmas to New Year |
 | [Ooty](ooty-in-december.html) | Tea hills, the Nilgiri toy train, frosty mornings | Days about 21 °C, nights about 6–7 °C; frost but no snow | Coimbatore (CJB), then about 89 km by road | Busy from Christmas to New Year; e-pass needed for cars |
 | [Varanasi](varanasi-in-december.html) | Ghats, the Ganga aarti, temples | Days about 22–24 °C, nights about 9–10 °C; foggy mornings | Varanasi (VNS) | Very crowded at Kashi Vishwanath at New Year |
 | [Jaipur](jaipur.html) | Forts, palaces, markets | Sunny days about 22–24 °C, cold nights about 8–9 °C | Jaipur (JAI) | Busy, especially 25 Dec to 1 Jan |
@@ -100,6 +101,12 @@ Read the full [Sri Lanka trip guide](sri-lanka-trip-from-india.html), and see ou
 Thailand is warm and mostly dry in December: Bangkok averages about 31 °C by day and 21 °C at night, with almost no rain, and Pattaya is dry too. Phuket can still get a few showers. Since 15 September 2026, Indians can visit for up to 30 days without a visa; fill in the free TDAC arrival card in the 3 days before you land. Spend 2 or 3 days in Bangkok, then go to Phuket, Krabi or Pattaya.
 
 Read the full [Thailand trip guide](thailand-trip-from-india.html), and see our [Thailand packing list](../guides/thailand-packing-list.html).
+
+## Vietnam: for Ha Long Bay and a cool Hanoi winter
+
+In December, Hanoi is cool and dry, about 22 °C by day and 15 °C at night, and Ho Chi Minh City is hot and dry, about 32 °C. Da Nang and Hoi An are rainy, with rain on about 21 days, so plan fewer days there. Indians need an e-visa (US$25 for a single entry), applied for online on Vietnam's official portal before you fly.
+
+Read the full [Vietnam trip guide](vietnam-trip-from-india.html), and see our [Vietnam packing list](../guides/vietnam-packing-list.html).
 
 ## Ooty: for tea hills and the toy train
 
