@@ -92,6 +92,8 @@ Prefer a package with the visa, hotel, transfers and the desert safari booked fo
 
 [[tours:Dubai]]
 
+[[activities:Dubai]]
+
 ## Dubai weather in December
 
 Long-term averages from the UAE's National Center of Meteorology, published by the World Meteorological Organization:
@@ -127,6 +129,18 @@ Long-term averages from the UAE's National Center of Meteorology, published by t
 - **Vegetarian food is easy to find.** For Jain food, ask the restaurant first.
 - **Try Emirati and Arabic food too:** shawarma, falafel, hummus, grills, and Arabic sweets like kunafa.
 - **Carrying food from home?** Packed sweets and snacks are fine in normal amounts, but paan and poppy seeds (khus khus) are banned. See [food from home](../baggage/customs/uae-dubai.html#food-from-home) in our UAE customs rules.
+
+## Phone, SIM and eSIM in Dubai
+
+You have three ways to stay online in Dubai:
+
+- **Roaming on your own SIM:** the easiest, but often the costliest. Check your mobile company's international pack before you fly.
+- **A local SIM card:** sold at the airport and in phone shops. Shops usually ask for your passport to register it.
+- **An eSIM:** a data plan you buy online and install on your phone before you go, with no plastic card. Your phone must support eSIM and must not be locked to one network. On an iPhone, look in Settings > Mobile Service (or Cellular). On Android, look in Settings > SIM or Connections.
+
+Install the eSIM at home over Wi-Fi and switch it on when you land. Most travel eSIMs give data only, with no local number, so keep your home SIM on for calls and bank OTP texts (roaming charges may apply).
+
+[[esim:UAE]]
 
 ## Where to book your stay
 

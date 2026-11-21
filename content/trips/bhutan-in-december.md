@@ -113,6 +113,18 @@ Going by train to NJP? See the [Indian Railways luggage rules](../baggage/train-
 
 For the full list, see the [documents section of our Bhutan packing list](../guides/bhutan-packing-list.html#documents-for-bhutan-from-india) and [how much cash you can carry abroad](../baggage/customs/cash-and-currency.html).
 
+## Phone, SIM and eSIM in Bhutan
+
+You have three ways to stay online in Bhutan:
+
+- **Roaming on your own SIM:** the easiest, but often the costliest. Check your mobile company's international pack before you fly.
+- **A local SIM card:** sold at the airport and in phone shops. Shops usually ask for your passport to register it.
+- **An eSIM:** a data plan you buy online and install on your phone before you go, with no plastic card. Your phone must support eSIM and must not be locked to one network. On an iPhone, look in Settings > Mobile Service (or Cellular). On Android, look in Settings > SIM or Connections.
+
+Install the eSIM at home over Wi-Fi and switch it on when you land. Most travel eSIMs give data only, with no local number, so keep your home SIM on for calls and bank OTP texts (roaming charges may apply).
+
+[[esim:Bhutan]]
+
 ## Where to book your stay
 
 Most visitors stay in Thimphu and Paro, and one or two nights in Punakha. Compare hotels for your dates, and pick a hotel on the Department of Tourism's certified list at [services.bhutan.travel](https://services.bhutan.travel/):

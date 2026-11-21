@@ -87,6 +87,8 @@ Prefer a package with hotels, transfers, cruises and tickets booked for you? Com
 
 [[tours:Vietnam]]
 
+[[activities:Vietnam]]
+
 ## Vietnam weather in December and the best time to go
 
 Long-term averages (1991–2020) for December from Viet Nam's Meteorological and Hydrological Administration, published by the World Meteorological Organization:
@@ -126,6 +128,18 @@ Vietnamese food uses fish sauce (nuoc mam) in many dishes, even vegetable ones, 
 - **Indian restaurants** are easy to find in Hanoi's Old Quarter, Ho Chi Minh City's District 1 and Da Nang. Many serve pure vegetarian and Jain food.
 - **Carry ready-to-eat food or khakhra for day trips** like a Ha Long cruise, where meals are mostly seafood. Ask the cruise for a vegetarian meal when you book. Check what you can take in our [can I carry it on a flight?](../baggage/can-i-carry.html) list.
 - **Drink bottled or filtered water,** as the tourism authority advises.
+
+## Phone, SIM and eSIM in Vietnam
+
+You have three ways to stay online in Vietnam:
+
+- **Roaming on your own SIM:** the easiest, but often the costliest. Check your mobile company's international pack before you fly.
+- **A local SIM card:** sold at the airport and in phone shops. Shops usually ask for your passport to register it.
+- **An eSIM:** a data plan you buy online and install on your phone before you go, with no plastic card. Your phone must support eSIM and must not be locked to one network. On an iPhone, look in Settings > Mobile Service (or Cellular). On Android, look in Settings > SIM or Connections.
+
+Install the eSIM at home over Wi-Fi and switch it on when you land. Most travel eSIMs give data only, with no local number, so keep your home SIM on for calls and bank OTP texts (roaming charges may apply).
+
+[[esim:Vietnam]]
 
 ## Where to book your stay
 

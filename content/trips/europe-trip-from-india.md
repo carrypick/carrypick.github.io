@@ -167,6 +167,18 @@ Not sure what to wear for the weather? Our [what to wear helper](../tools/what-t
 - **Jain travellers** should carry ready-to-eat food, khakhra and theplas for travel days. Check what you can pack in our [can I carry it on a flight?](../baggage/can-i-carry.html) list.
 - **Tap water is safe to drink** in Switzerland, France and Italy, and you can refill a bottle at public fountains in many towns.
 
+## Phone, SIM and eSIM in Europe
+
+You have three ways to stay online in Europe:
+
+- **Roaming on your own SIM:** the easiest, but often the costliest. Check your mobile company's international pack before you fly.
+- **A local SIM card:** sold at the airport and in phone shops. Shops usually ask for your passport to register it.
+- **An eSIM:** a data plan you buy online and install on your phone before you go, with no plastic card. Your phone must support eSIM and must not be locked to one network. On an iPhone, look in Settings > Mobile Service (or Cellular). On Android, look in Settings > SIM or Connections. A Europe eSIM covers many countries on one plan. Check its country list against your route before you buy.
+
+Install the eSIM at home over Wi-Fi and switch it on when you land. Most travel eSIMs give data only, with no local number, so keep your home SIM on for calls and bank OTP texts (roaming charges may apply).
+
+[[esim:Europe]]
+
 ## Where to book your stay
 
 In Paris, stay near a Métro station: around the Eiffel Tower, the Latin Quarter or near Gare de Lyon if you take the train to Switzerland. In Switzerland, Lucerne and Interlaken are the easiest bases, both a short walk from the station. In Venice, hotels on the main island cost more but save travel time; Mestre, on the mainland, is cheaper and a short train ride away. Compare hotels for your dates:

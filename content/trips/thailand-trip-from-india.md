@@ -87,6 +87,8 @@ Prefer a package with hotels, transfers and tickets booked for you? Compare pack
 
 [[tours:Thailand]]
 
+[[activities:Thailand]]
+
 ## Thailand weather in December and the best time to go
 
 Long-term averages from the Thai Meteorological Department, published by the World Meteorological Organization:
@@ -128,6 +130,18 @@ Thai food often uses fish sauce, shrimp paste and oyster sauce, even in dishes t
 - **Indian restaurants** are easy to find in Bangkok, especially around Pahurat (Bangkok's Little India), Sukhumvit and Silom, and in Pattaya, Phuket and Krabi. Many serve pure vegetarian and Jain food.
 - **Jain travellers** may want to carry ready-to-eat food or khakhra for day trips. Check what you can take in our [can I carry it on a flight?](../baggage/can-i-carry.html) list.
 - **Drink bottled or filtered water,** and use ice only where it comes in tubes from a factory, as in most restaurants.
+
+## Phone, SIM and eSIM in Thailand
+
+You have three ways to stay online in Thailand:
+
+- **Roaming on your own SIM:** the easiest, but often the costliest. Check your mobile company's international pack before you fly.
+- **A local SIM card:** sold at the airport and in phone shops. Shops usually ask for your passport to register it.
+- **An eSIM:** a data plan you buy online and install on your phone before you go, with no plastic card. Your phone must support eSIM and must not be locked to one network. On an iPhone, look in Settings > Mobile Service (or Cellular). On Android, look in Settings > SIM or Connections.
+
+Install the eSIM at home over Wi-Fi and switch it on when you land. Most travel eSIMs give data only, with no local number, so keep your home SIM on for calls and bank OTP texts (roaming charges may apply).
+
+[[esim:Thailand]]
 
 ## Where to book your stay
 

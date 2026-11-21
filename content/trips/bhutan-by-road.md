@@ -113,6 +113,18 @@ Rather have one booking for the car, driver, guide, hotels and permits? Many Bhu
 
 [[tours:Bhutan]]
 
+## Phone, SIM and eSIM in Bhutan
+
+You have three ways to stay online in Bhutan:
+
+- **Roaming on your own SIM:** the easiest, but often the costliest. Check your mobile company's international pack before you fly.
+- **A local SIM card:** sold at the airport and in phone shops. Shops usually ask for your passport to register it.
+- **An eSIM:** a data plan you buy online and install on your phone before you go, with no plastic card. Your phone must support eSIM and must not be locked to one network. On an iPhone, look in Settings > Mobile Service (or Cellular). On Android, look in Settings > SIM or Connections.
+
+Install the eSIM at home over Wi-Fi and switch it on when you land. Most travel eSIMs give data only, with no local number, so keep your home SIM on for calls and bank OTP texts (roaming charges may apply).
+
+[[esim:Bhutan]]
+
 ## Where to stay
 
 Most road trips spend one night in Phuentsholing, then stay in Thimphu, Punakha and Paro. Pick a hotel on the Department of Tourism's certified list at [services.bhutan.travel](https://services.bhutan.travel/), and compare prices for your dates:

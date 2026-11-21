@@ -774,6 +774,35 @@ def tours_box(cfg, key, shown=None, hindi=False):
     return regional_box("tours", place, f'<div class="cta-box">{links}<p>{note}</p></div>', label, note)
 
 
+def named_partners(cfg, group):
+    """(partner name, {place: link}) in a config partner group, skipping "_note"-style keys."""
+    return [(n, links) for n, links in cfg.get(group, {}).items() if not n.startswith("_")]
+
+
+def partner_box(cfg, kind, key):
+    """[[esim:Place]] (eSIM data plans, config esim_partners) and [[activities:Place]] (things to do, config
+    activity_partners): hand-placed Cuelinks deep links, one per place. Trip guides only, in a section without
+    Amazon picks. Both campaigns pay for all countries (read 21 Nov 2026), so the boxes carry no data-region."""
+    conf = {"esim": ("esim_partners", "See {place} eSIM plans on {name}",
+                     "Plans, data and prices are shown on the eSIM site. Your phone must support eSIM and must not be "
+                     "locked to one network, so check your phone settings before you buy. Most travel eSIMs give data only, "
+                     "with no local phone number. We may earn a commission if you buy through these links, at no extra cost to you."),
+            "activities": ("activity_partners", "See things to do in {place} on {name}",
+                           "Tickets, day tours, prices and what each one includes are shown on the booking site. We have not "
+                           "booked these ourselves, so read recent reviews and the cancellation rules before you pay. "
+                           "We may earn a commission if you buy through these links, at no extra cost to you.")}
+    group, label, note = conf[kind]
+    partners = [(name, links[key]) for name, links in named_partners(cfg, group) if key in links]
+    if not partners:
+        sys.exit("Error: [[%s:%s]] has no link in config %s" % (kind, key, group))
+    rows = []
+    for name, url in partners:
+        if link_network(url) != "Cuelinks":
+            sys.exit("Error: [[%s:%s]] link %s must be a Cuelinks (clnk.in) link" % (kind, key, url))
+        rows.append(f'<div class="book-row"><a class="btn btn-amazon" href="{e(url)}" {BUY_ATTRS}>{e(label.format(name=name, place=key))}</a></div>')
+    return f'<div class="cta-box">{"".join(rows)}<p>{note}</p></div>'
+
+
 def link_network(url):
     """Which affiliate network a hand-placed (non-Amazon) link goes through, from its short-link host."""
     host = re.sub(r"^https?://([^/]+).*", r"\1", url)
@@ -787,6 +816,7 @@ def partner_links(cfg):
     """(name, url) for every hand-placed partner link in config, for the disclosure page and link checks."""
     out = list(cfg["booking_partners"].items()) + [(n, f["url"]) for n, f in cfg["flight_partners"].items()]
     out += [(n, u) for n, links in cfg.get("tour_partners", {}).items() for u in links.values()]
+    out += [(n, u) for g in ("esim_partners", "activity_partners") for n, links in named_partners(cfg, g) for u in links.values()]
     return out + list(cfg.get("shop_partners", {}).items())
 
 
@@ -844,10 +874,11 @@ def render_markdown(md, cfg, deals_by_asin, p, source):
         sys.exit("Error: %s mixes a [[shop:]] link with Amazon picks. Keep other shops' links away from Amazon picks." % source)
     if "[[coupon:" in md and ("[[pick:" in md or "[[compare:" in md or "[[top:" in md):
         sys.exit("Error: %s mixes a coupon with Amazon picks. Coupon text must never sit on a page with Amazon picks." % source)
-    if "[[tours:" in md and not source.startswith("trips"):
-        sys.exit("Error: %s has a [[tours:]] box. Tour links go on trip guides only." % source)
+    for tag in ("tours", "esim", "activities"):
+        if "[[%s:" % tag in md and not source.startswith("trips"):
+            sys.exit("Error: %s has a [[%s:]] box. These links go on trip guides only." % (source, tag))
     for section in re.split(r"^## ", md, flags=re.M):
-        if re.search(r"\[\[(book|fly|tours):", section) and re.search(r"\[\[(pick|compare|top|toppicks):", section):
+        if re.search(r"\[\[(book|fly|tours|esim|activities):", section) and re.search(r"\[\[(pick|compare|top|toppicks):", section):
             sys.exit("Error: %s has a hotel, flight or tour box in the same section as Amazon picks (%r). Keep paid links away from picks."
                      % (source, section.split("\n", 1)[0][:60]))
     out, para, items, list_tag, rows = [], [], [], None, []
@@ -884,6 +915,7 @@ def render_markdown(md, cfg, deals_by_asin, p, source):
         shop = re.fullmatch(r"\[\[shop:([^\]]+)\]\]", line)
         fly = re.fullmatch(r"\[\[fly:([^\]]+)\]\]", line)
         tours = re.fullmatch(r"\[\[tours:([^\]|]+)(?:\|([^\]]+))?\]\]", line)
+        partner = re.fullmatch(r"\[\[(esim|activities):([^\]]+)\]\]", line)
         coupon = re.fullmatch(r"\[\[coupon:([^\]]+)\]\]", line)
         toppicks = re.fullmatch(r"\[\[toppicks:([^\]]+)\]\]", line)
         top = re.fullmatch(r"\[\[top:([A-Z0-9]{10})\|([^|\]]+)\|([^\]]+)\]\]", line)
@@ -909,6 +941,9 @@ def render_markdown(md, cfg, deals_by_asin, p, source):
         elif tours:
             flush()
             out.append(tours_box(cfg, tours.group(1).strip(), tours.group(2) and tours.group(2).strip(), source.startswith("trips-hi")))
+        elif partner:
+            flush()
+            out.append(partner_box(cfg, partner.group(1), partner.group(2).strip()))
         elif toppicks:
             flush()
             top_head = [x.strip() for x in toppicks.group(1).split("|")]
@@ -2071,7 +2106,7 @@ def load_carry_pages(data):
         missing = [k for k in ("cabin_short", "checked_short") if not it.get(k)]
         if missing:
             sys.exit("Error: flight item %r has a page but no %s in data/flight_items.json" % (it["item"], ", ".join(missing)))
-        if any(tag in a["body"] for tag in ("[[shop:", "[[book:", "[[fly:", "[[tours:", "[[coupon:")):
+        if any(tag in a["body"] for tag in ("[[shop:", "[[book:", "[[fly:", "[[tours:", "[[esim:", "[[activities:", "[[coupon:")):
             sys.exit("Error: content/carry/%s.md links to another shop. These pages carry Amazon picks only." % a["slug"])
         out.append((a, it))
     return sorted(out, key=lambda x: order[x[1]["item"]])
@@ -2217,7 +2252,7 @@ def load_customs():
         missing = [k for k in ("checked", "quick", "sources") if not a.get(k)]
         if missing:
             sys.exit("Error: content/customs/%s.md is missing %s" % (a["slug"], ", ".join(missing)))
-        if any(tag in a["body"] for tag in ("[[shop:", "[[book:", "[[fly:", "[[tours:", "[[coupon:")):
+        if any(tag in a["body"] for tag in ("[[shop:", "[[book:", "[[fly:", "[[tours:", "[[esim:", "[[activities:", "[[coupon:")):
             sys.exit("Error: content/customs/%s.md links to another shop. These pages carry Amazon picks only." % a["slug"])
         a["updated"] = max(a["updated"], a["checked"])
     if not any(a["slug"] == "index" for a in found):
@@ -3295,9 +3330,9 @@ def build():
         "disclosure.html": ("Affiliate disclosure", f"""<h1>Affiliate disclosure</h1>
 <p><strong>{DISCLOSURE}</strong></p>
 <p>{name} is a participant in the Amazon Associates Programme. When you click a "Check price on Amazon" button and buy something, Amazon may pay us a small commission. You pay the same price.</p>
-{global_disclosure(cfg)}<p>Our trip guides also have hotel links to {and_list(list(cfg["booking_partners"]))}, flight links to {and_list([n for n, f in cfg["flight_partners"].items() if "domestic" in f["scope"]])}, and tour package links to {and_list(list(cfg.get("tour_partners", {})))}. Our <a href="baggage/international.html">international baggage page</a> has flight links to {and_list([n for n, f in cfg["flight_partners"].items() if "international" in f["scope"]])}. Our <a href="guides/vip-bags-guide.html">VIP bags guide</a> and <a href="guides/vip-bags-coupon-code.html">VIP coupon page</a> have links to VIP's own store. These go through two affiliate services: {network_text}. If you book or buy through one, we may earn a commission, and you pay the same price. Amazon is not part of these links.</p>
+{global_disclosure(cfg)}<p>Our trip guides also have hotel links to {and_list(list(cfg["booking_partners"]))}, flight links to {and_list([n for n, f in cfg["flight_partners"].items() if "domestic" in f["scope"]])}, tour package links to {and_list(list(cfg.get("tour_partners", {})))}, eSIM data plan links to {and_list([n for n, _ in named_partners(cfg, "esim_partners")])}, and things-to-do links to {and_list([n for n, _ in named_partners(cfg, "activity_partners")])}. Our <a href="baggage/international.html">international baggage page</a> has flight links to {and_list([n for n, f in cfg["flight_partners"].items() if "international" in f["scope"]])}. Our <a href="guides/vip-bags-guide.html">VIP bags guide</a> and <a href="guides/vip-bags-coupon-code.html">VIP coupon page</a> have links to VIP's own store. These go through two affiliate services: {network_text}. If you book or buy through one, we may earn a commission, and you pay the same price. Amazon is not part of these links.</p>
 <p>The VIP coupon page shows a code that EarnKaro lists for VIP's store. We test it in VIP's cart without placing an order, and show the date of our last check.</p>
-<p>Amazon buy buttons and the hotel, flight, tour and shop links on this site may earn us a commission, at no extra cost to you. Every page says so in the line at the top. Commissions help us keep this site free. They do not change which products we pick.</p>"""),
+<p>Amazon buy buttons and the hotel, flight, tour, eSIM, things-to-do and shop links on this site may earn us a commission, at no extra cost to you. Every page says so in the line at the top. Commissions help us keep this site free. They do not change which products we pick.</p>"""),
         "privacy.html": ("Privacy policy", f"""<h1>Privacy policy</h1>
 <p>{name} does not ask for your name, email or any personal details, and this site sets no cookies of its own, except one that remembers your language if you choose Google Translate (see below).</p>
 <ul>
@@ -3305,7 +3340,7 @@ def build():
 <li>Fonts are loaded from Google Fonts, which may log your IP address. See Google's privacy policy.</li>
 <li>If you pick a language in the language menu other than English or our own Hindi pages, the page loads Google Translate, which sends the page text to Google to translate it. A cookie called "googtrans" then remembers your choice on this site. Pick English in the menu to remove it.</li>
 <li>When you click a link to Amazon.in, Amazon may set cookies to track the referral. See Amazon.in's privacy notice.</li>
-{global_privacy()}<li>When you click a hotel, flight or tour link in a trip guide, a flight link on our international baggage page, or a shop link on our VIP bags guide or VIP coupon page, it goes through the link services of EarnKaro (bitli.in and linkredirect.in) or Cuelinks (clnk.in and linksredirect.com) to that site. These services and that site may set cookies and log your visit to track the referral. See their privacy policies.</li>
+{global_privacy()}<li>When you click a hotel, flight, tour, eSIM or things-to-do link in a trip guide, a flight link on our international baggage page, or a shop link on our VIP bags guide or VIP coupon page, it goes through the link services of EarnKaro (bitli.in and linkredirect.in) or Cuelinks (clnk.in and linksredirect.com) to that site. These services and that site may set cookies and log your visit to track the referral. See their privacy policies.</li>
 <li>If you join our Telegram channel, Telegram's privacy policy applies.</li>
 </ul>
 <p>Questions? See our <a href="contact.html">contact page</a>.</p>"""),
@@ -3316,7 +3351,7 @@ def build():
     info_desc = {
         "about.html": "How %s picks bags, luggage, watches and travel essentials for travellers in India and worldwide: we read every detail, match real use and never take money from brands to list a product." % cfg["site_name"],
         "disclosure.html": "%s is an Amazon Associate. How our paid links work, what we earn and why it never changes which products we pick." % cfg["site_name"],
-        "privacy.html": "%s asks for no personal details and sets no cookies of its own. What GitHub, Google Fonts, Amazon and our hotel, flight, tour and shop link partners may log when you visit." % cfg["site_name"],
+        "privacy.html": "%s asks for no personal details and sets no cookies of its own. What GitHub, Google Fonts, Amazon and our hotel, flight, tour, eSIM, things-to-do and shop link partners may log when you visit." % cfg["site_name"],
         "contact.html": "Questions, corrections or ideas for %s? Reach us on Telegram or WhatsApp." % cfg["site_name"],
     }
     for path, (title, text) in info.items():

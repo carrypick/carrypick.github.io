@@ -74,6 +74,8 @@ Prefer a package with hotels, transfers and Disneyland tickets booked for you? C
 
 [[tours:Hong Kong]]
 
+[[activities:Hong Kong]]
+
 ## Hong Kong weather in December, and the best time to go
 
 Long-term averages (1991–2020) from the Hong Kong Observatory:
@@ -113,6 +115,18 @@ Hong Kong is a big food city, but many Cantonese dishes use meat or seafood stoc
 - **Safe-ish choices:** vegetable dim sum (ask about lard and meat), vegetable fried rice or noodles without oyster sauce, tofu dishes, egg tarts if you eat egg, and fresh fruit.
 - **Say it clearly:** "I am vegetarian, no meat, no fish, no oyster sauce". Show it written in Chinese on your phone.
 - **Jain travellers** may want to carry ready-to-eat food or khakhra for park days. Check what you can take in our [can I carry it on a flight?](../baggage/can-i-carry.html) list.
+
+## Phone, SIM and eSIM in Hong Kong
+
+You have three ways to stay online in Hong Kong:
+
+- **Roaming on your own SIM:** the easiest, but often the costliest. Check your mobile company's international pack before you fly.
+- **A local SIM card:** sold at the airport and in phone shops. Shops usually ask for your passport to register it.
+- **An eSIM:** a data plan you buy online and install on your phone before you go, with no plastic card. Your phone must support eSIM and must not be locked to one network. On an iPhone, look in Settings > Mobile Service (or Cellular). On Android, look in Settings > SIM or Connections.
+
+Install the eSIM at home over Wi-Fi and switch it on when you land. Most travel eSIMs give data only, with no local number, so keep your home SIM on for calls and bank OTP texts (roaming charges may apply).
+
+[[esim:Hong Kong]]
 
 ## Where to book your stay
 

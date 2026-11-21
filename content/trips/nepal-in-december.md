@@ -133,6 +133,18 @@ Going by train? See the [Indian Railways luggage rules](../baggage/train-luggage
 
 For the full list, see [Indian currency in Nepal](../guides/nepal-packing-list.html#indian-currency-in-nepal) and [how much cash you can carry abroad](../baggage/customs/cash-and-currency.html).
 
+## Phone, SIM and eSIM in Nepal
+
+You have three ways to stay online in Nepal:
+
+- **Roaming on your own SIM:** the easiest, but often the costliest. Check your mobile company's international pack before you fly.
+- **A local SIM card:** sold at the airport and in phone shops. Shops usually ask for your passport to register it.
+- **An eSIM:** a data plan you buy online and install on your phone before you go, with no plastic card. Your phone must support eSIM and must not be locked to one network. On an iPhone, look in Settings > Mobile Service (or Cellular). On Android, look in Settings > SIM or Connections.
+
+Install the eSIM at home over Wi-Fi and switch it on when you land. Most travel eSIMs give data only, with no local number, so keep your home SIM on for calls and bank OTP texts (roaming charges may apply).
+
+[[esim:Nepal]]
+
 ## Where to book your stay
 
 Most visitors stay in Thamel or near Boudhanath in Kathmandu, in Lakeside in Pokhara, and one night in Nagarkot for the sunrise. Christmas to New Year is busy, so book early. Compare hotels for your dates:

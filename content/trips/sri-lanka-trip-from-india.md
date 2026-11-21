@@ -124,6 +124,18 @@ Long-term averages (1961–1990) from Sri Lanka's National Meteorological Centre
 - **Jain or no onion-garlic food** is hard to find outside Colombo. Carry some ready-to-eat food from home, within the customs rules.
 - **Drink sealed bottled water,** including for ice and brushing your teeth, says Sri Lanka Tourism.
 
+## Phone, SIM and eSIM in Sri Lanka
+
+You have three ways to stay online in Sri Lanka:
+
+- **Roaming on your own SIM:** the easiest, but often the costliest. Check your mobile company's international pack before you fly.
+- **A local SIM card:** sold at the airport and in phone shops. Shops usually ask for your passport to register it.
+- **An eSIM:** a data plan you buy online and install on your phone before you go, with no plastic card. Your phone must support eSIM and must not be locked to one network. On an iPhone, look in Settings > Mobile Service (or Cellular). On Android, look in Settings > SIM or Connections.
+
+Install the eSIM at home over Wi-Fi and switch it on when you land. Most travel eSIMs give data only, with no local number, so keep your home SIM on for calls and bank OTP texts (roaming charges may apply).
+
+[[esim:Sri Lanka]]
+
 ## Where to book your stay
 
 For a first trip, book one or two nights in each stop: Colombo near the airport or the Fort, Sigiriya or Dambulla, Kandy near the lake, Nuwara Eliya or Ella in the hills, and Galle Fort on the coast. Compare hotels for your dates:

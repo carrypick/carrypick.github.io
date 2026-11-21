@@ -90,6 +90,8 @@ Prefer a package with hotels, transfers and tickets booked for you? Compare pack
 
 [[tours:Singapore]]
 
+[[activities:Singapore]]
+
 ## Singapore weather in December
 
 Long-term averages (1991–2020) at Changi from the Meteorological Service Singapore:
@@ -130,6 +132,18 @@ Long-term averages (1991–2020) at Changi from the Meteorological Service Singa
 - **The currency is the Singapore dollar (S$).** Cards are accepted almost everywhere. Keep a little cash for hawker centres and small shops.
 - **Carrying cash:** if you carry more than S$20,000 in cash (or the same in other currencies), declare it online on Form NP 727 before you arrive or leave, says ICA. See [how much cash you can carry abroad](../baggage/customs/cash-and-currency.html) for India's own rules.
 - **GST refund for tourists:** you can claim back GST on shopping if you spend at least S$100 (including GST) at one shop, says Singapore's tax office (IRAS). Up to 3 same-day bills from the same shop count. Show your original passport when you pay (a photo or photocopy isn't accepted), then claim at the eTRS kiosk at the airport before you leave, within 2 months of buying. Shops and refund agents may take a handling fee.
+
+## Phone, SIM and eSIM in Singapore
+
+You have three ways to stay online in Singapore:
+
+- **Roaming on your own SIM:** the easiest, but often the costliest. Check your mobile company's international pack before you fly.
+- **A local SIM card:** sold at the airport and in phone shops. Shops usually ask for your passport to register it.
+- **An eSIM:** a data plan you buy online and install on your phone before you go, with no plastic card. Your phone must support eSIM and must not be locked to one network. On an iPhone, look in Settings > Mobile Service (or Cellular). On Android, look in Settings > SIM or Connections.
+
+Install the eSIM at home over Wi-Fi and switch it on when you land. Most travel eSIMs give data only, with no local number, so keep your home SIM on for calls and bank OTP texts (roaming charges may apply).
+
+[[esim:Singapore]]
 
 ## Where to book your stay
 

@@ -84,6 +84,8 @@ Prefer a package with hotels, transfers and sightseeing booked for you? Compare 
 
 [[tours:Malaysia]]
 
+[[activities:Malaysia]]
+
 ## Best time to visit Malaysia
 
 Malaysia is warm all year, and the temperature changes by less than 2 °C over the year in most places, says the Malaysian Meteorological Department (MetMalaysia). Rain decides the best time, and it depends on where you go:
@@ -133,6 +135,18 @@ Many Indians see both countries in one trip of 6 to 8 days. Singapore and Malays
 - **Most food is halal.** Malaysia is a Muslim-majority country, so pork and alcohol are less common outside Chinese restaurants and hotels.
 - **Jain food is harder to find.** If you are strict, carry some ready-to-eat food from home.
 - **Drink bottled or filtered water.**
+
+## Phone, SIM and eSIM in Malaysia
+
+You have three ways to stay online in Malaysia:
+
+- **Roaming on your own SIM:** the easiest, but often the costliest. Check your mobile company's international pack before you fly.
+- **A local SIM card:** sold at the airport and in phone shops. Shops usually ask for your passport to register it.
+- **An eSIM:** a data plan you buy online and install on your phone before you go, with no plastic card. Your phone must support eSIM and must not be locked to one network. On an iPhone, look in Settings > Mobile Service (or Cellular). On Android, look in Settings > SIM or Connections.
+
+Install the eSIM at home over Wi-Fi and switch it on when you land. Most travel eSIMs give data only, with no local number, so keep your home SIM on for calls and bank OTP texts (roaming charges may apply).
+
+[[esim:Malaysia]]
 
 ## Where to book your stay
 

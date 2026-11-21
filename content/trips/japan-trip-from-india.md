@@ -81,6 +81,8 @@ Prefer a package with hotels, trains and tickets booked for you? Compare Japan p
 
 [[tours:Japan]]
 
+[[activities:Japan]]
+
 ## Japan Rail Pass: do you need it?
 
 - **The Japan Rail Pass lets you ride JR trains across Japan as many times as you like,** including most Shinkansen bullet trains, says the official JR site (read 21 Nov 2026). It comes for 7, 14 or 21 days, in Standard (Ordinary) or Green (first class) cars.
@@ -145,6 +147,18 @@ Vegetarian food is harder in Japan than in Thailand or Singapore. Many soups, no
 - **Indian restaurants** are easy to find in Tokyo and Osaka, and many serve vegetarian thali and dal. Search "Indian restaurant" and "vegetarian" on Google Maps near your hotel.
 - **Jain travellers** may want to carry ready-to-eat food, theplas or khakhra. But don't bring meat, fruit or vegetables into Japan: the embassy warns against it. Check what you can take on the flight in our [can I carry it on a flight?](../baggage/can-i-carry.html) list.
 - **Tap water is safe to drink** in Japan.
+
+## Phone, SIM and eSIM in Japan
+
+You have three ways to stay online in Japan:
+
+- **Roaming on your own SIM:** the easiest, but often the costliest. Check your mobile company's international pack before you fly.
+- **A local SIM card:** sold at the airport and in phone shops. Shops usually ask for your passport to register it.
+- **An eSIM:** a data plan you buy online and install on your phone before you go, with no plastic card. Your phone must support eSIM and must not be locked to one network. On an iPhone, look in Settings > Mobile Service (or Cellular). On Android, look in Settings > SIM or Connections.
+
+Install the eSIM at home over Wi-Fi and switch it on when you land. Most travel eSIMs give data only, with no local number, so keep your home SIM on for calls and bank OTP texts (roaming charges may apply).
+
+[[esim:Japan]]
 
 ## Where to book your stay
 

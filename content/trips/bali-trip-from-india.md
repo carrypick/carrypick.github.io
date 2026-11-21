@@ -78,6 +78,8 @@ Prefer a package with hotels, transfers and day trips booked for you? Compare Ba
 
 [[tours:Bali]]
 
+[[activities:Bali]]
+
 ## Bali honeymoon tips
 
 - **Split the stay.** Ubud is green and quiet, and good for a private pool villa. Seminyak and Uluwatu have the beaches, sunsets and restaurants.
@@ -121,6 +123,18 @@ Long-term averages for Denpasar from Indonesia's weather agency BMKG, published 
 - **Ask for no shrimp paste (terasi) or fish sauce** if you are strict veg or Jain. They are used in many sauces and sambals.
 - **Indian restaurants** are easy to find in the tourist areas, like Kuta, Seminyak and Ubud.
 - **Drink bottled or filtered water.** Bali's rules ban single-use plastic, so carry a refillable bottle.
+
+## Phone, SIM and eSIM in Bali
+
+You have three ways to stay online in Bali:
+
+- **Roaming on your own SIM:** the easiest, but often the costliest. Check your mobile company's international pack before you fly.
+- **A local SIM card:** sold at the airport and in phone shops. Shops usually ask for your passport to register it.
+- **An eSIM:** a data plan you buy online and install on your phone before you go, with no plastic card. Your phone must support eSIM and must not be locked to one network. On an iPhone, look in Settings > Mobile Service (or Cellular). On Android, look in Settings > SIM or Connections.
+
+Install the eSIM at home over Wi-Fi and switch it on when you land. Most travel eSIMs give data only, with no local number, so keep your home SIM on for calls and bank OTP texts (roaming charges may apply).
+
+[[esim:Indonesia]]
 
 ## Where to book your stay
 
