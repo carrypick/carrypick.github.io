@@ -90,8 +90,9 @@ def our_links(B, slug):
         out.append('<a href="%s-packing-list.html">Packing list</a>' % pk)
     for prefix in TRIP_PREFIX.get(slug, ()):
         for f in sorted(B.TRIPS_DIR.glob(prefix + "*.md")):
-            link = '<a href="../trips/%s.html">Trip guide%s</a>' % (f.stem, "" if not out or "Trip guide" not in out[-1] else ": " + f.stem.replace("-", " "))
-            out.append(link)
+            label = ("December trip guide" if "december" in f.stem else "By-road guide" if "by-road" in f.stem
+                     else "Long weekend guide" if "long-weekend" in f.stem else "Trip guide")
+            out.append('<a href="../trips/%s.html">%s</a>' % (f.stem, label))
     if slug == "uae" and (B.CUSTOMS_DIR / "uae-dubai.md").exists():
         out.append('<a href="../baggage/customs/uae-dubai.html">What to carry to Dubai</a>')
     return out
