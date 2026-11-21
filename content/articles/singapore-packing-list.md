@@ -8,7 +8,7 @@ photo: singapore-supertrees
 ---
 Singapore is hot and humid all year, and it rains on about half the days. From November to January it rains the most. So pack light clothes, an umbrella, comfortable walking shoes and one layer for the cold air conditioning in malls, trains and theatres. Singapore also has strict rules on chewing gum, vapes and cigarettes. This list tells you what to pack and why, for a trip from India.
 
-Want to tick things off as you pack? Use our [checklist for trips abroad](../packing/abroad.html). Travelling with kids or a baby, or need it for your exact dates? Make your own list with the [packing list maker](../tools/packing-list-maker.html).
+Still planning the trip? Read our [Singapore trip guide](../trips/singapore-trip-from-india.html) for the visa, flights, a 5-day itinerary and December events. Want to tick things off as you pack? Use our [checklist for trips abroad](../packing/abroad.html). Travelling with kids or a baby, or need it for your exact dates? Make your own list with the [packing list maker](../tools/packing-list-maker.html).
 
 [[toppicks:Our picks for a Singapore trip|See the bag rules by airline|#which-bag-to-take]]
 [[top:B097JLKP8X|Cabin bag for IndiGo and Singapore Airlines|Listed at 55 x 35 x 25 cm, exactly IndiGo's limit, and 115 cm in total, which Singapore Airlines also allows.]]

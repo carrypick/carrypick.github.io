@@ -1,7 +1,7 @@
 ---
 seo_title: Where to go in India in December and January 2026–27: beach, snow or heritage?
 title: Where to go in India in December and January
-description: Beach, snow, forts or backwaters? Compare Goa, Andaman, Manali, Shimla, Rishikesh, Darjeeling, Bhutan, Nepal, Ooty, Varanasi, Jaipur, Udaipur and Kerala for a Christmas or New Year trip: weather, how to get there, crowds and what to pack.
+description: Beach, snow, forts or backwaters? Compare Goa, Andaman, Manali, Shimla, Rishikesh, Darjeeling, Bhutan, Nepal, Singapore, Ooty, Varanasi, Jaipur, Udaipur and Kerala for a Christmas or New Year trip: weather, how to get there, crowds and what to pack.
 date: 2026-11-03
 updated: 2026-11-21
 place: India in winter
@@ -10,7 +10,7 @@ photo: traveller-sunset
 priority: 1
 glance: For beaches and parties=[Goa](goa.html) | For clear sea and coral=[Andaman](andaman-in-december.html) | For snow=[Manali](manali.html) or [Shimla](shimla-in-december.html) (snow isn't guaranteed) | For mountain views=[Darjeeling](darjeeling-in-december.html) | Abroad, without a visa=[Bhutan](bhutan-in-december.html) or [Nepal](nepal-in-december.html) | For the Ganga, yoga and rafting=[Rishikesh](rishikesh-in-december.html) | For forts and palaces=[Jaipur](jaipur.html) or [Udaipur](udaipur.html) | For backwaters and hills=[Kerala](kerala.html) | Book=As early as you can: Christmas to New Year is peak season everywhere
 ---
-December and January are the best months for most of India: the monsoon is long over, the skies are clear, and it's cool almost everywhere except the far south. They are also the busiest months, so it pays to choose well and book early. Here's how India's favourite winter trips compare, plus Bhutan and Nepal, two easy trips abroad without a visa.
+December and January are the best months for most of India: the monsoon is long over, the skies are clear, and it's cool almost everywhere except the far south. They are also the busiest months, so it pays to choose well and book early. Here's how India's favourite winter trips compare, plus Bhutan and Nepal, two easy trips abroad without a visa, and Singapore.
 
 ## Quick comparison
 
@@ -24,6 +24,7 @@ December and January are the best months for most of India: the monsoon is long 
 | [Darjeeling](darjeeling-in-december.html) | Mountain views, the toy train, tea gardens | Clear and dry: days about 11–14 °C, nights about 2–4 °C | Bagdogra (IXB), or a train to New Jalpaiguri (NJP) | Busy from Christmas to New Year |
 | [Bhutan](bhutan-in-december.html) | Dzongs, mountain passes, a festival at Dochula on 13 Dec | Sunny days about 15–20 °C; nights about 0 °C or below in Paro and Thimphu | Paro (PBH), or Bagdogra and the road via Phuentsholing | Busy at Christmas and New Year; book flights early |
 | [Nepal](nepal-in-december.html) | Temples, Himalayan sunrises, Pokhara's lake, the Everest flight | Dry and sunny: Kathmandu days about 20 °C, nights about 3–4 °C | Kathmandu (KTM), or by road through a border crossing | Busy from Christmas to New Year |
+| [Singapore](singapore-trip-from-india.html) | Gardens by the Bay, Sentosa, Christmas lights on Orchard Road | Warm and humid, about 30 °C by day; the wettest month, with short showers | Direct flights from many Indian cities to Changi (SIN); visa needed | Busiest and costliest from Christmas to New Year |
 | [Ooty](ooty-in-december.html) | Tea hills, the Nilgiri toy train, frosty mornings | Days about 21 °C, nights about 6–7 °C; frost but no snow | Coimbatore (CJB), then about 89 km by road | Busy from Christmas to New Year; e-pass needed for cars |
 | [Varanasi](varanasi-in-december.html) | Ghats, the Ganga aarti, temples | Days about 22–24 °C, nights about 9–10 °C; foggy mornings | Varanasi (VNS) | Very crowded at Kashi Vishwanath at New Year |
 | [Jaipur](jaipur.html) | Forts, palaces, markets | Sunny days about 22–24 °C, cold nights about 8–9 °C | Jaipur (JAI) | Busy, especially 25 Dec to 1 Jan |
@@ -77,6 +78,12 @@ Read the full [Bhutan in December and January guide](bhutan-in-december.html).
 Nepal is dry and sunny in December, with mild days and cold nights in Kathmandu. Indians need no visa, only a passport or original voter ID. Spend two days among the temples of the Kathmandu valley, watch the sunrise over the Himalaya from Nagarkot, and end by Phewa Lake in Pokhara. Snow falls only on the high trekking routes, and some passes can close in winter.
 
 Read the full [Nepal in December and January guide](nepal-in-december.html), and see our [Nepal packing list](../guides/nepal-packing-list.html).
+
+## Singapore: for a city trip abroad with kids
+
+Singapore is warm in December, about 30 °C by day, and it's the wettest month, but showers are usually short. Orchard Road has its Christmas lights until 3 January, and Gardens by the Bay has Christmas Wonderland from 27 November. Indians need a visa, applied for through an agent; it usually takes 3 to 5 working days, so apply early.
+
+Read the full [Singapore trip guide](singapore-trip-from-india.html), and see our [Singapore packing list](../guides/singapore-packing-list.html).
 
 ## Ooty: for tea hills and the toy train
 
