@@ -31,6 +31,7 @@ Plan your budget with our [trip budget calculator](../tools/trip-budget-calculat
 | [Singapore](singapore-trip-from-india.html) | Gardens by the Bay, Sentosa, Christmas lights on Orchard Road | Warm and humid, about 30 °C by day; the wettest month, with short showers | Direct flights from many Indian cities to Changi (SIN); visa needed | Busiest and costliest from Christmas to New Year |
 | [Dubai](dubai-trip-from-india.html) | Malls, desert safari, beaches, an Abu Dhabi day trip | Warm days about 24–26 °C, cool nights about 14–15 °C; rain on about 2 days | Direct flights from many Indian cities to Dubai (DXB); visa needed | Busy and costly from Christmas to New Year |
 | [Sri Lanka](sri-lanka-trip-from-india.html) | Sigiriya, Kandy, tea hills, Ramayana sites | Colombo about 30 °C by day; some rain in December, drier in January | Direct flights from many Indian cities to Colombo (CMB); free ETA for Indians | Busy from Christmas to New Year |
+| [Kazakhstan](kazakhstan-trip-from-india.html) | Snow and skiing at Shymbulak above Almaty, a modern city | Cold: Almaty about 0 °C by day and −9 °C at night | Direct flights from Delhi and Mumbai to Almaty (ALA); no visa for up to 14 days | Busy at Shymbulak at New Year |
 | [Thailand](thailand-trip-from-india.html) | Bangkok's temples and markets, Phuket and Krabi beaches | Warm and mostly dry: Bangkok about 31 °C by day, 21 °C at night | Direct flights from many Indian cities to Bangkok, some to Phuket and Krabi; no visa for up to 30 days | Busy and costly from Christmas to New Year |
 | [Vietnam](vietnam-trip-from-india.html) | Hanoi, Ha Long Bay cruises, Ho Chi Minh City | Hanoi cool, about 22 °C by day and 15 °C at night; Ho Chi Minh City about 32 °C and dry; Da Nang and Hoi An rainy | Direct flights from several Indian cities to Hanoi (HAN) and Ho Chi Minh City (SGN); e-visa needed | Busy from Christmas to New Year |
 | [Bali](bali-trip-from-india.html) | Rice terraces, temples, pool villas, honeymoons | Hot, about 33 °C by day; the wet season, with rain on most days | Direct flights from Delhi and Bengaluru to Denpasar (DPS); visa on arrival | Busiest and costliest from Christmas to New Year |
@@ -142,6 +143,12 @@ Read the full [Bali trip guide](bali-trip-from-india.html), and see our [Bali pa
 The Maldives is about 30 °C in December, with short showers on about 12 days in Malé, and it gets drier in January. Indians get a tourist visa on arrival with no pre-approval: carry a return ticket and a paid booking, and file the free IMUGA declaration in the 96 hours before you land. Choose a resort island for privacy, or a guesthouse on a local island to save money.
 
 Read the full [Maldives trip guide](maldives-trip-from-india.html), and see our [Maldives packing list](../guides/maldives-packing-list.html).
+
+## Kazakhstan: for snow abroad without a visa
+
+Almaty, Kazakhstan's biggest city, is about 2½ hours from Delhi by direct flight, and Indians need no visa for up to 14 days. In December it averages about 0 °C by day and −9 °C at night, and the Shymbulak ski resort in the mountains above the city has beginner slopes, ski lessons and gear to rent. Pack thermals, a padded jacket and boots with a good grip.
+
+Read the full [Kazakhstan trip guide](kazakhstan-trip-from-india.html), and see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html).
 
 ## Ooty: for tea hills and the toy train
 

@@ -31,7 +31,7 @@
     },
     "Air India": {
       "url": "https://clnk.in/Eldc",
-      "scope": [
+      "not_serves": ["Kazakhstan"], "not_serves_checked": "2026-11-21: no Air India flights to Almaty on the airport's Wikipedia list", "scope": [
         "domestic",
         "international"
       ]

@@ -629,9 +629,10 @@ def anchor(text):
 def flight_box(cfg, place=None, scope="domestic", hindi=False):
     """Hand-placed flight links (EarnKaro and Cuelinks): Cleartrip for any airline, plus airlines' own sites.
     A partner with a "serves" list shows only for those places (or in a box with no place), so we never offer
-    an airline that does not fly there. Trip guides and the international baggage hub only, never next to Amazon picks."""
+    an airline that does not fly there ("not_serves" hides one airline from a place it does not fly to). Trip guides and the international baggage hub only, never next to Amazon picks."""
     partners = [(name, f["url"]) for name, f in cfg["flight_partners"].items()
-                if scope in f["scope"] and (place is None or "serves" not in f or place in f["serves"])]
+                if scope in f["scope"] and (place is None or "serves" not in f or place in f["serves"])
+                and place not in f.get("not_serves", ())]
     airlines = len(partners) > 1
     if hindi:
         label = "{name} पर {place} की फ़्लाइट देखें" if place else "{name} पर फ़्लाइट देखें"
