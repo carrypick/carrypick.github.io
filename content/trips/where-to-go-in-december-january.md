@@ -35,6 +35,7 @@ Plan your budget with our [trip budget calculator](../tools/trip-budget-calculat
 | [Sri Lanka](sri-lanka-trip-from-india.html) | Sigiriya, Kandy, tea hills, Ramayana sites | Colombo about 30 °C by day; some rain in December, drier in January | Direct flights from many Indian cities to Colombo (CMB); free ETA for Indians | Busy from Christmas to New Year |
 | [Georgia](georgia-trip-from-india.html) | Snow and skiing in Gudauri, Tbilisi's old town, mountain churches | Cold: Tbilisi about 4 °C on average; snow in the mountains | No direct flights now: one stop via the Gulf or Istanbul to Tbilisi (TBS); e-visa needed, or none with a US, UK or Schengen visa | Busy in Gudauri at New Year |
 | [Kazakhstan](kazakhstan-trip-from-india.html) | Snow and skiing at Shymbulak above Almaty, a modern city | Cold: Almaty about 0 °C by day and −9 °C at night | Direct flights from Delhi and Mumbai to Almaty (ALA); no visa for up to 14 days | Busy at Shymbulak at New Year |
+| [Turkey](turkey-trip-from-india.html) | Istanbul's mosques and bazaars, Cappadocia's balloons and cave hotels, maybe with snow | Cool and wet in Istanbul: about 11 °C by day and 5 °C at night; Cappadocia below freezing at night | Direct flights from Delhi and Mumbai to Istanbul (IST); visa from a Turkish mission, or an e-visa with a US, UK, Schengen or Irish visa | Quiet, except Christmas and New Year in Istanbul |
 | [Europe: Switzerland, Paris, Italy](europe-trip-from-india.html) | Christmas markets, snow in the Alps, a first trip to Europe | Cold: Zurich about 3 °C by day and −2 °C at night; Rome about 13 °C | Direct flights from Delhi, Mumbai and Bengaluru to Zurich and Paris; Schengen visa, apply at least 15 days ahead | Busy at Christmas markets and New Year |
 | [Thailand](thailand-trip-from-india.html) | Bangkok's temples and markets, Phuket and Krabi beaches | Warm and mostly dry: Bangkok about 31 °C by day, 21 °C at night | Direct flights from many Indian cities to Bangkok, some to Phuket and Krabi; no visa for up to 30 days | Busy and costly from Christmas to New Year |
 | [Vietnam](vietnam-trip-from-india.html) | Hanoi, Ha Long Bay cruises, Ho Chi Minh City | Hanoi cool, about 22 °C by day and 15 °C at night; Ho Chi Minh City about 32 °C and dry; Da Nang and Hoi An rainy | Direct flights from several Indian cities to Hanoi (HAN) and Ho Chi Minh City (SGN); e-visa needed | Busy from Christmas to New Year |
@@ -166,6 +167,12 @@ Read the full [Georgia trip guide](georgia-trip-from-india.html), and see our gu
 Almaty, Kazakhstan's biggest city, is about 2½ hours from Delhi by direct flight, and Indians need no visa for up to 14 days. In December it averages about 0 °C by day and −9 °C at night, and the Shymbulak ski resort in the mountains above the city has beginner slopes, ski lessons and gear to rent. Pack thermals, a padded jacket and boots with a good grip.
 
 Read the full [Kazakhstan trip guide](kazakhstan-trip-from-india.html), and see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html).
+
+## Turkey: for Istanbul and a snowy Cappadocia
+
+Istanbul averages about 11 °C by day and 5 °C at night in December, its wettest month, and Cappadocia drops below freezing at night, with a chance of snow on the fairy chimneys, on the Turkish State Meteorological Service's averages. It's the low season, so the old city's sights are less crowded, but balloon flights are cancelled more often in winter, so keep a spare morning. There are direct flights from Delhi and Mumbai to Istanbul. Most Indians need a visa from a Turkish mission; with a valid US, UK, Schengen or Irish visa or residence permit, a one-month e-visa online.
+
+Read the full [Turkey trip guide](turkey-trip-from-india.html), and see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html).
 
 ## Europe: for Christmas markets and snow in the Alps
 

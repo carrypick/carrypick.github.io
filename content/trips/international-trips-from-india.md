@@ -28,12 +28,14 @@ Distance is the straight-line distance from Delhi (DEL) or Mumbai (BOM) airport,
 | [Kazakhstan](kazakhstan-trip-from-india.html) | About 1,640 km (Almaty) / 2,730 km | About 2½ hours from Delhi | June to September; December to March for snow | [No visa for 14 days](../guides/visa-free-countries-for-indians.html#kazakhstan) |
 | [Maldives](maldives-trip-from-india.html) | About 2,740 km / 1,660 km | About 2½ hours from Mumbai | January to April | [Visa on arrival](../guides/visa-free-countries-for-indians.html#maldives) |
 | [Dubai (UAE)](dubai-trip-from-india.html) | About 2,180 km / 1,930 km | About 3 hours | November to March | [Visa before you fly](../guides/visa-free-countries-for-indians.html#uae), through a tourism company, airline or hotel |
+| [Azerbaijan](azerbaijan-trip-from-india.html) | About 2,790 km (Baku) / 3,220 km | About 4 hours from Delhi, but direct flights not confirmed now | April to June; September and October | [e-visa online](../guides/visa-free-countries-for-indians.html#azerbaijan), up to 30 days |
 | [Thailand](thailand-trip-from-india.html) | About 2,950 km / 3,030 km | About 4 hours | November to February | [No visa for 30 days](../guides/visa-free-countries-for-indians.html#thailand) |
 | [Vietnam](vietnam-trip-from-india.html) | About 3,000 km (Hanoi) / 3,740 km (Ho Chi Minh City) | About 4 to 5 hours | March to May; December to April in the south | [e-visa online](../guides/visa-free-countries-for-indians.html#vietnam) |
 | [Georgia](georgia-trip-from-india.html) | About 3,240 km / 3,640 km | About 4½ hours direct, but no direct flights now: one stop via the Gulf or Istanbul | May to October; late December to March for snow | [e-visa online](../guides/visa-free-countries-for-indians.html#georgia), or none with a US, UK or Schengen visa |
 | [Malaysia](malaysia-trip-from-india.html) | About 3,880 km / 3,620 km | About 5 hours | December to February for Langkawi and Penang | [No visa for 30 days until 31 Dec 2026](../guides/visa-free-countries-for-indians.html#malaysia) |
 | [Hong Kong](hong-kong-trip-from-india.html) | About 3,750 km / 4,270 km | About 5 hours from Delhi | October to December | [No visa for 14 days](../guides/visa-free-countries-for-indians.html#hong-kong), after a free online pre-arrival registration |
 | [Singapore](singapore-trip-from-india.html) | About 4,160 km / 3,920 km | About 5½ hours | February to April | [Visa through an agent](../guides/visa-free-countries-for-indians.html#singapore) |
+| [Turkey](turkey-trip-from-india.html) | About 4,570 km (Istanbul) / 4,830 km | About 6 hours from Delhi | April to June; September and October | [Visa from a Turkish mission](../guides/visa-free-countries-for-indians.html#turkey), or an e-visa with a US, UK, Schengen or Irish visa |
 | [Mauritius](mauritius-trip-from-india.html) | About 5,830 km / 4,700 km | About 6½ hours from Mumbai | May to November; December is warm with some rain | [No visa](../guides/visa-free-countries-for-indians.html#mauritius): return ticket and hotel booking |
 | [Bali (Indonesia)](bali-trip-from-india.html) | About 5,820 km / 5,570 km | About 7½ hours | April to October | [Visa on arrival or e-VOA](../guides/visa-free-countries-for-indians.html#indonesia) |
 | [Japan](japan-trip-from-india.html) | About 5,860 km / 6,730 km (Tokyo) | About 8 hours from Delhi | Late March to May; October and November | [eVISA through VFS](../guides/visa-free-countries-for-indians.html#japan) |
@@ -77,6 +79,11 @@ Short trips abroad mean less time in the air and less tiredness, so you get more
 
 - **[Georgia](georgia-trip-from-india.html):** Tbilisi's old town, Gergeti Trinity Church below Mount Kazbek, wine villages, and skiing at Gudauri from late December. Indians apply for an e-visa online, or need no visa with a valid US, UK, EU or Schengen visa or residence permit. There are no direct flights from India now, so fly one-stop via Dubai, Sharjah, Doha or Istanbul.
 
+## Turkey and Azerbaijan: Istanbul, Cappadocia and Baku
+
+- **[Turkey](turkey-trip-from-india.html):** Istanbul's mosques, bazaars and the Bosphorus, then hot air balloons and cave hotels in Cappadocia. Direct flights from Delhi and Mumbai to Istanbul. Most Indians need a visa from a Turkish mission; with a valid US, UK, Schengen or Irish visa or residence permit, a one-month e-visa online.
+- **[Azerbaijan](azerbaijan-trip-from-india.html):** Baku's walled Old City and Flame Towers, the Ateshgah fire temple, mud volcanoes at Gobustan, and an easy add-on to Georgia. Indians apply for an e-visa online: 3 working days, or 3 hours for an urgent one.
+
 ## Best international trips from India in December
 
 December and January are holiday months in India, and they suit these trips best:
@@ -94,6 +101,8 @@ December and January are holiday months in India, and they suit these trips best
 - **[Nepal](nepal-in-december.html) and [Bhutan](bhutan-in-december.html):** clear mountain views and sunny days, but very cold nights.
 - **[Kazakhstan](kazakhstan-trip-from-india.html):** snow and skiing at Shymbulak above Almaty; days around 0 °C and nights well below freezing.
 - **[Georgia](georgia-trip-from-india.html):** snow in the mountains and skiing in Gudauri from 20 December; Tbilisi is cold, about 4 °C on average.
+- **[Turkey](turkey-trip-from-india.html):** the low season: Istanbul about 11 °C by day and rainy, Cappadocia below freezing at night.
+- **[Azerbaijan](azerbaijan-trip-from-india.html):** cool and windy in Baku, about 10 °C by day, with little rain.
 - **Less ideal in December:** [Singapore](singapore-trip-from-india.html) (its wettest month, with short showers) and [Bali](bali-trip-from-india.html) (the wet season).
 
 Christmas to New Year is the busiest time everywhere, so book early. Comparing with trips inside India too? See [where to go in December and January](where-to-go-in-december-january.html).
@@ -105,7 +114,7 @@ Many people asking for a "cheap" foreign trip really want a short flight and an 
 - **No visa at all:** [Nepal](nepal-in-december.html), [Bhutan](bhutan-in-december.html) (Bhutan has an entry permit and a daily fee) and [Mauritius](mauritius-trip-from-india.html) (carry a return ticket and a hotel booking).
 - **No visa for a short tourist stay:** [Kazakhstan](kazakhstan-trip-from-india.html) (14 days), [Thailand](thailand-trip-from-india.html) (30 days), [Malaysia](malaysia-trip-from-india.html) (30 days, until 31 December 2026) and [Hong Kong](hong-kong-trip-from-india.html) (14 days, after a free online pre-arrival registration).
 - **A free visa online, or a visa on arrival:** [Sri Lanka](sri-lanka-trip-from-india.html) (free ETA), the [Maldives](maldives-trip-from-india.html) and [Bali](bali-trip-from-india.html) (visa on arrival).
-- **Apply before you fly:** [Vietnam](vietnam-trip-from-india.html) (e-visa online), [Georgia](georgia-trip-from-india.html) (e-visa online, or none with a US, UK or Schengen visa), [Singapore](singapore-trip-from-india.html) (through an agent in India), [Japan](japan-trip-from-india.html) (eVISA through VFS), [Europe](europe-trip-from-india.html) (Schengen visa, at least 15 days ahead) and [Dubai](dubai-trip-from-india.html) (through a tourism company, airline or hotel).
+- **Apply before you fly:** [Vietnam](vietnam-trip-from-india.html) (e-visa online), [Georgia](georgia-trip-from-india.html) (e-visa online, or none with a US, UK or Schengen visa), [Azerbaijan](azerbaijan-trip-from-india.html) (e-visa online), [Turkey](turkey-trip-from-india.html) (visa from a Turkish mission, or an e-visa with a US, UK, Schengen or Irish visa), [Singapore](singapore-trip-from-india.html) (through an agent in India), [Japan](japan-trip-from-india.html) (eVISA through VFS), [Europe](europe-trip-from-india.html) (Schengen visa, at least 15 days ahead) and [Dubai](dubai-trip-from-india.html) (through a tourism company, airline or hotel).
 
 Rules change, and the officer at the airport decides on entry. Check our [visa guide](../guides/visa-free-countries-for-indians.html) and the trip guide before you book, and carry your return ticket and hotel booking.
 

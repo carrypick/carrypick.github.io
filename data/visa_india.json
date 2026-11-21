@@ -151,10 +151,10 @@
     },
     {
       "slug": "azerbaijan", "name": "Azerbaijan", "aka": "Baku",
-      "status": "check",
-      "conditions": ["India's MEA lists an e-visa for Azerbaijan. We could not open Azerbaijan's official ASAN e-visa site to confirm the stay or fee."],
-      "say": "India's MEA lists an e-visa, but we could not confirm it on Azerbaijan's own site. Check evisa.gov.az or the Embassy of Azerbaijan in New Delhi.",
-      "sources": [{"label": "Azerbaijan ASAN e-visa", "url": "https://evisa.gov.az/en/"}, {"label": "India MEA: visa facility for Indians", "url": "https://www.mea.gov.in/vffin"}],
+      "status": "e-visa", "stay": "Up to 30 days, single entry",
+      "conditions": ["Apply on Azerbaijan's official ASAN e-visa portal: standard in 3 working days, urgent in 3 hours.", "Passport valid at least 3 months beyond the e-visa.", "Staying over 15 days: register with the State Migration Service."],
+      "say": "Indians can apply for an Azerbaijan e-visa on the official ASAN Visa portal. It allows one entry and a stay of up to 30 days, within 90 days of validity.",
+      "sources": [{"label": "Azerbaijan ASAN e-visa: conditions", "url": "https://evisa.gov.az/en/conditions"}, {"label": "Azerbaijan ASAN e-visa: eligible countries", "url": "https://evisa.gov.az/en/countries"}],
       "checked": "2026-11-21"
     },
     {
