@@ -117,7 +117,7 @@ Pack summer clothes, swimwear and lots of sun care.
 
 Things to know for each place:
 
-- **Maldives:** resorts are relaxed, but Malé and local islands expect modest clothes. Alcohol bought on the way is confiscated on arrival, and idols are banned. Seaplanes have low bag limits. See our [Maldives packing list](maldives-packing-list.html).
+- **Maldives:** resorts are relaxed, but Malé and local islands expect modest clothes. Alcohol bought on the way is confiscated on arrival, and idols are banned. Seaplanes have low bag limits. See our [Maldives packing list](maldives-packing-list.html) and [Maldives trip guide](../trips/maldives-trip-from-india.html).
 - **Bali:** hot all year, about 33 °C by day, and very rainy from December to February. Temples need a sarong. See our [Bali packing list](bali-packing-list.html) and [Bali trip guide](../trips/bali-trip-from-india.html).
 - **Goa:** days about 32–33 °C and nights about 20–21 °C in December and January, with almost no rain. See our [Goa packing list](goa-packing-list.html) and [Goa trip guide](../trips/goa.html).
 - **Kerala:** the coast is about 21–34 °C in December and January, but Munnar nights fall to about 2–9 °C. Pack a warm layer if you're going to Munnar. See our [Kerala trip guide](../trips/kerala.html).
