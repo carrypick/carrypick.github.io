@@ -86,7 +86,7 @@ def build(B, cfg, deals, pages, lastmod):
 <li><strong>Measure it packed.</strong> A soft bag stuffed full can be several cm thicker than when it's empty.</li>
 <li><strong>Know your inches.</strong> 22 x 14 x 9 inches is about 56 x 36 x 23 cm. See our <a href="../baggage/luggage-size-chart.html">luggage size chart</a> for more.</li>
 </ul>
-<p>More help: <a href="../baggage/international.html">international baggage rules</a>, <a href="../baggage/index.html">baggage rules for Indian airlines</a> and <a href="../baggage/extra-baggage-charges.html">extra baggage charges</a>.</p>
+<p>More help: <a href="../guides/power-bank-rules-on-flights.html">power bank rules on flights worldwide</a>, <a href="../baggage/international.html">international baggage rules</a>, <a href="../baggage/index.html">baggage rules for Indian airlines</a> and <a href="../baggage/extra-baggage-charges.html">extra baggage charges</a>.</p>
 {{faq}}
 {B.tool_pills("../", PATH)}
 </article></div>

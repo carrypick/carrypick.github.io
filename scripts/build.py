@@ -1403,6 +1403,7 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
 <h2>Cabin and checked baggage at a glance</h2>
 <div class="table-wrap"><table class="compare"><thead><tr><th>Airline</th><th>Cabin bag</th><th>Cabin size limit</th><th>Extra small bag</th><th>Checked baggage (economy)</th></tr></thead><tbody>{rows}</tbody></table></div>
 {disclaimer}
+<p>Taking a power bank? See <a href="../guides/power-bank-rules-on-flights.html">power bank rules on flights worldwide</a>: the limit, how many, and in-flight use on Emirates, Qatar Airways, Singapore Airlines, Etihad and more.</p>
 {'<p>Flying within the US or Europe? See <a href="../guides/carry-on-size-by-airline.html">carry-on size by airline (worldwide)</a> for American, Delta, United, Southwest, Ryanair, easyJet, Air France and KLM.</p>' if carry_on_guide.WORLD_FILE.exists() else ''}
 <p>Still choosing a flight? Compare fares, then check the baggage your fare includes before you pay:</p>
 {flight_box(cfg, None, "international") if cfg.get("flight_partners") else ""}

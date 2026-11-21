@@ -268,7 +268,7 @@ def build_power_bank(B, cfg, deals, pages, lastmod):
 <p>A power bank over {low} Wh and up to {high} Wh is allowed on {by_high}'s list, but {by_low}'s pages allow only up to {low} Wh. Ask your airline before you fly, or take a smaller one. Over {high} Wh, no airline here takes it.</p>
 <p class="checked">The in-flight rule is from DGCA's <a href="https://www.dgca.gov.in/digigov-portal/Upload?flag=iframeAttachView&attachId=It%2B0TP06x06YSOsdpSINLg%3D%3D&baseLocale=en_US" rel="nofollow">Dangerous Goods Advisory Circular No. 01/2025</a> (11 November 2025), which we read on DGCA's website on 21 November 2026. The Wh limits and counts above are from the airlines' own pages.</p>
 {picks_html}
-<p>More help: <a href="../baggage/can-i-carry/power-bank.html">can I carry a power bank on a flight?</a>, <a href="../baggage/can-i-carry.html">what else you can carry</a> and <a href="../baggage/index.html">baggage rules for Indian airlines</a>.</p>
+<p>More help: <a href="../guides/power-bank-rules-on-flights.html">power bank rules on flights worldwide</a>, <a href="../baggage/can-i-carry/power-bank.html">can I carry a power bank on a flight?</a>, <a href="../baggage/can-i-carry.html">what else you can carry</a> and <a href="../baggage/index.html">baggage rules for Indian airlines</a>.</p>
 {{faq}}
 {B.tool_pills("../", path)}
 </article></div>

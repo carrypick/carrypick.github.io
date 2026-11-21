@@ -75,7 +75,7 @@ A 20,000 mAh one (about 74 Wh) for long trips and treks:
 
 [[pick:B0DCZ3WDTB]]
 
-Flying abroad too? Our [power bank and travel adapter guide](../../guides/power-bank-and-travel-adapter-guide.html) lists the plug types for Thailand, Dubai, Bali, the UK, the US and more.
+Flying abroad? See [power bank rules on flights worldwide](../../guides/power-bank-rules-on-flights.html) for the FAA, EASA and airlines like Emirates, Singapore Airlines and Lufthansa. Our [power bank and travel adapter guide](../../guides/power-bank-and-travel-adapter-guide.html) lists the plug types for Thailand, Dubai, Bali, the UK, the US and more.
 
 ## By airline
 

@@ -30,7 +30,7 @@ Most power banks in India are sold by mAh, not Wh. Work it out like this: **Wh =
 | 27,000 mAh | 100 Wh | Just | Yes |
 | 30,000 mAh | 111 Wh | No | Yes |
 
-The full rules, with links to each airline's page, are on [can I carry a power bank on a flight?](../baggage/can-i-carry/power-bank.html)
+The full rules, with links to each airline's page, are on [can I carry a power bank on a flight?](../baggage/can-i-carry/power-bank.html) Flying abroad? See [power bank rules on flights worldwide](power-bank-rules-on-flights.html): the FAA, EASA and Emirates, Singapore Airlines, Qatar Airways, Etihad, Lufthansa, BA, American, Delta and United.
 
 ## How to choose a power bank
 
