@@ -6,6 +6,10 @@
   var box = $("gf"), dataEl = $("gf-data"), pool = $("gf-pool");
   if (!box || !dataEl || !pool) return;
   var data = JSON.parse(dataEl.textContent);
+  // The Hindi page passes its own words in data.t; {x} marks a value filled in below.
+  var T = Object.assign({ q: "Question {n} of {total}", title: "{head} for {for}", note: "We have only a few “{size}” ideas for {for}, so we added our other picks below them." },
+    data.t || {});
+  function say(key, v) { return T[key].replace(/\{(\w+)\}/g, function (m, n) { return v && n in v ? v[n] : m; }); }
   var steps = ["who", "occ", "size"];
   var pick = { who: "", occ: "", size: "" };
   var step = 0;
@@ -39,7 +43,7 @@
     steps.forEach(function (s, i) { $("gf-q-" + s).hidden = i !== n; });
     var total = n > 0 && find(data.who, pick.who) && find(data.who, pick.who).occasion ? 2 : 3;
     var shown = n === 2 && total === 2 ? 2 : n + 1;
-    $("gf-step").textContent = "Question " + shown + " of " + total;
+    $("gf-step").textContent = say("q", { n: shown, total: total });
     $("gf-nav").hidden = n === 0;
     box.querySelectorAll(".gf-opt").forEach(function (b) {
       b.setAttribute("aria-pressed", pick[b.getAttribute("data-q")] === b.getAttribute("data-v") && b.getAttribute("data-v") !== "" ? "true" : "false");
@@ -49,12 +53,12 @@
   function render() {
     var w = find(data.who, pick.who), o = find(data.occasions, pick.occ);
     var r = results(pick.who, pick.occ, pick.size);
-    $("gf-title").textContent = o.head + " for " + w.for;
+    $("gf-title").textContent = say("title", { head: o.head, "for": w.for });
     var size = find(data.sizes, pick.size);
     $("gf-answers").textContent = [w.label, o.label].concat(size ? [size.label] : []).join(" · ");
     var note = $("gf-note");
     note.hidden = !r.filled;
-    if (r.filled) note.textContent = "We have only a few “" + size.label.toLowerCase() + "” ideas for " + w.for + ", so we added our other picks below them.";
+    if (r.filled) note.textContent = say("note", { size: size.label.toLowerCase(), "for": w.for });
     var grid = $("gf-grid");
     grid.innerHTML = "";
     r.asins.forEach(function (a) {

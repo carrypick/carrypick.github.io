@@ -1,0 +1,57 @@
+{
+ "matched": "2026-11-20",
+ "who": {
+  "colleague": {"for": "सहकर्मी के लिए", "label": "सहकर्मी", "line": "डेस्क पर या काम के सफ़र में काम आने वाली चीज़, ज़्यादा निजी नहीं।"},
+  "boss": {"for": "बॉस के लिए", "label": "मेरा बॉस", "line": "स्मार्ट और प्रोफ़ेशनल: जानी-मानी ब्रांड की घड़ी, वर्क बैग या ट्रैवल गियर, अक्सर पूरी टीम की तरफ़ से।"},
+  "her": {"for": "पत्नी या गर्लफ़्रेंड के लिए", "label": "पत्नी या गर्लफ़्रेंड", "line": "एक ड्रेसी घड़ी, परफ़्यूम गिफ़्ट सेट, रोज़ टाँगने वाला बैग, या उसकी अगली यात्रा के लिए कुछ।"},
+  "him": {"for": "पति या बॉयफ़्रेंड के लिए", "label": "पति या बॉयफ़्रेंड", "line": "घड़ी, परफ़्यूम गिफ़्ट सेट, चमड़े का वॉलेट या स्लिंग बैग, या वीकेंड ट्रिप के लिए बैग।"},
+  "kids": {"for": "बच्चों के लिए", "label": "बच्चे", "line": "पहली घड़ी, स्कूल बैग या स्टील की बोतल: ऐसे तोहफ़े जो रोज़ काम आते हैं।"},
+  "parents": {"for": "मम्मी-पापा के लिए", "label": "मम्मी और पापा", "line": "जोड़ी वाली घड़ियाँ, सर्दी के लिए गर्म थर्मल, या चलने के आरामदायक जूते।"},
+  "sibling": {"for": "भाई या बहन के लिए", "label": "भाई या बहन", "line": "थोड़ी स्टाइल वाली घड़ी, स्लिंग बैग या धूप का चश्मा।"},
+  "traveller": {"for": "घूमने के शौक़ीन दोस्त के लिए", "label": "घूमने का शौक़ीन दोस्त", "line": "ट्रैवल गियर जो हर ट्रिप पर काम आए: ऑर्गनाइज़र, पासपोर्ट होल्डर, बैग स्केल।"},
+  "santa": {"for": "ऐसे व्यक्ति के लिए जिसे आप ज़्यादा नहीं जानते", "label": "सीक्रेट सैंटा (मैं उन्हें ज़्यादा नहीं जानता)", "line": "सुरक्षित तोहफ़े जो कोई भी इस्तेमाल कर सके, पुरुषों या महिलाओं के लिए, जो बिना रैपिंग के भी अच्छे लगें।"}
+ },
+ "occasions": {
+  "christmas": {"head": "क्रिसमस गिफ़्ट आइडिया", "label": "क्रिसमस"},
+  "secret-santa": {"head": "सीक्रेट सैंटा गिफ़्ट आइडिया", "label": "सीक्रेट सैंटा"},
+  "farewell": {"head": "फ़ेयरवेल गिफ़्ट आइडिया", "label": "विदाई (फ़ेयरवेल)"},
+  "new-year": {"head": "नए साल के गिफ़्ट आइडिया", "label": "नया साल"},
+  "wedding": {"head": "शादी के गिफ़्ट आइडिया", "label": "शादी"},
+  "birthday": {"head": "जन्मदिन के गिफ़्ट आइडिया", "label": "जन्मदिन"},
+  "any": {"head": "गिफ़्ट आइडिया", "label": "कोई भी दिन"}
+ },
+ "sizes": {
+  "small": {"label": "छोटा तोहफ़ा", "hint": "डेस्क का तोहफ़ा, शुक्रिया या सीक्रेट सैंटा"},
+  "nice": {"label": "अच्छा तोहफ़ा", "hint": "दोस्त, परिवार या जिस सहकर्मी को आप अच्छे से जानते हैं"},
+  "big": {"label": "बड़ा तोहफ़ा", "hint": "पार्टनर या मम्मी-पापा के लिए, या पूरी टीम की तरफ़ से"}
+ },
+ "guides": {
+  "guides/secret-santa-gift-ideas-for-office.html": "ऑफ़िस के सहकर्मियों के लिए सीक्रेट सैंटा गिफ़्ट आइडिया",
+  "guides/farewell-gift-for-colleague.html": "सहकर्मी के लिए फ़ेयरवेल गिफ़्ट आइडिया",
+  "guides/gift-for-boss.html": "पुरुष या महिला बॉस के लिए गिफ़्ट आइडिया",
+  "guides/christmas-gift-for-girlfriend-or-wife.html": "गर्लफ़्रेंड या पत्नी के लिए गिफ़्ट आइडिया",
+  "guides/perfume-buying-guide.html#perfume-gift-sets-for-women": "महिलाओं के लिए परफ़्यूम गिफ़्ट सेट",
+  "guides/christmas-gift-for-boyfriend-or-husband.html": "बॉयफ़्रेंड या पति के लिए गिफ़्ट आइडिया",
+  "guides/perfume-buying-guide.html#perfume-gift-sets-for-men": "पुरुषों के लिए परफ़्यूम गिफ़्ट सेट",
+  "guides/christmas-gifts-for-kids.html": "बच्चों के लिए क्रिसमस गिफ़्ट: लड़के और लड़कियाँ",
+  "guides/christmas-gift-for-boyfriend-or-husband.html#for-your-dad": "पापा के लिए गिफ़्ट",
+  "guides/christmas-gift-for-girlfriend-or-wife.html#for-your-mom": "मम्मी के लिए गिफ़्ट",
+  "guides/new-year-gift-ideas.html#for-parents-pair-watches": "मम्मी-पापा के लिए जोड़ी वाली घड़ियाँ",
+  "guides/christmas-gift-for-boyfriend-or-husband.html#for-your-brother": "भाई के लिए गिफ़्ट",
+  "guides/christmas-gift-for-girlfriend-or-wife.html#for-your-sister": "बहन के लिए गिफ़्ट",
+  "guides/gifts-for-travellers.html": "बहुत घूमने वाले के लिए गिफ़्ट",
+  "guides/new-year-gift-ideas.html": "नए साल 2027 के गिफ़्ट आइडिया",
+  "guides/wedding-gift-guide.html": "जोड़े के लिए शादी के गिफ़्ट आइडिया",
+  "guides/farewell-gift-for-colleague.html#for-your-boss-manager-or-a-senior-colleague": "बॉस या सीनियर सहकर्मी के लिए फ़ेयरवेल गिफ़्ट",
+  "guides/gift-for-boss.html#farewell-gifts-for-a-boss-who-is-leaving": "जा रहे बॉस के लिए फ़ेयरवेल गिफ़्ट",
+  "guides/farewell-gift-for-colleague.html#quick-ideas": "सहकर्मी के लिए फ़ेयरवेल के झटपट आइडिया",
+  "guides/farewell-gift-for-colleague.html#for-a-colleague-moving-to-another-city-or-abroad": "दूसरे शहर या विदेश जा रहे व्यक्ति के लिए गिफ़्ट",
+  "guides/new-year-gift-ideas.html#for-her": "महिला के लिए नए साल के गिफ़्ट",
+  "guides/new-year-gift-ideas.html#for-him": "पुरुष के लिए नए साल के गिफ़्ट",
+  "guides/new-year-gift-ideas.html#for-someone-who-travels": "घूमने वाले के लिए नए साल के गिफ़्ट",
+  "guides/wedding-gift-guide.html#for-the-bride": "दुल्हन के लिए शादी के गिफ़्ट",
+  "guides/wedding-gift-guide.html#for-the-groom": "दूल्हे के लिए शादी के गिफ़्ट",
+  "guides/wedding-gift-guide.html#for-the-couple-pair-watches": "जोड़े के लिए जोड़ी वाली घड़ियाँ",
+  "guides/christmas-gifts-for-kids.html#quick-ideas": "बच्चों के लिए क्रिसमस गिफ़्ट के झटपट आइडिया"
+ }
+}

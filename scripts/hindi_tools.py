@@ -74,11 +74,18 @@ PACK_TW = {  # words for static/pack-maker.js
     "list": "पैकिंग लिस्ट: {s}", "make": "अपनी लिस्ट ख़ुद बनाएँ: ", "copied": "लिस्ट कॉपी हो गई। इसे किसी नोट या चैट में पेस्ट करें।",
     "nocopy": "यहाँ कॉपी नहीं हो पाई। लिस्ट को चुनकर हाथ से कॉपी करें।",
 }
+GIFT_FILE = ROOT / "data" / "gift_finder.json"
+GIFT_WORDS = ROOT / "data" / "hindi_gift.json"
+GIFT_EN, GIFT_PATH = "tools/gift-finder.html", "hi/gift-finder.html"
+GIFT_TW = {  # words for static/gift-finder.js
+    "q": "सवाल {n} / {total}", "title": "{head}: {for}",
+    "note": "{for} “{size}” वाले आइडिया कम हैं, इसलिए नीचे हमारी दूसरी पसंद भी जोड़ी हैं।",
+}
 TOOLS_HI = []  # (hindi path, link text) of every Hindi tool page that exists, for the 'more free tools' pills
 
 
 def english_path(hi_path):
-    return {SHOE_PATH: SHOE_EN, POWER_PATH: POWER_EN, PACK_PATH: PACK_EN}.get(hi_path) or next((en for en, h in PAIRS.items() if h == hi_path), "")
+    return {SHOE_PATH: SHOE_EN, POWER_PATH: POWER_EN, PACK_PATH: PACK_EN, GIFT_PATH: GIFT_EN}.get(hi_path) or next((en for en, h in PAIRS.items() if h == hi_path), "")
 
 
 PAIRS = {}  # filled below by register(): English path -> Hindi path (all tools)
@@ -97,6 +104,9 @@ def register(B):
     if POWER_FILE.exists():
         B.HINDI_PAGES[POWER_EN] = POWER_PATH
         TOOLS_HI.append((POWER_PATH, "पावर बैंक फ्लाइट चेकर"))
+    if GIFT_FILE.exists() and GIFT_WORDS.exists():
+        B.HINDI_PAGES[GIFT_EN] = GIFT_PATH
+        TOOLS_HI.append((GIFT_PATH, "गिफ़्ट फ़ाइंडर क्विज़"))
     if PACK_FILE.exists() and (ROOT / "data" / "packing.json").exists():
         B.HINDI_PAGES[PACK_EN] = PACK_PATH
         TOOLS_HI.append((PACK_PATH, "पैकिंग लिस्ट मेकर"))
@@ -346,6 +356,8 @@ def build_late(B, cfg, deals_by_asin, pages, lastmod):
     """Tools whose English pages are built after the Hindi pages (packing list maker, gift finder)."""
     if B.HINDI_PAGES.get(PACK_EN) == PACK_PATH:
         build_pack(B, cfg, deals_by_asin, pages, lastmod)
+    if B.HINDI_PAGES.get(GIFT_EN) == GIFT_PATH:
+        build_gift(B, cfg, deals_by_asin, pages, lastmod)
 
 
 # ---------- packing list maker ----------
@@ -500,3 +512,126 @@ def build_pack(B, cfg, deals_by_asin, pages, lastmod):
                "applicationCategory": "TravelApplication", "operatingSystem": "Any", "description": desc, "inLanguage": "hi-IN"}]
     pages.append(B.write(PACK_PATH, B.page(cfg, H.nfc(seo), H.nfc(desc), H.nfc(body), 1, PACK_PATH, schema, og_type="article", lang="hi", photo="packed-suitcase")))
     lastmod[PACK_PATH] = max(PUBLISHED, P.UPDATED)
+
+
+# ---------- gift finder ----------
+
+def build_gift(B, cfg, deals_by_asin, pages, lastmod):
+    import gift_finder as G
+    import urllib.parse
+    hw = json.loads(GIFT_WORDS.read_text(encoding="utf-8"))
+    data = json.loads(GIFT_FILE.read_text(encoding="utf-8"))
+    if G.UPDATED != hw["matched"]:
+        H.warn("%s was written from the gift finder of %s, but scripts/gift_finder.py says %s. Update data/hindi_gift.json." % (GIFT_PATH, hw["matched"], G.UPDATED))
+    G.check(B, data, deals_by_asin)
+    deal = deals_by_asin
+    todo = set()
+
+    def hi(kind, slug, field, en):
+        v = hw["guides"].get(slug) if kind == "guides" else hw[kind].get(slug, {}).get(field)
+        if not v:
+            todo.add("%s %s" % (kind, slug))
+            return en
+        return v
+
+    def guide(href, en_label):
+        """(path from a Hindi page, Hindi label): the Hindi twin when it has the section, else the English page marked (English)."""
+        path, _, anchor = href.partition("#")
+        label = hi("guides", href, None, en_label)
+        twin = B.HINDI_PAGES.get(path)
+        if twin and (B.DOCS / twin).exists() and (not anchor or ('id="%s"' % anchor) in (B.DOCS / twin).read_text(encoding="utf-8")):
+            return "../" + twin + ("#" + anchor if anchor else ""), label
+        return "../" + href, label + (" (English)" if label != en_label else "")
+
+    gl = lambda rows: [list(guide(h, t)) for h, t in rows]
+    who = [dict(w, **{"for": hi("who", w["slug"], "for", w["for"]), "label": hi("who", w["slug"], "label", w["label"])}, guides=gl(w["guides"]))
+           for w in data["who"]]
+    occ = [dict(o, head=hi("occasions", o["slug"], "head", o["head"]), label=hi("occasions", o["slug"], "label", o["label"]), guides=gl(o["guides"]))
+           for o in data["occasions"]]
+    sizes = [dict(z, label=hi("sizes", z["slug"], "label", z["label"]), hint=hi("sizes", z["slug"], "hint", z.get("hint", ""))) for z in data["sizes"]]
+    payload = {"who": [{k: v for k, v in w.items() if k != "line"} for w in who], "occasions": occ,
+               "pairs": {k: dict(p, guides=gl(p.get("guides", []))) for k, p in data["pairs"].items()},
+               "sizes": sizes, "size_of": data["size_of"], "show": G.SHOW, "t": GIFT_TW}
+    blob = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    pool = "".join(B.card(cfg, deal[a], "../").replace('<article class="card"', '<article class="card" data-asin="%s"' % a, 1) for a in data["size_of"])
+    opts = lambda rows, q: "".join(f'<button type="button" class="gf-opt" data-q="{q}" data-v="{r["slug"]}">{e(r["label"])}'
+                                   + (f'<small>{e(r["hint"])}</small>' if r.get("hint") else "") + "</button>" for r in rows)
+    url = B.abs_url(cfg, GIFT_PATH)
+    wa = "https://wa.me/?text=" + urllib.parse.quote(url, safe="")
+    rows = []
+    for w in who:
+        orig = next(x for x in data["who"] if x["slug"] == w["slug"])
+        links = " &middot; ".join(f'<a href="{e(h)}">{e(t)}</a>' for h, t in w["guides"])
+        picks = ", ".join(f'<a href="../picks/{a}.html">{e(deal[a]["title"])}</a>' for a in orig["picks"][:G.NOJS_PICKS])
+        rows.append(f"""<div class="gf-row" id="for-{w["slug"]}"><h3>{e(w["for"])}{" (सीक्रेट सैंटा)" if w.get("occasion") == "secret-santa" else ""}</h3>
+<p>{e(hi("who", w["slug"], "line", orig["line"]))}</p>
+<p><strong>पढ़ें:</strong> {links}</p>
+<p class="small"><strong>टॉप पिक्स:</strong> {picks}</p></div>""")
+    top = ["B0C3LRF94X", "B0F13ZFVVX", "B00NIWHQVI", "B018VZBTLY", "B08LKXV22C", "B0BS3M2XQV"]
+    top_grid = "".join(B.card(cfg, deal[a], "../") for a in top if a in deal)
+    title = "गिफ़्ट फ़ाइंडर क्विज़: कौन सा तोहफ़ा दें?"
+    seo = "गिफ़्ट फ़ाइंडर क्विज़: पुरुष, महिला, बच्चों, बॉस और सहकर्मियों के लिए गिफ़्ट आइडिया"
+    desc = ("मुफ़्त गिफ़्ट फ़ाइंडर क्विज़: चुनें कि तोहफ़ा किसके लिए है (सहकर्मी, बॉस, पत्नी, पति, बच्चे, मम्मी-पापा, घूमने वाला दोस्त या सीक्रेट सैंटा) "
+            "और मौक़ा क्या है, फिर क्रिसमस, फ़ेयरवेल, नए साल, शादी और जन्मदिन के गिफ़्ट आइडिया देखें।")
+    head = H.head(B, [(None, "गिफ़्ट फ़ाइंडर")], title, "मुफ़्त टूल · 2 या 3 आसान सवालों के जवाब दें · %s को अपडेट किया गया" % B.hi_date(G.UPDATED),
+                  "watches", B.icon("gift", "icon media-icon"), "../", "Gift kya de? Kisko gift dena hai aur kab, bataiye, gift ideas mil jayenge.")
+    faq = [
+        ("पुरुषों के लिए क्रिसमस का अच्छा गिफ़्ट क्या है?",
+         "एक घड़ी जो वह रोज़ पहने, जैसे Timex Classics या Titan Classique, WildHorn का चमड़े का वॉलेट गिफ़्ट सेट, या स्लिंग बैग। घूमने वाले आदमी के लिए वीकेंडर डफ़ल या टॉयलेटरी बैग।"),
+        ("महिलाओं के लिए अच्छे गिफ़्ट आइडिया क्या हैं?",
+         "Titan Raga जैसी ड्रेसी घड़ी, Zouk या Lavie का स्लिंग या टोट बैग, या ज़िप-अराउंड वॉलेट। घूमने वाली महिला के लिए हल्का क्रॉसबॉडी बैग या पैकिंग क्यूब्स।"),
+        ("सहकर्मियों के लिए सीक्रेट सैंटा का अच्छा गिफ़्ट क्या है?",
+         "ऐसी चीज़ जो ऑफ़िस में कोई भी इस्तेमाल कर सके: Milton की स्टील की बोतल, केबल और चार्जर ऑर्गनाइज़र, पुरुषों के लिए वॉलेट और पेन का सेट, या महिलाओं के लिए ज़िप-अराउंड वॉलेट। मज़ाक़ वाली या बहुत निजी चीज़ें न दें।"),
+        ("सहकर्मी को फ़ेयरवेल में क्या गिफ़्ट दें?",
+         "वॉलेट गिफ़्ट सेट, विदेश जा रहे व्यक्ति के लिए पासपोर्ट होल्डर, या नई नौकरी के लिए लैपटॉप बैकपैक। बॉस या सीनियर सहकर्मी के लिए Titan जैसी घड़ी, टीम की तरफ़ से।"),
+        ("मम्मी-पापा को क्या गिफ़्ट दें?", "Titan Bandhan या Sonata Bandhan जैसी जोड़ी वाली घड़ियाँ, सर्दी के लिए गर्म थर्मल सेट, या पापा के लिए चलने के आरामदायक जूते।"),
+        ("शादी में क्या गिफ़्ट दें?",
+         "ऐसी चीज़ जो जोड़ा साथ में इस्तेमाल करे: कपल घड़ी सेट, नए घर के लिए 3 ट्रॉली बैग का सेट, या हनीमून के लिए केबिन ट्रॉली और वीकेंडर बैग। अगर जोड़े ने अपनी लिस्ट दी हो तो पहले उसे देखें।"),
+        ("छोटा तोहफ़ा, अच्छा तोहफ़ा और बड़ा तोहफ़ा का क्या मतलब है?",
+         "ये बताते हैं कि आप कितना बड़ा तोहफ़ा देना चाहते हैं, क़ीमत नहीं। छोटा तोहफ़ा डेस्क का तोहफ़ा या सीक्रेट सैंटा है, अच्छा तोहफ़ा दोस्त या परिवार के लिए है, और बड़ा तोहफ़ा पार्टनर, मम्मी-पापा या पूरी टीम की तरफ़ से। हम क़ीमतें नहीं दिखाते: Amazon.in पर देखें।"),
+    ]
+    faq_html, faq_schema = H.faq_html(B, faq)
+    body = f"""{head}
+<div class="wrap"><article class="guide">
+<p class="pm-nojs" id="gf-nojs">झटपट क्विज़ के लिए JavaScript चालू करें, या नीचे व्यक्ति चुनकर हमारी गिफ़्ट गाइड और टॉप पिक्स देखें।</p>
+<section class="checker gf" id="gf" hidden>
+<p class="gf-step muted small" id="gf-step">सवाल 1 / 3</p>
+<fieldset class="gf-q" id="gf-q-who"><legend>तोहफ़ा किसके लिए है?</legend><div class="gf-opts">{opts(who, "who")}</div></fieldset>
+<fieldset class="gf-q" id="gf-q-occ" hidden><legend>मौक़ा क्या है?</legend><div class="gf-opts">{opts(occ, "occ")}</div></fieldset>
+<fieldset class="gf-q" id="gf-q-size" hidden><legend>कितना बड़ा तोहफ़ा? <span class="muted">ज़रूरी नहीं</span></legend><div class="gf-opts gf-opts-1">{opts(sizes, "size")}
+<button type="button" class="gf-opt gf-skip" data-q="size" data-v="">छोड़ें: सब दिखाएँ</button></div></fieldset>
+<p class="gf-nav" id="gf-nav" hidden><button type="button" class="link-btn" id="gf-back">&larr; पीछे</button></p>
+</section>
+<section id="gf-result" hidden>
+<h2 id="gf-title" tabindex="-1">गिफ़्ट आइडिया</h2>
+<p class="muted small"><span id="gf-answers"></span> &middot; <button type="button" class="link-btn" id="gf-change">जवाब बदलें</button></p>
+<p class="hint" id="gf-note" hidden></p>
+<div class="grid" id="gf-grid" aria-live="polite"></div>
+<div class="next-step gf-guides"><h2>पूरी गाइड पढ़ें</h2><ul id="gf-guides"></ul></div>
+<p class="pm-actions"><button type="button" class="btn pm-btn2" id="gf-again">फिर से शुरू करें</button> <a class="btn btn-whatsapp" href="{e(wa)}" target="_blank" rel="noopener">WhatsApp पर भेजें</a></p>
+</section>
+<template id="gf-pool">{pool}</template>
+<div class="answer"><h2>सीधा जवाब</h2><ul>
+<li><strong>समझ नहीं आ रहा क्या दें?</strong> घड़ी, अच्छा बैग या काम का ट्रैवल गियर ज़्यादातर लोगों को पसंद आता है और रोज़ इस्तेमाल होता है।</li>
+<li>सहकर्मी या सीक्रेट सैंटा के लिए चीज़ काम की रखें, निजी नहीं: स्टील की बोतल, वॉलेट सेट या केबल ऑर्गनाइज़र।</li>
+<li>बॉस के लिए पूरी टीम की तरफ़ से एक बड़ा तोहफ़ा दें। मम्मी-पापा के लिए जोड़ी वाली घड़ी।</li>
+</ul></div>
+<h2 id="by-person">व्यक्ति के हिसाब से गिफ़्ट आइडिया</h2>
+{"".join(rows)}
+<h2>सबसे ज़्यादा दिए जाने वाले हमारे गिफ़्ट पिक्स</h2>
+<div class="grid">{top_grid}</div>
+{faq_html}
+{H.tool_links(B, GIFT_PATH, "../")}
+<p class="checked">{H.HI_DISCLOSURE}</p>
+</article></div>
+<script type="application/json" id="gf-data">{blob}</script>
+<script src="../assets/gift-finder.js" defer></script>
+{B.telegram_band(cfg, "../")}"""
+    if todo:
+        H.warn("%s has no Hindi for: %s (English shown for now). Add it to data/hindi_gift.json." % (GIFT_PATH, ", ".join(sorted(todo))))
+    schema = [B.tool_article(cfg, seo, desc, GIFT_PATH, PUBLISHED, max(PUBLISHED, G.UPDATED), "hi-IN"),
+              B.crumbs_schema(cfg, [("होम", ""), ("गिफ़्ट फ़ाइंडर", GIFT_PATH)]), faq_schema,
+              {"@context": "https://schema.org", "@type": "WebApplication", "name": "गिफ़्ट फ़ाइंडर क्विज़", "url": url,
+               "applicationCategory": "LifestyleApplication", "operatingSystem": "Any", "description": desc, "inLanguage": "hi-IN"}]
+    pages.append(B.write(GIFT_PATH, B.page(cfg, H.nfc(seo), H.nfc(desc), H.nfc(body), 1, GIFT_PATH, schema, og_type="article", lang="hi", photo="gift-box")))
+    lastmod[GIFT_PATH] = max(PUBLISHED, G.UPDATED)
