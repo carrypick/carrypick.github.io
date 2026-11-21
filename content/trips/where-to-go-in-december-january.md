@@ -33,10 +33,12 @@ Plan your budget with our [trip budget calculator](../tools/trip-budget-calculat
 | [Sri Lanka](sri-lanka-trip-from-india.html) | Sigiriya, Kandy, tea hills, Ramayana sites | Colombo about 30 °C by day; some rain in December, drier in January | Direct flights from many Indian cities to Colombo (CMB); free ETA for Indians | Busy from Christmas to New Year |
 | [Georgia](georgia-trip-from-india.html) | Snow and skiing in Gudauri, Tbilisi's old town, mountain churches | Cold: Tbilisi about 4 °C on average; snow in the mountains | No direct flights now: one stop via the Gulf or Istanbul to Tbilisi (TBS); e-visa needed, or none with a US, UK or Schengen visa | Busy in Gudauri at New Year |
 | [Kazakhstan](kazakhstan-trip-from-india.html) | Snow and skiing at Shymbulak above Almaty, a modern city | Cold: Almaty about 0 °C by day and −9 °C at night | Direct flights from Delhi and Mumbai to Almaty (ALA); no visa for up to 14 days | Busy at Shymbulak at New Year |
+| [Europe: Switzerland, Paris, Italy](europe-trip-from-india.html) | Christmas markets, snow in the Alps, a first trip to Europe | Cold: Zurich about 3 °C by day and −2 °C at night; Rome about 13 °C | Direct flights from Delhi, Mumbai and Bengaluru to Zurich and Paris; Schengen visa, apply at least 15 days ahead | Busy at Christmas markets and New Year |
 | [Thailand](thailand-trip-from-india.html) | Bangkok's temples and markets, Phuket and Krabi beaches | Warm and mostly dry: Bangkok about 31 °C by day, 21 °C at night | Direct flights from many Indian cities to Bangkok, some to Phuket and Krabi; no visa for up to 30 days | Busy and costly from Christmas to New Year |
 | [Vietnam](vietnam-trip-from-india.html) | Hanoi, Ha Long Bay cruises, Ho Chi Minh City | Hanoi cool, about 22 °C by day and 15 °C at night; Ho Chi Minh City about 32 °C and dry; Da Nang and Hoi An rainy | Direct flights from several Indian cities to Hanoi (HAN) and Ho Chi Minh City (SGN); e-visa needed | Busy from Christmas to New Year |
 | [Bali](bali-trip-from-india.html) | Rice terraces, temples, pool villas, honeymoons | Hot, about 33 °C by day; the wet season, with rain on most days | Direct flights from Delhi and Bengaluru to Denpasar (DPS); visa on arrival | Busiest and costliest from Christmas to New Year |
 | [Maldives](maldives-trip-from-india.html) | Resort islands, overwater villas, snorkelling, honeymoons | About 30 °C by day; short showers on about 12 days in December, drier in January | Direct flights from Bengaluru, Delhi, Mumbai, Kochi and Thiruvananthapuram to Malé (MLE); visa on arrival | Busiest and costliest from Christmas to New Year |
+| [Mauritius](mauritius-trip-from-india.html) | Lagoons, beach resorts, honeymoons, Grand Bassin temple | Warm: Port Louis about 31 °C by day, rain on about 6 days in December; wetter in January | Direct flights from Delhi, Mumbai, Chennai and Bengaluru to Mauritius (MRU); no visa needed | Busy from Christmas to New Year |
 | [Ooty](ooty-in-december.html) | Tea hills, the Nilgiri toy train, frosty mornings | Days about 21 °C, nights about 6–7 °C; frost but no snow | Coimbatore (CJB), then about 89 km by road | Busy from Christmas to New Year; e-pass needed for cars |
 | [Varanasi](varanasi-in-december.html) | Ghats, the Ganga aarti, temples | Days about 22–24 °C, nights about 9–10 °C; foggy mornings | Varanasi (VNS) | Very crowded at Kashi Vishwanath at New Year |
 | [Jaipur](jaipur.html) | Forts, palaces, markets | Sunny days about 22–24 °C, cold nights about 8–9 °C | Jaipur (JAI) | Busy, especially 25 Dec to 1 Jan |
@@ -145,6 +147,12 @@ The Maldives is about 30 °C in December, with short showers on about 12 days in
 
 Read the full [Maldives trip guide](maldives-trip-from-india.html), and see our [Maldives packing list](../guides/maldives-packing-list.html).
 
+## Mauritius: for a beach honeymoon abroad without a visa
+
+Mauritius is warm in December, about 31 °C by day and 23 °C at night in Port Louis, with rain on about 6 days; January is wetter. Indians need no visa: carry a return ticket, a hotel booking and enough money, and fill in the free All-in-One Travel Digital Form before you fly. There are direct flights from Delhi, Mumbai, Chennai and Bengaluru.
+
+Read the full [Mauritius trip guide](mauritius-trip-from-india.html), and see our [honeymoon packing list](../guides/honeymoon-packing-list.html).
+
 ## Georgia: for snow, mountain churches and Tbilisi
 
 Georgia's ski season opens on 20 December 2026 in Gudauri and Bakuriani, says the Mountain Trails Agency that runs the lifts. Tbilisi averages about 4 °C in December, with Christmas lights and New Year parties, and the road north to Kazbegi passes Gudauri's snowy slopes. Indians apply for a Georgian e-visa online, at least 5 working days ahead, or need none with a valid US, UK, EU or Schengen visa or residence permit. There are no direct flights from India right now.
@@ -156,6 +164,12 @@ Read the full [Georgia trip guide](georgia-trip-from-india.html), and see our gu
 Almaty, Kazakhstan's biggest city, is about 2½ hours from Delhi by direct flight, and Indians need no visa for up to 14 days. In December it averages about 0 °C by day and −9 °C at night, and the Shymbulak ski resort in the mountains above the city has beginner slopes, ski lessons and gear to rent. Pack thermals, a padded jacket and boots with a good grip.
 
 Read the full [Kazakhstan trip guide](kazakhstan-trip-from-india.html), and see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html).
+
+## Europe: for Christmas markets and snow in the Alps
+
+A December trip to Paris, Switzerland and Italy means Christmas lights, markets and snow in the Swiss mountains, but also cold days and short daylight: Zurich averages about 3 °C by day and −2 °C at night, while Rome is milder, about 13 °C. Indians need a Schengen visa: apply at least 15 days, and ideally several weeks, before you fly, because December appointments fill up.
+
+Read the full [Europe trip guide](europe-trip-from-india.html), and see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html).
 
 ## Ooty: for tea hills and the toy train
 
