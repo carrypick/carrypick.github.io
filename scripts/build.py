@@ -2996,7 +2996,7 @@ def build():
     <div class="hero-copy">
       <p class="eyebrow eyebrow-light">Bags &middot; Luggage &middot; Watches &middot; Travel gear</p>
       <h1>Buy the right bag or watch, the first time.</h1>
-      <p class="lead">Hand-picked products from Amazon India. We check size, material, weight and warranty, then explain it in simple words.</p>
+      <p class="lead">Hand-picked bags, luggage and travel gear for travellers in India and around the world. We check size, material, weight and warranty, then explain it in simple words. Shop buttons go to Amazon India.</p>
       <div class="hero-ctas"><a class="btn btn-amazon btn-big" href="#latest">See latest picks</a>{tg_cta}</div>
     </div>
     {hero_art}
@@ -3006,7 +3006,7 @@ def build():
   <div class="wrap trust-row">
     <div>{icon("ruler")}<p><strong>Details checked</strong>Size, litres, weight, warranty</p></div>
     <div>{icon("shield")}<p><strong>No paid rankings</strong>Brands can't pay to be listed</p></div>
-    <div>{icon("pin")}<p><strong>Made for India</strong>College, office, flights and trains</p></div>
+    <div>{icon("pin")}<p><strong>Made for travellers</strong>India and worldwide: flights, trains, college, office</p></div>
   </div>
 </section>
 <section class="wrap section">
@@ -3144,7 +3144,7 @@ def build():
 </section>
 <div class="wrap section">{guide_cards(cfg, articles, "../") if articles else '<p class="muted">Coming soon.</p>'}</div>"""
     crumbs = crumbs_schema(cfg, [("Home", ""), ("Guides", "guides/index.html")])
-    pages.append(write("guides/index.html", page(cfg, "Buying guides for bags, luggage, watches and travel essentials", "Simple buying guides for India: cabin bag rules, laptop backpacks, luggage sizes by trip length, your first analog watch and wedding gifts.",
+    pages.append(write("guides/index.html", page(cfg, "Buying guides for bags, luggage, watches and travel essentials", "Simple buying guides for travellers in India and worldwide: cabin bag rules, laptop backpacks, luggage sizes by trip length, your first analog watch and wedding gifts.",
                                                  body, 1, "guides/index.html", [crumbs])))
     for a in articles:
         content = render_markdown(a["body"], cfg, deals_by_asin, "../", a["slug"] + ".md")
@@ -3230,11 +3230,11 @@ def build():
     network_text = " and ".join("%s (%s)" % (net, and_list(names)) for net, names in sorted(by_network.items(), key=lambda x: x[0] != "EarnKaro"))
     info = {
         "about.html": ("About CarryPick: how we pick products", f"""<h1>About {name}</h1>
-<p>{name} is a small team that helps shoppers in India pick good bags, luggage, watches and travel essentials on Amazon.in.</p>
+<p>{name} is a small team that helps travellers in India and around the world pick good bags, luggage, watches and travel essentials, and plan trips with simple guides and tools. Our shop buttons go to Amazon India (Amazon.in).</p>
 <h2>How we choose products</h2>
 <ul>
 <li>We read the full product details: size, capacity, material, weight and warranty.</li>
-<li>We pick products that suit everyday Indian use, like college, office commutes and domestic flights.</li>
+<li>We pick products for real travel and daily use, like flights, trains, college and office commutes. We know India best, and our trip guides cover places around the world.</li>
 <li>We never accept money from brands to list a product.</li>
 </ul>
 <p>We don't show prices because they change many times a day. The button on each pick takes you to Amazon.in, where you see the current price.</p>
@@ -3261,7 +3261,7 @@ def build():
                      + tool_pills("", "")),
     }
     info_desc = {
-        "about.html": "How %s picks bags, luggage, watches and travel essentials for India: we read every detail, match real Indian use and never take money from brands to list a product." % cfg["site_name"],
+        "about.html": "How %s picks bags, luggage, watches and travel essentials for travellers in India and worldwide: we read every detail, match real use and never take money from brands to list a product." % cfg["site_name"],
         "disclosure.html": "%s is an Amazon Associate. How our paid links work, what we earn and why it never changes which products we pick." % cfg["site_name"],
         "privacy.html": "%s asks for no personal details and sets no cookies of its own. What GitHub, Google Fonts, Amazon and our hotel, flight, tour and shop link partners may log when you visit." % cfg["site_name"],
         "contact.html": "Questions, corrections or ideas for %s? Reach us on Telegram or WhatsApp." % cfg["site_name"],

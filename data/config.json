@@ -1,8 +1,8 @@
 {
   "site_name": "CarryPick",
-  "tagline": "Hand-picked bags, luggage, watches and travel essentials from Amazon India",
-  "home_title": "CarryPick: bags, luggage, watches, travel essentials and tools for India",
-  "home_description": "Hand-picked bags, luggage, watches, travel clothes, shoes and sun care from Amazon India, plus airline and train baggage rules, a cabin bag checker and packing lists.",
+  "tagline": "Hand-picked bags, luggage, watches and travel essentials, plus simple travel guides and tools for travellers in India and around the world",
+  "home_title": "CarryPick: bags, luggage, watches, travel essentials and tools for travellers in India and worldwide",
+  "home_description": "Hand-picked bags, luggage, watches, travel clothes, shoes and sun care (shop links go to Amazon India), plus airline baggage rules, a cabin bag checker, packing lists and trip tools for travellers in India and around the world.",
   "base_url": "https://carrypick.github.io",
   "amazon_tag": "carrypick-21",
   "channel_tags": {
@@ -106,7 +106,7 @@
       "photo": "trolley-walk",
       "seo_title": "Best trolley bags and cabin luggage in India",
       "guide": "cabin-luggage-guide",
-      "intro": "Cabin and check-in trolleys for Indian flights and train journeys.",
+      "intro": "Cabin and check-in trolleys for flights and train journeys, for travellers in India and around the world.",
       "tip": "Most Indian airlines allow a 7 kg cabin bag. Add length + width + height and check your airline's limit before you buy."
     },
     "travel-gear": {
