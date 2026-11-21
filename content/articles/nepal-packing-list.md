@@ -8,7 +8,7 @@ photo: nepal-boudhanath
 ---
 Nepal is easy for Indians: no visa, and Indian rupees work in many places. But two things catch people out. Only two IDs are accepted on flights, and Indian notes above ₹100 have a limit. This list tells you what documents to carry, what to wear, and which bag to take, for a trip from India.
 
-Want to tick things off as you pack? Use our [checklist for trips abroad](../packing/abroad.html) and the [hill trip checklist](../packing/hills.html). For how to layer winter clothes, see [what to wear on a winter hill trip](winter-clothes-for-hill-trips.html). Travelling with kids or a baby, or need it for your exact dates? Make your own list with the [packing list maker](../tools/packing-list-maker.html).
+Want to tick things off as you pack? Use our [checklist for trips abroad](../packing/abroad.html) and the [hill trip checklist](../packing/hills.html). For how to layer winter clothes, see [what to wear on a winter hill trip](winter-clothes-for-hill-trips.html). Travelling with kids or a baby, or need it for your exact dates? Make your own list with the [packing list maker](../tools/packing-list-maker.html). Going in winter? See our [Nepal in December and January guide](../trips/nepal-in-december.html) for the weather, festivals, a 6-day plan and trekking rules.
 
 [[toppicks:Our picks for a Nepal trip|See the bag limits by airline|#which-bag-to-take]]
 [[top:B0BHC41KYN|Passport holder|Keeps your passport or voter ID, tickets and cash in one place.]]
@@ -30,6 +30,7 @@ Long-term averages (1991–2020) from Nepal's Department of Hydrology and Meteor
 - **Pokhara is warmer at night.** It's lower than Kathmandu, so a sweater and a light jacket are enough.
 - **Hill viewpoints like Nagarkot and Sarangkot are colder** at sunrise. Take a warm jacket, a cap and gloves.
 - **Treks go much higher,** where it is far colder. Pack for the trek separately, with your guide's list.
+- **Planning the trip?** See [Nepal in December and January](../trips/nepal-in-december.html) for a day-by-day plan, festivals and where it snows.
 
 ## The short list
 

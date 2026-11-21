@@ -12,7 +12,7 @@ glance: Weather in December=Sunny days of about 15–20 °C; nights about 0 °C 
 ---
 Bhutan in December is cold, dry and sunny. The skies are mostly clear and the mountain views are good. Nights in Paro and Thimphu fall to about 0 °C or below, but the days are often warm enough for a sweater. This guide covers the weather, the real chances of snow, the December festivals, a simple 6-day plan, how to get there from India and what to wear.
 
-Packing for the trip? Use our [Bhutan packing list](../guides/bhutan-packing-list.html) for documents, cash rules and the Drukair bag limits. Still choosing? Compare places in [where to go in December and January](where-to-go-in-december-january.html). Going by road through north Bengal? See [Darjeeling in December](darjeeling-in-december.html). Thinking of Nepal instead? See our [Nepal packing list](../guides/nepal-packing-list.html).
+Packing for the trip? Use our [Bhutan packing list](../guides/bhutan-packing-list.html) for documents, cash rules and the Drukair bag limits. Still choosing? Compare places in [where to go in December and January](where-to-go-in-december-january.html). Going by road through north Bengal? See [Darjeeling in December](darjeeling-in-december.html). Thinking of Nepal instead? See [Nepal in December](nepal-in-december.html) and our [Nepal packing list](../guides/nepal-packing-list.html).
 
 ## Bhutan weather in December and January
 
