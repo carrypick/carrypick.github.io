@@ -26,6 +26,8 @@ Since 25 May 2026, Indians are among the nationals of 40 countries who get a tou
 - **Ordinary, diplomatic, official and service passports** all qualify, says the ETA site.
 - **The free scheme has changed before.** Read the current notice on eta.gov.lk before you fly.
 
+Going to more than one country? Our [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) compares 29 countries, each checked on its official site.
+
 ## Flights from India to Sri Lanka
 
 Most visitors fly to Bandaranaike International Airport (CMB) near Colombo. Direct flights from India, from the airport's list of airlines on Wikipedia (read 21 Nov 2026):
