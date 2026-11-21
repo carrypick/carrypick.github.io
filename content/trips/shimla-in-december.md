@@ -88,6 +88,8 @@ Compare hotels and homestays for your dates. On snow days, places near the Mall 
 
 ## What to wear in Shimla in December
 
+What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#shimla) for day and night temperatures and an outfit list by month.
+
 Shimla needs the same clothes as Manali, just a little less on the coldest nights. Himachal Pradesh Tourism says heavy woollens and jackets are needed from November to March.
 
 - **Layers:** thermals, a sweater or fleece, and a warm jacket. You will take some off on sunny afternoons.

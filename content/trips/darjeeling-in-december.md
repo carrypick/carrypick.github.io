@@ -88,6 +88,8 @@ Compare hotels and homestays for your dates. Places near the Mall and Chowrasta 
 
 ## What to wear in Darjeeling in December
 
+What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#darjeeling) for day and night temperatures and an outfit list by month.
+
 Darjeeling is a little less cold than Manali or Shimla, but nights still fall near 0 °C, and Tiger Hill at dawn is colder still.
 
 - **Layers:** thermals, a sweater or fleece, and a warm jacket. You will take some off on sunny afternoons.

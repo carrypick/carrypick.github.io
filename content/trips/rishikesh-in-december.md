@@ -105,6 +105,8 @@ With two bridges closed, pick a stay on the side of the river where you'll spend
 
 ## What to wear in Rishikesh in December
 
+What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#rishikesh) for day and night temperatures and an outfit list by month.
+
 - **Layers:** a T-shirt or shirt for sunny afternoons, plus a sweater or fleece and a light jacket for mornings, evenings and the aarti. Nights in riverside camps can drop close to 5 °C, so bring warm sleepwear.
 - **For rafting:** quick-dry clothes, not cotton or jeans, and a full change of warm clothes for afterwards. The operator gives you the life jacket and helmet.
 - **Shoes:** comfortable walking shoes for the slopes and steps, and sandals that are easy to take off at temples and ghats.

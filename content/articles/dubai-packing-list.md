@@ -60,6 +60,8 @@ If you pack only these, you'll be fine:
 
 ## What to wear in Dubai
 
+What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#dubai) for day and night temperatures and an outfit list by month.
+
 Dubai's official tourism site, Visit Dubai, says most clothes are fine in the city, with a few rules:
 
 - **Swimwear only at the beach and the pool.** It isn't right for malls or business areas.

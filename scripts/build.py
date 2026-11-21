@@ -24,6 +24,7 @@ import hindi_tools
 import more_tools
 import pack_maker
 import gift_finder
+import what_to_wear
 import pick_art
 from common import IST, ROOT, amazon_link, load_config, load_deals
 
@@ -2915,6 +2916,7 @@ def build():
         TOOLS.append(("packing/index.html", "Packing checklists", "Free checklist", "Packing checklists for every trip",
                       "Weekend, wedding, hills, beach, train or abroad: tick off what to pack, with quantities.",
                       "Start packing", "check", "travel-gear", "packed-suitcase"))
+    what_to_wear.register(sys.modules[__name__])  # what-to-wear helper, next to the packing tools
 
     # Home
     cat_tiles = "".join(
@@ -3181,6 +3183,7 @@ def build():
     gift_finder.build(sys.modules[__name__], cfg, deals_by_asin, pages, lastmod)  # after the gift guides, so its links can be checked
     if HINDI_PAGES:
         hindi_tools.build_late(sys.modules[__name__], cfg, deals_by_asin, pages, lastmod)  # Hindi packing list maker and gift finder
+    what_to_wear.build(sys.modules[__name__], cfg, deals_by_asin, pages, lastmod)  # after guides and trips, so its links can be checked
 
     # Info pages
     name = e(cfg["site_name"])

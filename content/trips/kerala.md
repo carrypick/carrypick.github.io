@@ -112,6 +112,8 @@ Compare hotels and homestays for your dates on these sites:
 
 ## What to pack for Kerala in winter
 
+What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#kerala) for day and night temperatures and an outfit list by month.
+
 - Light cotton clothes, a hat and sunscreen for the coast. See our [sunscreen guide](../guides/travel-sunscreen-guide.html).
 - A warm jacket for Munnar, where nights can be close to freezing.
 - Modest clothes for temples and churches.

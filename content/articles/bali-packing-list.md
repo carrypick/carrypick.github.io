@@ -61,6 +61,8 @@ If you pack only these, you'll be fine:
 
 ## Clothes
 
+What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#bali) for day and night temperatures and an outfit list by month.
+
 - **Cotton, linen or quick-dry fabric.** In the rainy season, clothes that dry overnight save your trip.
 - **Shorts, T-shirts, dresses and skirts** are normal at the beaches and in Seminyak, Kuta and Canggu.
 - **One temple outfit.** See the temple rules below.

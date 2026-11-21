@@ -85,6 +85,8 @@ Compare hotels and resorts for your dates. Many people stay two or three nights 
 
 ## What to wear and pack for Andaman
 
+What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#andaman) for day and night temperatures and an outfit list by month.
+
 Andaman is hot and humid, with sudden showers, so pack light. Our [Andaman packing list](../guides/andaman-packing-list.html) has the full list, with outfits for women, men and couples.
 
 - **Clothes:** light cotton or linen, shorts, and a dress or kurta for the evenings. One long-sleeved shirt helps against sun and mosquitoes.

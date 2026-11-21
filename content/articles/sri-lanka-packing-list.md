@@ -79,6 +79,8 @@ For other temples, Sri Lanka Tourism says to dress respectfully, cover your shou
 
 ## Clothes
 
+What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#sri-lanka) for day and night temperatures and an outfit list by month.
+
 - **Cotton and linen.** They stay cool in the coastal heat and humidity, and dry fast after rain.
 - **Shorts, T-shirts, dresses and skirts** are normal at the beaches and in beach towns.
 - **One or two temple outfits** that cover shoulders and legs, for Kandy, Anuradhapura, Polonnaruwa and Dambulla.

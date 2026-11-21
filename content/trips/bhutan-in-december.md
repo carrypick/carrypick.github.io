@@ -113,6 +113,8 @@ Most visitors stay in Thimphu and Paro, and one or two nights in Punakha. Compar
 
 ## What to wear in Bhutan in December
 
+What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#bhutan) for day and night temperatures and an outfit list by month.
+
 - **Layers:** thermals, a full-sleeve top, a sweater or fleece, and a warm jacket. Take layers off in the midday sun.
 - **For mornings, evenings and the passes:** a woollen cap, gloves, a neck warmer and woollen socks.
 - **For dzongs, temples and festivals:** long sleeves and long trousers or a long skirt. Take off your cap inside, and your shoes in temples.

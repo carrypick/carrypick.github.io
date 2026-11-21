@@ -1,0 +1,1200 @@
+{
+ "updated": "2026-11-21",
+ "about": "Weather numbers are copied from our own trip guides and packing lists, with each guide's source and checked date. Never add a month we have no numbers for.",
+ "months": [
+  [
+   "jan",
+   "January"
+  ],
+  [
+   "feb",
+   "February"
+  ],
+  [
+   "mar",
+   "March"
+  ],
+  [
+   "apr",
+   "April"
+  ],
+  [
+   "may",
+   "May"
+  ],
+  [
+   "jun",
+   "June"
+  ],
+  [
+   "jul",
+   "July"
+  ],
+  [
+   "aug",
+   "August"
+  ],
+  [
+   "sep",
+   "September"
+  ],
+  [
+   "oct",
+   "October"
+  ],
+  [
+   "nov",
+   "November"
+  ],
+  [
+   "dec",
+   "December"
+  ]
+ ],
+ "bands": [
+  {
+   "id": "freezing",
+   "below": 5,
+   "label": "Below 5 °C",
+   "say": "freezing to very cold",
+   "day": [
+    "thermals",
+    "sweater",
+    "heavy-jacket"
+   ],
+   "night": [
+    "thermals",
+    "heavy-jacket",
+    "cap-gloves",
+    "wool-socks"
+   ],
+   "shoes": [
+    "warm-shoes"
+   ]
+  },
+  {
+   "id": "cold",
+   "below": 15,
+   "label": "5–15 °C",
+   "say": "cold",
+   "day": [
+    "full-sleeve",
+    "sweater"
+   ],
+   "night": [
+    "sweater",
+    "warm-jacket"
+   ],
+   "shoes": [
+    "walking-shoes"
+   ]
+  },
+  {
+   "id": "mild",
+   "below": 25,
+   "label": "15–25 °C",
+   "say": "mild",
+   "day": [
+    "tshirts",
+    "light-layer"
+   ],
+   "night": [
+    "light-layer"
+   ],
+   "shoes": [
+    "walking-shoes"
+   ]
+  },
+  {
+   "id": "hot",
+   "below": null,
+   "label": "25 °C and above",
+   "say": "warm to hot",
+   "day": [
+    "light-cotton",
+    "sun-hat"
+   ],
+   "night": [
+    "light-evening"
+   ],
+   "shoes": [
+    "sandals",
+    "walking-shoes"
+   ],
+   "extras": [
+    "sunglasses",
+    "sunscreen"
+   ]
+  }
+ ],
+ "rules": "Day clothes follow the warmest day of the month and evening clothes the coldest night, across the places we list. Where a guide gives only a range (Manali), day clothes follow the middle of the range. Shoes follow the night band when it is below 5 °C, else the day band. Rain of rain.min_mm or more in a month adds the rain extras, unless snow is possible; a snow note adds the snow extras.",
+ "rain": {
+  "min_mm": 60,
+  "extras": [
+   "rain-poncho",
+   "phone-pouch",
+   "quick-dry"
+  ]
+ },
+ "snow": {
+  "extras": [
+   "waterproof-shoes",
+   "cap-gloves",
+   "sunglasses"
+  ]
+ },
+ "items": {
+  "thermals": {
+   "label": "Thermal top and bottom, to wear under your clothes",
+   "picks": [
+    "B01MQJJCD1",
+    "B0BH4XLXPX"
+   ],
+   "short": "thermals"
+  },
+  "sweater": {
+   "label": "A sweater or fleece",
+   "short": "a sweater or fleece"
+  },
+  "heavy-jacket": {
+   "label": "A padded or puffer jacket, ideally with a hood",
+   "picks": [
+    "B0CGHZF9Z1",
+    "B07V4DCFH8"
+   ],
+   "short": "a puffer jacket"
+  },
+  "warm-jacket": {
+   "label": "A warm jacket for mornings and evenings",
+   "picks": [
+    "B0CGHZF9Z1",
+    "B07V4DCFH8"
+   ],
+   "short": "a warm jacket"
+  },
+  "cap-gloves": {
+   "label": "A woollen cap, gloves and a neck warmer",
+   "picks": [
+    "B08L6QPD8N"
+   ],
+   "short": "cap and gloves"
+  },
+  "wool-socks": {
+   "label": "Woollen socks, and warm sleepwear",
+   "short": "woollen socks"
+  },
+  "full-sleeve": {
+   "label": "Full-sleeve tops, and jeans or trousers",
+   "short": "full sleeves"
+  },
+  "tshirts": {
+   "label": "T-shirts or shirts, and comfortable trousers",
+   "short": "T-shirts"
+  },
+  "light-layer": {
+   "label": "A light jacket, sweater or shawl",
+   "short": "a light jacket or shawl"
+  },
+  "light-cotton": {
+   "label": "Light cotton or linen clothes: T-shirts, shirts, shorts, dresses",
+   "short": "light cotton"
+  },
+  "light-evening": {
+   "label": "Light clothes; a thin layer for air-conditioned rooms",
+   "short": "light clothes"
+  },
+  "sun-hat": {
+   "label": "A cap or sun hat",
+   "short": "a cap or hat"
+  },
+  "warm-shoes": {
+   "label": "Warm, closed shoes or boots with a good grip",
+   "picks": [
+    "B0BJ7L6V4H"
+   ],
+   "short": "warm boots"
+  },
+  "waterproof-shoes": {
+   "label": "Waterproof shoes with a good grip, for snow and slush",
+   "picks": [
+    "B0CLWBZQKL",
+    "B0DK2RRQD2"
+   ],
+   "short": "waterproof shoes"
+  },
+  "walking-shoes": {
+   "label": "Comfortable walking shoes",
+   "picks": [
+    "B09RPDCKZC",
+    "B07VY4YY61"
+   ],
+   "short": "walking shoes"
+  },
+  "sandals": {
+   "label": "Sandals or flip-flops",
+   "picks": [
+    "B075G5HC8P",
+    "B0BRL1WYPH"
+   ],
+   "short": "sandals"
+  },
+  "sunglasses": {
+   "label": "Sunglasses with UV protection",
+   "picks": [
+    "B08VGMBLQW",
+    "B074PYMMCQ",
+    "B07FM7TPPY"
+   ],
+   "short": "sunglasses"
+  },
+  "sunscreen": {
+   "label": "Sunscreen, SPF 30 or more",
+   "picks": [
+    "B09FPS9D5T"
+   ],
+   "short": "sunscreen"
+  },
+  "rain-poncho": {
+   "label": "A rain poncho or light rain jacket",
+   "picks": [
+    "B09XJ2D8VM"
+   ],
+   "short": "a poncho"
+  },
+  "phone-pouch": {
+   "label": "A waterproof phone pouch",
+   "picks": [
+    "B094JBDRKX"
+   ],
+   "short": "a phone pouch"
+  },
+  "quick-dry": {
+   "label": "Quick-dry clothes and a spare pair of socks",
+   "short": "quick-dry clothes"
+  }
+ },
+ "places": [
+  {
+   "slug": "manali",
+   "name": "Manali",
+   "where": "india",
+   "guide": "trips/manali.html",
+   "packing": "packing/hills.html",
+   "more": [
+    [
+     "guides/what-to-wear-in-manali-in-december.html",
+     "What to wear in Manali in December"
+    ]
+   ],
+   "spots": [
+    {
+     "name": "Manali",
+     "months": {
+      "dec": {
+       "day": 17,
+       "night": -3
+      },
+      "jan": {
+       "day": 16,
+       "night": -6
+      }
+     }
+    }
+   ],
+   "snow": {
+    "dec": "Possible from December to February, but not every year",
+    "jan": "Possible from December to February, but not every year"
+   },
+   "note": "The weather can turn from warm to snowy within minutes, so carry warm layers every day. Himachal Tourism says nights can fall below −5 °C.",
+   "source": {
+    "label": "Incredible India's ranges, as given in our Manali guide",
+    "checked": "2026-11-03"
+   },
+   "range": true
+  },
+  {
+   "slug": "shimla",
+   "name": "Shimla",
+   "where": "india",
+   "guide": "trips/shimla-in-december.html",
+   "packing": "packing/hills.html",
+   "spots": [
+    {
+     "name": "Shimla",
+     "months": {
+      "dec": {
+       "day": 12,
+       "night": 4,
+       "rain_mm": 21
+      },
+      "jan": {
+       "day": 9,
+       "night": 2,
+       "rain_mm": 53
+      },
+      "feb": {
+       "day": 10,
+       "night": 2,
+       "rain_mm": 64
+      }
+     }
+    }
+   ],
+   "snow": {
+    "dec": "Possible, usually from late December. More likely in January and February",
+    "jan": "More likely in January and February than in December",
+    "feb": "More likely in January and February than in December"
+   },
+   "note": "Some nights are far colder than the average, usually clear nights just after snow.",
+   "source": {
+    "label": "IMD Shimla averages (1971–2000)",
+    "checked": "2026-11-16",
+    "url": "https://mausam.imd.gov.in/shimla/mcdata/shimla_dec.pdf"
+   }
+  },
+  {
+   "slug": "kashmir",
+   "name": "Kashmir",
+   "where": "india",
+   "guide": "trips/kashmir-in-december.html",
+   "packing": "packing/hills.html",
+   "spots": [
+    {
+     "name": "Srinagar",
+     "months": {
+      "dec": {
+       "day": 10,
+       "night": -1,
+       "rain_mm": 46
+      }
+     }
+    },
+    {
+     "name": "Gulmarg",
+     "months": {
+      "dec": {
+       "day": 4,
+       "night": -5,
+       "rain_mm": 104
+      }
+     }
+    }
+   ],
+   "snow": {
+    "dec": "Gulmarg often gets snow in December, but some early winters are dry"
+   },
+   "note": "Chillai Kalan, the 40 coldest days of the Kashmir winter, starts on 21 December. Lakes and taps can freeze.",
+   "source": {
+    "label": "IMD averages for Srinagar and Gulmarg (1981–2010)",
+    "checked": "2026-11-15",
+    "url": "https://city.imd.gov.in/citywx/extreme/DEC/srinagar2.htm"
+   }
+  },
+  {
+   "slug": "darjeeling",
+   "name": "Darjeeling",
+   "where": "india",
+   "guide": "trips/darjeeling-in-december.html",
+   "packing": "packing/hills.html",
+   "spots": [
+    {
+     "name": "Darjeeling",
+     "months": {
+      "dec": {
+       "day": 14,
+       "night": 4,
+       "rain_mm": 3
+      },
+      "jan": {
+       "day": 11,
+       "night": 2,
+       "rain_mm": 11
+      },
+      "feb": {
+       "day": 12,
+       "night": 3,
+       "rain_mm": 11
+      }
+     }
+    }
+   ],
+   "note": "Tiger Hill at dawn is colder than the town, so wear your warmest layers for the sunrise.",
+   "source": {
+    "label": "IMD averages (1991–2020), as tabled on Wikipedia",
+    "checked": "2026-11-16",
+    "url": "https://en.wikipedia.org/wiki/Darjeeling"
+   },
+   "snow_note": {
+    "dec": "Rare in Darjeeling town. Sandakphu, higher up, gets snow most winters",
+    "jan": "Rare in Darjeeling town. Sandakphu, higher up, gets snow most winters",
+    "feb": "Rare in Darjeeling town. Sandakphu, higher up, gets snow most winters"
+   }
+  },
+  {
+   "slug": "ooty",
+   "name": "Ooty",
+   "where": "india",
+   "guide": "trips/ooty-in-december.html",
+   "packing": "packing/hills.html",
+   "spots": [
+    {
+     "name": "Ooty",
+     "months": {
+      "dec": {
+       "day": 21,
+       "night": 7,
+       "rain_mm": 50
+      },
+      "jan": {
+       "day": 21,
+       "night": 6.5,
+       "rain_mm": 5
+      },
+      "feb": {
+       "day": 22,
+       "night": 7,
+       "rain_mm": 5
+      }
+     }
+    }
+   ],
+   "note": "Days are mild, but mornings and nights can fall to near 0 °C.",
+   "source": {
+    "label": "IMD averages (1991–2020), as tabled on Wikipedia",
+    "checked": "2026-11-18",
+    "url": "https://en.wikipedia.org/wiki/Ooty"
+   },
+   "snow_note": {
+    "dec": "No snow, but you may see ground frost on cold mornings",
+    "jan": "No snow, but you may see ground frost on cold mornings",
+    "feb": "No snow"
+   }
+  },
+  {
+   "slug": "rishikesh",
+   "name": "Rishikesh",
+   "where": "india",
+   "guide": "trips/rishikesh-in-december.html",
+   "packing": "packing/weekend.html",
+   "spots": [
+    {
+     "name": "Rishikesh (Dehradun averages)",
+     "months": {
+      "dec": {
+       "day": 22,
+       "night": 8,
+       "rain_mm": 13
+      },
+      "jan": {
+       "day": 20,
+       "night": 7,
+       "rain_mm": 44
+      },
+      "feb": {
+       "day": 23,
+       "night": 9,
+       "rain_mm": 58
+      }
+     }
+    }
+   ],
+   "note": "These are IMD's numbers for Dehradun, the nearest station. Nights in riverside camps can drop close to 5 °C, so bring warm sleepwear.",
+   "source": {
+    "label": "IMD Dehradun climate table (1991–2020)",
+    "checked": "2026-11-16",
+    "url": "https://mausam.imd.gov.in/dehradun/mcdata/DEHRADUN_EXTREME.pdf"
+   },
+   "snow_note": {
+    "dec": "None in Rishikesh",
+    "jan": "None in Rishikesh",
+    "feb": "None in Rishikesh"
+   }
+  },
+  {
+   "slug": "varanasi",
+   "name": "Varanasi",
+   "where": "india",
+   "guide": "trips/varanasi-in-december.html",
+   "packing": "packing/weekend.html",
+   "spots": [
+    {
+     "name": "Varanasi",
+     "months": {
+      "dec": {
+       "day": 24,
+       "night": 10,
+       "rain_mm": 4
+      },
+      "jan": {
+       "day": 22,
+       "night": 9,
+       "rain_mm": 16
+      },
+      "feb": {
+       "day": 27,
+       "night": 12,
+       "rain_mm": 22
+      }
+     }
+    }
+   ],
+   "note": "Dense fog is common from late December to January. Mornings and nights by the river feel cold.",
+   "source": {
+    "label": "IMD averages (1991–2020), as tabled on Wikipedia",
+    "checked": "2026-11-18",
+    "url": "https://en.wikipedia.org/wiki/Varanasi"
+   }
+  },
+  {
+   "slug": "udaipur",
+   "name": "Udaipur",
+   "where": "india",
+   "guide": "trips/udaipur.html",
+   "packing": "packing/weekend.html",
+   "spots": [
+    {
+     "name": "Udaipur",
+     "months": {
+      "dec": {
+       "day": 26,
+       "night": 8,
+       "rain_mm": 2
+      },
+      "jan": {
+       "day": 25,
+       "night": 7,
+       "rain_mm": 2
+      },
+      "feb": {
+       "day": 28,
+       "night": 10,
+       "rain_mm": 3
+      }
+     }
+    }
+   ],
+   "note": "Afternoons are pleasant, but it gets about 17 °C colder after dark. Carry a warm jacket for the evenings.",
+   "source": {
+    "label": "IMD Udaipur averages (1981–2010)",
+    "checked": "2026-11-16",
+    "url": "https://city.imd.gov.in/citywx/extreme/DEC/udaipur2.htm"
+   }
+  },
+  {
+   "slug": "jaipur",
+   "name": "Jaipur",
+   "where": "india",
+   "guide": "trips/jaipur.html",
+   "packing": "packing/index.html",
+   "spots": [
+    {
+     "name": "Jaipur",
+     "months": {
+      "dec": {
+       "day": 24.4,
+       "night": 9.1,
+       "rain_mm": 4
+      },
+      "jan": {
+       "day": 22.5,
+       "night": 7.8,
+       "rain_mm": 6
+      },
+      "feb": {
+       "day": 25.7,
+       "night": 10.7
+      }
+     }
+    }
+   ],
+   "note": "Mornings are the coldest, around 7–8 AM. A few nights each winter drop to 2–3 °C.",
+   "source": {
+    "label": "IMD climate of Jaipur",
+    "checked": "2026-11-03",
+    "url": "https://mausam.imd.gov.in/jaipur/docs/climate.pdf"
+   }
+  },
+  {
+   "slug": "goa",
+   "name": "Goa",
+   "where": "india",
+   "guide": "trips/goa.html",
+   "packing": "guides/goa-packing-list.html",
+   "spots": [
+    {
+     "name": "Goa",
+     "months": {
+      "dec": {
+       "day": 32.9,
+       "night": 20.9,
+       "rain_mm": 2.5
+      },
+      "jan": {
+       "day": 32.4,
+       "night": 20.2,
+       "rain_mm": 1
+      }
+     }
+    }
+   ],
+   "note": "Warm and dry, with pleasant evenings. Wear swimwear at the beach and pool only, with a shirt or kaftan over it in town.",
+   "source": {
+    "label": "IMD averages for Goa",
+    "checked": "2026-11-03",
+    "url": "https://city.imd.gov.in/citywx/extreme/DEC/goa2.htm"
+   }
+  },
+  {
+   "slug": "kerala",
+   "name": "Kerala",
+   "where": "india",
+   "guide": "trips/kerala.html",
+   "packing": "packing/index.html",
+   "spots": [
+    {
+     "name": "Kochi",
+     "months": {
+      "dec": {
+       "day": 33,
+       "night": 22,
+       "rain_text": "A few showers"
+      },
+      "jan": {
+       "day": 34,
+       "night": 21,
+       "rain_text": "Almost dry"
+      }
+     }
+    },
+    {
+     "name": "Alappuzha",
+     "months": {
+      "dec": {
+       "day": 33,
+       "night": 23,
+       "rain_text": "A few showers"
+      },
+      "jan": {
+       "day": 33,
+       "night": 23,
+       "rain_text": "Mostly dry"
+      }
+     }
+    },
+    {
+     "name": "Thiruvananthapuram (Kovalam, Varkala)",
+     "months": {
+      "dec": {
+       "day": 32,
+       "night": 23,
+       "rain_text": "Some showers"
+      },
+      "jan": {
+       "day": 32,
+       "night": 22,
+       "rain_text": "Mostly dry"
+      }
+     }
+    },
+    {
+     "name": "Munnar",
+     "months": {
+      "jan": {
+       "day": 23,
+       "night": [
+        2,
+        9
+       ]
+      }
+     }
+    }
+   ],
+   "note": "The coast is hot, but Munnar in the tea hills has cold nights, and some winters touch 0 °C.",
+   "source": {
+    "label": "IMD averages (1991–2020) for the coast; tea research station records for Munnar, January 2026, as given in our Kerala guide",
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "slug": "andaman",
+   "name": "Andaman",
+   "where": "india",
+   "guide": "trips/andaman-in-december.html",
+   "packing": "guides/andaman-packing-list.html",
+   "spots": [
+    {
+     "name": "Sri Vijaya Puram (Port Blair)",
+     "months": {
+      "dec": {
+       "day": [
+        30,
+        31
+       ],
+       "night": [
+        24,
+        26
+       ],
+       "rain_mm": 113
+      },
+      "jan": {
+       "day": [
+        30,
+        31
+       ],
+       "night": [
+        24,
+        25
+       ],
+       "rain_mm": 46
+      },
+      "feb": {
+       "day": [
+        30,
+        31
+       ],
+       "night": 24,
+       "rain_mm": 15
+      }
+     }
+    }
+   ],
+   "note": "It never gets cold, so you won't need woollens. Storms can come in December, so keep a spare day.",
+   "source": {
+    "label": "IMD Port Blair station and WMO normals",
+    "checked": "2026-11-16",
+    "url": "https://ds.data.jma.go.jp/gmd/tcc/tcc/products/climate/normal/parts/NrmMonth_e.php?stn=43333"
+   }
+  },
+  {
+   "slug": "bhutan",
+   "name": "Bhutan",
+   "where": "abroad",
+   "guide": "trips/bhutan-in-december.html",
+   "packing": "guides/bhutan-packing-list.html",
+   "spots": [
+    {
+     "name": "Paro",
+     "months": {
+      "dec": {
+       "day": 15,
+       "night": 0.5,
+       "rain_text": "Rarely rains"
+      },
+      "jan": {
+       "day": 13,
+       "night": -1
+      }
+     }
+    },
+    {
+     "name": "Thimphu",
+     "months": {
+      "dec": {
+       "day": 17,
+       "night": -1,
+       "rain_text": "Rarely rains"
+      },
+      "jan": {
+       "day": 15,
+       "night": -2
+      }
+     }
+    },
+    {
+     "name": "Punakha",
+     "months": {
+      "dec": {
+       "day": 20,
+       "night": 7,
+       "rain_text": "Rarely rains"
+      },
+      "jan": {
+       "day": 19,
+       "night": 6
+      }
+     }
+    },
+    {
+     "name": "Bumthang (Jakar)",
+     "months": {
+      "dec": {
+       "day": 13,
+       "night": -3,
+       "rain_text": "Rarely rains"
+      },
+      "jan": {
+       "day": 11,
+       "night": -4
+      }
+     }
+    }
+   ],
+   "snow": {
+    "dec": "Possible on the high passes (Dochula, Chele La), not certain in the towns",
+    "jan": "Possible on the high passes (Dochula, Chele La), not certain in the towns"
+   },
+   "note": "Days are sunny and nights are freezing in Paro, Thimphu and Bumthang. Punakha is the warm one. Dress in layers you can take off at noon.",
+   "source": {
+    "label": "NCHM averages, as tabled on Wikipedia",
+    "checked": "2026-11-20",
+    "url": "https://en.wikipedia.org/wiki/Paro,_Bhutan"
+   }
+  },
+  {
+   "slug": "dubai",
+   "name": "Dubai",
+   "where": "abroad",
+   "packing": "guides/dubai-packing-list.html",
+   "spots": [
+    {
+     "name": "Dubai",
+     "months": {
+      "nov": {
+       "day": 31,
+       "night": 18,
+       "rain_mm": 2
+      },
+      "dec": {
+       "day": 26,
+       "night": 15,
+       "rain_mm": 14
+      },
+      "jan": {
+       "day": 24,
+       "night": 14,
+       "rain_mm": 11
+      },
+      "feb": {
+       "day": 25,
+       "night": 15,
+       "rain_mm": 36
+      },
+      "mar": {
+       "day": 28,
+       "night": 17,
+       "rain_mm": 22
+      },
+      "jul": {
+       "day": 41,
+       "night": 29,
+       "rain_text": "Almost none"
+      }
+     }
+    }
+   ],
+   "note": "Cover your shoulders and midriff in public places, and keep swimwear for the beach and pool. Take a warmer jacket for evening desert trips in winter.",
+   "source": {
+    "label": "UAE National Center of Meteorology averages on the WMO's World Weather Information Service",
+    "checked": "2026-11-16",
+    "url": "https://worldweather.wmo.int/en/city.html?cityId=1190"
+   }
+  },
+  {
+   "slug": "thailand",
+   "name": "Thailand",
+   "where": "abroad",
+   "packing": "guides/thailand-packing-list.html",
+   "spots": [
+    {
+     "name": "Bangkok",
+     "months": {
+      "dec": {
+       "day": 31,
+       "night": 21,
+       "rain_mm": 10
+      }
+     }
+    },
+    {
+     "name": "Pattaya",
+     "months": {
+      "dec": {
+       "day": 30,
+       "night": 22,
+       "rain_mm": 6
+      }
+     }
+    },
+    {
+     "name": "Phuket",
+     "months": {
+      "dec": {
+       "day": 32,
+       "night": 24,
+       "rain_mm": 62
+      }
+     }
+    },
+    {
+     "name": "Chiang Mai",
+     "months": {
+      "dec": {
+       "day": 28,
+       "night": 15,
+       "rain_mm": 18
+      }
+     }
+    }
+   ],
+   "note": "The Grand Palace doesn't allow sleeveless, short or see-through tops. Malls, buses and flights are cold, so carry one light layer.",
+   "source": {
+    "label": "Thai Meteorological Department averages on the WMO's World Weather Information Service",
+    "checked": "2026-11-16",
+    "url": "https://worldweather.wmo.int/en/city.html?cityId=233"
+   }
+  },
+  {
+   "slug": "bali",
+   "name": "Bali",
+   "where": "abroad",
+   "packing": "guides/bali-packing-list.html",
+   "spots": [
+    {
+     "name": "Denpasar",
+     "months": {
+      "nov": {
+       "day": 33,
+       "night": 24,
+       "rain_mm": 179
+      },
+      "dec": {
+       "day": 33,
+       "night": 24,
+       "rain_mm": 276
+      },
+      "jan": {
+       "day": 33,
+       "night": 24,
+       "rain_mm": 345
+      },
+      "feb": {
+       "day": 33,
+       "night": 24,
+       "rain_mm": 274
+      },
+      "jul": {
+       "day": 30,
+       "night": 23,
+       "rain_mm": 55
+      },
+      "aug": {
+       "day": 30,
+       "night": 23,
+       "rain_mm": 25
+      }
+     }
+    }
+   ],
+   "note": "Cover your shoulders and knees at temples. Some, like Besakih, require a sarong and sash.",
+   "source": {
+    "label": "BMKG averages for Denpasar on the WMO's World Weather Information Service",
+    "checked": "2026-11-16",
+    "url": "https://worldweather.wmo.int/en/city.html?cityId=649"
+   }
+  },
+  {
+   "slug": "vietnam",
+   "name": "Vietnam",
+   "where": "abroad",
+   "packing": "guides/vietnam-packing-list.html",
+   "spots": [
+    {
+     "name": "Hanoi",
+     "months": {
+      "dec": {
+       "day": 22,
+       "night": 15,
+       "rain_mm": 24
+      }
+     }
+    },
+    {
+     "name": "Da Nang",
+     "months": {
+      "dec": {
+       "day": 25,
+       "night": 21,
+       "rain_mm": 272
+      }
+     }
+    },
+    {
+     "name": "Ho Chi Minh City",
+     "months": {
+      "dec": {
+       "day": 32,
+       "night": 24,
+       "rain_mm": 41
+      }
+     }
+    }
+   ],
+   "note": "Pack for two climates: the north is cool, with lows of about 10 °C in cold spells, and the south is hot.",
+   "source": {
+    "label": "Viet Nam Meteorological and Hydrological Administration averages (1991–2020) on the WMO's World Weather Information Service",
+    "checked": "2026-11-18"
+   }
+  },
+  {
+   "slug": "maldives",
+   "name": "Maldives",
+   "where": "abroad",
+   "packing": "guides/maldives-packing-list.html",
+   "spots": [
+    {
+     "name": "Malé",
+     "months": {
+      "nov": {
+       "day": 30,
+       "night": 25,
+       "rain_mm": 231
+      },
+      "dec": {
+       "day": 30,
+       "night": 25,
+       "rain_mm": 217
+      },
+      "jan": {
+       "day": 30,
+       "night": 26,
+       "rain_mm": 114
+      },
+      "feb": {
+       "day": 31,
+       "night": 26,
+       "rain_mm": 38
+      },
+      "mar": {
+       "day": 31,
+       "night": 26,
+       "rain_mm": 74
+      },
+      "may": {
+       "day": 31,
+       "night": 26,
+       "rain_mm": 219
+      }
+     }
+    }
+   ],
+   "note": "Resorts are relaxed, but cover your shoulders and knees in Malé and on local islands. Take one light layer for the flight.",
+   "source": {
+    "label": "Maldives Meteorological Service averages on the WMO's World Weather Information Service",
+    "checked": "2026-11-18",
+    "url": "https://worldweather.wmo.int/en/city.html?cityId=228"
+   }
+  },
+  {
+   "slug": "sri-lanka",
+   "name": "Sri Lanka",
+   "where": "abroad",
+   "packing": "guides/sri-lanka-packing-list.html",
+   "spots": [
+    {
+     "name": "Colombo",
+     "months": {
+      "dec": {
+       "day": 30,
+       "night": 23,
+       "rain_mm": 175
+      }
+     }
+    },
+    {
+     "name": "Galle",
+     "months": {
+      "dec": {
+       "day": 29,
+       "night": 23,
+       "rain_mm": 177
+      }
+     }
+    },
+    {
+     "name": "Kandy",
+     "months": {
+      "dec": {
+       "day": 28,
+       "night": 20,
+       "rain_mm": 196
+      }
+     }
+    },
+    {
+     "name": "Nuwara Eliya",
+     "months": {
+      "dec": {
+       "day": 19,
+       "night": 11,
+       "rain_mm": 196
+      }
+     }
+    },
+    {
+     "name": "Trincomalee",
+     "months": {
+      "dec": {
+       "day": 28,
+       "night": 24,
+       "rain_mm": 365
+      }
+     }
+    }
+   ],
+   "note": "No shorts or sleeveless tops at the Temple of the Tooth in Kandy. Take a warm layer for Nuwara Eliya and the hill train.",
+   "source": {
+    "label": "National Meteorological Centre averages on the WMO's World Weather Information Service",
+    "checked": "2026-11-18",
+    "url": "https://worldweather.wmo.int/en/city.html?cityId=227"
+   }
+  },
+  {
+   "slug": "nepal",
+   "name": "Nepal",
+   "where": "abroad",
+   "packing": "guides/nepal-packing-list.html",
+   "spots": [
+    {
+     "name": "Kathmandu",
+     "months": {
+      "nov": {
+       "day": 24,
+       "night": 8
+      },
+      "dec": {
+       "day": 20,
+       "night": 4
+      },
+      "jan": {
+       "day": 19,
+       "night": 3
+      }
+     }
+    },
+    {
+     "name": "Pokhara",
+     "months": {
+      "nov": {
+       "day": 24,
+       "night": 12
+      },
+      "dec": {
+       "day": 21,
+       "night": 8
+      },
+      "jan": {
+       "day": 20,
+       "night": 7
+      }
+     }
+    }
+   ],
+   "note": "Cover your shoulders and knees at temples, and wear shoes that slip off easily. Hill viewpoints like Nagarkot and Sarangkot are colder at sunrise.",
+   "source": {
+    "label": "Nepal Department of Hydrology and Meteorology averages (1991–2020), as tabled on Wikipedia",
+    "checked": "2026-11-19",
+    "url": "https://en.wikipedia.org/wiki/Kathmandu"
+   }
+  }
+ ]
+}

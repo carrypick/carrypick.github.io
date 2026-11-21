@@ -576,3 +576,12 @@ body { top: 0 !important; }
 .cite-snip { display: block; width: 100%; box-sizing: border-box; margin: 4px 0 10px; padding: 8px; font: 0.85rem/1.4 ui-monospace, Menlo, monospace; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; resize: vertical; }
 .cite-box details ul { padding-left: 18px; overflow-wrap: anywhere; }
 .cite-box summary { cursor: pointer; font-weight: 600; }
+
+/* What-to-wear helper */
+.ww-weather { padding-left: 20px; margin: 0 0 8px; }
+.ww-weather li { margin-bottom: 4px; }
+.ww-groups { display: grid; gap: 4px 18px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.ww-groups h4 { margin: 12px 0 4px; font-size: 0.95rem; }
+.ww-list { margin: 0; padding-left: 20px; }
+.ww-title:focus { outline: none; }
+.ww-table td:last-child { min-width: 180px; }

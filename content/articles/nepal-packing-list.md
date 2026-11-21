@@ -80,6 +80,8 @@ The Embassy of India in Kathmandu says only two documents are valid for Indians 
 
 ## What to wear in Nepal in November, December and January
 
+What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#nepal) for day and night temperatures and an outfit list by month.
+
 - **November:** days are about 24 °C. Light clothes by day, and a sweater or fleece for nights near 8 °C in Kathmandu.
 - **December and January:** layers. Thermals, a full-sleeve top, a sweater, and a warm jacket for nights of 3–4 °C in Kathmandu.
 - **A cap, gloves and a neck warmer** for early starts, like a Nagarkot or Sarangkot sunrise.

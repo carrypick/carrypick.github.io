@@ -58,6 +58,8 @@ If you pack only these, you'll be fine:
 
 ## Clothes
 
+What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#thailand) for day and night temperatures and an outfit list by month.
+
 - **Cotton and linen.** They dry fast and stay cool in the heat and humidity.
 - **Shorts, T-shirts, dresses and skirts** are normal in the cities, at the beaches and on the islands.
 - **One temple outfit.** Long trousers or a long skirt and a top with sleeves. See the temple rules below.

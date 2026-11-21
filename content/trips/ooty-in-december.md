@@ -132,6 +132,8 @@ Compare hotels, cottages and homestays for your dates. Ask if the room has a hea
 
 ## What to wear in Ooty in December
 
+What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#ooty) for day and night temperatures and an outfit list by month.
+
 Ooty's days are mild, but mornings and nights can fall to near 0 °C.
 
 - **Layers:** a thermal or full-sleeve top, a sweater or fleece, and a warm jacket for evenings and early mornings.

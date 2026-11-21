@@ -83,6 +83,8 @@ Book a hotel or houseboat with heating and hot water. Compare stays for your dat
 
 ## What to wear in Kashmir in December
 
+What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#kashmir) for day and night temperatures and an outfit list by month.
+
 Dress in layers, as for Manali, but plan for colder nights, especially in Gulmarg and Pahalgam:
 
 | Layer | What to wear |

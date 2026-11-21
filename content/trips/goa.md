@@ -145,6 +145,8 @@ Prefer a ready-made trip? Compare tour packages, and check what each one include
 
 ## What to pack for Goa
 
+What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#goa) for day and night temperatures and an outfit list by month.
+
 See our full [Goa packing list](../guides/goa-packing-list.html), with lists for women, men, couples and kids. The basics:
 
 - Light cotton clothes, swimwear and one light sweater or shawl for the evening.

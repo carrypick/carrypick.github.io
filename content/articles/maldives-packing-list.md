@@ -60,6 +60,8 @@ If you pack only these, you'll be fine:
 
 ## What to wear in the Maldives
 
+What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#maldives) for day and night temperatures and an outfit list by month.
+
 - **At resorts:** dress is relaxed. Shorts, T-shirts, dresses and swimwear are normal. The state airline Maldivian says T-shirts and cotton clothes are most suitable.
 - **In Malé and on local islands:** dress modestly. Maldivian recommends that women respect local customs and wear modest clothing in Malé and on other inhabited islands. Cover your shoulders and knees, and put a T-shirt and shorts or a kaftan over your swimwear away from the beach.
 - **Staying in a guesthouse on a local island?** Ask your guesthouse where you can swim in swimwear.

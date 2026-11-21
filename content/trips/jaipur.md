@@ -115,6 +115,8 @@ Rajasthan Tourism advises staying in approved hotels. Compare hotels and homesta
 
 ## What to pack for Jaipur in winter
 
+What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#jaipur) for day and night temperatures and an outfit list by month.
+
 - A warm jacket or sweater, plus light layers for the afternoon.
 - Comfortable [walking shoes](../guides/travel-shoes-guide.html): forts mean slopes and steps.
 - Sunglasses, a cap and [sunscreen](../guides/travel-sunscreen-guide.html).

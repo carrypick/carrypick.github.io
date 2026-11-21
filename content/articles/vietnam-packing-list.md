@@ -80,6 +80,8 @@ A light scarf or stole in your bag covers your shoulders when you need it.
 
 ## What to wear in Vietnam in December
 
+What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#vietnam) for day and night temperatures and an outfit list by month.
+
 December needs clothes for three kinds of weather:
 
 - **Hanoi, Ha Long and Ninh Binh:** cool, misty and mostly dry. Hanoi is about 22 °C in the day and 15 °C at night. Pack jeans or trousers, full-sleeved tops and a light jacket.

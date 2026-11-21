@@ -106,6 +106,8 @@ Compare hotels and guest houses for your dates. Places near the ghats save you l
 
 ## What to wear in Varanasi in December
 
+What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#varanasi) for day and night temperatures and an outfit list by month.
+
 Varanasi doesn't get freezing like the hills, but mornings and nights near 9–10 °C feel cold by the river.
 
 - **Layers:** a light thermal or full-sleeve top, a sweater or fleece, and a medium jacket or shawl for mornings, evenings and boat rides.
