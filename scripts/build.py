@@ -2642,7 +2642,7 @@ def build_tools(cfg, deals, pages, lastmod):
 <h2>Typical laptop sizes</h2>
 <div class="table-wrap"><table class="compare"><thead><tr><th>Screen size</th><th>Typical laptop size (width x depth)</th></tr></thead><tbody>{rows}</tbody></table></div>
 <p class="checked">Real laptops vary by a few cm. Measure yours, or check its size on the maker's website.</p>
-<p>More help: <a href="../guides/laptop-backpack-guide.html">how to choose a laptop backpack</a>.</p>
+<p>More help: <a href="../guides/laptop-backpack-guide.html">how to choose a laptop backpack</a>, <a href="../guides/15-6-inch-laptop-backpack-size.html">15.6 inch laptop backpack size</a> and <a href="../guides/school-bag-size-chart.html">school bag size by class</a>.</p>
 {{faq}}
 {tool_pills("../", path)}
 </article></div>

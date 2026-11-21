@@ -13,7 +13,7 @@ A good backpack can last you four years of college or many years of office commu
 Check your laptop's screen size. It's written in the product details, or you can measure the screen diagonally. Most laptops in India are 14 or 15.6 inches, and gaming laptops are often 16 or 17 inches.
 
 - Pick a bag whose laptop sleeve is the **same size or bigger** than your laptop.
-- A 15.6 inch sleeve fits most 14 and 15.6 inch laptops.
+- A 15.6 inch sleeve fits most 14 and 15.6 inch laptops. See our [15.6 inch laptop backpack size guide](15-6-inch-laptop-backpack-size.html).
 - If you have a 17 inch laptop, many "15.6 inch" bags will not close properly. Look for a sleeve made for 17 inches.
 
 ## 2. Choose the right size in litres
