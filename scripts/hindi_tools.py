@@ -127,6 +127,8 @@ def register(B):
     if PACK_FILE.exists() and (ROOT / "data" / "packing.json").exists():
         B.HINDI_PAGES[PACK_EN] = PACK_PATH
         TOOLS_HI.append((PACK_PATH, "पैकिंग लिस्ट मेकर"))
+    import what_to_wear_hi
+    what_to_wear_hi.register(B, TOOLS_HI, PAIRS)  # hi/what-to-wear.html, built by what_to_wear.build()
 
 
 def build_all(B, cfg, deals, pages, lastmod):

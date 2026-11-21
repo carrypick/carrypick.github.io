@@ -338,10 +338,12 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
     inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span>What to wear</nav>
       <h1>{e(title)}</h1>
       <p class="muted small">A free tool for {n_places} places. Updated {B.fmt_date(updated)}</p>"""
+    hindi_line = ('<p class="small"><a href="../hi/what-to-wear.html" lang="hi" hreflang="hi">यह टूल हिंदी में</a></p>\n'
+                  if B.HINDI_PAGES.get(PATH) == "hi/what-to-wear.html" else "")
     head = B.page_head("clothing", f'<div class="media media-tile tint-clothing">{B.icon("jacket", "icon media-icon")}</div>', inner, "../")
     body = f"""{head}
 <div class="wrap"><article class="guide">
-<p class="pm-nojs" id="ww-nojs">Turn on JavaScript for the quick picker, or find your place in the table below.</p>
+{hindi_line}<p class="pm-nojs" id="ww-nojs">Turn on JavaScript for the quick picker, or find your place in the table below.</p>
 <form class="checker ww" id="ww" onsubmit="return false" hidden>
 <div class="checker-fields"><label>Where are you going?<select id="ww-place">{place_opts}</select></label>
 <label>Month<select id="ww-month"></select></label>
@@ -383,3 +385,5 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
                                       [B.tool_article(cfg, seo, desc, PATH, updated, updated), crumbs, faq_schema, app],
                                       og_type="article", photo="snow-jacket")))
     lastmod[PATH] = updated
+    import what_to_wear_hi
+    what_to_wear_hi.build(B, cfg, pages, lastmod, data, cases, months_of, pool, sys.modules[__name__])

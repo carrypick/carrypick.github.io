@@ -1,0 +1,227 @@
+{
+ "matched": "2026-11-21",
+ "about": "Hindi words for hi/what-to-wear.html, built by scripts/what_to_wear_hi.py from data/what_to_wear.json. 'text' maps each English note, snow line and name to Hindi; when matched is older than what_to_wear.json's updated date, the build warns.",
+ "months": {
+  "jan": "जनवरी",
+  "feb": "फ़रवरी",
+  "mar": "मार्च",
+  "apr": "अप्रैल",
+  "may": "मई",
+  "jun": "जून",
+  "jul": "जुलाई",
+  "aug": "अगस्त",
+  "sep": "सितंबर",
+  "oct": "अक्टूबर",
+  "nov": "नवंबर",
+  "dec": "दिसंबर"
+ },
+ "bands": {
+  "freezing": "5 °C से कम",
+  "cold": "5–15 °C",
+  "mild": "15–25 °C",
+  "hot": "25 °C और ऊपर"
+ },
+ "items": {
+  "thermals": {
+   "label": "थर्मल टॉप और लोअर, कपड़ों के नीचे पहनने के लिए",
+   "short": "थर्मल"
+  },
+  "sweater": {
+   "label": "स्वेटर या फ़्लीस",
+   "short": "स्वेटर या फ़्लीस",
+   "for": {
+    "women": "स्वेटर, कार्डिगन या फ़्लीस, और एक गर्म शॉल",
+    "men": "स्वेटर, स्वेटशर्ट या फ़्लीस"
+   }
+  },
+  "heavy-jacket": {
+   "label": "पैडेड या पफ़र जैकेट, हो सके तो हुड वाली",
+   "short": "पफ़र जैकेट"
+  },
+  "warm-jacket": {
+   "label": "सुबह-शाम के लिए गर्म जैकेट",
+   "short": "गर्म जैकेट"
+  },
+  "cap-gloves": {
+   "label": "ऊनी टोपी, दस्ताने और नेक वॉर्मर",
+   "short": "टोपी और दस्ताने"
+  },
+  "wool-socks": {
+   "label": "ऊनी मोज़े, और गर्म नाइटवियर",
+   "short": "ऊनी मोज़े"
+  },
+  "full-sleeve": {
+   "label": "पूरी बाँह के टॉप, और जींस या ट्राउज़र",
+   "short": "पूरी बाँह के कपड़े",
+   "for": {
+    "women": "पूरी बाँह के कुर्ते या टॉप, लेगिंग, जींस या गर्म ट्राउज़र के साथ",
+    "men": "पूरी बाँह की शर्ट या टी-शर्ट, और जींस या चिनोज़"
+   }
+  },
+  "tshirts": {
+   "label": "टी-शर्ट या शर्ट, और आरामदायक ट्राउज़र",
+   "short": "टी-शर्ट",
+   "for": {
+    "women": "टॉप, कुर्ती या टी-शर्ट, जींस, प्लाज़ो या लेगिंग के साथ",
+    "men": "टी-शर्ट या शर्ट, जींस या चिनोज़ के साथ"
+   }
+  },
+  "light-layer": {
+   "label": "हल्की जैकेट, स्वेटर या शॉल",
+   "short": "हल्की परत",
+   "for": {
+    "women": "शॉल या स्टोल, या हल्का कार्डिगन",
+    "men": "हल्की जैकेट, स्वेटशर्ट या ओवरशर्ट"
+   }
+  },
+  "light-cotton": {
+   "label": "हल्के सूती या लिनन कपड़े: टी-शर्ट, शर्ट, शॉर्ट्स, ड्रेस",
+   "short": "हल्के सूती कपड़े",
+   "for": {
+    "women": "हल्के सूती कपड़े: कुर्ते, ढीले टॉप, प्लाज़ो, सूती ड्रेस, और धूप व मंदिरों के लिए स्टोल",
+    "men": "हल्के सूती या लिनन कपड़े: शर्ट, टी-शर्ट, चिनोज़ और शॉर्ट्स"
+   }
+  },
+  "light-evening": {
+   "label": "हल्के कपड़े; AC वाले कमरों के लिए एक पतली परत",
+   "short": "हल्के कपड़े",
+   "for": {
+    "women": "हल्का कुर्ता या ड्रेस, और AC वाले कमरों के लिए स्टोल",
+    "men": "सूती शर्ट और हल्की ट्राउज़र, और AC वाले कमरों के लिए एक पतली परत"
+   }
+  },
+  "sun-hat": {
+   "label": "कैप या धूप वाली हैट",
+   "short": "कैप"
+  },
+  "warm-shoes": {
+   "label": "अच्छी ग्रिप वाले गर्म, बंद जूते या बूट",
+   "short": "गर्म बूट"
+  },
+  "waterproof-shoes": {
+   "label": "बर्फ़ और कीचड़ के लिए अच्छी ग्रिप वाले वॉटरप्रूफ़ जूते",
+   "short": "वॉटरप्रूफ़ जूते"
+  },
+  "walking-shoes": {
+   "label": "आरामदायक वॉकिंग शूज़",
+   "short": "वॉकिंग शूज़"
+  },
+  "sandals": {
+   "label": "सैंडल या चप्पल",
+   "short": "सैंडल"
+  },
+  "sunglasses": {
+   "label": "UV सुरक्षा वाला धूप का चश्मा",
+   "short": "धूप का चश्मा"
+  },
+  "sunscreen": {
+   "label": "सनस्क्रीन, SPF 30 या ज़्यादा",
+   "short": "सनस्क्रीन"
+  },
+  "rain-poncho": {
+   "label": "रेन पोंचो या हल्की रेन जैकेट",
+   "short": "रेन पोंचो"
+  },
+  "phone-pouch": {
+   "label": "वॉटरप्रूफ़ फ़ोन पाउच",
+   "short": "फ़ोन पाउच"
+  },
+  "quick-dry": {
+   "label": "जल्दी सूखने वाले कपड़े और मोज़ों की एक एक्स्ट्रा जोड़ी",
+   "short": "जल्दी सूखने वाले कपड़े"
+  }
+ },
+ "text": {
+  "A few showers": "कुछ बौछारें",
+  "Almost dry": "लगभग सूखा",
+  "Almost none": "लगभग नहीं",
+  "Mostly dry": "ज़्यादातर सूखा",
+  "Rarely rains": "बारिश कम ही होती है",
+  "Some showers": "कुछ बौछारें",
+  "Afternoons are pleasant, but it gets about 17 °C colder after dark. Carry a warm jacket for the evenings.": "दोपहर सुहानी होती है, पर अँधेरा होते ही तापमान लगभग 17 °C गिर जाता है। शाम के लिए गर्म जैकेट साथ रखें।",
+  "Chillai Kalan, the 40 coldest days of the Kashmir winter, starts on 21 December. Lakes and taps can freeze.": "चिल्लई कलां, कश्मीर की सर्दी के सबसे ठंडे 40 दिन, 21 दिसंबर से शुरू होते हैं। झीलें और नल जम सकते हैं।",
+  "Cover your shoulders and knees at temples, and wear shoes that slip off easily. Hill viewpoints like Nagarkot and Sarangkot are colder at sunrise.": "मंदिरों में कंधे और घुटने ढककर रखें, और ऐसे जूते पहनें जो आसानी से उतर जाएँ। नगरकोट और सारंगकोट जैसे व्यू पॉइंट सूर्योदय के समय ज़्यादा ठंडे होते हैं।",
+  "Cover your shoulders and knees at temples. Some, like Besakih, require a sarong and sash.": "मंदिरों में कंधे और घुटने ढककर रखें। बेसाकिह जैसे कुछ मंदिरों में सारोंग और कमरबंद ज़रूरी है।",
+  "Cover your shoulders and midriff in public places, and keep swimwear for the beach and pool. Take a warmer jacket for evening desert trips in winter.": "सार्वजनिक जगहों पर कंधे और पेट ढककर रखें, और स्विमवियर सिर्फ़ बीच और पूल पर पहनें। सर्दियों में शाम की डेज़र्ट ट्रिप के लिए गर्म जैकेट ले जाएँ।",
+  "Days are mild, but mornings and nights can fall to near 0 °C.": "दिन सुहाने होते हैं, पर सुबह और रात तापमान 0 °C के पास तक गिर सकता है।",
+  "Days are sunny and nights are freezing in Paro, Thimphu and Bumthang. Punakha is the warm one. Dress in layers you can take off at noon.": "पारो, थिम्पू और बुमथांग में दिन धूप वाले और रातें बर्फ़ीली होती हैं। पुनाखा गर्म रहता है। ऐसी परतें पहनें जो दोपहर में उतार सकें।",
+  "Dense fog is common from late December to January. Mornings and nights by the river feel cold.": "दिसंबर के आख़िर से जनवरी तक घना कोहरा आम है। नदी किनारे सुबह और रात ठंडी लगती हैं।",
+  "Gulmarg is much colder than Srinagar, so pack your warmest layers for a day trip there.": "गुलमर्ग श्रीनगर से काफ़ी ठंडा है, इसलिए वहाँ की डे ट्रिप के लिए अपने सबसे गर्म कपड़े रखें।",
+  "Gulmarg nights are still below freezing in March. Gulmarg is much colder than Srinagar, so pack your warmest layers for a day trip there.": "मार्च में भी गुलमर्ग की रातें 0 °C से नीचे रहती हैं। गुलमर्ग श्रीनगर से काफ़ी ठंडा है, इसलिए वहाँ की डे ट्रिप के लिए अपने सबसे गर्म कपड़े रखें।",
+  "Gulmarg nights fall below freezing from November, and Srinagar nights come close to it. Gulmarg is much colder than Srinagar, so pack your warmest layers for a day trip there.": "नवंबर से गुलमर्ग की रातें 0 °C से नीचे चली जाती हैं, और श्रीनगर की रातें भी उसके पास पहुँच जाती हैं। गुलमर्ग श्रीनगर से काफ़ी ठंडा है, इसलिए वहाँ की डे ट्रिप के लिए अपने सबसे गर्म कपड़े रखें।",
+  "Gulmarg often gets snow in December, but some early winters are dry": "गुलमर्ग में दिसंबर में अक्सर बर्फ़ गिरती है, पर कुछ सर्दियों की शुरुआत सूखी रहती है",
+  "It never gets cold, so you won't need woollens. Storms can come in December, so keep a spare day.": "यहाँ कभी ठंड नहीं होती, इसलिए ऊनी कपड़ों की ज़रूरत नहीं। दिसंबर में तूफ़ान आ सकते हैं, इसलिए एक दिन ख़ाली रखें।",
+  "More likely in January and February than in December": "दिसंबर से ज़्यादा जनवरी और फ़रवरी में",
+  "Mornings are the coldest, around 7–8 AM. A few nights each winter drop to 2–3 °C.": "सुबह 7–8 बजे सबसे ठंड होती है। हर सर्दी में कुछ रातें 2–3 °C तक गिर जाती हैं।",
+  "No shorts or sleeveless tops at the Temple of the Tooth in Kandy. Take a warm layer for Nuwara Eliya and the hill train.": "कैंडी के टेम्पल ऑफ़ द टूथ में शॉर्ट्स या बिना बाँह के टॉप नहीं चलते। नुवारा एलिया और हिल ट्रेन के लिए एक गर्म परत ले जाएँ।",
+  "No snow": "बर्फ़ नहीं",
+  "No snow, but you may see ground frost on cold mornings": "बर्फ़ नहीं, पर ठंडी सुबहों में ज़मीन पर पाला दिख सकता है",
+  "None in Rishikesh": "ऋषिकेश में नहीं",
+  "October is Ooty's wettest month and November is wet too, so pack rain gear. Mornings and nights are cool.": "अक्टूबर ऊटी का सबसे बारिश वाला महीना है और नवंबर में भी बारिश होती है, इसलिए रेन गियर रखें। सुबह और रात ठंडी रहती हैं।",
+  "October still gets heavy showers, about 156 mm in the month, so pack for rain as well as sun. Wear swimwear at the beach and pool only, with a shirt or kaftan over it in town.": "अक्टूबर में अब भी तेज़ बौछारें आती हैं, महीने में लगभग 156 mm, इसलिए धूप और बारिश दोनों के लिए पैक करें। स्विमवियर सिर्फ़ बीच और पूल पर पहनें, शहर में उसके ऊपर शर्ट या कफ़्तान डालें।",
+  "Pack for two climates: the north is cool, with lows of about 10 °C in cold spells, and the south is hot.": "दो तरह के मौसम के लिए पैक करें: उत्तर ठंडा है, ठंड के दिनों में रात लगभग 10 °C, और दक्षिण गर्म है।",
+  "Possible from December to February, but not every year": "दिसंबर से फ़रवरी तक हो सकती है, पर हर साल नहीं",
+  "Possible on the high passes (Dochula, Chele La), not certain in the towns": "ऊँचे दर्रों (दोचुला, चेले ला) पर हो सकती है, शहरों में पक्की नहीं",
+  "Possible, usually from late December. More likely in January and February": "हो सकती है, आमतौर पर दिसंबर के आख़िर से। जनवरी और फ़रवरी में ज़्यादा संभावना",
+  "Rare in Darjeeling town. Sandakphu, higher up, gets snow most winters": "दार्जिलिंग शहर में कम ही। ऊपर संदकफू में ज़्यादातर सर्दियों में बर्फ़ गिरती है",
+  "Resorts are relaxed, but cover your shoulders and knees in Malé and on local islands. Take one light layer for the flight.": "रिज़ॉर्ट में कोई रोक-टोक नहीं, पर माले और लोकल आइलैंड पर कंधे और घुटने ढककर रखें। फ़्लाइट के लिए एक हल्की परत ले जाएँ।",
+  "Snowfall is mostly from December to early March, so early March can still bring snow": "बर्फ़ ज़्यादातर दिसंबर से मार्च की शुरुआत तक गिरती है, इसलिए मार्च की शुरुआत में भी बर्फ़ गिर सकती है",
+  "Some nights are far colder than the average, usually clear nights just after snow.": "कुछ रातें औसत से कहीं ज़्यादा ठंडी होती हैं, आमतौर पर बर्फ़ के ठीक बाद की साफ़ रातें।",
+  "Sometimes: IMD counts about 1 to 2 snow days in an average March (1990–2010)": "कभी-कभी: IMD के मुताबिक़ औसत मार्च में 1 से 2 दिन बर्फ़ गिरती है (1990–2010)",
+  "The Grand Palace doesn't allow sleeveless, short or see-through tops. Malls, buses and flights are cold, so carry one light layer.": "ग्रैंड पैलेस में बिना बाँह के, छोटे या पारदर्शी टॉप की इजाज़त नहीं। मॉल, बसें और फ़्लाइट ठंडी होती हैं, इसलिए एक हल्की परत साथ रखें।",
+  "The coast is hot, but Munnar in the tea hills has cold nights, and some winters touch 0 °C.": "तट पर गर्मी है, पर चाय के पहाड़ों वाले मुन्नार की रातें ठंडी हैं, और कुछ सर्दियों में 0 °C तक पहुँच जाती हैं।",
+  "The weather can turn from warm to snowy within minutes, so carry warm layers every day. Himachal Tourism says nights can fall below −5 °C.": "मौसम मिनटों में गर्म से बर्फ़ीला हो सकता है, इसलिए हर दिन गर्म कपड़े साथ रखें। हिमाचल टूरिज़्म के मुताबिक़ रातें −5 °C से नीचे जा सकती हैं।",
+  "These are IMD's numbers for Dehradun, the nearest station. Nights in riverside camps can drop close to 5 °C, so bring warm sleepwear.": "ये सबसे पास के स्टेशन देहरादून के IMD आँकड़े हैं। नदी किनारे के कैंपों में रातें 5 °C के पास तक गिर सकती हैं, इसलिए गर्म नाइटवियर लाएँ।",
+  "Tiger Hill at dawn is colder than the town, so wear your warmest layers for the sunrise.": "सुबह-सुबह टाइगर हिल शहर से ज़्यादा ठंडा होता है, इसलिए सूर्योदय के लिए सबसे गर्म कपड़े पहनें।",
+  "Warm and dry, with pleasant evenings. Wear swimwear at the beach and pool only, with a shirt or kaftan over it in town.": "गर्म और सूखा मौसम, सुहानी शामें। स्विमवियर सिर्फ़ बीच और पूल पर पहनें, शहर में उसके ऊपर शर्ट या कफ़्तान डालें।",
+  "Alappuzha": "अलप्पुझा",
+  "Andaman": "अंडमान",
+  "Bali": "बाली",
+  "Bangkok": "बैंकॉक",
+  "Bhutan": "भूटान",
+  "Bumthang (Jakar)": "बुमथांग (जकार)",
+  "Chiang Mai": "चियांग माई",
+  "Colombo": "कोलंबो",
+  "Da Nang": "दा नांग",
+  "Darjeeling": "दार्जिलिंग",
+  "Denpasar": "देनपसार",
+  "Dubai": "दुबई",
+  "Galle": "गॉल",
+  "Goa": "गोवा",
+  "Gulmarg": "गुलमर्ग",
+  "Hanoi": "हनोई",
+  "Ho Chi Minh City": "हो ची मिन्ह सिटी",
+  "Jaipur": "जयपुर",
+  "Kandy": "कैंडी",
+  "Kashmir": "कश्मीर",
+  "Kathmandu": "काठमांडू",
+  "Kerala": "केरल",
+  "Kochi": "कोच्चि",
+  "Maldives": "मालदीव",
+  "Malé": "माले",
+  "Manali": "मनाली",
+  "Munnar": "मुन्नार",
+  "Nepal": "नेपाल",
+  "Nuwara Eliya": "नुवारा एलिया",
+  "Ooty": "ऊटी",
+  "Paro": "पारो",
+  "Pattaya": "पटाया",
+  "Phuket": "फुकेट",
+  "Pokhara": "पोखरा",
+  "Punakha": "पुनाखा",
+  "Rishikesh": "ऋषिकेश",
+  "Rishikesh (Dehradun averages)": "ऋषिकेश (देहरादून के औसत)",
+  "Shimla": "शिमला",
+  "Sri Lanka": "श्रीलंका",
+  "Sri Vijaya Puram (Port Blair)": "श्री विजय पुरम (पोर्ट ब्लेयर)",
+  "Srinagar": "श्रीनगर",
+  "Thailand": "थाईलैंड",
+  "Thimphu": "थिम्पू",
+  "Thiruvananthapuram (Kovalam, Varkala)": "तिरुवनंतपुरम (कोवलम, वर्कला)",
+  "Trincomalee": "त्रिंकोमाली",
+  "Udaipur": "उदयपुर",
+  "Varanasi": "वाराणसी",
+  "Vietnam": "वियतनाम",
+  "What to wear in Manali in December": "दिसंबर में मनाली में क्या पहनें"
+ }
+}
