@@ -15,6 +15,8 @@ Ooty in December and January is cool by day and cold at night. December still ge
 
 Still choosing? Compare Goa, Kerala, Manali and more in [where to go in December and January](where-to-go-in-december-january.html). Ooty pairs well with [Kerala](kerala.html): Munnar is another tea-hill town with cold winter nights. Want real snow? See [Kashmir in December](kashmir-in-december.html) or [Manali in winter](manali.html).
 
+Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
+
 ## Ooty weather in December and January
 
 Long-term averages for Ooty (Udhagamandalam) from the India Meteorological Department (IMD, 1991–2020):

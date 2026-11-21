@@ -14,6 +14,8 @@ Andaman in December is warm and green, with calm seas on most days and some rain
 
 Still choosing? Compare Goa, Kerala, Manali and more in [where to go in December and January](where-to-go-in-december-january.html). Want a beach closer to home? See the [Goa trip guide](goa.html). Want cold mountain air instead? See [Darjeeling in December](darjeeling-in-december.html).
 
+Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
+
 ## Andaman weather in December and January
 
 Monthly averages for Sri Vijaya Puram (Port Blair), from IMD's Port Blair weather station:

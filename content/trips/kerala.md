@@ -14,6 +14,8 @@ Kerala is at its best from November to February: the monsoon is over, the backwa
 
 Still choosing? Compare Goa, Manali, Jaipur and Kerala in [where to go in December and January](where-to-go-in-december-january.html). Going in late January? See our [Republic Day long weekend ideas](republic-day-long-weekend-2027.html).
 
+Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
+
 ## Weather in December and January
 
 | Place | December | January |

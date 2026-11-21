@@ -14,6 +14,8 @@ Darjeeling in December is cold, dry and clear. The days are sunny, the nights ar
 
 Still choosing? Compare Goa, Manali, Shimla and more in [where to go in December and January](where-to-go-in-december-january.html). Want snow for sure? [Kashmir in December](kashmir-in-december.html) and [Manali in winter](manali.html) get much more. Want warm sea instead? See [Andaman in December](andaman-in-december.html). In the south, [Ooty in December](ooty-in-december.html) has a toy train too.
 
+Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
+
 ## Darjeeling weather in December and January
 
 Long-term averages for Darjeeling from the India Meteorological Department (IMD, 1991–2020):

@@ -14,6 +14,8 @@ Shimla in December is cold and mostly dry, with sunny days and nights close to f
 
 Still choosing? Compare Goa, Manali, Jaipur and more in [where to go in December and January](where-to-go-in-december-january.html). Want deeper snow? See [Manali in winter](manali.html) and [Kashmir in December](kashmir-in-december.html). Prefer mild days without snow? See [Rishikesh in December](rishikesh-in-december.html). For clear mountain views, see [Darjeeling in December](darjeeling-in-december.html).
 
+Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html), and work out the fuel with the [road trip fuel cost calculator](../tools/road-trip-cost-calculator.html).
+
 ## Weather in December and January
 
 Long-term averages for Shimla from the India Meteorological Department (IMD):

@@ -14,6 +14,8 @@ Manali is India's favourite winter hill station. Many people go hoping for snow 
 
 Still choosing? Compare Goa, Manali, Jaipur and Kerala in [where to go in December and January](where-to-go-in-december-january.html). Going in late January? See our [Republic Day long weekend ideas](republic-day-long-weekend-2027.html). Want an easier trip by toy train? See [Shimla in December and January](shimla-in-december.html).
 
+Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html), and work out the fuel with the [road trip fuel cost calculator](../tools/road-trip-cost-calculator.html).
+
 ## Will there be snow?
 
 Snow in Manali usually comes between December and February, but some winters are dry:

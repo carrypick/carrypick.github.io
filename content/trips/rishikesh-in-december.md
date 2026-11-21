@@ -13,6 +13,8 @@ Rishikesh in December and January is cool and sunny by day and cold at night. Th
 
 Still choosing? Compare other winter trips in [where to go in December and January](where-to-go-in-december-january.html). Want snow instead? See [Shimla in December](shimla-in-december.html) or [Manali in winter](manali.html). Want the Ganga with old temples and ghats? See [Varanasi in December](varanasi-in-december.html).
 
+Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html), and work out the fuel with the [road trip fuel cost calculator](../tools/road-trip-cost-calculator.html).
+
 ## Weather in December and January
 
 IMD has no climate table for Rishikesh itself. These are its long-term averages (1991–2020) for Dehradun, the nearest IMD station. Rishikesh is lower, in the river valley, so its days are often a little warmer:

@@ -13,6 +13,8 @@ Singapore is one of the easiest trips abroad from India. Direct flights leave fr
 
 Packing for the trip? Use our [Singapore packing list](../guides/singapore-packing-list.html) for clothes, the bag limits by airline and what not to carry (chewing gum, vapes, duty-free cigarettes). Still choosing a winter trip? Compare places in [where to go in December and January](where-to-go-in-december-january.html). Want a trip abroad without a visa? See [Bhutan in December](bhutan-in-december.html) or [Nepal in December](nepal-in-december.html).
 
+Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
+
 ## Singapore visa for Indians
 
 Indian passport holders need a visa for Singapore, says ICA, Singapore's immigration authority. You can't get a visa at the airport.

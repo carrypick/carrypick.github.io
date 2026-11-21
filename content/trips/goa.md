@@ -15,6 +15,8 @@ Christmas and New Year are Goa's busiest weeks. The weather is at its best, the 
 
 Still choosing? Compare Goa, Manali, Jaipur and Kerala in [where to go in December and January](where-to-go-in-december-january.html). Going in late January? See our [Republic Day long weekend ideas](republic-day-long-weekend-2027.html). Want clearer water and coral? See [Andaman in December](andaman-in-december.html).
 
+Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html), and work out the fuel with the [road trip fuel cost calculator](../tools/road-trip-cost-calculator.html).
+
 ## Weather in December and January
 
 Goa is warm and dry in winter. The India Meteorological Department's long-term averages:

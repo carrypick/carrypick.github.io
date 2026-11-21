@@ -14,6 +14,8 @@ Jaipur, the Pink City, is one corner of India's "Golden Triangle" with Delhi and
 
 Still choosing? Compare Goa, Manali, Jaipur and Kerala in [where to go in December and January](where-to-go-in-december-january.html). Going in late January? See our [Republic Day long weekend ideas](republic-day-long-weekend-2027.html). Going on to Udaipur? See our [Udaipur winter trip plan](udaipur.html).
 
+Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html), and work out the fuel with the [road trip fuel cost calculator](../tools/road-trip-cost-calculator.html).
+
 ## Weather in December and January
 
 The India Meteorological Department (IMD) says Jaipur's winter runs from mid-December to mid-February. Its long-term averages:

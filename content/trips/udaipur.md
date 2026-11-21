@@ -13,6 +13,8 @@ Udaipur, the city of lakes, is at its best in winter: sunny, dry days, cool even
 
 Still choosing? Compare other winter trips in [where to go in December and January](where-to-go-in-december-january.html). Seeing more of Rajasthan? Read our [Jaipur winter guide](jaipur.html).
 
+Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html), and work out the fuel with the [road trip fuel cost calculator](../tools/road-trip-cost-calculator.html).
+
 ## Weather in December and January
 
 Long-term averages for Udaipur from the India Meteorological Department (IMD), 1981–2010:

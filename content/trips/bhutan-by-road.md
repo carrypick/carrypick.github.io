@@ -13,6 +13,8 @@ Yes, Indians can go to Bhutan by road. Most people fly to Bagdogra or take a tra
 
 Going in winter? See [Bhutan in December](bhutan-in-december.html) for the weather, festivals and a 6-day plan. Packing? Use our [Bhutan packing list](../guides/bhutan-packing-list.html). Adding Darjeeling on the way? See [Darjeeling in December](darjeeling-in-december.html).
 
+Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html), and work out the fuel with the [road trip fuel cost calculator](../tools/road-trip-cost-calculator.html).
+
 ## Can we go to Bhutan by road from India?
 
 Yes. Bhutan's Department of Tourism lists **four official road entry points from India**:

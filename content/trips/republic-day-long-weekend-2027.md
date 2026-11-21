@@ -12,6 +12,8 @@ glance: Dates=Saturday 23 to Tuesday 26 January 2027, with one day off on Monday
 ---
 Republic Day 2027 falls on a **Tuesday**. Take Monday 25 January off, and you get four days: Saturday to Tuesday. It's a good winter break, but many people will have the same idea, so plan early.
 
+Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
+
 ## Quick comparison
 
 Four days is enough for one place. Moving between them takes most of a day.
