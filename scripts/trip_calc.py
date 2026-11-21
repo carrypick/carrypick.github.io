@@ -55,6 +55,17 @@ def register(B):
                     "Work out my fuel", "pin", "luggage", ""))
 
 
+CURRENCIES = [("INR", "₹ Indian rupee (INR)"), ("USD", "$ US dollar (USD)"), ("EUR", "€ Euro (EUR)"), ("GBP", "£ British pound (GBP)"),
+              ("AED", "AED UAE dirham"), ("SGD", "S$ Singapore dollar (SGD)"), ("THB", "฿ Thai baht (THB)"), ("JPY", "¥ Japanese yen (JPY)"),
+              ("AUD", "A$ Australian dollar (AUD)")]
+
+
+def _currency(prefix):
+    opts = "".join(f'<option value="{c}">{e(n)}</option>' for c, n in CURRENCIES)
+    return (f'<label>Currency<select id="{prefix}-cur">{opts}</select>'
+            f'<span class="hint small">Changes only the symbol. You type your own amounts: we don\'t convert or show rates</span></label>')
+
+
 def _field(prefix, fid, label, hint, step="1", mode="decimal"):
     return (f'<label>{e(label)}<input id="{prefix}-{fid}" type="number" min="0" step="{step}" inputmode="{mode}" placeholder="">'
             f'<span class="hint small">{e(hint)}</span></label>')
@@ -88,7 +99,7 @@ def build_budget(B, cfg, deals, pages, lastmod):
                    "A power bank, a cable pouch, packing cubes, a cabin bag and a luggage scale: our picks for keeping a trip simple.")
     title = "Trip budget calculator: plan your trip and split the bill with friends"
     seo = "Trip budget calculator India: plan a trip and split expenses with friends"
-    desc = ("Free trip budget calculator for India. Type in your own travel, hotel, food, local transport, tickets, visa and shopping amounts "
+    desc = ("Free trip budget calculator in rupees, dollars, euros, pounds and more. Type in your own travel, hotel, food, local transport, tickets, visa and shopping amounts "
             "to see the total, the cost per person and per day, then split the bill and see who owes whom. Share the plan on WhatsApp.")
     body = f"""{more_tools._head(B, title, "Trip budget calculator", "A free tool. Updated " + B.fmt_date(UPDATED), "travel-gear", "wallet")}
 <div class="wrap"><article class="guide">
@@ -108,7 +119,7 @@ def build_budget(B, cfg, deals, pages, lastmod):
 </div>
 <form class="checker" id="tb" onsubmit="return false" hidden>
 <h2 class="tc-h">Your trip budget</h2>
-<div class="checker-fields tc-fields">{fields}</div>
+<div class="checker-fields tc-fields">{_currency("tb")}{fields}</div>
 <div id="tb-result" aria-live="polite">
 <p class="checker-total" id="tb-out">Type in your people, nights and amounts to see your total.</p>
 <div class="tc-bar" id="tb-bar" hidden></div>
@@ -154,6 +165,8 @@ def build_budget(B, cfg, deals, pages, lastmod):
          "Add each friend, then add each payment with who paid it. The tool shares every payment equally among the people it was for, works out how much each person paid over or under their share, and lists the fewest payments that settle everyone up."),
         ("Can I share the trip budget on WhatsApp?",
          "Yes. Tap Share on WhatsApp: the link carries your numbers and names, so friends open the same plan. Nothing is sent to CarryPick; it stays in the link and in your browser."),
+        ("Can I use a currency other than rupees?",
+         "Yes. Pick ₹, USD, EUR, GBP, AED, SGD, THB, JPY or AUD at the top. It changes only the symbol and number format of the amounts you type. We don't convert money or show exchange rates."),
         ("Does this trip budget calculator show prices?",
          "No. You type in every amount from the booking sites you use. Prices change with dates and seasons, so we don't guess them."),
         ("How many days should I count for food?",
@@ -172,7 +185,7 @@ def build_road(B, cfg, deals, pages, lastmod):
                    "A power bank and cable pouch for phones and maps, a steel bottle, a neck pillow for the back seat and a waterproof phone pouch.")
     title = "Road trip fuel cost calculator: petrol, diesel or CNG, with tolls"
     seo = "Fuel cost calculator for trip India: petrol, diesel, CNG road trip cost"
-    desc = ("Free road trip fuel cost calculator for India. Enter the distance in km, your car's mileage (km/l or km/kg for CNG), "
+    desc = ("Free road trip fuel cost calculator. Enter the distance in km or miles, your car's mileage (km/l, mpg or km/kg for CNG), "
             "the fuel price you pay, tolls, parking and people, and see the fuel needed, fuel cost, total and cost per person.")
     body = f"""{more_tools._head(B, title, "Road trip fuel cost calculator", "A free tool. Updated " + B.fmt_date(UPDATED), "luggage", "pin")}
 <div class="wrap"><article class="guide">
@@ -184,6 +197,9 @@ def build_road(B, cfg, deals, pages, lastmod):
 <form class="checker" id="rt" onsubmit="return false" hidden>
 <h2 class="tc-h">Your road trip</h2>
 <div class="checker-fields tc-fields">
+{_currency("rt")}
+<label>Distance in<select id="rt-dist"><option value="km">Kilometres (km)</option><option value="mi">Miles</option></select></label>
+<label>Fuel measured in<select id="rt-vol"><option value="l">Litres</option><option value="gal">US gallons</option></select><span class="hint small">CNG always goes by kg</span></label>
 <label>Fuel<select id="rt-fuel"><option value="petrol">Petrol</option><option value="diesel">Diesel</option><option value="cng">CNG</option></select><span class="hint small">CNG goes by km per kg</span></label>
 <label class="tc-check"><input id="rt-round" type="checkbox" checked> Round trip (there and back)</label>
 {fields}</div>
@@ -220,6 +236,8 @@ def build_road(B, cfg, deals, pages, lastmod):
          "Add the toll plazas on your route for one way and enter the total. With round trip on, the calculator doubles the tolls."),
         ("How do I split fuel cost with friends?",
          "Enter how many people share the car. The calculator divides fuel, tolls and parking equally. For hotel and food too, use our trip budget calculator's split the bill section."),
+        ("Can I use miles, gallons or dollars?",
+         "Yes. Choose miles instead of km and US gallons instead of litres, and the mileage field becomes miles per gallon (mpg). Pick a currency too: it changes only the symbol. We don't convert units of money or show rates, so type the price you pay."),
         ("Does this calculator use today's fuel price?",
          "No. Fuel prices change by city and by day, so you type the price you pay. We don't publish prices."),
     ]

@@ -10,18 +10,22 @@
   var PARTS = [["travel", "Travel"], ["stay", "Hotel"], ["food", "Food"], ["local", "Local transport"], ["activities", "Activities"],
     ["visa", "Visa or permits"], ["shopping", "Shopping"], ["buffer", "Buffer"]];
   var friends = [], exps = [];
-  var money = function (n) { return "₹" + Math.round(n).toLocaleString("en-IN"); };
+  var CUR = { INR: ["₹", "en-IN", 0], USD: ["$", "en-US", 0], EUR: ["€", "en-IE", 0], GBP: ["£", "en-GB", 0], AED: ["AED ", "en-AE", 0],
+    SGD: ["S$", "en-SG", 0], THB: ["฿", "en-US", 0], JPY: ["¥", "ja-JP", 0], AUD: ["A$", "en-AU", 0] };
+  var cur = "INR"; // only the symbol and number format change: no conversion, no rates
+  var money = function (n) { var c = CUR[cur]; return c[0] + Math.round(n).toLocaleString(c[1]); };
   var num = function (id) { var v = parseFloat($("tb-" + id).value); return isFinite(v) && v > 0 ? v : 0; };
   var esc = function (s) { var d = document.createElement("div"); d.textContent = s; return d.innerHTML; };
 
   function state() {
     var f = {};
     F.forEach(function (k) { var v = $("tb-" + k).value; if (v !== "") f[k] = v; });
-    return { f: f, p: friends, e: exps };
+    return { f: f, p: friends, e: exps, c: cur };
   }
   function load(s) {
     if (!s || typeof s !== "object") return;
     var f = s.f || {};
+    if (typeof s.c === "string" && CUR[s.c]) { cur = s.c; $("tb-cur").value = cur; }
     F.forEach(function (k) { $("tb-" + k).value = f[k] != null ? String(f[k]).slice(0, 12) : ""; });
     friends = Array.isArray(s.p) ? s.p.filter(function (x) { return typeof x === "string"; }).slice(0, 30).map(function (x) { return x.slice(0, 30); }) : [];
     exps = Array.isArray(s.e) ? s.e.filter(function (x) {
@@ -35,7 +39,7 @@
     return location.href.split("#")[0] + "#plan=" + encodeURIComponent(JSON.stringify(state()));
   }
   function save() {
-    try { localStorage.setItem(KEY, JSON.stringify(state())); } catch (err) {}
+    try { localStorage.setItem(KEY, JSON.stringify(state())); localStorage.setItem(KEY + "-cur", cur); } catch (err) {}
     $("tb-wa").href = "https://wa.me/?text=" + encodeURIComponent("Our trip budget on CarryPick: " + link());
   }
 
@@ -166,7 +170,7 @@
     if (navigator.clipboard) navigator.clipboard.writeText(url).then(function () { btn.textContent = "Link copied"; }, function () {});
   });
   $("tb-reset").addEventListener("click", function () {
-    load({ f: {}, p: [], e: [] });
+    load({ f: {}, p: [], e: [], c: cur });
     try { localStorage.removeItem(KEY); history.replaceState(null, "", location.pathname); } catch (err) {}
     calc(); renderSplit(); save();
   });
@@ -175,8 +179,10 @@
   var start = null, m = location.hash.match(/^#plan=(.+)$/);
   if (m) { try { start = JSON.parse(decodeURIComponent(m[1])); } catch (err) {} }
   if (!start) { try { start = JSON.parse(localStorage.getItem(KEY) || "null"); } catch (err) {} }
+  if (!start) { try { var sc = localStorage.getItem(KEY + "-cur"); if (sc && CUR[sc]) start = { c: sc }; } catch (err) {} }
   load(start);
   $("tb-print").hidden = true;
+  $("tb-cur").addEventListener("change", function () { cur = CUR[this.value] ? this.value : "INR"; calc(); renderSplit(); save(); });
   form.hidden = false; sp.hidden = false;
   calc(); renderSplit(); save();
 })();
