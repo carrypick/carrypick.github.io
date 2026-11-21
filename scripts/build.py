@@ -2597,7 +2597,7 @@ def build_tools(cfg, deals, pages, lastmod):
 <h2>Our watch picks by dial size</h2>
 <p id="ws-picks-note">Sorted from small to large. Type your wrist size above to see the ones that suit it.</p>
 <div class="grid" id="ws-picks">{cards}</div>
-<p>More help: <a href="../guides/first-analog-watch-guide.html">how to choose your first analog watch</a>.</p>
+<p>More help: <a href="../guides/first-analog-watch-guide.html">how to choose your first analog watch</a> and <a href="../guides/titan-vs-fastrack.html">Titan vs Fastrack compared</a>.</p>
 {{faq}}
 {tool_pills("../", path)}
 </article></div>

@@ -46,7 +46,7 @@ For a first watch, **quartz is the sensible choice**.
 
 ## 5. Check the brand and warranty
 
-Well-known brands in India, such as Titan, Fastrack, Sonata, Timex and Casio, have service centres in many cities. Look for at least a **1-year warranty**. Some, like Casio, offer 2 years on some models.
+Well-known brands in India, such as Titan, Fastrack, Sonata, Timex and Casio, have service centres in many cities. Torn between two of them? See [Titan vs Fastrack](titan-vs-fastrack.html). Look for at least a **1-year warranty**. Some, like Casio, offer 2 years on some models.
 
 ## Our picks for men
 
