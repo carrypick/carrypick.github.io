@@ -541,6 +541,26 @@
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "alt": "A rocky path between pine-covered mountains leading to the turquoise Big Almaty Lake in the Ile-Alatau National Park near Almaty, Kazakhstan",
       "used": "2026-11-21"
+    },
+    "taj-mahal": {
+      "commons": "File:Taj Mahal (Edited).jpeg",
+      "page": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_(Edited).jpeg",
+      "credit": "Yann; edited by Jim Carter",
+      "profile": "https://commons.wikimedia.org/wiki/User:Yann",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "alt": "The white marble Taj Mahal in Agra with its four minarets, seen across the long garden pool under a blue sky",
+      "used": "2026-11-21"
+    },
+    "delhi-humayuns-tomb": {
+      "commons": "File:Humayun's Tomb, Delhi.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Humayun%27s_Tomb,_Delhi.jpg",
+      "credit": "Romil Bhardwaj",
+      "profile": "https://commons.wikimedia.org/wiki/User:Romil_Bhardwaj",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "alt": "The red sandstone and white marble dome of Humayun's Tomb in Delhi, behind its garden",
+      "used": "2026-11-21"
     }
   }
 }
