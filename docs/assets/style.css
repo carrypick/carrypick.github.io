@@ -570,3 +570,9 @@ body { top: 0 !important; }
 .gf-row p { margin: 4px 0; }
 #gf-title:focus { outline: none; }
 .gf-guides { margin-top: 20px; }
+.cite-box { margin: 28px 0; padding: 16px 18px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); }
+.cite-box h2 { margin-top: 0; font-size: 1.15rem; }
+.cite-facts { padding-left: 18px; margin: 8px 0 12px; overflow-wrap: anywhere; }
+.cite-snip { display: block; width: 100%; box-sizing: border-box; margin: 4px 0 10px; padding: 8px; font: 0.85rem/1.4 ui-monospace, Menlo, monospace; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; resize: vertical; }
+.cite-box details ul { padding-left: 18px; overflow-wrap: anywhere; }
+.cite-box summary { cursor: pointer; font-weight: 600; }

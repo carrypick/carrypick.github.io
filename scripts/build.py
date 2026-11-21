@@ -16,6 +16,7 @@ import urllib.parse
 from datetime import date, datetime, timedelta
 from html import escape as e
 
+import cite_box
 import clothing_size
 import diagrams
 import hindi_pages
@@ -218,6 +219,8 @@ def share_bar(cfg, path, title, lang="en"):
 def page(cfg, title, description, body, depth, path, schema=None, og_type="website", photo=None, robots="max-image-preview:large", lang="en",
          share_image=None):
     p = "../" * depth
+    if lang == "en":
+        body = cite_box.insert(cfg, path, title, body)
     if og_type == "article" or path.startswith("picks/"):
         # Share buttons go just above the Telegram/WhatsApp band at the end of guides, tools, trips and picks.
         bar = share_bar(cfg, path, title or cfg["site_name"], lang)
