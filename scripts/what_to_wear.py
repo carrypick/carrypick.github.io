@@ -86,10 +86,12 @@ def outfit(data, p, mon):
         items = [i for i in items if not (i in seen or seen.add(i))]
         if items:
             clean.append((head, items))
-    picks = []
-    for _, items in clean:
-        for i in items:
-            picks.extend(a for a in data["items"][i].get("picks", []) if a not in picks)
+    picks, every = [], [i for _, items in clean for i in items]
+    for n in range(3):  # first pick of every item, then the second ones, so a poncho isn't crowded out by jackets
+        for i in every:
+            row = data["items"][i].get("picks", [])
+            if n < len(row) and row[n] not in picks:
+                picks.append(row[n])
     return {"rows": rows, "warm": warm, "cold": cold, "rain": rain, "day_band": db, "night_band": nb,
             "snow": snow, "snow_note": p.get("snow_note", {}).get(mon, ""), "groups": clean, "picks": picks[:SHOW]}
 
@@ -216,7 +218,7 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
 <div class="ww-groups">{groups}</div>
 <p class="pm-notes">{e(p["note"])}</p>
 <p class="small"><strong>Plan the trip:</strong> {link_html}</p>
-<p class="checked">Numbers: {src_html}. Checked on {B.fmt_date(src["checked"])}. These are long-term averages, so check the forecast a few days before you go.</p>
+<p class="checked">Numbers: {src_html}. Checked on {B.fmt_date(src["checked"])}. These are {"usual ranges" if p.get("range") else "long-term averages"}, so check the forecast a few days before you go.</p>
 </div>""")
             weather = "<br>".join(f'{e(n) + ": " if len(o["rows"]) > 1 else ""}{temp(r["day"])} / {temp(r["night"])}' for n, r in o["rows"])
             texts = [r.get("rain_text", "") for _, r in o["rows"] if r.get("rain_text")]
