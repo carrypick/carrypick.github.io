@@ -117,6 +117,7 @@
     {
       "slug": "japan", "name": "Japan", "aka": "Tokyo, Osaka",
       "status": "e-visa", "stay": "As on your visa",
+      "fee": "₹500 visa fee for Indians from 1 July 2026, plus the VFS service fee",
       "conditions": ["Japan's eVISA has run in India since 1 April 2024. Submit your application through VFS.", "Applications open 3 months before travel. Plan well ahead."],
       "say": "Indians need a visa for Japan. Since 1 April 2024 it can be a JAPAN eVISA, applied for through VFS, says the Embassy of Japan in India.",
       "sources": [{"label": "Embassy of Japan in India: visa", "url": "https://www.in.emb-japan.go.jp/itpr_en/Visa.html"}],
