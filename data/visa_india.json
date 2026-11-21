@@ -144,8 +144,9 @@
       "slug": "georgia", "name": "Georgia", "aka": "Tbilisi, Batumi",
       "status": "e-visa", "stay": "Short stays under 90 days, as on the e-visa",
       "conditions": ["Apply on Georgia's official e-visa portal.", "Passport valid at least 3 months beyond the visa.", "Return ticket, travel insurance, money and a hotel booking."],
-      "say": "Indians can apply for a Georgian e-visa on the official portal, for short stays under 90 days.",
-      "sources": [{"label": "Georgia e-visa portal", "url": "https://www.evisa.gov.ge/GeoVisa/en/VisaApp"}],
+      "with_visa": "With a valid visa or residence permit of the US, UK, an EU or Schengen country or another listed country, Indians can stay up to 90 days in any 180 without a Georgian visa.",
+      "say": "Indians can apply for a Georgian e-visa on the official portal, for short stays under 90 days. With a valid US, UK, EU or Schengen visa or residence permit, no Georgian visa is needed for up to 90 days in 180 (Government Ordinance No. 256).",
+      "sources": [{"label": "Georgia e-visa portal", "url": "https://www.evisa.gov.ge/GeoVisa/en/VisaApp"}, {"label": "Georgia Government Ordinance No. 256", "url": "https://matsne.gov.ge/en/document/view/2867377"}],
       "checked": "2026-11-21"
     },
     {

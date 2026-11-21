@@ -31,6 +31,7 @@ Plan your budget with our [trip budget calculator](../tools/trip-budget-calculat
 | [Singapore](singapore-trip-from-india.html) | Gardens by the Bay, Sentosa, Christmas lights on Orchard Road | Warm and humid, about 30 °C by day; the wettest month, with short showers | Direct flights from many Indian cities to Changi (SIN); visa needed | Busiest and costliest from Christmas to New Year |
 | [Dubai](dubai-trip-from-india.html) | Malls, desert safari, beaches, an Abu Dhabi day trip | Warm days about 24–26 °C, cool nights about 14–15 °C; rain on about 2 days | Direct flights from many Indian cities to Dubai (DXB); visa needed | Busy and costly from Christmas to New Year |
 | [Sri Lanka](sri-lanka-trip-from-india.html) | Sigiriya, Kandy, tea hills, Ramayana sites | Colombo about 30 °C by day; some rain in December, drier in January | Direct flights from many Indian cities to Colombo (CMB); free ETA for Indians | Busy from Christmas to New Year |
+| [Georgia](georgia-trip-from-india.html) | Snow and skiing in Gudauri, Tbilisi's old town, mountain churches | Cold: Tbilisi about 4 °C on average; snow in the mountains | No direct flights now: one stop via the Gulf or Istanbul to Tbilisi (TBS); e-visa needed, or none with a US, UK or Schengen visa | Busy in Gudauri at New Year |
 | [Kazakhstan](kazakhstan-trip-from-india.html) | Snow and skiing at Shymbulak above Almaty, a modern city | Cold: Almaty about 0 °C by day and −9 °C at night | Direct flights from Delhi and Mumbai to Almaty (ALA); no visa for up to 14 days | Busy at Shymbulak at New Year |
 | [Thailand](thailand-trip-from-india.html) | Bangkok's temples and markets, Phuket and Krabi beaches | Warm and mostly dry: Bangkok about 31 °C by day, 21 °C at night | Direct flights from many Indian cities to Bangkok, some to Phuket and Krabi; no visa for up to 30 days | Busy and costly from Christmas to New Year |
 | [Vietnam](vietnam-trip-from-india.html) | Hanoi, Ha Long Bay cruises, Ho Chi Minh City | Hanoi cool, about 22 °C by day and 15 °C at night; Ho Chi Minh City about 32 °C and dry; Da Nang and Hoi An rainy | Direct flights from several Indian cities to Hanoi (HAN) and Ho Chi Minh City (SGN); e-visa needed | Busy from Christmas to New Year |
@@ -143,6 +144,12 @@ Read the full [Bali trip guide](bali-trip-from-india.html), and see our [Bali pa
 The Maldives is about 30 °C in December, with short showers on about 12 days in Malé, and it gets drier in January. Indians get a tourist visa on arrival with no pre-approval: carry a return ticket and a paid booking, and file the free IMUGA declaration in the 96 hours before you land. Choose a resort island for privacy, or a guesthouse on a local island to save money.
 
 Read the full [Maldives trip guide](maldives-trip-from-india.html), and see our [Maldives packing list](../guides/maldives-packing-list.html).
+
+## Georgia: for snow, mountain churches and Tbilisi
+
+Georgia's ski season opens on 20 December 2026 in Gudauri and Bakuriani, says the Mountain Trails Agency that runs the lifts. Tbilisi averages about 4 °C in December, with Christmas lights and New Year parties, and the road north to Kazbegi passes Gudauri's snowy slopes. Indians apply for a Georgian e-visa online, at least 5 working days ahead, or need none with a valid US, UK, EU or Schengen visa or residence permit. There are no direct flights from India right now.
+
+Read the full [Georgia trip guide](georgia-trip-from-india.html), and see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html).
 
 ## Kazakhstan: for snow abroad without a visa
 
