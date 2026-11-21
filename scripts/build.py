@@ -1282,6 +1282,7 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
 <p>Buying a check-in bag for this trip? See <a href="../guides/trolley-bag-size-for-international-travel.html">which trolley size fits a 23 kg bag and the 158 cm limit</a>.</p>
 {packing_abroad}
 {visa_india.link_line(None, '../', 'Flying abroad?')}
+{('<p>Still choosing a country? Compare <a href="../trips/international-trips-from-india.html">international trips from India</a> by flight time, best months and visa type.</p>') if (TRIPS_DIR / "international-trips-from-india.md").exists() else ''}
 <h2>Flying within India?</h2>
 <p>Domestic allowances are smaller: usually a 7 kg cabin bag and 15 kg of check-in baggage. See our <a href="index.html">baggage rules for Indian airlines</a>.</p>
 {tool_pills("../", "baggage/international.html")}
@@ -2771,6 +2772,9 @@ def build_packing(cfg, deals_by_asin, pages, lastmod, trip_guides=()):
                 f'<a href="../guides/{s_}-packing-list.html">{place}</a>' for s_, place in lists)
         if slug == "abroad":
             going_html += visa_india.link_line(None, "../").replace("<p>", '<p class="small">', 1)
+            if (TRIPS_DIR / "international-trips-from-india.md").exists():
+                going_html += ('<p class="small">Still choosing where to go? Compare <a href="../trips/international-trips-from-india.html">'
+                               'international trips from India</a> by flight time, best months and visa type.</p>')
         going_html += ('<p class="small">Want a list for your own trip, with kids or a baby, the month and how you travel? '
                        'Try the <a href="../tools/packing-list-maker.html">packing list maker</a>.</p>')
         title = trip["title"]
@@ -3022,7 +3026,7 @@ def build():
   </ol>
 </section>
 {baggage_promo}
-{('<section class="wrap section">' + section_head("Trip guides", '<a class="see-all" href="trips/index.html">All trips ' + icon("arrow", "icon icon-sm") + '</a>') + trip_cards(trips[:3], "") + '</section>') if trips else ''}
+{('<section class="wrap section">' + section_head("Trip guides", '<a class="see-all" href="trips/index.html">All trips ' + icon("arrow", "icon icon-sm") + '</a>') + trip_cards(trips[:3], "") + (('<p class="small">Going abroad? Compare all our <a href="trips/international-trips-from-india.html">international trips from India</a> by flight time, best months and visa type.</p>') if (TRIPS_DIR / "international-trips-from-india.md").exists() else '') + '</section>') if trips else ''}
 {('<section class="wrap section">' + section_head("Buying guides", '<a class="see-all" href="guides/index.html">All guides ' + icon("arrow", "icon icon-sm") + '</a>') + guide_cards(cfg, home_guides[:3], "") + '</section>') if articles else ''}
 {telegram_band(cfg, "")}"""
     home_schema = [{"@context": "https://schema.org", "@type": "WebSite", "name": cfg["site_name"],
