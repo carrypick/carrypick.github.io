@@ -1,7 +1,7 @@
 ---
 seo_title: Where to go in India in December and January 2026–27: beach, snow or heritage?
 title: Where to go in India in December and January
-description: Beach, snow, forts or backwaters? Compare Goa, Andaman, Manali, Shimla, Rishikesh, Darjeeling, Bhutan, Nepal, Singapore, Ooty, Varanasi, Jaipur, Udaipur and Kerala for a Christmas or New Year trip: weather, how to get there, crowds and what to pack.
+description: Beach, snow, forts or backwaters? Compare Goa, Andaman, Manali, Shimla, Rishikesh, Darjeeling, Bhutan, Nepal, Singapore, Sri Lanka, Ooty, Varanasi, Jaipur, Udaipur and Kerala for a Christmas or New Year trip: weather, how to get there, crowds and what to pack.
 date: 2026-11-03
 updated: 2026-11-21
 place: India in winter
@@ -27,6 +27,7 @@ Plan your budget with our [trip budget calculator](../tools/trip-budget-calculat
 | [Bhutan](bhutan-in-december.html) | Dzongs, mountain passes, a festival at Dochula on 13 Dec | Sunny days about 15–20 °C; nights about 0 °C or below in Paro and Thimphu | Paro (PBH), or Bagdogra and the road via Phuentsholing | Busy at Christmas and New Year; book flights early |
 | [Nepal](nepal-in-december.html) | Temples, Himalayan sunrises, Pokhara's lake, the Everest flight | Dry and sunny: Kathmandu days about 20 °C, nights about 3–4 °C | Kathmandu (KTM), or by road through a border crossing | Busy from Christmas to New Year |
 | [Singapore](singapore-trip-from-india.html) | Gardens by the Bay, Sentosa, Christmas lights on Orchard Road | Warm and humid, about 30 °C by day; the wettest month, with short showers | Direct flights from many Indian cities to Changi (SIN); visa needed | Busiest and costliest from Christmas to New Year |
+| [Sri Lanka](sri-lanka-trip-from-india.html) | Sigiriya, Kandy, tea hills, Ramayana sites | Colombo about 30 °C by day; some rain in December, drier in January | Direct flights from many Indian cities to Colombo (CMB); free ETA for Indians | Busy from Christmas to New Year |
 | [Ooty](ooty-in-december.html) | Tea hills, the Nilgiri toy train, frosty mornings | Days about 21 °C, nights about 6–7 °C; frost but no snow | Coimbatore (CJB), then about 89 km by road | Busy from Christmas to New Year; e-pass needed for cars |
 | [Varanasi](varanasi-in-december.html) | Ghats, the Ganga aarti, temples | Days about 22–24 °C, nights about 9–10 °C; foggy mornings | Varanasi (VNS) | Very crowded at Kashi Vishwanath at New Year |
 | [Jaipur](jaipur.html) | Forts, palaces, markets | Sunny days about 22–24 °C, cold nights about 8–9 °C | Jaipur (JAI) | Busy, especially 25 Dec to 1 Jan |
@@ -86,6 +87,12 @@ Read the full [Nepal in December and January guide](nepal-in-december.html), and
 Singapore is warm in December, about 30 °C by day, and it's the wettest month, but showers are usually short. Orchard Road has its Christmas lights until 3 January, and Gardens by the Bay has Christmas Wonderland from 27 November. Indians need a visa, applied for through an agent; it usually takes 3 to 5 working days, so apply early.
 
 Read the full [Singapore trip guide](singapore-trip-from-india.html), and see our [Singapore packing list](../guides/singapore-packing-list.html).
+
+## Sri Lanka: for an easy trip abroad with a free visa
+
+Sri Lanka's west coast and hills dry out after November: Colombo gets about 175 mm of rain in December and only about 58 mm in January. Indians get a free 30-day tourist ETA, applied for online at eta.gov.lk before you fly, and the clock is the same as India's. Nuwara Eliya is cold at night, about 9 to 11 °C.
+
+Read the full [Sri Lanka trip guide](sri-lanka-trip-from-india.html), and see our [Sri Lanka packing list](../guides/sri-lanka-packing-list.html).
 
 ## Ooty: for tea hills and the toy train
 
