@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "about": "Weather numbers come from official climate normals (IMD, DHM, the UAE's National Center of Meteorology), each with its source and checked date: a place's own 'source', or a month's 'src', a key in 'sources'. Never add a month we have no numbers for. Items can carry 'for' wording and 'picks_for' picks for women and men; the page shows the everyone wording without JS.",
  "months": [
   [
@@ -1480,6 +1480,273 @@
     "checked": "2026-11-21",
     "url": "https://en.wikipedia.org/wiki/Kathmandu"
    }
+  },
+  {
+   "slug": "tokyo",
+   "name": "Tokyo",
+   "where": "abroad",
+   "guide": "trips/japan-trip-from-india.html",
+   "packing": "guides/japan-packing-list.html",
+   "spots": [
+    {
+     "name": "Tokyo",
+     "months": {
+      "nov": {
+       "day": 17,
+       "night": 9,
+       "rain_mm": 96,
+       "src": "jma-japan"
+      },
+      "dec": {
+       "day": 12,
+       "night": 4,
+       "rain_mm": 58,
+       "src": "jma-japan"
+      },
+      "jan": {
+       "day": 10,
+       "night": 1,
+       "rain_mm": 60,
+       "src": "jma-japan"
+      },
+      "mar": {
+       "day": 14,
+       "night": 5,
+       "rain_mm": 116,
+       "src": "jma-japan"
+      },
+      "apr": {
+       "day": 19,
+       "night": 10,
+       "rain_mm": 134,
+       "src": "jma-japan"
+      },
+      "aug": {
+       "day": 31,
+       "night": 24,
+       "rain_mm": 155,
+       "src": "jma-japan"
+      },
+      "oct": {
+       "day": 22,
+       "night": 15,
+       "rain_mm": 235,
+       "src": "jma-japan"
+      }
+     }
+    }
+   ],
+   "note": "Winter in Japan is cold but mostly dry and sunny. Shops and trains are heated, so wear layers you can take off.",
+   "source": {
+    "label": "Japan Meteorological Agency averages (1991–2020), as in our Japan trip guide",
+    "checked": "2026-11-21",
+    "url": "https://www.jma.go.jp/jma/indexe.html"
+   }
+  },
+  {
+   "slug": "kyoto",
+   "name": "Kyoto",
+   "where": "abroad",
+   "guide": "trips/japan-trip-from-india.html",
+   "packing": "guides/japan-packing-list.html",
+   "spots": [
+    {
+     "name": "Kyoto",
+     "months": {
+      "dec": {
+       "day": 12,
+       "night": 4,
+       "src": "jma-japan"
+      }
+     }
+    }
+   ],
+   "note": "Winter in Japan is cold but mostly dry and sunny. Shops and trains are heated, so wear layers you can take off.",
+   "source": {
+    "label": "Japan Meteorological Agency averages (1991–2020), as in our Japan trip guide",
+    "checked": "2026-11-21",
+    "url": "https://www.jma.go.jp/jma/indexe.html"
+   }
+  },
+  {
+   "slug": "paris",
+   "name": "Paris",
+   "where": "abroad",
+   "guide": "trips/europe-trip-from-india.html",
+   "packing": "guides/europe-packing-list.html",
+   "spots": [
+    {
+     "name": "Paris",
+     "months": {
+      "dec": {
+       "day": 8,
+       "night": 4,
+       "src": "wmo-europe"
+      },
+      "jan": {
+       "day": 7,
+       "night": 3,
+       "src": "wmo-europe"
+      },
+      "apr": {
+       "day": 15,
+       "night": 7,
+       "src": "wmo-europe"
+      },
+      "may": {
+       "day": 19,
+       "night": 11,
+       "src": "wmo-europe"
+      },
+      "jun": {
+       "day": 22,
+       "night": 13,
+       "src": "wmo-europe"
+      },
+      "jul": {
+       "day": 24,
+       "night": 16,
+       "src": "wmo-europe"
+      },
+      "sep": {
+       "day": 21,
+       "night": 13,
+       "src": "wmo-europe"
+      },
+      "oct": {
+       "day": 16,
+       "night": 9,
+       "src": "wmo-europe"
+      }
+     }
+    }
+   ],
+   "note": "Paris is cold and damp. Wind and rain make it feel colder than the number.",
+   "source": {
+    "label": "MeteoSwiss, Météo-France and the Italian Air Force Meteorological Service averages, published by the World Meteorological Organization, as in our Europe trip guide",
+    "checked": "2026-11-21",
+    "url": "https://worldweather.wmo.int/"
+   }
+  },
+  {
+   "slug": "rome",
+   "name": "Rome",
+   "where": "abroad",
+   "guide": "trips/europe-trip-from-india.html",
+   "packing": "guides/europe-packing-list.html",
+   "spots": [
+    {
+     "name": "Rome",
+     "months": {
+      "dec": {
+       "day": 13,
+       "night": 4,
+       "src": "wmo-europe"
+      },
+      "jan": {
+       "day": 12,
+       "night": 3,
+       "src": "wmo-europe"
+      },
+      "apr": {
+       "day": 18,
+       "night": 8,
+       "src": "wmo-europe"
+      },
+      "may": {
+       "day": 23,
+       "night": 12,
+       "src": "wmo-europe"
+      },
+      "jun": {
+       "day": 27,
+       "night": 15,
+       "src": "wmo-europe"
+      },
+      "jul": {
+       "day": 30,
+       "night": 18,
+       "src": "wmo-europe"
+      },
+      "sep": {
+       "day": 27,
+       "night": 15,
+       "src": "wmo-europe"
+      },
+      "oct": {
+       "day": 21,
+       "night": 11,
+       "src": "wmo-europe"
+      }
+     }
+    }
+   ],
+   "note": "Rome is the mildest in winter, but its nights are still about 3 to 4 °C in December and January.",
+   "source": {
+    "label": "MeteoSwiss, Météo-France and the Italian Air Force Meteorological Service averages, published by the World Meteorological Organization, as in our Europe trip guide",
+    "checked": "2026-11-21",
+    "url": "https://worldweather.wmo.int/"
+   }
+  },
+  {
+   "slug": "zurich",
+   "name": "Zurich",
+   "where": "abroad",
+   "guide": "trips/europe-trip-from-india.html",
+   "packing": "guides/europe-packing-list.html",
+   "spots": [
+    {
+     "name": "Zurich",
+     "months": {
+      "dec": {
+       "day": 3,
+       "night": -2,
+       "src": "wmo-europe"
+      },
+      "jan": {
+       "day": 2,
+       "night": -3,
+       "src": "wmo-europe"
+      },
+      "apr": {
+       "day": 13,
+       "night": 4,
+       "src": "wmo-europe"
+      },
+      "may": {
+       "day": 17,
+       "night": 8,
+       "src": "wmo-europe"
+      },
+      "jun": {
+       "day": 21,
+       "night": 11,
+       "src": "wmo-europe"
+      },
+      "jul": {
+       "day": 23,
+       "night": 13,
+       "src": "wmo-europe"
+      },
+      "sep": {
+       "day": 19,
+       "night": 10,
+       "src": "wmo-europe"
+      },
+      "oct": {
+       "day": 13,
+       "night": 6,
+       "src": "wmo-europe"
+      }
+     }
+    }
+   ],
+   "note": "Zurich is the coldest of the three, and the Alps are colder still. Days are short.",
+   "source": {
+    "label": "MeteoSwiss, Météo-France and the Italian Air Force Meteorological Service averages, published by the World Meteorological Organization, as in our Europe trip guide",
+    "checked": "2026-11-21",
+    "url": "https://worldweather.wmo.int/"
+   }
   }
  ],
  "sources": {
@@ -1532,6 +1799,16 @@
    "label": "Nepal Department of Hydrology and Meteorology averages (1991–2020), as tabled on Wikipedia",
    "checked": "2026-11-21",
    "url": "https://en.wikipedia.org/wiki/Kathmandu"
+  },
+  "jma-japan": {
+   "label": "Japan Meteorological Agency averages (1991–2020), as in our Japan trip guide",
+   "checked": "2026-11-21",
+   "url": "https://www.jma.go.jp/jma/indexe.html"
+  },
+  "wmo-europe": {
+   "label": "MeteoSwiss, Météo-France and the Italian Air Force Meteorological Service averages, published by the World Meteorological Organization, as in our Europe trip guide",
+   "checked": "2026-11-21",
+   "url": "https://worldweather.wmo.int/"
   }
  }
 }

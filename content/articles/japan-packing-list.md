@@ -35,7 +35,7 @@ Long-term averages (1991–2020) from the Japan Meteorological Agency, as in our
 - **Indoors, trains and shops are heated.** You'll be hot in a thick coat, so wear layers you can take off.
 - **Check the forecast** for your dates. These are averages.
 
-Not sure what to wear? Try the [what-to-wear helper](../tools/what-to-wear.html) for the right layers by temperature.
+Not sure what to wear? Try the [what-to-wear helper](../tools/what-to-wear.html#tokyo) for Tokyo and [Kyoto](../tools/what-to-wear.html#kyoto): day and night temperatures, rain and an outfit list by month.
 
 ## The short list
 

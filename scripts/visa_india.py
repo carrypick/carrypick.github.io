@@ -26,7 +26,7 @@ STATUS = {  # key: (label, short css class, heading)
 }
 # Our packing list for a country (content/articles/<slug>-packing-list.md), and the trip-guide slug prefixes to look for.
 PACKING = {"thailand": "thailand", "uae": "dubai", "indonesia": "bali", "vietnam": "vietnam", "maldives": "maldives",
-           "sri-lanka": "sri-lanka", "singapore": "singapore", "nepal": "nepal", "bhutan": "bhutan"}
+           "sri-lanka": "sri-lanka", "singapore": "singapore", "nepal": "nepal", "bhutan": "bhutan", "japan": "japan", "schengen": "europe"}
 TRIP_PREFIX = {"thailand": ("thailand", "bangkok", "phuket"), "uae": ("dubai", "uae", "abu-dhabi"), "indonesia": ("bali", "indonesia"),
                "malaysia": ("malaysia", "kuala-lumpur", "langkawi"), "vietnam": ("vietnam",), "sri-lanka": ("sri-lanka",),
                "maldives": ("maldives",), "singapore": ("singapore",), "nepal": ("nepal",), "bhutan": ("bhutan",),
@@ -165,7 +165,7 @@ def build(B, cfg, pages, lastmod):
                      % "".join('<li><a href="#%s"><strong>%s</strong></a>: %s</li>' % (c["slug"], e(c["name"]), e(c["with_visa"])) for c in with_visa))
     pk_links = [(PACKING[s], bys[s]["name"]) for s in PACKING if s in bys and (B.ARTICLES_DIR / ("%s-packing-list.md" % PACKING[s])).exists()]
     pk_html = ("<p>Packing for the trip? See our packing lists for %s, and the <a href=\"../packing/abroad.html\">trip abroad checklist</a>.</p>"
-               % B.and_list('<a href="%s-packing-list.html">%s</a>' % (slug, e("Bali" if slug == "bali" else "Dubai" if slug == "dubai" else name))
+               % B.and_list('<a href="%s-packing-list.html">%s</a>' % (slug, e("Bali" if slug == "bali" else "Dubai" if slug == "dubai" else "Europe" if slug == "europe" else name))
                             for slug, name in pk_links)) if pk_links else ""
 
     title = "Visa-free countries for Indians %s: visa on arrival and e-visa list" % year

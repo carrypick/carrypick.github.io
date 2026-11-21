@@ -32,7 +32,7 @@ Long-term averages from MeteoSwiss, Météo-France and the Italian Air Force Met
 - **Days are short.** Plan fewer sights per day, and keep a warm layer in your day bag for the evening.
 - **Check the forecast** for your dates before you pack. These are averages, and cold snaps happen.
 
-Not sure what to wear? Try the [what-to-wear helper](../tools/what-to-wear.html) for the right layers by temperature.
+Not sure what to wear? Try the [what-to-wear helper](../tools/what-to-wear.html#paris) for Paris, [Rome](../tools/what-to-wear.html#rome) and [Zurich](../tools/what-to-wear.html#zurich): day and night temperatures and an outfit list by month.
 
 ## The short list
 
