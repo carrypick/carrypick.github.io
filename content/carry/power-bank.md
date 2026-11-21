@@ -4,8 +4,9 @@ seo_title: Power bank in flight rules India 2026: cabin bag only, 100 Wh limit
 description: Yes, but only in your cabin bag. How many power banks you can take, the 100 Wh limit in mAh, why check-in is banned, and the rules on IndiGo, Air India and Akasa Air.
 item: Power bank
 date: 2026-11-10
-checked_against: IndiGo, Air India and Akasa Air rules
-sources: IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | Akasa Air conditions of carriage=https://www.akasaair.com/quick-links/conditions-of-carriage | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security
+updated: 2026-11-21
+checked_against: IndiGo, Air India and Akasa Air rules, DGCA's lithium battery circular and BCAS's banned items list
+sources: IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | Akasa Air conditions of carriage=https://www.akasaair.com/quick-links/conditions-of-carriage | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security | DGCA Dangerous Goods Advisory Circular 01/2025, 11 Nov 2025 (PDF)=https://www.dgca.gov.in/digigov-portal/Upload?flag=iframeAttachView&attachId=It%2B0TP06x06YSOsdpSINLg%3D%3D&baseLocale=en_US | BCAS list of items banned in the cabin (archived copy, read 21 Nov 2026)=https://web.archive.org/web/20240919062225/https://bcasindia.gov.in/passenger_pdf/prohibited.pdf
 related: guides/cabin-luggage-guide.html=Cabin bag rules | baggage/checker.html=Cabin bag checker | baggage/index.html=Airline baggage rules | packing/business.html=Work trip packing list
 ---
 ## How to read the Wh on your power bank
@@ -39,7 +40,7 @@ Take it out before you drop your bag. Akasa Air's rules say a check-in bag with 
 
 - In the seat pocket, under the seat in front of you, or on you.
 - **Not in the overhead bin.** Air India and Akasa Air both say this.
-- Don't use it to charge your phone during the flight, and don't charge the power bank itself. Akasa Air's rules ban both.
+- Don't use it to charge your phone during the flight, and don't charge the power bank itself. This is a rule on every Indian airline: DGCA's [Dangerous Goods Advisory Circular No. 01/2025](https://www.dgca.gov.in/digigov-portal/Upload?flag=iframeAttachView&attachId=It%2B0TP06x06YSOsdpSINLg%3D%3D&baseLocale=en_US) of 11 November 2025 tells airlines to announce that "using or charging power banks is not allowed during flight", and that power banks and spare batteries must not go in the overhead bin. Akasa Air's rules say the same. (We read the circular on DGCA's website on 21 November 2026.)
 
 ## How many can I take?
 
@@ -54,6 +55,8 @@ Keep each one in its box or in a separate plastic bag, so the ends can't touch m
 - **Over 100 Wh** on Air India and Akasa Air.
 
 A swollen, cracked or very hot power bank isn't safe on any trip. Leave it at home.
+
+BCAS, India's aviation security regulator, doesn't name power banks on its list of items banned in the cabin. The only batteries it bans there are spillable ones, such as car batteries (wheelchair batteries are the exception). The cabin-only rule and the Wh limits come from the airlines and DGCA.
 
 ## What to do instead
 
@@ -98,11 +101,11 @@ No. Switching it off doesn't change the rule. IndiGo, Air India and Akasa Air ba
 
 ### Can I use my power bank during the flight?
 
-No. Akasa Air's rules say you can't use or charge a power bank on board. Charge your phone before you fly.
+No. DGCA's Dangerous Goods Advisory Circular No. 01/2025 (11 November 2025) says using or charging power banks is not allowed during the flight, on all Indian airlines. Akasa Air's rules say the same. Charge your phone before you fly.
 
 ### Can I keep my power bank in the overhead bin?
 
-No. Air India and Akasa Air say power banks and spare batteries must not go in the overhead bin. Keep it in the seat pocket, under the seat or on you.
+No. DGCA's circular, Air India and Akasa Air all say power banks and spare batteries must not go in the overhead bin. Keep it in the seat pocket, under the seat or on you.
 
 ### Can I carry a 30,000 mAh power bank?
 

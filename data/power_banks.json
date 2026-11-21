@@ -1,6 +1,6 @@
 {
-  "checked": "2026-11-20",
-  "note": "Rules read on each airline's own page on 20 Nov 2026 (IndiGo and Air India in the built-in browser, Akasa Air with curl). DGCA's circular on using power banks in flight could not be found on dgca.gov.in, so the page says it is reported, not confirmed. Re-check with data/flight_items.json.",
+  "checked": "2026-11-21",
+  "note": "Rules read on each airline's own page on 20 Nov 2026 (IndiGo and Air India in the built-in browser, Akasa Air with curl). DGCA's in-flight rule is Dangerous Goods Advisory Circular No. 01/2025 (F.No DGCA-13008/37/2025-IR-DGCA, 11 Nov 2025), read on dgca.gov.in (Regulations > Circulars > Dangerous Goods) on 21 Nov 2026. Re-check with data/flight_items.json.",
   "voltage": 3.7,
   "airlines": [
     {"name": "IndiGo", "max_wh": 160, "max_count": null,
@@ -15,9 +15,9 @@
   ],
   "on_board": [
     {"text": "Don't use your power bank to charge a phone during the flight, and don't charge the power bank itself.",
-     "who": "Akasa Air's conditions of carriage say this. News reports from January 2026 say DGCA's dangerous goods advisory circular bans it on all Indian flights, but we couldn't find the circular on DGCA's website, so treat it as the rule on every airline."},
+     "who": "This is the rule on every Indian airline: DGCA's Dangerous Goods Advisory Circular No. 01/2025 of 11 Nov 2025 says using or charging power banks is not allowed during flight (read on DGCA's website on 21 Nov 2026). Akasa Air's conditions of carriage say the same."},
     {"text": "Keep it in the seat pocket, under the seat in front or on you, not in the overhead bin.",
-     "who": "Air India and Akasa Air both say this."},
+     "who": "DGCA's circular 01/2025, Air India and Akasa Air all say this."},
     {"text": "The MOBIKINS MK-PB-04 power bank is banned on every flight to, from and within India, in any bag.",
      "who": "Air India's and Akasa Air's pages say DGCA banned it."},
     {"text": "Keep each power bank in its box or a separate plastic bag, so the ends can't touch metal.",

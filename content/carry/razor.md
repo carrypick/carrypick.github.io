@@ -4,9 +4,9 @@ seo_title: Razor in flight India 2026: disposable razors, blades, cabin and chec
 description: Safety and disposable razors with the blades in a cartridge are fine in your cabin bag. Loose blades go in check-in. Old-style razors, shaving foam, electric shavers and how to pack them.
 item: Razor and blades
 date: 2026-11-15
-updated: 2026-11-16
+updated: 2026-11-21
 checked_against: IndiGo, Air India, SpiceJet, Air India Express and airport security rules
-sources: Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Airports Authority of India=https://www.aai.aero/en/node/92938 | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security | IndiGo dangerous goods table (PDF)=https://www.goindigo.in/content/dam/s6web/in/en/assets/static-pages/baggage/IndiGo-DGR-Table.pdf | SpiceJet dangerous goods list=https://corporate.spicejet.com/DGR.aspx | Air India Express prohibited items (PDF)=https://www.airindiaexpress.com/content/dam/airindiaexpress/documents/mandatory-disclosure/AIX_Prohibited_Items.pdf
+sources: Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Airports Authority of India=https://www.aai.aero/en/node/92938 | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security | IndiGo dangerous goods table (PDF)=https://www.goindigo.in/content/dam/s6web/in/en/assets/static-pages/baggage/IndiGo-DGR-Table.pdf | SpiceJet dangerous goods list=https://corporate.spicejet.com/DGR.aspx | Air India Express prohibited items (PDF)=https://www.airindiaexpress.com/content/dam/airindiaexpress/documents/mandatory-disclosure/AIX_Prohibited_Items.pdf | BCAS list of items banned in the cabin (archived copy, read 21 Nov 2026)=https://web.archive.org/web/20240919062225/https://bcasindia.gov.in/passenger_pdf/prohibited.pdf
 related: packing/weekend.html=Weekend packing list | packing/business.html=Work trip packing list | guides/cabin-luggage-guide.html=Cabin bag rules | baggage/index.html=Airline baggage rules
 ---
 ## What's allowed
@@ -28,7 +28,7 @@ Air India's list allows **safety razors, including disposable ones, in both bags
 
 - IndiGo's list marks **blades as not allowed in the cabin**, and allowed in check-in.
 - Air India bans razor blades not in a cartridge in the cabin, along with box cutters and utility knives, and allows them in check-in.
-- The airport security list (based on BCAS rules) bans razor blades in the cabin.
+- BCAS, India's aviation security regulator, lists "razor blades not in a cartridge" among the items banned in the cabin, but excludes safety razors. Kannur Airport's security list, based on BCAS rules, also bans razor blades in the cabin.
 
 Keep loose blades in their packet or a blade case in your check-in bag. Air India asks that sharp things in check-in are covered or wrapped, so baggage staff can't get cut.
 
@@ -44,7 +44,7 @@ These are liquids. In the cabin, each one must be **100 ml or less**, inside you
 
 **Trimmers:** IndiGo, SpiceJet and Air India Express all list a trimmer with a built-in battery as fine in both bags. In check-in it must be fully switched off. A trimmer without a battery goes in check-in only. Our [trimmer page](trimmer.html) has the details.
 
-**Electric shavers:** Electric shavers aren't named on any of the airline pages we checked (IndiGo, Air India, Akasa Air, SpiceJet and Air India Express), or on the airport security lists based on BCAS rules. BCAS's own list didn't load when we tried it. A rechargeable shaver is a battery device, so:
+**Electric shavers:** Electric shavers aren't named on any of the airline pages we checked (IndiGo, Air India, Akasa Air, SpiceJet and Air India Express), or on the airport security lists based on BCAS rules. BCAS's own list of items banned in the cabin doesn't name them either (we read an archived copy on 21 November 2026, because the link on BCAS's website is broken). A rechargeable shaver is a battery device, so:
 
 - **Cabin bag:** every airline we checked allows phones and other small battery devices in the cabin, so this is the safe place for a shaver.
 - **Check-in:** IndiGo's dangerous goods table and Akasa Air allow battery devices if they're fully switched off and can't turn on. Air India's page keeps phones and laptops with batteries out of check-in, and doesn't mention shavers.

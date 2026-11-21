@@ -263,7 +263,7 @@ def build_power_bank(B, cfg, deals, pages, lastmod):
 <ul>{on_board}</ul>
 <h2>What "needs airline approval" means</h2>
 <p>A power bank over {low} Wh and up to {high} Wh is allowed on {by_high}'s list, but {by_low}'s pages allow only up to {low} Wh. Ask your airline before you fly, or take a smaller one. Over {high} Wh, no airline here takes it.</p>
-<p class="checked">Not confirmed: we couldn't find DGCA's circular on in-flight use on DGCA's own website, so that rule is from Akasa Air's page and news reports. Everything else above is from the airlines' own pages, not from BCAS or DGCA circulars.</p>
+<p class="checked">The in-flight rule is from DGCA's <a href="https://www.dgca.gov.in/digigov-portal/Upload?flag=iframeAttachView&attachId=It%2B0TP06x06YSOsdpSINLg%3D%3D&baseLocale=en_US" rel="nofollow">Dangerous Goods Advisory Circular No. 01/2025</a> (11 November 2025), which we read on DGCA's website on 21 November 2026. The Wh limits and counts above are from the airlines' own pages.</p>
 {picks_html}
 <p>More help: <a href="../baggage/can-i-carry/power-bank.html">can I carry a power bank on a flight?</a>, <a href="../baggage/can-i-carry.html">what else you can carry</a> and <a href="../baggage/index.html">baggage rules for Indian airlines</a>.</p>
 {{faq}}
@@ -278,7 +278,7 @@ def build_power_bank(B, cfg, deals, pages, lastmod):
         ("How do I convert mAh to Wh?", "Multiply the mAh by the voltage and divide by 1,000. For a 10,000 mAh power bank with %s V cells: 10,000 x %s ÷ 1,000 = %s Wh."
          % (volt, volt, B.num(10000 * volt / 1000))),
         ("Can I keep a power bank in check-in baggage?", "No. IndiGo, Air India and Akasa Air all ban power banks in check-in bags. Akasa Air says a check-in bag with a power bank in it won't be loaded."),
-        ("Can I use a power bank during the flight?", "No. Akasa Air's rules ban using or charging power banks during the flight, and news reports say DGCA has banned it on all Indian flights. Charge your phone before you board."),
+        ("Can I use a power bank during the flight?", "No. DGCA's Dangerous Goods Advisory Circular No. 01/2025 (11 November 2025) says using or charging power banks is not allowed during flight on Indian airlines, and Akasa Air's rules say the same. Charge your phone before you board."),
         ("What is the biggest power bank allowed on IndiGo?", "IndiGo's list allows power banks up to %s Wh (about %s mAh at %s V), with the power rating printed on it."
          % (high, "{:,}".format(mah_for(high)), volt)),
         ("How many power banks can I carry?", "Air India and Akasa Air allow 2 spare batteries per person, and a power bank counts as one. IndiGo's list doesn't give a number, so keep to two."),
