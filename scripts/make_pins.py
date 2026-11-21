@@ -918,6 +918,11 @@ PINS = [
                                                       ["Straps", "Leather, steel", "Silicone, metal"], ["Analog warranty", "24 months", "24 months"]])
                     + '<p class="note"><strong>Same company.</strong> Titan Company makes both, so the choice is about style.</p>'
                     + '<p class="note">Warranty from the brands\' own sites.</p>')),
+    dict(slug="singapore-trip", board="India Trip Ideas", link="trips/singapore-trip-from-india.html",
+         title="Singapore trip from India: visa, 5-day plan and December weather",
+         description="Indians need a visa for Singapore, applied for through an authorised agent, and an SG Arrival Card before landing. See the visa fee and time, direct flights from India, a simple 5-day plan, December weather and the Christmas lights on Orchard Road.",
+         alt="The Supertree Grove in Singapore, with the words Singapore trip from India.",
+         html=photo("singapore-supertrees", "Singapore trip from India", "Visa, SG Arrival Card, a 5-day plan and the weather in December")),
 ]
 
 
