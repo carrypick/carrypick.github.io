@@ -129,7 +129,7 @@ Ajmal के 5 ml के चार रोल-ऑन इत्र, बिना �
 - **त्वचा संवेदनशील है या एलर्जी होती है,** तो पहले त्वचा की छोटी-सी जगह पर लगाकर देखें।
 - **परफ़्यूम को धूप से दूर रखें।** गर्मी और रोशनी से समय के साथ ख़ुशबू बदल सकती है।
 
-और गिफ़्ट आइडिया (English): [गर्लफ्रेंड या पत्नी के लिए क्रिसमस गिफ़्ट](../../guides/christmas-gift-for-girlfriend-or-wife.html), [बॉयफ्रेंड या पति के लिए क्रिसमस गिफ़्ट](../../guides/christmas-gift-for-boyfriend-or-husband.html), [दफ़्तर के लिए सीक्रेट सांता आइडिया](../../guides/secret-santa-gift-ideas-for-office.html) और [शादी के गिफ़्ट](../../guides/wedding-gift-guide.html)।
+और गिफ़्ट आइडिया: [बर्थडे गिफ़्ट](birthday-gift-ideas.html) और [एनिवर्सरी गिफ़्ट](anniversary-gift-ideas.html)। English में: [गर्लफ्रेंड या पत्नी के लिए क्रिसमस गिफ़्ट](../../guides/christmas-gift-for-girlfriend-or-wife.html), [बॉयफ्रेंड या पति के लिए क्रिसमस गिफ़्ट](../../guides/christmas-gift-for-boyfriend-or-husband.html), [दफ़्तर के लिए सीक्रेट सांता आइडिया](../../guides/secret-santa-gift-ideas-for-office.html) और [शादी के गिफ़्ट](../../guides/wedding-gift-guide.html)।
 
 ## सवाल-जवाब
 
