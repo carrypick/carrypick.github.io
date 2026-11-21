@@ -20,6 +20,7 @@ import cite_box
 import clothing_size
 import diagrams
 import hindi_pages
+import hindi_tools
 import more_tools
 import pack_maker
 import gift_finder
@@ -3178,6 +3179,8 @@ def build():
     if PACKING_FILE.exists():
         pack_maker.build(sys.modules[__name__], cfg, deals_by_asin, pages, lastmod)  # after guides and trips, so its links can be checked
     gift_finder.build(sys.modules[__name__], cfg, deals_by_asin, pages, lastmod)  # after the gift guides, so its links can be checked
+    if HINDI_PAGES:
+        hindi_tools.build_late(sys.modules[__name__], cfg, deals_by_asin, pages, lastmod)  # Hindi packing list maker and gift finder
 
     # Info pages
     name = e(cfg["site_name"])

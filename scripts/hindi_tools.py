@@ -12,6 +12,7 @@ the build prints a warning, so update the Hindi at the same time.
 """
 
 import json
+import re
 from html import escape as e
 
 import hindi_pages as H
@@ -63,11 +64,21 @@ POWER_TW = {  # words for static/power-bank.js
     "yesCell": "हाँ", "noCell": "नहीं", "over": "{max} Wh से ज़्यादा",
 }
 
+PACK_FILE = ROOT / "data" / "hindi_pack.json"
+PACK_EN, PACK_PATH = "tools/packing-list-maker.html", "hi/packing-list-maker.html"
+PACK_MATCHED = "2026-11-20"  # pack_maker.UPDATED when the Hindi words were written
+PACK_TW = {  # words for static/pack-maker.js
+    "perAdult": " (हर बड़े के लिए)", "by": {"flight": "फ़्लाइट से", "train": "ट्रेन से", "road": "कार या बस से"},
+    "day": " दिन", "days": " दिन", "abroad": ", विदेश", "ready": "तैयार चेकलिस्ट: ", "guides": "इस ट्रिप की पैकिंग गाइड",
+    "picks": "इस ट्रिप के लिए हमारी पसंद", "title": "आपकी पैकिंग लिस्ट: {s}", "packed": "{total} में से {done} पैक हो गए",
+    "list": "पैकिंग लिस्ट: {s}", "make": "अपनी लिस्ट ख़ुद बनाएँ: ", "copied": "लिस्ट कॉपी हो गई। इसे किसी नोट या चैट में पेस्ट करें।",
+    "nocopy": "यहाँ कॉपी नहीं हो पाई। लिस्ट को चुनकर हाथ से कॉपी करें।",
+}
 TOOLS_HI = []  # (hindi path, link text) of every Hindi tool page that exists, for the 'more free tools' pills
 
 
 def english_path(hi_path):
-    return {SHOE_PATH: SHOE_EN, POWER_PATH: POWER_EN}.get(hi_path) or next((en for en, h in PAIRS.items() if h == hi_path), "")
+    return {SHOE_PATH: SHOE_EN, POWER_PATH: POWER_EN, PACK_PATH: PACK_EN}.get(hi_path) or next((en for en, h in PAIRS.items() if h == hi_path), "")
 
 
 PAIRS = {}  # filled below by register(): English path -> Hindi path (all tools)
@@ -86,6 +97,9 @@ def register(B):
     if POWER_FILE.exists():
         B.HINDI_PAGES[POWER_EN] = POWER_PATH
         TOOLS_HI.append((POWER_PATH, "पावर बैंक फ्लाइट चेकर"))
+    if PACK_FILE.exists() and (ROOT / "data" / "packing.json").exists():
+        B.HINDI_PAGES[PACK_EN] = PACK_PATH
+        TOOLS_HI.append((PACK_PATH, "पैकिंग लिस्ट मेकर"))
 
 
 def build_all(B, cfg, deals, pages, lastmod):
@@ -326,3 +340,163 @@ def build_power(B, cfg, deals, pages, lastmod):
         ("कितने पावर बैंक ले जा सकते हैं?", "Air India और Akasa Air एक यात्री को 2 स्पेयर बैटरी की इजाज़त देती हैं, और पावर बैंक एक गिना जाता है। IndiGo की सूची में संख्या नहीं दी है, इसलिए दो तक रखें।"),
     ]
     _finish(B, cfg, pages, lastmod, path, seo, desc, "पावर बैंक फ्लाइट चेकर", body, faq, data["checked"])
+
+
+def build_late(B, cfg, deals_by_asin, pages, lastmod):
+    """Tools whose English pages are built after the Hindi pages (packing list maker, gift finder)."""
+    if B.HINDI_PAGES.get(PACK_EN) == PACK_PATH:
+        build_pack(B, cfg, deals_by_asin, pages, lastmod)
+
+
+# ---------- packing list maker ----------
+
+def hi_link(B, href, label):
+    """(path from a Hindi page, label) for an English site path: the Hindi twin when there is one, else the English page marked (English)."""
+    hi = B.HINDI_PAGES.get(href)
+    if hi and (B.DOCS / hi).exists():
+        return "../" + hi, label
+    return "../" + href, label + " (English)"
+
+
+def hi_note(B, html):
+    def swap(m):
+        path, label = hi_link(B, m.group(1), m.group(2))
+        return '<a href="%s">%s</a>' % (path, label)
+    return re.sub(r'<a href="\.\./([^"]+)">([^<]+)</a>', swap, html)
+
+
+def build_pack(B, cfg, deals_by_asin, pages, lastmod):
+    import pack_maker as P
+    hw = json.loads(PACK_FILE.read_text(encoding="utf-8"))
+    data = json.loads(B.PACKING_FILE.read_text(encoding="utf-8"))
+    if P.UPDATED != PACK_MATCHED:
+        H.warn("%s was written from the packing maker of %s, but scripts/pack_maker.py says %s. Update the Hindi words in data/hindi_pack.json."
+               % (PACK_PATH, PACK_MATCHED, P.UPDATED))
+    P.check(data, B, deals_by_asin)
+    mk = data["maker"]
+    trips = data["trips"]
+    miss = [i["id"] for g in data["groups"] for i in g["items"] if i["id"] not in hw["items"]]
+    miss += [g["name"] for g in data["groups"] if g["name"] not in hw["groups"]]
+    miss += [t["slug"] for t in mk["types"] if t["slug"] not in hw["types"]]
+    miss += [t["slug"] for t in trips if t["slug"] not in hw["trips"]]
+    if len(mk["notes"]) != len(hw["notes"]):
+        miss.append("notes (%d in English, %d in Hindi)" % (len(mk["notes"]), len(hw["notes"])))
+    if miss:
+        B.sys.exit("Error: data/hindi_pack.json has no Hindi for: %s" % ", ".join(map(str, miss)))
+    exists = lambda path: (B.DOCS / path).exists()
+    list_path = {t["slug"]: "packing/" + ("index.html" if t["slug"] == "week" else t["slug"] + ".html") for t in trips}
+
+    def item_json(item):
+        out = {"id": item["id"], "name": hw["items"][item["id"]], "when": item["maker"]}
+        if item.get("qty") is not None:
+            out["qty"] = item["qty"]
+        if item.get("cap") is not None:
+            out["cap"] = item["cap"]
+        if item.get("pick") and item["pick"] in deals_by_asin:
+            out["href"], out["more"] = "../picks/%s.html" % item["pick"], "हमारी पसंद"
+        elif item.get("link") and exists(item["link"]):
+            hi = B.HINDI_PAGES.get(item["link"])
+            if hi and exists(hi):
+                out["href"], out["more"] = "../" + hi, "और देखें"
+            else:
+                out["href"], out["more"] = "../" + item["link"], "और देखें (English)"
+        return out
+
+    def link(href, en_label):
+        if href not in hw["links"]:
+            B.sys.exit("Error: data/hindi_pack.json has no Hindi label for %s" % href)
+        return list(hi_link(B, href, hw["links"][href]))
+
+    guides = []
+    for row in mk["guides"]:
+        links = [link(href, label) for href, label in row["links"] if exists(href)]
+        if links:
+            guides.append({"when": row["maker"], "links": links})
+    cats = cfg["categories"]
+    shop = [{"when": row["maker"], "links": [["../category/%s.html" % c, hw["cats"][c]] for c in row["cats"]
+                                             if c in cats and exists("category/%s.html" % c)]} for row in mk["shop"]]
+    payload = {
+        "groups": [{"name": hw["groups"][g["name"]], "key": g["name"], "items": [item_json(i) for i in g["items"]]} for g in data["groups"]],
+        "types": [{"slug": t["slug"], "label": hw["types"][t["slug"]], "list": "../" + list_path[t["list"]],
+                   "list_label": hw["trips"][t["list"]] + " (English)", "where": t.get("where")} for t in mk["types"]],
+        "seasons": mk["seasons"], "notes": [{"when": n["maker"], "html": hi_note(B, hw["notes"][i])} for i, n in enumerate(mk["notes"])],
+        "guides": guides, "shop": [s for s in shop if s["links"]], "url": B.abs_url(cfg, PACK_PATH), "t": PACK_TW,
+    }
+    blob = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    type_opts = "".join(f'<option value="{t["slug"]}">{e(hw["types"][t["slug"]])}</option>' for t in mk["types"])
+    month_opts = "".join(f'<option value="{i + 1}">{mo}</option>' for i, mo in enumerate(B.HI_MONTHS))
+    who_boxes = "".join(f'<label class="pm-pill"><input type="checkbox" name="who" value="{w["slug"]}"'
+                        f'{" checked" if w["slug"] in ("men", "women") else ""}> <span>{e(hw["who"][w["slug"]])}</span></label>' for w in mk["who"])
+    by_radios = "".join(f'<label class="pm-pill"><input type="radio" name="by" value="{b["slug"]}"'
+                        f'{" checked" if b["slug"] == "flight" else ""}> <span>{e(hw["by"][b["slug"]])}</span></label>' for b in mk["by"])
+    where_radios = "".join(f'<label class="pm-pill"><input type="radio" name="where" value="{w}"'
+                           f'{" checked" if w == "india" else ""}> <span>{lab}</span></label>'
+                           for w, lab in (("india", "भारत में"), ("abroad", "विदेश में")))
+    ready = "".join(f'<li><a href="../{list_path[t["slug"]]}">{e(hw["trips"][t["slug"]])} (English)</a></li>' for t in trips)
+    n_items = sum(len(g["items"]) for g in data["groups"])
+    title = "पैकिंग लिस्ट मेकर: अपनी यात्रा की पैकिंग लिस्ट बनाएँ"
+    seo = "पैकिंग लिस्ट मेकर: यात्रा की पैकिंग लिस्ट हिंदी में, मुफ़्त"
+    desc = ("मुफ़्त पैकिंग लिस्ट मेकर: बीच, पहाड़, शहर, विदेश, तीर्थ, काम या शादी चुनें, दिन, महीना, कौन जा रहा है (पुरुष, महिला, बच्चे, शिशु) और फ़्लाइट, "
+            "ट्रेन या सड़क। टिक करने, कॉपी करने या WhatsApp पर भेजने लायक़ चेकलिस्ट पाएँ।")
+    head = H.head(B, [(None, "पैकिंग लिस्ट मेकर")], title, "मुफ़्त टूल · %s को अपडेट किया गया" % B.hi_date(P.UPDATED), "travel-gear",
+                  B.icon("check", "icon media-icon"), "../", "Packing list in Hindi: yatra ke liye packing list banaiye, tick kijiye aur WhatsApp par bhejiye.")
+    faq = [
+        ("यात्रा की पैकिंग लिस्ट कैसे बनाएँ?", "यात्रा का प्रकार, दिन, महीना, कौन जा रहा है और कैसे जा रहे हैं, यह चुनें। मेकर लगभग %d आम चीज़ों की लिस्ट बनाता है, "
+         "आपके दिनों के हिसाब से गिनती के साथ, और पैक करते समय आप टिक करते जाते हैं।" % n_items),
+        ("7 दिन की यात्रा के लिए कितने कपड़े रखें?", "रोज़ एक टॉप और एक एक्स्ट्रा (8), हर 3 दिन पर एक पैंट या जीन्स (3), रोज़ एक अंडरवियर और एक एक्स्ट्रा (8) और 7 जोड़ी मोज़े। "
+         "इससे लंबी यात्रा के लिए लगभग एक हफ़्ते के कपड़े रखें और वहीं धो लें।"),
+        ("शिशु या बच्चों के लिए क्या पैक करें?", "शिशु के लिए: रोज़ लगभग 6 डायपर, वाइप्स, रोज़ का एक सेट कपड़े और 2 एक्स्ट्रा, खाना या फ़ॉर्मूला, कंबल और दवाइयाँ। "
+         "बच्चों के लिए: हर दिन के कपड़े और 2 एक्स्ट्रा, ID, दवाइयाँ, बोतल, नाश्ता और व्यस्त रखने के लिए कुछ।"),
+        ("क्या भारत में फ्लाइट में पावर बैंक ले जा सकते हैं?", "हाँ, पर सिर्फ़ केबिन बैग में, चेक-इन में कभी नहीं। उसे अपने पास रखें, ऊपर के बिन में नहीं, और उड़ान में इस्तेमाल न करें। "
+         "कई एयरलाइनें 100 Wh तक के 2 पावर बैंक की इजाज़त देती हैं।"),
+        ("क्या मेरे टिक सेव रहते हैं?", "हाँ, सिर्फ़ इसी डिवाइस पर, आपके ब्राउज़र में। हमें कुछ नहीं भेजा जाता। \"टिक हटाएँ\" बटन से इन्हें साफ़ करें।"),
+        ("क्या मैं लिस्ट प्रिंट कर सकता हूँ या परिवार को भेज सकता हूँ?", "हाँ। काग़ज़ पर लिस्ट के लिए प्रिंट, कहीं भी चिपकाने के लिए लिस्ट कॉपी, या टेक्स्ट के रूप में भेजने के लिए WhatsApp पर भेजें इस्तेमाल करें। "
+         "इसमें सिर्फ़ सामान होता है, आपका नाम या जानकारी नहीं।"),
+    ]
+    faq_html, faq_schema = H.faq_html(B, faq)
+    body = f"""{head}
+<div class="wrap"><article class="guide">
+<p class="pm-nojs" id="pm-nojs">अपनी यात्रा की लिस्ट बनाने के लिए JavaScript चालू करें, या नीचे की तैयार लिस्टों में से कोई खोलें।</p>
+<form class="checker pm-form" id="pm" onsubmit="return false" hidden>
+<div class="pm-fields">
+<label>यात्रा का प्रकार<select id="pm-type">{type_opts}</select></label>
+<label>कितने दिन?<input id="pm-days" type="number" inputmode="numeric" min="1" max="30" value="5"></label>
+<label>महीना<select id="pm-month">{month_opts}</select></label>
+</div>
+<fieldset class="pm-set"><legend>कौन जा रहा है? <span class="muted">जो लागू हों सब चुनें</span></legend><div class="pm-pills">{who_boxes}</div></fieldset>
+<fieldset class="pm-set"><legend>कैसे जा रहे हैं</legend><div class="pm-pills">{by_radios}</div></fieldset>
+<fieldset class="pm-set"><legend>कहाँ</legend><div class="pm-pills">{where_radios}</div></fieldset>
+</form>
+<div id="pm-out" hidden>
+<h2 id="pm-title">आपकी पैकिंग लिस्ट</h2>
+<p class="checker-total"><span id="pm-count" aria-live="polite"></span></p>
+<p class="pm-actions"><button type="button" class="btn pm-btn" id="pm-print">प्रिंट</button> <button type="button" class="btn pm-btn2" id="pm-copy">लिस्ट कॉपी करें</button> <a class="btn btn-whatsapp" id="pm-wa" href="https://wa.me/" target="_blank" rel="noopener">WhatsApp पर भेजें</a> <button type="button" class="link-btn" id="pm-clear">टिक हटाएँ</button></p>
+<p class="hint small muted" id="pm-copied" aria-live="polite"></p>
+<div class="pm-notes" id="pm-notes"></div>
+<div class="pack-list" id="pm-list"></div>
+<p class="checked">गिनती हर व्यक्ति के लिए एक अंदाज़ा है। आपके टिक सिर्फ़ इसी ब्राउज़र में रहते हैं।</p>
+<div class="pm-noprint" id="pm-after"></div>
+</div>
+<div class="pm-noprint">
+<div class="answer"><h2>सीधा जवाब</h2><ul>
+<li>रोज़ एक टॉप और एक एक्स्ट्रा रखें, हर 3 दिन पर एक पैंट, और रोज़ का अंडरवियर और एक एक्स्ट्रा।</li>
+<li>हफ़्ते से ज़्यादा रुकना है? लगभग 7 दिन के कपड़े रखें और वहीं धो लें: मेकर गिनती की सीमा रखता है।</li>
+<li>फ़्लाइट से जा रहे हैं? पावर बैंक सिर्फ़ केबिन बैग में जाते हैं, और केबिन में तरल की हर बोतल 100 ml या कम, एक साफ़ 1 लीटर की बैग में।</li>
+</ul></div>
+<section class="pm-ready"><h2>तैयार पैकिंग लिस्ट</h2>
+<p>तैयार लिस्ट चाहिए? हर एक में आपके दिनों के हिसाब से गिनती है, और पैक करते समय आप टिक कर सकते हैं।</p>
+<ul>{ready}</ul></section>
+{faq_html}
+{H.tool_links(B, PACK_PATH, "../")}
+<p class="checked">{H.HI_DISCLOSURE}</p>
+</div>
+</article></div>
+<script type="application/json" id="pm-data">{blob}</script>
+<script src="../assets/pack-maker.js" defer></script>
+{B.telegram_band(cfg, "../")}"""
+    schema = [B.tool_article(cfg, seo, desc, PACK_PATH, PUBLISHED, max(PUBLISHED, P.UPDATED), "hi-IN"),
+              B.crumbs_schema(cfg, [("होम", ""), ("पैकिंग लिस्ट मेकर", PACK_PATH)]), faq_schema,
+              {"@context": "https://schema.org", "@type": "WebApplication", "name": "पैकिंग लिस्ट मेकर", "url": B.abs_url(cfg, PACK_PATH),
+               "applicationCategory": "TravelApplication", "operatingSystem": "Any", "description": desc, "inLanguage": "hi-IN"}]
+    pages.append(B.write(PACK_PATH, B.page(cfg, H.nfc(seo), H.nfc(desc), H.nfc(body), 1, PACK_PATH, schema, og_type="article", lang="hi", photo="packed-suitcase")))
+    lastmod[PACK_PATH] = max(PUBLISHED, P.UPDATED)

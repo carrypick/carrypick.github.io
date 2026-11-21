@@ -6,6 +6,13 @@
   var dataEl = document.getElementById("pm-data");
   if (!form || !dataEl) return;
   var data = JSON.parse(dataEl.textContent);
+  // The Hindi page passes its own words in data.t; {x} marks a value filled in below.
+  var T = Object.assign({ perAdult: " (for each adult)", by: { flight: "by flight", train: "by train", road: "by car or bus" },
+    day: " day", days: " days", abroad: ", abroad", ready: "Ready-made checklist: ", guides: "Packing guides for this trip",
+    picks: "Our picks for this trip", title: "Your packing list: {s}", packed: "{done} of {total} packed",
+    list: "Packing list: {s}", make: "Make your own list: ", copied: "List copied. Paste it in a note or a chat.",
+    nocopy: "Couldn't copy here. Select the list and copy it by hand." }, data.t || {});
+  function say(key, v) { return T[key].replace(/\{(\w+)\}/g, function (m, n) { return v && n in v ? v[n] : m; }); }
   var KEY = "cp_packmaker_v1";
   var rules = { per_day: function (n) { return n; }, per_day_plus_1: function (n) { return n + 1; },
                 per_day_plus_2: function (n) { return n + 2; }, per_2_days: function (n) { return n / 2; },
@@ -78,10 +85,10 @@
   }
   function summary(c) {
     var t = label(data.types, c.type);
-    var by = { flight: "by flight", train: "by train", road: "by car or bus" }[c.by] || "";
+    var by = T.by[c.by] || "";
     var month = form.querySelector("#pm-month option[value='" + c.month + "']").textContent;
-    return t + ", " + c.days + (c.days === 1 ? " day" : " days") + ", " + month + ", " + by +
-      (c.where === "abroad" && c.type !== "abroad" ? ", abroad" : "");
+    return t + ", " + c.days + (c.days === 1 ? T.day : T.days) + ", " + month + ", " + by +
+      (c.where === "abroad" && c.type !== "abroad" ? T.abroad : "");
   }
 
   function render() {
@@ -100,8 +107,8 @@
       var items = g.items.filter(function (i) { return match(i.when, c); });
       if (!items.length) return;
       var sec = el("section", "pack-group");
-      var perPerson = g.name === "Clothes" && people > 1 && (c.who.indexOf("men") >= 0 || c.who.indexOf("women") >= 0);
-      sec.appendChild(el("h2", "", g.name + (perPerson ? " (for each adult)" : "")));
+      var perPerson = (g.key || g.name) === "Clothes" && people > 1 && (c.who.indexOf("men") >= 0 || c.who.indexOf("women") >= 0);
+      sec.appendChild(el("h2", "", g.name + (perPerson ? T.perAdult : "")));
       var ul = el("ul");
       items.forEach(function (i) {
         var q = qty(i, c.days);
@@ -141,28 +148,28 @@
     after.textContent = "";
     var g = links(data.guides, c);
     var t = data.types.filter(function (x) { return x.slug === c.type; })[0];
-    if (t && !g.some(function (l) { return l[0] === t.list; })) g.push([t.list, "Ready-made checklist: " + t.list_label]);
-    var box = linkList("Packing guides for this trip", g);
+    if (t && !g.some(function (l) { return l[0] === t.list; })) g.push([t.list, T.ready + t.list_label]);
+    var box = linkList(T.guides, g);
     if (box) after.appendChild(box);
-    box = linkList("Our picks for this trip", links(data.shop, c));
+    box = linkList(T.picks, links(data.shop, c));
     if (box) after.appendChild(box);
 
-    $("pm-title").textContent = "Your packing list: " + summary(c);
+    $("pm-title").textContent = say("title", { s: summary(c) });
     count();
     share();
     save();
   }
   function count() {
     var done = shown.filter(function (s) { return ticks[s.id]; }).length;
-    $("pm-count").textContent = done + " of " + shown.length + " packed";
+    $("pm-count").textContent = say("packed", { done: done, total: shown.length });
   }
   function text() {
-    var lines = ["Packing list: " + summary(choice()), ""], group = "";
+    var lines = [say("list", { s: summary(choice()) }), ""], group = "";
     shown.forEach(function (s) {
       if (s.group !== group) { if (group) lines.push(""); group = s.group; lines.push("*" + group + "*"); }
       lines.push((ticks[s.id] ? "✅ " : "⬜ ") + s.name + (s.q ? " × " + s.q : ""));
     });
-    lines.push("", "Make your own list: " + data.url);
+    lines.push("", T.make + data.url);
     return lines.join("\n");
   }
   function share() { $("pm-wa").href = "https://wa.me/?text=" + encodeURIComponent(text()); }
@@ -194,10 +201,10 @@
       var ok = false;
       try { ok = document.execCommand("copy"); } catch (err) { ok = false; }
       document.body.removeChild(area);
-      copied(ok ? "List copied. Paste it in a note or a chat." : "Couldn't copy here. Select the list and copy it by hand.");
+      copied(ok ? T.copied : T.nocopy);
     }
     if (navigator.clipboard && window.isSecureContext) {
-      navigator.clipboard.writeText(t).then(function () { copied("List copied. Paste it in a note or a chat."); }, fallback);
+      navigator.clipboard.writeText(t).then(function () { copied(T.copied); }, fallback);
     } else fallback();
   });
 
