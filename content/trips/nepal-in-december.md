@@ -139,6 +139,8 @@ Most visitors stay in Thamel or near Boudhanath in Kathmandu, in Lakeside in Pok
 
 ## What to wear in Nepal in December
 
+What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#nepal) for day and night temperatures and an outfit list by month.
+
 - **Layers:** thermals, a full-sleeve top, a sweater or fleece, and a warm jacket for nights of 3–4 °C in Kathmandu. Take layers off in the midday sun.
 - **For Nagarkot and Sarangkot sunrises:** your warmest jacket, a woollen cap, gloves and a neck warmer.
 - **For temples:** cover your shoulders and knees. Wear shoes that slip off easily, because you take them off at every shrine.
