@@ -12,6 +12,8 @@ glance: For beaches and parties=[Goa](goa.html) | For clear sea and coral=[Andam
 ---
 December and January are the best months for most of India: the monsoon is long over, the skies are clear, and it's cool almost everywhere except the far south. They are also the busiest months, so it pays to choose well and book early. Here's how India's favourite winter trips compare, plus Bhutan and Nepal, two easy trips abroad without a visa, and Singapore.
 
+Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
+
 Only looking abroad? Compare all our [international trips from India](international-trips-from-india.html) by flight time, best months and visa type.
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.

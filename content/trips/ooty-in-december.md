@@ -13,6 +13,8 @@ glance: Weather in December=About 21 °C by day and 7 °C at night (IMD averages
 ---
 Ooty in December and January is cool by day and cold at night. December still gets some rain from the north-east monsoon. January is dry and sunny, with the coldest mornings of the year. This guide covers the weather, the frost (Ooty doesn't get snow), a simple 2-day and 3-day plan, the trip from Bangalore, the toy train, the e-pass and plastic rules, and what to wear.
 
+Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
+
 Still choosing? Compare Goa, Kerala, Manali and more in [where to go in December and January](where-to-go-in-december-january.html). Ooty pairs well with [Kerala](kerala.html): Munnar is another tea-hill town with cold winter nights. Want real snow? See [Kashmir in December](kashmir-in-december.html) or [Manali in winter](manali.html).
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.

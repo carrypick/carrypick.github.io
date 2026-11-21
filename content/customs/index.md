@@ -29,6 +29,7 @@ This is the value of new goods (gifts, shopping, electronics) you can bring in f
 - **It's per person.** A family can't add up allowances to clear one costly item.
 - **Duty is only on the extra.** If you bring goods worth more than your allowance, you pay duty on the value above it.
 - **Keep your shop bills** with you. Customs uses the value of the goods.
+- **Visiting India as a foreign tourist?** Start with our [visiting India guide](../trips/visiting-india.html) for the e-Visa, the e-Arrival card, SIM cards and money.
 
 ## What changed in 2026
 

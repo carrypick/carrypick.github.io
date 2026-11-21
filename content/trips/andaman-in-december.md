@@ -12,6 +12,8 @@ glance: Weather in December=Warm: days about 30–31 °C, nights about 24–26 �
 ---
 Andaman in December is warm and green, with calm seas on most days and some rain. It is the start of the best season, which runs to April. This guide covers the weather and rain, how to get there, ferries between the islands, permits, the rules on beaches and coral, the Island Tourism Festival and what to pack.
 
+Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
+
 Still choosing? Compare Goa, Kerala, Manali and more in [where to go in December and January](where-to-go-in-december-january.html). Want a beach closer to home? See the [Goa trip guide](goa.html). Want cold mountain air instead? See [Darjeeling in December](darjeeling-in-december.html).
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.

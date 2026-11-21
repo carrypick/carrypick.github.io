@@ -12,6 +12,8 @@ glance: Dates=Saturday 23 to Tuesday 26 January 2027, with one day off on Monday
 ---
 Republic Day 2027 falls on a **Tuesday**. Take Monday 25 January off, and you get four days: Saturday to Tuesday. It's a good winter break, but many people will have the same idea, so plan early. Planning the rest of the year? See [all long weekends in 2027](../tools/long-weekends-2027.html) from the official holiday list.
 
+Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## Quick comparison

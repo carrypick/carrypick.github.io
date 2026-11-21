@@ -14,6 +14,8 @@ Planning your first trip abroad, or the next one? This page puts all our interna
 
 Visa rules change often, so we keep them in one place: our [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) shows the entry rule for each country, with the official source and the date we checked it. Plan your money with the [trip budget calculator](../tools/trip-budget-calculator.html), where you add your own amounts.
 
+Coming to India from abroad instead? Start with our [visiting India guide](visiting-india.html): the e-Visa from the official site, what to pack, SIM cards, money and the best time to go.
+
 ## All our international trips at a glance
 
 Distance is the straight-line distance from Delhi (DEL) or Mumbai (BOM) airport, whichever is closer. The flying time is a rough guide for a direct flight, worked out from that distance. Your real flight time is on your ticket.

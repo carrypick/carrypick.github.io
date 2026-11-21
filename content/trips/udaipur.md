@@ -11,6 +11,8 @@ glance: Weather in December=Sunny days about 26 °C, cold nights about 8 °C (IM
 ---
 Udaipur, the city of lakes, is at its best in winter: sunny, dry days, cool evenings by Lake Pichola, and the Shilpgram crafts fair at the end of December. Two days are enough for the city, and a third day lets you see the great forts and temples nearby. This guide covers the weather, a simple 2-day and 3-day plan, opening hours, December events, getting there and what to wear.
 
+Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
+
 Still choosing? Compare other winter trips in [where to go in December and January](where-to-go-in-december-january.html). Seeing more of Rajasthan? Read our [Jaipur winter guide](jaipur.html).
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html), and work out the fuel with the [road trip fuel cost calculator](../tools/road-trip-cost-calculator.html).

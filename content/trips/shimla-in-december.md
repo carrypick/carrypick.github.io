@@ -12,6 +12,8 @@ glance: Weather in December=About 12 °C by day and 4 °C at night (IMD averages
 ---
 Shimla in December is cold and mostly dry, with sunny days and nights close to freezing. Many people go hoping for snow at Christmas or New Year. Snow can come in late December, but in Shimla it is much more likely in January and February. This guide covers the weather, the real chances of snow, how to get there, the toy train, winter roads and what to wear.
 
+Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
+
 Still choosing? Compare Goa, Manali, Jaipur and more in [where to go in December and January](where-to-go-in-december-january.html). Want deeper snow? See [Manali in winter](manali.html) and [Kashmir in December](kashmir-in-december.html). Prefer mild days without snow? See [Rishikesh in December](rishikesh-in-december.html). For clear mountain views, see [Darjeeling in December](darjeeling-in-december.html).
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html), and work out the fuel with the [road trip fuel cost calculator](../tools/road-trip-cost-calculator.html).

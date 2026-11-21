@@ -13,6 +13,8 @@ glance: Weather in December=About 24 °C by day and 10 °C at night (IMD average
 ---
 Varanasi in December and January is cool, dry and often foggy. Afternoons are sunny and pleasant for walking the ghats. Mornings and nights are cold, and the river breeze makes them feel colder. This guide covers the weather and fog, a simple 2-day and 3-day plan, the Ganga aarti, Kashi Vishwanath timings and New Year crowds, the new ropeway, how to get there and what to wear.
 
+Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
+
 Still choosing? Compare Goa, Manali, Rishikesh and more in [where to go in December and January](where-to-go-in-december-january.html). Want the Ganga with hills and rafting? See [Rishikesh in December](rishikesh-in-december.html).
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.

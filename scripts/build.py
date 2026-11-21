@@ -3079,7 +3079,7 @@ def build():
   </ol>
 </section>
 {baggage_promo}
-{('<section class="wrap section">' + section_head("Trip guides", '<a class="see-all" href="trips/index.html">All trips ' + icon("arrow", "icon icon-sm") + '</a>') + trip_cards(trips[:3], "") + (('<p class="small">Going abroad? Compare all our <a href="trips/international-trips-from-india.html">international trips from India</a> by flight time, best months and visa type.</p>') if (TRIPS_DIR / "international-trips-from-india.md").exists() else '') + '</section>') if trips else ''}
+{('<section class="wrap section">' + section_head("Trip guides", '<a class="see-all" href="trips/index.html">All trips ' + icon("arrow", "icon icon-sm") + '</a>') + trip_cards(trips[:3], "") + (('<p class="small">Going abroad? Compare all our <a href="trips/international-trips-from-india.html">international trips from India</a> by flight time, best months and visa type.</p>') if (TRIPS_DIR / "international-trips-from-india.md").exists() else '') + (('<p class="small">Visiting India from abroad? Start with our <a href="trips/visiting-india.html">visiting India guide</a>: the e-Visa, what to pack, SIM cards and money.</p>') if (TRIPS_DIR / "visiting-india.md").exists() else '') + '</section>') if trips else ''}
 {('<section class="wrap section">' + section_head("Buying guides", '<a class="see-all" href="guides/index.html">All guides ' + icon("arrow", "icon icon-sm") + '</a>') + guide_cards(cfg, home_guides[:3], "") + '</section>') if articles else ''}
 {telegram_band(cfg, "")}"""
     home_schema = [{"@context": "https://schema.org", "@type": "WebSite", "name": cfg["site_name"],
