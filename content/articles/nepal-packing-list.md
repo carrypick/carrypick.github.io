@@ -3,6 +3,7 @@ seo_title: Nepal packing list from India (2026): documents, Indian currency rule
 title: Nepal packing list: things to carry for a trip from India
 description: What to carry for Nepal from India: passport or original voter ID (Aadhaar isn't accepted by air), the ₹25,000 limit on ₹200 and ₹500 notes, what to wear in November, December and January, temple dress at Pashupatinath, plugs and bag limits on Buddha Air and other airlines.
 date: 2026-11-19
+updated: 2026-11-21
 category: travel-gear
 photo: nepal-boudhanath
 ---
@@ -184,13 +185,13 @@ A light 25 litre daypack:
 - **Flying inside Nepal** (Kathmandu to Pokhara, for example)? Small planes allow a 5 kg cabin bag and 15–25 kg checked, by fare. Pack light, or leave a bag at your Kathmandu hotel.
 - **Going by road?** A backpack or a light trolley is easier on bus roofs, hill roads and at the border.
 
-Economy bag limits, from the airlines' own websites:
+Economy bag limits for flights between India and Nepal, from the airlines' own websites (IndiGo and Air India checked on 21 November 2026):
 
 | Airline | Cabin bag | Check-in bag |
 |---|---|---|
 | Buddha Air (Varanasi, Kolkata and inside Nepal) | 5 kg, 55 x 40 x 20 cm | 15–25 kg by fare |
-| Air India | 7 kg, 55 x 40 x 20 cm | As shown for your fare |
-| IndiGo | 7 kg, 55 x 35 x 25 cm | As shown for your fare |
+| Air India | 7 kg, 55 x 40 x 20 cm, plus a 3 kg personal item | 20 kg on Value and Classic, 30 kg on Flex |
+| IndiGo | 7 kg, 55 x 35 x 25 cm, plus a 3 kg personal item | 20 kg (25 kg on IndiGo UpFront) |
 | Air India Express | 7 kg | 20 kg on Value (none on Lite) |
 
 - **Buddha Air's cabin limit is only 5 kg.** Put heavy things in your check-in bag.

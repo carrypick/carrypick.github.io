@@ -1208,25 +1208,26 @@
       "checkin": [
         {
           "fare": "Saver, Flexi Plus and other regular fares",
-          "allowance": "30 kg to and from the Gulf; 30 kg to Singapore, Kuala Lumpur, Jakarta and Vietnam; 20 kg to Bangkok, Phuket, Krabi and Bali"
+          "allowance": "30 kg to and from the Gulf; 30 kg to Singapore, Kuala Lumpur, Jakarta and Vietnam; 20 kg to Bangkok, Phuket, Krabi, Bali and Kathmandu"
         },
         {
           "fare": "IndiGo UpFront",
-          "allowance": "35 kg on most Gulf routes and to Singapore and Kuala Lumpur; 25 kg to Bangkok, Phuket, Krabi and Bali"
+          "allowance": "35 kg on most Gulf routes and to Singapore and Kuala Lumpur; 25 kg to Bangkok, Phuket, Krabi, Bali and Kathmandu"
         },
         {
           "fare": "Lite",
           "allowance": "No free checked bag (you can buy one)"
         }
       ],
-      "checkin_summary": "30 kg to the Gulf and Singapore, 20 kg to Bangkok and Bali, in up to 2 bags",
+      "checkin_summary": "30 kg to the Gulf and Singapore, 20 kg to Bangkok, Bali and Kathmandu, in up to 2 bags",
       "checkin_note": "The allowance is per person, in up to 2 bags; a third bag costs extra. No single bag may weigh more than 32 kg, even if you pay for excess, and each bag must be within 158 cm in total. Prepaid extra baggage, bought online up to 2 hours before an international flight, is much cheaper than at the airport.",
       "infant": "No checked allowance for infants on international flights. One 7 kg hand bag and one stroller per infant are free.",
       "notes": [
         "Zamzam water: on flights from Jeddah and Madinah to India, it must fit within your 30 kg allowance.",
         "India–Kuwait: your 30 kg can include a well-packed cardboard box within 158 cm.",
         "Power banks and spare batteries go in your cabin bag only. You can't use or charge them during the flight.",
-        "You can carry up to 5 litres of alcohol (24–70%, in shop packaging) in checked baggage."
+        "You can carry up to 5 litres of alcohol (24–70%, in shop packaging) in checked baggage.",
+        "India–Kathmandu (checked on IndiGo's baggage FAQ on 21 Nov 2026): 20 kg checked on regular fares, 25 kg on IndiGo UpFront, plus one 7 kg cabin bag and a 3 kg personal item."
       ],
       "sources": [
         {
@@ -1270,24 +1271,25 @@
       "checkin": [
         {
           "fare": "Value",
-          "allowance": "25 kg"
+          "allowance": "25 kg (20 kg to and from Nepal)"
         },
         {
           "fare": "Classic",
-          "allowance": "30 kg"
+          "allowance": "30 kg (20 kg to and from Nepal)"
         },
         {
           "fare": "Flex",
-          "allowance": "35 kg"
+          "allowance": "35 kg (30 kg to and from Nepal)"
         }
       ],
-      "checkin_summary": "25 kg on Value, 30 kg on Classic and 35 kg on Flex to the Gulf and South-East Asia",
+      "checkin_summary": "25 kg on Value, 30 kg on Classic and 35 kg on Flex to the Gulf and South-East Asia; 20 kg (30 kg on Flex) to Nepal",
       "checkin_note": "These allowances cover flights between India and the Gulf (including Saudi Arabia) and South-East Asia (Singapore, Malaysia, Thailand, Indonesia, Vietnam, the Philippines and Hong Kong), in both directions. No single bag may weigh more than 32 kg, and each bag must be within 158 cm in total. They apply only to flights run by Air India itself, not Air India Express.",
       "infant": "Up to 10 kg checked in Economy, plus a folding stroller, carrycot or car seat.",
       "notes": [
         "Air India lists Gulf airport rules: Bahrain may reject round bags and bundles tied with rope; Muscat charges extra for bags without a flat side, tied with rope or wrapped in a blanket; Sharjah needs at least one flat side and no ropes; Dubai asks you to pack rope-tied items and plastic bags in boxes.",
         "Zamzam water can't go inside your checked bag from Saudi airports. Only Hajj and Umrah visa holders may carry one official 5-litre bottle.",
-        "Power banks: cabin bag only, never checked, and not in the overhead bin."
+        "Power banks: cabin bag only, never checked, and not in the overhead bin.",
+        "India–Kathmandu (checked on Air India's SAARC baggage page on 21 Nov 2026): Economy includes 20 kg checked on Value and Classic and 30 kg on Flex, in both directions, plus one 7 kg cabin bag and a 3 kg personal item."
       ],
       "sources": [
         {
@@ -1305,6 +1307,10 @@
         {
           "label": "Air India to and from Australia, Far East and Southeast Asia",
           "url": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/checked-baggage-allowance/south-east-asia-australia.html"
+        },
+        {
+          "label": "Air India to and from SAARC countries (including Nepal)",
+          "url": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/checked-baggage-allowance/saarc-countries.html"
         }
       ],
       "page_name": "Air India international"

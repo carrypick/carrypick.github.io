@@ -4,7 +4,7 @@ title: नेपाल जाने के लिए क्या चाहि�
 description: भारत से नेपाल जाने के लिए क्या ले जाएँ: पासपोर्ट या असली वोटर ID (हवाई सफ़र में आधार नहीं चलता), ₹200 और ₹500 के नोटों की ₹25,000 की सीमा, सर्दी के कपड़े, मंदिर के नियम, बैग की सीमा और ट्रेक की जानकारी।
 hinglish: Nepal jane ke liye kya chahiye? Passport ya original voter ID (flight me Aadhaar nahi chalta), visa nahi lagta, aur Rs 200 aur Rs 500 ke note Rs 25,000 tak hi le ja sakte hain. December-January me garam kapde aur mandir ke liye kandhe aur ghutne dhakne wale kapde rakhein.
 date: 2026-11-19
-matches: 2026-11-19
+matches: 2026-11-21
 category: travel-gear
 photo: nepal-boudhanath
 short: नेपाल पैकिंग लिस्ट
@@ -184,13 +184,13 @@ short: नेपाल पैकिंग लिस्ट
 - **नेपाल के अंदर उड़ रहे हैं** (जैसे काठमांडू से पोखरा)? छोटे विमान 5 kg का केबिन बैग और किराये के हिसाब से 15–25 kg चेक-इन देते हैं। हल्का पैक करें, या एक बैग काठमांडू के होटल में छोड़ दें।
 - **सड़क से जा रहे हैं?** बस की छत, पहाड़ी सड़कों और बॉर्डर पर बैकपैक या हल्की ट्रॉली आसान रहती है।
 
-एयरलाइनों की अपनी वेबसाइट से इकोनॉमी के बैग की सीमा:
+भारत और नेपाल के बीच की उड़ानों में इकोनॉमी के बैग की सीमा, एयरलाइनों की अपनी वेबसाइट से (IndiGo और Air India 21 नवंबर 2026 को जाँचे):
 
 | एयरलाइन | केबिन बैग | चेक-इन बैग |
 |---|---|---|
 | Buddha Air (वाराणसी, कोलकाता और नेपाल के अंदर) | 5 kg, 55 x 40 x 20 cm | किराये के हिसाब से 15–25 kg |
-| Air India | 7 kg, 55 x 40 x 20 cm | आपके किराये में जो दिखे |
-| IndiGo | 7 kg, 55 x 35 x 25 cm | आपके किराये में जो दिखे |
+| Air India | 7 kg, 55 x 40 x 20 cm, साथ में 3 kg का निजी सामान | Value और Classic में 20 kg, Flex में 30 kg |
+| IndiGo | 7 kg, 55 x 35 x 25 cm, साथ में 3 kg का निजी सामान | 20 kg (IndiGo UpFront में 25 kg) |
 | Air India Express | 7 kg | Value में 20 kg (Lite में नहीं) |
 
 - **Buddha Air की केबिन सीमा सिर्फ़ 5 kg है।** भारी चीज़ें चेक-इन बैग में रखें।
