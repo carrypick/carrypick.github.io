@@ -836,6 +836,46 @@ PINS = [
          html=chart("Free size converter", "Clothing size chart for India",
                     table(["UK", "Letter", "US", "EU", "Bust cm"], [["8", "S", "4–6", "36–38", "82"], ["10", "S", "4–6", "36–38", "87"], ["12", "M", "8–10", "40–42", "92"], ["14", "M", "8–10", "40–42", "97"], ["16", "L", "12–14", "44–46", "102.5"]])
                     + '<p class="note"><strong>Go by your body in cm, not the letter.</strong> Women\'s tops from Marks &amp; Spencer India\'s chart. Sizes vary by brand.</p>')),
+    dict(slug="nepal-december", board="India Trip Ideas", link="trips/nepal-in-december.html",
+         title="Nepal in December: weather, snow, festivals and a 6-day plan",
+         description="Nepal in December is dry and sunny, with Kathmandu at about 20 °C by day and 4 °C at night. Snow stays on the high trekking routes, not in Kathmandu or Pokhara. See the festivals, the Everest mountain flight, how to get there from India, the ID you need and what to wear.",
+         alt="Annapurna mountains above Pokhara in Nepal, with the words Nepal in December.",
+         html=photo("nepal-pokhara-annapurna", "Nepal in December", "Dry, sunny and cold at night. Weather, snow, festivals and a 6-day plan")),
+    dict(slug="bhutan-by-road", board="India Trip Ideas", link="trips/bhutan-by-road.html",
+         title="Bhutan by road from India: permit, route and driving your own car",
+         description="Yes, Indians can go to Bhutan by road. Most people fly to Bagdogra or take a train to New Jalpaiguri, then cross at Jaigaon and Phuentsholing. See the entry permit, the daily SDF, the guide rule and what driving your own car costs.",
+         alt="Dochula pass in Bhutan, with the words Bhutan by road from India.",
+         html=photo("bhutan-dochula", "Bhutan by road from India", "Jaigaon to Phuentsholing: the permit, the SDF and your own car")),
+    dict(slug="what-to-wear-tool", board="Packing and What to Wear", link="tools/what-to-wear.html",
+         title="What to wear in 20 places by month: Manali, Goa, Dubai and more",
+         description="Pick a place and a month and see what to wear: layers for hills, light clothes for beaches, and what to carry abroad. A free tool for 20 places in India and abroad, with numbers from official weather sources.",
+         alt="Lists of the 20 places in the what to wear tool: hill places, beach places and places abroad.",
+         html=chart("Free tool", "What to wear, by place and month",
+                    group("Hills and snow", "Manali, Shimla, Kashmir, Darjeeling, Ooty, Bhutan, Nepal")
+                    + group("Cities and culture", "Rishikesh, Varanasi, Udaipur, Jaipur")
+                    + group("Beaches and coast", "Goa, Kerala, Andaman, Maldives, Bali, Sri Lanka")
+                    + group("Abroad", "Dubai, Thailand, Vietnam")
+                    + '<p class="note"><strong>Pick a place and a month.</strong> You get what to wear by day, at night and on your feet.</p>')),
+    dict(slug="singapore-packing", board="Packing and What to Wear", link="guides/singapore-packing-list.html",
+         title="Singapore packing list from India: what to pack and wear",
+         description="Singapore is hot and humid all year, about 30 °C by day, and rain is most likely from November to January. Pack light cotton clothes, a poncho or umbrella, walking shoes and one layer for cold air conditioning. Indians need a visa and an SG Arrival Card, and Singapore has strict rules on chewing gum and vapes.",
+         alt="Singapore December weather and a short packing list: visa, SG Arrival Card, light clothes, a layer for air conditioning and rain gear.",
+         html=chart("Singapore from India", "Singapore packing list: the short version",
+                    '<div class="big"><div><b>30 °C</b><span>average December day, humid at about 85%</span></div><div><b>Visa</b><span>needed for Indians, plus an SG Arrival Card</span></div></div>'
+                    + group("Clothes", "Light cotton or linen, and one layer for cold malls, trains and cinemas.")
+                    + group("Rain", "A small umbrella or poncho. November to January is the wettest time.")
+                    + group("Strict rules", "Chewing gum, vapes and cigarettes.")
+                    + '<p class="note">Rules from ICA. Checked 21 Nov 2026.</p>')),
+    dict(slug="honeymoon-packing", board="Packing and What to Wear", link="guides/honeymoon-packing-list.html",
+         title="Honeymoon packing list: what to pack for the bride, groom and trip",
+         description="Most couples leave a few days after the wedding, when everyone is tired and things get forgotten. This honeymoon packing list covers what you both need, what to share, and what changes for a beach honeymoon like the Maldives, Bali or Goa, or a hill honeymoon like Manali or Kashmir.",
+         alt="A honeymoon packing list: documents, clothes for the weather, things to share and what changes for a beach or hill trip.",
+         html=chart("Honeymoon packing", "Honeymoon packing list: the short version",
+                    group("Documents", "Photo ID for both. Abroad, the name on the ticket must match the passport.")
+                    + group("Share these", "One power bank, one first-aid kit and one charger with two ports.")
+                    + group("Beach honeymoon", "Summer clothes, sunscreen and polarized sunglasses.")
+                    + group("Hill honeymoon", "Warm layers, snow boots and lip balm.")
+                    + '<p class="note">Packing cubes keep two people\'s things apart in one bag.</p>')),
 ]
 
 
