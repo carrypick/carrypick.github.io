@@ -1,14 +1,14 @@
 ---
 seo_title: Where to go in India in December and January 2026–27: beach, snow or heritage?
 title: Where to go in India in December and January
-description: Beach, snow, forts or backwaters? Compare Goa, Andaman, Manali, Shimla, Rishikesh, Darjeeling, Bhutan, Nepal, Singapore, Sri Lanka, Ooty, Varanasi, Jaipur, Udaipur and Kerala for a Christmas or New Year trip: weather, how to get there, crowds and what to pack.
+description: Beach, snow, forts or backwaters? Compare Goa, Andaman, Manali, Shimla, Rishikesh, Darjeeling, Bhutan, Nepal, Singapore, Sri Lanka, Thailand, Ooty, Varanasi, Jaipur, Udaipur and Kerala for a Christmas or New Year trip: weather, how to get there, crowds and what to pack.
 date: 2026-11-03
 updated: 2026-11-21
 place: India in winter
 best: Dec–Jan
 photo: traveller-sunset
 priority: 1
-glance: For beaches and parties=[Goa](goa.html) | For clear sea and coral=[Andaman](andaman-in-december.html) | For snow=[Manali](manali.html) or [Shimla](shimla-in-december.html) (snow isn't guaranteed) | For mountain views=[Darjeeling](darjeeling-in-december.html) | Abroad, without a visa=[Bhutan](bhutan-in-december.html) or [Nepal](nepal-in-december.html) | For the Ganga, yoga and rafting=[Rishikesh](rishikesh-in-december.html) | For forts and palaces=[Jaipur](jaipur.html) or [Udaipur](udaipur.html) | For backwaters and hills=[Kerala](kerala.html) | Book=As early as you can: Christmas to New Year is peak season everywhere
+glance: For beaches and parties=[Goa](goa.html) | For clear sea and coral=[Andaman](andaman-in-december.html) | For snow=[Manali](manali.html) or [Shimla](shimla-in-december.html) (snow isn't guaranteed) | For mountain views=[Darjeeling](darjeeling-in-december.html) | Abroad, without a visa=[Bhutan](bhutan-in-december.html), [Nepal](nepal-in-december.html) or [Thailand](thailand-trip-from-india.html) | For the Ganga, yoga and rafting=[Rishikesh](rishikesh-in-december.html) | For forts and palaces=[Jaipur](jaipur.html) or [Udaipur](udaipur.html) | For backwaters and hills=[Kerala](kerala.html) | Book=As early as you can: Christmas to New Year is peak season everywhere
 ---
 December and January are the best months for most of India: the monsoon is long over, the skies are clear, and it's cool almost everywhere except the far south. They are also the busiest months, so it pays to choose well and book early. Here's how India's favourite winter trips compare, plus Bhutan and Nepal, two easy trips abroad without a visa, and Singapore.
 
@@ -28,6 +28,7 @@ Plan your budget with our [trip budget calculator](../tools/trip-budget-calculat
 | [Nepal](nepal-in-december.html) | Temples, Himalayan sunrises, Pokhara's lake, the Everest flight | Dry and sunny: Kathmandu days about 20 °C, nights about 3–4 °C | Kathmandu (KTM), or by road through a border crossing | Busy from Christmas to New Year |
 | [Singapore](singapore-trip-from-india.html) | Gardens by the Bay, Sentosa, Christmas lights on Orchard Road | Warm and humid, about 30 °C by day; the wettest month, with short showers | Direct flights from many Indian cities to Changi (SIN); visa needed | Busiest and costliest from Christmas to New Year |
 | [Sri Lanka](sri-lanka-trip-from-india.html) | Sigiriya, Kandy, tea hills, Ramayana sites | Colombo about 30 °C by day; some rain in December, drier in January | Direct flights from many Indian cities to Colombo (CMB); free ETA for Indians | Busy from Christmas to New Year |
+| [Thailand](thailand-trip-from-india.html) | Bangkok's temples and markets, Phuket and Krabi beaches | Warm and mostly dry: Bangkok about 31 °C by day, 21 °C at night | Direct flights from many Indian cities to Bangkok, some to Phuket and Krabi; no visa for up to 30 days | Busy and costly from Christmas to New Year |
 | [Ooty](ooty-in-december.html) | Tea hills, the Nilgiri toy train, frosty mornings | Days about 21 °C, nights about 6–7 °C; frost but no snow | Coimbatore (CJB), then about 89 km by road | Busy from Christmas to New Year; e-pass needed for cars |
 | [Varanasi](varanasi-in-december.html) | Ghats, the Ganga aarti, temples | Days about 22–24 °C, nights about 9–10 °C; foggy mornings | Varanasi (VNS) | Very crowded at Kashi Vishwanath at New Year |
 | [Jaipur](jaipur.html) | Forts, palaces, markets | Sunny days about 22–24 °C, cold nights about 8–9 °C | Jaipur (JAI) | Busy, especially 25 Dec to 1 Jan |
@@ -93,6 +94,12 @@ Read the full [Singapore trip guide](singapore-trip-from-india.html), and see ou
 Sri Lanka's west coast and hills dry out after November: Colombo gets about 175 mm of rain in December and only about 58 mm in January. Indians get a free 30-day tourist ETA, applied for online at eta.gov.lk before you fly, and the clock is the same as India's. Nuwara Eliya is cold at night, about 9 to 11 °C.
 
 Read the full [Sri Lanka trip guide](sri-lanka-trip-from-india.html), and see our [Sri Lanka packing list](../guides/sri-lanka-packing-list.html).
+
+## Thailand: for temples, beaches and island trips abroad
+
+Thailand is warm and mostly dry in December: Bangkok averages about 31 °C by day and 21 °C at night, with almost no rain, and Pattaya is dry too. Phuket can still get a few showers. Since 15 September 2026, Indians can visit for up to 30 days without a visa; fill in the free TDAC arrival card in the 3 days before you land. Spend 2 or 3 days in Bangkok, then go to Phuket, Krabi or Pattaya.
+
+Read the full [Thailand trip guide](thailand-trip-from-india.html), and see our [Thailand packing list](../guides/thailand-packing-list.html).
 
 ## Ooty: for tea hills and the toy train
 
