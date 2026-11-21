@@ -876,6 +876,48 @@ PINS = [
                     + group("Beach honeymoon", "Summer clothes, sunscreen and polarized sunglasses.")
                     + group("Hill honeymoon", "Warm layers, snow boots and lip balm.")
                     + '<p class="note">Packing cubes keep two people\'s things apart in one bag.</p>')),
+    dict(slug="birthday-gifts", board="Gift Ideas", link="guides/birthday-gift-ideas.html",
+         title="Birthday gift ideas for husband, wife, brother, sister, mom and dad",
+         description="A good birthday gift is something they will use every week: a watch, a slim wallet, a bag that fits their day or a small perfume set. See ideas for your husband, wife, brother, sister, mom, dad and friends, plus simple lines to write in the card.",
+         alt="A cake with a red ribbon and the words Birthday gift ideas for everyone.",
+         html=photo("birthday-cake", "Birthday gift ideas for everyone", "Husband, wife, brother, sister, mom, dad and friends, plus lines for the card")),
+    dict(slug="anniversary-gifts", board="Gift Ideas", link="guides/anniversary-gift-ideas.html",
+         title="Anniversary gift ideas for husband, wife, parents and couples",
+         description="The best anniversary gifts are things you both see every day, like a watch, or something for time together, like a weekend trip bag. See ideas for your husband, wife, parents and a couple you love, plus lines to write in the card.",
+         alt="White and red roses with the words Anniversary gift ideas for husband, wife and parents.",
+         html=photo("anniversary-rings", "Anniversary gift ideas", "For your husband, wife, parents and couples, plus lines for the card")),
+    dict(slug="valentines-gifts", board="Gift Ideas", link="guides/valentines-day-gift-ideas.html",
+         title="Valentine's Day gift ideas for girlfriend, wife, boyfriend and husband",
+         description="Roses and chocolates are gone in a day. A watch, a perfume or a bag reminds them of you every time they use it. See Valentine's Day gift ideas for him and her, things to share as a couple and a plan for Valentine week. In 2027 it falls on a Sunday, so order by early February.",
+         alt="Red roses with the words Valentine's Day gift ideas for him and her.",
+         html=photo("red-roses", "Valentine's Day gift ideas", "For him and her: gifts they will use every day, and a plan for Valentine week")),
+    dict(slug="school-bag-size", board="Luggage Size Guides", link="guides/school-bag-size-chart.html",
+         title="School bag size chart by class and age: litres, cm and inches",
+         description="Which school bag size suits your child? See litres, height in cm and inches for Nursery to Class 12, plus the 10% body weight rule from India's School Bag Policy 2020. Our chart is a rough guide, so check the fit on your child.",
+         alt="A school bag size chart: Nursery 5 to 10 litres, Class 1-2 12 to 18, Class 3-5 18 to 25, Class 6-8 25 to 32 and Class 9-12 30 to 37 litres.",
+         html=chart("School bag guide", "School bag size by class",
+                    table(["Class", "Litres", "Height"], [["Nursery to UKG", "5–10 L", "28–32 cm"], ["Class 1–2", "12–18 L", "35–38 cm"], ["Class 3–5", "18–25 L", "38–43 cm"],
+                                                           ["Class 6–8", "25–32 L", "43–47 cm"], ["Class 9–12", "30–37 L", "46–50 cm"]])
+                    + '<p class="note"><strong>Weight matters more than size.</strong> India\'s School Bag Policy 2020 suggests about 10% of the child\'s body weight, books included.</p>'
+                    + '<p class="note">Our rough guide, not an official chart.</p>')),
+    dict(slug="laptop-156", board="Luggage Size Guides", link="guides/15-6-inch-laptop-backpack-size.html",
+         title="15.6 inch laptop backpack size in cm and litres: will it fit?",
+         description="15.6 inch is the screen size, so the laptop itself is about 35-36 x 23-25 cm. See the laptop sleeve size you need, the backpack height and litres that fit, how to measure your laptop and why a bag marked only 15 inch can be tight.",
+         alt="15.6 inch laptop size is about 35 to 36 by 23 to 25 cm. You need a sleeve of at least 37 by 26 cm and a backpack of 20 to 30 litres.",
+         html=chart("Laptop bag guide", "Will a 15.6 inch laptop fit?",
+                    '<div class="big"><div><b>35–36 cm</b><span>laptop width, about 23–25 cm deep</span></div><div><b>37 x 26 cm</b><span>smallest sleeve that fits it</span></div></div>'
+                    + group("Backpack size", "About 45–48 cm tall and 30–33 cm wide.")
+                    + group("Litres", "20–30 L for daily use, 30–40 L for trips.")
+                    + '<p class="note"><strong>Look for "up to 15.6 inch" or bigger.</strong> A bag marked only "15 inch" can be tight.</p>')),
+    dict(slug="titan-fastrack", board="Watches and Everyday Bags", link="guides/titan-vs-fastrack.html",
+         title="Titan vs Fastrack watch: which is better for you?",
+         description="Titan and Fastrack are both brands of Titan Company, so service and warranty work the same way. The real question is style: Titan is classic and formal, Fastrack is young and sporty. See the differences in straps, water resistance and warranty.",
+         alt="A table comparing Titan, for office and formal gifts, with Fastrack, for college and casual wear.",
+         html=chart("Watch guide", "Titan vs Fastrack",
+                    table(["", "Titan", "Fastrack"], [["Style", "Classic, formal", "Young, sporty"], ["Best for", "Office, weddings, gifts", "College, daily wear"],
+                                                      ["Straps", "Leather, steel", "Silicone, metal"], ["Analog warranty", "24 months", "24 months"]])
+                    + '<p class="note"><strong>Same company.</strong> Titan Company makes both, so the choice is about style.</p>'
+                    + '<p class="note">Warranty from the brands\' own sites.</p>')),
 ]
 
 
