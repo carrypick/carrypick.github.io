@@ -81,11 +81,25 @@ GIFT_TW = {  # words for static/gift-finder.js
     "q": "सवाल {n} / {total}", "title": "{head}: {for}",
     "note": "{for} “{size}” वाले आइडिया कम हैं, इसलिए नीचे हमारी दूसरी पसंद भी जोड़ी हैं।",
 }
+CLOTH_FILE = ROOT / "data" / "clothing_sizes.json"
+CLOTH_WORDS = ROOT / "data" / "hindi_clothing.json"
+CLOTH_EN, CLOTH_PATH = "tools/clothing-size.html", "hi/clothing-size.html"
+CLOTH_TW = {  # words for static/clothing-size.js (the measures and column names are added from data/hindi_clothing.json)
+    "inch": " इंच", "cm": " cm", "bigger": "बड़ा", "smaller": "छोटा", "chartEnd": "{m} के हिसाब से यह इस चार्ट से {what} है।",
+    "between": "। आप दो साइज के बीच में हैं, इसलिए हमने बड़ा साइज चुना।", "or": " या ", "sep": ": ", "choose": "चुनें…",
+    "note": "ब्रांड के हिसाब से साइज बदलते हैं, इसलिए प्रोडक्ट पेज का साइज चार्ट भी देखें।",
+    "prompt": "अपना नाप लिखें, या जो साइज पता है वह चुनें, और हर ब्रांड के चार्ट पर देखें।", "forA": "{x} के लिए:",
+    "add": "अपनी {m} भी लिखें: जो साइज इन सब में फ़िट हो वही ख़रीदें।", "andWord": " और ", "fits": "{title} में {size} का साइज {body} पर फ़िट होता है।",
+    "others": "दूसरे चार्ट उसी शरीर के नाप से मिलाए गए हैं। ब्रांड के हिसाब से साइज बदलते हैं, इसलिए प्रोडक्ट पेज भी देखें।",
+    "picksKids": "बच्चों के लिए हमारे ट्रैवल कपड़े: थर्मल सेट, हुडी, जैकेट और ट्रैक सूट। हर Amazon पेज पर ब्रांड का अपना उम्र वाला साइज चार्ट है: ऑर्डर से पहले ज़रूर देखें।",
+    "picksNote": "{who} के लिए हमारे ट्रैवल कपड़े। हर Amazon पेज पर ब्रांड का अपना साइज चार्ट है: ऑर्डर से पहले ज़रूर देखें।",
+    "men": "पुरुषों", "women": "महिलाओं", "plainHead": "^(साइज|UK साइज|उम्र)", "letter": "अक्षर साइज",
+}
 TOOLS_HI = []  # (hindi path, link text) of every Hindi tool page that exists, for the 'more free tools' pills
 
 
 def english_path(hi_path):
-    return {SHOE_PATH: SHOE_EN, POWER_PATH: POWER_EN, PACK_PATH: PACK_EN, GIFT_PATH: GIFT_EN}.get(hi_path) or next((en for en, h in PAIRS.items() if h == hi_path), "")
+    return {SHOE_PATH: SHOE_EN, POWER_PATH: POWER_EN, PACK_PATH: PACK_EN, GIFT_PATH: GIFT_EN, CLOTH_PATH: CLOTH_EN}.get(hi_path) or next((en for en, h in PAIRS.items() if h == hi_path), "")
 
 
 PAIRS = {}  # filled below by register(): English path -> Hindi path (all tools)
@@ -104,6 +118,9 @@ def register(B):
     if POWER_FILE.exists():
         B.HINDI_PAGES[POWER_EN] = POWER_PATH
         TOOLS_HI.append((POWER_PATH, "पावर बैंक फ्लाइट चेकर"))
+    if CLOTH_FILE.exists() and CLOTH_WORDS.exists():
+        B.HINDI_PAGES[CLOTH_EN] = CLOTH_PATH
+        TOOLS_HI.append((CLOTH_PATH, "कपड़ों का साइज कन्वर्टर"))
     if GIFT_FILE.exists() and GIFT_WORDS.exists():
         B.HINDI_PAGES[GIFT_EN] = GIFT_PATH
         TOOLS_HI.append((GIFT_PATH, "गिफ़्ट फ़ाइंडर क्विज़"))
@@ -115,6 +132,8 @@ def register(B):
 def build_all(B, cfg, deals, pages, lastmod):
     if SHOE_FILE.exists():
         build_shoe(B, cfg, deals, pages, lastmod)
+    if B.HINDI_PAGES.get(CLOTH_EN) == CLOTH_PATH:
+        build_clothing(B, cfg, deals, pages, lastmod)
     if POWER_FILE.exists():
         build_power(B, cfg, deals, pages, lastmod)
 
@@ -230,7 +249,7 @@ def build_shoe(B, cfg, deals, pages, lastmod):
 <p class="checked">{checked} को जाँचा, {src} पर। साइज ब्रांड के हिसाब से बदलते हैं: स्पोर्ट्स ब्रांड अक्सर उसी UK साइज के लिए अलग US साइज देते हैं, और कुछ जूते छोटे या चौड़े होते हैं। हर प्रोडक्ट पेज का साइज चार्ट ही भरोसे लायक़ है।</p>
 <p>बच्चों के साइज 7 से 13 तक जाते हैं, फिर 1 से दोबारा शुरू होते हैं। थोड़ी बढ़ने की जगह छोड़ें: अगर बच्चे का पैर दो साइज के बीच में है, तो बड़ा साइज लें।</p>
 {picks_html}
-<p>और मदद: <a href="../guides/travel-shoes-guide.html" lang="en">which shoes to take on a trip (English)</a> और हमारा <a href="../tools/clothing-size.html" lang="en">clothing size converter (English)</a>, शर्ट, जीन्स, कुर्ता और बच्चों के कपड़ों के लिए।</p>
+<p>और मदद: <a href="../guides/travel-shoes-guide.html" lang="en">which shoes to take on a trip (English)</a> और हमारा <a href="clothing-size.html">कपड़ों का साइज कन्वर्टर</a>, शर्ट, जीन्स, कुर्ता और बच्चों के कपड़ों के लिए।</p>
 {{faq}}
 """ + _tail(B, cfg, path, "shoe-size.js", "ss-t", SHOE_TW)
     faq = [
@@ -641,3 +660,178 @@ def build_gift(B, cfg, deals_by_asin, pages, lastmod):
                "applicationCategory": "LifestyleApplication", "operatingSystem": "Any", "description": desc, "inLanguage": "hi-IN"}]
     pages.append(B.write(GIFT_PATH, B.page(cfg, H.nfc(seo), H.nfc(desc), H.nfc(body), 1, GIFT_PATH, schema, og_type="article", lang="hi", photo="gift-box")))
     lastmod[GIFT_PATH] = max(PUBLISHED, G.UPDATED)
+
+
+# ---------- clothing size ----------
+
+def build_clothing(B, cfg, deals, pages, lastmod):
+    import clothing_size as C
+    hw = json.loads(CLOTH_WORDS.read_text(encoding="utf-8"))
+    data = json.loads(CLOTH_FILE.read_text(encoding="utf-8"))
+    if C.UPDATED != hw["matched"] or data["checked"] != hw["matched"]:
+        H.warn("%s was written from the clothing charts of %s, but clothing_size.py says %s and the data was checked %s. Update the Hindi page."
+               % (CLOTH_PATH, hw["matched"], C.UPDATED, data["checked"]))
+    charts = {c["id"]: c for c in data["charts"]}
+    sources = {x["id"]: x for x in data["sources"]}
+    todo = set()
+
+    def w(kind, key, en):
+        v = hw[kind].get(key)
+        if not v:
+            todo.add("%s %s" % (kind, key))
+            return en
+        return v
+
+    num = B.num
+    msr = lambda m: w("measures", m, m)
+    colname = lambda c: w("cols", c, c)
+    years = lambda t: t.replace(" years", " साल")
+
+    def row(cid, size):
+        return next(r for r in charts[cid]["rows"] if r["size"] == size)
+
+    def cm(cid, size, m):
+        lo, hi = C.span(row(cid, size)[m])
+        return num(lo) + ("" if lo == hi else "–" + num(hi)) + " cm"
+
+    def table(chart):
+        title = w("charts", chart["id"], chart["title"])
+        head = w("size_heads", chart["size_head"], chart["size_head"])
+        heads = "".join("<th>%s</th>" % e(msr(m)) for m in chart["measures"]) + "".join('<th class="x">%s</th>' % e(colname(c)) for c in chart["cols"])
+        rows = []
+        for r in chart["rows"]:
+            attrs = "".join(' data-m-%s="%s,%s"' % (m, round(C.to_cm(chart, C.span(r[m])[0]), 2), round(C.to_cm(chart, C.span(r[m])[1]), 2))
+                            for m in chart["measures"] if C.span(r.get(m)))
+            tds = "".join("<td>%s</td>" % C.cell(B, chart, r.get(m)) for m in chart["measures"])
+            tds += "".join('<td class="x">%s</td>' % e(r.get(c) or "–") for c in chart["cols"])
+            rows.append(f'<tr{attrs}><th scope="row">{e(years(r["size"]))}</th>{tds}</tr>')
+        src = sources[chart["source"]]
+        note = ""
+        if chart.get("cols_source"):
+            cs = sources[chart["cols_source"]]
+            note = (f' US और EU साइज <a href="{e(cs["url"])}" target="_blank" rel="noopener" lang="en">{e(cs["label"])}</a> से हैं, जो उन्हें जोड़ों में देता है।')
+        say = ""
+        if chart.get("say"):
+            t = chart["say"]
+            for c in chart["cols"]:
+                t = t.replace("{%s}" % c, "{%s}" % colname(c))
+            say = f' data-say="{e(t)}"'
+        unit_note = "इंच cm से निकाले गए हैं।" if chart["unit"] == "cm" else "Libas इंच देता है; cm निकाले गए हैं।"
+        return f"""<h3 id="chart-{chart["id"]}">{e(title)}</h3>
+<div class="table-wrap"><table class="compare cs-table" id="cs-t-{chart["id"]}" data-chart="{chart["id"]}" data-title="{e(title)}" data-head="{e(head)}"{say}>
+<thead><tr><th>{e(head)}</th>{heads}</tr></thead><tbody>{"".join(rows)}</tbody></table></div>
+<p class="hint small">शरीर का नाप, <a href="{e(chart["url"])}" target="_blank" rel="noopener" lang="en">{e(src["brand"])} की साइज गाइड</a> से।{note} {unit_note}</p>"""
+
+    uk10, uk12 = row("ms-women-tops", "UK 10"), row("ms-women-tops", "UK 12")
+    f38, lib_m = row("ms-men-formal", "38"), row("libas-kurta", "M")
+    lev32 = row("levis-men-jeans", "32")
+    w28, w30 = row("only-women-jeans", "28"), row("only-women-jeans", "30")
+    m_trousers = next(r for r in charts["ms-men-trousers"]["rows"] if C.span(r["waist"])[0] <= lev32["waist"] <= C.span(r["waist"])[1])
+    boy5 = row("ms-boys", "5–6 years")
+
+    tables = []
+    for who, _ in C.WHO:
+        seen, parts = set(), []
+        for g in [g for g in data["garments"] if g["who"] == who]:
+            for cid in g["charts"]:
+                if cid not in seen:
+                    seen.add(cid)
+                    parts.append(table(charts[cid]))
+        tables.append(f'<h2 id="{who}">{e(w("who_head", who, who))}</h2>' + "".join(parts))
+    garments_js = json.dumps([{"slug": g["slug"], "who": g["who"], "label": w("garments", g["slug"], g["label"]), "measures": g["measures"], "charts": g["charts"]}
+                              for g in data["garments"]], ensure_ascii=False, separators=(",", ":"))
+    who_opts = "".join(f'<option value="{k}">{e(w("who", k, k))}</option>' for k, _ in C.WHO)
+    inputs = "".join(f'<label data-m="{m}" hidden>{e(msr(m))}<input id="cs-{m}" type="number" min="1" max="250" step="0.5" inputmode="decimal" placeholder="जैसे {ph}"></label>'
+                     for m, ph in (("chest", "96"), ("bust", "88"), ("waist", "80"), ("hips", "98"), ("height", "116")))
+    clothes = [d for d in deals if d["category"] == "clothing"]
+    cards = "".join(B.card(cfg, d, "../").replace('<article class="card"', '<article class="card" data-for="%s"' % e(
+        d.get("specs", {}).get("For", "").lower()), 1) for d in clothes)
+    picks_html = (f"""<h2 id="picks">ट्रिप के लिए हमारे चुने कपड़े</h2>
+<p id="cs-picks-note">पुरुषों और महिलाओं के लिए थर्मल, जैकेट और रेनवियर, और बच्चों के लिए कुछ पिक्स। हर Amazon पेज पर ब्रांड का अपना साइज चार्ट है: ऑर्डर से पहले ज़रूर देखें।</p>
+<div class="grid" id="cs-picks">{cards}</div>""" if clothes else "")
+    checked = B.hi_date(data["checked"])
+    src_links = ", ".join(f'<a href="{e(x["url"])}" target="_blank" rel="noopener" lang="en">{e(x["label"])}</a>' for x in data["sources"])
+    title = "कपड़ों का साइज चार्ट: पुरुष, महिला और बच्चों के लिए UK, US और EU से भारतीय साइज"
+    seo = "कपड़ों का साइज चार्ट (भारत): UK, US, EU से भारतीय साइज, पुरुष, महिला, बच्चे"
+    desc = ("कपड़ों का साइज कन्वर्टर। अपनी छाती, बस्ट, कमर या हिप्स cm या इंच में लिखें, या साइज चुनें, और M&S India, ONLY India, Libas और Levi's India के चार्ट से "
+            "पुरुष, महिला और बच्चों के लिए UK, US, EU और अक्षर साइज (XS से XXL) देखें।")
+    tw = dict(CLOTH_TW, measures={m: hw["measures"].get(m, m) for m in ("chest", "bust", "waist", "hips", "height")})
+    body = f"""{_head(B, "कपड़ों का साइज", title, "मुफ़्त टूल · %s को जाँचा गया" % checked, "clothing", "jacket",
+                     "Size chart in Hindi: kapde ka size cm ya inch mein napiye aur UK, US, EU, S M L size dekhiye.")}
+<div class="wrap"><article class="guide">
+<div class="answer"><h2>सीधा जवाब</h2><ul>
+<li><strong>भारत में कोई एक साइज सिस्टम नहीं है।</strong> Marks &amp; Spencer India जैसे स्टोर UK साइज बेचते हैं, और भारतीय ब्रांड अक्षर (S, M, L) और इंच (38 का कुर्ता, 32 की जीन्स) इस्तेमाल करते हैं।</li>
+<li>M&amp;S के चार्ट में महिलाओं का UK {uk10["size"][3:]} {cm("ms-women-tops", "UK 10", "bust")} के बस्ट पर फ़िट होता है। यह साइज {uk10["Letter"]} है, और M&amp;S इसे US {uk10["US"]} और EU {uk10["EU"]} के साथ लिखता है।</li>
+<li>अक्षर की जगह अपने शरीर का नाप cm या इंच में देखें। साइज ब्रांड के हिसाब से बदलते हैं, इसलिए ब्रांड का अपना चार्ट भी देखें।</li>
+</ul></div>
+<h2>पहला क़दम: अपना नाप लें</h2>
+<ol>
+<li><strong>छाती या बस्ट:</strong> पतला टॉप पहनें, और फ़ीता सबसे चौड़े हिस्से पर, बाँहों के नीचे से घुमाएँ। पीठ पर फ़ीता सीधा रखें।</li>
+<li><strong>कमर:</strong> शरीर के सबसे पतले हिस्से पर, आमतौर पर नाभि के थोड़ा ऊपर। आराम से साँस छोड़ें; पेट अंदर न खींचें।</li>
+<li><strong>हिप्स:</strong> पैर साथ रखकर खड़े हों और फ़ीता कूल्हों के सबसे चौड़े हिस्से पर घुमाएँ।</li>
+<li><strong>बच्चे:</strong> बिना जूतों के दीवार से सटकर ऊँचाई नापें, और छाती सबसे चौड़े हिस्से पर।</li>
+<li>फ़ीता कसा हुआ नहीं, बस ठीक से लगा रखें। फ़ीता नहीं है? धागा लें, फिर उसे स्केल पर रखकर नापें।</li>
+</ol>
+<h2>दूसरा क़दम: अपना साइज ढूँढें</h2>
+<form class="checker" id="cs" onsubmit="return false" data-garments='{e(garments_js)}' hidden data-js>
+<div class="checker-fields"><label>कपड़े किसके लिए<select id="cs-who">{who_opts}</select></label>
+<label>क्या<select id="cs-garment"></select></label>
+<label>इकाई<select id="cs-unit"><option value="cm">cm</option><option value="in">इंच</option></select></label>
+{inputs}
+<label>या, जो साइज पता है<select id="cs-size"><option value="">चुनें…</option></select></label></div>
+<p class="checker-total" id="cs-out" aria-live="polite">{CLOTH_TW["prompt"]}</p>
+<div id="cs-result" hidden>
+<ul id="cs-r-list"></ul>
+<p class="hint" id="cs-r-note"></p>
+<p id="cs-r-links"><a href="#picks">हमारे चुने कपड़े देखें</a> &middot; <a href="../category/clothing.html" lang="en">All clothing and winter wear (English)</a> &middot; <a href="shoe-size.html">जूते का साइज कन्वर्टर</a></p>
+</div>
+</form>
+<noscript><p>JavaScript बंद हो तो भी नीचे के चार्ट में अपना नाप देख सकते हैं।</p></noscript>
+<h2>साइज चार्ट</h2>
+<p>नीचे के सारे चार्ट शरीर के नाप के हैं: यानी उस छाती, कमर या हिप्स वाले शरीर पर जो साइज फ़िट होता है। हर चार्ट में उसी ब्रांड के अपने नंबर हैं, और हम हर चार्ट पर ब्रांड का नाम लिखते हैं। जहाँ ब्रांड अलग हैं, वहाँ हम दोनों दिखाते हैं।</p>
+{"".join(tables)}
+<p class="checked">{checked} को जाँचा, {src_links} पर। साइज ब्रांड और फ़िट (स्लिम, रेगुलर, रिलैक्स्ड) के हिसाब से बदलते हैं, इसलिए प्रोडक्ट पेज का साइज चार्ट ही भरोसे लायक़ है।</p>
+<h2>महिलाओं के UK, US और EU साइज</h2>
+<p>M&amp;S की अपनी तालिका UK, US और EU साइज जोड़ों में देती है: UK 8–10 यानी US 4–6 और EU 36–38 (Small), और UK 12–14 यानी US 8–10 और EU 40–42 (Medium)। UK 26 तक M&amp;S का US नंबर UK से 4 कम और EU नंबर 28 ज़्यादा होता है। दूसरे ब्रांड अलग हो सकते हैं, और M&amp;S पैंट के लिए US या EU साइज नहीं देता।</p>
+<h2>महिलाओं की जीन्स के साइज 26, 28, 30, 32</h2>
+<p>भारत में महिलाओं की जीन्स अक्सर नंबर से बिकती है। ONLY India के चार्ट में साइज {w28["size"]} की जीन्स {w28["Letter"]}, UK {w28["UK"]} और US {w28["US"]} है, {num(w28["waist"])} cm की कमर और {num(w28["hips"])} cm के हिप्स के लिए। साइज {w30["size"]} {w30["Letter"]} (UK {w30["UK"]}, US {w30["US"]}) है, {num(w30["waist"])} cm की कमर और {num(w30["hips"])} cm के हिप्स के लिए। ONLY हर जोड़ी के साइज को एक ही नंबर देता है (25 और 26, 27 और 28, वग़ैरह), इसलिए जोड़ी का कोई भी साइज उसी शरीर पर फ़िट होता है। ONLY के प्रोडक्ट पेज पर Size Details में हर साइज के कपड़े का अपना नाप भी होता है।</p>
+<p>ब्रांड अलग होते हैं: ONLY की UK 10 जीन्स {cm("only-women-jeans", "30", "waist")} की कमर के लिए है, पर M&amp;S की UK 10 पैंट {cm("ms-women-bottoms", "UK 10", "waist")} की कमर के लिए। जिस ब्रांड का ख़रीद रहे हैं उसी का चार्ट देखें।</p>
+<h2>पुरुषों की शर्ट के साइज 38, 39, 40, 42</h2>
+<p>फ़ॉर्मल शर्ट भारत में अक्सर cm में कॉलर साइज से बिकती हैं। M&amp;S India के चार्ट में {f38["size"]} का कॉलर {f38["Letter"]} है, {cm("ms-men-formal", "38", "chest")} की छाती के साथ, और 42 का कॉलर L है। टी-शर्ट और कैज़ुअल शर्ट अक्षर से बिकती हैं: M&amp;S के चार्ट में M {cm("ms-men-tops", "M", "chest")} की छाती पर फ़िट होता है।</p>
+<p>बच्चों के कपड़े उम्र से बिकते हैं, पर एक उम्र के बच्चे काफ़ी अलग होते हैं। पहले ऊँचाई देखें: अगर बच्चा दो साइज के बीच में है, तो बड़ा साइज लें।</p>
+{picks_html}
+<p>और मदद: हमारा <a href="shoe-size.html">जूते का साइज कन्वर्टर</a> (India/UK, US, EU और cm), <a href="../guides/winter-clothes-for-hill-trips.html" lang="en">winter clothes for hill trips (English)</a> और <a href="../category/clothing.html" lang="en">all our clothing picks (English)</a>।</p>
+{{faq}}
+""" + _tail(B, cfg, CLOTH_PATH, "clothing-size.js", "cs-t", tw)
+    faq = [
+        ("क्या 38 साइज की शर्ट M होती है या L?",
+         "Marks & Spencer India की फ़ॉर्मल शर्ट के चार्ट में 38 का कॉलर %s है, %s की छाती के लिए। 41 या 42 का कॉलर L है। भारतीय ब्रांड भी यही कॉलर नंबर इस्तेमाल करते हैं, पर अक्षर अलग हो सकता है, इसलिए ब्रांड का चार्ट देखें।"
+         % (f38["Letter"], cm("ms-men-formal", "38", "chest"))),
+        ("पुरुषों के लिए XL साइज नंबर में कितना होता है?",
+         "M&S India के चार्ट में XL शर्ट या टी-शर्ट %s की छाती पर (लगभग 44–46 इंच) और XL पैंट %s की कमर पर (लगभग 39–41 इंच) फ़िट होती है।"
+         % (cm("ms-men-tops", "XL", "chest"), cm("ms-men-trousers", "XL", "waist"))),
+        ("क्या 32 साइज की जीन्स L होती है या XL?",
+         "आमतौर पर दोनों नहीं। Levi's India के 511 चार्ट में साइज 32 %s cm की कमर (लगभग 33.5 इंच) के लिए है। M&S India के पैंट चार्ट में वह कमर %s (%s) है।"
+         % (num(lev32["waist"]), m_trousers["size"], cm("ms-men-trousers", m_trousers["size"], "waist"))),
+        ("कपड़ों में UK साइज को भारतीय साइज में कैसे बदलें?",
+         "भारत में कई स्टोर, जैसे Marks & Spencer India, कपड़े UK साइज में बेचते हैं, इसलिए UK 12 यहाँ भी वही साइज है। M&S के चार्ट में महिलाओं का UK 12 Medium है, %s के बस्ट के लिए।"
+         % cm("ms-women-tops", "UK 12", "bust")),
+        ("महिलाओं की 28 साइज की जीन्स क्या होती है?",
+         "ONLY India के चार्ट में साइज 28 की जीन्स %s, UK %s और US %s है, %s cm की कमर (लगभग %s इंच) और %s cm के हिप्स के लिए।"
+         % (w28["Letter"], w28["UK"], w28["US"], num(w28["waist"]), num(C.half(w28["waist"] / 2.54)), num(w28["hips"]))),
+        ("महिलाओं की साइज 30 जीन्स का US और UK साइज क्या है?",
+         "ONLY India के चार्ट में साइज 30 UK %s और US %s (%s) है, %s cm की कमर और %s cm के हिप्स के लिए।"
+         % (w30["UK"], w30["US"], w30["Letter"], num(w30["waist"]), num(w30["hips"]))),
+        ("महिलाओं के कपड़ों में US साइज से भारतीय साइज क्या होता है?",
+         "M&S की तालिका में US 4–6 यानी UK 8–10 और EU 36–38 (Small), और US 8–10 यानी UK 12–14 और EU 40–42 (Medium)। भारत में साइज आमतौर पर UK साइज या अक्षर में लिखे होते हैं।"),
+        ("कुर्ती साइज 38 का क्या मतलब है?",
+         "Libas के कुर्ता चार्ट में 38 इंच में बस्ट का नाप है: साइज %s %s इंच के बस्ट, %s इंच की कमर और %s इंच के हिप्स पर फ़िट होता है।" % (lib_m["size"], lib_m["bust"], lib_m["waist"], lib_m["hips"])),
+        ("भारत में 5 साल के बच्चे का साइज क्या होता है?",
+         "M&S India के लड़कों के चार्ट में 5–6 साल %s cm की ऊँचाई और %s cm की छाती के लिए है। बच्चे की ऊँचाई नापें, क्योंकि एक उम्र के बच्चे काफ़ी अलग होते हैं।"
+         % (num(boy5["height"]), num(boy5["chest"]))),
+        ("छाती, कमर और हिप्स कैसे नापें?",
+         "मुलायम फ़ीता लें। छाती या बस्ट: सबसे चौड़े हिस्से पर, बाँहों के नीचे से। कमर: सबसे पतले हिस्से पर, नाभि के ऊपर। हिप्स: कूल्हों के सबसे चौड़े हिस्से पर, पैर साथ रखकर। फ़ीता सीधा और ठीक से लगा हो, कसा हुआ नहीं।"),
+    ]
+    if todo:
+        H.warn("%s has no Hindi for: %s (English shown for now). Add it to data/hindi_clothing.json." % (CLOTH_PATH, ", ".join(sorted(todo))))
+    _finish(B, cfg, pages, lastmod, CLOTH_PATH, seo, desc, "कपड़ों का साइज", body, faq, data["checked"])

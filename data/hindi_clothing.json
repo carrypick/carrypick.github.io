@@ -1,0 +1,29 @@
+{
+ "matched": "2026-11-20",
+ "measures": {"chest": "छाती", "bust": "बस्ट", "waist": "कमर", "hips": "हिप्स", "height": "ऊँचाई"},
+ "who": {"men": "पुरुष", "women": "महिला", "kids": "बच्चे"},
+ "who_head": {"men": "पुरुषों के साइज चार्ट", "women": "महिलाओं के साइज चार्ट", "kids": "बच्चों का उम्र के हिसाब से साइज चार्ट"},
+ "garments": {
+  "men-tops": "शर्ट और टी-शर्ट",
+  "men-bottoms": "पैंट और जीन्स",
+  "women-tops": "टॉप और कुर्ते",
+  "women-dresses": "ड्रेस",
+  "women-bottoms": "जीन्स और पैंट",
+  "kids": "उम्र के हिसाब से कपड़े"
+ },
+ "charts": {
+  "ms-women-tops": "महिलाओं के टॉप (Marks & Spencer India)",
+  "libas-kurta": "कुर्ते और कुर्तियाँ (Libas)",
+  "ms-women-dresses": "महिलाओं की ड्रेस (Marks & Spencer India)",
+  "only-women-jeans": "महिलाओं की जीन्स (ONLY India)",
+  "ms-women-bottoms": "महिलाओं की जीन्स, पैंट और स्कर्ट (Marks & Spencer India)",
+  "ms-men-tops": "पुरुषों की टी-शर्ट, पोलो और कैज़ुअल शर्ट (Marks & Spencer India)",
+  "ms-men-formal": "पुरुषों की फ़ॉर्मल शर्ट, कॉलर साइज के हिसाब से (Marks & Spencer India)",
+  "levis-men-jeans": "पुरुषों की जीन्स (Levi's India, 511 स्लिम फ़िट)",
+  "ms-men-trousers": "पुरुषों की फ़ॉर्मल पैंट (Marks & Spencer India)",
+  "ms-boys": "लड़के (Marks & Spencer India)",
+  "ms-girls": "लड़कियाँ (Marks & Spencer India)"
+ },
+ "size_heads": {"UK size": "UK साइज", "Size": "साइज", "Collar (cm)": "कॉलर (cm)", "Age (years)": "उम्र (साल)"},
+ "cols": {"Letter": "अक्षर साइज", "US": "US", "EU": "EU", "UK": "UK", "Collar (in)": "कॉलर (in)"}
+}
