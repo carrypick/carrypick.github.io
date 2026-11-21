@@ -1,0 +1,271 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CarryPick//Long weekends 2027//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Long weekends 2027 - India central govt Delhi
+BEGIN:VEVENT
+UID:lw-20270123-20270126@carrypick.github.io
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270127
+SUMMARY:Long weekend: 4 days (take Mon 25 Jan off)
+DESCRIPTION:Holidays: Republic Day. From DoPT O.M. F. No. 12/2/2023-JCA da
+ ted 16 July 2026 (central government offices in Delhi / New Delhi). State
+ s and private companies follow their own lists.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-20270126-0@carrypick.github.io
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:Holiday: Republic Day
+DESCRIPTION:Gazetted holiday. From DoPT O.M. F. No. 12/2/2023-JCA dated 16
+  July 2026 (central government offices in Delhi / New Delhi). States and 
+ private companies follow their own lists.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-20270310-1@carrypick.github.io
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:Holiday: Id-ul-Fitr
+DESCRIPTION:Gazetted holiday. From DoPT O.M. F. No. 12/2/2023-JCA dated 16
+  July 2026 (central government offices in Delhi / New Delhi). States and 
+ private companies follow their own lists.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lw-20270320-20270323@carrypick.github.io
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270324
+SUMMARY:Long weekend: 4 days (take Mon 22 Mar off)
+DESCRIPTION:Holidays: Holi. From DoPT O.M. F. No. 12/2/2023-JCA dated 16 J
+ uly 2026 (central government offices in Delhi / New Delhi). States and pr
+ ivate companies follow their own lists.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-20270323-2@carrypick.github.io
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:Holiday: Holi
+DESCRIPTION:Gazetted holiday. From DoPT O.M. F. No. 12/2/2023-JCA dated 16
+  July 2026 (central government offices in Delhi / New Delhi). States and 
+ private companies follow their own lists.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-20270326-3@carrypick.github.io
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:Holiday: Good Friday
+DESCRIPTION:Gazetted holiday. From DoPT O.M. F. No. 12/2/2023-JCA dated 16
+  July 2026 (central government offices in Delhi / New Delhi). States and 
+ private companies follow their own lists.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lw-20270326-20270328@carrypick.github.io
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270329
+SUMMARY:Long weekend: 3 days (no leave)
+DESCRIPTION:Holidays: Good Friday. From DoPT O.M. F. No. 12/2/2023-JCA dat
+ ed 16 July 2026 (central government offices in Delhi / New Delhi). States
+  and private companies follow their own lists.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-20270415-4@carrypick.github.io
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:Holiday: Ram Navami
+DESCRIPTION:Gazetted holiday. From DoPT O.M. F. No. 12/2/2023-JCA dated 16
+  July 2026 (central government offices in Delhi / New Delhi). States and 
+ private companies follow their own lists.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lw-20270415-20270419@carrypick.github.io
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270420
+SUMMARY:Long weekend: 5 days (take Fri 16 Apr off)
+DESCRIPTION:Holidays: Ram Navami\, Mahavir Jayanti. From DoPT O.M. F. No. 
+ 12/2/2023-JCA dated 16 July 2026 (central government offices in Delhi / N
+ ew Delhi). States and private companies follow their own lists.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-20270419-5@carrypick.github.io
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20270419
+DTEND;VALUE=DATE:20270420
+SUMMARY:Holiday: Mahavir Jayanti
+DESCRIPTION:Gazetted holiday. From DoPT O.M. F. No. 12/2/2023-JCA dated 16
+  July 2026 (central government offices in Delhi / New Delhi). States and 
+ private companies follow their own lists.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lw-20270515-20270517@carrypick.github.io
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270518
+SUMMARY:Long weekend: 3 days (no leave)
+DESCRIPTION:Holidays: Id-ul-Zuha (Bakrid). From DoPT O.M. F. No. 12/2/2023
+ -JCA dated 16 July 2026 (central government offices in Delhi / New Delhi)
+ . States and private companies follow their own lists.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-20270517-6@carrypick.github.io
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:Holiday: Id-ul-Zuha (Bakrid)
+DESCRIPTION:Gazetted holiday. From DoPT O.M. F. No. 12/2/2023-JCA dated 16
+  July 2026 (central government offices in Delhi / New Delhi). States and 
+ private companies follow their own lists.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-20270520-7@carrypick.github.io
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+SUMMARY:Holiday: Buddha Purnima
+DESCRIPTION:Gazetted holiday. From DoPT O.M. F. No. 12/2/2023-JCA dated 16
+  July 2026 (central government offices in Delhi / New Delhi). States and 
+ private companies follow their own lists.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lw-20270520-20270523@carrypick.github.io
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270524
+SUMMARY:Long weekend: 4 days (take Fri 21 May off)
+DESCRIPTION:Holidays: Buddha Purnima. From DoPT O.M. F. No. 12/2/2023-JCA 
+ dated 16 July 2026 (central government offices in Delhi / New Delhi). Sta
+ tes and private companies follow their own lists.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-20270616-8@carrypick.github.io
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20270616
+DTEND;VALUE=DATE:20270617
+SUMMARY:Holiday: Muharram
+DESCRIPTION:Gazetted holiday. From DoPT O.M. F. No. 12/2/2023-JCA dated 16
+  July 2026 (central government offices in Delhi / New Delhi). States and 
+ private companies follow their own lists.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-20270815-10@carrypick.github.io
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20270815
+DTEND;VALUE=DATE:20270816
+SUMMARY:Holiday: Milad-un-Nabi or Id-e-Milad (Prophet Mohammad's Birthday)
+DESCRIPTION:Gazetted holiday. From DoPT O.M. F. No. 12/2/2023-JCA dated 16
+  July 2026 (central government offices in Delhi / New Delhi). States and 
+ private companies follow their own lists.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-20270815-9@carrypick.github.io
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20270815
+DTEND;VALUE=DATE:20270816
+SUMMARY:Holiday: Independence Day
+DESCRIPTION:Gazetted holiday. From DoPT O.M. F. No. 12/2/2023-JCA dated 16
+  July 2026 (central government offices in Delhi / New Delhi). States and 
+ private companies follow their own lists.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-20270825-11@carrypick.github.io
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20270825
+DTEND;VALUE=DATE:20270826
+SUMMARY:Holiday: Janmashtami (Vaishnav)
+DESCRIPTION:Gazetted holiday. From DoPT O.M. F. No. 12/2/2023-JCA dated 16
+  July 2026 (central government offices in Delhi / New Delhi). States and 
+ private companies follow their own lists.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-20271002-12@carrypick.github.io
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20271002
+DTEND;VALUE=DATE:20271003
+SUMMARY:Holiday: Mahatma Gandhi's Birthday
+DESCRIPTION:Gazetted holiday. From DoPT O.M. F. No. 12/2/2023-JCA dated 16
+  July 2026 (central government offices in Delhi / New Delhi). States and 
+ private companies follow their own lists.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-20271009-13@carrypick.github.io
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20271009
+DTEND;VALUE=DATE:20271010
+SUMMARY:Holiday: Dussehra (Vijaya Dashmi)
+DESCRIPTION:Gazetted holiday. From DoPT O.M. F. No. 12/2/2023-JCA dated 16
+  July 2026 (central government offices in Delhi / New Delhi). States and 
+ private companies follow their own lists.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-20271029-14@carrypick.github.io
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20271029
+DTEND;VALUE=DATE:20271030
+SUMMARY:Holiday: Diwali (Deepavali)
+DESCRIPTION:Gazetted holiday. From DoPT O.M. F. No. 12/2/2023-JCA dated 16
+  July 2026 (central government offices in Delhi / New Delhi). States and 
+ private companies follow their own lists.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lw-20271029-20271031@carrypick.github.io
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20271029
+DTEND;VALUE=DATE:20271101
+SUMMARY:Long weekend: 3 days (no leave)
+DESCRIPTION:Holidays: Diwali (Deepavali). From DoPT O.M. F. No. 12/2/2023-
+ JCA dated 16 July 2026 (central government offices in Delhi / New Delhi).
+  States and private companies follow their own lists.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-20271114-15@carrypick.github.io
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20271114
+DTEND;VALUE=DATE:20271115
+SUMMARY:Holiday: Guru Nanak's Birthday
+DESCRIPTION:Gazetted holiday. From DoPT O.M. F. No. 12/2/2023-JCA dated 16
+  July 2026 (central government offices in Delhi / New Delhi). States and 
+ private companies follow their own lists.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-20271225-16@carrypick.github.io
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20271225
+DTEND;VALUE=DATE:20271226
+SUMMARY:Holiday: Christmas Day
+DESCRIPTION:Gazetted holiday. From DoPT O.M. F. No. 12/2/2023-JCA dated 16
+  July 2026 (central government offices in Delhi / New Delhi). States and 
+ private companies follow their own lists.
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -21,6 +21,7 @@ import clothing_size
 import diagrams
 import hindi_pages
 import hindi_tools
+import long_weekends
 import more_tools
 import pack_maker
 import gift_finder
@@ -2922,6 +2923,7 @@ def build():
                       "Start packing", "check", "travel-gear", "packed-suitcase"))
     what_to_wear.register(sys.modules[__name__])  # what-to-wear helper, next to the packing tools
     trip_calc.register(sys.modules[__name__])  # trip budget and road trip fuel calculators
+    long_weekends.register(sys.modules[__name__])  # long weekends 2027 planner, second on the tools list
 
     # Home
     cat_tiles = "".join(
@@ -3190,6 +3192,7 @@ def build():
     if HINDI_PAGES:
         hindi_tools.build_late(sys.modules[__name__], cfg, deals_by_asin, pages, lastmod)  # Hindi packing list maker and gift finder
     what_to_wear.build(sys.modules[__name__], cfg, deals_by_asin, pages, lastmod)  # after guides and trips, so its links can be checked
+    long_weekends.build(sys.modules[__name__], cfg, deals_by_asin, pages, lastmod)  # after the trips, so its trip links can be checked
 
     # Info pages
     name = e(cfg["site_name"])

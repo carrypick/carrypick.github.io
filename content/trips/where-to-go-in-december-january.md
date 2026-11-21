@@ -121,6 +121,7 @@ Read the full [Kerala trip guide](kerala.html).
 
 - **New Year:** 1 January 2027 is a Friday, so the weekend makes three days if your office gives it as a holiday. It isn't a national holiday everywhere, so check.
 - **Republic Day:** 26 January 2027 is a Tuesday. Take Monday off, and you get four days. See our [Republic Day long weekend ideas](republic-day-long-weekend-2027.html). Want to see the parade in Delhi? Here's how [parade tickets](republic-day-parade-tickets-2027.html) work.
+- **The rest of 2027:** see every long weekend of the year, and the leave days that stretch them to 5 or 9 days, in our [long weekends 2027 planner](../tools/long-weekends-2027.html).
 - **Gifts:** if you're not travelling, see our [New Year gift ideas](../guides/new-year-gift-ideas.html).
 
 ## Where to book your stay

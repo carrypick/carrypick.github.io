@@ -3,14 +3,14 @@ seo_title: Republic Day long weekend 2027: 4-day trip ideas and parade tickets
 title: Republic Day long weekend 2027: where to go, and how to see the parade
 description: 26 January 2027 is a Tuesday, so one day off gives you 4 days. Compare Jaipur, Manali, Goa and Kerala, and see how Republic Day parade tickets work.
 date: 2026-11-06
-updated: 2026-11-16
+updated: 2026-11-21
 place: Republic Day weekend
 best: 23–26 Jan 2027
 hub_title: no
 photo: jaipur-hawa-mahal
 glance: Dates=Saturday 23 to Tuesday 26 January 2027, with one day off on Monday 25 | For forts and palaces=[Jaipur](jaipur.html) | For snow=[Manali](manali.html) (snow isn't guaranteed) | For a warm beach=[Goa](goa.html) | For backwaters and tea hills=[Kerala](kerala.html) | For the parade=New Delhi. See [how parade tickets work](republic-day-parade-tickets-2027.html) | Book trains=From about 24 November for a 23 January journey
 ---
-Republic Day 2027 falls on a **Tuesday**. Take Monday 25 January off, and you get four days: Saturday to Tuesday. It's a good winter break, but many people will have the same idea, so plan early.
+Republic Day 2027 falls on a **Tuesday**. Take Monday 25 January off, and you get four days: Saturday to Tuesday. It's a good winter break, but many people will have the same idea, so plan early. Planning the rest of the year? See [all long weekends in 2027](../tools/long-weekends-2027.html) from the official holiday list.
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 

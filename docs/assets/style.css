@@ -615,3 +615,17 @@ body { top: 0 !important; }
 .tc-settle li { padding: 10px 12px; border-radius: 10px; background: var(--tint-backpacks); }
 .tc-blank { min-width: 140px; border-bottom: 1px solid var(--ink); }
 @media print { .tc-print table { break-inside: avoid; } }
+/* Long weekends planner */
+.checker .lw-check { display: flex; align-items: center; gap: 10px; font-weight: 600; }
+.checker .lw-check input { width: 20px; height: 20px; margin: 0; flex: none; accent-color: var(--brand); }
+.lw-free { display: inline-block; margin-left: 6px; padding: 1px 8px; border-radius: 999px; background: var(--brand); color: #fff; font-size: 0.75rem; font-weight: 700; white-space: nowrap; }
+.lw-table td:nth-child(2) { white-space: nowrap; }
+.lw-table tr[hidden] { display: none !important; }
+@media (max-width: 640px) {
+  .lw-table thead, .lw-table td.lw-m, .lw-table td.lw-na { display: none; }
+  .lw-table, .lw-table tbody, .lw-table tr, .lw-table td { display: block; width: auto; }
+  .lw-table tr { padding: 12px 14px; border-bottom: 1px solid var(--line); }
+  .lw-table td { padding: 2px 0; border: 0; white-space: normal; }
+  .lw-table td:nth-child(2) { font-weight: 700; font-size: 1.02rem; white-space: normal; padding-bottom: 4px; }
+  .lw-table td[data-label]::before { content: attr(data-label) ": "; font-weight: 700; }
+}
