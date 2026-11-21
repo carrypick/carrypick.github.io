@@ -185,10 +185,10 @@
     if (!cards.length) return;
     cards.forEach(function (c) {
       var f = c.getAttribute("data-for").split(" and ");
-      c.hidden = who !== "kids" && f.indexOf(who) < 0;
+      c.hidden = f.indexOf(who) < 0;
     });
     $("cs-picks-note").textContent = who === "kids"
-      ? "We don't have kids' clothes yet. These are our travel clothes for adults. Each Amazon page has the brand's own size chart."
+      ? "Our travel clothes for kids: a thermal set, a hoodie, a jacket and a track suit. Each Amazon page has the brand's own age size chart: check it before you order."
       : "Our travel clothes for " + who + ". Each Amazon page has the brand's own size chart: check it before you order.";
   }
 

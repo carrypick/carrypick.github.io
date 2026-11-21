@@ -1,5 +1,115 @@
 [
   {
+    "asin": "B098X7SS8J",
+    "added_at": "2026-11-21T12:42:58+05:30",
+    "title": "PUMA Boys Track Suit",
+    "category": "clothing",
+    "highlights": [
+      "Track suit set, pull-on style",
+      "100% recycled polyester, brushed inside",
+      "Seam pockets",
+      "Sizes 7-8 years to 13-14 years"
+    ],
+    "note": "A comfy PUMA set for the flight, the car and cool evenings.",
+    "brand": "PUMA",
+    "colour": "Peacoat",
+    "best_for": [
+      "Travel days",
+      "Kids"
+    ],
+    "specs": {
+      "For": "Kids",
+      "Pack": "Track suit set",
+      "Fabric": "100% polyester (recycled)",
+      "Sizes": "7-8 Y to 13-14 Y",
+      "Weight": "400 g",
+      "Care": "Machine wash"
+    },
+    "skip_if": "you want a thick winter set: this is a light track suit."
+  },
+  {
+    "asin": "B0C84ZW4BC",
+    "added_at": "2026-11-21T12:42:58+05:30",
+    "title": "Amazon Brand - Symbol Boys Polyester Quilted Winter Jacket with Detachable Hood",
+    "category": "clothing",
+    "highlights": [
+      "Quilted, with a detachable hood",
+      "Pockets and a zip closure",
+      "100% polyester, machine washable",
+      "Sizes 2-3 years to 12-14 years"
+    ],
+    "note": "A light padded jacket for a boy on a hill trip, with a hood that comes off.",
+    "brand": "Symbol",
+    "colour": "Black",
+    "best_for": [
+      "Hill trips",
+      "Kids"
+    ],
+    "specs": {
+      "For": "Kids",
+      "Fabric": "100% polyester",
+      "Hood": "Yes, detachable",
+      "Sizes": "2-3 Y to 12-14 Y",
+      "Weight": "450 g",
+      "Care": "Machine wash"
+    },
+    "skip_if": "you expect heavy snow: it is a light quilted jacket, so add thermals underneath."
+  },
+  {
+    "asin": "B07RV57QHP",
+    "added_at": "2026-11-21T12:42:57+05:30",
+    "title": "Allen Solly Junior Boys Cotton Hooded Sweatshirt",
+    "category": "clothing",
+    "highlights": [
+      "Hooded neck, long sleeves",
+      "60% cotton, 40% polyester",
+      "Regular fit, solid pattern",
+      "Sizes 5-6 years to 15-16 years"
+    ],
+    "note": "A hoodie for cool evenings and flights, easy to layer under a jacket.",
+    "brand": "Allen Solly",
+    "colour": "Navy",
+    "best_for": [
+      "Cool evenings",
+      "Kids"
+    ],
+    "specs": {
+      "For": "Kids",
+      "Fabric": "60% cotton, 40% polyester",
+      "Hood": "Yes",
+      "Sizes": "5-6 Y to 15-16 Y",
+      "Weight": "400 g"
+    },
+    "skip_if": "you need real cold-weather warmth: it is a sweatshirt, not a padded jacket."
+  },
+  {
+    "asin": "B07XKQ9DV6",
+    "added_at": "2026-11-21T12:42:57+05:30",
+    "title": "Lux Cott's Wool Boys Thermal Set",
+    "category": "clothing",
+    "highlights": [
+      "Top and lower set for boys",
+      "Cotton, pull-on style",
+      "Machine washable",
+      "Sizes 0-1 years to 11-12 years"
+    ],
+    "note": "A warm base layer for a child on a hill trip, worn under a jacket.",
+    "brand": "Lux Cott's Wool",
+    "colour": "Black melange",
+    "best_for": [
+      "Hill trips",
+      "Kids"
+    ],
+    "specs": {
+      "For": "Kids",
+      "Pack": "Top and lower",
+      "Fabric": "Cotton",
+      "Sizes": "0-1 Y to 11-12 Y",
+      "Care": "Machine wash"
+    },
+    "skip_if": "you expect deep snow: add a fleece and a padded jacket on top."
+  },
+  {
     "asin": "B0CJC1SVH7",
     "added_at": "2026-11-21T09:09:05+05:30",
     "title": "Mokobara Packing Cubes, Set of 6 with Shoe Bag and Toiletry Bag",

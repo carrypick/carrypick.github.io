@@ -170,7 +170,7 @@ def build_all(B, cfg, deals, pages, lastmod):
     cards = "".join(B.card(cfg, d, "../").replace('<article class="card"', '<article class="card" data-for="%s"' % e(
         d.get("specs", {}).get("For", "").lower()), 1) for d in clothes)
     picks_html = (f"""<h2 id="picks">Our clothing picks for trips</h2>
-<p id="cs-picks-note">Thermals, jackets and rain wear for men and women. Each Amazon page has the brand's own size chart: check it before you order.</p>
+<p id="cs-picks-note">Thermals, jackets and rain wear for men and women, and a few picks for kids. Each Amazon page has the brand's own size chart: check it before you order.</p>
 <div class="grid" id="cs-picks">{cards}</div>""" if clothes else "")
 
     checked = B.fmt_date(data["checked"])
