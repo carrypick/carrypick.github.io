@@ -246,8 +246,8 @@
     {
       "slug": "new-zealand", "name": "New Zealand", "aka": "NZ, Auckland, Queenstown",
       "status": "check",
-      "conditions": ["Immigration New Zealand's Visitor Visa page has a checklist for visitors from India. We could not confirm the stay and fee for Indians, so check there."],
-      "say": "We could not confirm the details for Indians on Immigration New Zealand's site. Check its Visitor Visa page before you plan.",
+      "conditions": ["Immigration New Zealand's Visitor Visa page has a checklist for visitors from India (stays of less than 6 months) and says a Visitor Visa allows a stay of up to 9 months in any 18-month period at most, as decided on your application. That page does not say in plain words whether Indian passport holders need a visa or may use an NZeTA, so we have not marked the rule as confirmed. Check before you plan."],
+      "say": "Immigration New Zealand's Visitor Visa page has a checklist for Indian applicants, but we could not confirm in plain words whether Indians need a visa or an NZeTA. Check its Visitor Visa page before you plan.",
       "sources": [{"label": "Immigration New Zealand: Visitor Visa", "url": "https://www.immigration.govt.nz/visas/visitor-visa"}],
       "checked": "2026-11-21"
     }
