@@ -1,0 +1,255 @@
+{
+  "_note": "Tourist entry rules for ordinary Indian passport holders, read on each country's official page (immigration, foreign ministry, official e-visa portal, or its embassy) on the 'checked' date. status: visa-free, visa-on-arrival, e-visa, visa-needed, or check (could not confirm on an official page: no stay or fee shown). Fees only where the official page states them. India's MEA list (mea.gov.in/vffin) is used only as a pointer on 'check' rows. Rules change often: recheck every 2-3 months, and Malaysia before 1 Jan 2027.",
+  "countries": [
+    {
+      "slug": "thailand", "name": "Thailand", "aka": "Bangkok, Phuket, Pattaya, Krabi",
+      "status": "visa-free", "stay": "30 days",
+      "conditions": ["For tourism. The 30-day exemption for Indians started on 15 Sep 2026 (it was 60 days before).", "Fill in the free Thailand Digital Arrival Card (TDAC) online in the 3 days before you arrive.", "Staying longer than 30 days? Apply for a Thai e-visa before you go."],
+      "say": "Yes, for tourism: since 15 September 2026 Indian passport holders can stay up to 30 days without a visa (it was 60 days before), says the Royal Thai Embassy in New Delhi. Fill in the online Thailand Digital Arrival Card (TDAC) before you land. For longer stays, apply for an e-visa.",
+      "sources": [{"label": "Royal Thai Embassy, New Delhi", "url": "https://newdelhi.thaiembassy.org/en/content/the-revision-of-thailand-s-visa-exemption-and-voa"}, {"label": "Thailand Digital Arrival Card", "url": "https://tdac.immigration.go.th/manual/en/faq.html"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "uae", "name": "UAE", "aka": "Dubai, Abu Dhabi",
+      "status": "visa-needed", "stay": "As on your visit visa",
+      "conditions": ["The UAE is not visa-free for Indians, and its visa on arrival is only for the visa and residence holders below.", "Everyone else needs a UAE visit visa before the flight. GDRFA Dubai and ICP list the visit visas and how to apply."],
+      "with_visa": "GDRFA Dubai gives a 14-day visa on arrival (extendable once by 14 days) to Indians with a US green card or a UK or EU residence visa, applied for online first. The page does not name a US visit visa, so check before you fly.",
+      "say": "Most Indians do. The UAE's visa on arrival for Indians is only for those holding a US green card or a UK or EU residence visa (14 days, extendable once), says GDRFA Dubai. Everyone else needs a UAE visit visa before the flight.",
+      "sources": [{"label": "GDRFA Dubai: visa on arrival for Indians", "url": "https://gdrfad.gov.ae/en/node/13973"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "singapore", "name": "Singapore",
+      "status": "visa-needed", "stay": "Set at the checkpoint",
+      "fee": "₹2,100 visa fee (the agent may charge its own fee)",
+      "conditions": ["Apply through an authorised visa agent in India. There is no visa on arrival.", "Passport valid for at least 6 months from the day you arrive.", "Form 14A and photos."],
+      "with_visa": "Changing planes? Indians may qualify for 96-hour visa-free transit if they hold a valid visa or long-term pass from one of the countries Singapore lists, plus an onward ticket.",
+      "say": "Yes. Indian passport holders need a visa for Singapore, applied for through an authorised visa agent in India. The visa fee is ₹2,100 per application, says Singapore's High Commission in New Delhi, and your passport needs 6 months' validity.",
+      "sources": [{"label": "Singapore High Commission, New Delhi", "url": "https://new-delhi.mfa.gov.sg/consular-services/visa-information/"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "malaysia", "name": "Malaysia", "aka": "Kuala Lumpur, Langkawi, Penang",
+      "status": "visa-free", "stay": "30 days",
+      "until": "31 Dec 2026. Travelling from 1 Jan 2027? Check Malaysia's immigration site before you book: the exemption may not be extended.",
+      "conditions": ["Social visits only (holiday, family), not work or study.", "Malaysia's immigration site links to the online Malaysia Digital Arrival Card (MDAC): fill it in before you arrive."],
+      "say": "Yes, until 31 December 2026: Malaysia's immigration department exempts Indian nationals from the visa for social visits, for up to 30 days. For trips from 1 January 2027, check Malaysia's official visa site before you book, because the exemption has an end date.",
+      "sources": [{"label": "Malaysia Immigration: visa by country", "url": "https://www.imi.gov.my/index.php/en/main-services/visa/visa-requirement-by-country/"}, {"label": "Malaysia eVISA terms", "url": "https://malaysiavisa.imi.gov.my/terms-and-conditions/"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "indonesia", "name": "Indonesia", "aka": "Bali, Jakarta",
+      "status": "visa-on-arrival", "stay": "30 days, extendable once by 30 days",
+      "fee": "IDR 500,000",
+      "conditions": ["Get it on arrival or online before you fly (e-VOA) on Indonesia's official immigration site.", "Passport valid for at least 6 months.", "Return or onward ticket."],
+      "say": "Indians get a visa on arrival (also available online as an e-VOA) for 30 days, extendable once, for IDR 500,000, says Indonesia's immigration department. Carry a passport valid for 6 months and a return ticket.",
+      "sources": [{"label": "Indonesia Immigration: visa B1", "url": "https://www.imigrasi.go.id/wna/daftar-visa-indonesia/B1?lang=en-US"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "vietnam", "name": "Vietnam", "aka": "Hanoi, Ho Chi Minh City, Da Nang",
+      "status": "e-visa", "stay": "Up to 90 days",
+      "conditions": ["Apply online before you travel, only on Vietnam's official e-visa portal.", "Single or multiple entry.", "Vietnam's visa exemption for India covers only diplomatic and official passports, not ordinary ones."],
+      "say": "No. Ordinary Indian passport holders need a Vietnam e-visa, valid for up to 90 days with single or multiple entry, applied for on Vietnam's official e-visa portal. Only Indian diplomatic and official passports are visa-exempt.",
+      "sources": [{"label": "Vietnam Immigration e-visa portal", "url": "https://evisa.immigration.gov.vn/en_US/web/guest/trang-chu-ttdt"}, {"label": "Vietnam MFA: visa exemption list", "url": "https://mofa.gov.vn/tin-chi-tiet/chi-tiet/viet-nam-39-s-visa-exemption-list-57163-596.html"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "sri-lanka", "name": "Sri Lanka", "aka": "Colombo",
+      "status": "e-visa", "stay": "30 days, double entry",
+      "fee": "Free for Indians",
+      "conditions": ["Apply for the ETA online before you arrive, on Sri Lanka's official ETA site.", "Staying longer than 30 days? Pay for an extension in Sri Lanka."],
+      "say": "You need an ETA (electronic travel authorisation), but for Indians it is free: 30 days with double entry, says Sri Lanka's official ETA site. Apply online before you fly.",
+      "sources": [{"label": "Sri Lanka ETA (Department of Immigration)", "url": "https://www.eta.gov.lk/slvisa/"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "maldives", "name": "Maldives", "aka": "Male",
+      "status": "visa-on-arrival", "stay": "Given on arrival (the official page gives no number)",
+      "conditions": ["Passport valid for at least 1 month, with a machine-readable zone.", "Confirmed return ticket and a paid booking at a registered hotel or resort.", "Enough money for your stay.", "Each traveller, including children, files the free IMUGA Traveller Declaration up to 96 hours before arrival."],
+      "say": "Indians get a tourist visa on arrival in the Maldives. Maldives Immigration asks for a return ticket, a paid hotel or resort booking, enough money and the free online Traveller Declaration, filed up to 96 hours before you land.",
+      "sources": [{"label": "Maldives Immigration: tourist visa", "url": "https://immigration.gov.mv/visa/tourist-visa"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "nepal", "name": "Nepal", "aka": "Kathmandu, Pokhara",
+      "status": "visa-free", "stay": "No limit (India's MEA)",
+      "conditions": ["Flying: only a valid Indian passport or an original Voter ID card is accepted.", "Aadhaar, PAN, driving licence or a printed Voter ID are not accepted for flights."],
+      "say": "Indians need no visa for Nepal. When flying, carry a valid Indian passport or your original Voter ID card: the Embassy of India in Kathmandu says these are the only two documents accepted, so Aadhaar or PAN won't do.",
+      "sources": [{"label": "Embassy of India, Kathmandu: valid documents", "url": "https://www.indembkathmandu.gov.in/valid-travel-documents"}, {"label": "India MEA: visa facility for Indians", "url": "https://www.mea.gov.in/vffin"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "bhutan", "name": "Bhutan", "aka": "Thimphu, Paro, Phuentsholing",
+      "status": "visa-free", "stay": "As on your entry permit",
+      "fee": "SDF ₹1,200 per person per night",
+      "conditions": ["No visa, but you need an entry permit, at Paro airport or the road border offices.", "Indian passport valid for 6 months, or your original Voter ID.", "Children without a passport: original birth certificate."],
+      "say": "Indians need no visa for Bhutan, but they need an entry permit and pay a Sustainable Development Fee of ₹1,200 per night. Carry a passport valid for 6 months or your original Voter ID, says the Embassy of India in Thimphu.",
+      "sources": [{"label": "Embassy of India, Thimphu", "url": "https://indembthimphu.gov.in/pages/NDA5"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "mauritius", "name": "Mauritius",
+      "status": "check",
+      "conditions": ["Mauritius's passport office asks every visitor for a return ticket, enough money and a hotel booking or sponsor, and the immigration officer decides.", "India's MEA list shows a visa on arrival for Indians, but we could not confirm it on a Mauritian page."],
+      "say": "We could not confirm the rule for Indians on a Mauritian government page. India's MEA lists a visa on arrival. Check with the Mauritius High Commission in New Delhi.",
+      "sources": [{"label": "Mauritius Passport and Immigration Office", "url": "https://passport.govmu.org/passport/?page_id=587"}, {"label": "India MEA: visa facility for Indians", "url": "https://www.mea.gov.in/vffin"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "seychelles", "name": "Seychelles",
+      "status": "visa-free", "stay": "Up to 3 months (visitor's permit)",
+      "fee": "Visitor's permit free for 3 months; Travel Authorisation fee not stated",
+      "conditions": ["Apply for the Seychelles Travel Authorisation online before you leave.", "Return or onward ticket, confirmed accommodation and enough money."],
+      "say": "No visa is needed: you get a free visitor's permit on arrival for up to 3 months, but you must get a Seychelles Travel Authorisation online before you leave, says Seychelles Immigration.",
+      "sources": [{"label": "Seychelles Immigration: visitor's permit", "url": "https://www.ics.gov.sc/permits/visitors-permit"}, {"label": "Seychelles Travel Authorisation", "url": "https://seychelles.govtas.com"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "hong-kong", "name": "Hong Kong",
+      "status": "visa-free", "stay": "14 days per visit",
+      "fee": "Pre-arrival registration is free",
+      "conditions": ["Register online first (pre-arrival registration, PAR). It is valid for 6 months and several visits.", "Passport valid for at least 6 months.", "Print the notification slip and carry it."],
+      "say": "Indians can visit Hong Kong without a visa for up to 14 days, but only after a free online pre-arrival registration, valid for 6 months, says Hong Kong's Immigration Department.",
+      "sources": [{"label": "Hong Kong Immigration: pre-arrival registration", "url": "https://www.immd.gov.hk/eng/services/visas/pre-arrival_registration_for_indian_nationals.html"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "japan", "name": "Japan", "aka": "Tokyo, Osaka",
+      "status": "e-visa", "stay": "As on your visa",
+      "conditions": ["Japan's eVISA has run in India since 1 April 2024. Submit your application through VFS.", "Applications open 3 months before travel. Plan well ahead."],
+      "say": "Indians need a visa for Japan. Since 1 April 2024 it can be a JAPAN eVISA, applied for through VFS, says the Embassy of Japan in India.",
+      "sources": [{"label": "Embassy of Japan in India: visa", "url": "https://www.in.emb-japan.go.jp/itpr_en/Visa.html"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "south-korea", "name": "South Korea", "aka": "Seoul, Korea",
+      "status": "visa-needed", "stay": "As on your visa",
+      "conditions": ["Apply for a Korean visa through the Korea Visa Portal (visa.go.kr), with in-person submission at the application centre."],
+      "say": "Yes. The Korean Consulate in Chennai says Indian nationals must apply for a Korean visa through the Korea Visa Portal.",
+      "sources": [{"label": "Consulate General of Korea, Chennai", "url": "https://ind-chennai.mofa.go.kr/in-chennai-en/brd/m_2785/view.do?seq=750165"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "turkey", "name": "Turkey", "aka": "Türkiye, Istanbul",
+      "status": "visa-needed", "stay": "Up to 30 days on the e-visa",
+      "conditions": ["Without a qualifying visa, apply for a sticker visa at a Turkish mission in India."],
+      "with_visa": "With a valid US, UK, Schengen or Irish visa or residence permit, Indians can get a single-entry e-visa, valid for one month, for tourism or business.",
+      "say": "Most Indians need a visa from a Turkish mission. With a valid US, UK, Schengen or Irish visa or residence permit, you can get a single-entry e-visa for up to a month instead, says Turkey's foreign ministry.",
+      "sources": [{"label": "Turkey MFA: visa information", "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "georgia", "name": "Georgia", "aka": "Tbilisi, Batumi",
+      "status": "e-visa", "stay": "Short stays under 90 days, as on the e-visa",
+      "conditions": ["Apply on Georgia's official e-visa portal.", "Passport valid at least 3 months beyond the visa.", "Return ticket, travel insurance, money and a hotel booking."],
+      "say": "Indians can apply for a Georgian e-visa on the official portal, for short stays under 90 days.",
+      "sources": [{"label": "Georgia e-visa portal", "url": "https://www.evisa.gov.ge/GeoVisa/en/VisaApp"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "azerbaijan", "name": "Azerbaijan", "aka": "Baku",
+      "status": "check",
+      "conditions": ["India's MEA lists an e-visa for Azerbaijan. We could not open Azerbaijan's official ASAN e-visa site to confirm the stay or fee."],
+      "say": "India's MEA lists an e-visa, but we could not confirm it on Azerbaijan's own site. Check evisa.gov.az or the Embassy of Azerbaijan in New Delhi.",
+      "sources": [{"label": "Azerbaijan ASAN e-visa", "url": "https://evisa.gov.az/en/"}, {"label": "India MEA: visa facility for Indians", "url": "https://www.mea.gov.in/vffin"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "kazakhstan", "name": "Kazakhstan", "aka": "Almaty, Astana",
+      "status": "visa-free", "stay": "14 days at a time, 42 days in any 180",
+      "conditions": ["For tourism, business or private visits."],
+      "say": "Yes: Indians can stay in Kazakhstan without a visa for up to 14 days at a time, and 42 days in any 180, say Kazakhstan's embassy in New Delhi and India's embassy in Astana.",
+      "sources": [{"label": "Embassy of Kazakhstan, New Delhi", "url": "https://www.gov.kz/memleket/entities/mfa-delhi/press/news/details/398872?lang=en"}, {"label": "Embassy of India, Astana", "url": "https://www.indembastana.gov.in/page/kazakhstan-introduced-visa-free-travel-for-citizens-of-india-for-up-to-14-days/"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "qatar", "name": "Qatar", "aka": "Doha",
+      "status": "check",
+      "conditions": ["India's MEA lists a free visa on arrival for Indians, with the stay set by a hotel booking on the Discover Qatar website. We could not confirm this on a Qatari government page."],
+      "say": "India's MEA lists a visa on arrival, but we could not confirm it on Qatar's own pages. Check Visit Qatar's visa checker or Qatar's embassy in New Delhi.",
+      "sources": [{"label": "Visit Qatar: visa check", "url": "https://visitqatar.com/intl-en/plan-your-trip/visas"}, {"label": "India MEA: visa facility for Indians", "url": "https://www.mea.gov.in/vffin"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "oman", "name": "Oman", "aka": "Muscat",
+      "status": "e-visa", "stay": "As on the e-visa",
+      "conditions": ["Apply online for the Tourist Visit Visa (Unsponsored) on the Royal Oman Police e-visa site.", "Passport valid for 6 months, return ticket, hotel booking, health insurance and enough money."],
+      "with_visa": "With a GCC residence permit, or a valid visa for the US, Canada, Australia, the UK, a Schengen country or Japan, Indians can stay 14 days without a visa (not extendable).",
+      "say": "Indians with a GCC residence or a valid US, Canadian, Australian, UK, Schengen or Japanese visa can stay 14 days visa-free; others apply for an e-visa, says Oman's foreign ministry.",
+      "sources": [{"label": "Oman MFA: entry visas", "url": "https://www.fm.gov.om/en/visitors/entry-visas/"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "egypt", "name": "Egypt", "aka": "Cairo",
+      "status": "e-visa", "stay": "As on the e-visa",
+      "fee": "US$30 single entry, US$65 multiple entry",
+      "conditions": ["Apply on Egypt's official e-visa portal.", "Passport valid for at least 6 months from arrival.", "Hotel bookings and travel plan."],
+      "say": "Indians can apply for an Egypt e-visa on the official portal: US$30 single entry or US$65 multiple entry.",
+      "sources": [{"label": "Egypt e-Visa portal FAQ", "url": "https://visa2egypt.gov.eg/eVisa/FAQ"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "kenya", "name": "Kenya", "aka": "Nairobi, Masai Mara",
+      "status": "e-visa", "stay": "As on the eTA",
+      "fee": "US$30 standard eTA",
+      "conditions": ["Every visitor, including children, needs an approved Electronic Travel Authorisation (eTA) before travel.", "Passport valid for 6 months with a blank page.", "Travel plan and hotel booking."],
+      "say": "Yes, Indians need Kenya's eTA before they travel. The standard eTA costs US$30, says Kenya's official eTA site.",
+      "sources": [{"label": "Kenya eTA: FAQs", "url": "https://etakenya.go.ke/faqs"}, {"label": "Kenya eTA: how to apply", "url": "https://etakenya.go.ke/how-to-apply"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "uk", "name": "United Kingdom", "aka": "UK, London, England, Scotland",
+      "status": "visa-needed", "stay": "Usually up to 6 months",
+      "fee": "£135 (Standard Visitor, up to 6 months)",
+      "conditions": ["Standard Visitor visa, applied for online up to 3 months before travel.", "Indians can't use the UK ETA.", "Show you can pay for your trip and will leave at the end."],
+      "say": "Yes. Indians need a UK Standard Visitor visa (£135 for up to 6 months, says GOV.UK). The UK's ETA is not open to Indian passport holders.",
+      "sources": [{"label": "GOV.UK: Standard Visitor visa", "url": "https://www.gov.uk/standard-visitor"}, {"label": "GOV.UK: who can get an ETA", "url": "https://www.gov.uk/guidance/check-when-you-can-get-an-electronic-travel-authorisation-eta"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "schengen", "name": "Schengen countries", "aka": "Europe, France, Germany, Italy, Switzerland, Spain, Netherlands, Greece",
+      "status": "visa-needed", "stay": "90 days in any 180 days",
+      "fee": "€90 adults, €45 children 6–11",
+      "conditions": ["Schengen short-stay (C) visa, with fingerprints at a visa centre (children under 12 exempt).", "Passport valid at least 3 months after you leave, issued in the last 10 years, with 2 blank pages.", "Proof of enough money for your stay."],
+      "say": "Indians need a Schengen visa for France, Germany, Italy, Switzerland and the other Schengen countries: up to 90 days in any 180, €90 for adults (EU home affairs), with fingerprints at a visa centre.",
+      "sources": [{"label": "German Missions in India: Schengen visa FAQ", "url": "https://india.diplo.de/in-en/service/schengen-visa-faq-2610538"}, {"label": "European Commission: visa fee", "url": "https://home-affairs.ec.europa.eu/news/schengen-visa-fee-increased-11-june-2024-2024-06-13_en"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "usa", "name": "United States", "aka": "USA, US, America, New York",
+      "status": "visa-needed", "stay": "Set by the officer when you arrive",
+      "fee": "US$185 (B-1/B-2 visa application)",
+      "conditions": ["B-1/B-2 visitor visa: form DS-160, then an interview at a US embassy or consulate in India.", "India is not in the Visa Waiver Program."],
+      "say": "Yes. Indians need a US visitor visa (B-1/B-2); the application fee is US$185, says the US State Department. India is not in the Visa Waiver Program.",
+      "sources": [{"label": "US State Dept: visitor visa", "url": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html"}, {"label": "US State Dept: Visa Waiver Program", "url": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visa-waiver-program.html"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "canada", "name": "Canada", "aka": "Toronto, Vancouver",
+      "status": "visa-needed", "stay": "Usually up to 6 months (the border officer decides)",
+      "fee": "CAN$100 plus CAN$85 biometrics",
+      "conditions": ["Visitor visa with biometrics.", "A US visa does not let Indians use Canada's eTA instead: India is not on that list.", "Passport should be valid for 6 months."],
+      "say": "Yes. Indians need a Canadian visitor visa: CAN$100 plus CAN$85 for biometrics, says IRCC. Holding a US visa does not let Indians use an eTA instead.",
+      "sources": [{"label": "Canada: apply for a visitor visa", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/apply-visitor-visa.html"}, {"label": "Canada: eTA for some visa-required countries", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/eligibility/eta-x.html"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "australia", "name": "Australia", "aka": "Sydney, Melbourne",
+      "status": "visa-needed", "stay": "Up to 12 months",
+      "fee": "From AUD 250",
+      "conditions": ["Visitor visa (subclass 600), tourist stream, applied for online before you travel."],
+      "say": "Yes. Indians apply for Australia's Visitor visa (subclass 600) before they travel: from AUD 250, for a stay of up to 12 months, says Australia's Department of Home Affairs.",
+      "sources": [{"label": "Australia Home Affairs: Visitor visa 600", "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas"}],
+      "checked": "2026-11-21"
+    },
+    {
+      "slug": "new-zealand", "name": "New Zealand", "aka": "NZ, Auckland, Queenstown",
+      "status": "check",
+      "conditions": ["Immigration New Zealand's Visitor Visa page has a checklist for visitors from India. We could not confirm the stay and fee for Indians, so check there."],
+      "say": "We could not confirm the details for Indians on Immigration New Zealand's site. Check its Visitor Visa page before you plan.",
+      "sources": [{"label": "Immigration New Zealand: Visitor Visa", "url": "https://www.immigration.govt.nz/visas/visitor-visa"}],
+      "checked": "2026-11-21"
+    }
+  ]
+}

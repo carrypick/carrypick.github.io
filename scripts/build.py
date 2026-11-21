@@ -18,6 +18,7 @@ from html import escape as e
 
 import cite_box
 import clothing_size
+import visa_india
 import diagrams
 import hindi_pages
 import hindi_tools
@@ -1280,6 +1281,7 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
 {faq_html}
 <p>Buying a check-in bag for this trip? See <a href="../guides/trolley-bag-size-for-international-travel.html">which trolley size fits a 23 kg bag and the 158 cm limit</a>.</p>
 {packing_abroad}
+{visa_india.link_line(None, '../', 'Flying abroad?')}
 <h2>Flying within India?</h2>
 <p>Domestic allowances are smaller: usually a 7 kg cabin bag and 15 kg of check-in baggage. See our <a href="index.html">baggage rules for Indian airlines</a>.</p>
 {tool_pills("../", "baggage/international.html")}
@@ -2767,6 +2769,8 @@ def build_packing(cfg, deals_by_asin, pages, lastmod, trip_guides=()):
         if lists:
             going_html += '<p class="small">Want the full list, with what to wear and why? Read our packing lists for %s.</p>' % and_list(
                 f'<a href="../guides/{s_}-packing-list.html">{place}</a>' for s_, place in lists)
+        if slug == "abroad":
+            going_html += visa_india.link_line(None, "../").replace("<p>", '<p class="small">', 1)
         going_html += ('<p class="small">Want a list for your own trip, with kids or a baby, the month and how you travel? '
                        'Try the <a href="../tools/packing-list-maker.html">packing list maker</a>.</p>')
         title = trip["title"]
@@ -2924,6 +2928,7 @@ def build():
     what_to_wear.register(sys.modules[__name__])  # what-to-wear helper, next to the packing tools
     trip_calc.register(sys.modules[__name__])  # trip budget and road trip fuel calculators
     long_weekends.register(sys.modules[__name__])  # long weekends 2027 planner, second on the tools list
+    visa_india.register(sys.modules[__name__])  # visa guide for Indian passport holders
 
     # Home
     cat_tiles = "".join(
@@ -3193,6 +3198,7 @@ def build():
         hindi_tools.build_late(sys.modules[__name__], cfg, deals_by_asin, pages, lastmod)  # Hindi packing list maker and gift finder
     what_to_wear.build(sys.modules[__name__], cfg, deals_by_asin, pages, lastmod)  # after guides and trips, so its links can be checked
     long_weekends.build(sys.modules[__name__], cfg, deals_by_asin, pages, lastmod)  # after the trips, so its trip links can be checked
+    visa_india.build(sys.modules[__name__], cfg, pages, lastmod)  # visa guide, after trips so its links can be checked
 
     # Info pages
     name = e(cfg["site_name"])

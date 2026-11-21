@@ -61,6 +61,8 @@ If you pack only these, you'll be fine:
 
 [[pick:B0BHC41KYN]]
 
+Going somewhere else too? Our [visa guide for Indian passport holders](visa-free-countries-for-indians.html#sri-lanka) shows the entry rule for Sri Lanka and many other countries, with the official source and the date we checked it.
+
 ## What to wear to temples in Sri Lanka
 
 The Temple of the Sacred Tooth Relic in Kandy asks visitors to be respectfully dressed:

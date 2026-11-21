@@ -62,6 +62,8 @@ The Embassy of India in Kathmandu says only two documents are valid for Indians 
 
 [[pick:B0BHC41KYN]]
 
+Going somewhere else too? Our [visa guide for Indian passport holders](visa-free-countries-for-indians.html#nepal) shows the entry rule for Nepal and many other countries, with the official source and the date we checked it.
+
 ## Indian currency in Nepal
 
 - **₹100 notes and smaller:** no special limit.

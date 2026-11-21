@@ -59,6 +59,8 @@ If you pack only these, you'll be fine:
 
 [[pick:B0BHC41KYN]]
 
+Going somewhere else too? Our [visa guide for Indian passport holders](visa-free-countries-for-indians.html#vietnam) shows the entry rule for Vietnam and many other countries, with the official source and the date we checked it.
+
 ## What to wear in Vietnam
 
 - **In the north from December to March:** long trousers, full-sleeved tops and a light jacket or sweater. Hanoi nights are about 15 °C, and Ha Long Bay can be very cold in January, says the tourism authority, so bring warm layers.

@@ -59,6 +59,8 @@ If you pack only these, you'll be fine:
 
 [[pick:B0BHC41KYN]]
 
+Going somewhere else too? Our [visa guide for Indian passport holders](visa-free-countries-for-indians.html#indonesia) shows the entry rule for Indonesia and many other countries, with the official source and the date we checked it.
+
 ## Clothes
 
 What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#bali) for day and night temperatures and an outfit list by month.

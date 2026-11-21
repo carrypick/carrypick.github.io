@@ -64,6 +64,8 @@ The Embassy of India in Thimphu and Bhutan's Department of Tourism list what Ind
 
 [[pick:B0BHC41KYN]]
 
+Going somewhere else too? Our [visa guide for Indian passport holders](visa-free-countries-for-indians.html#bhutan) shows the entry rule for Bhutan and many other countries, with the official source and the date we checked it.
+
 ## SDF for Indians and money
 
 - **SDF (Sustainable Development Fee):** Nu 1,200 per person per night for Indians who show a valid passport or voter ID, payable in ngultrum or the same in Indian rupees, says the Department of Tourism.

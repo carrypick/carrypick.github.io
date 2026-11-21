@@ -58,6 +58,8 @@ If you pack only these, you'll be fine:
 
 [[pick:B0BHC41KYN]]
 
+Going somewhere else too? Our [visa guide for Indian passport holders](visa-free-countries-for-indians.html#singapore) shows the entry rule for Singapore and many other countries, with the official source and the date we checked it.
+
 ## What to wear in Singapore
 
 There's no dress code on the streets. Shorts, T-shirts, dresses and skirts are normal everywhere: Orchard Road, Sentosa, Universal Studios and the hawker centres.

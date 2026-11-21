@@ -54,6 +54,17 @@ def _simple(name):
     return get
 
 
+def _visa():
+    d = _load("visa_india.json")
+    seen, src = set(), []
+    for c in d.get("countries", []):
+        for s in c.get("sources", []):
+            if s["url"] not in seen:
+                seen.add(s["url"])
+                src.append(("%s: %s" % (c["name"], s["label"]), s["url"]))
+    return max((c["checked"] for c in d.get("countries", [])), default=None), src
+
+
 def _gift_finder():
     return _load("gift_finder.json").get("updated"), []
 
@@ -79,6 +90,7 @@ TOOLS = {
     "tools/trip-budget-calculator.html": lambda: ("2026-11-21", []),
     "tools/road-trip-cost-calculator.html": lambda: ("2026-11-21", []),
     "tools/long-weekends-2027.html": _simple("holidays_2027.json"),
+    "guides/visa-free-countries-for-indians.html": _visa,
 }
 # Hindi tool page -> its English tool (same data, same dates), and the Hindi name for the box.
 HI_TOOLS = {
@@ -105,7 +117,8 @@ def _fmt_hi(value):
     d = datetime.strptime(value[:10], "%Y-%m-%d")
     return "%d %s %d" % (d.day, HI_MONTHS[d.month - 1], d.year)
 NAMES = {"tools/power-bank-flight-check.html": "Power bank flight checker (mAh to Wh)",
-         "tools/long-weekends-2027.html": "Long weekends 2027 planner (India)"}
+         "tools/long-weekends-2027.html": "Long weekends 2027 planner (India)",
+         "guides/visa-free-countries-for-indians.html": "Visa-free countries for Indians: visa guide"}
 NOTES = {
     "tools/packing-list-maker.html": "Packing items come from our own checklists; the cabin and liquids rules come from these official pages.",
     "tools/gift-finder.html": "Gift ideas are chosen by the CarryPick team. The tool uses no outside data, so there is nothing else to cite.",
