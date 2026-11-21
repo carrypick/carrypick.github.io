@@ -30,6 +30,7 @@ Plan your budget with our [trip budget calculator](../tools/trip-budget-calculat
 | [Sri Lanka](sri-lanka-trip-from-india.html) | Sigiriya, Kandy, tea hills, Ramayana sites | Colombo about 30 °C by day; some rain in December, drier in January | Direct flights from many Indian cities to Colombo (CMB); free ETA for Indians | Busy from Christmas to New Year |
 | [Thailand](thailand-trip-from-india.html) | Bangkok's temples and markets, Phuket and Krabi beaches | Warm and mostly dry: Bangkok about 31 °C by day, 21 °C at night | Direct flights from many Indian cities to Bangkok, some to Phuket and Krabi; no visa for up to 30 days | Busy and costly from Christmas to New Year |
 | [Vietnam](vietnam-trip-from-india.html) | Hanoi, Ha Long Bay cruises, Ho Chi Minh City | Hanoi cool, about 22 °C by day and 15 °C at night; Ho Chi Minh City about 32 °C and dry; Da Nang and Hoi An rainy | Direct flights from several Indian cities to Hanoi (HAN) and Ho Chi Minh City (SGN); e-visa needed | Busy from Christmas to New Year |
+| [Bali](bali-trip-from-india.html) | Rice terraces, temples, pool villas, honeymoons | Hot, about 33 °C by day; the wet season, with rain on most days | Direct flights from Delhi and Bengaluru to Denpasar (DPS); visa on arrival | Busiest and costliest from Christmas to New Year |
 | [Ooty](ooty-in-december.html) | Tea hills, the Nilgiri toy train, frosty mornings | Days about 21 °C, nights about 6–7 °C; frost but no snow | Coimbatore (CJB), then about 89 km by road | Busy from Christmas to New Year; e-pass needed for cars |
 | [Varanasi](varanasi-in-december.html) | Ghats, the Ganga aarti, temples | Days about 22–24 °C, nights about 9–10 °C; foggy mornings | Varanasi (VNS) | Very crowded at Kashi Vishwanath at New Year |
 | [Jaipur](jaipur.html) | Forts, palaces, markets | Sunny days about 22–24 °C, cold nights about 8–9 °C | Jaipur (JAI) | Busy, especially 25 Dec to 1 Jan |
@@ -107,6 +108,12 @@ Read the full [Thailand trip guide](thailand-trip-from-india.html), and see our 
 In December, Hanoi is cool and dry, about 22 °C by day and 15 °C at night, and Ho Chi Minh City is hot and dry, about 32 °C. Da Nang and Hoi An are rainy, with rain on about 21 days, so plan fewer days there. Indians need an e-visa (US$25 for a single entry), applied for online on Vietnam's official portal before you fly.
 
 Read the full [Vietnam trip guide](vietnam-trip-from-india.html), and see our [Vietnam packing list](../guides/vietnam-packing-list.html).
+
+## Bali: for a honeymoon abroad, if you don't mind rain
+
+Bali is hot in December, about 33 °C by day, but it's the wet season, with rain on about 22 days, often in the afternoon. Indians get a visa on arrival for Rp 500,000 (up to 30 days), or buy it online as an e-VOA before flying, and pay the Rp 150,000 Bali tourist levy. Spend 3 nights in Ubud and 3 near the beach.
+
+Read the full [Bali trip guide](bali-trip-from-india.html), and see our [Bali packing list](../guides/bali-packing-list.html).
 
 ## Ooty: for tea hills and the toy train
 
