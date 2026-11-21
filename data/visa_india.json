@@ -90,10 +90,10 @@
     },
     {
       "slug": "mauritius", "name": "Mauritius",
-      "status": "check",
-      "conditions": ["Mauritius's passport office asks every visitor for a return ticket, enough money and a hotel booking or sponsor, and the immigration officer decides.", "India's MEA list shows a visa on arrival for Indians, but we could not confirm it on a Mauritian page."],
-      "say": "We could not confirm the rule for Indians on a Mauritian government page. India's MEA lists a visa on arrival. Check with the Mauritius High Commission in New Delhi.",
-      "sources": [{"label": "Mauritius Passport and Immigration Office", "url": "https://passport.govmu.org/passport/?page_id=587"}, {"label": "India MEA: visa facility for Indians", "url": "https://www.mea.gov.in/vffin"}],
+      "status": "visa-free", "stay": "Set by the officer at the airport (tourists: up to 6 months a year, case by case)",
+      "conditions": ["Passport valid beyond your stay, a return ticket, enough money, and a confirmed hotel booking or a sponsor.", "Fill in the free Mauritius All-in-One Travel Digital Form online before you fly; airlines ask for proof at boarding.", "The immigration officer decides how long you can stay."],
+      "say": "No visa is needed: Mauritius's Passport and Immigration Office lists India as \"No visa required\". Carry a return ticket, a hotel booking and enough money, and fill in the free All-in-One Travel Digital Form before you fly.",
+      "sources": [{"label": "Mauritius Passport and Immigration Office: country-wise visa list", "url": "https://passport.govmu.org/passport/wp-content/uploads/2021/03/Visa-Requirement-Country-2025.pdf"}, {"label": "Mauritius Passport and Immigration Office: travel requirements", "url": "https://passport.govmu.org/passport/?page_id=587"}, {"label": "Mauritius All-in-One Travel Digital Form", "url": "https://safemauritius.govmu.org/"}],
       "checked": "2026-11-21"
     },
     {
