@@ -126,7 +126,7 @@ Four 5 ml roll-on attars from Ajmal, with no alcohol (as listed): Dubai Oud, Blu
 - **Test on a small patch of skin first** if you have sensitive skin or allergies.
 - **Keep perfume out of the sun.** Heat and light can change the smell over time.
 
-More gift ideas: [Christmas gifts for her](christmas-gift-for-girlfriend-or-wife.html), [Christmas gifts for him](christmas-gift-for-boyfriend-or-husband.html), [Secret Santa ideas for the office](secret-santa-gift-ideas-for-office.html) and [wedding gifts](wedding-gift-guide.html).
+More gift ideas: [birthday gifts](birthday-gift-ideas.html), [anniversary gifts](anniversary-gift-ideas.html), [Christmas gifts for her](christmas-gift-for-girlfriend-or-wife.html), [Christmas gifts for him](christmas-gift-for-boyfriend-or-husband.html), [Secret Santa ideas for the office](secret-santa-gift-ideas-for-office.html) and [wedding gifts](wedding-gift-guide.html).
 
 ## Questions
 

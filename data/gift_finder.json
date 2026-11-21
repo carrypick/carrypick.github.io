@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "about": "Gift finder quiz (tools/gift-finder.html, scripts/gift_finder.py, static/gift-finder.js). Picks are in order of fit. size_of tags each pick small, nice or big by how much of a gift it is.",
   "sizes": [
     {"slug": "small", "label": "A small token", "hint": "A desk gift, a thank you or Secret Santa"},
@@ -18,7 +18,9 @@
     "B018VZBTLY": "big", "B07CR1JQBY": "big", "B00ISNVQMW": "big", "B08LKXV22C": "big", "B014MN9RCM": "big",
     "B07PY6CQYV": "big", "B01N56X1EW": "big", "B07N8GRWTZ": "big", "B0B6CM781M": "big", "B0CPFQC55D": "big",
     "B097JLKP8X": "big", "B097GCJFW2": "big", "B0F5HGLC5Q": "big", "B097BHFQVS": "big",
-    "B09231NL5H": "nice", "B09232XNTX": "nice", "B0DSVXW4GD": "nice", "B0GXWJZKT4": "nice", "B0CSK7YP3H": "nice", "B079H12TC8": "small"
+    "B09231NL5H": "nice", "B09232XNTX": "nice", "B0DSVXW4GD": "nice", "B0GXWJZKT4": "nice", "B0CSK7YP3H": "nice", "B079H12TC8": "small",
+    "B0CDC7QR7T": "nice", "B07QS9K2VT": "nice", "B074PYMMCQ": "nice", "B07FM7TPPY": "nice", "B09KV28F4P": "nice", "B0DWSS3Q5K": "nice",
+    "B07HD1H1RH": "small", "B079TN3GCD": "small", "B0DT719TQS": "small"
   },
   "who": [
     {"slug": "colleague", "for": "a colleague", "label": "A colleague", "line": "Something useful at a desk or on a work trip, not too personal.",
@@ -46,6 +48,10 @@
      "picks": ["B014MN9RCM", "B0B3JBRB6J", "B099WNYHY2", "B0999SJPWC", "B079H12TC8", "B07PFF4RYC", "B0BQWF3TJK", "B0C3LRF94X", "B0F13ZFVVX", "B0F5GS19M1", "B0C4TV4M2F"],
      "guides": [["guides/christmas-gift-for-boyfriend-or-husband.html#for-your-brother", "Gifts for your brother"],
                 ["guides/christmas-gift-for-girlfriend-or-wife.html#for-your-sister", "Gifts for your sister"]]},
+    {"slug": "friend", "for": "a friend", "label": "A friend", "line": "Sunglasses, a watch, a wallet set or a small perfume set: easy gifts for a male or female friend.",
+     "picks": ["B099WNYHY2", "B09KV28F4P", "B0DSVXW4GD", "B0C3LRF94X", "B0F5GS19M1", "B074PYMMCQ", "B07FM7TPPY", "B0F13ZFVVX", "B0DWSS3Q5K", "B079H12TC8", "B0BQWF3TJK", "B0C4TV4M2F"],
+     "guides": [["guides/birthday-gift-ideas.html#for-a-friend", "Birthday gifts for a friend"],
+                ["guides/gifts-for-travellers.html", "Gifts for a friend who travels"]]},
     {"slug": "traveller", "for": "a friend who travels", "label": "A friend who travels", "line": "Travel gear they'll use on every trip: organisers, a passport holder, a bag scale.",
      "picks": ["B0F2237QFM", "B0C3RB9X98", "B0BHC41KYN", "B07Q822CWX", "B0C4TV4M2F", "B0C7BM18PB", "B07M9BRCQ5", "B0B6CM781M", "B097JLKP8X", "B0F5HGLC5Q", "B07PFF4RYC", "B094JBDRKX", "B08L6QPD8N"],
      "guides": [["guides/gifts-for-travellers.html", "Gifts for someone who travels a lot"]]},
@@ -66,7 +72,11 @@
     {"slug": "wedding", "head": "Wedding gift ideas", "label": "Wedding", "lead": true, "not_for": ["kids"],
      "picks": ["B07PY6CQYV", "B07SCLW4HY", "B01N56X1EW", "B097BHFQVS", "B097GCJFW2", "B07M9BRCQ5"],
      "guides": [["guides/wedding-gift-guide.html", "Wedding gift ideas for couples"]]},
-    {"slug": "birthday", "head": "Birthday gift ideas", "label": "Birthday", "picks": [], "guides": []},
+    {"slug": "birthday", "head": "Birthday gift ideas", "label": "Birthday", "not_for": ["kids"], "picks": ["B0DSVXW4GD", "B099WNYHY2", "B0F5GS19M1"],
+     "guides": [["guides/birthday-gift-ideas.html", "Birthday gift ideas for everyone"]]},
+    {"slug": "anniversary", "head": "Anniversary gift ideas", "label": "Anniversary", "not_for": ["kids"],
+     "picks": ["B07PY6CQYV", "B01N56X1EW", "B07SCLW4HY", "B07M9BRCQ5", "B097BHFQVS"],
+     "guides": [["guides/anniversary-gift-ideas.html", "Anniversary gift ideas for husband, wife and parents"]]},
     {"slug": "any", "head": "Gift ideas", "label": "Any day", "picks": [], "guides": []}
   ],
   "pairs": {
@@ -85,6 +95,18 @@
     "her+wedding": {"picks": ["B08LKXV22C", "B07CR1JQBY"], "guides": [["guides/wedding-gift-guide.html#for-the-bride", "Wedding gifts for the bride"]]},
     "him+wedding": {"picks": ["B00ISNVQMW", "B07H3K85H5"], "guides": [["guides/wedding-gift-guide.html#for-the-groom", "Wedding gifts for the groom"]]},
     "parents+wedding": {"picks": ["B07PY6CQYV", "B01N56X1EW"], "guides": [["guides/wedding-gift-guide.html#for-the-couple-pair-watches", "Pair watches for a couple"]]},
-    "kids+christmas": {"guides": [["guides/christmas-gifts-for-kids.html#quick-ideas", "Quick Christmas gift ideas for kids"]]}
+    "kids+christmas": {"guides": [["guides/christmas-gifts-for-kids.html#quick-ideas", "Quick Christmas gift ideas for kids"]]},
+    "her+birthday": {"picks": ["B07QS9K2VT", "B09232XNTX"], "guides": [["guides/birthday-gift-ideas.html#for-your-wife", "Birthday gifts for your wife"]]},
+    "him+birthday": {"picks": ["B07H3K85H5", "B079TN3GCD", "B09231NL5H"], "guides": [["guides/birthday-gift-ideas.html#for-your-husband", "Birthday gifts for your husband"]]},
+    "parents+birthday": {"picks": ["B07DD25LJ8", "B07CR1JQBY", "B07HD1H1RH", "B0DT719TQS"], "guides": [["guides/birthday-gift-ideas.html#for-your-father", "Birthday gifts for your father and mother"]]},
+    "sibling+birthday": {"picks": ["B0CDC7QR7T", "B07FM7TPPY", "B0DWSS3Q5K", "B074PYMMCQ"], "guides": [["guides/birthday-gift-ideas.html#for-your-brother", "Birthday gifts for your brother and sister"]]},
+    "friend+birthday": {"guides": [["guides/birthday-gift-ideas.html#for-a-friend", "Birthday gifts for a friend"]]},
+    "kids+birthday": {"guides": [["guides/birthday-gift-ideas.html#for-kids-boys-and-girls", "Birthday gifts for kids: boys and girls"]]},
+    "her+anniversary": {"picks": ["B07CR1JQBY", "B08LKXV22C", "B0CSK7YP3H"], "guides": [["guides/anniversary-gift-ideas.html#for-your-wife", "Anniversary gifts for your wife"]]},
+    "him+anniversary": {"picks": ["B018VZBTLY", "B0C3LRF94X", "B0GXWJZKT4", "B00ISNVQMW"], "guides": [["guides/anniversary-gift-ideas.html#for-your-husband", "Anniversary gifts for your husband"]]},
+    "parents+anniversary": {"picks": ["B07PY6CQYV", "B07SCLW4HY", "B01N56X1EW", "B0F5HGLC5Q"], "guides": [["guides/anniversary-gift-ideas.html#for-your-parents", "Anniversary gifts for parents, including a 25th or 50th"]]},
+    "sibling+anniversary": {"picks": ["B097BHFQVS", "B0DSVXW4GD", "B01N56X1EW"], "guides": [["guides/anniversary-gift-ideas.html#for-a-couple-sister-and-brother-in-law-or-friends", "Anniversary gifts for a sister and brother-in-law"]]},
+    "friend+anniversary": {"picks": ["B097BHFQVS", "B0DSVXW4GD", "B01N56X1EW"], "guides": [["guides/anniversary-gift-ideas.html#for-a-couple-sister-and-brother-in-law-or-friends", "Anniversary gifts for a couple you know"]]},
+    "traveller+anniversary": {"picks": ["B07M9BRCQ5", "B0C4TV4M2F"], "guides": [["guides/anniversary-gift-ideas.html#for-an-anniversary-trip-together", "Gifts for an anniversary trip together"]]}
   }
 }

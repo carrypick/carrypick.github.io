@@ -88,7 +88,7 @@ A three-piece set covers every trip, from a weekend away to a long holiday. It's
 
 [[pick:B097BHFQVS]]
 
-Looking for a New Year present instead? See our [New Year gift ideas](new-year-gift-ideas.html). For a couple who loves to travel, see [gifts for travellers](gifts-for-travellers.html). Buying for work this Christmas? See [Secret Santa gift ideas](secret-santa-gift-ideas-for-office.html) and [gifts for your boss](gift-for-boss.html).
+Looking for a New Year present instead? See our [New Year gift ideas](new-year-gift-ideas.html). For a couple's first (or 25th) anniversary, see our [anniversary gift ideas](anniversary-gift-ideas.html). For a couple who loves to travel, see [gifts for travellers](gifts-for-travellers.html). Buying for work this Christmas? See [Secret Santa gift ideas](secret-santa-gift-ideas-for-office.html) and [gifts for your boss](gift-for-boss.html).
 
 ## Quick gift checklist
 

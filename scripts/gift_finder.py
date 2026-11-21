@@ -15,7 +15,7 @@ from common import ROOT
 
 FILE = ROOT / "data" / "gift_finder.json"
 PATH = "tools/gift-finder.html"
-UPDATED = "2026-11-20"
+UPDATED = "2026-11-21"
 SHOW = 6         # pick cards in a quiz result
 NOJS_PICKS = 3   # pick links per person in the no-JS list
 GIFT_ICON = ('<rect x="4" y="9" width="16" height="11" rx="1.5"/><path d="M3 9h18M12 9v11"/>'
@@ -28,7 +28,7 @@ def register(B):
     B.ICONS.setdefault("gift", GIFT_ICON)
     # First on the home page's tools list: gifts are our season until Christmas.
     B.TOOLS.insert(0, (PATH, "Gift finder quiz", "Free tool", "Gift finder: what gift should I give?",
-                       "Tell us who it's for and the occasion, and see gift ideas from our Christmas, Secret Santa, farewell and wedding guides.",
+                       "Tell us who it's for and the occasion, and see gift ideas from our birthday, anniversary, Christmas, farewell and wedding guides.",
                        "Find a gift", "gift", "watches", "gift-box"))
 
 
@@ -147,8 +147,8 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
 
     title = "Gift finder quiz: what gift should I give?"
     seo = "Gift finder quiz India: gift ideas for men, women, kids, boss and colleagues"
-    desc = ("Free gift finder quiz: pick who the gift is for (colleague, boss, wife, husband, kids, parents, a traveller or Secret Santa) "
-            "and the occasion, and see matching gift ideas for Christmas, farewell, New Year, weddings and birthdays.")
+    desc = ("Free gift finder quiz: pick who the gift is for (wife, husband, parents, brother or sister, a friend, kids, colleague, boss or Secret Santa) "
+            "and the occasion, and see matching gift ideas for birthdays, anniversaries, Christmas, farewell, New Year and weddings.")
     inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span>Gift finder</nav>
       <h1>{e(title)}</h1>
       <p class="muted small">A free tool. Answer 2 or 3 quick questions. Updated {B.fmt_date(UPDATED)}</p>"""
@@ -170,6 +170,12 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
         ("What gift can I give my parents?",
          "A pair watch set like %s or Sonata Bandhan, warm thermal sets for winter, or comfortable walking shoes for dad."
          % name("B07PY6CQYV", "Titan Bandhan")),
+        ("What is a good birthday gift for a husband or wife?",
+         "For a husband: a watch like the %s, a slim leather wallet or a perfume gift set. For a wife: a watch with a rose gold band, "
+         "a small tote or a perfume gift set. Our birthday guide has ideas for brothers, sisters, parents and friends too." % name("B07H3K85H5", "Timex Classics")),
+        ("What is a good anniversary gift for parents?",
+         "A pair watch set like %s or Sonata Bandhan says \"for both of you\". For a 25th or 50th anniversary, a couple watch set "
+         "or a cabin trolley for a family trip or pilgrimage." % name("B07PY6CQYV", "Titan Bandhan")),
         ("What gift should I give for a marriage?",
          "Something the couple will use together: a couple watch set, a set of 3 trolley bags for the new home, "
          "or a cabin trolley and weekender bag for the honeymoon. Check the couple's list first if they have one."),
