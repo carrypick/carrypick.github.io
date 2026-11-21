@@ -1,5 +1,92 @@
 [
   {
+    "asin": "B0CJC1SVH7",
+    "added_at": "2026-11-21T09:09:05+05:30",
+    "title": "Mokobara Packing Cubes, Set of 6 with Shoe Bag and Toiletry Bag",
+    "category": "travel-gear",
+    "highlights": [
+      "6 pieces: XL, large and medium cubes",
+      "Shoe bag and toiletry bag included",
+      "Water resistant nylon",
+      "Light at 220 g for the set"
+    ],
+    "note": "A neat Mokobara set that keeps clothes, shoes and toiletries apart in any bag.",
+    "brand": "Mokobara",
+    "colour": "Black",
+    "best_for": [
+      "Organised packing",
+      "Long trips"
+    ],
+    "specs": {
+      "Pieces": "6 (XL, large, medium cube, shoe bag, toiletry bag)",
+      "Listed size": "33 x 27 x 3.5 cm",
+      "Material": "Nylon, water resistant",
+      "Weight": "220 g",
+      "Closure": "Zip",
+      "Warranty": "Not listed"
+    },
+    "skip_if": "you only pack a small backpack: six pieces is more than you need.",
+    "deal_seen_at": "2026-11-21T09:08:00+05:30"
+  },
+  {
+    "asin": "B0GPN376P6",
+    "added_at": "2026-11-21T09:09:04+05:30",
+    "title": "American Tourister Qubiz 80 cm Large Check-in Trolley, 113 L",
+    "category": "luggage",
+    "highlights": [
+      "Big 113 L for long trips",
+      "Hard polypropylene shell",
+      "8 spinner wheels",
+      "3-year global warranty"
+    ],
+    "note": "A big, tough American Tourister suitcase for long family and wedding trips.",
+    "brand": "American Tourister",
+    "colour": "Lime/Turquoise",
+    "best_for": [
+      "Long trips",
+      "Family travel"
+    ],
+    "specs": {
+      "Size": "54 x 33 x 80 cm (167 cm total)",
+      "Capacity": "113 L",
+      "Weight": "3.9 kg",
+      "Shell": "Hard, polypropylene",
+      "Lock": "Recessed combination lock",
+      "Warranty": "3 years global"
+    },
+    "skip_if": "your airline has a 158 cm size limit for check-in bags: this one adds up to 167 cm.",
+    "deal_seen_at": "2026-11-21T09:08:00+05:30"
+  },
+  {
+    "asin": "B0G6DPM32H",
+    "added_at": "2026-11-21T09:09:04+05:30",
+    "title": "Skybags Splash 55 cm Cabin Trolley, Printed Hard Shell",
+    "category": "luggage",
+    "highlights": [
+      "Printed hard shell, light at 2.5 kg",
+      "8 spinner wheels",
+      "3-digit combination lock",
+      "5-year international warranty"
+    ],
+    "note": "A light, printed Skybags cabin trolley with a long 5-year warranty.",
+    "brand": "Skybags",
+    "colour": "Black",
+    "best_for": [
+      "Short trips",
+      "Cabin bag"
+    ],
+    "specs": {
+      "Size": "37 x 23 x 55 cm (115 cm total)",
+      "Capacity": "32 L",
+      "Weight": "2.5 kg",
+      "Shell": "Hard, ABS and polypropylene",
+      "Lock": "3-digit combination",
+      "Warranty": "5 years international"
+    },
+    "skip_if": "your airline checks each side strictly: at 37 cm wide it is over the 35 cm width limit of IndiGo, Akasa and SpiceJet, even though the total is 115 cm.",
+    "deal_seen_at": "2026-11-21T09:08:00+05:30"
+  },
+  {
     "asin": "B0DT719TQS",
     "added_at": "2026-11-20T18:30:00+05:30",
     "title": "Ajmal Gold Series Attar Gift Set, 4 x 5 ml roll-on (Dubai Oud, Blu Moon, White Oud, Rose Gold)",
