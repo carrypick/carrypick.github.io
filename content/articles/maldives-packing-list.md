@@ -82,6 +82,7 @@ Evenings are warm, at about 25–26 °C, so night outfits can be light:
 - **Matching swimwear or kaftans,** if you like coordinated photos.
 - **Share one light check-in bag** if you're taking a seaplane. See the seaplane limits below.
 - **One power bank and a charger with two ports** for both phones.
+- **More ideas,** including hill honeymoons, in our [honeymoon packing list](honeymoon-packing-list.html).
 
 Packing cubes keep two people's things in order in one bag:
 

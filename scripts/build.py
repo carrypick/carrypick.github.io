@@ -2715,7 +2715,7 @@ def pack_qty(rule, days, cap=None):
 PACKING_GUIDES = {"abroad": (("dubai", "Dubai"), ("thailand", "Thailand"), ("bali", "Bali"), ("vietnam", "Vietnam"),
                              ("maldives", "the Maldives"), ("sri-lanka", "Sri Lanka"), ("singapore", "Singapore"), ("bhutan", "Bhutan"), ("nepal", "Nepal")),
                   "beach": (("goa", "Goa"), ("andaman", "Andaman"), ("thailand", "Thailand"), ("bali", "Bali"),
-                            ("maldives", "the Maldives"))}
+                            ("maldives", "the Maldives"), ("honeymoon", "a honeymoon"))}
 
 
 def build_packing(cfg, deals_by_asin, pages, lastmod, trip_guides=()):
