@@ -712,7 +712,7 @@ def build_clothing(B, cfg, deals, pages, lastmod):
             note = (f' US और EU साइज <a href="{e(cs["url"])}" target="_blank" rel="noopener" lang="en">{e(cs["label"])}</a> से हैं, जो उन्हें जोड़ों में देता है।')
         say = ""
         if chart.get("say"):
-            t = chart["say"]
+            t = chart["say"].replace("collar ", "कॉलर ")
             for c in chart["cols"]:
                 t = t.replace("{%s}" % c, "{%s}" % colname(c))
             say = f' data-say="{e(t)}"'
