@@ -201,7 +201,7 @@ def build_all(B, cfg, deals, pages, lastmod):
 <label>What<select id="cs-garment"></select></label>
 <label>Units<select id="cs-unit"><option value="cm">cm</option><option value="in">inches</option></select></label>
 {inputs}
-<label>Or, a size I know<select id="cs-size"><option value="">Choose…</option></select></label></div>
+<label>Or, a UK or US size I know<select id="cs-size"><option value="">Choose…</option></select></label></div>
 <p class="checker-total" id="cs-out" aria-live="polite">Type your measurement, or pick a size you know, to see it on each brand's chart.</p>
 <div id="cs-result" hidden>
 <ul id="cs-r-list"></ul>
@@ -229,6 +229,8 @@ def build_all(B, cfg, deals, pages, lastmod):
 <script src="../assets/clothing-size.js" defer></script>
 {B.telegram_band(cfg, "../")}"""
     faq = [
+        ("Can I enter my measurements in inches?",
+         "Yes. Change Units to inches and type your chest, waist or hips in inches. We turn them into cm for the charts. The size list shows each size with its UK, US and EU numbers where the chart has them, so you can start from a US or UK size too."),
         ("Is a 38 size shirt M or L?",
          "On Marks & Spencer India's formal shirt chart, a 38 collar is an %s, for a chest of %s. A 41 or 42 collar is an L. Indian brands use the same collar numbers, but which letter they call it can differ, so check the brand's chart."
          % (f38["Letter"], cm("ms-men-formal", "38", "chest"))),

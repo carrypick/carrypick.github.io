@@ -135,10 +135,11 @@ def build_shoe_size(B, cfg, deals, pages, lastmod):
 <h2>Step 2: find your size</h2>
 <form class="checker" id="ss" onsubmit="return false">
 <div class="checker-fields"><label>Shoes for<select id="ss-who"><option value="men">Men</option><option value="women">Women</option><option value="kids">Kids</option></select></label>
-<label>Foot length (cm)<input id="ss-cm" type="number" min="10" max="35" step="0.1" inputmode="decimal" placeholder="e.g. 26"></label>
-<label hidden data-js>Or, a size I know<select id="ss-sys"><option value="uk">India / UK</option><option value="us">US</option><option value="eu">EU</option></select></label>
+<label>Foot length in<select id="ss-unit"><option value="cm">cm</option><option value="in">inches</option></select></label>
+<label><span id="ss-cm-l">Foot length (cm)</span><input id="ss-cm" type="number" min="10" max="35" step="0.1" inputmode="decimal" placeholder="e.g. 26"></label>
+<label hidden data-js>Or, a size I know (UK, US or EU)<select id="ss-sys"><option value="uk">India / UK</option><option value="us">US</option><option value="eu">EU</option></select></label>
 <label hidden data-js>Size<select id="ss-size"><option value="">Choose…</option></select></label></div>
-<p class="checker-total" id="ss-out" aria-live="polite">Type your foot length in cm, or pick a size you know, to see it in every size system.</p>
+<p class="checker-total" id="ss-out" aria-live="polite">Type your foot length in cm or inches, or pick a US, UK or EU size you know, to see it in every size system.</p>
 <div id="ss-result" hidden>
 <div class="table-wrap"><table class="compare snug"><tbody>
 <tr><th scope="row">India / UK</th><td id="ss-r-uk"></td></tr>
@@ -169,6 +170,8 @@ def build_shoe_size(B, cfg, deals, pages, lastmod):
          % (m8["uk"], m8["us"], m8["eu"], cm_text(B, m8))),
         ("What is size %s in India for women?" % w40["eu"],
          "On Bata India's women's chart, EU %s is an India/UK %s and a US %s, for a foot of %s." % (w40["eu"], w40["uk"], w40["us"], cm_text(B, w40))),
+        ("Can I type my foot length in inches, or start from a US size?",
+         "Yes. Switch the foot length to inches and we convert it to cm for the chart (1 inch = 2.54 cm). Or pick US, UK or EU under \"a size I know\" and see the other systems. We use Bata India's chart only."),
         ("What shoe size is a 26 cm foot?",
          "For men, about an India/UK %s (EU %s) on Bata India's chart, which covers feet of %s." % (m26["uk"], m26["eu"], cm_text(B, m26))),
         ("How do I measure my foot size in cm at home?",

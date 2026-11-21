@@ -73,9 +73,10 @@
     $("ss-out").textContent = msg;
   }
 
+  function inchK() { var u = $("ss-unit"); return u && u.value === "in" ? 2.54 : 1; }
   function byCm() {
     $("ss-size").value = "";
-    var group = $("ss-who").value, cm = parseFloat($("ss-cm").value);
+    var group = $("ss-who").value, cm = parseFloat($("ss-cm").value) * inchK();
     if (!(cm > 0)) { reset(T.prompt); return; }
     var list = rows(group);
     var lo = parseFloat(list[0].getAttribute("data-lo")), hi = parseFloat(list[list.length - 1].getAttribute("data-hi"));
@@ -108,6 +109,12 @@
   });
   $("ss-sys").addEventListener("change", function () { fillSizes(); reset(T.now); });
   $("ss-cm").addEventListener("input", byCm);
+  if ($("ss-unit")) $("ss-unit").addEventListener("change", function () {
+    var inch = this.value === "in", box = $("ss-cm");
+    $("ss-cm-l").textContent = inch ? "Foot length (inches)" : "Foot length (cm)";
+    box.min = inch ? 4 : 10; box.max = inch ? 14 : 35; box.step = inch ? 0.05 : 0.1; box.placeholder = inch ? "e.g. 10.2" : "e.g. 26";
+    box.value = ""; byCm();
+  });
   $("ss-size").addEventListener("change", bySize);
   fillSizes();
 })();
