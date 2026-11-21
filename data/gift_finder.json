@@ -77,6 +77,9 @@
     {"slug": "anniversary", "head": "Anniversary gift ideas", "label": "Anniversary", "not_for": ["kids"],
      "picks": ["B07PY6CQYV", "B01N56X1EW", "B07SCLW4HY", "B07M9BRCQ5", "B097BHFQVS"],
      "guides": [["guides/anniversary-gift-ideas.html", "Anniversary gift ideas for husband, wife and parents"]]},
+    {"slug": "valentines", "head": "Valentine's Day gift ideas", "label": "Valentine's Day", "not_for": ["kids", "parents", "colleague", "boss", "sibling", "friend"],
+     "picks": ["B07PY6CQYV", "B0DSVXW4GD", "B09232XNTX", "B09231NL5H"],
+     "guides": [["guides/valentines-day-gift-ideas.html", "Valentine's Day gift ideas for him and her"]]},
     {"slug": "any", "head": "Gift ideas", "label": "Any day", "picks": [], "guides": []}
   ],
   "pairs": {
@@ -107,6 +110,10 @@
     "parents+anniversary": {"picks": ["B07PY6CQYV", "B07SCLW4HY", "B01N56X1EW", "B0F5HGLC5Q"], "guides": [["guides/anniversary-gift-ideas.html#for-your-parents", "Anniversary gifts for parents, including a 25th or 50th"]]},
     "sibling+anniversary": {"picks": ["B097BHFQVS", "B0DSVXW4GD", "B01N56X1EW"], "guides": [["guides/anniversary-gift-ideas.html#for-a-couple-sister-and-brother-in-law-or-friends", "Anniversary gifts for a sister and brother-in-law"]]},
     "friend+anniversary": {"picks": ["B097BHFQVS", "B0DSVXW4GD", "B01N56X1EW"], "guides": [["guides/anniversary-gift-ideas.html#for-a-couple-sister-and-brother-in-law-or-friends", "Anniversary gifts for a couple you know"]]},
-    "traveller+anniversary": {"picks": ["B07M9BRCQ5", "B0C4TV4M2F"], "guides": [["guides/anniversary-gift-ideas.html#for-an-anniversary-trip-together", "Gifts for an anniversary trip together"]]}
+    "traveller+anniversary": {"picks": ["B07M9BRCQ5", "B0C4TV4M2F"], "guides": [["guides/anniversary-gift-ideas.html#for-an-anniversary-trip-together", "Gifts for an anniversary trip together"]]},
+    "her+valentines": {"picks": ["B08LKXV22C", "B07CR1JQBY", "B09232XNTX", "B0CDC7QR7T", "B0BQWF3TJK", "B07QS9K2VT"],
+                       "guides": [["guides/valentines-day-gift-ideas.html#quick-ideas", "Valentine's gift ideas for your girlfriend or wife"]]},
+    "him+valentines": {"picks": ["B07H3K85H5", "B018VZBTLY", "B09231NL5H", "B0C3LRF94X", "B0999SJPWC", "B0GXWJZKT4"],
+                       "guides": [["guides/valentines-day-gift-ideas.html#quick-ideas", "Valentine's gift ideas for your boyfriend or husband"]]}
   }
 }

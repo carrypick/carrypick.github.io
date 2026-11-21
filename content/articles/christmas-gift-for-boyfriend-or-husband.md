@@ -149,7 +149,7 @@ Our [what to wear in Manali in December](what-to-wear-in-manali-in-december.html
 
 [[pick:B014MN9RCM]]
 
-**The leather sling or the gadget organiser above are good smaller gifts.** Buying for a colleague instead? See our [Secret Santa gift ideas](secret-santa-gift-ideas-for-office.html) and [gift ideas for your boss](gift-for-boss.html).
+**The leather sling or the gadget organiser above are good smaller gifts.** Buying for a colleague instead? See our [Secret Santa gift ideas](secret-santa-gift-ideas-for-office.html) and [gift ideas for your boss](gift-for-boss.html). Planning ahead for February? See our [Valentine's Day gift ideas](valentines-day-gift-ideas.html).
 
 ## Questions
 

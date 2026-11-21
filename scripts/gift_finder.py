@@ -179,6 +179,9 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
         ("What gift should I give for a marriage?",
          "Something the couple will use together: a couple watch set, a set of 3 trolley bags for the new home, "
          "or a cabin trolley and weekender bag for the honeymoon. Check the couple's list first if they have one."),
+        ("What is a good Valentine's Day gift?",
+         "Something they use every day: a watch like the %s for her or the %s for him, a perfume gift set, or pair watches you both wear. "
+         "Choose \"Valentine's Day\" above to see them." % (name("B08LKXV22C", "Titan Raga"), name("B07H3K85H5", "Timex Classics"))),
         ("What do small token, nice gift and big gift mean?",
          "They say how much of a gift you want, not a price. A small token is a desk gift or Secret Santa, a nice gift suits a friend or family, "
          "and a big gift is for a partner, parents or a gift from the whole team. We don't show prices: check them on Amazon.in."),

@@ -109,6 +109,8 @@ Skinn by Titan's 24Seven box: Floral and Caramel for her, Woody and Aqua for him
 
 [[pick:B0DSVXW4GD]]
 
+A perfume set is an easy Valentine's gift too. See our [Valentine's Day gift ideas](valentines-day-gift-ideas.html) for him and her.
+
 A flat 17 ml pocket spray for a quick top-up before a meeting or after a flight:
 
 [[pick:B079H12TC8]]

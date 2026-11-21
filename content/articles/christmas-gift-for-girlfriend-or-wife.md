@@ -132,7 +132,7 @@ Our [what to wear in Manali in December](what-to-wear-in-manali-in-december.html
 
 [[pick:B0B3JBRB6J]]
 
-**A zip-around wallet, or the light crossbody bag above, are good smaller gifts.** Going to a wedding this season too? See our [wedding gift ideas](wedding-gift-guide.html).
+**A zip-around wallet, or the light crossbody bag above, are good smaller gifts.** Going to a wedding this season too? See our [wedding gift ideas](wedding-gift-guide.html). Planning ahead for February? See our [Valentine's Day gift ideas](valentines-day-gift-ideas.html).
 
 ## Questions
 
