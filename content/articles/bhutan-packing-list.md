@@ -58,7 +58,7 @@ The Embassy of India in Thimphu and Bhutan's Department of Tourism list what Ind
 - **Children under 18** can use a passport or their original birth certificate, and must travel with a parent or legal guardian.
 - **Aadhaar and driving licence aren't on the list.** Carry a passport or voter ID.
 - **Where you get the permit:** at Paro airport, or at the immigration offices at Phuentsholing, Gelephu, Samdrup Jongkhar and Samtse on the land border. You can apply online first; at the border there may be a long wait. A certified hotel can also apply for you.
-- **A guide.** The Department of Tourism says you must be accompanied by a guide in Bhutan, and guides are needed at dzongs and monuments. Book one with your hotel or a licensed tour operator before you go.
+- **A guide.** The Department of Tourism says you must be accompanied by a guide at all times in Bhutan, including if you enter by road and go beyond the border towns, and guides are needed at dzongs and monuments (rechecked 21 Nov 2026). Book one with your hotel or a licensed tour operator before you go.
 - **Route permits are no longer needed** to move between places, if you travel with a certified guide. National parks still need a permit.
 - **Travel insurance** isn't required since April 2024, but the Department of Tourism strongly recommends it.
 
@@ -180,7 +180,7 @@ Waterproof hiking shoes for women:
 
 - **About 5 nights:** a cabin trolley or a 30–40 litre backpack. Winter clothes are bulky, so use packing cubes.
 - **About a week or more:** a medium trolley.
-- **Going by road through Phuentsholing?** A backpack or a light trolley is easier at the immigration office and on hill roads.
+- **Going by road through Phuentsholing?** A backpack or a light trolley is easier at the immigration office and on hill roads. For the permit, route and own-car rules, see [Bhutan by road from India](../trips/bhutan-by-road.html).
 
 Economy bag limits on flights between India and Bhutan, from the airlines' own websites:
 

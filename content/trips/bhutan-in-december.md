@@ -12,7 +12,7 @@ glance: Weather in December=Sunny days of about 15–20 °C; nights about 0 °C 
 ---
 Bhutan in December is cold, dry and sunny. The skies are mostly clear and the mountain views are good. Nights in Paro and Thimphu fall to about 0 °C or below, but the days are often warm enough for a sweater. This guide covers the weather, the real chances of snow, the December festivals, a simple 6-day plan, how to get there from India and what to wear.
 
-Packing for the trip? Use our [Bhutan packing list](../guides/bhutan-packing-list.html) for documents, cash rules and the Drukair bag limits. Still choosing? Compare places in [where to go in December and January](where-to-go-in-december-january.html). Going by road through north Bengal? See [Darjeeling in December](darjeeling-in-december.html). Thinking of Nepal instead? See [Nepal in December](nepal-in-december.html) and our [Nepal packing list](../guides/nepal-packing-list.html).
+Packing for the trip? Use our [Bhutan packing list](../guides/bhutan-packing-list.html) for documents, cash rules and the Drukair bag limits. Still choosing? Compare places in [where to go in December and January](where-to-go-in-december-january.html). Going by road? See [Bhutan by road from India](bhutan-by-road.html) for the Phuentsholing permit and the route, and [Darjeeling in December](darjeeling-in-december.html) if you stop in north Bengal. Thinking of Nepal instead? See [Nepal in December](nepal-in-december.html) and our [Nepal packing list](../guides/nepal-packing-list.html).
 
 ## Bhutan weather in December and January
 
@@ -81,12 +81,18 @@ Most first trips from India cover Paro, Thimphu and Punakha. A guide is needed i
 - **Only 4 days?** Paro and Thimphu, with a day trip to Dochula.
 - **Coming by road?** Add a day at each end for Phuentsholing to Thimphu, about 5–6 hours each way.
 
+## Guided Bhutan tour packages
+
+Would you rather book the car, driver, guide, hotels and permits in one go? Licensed operators sell Bhutan packages from Bagdogra, NJP, Kolkata and Delhi, many with Paro, Thimphu and Punakha. Compare them here:
+
+[[tours:Bhutan]]
+
 ## Getting to Bhutan from India
 
 - **By air to Paro:** Drukair flies to Paro from Delhi, Kolkata, Bagdogra and Guwahati, and from Gaya in winter. Bhutan Airlines flies from Delhi and Kolkata. Check each airline's current schedule.
 - **Paro flights run in daylight only,** in clear weather, says Bhutan's Department of Air Transport. Winter flights can be delayed or cancelled, so don't book a tight onward connection.
 - **Bag limits are small on Drukair:** the cabin bag is 5 kg and 45 x 35 x 20 cm. See the airline table in our [Bhutan packing list](../guides/bhutan-packing-list.html#which-bag-to-take).
-- **By road:** fly to Bagdogra or take a train to New Jalpaiguri (NJP), then go by road to the border at Jaigaon and Phuentsholing (about 4–5 hours). Indians get the entry permit at the Phuentsholing immigration office. From there, Thimphu is about 5–6 hours by road.
+- **By road:** fly to Bagdogra or take a train to New Jalpaiguri (NJP), then go by road to the border at Jaigaon and Phuentsholing (about 4–5 hours). Indians get the entry permit at the Phuentsholing immigration office, or online first. From there, Thimphu is about 5–6 hours by road. Step by step: [Bhutan by road from India](bhutan-by-road.html).
 - **Getting the permit:** at Paro airport or a land border, or apply online first. You need your passport or original voter ID, and the Sustainable Development Fee (SDF) paid for each night.
 
 Flying to Bagdogra for the road route? Compare flights:
@@ -100,7 +106,7 @@ Going by train to NJP? See the [Indian Railways luggage rules](../baggage/train-
 - **No visa for Indians.** Carry an Indian passport valid for at least 6 months, or your original voter ID card, plus passport-size photos. Aadhaar and driving licence aren't accepted for the permit.
 - **Children under 18** can use a passport or their original birth certificate, and must travel with a parent or guardian.
 - **SDF:** Nu 1,200 (₹1,200) per person per night for Indians. Children aged 6 to 11 pay Nu 600, and children under 6 pay nothing.
-- **A guide** must go with you, and is needed at dzongs and monuments.
+- **A guide** must go with you at all times, including if you come by road and go beyond the border towns, and is needed at dzongs and monuments (Department of Tourism FAQ, rechecked 21 Nov 2026).
 - **Indian rupees work.** The ngultrum is fixed 1:1 with the rupee. Carry notes of ₹500 or smaller: the Indian Embassy in Thimphu says you can carry up to ₹25,000 in such notes, and more only in ₹100 notes or smaller.
 
 For the full list, see the [documents section of our Bhutan packing list](../guides/bhutan-packing-list.html#documents-for-bhutan-from-india) and [how much cash you can carry abroad](../baggage/customs/cash-and-currency.html).
@@ -178,4 +184,4 @@ Yes. Your original voter ID card also works for the entry permit. Aadhaar and dr
 
 ## Sources
 
-Checked on 20 Nov 2026: Bhutan Department of Tourism [FAQs](https://www.bhutan.travel/faqs) (SDF, guides, seasons, emergency numbers, certified hotels) and its [National Day article](https://bhutan.travel/journal/news/bhutan-celebrates-its-115th-national-day-on-december-17-2022); the [tentative 2026 festival dates](https://a.storyblok.com/f/171618/x/debcb7d3d9/tentative_festival_dates_2026.pdf) published with bhutan.travel; the [Embassy of India in Thimphu](https://indembthimphu.gov.in/pages/NDA5) (documents and Indian notes); Bhutan's [Department of Air Transport](https://www.doat.gov.bt/?p=504) (Paro daylight flights); [Drukair's winter routes](https://drukair.com.bt/special-winter-offers/); [RSPN](https://rspnbhutan.org/?p=18082) on the cranes; BBS on [snow at the passes](https://www.bbs.bt/snowfall-brings-traffic-along-some-passes-to-a-standstill) and [the first snowfall](https://www.bbs.bt/the-seasons-first-snowfall); [The Bhutanese](https://thebhutanese.bt/road-closures-and-blockages-going-up-over-time-due-to-climate-change-as-snow-blockages-come-down/) on snow road closures; NCHM averages as tabled on Wikipedia for [Paro](https://en.wikipedia.org/wiki/Paro,_Bhutan), [Thimphu](https://en.wikipedia.org/wiki/Thimphu), [Punakha](https://en.wikipedia.org/wiki/Punakha) and [Jakar](https://en.wikipedia.org/wiki/Jakar). Road times from Phuentsholing are travel-guide estimates. Weather, roads and festival dates change, so check before you travel.
+Checked on 20 Nov 2026 (guide rule rechecked 21 Nov 2026): Bhutan Department of Tourism [FAQs](https://www.bhutan.travel/faqs) (SDF, guides, seasons, emergency numbers, certified hotels) and its [National Day article](https://bhutan.travel/journal/news/bhutan-celebrates-its-115th-national-day-on-december-17-2022); the [tentative 2026 festival dates](https://a.storyblok.com/f/171618/x/debcb7d3d9/tentative_festival_dates_2026.pdf) published with bhutan.travel; the [Embassy of India in Thimphu](https://indembthimphu.gov.in/pages/NDA5) (documents and Indian notes); Bhutan's [Department of Air Transport](https://www.doat.gov.bt/?p=504) (Paro daylight flights); [Drukair's winter routes](https://drukair.com.bt/special-winter-offers/); [RSPN](https://rspnbhutan.org/?p=18082) on the cranes; BBS on [snow at the passes](https://www.bbs.bt/snowfall-brings-traffic-along-some-passes-to-a-standstill) and [the first snowfall](https://www.bbs.bt/the-seasons-first-snowfall); [The Bhutanese](https://thebhutanese.bt/road-closures-and-blockages-going-up-over-time-due-to-climate-change-as-snow-blockages-come-down/) on snow road closures; NCHM averages as tabled on Wikipedia for [Paro](https://en.wikipedia.org/wiki/Paro,_Bhutan), [Thimphu](https://en.wikipedia.org/wiki/Thimphu), [Punakha](https://en.wikipedia.org/wiki/Punakha) and [Jakar](https://en.wikipedia.org/wiki/Jakar). Road times from Phuentsholing are travel-guide estimates. Weather, roads and festival dates change, so check before you travel.
