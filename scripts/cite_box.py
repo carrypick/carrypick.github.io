@@ -76,6 +76,8 @@ TOOLS = {
     "tools/clothing-size.html": _simple("clothing_sizes.json"),
     "tools/gift-finder.html": _gift_finder,
     "tools/what-to-wear.html": _what_to_wear,
+    "tools/trip-budget-calculator.html": lambda: ("2026-11-21", []),
+    "tools/road-trip-cost-calculator.html": lambda: ("2026-11-21", []),
 }
 # Hindi tool page -> its English tool (same data, same dates), and the Hindi name for the box.
 HI_TOOLS = {
@@ -105,6 +107,8 @@ NAMES = {"tools/power-bank-flight-check.html": "Power bank flight checker (mAh t
 NOTES = {
     "tools/packing-list-maker.html": "Packing items come from our own checklists; the cabin and liquids rules come from these official pages.",
     "tools/gift-finder.html": "Gift ideas are chosen by the CarryPick team. The tool uses no outside data, so there is nothing else to cite.",
+    "tools/trip-budget-calculator.html": "Every amount comes from the person using the tool. It uses no outside data or prices, so there is nothing else to cite.",
+    "tools/road-trip-cost-calculator.html": "Every amount, including the fuel price, comes from the person using the tool. It uses no outside data or prices.",
 }
 
 

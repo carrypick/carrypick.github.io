@@ -372,7 +372,7 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
 <p>Day clothes follow the warmest day in the month, and evening clothes the coldest night. Where a guide gives only a range, as for Manali in December and January, day clothes follow the middle of it. Below 0 °C at night, a wet month's rain may fall as snow. Rain of {data["rain"]["min_mm"]} mm or more in a month adds a poncho, a phone pouch and quick-dry clothes, and a chance of snow adds waterproof shoes, gloves and sunglasses.</p>
 <div class="table-wrap"><table class="compare snug"><thead><tr><th>Temperature</th><th>By day</th><th>At night</th><th>Shoes and extras</th></tr></thead>
 <tbody>{band_rows}</tbody></table></div>
-<p>Packing too? Make a list for your days, month and family with the <a href="packing-list-maker.html">packing list maker</a>, or read <a href="../guides/winter-clothes-for-hill-trips.html">what to wear on a winter hill trip</a>.</p>
+<p>Packing too? Make a list for your days, month and family with the <a href="packing-list-maker.html">packing list maker</a>, or read <a href="../guides/winter-clothes-for-hill-trips.html">what to wear on a winter hill trip</a>. Plan your budget with our <a href="trip-budget-calculator.html">trip budget calculator</a>.</p>
 {faq_html}
 {B.tool_pills("../", PATH)}
 </article></div>

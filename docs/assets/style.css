@@ -590,3 +590,28 @@ body { top: 0 !important; }
 .ww-list { margin: 0; padding-left: 20px; }
 .ww-title:focus { outline: none; }
 .ww-table td:last-child { min-width: 180px; }
+
+/* Trip budget and road trip calculators (scripts/trip_calc.py) */
+.tc-h { margin: 0; }
+.tc-fields .hint { font-weight: 500; color: var(--muted); }
+.tc-check { display: flex !important; align-items: center; gap: 8px; align-self: end; }
+.tc-check input { width: 20px !important; height: 20px; accent-color: var(--brand); }
+.tc-bar { display: flex; height: 18px; border-radius: 999px; overflow: hidden; background: var(--line); margin: 10px 0 6px; }
+.tc-seg { display: block; height: 100%; }
+.tc-c0 { background: #3b82c4; } .tc-c1 { background: #e07a3f; } .tc-c2 { background: #3fa06b; } .tc-c3 { background: #8a63c9; }
+.tc-c4 { background: #d1a52a; } .tc-c5 { background: #c94f6d; } .tc-c6 { background: #2aa7a0; } .tc-c7 { background: #8b939c; }
+.tc-legend, .tc-list, .tc-settle { list-style: none; padding: 0; margin: 6px 0 0; display: grid; gap: 6px; }
+.tc-dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 8px; vertical-align: -1px; }
+.tc-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.tc-ghost { background: var(--surface); color: var(--ink); border-color: var(--line); cursor: pointer; }
+.checker button.btn { cursor: pointer; font: inherit; font-weight: 700; }
+.tc-row { display: grid; gap: 10px; align-items: end; }
+@media (min-width: 640px) { .tc-row { grid-template-columns: 1fr auto; } .tc-exp { grid-template-columns: 1fr 1.4fr 1fr auto; } }
+.tc-chips { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.tc-chips li { padding: 6px 6px 6px 12px; border-radius: 999px; border: 1px solid var(--line); font-weight: 700; }
+.tc-chips button, .tc-list button { border: 0; background: none; color: var(--muted); font-size: 1.2rem; cursor: pointer; padding: 0 6px; }
+.tc-list li { display: flex; justify-content: space-between; gap: 8px; padding: 8px 10px; border-radius: 10px; background: var(--bg, var(--surface)); border: 1px solid var(--line); }
+.tc-for { border: 0; padding: 0; margin: 0; } .tc-for div { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+.tc-settle li { padding: 10px 12px; border-radius: 10px; background: var(--tint-backpacks); }
+.tc-blank { min-width: 140px; border-bottom: 1px solid var(--ink); }
+@media print { .tc-print table { break-inside: avoid; } }

@@ -25,6 +25,7 @@ import more_tools
 import pack_maker
 import gift_finder
 import what_to_wear
+import trip_calc
 import pick_art
 from common import IST, ROOT, amazon_link, load_config, load_deals
 
@@ -2918,6 +2919,7 @@ def build():
                       "Weekend, wedding, hills, beach, train or abroad: tick off what to pack, with quantities.",
                       "Start packing", "check", "travel-gear", "packed-suitcase"))
     what_to_wear.register(sys.modules[__name__])  # what-to-wear helper, next to the packing tools
+    trip_calc.register(sys.modules[__name__])  # trip budget and road trip fuel calculators
 
     # Home
     cat_tiles = "".join(
@@ -3172,6 +3174,7 @@ def build():
     build_tools(cfg, deals, pages, lastmod)
     more_tools.build_all(sys.modules[__name__], cfg, deals, pages, lastmod)
     clothing_size.build_all(sys.modules[__name__], cfg, deals, pages, lastmod)
+    trip_calc.build_all(sys.modules[__name__], cfg, deals, pages, lastmod)
     if trips:
         build_trips(cfg, trips, deals_by_asin, pages, lastmod)
     if trips_hi:
