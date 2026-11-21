@@ -111,6 +111,8 @@ def register(B, extra):
         B.HINDI_PAGES["guides/%s.html" % h["slug"]] = "hi/guides/%s.html" % h["slug"]
     for h, a, it in carry_hi(B):
         B.HINDI_PAGES["baggage/can-i-carry/%s.html" % h["slug"]] = "hi/can-i-carry/%s.html" % h["slug"]
+    import hindi_tools
+    hindi_tools.register(B)  # Hindi shoe size, power bank and other tool twins
     hi = load_hindi()
     if extra and "extra_baggage" in hi:
         B.HINDI_PAGES[B.EXTRA_PATH] = EXTRA_HUB
@@ -131,6 +133,8 @@ def tool_links(B, current, p):
         mine.append((EXTRA_HUB, "एक्स्ट्रा बैगेज चार्ज"))
     if B.HINDI_PAGES.get("baggage/checker.html") == CHECKER_PATH:
         mine.insert(1, (CHECKER_PATH, "केबिन बैग चेकर"))
+    import hindi_tools
+    mine += [t for t in hindi_tools.TOOLS_HI if B.HINDI_PAGES.get(hindi_tools.english_path(t[0])) == t[0]]
     mine += [("hi/guides/%s.html" % h["slug"], guide_short(h)) for h in guides_hi(B)]
     links = "".join(f'<li><a href="{p}{path}">{e(name)}</a></li>' for path, name in mine if path != current)
     if B.TRIPS_HI_DIR.exists():
@@ -405,6 +409,8 @@ def build_all(B, cfg, deals, deals_by_asin, airlines, intl, extra, pages, lastmo
     if B.HINDI_PAGES.get("baggage/checker.html") == CHECKER_PATH:
         build_checker(B, cfg, deals, airlines, intl, pages, lastmod)
     build_guides(B, cfg, deals_by_asin, pages, lastmod)
+    import hindi_tools
+    hindi_tools.build_all(B, cfg, deals, pages, lastmod)
 
 
 def check_links(B, paths):
