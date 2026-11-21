@@ -604,8 +604,10 @@ def booking_box(cfg, place, hindi=False):
     note = ("कीमत और कमरे बुकिंग साइट पर दिखते हैं। हमने हर होटल की जाँच नहीं की है, इसलिए पहले हाल के रिव्यू पढ़ें। इन लिंक से बुक करने पर हमें कमीशन मिल सकता है, आपको कोई अतिरिक्त खर्च नहीं।" if hindi else
             "Prices and rooms are shown on the booking site. We have not checked each hotel, so read recent reviews first. "
             "We may earn a commission if you book through these links, at no extra cost to you.")
+    dom = cfg.get("booking_domestic_only", {})
+    skip = set(dom.get("partners", [])) if place in dom.get("international_places", []) else set()  # e.g. MakeMyTrip pays only for Indian hotels
     links = "".join(f'<div class="book-row"><a class="btn btn-amazon" href="{e(url)}" {BUY_ATTRS}>{e(label.format(name=name, place=place))}</a></div>'
-                    for name, url in cfg["booking_partners"].items())
+                    for name, url in cfg["booking_partners"].items() if name not in skip)
     return f'<div class="cta-box">{links}<p>{note}</p></div>'
 
 

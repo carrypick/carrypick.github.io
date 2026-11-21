@@ -15,6 +15,7 @@
   "pinterest_url": "https://www.pinterest.com/carrypickindia/",
   "pinterest_site_verification": "b318d5c82aba4243760fecc664cdbddb",
   "cuelinks_site_verification": "VERIFY-CL-6X2CVLZF",
+  "booking_domestic_only": {"partners": ["MakeMyTrip"], "why": "EarnKaro pays MakeMyTrip only for domestic hotel bookings (read 15 Nov 2026)", "international_places": ["Singapore", "Nepal", "Bhutan", "भूटान", "Thailand", "Dubai", "Bali", "Vietnam", "Maldives", "Sri Lanka", "Malaysia"]},
   "booking_partners": {
     "MakeMyTrip": "https://bitli.in/dgyRLzY",
     "Agoda": "https://bitli.in/vPiu9nT",
@@ -79,7 +80,7 @@
       "Ooty": "https://clnk.in/Elc8",
       "Udaipur": "https://clnk.in/Elc9",
       "Jaipur": "https://clnk.in/Elda",
-      "Bhutan": "https://clnk.in/Eqid", "Singapore": "https://clnk.in/Eql8"
+      "Bhutan": "https://clnk.in/Eqid", "Singapore": "https://clnk.in/Eql8", "Thailand": "https://clnk.in/EqvO", "Dubai": "https://clnk.in/EqvP", "Bali": "https://clnk.in/EqvR", "Vietnam": "https://clnk.in/EqvS", "Maldives": "https://clnk.in/EqvU", "Sri Lanka": "https://clnk.in/EqvV", "Malaysia": "https://clnk.in/EqvW"
     }
   },
   "telegram_channel": "@carrypick",
