@@ -1,6 +1,6 @@
 {
  "updated": "2026-11-21",
- "about": "Weather numbers are copied from our own trip guides and packing lists, with each guide's source and checked date. Never add a month we have no numbers for.",
+ "about": "Weather numbers come from official climate normals (IMD, DHM, the UAE's National Center of Meteorology), each with its source and checked date: a place's own 'source', or a month's 'src', a key in 'sources'. Never add a month we have no numbers for. Items can carry 'for' wording and 'picks_for' picks for women and men; the page shows the everyone wording without JS.",
  "months": [
   [
    "jan",
@@ -150,11 +150,23 @@
     "B01MQJJCD1",
     "B0BH4XLXPX"
    ],
-   "short": "thermals"
+   "short": "thermals",
+   "picks_for": {
+    "women": [
+     "B0BH4XLXPX"
+    ],
+    "men": [
+     "B01MQJJCD1"
+    ]
+   }
   },
   "sweater": {
    "label": "A sweater or fleece",
-   "short": "a sweater or fleece"
+   "short": "a sweater or fleece",
+   "for": {
+    "women": "A sweater, cardigan or fleece, and a warm shawl",
+    "men": "A sweater, sweatshirt or fleece"
+   }
   },
   "heavy-jacket": {
    "label": "A padded or puffer jacket, ideally with a hood",
@@ -162,7 +174,15 @@
     "B0CGHZF9Z1",
     "B07V4DCFH8"
    ],
-   "short": "a puffer jacket"
+   "short": "a puffer jacket",
+   "picks_for": {
+    "women": [
+     "B07V4DCFH8"
+    ],
+    "men": [
+     "B0CGHZF9Z1"
+    ]
+   }
   },
   "warm-jacket": {
    "label": "A warm jacket for mornings and evenings",
@@ -170,7 +190,15 @@
     "B0CGHZF9Z1",
     "B07V4DCFH8"
    ],
-   "short": "a warm jacket"
+   "short": "a warm jacket",
+   "picks_for": {
+    "women": [
+     "B07V4DCFH8"
+    ],
+    "men": [
+     "B0CGHZF9Z1"
+    ]
+   }
   },
   "cap-gloves": {
    "label": "A woollen cap, gloves and a neck warmer",
@@ -185,23 +213,43 @@
   },
   "full-sleeve": {
    "label": "Full-sleeve tops, and jeans or trousers",
-   "short": "full sleeves"
+   "short": "full sleeves",
+   "for": {
+    "women": "Full-sleeve kurtas or tops, with leggings, jeans or warm trousers",
+    "men": "Full-sleeve shirts or T-shirts, and jeans or chinos"
+   }
   },
   "tshirts": {
    "label": "T-shirts or shirts, and comfortable trousers",
-   "short": "T-shirts"
+   "short": "T-shirts",
+   "for": {
+    "women": "Tops, kurtis or T-shirts, with jeans, palazzos or leggings",
+    "men": "T-shirts or shirts, with jeans or chinos"
+   }
   },
   "light-layer": {
    "label": "A light jacket, sweater or shawl",
-   "short": "a light jacket or shawl"
+   "short": "a light jacket or shawl",
+   "for": {
+    "women": "A shawl or stole, or a light cardigan",
+    "men": "A light jacket, sweatshirt or overshirt"
+   }
   },
   "light-cotton": {
    "label": "Light cotton or linen clothes: T-shirts, shirts, shorts, dresses",
-   "short": "light cotton"
+   "short": "light cotton",
+   "for": {
+    "women": "Light cotton: kurtas, loose tops, palazzos, cotton dresses and a stole for shade and temples",
+    "men": "Light cotton or linen: shirts, T-shirts, chinos and shorts"
+   }
   },
   "light-evening": {
    "label": "Light clothes; a thin layer for air-conditioned rooms",
-   "short": "light clothes"
+   "short": "light clothes",
+   "for": {
+    "women": "A light kurta or dress, and a stole for air-conditioned rooms",
+    "men": "A cotton shirt and light trousers, and a thin layer for air-conditioned rooms"
+   }
   },
   "sun-hat": {
    "label": "A cap or sun hat",
@@ -212,7 +260,13 @@
    "picks": [
     "B0BJ7L6V4H"
    ],
-   "short": "warm boots"
+   "short": "warm boots",
+   "picks_for": {
+    "women": [],
+    "men": [
+     "B0BJ7L6V4H"
+    ]
+   }
   },
   "waterproof-shoes": {
    "label": "Waterproof shoes with a good grip, for snow and slush",
@@ -220,7 +274,15 @@
     "B0CLWBZQKL",
     "B0DK2RRQD2"
    ],
-   "short": "waterproof shoes"
+   "short": "waterproof shoes",
+   "picks_for": {
+    "women": [
+     "B0DK2RRQD2"
+    ],
+    "men": [
+     "B0CLWBZQKL"
+    ]
+   }
   },
   "walking-shoes": {
    "label": "Comfortable walking shoes",
@@ -228,7 +290,15 @@
     "B09RPDCKZC",
     "B07VY4YY61"
    ],
-   "short": "walking shoes"
+   "short": "walking shoes",
+   "picks_for": {
+    "women": [
+     "B07VY4YY61"
+    ],
+    "men": [
+     "B09RPDCKZC"
+    ]
+   }
   },
   "sandals": {
    "label": "Sandals or flip-flops",
@@ -236,7 +306,15 @@
     "B075G5HC8P",
     "B0BRL1WYPH"
    ],
-   "short": "sandals"
+   "short": "sandals",
+   "picks_for": {
+    "women": [
+     "B0BRL1WYPH"
+    ],
+    "men": [
+     "B075G5HC8P"
+    ]
+   }
   },
   "sunglasses": {
    "label": "Sunglasses with UV protection",
@@ -245,7 +323,17 @@
     "B074PYMMCQ",
     "B07FM7TPPY"
    ],
-   "short": "sunglasses"
+   "short": "sunglasses",
+   "picks_for": {
+    "women": [
+     "B074PYMMCQ",
+     "B08VGMBLQW"
+    ],
+    "men": [
+     "B07FM7TPPY",
+     "B08VGMBLQW"
+    ]
+   }
   },
   "sunscreen": {
    "label": "Sunscreen, SPF 30 or more",
@@ -292,11 +380,31 @@
      "months": {
       "dec": {
        "day": 17,
-       "night": -3
+       "night": -3,
+       "range": true
       },
       "jan": {
        "day": 16,
-       "night": -6
+       "night": -6,
+       "range": true
+      },
+      "oct": {
+       "day": 21.6,
+       "night": 6.3,
+       "rain_mm": 24.8,
+       "src": "imd-manali"
+      },
+      "nov": {
+       "day": 17.3,
+       "night": 2.6,
+       "rain_mm": 31.3,
+       "src": "imd-manali"
+      },
+      "mar": {
+       "day": 17.1,
+       "night": 3.3,
+       "rain_mm": 154.9,
+       "src": "imd-manali"
       }
      }
     }
@@ -310,7 +418,9 @@
     "label": "Incredible India's ranges, as given in our Manali guide",
     "checked": "2026-11-03"
    },
-   "range": true
+   "snow_note": {
+    "mar": "Snowfall is mostly from December to early March, so early March can still bring snow"
+   }
   },
   {
    "slug": "shimla",
@@ -336,6 +446,24 @@
        "day": 10,
        "night": 2,
        "rain_mm": 64
+      },
+      "oct": {
+       "day": 18.9,
+       "night": 10.5,
+       "rain_mm": 30.3,
+       "src": "imd-shimla"
+      },
+      "nov": {
+       "day": 15.4,
+       "night": 7.0,
+       "rain_mm": 13.6,
+       "src": "imd-shimla"
+      },
+      "mar": {
+       "day": 14.5,
+       "night": 6.1,
+       "rain_mm": 78.6,
+       "src": "imd-shimla"
       }
      }
     }
@@ -350,6 +478,9 @@
     "label": "IMD Shimla averages (1971–2000)",
     "checked": "2026-11-16",
     "url": "https://mausam.imd.gov.in/shimla/mcdata/shimla_dec.pdf"
+   },
+   "snow_note": {
+    "mar": "Sometimes: IMD counts about 1 to 2 snow days in an average March (1990–2010)"
    }
   },
   {
@@ -366,6 +497,24 @@
        "day": 10,
        "night": -1,
        "rain_mm": 46
+      },
+      "oct": {
+       "day": 23.0,
+       "night": 6.2,
+       "rain_mm": 21.8,
+       "src": "imd-kashmir"
+      },
+      "nov": {
+       "day": 15.9,
+       "night": 1.2,
+       "rain_mm": 27.7,
+       "src": "imd-kashmir"
+      },
+      "mar": {
+       "day": 15.5,
+       "night": 4.3,
+       "rain_mm": 104.6,
+       "src": "imd-kashmir"
       }
      }
     },
@@ -376,6 +525,24 @@
        "day": 4,
        "night": -5,
        "rain_mm": 104
+      },
+      "oct": {
+       "day": 14.2,
+       "night": 3.8,
+       "rain_mm": 47.7,
+       "src": "imd-kashmir"
+      },
+      "nov": {
+       "day": 9.0,
+       "night": -0.6,
+       "rain_mm": 57.2,
+       "src": "imd-kashmir"
+      },
+      "mar": {
+       "day": 5.4,
+       "night": -2.7,
+       "rain_mm": 215.6,
+       "src": "imd-kashmir"
       }
      }
     }
@@ -388,6 +555,11 @@
     "label": "IMD averages for Srinagar and Gulmarg (1981–2010)",
     "checked": "2026-11-15",
     "url": "https://city.imd.gov.in/citywx/extreme/DEC/srinagar2.htm"
+   },
+   "notes": {
+    "oct": "Gulmarg is much colder than Srinagar, so pack your warmest layers for a day trip there.",
+    "nov": "Gulmarg nights fall below freezing from November, and Srinagar nights come close to it. Gulmarg is much colder than Srinagar, so pack your warmest layers for a day trip there.",
+    "mar": "Gulmarg nights are still below freezing in March. Gulmarg is much colder than Srinagar, so pack your warmest layers for a day trip there."
    }
   },
   {
@@ -414,6 +586,21 @@
        "day": 12,
        "night": 3,
        "rain_mm": 11
+      },
+      "oct": {
+       "day": 19.4,
+       "night": 9.9,
+       "rain_mm": 78.8
+      },
+      "nov": {
+       "day": 17.2,
+       "night": 6.2,
+       "rain_mm": 11.2
+      },
+      "mar": {
+       "day": 15.9,
+       "night": 6.0,
+       "rain_mm": 26.4
       }
      }
     }
@@ -421,7 +608,7 @@
    "note": "Tiger Hill at dawn is colder than the town, so wear your warmest layers for the sunrise.",
    "source": {
     "label": "IMD averages (1991–2020), as tabled on Wikipedia",
-    "checked": "2026-11-16",
+    "checked": "2026-11-21",
     "url": "https://en.wikipedia.org/wiki/Darjeeling"
    },
    "snow_note": {
@@ -454,6 +641,21 @@
        "day": 22,
        "night": 7,
        "rain_mm": 5
+      },
+      "oct": {
+       "day": 19.0,
+       "night": 10.6,
+       "rain_mm": 189.2
+      },
+      "nov": {
+       "day": 19.1,
+       "night": 9.6,
+       "rain_mm": 144.5
+      },
+      "mar": {
+       "day": 23.3,
+       "night": 9.5,
+       "rain_mm": 22.4
       }
      }
     }
@@ -461,13 +663,17 @@
    "note": "Days are mild, but mornings and nights can fall to near 0 °C.",
    "source": {
     "label": "IMD averages (1991–2020), as tabled on Wikipedia",
-    "checked": "2026-11-18",
+    "checked": "2026-11-21",
     "url": "https://en.wikipedia.org/wiki/Ooty"
    },
    "snow_note": {
     "dec": "No snow, but you may see ground frost on cold mornings",
     "jan": "No snow, but you may see ground frost on cold mornings",
     "feb": "No snow"
+   },
+   "notes": {
+    "oct": "October is Ooty's wettest month and November is wet too, so pack rain gear. Mornings and nights are cool.",
+    "nov": "October is Ooty's wettest month and November is wet too, so pack rain gear. Mornings and nights are cool."
    }
   },
   {
@@ -494,6 +700,24 @@
        "day": 23,
        "night": 9,
        "rain_mm": 58
+      },
+      "oct": {
+       "day": 29.0,
+       "night": 16.3,
+       "rain_mm": 38.3,
+       "src": "imd-dehradun"
+      },
+      "nov": {
+       "day": 25.5,
+       "night": 11.4,
+       "rain_mm": 5.2,
+       "src": "imd-dehradun"
+      },
+      "mar": {
+       "day": 27.4,
+       "night": 13.1,
+       "rain_mm": 45.8,
+       "src": "imd-dehradun"
       }
      }
     }
@@ -507,7 +731,10 @@
    "snow_note": {
     "dec": "None in Rishikesh",
     "jan": "None in Rishikesh",
-    "feb": "None in Rishikesh"
+    "feb": "None in Rishikesh",
+    "oct": "None in Rishikesh",
+    "nov": "None in Rishikesh",
+    "mar": "None in Rishikesh"
    }
   },
   {
@@ -633,6 +860,30 @@
        "day": 32.4,
        "night": 20.2,
        "rain_mm": 1
+      },
+      "oct": {
+       "day": 32.0,
+       "night": 24.0,
+       "rain_mm": 156.4,
+       "src": "imd-goa"
+      },
+      "nov": {
+       "day": 33.5,
+       "night": 22.7,
+       "rain_mm": 21.3,
+       "src": "imd-goa"
+      },
+      "feb": {
+       "day": 32.4,
+       "night": 20.6,
+       "rain_mm": 0.1,
+       "src": "imd-goa"
+      },
+      "mar": {
+       "day": 32.6,
+       "night": 23.3,
+       "rain_mm": 0.0,
+       "src": "imd-goa"
       }
      }
     }
@@ -642,6 +893,9 @@
     "label": "IMD averages for Goa",
     "checked": "2026-11-03",
     "url": "https://city.imd.gov.in/citywx/extreme/DEC/goa2.htm"
+   },
+   "notes": {
+    "oct": "October still gets heavy showers, about 156 mm in the month, so pack for rain as well as sun. Wear swimwear at the beach and pool only, with a shirt or kaftan over it in town."
    }
   },
   {
@@ -878,6 +1132,16 @@
        "day": 41,
        "night": 29,
        "rain_text": "Almost none"
+      },
+      "oct": {
+       "day": 35.1,
+       "night": 22.7,
+       "rain_mm": 0.0
+      },
+      "apr": {
+       "day": 32.4,
+       "night": 20.1,
+       "rain_mm": 7.6
       }
      }
     }
@@ -885,7 +1149,7 @@
    "note": "Cover your shoulders and midriff in public places, and keep swimwear for the beach and pool. Take a warmer jacket for evening desert trips in winter.",
    "source": {
     "label": "UAE National Center of Meteorology averages on the WMO's World Weather Information Service",
-    "checked": "2026-11-16",
+    "checked": "2026-11-21",
     "url": "https://worldweather.wmo.int/en/city.html?cityId=1190"
    }
   },
@@ -1169,6 +1433,16 @@
       "jan": {
        "day": 19,
        "night": 3
+      },
+      "oct": {
+       "day": 27.2,
+       "night": 13.9,
+       "rain_mm": 43.3
+      },
+      "mar": {
+       "day": 26.0,
+       "night": 8.8,
+       "rain_mm": 38.0
       }
      }
     },
@@ -1186,6 +1460,16 @@
       "jan": {
        "day": 20,
        "night": 7
+      },
+      "oct": {
+       "day": 27.9,
+       "night": 17.2,
+       "rain_mm": 159.2
+      },
+      "mar": {
+       "day": 27.1,
+       "night": 13.1,
+       "rain_mm": 63.7
       }
      }
     }
@@ -1193,9 +1477,61 @@
    "note": "Cover your shoulders and knees at temples, and wear shoes that slip off easily. Hill viewpoints like Nagarkot and Sarangkot are colder at sunrise.",
    "source": {
     "label": "Nepal Department of Hydrology and Meteorology averages (1991–2020), as tabled on Wikipedia",
-    "checked": "2026-11-19",
+    "checked": "2026-11-21",
     "url": "https://en.wikipedia.org/wiki/Kathmandu"
    }
   }
- ]
+ ],
+ "sources": {
+  "imd-manali": {
+   "label": "IMD climate normals for Manali (1991–2020), as tabled on Wikipedia",
+   "checked": "2026-11-21",
+   "url": "https://en.wikipedia.org/wiki/Manali,_Himachal_Pradesh"
+  },
+  "imd-shimla": {
+   "label": "IMD climate normals for Shimla (1991–2020), as tabled on Wikipedia",
+   "checked": "2026-11-21",
+   "url": "https://en.wikipedia.org/wiki/Shimla"
+  },
+  "imd-darjeeling": {
+   "label": "IMD climate normals for Darjeeling (1991–2020), as tabled on Wikipedia",
+   "checked": "2026-11-21",
+   "url": "https://en.wikipedia.org/wiki/Darjeeling"
+  },
+  "imd-ooty": {
+   "label": "IMD climate normals for Ooty (1991–2020), as tabled on Wikipedia",
+   "checked": "2026-11-21",
+   "url": "https://en.wikipedia.org/wiki/Ooty"
+  },
+  "imd-srinagar": {
+   "label": "IMD climate normals for Srinagar (1991–2020), as tabled on Wikipedia",
+   "checked": "2026-11-21",
+   "url": "https://en.wikipedia.org/wiki/Srinagar"
+  },
+  "imd-gulmarg": {
+   "label": "IMD climate normals for Gulmarg (1991–2020), as tabled on Wikipedia",
+   "checked": "2026-11-21",
+   "url": "https://en.wikipedia.org/wiki/Gulmarg"
+  },
+  "imd-dehradun": {
+   "label": "IMD climate normals for Dehradun (1991–2020), as tabled on Wikipedia",
+   "checked": "2026-11-21",
+   "url": "https://en.wikipedia.org/wiki/Dehradun"
+  },
+  "imd-goa": {
+   "label": "IMD climate normals for Panaji (1991–2020), as tabled on Wikipedia",
+   "checked": "2026-11-21",
+   "url": "https://en.wikipedia.org/wiki/Panaji"
+  },
+  "imd-kashmir": {
+   "label": "IMD climate normals for Srinagar and Gulmarg (1991–2020), as tabled on Wikipedia",
+   "checked": "2026-11-21",
+   "url": "https://en.wikipedia.org/wiki/Srinagar"
+  },
+  "dhm-nepal": {
+   "label": "Nepal Department of Hydrology and Meteorology averages (1991–2020), as tabled on Wikipedia",
+   "checked": "2026-11-21",
+   "url": "https://en.wikipedia.org/wiki/Kathmandu"
+  }
+ }
 }

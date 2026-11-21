@@ -1,10 +1,13 @@
 """What-to-wear helper (tools/what-to-wear.html, static/what-to-wear.js).
 
-data/what_to_wear.json holds the weather numbers copied from our own trip guides and packing lists (with each guide's
-source and checked date) and the outfit rules: temperature bands, a rain threshold and snow extras, written once.
+data/what_to_wear.json holds the weather numbers (official climate normals, each with its source and checked date: the
+place's "source", or a month's "src" key into "sources") and the outfit rules: temperature bands, a rain threshold and snow extras, written once.
 This module works out every place + month outfit at build time, so the JS only picks which ready-made result to show.
 Months we have no numbers for are never shown or guessed.
 Without JavaScript the page shows a table of every place and month and the outfit for it.
+"For: everyone / women / men": items may carry "for" wording and "picks_for" picks; every result holds all three
+wordings (the women and men ones hidden) and three pick lists, so the JS only swaps which is shown.
+The Hindi twin (hi/what-to-wear.html) is built here too, from the same results and data/hindi_what_to_wear.json.
 build.py calls register(B) where it lists TOOLS, and build(B, ...) after the guides, so guide links can be checked.
 """
 import json
@@ -19,6 +22,7 @@ FILE = ROOT / "data" / "what_to_wear.json"
 PATH = "tools/what-to-wear.html"
 MAKER = "tools/packing-list-maker.html"
 SHOW = 6  # pick cards in a result
+WHO = ("all", "women", "men")
 
 
 def register(B):
@@ -51,9 +55,9 @@ def band(data, t):
 
 
 def month_order(data):
-    """Months from November, the start of our season, round to October."""
+    """Months from October, the start of our season, round to September."""
     keys = [k for k, _ in data["months"]]
-    start = keys.index("nov")
+    start = keys.index("oct")
     return keys[start:] + keys[:start]
 
 
@@ -62,12 +66,32 @@ def place_months(data, p):
     return [k for k in month_order(data) if k in have]
 
 
+def is_range(rows):
+    return any(r.get("range") for _, r in rows)
+
+
+def sources(data, p, mon):
+    """The sources of one place and month: each spot's month 'src' key, else the place's own source."""
+    out = []
+    for s in p["spots"]:
+        r = s["months"].get(mon)
+        if r is not None:
+            src = data["sources"][r["src"]] if r.get("src") else p["source"]
+            if src not in out:
+                out.append(src)
+    return out
+
+
+def item_picks(item, who):
+    return item.get("picks_for", {}).get(who, item.get("picks", [])) if who != "all" else item.get("picks", [])
+
+
 def outfit(data, p, mon):
-    """Same result the page shows: bands, items in groups, flags and picks for one place and month."""
+    """Same result the page shows: bands, items in groups, flags and picks (for everyone, women and men) for one place and month."""
     rows = [(s["name"], s["months"][mon]) for s in p["spots"] if mon in s["months"]]
     cold = min(lo(r["night"]) for _, r in rows)
     warm = max(hi(r["day"]) for _, r in rows)
-    if p.get("range"):  # the guide gives "about -3 to 17 °C": dress the day for the middle, not the warmest hour
+    if is_range(rows):  # the guide gives "about -3 to 17 °C": dress the day for the middle, not the warmest hour
         warm = (warm + cold) / 2
     rain = max((r.get("rain_mm") or 0) for _, r in rows)
     db, nb = band(data, warm), band(data, cold)
@@ -86,14 +110,19 @@ def outfit(data, p, mon):
         items = [i for i in items if not (i in seen or seen.add(i))]
         if items:
             clean.append((head, items))
-    picks, every = [], [i for _, items in clean for i in items]
-    for n in range(3):  # first pick of every item, then the second ones, so a poncho isn't crowded out by jackets
-        for i in every:
-            row = data["items"][i].get("picks", [])
-            if n < len(row) and row[n] not in picks:
-                picks.append(row[n])
-    return {"rows": rows, "warm": warm, "cold": cold, "rain": rain, "day_band": db, "night_band": nb,
-            "snow": snow, "snow_note": p.get("snow_note", {}).get(mon, ""), "groups": clean, "picks": picks[:SHOW]}
+    every = [i for _, items in clean for i in items]
+    picks_for = {}
+    for who in WHO:
+        picks = []
+        for n in range(3):  # first pick of every item, then the second ones, so a poncho isn't crowded out by jackets
+            for i in every:
+                row = item_picks(data["items"][i], who)
+                if n < len(row) and row[n] not in picks:
+                    picks.append(row[n])
+        picks_for[who] = picks[:SHOW]
+    return {"rows": rows, "warm": warm, "cold": cold, "rain": rain, "day_band": db, "night_band": nb, "range": is_range(rows),
+            "snow": snow, "snow_note": p.get("snow_note", {}).get(mon, ""), "groups": clean, "picks": picks_for["all"],
+            "picks_for": picks_for, "sources": sources(data, p, mon)}
 
 
 def summary(data, o):
@@ -117,9 +146,15 @@ def check(B, data, deals_by_asin):
         if i not in items:
             sys.exit("Error: what to wear rain/snow uses unknown item %s" % i)
     for k, it in items.items():
-        for a in it.get("picks", []):
+        for a in it.get("picks", []) + [a for who in it.get("picks_for", {}).values() for a in who]:
             if a not in deals_by_asin:
                 sys.exit("Error: what to wear item %s uses %s, which is not in data/deals.json" % (k, a))
+        for who in list(it.get("for", {})) + list(it.get("picks_for", {})):
+            if who not in WHO[1:]:
+                sys.exit("Error: what to wear item %s has wording or picks for %r (use women or men)" % (k, who))
+    for key, src in data.get("sources", {}).items():
+        if not src.get("checked") or not src.get("label"):
+            sys.exit("Error: what to wear source %s needs a label and a checked date" % key)
     slugs = set()
     for p in data["places"]:
         if p["slug"] in slugs:
@@ -133,7 +168,9 @@ def check(B, data, deals_by_asin):
                     sys.exit("Error: what to wear %s has unknown month %s" % (p["slug"], mon))
                 if "day" not in r or "night" not in r:
                     sys.exit("Error: what to wear %s %s %s needs a day and a night number" % (p["slug"], s["name"], mon))
-        for key in ("snow", "snow_note"):
+                if r.get("src") and r["src"] not in data.get("sources", {}):
+                    sys.exit("Error: what to wear %s %s %s uses unknown source %s" % (p["slug"], s["name"], mon, r["src"]))
+        for key in ("snow", "snow_note", "notes"):
             for mon in p.get(key, {}):
                 if mon not in place_months(data, p):
                     sys.exit("Error: what to wear %s has a %s for %s but no numbers for that month" % (p["slug"], key, mon))
@@ -171,11 +208,23 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
             out.append((MAKER, "Make your own packing list"))
         return out
 
+    def src_line(o, checked="checked on"):
+        return "; ".join((f'<a href="{e(s["url"])}" target="_blank" rel="noopener">{e(s["label"])}</a>' if s.get("url") else e(s["label"]))
+                         + ", %s %s" % (checked, B.fmt_date(s["checked"])) for s in o["sources"])
+
+    def li(i):
+        """One outfit line: the everyone wording, plus hidden women and men wordings where the item has them."""
+        it = items[i]
+        if not it.get("for"):
+            return f"<li>{e(it['label'])}</li>"
+        alt = "".join(f'<span data-for="{w}" hidden>{e(it["for"].get(w, it["label"]))}</span>' for w in WHO[1:])
+        return f'<li><span data-for="all">{e(it["label"])}</span>{alt}</li>'
+
     def weather_lines(p, o):
         lines = []
         for name, r in o["rows"]:
             rain = ("rain about %s mm" % B.num(r["rain_mm"])) if r.get("rain_mm") is not None else (r.get("rain_text", "").lower() and "rain: " + r["rain_text"].lower())
-            if p.get("range"):
+            if r.get("range"):
                 t = "about %s at night to %s by day" % (temp(r["night"]), temp(r["day"]))
             else:
                 t = "days about %s, nights about %s" % (temp(r["day"]), temp(r["night"]))
@@ -190,8 +239,6 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
         months_of[p["slug"]] = ms
         link_html = " &middot; ".join(f'<a href="../{e(h)}">{e(t)}</a>' for h, t in links(p))
         have = ", ".join(mname[m] for m in ms)
-        src = p["source"]
-        src_html = (f'<a href="{e(src["url"])}" target="_blank" rel="noopener">{e(src["label"])}</a>' if src.get("url") else e(src["label"]))
         for i, mon in enumerate(ms):
             o = outfit(data, p, mon)
             cases[(p["slug"], mon)] = o
@@ -202,8 +249,11 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
             elif o["snow_note"]:
                 flags.append("<li><strong>Snow:</strong> %s.</li>" % e(o["snow_note"]))
             if o["rain"] >= data["rain"]["min_mm"] and not o["snow"]:
-                flags.append("<li><strong>Rain:</strong> up to about %s mm in the month, so pack for showers.</li>" % B.num(o["rain"]))
-            groups = "".join(f'<h4>{e(h)}</h4><ul class="ww-list">' + "".join(f"<li>{e(items[i]['label'])}</li>" for i in its) + "</ul>"
+                if o["cold"] < 0:  # below freezing much of it falls as snow: the normals count both as water
+                    flags.append("<li><strong>Rain or snow:</strong> up to about %s mm in the month (snow counted as water), so pack for wet and cold days.</li>" % B.num(round(o["rain"])))
+                else:
+                    flags.append("<li><strong>Rain:</strong> up to about %s mm in the month, so pack for showers.</li>" % B.num(round(o["rain"])))
+            groups = "".join(f'<h4>{e(h)}</h4><ul class="ww-list">' + "".join(li(i) for i in its) + "</ul>"
                              for h, its in o["groups"])
             def lc(b):
                 return e(b["label"][0].lower() + b["label"][1:])
@@ -211,14 +261,14 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
                      f'{lc(o["day_band"])} by day and {lc(o["night_band"])} at night')
             if len(o["rows"]) > 1:
                 bands += " (coldest nights: %s)" % e(min(o["rows"], key=lambda nr: lo(nr[1]["night"]))[0])
-            results.append(f"""<div class="ww-case" data-case="{key}" data-picks="{" ".join(o["picks"])}">
+            results.append(f"""<div class="ww-case" data-case="{key}" data-picks="{" ".join(o["picks"])}" data-picks-women="{" ".join(o["picks_for"]["women"])}" data-picks-men="{" ".join(o["picks_for"]["men"])}">
 <h2 class="ww-title" tabindex="-1">What to wear in {e(p["name"])} in {e(mname[mon])}</h2>
 <ul class="ww-weather">{weather_lines(p, o)}{"".join(flags)}</ul>
 <p class="muted small">Dress for: {bands}.</p>
 <div class="ww-groups">{groups}</div>
-<p class="pm-notes">{e(p["note"])}</p>
+<p class="pm-notes">{e(p.get("notes", {}).get(mon, p["note"]))}</p>
 <p class="small"><strong>Plan the trip:</strong> {link_html}</p>
-<p class="checked">Numbers: {src_html}. Checked on {B.fmt_date(src["checked"])}. These are {"usual ranges" if p.get("range") else "long-term averages"}, so check the forecast a few days before you go.</p>
+<p class="checked">Numbers: {src_line(o)}. These are {"usual ranges" if o["range"] else "long-term averages"}, so check the forecast a few days before you go.</p>
 </div>""")
             weather = "<br>".join(f'{e(n) + ": " if len(o["rows"]) > 1 else ""}{temp(r["day"])} / {temp(r["night"])}' for n, r in o["rows"])
             texts = [r.get("rain_text", "") for _, r in o["rows"] if r.get("rain_text")]
@@ -237,7 +287,8 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
     blob = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     pool_asins = []
     for o in cases.values():
-        pool_asins.extend(a for a in o["picks"] if a not in pool_asins)
+        for who in WHO:
+            pool_asins.extend(a for a in o["picks_for"][who] if a not in pool_asins)
     pool = "".join(B.card(cfg, deals_by_asin[a], "../").replace('<article class="card"', '<article class="card" data-asin="%s"' % a, 1)
                    for a in pool_asins)
 
@@ -247,36 +298,43 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
     all_months = sorted({m for ms in months_of.values() for m in ms}, key=month_order(data).index)
     n_places = len(data["places"])
 
-    def say(slug, mon):
+    def say(slug, mon, who="all"):
         """A plain FAQ answer for a place and month, from the same outfit rules."""
         p = next(x for x in data["places"] if x["slug"] == slug)
         o = cases[(slug, mon)]
         if len(o["rows"]) == 1:
             r = o["rows"][0][1]
-            w = ("about %s at night to %s by day" if p.get("range") else "days about %s and nights about %s")
-            w = w % ((temp(r["night"]), temp(r["day"])) if p.get("range") else (temp(r["day"]), temp(r["night"])))
+            w = ("about %s at night to %s by day" if r.get("range") else "days about %s and nights about %s")
+            w = w % ((temp(r["night"]), temp(r["day"])) if r.get("range") else (temp(r["day"]), temp(r["night"])))
         else:
             w = "; ".join("%s days about %s, nights about %s" % (n, temp(r["day"]), temp(r["night"])) for n, r in o["rows"][:2])
-        wear = "; ".join("%s: %s" % (h.lower(), ", ".join(items[i]["short"] for i in its)) for h, its in o["groups"])
+        def word(i):
+            w = items[i].get("for", {}).get(who) if who != "all" else None
+            return (w[0].lower() + w[1:]) if w else items[i]["short"]
+        wear = "; ".join("%s: %s" % (h.lower(), ", ".join(word(i) for i in its)) for h, its in o["groups"])
         return "%s in %s has %s. Wear %s." % (p["name"], mname[mon], w, wear)
 
     faq = [
         ("What to wear in Manali in December?", say("manali", "dec") + " Snow is possible but not certain, so take waterproof shoes."),
         ("What to wear in Kashmir in December?", say("kashmir", "dec") + " Gulmarg often gets snow, and Chillai Kalan starts on 21 December."),
-        ("What to wear in Dubai in December for ladies?", say("dubai", "dec") + " Cover your shoulders and midriff in public places, and keep swimwear for the beach and pool."),
-        ("What to wear in Goa?", say("goa", "dec") + " Put a shirt or kaftan over swimwear when you go into town."),
+        ("What to wear in Manali in October?", say("manali", "oct") + " October is dry and sunny, but nights are cold, so pack a warm jacket."),
+        ("What to wear in Kashmir in October?", say("kashmir", "oct") + " Gulmarg is far colder than Srinagar, so take your warmest layers for a day trip there."),
+        ("What to wear in Dubai in December for ladies?", say("dubai", "dec", "women") + " Cover your shoulders and midriff in public places, and keep swimwear for the beach and pool."),
+        ("What to wear in Goa for men?", say("goa", "dec", "men") + " Put a shirt or kaftan over swimwear when you go into town."),
         ("What to wear in Shimla in December?", say("shimla", "dec") + " Snow is more likely in January and February."),
         ("What to wear in Thailand?", say("thailand", "dec") + " Cover your shoulders for temples and the Grand Palace."),
         ("What to wear in Varanasi in winter?", say("varanasi", "jan") + " Early mornings on the ghats are the coldest part of the day."),
         ("Why can I only pick some months?",
-         "We only show months our own guides have checked numbers for, mostly November to February. We never guess the weather for other months. More months are coming."),
+         "We only show months we have official climate numbers for (IMD for India, DHM for Nepal, the UAE's met office for Dubai), mostly October to March. We never guess the weather for other months. More months are coming."),
+        ("Is there a version for women or men?",
+         "Yes. Pick Women or Men under For and the outfit list changes: for example kurtas, palazzos and a stole for women, and shirts and chinos for men, and the picks show women's or men's jackets, thermals and shoes."),
     ]
     faq_html, faq_schema = B.faq_block(faq)
 
     title = "What to wear in Manali, Kashmir, Goa, Dubai and more, by month"
-    seo = "What to wear in Manali, Kashmir, Goa, Dubai in December: by month"
-    desc = ("Free what-to-wear helper: pick a place and month, like Manali, Shimla or Kashmir in December, Goa, Kerala, Dubai, "
-            "Thailand, Bali or Nepal, and see the day and night temperatures and a simple outfit list: layers, shoes and extras.")
+    seo = "What to wear in Manali, Kashmir, Goa, Dubai: October to March"
+    desc = ("Free what-to-wear helper: pick a place and month, like Manali or Kashmir in October or December, Goa, Dubai or Nepal, "
+            "for women or men, and see day and night temperatures and a simple outfit list.")
     inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span>What to wear</nav>
       <h1>{e(title)}</h1>
       <p class="muted small">A free tool for {n_places} places. Updated {B.fmt_date(updated)}</p>"""
@@ -286,7 +344,8 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
 <p class="pm-nojs" id="ww-nojs">Turn on JavaScript for the quick picker, or find your place in the table below.</p>
 <form class="checker ww" id="ww" onsubmit="return false" hidden>
 <div class="checker-fields"><label>Where are you going?<select id="ww-place">{place_opts}</select></label>
-<label>Month<select id="ww-month"></select></label></div>
+<label>Month<select id="ww-month"></select></label>
+<label>For<select id="ww-for"><option value="all">Everyone</option><option value="women">Women</option><option value="men">Men</option></select></label></div>
 <p class="hint" id="ww-more" aria-live="polite"></p>
 </form>
 <section id="ww-result" hidden>
@@ -304,11 +363,11 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
 <li>Going where it snows or rains? Add waterproof shoes, or a poncho and a phone pouch.</li>
 </ul></div>
 <h2 id="table">What to wear in each place, by month</h2>
-<p>Day and night are long-term averages from each place's weather service, as given in our trip guides and packing lists. We show only the months we have checked numbers for ({", ".join(mname[m] for m in all_months)}). More months coming.</p>
+<p>Day and night are long-term averages from each place's weather service (IMD for India, DHM for Nepal, the national met offices abroad); each result names its source. The table shows the outfit for everyone; pick Women or Men above for kurtas, stoles, chinos and matching picks. We show only the months we have checked numbers for ({", ".join(mname[m] for m in all_months)}). More months coming.</p>
 <div class="table-wrap"><table class="compare snug ww-table"><thead><tr><th>Place</th><th>Month</th><th>Day / night</th><th>Rain or snow</th><th>What to wear</th></tr></thead>
 <tbody>{"".join(table_rows)}</tbody></table></div>
 <h2 id="rules">How we pick the clothes</h2>
-<p>Day clothes follow the warmest day in the month, and evening clothes the coldest night. Where a guide gives only a range, as for Manali, day clothes follow the middle of it. Rain of {data["rain"]["min_mm"]} mm or more in a month adds a poncho, a phone pouch and quick-dry clothes, and a chance of snow adds waterproof shoes, gloves and sunglasses.</p>
+<p>Day clothes follow the warmest day in the month, and evening clothes the coldest night. Where a guide gives only a range, as for Manali in December and January, day clothes follow the middle of it. Below 0 °C at night, a wet month's rain may fall as snow. Rain of {data["rain"]["min_mm"]} mm or more in a month adds a poncho, a phone pouch and quick-dry clothes, and a chance of snow adds waterproof shoes, gloves and sunglasses.</p>
 <div class="table-wrap"><table class="compare snug"><thead><tr><th>Temperature</th><th>By day</th><th>At night</th><th>Shoes and extras</th></tr></thead>
 <tbody>{band_rows}</tbody></table></div>
 <p>Packing too? Make a list for your days, month and family with the <a href="packing-list-maker.html">packing list maker</a>, or read <a href="../guides/winter-clothes-for-hill-trips.html">what to wear on a winter hill trip</a>.</p>
