@@ -1,7 +1,7 @@
 ---
 seo_title: Where to go in India in December and January 2026–27: beach, snow or heritage?
 title: Where to go in India in December and January
-description: Beach, snow, forts or backwaters? Compare Goa, Andaman, Manali, Shimla, Rishikesh, Darjeeling, Bhutan, Nepal, Singapore, Sri Lanka, Thailand, Vietnam, Ooty, Varanasi, Jaipur, Udaipur and Kerala for a Christmas or New Year trip: weather, how to get there, crowds and what to pack.
+description: Beach, snow, forts or backwaters? Compare Goa, Andaman, Manali, Shimla, Rishikesh, Darjeeling, Bhutan, Nepal, Singapore, Dubai, Sri Lanka, Thailand, Vietnam, Ooty, Varanasi, Jaipur, Udaipur and Kerala for a Christmas or New Year trip: weather, how to get there, crowds and what to pack.
 date: 2026-11-03
 updated: 2026-11-21
 place: India in winter
@@ -27,6 +27,7 @@ Plan your budget with our [trip budget calculator](../tools/trip-budget-calculat
 | [Bhutan](bhutan-in-december.html) | Dzongs, mountain passes, a festival at Dochula on 13 Dec | Sunny days about 15–20 °C; nights about 0 °C or below in Paro and Thimphu | Paro (PBH), or Bagdogra and the road via Phuentsholing | Busy at Christmas and New Year; book flights early |
 | [Nepal](nepal-in-december.html) | Temples, Himalayan sunrises, Pokhara's lake, the Everest flight | Dry and sunny: Kathmandu days about 20 °C, nights about 3–4 °C | Kathmandu (KTM), or by road through a border crossing | Busy from Christmas to New Year |
 | [Singapore](singapore-trip-from-india.html) | Gardens by the Bay, Sentosa, Christmas lights on Orchard Road | Warm and humid, about 30 °C by day; the wettest month, with short showers | Direct flights from many Indian cities to Changi (SIN); visa needed | Busiest and costliest from Christmas to New Year |
+| [Dubai](dubai-trip-from-india.html) | Malls, desert safari, beaches, an Abu Dhabi day trip | Warm days about 24–26 °C, cool nights about 14–15 °C; rain on about 2 days | Direct flights from many Indian cities to Dubai (DXB); visa needed | Busy and costly from Christmas to New Year |
 | [Sri Lanka](sri-lanka-trip-from-india.html) | Sigiriya, Kandy, tea hills, Ramayana sites | Colombo about 30 °C by day; some rain in December, drier in January | Direct flights from many Indian cities to Colombo (CMB); free ETA for Indians | Busy from Christmas to New Year |
 | [Thailand](thailand-trip-from-india.html) | Bangkok's temples and markets, Phuket and Krabi beaches | Warm and mostly dry: Bangkok about 31 °C by day, 21 °C at night | Direct flights from many Indian cities to Bangkok, some to Phuket and Krabi; no visa for up to 30 days | Busy and costly from Christmas to New Year |
 | [Vietnam](vietnam-trip-from-india.html) | Hanoi, Ha Long Bay cruises, Ho Chi Minh City | Hanoi cool, about 22 °C by day and 15 °C at night; Ho Chi Minh City about 32 °C and dry; Da Nang and Hoi An rainy | Direct flights from several Indian cities to Hanoi (HAN) and Ho Chi Minh City (SGN); e-visa needed | Busy from Christmas to New Year |
@@ -91,6 +92,12 @@ Read the full [Nepal in December and January guide](nepal-in-december.html), and
 Singapore is warm in December, about 30 °C by day, and it's the wettest month, but showers are usually short. Orchard Road has its Christmas lights until 3 January, and Gardens by the Bay has Christmas Wonderland from 27 November. Indians need a visa, applied for through an agent; it usually takes 3 to 5 working days, so apply early.
 
 Read the full [Singapore trip guide](singapore-trip-from-india.html), and see our [Singapore packing list](../guides/singapore-packing-list.html).
+
+## Dubai: for a warm city break with shopping and the desert
+
+Dubai is at its best in December and January: about 26 °C by day and 15 °C at night, with rain on only about 2 days a month. Most Indians need a visa before they fly, usually through a tourism company, airline or hotel; GDRFA lists AED 200 for 30 days, plus VAT.
+
+Read the full [Dubai trip guide](dubai-trip-from-india.html), and see our [Dubai packing list](../guides/dubai-packing-list.html) and [UAE customs rules](../baggage/customs/uae-dubai.html).
 
 ## Sri Lanka: for an easy trip abroad with a free visa
 

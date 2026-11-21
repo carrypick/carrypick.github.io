@@ -8,7 +8,7 @@ photo: dubai-burj-khalifa
 ---
 Dubai is warm and dry from November to March, and very hot from May to September. In winter you need light clothes for the day, one warm layer for the evening and the desert, and a few modest outfits for malls, the souks and mosques. This list tells you what to pack and why, for a trip from India.
 
-Want to tick things off as you pack? Use our [checklist for trips abroad](../packing/abroad.html). Not sure what UAE Customs allows? Read [what you can carry from India to Dubai](../baggage/customs/uae-dubai.html). Travelling with kids or a baby, or need it for your exact dates? Make your own list with the [packing list maker](../tools/packing-list-maker.html).
+Still planning the trip? Read our [Dubai trip guide](../trips/dubai-trip-from-india.html) for the visa, flights, a 5-day plan with an Abu Dhabi day trip and the metro. Want to tick things off as you pack? Use our [checklist for trips abroad](../packing/abroad.html). Not sure what UAE Customs allows? Read [what you can carry from India to Dubai](../baggage/customs/uae-dubai.html). Travelling with kids or a baby, or need it for your exact dates? Make your own list with the [packing list maker](../tools/packing-list-maker.html).
 
 [[toppicks:Our picks for a Dubai trip|See the bag rules by airline|#which-bag-to-take]]
 [[top:B0D9NZVJQ4|Cabin bag for Emirates|Listed at 55 x 38 x 21 cm, 114 cm in total, within Emirates' 55 x 38 x 22 cm and 115 cm limit. 2.45 kg empty.]]
