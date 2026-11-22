@@ -23,7 +23,7 @@ NOTE = "Illustration, not a product photo"
 SCALED = " · listed sizes drawn to scale"
 CSS_FILE = Path(__file__).resolve().parent.parent / "static" / "style.css"
 CATS = ("luggage", "backpacks", "watches", "clothing", "shoes", "skincare", "handbags", "travel-gear",
-        "travel-tech", "sunglasses", "wallets-belts", "perfumes", "grooming")
+        "travel-tech", "sunglasses", "wallets-belts", "perfumes", "grooming", "books")
 DASH = ' stroke-dasharray="7 5"'
 
 # Pixels per cm (bags) or per mm (watches, glasses), fixed per kind so picks of one kind compare fairly.
@@ -1149,6 +1149,50 @@ def draw_grooming(d):
     return dict(inner=out, legend=False, info=[], scaled=False, alt=alt)
 
 
+# ---------- books: a plain closed book, drawn to its listed size, with no cover art ----------
+
+def draw_book(d):
+    """A closed book in a three-quarter view: the front, the page edges and the top, sized from the listed
+    dimensions (7 px per cm). The front is left blank: we never copy or imitate a cover."""
+    sp = d.get("specs", {})
+    dims = parse_dims(sp.get("Size")) or [13.0, 2.5, 19.8]
+    wcm, tcm, hcm = dims[0], min(dims[1], dims[2]), max(dims[1], dims[2])  # Amazon lists width x thickness x height
+    s = 7.0
+    w, h, t = wcm * s, hcm * s, max(tcm * s, 4)
+    dx, dy = t * .8, t * .5
+    x, top = max(88, 160 - (w + dx) / 2), FLOOR - h  # room for the height label on the left
+    kind = (sp.get("Type") or "").lower()
+    hard = (sp.get("Format") or "").lower().startswith("hard")
+    out = L(40, FLOOR, 300, FLOOR, "k", 1.2, ' opacity=".3"')
+    # Page block (right side) and top, then the front.
+    out += P(D("M%s %s L%s %s V%s L%s %sZ", x + w, top, x + w + dx, top - dy, FLOOR - dy, x + w, FLOOR), "f k", 1.6)
+    lines = max(2, min(int(t / 3), 12))
+    for i in range(1, lines):
+        f = i / lines
+        out += L(x + w + dx * f, top - dy * f + 3, x + w + dx * f, FLOOR - dy * f - 3, "k", .8, ' opacity=".35"')
+    out += P(D("M%s %s L%s %s H%s L%s %sZ", x, top, x + dx, top - dy, x + w + dx, x + w, top), "s k", 1.6)
+    out += R(x, top, w, h, 4 if hard else 2, "a k", 2)
+    out += L(x + 8, top + 3, x + 8, FLOOR - 3, "k", 1.2, ' opacity=".45"')  # the spine fold
+    if "journal" in kind:
+        out += P(D("M%s %s V%s L%s %s L%s %s V%s", x + w * .7, top - 1, top + h * .32, x + w * .7 + 6, top + h * .28,
+                   x + w * .7 + 12, top + h * .32, top - 1), "p", 0)  # a ribbon bookmark
+    out += dim_v(x - 14, top, FLOOR, n(hcm) + " cm", "high") + dim_h(x, x + w, FLOOR + 16, n(wcm) + " cm", "wide")
+    tx = 300
+    pages = re.search(r"\d[\d,]*", sp.get("Pages") or "")
+    out += T(tx, 112, pages.group(0) if pages else "Pages", "dt", 30, "start", 700)
+    out += T(tx, 132, "pages (as listed)" if pages else "not listed", "m", 13, "start")
+    y = 162
+    for text, cls, fs, weight in ((sp.get("Type"), "t", 15, 700), (sp.get("Format"), "m", 14, 400), (sp.get("Language"), "m", 14, 400)):
+        if text:
+            for line in wrap(text, 20):
+                out += T(tx, y, line, cls, fs, "start", weight)
+                y += 21
+    what = (sp.get("Format") or "book").lower()
+    alt = ("Drawing of a closed %s %s with a blank front, drawn to its listed size of %s cm wide and %s cm high"
+           % (what, (sp.get("Type") or "book").lower(), n(wcm), n(hcm)))
+    return dict(inner=out, legend=False, info=[], scaled=True, alt=alt)
+
+
 # ---------- travel gear ----------
 
 def draw_travel(d):
@@ -1274,7 +1318,8 @@ DRAW = {"luggage": lambda d, lim: draw_luggage(d, lim), "backpacks": lambda d, l
         "skincare": lambda d, lim: draw_skincare(d), "travel-gear": lambda d, lim: draw_travel(d),
         "travel-tech": lambda d, lim: draw_tech(d), "sunglasses": lambda d, lim: draw_glasses(d),
         "wallets-belts": lambda d, lim: draw_belt(d) if "belt" in d["title"].lower() else draw_wallet(d),
-        "perfumes": lambda d, lim: draw_perfume(d), "grooming": lambda d, lim: draw_grooming(d)}
+        "perfumes": lambda d, lim: draw_perfume(d), "grooming": lambda d, lim: draw_grooming(d),
+        "books": lambda d, lim: draw_book(d)}
 
 
 def colour_words(colour):

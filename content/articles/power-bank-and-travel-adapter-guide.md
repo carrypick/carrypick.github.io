@@ -109,6 +109,8 @@ For a laptop, phone and watch at the same time, up to 100 W:
 - **We haven't tested these.** Capacity, watts, ports and sizes come from each Amazon listing. The Wh figures are our own sums at 3.7 V, so check the label.
 - **Pack it in your cabin bag,** or your handbag or backpack. Never in the bag you check in.
 
+Long flight or train ahead? A power bank plus a downloaded audiobook makes the hours go faster: see [audiobooks for long flights](audiobooks-for-long-flights.html).
+
 Flying abroad? See our packing lists for [Thailand](thailand-packing-list.html), [Dubai](dubai-packing-list.html), [Bali](bali-packing-list.html) and [Vietnam](vietnam-packing-list.html), and the [cabin bag rules](cabin-luggage-guide.html).
 
 ## Questions

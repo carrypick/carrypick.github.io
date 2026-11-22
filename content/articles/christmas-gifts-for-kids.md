@@ -97,6 +97,18 @@ Our [Goa packing list](goa-packing-list.html), [what to wear in Manali in Decemb
 
 For a class or a party, choose one small, useful thing and give the same to every child, so nobody feels left out. A sipper bottle like the Milton above suits boys and girls. Ask the school first, because some schools don't allow gifts.
 
+## Books for kids who travel
+
+**For ages 6 to 8:** a travel activity book for trains and flights, with no screen:
+
+[[pick:1788684745]]
+
+**For ages 10 to 12:** a travel journal kids fill in on a family trip:
+
+[[pick:1760341002]]
+
+More in [travel books for kids](../category/books/kids.html).
+
 ## Questions
 
 ### What is a good Christmas gift for kids?

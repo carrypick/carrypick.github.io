@@ -4533,5 +4533,311 @@
       "Model": "GS6110"
     },
     "skip_if": "he wants to use it in the shower: the listing only says the heads can be rinsed."
+  },
+  {
+    "asin": "1838698019",
+    "added_at": "2026-11-22T15:00:00+05:30",
+    "title": "Lonely Planet India (21st edition, 2026), paperback travel guide",
+    "category": "books",
+    "subcategory": "guidebooks-phrasebooks",
+    "highlights": [
+      "21st edition, published 12 October 2026 (as listed)",
+      "1,056 pages with itineraries and maps",
+      "Covers Delhi, Rajasthan, Punjab, Ladakh, Agra, Kerala, Kolkata, Mumbai, Goa and more"
+    ],
+    "note": "The big all-India guide, in its newest edition: good for a first long trip around India or for visitors from abroad.",
+    "brand": "Lonely Planet",
+    "best_for": [
+      "First trip to India",
+      "Gift for a traveller"
+    ],
+    "specs": {
+      "Type": "Travel guidebook",
+      "Format": "Paperback",
+      "Edition": "21st, October 2026",
+      "Pages": "1,056",
+      "Language": "English",
+      "Size": "13.08 x 4.13 x 19.81 cm",
+      "Weight": "850 g (as listed)"
+    },
+    "skip_if": "you're only visiting one region: a state or city guide is lighter."
+  },
+  {
+    "asin": "1838693874",
+    "added_at": "2026-11-22T15:00:00+05:30",
+    "title": "Lonely Planet Europe (5th edition, 2026), paperback travel guide",
+    "category": "books",
+    "subcategory": "guidebooks-phrasebooks",
+    "highlights": [
+      "5th edition, published 12 June 2026 (as listed)",
+      "1,224 pages with itineraries and maps",
+      "Covers France, Italy, Spain, Portugal, Ireland, Germany, Greece and more"
+    ],
+    "note": "One book for a multi-country Europe trip, so you don't need a guide per country.",
+    "brand": "Lonely Planet",
+    "best_for": [
+      "Europe trip",
+      "Schengen tour"
+    ],
+    "specs": {
+      "Type": "Travel guidebook",
+      "Format": "Paperback",
+      "Edition": "5th, June 2026",
+      "Pages": "1,224",
+      "Language": "English",
+      "Size": "13.08 x 4.76 x 19.94 cm",
+      "Weight": "968 g (as listed)"
+    },
+    "skip_if": "you travel cabin-bag only: at almost 1 kg it's heavy."
+  },
+  {
+    "asin": "1838698140",
+    "added_at": "2026-11-22T15:00:00+05:30",
+    "title": "Lonely Planet Japan (19th edition, 2026), paperback travel guide",
+    "category": "books",
+    "subcategory": "guidebooks-phrasebooks",
+    "highlights": [
+      "19th edition, published 12 July 2026 (as listed)",
+      "856 pages with itineraries and maps",
+      "Covers Tokyo, Mt Fuji, Kyoto, Kansai, Sapporo, Shikoku and more"
+    ],
+    "note": "Japan is easier with a plan: train routes, temples and food in one book.",
+    "brand": "Lonely Planet",
+    "best_for": [
+      "Japan trip",
+      "Honeymoon planning"
+    ],
+    "specs": {
+      "Type": "Travel guidebook",
+      "Format": "Paperback",
+      "Edition": "19th, July 2026",
+      "Pages": "856",
+      "Language": "English",
+      "Size": "13.21 x 3.49 x 19.81 cm",
+      "Weight": "700 g (as listed)"
+    },
+    "skip_if": "you only need the Tokyo and Kyoto basics: a phone map may be enough."
+  },
+  {
+    "asin": "1787013499",
+    "added_at": "2026-11-22T15:00:00+05:30",
+    "title": "Lonely Planet Hindi, Urdu & Bengali Phrasebook & Dictionary (6th edition), pocket paperback",
+    "category": "books",
+    "subcategory": "guidebooks-phrasebooks",
+    "highlights": [
+      "6th edition, published 12 November 2024 (as listed)",
+      "304 pages with a 3,500-word two-way dictionary",
+      "Pocket size: 9.53 x 14.1 cm, 294 g"
+    ],
+    "note": "For visitors to India, or anyone moving between states: order food, buy tickets and ask the way.",
+    "brand": "Lonely Planet",
+    "best_for": [
+      "Visiting India",
+      "Pocket size"
+    ],
+    "specs": {
+      "Type": "Phrasebook",
+      "Format": "Paperback",
+      "Edition": "6th, November 2024",
+      "Pages": "304",
+      "Language": "English, with Hindi, Urdu and Bengali",
+      "Size": "9.53 x 1.27 x 14.1 cm",
+      "Weight": "294 g (as listed)"
+    },
+    "skip_if": "you already speak Hindi: it's made for English speakers."
+  },
+  {
+    "asin": "0241627265",
+    "added_at": "2026-11-22T15:00:00+05:30",
+    "title": "DK Travel Journal, hardcover",
+    "category": "books",
+    "subcategory": "journals",
+    "highlights": [
+      "Hardcover journal from DK Travel, 192 pages",
+      "Published 2 May 2024 (as listed)",
+      "15.8 x 21.6 cm: fits a daypack"
+    ],
+    "note": "A hardcover journal survives a backpack better than a notebook. A good gift before a big trip.",
+    "brand": "DK Travel",
+    "best_for": [
+      "Gift for a traveller",
+      "Trip diary"
+    ],
+    "specs": {
+      "Type": "Travel journal",
+      "Format": "Hardcover",
+      "Edition": "May 2024",
+      "Pages": "192",
+      "Language": "English",
+      "Size": "15.8 x 2.3 x 21.6 cm",
+      "Weight": "540 g (as listed)"
+    },
+    "skip_if": "you want a slim notebook for your pocket: this one is 540 g."
+  },
+  {
+    "asin": "1788684745",
+    "added_at": "2026-11-22T15:00:00+05:30",
+    "title": "Lonely Planet Kids The Travel Activity Book, paperback",
+    "category": "books",
+    "subcategory": "kids",
+    "highlights": [
+      "48 pages of travel activities",
+      "Reading age 6 to 8 years (as listed)",
+      "Published 14 June 2019 (as listed)"
+    ],
+    "note": "Keeps a young child busy on a train or a flight, with no screen.",
+    "brand": "Lonely Planet Kids",
+    "best_for": [
+      "Kids 6 to 8",
+      "Train and flight"
+    ],
+    "specs": {
+      "Type": "Kids' activity book",
+      "Format": "Paperback",
+      "Edition": "June 2019",
+      "Pages": "48",
+      "Language": "English",
+      "Reading age": "6 to 8 years",
+      "Size": "23.1 x 0.7 x 30.6 cm"
+    },
+    "skip_if": "your child is older than 10: they may find it too easy."
+  },
+  {
+    "asin": "1760341002",
+    "added_at": "2026-11-22T15:00:00+05:30",
+    "title": "Lonely Planet Kids My Travel Journal, paperback",
+    "category": "books",
+    "subcategory": "kids",
+    "highlights": [
+      "A journal for children to fill in on a trip, 72 pages",
+      "Reading age 10 to 12 years (as listed)",
+      "Illustrated edition, published 1 April 2016 (as listed)"
+    ],
+    "note": "Turns a family holiday into a project: kids write, draw and keep it as a souvenir.",
+    "brand": "Lonely Planet Kids",
+    "best_for": [
+      "Kids 10 to 12",
+      "Family holiday"
+    ],
+    "specs": {
+      "Type": "Kids' travel journal",
+      "Format": "Paperback",
+      "Edition": "Illustrated, April 2016",
+      "Pages": "72",
+      "Language": "English",
+      "Reading age": "10 to 12 years",
+      "Size": "17.53 x 0.95 x 21.84 cm"
+    },
+    "skip_if": "your child doesn't like writing: the activity book is more about puzzles."
+  },
+  {
+    "asin": "1837588120",
+    "added_at": "2026-11-22T15:00:00+05:30",
+    "title": "Lonely Planet Kids The Travel Book (3rd edition, 2026), hardcover",
+    "category": "books",
+    "subcategory": "kids",
+    "highlights": [
+      "Facts on every country on earth, from Afghanistan to Zimbabwe",
+      "3rd edition, published 10 November 2026 (as listed)",
+      "212 pages, reading age 8 to 12 years"
+    ],
+    "note": "A big hardcover gift for a curious child: one that stays at home and gets read again and again.",
+    "brand": "Lonely Planet Kids",
+    "best_for": [
+      "Kids 8 to 12",
+      "Birthday gift"
+    ],
+    "specs": {
+      "Type": "Kids' world fact book",
+      "Format": "Hardcover",
+      "Edition": "3rd, November 2026",
+      "Pages": "212",
+      "Language": "English",
+      "Reading age": "8 to 12 years",
+      "Size": "23.88 x 2.22 x 31.24 cm"
+    },
+    "skip_if": "you want something to pack: it's a large coffee-table size."
+  },
+  {
+    "asin": "8172234988",
+    "added_at": "2026-11-22T15:00:00+05:30",
+    "title": "The Alchemist by Paulo Coelho, paperback (Harper)",
+    "category": "books",
+    "subcategory": "travel-stories",
+    "highlights": [
+      "A short novel about a shepherd's journey to follow his dream",
+      "172 pages, English",
+      "Harper paperback, printed in India (as listed)"
+    ],
+    "note": "Short enough to finish on one flight, and an easy gift for a friend starting something new.",
+    "brand": "Paulo Coelho",
+    "best_for": [
+      "Farewell gift",
+      "Secret Santa"
+    ],
+    "specs": {
+      "Type": "Novel",
+      "Format": "Paperback",
+      "Edition": "Harper, later printing",
+      "Pages": "172",
+      "Language": "English",
+      "Size": "12.9 x 1.5 x 19.8 cm"
+    },
+    "skip_if": "they've already read it: almost every reader in India has."
+  },
+  {
+    "asin": "0349117543",
+    "added_at": "2026-11-22T15:00:00+05:30",
+    "title": "Shantaram by Gregory David Roberts, paperback (Abacus)",
+    "category": "books",
+    "subcategory": "travel-stories",
+    "highlights": [
+      "A long novel set in 1980s Bombay, made into a TV series",
+      "944 pages, English",
+      "Abacus paperback (as listed)"
+    ],
+    "note": "The long-flight book: big enough to last a trip, and a gift for anyone who loves Mumbai.",
+    "brand": "Gregory David Roberts",
+    "best_for": [
+      "Long flight",
+      "Gift for him"
+    ],
+    "specs": {
+      "Type": "Novel",
+      "Format": "Paperback",
+      "Edition": "Abacus",
+      "Pages": "944",
+      "Language": "English",
+      "Size": "12.8 x 4.4 x 19.6 cm",
+      "Weight": "642 g (as listed)"
+    },
+    "skip_if": "they want a light read: it has violence and crime, and it's very long."
+  },
+  {
+    "asin": "1408844486",
+    "added_at": "2026-11-22T15:00:00+05:30",
+    "title": "Eat, Pray, Love by Elizabeth Gilbert, paperback (Bloomsbury)",
+    "category": "books",
+    "subcategory": "travel-stories",
+    "highlights": [
+      "A memoir of a year in Italy, India and Indonesia",
+      "384 pages, English",
+      "Bloomsbury paperback (as listed)"
+    ],
+    "note": "A travel memoir with a long part set in India: a warm gift for a friend after a breakup or a big change.",
+    "brand": "Elizabeth Gilbert",
+    "best_for": [
+      "Gift for her",
+      "Solo travel"
+    ],
+    "specs": {
+      "Type": "Memoir",
+      "Format": "Paperback",
+      "Edition": "Bloomsbury",
+      "Pages": "384",
+      "Language": "English",
+      "Size": "12.9 x 2.3 x 19.8 cm"
+    },
+    "skip_if": "they prefer adventure stories: this one is about feelings and food."
   }
 ]

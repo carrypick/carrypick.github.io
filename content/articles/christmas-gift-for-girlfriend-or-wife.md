@@ -134,6 +134,18 @@ Our [what to wear in Manali in December](what-to-wear-in-manali-in-december.html
 
 **A zip-around wallet, or the light crossbody bag above, are good smaller gifts.** Going to a wedding this season too? See our [wedding gift ideas](wedding-gift-guide.html). Planning ahead for February? See our [Valentine's Day gift ideas](valentines-day-gift-ideas.html).
 
+## A book for her
+
+**A travel memoir she can finish on a holiday.** Eat, Pray, Love follows a year in Italy, India and Indonesia:
+
+[[pick:1408844486]]
+
+**A hardcover travel journal** to write and stick tickets in on your next trip together:
+
+[[pick:0241627265]]
+
+More in our [travel books](../category/books.html). If she'd rather listen, see [audiobooks for long flights](audiobooks-for-long-flights.html).
+
 ## Questions
 
 ### What is a good Christmas gift for a girlfriend?

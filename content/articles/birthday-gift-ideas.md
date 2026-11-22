@@ -219,6 +219,18 @@ A short, real line means more than a long poem. Pick one and make it yours:
 
 Add one memory from the past year, like a trip or a funny moment. That's the line they'll read twice.
 
+## A book as a birthday gift
+
+**For a child who loves maps and facts:** Lonely Planet Kids The Travel Book has a page on every country (reading age 8 to 12):
+
+[[pick:1837588120]]
+
+**For a friend planning a trip:** a guidebook for where they're going next. Lonely Planet Europe covers France, Italy, Spain, Greece and more in one book:
+
+[[pick:1838693874]]
+
+More in our [travel books](../category/books.html), and [audiobooks for long flights](audiobooks-for-long-flights.html) for people who prefer to listen.
+
 ## Questions
 
 ### What is the best birthday gift for a husband?

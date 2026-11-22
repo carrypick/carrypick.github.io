@@ -161,6 +161,12 @@ Which plugs does Dubai use? See the table in our [power bank and travel adapter 
 - Snacks and a water bottle for the journey
 - Their medicines and a small first-aid kit
 
+## Guidebook, phrasebook and something to listen to
+
+- **Guidebook:** a printed guide is handy where your phone has no signal and it never runs out of battery. Keep it in your day bag, not in check-in. See our [travel books](../category/books.html).
+- **Phrasebook:** English is spoken almost everywhere in Dubai, so you don't need one. "Shukran" (thank you in Arabic) is a nice touch.
+- **Long flight:** download an audiobook or two at home before you fly. See [audiobooks for long flights](audiobooks-for-long-flights.html).
+
 ## Which bag to take
 
 - **About 4–5 nights:** a cabin trolley or a 30–40 litre backpack is enough.

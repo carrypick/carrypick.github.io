@@ -796,6 +796,21 @@ def shop_box(cfg, shop):
             f'We may earn a commission if you buy through this link, at no extra cost to you.</p></div>')
 
 
+AUDIBLE_TRIAL = "https://www.amazon.in/dp/B077S5CVBQ/?ref=assoc_tag_sept19?actioncode=AINOTH066082819002X&tag=%s"
+
+
+def audible_box(cfg):
+    """[[audible]]: Amazon.in's Audible free trial link, in the exact format of the Associates fee schedule
+    (Audible Free Trial row, read 22 Nov 2026). An Amazon link: never in a section with partner boxes."""
+    href = e(AUDIBLE_TRIAL % cfg["amazon_tag"])
+    return (f'<div class="cta-box audible-box"><h3>Try Audible free for 30 days</h3>'
+            f'<p>Audible\'s page on Amazon.in says the trial gives you 1 credit for any audiobook (2 credits if you\'re an Amazon Prime member '
+            f'new to Audible) and the Plus catalogue to listen to as much as you like. It renews every month unless you cancel, and you can '
+            f'cancel at any time. Audible on Amazon.in is for accounts in India.</p>'
+            f'<div class="book-row"><a class="btn btn-amazon" href="{href}" {BUY_ATTRS}>Try Audible free</a></div>'
+            f'<p>Amazon shows the monthly fee after the trial. We may earn a fee if you sign up through this link, at no extra cost to you.</p></div>')
+
+
 def anchor(text):
     """An id for a heading, so other pages and our pick boxes can link straight to a section."""
     text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text).replace("**", "")
@@ -949,7 +964,12 @@ def render_markdown(md, cfg, deals_by_asin, p, source):
     for tag in ("tours", "esim", "activities"):
         if "[[%s:" % tag in md and not source.startswith("trips"):
             sys.exit("Error: %s has a [[%s:]] box. These links go on trip guides only." % (source, tag))
+    if "[[audible]]" in md and ("[[shop:" in md or "[[coupon:" in md):
+        sys.exit("Error: %s mixes the Audible (Amazon) box with another shop's link or a coupon." % source)
     for section in re.split(r"^## ", md, flags=re.M):
+        if re.search(r"\[\[(book|fly|tours|esim|activities):", section) and "[[audible]]" in section:
+            sys.exit("Error: %s has the Audible box in the same section as a hotel, flight or tour box (%r)."
+                     % (source, section.split("\n", 1)[0][:60]))
         if re.search(r"\[\[(book|fly|tours|esim|activities):", section) and re.search(r"\[\[(pick|compare|top|toppicks):", section):
             sys.exit("Error: %s has a hotel, flight or tour box in the same section as Amazon picks (%r). Keep paid links away from picks."
                      % (source, section.split("\n", 1)[0][:60]))
@@ -1010,6 +1030,9 @@ def render_markdown(md, cfg, deals_by_asin, p, source):
         elif coupon:
             flush()
             out.append(coupon_box(load_coupons(), coupon.group(1)))
+        elif line == "[[audible]]":
+            flush()
+            out.append(audible_box(cfg))
         elif tours:
             flush()
             out.append(tours_box(cfg, tours.group(1).strip(), tours.group(2) and tours.group(2).strip(), source.startswith("trips-hi")))

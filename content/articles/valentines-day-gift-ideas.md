@@ -178,6 +178,18 @@ Valentine week runs from 7 to 14 February. You don't need a gift every day. Many
 
 Shopping for a birthday or another occasion? The [gift finder](../tools/gift-finder.html) matches ideas to the person and the occasion. For other dates, see our gifts for [a girlfriend or wife](christmas-gift-for-girlfriend-or-wife.html) and [a boyfriend or husband](christmas-gift-for-boyfriend-or-husband.html).
 
+## A book for two
+
+**A travel journal for your trips together.** Write the date, the place and one line each, and keep the tickets inside:
+
+[[pick:0241627265]]
+
+**Planning a honeymoon or a first trip abroad?** Lonely Planet Japan (2026 edition) is a gift that says "let's go":
+
+[[pick:1838698140]]
+
+More in our [travel books](../category/books.html).
+
 ## Questions
 
 ### What is a good Valentine's gift for a girlfriend?

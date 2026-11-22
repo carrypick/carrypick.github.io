@@ -154,6 +154,18 @@ After retirement, many people finally have time for trips, family visits and pil
 
 Planning a trip for them? Our [where to go in December and January](../trips/where-to-go-in-december-january.html) guide has ideas for winter holidays in India.
 
+## A book for the journey
+
+**For a colleague moving on:** The Alchemist is a short story about following your own path. A kind farewell message in one book:
+
+[[pick:8172234988]]
+
+**For a colleague moving abroad or travelling more:** a hardcover travel journal for the new chapter:
+
+[[pick:0241627265]]
+
+More in our [travel books](../category/books.html). Long flight ahead? See [audiobooks for long flights](audiobooks-for-long-flights.html).
+
 ## Questions
 
 ### What is a good farewell gift for a colleague?

@@ -171,6 +171,15 @@ A power bank with a built-in cable, within the cabin limit:
 - Their medicines, and something for motion sickness on mountain roads
 - A small toy or book for flights and trains
 
+## Guidebook, phrasebook and something to listen to
+
+**One guidebook for the whole trip.** Lonely Planet Europe (5th edition, June 2026) covers France, Italy, Spain, Germany, Greece and more. It's listed at 968 g, so take it only if your bag allows:
+
+[[pick:1838693874]]
+
+- **Phrasebook:** English works in most hotels, but "bonjour", "grazie" and "danke" go a long way. A phrasebook app works offline if you download the languages first.
+- **Long flight:** download an audiobook or two at home before you fly. See [audiobooks for long flights](audiobooks-for-long-flights.html).
+
 ## Which bag to take
 
 - **About 10 days:** a medium check-in trolley and a cabin bag or backpack. Winter clothes are bulky, so use packing cubes.

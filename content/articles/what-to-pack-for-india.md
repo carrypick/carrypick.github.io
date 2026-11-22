@@ -109,6 +109,18 @@ India uses round pins, so you need an adapter if your plugs have flat pins (the 
 
 [[pick:B0BHC41KYN]]
 
+## Guidebook and phrasebook
+
+**A guidebook for a big trip around India.** Lonely Planet India is the 21st edition (October 2026), with 1,056 pages and maps from Ladakh to Kerala:
+
+[[pick:1838698019]]
+
+**A pocket phrasebook for Hindi, Urdu and Bengali**, with a 3,500-word dictionary. It's 294 g:
+
+[[pick:1787013499]]
+
+Long flight to India? Download an audiobook before you fly: see [audiobooks for long flights](audiobooks-for-long-flights.html). More in our [travel books](../category/books.html).
+
 ## Which bag to take
 
 - **A wheeled trolley** is fine for hotels and airports. Old-city lanes, train platforms and steps are easier with a backpack or a light trolley.

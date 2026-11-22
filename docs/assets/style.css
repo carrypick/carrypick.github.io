@@ -23,6 +23,7 @@
   --tint-wallets-belts: #e9ecef;
   --tint-perfumes: #f3e8f7;
   --tint-grooming: #e4eef6;
+  --tint-books: #f4eee2;
   --tint-none: #eef1f3;
   --icon-backpacks: #1f7a55;
   --icon-luggage: #2b5aa0;
@@ -37,6 +38,7 @@
   --icon-wallets-belts: #4a5568;
   --icon-perfumes: #7b3f98;
   --icon-grooming: #2a5d84;
+  --icon-books: #8a4b14;
   --radius: 18px;
   --shadow: 0 1px 2px rgba(20, 32, 43, 0.06), 0 8px 24px rgba(20, 32, 43, 0.06);
 }
@@ -68,6 +70,7 @@
     --tint-wallets-belts: #1f242a;
     --tint-perfumes: #271b2e;
     --tint-grooming: #17222c;
+    --tint-books: #29221a;
     --tint-none: #1c2329;
     --icon-backpacks: #6fd3a5;
     --icon-luggage: #8db5f0;
@@ -82,6 +85,7 @@
     --icon-wallets-belts: #b3bfcc;
     --icon-perfumes: #d4a6ea;
     --icon-grooming: #93c1e6;
+    --icon-books: #e8b98a;
     --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.25);
   }
 }
@@ -171,6 +175,7 @@ img { max-width: 100%; }
 .tint-wallets-belts { background: var(--tint-wallets-belts); color: var(--icon-wallets-belts); }
 .tint-perfumes { background: var(--tint-perfumes); color: var(--icon-perfumes); }
 .tint-grooming { background: var(--tint-grooming); color: var(--icon-grooming); }
+.tint-books { background: var(--tint-books); color: var(--icon-books); }
 .tint-none { background: var(--tint-none); color: var(--brand); }
 
 /* Category tiles */
@@ -282,6 +287,8 @@ img { max-width: 100%; }
 .chip-tag { padding: 4px 12px; border-radius: 999px; background: var(--tint-none); color: var(--ink); font-size: 0.85rem; font-weight: 600; }
 .cta-box { margin: 20px 0 8px; padding: 20px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow); }
 .cta-box .paid { margin-left: 10px; }
+.audible-box h3 { margin: 0 0 6px; }
+.audible-box .btn { margin-top: 6px; }
 .book-row { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 0; margin-bottom: 10px; }
 .book-row .paid { white-space: nowrap; }
 .cta-box p { margin: 12px 0 0; color: var(--muted); font-size: 0.88rem; }

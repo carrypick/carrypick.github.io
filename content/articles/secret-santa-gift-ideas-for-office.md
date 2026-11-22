@@ -114,6 +114,18 @@ More ideas like these are in our [gifts for travellers](gifts-for-travellers.htm
 
 Our [what to wear in Manali in December](what-to-wear-in-manali-in-december.html) and [Goa packing list](goa-packing-list.html) guides say what else to pack. Shopping for New Year or a wedding too? See our [New Year gift ideas](new-year-gift-ideas.html) and [wedding gift ideas](wedding-gift-guide.html).
 
+## A book anyone can enjoy
+
+**A short paperback that fits almost any budget.** The Alchemist is 172 pages: one commute or one flight:
+
+[[pick:8172234988]]
+
+**For a colleague who travels:** a hardcover travel journal for notes and tickets:
+
+[[pick:0241627265]]
+
+More books in our [travel books](../category/books.html) section.
+
 ## Questions
 
 ### What is a good Secret Santa gift for an office colleague?

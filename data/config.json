@@ -104,7 +104,7 @@
   "contact_email": "",
   "groups": [
     {"name": "Bags & Luggage", "categories": ["luggage", "backpacks", "handbags"]},
-    {"name": "Travel Essentials", "categories": ["travel-gear", "travel-tech"]},
+    {"name": "Travel Essentials", "categories": ["travel-gear", "travel-tech", "books"]},
     {"name": "Clothing & Shoes", "categories": ["clothing", "shoes"]},
     {"name": "Accessories", "categories": ["watches", "sunglasses", "wallets-belts"]},
     {"name": "Beauty & Grooming", "categories": ["perfumes", "grooming", "skincare"]}
@@ -176,6 +176,23 @@
       "guide": "power-bank-and-travel-adapter-guide",
       "intro": "Power banks that stay under the airline limit, and universal adapters for plugs abroad. We read the mAh, the ports and the size on each listing.",
       "tip": "Power banks go in your cabin bag only, never in check-in. 10,000 and 20,000 mAh power banks (about 37 and 74 Wh) are under the 100 Wh limit on Indian airlines."
+    },
+    "books": {
+      "name": "Books & Audiobooks",
+      "subcategories": [
+        {"slug": "guidebooks-phrasebooks", "name": "Guidebooks & phrasebooks", "title": "Travel guidebooks and phrasebooks", "intro": "Printed travel guidebooks for India, Europe and Japan, and a pocket Hindi phrasebook. We read the edition, publication date, pages and size on each Amazon.in listing."},
+        {"slug": "journals", "name": "Travel journals", "intro": "A printed travel journal to write in on the road."},
+        {"slug": "kids", "name": "Kids' travel books", "title": "Travel books for kids", "intro": "An activity book, a travel journal and a world fact book for children who travel. The reading age is from each Amazon.in listing."},
+        {"slug": "travel-stories", "name": "Travel stories", "title": "Travel story books that make good gifts", "intro": "Well-known books about journeys, in paperback: good to read on a long trip, or to give to someone who loves to travel."}
+      ],
+      "emoji": "📚",
+      "hashtag": "#TravelBooks",
+      "icon": "book",
+      "photo": "plane-window",
+      "seo_title": "Travel books for India and abroad: guidebooks, phrasebooks, travel journals and kids' travel books",
+      "guide": "audiobooks-for-long-flights",
+      "intro": "Printed travel guidebooks, a phrasebook, a travel journal, kids' travel books and travel stories that make good gifts. Every button goes to the printed edition. We read the edition, pages, size and language on each Amazon.in listing.",
+      "tip": "Guidebooks are heavy: Lonely Planet India is listed at 850 g. On a cabin-bag-only trip, take one guidebook and keep the rest on your phone. On a long flight, an audiobook weighs nothing."
     },
     "watches": {
       "name": "Watches",

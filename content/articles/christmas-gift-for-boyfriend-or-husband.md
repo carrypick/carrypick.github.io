@@ -157,6 +157,18 @@ Our [what to wear in Manali in December](what-to-wear-in-manali-in-december.html
 
 **The leather sling or the gadget organiser above are good smaller gifts.** Buying for a colleague instead? See our [Secret Santa gift ideas](secret-santa-gift-ideas-for-office.html) and [gift ideas for your boss](gift-for-boss.html). Planning ahead for February? See our [Valentine's Day gift ideas](valentines-day-gift-ideas.html).
 
+## A book for him
+
+**A long novel for his next flight.** Shantaram is set in 1980s Bombay and runs to 944 pages, so it lasts a whole trip:
+
+[[pick:0349117543]]
+
+**Planning a trip abroad together?** A guidebook is a gift with a promise inside. Lonely Planet Japan is the 2026 edition:
+
+[[pick:1838698140]]
+
+More in our [travel books](../category/books.html). If he'd rather listen, see [audiobooks for long flights](audiobooks-for-long-flights.html).
+
 ## Questions
 
 ### What is a good Christmas gift for a boyfriend?

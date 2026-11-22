@@ -136,6 +136,18 @@ Our [trolley bag size for international travel](trolley-bag-size-for-internation
 
 See our [Manali in December](what-to-wear-in-manali-in-december.html), [Kashmir in December](../trips/kashmir-in-december.html) and [Goa packing list](goa-packing-list.html) guides for what else to pack. Shopping for colleagues too? See our [Secret Santa gift ideas](secret-santa-gift-ideas-for-office.html). For family, see our [Christmas gifts for kids](christmas-gifts-for-kids.html), and gifts for [a girlfriend or wife](christmas-gift-for-girlfriend-or-wife.html) or [a boyfriend or husband](christmas-gift-for-boyfriend-or-husband.html).
 
+## Books for travellers
+
+**A guidebook for their next trip.** Lonely Planet India (21st edition, October 2026) for a big trip around India:
+
+[[pick:1838698019]]
+
+**A travel journal** to keep notes, tickets and stickers:
+
+[[pick:0241627265]]
+
+**For long flights, an audiobook weighs nothing.** See [audiobooks for long flights](audiobooks-for-long-flights.html), with Audible's free trial. All our books are in [travel books](../category/books.html).
+
 ## Questions
 
 ### What is a good gift for someone who travels a lot?

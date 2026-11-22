@@ -188,6 +188,15 @@ A power bank with a built-in cable, within the cabin limit:
 - Their medicines: check the rules above first
 - A small toy or book for the Shinkansen
 
+## Guidebook, phrasebook and something to listen to
+
+**A guidebook for train routes, temples and food.** Lonely Planet Japan is the 19th edition (July 2026), listed at 700 g:
+
+[[pick:1838698140]]
+
+- **Phrasebook:** less English is spoken in Japan than in most tourist places. Download Japanese in a translation app so it works offline, and learn "arigato" (thank you) and "sumimasen" (excuse me).
+- **Long flight:** download an audiobook or two at home before you fly. See [audiobooks for long flights](audiobooks-for-long-flights.html).
+
 ## Which bag to take
 
 - **About 7 days, moving between cities:** a cabin trolley or a 30–40 litre backpack plus a small bag. Japanese trains and hotel rooms are compact, and station stairs are many.

@@ -83,6 +83,8 @@ A 20,000 mAh one (about 74 Wh) for long trips:
 
 We haven't tested these. Capacity and ports come from each Amazon listing, and the Wh are our own sums at 3.7 V, so check the label. More about choosing one, and travel adapters, in our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html).
 
+Planning to listen to audiobooks on a long flight? See [audiobooks for long flights](audiobooks-for-long-flights.html) for offline downloads and battery tips.
+
 ## Questions
 
 ### Can I bring a power bank on a plane?
