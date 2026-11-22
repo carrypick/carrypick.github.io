@@ -1,5 +1,92 @@
 [
   {
+    "asin": "B0H7JY1GJR",
+    "added_at": "2026-11-22T06:35:48+05:30",
+    "title": "Safari Benson 77 cm Large Check-in Trolley, Polypropylene",
+    "category": "luggage",
+    "highlights": [
+      "Big 113 L for long trips",
+      "Hard polypropylene shell",
+      "8 spinner wheels",
+      "5-year international warranty, made in India"
+    ],
+    "note": "A big, made-in-India Safari suitcase with a long 5-year warranty.",
+    "brand": "Safari",
+    "colour": "Fossil",
+    "best_for": [
+      "Long trips",
+      "Family travel"
+    ],
+    "specs": {
+      "Size": "54 x 31 x 75 cm (160 cm total)",
+      "Capacity": "113 L",
+      "Weight": "4.5 kg",
+      "Shell": "Hard, polypropylene",
+      "Lock": "Not clear on listing (TSA in the bullets, combination in the table)",
+      "Warranty": "5 years international"
+    },
+    "skip_if": "your airline has a 158 cm size limit for check-in bags: this one adds up to 160 cm.",
+    "deal_seen_at": "2026-11-22T06:34:00+05:30"
+  },
+  {
+    "asin": "B0DN1F63R9",
+    "added_at": "2026-11-22T06:35:48+05:30",
+    "title": "Mokobara Aisle Trunk 76.5 cm Large Check-in Trolley, 105 L",
+    "category": "luggage",
+    "highlights": [
+      "Big 105 L with mesh zip sections on both sides",
+      "Makrolon polycarbonate hard shell",
+      "TSA lock and YKK zips",
+      "3-year warranty"
+    ],
+    "note": "A big, smart Mokobara suitcase for long trips, and it stays under 158 cm in total.",
+    "brand": "Mokobara",
+    "colour": "Black",
+    "best_for": [
+      "Long trips",
+      "Family travel"
+    ],
+    "specs": {
+      "Size": "46 x 34 x 76.5 cm (156.5 cm total)",
+      "Capacity": "105 L",
+      "Weight": "4.9 kg",
+      "Shell": "Hard, polycarbonate",
+      "Lock": "TSA lock",
+      "Warranty": "3 years"
+    },
+    "skip_if": "your airline gives you only 15 kg: the bag alone weighs 4.9 kg.",
+    "deal_seen_at": "2026-11-22T06:34:00+05:30"
+  },
+  {
+    "asin": "B0BVZPR2KW",
+    "added_at": "2026-11-22T06:35:48+05:30",
+    "title": "Mokobara Travel Neck Pillow, Memory Foam with Washable Cover",
+    "category": "travel-gear",
+    "highlights": [
+      "Memory foam (BASF) that holds your neck",
+      "3-level snap button fit",
+      "Folds to 14.5 x 14.5 x 11 cm",
+      "Removable, machine washable cover"
+    ],
+    "note": "A soft Mokobara memory foam pillow that folds small and has a washable cover.",
+    "brand": "Mokobara",
+    "colour": "Deep Grey",
+    "best_for": [
+      "Long flights",
+      "Train and bus trips"
+    ],
+    "specs": {
+      "Fill": "Memory foam (BASF)",
+      "Open size": "27 x 29 x 12 cm",
+      "Folded size": "14.5 x 14.5 x 11 cm",
+      "Weight": "200 g",
+      "Cover": "Cotton, polyester and spandex, machine washable",
+      "Warranty": "6 months"
+    },
+    "skip_if": "you only take short trips: a simple inflatable pillow packs even smaller.",
+    "deal_seen_at": "2026-11-22T06:34:00+05:30"
+  },
+  {
     "asin": "B098X7SS8J",
     "added_at": "2026-11-21T12:42:58+05:30",
     "title": "PUMA Boys Track Suit",
