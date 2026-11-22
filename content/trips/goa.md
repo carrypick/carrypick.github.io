@@ -3,7 +3,7 @@ seo_title: Goa trip guide for Christmas and New Year 2026–27: weather, airport
 title: Goa for Christmas and New Year: a simple trip guide
 description: Plan Goa for December and January: the weather, Dabolim or Mopa airport, trains, taxis and scooters, beach rules and fines, New Year crowds and tips for foreign visitors.
 date: 2026-11-03
-updated: 2026-11-04
+updated: 2026-11-22
 place: Goa
 best: Nov–Feb
 photo: goa-palolem
@@ -91,6 +91,8 @@ Also remember:
 - **Loudspeakers stop at 10 PM.** From 24 to 31 December 2026 they're allowed until midnight, with permission, and Goa's order allows nothing after midnight.
 
 ## Christmas and New Year in Goa
+
+Coming for New Year's Eve? Our [Goa New Year 2027 guide](goa-new-year-2027.html) covers the parties, the midnight music rule, traffic and where to stay. Comparing other places? See [New Year trips 2027](new-year-trips-2027.html).
 
 - **Book early.** November to February is peak season, and Goa Tourism advises booking stays well in advance. Book only places registered with the Department of Tourism.
 - **Expect traffic jams.** Last New Year's Eve, roads around Calangute, Baga, Anjuna and Vagator were jammed from the evening. Police made the Calangute–Baga stretch from Bharat Junction to Tito's Circle a no-vehicle zone from 3 PM to 6 AM, ran one-way routes, and kept buses out of Calangute from 21 December to 31 January. Expect similar rules this year, and walk where you can.

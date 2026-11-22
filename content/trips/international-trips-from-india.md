@@ -117,7 +117,7 @@ December and January are holiday months in India, and they suit these trips best
 - **[Australia](australia-trip-from-india.html):** early summer: Sydney about 26 °C by day, Melbourne about 24 °C, and beach weather; the Australian school holidays make it busy.
 - **Less ideal in December:** [Singapore](singapore-trip-from-india.html) (its wettest month, with short showers) and [Bali](bali-trip-from-india.html) (the wet season).
 
-Christmas to New Year is the busiest time everywhere, so book early. Comparing with trips inside India too? See [where to go in December and January](where-to-go-in-december-january.html).
+Christmas to New Year is the busiest time everywhere, so book early. Going away for New Year's Eve? See [where to go for New Year 2027](new-year-trips-2027.html) and our [Dubai New Year guide](dubai-new-year-2027.html). Comparing with trips inside India too? See [where to go in December and January](where-to-go-in-december-january.html).
 
 ## Trips abroad without a visa, or with an easy visa
 

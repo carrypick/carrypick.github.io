@@ -14,6 +14,8 @@ December and January are the best months for most of India: the monsoon is long 
 
 Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
 
+Planning only for New Year's Eve? See [where to go for New Year 2027](new-year-trips-2027.html), with our [Goa New Year](goa-new-year-2027.html) and [Dubai New Year](dubai-new-year-2027.html) guides.
+
 Only looking abroad? Compare all our [international trips from India](international-trips-from-india.html) by flight time, best months and visa type.
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
@@ -55,7 +57,7 @@ Plan your budget with our [trip budget calculator](../tools/trip-budget-calculat
 
 Goa is warm, dry and sunny in winter, and New Year's Eve is its biggest night. Fly into Mopa for North Goa's busy beaches, or Dabolim for central and South Goa. Remember the rules that bring big fines: no drinking or cooking on the beach, helmets on scooters, and loudspeakers only until midnight from 24 to 31 December.
 
-Read the full [Goa trip guide](goa.html) and our [Goa packing list](../guides/goa-packing-list.html).
+Read the full [Goa trip guide](goa.html), our [Goa New Year 2027 guide](goa-new-year-2027.html) and our [Goa packing list](../guides/goa-packing-list.html).
 
 ## Andaman: for clear sea and coral
 
@@ -109,7 +111,7 @@ Read the full [Singapore trip guide](singapore-trip-from-india.html), and see ou
 
 Dubai is at its best in December and January: about 26 °C by day and 15 °C at night, with rain on only about 2 days a month. Most Indians need a visa before they fly, usually through a tourism company, airline or hotel; GDRFA lists AED 200 for 30 days, plus VAT.
 
-Read the full [Dubai trip guide](dubai-trip-from-india.html), and see our [Dubai packing list](../guides/dubai-packing-list.html) and [UAE customs rules](../baggage/customs/uae-dubai.html).
+Read the full [Dubai trip guide](dubai-trip-from-india.html) and our [Dubai New Year 2027 guide](dubai-new-year-2027.html) for the Burj Khalifa fireworks, and see our [Dubai packing list](../guides/dubai-packing-list.html) and [UAE customs rules](../baggage/customs/uae-dubai.html).
 
 ## Sri Lanka: for an easy trip abroad with a free visa
 
@@ -233,7 +235,7 @@ Read the full [Kerala trip guide](kerala.html), and our [Munnar in December guid
 
 ## Long weekends in early 2027
 
-- **New Year:** 1 January 2027 is a Friday, so the weekend makes three days if your office gives it as a holiday. It isn't a national holiday everywhere, so check.
+- **New Year:** 1 January 2027 is a Friday, so the weekend makes three days if your office gives it as a holiday. It isn't a national holiday everywhere, so check. See our [New Year trips 2027](new-year-trips-2027.html).
 - **Republic Day:** 26 January 2027 is a Tuesday. Take Monday off, and you get four days. See our [Republic Day long weekend ideas](republic-day-long-weekend-2027.html). Want to see the parade in Delhi? Here's how [parade tickets](republic-day-parade-tickets-2027.html) work.
 - **The rest of 2027:** see every long weekend of the year, and the leave days that stretch them to 5 or 9 days, in our [long weekends 2027 planner](../tools/long-weekends-2027.html).
 - **Gifts:** if you're not travelling, see our [New Year gift ideas](../guides/new-year-gift-ideas.html).
@@ -279,7 +281,7 @@ Manali often gets snow from December to February, but not every year: December 2
 
 ### Where can I celebrate New Year in India?
 
-Goa is India's biggest New Year party, and Fort Kochi in Kerala ends the year with the Cochin Carnival and the Pappanji burning at midnight. Book early, because both get very crowded.
+Goa is India's biggest New Year party, and Fort Kochi in Kerala ends the year with the Cochin Carnival and the Pappanji burning at midnight. Book early, because both get very crowded. See [where to go for New Year 2027](new-year-trips-2027.html) for more ideas, in India and abroad.
 
 ### Is December a good time to visit Kerala?
 

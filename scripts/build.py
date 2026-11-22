@@ -226,7 +226,10 @@ def nav_menus(cfg, p):
     """Header menus: groups -> categories -> subcategories, then trips, tools, gifts, baggage rules and guides.
     Built with <details>, so every menu opens without JavaScript; static/site.js only closes the others."""
     groups = cfg.get("groups") or [{"name": "Shop", "categories": list(cfg["categories"])}]
-    trips = [(t, l) for t, l, f in (("trips/international-trips-from-india.html", "International trips from India", "international-trips-from-india.md"),
+    trips = [(t, l) for t, l, f in (("trips/new-year-trips-2027.html", "New Year trips 2027", "new-year-trips-2027.md"),
+                                    ("trips/goa-new-year-2027.html", "Goa New Year 2027", "goa-new-year-2027.md"),
+                                    ("trips/dubai-new-year-2027.html", "Dubai New Year 2027", "dubai-new-year-2027.md"),
+                                    ("trips/international-trips-from-india.html", "International trips from India", "international-trips-from-india.md"),
                                     ("trips/index.html", "All trip guides, India and abroad", None),
                                     ("trips/visiting-india.html", "Visiting India", "visiting-india.md"))
              if TRIPS_DIR.exists() and (f is None or (TRIPS_DIR / f).exists())]

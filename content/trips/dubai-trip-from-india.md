@@ -11,7 +11,7 @@ glance: Visa for Indians=Needed before you fly, through a tourism company, airli
 ---
 Dubai is the most popular trip abroad from India. Direct flights leave from more than 20 Indian cities, the flight is short, and the city is easy for families: big malls, beaches, a desert safari, Indian food everywhere and a metro from the airport. Most Indians need a visa before they fly, usually through a tourism company, an airline or a hotel. This guide covers the visa, the visa on arrival for Indians with a US, UK or EU visa, flights, a 5-day plan with an Abu Dhabi day trip, the weather in December, the metro, food and the rules to know.
 
-Packing for the trip? Use our [Dubai packing list](../guides/dubai-packing-list.html) for winter evenings, mall and mosque clothes, the desert safari and bag limits. Not sure what you can bring in? Read [UAE customs rules](../baggage/customs/uae-dubai.html) for the duty-free limits, cash, medicines and banned things like paan and poppy seeds. Still choosing a winter trip? Compare places in [where to go in December and January](where-to-go-in-december-january.html).
+Packing for the trip? Use our [Dubai packing list](../guides/dubai-packing-list.html) for winter evenings, mall and mosque clothes, the desert safari and bag limits. Not sure what you can bring in? Read [UAE customs rules](../baggage/customs/uae-dubai.html) for the duty-free limits, cash, medicines and banned things like paan and poppy seeds. Still choosing a winter trip? Compare places in [where to go in December and January](where-to-go-in-december-january.html). Going for New Year's Eve? Read our [Dubai New Year 2027 guide](dubai-new-year-2027.html) for the Burj Khalifa fireworks, free viewing areas and metro timings.
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
@@ -206,7 +206,7 @@ Four or five days cover Downtown Dubai, Old Dubai and the souks, a desert safari
 
 ### Is December a good time to visit Dubai?
 
-Yes. December averages about 26 °C by day and 15 °C at night, with rain on only about 2 days. It is also busy and costly around Christmas and New Year, so book early.
+Yes. December averages about 26 °C by day and 15 °C at night, with rain on only about 2 days. It is also busy and costly around Christmas and New Year, so book early. For New Year's Eve, see our [Dubai New Year 2027 guide](dubai-new-year-2027.html).
 
 ### What is the weather in Dubai in December?
 
