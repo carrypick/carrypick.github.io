@@ -1,7 +1,7 @@
 ---
 seo_title: International trips from India (2026–27): foreign trips by flight time, best months and visa type
 title: International trips from India: where to go, by flight time, season and visa
-description: Choosing a foreign trip from India? Compare Nepal, Bhutan, Sri Lanka, the Maldives, Dubai, Thailand, Vietnam, Malaysia, Hong Kong, Singapore, Mauritius, Bali, Japan, Europe, the UK and Australia by distance and rough flying time from Delhi and Mumbai, the best months, the visa type for Indians, and whether each suits a honeymoon or a family trip. Links to our trip guides, packing lists and baggage rules.
+description: Choosing a foreign trip from India? Compare Nepal, Bhutan, Sri Lanka, the Maldives, Dubai, Thailand, Vietnam, Malaysia, Hong Kong, Singapore, Mauritius, Bali, Japan, Europe, the UK, Australia and the USA by distance and rough flying time from Delhi and Mumbai, the best months, the visa type for Indians, and whether each suits a honeymoon or a family trip. Links to our trip guides, packing lists and baggage rules.
 date: 2026-11-21
 place: International trips
 hub_title: no
@@ -42,6 +42,7 @@ Distance is the straight-line distance from Delhi (DEL) or Mumbai (BOM) airport,
 | [Europe: Switzerland, Paris, Italy](europe-trip-from-india.html) | About 6,150 km (Zurich) / 6,540 km | About 8 to 9 hours from Delhi | May, June and September; December for Christmas markets | [Schengen visa](../guides/visa-free-countries-for-indians.html#schengen), applied for before you fly |
 | [UK (London)](uk-trip-from-india.html) | About 6,730 km (London) / 7,210 km | About 9 to 10 hours from Delhi | May to September; December for Christmas lights | [Standard Visitor visa](../guides/visa-free-countries-for-indians.html#uk), £135 |
 | [Australia](australia-trip-from-india.html) | About 10,430 km / 10,160 km (Sydney) | About 12 hours from Delhi | September to November; March to May | [Visitor visa online](../guides/visa-free-countries-for-indians.html#australia), from AUD 250 |
+| [USA](usa-trip-from-india.html) | About 11,760 km (New York) / 12,530 km | About 15 to 16 hours from Delhi | April to June; September and October | [B1/B2 visa with an interview](../guides/visa-free-countries-for-indians.html#usa), US$185 |
 
 Not every city has a direct flight to every country. Each trip guide lists the direct flights from Indian cities, with the date we checked.
 
@@ -94,6 +95,10 @@ Short trips abroad mean less time in the air and less tiredness, so you get more
 
 - **[Australia](australia-trip-from-india.html):** Sydney's harbour and Opera House, the Blue Mountains, Melbourne's laneways and trams, and the Great Ocean Road. Direct flights from Delhi to Sydney and Melbourne, and from Bengaluru to Sydney, about 12 hours. Indians apply online for the Visitor visa (subclass 600), from AUD 250; the ETA and eVisitor aren't open to Indian passports. The seasons are the opposite of India's.
 
+## The USA: New York, Las Vegas and California
+
+- **[USA](usa-trip-from-india.html):** the Statue of Liberty and Times Square in New York, the Las Vegas Strip and the Grand Canyon, Hollywood and Santa Monica, the Golden Gate Bridge, and Orlando's theme parks. Direct flights from Delhi and Mumbai to New York, and from Delhi to San Francisco and Chicago. Indians need the B1/B2 visitor visa (US$185) with an interview in India; check the official appointment wait time before you plan, and note that ESTA isn't open to Indian passports.
+
 ## Best international trips from India in December
 
 December and January are holiday months in India, and they suit these trips best:
@@ -115,6 +120,7 @@ December and January are holiday months in India, and they suit these trips best
 - **[Azerbaijan](azerbaijan-trip-from-india.html):** cool and windy in Baku, about 10 °C by day, with little rain.
 - **[UK](uk-trip-from-india.html):** cold, about 8 °C by day in London and dark by 4 PM, but with Christmas lights and markets.
 - **[Australia](australia-trip-from-india.html):** early summer: Sydney about 26 °C by day, Melbourne about 24 °C, and beach weather; the Australian school holidays make it busy.
+- **[USA](usa-trip-from-india.html):** cold in New York (about 6 °C by day, 0 °C at night) with Christmas lights; mild in Los Angeles (about 20 °C) and Orlando (about 22 °C).
 - **Less ideal in December:** [Singapore](singapore-trip-from-india.html) (its wettest month, with short showers) and [Bali](bali-trip-from-india.html) (the wet season).
 
 Christmas to New Year is the busiest time everywhere, so book early. Going away for New Year's Eve? See [where to go for New Year 2027](new-year-trips-2027.html) and our [Dubai New Year guide](dubai-new-year-2027.html). Comparing with trips inside India too? See [where to go in December and January](where-to-go-in-december-january.html).
@@ -126,7 +132,7 @@ Many people asking for a "cheap" foreign trip really want a short flight and an 
 - **No visa at all:** [Nepal](nepal-in-december.html), [Bhutan](bhutan-in-december.html) (Bhutan has an entry permit and a daily fee) and [Mauritius](mauritius-trip-from-india.html) (carry a return ticket and a hotel booking).
 - **No visa for a short tourist stay:** [Kazakhstan](kazakhstan-trip-from-india.html) (14 days), [Thailand](thailand-trip-from-india.html) (30 days), [Malaysia](malaysia-trip-from-india.html) (30 days, until 31 December 2026) and [Hong Kong](hong-kong-trip-from-india.html) (14 days, after a free online pre-arrival registration).
 - **A free visa online, or a visa on arrival:** [Sri Lanka](sri-lanka-trip-from-india.html) (free ETA), the [Maldives](maldives-trip-from-india.html) and [Bali](bali-trip-from-india.html) (visa on arrival).
-- **Apply before you fly:** [Vietnam](vietnam-trip-from-india.html) (e-visa online), [Georgia](georgia-trip-from-india.html) (e-visa online, or none with a US, UK or Schengen visa), [Azerbaijan](azerbaijan-trip-from-india.html) (e-visa online), [Turkey](turkey-trip-from-india.html) (visa from a Turkish mission, or an e-visa with a US, UK, Schengen or Irish visa), [Singapore](singapore-trip-from-india.html) (through an agent in India), [Japan](japan-trip-from-india.html) (eVISA through VFS), [Australia](australia-trip-from-india.html) (Visitor visa online), [UK](uk-trip-from-india.html) (Standard Visitor visa), [Europe](europe-trip-from-india.html) (Schengen visa, at least 15 days ahead) and [Dubai](dubai-trip-from-india.html) (through a tourism company, airline or hotel).
+- **Apply before you fly:** [Vietnam](vietnam-trip-from-india.html) (e-visa online), [Georgia](georgia-trip-from-india.html) (e-visa online, or none with a US, UK or Schengen visa), [Azerbaijan](azerbaijan-trip-from-india.html) (e-visa online), [Turkey](turkey-trip-from-india.html) (visa from a Turkish mission, or an e-visa with a US, UK, Schengen or Irish visa), [Singapore](singapore-trip-from-india.html) (through an agent in India), [Japan](japan-trip-from-india.html) (eVISA through VFS), [Australia](australia-trip-from-india.html) (Visitor visa online), [USA](usa-trip-from-india.html) (B1/B2 visa with an interview), [UK](uk-trip-from-india.html) (Standard Visitor visa), [Europe](europe-trip-from-india.html) (Schengen visa, at least 15 days ahead) and [Dubai](dubai-trip-from-india.html) (through a tourism company, airline or hotel).
 
 Rules change, and the officer at the airport decides on entry. Check our [visa guide](../guides/visa-free-countries-for-indians.html) and the trip guide before you book, and carry your return ticket and hotel booking.
 

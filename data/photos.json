@@ -711,6 +711,26 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "alt": "A camel with a red saddle cloth standing on the golden Sam sand dunes near Jaisalmer under a clear sky",
       "used": "2026-11-22"
+    },
+    "statue-of-liberty": {
+      "commons": "File:Statue of Liberty, NY.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Statue_of_Liberty,_NY.jpg",
+      "credit": "William Warby",
+      "profile": "https://www.flickr.com/photos/26782864@N00",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "alt": "The Statue of Liberty on Liberty Island in New York Harbor, under a blue sky",
+      "used": "2026-11-22"
+    },
+    "giza-pyramids": {
+      "commons": "File:All Gizah Pyramids.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg",
+      "credit": "Ricardo Liberato",
+      "profile": "http://liberato.org",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "alt": "The pyramids of Giza near Cairo in the desert, with the three small Queens' pyramids in front",
+      "used": "2026-11-22"
     }
   }
 }

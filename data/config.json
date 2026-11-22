@@ -34,7 +34,7 @@
     },
     "Air India": {
       "url": "https://clnk.in/Eldc",
-      "not_serves": ["Georgia", "Kazakhstan", "Turkey", "Azerbaijan"], "not_serves_checked": "2026-11-21: no Air India flights to Tbilisi, Almaty, Istanbul or Baku on the airports' Wikipedia lists", "scope": [
+      "not_serves": ["Georgia", "Kazakhstan", "Turkey", "Azerbaijan", "Egypt"], "not_serves_checked": "2026-11-21: no Air India flights to Tbilisi, Almaty, Istanbul or Baku on the airports' Wikipedia lists; 2026-11-22: none to Cairo", "scope": [
         "domestic",
         "international"
       ]
@@ -90,13 +90,13 @@
   "esim_partners": {
     "_note": "[[esim:Place]] boxes on trip guides. Cuelinks Airalo WW campaign, read 21 Nov 2026: 10.69% new users, 7.12% existing, 30-day cookie, all countries, text links and deep links allowed, web, mobile web and app tracked, 60 d validation, missing transactions not accepted. Deep links to airalo.com/<country>-esim, made 21 Nov 2026.",
     "Airalo": {
-      "Thailand": "https://clnk.in/EqFa", "Vietnam": "https://clnk.in/EqEo", "UAE": "https://clnk.in/EqEs", "Sri Lanka": "https://clnk.in/EqEt", "Indonesia": "https://clnk.in/EqEu", "Maldives": "https://clnk.in/EqEx", "Malaysia": "https://clnk.in/EqEA", "Singapore": "https://clnk.in/EqEB", "Nepal": "https://clnk.in/EqEC", "Japan": "https://clnk.in/EqED", "Hong Kong": "https://clnk.in/EqEF", "Europe": "https://clnk.in/EqEG", "Mauritius": "https://clnk.in/EqEH", "Georgia": "https://clnk.in/EqEI", "Kazakhstan": "https://clnk.in/EqEJ", "Bhutan": "https://clnk.in/EqE9", "Turkey": "https://clnk.in/EqHR", "Azerbaijan": "https://clnk.in/EqHS", "Australia": "https://clnk.in/EqOb", "UK": "https://clnk.in/EqOc"
+      "Thailand": "https://clnk.in/EqFa", "Vietnam": "https://clnk.in/EqEo", "UAE": "https://clnk.in/EqEs", "Sri Lanka": "https://clnk.in/EqEt", "Indonesia": "https://clnk.in/EqEu", "Maldives": "https://clnk.in/EqEx", "Malaysia": "https://clnk.in/EqEA", "Singapore": "https://clnk.in/EqEB", "Nepal": "https://clnk.in/EqEC", "Japan": "https://clnk.in/EqED", "Hong Kong": "https://clnk.in/EqEF", "Europe": "https://clnk.in/EqEG", "Mauritius": "https://clnk.in/EqEH", "Georgia": "https://clnk.in/EqEI", "Kazakhstan": "https://clnk.in/EqEJ", "Bhutan": "https://clnk.in/EqE9", "Turkey": "https://clnk.in/EqHR", "Azerbaijan": "https://clnk.in/EqHS", "Australia": "https://clnk.in/EqOb", "UK": "https://clnk.in/EqOc", "USA": "https://clnk.in/ErsD", "Egypt": "https://clnk.in/ErsE"
     }
   },
   "activity_partners": {
     "_note": "[[activities:Place]] boxes on trip guides, next to the Thrillophilia tours box. Cuelinks Klook campaign, read 21 Nov 2026: 3.56% on consumed bookings (gift cards 1.42%), 7-day cookie, all countries, text links and deep links allowed, web, mobile web and app tracked, 60 d validation, missing transactions not accepted. Deep links to klook.com/destination/ pages, made 21 Nov 2026.",
     "Klook": {
-      "Thailand": "https://clnk.in/EqD7", "Vietnam": "https://clnk.in/EqD9", "Bali": "https://clnk.in/EqEa", "Singapore": "https://clnk.in/EqEb", "Malaysia": "https://clnk.in/EqEc", "Hong Kong": "https://clnk.in/EqEd", "Japan": "https://clnk.in/EqEe", "Dubai": "https://clnk.in/EqEf", "Turkey": "https://clnk.in/EqIa", "Azerbaijan": "https://clnk.in/EqIb", "Australia": "https://clnk.in/EqOf", "UK": "https://clnk.in/EqOg"
+      "Thailand": "https://clnk.in/EqD7", "Vietnam": "https://clnk.in/EqD9", "Bali": "https://clnk.in/EqEa", "Singapore": "https://clnk.in/EqEb", "Malaysia": "https://clnk.in/EqEc", "Hong Kong": "https://clnk.in/EqEd", "Japan": "https://clnk.in/EqEe", "Dubai": "https://clnk.in/EqEf", "Turkey": "https://clnk.in/EqIa", "Azerbaijan": "https://clnk.in/EqIb", "Australia": "https://clnk.in/EqOf", "UK": "https://clnk.in/EqOg", "USA": "https://clnk.in/ErsF", "Egypt": "https://clnk.in/ErsG"
     }
   },
   "telegram_channel": "@carrypick",
