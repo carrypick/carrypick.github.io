@@ -42,7 +42,7 @@ Check the forecast in the week before you go. If snow matters most, plan for lat
 
 ## The Gulmarg Gondola
 
-The gondola goes up from Gulmarg in two stages: Phase 1 to Kongdori, and Phase 2 higher up, on Apharwat. It's the easiest way to reach deep snow.
+The gondola goes up from Gulmarg in two stages: Phase 1 to Kongdori, and Phase 2 higher up, on Apharwat. It's the easiest way to reach deep snow. Staying in Gulmarg? Read our full [Gulmarg in December guide](gulmarg-in-december.html): the first week versus the last week, the gondola phases and skiing.
 
 - **Book only on the official site.** The J&K Cable Car Corporation sells tickets online at [etickets.jammukashmircablecar.com](https://etickets.jammukashmircablecar.com/), and its own site asks tourists not to fall prey to touts. News reports say tickets bought any other way aren't valid, and police have caught tourists with fake tickets.
 - **Phase 2 stops in bad weather.** Services are often stopped when snow or strong wind comes in. Plan the gondola for your first clear morning, and keep a spare day.
