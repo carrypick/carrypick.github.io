@@ -181,7 +181,7 @@
       "name": "Books & Audiobooks",
       "subcategories": [
         {"slug": "guidebooks-phrasebooks", "name": "Guidebooks & phrasebooks", "title": "Travel guidebooks and phrasebooks", "intro": "Printed travel guidebooks for India, Europe and Japan, and a pocket Hindi phrasebook. We read the edition, publication date, pages and size on each Amazon.in listing."},
-        {"slug": "journals", "name": "Travel journals", "intro": "A printed travel journal to write in on the road."},
+        {"slug": "journals", "name": "Travel journals", "title": "Travel journals and diaries", "intro": "Printed travel journals to plan a trip and write in on the road: a hardcover for any trip, a guided Lonely Planet journal and a DK journal made for Japan."},
         {"slug": "kids", "name": "Kids' travel books", "title": "Travel books for kids", "intro": "An activity book, a travel journal and a world fact book for children who travel. The reading age is from each Amazon.in listing."},
         {"slug": "travel-stories", "name": "Travel stories", "title": "Travel story books that make good gifts", "intro": "Well-known books about journeys, in paperback: good to read on a long trip, or to give to someone who loves to travel."}
       ],
@@ -191,7 +191,7 @@
       "photo": "plane-window",
       "seo_title": "Travel books for India and abroad: guidebooks, phrasebooks, travel journals and kids' travel books",
       "guide": "audiobooks-for-long-flights",
-      "intro": "Printed travel guidebooks, a phrasebook, a travel journal, kids' travel books and travel stories that make good gifts. Every button goes to the printed edition. We read the edition, pages, size and language on each Amazon.in listing.",
+      "intro": "Printed travel guidebooks, a phrasebook, travel journals, kids' travel books and travel stories that make good gifts. Every button goes to the printed edition. We read the edition, pages, size and language on each Amazon.in listing. Cover images come from the publishers' own shops and Open Library.",
       "tip": "Guidebooks are heavy: Lonely Planet India is listed at 850 g. On a cabin-bag-only trip, take one guidebook and keep the rest on your phone. On a long flight, an audiobook weighs nothing."
     },
     "watches": {

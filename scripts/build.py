@@ -531,11 +531,29 @@ def media(cfg, category, cls="media"):
     return f'<div class="{cls} tint-{category}">{icon(cfg["categories"][category]["icon"], "icon media-icon")}</div>'
 
 
-def pick_img(deal, p, eager=False):
-    """Our own drawing of a pick (never a product photo). Width and height stop the layout from jumping."""
+def cover_alt(deal):
+    return "Front cover of " + deal["title"].split(" (")[0].split(", paperback")[0].split(", hardcover")[0]
+
+
+def pick_img(deal, p, eager=False, drawing=False):
+    """Our own drawing of a pick, or for a book its real front cover (from the publisher's shop or Open Library,
+    never from Amazon). drawing=True always gives the drawing. Width and height stop the layout from jumping."""
     load = 'fetchpriority="high"' if eager else 'loading="lazy" decoding="async"'
+    if deal.get("cover") and not drawing:
+        return (f'<img class="cover-img" src="{p}assets/{deal["cover"]["src"]}" width="{pick_art.W}" height="{pick_art.H}" '
+                f'alt="{e(cover_alt(deal))}" {load}>')
     return (f'<img src="{p}assets/picks/{deal["asin"]}.svg" width="{pick_art.W}" height="{pick_art.H}" '
             f'alt="{e(PICK_ART[deal["asin"]][1])}" {load}>')
+
+
+def cover_figure(d):
+    """A book's front cover on its pick page, with where the image comes from."""
+    c = d.get("cover")
+    if not c:
+        return ""
+    return (f'<figure class="pick-cover"><div class="art tint-{d["category"]}">{pick_img(d, "../", eager=True)}</div>'
+            f'<figcaption>Front cover. Image: <a href="{e(c["credit_url"])}" rel="nofollow noopener" target="_blank">{e(c["credit"])}</a>. '
+            f'Covers can change between printings.</figcaption></figure>\n  ')
 
 
 def share_image(asin):
@@ -3033,6 +3051,14 @@ def build():
             sys.exit("Error: deal %s has subcategory %r, which is not defined for %s in data/config.json. Use one of: %s"
                      % (d["asin"], d.get("subcategory"), d["category"], ", ".join(subs)))
         SUB_COUNTS[(d["category"], d.get("subcategory"))] = SUB_COUNTS.get((d["category"], d.get("subcategory")), 0) + 1
+        c = d.get("cover")
+        if c:
+            # Real covers only for books, only our own copy of a publisher or Open Library image, never Amazon's.
+            src = str(c.get("src", ""))
+            if (d["category"] != "books" or not re.fullmatch(r"covers/[0-9A-Z]{10}\.jpg", src) or not (STATIC_DIR / src).exists()
+                    or not c.get("credit") or not str(c.get("credit_url", "")).startswith("https://")
+                    or re.search(r"amazon|media-amazon|ssl-images", str(c), re.I)):
+                sys.exit("Error: deal %s cover must be a book, static/covers/<ASIN>.jpg, with credit and an https credit_url, and never an Amazon image" % d["asin"])
         # Amazon's Linking Requirements: no prices and no ratings (stars or rating counts) outside the API.
         text = json.dumps([d.get(k) for k in ("title", "note", "highlights", "best_for", "skip_if")], ensure_ascii=False)
         if re.search(r"(₹|\bRs\.?\s?|\bINR\s?)\d|\bratings\b|\bout of 5\b|\d stars?\b|★", text, re.I):
@@ -3267,6 +3293,10 @@ def build():
 <p>Its listed size is {" x ".join(num(x) for x in dims)} cm, {num(sum(dims))} cm in total. Here's how that compares with each airline's cabin limit.</p>
 <table class="specs">{fit_rows}</table>
 <p class="small"><a href="../baggage/checker.html?bag={d['asin']}">Open it in the cabin bag checker</a> to add its packed weight. Always check your airline before you fly.</p></section>"""
+        drawing_fig = (f'<figure class="pick-art"><div class="art tint-{d["category"]}">{pick_img(d, "../", eager=not d.get("cover"), drawing=True)}</div>'
+                       '<figcaption>Our drawing, made from the listed size, colour and details. It is not a photo of the product: Amazon.in shows the real photos.</figcaption></figure>')
+        media_html = (f'<div class="pick-media">{cover_figure(d)}{drawing_fig}</div>' if d.get("cover") else
+                      drawing_fig.replace('<figure class="pick-art">', '<figure class="pick-media pick-art">', 1).replace("</div><figcaption>", "</div>\n    <figcaption>", 1))
         body = f"""<div class="wrap">
 <nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="../category/{d['category']}.html">{e(cat['name'])}</a></nav>
 <article class="pick">
@@ -3282,8 +3312,7 @@ def build():
     </div>
   </div>
   {fit_html}
-  <figure class="pick-media pick-art"><div class="art tint-{d['category']}">{pick_img(d, "../", eager=True)}</div>
-    <figcaption>Our drawing, made from the listed size, colour and details. It is not a photo of the product: Amazon.in shows the real photos.</figcaption></figure>
+  {media_html}
   <div class="pick-info">
     <h2>Key features</h2>
     <ul class="features">{features}</ul>

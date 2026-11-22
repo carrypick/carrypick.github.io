@@ -692,3 +692,8 @@ body { top: 0 !important; }
   .lw-table td:nth-child(2) { font-weight: 700; font-size: 1.02rem; white-space: normal; padding-bottom: 4px; }
   .lw-table td[data-label]::before { content: attr(data-label) ": "; font-weight: 700; }
 }
+/* Book covers: shown whole inside the same 4:3 box as our drawings */
+.art img.cover-img { object-fit: contain; padding: 14px; aspect-ratio: 4 / 3; }
+.card-media .art img.cover-img { padding: 10px; }
+.pick-cover { margin-bottom: 16px; }
+.pick-cover .art { border-radius: 24px; overflow: hidden; }

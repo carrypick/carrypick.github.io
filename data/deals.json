@@ -4560,7 +4560,12 @@
       "Size": "13.08 x 4.13 x 19.81 cm",
       "Weight": "850 g (as listed)"
     },
-    "skip_if": "you're only visiting one region: a state or city guide is lighter."
+    "skip_if": "you're only visiting one region: a state or city guide is lighter.",
+    "cover": {
+      "src": "covers/1838698019.jpg",
+      "credit": "Lonely Planet",
+      "credit_url": "https://shop.lonelyplanet.com/products/india"
+    }
   },
   {
     "asin": "1838693874",
@@ -4588,7 +4593,12 @@
       "Size": "13.08 x 4.76 x 19.94 cm",
       "Weight": "968 g (as listed)"
     },
-    "skip_if": "you travel cabin-bag only: at almost 1 kg it's heavy."
+    "skip_if": "you travel cabin-bag only: at almost 1 kg it's heavy.",
+    "cover": {
+      "src": "covers/1838693874.jpg",
+      "credit": "Lonely Planet",
+      "credit_url": "https://shop.lonelyplanet.com/products/europe"
+    }
   },
   {
     "asin": "1838698140",
@@ -4616,7 +4626,12 @@
       "Size": "13.21 x 3.49 x 19.81 cm",
       "Weight": "700 g (as listed)"
     },
-    "skip_if": "you only need the Tokyo and Kyoto basics: a phone map may be enough."
+    "skip_if": "you only need the Tokyo and Kyoto basics: a phone map may be enough.",
+    "cover": {
+      "src": "covers/1838698140.jpg",
+      "credit": "Lonely Planet",
+      "credit_url": "https://shop.lonelyplanet.com/products/japan"
+    }
   },
   {
     "asin": "1787013499",
@@ -4644,7 +4659,12 @@
       "Size": "9.53 x 1.27 x 14.1 cm",
       "Weight": "294 g (as listed)"
     },
-    "skip_if": "you already speak Hindi: it's made for English speakers."
+    "skip_if": "you already speak Hindi: it's made for English speakers.",
+    "cover": {
+      "src": "covers/1787013499.jpg",
+      "credit": "Lonely Planet",
+      "credit_url": "https://shop.lonelyplanet.com/products/hindi-urdu-bengali-phrasebook-dictionary"
+    }
   },
   {
     "asin": "0241627265",
@@ -4672,7 +4692,12 @@
       "Size": "15.8 x 2.3 x 21.6 cm",
       "Weight": "540 g (as listed)"
     },
-    "skip_if": "you want a slim notebook for your pocket: this one is 540 g."
+    "skip_if": "you want a slim notebook for your pocket: this one is 540 g.",
+    "cover": {
+      "src": "covers/0241627265.jpg",
+      "credit": "DK",
+      "credit_url": "https://dk.com/products/9780241627266-travel-journal"
+    }
   },
   {
     "asin": "1788684745",
@@ -4728,7 +4753,12 @@
       "Reading age": "10 to 12 years",
       "Size": "17.53 x 0.95 x 21.84 cm"
     },
-    "skip_if": "your child doesn't like writing: the activity book is more about puzzles."
+    "skip_if": "your child doesn't like writing: the activity book is more about puzzles.",
+    "cover": {
+      "src": "covers/1760341002.jpg",
+      "credit": "Open Library",
+      "credit_url": "https://openlibrary.org/isbn/9781760341008"
+    }
   },
   {
     "asin": "1837588120",
@@ -4756,7 +4786,12 @@
       "Reading age": "8 to 12 years",
       "Size": "23.88 x 2.22 x 31.24 cm"
     },
-    "skip_if": "you want something to pack: it's a large coffee-table size."
+    "skip_if": "you want something to pack: it's a large coffee-table size.",
+    "cover": {
+      "src": "covers/1837588120.jpg",
+      "credit": "Lonely Planet",
+      "credit_url": "https://shop.lonelyplanet.com/products/the-travel-book-lonely-planet-kids-north-south-america-edition"
+    }
   },
   {
     "asin": "8172234988",
@@ -4783,7 +4818,12 @@
       "Language": "English",
       "Size": "12.9 x 1.5 x 19.8 cm"
     },
-    "skip_if": "they've already read it: almost every reader in India has."
+    "skip_if": "they've already read it: almost every reader in India has.",
+    "cover": {
+      "src": "covers/8172234988.jpg",
+      "credit": "Open Library",
+      "credit_url": "https://openlibrary.org/isbn/9788172234980"
+    }
   },
   {
     "asin": "0349117543",
@@ -4839,5 +4879,72 @@
       "Size": "12.9 x 2.3 x 19.8 cm"
     },
     "skip_if": "they prefer adventure stories: this one is about feelings and food."
+  },
+  {
+    "asin": "1837589984",
+    "added_at": "2026-11-22T19:30:00+05:30",
+    "title": "Lonely Planet's Travel Journal (Blue), flexibound",
+    "category": "books",
+    "subcategory": "journals",
+    "highlights": [
+      "Six trip planner sections for itineraries, budgets and memories",
+      "Packing lists, writing prompts, a sticker sheet and a pocket for keepsakes",
+      "192 pages, 416 g; published 12 March 2026 (as listed)"
+    ],
+    "note": "A guided journal that plans the trip and keeps the memories: a lighter pick than a hardcover.",
+    "brand": "Lonely Planet",
+    "best_for": [
+      "Trip planning",
+      "Gift for a traveller"
+    ],
+    "specs": {
+      "Type": "Guided travel journal",
+      "Format": "Flexibound",
+      "Edition": "March 2026",
+      "Pages": "192",
+      "Language": "English",
+      "Size": "17.02 x 1.59 x 21.84 cm",
+      "Weight": "416 g (as listed)",
+      "Colours": "Blue (also pink and green on Amazon.in)"
+    },
+    "skip_if": "you want blank pages only: much of it is prompts and planners.",
+    "cover": {
+      "src": "covers/1837589984.jpg",
+      "credit": "Lonely Planet",
+      "credit_url": "https://shop.lonelyplanet.com/products/lonely-planets-travel-journal-blue"
+    }
+  },
+  {
+    "asin": "0241801443",
+    "added_at": "2026-11-22T19:30:00+05:30",
+    "title": "DK Japan Travel Journal, A5 hardcover",
+    "category": "books",
+    "subcategory": "journals",
+    "highlights": [
+      "Space for 3 weeks of travel in Japan, with packing lists and budget trackers (as described)",
+      "Lined and blank pages for tickets, eki stamps and notes",
+      "Common Japanese phrases and local etiquette tips; 192 pages"
+    ],
+    "note": "Made for a Japan trip: a planner before you go and a keepsake after. Pairs well with Lonely Planet Japan.",
+    "brand": "DK Travel",
+    "best_for": [
+      "Japan trip",
+      "Honeymoon"
+    ],
+    "specs": {
+      "Type": "Travel journal",
+      "Format": "Hardcover",
+      "Edition": "1st, January 2026",
+      "Pages": "192",
+      "Language": "English",
+      "Size": "15.72 x 2.13 x 21.74 cm",
+      "Weight": "524 g (as listed)"
+    },
+    "skip_if": "you're not going to Japan: the general DK Travel Journal suits any trip.",
+    "cover": {
+      "src": "covers/0241801443.jpg",
+      "credit": "DK",
+      "credit_url": "https://dk.com/en-in/products/japan-travel-journal-copy"
+    }
   }
 ]
