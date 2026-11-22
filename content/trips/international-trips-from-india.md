@@ -1,7 +1,7 @@
 ---
 seo_title: International trips from India (2026–27): foreign trips by flight time, best months and visa type
 title: International trips from India: where to go, by flight time, season and visa
-description: Choosing a foreign trip from India? Compare Nepal, Bhutan, Sri Lanka, the Maldives, Dubai, Thailand, Vietnam, Malaysia, Hong Kong, Singapore, Egypt, Mauritius, Bali, Japan, Europe, the UK, Australia and the USA by distance and rough flying time from Delhi and Mumbai, the best months, the visa type for Indians, and whether each suits a honeymoon or a family trip. Links to our trip guides, packing lists and baggage rules.
+description: Choosing a foreign trip from India? Compare Nepal, Bhutan, Sri Lanka, the Maldives, Dubai, Thailand, Vietnam, Malaysia, Hong Kong, South Korea, Singapore, Egypt, Mauritius, Bali, Japan, Europe, the UK, Australia and the USA by distance and rough flying time from Delhi and Mumbai, the best months, the visa type for Indians, and whether each suits a honeymoon or a family trip. Links to our trip guides, packing lists and baggage rules.
 date: 2026-11-21
 place: International trips
 hub_title: no
@@ -37,6 +37,7 @@ Distance is the straight-line distance from Delhi (DEL) or Mumbai (BOM) airport,
 | [Singapore](singapore-trip-from-india.html) | About 4,160 km / 3,920 km | About 5½ hours | February to April | [Visa through an agent](../guides/visa-free-countries-for-indians.html#singapore) |
 | [Turkey](turkey-trip-from-india.html) | About 4,570 km (Istanbul) / 4,830 km | About 6 hours from Delhi | April to June; September and October | [Visa from a Turkish mission](../guides/visa-free-countries-for-indians.html#turkey), or an e-visa with a US, UK, Schengen or Irish visa |
 | [Egypt](egypt-trip-from-india.html) | About 4,400 km (Cairo) / 4,340 km | About 6 to 7 hours | October to April | [e-visa online](../guides/visa-free-countries-for-indians.html#egypt), US$30 single entry |
+| [South Korea](south-korea-trip-from-india.html) | About 4,650 km (Seoul) / 5,550 km | Direct from Delhi only (Air India, Korean Air) | April and May; October and November | [Visa through a VFS centre](../guides/visa-free-countries-for-indians.html#south-korea), ₹3,600 plus ₹1,600 VFS charge; Jeju has no visa for 30 days |
 | [Mauritius](mauritius-trip-from-india.html) | About 5,830 km / 4,700 km | About 6½ hours from Mumbai | May to November; December is warm with some rain | [No visa](../guides/visa-free-countries-for-indians.html#mauritius): return ticket and hotel booking |
 | [Bali (Indonesia)](bali-trip-from-india.html) | About 5,820 km / 5,570 km | About 7½ hours | April to October | [Visa on arrival or e-VOA](../guides/visa-free-countries-for-indians.html#indonesia) |
 | [Japan](japan-trip-from-india.html) | About 5,860 km / 6,730 km (Tokyo) | About 8 hours from Delhi | Late March to May; October and November | [eVISA through VFS](../guides/visa-free-countries-for-indians.html#japan) |
@@ -66,9 +67,10 @@ Short trips abroad mean less time in the air and less tiredness, so you get more
 - **[Singapore](singapore-trip-from-india.html):** gardens, Sentosa, Universal Studios and clean, safe streets. Indians need a visa through an agent. The easiest city trip abroad with kids. Many Indians combine it with Malaysia: see the [Singapore + Malaysia combo](malaysia-trip-from-india.html#singapore-malaysia-combo).
 - **[Bali](bali-trip-from-india.html):** the longest flight on this page. Indians get a visa on arrival. Rice terraces, temples, villas and beaches; a favourite honeymoon trip.
 
-## East Asia: Hong Kong and Japan
+## East Asia: Hong Kong, South Korea and Japan
 
 - **[Hong Kong](hong-kong-trip-from-india.html):** about 5 hours from Delhi. Indians need no visa for up to 14 days after a free online pre-arrival registration. Disneyland, Ocean Park, Victoria Peak and the harbour; a short city trip that suits families.
+- **[South Korea](south-korea-trip-from-india.html):** direct flights only from Delhi to Seoul. Indians need a visa, applied for through the Korea Visa Portal and a VFS centre (₹3,600 plus ₹1,600, at least 15 working days in Delhi); Jeju island has no visa for 30 days. Palaces and K-pop in Seoul, Busan's beaches and Gyeongju's temples; cherry blossom in early April and autumn leaves in late October.
 - **[Japan](japan-trip-from-india.html):** the longest flight on this page, about 8 hours from Delhi to Tokyo. Indians need a visa, now an eVISA through VFS. Tokyo, Mount Fuji, Kyoto, Osaka and bullet trains; cherry blossom in late March and early April.
 
 ## Mauritius: an island with no visa
@@ -115,6 +117,7 @@ December and January are holiday months in India, and they suit these trips best
 - **[Malaysia](malaysia-trip-from-india.html):** good for Langkawi and Penang; avoid the east coast islands, where the monsoon is at its peak.
 - **[Vietnam](vietnam-trip-from-india.html):** dry and warm in the south; cool in Hanoi.
 - **[Hong Kong](hong-kong-trip-from-india.html):** its driest month, about 20 °C by day; cool evenings.
+- **[South Korea](south-korea-trip-from-india.html):** cold and dry: Seoul about 4 °C by day and −3 °C at night, with skiing, ice festivals and Christmas lights; Busan is milder.
 - **[Japan](japan-trip-from-india.html):** cold (Tokyo about 12 °C by day, 4 °C at night) but mostly dry and sunny, with winter lights.
 - **[Mauritius](mauritius-trip-from-india.html):** warm, about 31 °C by day, with rain on about 6 days in Port Louis; the start of the busy season.
 - **[Europe](europe-trip-from-india.html):** cold, with Christmas markets and snow in the Swiss Alps; Zurich averages about −2 °C at night.
@@ -138,7 +141,7 @@ Many people asking for a "cheap" foreign trip really want a short flight and an 
 - **No visa at all:** [Nepal](nepal-in-december.html), [Bhutan](bhutan-in-december.html) (Bhutan has an entry permit and a daily fee) and [Mauritius](mauritius-trip-from-india.html) (carry a return ticket and a hotel booking).
 - **No visa for a short tourist stay:** [Kazakhstan](kazakhstan-trip-from-india.html) (14 days), [Thailand](thailand-trip-from-india.html) (30 days), [Malaysia](malaysia-trip-from-india.html) (30 days, until 31 December 2026) and [Hong Kong](hong-kong-trip-from-india.html) (14 days, after a free online pre-arrival registration).
 - **A free visa online, or a visa on arrival:** [Sri Lanka](sri-lanka-trip-from-india.html) (free ETA), the [Maldives](maldives-trip-from-india.html) and [Bali](bali-trip-from-india.html) (visa on arrival).
-- **Apply before you fly:** [Vietnam](vietnam-trip-from-india.html) (e-visa online), [Georgia](georgia-trip-from-india.html) (e-visa online, or none with a US, UK or Schengen visa), [Azerbaijan](azerbaijan-trip-from-india.html) (e-visa online), [Egypt](egypt-trip-from-india.html) (e-visa online, at least 7 days ahead), [Turkey](turkey-trip-from-india.html) (visa from a Turkish mission, or an e-visa with a US, UK, Schengen or Irish visa), [Singapore](singapore-trip-from-india.html) (through an agent in India), [Japan](japan-trip-from-india.html) (eVISA through VFS), [Australia](australia-trip-from-india.html) (Visitor visa online), [USA](usa-trip-from-india.html) (B1/B2 visa with an interview), [UK](uk-trip-from-india.html) (Standard Visitor visa), [Europe](europe-trip-from-india.html) (Schengen visa, at least 15 days ahead) and [Dubai](dubai-trip-from-india.html) (through a tourism company, airline or hotel).
+- **Apply before you fly:** [Vietnam](vietnam-trip-from-india.html) (e-visa online), [Georgia](georgia-trip-from-india.html) (e-visa online, or none with a US, UK or Schengen visa), [Azerbaijan](azerbaijan-trip-from-india.html) (e-visa online), [Egypt](egypt-trip-from-india.html) (e-visa online, at least 7 days ahead), [Turkey](turkey-trip-from-india.html) (visa from a Turkish mission, or an e-visa with a US, UK, Schengen or Irish visa), [Singapore](singapore-trip-from-india.html) (through an agent in India), [Japan](japan-trip-from-india.html) (eVISA through VFS), [South Korea](south-korea-trip-from-india.html) (visa through a VFS centre, at least 15 working days; Jeju without a visa), [Australia](australia-trip-from-india.html) (Visitor visa online), [USA](usa-trip-from-india.html) (B1/B2 visa with an interview), [UK](uk-trip-from-india.html) (Standard Visitor visa), [Europe](europe-trip-from-india.html) (Schengen visa, at least 15 days ahead) and [Dubai](dubai-trip-from-india.html) (through a tourism company, airline or hotel).
 
 Rules change, and the officer at the airport decides on entry. Check our [visa guide](../guides/visa-free-countries-for-indians.html) and the trip guide before you book, and carry your return ticket and hotel booking.
 
