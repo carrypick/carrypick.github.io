@@ -111,3 +111,53 @@
     });
   });
 })();
+
+// Header menus are <details>, so they open without JavaScript. Here we only keep one open at a time,
+// and close them on a click elsewhere or the Escape key.
+(function () {
+  var menus = document.querySelectorAll(".nav-group, .mnav, .lang-menu");
+  if (!menus.length) return;
+  menus.forEach(function (m) {
+    m.addEventListener("toggle", function () {
+      if (!m.open) return;
+      menus.forEach(function (o) { if (o !== m && o.open && !o.contains(m)) o.open = false; });
+    });
+  });
+  document.addEventListener("click", function (ev) {
+    menus.forEach(function (m) { if (m.open && !m.contains(ev.target)) m.open = false; });
+  });
+  document.addEventListener("keydown", function (ev) {
+    if (ev.key !== "Escape") return;
+    menus.forEach(function (m) {
+      if (!m.open) return;
+      var back = m.contains(document.activeElement);
+      m.open = false;
+      if (back) m.querySelector("summary").focus();
+    });
+  });
+})();
+
+// Category pages: the subcategory chips jump to their headings without JavaScript. With it, they filter the picks in place.
+(function () {
+  var bar = document.querySelector(".sub-chips [data-sub]") && document.querySelector(".sub-chips");
+  if (!bar) return;
+  var sections = document.querySelectorAll("[data-sub-section]");
+  function show(sub) {
+    sections.forEach(function (s) { s.hidden = !!sub && s.getAttribute("data-sub-section") !== sub; });
+    bar.querySelectorAll("[data-sub]").forEach(function (c) {
+      var on = c.getAttribute("data-sub") === (sub || "");
+      c.classList.toggle("on", on);
+      if (on) c.setAttribute("aria-current", "true"); else c.removeAttribute("aria-current");
+    });
+  }
+  bar.addEventListener("click", function (ev) {
+    var chip = ev.target.closest("[data-sub]");
+    if (!chip) return;
+    ev.preventDefault();
+    var sub = chip.getAttribute("data-sub");
+    show(sub);
+    try { history.replaceState(null, "", sub ? "#" + sub : location.pathname); } catch (err) { /* file:// or blocked */ }
+  });
+  var start = location.hash.slice(1);
+  if (start && document.querySelector('[data-sub-section="' + start.replace(/[^a-z0-9-]/g, "") + '"]')) show(start);
+})();

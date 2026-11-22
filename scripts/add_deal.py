@@ -3,7 +3,7 @@
 Examples:
   python3 scripts/add_deal.py --link-only "https://www.amazon.in/Some-Bag/dp/B0ABCDEFGH/ref=sr_1_1?keywords=bag"
   python3 scripts/add_deal.py "https://amzn.in/d/abc123" --title "Skybags Brat 46 cm Backpack" \
-      --category backpacks --highlight "3 compartments" --highlight "Fits a 15.6 inch laptop" \
+      --category backpacks --subcategory laptop-backpacks --highlight "3 compartments" --highlight "Fits a 15.6 inch laptop" \
       --note "Light and roomy for college" --brand Skybags --colour Blue --best-for College \
       --spec "Capacity=30 L" --spec "Warranty=1 year" --skip-if "you need a rain cover."
   python3 scripts/add_deal.py B0ABCDEFGH --deal-seen "2026-11-03T09:15"   # Amazon shows a deal label right now
@@ -28,6 +28,7 @@ def main():
     parser.add_argument("--link-only", action="store_true", help="only print the affiliate link")
     parser.add_argument("--title")
     parser.add_argument("--category")
+    parser.add_argument("--subcategory", help="one of the category's subcategory slugs in data/config.json, e.g. cabin-trolleys")
     parser.add_argument("--highlight", action="append", default=[], help="a key feature (repeat for more)")
     parser.add_argument("--note", help="one line on why we picked it")
     parser.add_argument("--brand")
@@ -76,6 +77,11 @@ def main():
 
     deals = load_deals()
     deal = find_deal(deals, asin)
+    category = args.category or (deal or {}).get("category")
+    subs = [s["slug"] for s in config["categories"].get(category, {}).get("subcategories", [])] if category else []
+    if subs and (args.subcategory or (deal is None) or (args.category and args.category != deal.get("category"))):
+        if args.subcategory not in subs:
+            sys.exit("Error: --subcategory must be one of: " + ", ".join(subs))
     if deal is None:
         if not (args.title and args.category and args.highlight):
             sys.exit("Error: a new pick needs --title, --category and at least one --highlight.")
@@ -89,6 +95,8 @@ def main():
         deal["title"] = args.title
     if args.category:
         deal["category"] = args.category
+    if args.subcategory:
+        deal["subcategory"] = args.subcategory
     if args.highlight:
         deal["highlights"] = args.highlight
     if args.note is not None:

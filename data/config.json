@@ -102,9 +102,21 @@
   "telegram_channel": "@carrypick",
   "whatsapp_channel": "https://whatsapp.com/channel/0029VbDekeR6LwHmUXBPlY0Y",
   "contact_email": "",
+  "groups": [
+    {"name": "Bags & Luggage", "categories": ["luggage", "backpacks", "handbags"]},
+    {"name": "Travel Essentials", "categories": ["travel-gear", "travel-tech"]},
+    {"name": "Clothing & Shoes", "categories": ["clothing", "shoes"]},
+    {"name": "Accessories", "categories": ["watches", "sunglasses", "wallets-belts"]},
+    {"name": "Beauty & Grooming", "categories": ["perfumes", "grooming", "skincare"]}
+  ],
   "categories": {
     "backpacks": {
       "name": "Backpacks",
+      "subcategories": [
+        {"slug": "laptop-backpacks", "name": "Laptop backpacks", "title": "Laptop backpacks for office and college", "intro": "Backpacks with a laptop space for office, college and work trips. We note the laptop size each listing gives."},
+        {"slug": "travel-backpacks", "name": "Travel & trekking", "title": "Travel, weekender and trekking backpacks", "intro": "Bigger backpacks, 40 litres and up, for weekend trips, overnight journeys and treks."},
+        {"slug": "school-college-bags", "name": "School & everyday bags", "title": "School bags and everyday backpacks", "intro": "School bags for kids and teens, and everyday backpacks without a listed laptop sleeve."}
+      ],
       "emoji": "🎒",
       "hashtag": "#Backpacks",
       "icon": "backpack",
@@ -116,6 +128,13 @@
     },
     "luggage": {
       "name": "Luggage & Trolley Bags",
+      "subcategories": [
+        {"slug": "cabin-trolleys", "name": "Cabin & small trolleys", "title": "Cabin trolley bags and small suitcases", "intro": "Trolleys up to about 60 cm tall. Most are 55 to 56 cm cabin size, but check your airline's cabin limit before you fly."},
+        {"slug": "medium-trolleys", "name": "Medium check-in trolleys", "title": "Medium check-in trolley bags (64 to 68 cm)", "intro": "Check-in trolleys from 64 to 68 cm, a common size for trips of about a week."},
+        {"slug": "large-trolleys", "name": "Large check-in trolleys", "title": "Large check-in trolley bags (75 to 81 cm)", "intro": "Big check-in trolleys from 75 to 81 cm for long trips and family travel. Weigh them packed, as they fill past airline limits fast."},
+        {"slug": "luggage-sets", "name": "Luggage sets", "title": "Trolley bag sets of 2 and 3", "intro": "Sets of two or three trolleys in different sizes, handy for families and couples."},
+        {"slug": "duffles", "name": "Duffle bags", "title": "Travel duffle bags and duffle trolleys", "intro": "Soft duffle bags for weekend trips and train journeys, including one with wheels."}
+      ],
       "emoji": "🧳",
       "hashtag": "#Luggage",
       "icon": "suitcase",
@@ -127,6 +146,13 @@
     },
     "travel-gear": {
       "name": "Travel Gear",
+      "subcategories": [
+        {"slug": "packing-organisers", "name": "Packing cubes & organisers", "title": "Packing cubes and travel organisers", "intro": "Packing cubes and a cable organiser that keep a suitcase or backpack tidy."},
+        {"slug": "neck-pillows", "name": "Neck pillows", "intro": "Memory foam neck pillows for flights, trains and night buses."},
+        {"slug": "passport-toiletry", "name": "Passport, toiletry & pouches", "title": "Passport holders, toiletry bags and waterproof pouches", "intro": "A passport holder, a toiletry bag and waterproof phone pouches for trips abroad and beach days."},
+        {"slug": "bottles", "name": "Water bottles", "intro": "Steel water bottles for train journeys, school and day trips."},
+        {"slug": "luggage-scales", "name": "Luggage scales", "intro": "A digital luggage scale to weigh your bag at home before the airport does."}
+      ],
       "emoji": "✈️",
       "hashtag": "#TravelGear",
       "icon": "plane",
@@ -138,6 +164,10 @@
     },
     "travel-tech": {
       "name": "Travel Tech",
+      "subcategories": [
+        {"slug": "power-banks", "name": "Power banks", "title": "Power banks for flights (10,000 and 20,000 mAh)", "intro": "10,000 and 20,000 mAh power banks, both under the 100 Wh airline limit. They go in your cabin bag only."},
+        {"slug": "travel-adapters", "name": "Travel adapters", "title": "Universal travel adapters", "intro": "Universal adapters for plugs abroad, with USB ports for phones and laptops."}
+      ],
       "emoji": "🔌",
       "hashtag": "#TravelTech",
       "icon": "plug",
@@ -149,6 +179,13 @@
     },
     "watches": {
       "name": "Watches",
+      "subcategories": [
+        {"slug": "mens-watches", "name": "Men's watches", "title": "Analog watches for men", "intro": "Analog watches for men from Titan, Timex, Casio and Invicta, for office, daily wear and gifts."},
+        {"slug": "womens-watches", "name": "Women's watches", "title": "Analog watches for women", "intro": "Analog watches for women for daily wear, college and gifts."},
+        {"slug": "couple-watches", "name": "Couple watches", "title": "Couple watch sets (pair watches)", "intro": "His and hers watch sets for weddings and anniversaries."},
+        {"slug": "kids-watches", "name": "Kids' watches", "intro": "Simple analog watches for a child's first watch."},
+        {"slug": "unisex-watches", "name": "Unisex watches", "intro": "Minimal analog watches anyone can wear."}
+      ],
       "emoji": "⌚",
       "hashtag": "#Watches",
       "icon": "watch",
@@ -160,6 +197,10 @@
     },
     "sunglasses": {
       "name": "Sunglasses",
+      "subcategories": [
+        {"slug": "polarized", "name": "Polarized sunglasses", "title": "Polarized sunglasses for driving, beaches and snow", "intro": "Sunglasses with polarized lenses, which cut glare from water, snow and roads."},
+        {"slug": "uv-protected", "name": "UV-protected sunglasses", "intro": "Fastrack sunglasses with UV-protected lenses for city trips and road trips."}
+      ],
       "emoji": "🕶️",
       "hashtag": "#Sunglasses",
       "icon": "glasses",
@@ -171,6 +212,13 @@
     },
     "clothing": {
       "name": "Clothing & Winter Wear",
+      "subcategories": [
+        {"slug": "thermals", "name": "Thermals", "title": "Thermal wear sets for men, women and kids", "intro": "Thermal top and lower sets for men, women and kids, the first layer for hill trips and snow."},
+        {"slug": "jackets", "name": "Jackets", "title": "Winter jackets for travel", "intro": "Quilted and puffer jackets with hoods for men, women and kids."},
+        {"slug": "sweatshirts-tracksuits", "name": "Sweatshirts & tracksuits", "intro": "Hoodies and track suits for cool evenings and travel days."},
+        {"slug": "winter-accessories", "name": "Caps, gloves & neck warmers", "intro": "A cap, neck warmer and gloves set for cold places."},
+        {"slug": "rain-gear", "name": "Rain gear", "intro": "A hooded rain poncho for monsoon trips."}
+      ],
       "emoji": "🧥",
       "hashtag": "#TravelClothes",
       "icon": "jacket",
@@ -182,6 +230,11 @@
     },
     "shoes": {
       "name": "Shoes & Sandals",
+      "subcategories": [
+        {"slug": "walking-shoes", "name": "Walking shoes", "intro": "Walking shoes for sightseeing and long airport walks."},
+        {"slug": "hiking-snow", "name": "Hiking shoes & snow boots", "title": "Hiking shoes and winter boots", "intro": "Waterproof hiking shoes and lace-up winter boots for hill trips, rain and snow."},
+        {"slug": "sandals-flip-flops", "name": "Sandals & flip-flops", "intro": "Sandals and flip-flops for warm places, beaches and hotels."}
+      ],
       "emoji": "🥾",
       "hashtag": "#TravelShoes",
       "icon": "shoe",
@@ -193,6 +246,10 @@
     },
     "handbags": {
       "name": "Handbags & Slings",
+      "subcategories": [
+        {"slug": "totes", "name": "Totes & satchels", "title": "Tote bags and satchels for women", "intro": "Roomy totes and satchels for office, flights and daily use."},
+        {"slug": "slings-crossbody", "name": "Slings & crossbody", "title": "Sling and crossbody bags for travel", "intro": "Small slings and crossbody bags that keep your phone, cards and passport close while you sightsee."}
+      ],
       "emoji": "👜",
       "hashtag": "#Handbags",
       "icon": "handbag",
@@ -204,6 +261,10 @@
     },
     "wallets-belts": {
       "name": "Wallets & Belts",
+      "subcategories": [
+        {"slug": "wallets", "name": "Wallets", "title": "Leather wallets for men and women", "intro": "Wallets for men and women, some with RFID blocking, plus a wallet gift set."},
+        {"slug": "belts", "name": "Belts", "intro": "Leather and reversible belts for men."}
+      ],
       "emoji": "👛",
       "hashtag": "#Wallets",
       "icon": "wallet",
@@ -215,6 +276,11 @@
     },
     "perfumes": {
       "name": "Perfumes",
+      "subcategories": [
+        {"slug": "gift-sets", "name": "Perfume gift sets", "title": "Perfume gift sets (4 x 20 ml)", "intro": "Gift sets of four 20 ml eau de parfum bottles, for men, women and couples. Each bottle is under 100 ml, so it fits a cabin bag liquids pouch."},
+        {"slug": "attar", "name": "Attar", "intro": "Attar roll-ons in a gift set."},
+        {"slug": "pocket-perfumes", "name": "Pocket perfumes", "intro": "Small pocket perfumes for travel and office bags."}
+      ],
       "emoji": "🌸",
       "hashtag": "#Perfume",
       "icon": "perfume",
@@ -226,6 +292,10 @@
     },
     "grooming": {
       "name": "Grooming",
+      "subcategories": [
+        {"slug": "grooming-kits", "name": "All-in-one grooming kits", "title": "All-in-one trimmer and grooming kits for men", "intro": "Multi-attachment trimmer kits for beard, hair, body and nose."},
+        {"slug": "trimmers", "name": "Trimmers & shavers", "intro": "Beard trimmers and a trim-and-shave tool for travel."}
+      ],
       "emoji": "🪒",
       "hashtag": "#Grooming",
       "icon": "trimmer",
@@ -237,6 +307,11 @@
     },
     "skincare": {
       "name": "Sun Care & Skincare",
+      "subcategories": [
+        {"slug": "sunscreen", "name": "Sunscreen", "title": "Sunscreen for travel (SPF 50)", "intro": "SPF 50 sunscreens for face and body, all 100 ml or less, so they fit the cabin bag liquids rule."},
+        {"slug": "lip-care", "name": "Lip care", "intro": "Lip balm with SPF for sun, wind and cold."},
+        {"slug": "face-body-care", "name": "Face & body care", "intro": "Travel-size moisturiser and face wash for flights and dry, cold places."}
+      ],
       "emoji": "🧴",
       "hashtag": "#SunCare",
       "icon": "sun",

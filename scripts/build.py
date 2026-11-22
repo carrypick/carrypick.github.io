@@ -57,6 +57,8 @@ DIAGRAMS = {}  # filled by build() from scripts/diagrams.py
 PICK_ART = {}  # ASIN -> (svg, alt), our drawing of each pick, filled by build() from scripts/pick_art.py
 PICK_ART_DIR = STATIC_DIR / "picks"  # share images of the drawings, made by scripts/make_pick_images.py
 TOOLS = []     # travel tool pages, filled by build(): (path, short name, eyebrow, title, text, link text, icon, tint, photo)
+SUB_COUNTS = {}  # (category, subcategory) -> number of picks, filled by build()
+SUB_PAGE_MIN = 3  # a subcategory gets its own page only with this many picks (no thin pages)
 HINDI_PAGES = {}  # English path -> its Hindi version, filled by build() when data/hindi.json exists
 DISCLOSURE = "As an Amazon Associate I earn from qualifying purchases."
 KEEP_IN_DOCS = {"CNAME"}
@@ -78,6 +80,7 @@ ICONS = {
     "train": '<rect x="5.5" y="3" width="13" height="14" rx="3"/><path d="M5.5 10.5h13M9 17l-2.5 4M15 17l2.5 4"/>'
              '<circle cx="9" cy="13.8" r=".9"/><circle cx="15" cy="13.8" r=".9"/>',
     "arrow": '<path d="M5 12h14M13 6l6 6-6 6"/>',
+    "menu": '<path d="M4 7h16M4 12h16M4 17h16"/>',
     "shield": '<path d="M12 3l7 3v6c0 4.5-3 7.6-7 9-4-1.4-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/>',
     "ruler": '<rect x="2.5" y="8" width="19" height="8" rx="1.5"/><path d="M6.5 8v3M10.5 8v4M14.5 8v3M18.5 8v4"/>',
     "pin": '<path d="M12 21s-6-5.4-6-10a6 6 0 0 1 12 0c0 4.6-6 10-6 10z"/><circle cx="12" cy="11" r="2.2"/>',
@@ -207,6 +210,76 @@ def language_menu(path, p, lang):
     </details>"""
 
 
+def live_subs(cfg, slug):
+    """A category's subcategories that have at least one pick, in config order."""
+    return [s for s in cfg["categories"][slug].get("subcategories", []) if SUB_COUNTS.get((slug, s["slug"]))]
+
+
+def sub_href(slug, sub, p):
+    """A subcategory's own page when it has enough picks, else its heading on the category page."""
+    if SUB_COUNTS.get((slug, sub["slug"]), 0) >= SUB_PAGE_MIN:
+        return "%scategory/%s/%s.html" % (p, slug, sub["slug"])
+    return "%scategory/%s.html#%s" % (p, slug, sub["slug"])
+
+
+def nav_menus(cfg, p):
+    """Header menus: groups -> categories -> subcategories, then trips, tools, gifts, baggage rules and guides.
+    Built with <details>, so every menu opens without JavaScript; static/site.js only closes the others."""
+    groups = cfg.get("groups") or [{"name": "Shop", "categories": list(cfg["categories"])}]
+    trips = [(t, l) for t, l, f in (("trips/international-trips-from-india.html", "International trips from India", "international-trips-from-india.md"),
+                                    ("trips/index.html", "All trip guides, India and abroad", None),
+                                    ("trips/visiting-india.html", "Visiting India", "visiting-india.md"))
+             if TRIPS_DIR.exists() and (f is None or (TRIPS_DIR / f).exists())]
+    tools = [(t[0], t[1]) for t in TOOLS]
+    gift = "tools/gift-finder.html" if any(t[0] == "tools/gift-finder.html" for t in TOOLS) else None
+    plain = ([(gift, "Gifts")] if gift else []) + [("baggage/index.html", "Baggage rules"), ("guides/index.html", "Guides")]
+
+    def links(items, cls="nav-list"):
+        return '<ul class="%s">%s</ul>' % (cls, "".join('<li><a href="%s%s">%s</a></li>' % (p, h, e(l)) for h, l in items))
+
+    def col(slug):
+        c = cfg["categories"][slug]
+        subs = "".join('<li><a href="%s">%s</a></li>' % (e(sub_href(slug, s, p)), e(s["name"])) for s in live_subs(cfg, slug))
+        return (f'<div class="nav-col"><a class="nav-cat" href="{p}category/{slug}.html">'
+                f'<span class="nav-cat-icon tint-{slug}">{icon(c["icon"], "icon icon-sm")}</span>{e(c["name"])}</a>'
+                f'<ul class="nav-subs">{subs}</ul></div>')
+
+    desk = "".join(f'<details class="nav-group"><summary>{e(g["name"])}</summary>'
+                   f'<div class="nav-panel"><div class="nav-cols">{"".join(col(s) for s in g["categories"])}</div></div></details>'
+                   for g in groups)
+    if trips:
+        desk += f'<details class="nav-group nav-small"><summary>Trips</summary><div class="nav-panel">{links(trips)}</div></details>'
+    if tools:
+        desk += f'<details class="nav-group nav-small nav-tools"><summary>Tools</summary><div class="nav-panel">{links(tools, "nav-list nav-list-2")}</div></details>'
+    desk += "".join('<a class="nav-link" href="%s%s">%s</a>' % (p, h, e(l)) for h, l in plain)
+
+    def mcat(slug):
+        c = cfg["categories"][slug]
+        n = sum(SUB_COUNTS.get((slug, s["slug"]), 0) for s in c.get("subcategories", []))
+        subs = "".join('<li><a href="%s">%s</a></li>' % (e(sub_href(slug, s, p)), e(s["name"])) for s in live_subs(cfg, slug))
+        return (f'<li><details class="mnav-cat"><summary>{e(c["name"])}</summary><ul>'
+                f'<li><a href="{p}category/{slug}.html"><strong>All {e(c["name"].split(" &")[0].lower())} ({n})</strong></a></li>{subs}</ul></details></li>')
+
+    mob_groups = "".join(f'<details class="mnav-group"><summary>{e(g["name"])}</summary><ul class="mnav-cats">{"".join(mcat(s) for s in g["categories"])}</ul></details>'
+                         for g in groups)
+    mob_more = ""
+    if trips:
+        mob_more += f'<details class="mnav-group"><summary>Trips</summary>{links(trips, "mnav-cats mnav-plain")}</details>'
+    if tools:
+        mob_more += f'<details class="mnav-group"><summary>Tools</summary>{links(tools, "mnav-cats mnav-plain")}</details>'
+    mob_more += links(plain, "mnav-links")
+    mobile = f"""<details class="mnav">
+      <summary aria-label="Menu: shop by category, trips and tools">{icon("menu", "icon icon-sm")}<span>Menu</span></summary>
+      <div class="mnav-panel">
+        <p class="lang-head">Shop by category</p>
+        {mob_groups}
+        <p class="lang-head">Travel</p>
+        {mob_more}
+      </div>
+    </details>"""
+    return f'<nav class="main-nav" aria-label="Main menu">{desk}</nav>', mobile
+
+
 def share_bar(cfg, path, title, lang="en"):
     """WhatsApp, Telegram and copy-link buttons, so readers can pass a guide, tool or pick on to friends and family."""
     if not cfg["base_url"]:
@@ -267,10 +340,7 @@ def page(cfg, title, description, body, depth, path, schema=None, og_type="websi
         head_extra += '\n<meta name="cuelinks-verification" content="%s">' % e(cfg["cuelinks_site_verification"])
     if cfg.get("base_url"):
         head_extra += '\n<link rel="alternate" type="application/atom+xml" title="%s guides" href="%s/feed.xml">' % (e(cfg["site_name"]), e(cfg["base_url"].rstrip("/")))
-    nav = "".join(
-        '<a href="%scategory/%s.html">%s</a>' % (p, slug, e(c["name"].split(" &")[0]))
-        for slug, c in cfg["categories"].items()
-    )
+    nav, mobile_nav = nav_menus(cfg, p)
     tg = telegram_url(cfg)
     tg_btn = ('<a class="nav-cta" href="%s" target="_blank" rel="noopener">%s<span>Telegram</span></a>'
               % (e(tg), icon("send", "icon icon-sm"))) if tg else ""
@@ -304,9 +374,10 @@ def page(cfg, title, description, body, depth, path, schema=None, og_type="websi
 <header class="site-header">
   <div class="wrap header-row">
     <a class="brand notranslate" href="{p}index.html"><img src="{p}assets/logo.png" alt="" width="34" height="34"><span>{name}</span></a>
-    <nav class="main-nav">{nav}<a class="nav-keep" href="{p}baggage/index.html">Baggage<span class="nav-long"> rules</span></a>{('<a class="nav-keep" href="%strips/index.html">Trips</a>' % p) if TRIPS_DIR.exists() else ""}<a class="nav-keep" href="{p}guides/index.html">Guides</a></nav>
+    {mobile_nav}
     {tg_btn}
     {language_menu(path, p, lang)}
+    {nav}
   </div>
 </header>
 <p class="disclosure-bar"><span class="wrap">We may earn a commission when you buy through links on this site. <span class="notranslate">{DISCLOSURE}</span></span></p>
@@ -2931,10 +3002,22 @@ def build():
             sys.exit("Error: deal %s has asin_us %r, which is not a 10-character amazon.com ASIN" % (d["asin"], d["asin_us"]))
         if d["category"] not in cfg["categories"]:
             sys.exit("Error: deal %s has unknown category %s" % (d["asin"], d["category"]))
+        subs = [s["slug"] for s in cfg["categories"][d["category"]].get("subcategories", [])]
+        if subs and d.get("subcategory") not in subs:
+            sys.exit("Error: deal %s has subcategory %r, which is not defined for %s in data/config.json. Use one of: %s"
+                     % (d["asin"], d.get("subcategory"), d["category"], ", ".join(subs)))
+        SUB_COUNTS[(d["category"], d.get("subcategory"))] = SUB_COUNTS.get((d["category"], d.get("subcategory")), 0) + 1
         # Amazon's Linking Requirements: no prices and no ratings (stars or rating counts) outside the API.
         text = json.dumps([d.get(k) for k in ("title", "note", "highlights", "best_for", "skip_if")], ensure_ascii=False)
         if re.search(r"(₹|\bRs\.?\s?|\bINR\s?)\d|\bratings\b|\bout of 5\b|\d stars?\b|★", text, re.I):
             sys.exit("Error: deal %s mentions a price or Amazon ratings. Leave those to Amazon.in." % d["asin"])
+    grouped = [c for g in cfg.get("groups", []) for c in g["categories"]]
+    if cfg.get("groups") and sorted(grouped) != sorted(cfg["categories"]):
+        sys.exit("Error: data/config.json groups must list every category exactly once (now: %s)" % ", ".join(grouped))
+    for slug, c in cfg["categories"].items():
+        names = [s["slug"] for s in c.get("subcategories", [])]
+        if len(names) != len(set(names)) or any(not re.fullmatch(r"[a-z0-9-]+", n) for n in names):
+            sys.exit("Error: category %s has duplicate or badly named subcategory slugs" % slug)
     deals_by_asin = {d["asin"]: d for d in deals}
     articles = load_articles()
     articles_by_slug = {a["slug"]: a for a in articles}
@@ -3211,6 +3294,22 @@ def build():
         items = [d for d in deals if d["category"] == slug]
         related = [a for a in articles if a.get("category") == slug]
         items_html = grid(cfg, items, "../") if items else '<p class="muted">New picks are coming soon.</p>'
+        subs = live_subs(cfg, slug)
+        if subs:
+            # Subcategory chips jump to the headings below (static/site.js turns them into filters), then picks grouped by subcategory.
+            chip_row = "".join('<a class="trip-chip" href="#%s" data-sub="%s">%s <span class="chip-n">%d</span></a>'
+                               % (s["slug"], s["slug"], e(s["name"]), SUB_COUNTS[(slug, s["slug"])]) for s in subs)
+            items = [d for s in subs for d in items if d["subcategory"] == s["slug"]]
+            sections = []
+            for s in subs:
+                own = [d for d in items if d["subcategory"] == s["slug"]]
+                more = ('<a class="see-all" href="%s/%s.html">%s page %s</a>' % (slug, s["slug"], e(s["name"]), icon("arrow", "icon icon-sm"))
+                        if len(own) >= SUB_PAGE_MIN else "")
+                sections.append(f'<section class="sub-section" id="{s["slug"]}" data-sub-section="{s["slug"]}">'
+                                f'{section_head(s["name"], more)}{grid(cfg, own, "../")}</section>')
+            items_html = (f'<nav class="trip-chips sub-chips" aria-label="{e(cat["name"])} by type">'
+                          f'<a class="trip-chip on" href="#picks" data-sub="">All <span class="chip-n">{len(items)}</span></a>{chip_row}</nav>'
+                          f'<div id="picks" class="sub-sections">{"".join(sections)}</div>')
         related_html = (f'<section class="section">{section_head("Guides")}{guide_cards(cfg, related, "../")}</section>'
                         if related else "")
         inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span>{e(cat['name'])}</nav>
@@ -3232,6 +3331,37 @@ def build():
             for i, d in enumerate(items, 1)]}
         schema = [crumbs, item_list] if items else [crumbs]
         pages.append(write(path, page(cfg, cat.get("seo_title", cat["name"]), desc, body, 1, path, schema, photo=cat.get("photo"))))
+
+        # Subcategory pages, only where there are enough picks to be useful
+        for s in subs:
+            own = [d for d in items if d["subcategory"] == s["slug"]]
+            if len(own) < SUB_PAGE_MIN:
+                continue
+            sp = "../../"
+            spath = "category/%s/%s.html" % (slug, s["slug"])
+            heading = s.get("title") or s["name"]
+            siblings = "".join('<a class="trip-chip%s" href="%s"%s>%s</a>' % (
+                " on" if x is s else "", e(sub_href(slug, x, sp)), ' aria-current="page"' if x is s else "", e(x["name"])) for x in subs)
+            inner = f"""<nav class="crumbs"><a href="{sp}index.html">Home</a><span>/</span><a href="../{slug}.html">{e(cat['name'])}</a><span>/</span>{e(s['name'])}</nav>
+      <h1>{e(heading)}</h1>
+      <p class="lead">{e(s['intro'])}</p>"""
+            sub_related = [a for a in related if a.get("subcategory") in (None, s["slug"])]
+            sbody = f"""{page_head(slug, media(cfg, slug, 'media media-tile'), inner, sp, cat.get("photo"))}
+<div class="wrap section">
+  <nav class="trip-chips sub-chips" aria-label="More {e(cat['name'].lower())}"><a class="trip-chip" href="../{slug}.html">All {e(cat['name'].split(" &")[0].lower())}</a>{siblings}</nav>
+  {tip_box(cfg, slug, sp, articles_by_slug)}
+  {more_tools.category_link(sys.modules[__name__], slug, sp)}
+  <p class="muted">{len(own)} picks. Prices and stock change often, so check them on Amazon.in.</p>
+  {grid(cfg, own, sp)}
+  {(f'<section class="section">{section_head("Guides")}{guide_cards(cfg, sub_related, sp)}</section>') if sub_related else ""}
+</div>
+{telegram_band(cfg, sp)}"""
+            sdesc = "%s, hand-picked from Amazon India. %s" % (heading, s["intro"])
+            scrumbs = crumbs_schema(cfg, [("Home", ""), (cat["name"], path), (s["name"], spath)])
+            slist = {"@context": "https://schema.org", "@type": "ItemList", "name": heading, "itemListElement": [
+                {"@type": "ListItem", "position": i, "url": abs_url(cfg, "picks/%s.html" % d["asin"]), "name": d["title"]}
+                for i, d in enumerate(own, 1)]}
+            pages.append(write(spath, page(cfg, heading, sdesc, sbody, 2, spath, [scrumbs, slist], photo=cat.get("photo"))))
 
     # Guides
     body = f"""<section class="page-head">
