@@ -14,7 +14,7 @@ Jaipur, the Pink City, is one corner of India's "Golden Triangle" with Delhi and
 
 Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
 
-Still choosing? Compare Goa, Manali, Jaipur and Kerala in [where to go in December and January](where-to-go-in-december-january.html). Going in late January? See our [Republic Day long weekend ideas](republic-day-long-weekend-2027.html). Going on to Udaipur? See our [Udaipur winter trip plan](udaipur.html).
+Still choosing? Compare Goa, Manali, Jaipur and Kerala in [where to go in December and January](where-to-go-in-december-january.html). Going in late January? See our [Republic Day long weekend ideas](republic-day-long-weekend-2027.html). Going on to Udaipur? See our [Udaipur winter trip plan](udaipur.html). For the desert, see [Jaisalmer in December](jaisalmer-in-december.html).
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html), and work out the fuel with the [road trip fuel cost calculator](../tools/road-trip-cost-calculator.html).
 
