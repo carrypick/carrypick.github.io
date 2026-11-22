@@ -1,14 +1,14 @@
 ---
 seo_title: Where to go in India in December and January 2026–27: beach, snow or heritage?
 title: Where to go in India in December and January
-description: Beach, snow, forts or backwaters? Compare Goa, Andaman, Manali, Shimla, Rishikesh, Darjeeling, Bhutan, Nepal, Singapore, Dubai, Sri Lanka, Thailand, Vietnam, Ooty, Varanasi, Jaipur, Udaipur and Kerala for a Christmas or New Year trip: weather, how to get there, crowds and what to pack.
+description: Beach, snow, forts or backwaters? Compare Goa, Andaman, Manali, Shimla, Rishikesh, Darjeeling, Bhutan, Nepal, Singapore, Dubai, Sri Lanka, Thailand, Vietnam, Ooty, Varanasi, Jaipur, Udaipur, Jaisalmer, the Rann of Kutch, Gulmarg and Kerala for a Christmas or New Year trip: weather, how to get there, crowds and what to pack.
 date: 2026-11-03
 updated: 2026-11-22
 place: India in winter
 best: Dec–Jan
 photo: traveller-sunset
 priority: 1
-glance: For beaches and parties=[Goa](goa.html) | For clear sea and coral=[Andaman](andaman-in-december.html) | For snow=[Manali](manali.html) or [Shimla](shimla-in-december.html) (snow isn't guaranteed) | For mountain views=[Darjeeling](darjeeling-in-december.html) | Abroad, without a visa=[Bhutan](bhutan-in-december.html), [Nepal](nepal-in-december.html) or [Thailand](thailand-trip-from-india.html) | For the Ganga, yoga and rafting=[Rishikesh](rishikesh-in-december.html) | For forts and palaces=[Jaipur](jaipur.html) or [Udaipur](udaipur.html) | For backwaters and hills=[Kerala](kerala.html) | Book=As early as you can: Christmas to New Year is peak season everywhere
+glance: For beaches and parties=[Goa](goa.html) | For clear sea and coral=[Andaman](andaman-in-december.html) | For snow=[Gulmarg](gulmarg-in-december.html), [Manali](manali.html) or [Shimla](shimla-in-december.html) (snow isn't guaranteed) | For mountain views=[Darjeeling](darjeeling-in-december.html) | Abroad, without a visa=[Bhutan](bhutan-in-december.html), [Nepal](nepal-in-december.html) or [Thailand](thailand-trip-from-india.html) | For the Ganga, yoga and rafting=[Rishikesh](rishikesh-in-december.html) | For forts and palaces=[Jaipur](jaipur.html) or [Udaipur](udaipur.html) | For the desert=[Jaisalmer](jaisalmer-in-december.html) or the [Rann Utsav](rann-utsav-2026.html) | For backwaters and hills=[Kerala](kerala.html) | Book=As early as you can: Christmas to New Year is peak season everywhere
 ---
 December and January are the best months for most of India: the monsoon is long over, the skies are clear, and it's cool almost everywhere except the far south. They are also the busiest months, so it pays to choose well and book early. Here's how India's favourite winter trips compare, plus Bhutan and Nepal, two easy trips abroad without a visa, and Singapore.
 
@@ -51,6 +51,9 @@ Plan your budget with our [trip budget calculator](../tools/trip-budget-calculat
 | [Varanasi](varanasi-in-december.html) | Ghats, the Ganga aarti, temples | Days about 22–24 °C, nights about 9–10 °C; foggy mornings | Varanasi (VNS) | Very crowded at Kashi Vishwanath at New Year |
 | [Jaipur](jaipur.html) | Forts, palaces, markets | Sunny days about 22–24 °C, cold nights about 8–9 °C | Jaipur (JAI) | Busy, especially 25 Dec to 1 Jan |
 | [Udaipur](udaipur.html) | Lakes, palaces, a crafts fair | Sunny days about 25–26 °C, cold nights about 7–8 °C | Udaipur (UDR) | Busy from Christmas to New Year, and during the Shilpgram Utsav (usually 21–30 Dec) |
+| [Jaisalmer](jaisalmer-in-december.html) | The golden fort, Sam dunes, desert camps | Sunny days about 24–25 °C, nights about 9–11 °C, colder in the desert | Jaisalmer (JSA) in winter, or Jodhpur | Busy from Christmas to New Year |
+| [Rann of Kutch](rann-utsav-2026.html) | The White Rann, Rann Utsav tent city, full-moon nights | Days about 27–29 °C, nights about 10–11 °C; almost no rain | Bhuj (BHJ) | Busiest at Christmas week and full moons (24 Dec, 22 Jan) |
+| [Gulmarg](gulmarg-in-december.html) | Snow, the gondola, skiing | Days about 0–4 °C, nights about −5 to −8 °C | Srinagar (SXR), then about 52 km by road | Very busy in the last week of December |
 | [Kerala](kerala.html) | Backwaters, tea hills, quiet beaches | Coast about 21–34 °C; Munnar nights 2–9 °C | Kochi (COK) or Thiruvananthapuram (TRV) | Busy, with huge crowds at Fort Kochi on New Year's Eve |
 
 ## Goa: for beaches and New Year parties
@@ -227,6 +230,24 @@ Udaipur is warm and dry in winter, with cold evenings by Lake Pichola. Two days 
 
 Read the full [Udaipur winter trip plan](udaipur.html).
 
+## Jaisalmer: for the desert and a golden fort
+
+Jaisalmer has sunny days of about 25 °C in December and cold nights, colder still in a desert camp at the Sam dunes. Walk the living fort and the carved havelis, then ride a camel at sunset and spend a night under the stars. The Desert Festival 2027 is on 18–20 February.
+
+Read the full [Jaisalmer in December guide](jaisalmer-in-december.html).
+
+## Rann of Kutch: for the White Rann and Rann Utsav
+
+Rann Utsav 2026–27 runs from 1 November to 7 March at the Dhordo tent city, beside a salt desert that turns silver under the full moon (24 December and 22 January). Days are warm and dry, nights cool. Fly or take a train to Bhuj, about 81 km away.
+
+Read the full [Rann Utsav 2026–27 guide](rann-utsav-2026.html).
+
+## Gulmarg: for snow and the gondola
+
+Gulmarg is Kashmir's snow meadow, about 52 km from Srinagar, with nights well below freezing. Snow is likely in December but surest from late December to February. Book gondola tickets only on the official site, and keep a spare day for Phase 2.
+
+Read the full [Gulmarg in December guide](gulmarg-in-december.html).
+
 ## Kerala: for backwaters, tea hills and beaches
 
 Kerala is warm on the coast and cool in the Munnar hills. Spend a night on a houseboat in Alappuzha, walk the tea estates in Munnar, and end on the cliffs at Varkala. In Fort Kochi, New Year's Eve ends with the Pappanji burning on the beach at midnight. Note that 1 January is a dry day in Kerala.
@@ -248,12 +269,13 @@ Compare hotels and homestays for your dates on these sites:
 
 ## How to choose
 
-- **Want snow?** Go to Manali or Shimla, but plan for January or February for a better chance, and check the forecast. Kashmir has the most snow.
+- **Want snow?** Go to Manali or Shimla, but plan for January or February for a better chance, and check the forecast. Kashmir has the most snow: see [Gulmarg in December](gulmarg-in-december.html).
 - **Want to party on New Year's Eve?** Goa, or the Cochin Carnival in Fort Kochi.
 - **Travelling with parents or children?** Jaipur and Kerala are calmer, with easy sightseeing and mild days.
 - **Want a hill trip in the south?** Ooty, easy from Bangalore and Coimbatore. Expect frost, not snow.
 - **Want temples and the ghats?** Varanasi, but keep spare time for fog delays.
 - **Want a short, calm trip from Delhi?** Rishikesh, for the Ganga aarti, yoga and rafting. Avoid the Kumbh bath days around 14 January.
+- **Want the desert?** Jaisalmer for golden dunes and camps, or the Rann of Kutch for the white salt desert and Rann Utsav.
 - **Love palaces and lakes?** Udaipur, with a day trip to Kumbhalgarh and Ranakpur. It pairs well with Jaipur if you have a week.
 - **Visiting India for the first time?** Jaipur with Delhi and Agra, or Kerala, are easy first trips. Goa is popular with foreign visitors for a beach holiday.
 - **Short on time?** Pick one place. Moving between them takes most of a day.

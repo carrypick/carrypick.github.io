@@ -70,11 +70,15 @@
           ["trips/manali.html", "Manali", "best chance of snow"],
           ["trips/rishikesh-in-december.html", "Rishikesh", "an easy drive from Delhi"],
           ["trips/udaipur.html", "Udaipur", "lakes and palaces"],
-          ["trips/shimla-in-december.html", "Shimla", "snow likelier in January"]],
+          ["trips/shimla-in-december.html", "Shimla", "snow likelier in January"],
+          ["trips/jaisalmer-in-december.html", "Jaisalmer", "sunny days, cold desert nights"],
+          ["trips/gulmarg-in-december.html", "Gulmarg", "deep snow and skiing"]],
     "2": [["trips/udaipur.html", "Udaipur", "pleasant until March"],
           ["trips/andaman-in-december.html", "Andaman", "February to April is driest"],
           ["trips/singapore-trip-from-india.html", "Singapore", "drier from February"],
-          ["trips/jaipur.html", "Jaipur", "good until March"]],
+          ["trips/jaipur.html", "Jaipur", "good until March"],
+          ["trips/jaisalmer-in-december.html", "Jaisalmer", "Desert Festival, 18–20 February"],
+          ["trips/rann-utsav-2026.html", "Rann of Kutch", "Rann Utsav until 7 March"]],
     "3": [["trips/goa.html", "Goa", "quieter after the winter rush"],
           ["trips/andaman-in-december.html", "Andaman", "dry and calm seas"],
           ["trips/singapore-trip-from-india.html", "Singapore", "one of its driest months"],
@@ -105,9 +109,12 @@
     "12": [["trips/where-to-go-in-december-january.html", "Where to go in December", "all our winter trips in one place"],
            ["trips/goa.html", "Goa", "Christmas and New Year"],
            ["trips/kerala.html", "Kerala", "backwaters at Christmas"],
+           ["trips/rann-utsav-2026.html", "Rann of Kutch", "Rann Utsav and the full moon"],
            ["trips/manali.html", "Manali", "snow and a New Year trip"],
            ["trips/bhutan-in-december.html", "Bhutan", "clear winter skies"],
-           ["trips/nepal-in-december.html", "Nepal", "clear mountain views"]]
+           ["trips/nepal-in-december.html", "Nepal", "clear mountain views"],
+           ["trips/gulmarg-in-december.html", "Gulmarg", "snow and the gondola"],
+           ["trips/jaisalmer-in-december.html", "Jaisalmer", "desert camps and the fort"]]
   },
   "picks": ["B0D62KP35W", "B097JLKP8X", "B0B34WJK3X", "B07M9BRCQ5", "B0CJC1SVH7", "B0C3RB9X98"]
 }
