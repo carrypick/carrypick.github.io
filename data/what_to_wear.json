@@ -677,6 +677,106 @@
    }
   },
   {
+   "slug": "coorg",
+   "name": "Coorg",
+   "where": "india",
+   "guide": "trips/coorg-in-december.html",
+   "packing": "packing/hills.html",
+   "spots": [
+    {
+     "name": "Madikeri (Coorg)",
+     "months": {
+      "dec": {
+       "day": 25.3,
+       "night": 13.2,
+       "rain_mm": 20
+      },
+      "jan": {
+       "day": 26.4,
+       "night": 12.4,
+       "rain_mm": 1.6
+      },
+      "feb": {
+       "day": 28.2,
+       "night": 13.1,
+       "rain_mm": 3
+      }
+     }
+    }
+   ],
+   "note": "Warm in the sun by day, cool at night and misty in the early morning.",
+   "source": {
+    "label": "IMD averages (1981–2010), as tabled on Wikipedia",
+    "checked": "2026-11-22",
+    "url": "https://en.wikipedia.org/wiki/Madikeri"
+   },
+   "snow_note": {
+    "dec": "No snow",
+    "jan": "No snow",
+    "feb": "No snow"
+   }
+  },
+  {
+   "slug": "meghalaya",
+   "name": "Meghalaya (Shillong, Cherrapunji)",
+   "where": "india",
+   "guide": "trips/meghalaya-in-december.html",
+   "packing": "packing/hills.html",
+   "spots": [
+    {
+     "name": "Shillong",
+     "months": {
+      "dec": {
+       "day": 16.4,
+       "night": 7.2,
+       "rain_mm": 7.2
+      },
+      "jan": {
+       "day": 15.2,
+       "night": 5.7,
+       "rain_mm": 12.6
+      },
+      "feb": {
+       "day": 17.5,
+       "night": 7.5,
+       "rain_mm": 15.4
+      }
+     }
+    },
+    {
+     "name": "Sohra (Cherrapunji)",
+     "months": {
+      "dec": {
+       "day": 18.8,
+       "night": 8.2,
+       "rain_mm": 10.2
+      },
+      "jan": {
+       "day": 17.2,
+       "night": 6.6,
+       "rain_mm": 15.5
+      },
+      "feb": {
+       "day": 18.8,
+       "night": 8.7,
+       "rain_mm": 53.7
+      }
+     }
+    }
+   ],
+   "note": "Days are cool and short, and nights in Shillong can fall near freezing.",
+   "source": {
+    "label": "IMD averages (1991–2020), as tabled on Wikipedia",
+    "checked": "2026-11-22",
+    "url": "https://en.wikipedia.org/wiki/Shillong"
+   },
+   "snow_note": {
+    "dec": "No snow, but frost is possible on the coldest mornings",
+    "jan": "No snow, but frost is possible on the coldest mornings",
+    "feb": "No snow"
+   }
+  },
+  {
    "slug": "rishikesh",
    "name": "Rishikesh",
    "where": "india",

@@ -3,7 +3,7 @@ seo_title: Ooty in December 2026: 2–3 day trip plan, weather, frost, toy train
 title: Ooty in December and January: weather, a 2–3 day trip plan and what to wear
 description: Plan Ooty for December or January: IMD temperatures, why you'll see frost but not snow, a 2-day and 3-day trip plan, the trip from Bangalore by car, bus or train, the toy train, the e-pass and plastic ban, and what to wear.
 date: 2026-11-17
-updated: 2026-11-18
+updated: 2026-11-22
 place: Ooty
 photo: ooty-tea-estate
 best: Oct–Jun; Dec–Jan are the coldest
@@ -15,7 +15,7 @@ Ooty in December and January is cool by day and cold at night. December still ge
 
 Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
 
-Still choosing? Compare Goa, Kerala, Manali and more in [where to go in December and January](where-to-go-in-december-january.html). Ooty pairs well with [Kerala](kerala.html): Munnar is another tea-hill town with cold winter nights. Want real snow? See [Kashmir in December](kashmir-in-december.html) or [Manali in winter](manali.html).
+Still choosing? Compare Goa, Kerala, Manali and more in [where to go in December and January](where-to-go-in-december-january.html). Ooty pairs well with [Kerala](kerala.html): [Munnar](munnar-in-december.html) is another tea-hill town with cold winter nights, and [Coorg](coorg-in-december.html), with its coffee estates, is a milder hill trip from Bangalore. Want real snow? See [Kashmir in December](kashmir-in-december.html) or [Manali in winter](manali.html).
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
@@ -210,7 +210,11 @@ Not big ones. Plastic water and soft-drink bottles of 1 to 4 litres are banned i
 
 ### Ooty or Munnar in December?
 
-Both are cool tea-hill towns with cold nights. Ooty has the toy train and is easier to reach from Bangalore and Coimbatore. Munnar is better if you're also seeing Kerala's backwaters. See our [Kerala trip guide](kerala.html).
+Both are cool tea-hill towns with cold nights. Ooty has the toy train and is easier to reach from Bangalore and Coimbatore. Munnar is better if you're also seeing Kerala's backwaters. See our [Munnar in December guide](munnar-in-december.html).
+
+### Ooty or Coorg in December?
+
+Ooty is higher and colder, with frosty mornings and the toy train. Coorg is milder, about 25 °C by day and 13 °C at night, with coffee estates, waterfalls and homestays. See [Coorg in December](coorg-in-december.html).
 
 ## Sources
 

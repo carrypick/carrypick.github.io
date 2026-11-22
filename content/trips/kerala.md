@@ -29,7 +29,7 @@ Plan your budget with our [trip budget calculator](../tools/trip-budget-calculat
 
 Coastal figures are long-term averages from the India Meteorological Department (1991–2020). Munnar's come from tea research station records for January 2026; on some winter nights the hills touch 0 °C, and frost forms on the grass.
 
-So pack light cotton clothes for the coast and the backwaters, and a warm jacket for Munnar's evenings and mornings. Want another tea-hill town nearby? See [Ooty in December](ooty-in-december.html), with its toy train and frosty mornings.
+So pack light cotton clothes for the coast and the backwaters, and a warm jacket for Munnar's evenings and mornings. Spending more time in the hills? See our full [Munnar in December guide](munnar-in-december.html). Want another tea-hill town nearby? See [Ooty in December](ooty-in-december.html), with its toy train and frosty mornings.
 
 ## Getting there and around
 
@@ -55,6 +55,8 @@ Flying in? Compare fares to Kochi or Thiruvananthapuram:
 - **Kochi-Muziris Biennale:** there's no Biennale this winter. The official site lists the next edition for 2027–28.
 
 ## Munnar
+
+For the weather, a 2–3 day plan and frost, see [Munnar in December](munnar-in-december.html).
 
 - **The hills:** Munnar town is about 1,600 m up, surrounded by tea estates.
 - **Eravikulam National Park:** about 13 km from town, home to about a third of the world's Nilgiri tahr (a mountain goat) and South India's highest peak, Anamudi. Visitors can enter only the Rajamala tourism zone. The official booking site lists entry from 8 AM to 2 PM, ₹200 for Indians and ₹500 for foreign visitors. Book online at [eravikulamnationalpark.in](https://www.eravikulamnationalpark.in/). The park closes from 1 February to 1 April each year for the calving season, so December and January are fine.

@@ -14,7 +14,7 @@ Darjeeling in December is cold, dry and clear. The days are sunny, the nights ar
 
 Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
 
-Still choosing? Compare Goa, Manali, Shimla and more in [where to go in December and January](where-to-go-in-december-january.html). Want snow for sure? [Kashmir in December](kashmir-in-december.html) and [Manali in winter](manali.html) get much more. Want warm sea instead? See [Andaman in December](andaman-in-december.html). In the south, [Ooty in December](ooty-in-december.html) has a toy train too.
+Still choosing? Compare Goa, Manali, Shimla and more in [where to go in December and January](where-to-go-in-december-january.html). Want snow for sure? [Kashmir in December](kashmir-in-december.html) and [Manali in winter](manali.html) get much more. Want warm sea instead? See [Andaman in December](andaman-in-december.html). In the south, [Ooty in December](ooty-in-december.html) has a toy train too. Also in the north-east, [Meghalaya in December](meghalaya-in-december.html) has living root bridges, waterfalls and Christmas in Shillong.
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 

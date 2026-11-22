@@ -3,7 +3,7 @@ seo_title: Where to go in India in December and January 2026–27: beach, snow o
 title: Where to go in India in December and January
 description: Beach, snow, forts or backwaters? Compare Goa, Andaman, Manali, Shimla, Rishikesh, Darjeeling, Bhutan, Nepal, Singapore, Dubai, Sri Lanka, Thailand, Vietnam, Ooty, Varanasi, Jaipur, Udaipur and Kerala for a Christmas or New Year trip: weather, how to get there, crowds and what to pack.
 date: 2026-11-03
-updated: 2026-11-21
+updated: 2026-11-22
 place: India in winter
 best: Dec–Jan
 photo: traveller-sunset
@@ -43,6 +43,9 @@ Plan your budget with our [trip budget calculator](../tools/trip-budget-calculat
 | [Maldives](maldives-trip-from-india.html) | Resort islands, overwater villas, snorkelling, honeymoons | About 30 °C by day; short showers on about 12 days in December, drier in January | Direct flights from Bengaluru, Delhi, Mumbai, Kochi and Thiruvananthapuram to Malé (MLE); visa on arrival | Busiest and costliest from Christmas to New Year |
 | [Mauritius](mauritius-trip-from-india.html) | Lagoons, beach resorts, honeymoons, Grand Bassin temple | Warm: Port Louis about 31 °C by day, rain on about 6 days in December; wetter in January | Direct flights from Delhi, Mumbai, Chennai and Bengaluru to Mauritius (MRU); no visa needed | Busy from Christmas to New Year |
 | [Ooty](ooty-in-december.html) | Tea hills, the Nilgiri toy train, frosty mornings | Days about 21 °C, nights about 6–7 °C; frost but no snow | Coimbatore (CJB), then about 89 km by road | Busy from Christmas to New Year; e-pass needed for cars |
+| [Coorg](coorg-in-december.html) | Coffee estates, waterfalls, homestays | Days about 25–26 °C, nights about 12–13 °C; dry, misty mornings | Mysuru (MYQ), Kannur (CNN) or Mangaluru (IXE), then 120–140 km by road; or drive from Bangalore | Busy on the Christmas and New Year long weekends |
+| [Munnar](munnar-in-december.html) | Tea hills, Eravikulam, frosty mornings | Mild days; cold nights, near 0 °C on estates in late December | Kochi (COK), then about 108 km by road | Very busy from Christmas to New Year |
+| [Meghalaya](meghalaya-in-december.html) | Living root bridges, waterfalls, Christmas in Shillong | Shillong days about 15–16 °C, nights about 6–7 °C; dry; sunset around 4:30 PM | Guwahati (GAU), then about 100 km to Shillong | Busy at Christmas and New Year |
 | [Varanasi](varanasi-in-december.html) | Ghats, the Ganga aarti, temples | Days about 22–24 °C, nights about 9–10 °C; foggy mornings | Varanasi (VNS) | Very crowded at Kashi Vishwanath at New Year |
 | [Jaipur](jaipur.html) | Forts, palaces, markets | Sunny days about 22–24 °C, cold nights about 8–9 °C | Jaipur (JAI) | Busy, especially 25 Dec to 1 Jan |
 | [Udaipur](udaipur.html) | Lakes, palaces, a crafts fair | Sunny days about 25–26 °C, cold nights about 7–8 °C | Udaipur (UDR) | Busy from Christmas to New Year, and during the Shilpgram Utsav (usually 21–30 Dec) |
@@ -186,6 +189,24 @@ Ooty is cool by day and cold at night in winter. It doesn't snow, but clear Janu
 
 Read the full [Ooty in December and January guide](ooty-in-december.html).
 
+## Coorg: for coffee estates and an easy drive from Bangalore
+
+Coorg is cool, dry and often misty in the morning in winter, with no snow. Two days cover Abbey Falls, Raja's Seat and Madikeri, then Dubare and the Golden Temple at Bylakuppe. There's no airport or railway in Kodagu, so most people drive from Bangalore, about 257 km.
+
+Read the full [Coorg in December guide](coorg-in-december.html).
+
+## Munnar: for tea hills and frosty mornings
+
+Munnar has mild days and cold nights in winter, and the tea estates touched −1 °C in late December 2025. It's frost, not snow. Eravikulam National Park is open in December and January. Combine it with Kochi and the Alappuzha backwaters.
+
+Read the full [Munnar in December guide](munnar-in-december.html).
+
+## Meghalaya: for root bridges and Christmas in Shillong
+
+Meghalaya is dry and clear in December, with cold nights and short days. Walk to the living root bridges near Sohra (Cherrapunji), take a boat on Dawki's clear river, and see Shillong lit up for Christmas. It doesn't snow. Your hotel or homestay must register you with the state.
+
+Read the full [Meghalaya in December guide](meghalaya-in-december.html).
+
 ## Varanasi: for the ghats and the Ganga aarti
 
 Varanasi is dry with sunny afternoons in winter, but mornings are cold and often foggy, which delays trains and flights. Take a boat along the ghats, watch the evening aarti at Dashashwamedh Ghat (around 6 PM in winter), and visit Sarnath (its museum is closed on Fridays). Kashi Vishwanath is extremely crowded at New Year.
@@ -208,7 +229,7 @@ Read the full [Udaipur winter trip plan](udaipur.html).
 
 Kerala is warm on the coast and cool in the Munnar hills. Spend a night on a houseboat in Alappuzha, walk the tea estates in Munnar, and end on the cliffs at Varkala. In Fort Kochi, New Year's Eve ends with the Pappanji burning on the beach at midnight. Note that 1 January is a dry day in Kerala.
 
-Read the full [Kerala trip guide](kerala.html).
+Read the full [Kerala trip guide](kerala.html), and our [Munnar in December guide](munnar-in-december.html) for the hills.
 
 ## Long weekends in early 2027
 
