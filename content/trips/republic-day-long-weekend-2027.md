@@ -1,7 +1,7 @@
 ---
-seo_title: Republic Day long weekend 2027: 4-day trip ideas and parade tickets
+seo_title: Republic Day 2027 parade tickets and long weekend trips
 title: Republic Day long weekend 2027: where to go, and how to see the parade
-description: 26 January 2027 is a Tuesday, so one day off gives you 4 days. Compare Jaipur, Manali, Goa and Kerala, and see how Republic Day parade tickets work.
+description: Republic Day 2027 parade tickets: how they were sold in 2026, and 4-day trips for the 26 January 2027 long weekend (Jaipur, Manali, Goa, Kerala).
 date: 2026-11-06
 updated: 2026-11-21
 place: Republic Day weekend
@@ -35,6 +35,8 @@ Four days is enough for one place. Moving between them takes most of a day.
 - **Travelling with parents or children?** Jaipur and Kerala are calmer, with easy sightseeing.
 
 ## Seeing the parade in New Delhi
+
+Looking for Republic Day parade tickets for 26 January 2027? The ticket details for 2027 aren't out yet.
 
 The Republic Day parade takes place on Kartavya Path on 26 January. The 2027 ticket details aren't out yet. Here's how it worked in 2026:
 
@@ -93,7 +95,7 @@ Yes, if you take one day off. 26 January 2027 is a Tuesday. With Monday 25 Janua
 
 Jaipur for forts, Goa for a warm beach, Kerala for backwaters and tea hills, or Manali if you want a chance of snow and don't mind a long road journey.
 
-### How do I buy Republic Day parade tickets?
+### How do I buy Republic Day 2027 parade tickets online?
 
 In 2026, tickets were sold on the Aamantran website and at six booths in Delhi from 5 to 14 January. The 2027 details aren't out yet, so check the Defence Ministry's site from late December. Our [parade tickets guide](republic-day-parade-tickets-2027.html) has the full details.
 

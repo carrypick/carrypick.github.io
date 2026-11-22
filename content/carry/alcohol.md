@@ -1,6 +1,6 @@
 ---
 title: Can I carry alcohol on a flight in India?
-seo_title: Alcohol in flight rules India 2026: how many bottles in check-in, duty free, dry states
+seo_title: Alcohol in flight: how much is allowed in India 2026
 description: On domestic flights, alcohol goes in check-in: up to 5 litres per person, so six 750 ml bottles, in the bottle it was sold in. Bottles from Goa, beer and wine, duty free and dry states.
 item: Alcohol (bought outside the airport)
 date: 2026-11-10
@@ -9,6 +9,8 @@ checked_against: IndiGo, Air India, Akasa Air, SpiceJet and Air India Express ru
 sources: Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | IndiGo dangerous goods table (PDF)=https://www.goindigo.in/content/dam/s6web/in/en/assets/static-pages/baggage/IndiGo-DGR-Table.pdf | Akasa Air conditions of carriage=https://www.akasaair.com/quick-links/conditions-of-carriage | SpiceJet baggage FAQ=https://corporate.spicejet.com/airtravelbaggagefaq.aspx | SpiceJet dangerous goods list=https://corporate.spicejet.com/DGR.aspx | Air India Express baggage FAQ=https://www.airindiaexpress.com/support/faqs/baggage | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security | BCAS list of items banned in the cabin (archived copy, read 21 Nov 2026)=https://web.archive.org/web/20240919062225/https://bcasindia.gov.in/passenger_pdf/prohibited.pdf
 related: guides/polycarbonate-vs-polypropylene-luggage.html=Hard luggage: polycarbonate or polypropylene | tools/bag-weight.html=Excess baggage calculator | baggage/index.html=Airline baggage rules | packing/wedding.html=Wedding packing list
 ---
+How much alcohol is allowed on a domestic flight in India? Up to 5 litres per person, in your check-in bag, in the bottle it was sold in. IndiGo, Air India, Akasa Air, SpiceJet and Air India Express all use this rule.
+
 ## Check-in: up to 5 litres
 
 IndiGo, Air India, Akasa Air, SpiceJet and Air India Express all use the same main rule for domestic flights:

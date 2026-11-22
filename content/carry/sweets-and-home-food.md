@@ -1,13 +1,15 @@
 ---
 title: Can I carry sweets and home food on a flight in India?
-seo_title: Sweets and food in flight rules India 2026: mithai, namkeen, tiffin
-description: Dry sweets, namkeen and snacks are fine in both bags. Sweets in syrup, oily food, pickle, raw rice and fish: what IndiGo, Air India and Akasa Air allow, and how to pack food.
+seo_title: Sweets in flight: mithai, ladoo, tiffin rules India 2026
+description: Can you carry sweets or mithai in a flight? Dry sweets like ladoo, namkeen and snacks are fine in both bags. Sweets in syrup, oily food, pickle, raw rice and fish: what IndiGo, Air India and Akasa Air allow, and how to pack food.
 item: Sweets and home food
 date: 2026-11-10
 checked_against: IndiGo, Air India, Akasa Air and airport security rules
 sources: IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Akasa Air conditions of carriage=https://www.akasaair.com/quick-links/conditions-of-carriage | Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security
 related: packing/wedding.html=Wedding packing list | guides/wedding-gift-guide.html=Wedding gift ideas | tools/bag-weight.html=Excess baggage calculator | baggage/index.html=Airline baggage rules
 ---
+Can you carry sweets, mithai or a tiffin on a flight in India? Dry sweets and snacks, yes, in hand luggage and check-in. Sweets in syrup and runny food follow the liquids rule.
+
 ## Food by food
 
 From IndiGo's list of things not allowed in flight, unless the row says otherwise:
@@ -60,7 +62,7 @@ Curry, dal and anything runny count as liquid in the cabin, so they follow the 1
 
 ## Questions
 
-### Can I carry sweets on a flight?
+### Can I carry sweets in a flight, in hand luggage or international?
 
 Yes. Dry sweets like ladoo, barfi and soan papdi are allowed in both bags (IndiGo). Sweets in syrup, like rasgulla, count as liquid in the cabin.
 

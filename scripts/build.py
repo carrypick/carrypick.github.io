@@ -2600,7 +2600,8 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
         quick.append("IndiGo's cabin limit, %s cm, is %s inches." % (" x ".join(num(x) for x in indigo["cabin"]["dims_cm"]),
                                                                      " x ".join(inch(x) for x in indigo["cabin"]["dims_cm"])))
     quick.append("The inch size is only the height. Airlines check length, width and height, wheels and handles included.")
-    faq = [("What is the size of a small trolley bag in cm?", "A small trolley usually means a cabin trolley, about 55 cm (%s inches) tall. Many are 36–41 cm wide, but IndiGo's cabin limit is 55 x 35 x 25 cm, so check all three sides before you buy." % inch(55)),
+    faq = [("What are the standard suitcase sizes?", "Indian brands mostly sell trolleys by height: about 55 cm (%s inches) for a small cabin trolley, 65–69 cm (%s–%s inches) for medium and 75–79 cm (%s–%s inches) for large. The tables above show each size in cm and inches." % (inch(55), inch(65), inch(69), inch(75), inch(79))),
+           ("What is the size of a small trolley bag in cm?", "A small trolley usually means a cabin trolley, about 55 cm (%s inches) tall. Many are 36–41 cm wide, but IndiGo's cabin limit is 55 x 35 x 25 cm, so check all three sides before you buy." % inch(55)),
            ("What is the size of a medium trolley bag in cm?", "Most medium trolleys sold in India are 65–69 cm (%s–%s inches) tall and 135–147 cm in total, from the 36 models we read. They listed 45–93 litres, and 69 litres was typical." % (inch(65), inch(69))),
            ("What is 20 inch luggage in cm?", "20 inches is %s cm. That's smaller than the usual 55 cm cabin trolley sold in India, though some brands sell 55 cm bags as \"20 inch\"." % cm(20)),
            ("Is a 24 inch suitcase cabin or check-in?", "Check-in. 24 inches is %s cm, too tall for the 55–56 cm cabin limits of Indian airlines. It's a small medium-size bag, good for 4–6 days." % cm(24)),
@@ -2619,16 +2620,16 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
                           ("checker.html", "Check your own bag against every airline")],
                          "Found your size? Pick a bag", "See the bags we picked for that size, with each one's listed size, weight and the airlines it fits.")
     size_fig = diagram_figure("luggage-sizes", "../") if "luggage-sizes" in DIAGRAMS else ""
-    title = "Trolley bag size chart: cm, inches, litres and kg"
-    seo = "Trolley bag sizes in cm and inches: suitcase size chart"
-    desc = ("Trolley bag sizes in cm: 20 inch is %s cm, 24 inch %s cm, 28 inch %s cm. Cabin, medium and large suitcase sizes "
-            "with litres, kg and airline limits." % (cm(20), cm(24), cm(28)))
+    title = "Suitcase and trolley bag size chart: cm, inches, litres, kg"
+    seo = "Suitcase sizes: trolley bag size chart in cm, inches"
+    desc = ("Suitcase and trolley bag sizes in cm: 20 inch is %s cm, 24 inch %s cm, 28 inch %s cm. Small, medium and large "
+            "trolley size chart with litres, kg and airline limits." % (cm(20), cm(24), cm(28)))
     inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="index.html">Baggage rules</a><span>/</span>Size chart</nav>
       <h1>{e(title)}</h1>
       <p class="muted small">Updated {fmt_date(updated)}</p>"""
     body = f"""{page_head("luggage", f'<div class="media media-tile tint-luggage">{icon("ruler", "icon media-icon")}</div>', inner, "../")}
 <div class="wrap"><article class="guide">
-<p class="lead">Trolley bags are sold by height. Here is each size in inches and cm, with the trip it suits. Tap a size for its full guide.</p>
+<p class="lead">Suitcase and trolley bag sizes are given by height. Here is each trolley size in inches and cm, from small cabin trolleys to large ones, with the trip it suits. Tap a size for its full guide.</p>
 <h2>Trolley sizes in inches and cm</h2>
 <div class="table-wrap"><table class="compare snug"><thead><tr><th>Inches</th><th>cm</th><th>Size</th><th>Trip length</th></tr></thead><tbody>{size_rows}</tbody></table></div>
 <p class="small">Sizes are the bag's height. Sellers don't always say whether it includes the wheels, so check the full size on the listing.</p>
