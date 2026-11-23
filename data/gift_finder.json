@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21",
+  "updated": "2026-11-23",
   "about": "Gift finder quiz (tools/gift-finder.html, scripts/gift_finder.py, static/gift-finder.js). Picks are in order of fit. size_of tags each pick small, nice or big by how much of a gift it is.",
   "sizes": [
     {"slug": "small", "label": "A small token", "hint": "A desk gift, a thank you or Secret Santa"},
@@ -100,6 +100,10 @@
     "him+wedding": {"picks": ["B00ISNVQMW", "B07H3K85H5"], "guides": [["guides/wedding-gift-guide.html#for-the-groom", "Wedding gifts for the groom"]]},
     "parents+wedding": {"picks": ["B07PY6CQYV", "B01N56X1EW"], "guides": [["guides/wedding-gift-guide.html#for-the-couple-pair-watches", "Pair watches for a couple"]]},
     "kids+christmas": {"guides": [["guides/christmas-gifts-for-kids.html#quick-ideas", "Quick Christmas gift ideas for kids"]]},
+    "parents+christmas": {"picks": ["B07PY6CQYV", "B07DD25LJ8", "B07CR1JQBY", "B0DT719TQS", "B0BH4XLXPX", "B01MQJJCD1"],
+                          "guides": [["guides/christmas-gift-for-parents.html", "Christmas gifts for parents and parents-in-law"]]},
+    "friend+christmas": {"picks": ["B0BQWF3TJK", "B099WNYHY2", "B09KV28F4P", "B0F13ZFVVX", "B0C3LRF94X", "B0C4TV4M2F"],
+                         "guides": [["guides/christmas-gift-for-friends.html", "Christmas gifts for a female or male friend"], ["guides/christmas-gift-for-couples.html", "Christmas gifts for couples"]]},
     "her+birthday": {"picks": ["B07QS9K2VT", "B09232XNTX"], "guides": [["guides/birthday-gift-ideas.html#for-your-wife", "Birthday gifts for your wife"]]},
     "him+birthday": {"picks": ["B07H3K85H5", "B079TN3GCD", "B09231NL5H"], "guides": [["guides/birthday-gift-ideas.html#for-your-husband", "Birthday gifts for your husband"]]},
     "parents+birthday": {"picks": ["B07DD25LJ8", "B07CR1JQBY", "B07HD1H1RH", "B0DT719TQS"], "guides": [["guides/birthday-gift-ideas.html#for-your-father", "Birthday gifts for your father and mother"]]},

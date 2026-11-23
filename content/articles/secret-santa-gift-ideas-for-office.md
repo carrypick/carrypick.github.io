@@ -18,7 +18,7 @@ In an office Secret Santa, the best gift is something your colleague will use at
 [[top:B00NIWHQVI|If you don't know them well|A 500 ml steel bottle, listed to keep tea hot or water cold for up to 24 hours. Anyone can use it at their desk.]]
 [[top:B0C3RB9X98|For someone with lots of gadgets|Holds chargers, cables, earphones and a power bank in one padded case, with 3 movable dividers.]]
 
-Buying for your manager instead? See our [gift ideas for your boss](gift-for-boss.html). Someone leaving the team? See our [farewell gift ideas for colleagues](farewell-gift-for-colleague.html). Shopping for family too? See our [Christmas gifts for kids](christmas-gifts-for-kids.html), and gifts for [a girlfriend or wife](christmas-gift-for-girlfriend-or-wife.html) or [a boyfriend or husband](christmas-gift-for-boyfriend-or-husband.html).
+Buying for your manager instead? See our [gift ideas for your boss](gift-for-boss.html). Someone leaving the team? See our [farewell gift ideas for colleagues](farewell-gift-for-colleague.html). Shopping for family too? See our [Christmas gifts for kids](christmas-gifts-for-kids.html), and gifts for [a girlfriend or wife](christmas-gift-for-girlfriend-or-wife.html) or [a boyfriend or husband](christmas-gift-for-boyfriend-or-husband.html), and Christmas gifts [for parents](christmas-gift-for-parents.html), [for friends](christmas-gift-for-friends.html) and [for couples](christmas-gift-for-couples.html).
 
 ## Quick ideas
 

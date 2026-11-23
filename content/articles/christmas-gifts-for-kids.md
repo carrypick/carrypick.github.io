@@ -17,7 +17,7 @@ The Christmas gifts kids remember are often the ones they use every day: a watch
 [[top:B0GLNP4FCQ|For a younger child at school|A 23 litre uppercase school bag with two compartments, padded straps and a 500-day warranty.]]
 [[top:B0F1YPQFLD|For an older child or teen|A roomy 37 litre Safari school bag with 3 compartments and a bottle holder, and a 1-year warranty.]]
 
-Shopping for the grown-ups too? See our [Christmas gifts for a girlfriend or wife](christmas-gift-for-girlfriend-or-wife.html) and [Christmas gifts for a boyfriend or husband](christmas-gift-for-boyfriend-or-husband.html).
+Shopping for the grown-ups too? See our [Christmas gifts for a girlfriend or wife](christmas-gift-for-girlfriend-or-wife.html) and [Christmas gifts for a boyfriend or husband](christmas-gift-for-boyfriend-or-husband.html), or Christmas gifts [for parents and grandparents](christmas-gift-for-parents.html), [for friends](christmas-gift-for-friends.html) and [for couples](christmas-gift-for-couples.html).
 
 ## Quick ideas
 

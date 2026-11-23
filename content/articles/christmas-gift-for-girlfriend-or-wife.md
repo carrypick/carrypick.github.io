@@ -17,7 +17,7 @@ A good Christmas gift for your girlfriend or wife fits her day: a watch she can 
 [[top:B0F13ZFVVX|A smaller gift|A zip-around wallet with 3 sections and card slots that fits inside a bigger handbag.]]
 [[top:B0F5GS19M1|If she loves to travel|A crossbody bag that weighs about 140 g, with two zip pockets, for sightseeing on a trip.]]
 
-Buying for the man in your life, or the kids? See our [Christmas gifts for a boyfriend or husband](christmas-gift-for-boyfriend-or-husband.html) and [Christmas gifts for kids](christmas-gifts-for-kids.html). Her birthday or your anniversary coming up? See our [birthday gifts for your wife](birthday-gift-ideas.html#for-your-wife) and [anniversary gifts for your wife](anniversary-gift-ideas.html#for-your-wife).
+Buying for the man in your life, or the kids? See our [Christmas gifts for a boyfriend or husband](christmas-gift-for-boyfriend-or-husband.html) and [Christmas gifts for kids](christmas-gifts-for-kids.html). Buying for your parents, friends or a couple? See our Christmas gifts [for parents and parents-in-law](christmas-gift-for-parents.html), [for friends](christmas-gift-for-friends.html) and [for couples](christmas-gift-for-couples.html). Her birthday or your anniversary coming up? See our [birthday gifts for your wife](birthday-gift-ideas.html#for-your-wife) and [anniversary gifts for your wife](anniversary-gift-ideas.html#for-your-wife).
 
 ## Quick ideas
 
