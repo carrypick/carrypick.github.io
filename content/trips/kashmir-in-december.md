@@ -18,6 +18,8 @@ Still choosing? Compare other winter trips in [where to go in December and Janua
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
+Only have a long weekend? Compare Kashmir with other [weekend getaways from Delhi](weekend-getaways-from-delhi.html), with distances and travel times.
+
 ## Weather in December
 
 Long-term December averages from the India Meteorological Department (IMD):

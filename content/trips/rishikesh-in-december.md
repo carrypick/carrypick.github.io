@@ -17,6 +17,8 @@ Still choosing? Compare other winter trips in [where to go in December and Janua
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html), and work out the fuel with the [road trip fuel cost calculator](../tools/road-trip-cost-calculator.html).
 
+Only have a weekend? Compare Rishikesh with other [weekend getaways from Delhi](weekend-getaways-from-delhi.html), with distances and travel times.
+
 ## Weather in December and January
 
 IMD has no climate table for Rishikesh itself. These are its long-term averages (1991–2020) for Dehradun, the nearest IMD station. Rishikesh is lower, in the river valley, so its days are often a little warmer:

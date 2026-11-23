@@ -181,6 +181,10 @@ def build_road(B, cfg, deals, pages, lastmod):
     fields = "".join(_field("rt", fid, label, hint, "any", "numeric" if fid == "people" else "decimal")
                      for fid, label, hint in ROAD_FIELDS)
     guides = "".join(f'<li><a href="../trips/{s}.html">{e(n)}</a></li>' for s, n in ROAD_GUIDES)
+    hubs = [(c, "trips/weekend-getaways-from-%s.html" % c.lower()) for c in ("Delhi", "Mumbai", "Bangalore")]
+    hubs = [(c, h) for c, h in hubs if (B.TRIPS_DIR / h.replace("trips/", "").replace(".html", ".md")).exists()]
+    weekend = ("<p>Looking for a short drive? See weekend getaways from %s, with distances and travel times.</p>"
+               % ", ".join(f'<a href="../{h}">{c}</a>' for c, h in hubs)) if hubs else ""
     picks = _picks(B, cfg, deals, ROAD_PICKS, "Handy for a long drive",
                    "A power bank and cable pouch for phones and maps, a steel bottle, a neck pillow for the back seat and a waterproof phone pouch.")
     title = "Road trip fuel cost calculator: petrol, diesel or CNG, with tolls"
@@ -218,6 +222,7 @@ def build_road(B, cfg, deals, pages, lastmod):
 <h2>Road trip guides</h2>
 <p>Trips you can do by car, with roads, rules and what to pack:</p>
 <ul class="airline-links">{guides}</ul>
+{weekend}
 <p>Planning the whole trip? Add hotels, food and tickets in our <a href="trip-budget-calculator.html">trip budget calculator</a>, and split the bill with friends there. Packing? Try the <a href="packing-list-maker.html">packing list maker</a>.</p>
 {picks}
 {{faq}}

@@ -18,6 +18,8 @@ Still choosing? Compare Goa, Manali, Jaipur and more in [where to go in December
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html), and work out the fuel with the [road trip fuel cost calculator](../tools/road-trip-cost-calculator.html).
 
+Only have a weekend? Compare Shimla with other [weekend getaways from Delhi](weekend-getaways-from-delhi.html), with distances and travel times.
+
 ## Weather in December and January
 
 Long-term averages for Shimla from the India Meteorological Department (IMD):

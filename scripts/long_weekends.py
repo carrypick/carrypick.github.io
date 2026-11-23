@@ -363,6 +363,11 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
     if built(newyear):
         rday_link += f' For the New Year weekend (1 January 2027 is a Friday), see <a href="../{newyear}">where to go for New Year 2027</a>.'
         hub_link += f' Going away for New Year? See our <a href="../{newyear}">New Year trips 2027</a>.'
+    weekend = [(c, "trips/weekend-getaways-from-%s.html" % c.lower()) for c in ("Delhi", "Mumbai", "Bangalore")]
+    weekend = [(c, h) for c, h in weekend if (B.TRIPS_DIR / h.replace("trips/", "").replace(".html", ".md")).exists()]
+    if weekend:
+        hub_link += " Short trips by road, train or flight: weekend getaways from %s." % ", ".join(
+            f'<a href="../{h}">{c}</a>' for c, h in weekend)
     body = f"""{head}
 <div class="wrap"><article class="guide">
 <div class="answer"><h2>Quick answer</h2><ul>

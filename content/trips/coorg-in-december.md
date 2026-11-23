@@ -18,6 +18,8 @@ Still choosing? Compare Goa, Kerala, Ooty and more in [where to go in December a
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
+Only have a weekend? Compare Coorg with other [weekend getaways from Bangalore](weekend-getaways-from-bangalore.html), with distances and travel times.
+
 ## Coorg weather in December and January
 
 Long-term averages for Madikeri, Coorg's main town, from the India Meteorological Department (IMD, 1981–2010):

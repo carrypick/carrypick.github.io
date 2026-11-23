@@ -19,6 +19,8 @@ Still choosing? Compare Goa, Manali, Jaipur and Kerala in [where to go in Decemb
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html), and work out the fuel with the [road trip fuel cost calculator](../tools/road-trip-cost-calculator.html).
 
+Only have a long weekend? See our [weekend getaways from Mumbai](weekend-getaways-from-mumbai.html) and [weekend getaways from Bangalore](weekend-getaways-from-bangalore.html), with distances and travel times.
+
 ## Weather in December and January
 
 Goa is warm and dry in winter. The India Meteorological Department's long-term averages:

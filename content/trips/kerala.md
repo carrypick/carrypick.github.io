@@ -18,6 +18,8 @@ Still choosing? Compare Goa, Manali, Jaipur and Kerala in [where to go in Decemb
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
+Only have a long weekend? Compare Kerala with other [weekend getaways from Bangalore](weekend-getaways-from-bangalore.html), with distances and travel times.
+
 ## Weather in December and January
 
 | Place | December | January |

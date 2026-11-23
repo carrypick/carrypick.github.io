@@ -18,6 +18,8 @@ Seeing more of Kerala? Our [Kerala trip guide](kerala.html) covers Kochi, the Al
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
+Only have a long weekend? Compare Munnar with other [weekend getaways from Bangalore](weekend-getaways-from-bangalore.html), with distances and travel times.
+
 ## Munnar weather in December and January
 
 Munnar has no IMD weather station with published long-term averages, so here is what official and news reports say about recent winters:

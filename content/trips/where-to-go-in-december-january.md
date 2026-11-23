@@ -280,7 +280,7 @@ Compare hotels and homestays for your dates on these sites:
 - **Want the desert?** Jaisalmer for golden dunes and camps, or the Rann of Kutch for the white salt desert and Rann Utsav.
 - **Love palaces and lakes?** Udaipur, with a day trip to Kumbhalgarh and Ranakpur. It pairs well with Jaipur if you have a week.
 - **Visiting India for the first time?** Jaipur with Delhi and Agra, or Kerala, are easy first trips. Goa is popular with foreign visitors for a beach holiday.
-- **Short on time?** Pick one place. Moving between them takes most of a day.
+- **Short on time?** Pick one place. Moving between them takes most of a day. For 2 or 3 days, see our weekend getaways from [Delhi](weekend-getaways-from-delhi.html), [Mumbai](weekend-getaways-from-mumbai.html) and [Bangalore](weekend-getaways-from-bangalore.html).
 
 ## Book early, travel light
 

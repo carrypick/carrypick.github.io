@@ -233,6 +233,9 @@ def nav_menus(cfg, p):
                                     ("trips/international-trips-from-india.html", "International trips from India", "international-trips-from-india.md"),
                                     ("trips/honeymoon-destinations-in-india.html", "Honeymoon destinations in India", "honeymoon-destinations-in-india.md"),
                                     ("trips/honeymoon-destinations-outside-india.html", "Honeymoon destinations abroad", "honeymoon-destinations-outside-india.md"),
+                                    ("trips/weekend-getaways-from-delhi.html", "Weekend getaways from Delhi", "weekend-getaways-from-delhi.md"),
+                                    ("trips/weekend-getaways-from-mumbai.html", "Weekend getaways from Mumbai", "weekend-getaways-from-mumbai.md"),
+                                    ("trips/weekend-getaways-from-bangalore.html", "Weekend getaways from Bangalore", "weekend-getaways-from-bangalore.md"),
                                     ("trips/index.html", "All trip guides, India and abroad", None),
                                     ("trips/visiting-india.html", "Visiting India", "visiting-india.md"))
              if TRIPS_DIR.exists() and (f is None or (TRIPS_DIR / f).exists())]

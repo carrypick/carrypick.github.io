@@ -18,6 +18,8 @@ Still choosing? Compare Goa, Manali, Jaipur and Kerala in [where to go in Decemb
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html), and work out the fuel with the [road trip fuel cost calculator](../tools/road-trip-cost-calculator.html).
 
+Only have a weekend? See our [weekend getaways from Delhi](weekend-getaways-from-delhi.html) and [weekend getaways from Mumbai](weekend-getaways-from-mumbai.html), with distances and travel times.
+
 ## Weather in December and January
 
 The India Meteorological Department (IMD) says Jaipur's winter runs from mid-December to mid-February. Its long-term averages:

@@ -19,6 +19,8 @@ Still choosing? Compare Goa, Kerala, Manali and more in [where to go in December
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
+Only have a weekend? Compare Ooty with other [weekend getaways from Bangalore](weekend-getaways-from-bangalore.html), with distances and travel times.
+
 ## Ooty weather in December and January
 
 Long-term averages for Ooty (Udhagamandalam) from the India Meteorological Department (IMD, 1991–2020):

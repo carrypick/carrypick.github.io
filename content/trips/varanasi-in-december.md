@@ -19,6 +19,8 @@ Still choosing? Compare Goa, Manali, Rishikesh and more in [where to go in Decem
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
+Only have a weekend? Compare Varanasi with other [weekend getaways from Delhi](weekend-getaways-from-delhi.html), with distances and travel times.
+
 ## Varanasi weather in December and January
 
 Long-term averages for Varanasi from the India Meteorological Department (IMD, 1991–2020):

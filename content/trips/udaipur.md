@@ -17,6 +17,8 @@ Still choosing? Compare other winter trips in [where to go in December and Janua
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html), and work out the fuel with the [road trip fuel cost calculator](../tools/road-trip-cost-calculator.html).
 
+Only have a weekend? See our [weekend getaways from Delhi](weekend-getaways-from-delhi.html) and [weekend getaways from Mumbai](weekend-getaways-from-mumbai.html), with distances and travel times.
+
 ## Weather in December and January
 
 Long-term averages for Udaipur from the India Meteorological Department (IMD), 1981–2010:
