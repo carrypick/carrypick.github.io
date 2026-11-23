@@ -87,6 +87,8 @@ Prefer a package with hotels, flights inside Canada and transfers booked for you
 
 [[tours:Canada]]
 
+[[activities:Canada]]
+
 ## Canada weather by month, and the best time to go
 
 Long-term averages (1971–2000) from the Meteorological Service of Canada (Environment and Climate Change Canada), published by the World Meteorological Organization:
@@ -131,6 +133,10 @@ You have three ways to stay online in Canada:
 - **An eSIM:** a data plan you buy online and install on your phone before you go, with no plastic card. Your phone must support eSIM and must not be locked to one network.
 
 Mobile coverage is weak on parts of the Icefields Parkway and other mountain roads. Download offline maps before you drive.
+
+Install the eSIM at home over Wi-Fi and switch it on when you land. Most travel eSIMs give data only, with no local number, so keep your home SIM on for calls and bank OTP texts (roaming charges may apply).
+
+[[esim:Canada]]
 
 ## Where to book your stay
 

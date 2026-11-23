@@ -84,6 +84,8 @@ Prefer a package with hotels, internal flights and transfers booked for you? Com
 
 [[tours:New Zealand]]
 
+[[activities:New Zealand]]
+
 ## New Zealand weather by month, and the best time to go
 
 The seasons are the opposite of India's. Long-term averages (1981–2010) from New Zealand's national weather service (MetService), published by the World Meteorological Organization:
@@ -126,6 +128,10 @@ You have three ways to stay online in New Zealand:
 - **An eSIM:** a data plan you buy online and install on your phone before you go, with no plastic card. Your phone must support eSIM and must not be locked to one network.
 
 Mobile coverage is weak on many mountain roads, including the road to Milford Sound. Download offline maps before you drive.
+
+Install the eSIM at home over Wi-Fi and switch it on when you land. Most travel eSIMs give data only, with no local number, so keep your home SIM on for calls and bank OTP texts (roaming charges may apply).
+
+[[esim:New Zealand]]
 
 ## Where to book your stay
 

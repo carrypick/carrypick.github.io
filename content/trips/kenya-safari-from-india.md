@@ -80,6 +80,8 @@ Most Indians book a safari as a package, with the vehicle, driver-guide, park fe
 
 [[tours:Kenya]]
 
+[[activities:Kenya]]
+
 ## Park fees: Kenya Wildlife Service and the Masai Mara
 
 Kenya's national parks charge a conservation fee for each person. For non-residents, Kenya Wildlife Service's 2025 conservation fee table (read 23 Nov 2026) lists:
@@ -146,6 +148,10 @@ You have three ways to stay online in Kenya:
 - **An eSIM:** a data plan you buy online and install on your phone before you go. Your phone must support eSIM and must not be locked to one network.
 
 Coverage in the parks is patchy, and many camps have Wi-Fi only in the main area.
+
+Install the eSIM at home over Wi-Fi and switch it on when you land. Most travel eSIMs give data only, with no local number, so keep your home SIM on for calls and bank OTP texts (roaming charges may apply).
+
+[[esim:Kenya]]
 
 ## Where to book your stay
 
