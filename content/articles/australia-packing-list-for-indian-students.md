@@ -140,6 +140,8 @@ This adapter has a Type I plug for Australia:
 
 [[pick:B0C3RB9X98]]
 
+Want a hard case or a smaller pouch instead? Compare five in our [gadget organiser guide](gadget-organiser.html).
+
 ## Small things students are glad they packed
 
 - **[Packing cubes](packing-cubes.html),** so your bags open neatly when an officer checks them

@@ -92,4 +92,4 @@ For work, see our [office backpack guide](office-backpack-for-men.html). For fli
 4. Is there a rain cover, or will I carry an umbrella?
 5. Does it have at least a 1-year warranty?
 
-Not sure how many litres you need? See our [backpack size chart](backpack-size-chart-litres.html).
+Not sure how many litres you need? See our [backpack size chart](backpack-size-chart-litres.html). To keep your charger and cables sorted inside, see the [gadget organiser guide](gadget-organiser.html).

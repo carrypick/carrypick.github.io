@@ -100,6 +100,8 @@ More sets, and EDP vs EDT, in our [perfume buying guide](perfume-buying-guide.ht
 
 [[pick:B0C3RB9X98]]
 
+Want a hard case or a smaller pouch instead? Compare five in our [gadget organiser guide](gadget-organiser.html).
+
 **A passport holder, if they fly abroad.** It holds a passport, 4 cards, 2 SIM cards and a boarding pass.
 
 [[pick:B0BHC41KYN]]

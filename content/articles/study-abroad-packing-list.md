@@ -106,6 +106,8 @@ A laptop backpack with an anti-theft pocket:
 
 [[pick:B0C3RB9X98]]
 
+Want a hard case or a smaller pouch instead? Compare five in our [gadget organiser guide](gadget-organiser.html).
+
 [[pick:B07Q822CWX]]
 
 ## What not to pack

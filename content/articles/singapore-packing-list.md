@@ -121,6 +121,8 @@ Which plugs does Singapore use? See the table in our [power bank and travel adap
 
 [[pick:B0C3RB9X98]]
 
+Want a hard case or a smaller pouch instead? Compare five in our [gadget organiser guide](gadget-organiser.html).
+
 ## What to pack for women
 
 - Three or four cotton dresses, or tops with shorts, skirts or loose trousers

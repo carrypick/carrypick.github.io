@@ -80,7 +80,7 @@ The most pieces: 8, with mesh tops so you can see what's inside:
 
 ## A cube for chargers and cables
 
-Chargers, cables, earphones and a power bank go missing in a cube of clothes. A padded gadget organiser keeps them in one place, and you can lift it out at security:
+Chargers, cables, earphones and a power bank go missing in a cube of clothes. A padded gadget organiser keeps them in one place, and you can lift it out at security. Our [gadget organiser guide](gadget-organiser.html) compares five, from a small pouch to a hard case:
 
 [[pick:B0C3RB9X98]]
 

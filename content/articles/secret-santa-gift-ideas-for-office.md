@@ -86,6 +86,8 @@ More perfume gift sets for men and women in our [perfume buying guide](perfume-b
 
 [[pick:B0C3RB9X98]]
 
+Want a hard case or a smaller pouch instead? Compare five in our [gadget organiser guide](gadget-organiser.html).
+
 ## Gifts for a colleague who travels for work
 
 **A toiletry bag that's light and easy to wipe clean.** It's vegan leather, for men or women.

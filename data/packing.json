@@ -993,7 +993,7 @@
           "id": "cable-pouch",
           "name": "Pouch for cables and chargers",
           "trips": [],
-          "pick": "B0C3RB9X98",
+          "link": "guides/gadget-organiser.html",
           "maker": [
             {
               "type": [
@@ -2033,6 +2033,10 @@
           [
             "guides/tsa-lock.html",
             "TSA lock: do you need one?"
+          ],
+          [
+            "guides/gadget-organiser.html",
+            "Gadget organiser: hard case or pouch?"
           ]
         ]
       }

@@ -112,6 +112,8 @@ More ideas, for Christmas and birthdays too, are in our [gift ideas for your bos
 
 [[pick:B0C3RB9X98]]
 
+Want a hard case or a smaller pouch instead? Compare five in our [gadget organiser guide](gadget-organiser.html).
+
 ## For a colleague moving to another city or abroad
 
 **A passport holder.** It keeps the passport, boarding pass, cards and SIM cards together, with a pen holder.

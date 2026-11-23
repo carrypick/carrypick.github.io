@@ -149,6 +149,8 @@ A light 25 litre daypack:
 
 [[pick:B0C3RB9X98]]
 
+Want a hard case or a smaller pouch instead? Compare five in our [gadget organiser guide](gadget-organiser.html).
+
 ## What to pack for women
 
 - Thermal top and lower for December and January

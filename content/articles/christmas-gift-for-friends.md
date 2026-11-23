@@ -110,6 +110,8 @@ Shopping for family too? See our [Christmas gifts for parents](christmas-gift-fo
 
 [[pick:B0C3RB9X98]]
 
+Want a hard case or a smaller pouch instead? Compare five in our [gadget organiser guide](gadget-organiser.html).
+
 **A digital luggage scale, so they never pay for extra kilos at the airport:**
 
 [[pick:B07Q822CWX]]

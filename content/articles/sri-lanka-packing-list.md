@@ -137,6 +137,8 @@ A 100 ml body sunscreen fits the liquid rule for cabin bags:
 
 [[pick:B0C3RB9X98]]
 
+Want a hard case or a smaller pouch instead? Compare five in our [gadget organiser guide](gadget-organiser.html).
+
 ## Medicines
 
 Sri Lanka's National Medicines Regulatory Authority lets travellers bring medicines for their own use without approval, with these rules:

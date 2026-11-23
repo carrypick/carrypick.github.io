@@ -111,6 +111,8 @@ For a husband who wears perfume to the office, see the Park Avenue set and more 
 
 [[pick:B0C3RB9X98]]
 
+Want a hard case or a smaller pouch instead? Compare five in our [gadget organiser guide](gadget-organiser.html).
+
 **A laptop backpack with a sleeve that slides over a trolley handle:**
 
 [[pick:B0B6CM781M]]

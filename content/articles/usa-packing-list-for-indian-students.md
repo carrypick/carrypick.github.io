@@ -167,6 +167,8 @@ Pack spices in sealed shop packs, and keep them together in one bag so they're e
 
 [[pick:B0C3RB9X98]]
 
+Want a hard case or a smaller pouch instead? Compare five in our [gadget organiser guide](gadget-organiser.html).
+
 ## Small things students are glad they packed
 
 - **[Packing cubes](packing-cubes.html),** so your bags open neatly at security and in your room
