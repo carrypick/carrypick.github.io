@@ -14,6 +14,7 @@ For a flight abroad, the right check-in trolley is usually a **large bag of 75â€
 - **Weight: 23 kg per bag on piece fares.** Air India gives one or two bags of 23 kg each to the USA, Canada and Europe. Gulf and Asia routes usually give a total in kg instead, with no bag over 32 kg.
 - **For a 23 kg bag, pick a large trolley within 158 cm.** A medium one may run out of room before 23 kg unless you pack heavy things.
 - **The bag's weight counts.** A 3.5 kg bag leaves 19.5 kg for your things, and a 4.5 kg bag only 18.5 kg.
+- **Going abroad to study?** See our [study abroad packing list](study-abroad-packing-list.html), with student baggage allowances and lists for the USA, the UK, Canada, Australia and Germany.
 
 [[toppicks:Our picks for a 23 kg bag|Compare all three|#our-picks]]
 [[top:B0F5HLYQK3|Most room for its weight|Listed at exactly 158 cm in total and 3.5 kg empty, so 19.5 kg of a 23 kg bag is left for your things. 95.5 litres, with a TSA lock.]]

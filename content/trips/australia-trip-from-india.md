@@ -160,6 +160,8 @@ In Sydney, stay near Circular Quay, The Rocks or the CBD to walk to the harbour,
 
 For what to buy, see the [checklist for trips abroad](../packing/abroad.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html).
 
+Going to Australia to study? See our [Australia packing list for Indian students](../guides/australia-packing-list-for-indian-students.html), with the documents for your hand bag, student baggage and the customs rules on Indian food and medicines.
+
 ## Help in an emergency
 
 - **Emergency number in Australia:** 000 (police, fire and ambulance).

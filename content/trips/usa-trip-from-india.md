@@ -163,6 +163,8 @@ In New York, stay in Midtown Manhattan to walk to Times Square, Central Park and
 
 For what to buy, see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html) and the [checklist for trips abroad](../packing/abroad.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html).
 
+Going to the USA to study? See our [USA packing list for Indian students](../guides/usa-packing-list-for-indian-students.html), with the documents for your hand bag, student baggage and the customs rules on Indian food and medicines.
+
 ## Help in an emergency
 
 - **Emergency number in the USA:** 911.

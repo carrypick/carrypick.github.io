@@ -15,6 +15,7 @@ A 32 inch trolley bag is **81.3 cm** tall. That's the biggest size most brands m
 - **None of the 11 bags of 79–82 cm we read on 15 Nov is within 158 cm.** Their totals (length + width + height) are 159–175 cm. The one exception we know of is the Liftoff+ 79 cm below.
 - **Airlines with bigger limits take it,** such as Emirates (203 cm) and Qatar Airways (300 cm) on flights from India.
 - **On a 15 kg fare, it's too much bag.** A typical one weighs 4.15 kg empty, so only 10.85 kg is left for your things.
+- **Going abroad to study?** See our [study abroad packing list](study-abroad-packing-list.html), with student baggage allowances and lists for the USA, the UK, Canada, Australia and Germany.
 
 [[toppicks:Our picks for big bags|Compare all three|#our-picks]]
 [[top:B0F5HLYQK3|Biggest within 158 cm|79 cm tall (31.1 inches) and listed at exactly 158 cm in total, so it's within the limit of every Indian airline. 3.5 kg empty, with a TSA lock.]]

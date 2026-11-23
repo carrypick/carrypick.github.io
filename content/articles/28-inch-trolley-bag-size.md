@@ -15,6 +15,7 @@ A 28 inch trolley bag is **71.1 cm** tall. In India, brands sell large bags at 7
 - **It's a check-in bag** for long trips or families.
 - **26 of the 31 large models we checked are listed over 158 cm** in total (length + width + height).
 - **On a 15 kg fare, you may not need one.** A [medium trolley](26-inch-trolley-bag-size.html) is lighter and easier to handle.
+- **Going abroad to study?** See our [study abroad packing list](study-abroad-packing-list.html), with student baggage allowances and lists for the USA, the UK, Canada, Australia and Germany.
 
 [[toppicks:Our picks for this size|Compare all three|#our-picks-all-within-158-cm-by-their-listed-size]]
 [[top:B0GX5VFHMS|Smallest total, and light|75 cm tall and 152 cm in total, well inside the 158 cm limit. 3.6 kg empty.]]

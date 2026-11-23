@@ -162,6 +162,8 @@ In Toronto, stay downtown near Union Station to walk to the waterfront and the C
 
 Going in winter? Our [Canada winter packing list](../guides/canada-packing-list.html) covers layers, jackets, gloves, boots and plugs, and the [winter jacket for travel guide](../guides/winter-jacket-for-travel.html) explains down vs synthetic. For more on layering, see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html) and the [checklist for trips abroad](../packing/abroad.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html).
 
+Going to Canada to study? See our [Canada packing list for Indian students](../guides/canada-packing-list-for-indian-students.html), with the documents for your hand bag, student baggage and the customs rules on Indian food and medicines.
+
 ## Help in an emergency
 
 - **Emergency number in Canada:** 911.

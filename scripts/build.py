@@ -2980,6 +2980,12 @@ def build_packing(cfg, deals_by_asin, pages, lastmod, trip_guides=()):
             going_html += '<p class="small">Want the full list, with what to wear and why? Read our packing lists for %s.</p>' % and_list(
                 f'<a href="../guides/{s_}-packing-list.html">{place}</a>' for s_, place in lists)
         if slug == "abroad":
+            study = [(c, place) for c, place in (("usa", "the USA"), ("uk", "the UK"), ("canada", "Canada"), ("australia", "Australia"), ("germany", "Germany"))
+                     if (ARTICLES_DIR / ("%s-packing-list-for-indian-students.md" % c)).exists()]
+            if study and (ARTICLES_DIR / "study-abroad-packing-list.md").exists():
+                going_html += ('<p class="small">Going abroad to study? Read our <a href="../guides/study-abroad-packing-list.html">study abroad packing list</a>, '
+                               'and the student lists for %s.</p>' % and_list(
+                                   f'<a href="../guides/{c}-packing-list-for-indian-students.html">{place}</a>' for c, place in study))
             going_html += visa_india.link_line(None, "../").replace("<p>", '<p class="small">', 1)
             if (TRIPS_DIR / "international-trips-from-india.md").exists():
                 going_html += ('<p class="small">Still choosing where to go? Compare <a href="../trips/international-trips-from-india.html">'

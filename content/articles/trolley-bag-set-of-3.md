@@ -15,6 +15,7 @@ A trolley bag set of 3 gives you a cabin, a medium and a large bag in one box, u
 - **Polycarbonate set:** the [Safari Thorium Neo set](../picks/B097BHFQVS.html), 10.5 kg for all three.
 - **Check the large bag.** Two of these sets list a large bag of 164–167 cm in total, over the 158 cm that most Indian airlines allow for a checked bag.
 - **Only need two?** A [set of 2](../picks/B0GZKSXPZR.html) (cabin and medium) suits couples and short trips.
+- **Going abroad to study?** See our [study abroad packing list](study-abroad-packing-list.html), with student baggage allowances and lists for the USA, the UK, Canada, Australia and Germany.
 
 [[toppicks:Sets we picked|Compare all five sets|#our-picks]]
 [[top:B0F5HQZJCV|Set of 3 with TSA locks|55, 67 and 79 cm, 8.6 kg for all three, and a 3-year international warranty.]]

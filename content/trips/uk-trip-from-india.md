@@ -164,6 +164,8 @@ In London, stay near a Tube station in Zones 1 or 2: Westminster, South Kensingt
 
 For what to buy, see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html) and the [checklist for trips abroad](../packing/abroad.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html).
 
+Going to the UK to study? See our [UK packing list for Indian students](../guides/uk-packing-list-for-indian-students.html), with the documents for your hand bag, student baggage and the customs rules on Indian food and medicines.
+
 ## Help in an emergency
 
 - **Emergency number in the UK:** 999 (police, fire and ambulance). 112 also works.
