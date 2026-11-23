@@ -1,5 +1,123 @@
 [
   {
+    "asin": "B0BTYBJH8H",
+    "added_at": "2026-11-23T11:29:27+05:30",
+    "title": "Fastrack Mixmatched Couple Watch Set, Blue and Pink Dials, Leather Straps",
+    "category": "watches",
+    "subcategory": "couple-watches",
+    "highlights": [
+      "His and hers pair: a blue dial on grey leather, a pink dial on pink leather",
+      "Thin 8.95 mm case, 41.6 mm (largest case listed)",
+      "Quartz movement, mineral glass",
+      "Water resistant to 30 m (splash-proof)"
+    ],
+    "note": "A young, casual pair from Titan Company's Fastrack brand, for couples who prefer leather straps to steel.",
+    "brand": "Fastrack",
+    "colour": "Teal blue and pink dial, grey and pink strap",
+    "best_for": [
+      "Young couples",
+      "Valentine's Day"
+    ],
+    "specs": {
+      "Case size": "41.6 mm (as listed)",
+      "Case thickness": "8.95 mm",
+      "Strap": "Leather, 20 mm",
+      "Movement": "Quartz",
+      "Water resistance": "30 m",
+      "Warranty": "Not listed (says limited)"
+    },
+    "skip_if": "you want a formal pair for parents: a steel Titan or Sonata Bandhan set looks more classic."
+  },
+  {
+    "asin": "B0GS6ZHWY6",
+    "added_at": "2026-11-23T11:28:30+05:30",
+    "title": "Skybags Basecamp 40L Travel Laptop Backpack with Rain Cover (up to 17 inch)",
+    "category": "backpacks",
+    "subcategory": "travel-backpacks",
+    "highlights": [
+      "40 litres in 3 compartments, with a shoe compartment",
+      "Fits up to a 17 inch laptop, plus a tablet sleeve",
+      "Rain cover, trolley sleeve and a secret pocket",
+      "12-month international warranty"
+    ],
+    "note": "A 40 L backpack listed at 50 x 34 x 23 cm, inside the 55 x 35 x 25 cm cabin limit of IndiGo, Akasa and SpiceJet.",
+    "brand": "Skybags",
+    "colour": "Black",
+    "best_for": [
+      "Carry-on trips",
+      "Weekend travel"
+    ],
+    "specs": {
+      "Capacity": "40 L",
+      "Size": "50 x 34 x 23 cm",
+      "Laptop": "Up to 17 inch",
+      "Weight": "898 g",
+      "Material": "Polyester",
+      "Rain cover": "Yes",
+      "Warranty": "12 months international"
+    },
+    "skip_if": "your airline allows only 20 cm depth, like Air India: it's listed at 23 cm."
+  },
+  {
+    "asin": "B09VTDMRY7",
+    "added_at": "2026-11-23T11:28:30+05:30",
+    "title": "Fur Jaden Anti-Theft Backpack with Number Lock (up to 15.6 inch)",
+    "category": "backpacks",
+    "subcategory": "laptop-backpacks",
+    "highlights": [
+      "Built-in number lock, and you can set your own code",
+      "2 compartments, fits up to a 15.6 inch laptop",
+      "Padded straps and an air-mesh back",
+      "USB charging port (power bank not included)"
+    ],
+    "note": "A lock you set yourself, for the times you leave your bag on a train rack or a hostel bed.",
+    "brand": "Fur Jaden",
+    "colour": "Black",
+    "best_for": [
+      "Train journeys",
+      "College"
+    ],
+    "specs": {
+      "Capacity": "25 L",
+      "Size": "42 x 30 x 18 cm (H x W x D)",
+      "Laptop": "Up to 15.6 inch",
+      "Weight": "600 g",
+      "Material": "PU fabric, polyester lining",
+      "Water resistance": "Not water resistant (details table)",
+      "Warranty": "1 year"
+    },
+    "skip_if": "you need a rain cover: the details table says it isn't water resistant."
+  },
+  {
+    "asin": "B078GLXMDY",
+    "added_at": "2026-11-23T11:28:30+05:30",
+    "title": "Fur Jaden Anti-Theft Backpack, Hidden Back Zip (up to 15.6 inch)",
+    "category": "backpacks",
+    "subcategory": "laptop-backpacks",
+    "highlights": [
+      "Main zip is hidden on the back panel, against your body",
+      "Secret pockets on a shoulder strap and on the back",
+      "Fits up to a 15.6 inch laptop",
+      "USB charging port (power bank not included)"
+    ],
+    "note": "A true anti-theft design: there's no zip on the front or sides, so the main compartment only opens from the side that rests on your back.",
+    "brand": "Fur Jaden",
+    "colour": "Black",
+    "best_for": [
+      "Crowded trains",
+      "City travel"
+    ],
+    "specs": {
+      "Capacity": "20 L",
+      "Size": "45 x 30 x 12 cm (H x W x D)",
+      "Laptop": "Up to 15.6 inch",
+      "Weight": "600 g",
+      "Material": "Polyester",
+      "Warranty": "1 year in the bullets, 6 months in the details (listing gives both)"
+    },
+    "skip_if": "you need quick access: you have to take the bag off to open the main zip."
+  },
+  {
     "asin": "B004KM82IQ",
     "added_at": "2026-11-23T10:24:51+05:30",
     "title": "Celestron Outland X 8x42 Binoculars",
