@@ -1,5 +1,35 @@
 [
   {
+    "asin": "B08JXFW7HM",
+    "added_at": "2026-11-23T14:40:29+05:30",
+    "title": "BANGE Clownfish Anti-Theft Sling Bag",
+    "category": "handbags",
+    "subcategory": "slings-crossbody",
+    "highlights": [
+      "Built-in combination lock on the zips (as listed)",
+      "6 litres, fits a tablet up to 7.9 inches",
+      "5 pockets, including a hidden side pocket and a card pocket on the strap",
+      "USB port with an inside cable for a power bank"
+    ],
+    "note": "A chest sling for men or women with a lock, for crowded stations and markets.",
+    "brand": "BANGE",
+    "colour": "Black",
+    "best_for": [
+      "Sightseeing",
+      "Crowded places"
+    ],
+    "specs": {
+      "For": "Men and women",
+      "Size": "18 x 10 x 34 cm",
+      "Capacity": "6 L",
+      "Weight": "460 g",
+      "Material": "Water-resistant polyester (as listed)",
+      "Closure": "Zip with combination lock",
+      "Pockets": "5"
+    },
+    "skip_if": "you want a small bag for an evening out: it's a sporty chest bag."
+  },
+  {
     "asin": "B09SF31JXF",
     "added_at": "2026-11-23T14:40:29+05:30",
     "title": "adidas Men's Hurtle Flip-Flops",

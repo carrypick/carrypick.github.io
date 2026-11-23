@@ -88,6 +88,8 @@ EDP or EDT? Floral or woody? Our [perfume buying guide](perfume-buying-guide.htm
 
 [[pick:B07PFF4RYC]]
 
+More slings for travel are in our [sling bag for travel guide](sling-bag-for-travel.html).
+
 **Packing cubes to keep a suitcase tidy.** All 8 pieces fold into the largest one when not in use:
 
 [[pick:B0C4TV4M2F]]

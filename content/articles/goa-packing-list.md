@@ -87,7 +87,7 @@ More shapes and sizes, and how to read UV and polarized labels, in our [sunglass
 
 ## Beach bag
 
-- **A small sling or tote** for your phone, cash and sunscreen. Beaches are open from 7 AM to sunset, says Goa Tourism, and you'll carry things all day.
+- **A small sling or tote** for your phone, cash and sunscreen. Beaches are open from 7 AM to sunset, says Goa Tourism, and you'll carry things all day. See [sling bags for travel](sling-bag-for-travel.html).
 - **A waterproof pouch** for your phone, cash and room key on the beach and on boat trips.
 - **A quick-dry towel or sarong.**
 - **A plastic or zip bag** for wet swimwear.

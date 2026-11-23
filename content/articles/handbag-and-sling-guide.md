@@ -64,6 +64,8 @@ A small sling for your passport, phone and wallet:
 
 [[pick:B07PFF4RYC]]
 
+More slings for men and women, with a lock and what fits: see [sling bag for travel](sling-bag-for-travel.html).
+
 ## For men
 
 A small leather sling:

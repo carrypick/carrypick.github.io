@@ -90,6 +90,8 @@ More ideas for him are in our [Christmas gifts for a boyfriend or husband](chris
 
 [[pick:B07PFF4RYC]]
 
+More travel slings, including one with a lock, are in our [sling bag for travel guide](sling-bag-for-travel.html).
+
 **Packing cubes to keep a cabin bag tidy:**
 
 [[pick:B0C4TV4M2F]]
