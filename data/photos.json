@@ -761,6 +761,36 @@
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "alt": "Geunjeongjeon, the royal throne hall of Gyeongbokgung Palace in Seoul, under a blue sky with a mountain behind",
       "used": "2026-11-22"
+    },
+    "milford-sound": {
+      "commons": "File:Milford Sound in Fiordland National Park 01.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Milford_Sound_in_Fiordland_National_Park_01.jpg",
+      "credit": "Krzysztof Golik",
+      "profile": "https://www.wikidata.org/wiki/Q51955005",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "alt": "Milford Sound in Fiordland National Park, New Zealand: green mountains rising straight out of the blue water of the fiord",
+      "used": "2026-11-23"
+    },
+    "moraine-lake": {
+      "commons": "File:Moraine Lake 17092005.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Moraine_Lake_17092005.jpg",
+      "credit": "Gorgo",
+      "profile": "https://commons.wikimedia.org/wiki/User:Gorgo",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Moraine_Lake_17092005.jpg",
+      "alt": "Moraine Lake in Banff National Park, Canada, with snowy peaks and pine forest reflected in the turquoise water",
+      "used": "2026-11-23"
+    },
+    "masai-mara-elephant": {
+      "commons": "File:African bush elephant (Loxodonta africana), Masai Mara.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:African_bush_elephant_(Loxodonta_africana),_Masai_Mara.jpg",
+      "credit": "Hobbyfotowiki",
+      "profile": "https://commons.wikimedia.org/wiki/User:Hobbyfotowiki",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "alt": "An African elephant with long tusks walking through the golden grass of the Masai Mara in Kenya",
+      "used": "2026-11-23"
     }
   }
 }

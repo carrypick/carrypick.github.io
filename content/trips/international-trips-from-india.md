@@ -1,7 +1,7 @@
 ---
 seo_title: International trips from India (2026–27): foreign trips by flight time, best months and visa type
 title: International trips from India: where to go, by flight time, season and visa
-description: Choosing a foreign trip from India? Compare Nepal, Bhutan, Sri Lanka, the Maldives, Dubai, Thailand, Vietnam, Malaysia, Hong Kong, South Korea, Singapore, Egypt, Mauritius, Oman, Uzbekistan, Bali, Japan, Europe, the UK, Australia and the USA by distance and rough flying time from Delhi and Mumbai, the best months, the visa type for Indians, and whether each suits a honeymoon or a family trip. Links to our trip guides, packing lists and baggage rules.
+description: Choosing a foreign trip from India? Compare Nepal, Bhutan, Sri Lanka, the Maldives, Dubai, Thailand, Vietnam, Malaysia, Hong Kong, South Korea, Singapore, Egypt, Kenya, Mauritius, Oman, Uzbekistan, Bali, Japan, Europe, the UK, Australia, Canada, the USA and New Zealand by distance and rough flying time from Delhi and Mumbai, the best months, the visa type for Indians, and whether each suits a honeymoon or a family trip. Links to our trip guides, packing lists and baggage rules.
 date: 2026-11-21
 place: International trips
 hub_title: no
@@ -39,6 +39,7 @@ Distance is the straight-line distance from Delhi (DEL) or Mumbai (BOM) airport,
 | [Singapore](singapore-trip-from-india.html) | About 4,160 km / 3,920 km | About 5½ hours | February to April | [Visa through an agent](../guides/visa-free-countries-for-indians.html#singapore) |
 | [Turkey](turkey-trip-from-india.html) | About 4,570 km (Istanbul) / 4,830 km | About 6 hours from Delhi | April to June; September and October | [Visa from a Turkish mission](../guides/visa-free-countries-for-indians.html#turkey), or an e-visa with a US, UK, Schengen or Irish visa |
 | [Egypt](egypt-trip-from-india.html) | About 4,400 km (Cairo) / 4,340 km | About 6 to 7 hours | October to April | [e-visa online](../guides/visa-free-countries-for-indians.html#egypt), US$30 single entry |
+| [Kenya](kenya-safari-from-india.html) | About 5,420 km (Nairobi) / 4,530 km | About 6 hours from Mumbai | Late June to October; January and February | [eTA online](../guides/visa-free-countries-for-indians.html#kenya), from US$30 |
 | [South Korea](south-korea-trip-from-india.html) | About 4,650 km (Seoul) / 5,550 km | Direct from Delhi only (Air India, Korean Air) | April and May; October and November | [Visa through a VFS centre](../guides/visa-free-countries-for-indians.html#south-korea), ₹3,600 plus ₹1,600 VFS charge; Jeju has no visa for 30 days |
 | [Mauritius](mauritius-trip-from-india.html) | About 5,830 km / 4,700 km | About 6½ hours from Mumbai | May to November; December is warm with some rain | [No visa](../guides/visa-free-countries-for-indians.html#mauritius): return ticket and hotel booking |
 | [Bali (Indonesia)](bali-trip-from-india.html) | About 5,820 km / 5,570 km | About 7½ hours | April to October | [Visa on arrival or e-VOA](../guides/visa-free-countries-for-indians.html#indonesia) |
@@ -46,7 +47,9 @@ Distance is the straight-line distance from Delhi (DEL) or Mumbai (BOM) airport,
 | [Europe: Switzerland, Paris, Italy](europe-trip-from-india.html) | About 6,150 km (Zurich) / 6,540 km | About 8 to 9 hours from Delhi | May, June and September; December for Christmas markets | [Schengen visa](../guides/visa-free-countries-for-indians.html#schengen), applied for before you fly |
 | [UK (London)](uk-trip-from-india.html) | About 6,730 km (London) / 7,210 km | About 9 to 10 hours from Delhi | May to September; December for Christmas lights | [Standard Visitor visa](../guides/visa-free-countries-for-indians.html#uk), £135 |
 | [Australia](australia-trip-from-india.html) | About 10,430 km / 10,160 km (Sydney) | About 12 hours from Delhi | September to November; March to May | [Visitor visa online](../guides/visa-free-countries-for-indians.html#australia), from AUD 250 |
+| [Canada](canada-trip-from-india.html) | About 11,640 km (Toronto) / 12,490 km | About 14 to 16 hours from Delhi | June to September; October for autumn colours | [Visitor visa online with biometrics](../guides/visa-free-countries-for-indians.html#canada), CAN$100 plus CAN$85 |
 | [USA](usa-trip-from-india.html) | About 11,760 km (New York) / 12,530 km | About 15 to 16 hours from Delhi | April to June; September and October | [B1/B2 visa with an interview](../guides/visa-free-countries-for-indians.html#usa), US$185 |
+| [New Zealand](new-zealand-trip-from-india.html) | About 12,500 km (Auckland) / 12,300 km | No direct flights: one stop, a long day | December to March; March to May | [Visitor Visa online](../guides/visa-free-countries-for-indians.html#new-zealand), from NZD 441 |
 
 Not every city has a direct flight to every country. Each trip guide lists the direct flights from Indian cities, with the date we checked.
 
@@ -110,6 +113,18 @@ Short trips abroad mean less time in the air and less tiredness, so you get more
 
 - **[USA](usa-trip-from-india.html):** the Statue of Liberty and Times Square in New York, the Las Vegas Strip and the Grand Canyon, Hollywood and Santa Monica, the Golden Gate Bridge, and Orlando's theme parks. Direct flights from Delhi and Mumbai to New York, and from Delhi to San Francisco and Chicago. Indians need the B1/B2 visitor visa (US$185) with an interview in India; check the official appointment wait time before you plan, and note that ESTA isn't open to Indian passports.
 
+## Kenya: a safari in the Masai Mara
+
+- **[Kenya](kenya-safari-from-india.html):** lions, elephants and the wildebeest migration in the Masai Mara, flamingos and rhinos at Lake Nakuru, and elephants below Kilimanjaro at Amboseli. Direct flights from Mumbai to Nairobi, about 6 hours. Indians apply for an eTA online on the official site (from US$30, usually within 3 working days). Best from late June to October.
+
+## Canada: Toronto, Niagara Falls, Banff and Vancouver
+
+- **[Canada](canada-trip-from-india.html):** Niagara Falls and the Toronto skyline, the turquoise lakes of Banff in the Rockies, and Vancouver between the mountains and the sea. Direct flights from Delhi to Toronto and Vancouver. Indians apply online for the visitor visa (CAN$100 plus CAN$85 for biometrics at a VFS centre in India); the eTA isn't open to Indian passports, even with a US visa. Best from June to September.
+
+## New Zealand: fiords, lakes and mountains
+
+- **[New Zealand](new-zealand-trip-from-india.html):** Milford Sound, Queenstown, Aoraki/Mount Cook and Lake Tekapo on the South Island, and Rotorua and Hobbiton on the North Island. No direct flights: one stop via Singapore, Kuala Lumpur, Hong Kong or Australia. Indians apply online for the Visitor Visa (from NZD 441); the NZeTA isn't open to Indian passports. The seasons are the opposite of India's.
+
 ## Best international trips from India in December
 
 December and January are holiday months in India, and they suit these trips best:
@@ -136,6 +151,9 @@ December and January are holiday months in India, and they suit these trips best
 - **[UK](uk-trip-from-india.html):** cold, about 8 °C by day in London and dark by 4 PM, but with Christmas lights and markets.
 - **[Australia](australia-trip-from-india.html):** early summer: Sydney about 26 °C by day, Melbourne about 24 °C, and beach weather; the Australian school holidays make it busy.
 - **[USA](usa-trip-from-india.html):** cold in New York (about 6 °C by day, 0 °C at night) with Christmas lights; mild in Los Angeles (about 20 °C) and Orlando (about 22 °C).
+- **[Kenya](kenya-safari-from-india.html):** the short rains ease; Nairobi about 23 °C by day and 13 °C at night. January and February are dry.
+- **[Canada](canada-trip-from-india.html):** snow and well below freezing: Toronto about 2 °C by day and −4 °C at night, Banff colder; good for skiing, wet in Vancouver.
+- **[New Zealand](new-zealand-trip-from-india.html):** early summer: Auckland about 22 °C by day, Queenstown about 20 °C, long evenings; busy at Christmas.
 - **Less ideal in December:** [Singapore](singapore-trip-from-india.html) (its wettest month, with short showers) and [Bali](bali-trip-from-india.html) (the wet season).
 
 Christmas to New Year is the busiest time everywhere, so book early. Going away for New Year's Eve? See [where to go for New Year 2027](new-year-trips-2027.html) and our [Dubai New Year guide](dubai-new-year-2027.html). Comparing with trips inside India too? See [where to go in December and January](where-to-go-in-december-january.html).
@@ -147,7 +165,7 @@ Many people asking for a "cheap" foreign trip really want a short flight and an 
 - **No visa at all:** [Nepal](nepal-in-december.html), [Bhutan](bhutan-in-december.html) (Bhutan has an entry permit and a daily fee) and [Mauritius](mauritius-trip-from-india.html) (carry a return ticket and a hotel booking).
 - **No visa for a short tourist stay:** [Kazakhstan](kazakhstan-trip-from-india.html) (14 days), [Thailand](thailand-trip-from-india.html) (30 days), [Malaysia](malaysia-trip-from-india.html) (30 days, until 31 December 2026) and [Hong Kong](hong-kong-trip-from-india.html) (14 days, after a free online pre-arrival registration).
 - **A free visa online, or a visa on arrival:** [Sri Lanka](sri-lanka-trip-from-india.html) (free ETA), the [Maldives](maldives-trip-from-india.html) and [Bali](bali-trip-from-india.html) (visa on arrival).
-- **Apply before you fly:** [Vietnam](vietnam-trip-from-india.html) (e-visa online), [Georgia](georgia-trip-from-india.html) (e-visa online, or none with a US, UK or Schengen visa), [Azerbaijan](azerbaijan-trip-from-india.html) (e-visa online), [Egypt](egypt-trip-from-india.html) (e-visa online, at least 7 days ahead), [Oman](oman-trip-from-india.html) (e-visa online, or none for 14 days with a US, UK, Schengen or similar visa), [Uzbekistan](uzbekistan-trip-from-india.html) (e-visa online, US$20), [Turkey](turkey-trip-from-india.html) (visa from a Turkish mission, or an e-visa with a US, UK, Schengen or Irish visa), [Singapore](singapore-trip-from-india.html) (through an agent in India), [Japan](japan-trip-from-india.html) (eVISA through VFS), [South Korea](south-korea-trip-from-india.html) (visa through a VFS centre, at least 15 working days; Jeju without a visa), [Australia](australia-trip-from-india.html) (Visitor visa online), [USA](usa-trip-from-india.html) (B1/B2 visa with an interview), [UK](uk-trip-from-india.html) (Standard Visitor visa), [Europe](europe-trip-from-india.html) (Schengen visa, at least 15 days ahead) and [Dubai](dubai-trip-from-india.html) (through a tourism company, airline or hotel).
+- **Apply before you fly:** [Vietnam](vietnam-trip-from-india.html) (e-visa online), [Georgia](georgia-trip-from-india.html) (e-visa online, or none with a US, UK or Schengen visa), [Azerbaijan](azerbaijan-trip-from-india.html) (e-visa online), [Egypt](egypt-trip-from-india.html) (e-visa online, at least 7 days ahead), [Oman](oman-trip-from-india.html) (e-visa online, or none for 14 days with a US, UK, Schengen or similar visa), [Uzbekistan](uzbekistan-trip-from-india.html) (e-visa online, US$20), [Turkey](turkey-trip-from-india.html) (visa from a Turkish mission, or an e-visa with a US, UK, Schengen or Irish visa), [Singapore](singapore-trip-from-india.html) (through an agent in India), [Japan](japan-trip-from-india.html) (eVISA through VFS), [South Korea](south-korea-trip-from-india.html) (visa through a VFS centre, at least 15 working days; Jeju without a visa), [Australia](australia-trip-from-india.html) (Visitor visa online), [USA](usa-trip-from-india.html) (B1/B2 visa with an interview), [Canada](canada-trip-from-india.html) (visitor visa online with biometrics), [New Zealand](new-zealand-trip-from-india.html) (Visitor Visa online), [Kenya](kenya-safari-from-india.html) (eTA online), [UK](uk-trip-from-india.html) (Standard Visitor visa), [Europe](europe-trip-from-india.html) (Schengen visa, at least 15 days ahead) and [Dubai](dubai-trip-from-india.html) (through a tourism company, airline or hotel).
 
 Rules change, and the officer at the airport decides on entry. Check our [visa guide](../guides/visa-free-countries-for-indians.html) and the trip guide before you book, and carry your return ticket and hotel booking.
 

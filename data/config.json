@@ -34,7 +34,7 @@
     },
     "Air India": {
       "url": "https://clnk.in/Eldc",
-      "not_serves": ["Georgia", "Kazakhstan", "Turkey", "Azerbaijan", "Egypt", "Oman", "Uzbekistan"], "not_serves_checked": "2026-11-21: no Air India flights to Tbilisi, Almaty, Istanbul or Baku on the airports' Wikipedia lists; 2026-11-22: none to Cairo; 2026-11-23: none to Muscat (only Air India Express) or Tashkent", "scope": [
+      "not_serves": ["Georgia", "Kazakhstan", "Turkey", "Azerbaijan", "Egypt", "Oman", "Uzbekistan", "Kenya", "New Zealand"], "not_serves_checked": "2026-11-21: no Air India flights to Tbilisi, Almaty, Istanbul or Baku on the airports' Wikipedia lists; 2026-11-22: none to Cairo; 2026-11-23: none to Muscat (only Air India Express) or Tashkent, Nairobi or Auckland", "scope": [
         "domestic",
         "international"
       ]
@@ -66,6 +66,7 @@
     },
     "Etihad Airways": {
       "url": "https://bitli.in/9HVJfMb",
+      "not_serves": ["New Zealand"], "not_serves_checked": "2026-11-23: no Etihad flights to Auckland on the airport's Wikipedia list",
       "scope": [
         "international"
       ]

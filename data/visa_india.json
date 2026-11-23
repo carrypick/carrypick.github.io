@@ -256,11 +256,13 @@
     },
     {
       "slug": "new-zealand", "name": "New Zealand", "aka": "NZ, Auckland, Queenstown",
-      "status": "check",
-      "conditions": ["Immigration New Zealand's Visitor Visa page has a checklist for visitors from India (stays of less than 6 months) and says a Visitor Visa allows a stay of up to 9 months in any 18-month period at most, as decided on your application. That page does not say in plain words whether Indian passport holders need a visa or may use an NZeTA, so we have not marked the rule as confirmed. Check before you plan."],
-      "say": "Immigration New Zealand's Visitor Visa page has a checklist for Indian applicants, but we could not confirm in plain words whether Indians need a visa or an NZeTA. Check its Visitor Visa page before you plan.",
-      "sources": [{"label": "Immigration New Zealand: Visitor Visa", "url": "https://www.immigration.govt.nz/visas/visitor-visa"}],
-      "checked": "2026-11-21"
+      "status": "visa-needed",
+      "stay": "Up to 6 or 9 months; at most 9 months in any 18 months",
+      "fee": "From NZD 441",
+      "conditions": ["Visitor Visa, applied for online before you travel. India is not on Immigration New Zealand's visa waiver list, so the NZeTA is not open to Indian passports.", "At least NZD 1,000 a month to live on (NZD 400 a month if accommodation is paid), and a ticket out or the money for one.", "Passport valid for at least 3 months after you leave New Zealand."],
+      "say": "Yes. Indians need a New Zealand Visitor Visa, applied for online: from NZD 441, says Immigration New Zealand. India is not on the visa waiver list, so Indians can't use the NZeTA.",
+      "sources": [{"label": "Immigration New Zealand: Visitor Visa", "url": "https://www.immigration.govt.nz/visas/visitor-visa"}, {"label": "Immigration New Zealand: visa waiver countries", "url": "https://www.immigration.govt.nz/visit/what-you-need-to-visit-new-zealand/visa-waiver-countries-and-territories/"}],
+      "checked": "2026-11-23"
     }
   ]
 }
