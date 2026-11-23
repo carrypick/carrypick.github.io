@@ -450,7 +450,8 @@ def draw_luggage(d, limit):
             heights = [float(x) for x in re.findall(r"(\d+(?:\.\d+)?)", re.search(r"\(([^)]*)\)", title).group(1))]
             big = dims or [heights[-1], heights[-1] * .72, 30]
             bags = [(h, big[1] * h / big[0], size_word(h).capitalize(), "%s cm" % n(h)) for h in heights]
-            info = [("Large bag %s cm" % ndims(big), "t", 15, 700), ("Set of 3", "m", 13, 400)]
+            # Without a listed size the widths are only a guess for the drawing, so the label never shows them.
+            info = [("Large bag %s cm" % ndims(big) if dims else "Large bag %s cm high" % n(heights[-1]), "t", 15, 700), ("Set of 3", "m", 13, 400)]
             alt = "Drawing of a set of three hard trolleys, %s cm high, drawn to scale" % ", ".join(n(h) for h in heights)
         else:
             bags = [(55, dims[1] * 55 / dims[0], "Cabin", "size not listed"), (dims[0], dims[1], "Medium", "%s cm" % n(dims[0]))]

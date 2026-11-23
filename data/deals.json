@@ -1,5 +1,95 @@
 [
   {
+    "asin": "B0FFBKRVDD",
+    "added_at": "2026-11-23T08:33:03+05:30",
+    "title": "American Tourister Bernplus 72 cm Soft Check-in Trolley, TSA Lock",
+    "category": "luggage",
+    "subcategory": "medium-trolleys",
+    "highlights": [
+      "Soft polyester, 77 litres",
+      "3.72 kg empty",
+      "8 spinner wheels and a TSA lock",
+      "Zipped compartments, cross straps and a mesh divider"
+    ],
+    "note": "A soft check-in trolley with a TSA lock, for people who like outside give and inside pockets.",
+    "brand": "American Tourister",
+    "colour": "Ink Blue",
+    "best_for": [
+      "Trips abroad",
+      "Week-long trips"
+    ],
+    "specs": {
+      "Size": "72 x 46.5 x 30 cm (148.5 cm total)",
+      "Capacity": "77 L",
+      "Weight": "3.72 kg",
+      "Shell": "Soft, polyester",
+      "Wheels": "8 spinner wheels",
+      "Lock": "TSA",
+      "Warranty": "Worldwide (length not stated on the listing)"
+    },
+    "skip_if": "you pack fragile things: a soft case gives less protection than a hard shell."
+  },
+  {
+    "asin": "B0GNS6HXW4",
+    "added_at": "2026-11-23T08:33:03+05:30",
+    "title": "Kamiliant by American Tourister Rock-Lite Set of 3 Trolley Bags (55, 69 and 79 cm)",
+    "category": "luggage",
+    "subcategory": "luggage-sets",
+    "highlights": [
+      "Cabin, medium and large bags in one set",
+      "8.03 kg for all three, the lightest set we read",
+      "Hard polypropylene shells with 8 spinner wheels",
+      "3-digit combination lock"
+    ],
+    "note": "The lightest set of 3 we read, from American Tourister's value brand.",
+    "brand": "Kamiliant",
+    "colour": "Deep Ocean",
+    "best_for": [
+      "Family travel",
+      "15 kg fares"
+    ],
+    "specs": {
+      "Sizes": "55, 69 and 79 cm; large bag 79 x 55 x 33 cm (167 cm total)",
+      "Capacity": "99 L (the listing doesn't say for which bag)",
+      "Weight": "8.03 kg (all 3 bags)",
+      "Shell": "Hard, polypropylene",
+      "Wheels": "8 spinner wheels",
+      "Lock": "Combination",
+      "Warranty": "Not listed"
+    },
+    "skip_if": "your airline has a 158 cm size limit for check-in bags: the large bag adds up to 167 cm."
+  },
+  {
+    "asin": "B0F5HQZJCV",
+    "added_at": "2026-11-23T08:33:03+05:30",
+    "title": "American Tourister Liftoff+ Set of 3 Trolley Bags (55, 67 and 79 cm), TSA Lock",
+    "category": "luggage",
+    "subcategory": "luggage-sets",
+    "highlights": [
+      "Cabin, medium and large bags in one set",
+      "34, 70 and 95.5 litres, as listed",
+      "Hard polypropylene shells with 8 spinner wheels",
+      "TSA lock and a 3-year international warranty"
+    ],
+    "note": "The same Liftoff+ bags we pick one by one, sold together, with a TSA lock on each.",
+    "brand": "American Tourister",
+    "colour": "Dark Olive",
+    "best_for": [
+      "Family travel",
+      "Trips abroad"
+    ],
+    "specs": {
+      "Sizes": "55, 67 and 79 cm (the listing's size row says 77 cm for the large bag)",
+      "Capacity": "34 L, 70 L and 95.5 L",
+      "Weight": "8.6 kg (all 3 bags)",
+      "Shell": "Hard, polypropylene",
+      "Wheels": "8 spinner wheels",
+      "Lock": "TSA",
+      "Warranty": "3 years, international"
+    },
+    "skip_if": "you only need one bag: the three Liftoff+ sizes are also sold one by one."
+  },
+  {
     "asin": "B0H7JY1GJR",
     "added_at": "2026-11-22T06:35:48+05:30",
     "title": "Safari Benson 77 cm Large Check-in Trolley, Polypropylene",

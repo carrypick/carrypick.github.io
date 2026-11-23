@@ -130,7 +130,7 @@
       "name": "Luggage & Trolley Bags",
       "subcategories": [
         {"slug": "cabin-trolleys", "name": "Cabin & small trolleys", "title": "Cabin trolley bags and small suitcases", "intro": "Trolleys up to about 60 cm tall. Most are 55 to 56 cm cabin size, but check your airline's cabin limit before you fly."},
-        {"slug": "medium-trolleys", "name": "Medium check-in trolleys", "title": "Medium check-in trolley bags (64 to 68 cm)", "intro": "Check-in trolleys from 64 to 68 cm, a common size for trips of about a week."},
+        {"slug": "medium-trolleys", "name": "Medium check-in trolleys", "title": "Medium check-in trolley bags (64 to 72 cm)", "intro": "Check-in trolleys from 64 to 72 cm, a common size for trips of about a week."},
         {"slug": "large-trolleys", "name": "Large check-in trolleys", "title": "Large check-in trolley bags (75 to 81 cm)", "intro": "Big check-in trolleys from 75 to 81 cm for long trips and family travel. Weigh them packed, as they fill past airline limits fast."},
         {"slug": "luggage-sets", "name": "Luggage sets", "title": "Trolley bag sets of 2 and 3", "intro": "Sets of two or three trolleys in different sizes, handy for families and couples."},
         {"slug": "duffles", "name": "Duffle bags", "title": "Travel duffle bags and duffle trolleys", "intro": "Soft duffle bags for weekend trips and train journeys, including one with wheels."}
