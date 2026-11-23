@@ -3172,22 +3172,81 @@ def build():
     long_weekends.register(sys.modules[__name__])  # long weekends 2027 planner, second on the tools list
     visa_india.register(sys.modules[__name__])  # visa guide for Indian passport holders
 
-    # Home
-    cat_tiles = "".join(
-        f"""<a class="cat-tile" href="category/{slug}.html">
-  {media(cfg, slug, 'media media-tile')}
-  <div><h3>{e(c['name'])}</h3><p>{sum(1 for d in deals if d['category'] == slug)} picks</p></div>
-  {icon("arrow", "icon icon-sm tile-arrow")}
-</a>"""
-        for slug, c in cfg["categories"].items()
-    )
+    # Home: hero, seasonal now, shop by group, picks, most useful guides, free tools, trips, packing lists.
+    # Kept light: the new sections are icon link cards and chips, no photos.
+    today = date.today().isoformat()
+    tool_paths = {t[0] for t in TOOLS}
+    trips_by_slug = {t["slug"]: t for t in trips}
+
+    def hl_card(href, title, text, glyph, tint):
+        return (f'<a class="hl-card" href="{href}"><span class="hl-icon tint-{tint}">{icon(glyph, "icon")}</span>'
+                f'<span class="hl-text"><strong>{title}</strong><span>{text}</span></span></a>')
+
+    def hl_grid(cards, tight=False):
+        return '<div class="hl-grid%s">%s</div>' % (" hl-tight" if tight else "", "".join(cards))
+
+    def short_title(meta):
+        head, _, tail = meta["title"].partition(": ")
+        return e(head), e(tail[:1].upper() + tail[1:]) if tail else ""
+
+    def seasonal_items(entries):
+        """entries: (kind, slug or path, glyph, tint, fallback_until, title, text). A guide or trip uses its own
+        feature_until; the item drops off the home page the day after it ends."""
+        live = []
+        for kind, key, glyph, tint, until, title, text in entries:
+            if kind == "tool":
+                if key not in tool_paths:
+                    continue
+                href = key
+            else:
+                meta = (articles_by_slug if kind == "guide" else trips_by_slug).get(key)
+                if not meta:
+                    continue
+                until = meta.get("feature_until") or until
+                href = ("guides/%s.html" if kind == "guide" else "trips/%s.html") % key
+                if not title:
+                    title, text = short_title(meta)
+            if until >= today:
+                prio = int((articles_by_slug if kind == "guide" else trips_by_slug).get(key, {}).get("priority", 0)) if kind != "tool" else 9
+                live.append((until, -prio, hl_card(href, title, text, glyph, tint)))
+        return [c for _, _, c in sorted(live, key=lambda x: (x[0], x[1]))]
+
+    xmas_slugs = sorted(a["slug"] for a in articles if a["slug"].startswith("christmas-"))
+    xmas = seasonal_items(
+        [("tool", "tools/gift-finder.html", "tag", "handbags", "2026-12-26", "Gift finder quiz", "Answer a few questions, get gift ideas")]
+        + [("guide", s, "tag", "handbags", "2026-12-26", "", "") for s in xmas_slugs]
+        + [("guide", s, "tag", "watches", "2026-12-26", "", "") for s in ("secret-santa-gift-ideas-for-office", "gift-for-boss", "gifts-for-travellers")])
+    new_year = seasonal_items(
+        [("trip", "new-year-trips-2027", "sun", "travel-gear", "2027-01-01", "", ""),
+         ("trip", "goa-new-year-2027", "sun", "travel-gear", "2027-01-01", "", ""),
+         ("trip", "dubai-new-year-2027", "plane", "travel-gear", "2027-01-01", "", ""),
+         ("trip", "where-to-go-in-december-january", "pin", "backpacks", "2027-01-01", "December in India",
+          "Where to go in December and January: hills, beaches, deserts"),
+         ("guide", "new-year-gift-ideas", "tag", "watches", "2027-01-01", "", "")])
+    seasonal_html = ""
+    if xmas or new_year:
+        parts = []
+        if xmas:
+            parts.append('<h3 class="home-sub">Christmas gifts</h3>' + hl_grid(xmas))
+        if new_year:
+            parts.append('<h3 class="home-sub">New Year 2027 and December trips</h3>' + hl_grid(new_year))
+        seasonal_html = f'<section class="wrap section" id="seasonal">{section_head("Gifts and trips for this season")}{"".join(parts)}</section>'
+
+    def cat_tile(slug):
+        c = cfg["categories"][slug]
+        n = sum(1 for d in deals if d["category"] == slug)
+        return (f'<a class="cat-tile" href="category/{slug}.html">{media(cfg, slug, "media media-tile")}'
+                f'<div><h3>{e(c["name"])}</h3><p>{n} picks</p></div>{icon("arrow", "icon icon-sm tile-arrow")}</a>')
+
+    shop_groups = cfg.get("groups") or [{"name": "Shop", "categories": list(cfg["categories"])}]
+    cat_tiles = "".join(f'<div class="shop-group"><h3 class="home-sub">{e(g["name"])}</h3>'
+                        f'<div class="cat-grid cat-mini">{"".join(cat_tile(s) for s in g["categories"])}</div></div>'
+                        for g in shop_groups)
     if HERO_PHOTO in PHOTOS:
         hero_art = photo_figure(HERO_PHOTO, "", "(min-width: 760px) 42vw, 100vw", "photo hero-photo", eager=True)
     else:
         hero_art = '<div class="hero-art" aria-hidden="true">%s</div>' % "".join(
             f'<div class="hero-bubble tint-{slug}">{icon(c["icon"], "icon")}</div>' for slug, c in cfg["categories"].items())
-    tg_cta = (f'<a class="btn btn-ghost" href="{e(tg)}" target="_blank" rel="noopener">{icon("send", "icon icon-sm")} Join on Telegram</a>'
-              if tg else "")
     picks_html = grid(cfg, deals[:8], "") if deals else '<p class="muted">New picks are coming soon.</p>'
     fresh = sorted((d for d in deals if fresh_deal(d)), key=lambda d: d["deal_seen_at"], reverse=True)[:8]
     deals_html = ""
@@ -3198,43 +3257,85 @@ def build():
   <p class="muted small deal-intro">Amazon.in showed a deal on these picks in the last 24 hours. Deals can end at any time, so check today's price on Amazon.</p>
   <div class="grid">{cards}</div>
 </section>"""
-    baggage_promo = ""
+
+    useful = []
+    for kind, key, title, text, glyph, tint in (
+            ("tool", "baggage/luggage-size-chart.html", "Luggage size chart", "20, 24 or 28 inch in cm, and cabin limits", "ruler", "luggage"),
+            ("tool", "baggage/checker.html", "Cabin bag checker", "Type your bag's size and see which airlines take it", "suitcase", "luggage"),
+            ("tool", bag_weight.PATH, "Excess baggage calculator", "What extra kilos cost on your airline", "suitcase", "travel-gear"),
+            ("guide", "carry-on-size-by-airline", "Carry-on size by airline", "Cabin bag size and weight for each airline", "plane", "travel-tech"),
+            ("guide", "power-bank-rules-on-flights", "Power bank rules on flights", "mAh and Wh limits, cabin bag only", "bulb", "travel-tech"),
+            ("guide", "travel-adapter-by-country", "Travel adapter by country", "Plug type and voltage, country by country", "plug", "travel-tech")):
+        if (kind == "tool" and key in tool_paths) or (kind == "guide" and key in articles_by_slug):
+            useful.append(hl_card(key if kind == "tool" else "guides/%s.html" % key, title, text, glyph, tint))
+    def see_all(href, label):
+        return '<a class="see-all" href="%s">%s %s</a>' % (href, label, icon("arrow", "icon icon-sm"))
+
+    useful_html = ('<section class="wrap section">%s%s</section>' % (section_head("Most useful travel guides", see_all("baggage/index.html", "Baggage rules")), hl_grid(useful))
+                   if useful else "")
+
+    tools_html = ""
     if TOOLS:
-        cards = []
-        for path, short, eyebrow, title, text, more, glyph, tint, slot in TOOLS:
-            if slot in PHOTOS:
-                art = '<div class="guide-art guide-photo">%s</div>' % photo_img(slot, "", "(min-width: 700px) 360px, 100vw", alt="")
-            else:
-                art = f'<div class="guide-art tint-{tint}">{icon(glyph, "icon guide-icon")}</div>'
-            cards.append(f"""<a class="guide-card" href="{path}">
-      {art}
-      <div class="guide-body"><p class="eyebrow">{eyebrow}</p>
-      <h3>{e(title)}</h3><p>{e(text)}</p>
-      <span class="more">{e(more)} {icon("arrow", "icon icon-sm")}</span></div>
-    </a>""")
-        baggage_promo = f"""<section class="wrap section">
+        tools_html = f"""<section class="wrap section" id="tools">
   {section_head("Free travel tools")}
-  <div class="guide-grid">
-    {"".join(cards)}
-  </div>
+  {hl_grid((hl_card(path, e(short), eyebrow, glyph, tint) for path, short, eyebrow, title, text, more, glyph, tint, slot in TOOLS), tight=True)}
 </section>"""
-    # Seasonal guides with an unexpired feature_until go first on the home page: the season that ends soonest first
-    # (Christmas pages before New Year ones), then "priority: 1" guides, then newest first
-    today = date.today().isoformat()
+
+    trip_links = []
+    for href, src, title, text, glyph, tint in (
+            ("trips/where-to-go-in-december-january.html", TRIPS_DIR / "where-to-go-in-december-january.md", "India in December",
+             "Hills, beaches and deserts for December and January", "pin", "backpacks"),
+            ("trips/international-trips-from-india.html", TRIPS_DIR / "international-trips-from-india.md", "International trips",
+             "Compare countries by flight time, season and visa", "plane", "luggage"),
+            ("trips/visiting-india.html", TRIPS_DIR / "visiting-india.md", "Visiting India",
+             "e-Visa, what to pack, SIM cards and money", "globe", "sunglasses"),
+            ("tools/long-weekends-2027.html", None, "Long weekends 2027", "Plan your leave around 2027 holidays", "sun", "travel-gear")):
+        if (src is None and href in tool_paths) or (src is not None and src.exists()):
+            trip_links.append(hl_card(href, title, text, glyph, tint))
+    trips_html = ('<section class="wrap section">%s%s</section>' % (section_head("Trips", see_all("trips/index.html", "All trips")), hl_grid(trip_links))
+                  if trips and trip_links else "")
+
+    packing_html = ""
+    if PACKING_FILE.exists():
+        pack_trips = json.loads(PACKING_FILE.read_text(encoding="utf-8"))["trips"]
+        cards = [hl_card("packing/index.html" if t["slug"] == "week" else "packing/%s.html" % t["slug"], e(t["label"]),
+                         "Tick-off checklist", "check", "travel-gear") for t in pack_trips]
+        if "study-abroad-packing-list" in articles_by_slug:
+            cards.append(hl_card("guides/study-abroad-packing-list.html", "Study abroad", "What to pack for college abroad", "book", "books"))
+        cards.append(hl_card(pack_maker.PATH, "Packing list maker", "Make your own list", "check", "backpacks"))
+        def place(slug):
+            words = slug.replace("-packing-list", "").replace("-for-indian-students", "").split("-")
+            name = " ".join(w.upper() if w in ("uk", "usa") else w for w in words)
+            return name[:1].upper() + name[1:] + (" (students)" if "indian-students" in slug else "")
+
+        dest = sorted((a["slug"] for a in articles if "packing-list" in a["slug"] and a["slug"] != "study-abroad-packing-list"), key=place)
+        chips_html = ('<div class="trip-chips home-chips">%s</div>' % "".join(
+            '<a class="trip-chip" href="guides/%s.html">%s</a>' % (s_, e(place(s_)).replace("Sri lanka", "Sri Lanka").replace("South korea", "South Korea"))
+            for s_ in dest)) if dest else ""
+        packing_html = f"""<section class="wrap section">
+  {section_head("Packing lists", see_all("packing/index.html", "All checklists"))}
+  {hl_grid(cards, tight=True)}
+  {('<p class="small home-chips-head">Packing lists by destination:</p>' + chips_html) if chips_html else ""}
+</section>"""
+
+    # Seasonal guides with an unexpired feature_until go first: the season that ends soonest first, then
+    # "priority: 1" guides, then newest. Guides already in "Gifts and trips for this season" are skipped.
+    shown = set(re.findall(r'href="guides/([a-z0-9-]+)\.html"', seasonal_html))
 
     def home_key(a):
         until = a.get("feature_until", "")
         live = until >= today
         return (not live, until if live else "", -int(a.get("priority", 0)))
 
-    home_guides = sorted(articles, key=home_key)
+    home_guides = sorted((a for a in articles if a["slug"] not in shown), key=home_key)
+    follow = follow_links(cfg)
     body = f"""<section class="hero">
   <div class="wrap hero-row">
     <div class="hero-copy">
       <p class="eyebrow eyebrow-light">Bags &middot; Luggage &middot; Watches &middot; Travel gear</p>
       <h1>Buy the right bag or watch, the first time.</h1>
       <p class="lead">Hand-picked bags, luggage and travel gear for travellers in India and around the world. We check size, material, weight and warranty, then explain it in simple words. Shop buttons go to Amazon India.</p>
-      <div class="hero-ctas"><a class="btn btn-amazon btn-big" href="#latest">See latest picks</a>{tg_cta}</div>
+      <div class="hero-ctas"><a class="btn btn-amazon btn-big" href="#latest">See latest picks</a><a class="btn btn-ghost" href="#shop">Shop by category</a></div>
     </div>
     {hero_art}
   </div>
@@ -3246,27 +3347,30 @@ def build():
     <div>{icon("pin")}<p><strong>Made for travellers</strong>India and worldwide: flights, trains, college, office</p></div>
   </div>
 </section>
-<section class="wrap section">
+{seasonal_html}
+<section class="wrap section" id="shop">
   {section_head("Shop by category")}
-  <div class="cat-grid">{cat_tiles}</div>
+  {cat_tiles}
 </section>
 {deals_html}
 <section class="wrap section" id="latest">
   {section_head("Latest picks")}
   {picks_html}
 </section>
+{useful_html}
+{tools_html}
+{trips_html}
+{packing_html}
+{('<section class="wrap section">' + section_head("Buying guides", '<a class="see-all" href="guides/index.html">All guides ' + icon("arrow", "icon icon-sm") + '</a>') + guide_cards(cfg, home_guides[:3], "") + '</section>') if home_guides else ''}
 <section class="wrap section">
   {section_head("How we pick")}
   <ol class="steps">
     <li><span>1</span><h3>Read every detail</h3><p>We go through size, capacity, material, weight and warranty on Amazon.in.</p></li>
-    <li><span>2</span><h3>Match real Indian use</h3><p>College commutes, office days, monsoon rain, domestic flight limits.</p></li>
+    <li><span>2</span><h3>Match real use</h3><p>College commutes, office days, monsoon rain, cabin bag limits on flights.</p></li>
     <li><span>3</span><h3>Explain it simply</h3><p>Short notes on who each product is best for, so you can decide fast.</p></li>
   </ol>
 </section>
-{baggage_promo}
-{('<section class="wrap section">' + section_head("Trip guides", '<a class="see-all" href="trips/index.html">All trips ' + icon("arrow", "icon icon-sm") + '</a>') + trip_cards(trips[:3], "") + (('<p class="small">Going abroad? Compare all our <a href="trips/international-trips-from-india.html">international trips from India</a> by flight time, best months and visa type.</p>') if (TRIPS_DIR / "international-trips-from-india.md").exists() else '') + (('<p class="small">Visiting India from abroad? Start with our <a href="trips/visiting-india.html">visiting India guide</a>: the e-Visa, what to pack, SIM cards and money.</p>') if (TRIPS_DIR / "visiting-india.md").exists() else '') + '</section>') if trips else ''}
-{('<section class="wrap section">' + section_head("Buying guides", '<a class="see-all" href="guides/index.html">All guides ' + icon("arrow", "icon icon-sm") + '</a>') + guide_cards(cfg, home_guides[:3], "") + '</section>') if articles else ''}
-{telegram_band(cfg, "")}"""
+{('<section class="wrap section home-follow"><p class="small muted">Follow CarryPick: <span class="follow-links">' + follow.replace('<li>', '').replace('</li>', ' ') + '</span></p></section>') if follow else ''}"""
     home_schema = [{"@context": "https://schema.org", "@type": "WebSite", "name": cfg["site_name"],
                     "url": abs_url(cfg), "description": cfg["tagline"], "inLanguage": "en-IN",
                     "publisher": org_schema(cfg)}]
