@@ -63,6 +63,15 @@
       "checked": "2026-11-23"
     },
     {
+      "slug": "cambodia", "name": "Cambodia", "aka": "Siem Reap, Angkor Wat, Phnom Penh",
+      "status": "e-visa", "stay": "1 month, single entry",
+      "fee": "US$30",
+      "conditions": ["Apply only on Cambodia's official e-visa site; processing takes 3 business days.", "Passport valid more than 6 months on entry, digital photo, Visa or Mastercard.", "Fill in the free e-Arrival form within 7 days before you arrive."],
+      "say": "No visa-free entry: Indians can apply for a Cambodia tourist e-visa on the official site, US$30, single entry, a stay of 1 month, ready in 3 business days. Fill in the e-Arrival form before you land.",
+      "sources": [{"label": "Cambodia e-Visa: tourist visa (Visa T)", "url": "https://www.evisa.gov.kh/information/tourist_visa/4"}, {"label": "Cambodia e-Arrival", "url": "https://www.arrival.gov.kh/"}],
+      "checked": "2026-11-23"
+    },
+    {
       "slug": "sri-lanka", "name": "Sri Lanka", "aka": "Colombo",
       "status": "e-visa", "stay": "30 days, double entry",
       "fee": "Free for Indians",
