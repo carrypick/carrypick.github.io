@@ -66,6 +66,8 @@ Flip-flops for women:
 
 [[pick:B0BRL1WYPH]]
 
+Going to Goa? See [shoes for a Goa trip](shoes-for-goa-trip.html).
+
 ## Buying and packing tips
 
 - **Most sizes in India are UK sizes.** Find yours in US, EU and cm with our [shoe size converter](../tools/shoe-size.html), then check the size chart on the Amazon page, because brands differ.

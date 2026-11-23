@@ -56,7 +56,7 @@ If you pack only these, you'll be fine:
 - **Walking shoes** for Old Goa, the forts and long sightseeing days. If you're going to Dudhsagar Falls, choose shoes with a good grip for wet rocks.
 - **One pair of party shoes** if you plan a night out.
 
-Most people need only two pairs: flip-flops and one comfortable pair. See our [travel shoes guide](travel-shoes-guide.html).
+Most people need only two pairs: flip-flops and one comfortable pair. See [shoes for a Goa trip](shoes-for-goa-trip.html) for flip-flops, sandals and clogs compared.
 
 Flip-flops for women:
 

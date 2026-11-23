@@ -1,5 +1,63 @@
 [
   {
+    "asin": "B09SF31JXF",
+    "added_at": "2026-11-23T14:40:29+05:30",
+    "title": "adidas Men's Hurtle Flip-Flops",
+    "category": "shoes",
+    "subcategory": "sandals-flip-flops",
+    "highlights": [
+      "Thong flip-flops with an EVA upper",
+      "Listed as slip resistant with an all-weather grip",
+      "About 300 g (as listed)",
+      "UK sizes 6 to 12 on the page"
+    ],
+    "note": "Light flip-flops for the beach, the pool and hotel bathrooms.",
+    "brand": "adidas",
+    "colour": "Mystery blue, acid yellow and white",
+    "best_for": [
+      "Beach trips",
+      "Hotels"
+    ],
+    "specs": {
+      "For": "Men",
+      "Type": "Flip-flops",
+      "Material": "EVA",
+      "Weight": "300 g (as listed)",
+      "Water": "Not water resistant (as listed)",
+      "Closure": "Slip-on"
+    },
+    "skip_if": "you'll walk long distances: strap sandals hold your foot better."
+  },
+  {
+    "asin": "B08FN268MD",
+    "added_at": "2026-11-23T14:40:29+05:30",
+    "title": "Crocs Unisex Classic Clog",
+    "category": "shoes",
+    "subcategory": "sandals-flip-flops",
+    "highlights": [
+      "Moulded Croslite foam, one piece",
+      "Men's and women's UK sizes on one page",
+      "Slip-on, with a heel strap",
+      "90-day warranty (as listed)"
+    ],
+    "note": "Slip-on clogs you can wear on sand, in the shower and on wet paths.",
+    "brand": "Crocs",
+    "colour": "Army green",
+    "best_for": [
+      "Beach trips",
+      "Monsoon"
+    ],
+    "specs": {
+      "For": "Men and women",
+      "Type": "Clogs",
+      "Material": "Croslite (foam)",
+      "Water": "Not water resistant (as listed)",
+      "Closure": "Slip-on",
+      "Warranty": "90 days"
+    },
+    "skip_if": "you want something smart for a dinner out."
+  },
+  {
     "asin": "B0BQ1G1344",
     "added_at": "2026-11-23T14:40:29+05:30",
     "title": "Skechers Women's GO Walk Travel Slip-On Walking Shoes",

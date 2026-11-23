@@ -156,7 +156,7 @@ What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#goa
 See our full [Goa packing list](../guides/goa-packing-list.html), with lists for women, men, couples and kids. The basics:
 
 - Light cotton clothes, swimwear and one light sweater or shawl for the evening.
-- Sunscreen, sunglasses, a cap and flip-flops. See our [sunscreen guide](../guides/travel-sunscreen-guide.html) and [shoes and sandals](../category/shoes.html).
+- Sunscreen, sunglasses, a cap and flip-flops. See our [sunscreen guide](../guides/travel-sunscreen-guide.html) and [shoes for a Goa trip](../guides/shoes-for-goa-trip.html).
 - Mosquito repellent.
 - A waterproof pouch for your phone, cash and hotel key on the beach and on boat trips:
 
