@@ -1,11 +1,14 @@
 {
   "updated": "2026-11-23",
-  "note": "Pinterest allows scheduling only about 30 days ahead. Scheduled through 22 Dec 2026 (7 PM). Slots: 12 PM and 7 PM IST, one pin per slot, 2 a day. Schedule from the top of 'waiting' as each new day opens, then delete the slug from the list. Images are marketing/pinterest/<slug>.jpg, text in pins.json. Time-sensitive New Year pins go first (before 31 Dec).",
+  "note": "Pinterest allows scheduling only about 30 days ahead. Scheduled through 22 Dec 2026 (7 PM). Slots: 12 PM and 7 PM IST, one pin per slot, 2 a day. Schedule from the top of 'waiting' as each new day opens, then delete the slug from the list. Images are marketing/pinterest/<slug>.jpg, text in pins.json. Time-sensitive New Year pins go first (before 31 Dec). Christmas gift pins (christmas-gift-*) are at the top: schedule on the next free slot, they must go out before about 20 Dec.",
   "scheduled_by_session": {
     "new-year-2027": "22 Dec 12 PM",
     "goa-new-year": "22 Dec 7 PM"
   },
   "waiting": [
+    "christmas-gift-parents",
+    "christmas-gift-friends",
+    "christmas-gift-couples",
     "dubai-new-year",
     "gulmarg-december",
     "bali-trip",
@@ -45,6 +48,31 @@
     "kenya-trip",
     "kenya-safari-packing",
     "books",
-    "audiobooks"
+    "audiobooks",
+    "anti-theft-backpack",
+    "travel-backpack-40l",
+    "office-backpack-men",
+    "couple-watches",
+    "watch-gift-husband",
+    "travel-adapter-by-country",
+    "travel-adapter-uk",
+    "travel-adapter-usa",
+    "travel-adapter-dubai",
+    "travel-adapter-europe",
+    "travel-adapter-thailand",
+    "travel-adapter-singapore",
+    "travel-adapter-australia",
+    "travel-adapter-japan",
+    "tsa-lock",
+    "neck-pillow",
+    "packing-cubes",
+    "toiletry-bag",
+    "passport-holder",
+    "gadget-organiser",
+    "sling-bag-travel",
+    "tote-bag-office-travel",
+    "shoes-manali-kashmir",
+    "walking-shoes-europe",
+    "shoes-goa"
   ]
 }
