@@ -116,7 +116,7 @@ Gulmarg is colder than Srinagar, and the gondola top is colder still, so dress i
 - **Shoes:** waterproof boots with deep grip. Paths are icy in the morning.
 - **Sunglasses, sunscreen and lip balm.** Sun on snow is strong at this height, and the air is dry.
 
-Choosing a jacket for the snow? Read our [winter jacket for travel guide](../guides/winter-jacket-for-travel.html) on down vs synthetic and waterproof gloves. For our picks and the full list, read [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html) and use the [winter hill trip packing list](../packing/hills.html). Choosing boots? See [which shoes to take](../guides/travel-shoes-guide.html).
+Choosing a jacket for the snow? Read our [winter jacket for travel guide](../guides/winter-jacket-for-travel.html) on down vs synthetic and waterproof gloves. For our picks and the full list, read [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html) and use the [winter hill trip packing list](../packing/hills.html). Choosing boots? See [shoes for Gulmarg, Kashmir and Manali in the snow](../guides/shoes-for-manali-and-kashmir-trip.html).
 
 ## Safety in the cold
 

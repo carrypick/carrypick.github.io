@@ -99,7 +99,7 @@ Dress in layers, as for Manali, but plan for colder nights, especially in Gulmar
 | 4. Extras | Woollen cap, neck warmer, waterproof gloves and woollen socks |
 
 - **For the snow:** wear waterproof trousers over thermals. Jeans soak up snow and stay cold. Shops in Tangmarg and Gulmarg rent snow coats and gumboots by the day.
-- **Shoes:** waterproof boots or hiking shoes with deep grip. Roads and paths can be icy in the morning. Avoid mesh sports shoes.
+- **Shoes:** waterproof boots or hiking shoes with deep grip. Roads and paths can be icy in the morning. Avoid mesh sports shoes. See [shoes for a Kashmir trip in the snow](../guides/shoes-for-manali-and-kashmir-trip.html).
 - **The pheran:** Kashmiris wear the pheran, a long, loose woollen cloak, over their clothes in winter. It's warm, and a good thing to buy in Srinagar.
 - **At mosques and shrines,** such as Hazratbal, dress modestly. Women should carry a scarf to cover their head.
 - **Sunglasses, sunscreen and lip balm.** The sun on snow is strong, and the air is dry.

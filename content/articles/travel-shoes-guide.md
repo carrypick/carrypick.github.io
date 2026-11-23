@@ -42,6 +42,8 @@ For women:
 
 [[pick:B0DK2RRQD2]]
 
+Going to the snow? See [shoes for a Manali or Kashmir trip](shoes-for-manali-and-kashmir-trip.html) for boots vs gumboots, socks and sizing.
+
 ## For walking and sightseeing
 
 For men:

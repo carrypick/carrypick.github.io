@@ -111,7 +111,7 @@ Waterproof hiking shoes for men and for women:
 
 [[pick:B0DK2RRQD2]]
 
-More choices are in our [travel shoes guide](travel-shoes-guide.html).
+Snow boots, hiking shoes or rented gumboots? See [shoes for a Manali or Kashmir trip](shoes-for-manali-and-kashmir-trip.html). More choices are in our [travel shoes guide](travel-shoes-guide.html).
 
 ## Packing list for men
 

@@ -120,7 +120,7 @@ What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#man
 See [what to wear in Manali in December](../guides/what-to-wear-in-manali-in-december.html) for layers, snow clothes and shoes, and tick things off with our [winter hill trip packing list](../packing/hills.html). The most important things:
 
 - Thermal innerwear, a heavy jacket, a woollen cap and gloves. See [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html) and our [winter jacket for travel guide](../guides/winter-jacket-for-travel.html).
-- Waterproof shoes with a good grip for snow and ice. See our [travel shoes guide](../guides/travel-shoes-guide.html).
+- Waterproof shoes with a good grip for snow and ice. See our [travel shoes guide](../guides/travel-shoes-guide.html), and [shoes for a Manali or Kashmir trip](../guides/shoes-for-manali-and-kashmir-trip.html) for snow boots, hiking shoes and renting gumboots.
 - Moisturiser, lip balm and sunscreen: the air is dry and the sun is strong on snow.
 - A cap, neck warmer and gloves in one set:
 
