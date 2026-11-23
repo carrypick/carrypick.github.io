@@ -72,6 +72,8 @@ Buying for the man in your life, or the kids? See our [Christmas gifts for a boy
 
 [[pick:B0DGQNLJX7]]
 
+For a 15.6-inch laptop, see our [tote bag for office and travel guide](tote-bag-for-office-and-travel.html).
+
 **A smaller gift: a zip-around wallet.** It has 3 sections and a slip pocket.
 
 [[pick:B0F13ZFVVX]]

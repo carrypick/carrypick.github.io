@@ -42,6 +42,8 @@ A tote with a padded laptop compartment:
 
 [[pick:B0DGQNLJX7]]
 
+Carry a 15.6-inch laptop, or want a tote for flights? See [tote bag for office and travel](tote-bag-for-office-and-travel.html).
+
 A small tote with plenty of pockets:
 
 [[pick:B08HWFWGNX]]

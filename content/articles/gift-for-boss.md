@@ -74,6 +74,8 @@ More sets, and EDP vs EDT, in our [perfume buying guide](perfume-buying-guide.ht
 
 [[pick:B0DGQNLJX7]]
 
+Her laptop is bigger? See our [tote bag for office and travel guide](tote-bag-for-office-and-travel.html).
+
 **A neat everyday handbag with 5 pockets:**
 
 [[pick:B08HWFWGNX]]

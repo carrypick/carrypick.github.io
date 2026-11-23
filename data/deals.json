@@ -1,5 +1,36 @@
 [
   {
+    "asin": "B0DB2HG51N",
+    "added_at": "2026-11-23T14:40:29+05:30",
+    "title": "DailyObjects Key Tote Bag with 15.6-inch Laptop Compartment",
+    "category": "handbags",
+    "subcategory": "totes",
+    "highlights": [
+      "Padded laptop compartment for up to 15.6 inch",
+      "Zip closure over the main compartment",
+      "Trolley sleeve at the back and a side bottle pocket",
+      "9 pockets, recycled PET fabric (as listed)"
+    ],
+    "note": "An office tote that slides over your trolley handle at the airport.",
+    "brand": "DailyObjects",
+    "colour": "Space black",
+    "best_for": [
+      "Office",
+      "Flights"
+    ],
+    "specs": {
+      "For": "Women",
+      "Size": "44 x 30.5 x 16 cm",
+      "Capacity": "13 L",
+      "Laptop": "Up to 15.6 inch",
+      "Material": "Recycled polyester",
+      "Closure": "Zip",
+      "Pockets": "9",
+      "Warranty": "30 days"
+    },
+    "skip_if": "you only carry a phone and wallet: it's a big bag."
+  },
+  {
     "asin": "B08JXFW7HM",
     "added_at": "2026-11-23T14:40:29+05:30",
     "title": "BANGE Clownfish Anti-Theft Sling Bag",
@@ -4383,7 +4414,8 @@
       "Size": "39.5 x 12.6 x 24.5 cm",
       "Weight": "668 g",
       "Laptop": "Up to 14 inch",
-      "Material": "Jute and vegan leather"
+      "Material": "Jute and vegan leather",
+      "Closure": "Zip"
     },
     "skip_if": "your laptop is bigger than 14 inches."
   },
