@@ -196,7 +196,7 @@ In Paris, stay near a Métro station: around the Eiffel Tower, the Latin Quarter
 ## What to wear in Europe
 
 - **Layers:** a T-shirt, a warm sweater or fleece and a windproof jacket work in every season, because mountain viewpoints are cold even in summer.
-- **In winter (December to February):** a padded jacket, thermal innerwear, gloves, a cap and waterproof shoes. See our [winter clothes guide](../guides/winter-clothes-for-hill-trips.html).
+- **In winter (December to February):** a padded jacket, thermal innerwear, gloves, a cap and waterproof shoes. See our [winter jacket for travel guide](../guides/winter-jacket-for-travel.html) and [winter clothes guide](../guides/winter-clothes-for-hill-trips.html).
 - **Comfortable walking shoes.** You will walk 10,000 to 20,000 steps on most city days.
 - **Cover your shoulders and knees** in churches such as St Peter's Basilica in the Vatican and St Mark's in Venice.
 - **A small umbrella or rain jacket** for any month.

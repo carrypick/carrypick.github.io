@@ -130,7 +130,7 @@ Polarized sunglasses for the snow:
 
 [[pick:B0999SJPWC]]
 
-For the full list, use our [winter hill trip packing list](../packing/hills.html) and read [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html).
+For the full list, use our [winter hill trip packing list](../packing/hills.html) and read [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html). Buying a jacket for the trip? See our [winter jacket for travel guide](../guides/winter-jacket-for-travel.html).
 
 ## Health and safety in the cold
 

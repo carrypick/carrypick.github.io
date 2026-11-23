@@ -811,6 +811,36 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0/",
       "alt": "The five towers of Angkor Wat at sunrise, reflected in the lotus pond in front of the temple",
       "used": "2026-11-23"
+    },
+    "lake-louise-frozen": {
+      "commons": "File:Frozen Lake Louise in Banff 1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Frozen_Lake_Louise_in_Banff_1.jpg",
+      "credit": "Rschroeder1985",
+      "profile": "https://commons.wikimedia.org/wiki/User:Rschroeder1985",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "alt": "People in winter jackets walking on frozen, snow-covered Lake Louise in Banff National Park, Canada, below snowy mountains",
+      "used": "2026-11-23"
+    },
+    "gyeongbokgung-snow": {
+      "commons": "File:KOCIS Korea Snowfall in Gyeongbokgung 07 (11318846906).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:KOCIS_Korea_Snowfall_in_Gyeongbokgung_07_(11318846906).jpg",
+      "credit": "Korea.net / Korean Culture and Information Service",
+      "profile": "https://www.flickr.com/photos/koreanet/",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "alt": "Snow-covered grounds and bare winter trees at Gyeongbokgung Palace in Seoul, South Korea, under a blue sky",
+      "used": "2026-11-23"
+    },
+    "masai-mara-safari-vehicle": {
+      "commons": "File:Safari vehicle parked under acacia tree on savanna, Maasai Mara, Kenya.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Safari_vehicle_parked_under_acacia_tree_on_savanna,_Maasai_Mara,_Kenya.jpg",
+      "credit": "Daniel Case",
+      "profile": "https://commons.wikimedia.org/wiki/User:Daniel_Case",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "alt": "A safari vehicle parked under an acacia tree on the open grass of the Maasai Mara in Kenya",
+      "used": "2026-11-23"
     }
   }
 }

@@ -196,7 +196,7 @@ In Seoul, stay near Myeongdong or City Hall for shopping and easy airport buses,
 - **Temples:** dress modestly and take off your shoes where asked.
 - **Comfortable walking shoes:** you'll walk a lot, with many stairs in metro stations and hilly areas.
 
-For what to buy, see the [checklist for trips abroad](../packing/abroad.html) and our [winter clothes guide](../guides/winter-clothes-for-hill-trips.html). Make a full list with the [packing list maker](../tools/packing-list-maker.html).
+Going in winter? See our [South Korea winter packing list](../guides/south-korea-packing-list.html) and the [winter jacket for travel guide](../guides/winter-jacket-for-travel.html). For more, see the [checklist for trips abroad](../packing/abroad.html) and our [winter clothes guide](../guides/winter-clothes-for-hill-trips.html). Make a full list with the [packing list maker](../tools/packing-list-maker.html).
 
 ## Help in an emergency
 

@@ -178,7 +178,7 @@ In Nairobi, stay near the airport for a late arrival, or in Westlands or Karen. 
 - **Comfortable closed shoes,** and a soft bag if you're taking a small plane.
 - **Binoculars** make a big difference on game drives.
 
-See the [checklist for trips abroad](../packing/abroad.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html).
+For the full list, with Kenya Wildlife Service's own packing advice and the soft-bag rule for safari planes, read our [Kenya safari packing list](../guides/kenya-safari-packing-list.html). See also the [checklist for trips abroad](../packing/abroad.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html).
 
 ## Help in an emergency
 

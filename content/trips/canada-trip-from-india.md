@@ -160,7 +160,7 @@ In Toronto, stay downtown near Union Station to walk to the waterfront and the C
 - **Spring and autumn:** layers, a warm jacket and comfortable shoes.
 - **Summer:** light clothes, but carry a fleece for cool mountain evenings in Banff, and a rain jacket for Vancouver.
 
-For what to buy, see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html) and the [checklist for trips abroad](../packing/abroad.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html).
+Going in winter? Our [Canada winter packing list](../guides/canada-packing-list.html) covers layers, jackets, gloves, boots and plugs, and the [winter jacket for travel guide](../guides/winter-jacket-for-travel.html) explains down vs synthetic. For more on layering, see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html) and the [checklist for trips abroad](../packing/abroad.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html).
 
 ## Help in an emergency
 

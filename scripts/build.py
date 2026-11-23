@@ -2930,7 +2930,8 @@ def pack_qty(rule, days, cap=None):
 # Destination packing lists (guides) linked from the matching checklist, when the guide exists.
 PACKING_GUIDES = {"abroad": (("dubai", "Dubai"), ("thailand", "Thailand"), ("bali", "Bali"), ("vietnam", "Vietnam"),
                              ("maldives", "the Maldives"), ("sri-lanka", "Sri Lanka"), ("singapore", "Singapore"), ("bhutan", "Bhutan"), ("nepal", "Nepal"),
-                             ("europe", "Europe"), ("japan", "Japan")),
+                             ("europe", "Europe"), ("japan", "Japan"), ("south-korea", "South Korea"), ("canada", "Canada"),
+                             ("kenya-safari", "a Kenya safari")),
                   "beach": (("goa", "Goa"), ("andaman", "Andaman"), ("thailand", "Thailand"), ("bali", "Bali"),
                             ("maldives", "the Maldives"), ("honeymoon", "a honeymoon"))}
 

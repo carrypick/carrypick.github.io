@@ -102,7 +102,7 @@ Shimla needs the same clothes as Manali, just a little less on the coldest night
 - **For the snow at Kufri or Narkanda:** waterproof gloves and trousers, or rent a snow suit there.
 - **Sunglasses and sunscreen:** the sun is strong at this height, and snow reflects it.
 
-For our picks and full lists, see [what to wear in Manali in December](../guides/what-to-wear-in-manali-in-december.html) (the same clothes work in Shimla), [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html), [which shoes to take](../guides/travel-shoes-guide.html) and the [hill trip packing checklist](../packing/hills.html). Choosing a bag? See our [luggage size guide](../guides/luggage-size-guide.html).
+For our picks and full lists, see [what to wear in Manali in December](../guides/what-to-wear-in-manali-in-december.html) (the same clothes work in Shimla), [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html), [which winter jacket to buy](../guides/winter-jacket-for-travel.html), [which shoes to take](../guides/travel-shoes-guide.html) and the [hill trip packing checklist](../packing/hills.html). Choosing a bag? See our [luggage size guide](../guides/luggage-size-guide.html).
 
 ## Health and safety
 

@@ -36,7 +36,7 @@ For women:
 
 ## Jackets
 
-Both of these are light padded jackets, which work well over a sweater and thermals in a hill town. For deep snow or high-altitude treks, you'd want a much warmer jacket.
+Both of these are light padded jackets, which work well over a sweater and thermals in a hill town. For deep snow or high-altitude treks, you'd want a much warmer jacket: see our [winter jacket for travel guide](winter-jacket-for-travel.html) for down and warmer synthetic picks.
 
 For men:
 

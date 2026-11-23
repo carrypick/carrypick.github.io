@@ -152,7 +152,8 @@
         {"slug": "neck-pillows", "name": "Neck pillows", "intro": "Memory foam neck pillows for flights, trains and night buses."},
         {"slug": "passport-toiletry", "name": "Passport, toiletry & pouches", "title": "Passport holders, toiletry bags and waterproof pouches", "intro": "A passport holder, a toiletry bag and waterproof phone pouches for trips abroad and beach days."},
         {"slug": "bottles", "name": "Water bottles", "intro": "Steel water bottles for train journeys, school and day trips."},
-        {"slug": "luggage-scales", "name": "Luggage scales", "intro": "A digital luggage scale to weigh your bag at home before the airport does."}
+        {"slug": "luggage-scales", "name": "Luggage scales", "intro": "A digital luggage scale to weigh your bag at home before the airport does."},
+        {"slug": "binoculars", "name": "Binoculars", "intro": "Binoculars for game drives, bird watching and mountain views."}
       ],
       "emoji": "✈️",
       "hashtag": "#TravelGear",
@@ -232,10 +233,11 @@
       "name": "Clothing & Winter Wear",
       "subcategories": [
         {"slug": "thermals", "name": "Thermals", "title": "Thermal wear sets for men, women and kids", "intro": "Thermal top and lower sets for men, women and kids, the first layer for hill trips and snow."},
-        {"slug": "jackets", "name": "Jackets", "title": "Winter jackets for travel", "intro": "Quilted and puffer jackets with hoods for men, women and kids."},
+        {"slug": "jackets", "name": "Jackets", "title": "Winter jackets for travel", "intro": "Quilted, puffer and down jackets with hoods for men, women and kids."},
         {"slug": "sweatshirts-tracksuits", "name": "Sweatshirts & tracksuits", "intro": "Hoodies and track suits for cool evenings and travel days."},
-        {"slug": "winter-accessories", "name": "Caps, gloves & neck warmers", "intro": "A cap, neck warmer and gloves set for cold places."},
-        {"slug": "rain-gear", "name": "Rain gear", "intro": "A hooded rain poncho for monsoon trips."}
+        {"slug": "winter-accessories", "name": "Caps, gloves & neck warmers", "intro": "Caps, gloves and neck warmers for cold places: a three-piece set, a fleece-lined beanie and waterproof gloves."},
+        {"slug": "rain-gear", "name": "Rain gear", "intro": "A hooded rain poncho for monsoon trips."},
+        {"slug": "sun-hats", "name": "Sun & safari hats", "intro": "A wide-brim sun hat with a chin strap for safaris, treks and beaches."}
       ],
       "emoji": "🧥",
       "hashtag": "#TravelClothes",

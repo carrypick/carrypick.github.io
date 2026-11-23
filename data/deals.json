@@ -1,5 +1,294 @@
 [
   {
+    "asin": "B004KM82IQ",
+    "added_at": "2026-11-23T10:24:51+05:30",
+    "title": "Celestron Outland X 8x42 Binoculars",
+    "category": "travel-gear",
+    "subcategory": "binoculars",
+    "highlights": [
+      "8x magnification, 42 mm lenses",
+      "Waterproof and fog proof, rubber armour",
+      "BaK-4 roof prisms, multi-coated optics",
+      "Comes with a case, neck strap and lens caps"
+    ],
+    "note": "8x42 binoculars: steady enough to hold in a moving safari van, bright at dawn and dusk.",
+    "brand": "Celestron",
+    "colour": "Black",
+    "best_for": [
+      "Safari",
+      "Bird watching"
+    ],
+    "specs": {
+      "Magnification": "8x",
+      "Lens": "42 mm",
+      "Prism": "BaK-4 roof",
+      "Eye relief": "17.8 mm",
+      "Weight": "About 816 g (1.8 lb)",
+      "Waterproof": "Yes, fog proof"
+    },
+    "skip_if": "you want something pocket-sized: 8x42s weigh about 800 g."
+  },
+  {
+    "asin": "B0C2YB5PQ6",
+    "added_at": "2026-11-23T10:24:51+05:30",
+    "title": "GUSTAVE Sun Hat with Neck Flap, UPF 50+",
+    "category": "clothing",
+    "subcategory": "sun-hats",
+    "highlights": [
+      "Listed as UPF 50+, with a neck flap",
+      "Wide brim and mesh vents",
+      "Adjustable chin strap for windy game drives",
+      "Folds small, listed at about 85 g"
+    ],
+    "note": "A light wide-brim hat with a chin strap, in an earthy green for safaris.",
+    "brand": "GUSTAVE",
+    "colour": "Green",
+    "best_for": [
+      "Safari",
+      "Men and women"
+    ],
+    "specs": {
+      "For": "Men and women",
+      "Fabric": "Nylon",
+      "Sun protection": "UPF 50+ (as listed)",
+      "Chin strap": "Yes",
+      "Weight": "85 g",
+      "Care": "Hand wash only"
+    },
+    "skip_if": "you want a dressy hat for the city: it's an outdoor hat."
+  },
+  {
+    "asin": "B07G85H3Y3",
+    "added_at": "2026-11-23T10:24:50+05:30",
+    "title": "HIVER Oymyakon Acrylic Beanie Cap, Fleece Lined",
+    "category": "clothing",
+    "subcategory": "winter-accessories",
+    "highlights": [
+      "100% acrylic knit, double thickness",
+      "Soft fleece lining",
+      "Free size, for men and women",
+      "Machine wash"
+    ],
+    "note": "A warm knit cap that covers your ears, for cold mornings and snow.",
+    "brand": "HIVER",
+    "colour": "Grey",
+    "best_for": [
+      "Snow",
+      "Men and women"
+    ],
+    "specs": {
+      "For": "Men and women",
+      "Fabric": "100% acrylic, fleece lining",
+      "Size": "Free size",
+      "Care": "Machine wash"
+    },
+    "skip_if": "you want real wool: it is acrylic."
+  },
+  {
+    "asin": "B0HG1JN833",
+    "added_at": "2026-11-23T10:24:50+05:30",
+    "title": "GUSTAVE Waterproof Ski Gloves for Men and Women",
+    "category": "clothing",
+    "subcategory": "winter-accessories",
+    "highlights": [
+      "Waterproof and windproof outer (as listed)",
+      "Velvet lining, non-slip PU palm",
+      "Touchscreen fingertips, hook-and-loop strap",
+      "Listed at about 170 g"
+    ],
+    "note": "Gloves for snow play and cold, wet days, when knit gloves would soak through.",
+    "brand": "GUSTAVE",
+    "colour": "White",
+    "best_for": [
+      "Snow",
+      "Men and women"
+    ],
+    "specs": {
+      "For": "Men and women",
+      "Outer": "Polyester, waterproof (as listed)",
+      "Lining": "Velvet",
+      "Closure": "Hook and loop",
+      "Weight": "170 g"
+    },
+    "skip_if": "you want a dark colour: this link is white, which shows dirt."
+  },
+  {
+    "asin": "B0FTYSSRR9",
+    "added_at": "2026-11-23T10:24:50+05:30",
+    "title": "Jockey 2549 Women's Cotton Rich 3/4 Sleeve Thermal Set",
+    "category": "clothing",
+    "subcategory": "thermals",
+    "highlights": [
+      "Top and bottom, round neck, 3/4 sleeves",
+      "Cotton, viscose and polyester blend (as listed)",
+      "StayWarm and StayFresh treatments (as listed)",
+      "Sizes S to 2XL"
+    ],
+    "note": "A thin thermal set that fits under jeans and a sweater, from a well-known brand.",
+    "brand": "Jockey",
+    "colour": "Charcoal Melange",
+    "best_for": [
+      "Travel",
+      "Women"
+    ],
+    "specs": {
+      "For": "Women",
+      "Pack": "Top and bottom",
+      "Fabric": "Cotton, viscose, polyester",
+      "Sleeves": "3/4",
+      "Weight": "306 g",
+      "Care": "Gentle wash 40 °C, line dry"
+    },
+    "skip_if": "you want full sleeves for very cold days: these are 3/4 sleeves."
+  },
+  {
+    "asin": "B0HLG4NCVV",
+    "added_at": "2026-11-23T10:24:50+05:30",
+    "title": "DAMENSCH Men's Heat-Code Thermal Set, Microfibre",
+    "category": "clothing",
+    "subcategory": "thermals",
+    "highlights": [
+      "Full-sleeve top and full-length bottoms",
+      "Rice-knit microfibre, brushed inside the bottoms",
+      "Listed for 5 °C and above",
+      "Sizes S to 2XL, machine wash"
+    ],
+    "note": "A synthetic thermal set that dries faster than cotton, for city winters and travel days.",
+    "brand": "DAMENSCH",
+    "colour": "Essential Black",
+    "best_for": [
+      "Travel",
+      "Men"
+    ],
+    "specs": {
+      "For": "Men",
+      "Pack": "Top and bottom",
+      "Fabric": "Rice-knit microfibre fleece",
+      "Listed for": "5 °C and above",
+      "Weight": "400 g",
+      "Care": "Machine wash"
+    },
+    "skip_if": "you expect hard frost: it is listed for 5 °C and above, so wear more layers over it."
+  },
+  {
+    "asin": "B0DJYVY6PH",
+    "added_at": "2026-11-23T10:24:50+05:30",
+    "title": "Columbia Women's Harmony Falls Hooded Down Jacket",
+    "category": "clothing",
+    "subcategory": "jackets",
+    "highlights": [
+      "650-fill-power down (as listed)",
+      "Omni-Heat reflective lining and Omni-Shield water repellency",
+      "Fleece-lined hood, adjustable hem",
+      "Listed at about 689 g, machine wash"
+    ],
+    "note": "A real down jacket for women, for snow and cold trips abroad.",
+    "brand": "Columbia",
+    "colour": "Safari",
+    "best_for": [
+      "Snow",
+      "Women"
+    ],
+    "specs": {
+      "For": "Women",
+      "Fill": "Down, 650-fill power (as listed)",
+      "Shell": "100% nylon",
+      "Hood": "Fleece lined",
+      "Weight": "689 g",
+      "Sizes": "XS to 2XL",
+      "Care": "Machine wash"
+    },
+    "skip_if": "you need it delivered fast: this listing is shipped by a third-party seller, so check the delivery date."
+  },
+  {
+    "asin": "B0H66GRP5X",
+    "added_at": "2026-11-23T10:24:50+05:30",
+    "title": "Symbol Premium Zero Degree Quilted Puffer Jacket for Women",
+    "category": "clothing",
+    "subcategory": "jackets",
+    "highlights": [
+      "Listed as warm down to 0 °C",
+      "Detachable hood, full zip, zip side pockets",
+      "100% polyester, insulated; sizes XS to 4XL",
+      "Listed at about 600 g, machine wash"
+    ],
+    "note": "A warmer synthetic puffer with a detachable hood, in plus sizes too.",
+    "brand": "Symbol",
+    "colour": "Black",
+    "best_for": [
+      "Hill trips",
+      "Women"
+    ],
+    "specs": {
+      "For": "Women",
+      "Fill": "Synthetic (100% polyester)",
+      "Listed for": "Down to 0 °C",
+      "Hood": "Detachable",
+      "Weight": "600 g",
+      "Sizes": "XS to 4XL",
+      "Care": "Machine wash"
+    },
+    "skip_if": "you expect nights far below freezing: it is listed for down to 0 °C, so add thermals and a fleece under it."
+  },
+  {
+    "asin": "B0HGBD3D5X",
+    "added_at": "2026-11-23T10:24:50+05:30",
+    "title": "Wildcraft Sierra Packable Husky Puffer Jacket for Men",
+    "category": "clothing",
+    "subcategory": "jackets",
+    "highlights": [
+      "Synthetic fill: 100% polyester (as listed)",
+      "Windproof, water-repellent outer",
+      "Packs into a bag for travel",
+      "Listed at about 350 g, machine wash"
+    ],
+    "note": "A light synthetic puffer that keeps some warmth when damp and goes in the washing machine.",
+    "brand": "Wildcraft",
+    "colour": "Grey",
+    "best_for": [
+      "Hill trips",
+      "Men"
+    ],
+    "specs": {
+      "For": "Men",
+      "Fill": "Synthetic (100% polyester)",
+      "Outer": "Windproof, water repellent",
+      "Weight": "350 g",
+      "Sizes": "S to 2XL",
+      "Care": "Machine wash"
+    },
+    "skip_if": "you need it for heavy rain: water repellent is not waterproof."
+  },
+  {
+    "asin": "B08CK7KKD8",
+    "added_at": "2026-11-23T10:24:50+05:30",
+    "title": "Rab Men's Microlight Down Jacket, 700-Fill",
+    "category": "clothing",
+    "subcategory": "jackets",
+    "highlights": [
+      "Real down fill (700-fill, as listed)",
+      "Pertex Quantum nylon shell, light wind and moisture protection",
+      "Packs small for travel",
+      "Listed at about 405 g, slim fit"
+    ],
+    "note": "A true down jacket that is warm for its weight and packs small for a cold trip abroad.",
+    "brand": "Rab",
+    "colour": "Beluga",
+    "best_for": [
+      "Snow",
+      "Men"
+    ],
+    "specs": {
+      "For": "Men",
+      "Fill": "Down, 700-fill (as listed)",
+      "Shell": "100% nylon, Pertex Quantum",
+      "Weight": "405 g",
+      "Sizes": "S to 2XL",
+      "Care": "Hand wash only"
+    },
+    "skip_if": "you'll be out in rain or wet snow for long: down loses its warmth when wet, so wear a rain shell over it."
+  },
+  {
     "asin": "B097GNDJ37",
     "added_at": "2026-11-23T09:16:02+05:30",
     "title": "Safari Imperia 58 cm Duffle Trolley Bag, 40 L",
