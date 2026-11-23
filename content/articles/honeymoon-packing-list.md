@@ -10,6 +10,8 @@ Most Indian couples leave for the honeymoon a few days after the wedding, when e
 
 Want to tick things off as you pack? Use our [beach trip checklist](../packing/beach.html), [hill station checklist](../packing/hills.html) or [checklist for trips abroad](../packing/abroad.html). Need a list for your exact dates and place? Make your own with the [packing list maker](../tools/packing-list-maker.html).
 
+Still choosing where to go? See our [honeymoon destinations in India](../trips/honeymoon-destinations-in-india.html) and [honeymoon destinations outside India](../trips/honeymoon-destinations-outside-india.html), by month, visa and flight time.
+
 [[toppicks:Our picks for a honeymoon|See which bags to take|#which-bags-to-take]]
 [[top:B0C4TV4M2F|Packing cubes for two people in one bag|Eight pieces, so each of you gets your own cubes and nothing gets mixed up in a shared check-in bag.]]
 [[top:B0GNSKLF5Z|One light check-in bag for both|A 68 cm trolley that weighs only 2.52 kg, so more of a 20 or 25 kg allowance is left for your things. Good for seaplanes and small planes too.]]

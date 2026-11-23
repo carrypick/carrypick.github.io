@@ -18,6 +18,8 @@ Planning only for New Year's Eve? See [where to go for New Year 2027](new-year-t
 
 Only looking abroad? Compare all our [international trips from India](international-trips-from-india.html) by flight time, best months and visa type.
 
+Planning a honeymoon in the wedding season? See our [honeymoon destinations in India](honeymoon-destinations-in-india.html) and [honeymoon destinations outside India](honeymoon-destinations-outside-india.html), month by month.
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## Quick comparison

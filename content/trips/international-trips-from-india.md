@@ -177,6 +177,8 @@ Rules change, and the officer at the airport decides on entry. Check our [visa g
 
 ## For a honeymoon or a family trip
 
+Planning a honeymoon? Our [honeymoon destinations outside India](honeymoon-destinations-outside-india.html) sorts these trips by month, visa and flight time for the wedding season, and our [honeymoon destinations in India](honeymoon-destinations-in-india.html) does the same at home.
+
 | Trip | Honeymoon | Family with kids |
 |---|---|---|
 | [Maldives](maldives-trip-from-india.html) | Very good: private islands, water villas, quiet beaches | Fine at family resorts, but little to do beyond the beach |

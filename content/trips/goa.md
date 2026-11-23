@@ -111,6 +111,8 @@ Book only places registered with the Department of Tourism. Compare hotels and h
 
 **North Goa** is busier, with more nightlife, shacks and markets. **South Goa** is quieter, with wider beaches and more green cover.
 
+On your honeymoon? South Goa's quieter beaches suit most couples. Compare Goa with other [honeymoon destinations in India](honeymoon-destinations-in-india.html), and pack with our [honeymoon packing list](../guides/honeymoon-packing-list.html).
+
 | Beach | Area | In one line |
 |---|---|---|
 | Calangute and Baga | North | Goa's busiest stretch, about 16 km from Panaji, lined with hotels and shacks |
