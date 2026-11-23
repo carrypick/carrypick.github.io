@@ -1,5 +1,121 @@
 [
   {
+    "asin": "B0CRF46WKB",
+    "added_at": "2026-11-23T14:36:47+05:30",
+    "title": "DailyObjects Vault Tech Organiser, Medium",
+    "category": "travel-gear",
+    "subcategory": "packing-organisers",
+    "highlights": [
+      "3 sections: a full compartment, 5 slip pockets and a zip pocket",
+      "Opens flat, with a hidden YKK zip all round",
+      "Water- and tear-resistant ripstop, with a top handle",
+      "14 x 19.5 x 8.5 cm, 200 g, made in India"
+    ],
+    "note": "Opens flat on a hotel desk, so everything is in view.",
+    "brand": "DailyObjects",
+    "colour": "Black",
+    "best_for": [
+      "Work trips",
+      "Desk setups"
+    ],
+    "specs": {
+      "Shell": "Soft",
+      "Size": "14 x 19.5 x 8.5 cm",
+      "Weight": "200 g",
+      "Pockets": "5 slip pockets, 1 zip pocket, pen loop",
+      "Material": "Ripstop polyester",
+      "Warranty": "30 days"
+    },
+    "skip_if": "you want a long warranty: the listing gives 30 days."
+  },
+  {
+    "asin": "B07479LGLT",
+    "added_at": "2026-11-23T14:36:47+05:30",
+    "title": "UGREEN Double Layer Electronics Organiser",
+    "category": "travel-gear",
+    "subcategory": "packing-organisers",
+    "highlights": [
+      "Two layers: small cables and cards on top, chargers and drives below",
+      "Mesh pockets and elastic loops in several sizes",
+      "Nylon shell with soft lining and double zips",
+      "24.5 x 17.5 x 5 cm, 220 g, 24-month warranty"
+    ],
+    "note": "Two layers keep small cables apart from the big chargers, for long trips with lots of gear.",
+    "brand": "UGREEN",
+    "colour": "Grey",
+    "best_for": [
+      "Long trips",
+      "Cameras and drives"
+    ],
+    "specs": {
+      "Shell": "Soft, double layer",
+      "Size": "24.5 x 17.5 x 5 cm",
+      "Weight": "220 g",
+      "Pockets": "Mesh pockets and elastic loops",
+      "Material": "Nylon shell in the bullets, polyester in the details (as listed)",
+      "Warranty": "24 months"
+    },
+    "skip_if": "you only carry a phone charger and one cable."
+  },
+  {
+    "asin": "B0DPQPGXBK",
+    "added_at": "2026-11-23T14:36:47+05:30",
+    "title": "UGREEN Cable Organiser Pouch, Water Resistant",
+    "category": "travel-gear",
+    "subcategory": "packing-organisers",
+    "highlights": [
+      "3 compartments and a zipped inner pocket for small bits",
+      "YKK zips and a splash-resistant outside",
+      "24 x 13 x 7 cm outside, 156 g",
+      "24-month warranty, as listed"
+    ],
+    "note": "The lightest here, for a charger, a few cables and earbuds in a day bag.",
+    "brand": "UGREEN",
+    "colour": "Black",
+    "best_for": [
+      "Daily carry",
+      "Cabin bags"
+    ],
+    "specs": {
+      "Shell": "Soft",
+      "Size": "24 x 13 x 7 cm",
+      "Weight": "156 g",
+      "Pockets": "3 compartments, 1 zip pocket",
+      "Material": "Polyester in the bullets, nylon in the details (as listed)",
+      "Warranty": "24 months"
+    },
+    "skip_if": "you carry a laptop charger brick and a hard drive too: a bigger case fits them better."
+  },
+  {
+    "asin": "B076HL5B7C",
+    "added_at": "2026-11-23T14:36:47+05:30",
+    "title": "AirCase Hard Case Gadget Organiser, EVA Shell",
+    "category": "travel-gear",
+    "subcategory": "packing-organisers",
+    "highlights": [
+      "Hard EVA shell that keeps its shape in a packed bag",
+      "8 elastic loops, 2 mesh pockets, 2 zip pockets and 2 dividers",
+      "Soft lining for drives, earbuds and a power bank",
+      "24.5 x 15.3 x 5.3 cm and 259 g, with a 1-year warranty"
+    ],
+    "note": "A hard shell for when the organiser sits under heavy clothes in a suitcase.",
+    "brand": "AirCase",
+    "colour": "Grey",
+    "best_for": [
+      "Hard drives",
+      "Checked-in suitcases"
+    ],
+    "specs": {
+      "Shell": "Hard EVA",
+      "Size": "24.5 x 15.3 x 5.3 cm",
+      "Weight": "259 g",
+      "Pockets": "8 elastic loops, 2 mesh, 2 zip",
+      "Dividers": "2",
+      "Warranty": "1 year"
+    },
+    "skip_if": "you want it to squash into a full backpack: a hard shell doesn't bend."
+  },
+  {
     "asin": "B0C7HB7LPH",
     "added_at": "2026-11-23T12:19:27+05:30",
     "title": "Tressential Compression Packing Cubes, Set of 4",

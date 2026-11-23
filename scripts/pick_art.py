@@ -1214,10 +1214,18 @@ def draw_travel(d):
         out = (R(104, 104, 272, 156, 18) + R(114, 114, 252, 136, 12, "k", 1.4, zip_ + ' opacity=".7"')
                + R(364, 110, 12, 22, 4, "p", 0) + P("M104 150 C80 150 80 214 104 214", "pk", 6)
                + L(240, 104, 240, 260, "k", 1, ' opacity=".25"'))
+        shell = (sp.get("Shell") or "").lower()
+        hard, double = shell.startswith("hard"), "double" in shell or "double layer" in tl
+        if hard:
+            out += P("M112 182 Q240 172 368 182", "k", 1.2, ' opacity=".45"')
+        if double:
+            out += R(114, 182, 252, 3, 1.5, "s", 0)
         second = " · ".join(x for x in (("%s dividers" % sp["Dividers"].split(",")[0]) if sp.get("Dividers") else None,
                                         sp.get("Pockets")) if x)
-        return dict(inner=out + bottom_info("Gadget organiser", second), legend=False, info=[], scaled=False,
-                    alt="Simple drawing of a closed, padded gadget organiser case with a hand strap")
+        first = "Hard-shell gadget organiser" if hard else "Double-layer gadget organiser" if double else "Gadget organiser"
+        kind = "hard-shell" if hard else "double-layer" if double else "padded" if "padd" in (sp.get("Material") or "").lower() else "soft"
+        return dict(inner=out + bottom_info(first, second), legend=False, info=[], scaled=False,
+                    alt="Simple drawing of a closed, %s gadget organiser case with a hand strap" % kind)
     if "bottle" in tl:
         s, cx = 8.4, 240
         size = re.findall(r"(\d+(?:\.\d+)?)\s*cm", sp.get("Size", ""))
