@@ -55,6 +55,14 @@
       "checked": "2026-11-21"
     },
     {
+      "slug": "philippines", "name": "Philippines", "aka": "Manila, Boracay, El Nido, Cebu",
+      "status": "visa-free", "stay": "14 days for tourism; 30 days with a valid US, Japan, Australia, Canada, Schengen, Singapore or UK visa or residence permit",
+      "conditions": ["Neither stay can be extended or changed to a visa.", "Passport valid 6 months beyond your stay, return or onward ticket; for the 14-day entry also a confirmed hotel booking and proof of funds.", "Register on the free eTravel arrival form before you fly."],
+      "say": "Yes, for tourism: since 8 June 2025 Indians can stay up to 14 days without a visa, or 30 days with a valid US, Japan, Australia, Canada, Schengen, Singapore or UK visa or residence permit, says the Philippines' DFA. Neither stay can be extended. Carry a hotel booking, proof of funds and a return ticket.",
+      "sources": [{"label": "DFA: visa-free privileges for Indian nationals", "url": "https://consular.dfa.gov.ph/visa-free-privileges-for-indian-nationals-entering-the-philippines/"}, {"label": "eTravel (free)", "url": "https://etravel.gov.ph/"}],
+      "checked": "2026-11-23"
+    },
+    {
       "slug": "sri-lanka", "name": "Sri Lanka", "aka": "Colombo",
       "status": "e-visa", "stay": "30 days, double entry",
       "fee": "Free for Indians",
