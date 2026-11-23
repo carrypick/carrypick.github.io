@@ -92,6 +92,7 @@ A Canadian winter is much colder than anything in India. In January, Toronto ave
 - **Layers:** thermals, two sweaters or fleeces, and warm trousers. Buildings and buses are heated, so you'll take layers off indoors.
 - **Boots with a good grip** for snow and ice, and plenty of woollen socks.
 - **Vancouver** is wet more than snowy, so take a waterproof jacket.
+- **More on winter layers:** see our [Canada winter packing list](canada-packing-list.html) and the [winter jacket for travel guide](winter-jacket-for-travel.html).
 
 A hooded puffer jacket for men, and a quilted hooded jacket for women, for the flight and the first days:
 
