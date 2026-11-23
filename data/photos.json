@@ -841,6 +841,56 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "alt": "A safari vehicle parked under an acacia tree on the open grass of the Maasai Mara in Kenya",
       "used": "2026-11-23"
+    },
+    "harvard-yard-autumn": {
+      "commons": "File:Harvard Yard in autumn, Boston, Massachusetts, 2015.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Harvard_Yard_in_autumn,_Boston,_Massachusetts,_2015.jpg",
+      "credit": "Nina R",
+      "profile": "https://commons.wikimedia.org/wiki/File:Harvard_Yard_in_autumn,_Boston,_Massachusetts,_2015.jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "alt": "Red brick halls and autumn trees in Harvard Yard, Massachusetts",
+      "used": "2026-11-23"
+    },
+    "oxford-radcliffe-camera": {
+      "commons": "File:Radcliffe Camera Oxford 2018 02.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Radcliffe_Camera_Oxford_2018_02.jpg",
+      "credit": "Julian Herzog",
+      "profile": "https://commons.wikimedia.org/wiki/File:Radcliffe_Camera_Oxford_2018_02.jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "alt": "The round, domed Radcliffe Camera library in Oxford under a blue sky",
+      "used": "2026-11-23"
+    },
+    "toronto-trinity-college-winter": {
+      "commons": "File:Trinity College in Winter.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Trinity_College_in_Winter.jpg",
+      "credit": "Randy Greve",
+      "profile": "https://commons.wikimedia.org/wiki/File:Trinity_College_in_Winter.jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "alt": "Trinity College at the University of Toronto, with snow on the lawn in winter",
+      "used": "2026-11-23"
+    },
+    "sydney-university-quadrangle": {
+      "commons": "File:Main Quadrangle, University of Sydney (cropped).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Main_Quadrangle,_University_of_Sydney_(cropped).jpg",
+      "credit": "Jason Tong",
+      "profile": "https://commons.wikimedia.org/wiki/File:Main_Quadrangle,_University_of_Sydney_(cropped).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "alt": "The sandstone Main Quadrangle of the University of Sydney",
+      "used": "2026-11-23"
+    },
+    "heidelberg-old-town": {
+      "commons": "File:HeidelbergStadtvomPhilosophenweg.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:HeidelbergStadtvomPhilosophenweg.JPG",
+      "credit": "Schlurcher",
+      "profile": "https://commons.wikimedia.org/wiki/File:HeidelbergStadtvomPhilosophenweg.JPG",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "alt": "Heidelberg's old town, the castle and the Neckar river, seen from the Philosophers' Walk",
+      "used": "2026-11-23"
     }
   }
 }
