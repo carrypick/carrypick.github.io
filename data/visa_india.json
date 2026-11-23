@@ -183,6 +183,15 @@
       "checked": "2026-11-21"
     },
     {
+      "slug": "uzbekistan", "name": "Uzbekistan", "aka": "Tashkent, Samarkand, Bukhara",
+      "status": "e-visa", "stay": "Up to 30 days",
+      "fee": "US$20 single entry, US$35 double, US$50 multiple",
+      "conditions": ["Apply on Uzbekistan's official e-visa portal, e-visa.gov.uz, at least 3 working days before you arrive.", "The e-visa is valid for entry within 90 days; carry it printed or on your phone with your passport.", "Flying through? Indians can transit Uzbek international airports without a visa for up to 5 days with an onward ticket."],
+      "say": "Indians can apply for an Uzbekistan e-visa on the official portal: US$20 for a single entry, for a stay of up to 30 days, says the portal. The Embassy of Uzbekistan in New Delhi lists India for the e-visa and for 5-day visa-free transit.",
+      "sources": [{"label": "Uzbekistan e-visa portal", "url": "https://e-visa.gov.uz/what-you-need-to-know"}, {"label": "Embassy of Uzbekistan, New Delhi: consular section", "url": "https://www.uzbekembassy.in/consular-section/"}],
+      "checked": "2026-11-23"
+    },
+    {
       "slug": "egypt", "name": "Egypt", "aka": "Cairo",
       "status": "e-visa", "stay": "As on the e-visa",
       "fee": "US$30 single entry, US$65 multiple entry",
