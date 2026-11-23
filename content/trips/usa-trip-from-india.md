@@ -152,7 +152,7 @@ In New York, stay in Midtown Manhattan to walk to Times Square, Central Park and
 - **Prices usually don't include sales tax,** which is added at the till and differs by state.
 - **Cash from India:** RBI lets you buy up to US$3,000 in foreign currency notes per trip, and you can carry up to ₹25,000 in Indian notes. Put the rest on a forex card. See [how much cash you can carry abroad](../baggage/customs/cash-and-currency.html).
 - **Over US$10,000? Report it.** You must report cash and other monetary instruments over US$10,000 to CBP when you enter or leave the USA, says CBP.
-- **Plugs:** the USA uses 120 V and flat two-pin or three-pin plugs, different from India's. Read our [power bank and travel adapter guide](../guides/power-bank-and-travel-adapter-guide.html).
+- **Plugs:** the USA uses 120 V and flat two-pin or three-pin plugs, different from India's. Read our [power bank and travel adapter guide](../guides/power-bank-and-travel-adapter-guide.html) or the [travel adapter by country](../guides/travel-adapter-by-country.html) list.
 - **Health insurance:** healthcare in the USA is very expensive. Buy travel insurance with medical cover before you fly.
 
 ## What to wear in the USA

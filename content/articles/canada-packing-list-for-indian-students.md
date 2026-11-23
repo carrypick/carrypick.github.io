@@ -137,7 +137,7 @@ Health Canada's guidance on bringing health products for personal use (page date
 
 ## Laptop, phone, plugs and power bank
 
-- **Canada uses 120 V and flat two-pin or three-pin plugs,** different from India's. Take an adapter. See our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html).
+- **Canada uses 120 V and flat two-pin or three-pin plugs,** different from India's. Take an adapter. See our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html) or the full [travel adapter by country](travel-adapter-by-country.html) list.
 - **Check your chargers.** Laptop and phone chargers marked 100–240 V work with just an adapter. Indian hair dryers and straighteners are often 230 V only, so they won't work properly on 120 V.
 - **Power bank:** in your cabin bag only, never in check-in. See [can I carry a power bank?](../baggage/can-i-carry/power-bank.html)
 - **Cold drains batteries faster.** Keep your phone in an inside pocket.

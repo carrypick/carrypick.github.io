@@ -87,7 +87,7 @@ A laptop backpack with an anti-theft pocket:
 
 ## Plugs, laptop and power bank
 
-- **None of these five countries uses Indian three-pin sockets,** so take a universal adapter. The USA and Canada use 120 V, so check that your chargers say 100–240 V. See our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html).
+- **None of these five countries uses Indian three-pin sockets,** so take a universal adapter. The USA and Canada use 120 V, so check that your chargers say 100–240 V. See our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html) or the full [travel adapter by country](travel-adapter-by-country.html) list.
 - **Power banks** go in your cabin bag only. See [power bank rules on flights](power-bank-rules-on-flights.html).
 
 [[pick:B0F94K1BSP]]

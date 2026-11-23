@@ -80,6 +80,8 @@ India uses round-pin plugs (types C, D and M) at 230 V. Many trips from India ne
 
 Type C is the thin two-pin plug that most phone chargers in India use. A thick three-pin Indian plug (type D or M) is the one that usually won't fit. Hotels can also differ from the national list, so one universal adapter is the simple answer.
 
+Going somewhere else? See [travel adapter by country](travel-adapter-by-country.html): plug types and voltage for 45 countries, from Kenya to Kazakhstan.
+
 ## Adapter or converter?
 
 A travel adapter only changes the **shape** of the plug. It does not change the **voltage**. Our adapter picks all say so on their listings.

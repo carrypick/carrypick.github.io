@@ -115,7 +115,7 @@ A 100 ml body sunscreen fits the liquid rule for cabin bags:
 - **Power bank:** in your cabin bag only, never in check-in. See [can I carry a power bank?](../baggage/can-i-carry/power-bank.html)
 - **A cable organiser** keeps chargers, cables and the adapter in one place.
 
-Which plugs does Singapore use? See the table in our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html). This adapter has slide-out plugs for most countries and USB ports for your phone:
+Which plugs does Singapore use? See the table in our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html) or the full [travel adapter by country](travel-adapter-by-country.html) list. This adapter has slide-out plugs for most countries and USB ports for your phone:
 
 [[pick:B07WDJR33C]]
 

@@ -151,7 +151,7 @@ In Toronto, stay downtown near Union Station to walk to the waterfront and the C
 - **Prices usually don't include sales tax,** which is added at the till and differs by province.
 - **Cash from India:** RBI lets you buy up to US$3,000 in foreign currency notes per trip, and you can carry up to ₹25,000 in Indian notes. Put the rest on a forex card. See [how much cash you can carry abroad](../baggage/customs/cash-and-currency.html).
 - **CAN$10,000 or more? Declare it.** You must declare currency and monetary instruments of CAN$10,000 or more when you enter or leave Canada, says the Canada Border Services Agency.
-- **Plugs:** Canada uses 120 V and flat two-pin or three-pin plugs, different from India's. Read our [power bank and travel adapter guide](../guides/power-bank-and-travel-adapter-guide.html).
+- **Plugs:** Canada uses 120 V and flat two-pin or three-pin plugs, different from India's. Read our [power bank and travel adapter guide](../guides/power-bank-and-travel-adapter-guide.html) or the [travel adapter by country](../guides/travel-adapter-by-country.html) list.
 - **Health insurance:** healthcare in Canada is expensive for visitors. Buy travel insurance with medical cover before you fly.
 
 ## What to wear in Canada

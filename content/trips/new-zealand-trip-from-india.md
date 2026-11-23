@@ -145,7 +145,7 @@ In Auckland, stay in the city centre near the waterfront. In Rotorua, stay near 
 - **Prices in shops include GST** (goods and services tax).
 - **Tipping is not expected,** but you can leave something for good service.
 - **Cash from India:** RBI lets you buy up to US$3,000 in foreign currency notes per trip, and you can carry up to ₹25,000 in Indian notes. Put the rest on a forex card. See [how much cash you can carry abroad](../baggage/customs/cash-and-currency.html).
-- **Plugs:** New Zealand uses 230 V and the angled flat-pin plug also used in Australia, different from India's. Read our [power bank and travel adapter guide](../guides/power-bank-and-travel-adapter-guide.html).
+- **Plugs:** New Zealand uses 230 V and the angled flat-pin plug also used in Australia, different from India's. Read our [power bank and travel adapter guide](../guides/power-bank-and-travel-adapter-guide.html) or the [travel adapter by country](../guides/travel-adapter-by-country.html) list.
 - **Health insurance:** buy travel insurance with medical cover before you fly, especially if you plan adventure sports.
 
 ## What to wear in New Zealand

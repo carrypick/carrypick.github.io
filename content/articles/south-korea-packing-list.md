@@ -138,7 +138,7 @@ Waterproof hiking shoes for snow, for men and women:
 
 ## Phone, plugs and power bank
 
-- **Korea uses 220 V and sockets with two round pins** (Types C and F), says Wikipedia's mains electricity table. Slim two-pin Indian plugs often fit; three-pin Indian plugs don't. A universal adapter is the simple answer. See our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html).
+- **Korea uses 220 V and sockets with two round pins** (Types C and F), says Wikipedia's mains electricity table. Slim two-pin Indian plugs often fit; three-pin Indian plugs don't. A universal adapter is the simple answer. See our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html) or the full [travel adapter by country](travel-adapter-by-country.html) list.
 - **Cold drains batteries faster.** Keep your phone and power bank in an inside pocket.
 - **Power bank:** in your cabin bag only, never in check-in. See [can I carry a power bank?](../baggage/can-i-carry/power-bank.html) and [power bank rules on flights worldwide](power-bank-rules-on-flights.html).
 - **Maps:** Google Maps works only partly in Korea; locals use Naver Map or KakaoMap. Download one before you go.

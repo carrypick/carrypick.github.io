@@ -97,7 +97,7 @@ There's no national dress code, but loose clothes that cover your shoulders and 
 - **Coming from the US or Canada (110–120 V)?** Phone and laptop chargers marked 100–240 V work with just an adapter. Hair dryers and straighteners made only for 110 V need a converter, or leave them at home. Most hotels have a hair dryer.
 - **Power cuts** happen in some places, so carry a power bank, in your cabin bag only. See [can I carry a power bank?](../baggage/can-i-carry/power-bank.html)
 
-India uses round pins, so you need an adapter if your plugs have flat pins (the US, UK, Australia, China). This one has slide-out plugs and USB ports:
+India uses round pins, so you need an adapter if your plugs have flat pins (the US, UK, Australia, China). Plugs for other countries are in our [travel adapter by country](travel-adapter-by-country.html) list. This one has slide-out plugs and USB ports:
 
 [[pick:B07WDJR33C]]
 

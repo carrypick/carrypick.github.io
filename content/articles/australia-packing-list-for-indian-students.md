@@ -128,7 +128,7 @@ A hooded jacket for a July start:
 
 ## Laptop, phone, plugs and power bank
 
-- **Australia uses Type I plugs** and 230 V, so Indian chargers work with just a plug adapter. See our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html).
+- **Australia uses Type I plugs** and 230 V, so Indian chargers work with just a plug adapter. See our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html) or the full [travel adapter by country](travel-adapter-by-country.html) list.
 - **An adapter changes only the plug,** not the voltage.
 - **Power bank:** in your cabin bag only, never in check-in. See [can I carry a power bank?](../baggage/can-i-carry/power-bank.html)
 

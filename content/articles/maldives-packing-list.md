@@ -170,7 +170,7 @@ See [can I carry medicines on a flight?](../baggage/can-i-carry/medicines.html)
 - **Drones need approval.** The Maldives Civil Aviation Authority reviews every drone flight case by case. You may need approval from the Maldives National Defence Force, and from your resort or the island council.
 
 
-The Maldives uses several plug types (D, G, J, K and L), so one adapter that takes them all is simplest. Plug types for other countries are in our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html).
+The Maldives uses several plug types (D, G, J, K and L), so one adapter that takes them all is simplest. Plug types for other countries are in our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html) or the full [travel adapter by country](travel-adapter-by-country.html) list.
 
 [[pick:B07WDJR33C]]
 

@@ -166,7 +166,7 @@ In Nairobi, stay near the airport for a late arrival, or in Westlands or Karen. 
 - **Tipping your driver-guide** and the camp staff is customary on safari. Ask your operator what's normal.
 - **Cash from India:** RBI lets you buy up to US$3,000 in foreign currency notes per trip, and you can carry up to ₹25,000 in Indian notes. Put the rest on a forex card. See [how much cash you can carry abroad](../baggage/customs/cash-and-currency.html).
 - **Plastic bags are banned in Kenya.** Don't pack shopping bags in your luggage.
-- **Plugs:** Kenya uses 240 V and the three square-pin plug used in the UK, different from India's. Read our [power bank and travel adapter guide](../guides/power-bank-and-travel-adapter-guide.html).
+- **Plugs:** Kenya uses 240 V and the three square-pin plug used in the UK, different from India's. Read our [power bank and travel adapter guide](../guides/power-bank-and-travel-adapter-guide.html) or the [travel adapter by country](../guides/travel-adapter-by-country.html) list.
 - **Ask before you photograph people,** including the Maasai.
 
 ## What to wear on a Kenya safari

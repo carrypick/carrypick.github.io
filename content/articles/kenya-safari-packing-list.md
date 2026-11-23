@@ -129,7 +129,7 @@ Waterproof 8x42 binoculars:
 
 ## Phone, plugs and power bank
 
-- **Kenya uses 240 V and the three square-pin plug used in the UK,** different from India's. You need an adapter. See our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html).
+- **Kenya uses 240 V and the three square-pin plug used in the UK,** different from India's. You need an adapter. See our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html) or the full [travel adapter by country](travel-adapter-by-country.html) list.
 - **Power bank:** in your cabin bag only, never in check-in. See [can I carry a power bank?](../baggage/can-i-carry/power-bank.html)
 - **Phone data:** see the eSIM and SIM options in the [Kenya safari guide](../trips/kenya-safari-from-india.html#phone-sim-and-esim-in-kenya).
 

@@ -169,7 +169,7 @@ Thermals for her:
 ## Phone, plugs and power bank
 
 - **One power bank** for both of you, in your cabin bag only, never in check-in. See [can I carry a power bank?](../baggage/can-i-carry/power-bank.html)
-- **A universal travel adapter** if you're going abroad. Check the plug type in our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html).
+- **A universal travel adapter** if you're going abroad. Check the plug type in our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html) or the full [travel adapter by country](travel-adapter-by-country.html) list.
 - **Hair dryers and straighteners:** check the voltage on the label before you take them abroad.
 
 [[pick:B07WDJR33C]]
