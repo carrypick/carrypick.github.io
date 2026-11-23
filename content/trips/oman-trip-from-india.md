@@ -13,6 +13,8 @@ Oman is one of the closest trips abroad from India: about 2 hours' flight from M
 
 Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
 
+Plugs: Oman uses UK-style type G plugs at 240 V, like Dubai. See [which travel adapter for Dubai and the Gulf to pack](../guides/travel-adapter-for-dubai.html).
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## Oman visa for Indians

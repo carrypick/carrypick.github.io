@@ -13,6 +13,8 @@ Kenya is Africa's classic safari, and one of the closest from India: lions, elep
 
 Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
 
+Plugs: Kenya uses UK-style type G plugs at 240 V. See [travel adapter by country](../guides/travel-adapter-by-country.html) for the adapter to pack.
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## Kenya eTA for Indians

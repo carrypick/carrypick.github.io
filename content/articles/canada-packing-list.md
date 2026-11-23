@@ -139,7 +139,7 @@ Winter boots for men:
 
 ## Phone, plugs and power bank
 
-- **Canada uses 120 V and flat two-pin or three-pin plugs,** different from India's. You need an adapter. See our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html) or the full [travel adapter by country](travel-adapter-by-country.html) list.
+- **Canada uses 120 V and flat two-pin or three-pin plugs,** different from India's. You need an adapter. See our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html) or our [travel adapter for the USA and Canada](travel-adapter-for-usa.html) page.
 - **Check your charger's label.** Phone and laptop chargers marked 100–240 V work with just an adapter. 230 V-only hair dryers and straighteners won't work properly.
 - **Cold drains batteries fast.** Keep your phone and power bank in an inside pocket when you're outdoors.
 - **Power bank:** in your cabin bag only, never in check-in. See [can I carry a power bank?](../baggage/can-i-carry/power-bank.html)

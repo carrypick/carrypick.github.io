@@ -13,6 +13,8 @@ Kazakhstan has become a favourite short trip abroad for Indians: there are direc
 
 Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), and for a winter trip our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html). Checking other countries? See which ones let Indians in without a visa in our [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html). Comparing trips abroad? See all our [international trips from India](international-trips-from-india.html).
 
+Plugs: Kazakhstan uses round-pin types C and F at 230 V. See [travel adapter by country](../guides/travel-adapter-by-country.html) for the adapter to pack.
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## Kazakhstan visa for Indians

@@ -6060,5 +6060,100 @@
       "credit": "DK",
       "credit_url": "https://dk.com/en-in/products/japan-travel-journal-copy"
     }
+  },
+  {
+    "asin": "B08NT8DHCQ",
+    "added_at": "2026-11-23T14:46:12+05:30",
+    "title": "Ceptics World to India Plug Adapter, Type D, Pack of 2",
+    "category": "travel-tech",
+    "subcategory": "travel-adapters",
+    "highlights": [
+      "Type D (BS 546) output: the round 3-pin plug used in India, Nepal and Bhutan (as listed)",
+      "Takes US, UK, Australian, Chinese and other 2-pin and 3-pin plugs, but not type M (as listed)",
+      "Max 250 V and 10 A; it does not convert voltage (as listed)",
+      "2 adapters in the pack"
+    ],
+    "note": "For visitors and NRIs: plug a US, UK or Australian charger into an Indian socket.",
+    "brand": "Ceptics",
+    "colour": "Lace white",
+    "best_for": [
+      "Visitors to India",
+      "NRIs"
+    ],
+    "specs": {
+      "Type": "Single-country plug adapter",
+      "Plugs": "Type D only (India, Nepal, Bhutan)",
+      "Takes": "2-pin and 3-pin plugs, not type M (as listed)",
+      "USB ports": "None",
+      "Size": "4 x 4 x 4.8 cm",
+      "Weight": "80 g (as listed)",
+      "Max load": "250 V, 10 A (as listed)",
+      "Converts voltage": "No (India is 230 V)",
+      "Warranty": "Lifetime (as listed)"
+    },
+    "skip_if": "your charger doesn't say 100-240V: India runs at 230 V."
+  },
+  {
+    "asin": "B08NTB2JRX",
+    "added_at": "2026-11-23T14:41:58+05:30",
+    "title": "Ceptics India to USA Plug Adapter, Type B",
+    "category": "travel-tech",
+    "subcategory": "travel-adapters",
+    "highlights": [
+      "Type B (NEMA 5-15) output for the USA and Canada (as listed)",
+      "Takes 2-pin and 3-pin plugs from most countries, but not the big type M plug (as listed)",
+      "Max 250 V and 10 A; it does not convert voltage (as listed)",
+      "40 g, small enough for a pocket"
+    ],
+    "note": "A small, cheap plug adapter for a USA or Canada trip, for chargers marked 100-240V.",
+    "brand": "Ceptics",
+    "colour": "Bone white",
+    "best_for": [
+      "USA and Canada",
+      "Students"
+    ],
+    "specs": {
+      "Type": "Single-country plug adapter",
+      "Plugs": "Type B only (USA, Canada)",
+      "Takes": "2-pin and 3-pin plugs, not type M (as listed)",
+      "USB ports": "None",
+      "Weight": "40 g",
+      "Max load": "250 V, 10 A (as listed)",
+      "Converts voltage": "No (the USA is 120 V)",
+      "Warranty": "Lifetime (as listed)"
+    },
+    "skip_if": "your charger doesn't say 100-240V, or you want one adapter for many countries."
+  },
+  {
+    "asin": "B0080R95XI",
+    "added_at": "2026-11-23T14:41:58+05:30",
+    "title": "Ceptics India to UK Plug Adapter, Type G, Pack of 3",
+    "category": "travel-tech",
+    "subcategory": "travel-adapters",
+    "highlights": [
+      "Type G (BS 1363) output for the UK, Dubai and the UAE, Singapore and Hong Kong (as listed)",
+      "Takes 2-pin and 3-pin plugs from most countries, but not the big type M plug (as listed)",
+      "Max 250 V and 10 A; it does not convert voltage (as listed)",
+      "3 adapters in the pack, 40 g each"
+    ],
+    "note": "Three small UK-plug adapters, so a family or a student gets one for each charger.",
+    "brand": "Ceptics",
+    "colour": "Matte white",
+    "best_for": [
+      "UK and Dubai",
+      "Families"
+    ],
+    "specs": {
+      "Type": "Single-country plug adapter",
+      "Plugs": "Type G only (UK, UAE, Singapore, Hong Kong)",
+      "Takes": "2-pin and 3-pin plugs, not type M (as listed)",
+      "USB ports": "None",
+      "Size": "7.6 x 5.1 x 2.5 cm",
+      "Weight": "40 g",
+      "Max load": "250 V, 10 A (as listed)",
+      "Converts voltage": "No",
+      "Warranty": "5 years limited (the title says lifetime)"
+    },
+    "skip_if": "you're going to more than one plug region: it only fits type G sockets."
   }
 ]

@@ -13,6 +13,8 @@ Sri Lanka is one of the closest trips abroad from India. Direct flights leave fr
 
 Packing for the trip? Use our [Sri Lanka packing list](../guides/sri-lanka-packing-list.html) for temple clothes, rain gear, a warm layer for the hills, bag limits and what you can't bring in (cigarettes and beedis). Still choosing a winter trip? Compare places in [where to go in December and January](where-to-go-in-december-january.html). Want another trip abroad? See the [Singapore trip guide](singapore-trip-from-india.html) or [Nepal in December](nepal-in-december.html).
 
+Plugs: Sri Lanka uses types D, G and M at 230 V. See [travel adapter by country](../guides/travel-adapter-by-country.html) for the adapter to pack.
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## Sri Lanka visa for Indians: the free ETA

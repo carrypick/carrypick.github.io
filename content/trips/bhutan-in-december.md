@@ -14,6 +14,8 @@ Bhutan in December is cold, dry and sunny. The skies are mostly clear and the mo
 
 Packing for the trip? Use our [Bhutan packing list](../guides/bhutan-packing-list.html) for documents, cash rules and the Drukair bag limits. Still choosing? Compare places in [where to go in December and January](where-to-go-in-december-january.html). Going by road? See [Bhutan by road from India](bhutan-by-road.html) for the Phuentsholing permit and the route, and [Darjeeling in December](darjeeling-in-december.html) if you stop in north Bengal. Thinking of Nepal instead? See [Nepal in December](nepal-in-december.html) and our [Nepal packing list](../guides/nepal-packing-list.html).
 
+Plugs: Bhutan uses types C, D, F, G and M at 230 V. See [travel adapter by country](../guides/travel-adapter-by-country.html) for the adapter to pack.
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## Bhutan weather in December and January

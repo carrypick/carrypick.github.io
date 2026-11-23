@@ -13,6 +13,8 @@ Uzbekistan is one of the most talked-about new trips for Indians: the blue-tiled
 
 Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or ask the [what to wear helper](../tools/what-to-wear.html). Going in winter? Read our guide to [winter clothes](../guides/winter-clothes-for-hill-trips.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
 
+Plugs: Uzbekistan uses round-pin types C, E and F at 220 V. See [travel adapter by country](../guides/travel-adapter-by-country.html) for the adapter to pack.
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## Uzbekistan visa for Indians

@@ -35,6 +35,7 @@ Fees by nationality, the photo rules and the full list are in our [India e-Visa 
 - **Immigration** takes your fingerprints and photo.
 - **Yellow fever card:** needed if you arrive within 6 days of leaving a yellow fever country.
 - **Customs for foreign tourists:** you can bring in goods worth up to **₹25,000** duty free, plus your used personal things, one laptop (if you're 18 or older), up to 2 litres of alcohol and 100 cigarettes. Above that, declare on the Atithi app and use the Red Channel. Details: [Indian customs rules](../baggage/customs.html).
+- **Plugs:** India uses round-pin types C, D and M at 230 V, so US, UK and Australian plugs need an adapter. See [plugs and voltage in India](../guides/plug-type-in-india.html).
 - **Cash:** no limit on foreign currency, but declare notes worth over US$5,000, or over US$10,000 with travellers' cheques. You can bring up to ₹25,000 in Indian notes. See [cash and currency limits](../baggage/customs/cash-and-currency.html).
 
 ## Travel tips for first-timers

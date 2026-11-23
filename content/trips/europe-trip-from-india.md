@@ -13,6 +13,8 @@ A first Europe trip is a big dream for many Indian families and couples, and the
 
 Packing for the trip? Read our [Europe packing list](../guides/europe-packing-list.html), with what to wear in winter, plugs and EU customs limits. You can also use our [checklist for trips abroad](../packing/abroad.html) and the [international baggage rules](../baggage/international.html). Going in winter? See our [winter clothes guide](../guides/winter-clothes-for-hill-trips.html). On your honeymoon? See our [honeymoon packing list](../guides/honeymoon-packing-list.html). Comparing countries? See all our [international trips from India](international-trips-from-india.html), and the entry rules in our [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html#schengen).
 
+Plugs: Most of Europe uses round-pin types C, E and F at 230 V. See [which travel adapter for Europe to pack](../guides/travel-adapter-for-europe.html).
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## Schengen visa for Indians

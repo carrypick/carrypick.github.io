@@ -13,6 +13,8 @@ The USA is the big trip many Indians save up for: the skyline and the Statue of 
 
 Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
 
+Plugs: The USA uses flat-pin type A and B plugs at 120 V. See [which travel adapter for the USA to pack](../guides/travel-adapter-for-usa.html).
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## US tourist visa for Indians (B1/B2)

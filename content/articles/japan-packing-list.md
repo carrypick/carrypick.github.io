@@ -137,7 +137,7 @@ Not sure about a medicine? Read our [can I carry medicines on a flight?](../bagg
 
 ## Phone, plugs and power bank
 
-- **Japan uses 100 V and Type A plugs,** with two flat pins (it also uses Type B, with a third pin). Indian chargers have round pins, so you need an adapter. See our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html) or the full [travel adapter by country](travel-adapter-by-country.html) list for the plug table.
+- **Japan uses 100 V and Type A plugs,** with two flat pins (it also uses Type B, with a third pin). Indian chargers have round pins, so you need an adapter. See our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html) or our [travel adapter for Japan](travel-adapter-for-japan.html) page for the plug table.
 - **A universal adapter** with a socket for Type A pins, ideally with USB ports, is the easiest choice. Ones that are US/Japan type fit Japanese sockets.
 - **Check your charger's label.** Phone and laptop chargers marked 100–240 V work in Japan with just an adapter.
 - **Check hair dryers, straighteners and kettles.** Indian ones are often 230 V only, and they won't work properly in Japan at 100 V. Leave them at home, or buy a dual-voltage one.

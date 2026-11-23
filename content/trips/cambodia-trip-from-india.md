@@ -13,6 +13,8 @@ Cambodia is the home of Angkor Wat, one of the largest temple complexes in the w
 
 Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html). Cambodia is often combined with [Vietnam](vietnam-trip-from-india.html) or [Thailand](thailand-trip-from-india.html).
 
+Plugs: Cambodia uses types A, C and G at 230 V. See [travel adapter by country](../guides/travel-adapter-by-country.html) for the adapter to pack.
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## Cambodia visa for Indians

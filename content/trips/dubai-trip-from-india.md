@@ -13,6 +13,8 @@ Dubai is the most popular trip abroad from India. Direct flights leave from more
 
 Packing for the trip? Use our [Dubai packing list](../guides/dubai-packing-list.html) for winter evenings, mall and mosque clothes, the desert safari and bag limits. Not sure what you can bring in? Read [UAE customs rules](../baggage/customs/uae-dubai.html) for the duty-free limits, cash, medicines and banned things like paan and poppy seeds. Still choosing a winter trip? Compare places in [where to go in December and January](where-to-go-in-december-january.html). Going for New Year's Eve? Read our [Dubai New Year 2027 guide](dubai-new-year-2027.html) for the Burj Khalifa fireworks, free viewing areas and metro timings.
 
+Plugs: Dubai uses UK-style type G plugs at 230 V. See [which travel adapter for Dubai to pack](../guides/travel-adapter-for-dubai.html).
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## Dubai visa for Indians

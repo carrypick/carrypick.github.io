@@ -130,7 +130,7 @@ A hooded poncho for sudden showers:
 
 Want a hard case or a smaller pouch instead? Compare five in our [gadget organiser guide](gadget-organiser.html).
 
-Which plugs does Thailand use? See the table in our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html) or the full [travel adapter by country](travel-adapter-by-country.html) list. This adapter has slide-out plugs for most countries and USB ports for your phone:
+Which plugs does Thailand use? See the table in our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html) or our [travel adapter for Thailand](travel-adapter-for-thailand.html) page. This adapter has slide-out plugs for most countries and USB ports for your phone:
 
 [[pick:B07WDJR33C]]
 

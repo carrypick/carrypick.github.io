@@ -142,7 +142,7 @@ Waterproof shoes for wet streets:
 
 ## Laptop, phone, plugs and power bank
 
-- **Germany uses 230 V and Type C and F plugs.** Indian two-pin plugs often fit Type C sockets, but three-pin plugs don't, so take an adapter. See our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html) or the full [travel adapter by country](travel-adapter-by-country.html) list.
+- **Germany uses 230 V and Type C and F plugs.** Indian two-pin plugs often fit Type C sockets, but three-pin plugs don't, so take an adapter. See our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html) or our [travel adapter for Europe](travel-adapter-for-europe.html) page.
 - **The voltage is the same as India's,** so Indian chargers and hair dryers work with just a plug adapter.
 - **Power bank:** in your cabin bag only, never in check-in. See [can I carry a power bank?](../baggage/can-i-carry/power-bank.html)
 

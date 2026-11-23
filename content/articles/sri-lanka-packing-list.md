@@ -130,7 +130,7 @@ A 100 ml body sunscreen fits the liquid rule for cabin bags:
 
 ## Phone, plugs and power bank
 
-- **Indian chargers work on Sri Lanka's 230 V supply,** the same voltage as India, says Sri Lanka Tourism. Carry a universal travel adapter in case your room's sockets take a different plug.
+- **Indian chargers work on Sri Lanka's 230 V supply,** the same voltage as India, says Sri Lanka Tourism. Carry a universal travel adapter in case your room's sockets take a different plug. Plug types by country are in our [travel adapter by country](travel-adapter-by-country.html) list.
 - **Drones need approval.** Sri Lanka's Civil Aviation Authority asks visiting tourists to apply online for flying approval, and Sigiriya and the other Central Cultural Fund sites don't allow drone filming without written approval.
 - **Power bank:** in your cabin bag only, never in check-in. See [can I carry a power bank?](../baggage/can-i-carry/power-bank.html)
 - **A cable organiser** keeps chargers, cables and the adapter in one place.

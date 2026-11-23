@@ -968,7 +968,7 @@ def draw_tech(d):
     out += dim_h(x, x + w, y - 22, n(wcm) + " cm", "wide", above=True) + dim_v(x - 26, y, y + h, n(hcm) + " cm", "high")
     first = ("%d USB-C, %d USB-A" % (cc, aa)) if slots else "No USB ports"
     return dict(inner=out + bottom_info("", first + (" · " + weight if weight else ""), 330), legend=False, info=[], scaled=bool(dims),
-                alt="Drawing of a universal travel adapter from the front, with its pull-out plug pins, drawn to its listed size")
+                alt="Drawing of a %s from the front, with its plug pins, drawn to its listed size" % ("universal travel adapter" if "universal" in tl else "plug adapter"))
 
 
 # ---------- belts ----------

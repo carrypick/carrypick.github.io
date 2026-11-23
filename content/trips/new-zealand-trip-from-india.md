@@ -13,6 +13,8 @@ New Zealand is the far-away dream trip: fiords and waterfalls at Milford Sound, 
 
 Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
 
+Plugs: New Zealand uses type I plugs at 230 V, like Australia. See [which travel adapter for Australia and New Zealand to pack](../guides/travel-adapter-for-australia.html).
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## New Zealand visa for Indians

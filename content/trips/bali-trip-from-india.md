@@ -13,6 +13,8 @@ Bali is one of the most popular trips abroad from India, and a favourite for hon
 
 Packing for the trip? Use our [Bali packing list](../guides/bali-packing-list.html) for light clothes, a temple outfit, rain gear, the bag limits by airline and what not to carry. On your honeymoon? See our [honeymoon packing list](../guides/honeymoon-packing-list.html). Checking other countries? See which ones let Indians in without a visa in our [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html). Comparing beach honeymoons? See our [Maldives trip guide](maldives-trip-from-india.html), or compare winter trips in [where to go in December and January](where-to-go-in-december-january.html).
 
+Plugs: Bali uses round-pin types C and F at 230 V. See [travel adapter by country](../guides/travel-adapter-by-country.html) for the adapter to pack.
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## Bali visa for Indians

@@ -13,6 +13,8 @@ Japan is on many Indian travellers' wish lists: bullet trains, Mount Fuji, Kyoto
 
 Packing for winter? Read our [Japan packing list](../guides/japan-packing-list.html), with what to wear, the plug, medicine rules and customs limits. You can also use our [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or ask the [what to wear helper](../tools/what-to-wear.html) for Japan's cold winter. Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html). Going on to Korea? See our [South Korea trip guide](south-korea-trip-from-india.html).
 
+Plugs: Japan uses flat-pin type A plugs at 100 V. See [which travel adapter for Japan to pack](../guides/travel-adapter-for-japan.html).
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## Japan visa for Indians

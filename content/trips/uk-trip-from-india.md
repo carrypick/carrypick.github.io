@@ -13,6 +13,8 @@ The UK is one of the most popular long-haul trips from India: London's palaces, 
 
 Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), and for a winter trip our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
 
+Plugs: The UK uses type G plugs at 230 V. See [which travel adapter for the UK to pack](../guides/travel-adapter-for-uk.html).
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## UK visa for Indians

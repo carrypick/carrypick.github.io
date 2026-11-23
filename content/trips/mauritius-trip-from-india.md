@@ -13,6 +13,8 @@ Mauritius is one of the easiest beach holidays abroad for Indians. You don't nee
 
 Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), the [beach trip checklist](../packing/beach.html) and the [international baggage rules](../baggage/international.html). On your honeymoon? See our [honeymoon packing list](../guides/honeymoon-packing-list.html#beach-honeymoon-maldives-bali-goa-and-kerala). Comparing countries? See all our [international trips from India](international-trips-from-india.html), and the entry rules in our [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html#mauritius).
 
+Plugs: Mauritius uses types C, E and G at 230 V. See [travel adapter by country](../guides/travel-adapter-by-country.html) for the adapter to pack.
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## Mauritius visa for Indians

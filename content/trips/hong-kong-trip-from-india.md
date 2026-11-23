@@ -13,6 +13,8 @@ Hong Kong is a short, easy city trip from India: about 5 hours by direct flight 
 
 There's no Hong Kong packing list on CarryPick yet. Use our [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html). Going on to Korea? See our [South Korea trip guide](south-korea-trip-from-india.html).
 
+Plugs: Hong Kong uses mostly UK-style type G plugs at 220 V. See [travel adapter by country](../guides/travel-adapter-by-country.html) for the adapter to pack.
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## Hong Kong visa for Indians: the pre-arrival registration (PAR)

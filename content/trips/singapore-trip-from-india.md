@@ -13,6 +13,8 @@ Singapore is one of the easiest trips abroad from India. Direct flights leave fr
 
 Packing for the trip? Use our [Singapore packing list](../guides/singapore-packing-list.html) for clothes, the bag limits by airline and what not to carry (chewing gum, vapes, duty-free cigarettes). Still choosing a winter trip? Compare places in [where to go in December and January](where-to-go-in-december-january.html). Want a trip abroad without a visa? See [Bhutan in December](bhutan-in-december.html) or [Nepal in December](nepal-in-december.html). Adding Malaysia to the trip? See our [Malaysia trip from India](malaysia-trip-from-india.html) guide: Indians don't need a visa there until 31 December 2026.
 
+Plugs: Singapore uses UK-style type G plugs at 230 V. See [which travel adapter for Singapore to pack](../guides/travel-adapter-for-singapore.html).
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## Singapore visa for Indians

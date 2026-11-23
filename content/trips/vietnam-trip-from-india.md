@@ -13,6 +13,8 @@ Vietnam has become one of the most popular trips abroad from India. There are di
 
 Packing for the trip? Use our [Vietnam packing list](../guides/vietnam-packing-list.html): in winter you may need a jacket for Hanoi, a poncho for Hoi An and summer clothes for Ho Chi Minh City on the same trip. Checking other countries? See which ones let Indians in without a visa in our [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html). Still choosing a winter trip? Compare places in [where to go in December and January](where-to-go-in-december-january.html).
 
+Plugs: Vietnam uses types A, B, C and F at 220 V. See [travel adapter by country](../guides/travel-adapter-by-country.html) for the adapter to pack.
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## Vietnam visa for Indians

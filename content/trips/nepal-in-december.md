@@ -14,6 +14,8 @@ Nepal in December is dry, sunny and cold at night. The skies are mostly clear, s
 
 Packing for the trip? Use our [Nepal packing list](../guides/nepal-packing-list.html) for documents, the Indian currency rule and bag limits. Still choosing? Compare places in [where to go in December and January](where-to-go-in-december-january.html). Want another trip abroad without a visa? See [Bhutan in December](bhutan-in-december.html). Going through north Bengal by road? See [Darjeeling in December](darjeeling-in-december.html).
 
+Plugs: Nepal uses types C, D and M at 230 V, like India. See [travel adapter by country](../guides/travel-adapter-by-country.html) for the adapter to pack.
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## Nepal weather in December and January

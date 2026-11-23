@@ -13,6 +13,8 @@ Thailand is one of the cheapest and easiest trips abroad from India. Flights are
 
 Packing for the trip? Use our [Thailand packing list](../guides/thailand-packing-list.html) for light clothes, one temple outfit, the bag limits by airline and what not to carry (vapes are illegal). Checking other countries? See which ones let Indians in without a visa in our [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html). Still choosing a winter trip? Compare places in [where to go in December and January](where-to-go-in-december-january.html).
 
+Plugs: Thailand uses sockets that take flat and thin round pins, at 220 V. See [which travel adapter for Thailand to pack](../guides/travel-adapter-for-thailand.html).
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## Thailand visa for Indians

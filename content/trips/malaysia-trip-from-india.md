@@ -13,6 +13,8 @@ Malaysia is one of the easiest trips abroad from India right now. Indians don't 
 
 Packing for the trip? We don't have a Malaysia list yet, so use the [checklist for trips abroad](../packing/abroad.html) or make a list for your dates with the [packing list maker](../tools/packing-list-maker.html). Malaysia is hot and humid like Singapore, so the clothes in our [Singapore packing list](../guides/singapore-packing-list.html) work here too. Comparing countries? See all our [international trips from India](international-trips-from-india.html).
 
+Plugs: Malaysia uses UK-style type G plugs at 230 V, like Singapore. See [which travel adapter for Singapore and Malaysia to pack](../guides/travel-adapter-for-singapore.html).
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## Malaysia visa for Indians

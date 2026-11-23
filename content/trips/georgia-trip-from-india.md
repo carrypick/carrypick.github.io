@@ -13,6 +13,8 @@ Georgia, the small country between the Black Sea and the Caucasus mountains, has
 
 Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), and for a winter trip our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html). Checking other countries? See which ones let Indians in without a visa in our [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html). Comparing trips abroad? See all our [international trips from India](international-trips-from-india.html).
 
+Plugs: Georgia uses round-pin types C and F at 220 V. See [which travel adapter for Europe and Georgia to pack](../guides/travel-adapter-for-europe.html).
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## Georgia visa for Indians

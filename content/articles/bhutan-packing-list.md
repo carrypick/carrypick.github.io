@@ -140,7 +140,7 @@ Waterproof hiking shoes for women:
 ## Phone, plugs and power bank
 
 - **Bhutan uses three kinds of plugs:** British (type G), European (type C) and Indian (type D). The Department of Tourism says to bring adapters for all three.
-- **A universal travel adapter** covers all three.
+- **A universal travel adapter** covers all three. Other countries are in our [travel adapter by country](travel-adapter-by-country.html) list.
 - **Drones:** tourists generally can't bring one. You need a permit in advance.
 - **Power bank:** in your cabin bag only, never in check-in. See [can I carry a power bank?](../baggage/can-i-carry/power-bank.html)
 - **A cable organiser** keeps chargers, cables and the adapter together.

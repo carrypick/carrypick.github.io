@@ -13,6 +13,8 @@ Australia is a big trip from India: Sydney's harbour and Opera House, the cafés
 
 Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
 
+Plugs: Australia uses type I plugs at 230 V. See [which travel adapter for Australia to pack](../guides/travel-adapter-for-australia.html).
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## Australia visa for Indians

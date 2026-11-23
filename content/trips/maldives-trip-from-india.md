@@ -13,6 +13,8 @@ The Maldives is India's favourite beach honeymoon abroad: white sand, clear blue
 
 Packing for the trip? Use our [Maldives packing list](../guides/maldives-packing-list.html) for beach and modest clothes, seaplane bag limits and what you can't bring in (alcohol, idols, vapes). On your honeymoon? See our [honeymoon packing list](../guides/honeymoon-packing-list.html). Checking other countries? See which ones let Indians in without a visa in our [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html#maldives). Comparing beach honeymoons? See our [Bali trip guide](bali-trip-from-india.html), or compare winter trips in [where to go in December and January](where-to-go-in-december-january.html).
 
+Plugs: The Maldives uses several types (D, G, J, K and L) at 230 V. See [travel adapter by country](../guides/travel-adapter-by-country.html) for the adapter to pack.
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## Maldives visa for Indians

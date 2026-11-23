@@ -121,7 +121,7 @@ Ankle-high winter boots for men:
 
 ## Phone, plugs and power bank
 
-- **Most of Europe uses 230 V, and Type C, E or F plugs.** Switzerland also uses Type J and Italy Type L. Indian two-pin chargers often fit Type C, but not always the recessed sockets, so take an adapter. See our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html) or the full [travel adapter by country](travel-adapter-by-country.html) list for the plug table.
+- **Most of Europe uses 230 V, and Type C, E or F plugs.** Switzerland also uses Type J and Italy Type L. Indian two-pin chargers often fit Type C, but not always the recessed sockets, so take an adapter. See our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html) or our [travel adapter for Europe](travel-adapter-for-europe.html) page for the plug table.
 - **A universal adapter** with a Type C plug, ideally with USB ports, covers most hotels. One with slide-out plugs also works in Switzerland and Italy.
 - **Check your charger's label.** Phone and laptop chargers marked 100–240 V work with just an adapter. Indian hair dryers and straighteners are usually 230 V, so they work in Europe, but they need a plug that fits.
 - **An adapter does not change voltage.** It only changes the plug's shape.

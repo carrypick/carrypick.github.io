@@ -153,7 +153,7 @@ Pack spices in sealed shop packs, and keep them together in one bag so they're e
 
 ## Laptop, phone, plugs and power bank
 
-- **The USA uses 120 V and type A and B plugs** (flat pins), so Indian plugs don't fit. See our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html) or the full [travel adapter by country](travel-adapter-by-country.html) list.
+- **The USA uses 120 V and type A and B plugs** (flat pins), so Indian plugs don't fit. See our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html) or our [travel adapter for the USA](travel-adapter-for-usa.html) page.
 - **Check your chargers.** Laptop and phone chargers marked 100–240 V work with just an adapter. Indian hair dryers and straighteners are often 230 V only, so they won't work properly on 120 V.
 - **An adapter changes only the plug,** not the voltage.
 - **Power bank:** in your cabin bag only, never in check-in. See [can I carry a power bank?](../baggage/can-i-carry/power-bank.html)

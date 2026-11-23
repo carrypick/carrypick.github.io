@@ -23,6 +23,8 @@ India uses round-pin plugs (types **C, D and M**) at **230 V**. Most countries d
 
 We chose these by their listed specs. We haven't tested them, and we don't rank them by Amazon reviews.
 
+Country guides with more detail: [Dubai and the UAE](travel-adapter-for-dubai.html), [the UK](travel-adapter-for-uk.html), [the USA and Canada](travel-adapter-for-usa.html), [Europe](travel-adapter-for-europe.html), [Thailand](travel-adapter-for-thailand.html), [Singapore and Malaysia](travel-adapter-for-singapore.html), [Japan](travel-adapter-for-japan.html), [Australia and New Zealand](travel-adapter-for-australia.html) and [India, for visitors](plug-type-in-india.html).
+
 ## The plug types in one line each
 
 | Type | What it looks like | Used in |
@@ -153,7 +155,7 @@ India uses types **C, D and M** at **230 V and 50 Hz**. Bring a universal adapte
 - **From the UK:** type G plugs don't fit Indian sockets. Voltage is the same.
 - **From Europe:** a thin type C plug often fits Indian sockets, but it can be loose, and a thick type E or F plug won't fit. Wikipedia's mains table notes this combination is unsafe, so an adapter is better.
 
-More for visitors: [visiting India](../trips/visiting-india.html) and [what to pack for India](what-to-pack-for-india.html).
+More for visitors: [plugs and voltage in India](plug-type-in-india.html), [visiting India](../trips/visiting-india.html) and [what to pack for India](what-to-pack-for-india.html).
 
 ## Before you buy
 

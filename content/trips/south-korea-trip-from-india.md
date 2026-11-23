@@ -13,6 +13,8 @@ South Korea is one of the fastest-growing trips for Indians: K-dramas and K-pop,
 
 Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or read our guide to [winter clothes](../guides/winter-clothes-for-hill-trips.html) for a December trip. Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html). Korea is often combined with [Japan](japan-trip-from-india.html) or [Hong Kong](hong-kong-trip-from-india.html).
 
+Plugs: South Korea uses round-pin types C and F at 220 V. See [travel adapter by country](../guides/travel-adapter-by-country.html) for the adapter to pack.
+
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
 ## South Korea visa for Indians
