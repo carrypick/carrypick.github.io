@@ -245,7 +245,7 @@ def build(B, cfg, deals, pages, lastmod):
 <p class="small">These are typical empty weights only. They tell you how much of your allowance the bag itself uses, not what your packed bag weighs.</p>
 <ul>{rough}</ul></details>
 {B.top_picks(cfg, picks, "../", "Weigh it at home, or start with a lighter bag")}
-<p>More help: <a href="../baggage/index.html">baggage rules for Indian airlines</a>, <a href="../baggage/checker.html">will my bag fit?</a> and <a href="../guides/trolley-bag-capacity-kg-litres.html">how many kg a trolley bag holds</a>.</p>
+<p>More help: <a href="../baggage/index.html">baggage rules for Indian airlines</a>, <a href="../baggage/checker.html">will my bag fit?</a> <a href="../guides/trolley-bag-capacity-kg-litres.html">how many kg a trolley bag holds</a> and <a href="../guides/lightest-cabin-trolley-bag.html">the lightest trolleys by empty weight</a>.</p>
 {{faq}}
 {B.tool_pills("../", PATH)}
 </article></div>

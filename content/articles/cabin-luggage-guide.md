@@ -3,7 +3,7 @@ seo_title: Cabin bag size rules in India: 7 kg, 115 cm and 55 cm trolleys
 title: Cabin bag rules for Indian flights and how to pick the right trolley
 description: The 7 kg and 115 cm rule explained, why "55 cm" bags can still be too big, and our cabin and check-in picks.
 date: 2026-10-23
-updated: 2026-11-15
+updated: 2026-11-23
 category: luggage
 photo: cabin-bag-airport
 ---
@@ -54,6 +54,7 @@ An empty hard-shell cabin trolley usually weighs **2.5–3 kg**. With a 7 kg lim
 
 - Choose a lighter bag if you pack heavy.
 - Weigh your packed bag at home with a **luggage scale**. It's a small, cheap tool that can save you excess-baggage charges.
+- See our cabin picks sorted by empty weight: [the lightest cabin trolleys](lightest-cabin-trolley-bag.html).
 
 [[pick:B07Q822CWX]]
 
@@ -105,9 +106,11 @@ For check-in luggage, size depends on trip length:
 
 [[pick:B097GR45SS]]
 
-A set of three sizes suits families who travel often:
+A set of three sizes suits families who travel often. Compare five sets in [trolley bag set of 3](trolley-bag-set-of-3.html):
 
 [[pick:B097BHFQVS]]
+
+Not sure about the shell or the wheels? See [hard vs soft luggage](hard-vs-soft-luggage.html) and [4 wheel vs 8 wheel trolleys](4-wheel-vs-8-wheel-trolley.html).
 
 ## Pack smarter
 

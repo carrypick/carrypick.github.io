@@ -2038,7 +2038,7 @@ def build_extra_baggage(cfg, deals_by_asin, extra, pages, lastmod):
     sources = "".join(f'<li><strong>{e(x["name"])}:</strong> {sources_html(x["sources"])}</li>' for x in rows_all)
     pick_box = inline_pick(cfg, scale, p) if scale else ""
     guides = [("cabin-luggage-guide", "how to pick a cabin trolley"), ("polycarbonate-vs-polypropylene-luggage", "polycarbonate vs polypropylene luggage"),
-              ("trolley-bag-capacity-kg-litres", "trolley bag capacity in kg and litres")]
+              ("trolley-bag-capacity-kg-litres", "trolley bag capacity in kg and litres"), ("lightest-cabin-trolley-bag", "the lightest trolleys by empty weight")]
     guide_links = ", ".join(f'<a href="../guides/{slug}.html">{text}</a>' for slug, text in guides if (ARTICLES_DIR / (slug + ".md")).exists())
 
     title = "Extra baggage charges on domestic flights in India"
@@ -2777,7 +2777,7 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
 <div class="table-wrap"><table class="compare snug"><thead><tr><th>kg</th><th>Pounds (lb)</th></tr></thead><tbody>{kg_rows}</tbody></table></div>
 {end_html}
 {faq_html}
-<p>More help: <a href="../guides/trolley-bag-capacity-kg-litres.html">how many kg each size holds</a>, <a href="../guides/20-inch-trolley-bag-size.html">20 inch</a>, <a href="../guides/22-inch-trolley-bag-size.html">22 inch</a>, <a href="../guides/24-inch-trolley-bag-size.html">24 inch</a>, <a href="../guides/26-inch-trolley-bag-size.html">26 inch</a>, <a href="../guides/28-inch-trolley-bag-size.html">28 inch</a> and <a href="../guides/32-inch-trolley-bag-size.html">32 inch</a> trolleys in detail, <a href="../guides/trolley-bag-size-for-international-travel.html">a bag for international flights</a>, <a href="../guides/luggage-size-guide.html">what size luggage you need</a> and <a href="../guides/cabin-luggage-guide.html">how to pick a cabin trolley</a>.</p>
+<p>More help: <a href="../guides/trolley-bag-capacity-kg-litres.html">how many kg each size holds</a>, <a href="../guides/20-inch-trolley-bag-size.html">20 inch</a>, <a href="../guides/22-inch-trolley-bag-size.html">22 inch</a>, <a href="../guides/24-inch-trolley-bag-size.html">24 inch</a>, <a href="../guides/26-inch-trolley-bag-size.html">26 inch</a>, <a href="../guides/28-inch-trolley-bag-size.html">28 inch</a> and <a href="../guides/32-inch-trolley-bag-size.html">32 inch</a> trolleys in detail, <a href="../guides/trolley-bag-size-for-international-travel.html">a bag for international flights</a>, <a href="../guides/luggage-size-guide.html">what size luggage you need</a> and <a href="../guides/cabin-luggage-guide.html">how to pick a cabin trolley</a>. Still choosing? See <a href="../guides/lightest-cabin-trolley-bag.html">the lightest trolleys by empty weight</a>, <a href="../guides/hard-vs-soft-luggage.html">hard vs soft luggage</a>, <a href="../guides/4-wheel-vs-8-wheel-trolley.html">4 wheel vs 8 wheel trolleys</a> and <a href="../guides/trolley-bag-set-of-3.html">trolley bag sets of 3</a>.</p>
 {tool_pills("../", path)}
 </article></div>
 <script src="../assets/sizes.js" defer></script>

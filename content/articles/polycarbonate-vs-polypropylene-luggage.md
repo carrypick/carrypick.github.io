@@ -3,7 +3,7 @@ seo_title: Polycarbonate vs polypropylene trolley bags: which is better?
 title: Polycarbonate vs polypropylene trolley bags: which is better?
 description: Polycarbonate is usually called tougher and polypropylene lighter. We checked 62 Amazon.in listings by weight, and the gap was small. See which suits your trip.
 date: 2026-11-06
-updated: 2026-11-15
+updated: 2026-11-23
 category: luggage
 photo: trolley-walk
 ---
@@ -65,7 +65,7 @@ Check the weight of the bag itself, not the material. A difference of 0.2 kg won
 
 Hard shells handle rain well, wipe clean and protect what's inside better. Soft bags can squeeze into train berths and car boots, and often have outside pockets, but protect fragile things less.
 
-For flights, most people choose hard. For trains and road trips, soft or a duffle can be easier. See [our luggage size guide](luggage-size-guide.html) and the [train luggage rules](../baggage/train-luggage-rules.html).
+For flights, most people choose hard. For trains and road trips, soft or a duffle can be easier. We compare both in [hard vs soft luggage](hard-vs-soft-luggage.html). See [our luggage size guide](luggage-size-guide.html) and the [train luggage rules](../baggage/train-luggage-rules.html).
 
 ## Our picks
 
