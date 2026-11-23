@@ -96,10 +96,10 @@ A laptop backpack with an anti-theft pocket:
 
 ## Small things that help
 
-- **Packing cubes** keep your bags tidy when customs officers open them
+- **[Packing cubes](packing-cubes.html)** keep your bags tidy when customs officers open them
 - **A cable organiser** so no charger is left behind
 - **A steel water bottle** and a small lunch box
-- **A toiletry bag** with a week of toiletries, in sizes of 100 ml or less for your cabin bag
+- **A [toiletry bag](toiletry-bag-for-travel.html)** with a week of toiletries, in sizes of 100 ml or less for your cabin bag
 - **A luggage scale,** because 23 kg is per bag
 
 [[pick:B0CJC1SVH7]]

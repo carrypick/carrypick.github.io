@@ -221,7 +221,7 @@ A light medium trolley for a 23 kg bag:
 
 [[pick:B0GNSKLF5Z]]
 
-Packing cubes keep thermals, sweaters and socks apart:
+[Packing cubes](packing-cubes.html) keep thermals, sweaters and socks apart:
 
 [[pick:B0C4TV4M2F]]
 

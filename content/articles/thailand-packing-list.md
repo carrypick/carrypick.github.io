@@ -52,7 +52,7 @@ If you pack only these, you'll be fine:
 - **Passport.** Keep it on you, not in your check-in bag. Carry a photocopy and a photo of it on your phone, kept apart from the passport.
 - **Print or save your bookings:** return ticket, hotel bookings and travel insurance. Check the entry rules for Indian passport holders on the Royal Thai Embassy's website before you fly.
 - **Cash.** RBI lets a bank or money changer sell you up to US$3,000 in foreign currency notes per trip, and you can take up to ₹25,000 in Indian notes. Put the rest on a forex card. See [how much cash you can carry abroad](../baggage/customs/cash-and-currency.html).
-- **Keep cash, cards and your passport in one place** you always carry, like a passport holder or a sling that zips shut.
+- **Keep cash, cards and your passport in one place** you always carry, like a [passport holder](passport-holder.html) or a sling that zips shut.
 
 [[pick:B0BHC41KYN]]
 
@@ -202,7 +202,7 @@ A light medium trolley for a 20 kg or 23 kg bag:
 
 [[pick:B0GNSKLF5Z]]
 
-Packing cubes keep a week of clothes in order:
+[Packing cubes](packing-cubes.html) keep a week of clothes in order:
 
 [[pick:B0C4TV4M2F]]
 

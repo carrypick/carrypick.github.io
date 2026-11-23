@@ -70,7 +70,7 @@ Most students take one large check-in trolley, one medium one, and a cabin bag o
 - **Buying a set?** The large bag in many sets of 3 is over 158 cm. Check the listed total in our [trolley bag set of 3 guide](trolley-bag-set-of-3.html).
 - **Don't buy a 32 inch bag:** almost all are over 158 cm. See the [32 inch trolley guide](32-inch-trolley-bag-size.html).
 
-This large trolley is listed at exactly 158 cm in total, with a TSA lock:
+This large trolley is listed at exactly 158 cm in total, with a [TSA lock](tsa-lock.html):
 
 [[pick:B0F5HLYQK3]]
 
@@ -169,10 +169,10 @@ Pack spices in sealed shop packs, and keep them together in one bag so they're e
 
 ## Small things students are glad they packed
 
-- **Packing cubes,** so your bags open neatly at security and in your room
+- **[Packing cubes](packing-cubes.html),** so your bags open neatly at security and in your room
 - **A steel water bottle** and a small lunch box
-- **A toiletry bag** with a week of toiletries, in sizes of 100 ml or less for your cabin bag
-- **A neck pillow** for a flight of 15 hours or more
+- **A [toiletry bag](toiletry-bag-for-travel.html)** with a week of toiletries, in sizes of 100 ml or less for your cabin bag
+- **A [neck pillow](neck-pillow-for-flights.html)** for a flight of 15 hours or more
 - **Photos and a few things from home**, which help more than people expect
 - **A diary with your important numbers**, in case your phone dies on arrival
 

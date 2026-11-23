@@ -69,7 +69,7 @@ See what the listings really weigh in [polycarbonate vs polypropylene](polycarbo
 
 - **8 spinner wheels** (4 double wheels) roll more smoothly than 4 wheels, especially on airport floors.
 - A **3-digit combination lock** is enough for domestic travel.
-- A **TSA lock** lets US airport security open the bag without breaking the lock. It matters if you fly to or through the USA.
+- A **TSA lock** lets US airport security open the bag without breaking the lock. It matters if you fly to or through the USA. See [TSA lock: what it means](tsa-lock.html).
 
 ## Our cabin bag picks
 
@@ -114,7 +114,7 @@ Not sure about the shell or the wheels? See [hard vs soft luggage](hard-vs-soft-
 
 ## Pack smarter
 
-**Packing cubes** keep clothes folded and let you fit more into a small cabin bag:
+**[Packing cubes](packing-cubes.html)** keep clothes folded and let you fit more into a small cabin bag:
 
 [[pick:B0C4TV4M2F]]
 

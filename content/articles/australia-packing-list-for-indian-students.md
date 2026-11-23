@@ -142,10 +142,10 @@ This adapter has a Type I plug for Australia:
 
 ## Small things students are glad they packed
 
-- **Packing cubes,** so your bags open neatly when an officer checks them
+- **[Packing cubes](packing-cubes.html),** so your bags open neatly when an officer checks them
 - **A steel water bottle** for campus
-- **A toiletry bag** with a week of toiletries, in sizes of 100 ml or less for your cabin bag
-- **A neck pillow** for the long flight with a stop
+- **A [toiletry bag](toiletry-bag-for-travel.html)** with a week of toiletries, in sizes of 100 ml or less for your cabin bag
+- **A [neck pillow](neck-pillow-for-flights.html)** for the long flight with a stop
 - **Photos and a few things from home**
 
 [[pick:B0CJC1SVH7]]

@@ -200,7 +200,7 @@ A light medium trolley for a 20 kg or 30 kg bag:
 
 [[pick:B0GNSKLF5Z]]
 
-Packing cubes keep warm and summer clothes apart:
+[Packing cubes](packing-cubes.html) keep warm and summer clothes apart:
 
 [[pick:B0C4TV4M2F]]
 

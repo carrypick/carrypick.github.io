@@ -156,9 +156,9 @@ Waterproof shoes for wet streets:
 
 ## Small things students are glad they packed
 
-- **Packing cubes,** so thermals, sweaters and jackets stay apart
+- **[Packing cubes](packing-cubes.html),** so thermals, sweaters and jackets stay apart
 - **A steel water bottle** and a small lunch box
-- **A toiletry bag** with a week of toiletries, in sizes of 100 ml or less for your cabin bag
+- **A [toiletry bag](toiletry-bag-for-travel.html)** with a week of toiletries, in sizes of 100 ml or less for your cabin bag
 - **Lip balm and a moisturiser** for cold, dry air
 - **Photos and a few things from home**
 

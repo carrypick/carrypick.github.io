@@ -88,7 +88,7 @@ Evenings are warm, at about 25–26 °C, so night outfits can be light:
 - **One power bank and a charger with two ports** for both phones.
 - **More ideas,** including hill honeymoons, in our [honeymoon packing list](honeymoon-packing-list.html).
 
-Packing cubes keep two people's things in order in one bag:
+[Packing cubes](packing-cubes.html) keep two people's things in order in one bag:
 
 [[pick:B0C4TV4M2F]]
 

@@ -46,13 +46,13 @@ If you pack only these, you'll be fine:
 These you can share, so pack only one:
 
 - **One power bank and a charger with two ports,** for both phones
-- **One toiletry bag** each, or one big one for both
+- **One [toiletry bag](toiletry-bag-for-travel.html)** each, or one big one for both
 - **One small first-aid kit:** plasters, something for an upset stomach, ORS and your regular medicines
 - **A small speaker or a downloaded playlist** for the room
 - **A phone tripod or a selfie stick** for photos of you both
 - **A day bag** for outings, snacks and water
 
-Packing cubes keep two people's things apart in one shared bag:
+[Packing cubes](packing-cubes.html) keep two people's things apart in one shared bag:
 
 [[pick:B0C4TV4M2F]]
 

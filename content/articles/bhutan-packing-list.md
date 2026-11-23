@@ -207,7 +207,7 @@ A light medium trolley for a 30 kg allowance:
 
 [[pick:B0GNSKLF5Z]]
 
-Packing cubes keep thermals, jackets and dzong clothes apart:
+[Packing cubes](packing-cubes.html) keep thermals, jackets and dzong clothes apart:
 
 [[pick:B0C4TV4M2F]]
 

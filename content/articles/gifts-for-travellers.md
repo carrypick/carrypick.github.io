@@ -31,7 +31,7 @@ People who travel a lot already have a bag. What they often don't have are the s
 ## How to choose a gift for a traveller
 
 - **Think about how they travel.** Flights, trains and road trips need different things. A luggage scale suits flyers; a bottle and a neck pillow suit trains.
-- **Small things get used most.** Most travellers already own a suitcase, but few have a good toiletry bag or a case for chargers.
+- **Small things get used most.** Most travellers already own a suitcase, but few have a good toiletry bag or a case for chargers. Our guides compare [toiletry bags](toiletry-bag-for-travel.html), [packing cubes](packing-cubes.html), [neck pillows](neck-pillow-for-flights.html), [passport holders](passport-holder.html) and [TSA locks](tsa-lock.html).
 - **Check bag sizes against their airline.** A cabin bag that's too big gets sent to check-in. Our [cabin bag checker](../baggage/checker.html) compares any size with Indian airlines' limits.
 - **Remember the 100 ml rule.** Liquids in a cabin bag must be in bottles of 100 ml or less, so small bottles make good add-ons.
 - **Order early.** Deliveries can take longer around Christmas and New Year. Check the delivery date before you pay.

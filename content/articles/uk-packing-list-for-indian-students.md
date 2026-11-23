@@ -161,10 +161,10 @@ GOV.UK's page on taking medicine into the UK covers medicines that contain a **c
 
 ## Small things students are glad they packed
 
-- **Packing cubes,** so your bags open neatly at security and in your room
+- **[Packing cubes](packing-cubes.html),** so your bags open neatly at security and in your room
 - **A steel water bottle** and a small lunch box
-- **A toiletry bag** with a week of toiletries, in sizes of 100 ml or less for your cabin bag
-- **A neck pillow** for the flight
+- **A [toiletry bag](toiletry-bag-for-travel.html)** with a week of toiletries, in sizes of 100 ml or less for your cabin bag
+- **A [neck pillow](neck-pillow-for-flights.html)** for the flight
 - **Photos and a few things from home**
 - **A diary with your important numbers,** in case your phone dies on arrival
 

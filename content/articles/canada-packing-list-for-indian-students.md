@@ -152,10 +152,10 @@ Health Canada's guidance on bringing health products for personal use (page date
 
 ## Small things students are glad they packed
 
-- **Packing cubes,** so thermals, sweaters and jackets stay apart
+- **[Packing cubes](packing-cubes.html),** so thermals, sweaters and jackets stay apart
 - **Lip balm and a moisturiser:** cold air and heated rooms dry your skin
 - **A steel water bottle** and a small lunch box
-- **A toiletry bag** with a week of toiletries, in sizes of 100 ml or less for your cabin bag
+- **A [toiletry bag](toiletry-bag-for-travel.html)** with a week of toiletries, in sizes of 100 ml or less for your cabin bag
 - **Photos and a few things from home**
 
 [[pick:B0C4TV4M2F]]

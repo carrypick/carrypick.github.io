@@ -109,6 +109,39 @@
           ]
         },
         {
+          "id": "passport-holder",
+          "name": "Passport holder for passports, boarding passes and cards",
+          "trips": [
+            "abroad"
+          ],
+          "link": "guides/passport-holder.html",
+          "maker": [
+            {
+              "where": [
+                "abroad"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tsa-lock",
+          "name": "TSA lock for the check-in bag, if it has none built in",
+          "trips": [
+            "abroad"
+          ],
+          "link": "guides/tsa-lock.html",
+          "maker": [
+            {
+              "where": [
+                "abroad"
+              ],
+              "by": [
+                "flight"
+              ]
+            }
+          ]
+        },
+        {
           "id": "visa-printouts",
           "name": "Printouts of your visa, return ticket and first hotel booking (immigration may ask)",
           "trips": [],
@@ -653,7 +686,7 @@
           "id": "toiletry-bag",
           "name": "Toiletry bag to keep it all together",
           "trips": [],
-          "pick": "B0F2237QFM",
+          "link": "guides/toiletry-bag-for-travel.html",
           "maker": [
             {
               "min_days": 3
@@ -1039,7 +1072,7 @@
             "abroad",
             "wedding"
           ],
-          "pick": "B0C4TV4M2F",
+          "link": "guides/packing-cubes.html",
           "maker": [
             {
               "min_days": 4
@@ -1064,7 +1097,7 @@
             "abroad",
             "week"
           ],
-          "pick": "B0C7BM18PB",
+          "link": "guides/neck-pillow-for-flights.html",
           "maker": [
             {
               "by": [
@@ -1964,6 +1997,42 @@
           [
             "tools/bag-weight.html",
             "Bag weight calculator"
+          ]
+        ]
+      },
+      {
+        "maker": [
+          {
+            "by": [
+              "flight"
+            ]
+          },
+          {
+            "where": [
+              "abroad"
+            ]
+          }
+        ],
+        "links": [
+          [
+            "guides/packing-cubes.html",
+            "Packing cubes: which set to buy"
+          ],
+          [
+            "guides/neck-pillow-for-flights.html",
+            "Neck pillow for flights"
+          ],
+          [
+            "guides/toiletry-bag-for-travel.html",
+            "Toiletry bag for travel"
+          ],
+          [
+            "guides/passport-holder.html",
+            "Passport holder guide"
+          ],
+          [
+            "guides/tsa-lock.html",
+            "TSA lock: do you need one?"
           ]
         ]
       }

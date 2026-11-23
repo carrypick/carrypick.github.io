@@ -190,7 +190,7 @@ A light medium trolley for a 20 kg or 23 kg bag:
 
 [[pick:B0GNSKLF5Z]]
 
-Packing cubes keep clothes dry and in order:
+[Packing cubes](packing-cubes.html) keep clothes dry and in order:
 
 [[pick:B0C4TV4M2F]]
 
