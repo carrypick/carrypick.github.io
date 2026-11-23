@@ -105,7 +105,7 @@
   "contact_email": "",
   "groups": [
     {"name": "Bags & Luggage", "categories": ["luggage", "backpacks", "handbags"]},
-    {"name": "Travel Essentials", "categories": ["travel-gear", "travel-tech", "books"]},
+    {"name": "Travel Essentials", "categories": ["travel-gear", "travel-tech", "books", "baby-kids"]},
     {"name": "Clothing & Shoes", "categories": ["clothing", "shoes"]},
     {"name": "Accessories", "categories": ["watches", "sunglasses", "wallets-belts"]},
     {"name": "Beauty & Grooming", "categories": ["perfumes", "grooming", "skincare"]}
@@ -196,6 +196,21 @@
       "guide": "audiobooks-for-long-flights",
       "intro": "Printed travel guidebooks, a phrasebook, travel journals, kids' travel books and travel stories that make good gifts. Every button goes to the printed edition. We read the edition, pages, size and language on each Amazon.in listing. Cover images come from the publishers' own shops and Open Library.",
       "tip": "Guidebooks are heavy: Lonely Planet India is listed at 850 g. On a cabin-bag-only trip, take one guidebook and keep the rest on your phone. On a long flight, an audiobook weighs nothing."
+    },
+    "baby-kids": {
+      "name": "Baby & Kids Travel",
+      "subcategories": [
+        {"slug": "baby-gear", "name": "Baby travel gear", "title": "Baby travel gear: stroller, carrier, diaper bag and changing mat", "intro": "A cabin-friendly stroller, a baby carrier, a diaper bag, a fold-up changing mat and a milk powder container for flights, trains and road trips with a baby. We read the folded size, weight, age or weight range and colour on each Amazon.in listing."},
+        {"slug": "kids-travel", "name": "Kids' travel", "title": "Kids' travel gear: trolley, headphones and travel pillow", "intro": "A kids' cabin trolley, volume-limited headphones and a kids' travel pillow for long flights and road trips. The age range and sizes are from each Amazon.in listing."}
+      ],
+      "emoji": "🍼",
+      "hashtag": "#TravelWithKids",
+      "icon": "stroller",
+      "photo": "airport-terminal",
+      "seo_title": "Baby and kids travel essentials in India: travel stroller, diaper bag, baby carrier and kids' travel gear",
+      "guide": "travelling-with-baby-checklist",
+      "intro": "Travel gear for families with a baby or young kids: a stroller that folds small, a baby carrier, a diaper bag, a fold-up changing mat, a milk powder container, a kids' cabin trolley, volume-limited headphones and a kids' travel pillow. We read the folded size, weight, age range and colour on each Amazon.in listing, and only repeat safety facts the listing itself states.",
+      "tip": "Indian airlines let a baby fly on your lap from a few days old until the day before the second birthday, with age proof such as a birth certificate. IndiGo and Akasa carry one stroller or pram per infant free, but give an infant no check-in allowance. For any question about your baby's health and flying, ask your paediatrician."
     },
     "watches": {
       "name": "Watches",

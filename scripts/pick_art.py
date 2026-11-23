@@ -23,7 +23,7 @@ NOTE = "Illustration, not a product photo"
 SCALED = " · listed sizes drawn to scale"
 CSS_FILE = Path(__file__).resolve().parent.parent / "static" / "style.css"
 CATS = ("luggage", "backpacks", "watches", "clothing", "shoes", "skincare", "handbags", "travel-gear",
-        "travel-tech", "sunglasses", "wallets-belts", "perfumes", "grooming", "books")
+        "travel-tech", "sunglasses", "wallets-belts", "perfumes", "grooming", "books", "baby-kids")
 DASH = ' stroke-dasharray="7 5"'
 
 # Pixels per cm (bags) or per mm (watches, glasses), fixed per kind so picks of one kind compare fairly.
@@ -81,7 +81,7 @@ def style(cat, paint=""):
 PALETTE = [
     ("charcoal black", "#2e3236"), ("coral purple", "#9d86c2"), ("army green", "#56603a"), ("dusk green", "#5f7d6e"), ("sea blue", "#5aa3b5"),
     ("slate grey", "#66717c"), ("dark grey", "#4a5057"), ("dark brown", "#4a2f20"), ("deep red", "#7a2834"),
-    ("blue grey", "#6b7f95"), ("lime green", "#9ccb3b"), ("rose gold", "#d6a28e"), ("gunmetal", "#4f565d"), ("charcoal", "#363b40"),
+    ("blue grey", "#6b7f95"), ("bluish grey", "#7b8a99"), ("light pink", "#f2bccb"), ("lime green", "#9ccb3b"), ("rose gold", "#d6a28e"), ("gunmetal", "#4f565d"), ("charcoal", "#363b40"),
     ("navy blue", "#22325a"), ("wine red", "#6d1f33"), ("turquoise", "#2bb0ad"), ("lime", "#a9c94b"),
     ("red", "#c0392b"), ("navy", "#22325a"), ("olive", "#6b6d3b"), ("teal", "#1f7a7a"), ("coral", "#ee7b63"), ("mint", "#a6dac6"),
     ("beige", "#d8c7a6"), ("vanilla", "#efe2c4"), ("champagne", "#dcc7a1"), ("silver", "#c5cbd1"),
@@ -1340,6 +1340,71 @@ def generic(d, what):
     return dict(inner=out + bottom_info("Size not listed"), legend=False, info=[], scaled=False, alt="Simple drawing of " + what)
 
 
+# ---------- baby and kids travel: simple outlines of the kind of item, with the listed facts underneath ----------
+
+def draw_baby(d, limit):
+    sp, tl = d.get("specs", {}), d["title"].lower()
+    kind = (sp.get("Type") or "").lower()
+    if "trolley" in kind or "suitcase" in kind:
+        parts = draw_luggage(d, limit)
+        # Kids' cases often list a box size that doesn't match the height in the title: draw the title height only.
+        parts["inner"] = parts["inner"].replace("Width and depth not listed", "Drawn to its listed height")
+        return parts
+    floor = L(110, FLOOR, 370, FLOOR, "k", 1.2, ' opacity=".3"')
+    facts = [x for x in (sp.get("Folded size"), sp.get("Size"), sp.get("Weight"), sp.get("Age")) if x]
+    main = sp.get("Type") or ""
+    sub = " · ".join(f.replace(" (as listed)", "") for f in facts[:2])
+    if "stroller" in kind:
+        out = (floor + L(330, 66, 246, 172, "pk", 6) + L(246, 172, 158, 250, "pk", 6) + L(246, 172, 306, 250, "pk", 6)
+               + P("M196 150 Q238 188 288 160 L274 204 Q236 220 204 196Z") + P("M176 150 Q184 86 262 88 L252 150Z")
+               + L(318, 72, 342, 60, "pk", 8))
+        for x in (158, 306):
+            out += C(x, 252, 19, "p") + C(x, 252, 7, "s")
+        alt = "Simple drawing of a baby stroller from the side, with a canopy and wheels"
+    elif "carrier" in kind:
+        out = (P("M200 104 C200 70 226 60 240 60 C254 60 280 70 280 104", "fs", 10)
+               + P("M196 104 H284 L294 222 Q240 246 186 222Z") + R(212, 84, 56, 26, 10, "s k", 1.8)
+               + R(150, 222, 180, 26, 12, "a k", 2) + R(232, 228, 16, 14, 3, "p", 0)
+               + L(214, 130, 266, 130, "k", 1.2, ' opacity=".4"'))
+        alt = "Simple drawing of a soft baby carrier with shoulder straps, a head support and a waist belt"
+    elif "changing" in kind or "mat" in kind:
+        out = (R(150, 70, 180, 104, 16) + P("M210 70 Q240 40 270 70", "pk", 5) + R(166, 116, 148, 44, 10, "s k", 1.4)
+               + R(70, 204, 340, 60, 16) + R(70, 204, 62, 60, 16, "s k", 2) + L(140, 234, 400, 234, "k", 1, ' opacity=".3"'))
+        alt = "Simple drawing of a changing mat folded into a pouch with a handle, and the same mat opened out flat"
+    elif "diaper bag" in kind or "bag" in kind:
+        out = (floor + P("M216 92 Q240 62 264 92", "pk", 5) + R(166, 92, 148, 178, 28)
+               + R(186, 176, 108, 78, 14, "s k", 1.6) + P("M190 196 H290", "k", 1.2, ' stroke-dasharray="2 3"')
+               + R(146, 168, 22, 80, 9, "s k", 1.6) + R(312, 168, 22, 80, 9, "s k", 1.6)
+               + P("M184 100 C150 120 150 210 168 246", "pk", 4, ' opacity=".7"'))
+        alt = "Simple drawing of a diaper bag backpack with a top handle, a front pocket and bottle pockets on both sides"
+    elif "headphone" in kind:
+        out = (P("M168 206 C168 82 312 82 312 206", "fs", 15) + R(146, 178, 48, 86, 20) + R(286, 178, 48, 86, 20)
+               + R(190, 192, 10, 58, 5, "s", 0) + R(280, 192, 10, 58, 5, "s", 0))
+        if "aux" in tl or "wired" in (sp.get("Connection") or "").lower():
+            out += P("M170 264 C170 286 236 284 262 278", "pk", 3)
+        alt = "Simple drawing of over-ear kids' headphones" + (" with a wire" if "aux" in tl else "")
+    elif "pillow" in kind:
+        out = (P("M160 104 C116 104 108 200 158 248 C198 284 282 284 322 248 C372 200 364 104 320 104 C294 104 290 136 300 168 "
+                 "C310 204 280 222 240 222 C200 222 170 204 180 168 C190 136 186 104 160 104Z")
+               + R(212, 232, 56, 30, 10, "s k", 1.6))
+        alt = "Simple drawing of a U-shaped kids' travel pillow with a front chin support"
+    elif "container" in kind or "feeding" in kind:
+        dims = parse_dims(sp.get("Size")) or [10.0, 8.9, 27.1]
+        s = 7.0
+        w, h = dims[0] * s, max(dims) * s
+        cx, top = W / 2, FLOOR - h
+        tier = (h - 40) / 3
+        out = floor + P(D("M%s %s L%s %s H%s Z", cx - 18, top + 22, cx, top, cx + 18), "s k", 1.6)
+        out += R(cx - w / 2 + 6, top + 18, w - 12, 24, 8, "p", 0)
+        for i in range(3):
+            out += R(cx - w / 2, top + 40 + i * tier, w, tier - 4, 9)
+        out += dim_v(cx - w / 2 - 22, top, FLOOR, n(max(dims)) + " cm", "high")
+        alt = "Simple drawing of a stacked three-layer milk powder and food container with a funnel lid"
+    else:
+        return generic(d, "a baby travel item")
+    return dict(inner=out + bottom_info(main, sub, 300 if "container" not in kind else 304), legend=False, info=[], scaled=False, alt=alt)
+
+
 # ---------- one image per pick ----------
 
 def frame(cat, alt, parts, limit, css=""):
@@ -1369,7 +1434,7 @@ DRAW = {"luggage": lambda d, lim: draw_luggage(d, lim), "backpacks": lambda d, l
         "travel-tech": lambda d, lim: draw_tech(d), "sunglasses": lambda d, lim: draw_glasses(d),
         "wallets-belts": lambda d, lim: draw_belt(d) if "belt" in d["title"].lower() else draw_wallet(d),
         "perfumes": lambda d, lim: draw_perfume(d), "grooming": lambda d, lim: draw_grooming(d),
-        "books": lambda d, lim: draw_book(d)}
+        "books": lambda d, lim: draw_book(d), "baby-kids": lambda d, lim: draw_baby(d, lim)}
 
 
 def colour_words(colour):

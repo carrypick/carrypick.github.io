@@ -21,7 +21,8 @@
     "B09231NL5H": "nice", "B09232XNTX": "nice", "B0DSVXW4GD": "nice", "B0GXWJZKT4": "nice", "B0CSK7YP3H": "nice", "B079H12TC8": "small",
     "B0CDC7QR7T": "nice", "B07QS9K2VT": "nice", "B074PYMMCQ": "nice", "B07FM7TPPY": "nice", "B09KV28F4P": "nice", "B0DWSS3Q5K": "nice",
     "B07HD1H1RH": "small", "B079TN3GCD": "small", "B0DT719TQS": "small",
-    "B0G6CRGH27": "nice", "B0DDSKBFSL": "nice", "B0CHSCR7B7": "nice", "B0CRF6NJC3": "nice", "B0GYSCXRPT": "big", "B0GSQQNKQC": "small"
+    "B0G6CRGH27": "nice", "B0DDSKBFSL": "nice", "B0CHSCR7B7": "nice", "B0CRF6NJC3": "nice", "B0GYSCXRPT": "big", "B0GSQQNKQC": "small",
+    "B0DTFMGS1T": "big", "B0BNPXPJS4": "nice", "B0GSWQYSP4": "small"
   },
   "who": [
     {"slug": "colleague", "for": "a colleague", "label": "A colleague", "line": "Something useful at a desk or on a work trip, not too personal.",
@@ -37,9 +38,9 @@
     {"slug": "him", "for": "your husband or boyfriend", "label": "Husband or boyfriend", "line": "A watch, a perfume gift set, a grooming kit, a leather wallet or sling, or a bag for weekends away.",
      "picks": ["B07H3K85H5", "B018VZBTLY", "B0C3LRF94X", "B09231NL5H", "B07M9BRCQ5", "B099WNYHY2", "B0GXWJZKT4", "B0999SJPWC", "B08XXTRC1Q", "B00ISNVQMW", "B0DSVXW4GD", "B0CXF2K4K7", "B07N8GRWTZ", "B0F2237QFM", "B0CGHZF9Z1", "B0G6CRGH27", "B0GYSCXRPT", "B0CRF6NJC3", "B0DDSKBFSL", "B0CHSCR7B7", "B0GSQQNKQC"],
      "guides": [["guides/christmas-gift-for-boyfriend-or-husband.html", "Gift ideas for your boyfriend or husband"], ["guides/perfume-buying-guide.html#perfume-gift-sets-for-men", "Perfume gift sets for men"], ["guides/grooming-kit-buying-guide.html", "Grooming kits and trimmers for men"]]},
-    {"slug": "kids", "for": "kids", "label": "Kids", "line": "A first watch, a school bag or a steel bottle: gifts that get used every day.",
-     "picks": ["B0BS3M2XQV", "B0BS3KJHCF", "B0GLNP4FCQ", "B0F1YPQFLD", "B0GF7ZH2QN", "B099WNYHY2", "B07PFF4RYC", "B0C4TV4M2F", "B094JBDRKX", "B0C7BM18PB"],
-     "guides": [["guides/christmas-gifts-for-kids.html", "Christmas gifts for kids: boys and girls"]]},
+    {"slug": "kids", "for": "kids", "label": "Kids", "line": "A first watch, a school bag, a steel bottle or their own cabin trolley: gifts that get used every day.",
+     "picks": ["B0BS3M2XQV", "B0BS3KJHCF", "B0GLNP4FCQ", "B0F1YPQFLD", "B0GF7ZH2QN", "B099WNYHY2", "B07PFF4RYC", "B0C4TV4M2F", "B094JBDRKX", "B0C7BM18PB", "B0DTFMGS1T", "B0BNPXPJS4", "B0GSWQYSP4"],
+     "guides": [["guides/christmas-gifts-for-kids.html", "Christmas gifts for kids: boys and girls"], ["category/baby-kids.html", "Baby and kids travel gear"]]},
     {"slug": "parents", "for": "your mom and dad", "label": "Mom and dad", "line": "Pair watches, warm thermals for winter or comfortable walking shoes.",
      "picks": ["B07PY6CQYV", "B07SCLW4HY", "B07DD25LJ8", "B01MQJJCD1", "B0BH4XLXPX", "B09RPDCKZC", "B01N56X1EW", "B00NIWHQVI", "B0C7BM18PB", "B08L6QPD8N"],
      "guides": [["guides/christmas-gift-for-boyfriend-or-husband.html#for-your-dad", "Gifts for your dad"],

@@ -135,6 +135,8 @@ A light crossbody bag for beach days and markets:
 
 Keep children close to you on the beach, and swim only between the red-and-yellow flags, where lifesavers are on duty.
 
+Travelling with a baby or toddler? Use our [travelling with a baby checklist](travelling-with-baby-checklist.html), check each airline's infant rules in [flying with a baby or toddler](flying-with-baby-or-toddler.html), and see the [baby and kids travel picks](../category/baby-kids.html).
+
 ## Which bag to take
 
 - **About 4 nights:** a cabin trolley or a 30–40 litre backpack is enough. Beach clothes are light.

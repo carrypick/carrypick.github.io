@@ -1436,7 +1436,8 @@
                 "baby"
               ]
             }
-          ]
+          ],
+          "pick": "B0GQN4FK28"
         },
         {
           "id": "baby-clothes",
@@ -1462,7 +1463,8 @@
                 "baby"
               ]
             }
-          ]
+          ],
+          "pick": "B07GN8VTDP"
         },
         {
           "id": "baby-blanket",
@@ -1498,7 +1500,8 @@
                 "baby"
               ]
             }
-          ]
+          ],
+          "pick": "B01FF518KK"
         }
       ]
     }
@@ -1674,6 +1677,19 @@
           }
         ],
         "text": "<strong>Snow:</strong> roads can close after heavy snow. Keep one extra day free, and wear layers you can take off in the car."
+      },
+      {
+        "maker": [
+          {
+            "by": [
+              "flight"
+            ],
+            "who": [
+              "baby"
+            ]
+          }
+        ],
+        "text": "<strong>Flying with a baby:</strong> carry the baby's age proof, such as the birth certificate. IndiGo and Akasa give an infant one 7 kg hand bag and carry one stroller free, but no check-in bag. See each airline's rules in <a href=\"../guides/flying-with-baby-or-toddler.html\">flying with a baby or toddler</a>."
       }
     ],
     "guides": [
@@ -2039,9 +2055,64 @@
             "Gadget organiser: hard case or pouch?"
           ]
         ]
+      },
+      {
+        "maker": [
+          {
+            "who": [
+              "baby"
+            ]
+          }
+        ],
+        "links": [
+          [
+            "guides/travelling-with-baby-checklist.html",
+            "Travelling with a baby: the checklist"
+          ],
+          [
+            "guides/flying-with-baby-or-toddler.html",
+            "Flying with a baby or toddler"
+          ]
+        ]
+      },
+      {
+        "maker": [
+          {
+            "who": [
+              "kids"
+            ]
+          }
+        ],
+        "links": [
+          [
+            "guides/flying-with-baby-or-toddler.html",
+            "Flying with a baby or toddler"
+          ],
+          [
+            "guides/christmas-gifts-for-kids.html",
+            "Christmas gifts for kids"
+          ]
+        ]
       }
     ],
     "shop": [
+      {
+        "maker": [
+          {
+            "who": [
+              "baby"
+            ]
+          },
+          {
+            "who": [
+              "kids"
+            ]
+          }
+        ],
+        "cats": [
+          "baby-kids"
+        ]
+      },
       {
         "maker": [
           {

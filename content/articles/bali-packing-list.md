@@ -161,6 +161,8 @@ Which plugs does Bali use? See the table in our [power bank and travel adapter g
 - Snacks and a water bottle for the long journey
 - Their medicines and a small first-aid kit
 
+Travelling with a baby or toddler? Use our [travelling with a baby checklist](travelling-with-baby-checklist.html), check each airline's infant rules in [flying with a baby or toddler](flying-with-baby-or-toddler.html), and see the [baby and kids travel picks](../category/baby-kids.html).
+
 ## Guidebook, phrasebook and something to listen to
 
 - **Guidebook:** a printed guide is handy where your phone has no signal and it never runs out of battery. Keep it in your day bag, not in check-in. See our [travel books](../category/books.html).

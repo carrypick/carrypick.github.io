@@ -190,6 +190,8 @@ Want a hard case or a smaller pouch instead? Compare five in our [gadget organis
 - Their medicines: check the rules above first
 - A small toy or book for the Shinkansen
 
+Travelling with a baby or toddler? Use our [travelling with a baby checklist](travelling-with-baby-checklist.html), check each airline's infant rules in [flying with a baby or toddler](flying-with-baby-or-toddler.html), and see the [baby and kids travel picks](../category/baby-kids.html).
+
 ## Guidebook, phrasebook and something to listen to
 
 **A guidebook for train routes, temples and food.** Lonely Planet Japan is the 19th edition (July 2026), listed at 700 g:

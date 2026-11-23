@@ -91,6 +91,16 @@ Going away over the Christmas holidays? A gift that helps on the trip gets used 
 
 [[pick:B0C7BM18PB]]
 
+**A kids' cabin trolley they can pull themselves: American Tourister's 39.5 cm Skiddle:**
+
+[[pick:B0DTFMGS1T]]
+
+**Kids' headphones with a volume limit and a cable for the seat-back screen:**
+
+[[pick:B0BNPXPJS4]]
+
+Travelling with a baby too? See our [travelling with a baby checklist](travelling-with-baby-checklist.html), the airline rules in [flying with a baby or toddler](flying-with-baby-or-toddler.html), and all the [baby and kids travel picks](../category/baby-kids.html).
+
 Our [Goa packing list](goa-packing-list.html), [what to wear in Manali in December](what-to-wear-in-manali-in-december.html) and [Andaman in December](../trips/andaman-in-december.html) guides say what else to pack.
 
 ## Return gifts for a Christmas party

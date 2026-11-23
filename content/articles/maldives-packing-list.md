@@ -131,6 +131,8 @@ Strap sandals for men:
 
 Keep children close on jetties and at the water's edge.
 
+Travelling with a baby or toddler? Use our [travelling with a baby checklist](travelling-with-baby-checklist.html), check each airline's infant rules in [flying with a baby or toddler](flying-with-baby-or-toddler.html), and see the [baby and kids travel picks](../category/baby-kids.html).
+
 ## Sun and health
 
 - **Sunscreen, SPF 30 or higher.** Put it on again every 2 hours and after swimming. Read our [sunscreen guide](travel-sunscreen-guide.html).

@@ -173,6 +173,8 @@ Want a hard case or a smaller pouch instead? Compare five in our [gadget organis
 - Their medicines, and something for motion sickness on mountain roads
 - A small toy or book for flights and trains
 
+Travelling with a baby or toddler? Use our [travelling with a baby checklist](travelling-with-baby-checklist.html), check each airline's infant rules in [flying with a baby or toddler](flying-with-baby-or-toddler.html), and see the [baby and kids travel picks](../category/baby-kids.html).
+
 ## Guidebook, phrasebook and something to listen to
 
 **One guidebook for the whole trip.** Lonely Planet Europe (5th edition, June 2026) covers France, Italy, Spain, Germany, Greece and more. It's listed at 968 g, so take it only if your bag allows:
