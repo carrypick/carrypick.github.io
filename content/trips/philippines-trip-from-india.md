@@ -79,6 +79,8 @@ Prefer a package with domestic flights, transfers and island tours booked for yo
 
 [[tours:Philippines]]
 
+[[activities:Philippines]]
+
 ## Philippines weather by month, and the best time to go
 
 The Philippines has two main seasons, says PAGASA, the national weather service: the **dry season from December to May** (cool and dry from December to February, hot and dry from March to May) and the **rainy season from June to November**. Typhoons bring much of the rain and usually come from the Pacific; Mindanao in the far south is hit less often.
@@ -128,6 +130,8 @@ You have three ways to stay online in the Philippines:
 - **An eSIM:** a data plan you buy online and install on your phone before you go, with no plastic card. Your phone must support eSIM and must not be locked to one network. On an iPhone, look in Settings > Mobile Service (or Cellular). On Android, look in Settings > SIM or Connections.
 
 Install the eSIM at home over Wi-Fi and switch it on when you land. Most travel eSIMs give data only, with no local number, so keep your home SIM on for calls and bank OTP texts (roaming charges may apply). Signal is weak on some small islands and boats.
+
+[[esim:Philippines]]
 
 ## Where to book your stay
 

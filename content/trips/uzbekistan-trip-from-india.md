@@ -131,6 +131,8 @@ You have three ways to stay online in Uzbekistan:
 
 Install the eSIM at home over Wi-Fi and switch it on when you land. Most travel eSIMs give data only, with no local number, so keep your home SIM on for calls and bank OTP texts (roaming charges may apply).
 
+[[esim:Uzbekistan]]
+
 ## Where to book your stay
 
 In Tashkent, stay near Amir Timur Square or the Old City for the metro and sights. In Samarkand, stay within walking distance of the Registan. In Bukhara and Khiva, family-run guesthouses inside the old towns let you walk to everything. Compare hotels for your dates:

@@ -140,6 +140,8 @@ You have three ways to stay online in Oman:
 
 Install the eSIM at home over Wi-Fi and switch it on when you land. Most travel eSIMs give data only, with no local number, so keep your home SIM on for calls and bank OTP texts (roaming charges may apply). Mobile signal is weak in the deep desert and some wadis.
 
+[[esim:Oman]]
+
 ## Where to book your stay
 
 In Muscat, stay near Qurum or Shatti Al Qurum for the beach and restaurants, or near Mutrah for the corniche and the souq. In Nizwa, stay in the town or in a heritage guesthouse in the old villages. For the desert, book a camp in the Wahiba Sands that includes the 4×4 pick-up. Compare hotels for your dates:
