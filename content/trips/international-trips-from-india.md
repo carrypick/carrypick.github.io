@@ -1,7 +1,7 @@
 ---
 seo_title: International trips from India (2026–27): foreign trips by flight time, best months and visa type
 title: International trips from India: where to go, by flight time, season and visa
-description: Choosing a foreign trip from India? Compare Nepal, Bhutan, Sri Lanka, the Maldives, Dubai, Thailand, Vietnam, Malaysia, Hong Kong, South Korea, Singapore, Egypt, Mauritius, Bali, Japan, Europe, the UK, Australia and the USA by distance and rough flying time from Delhi and Mumbai, the best months, the visa type for Indians, and whether each suits a honeymoon or a family trip. Links to our trip guides, packing lists and baggage rules.
+description: Choosing a foreign trip from India? Compare Nepal, Bhutan, Sri Lanka, the Maldives, Dubai, Thailand, Vietnam, Malaysia, Hong Kong, South Korea, Singapore, Egypt, Mauritius, Oman, Uzbekistan, Bali, Japan, Europe, the UK, Australia and the USA by distance and rough flying time from Delhi and Mumbai, the best months, the visa type for Indians, and whether each suits a honeymoon or a family trip. Links to our trip guides, packing lists and baggage rules.
 date: 2026-11-21
 place: International trips
 hub_title: no
@@ -25,6 +25,8 @@ Distance is the straight-line distance from Delhi (DEL) or Mumbai (BOM) airport,
 | [Nepal](nepal-in-december.html) | About 820 km / 1,590 km | About 1½ hours from Delhi | October to December | [No visa](../guides/visa-free-countries-for-indians.html#nepal): passport or voter ID |
 | [Bhutan](bhutan-in-december.html) | About 1,220 km / 1,930 km | About 2 hours from Delhi | October to December | [No visa](../guides/visa-free-countries-for-indians.html#bhutan): entry permit and a daily fee |
 | [Sri Lanka](sri-lanka-trip-from-india.html) | About 2,390 km / 1,530 km | About 2½ hours from Mumbai | January to March (west and south) | [Free ETA online](../guides/visa-free-countries-for-indians.html#sri-lanka) |
+| [Uzbekistan](uzbekistan-trip-from-india.html) | About 1,580 km (Tashkent) / 2,490 km | About 2½ to 3 hours from Delhi | April to early June; September and October | [e-visa online](../guides/visa-free-countries-for-indians.html#uzbekistan), US$20 single entry |
+| [Oman](oman-trip-from-india.html) | About 1,960 km (Muscat) / 1,590 km | About 2 hours from Mumbai | October to March | [e-visa online](../guides/visa-free-countries-for-indians.html#oman), or 14 days with no visa if you hold a US, UK, Schengen or similar visa |
 | [Kazakhstan](kazakhstan-trip-from-india.html) | About 1,640 km (Almaty) / 2,730 km | About 2½ hours from Delhi | June to September; December to March for snow | [No visa for 14 days](../guides/visa-free-countries-for-indians.html#kazakhstan) |
 | [Maldives](maldives-trip-from-india.html) | About 2,740 km / 1,660 km | About 2½ hours from Mumbai | January to April | [Visa on arrival](../guides/visa-free-countries-for-indians.html#maldives) |
 | [Dubai (UAE)](dubai-trip-from-india.html) | About 2,180 km / 1,930 km | About 3 hours | November to March | [Visa before you fly](../guides/visa-free-countries-for-indians.html#uae), through a tourism company, airline or hotel |
@@ -57,6 +59,8 @@ Short trips abroad mean less time in the air and less tiredness, so you get more
 - **[Sri Lanka](sri-lanka-trip-from-india.html):** close to South India and on the same clock as India. Indians get a free ETA online. Tea hills, Sigiriya, beaches and Ramayana sites.
 - **[Maldives](maldives-trip-from-india.html):** a short flight from South India and Mumbai. Indians get a visa on arrival. Best for a beach honeymoon.
 - **[Kazakhstan](kazakhstan-trip-from-india.html):** direct flights from Delhi and Mumbai to Almaty, about 2½ hours from Delhi. Indians need no visa for up to 14 days. A modern city below snowy mountains, the Shymbulak ski resort, lakes and canyons.
+- **[Oman](oman-trip-from-india.html):** about 2 hours from Mumbai to Muscat, with direct flights from more than a dozen Indian cities. Indians apply for an e-visa online, or need no visa for 14 days if they hold a valid US, UK, Canada, Australia, Schengen or Japan visa. The Grand Mosque and souq of Muscat, forts in Nizwa, a desert camp in the Wahiba Sands and the pools of Wadi Shab. Best from October to March.
+- **[Uzbekistan](uzbekistan-trip-from-india.html):** direct flights from Delhi and Mumbai to Tashkent, under 3 hours from Delhi. Indians apply for an e-visa online (US$20, at least 3 working days ahead). The blue-tiled Registan in Samarkand, the old cities of Bukhara and Khiva, linked by fast trains. Best from April to early June and in September and October.
 - **[Dubai](dubai-trip-from-india.html):** a short flight from most big Indian cities. Malls, the desert, theme parks and family trips. Indians need a visa before flying, usually through a tourism company, airline or hotel.
 
 ## Southeast Asia: 4 to 6 hours
@@ -114,6 +118,7 @@ December and January are holiday months in India, and they suit these trips best
 - **[Sri Lanka](sri-lanka-trip-from-india.html):** some rain on the west coast in December, drier in January.
 - **[Maldives](maldives-trip-from-india.html):** warm sea and the start of the drier months.
 - **[Dubai](dubai-trip-from-india.html):** warm days and cool evenings, the best time of year there.
+- **[Oman](oman-trip-from-india.html):** the best season: Muscat about 27 °C by day and 18 °C at night, with cool desert nights.
 - **[Malaysia](malaysia-trip-from-india.html):** good for Langkawi and Penang; avoid the east coast islands, where the monsoon is at its peak.
 - **[Vietnam](vietnam-trip-from-india.html):** dry and warm in the south; cool in Hanoi.
 - **[Hong Kong](hong-kong-trip-from-india.html):** its driest month, about 20 °C by day; cool evenings.
@@ -123,6 +128,7 @@ December and January are holiday months in India, and they suit these trips best
 - **[Europe](europe-trip-from-india.html):** cold, with Christmas markets and snow in the Swiss Alps; Zurich averages about −2 °C at night.
 - **[Nepal](nepal-in-december.html) and [Bhutan](bhutan-in-december.html):** clear mountain views and sunny days, but very cold nights.
 - **[Kazakhstan](kazakhstan-trip-from-india.html):** snow and skiing at Shymbulak above Almaty; days around 0 °C and nights well below freezing.
+- **[Uzbekistan](uzbekistan-trip-from-india.html):** cold and quiet: Tashkent about 9 °C by day and 0 °C at night, with fewer tourists in Samarkand and Bukhara.
 - **[Georgia](georgia-trip-from-india.html):** snow in the mountains and skiing in Gudauri from 20 December; Tbilisi is cold, about 4 °C on average.
 - **[Turkey](turkey-trip-from-india.html):** the low season: Istanbul about 11 °C by day and rainy, Cappadocia below freezing at night.
 - **[Egypt](egypt-trip-from-india.html):** the best season: Cairo about 20 °C by day, Luxor about 24 °C, and almost no rain; cool nights.
@@ -141,7 +147,7 @@ Many people asking for a "cheap" foreign trip really want a short flight and an 
 - **No visa at all:** [Nepal](nepal-in-december.html), [Bhutan](bhutan-in-december.html) (Bhutan has an entry permit and a daily fee) and [Mauritius](mauritius-trip-from-india.html) (carry a return ticket and a hotel booking).
 - **No visa for a short tourist stay:** [Kazakhstan](kazakhstan-trip-from-india.html) (14 days), [Thailand](thailand-trip-from-india.html) (30 days), [Malaysia](malaysia-trip-from-india.html) (30 days, until 31 December 2026) and [Hong Kong](hong-kong-trip-from-india.html) (14 days, after a free online pre-arrival registration).
 - **A free visa online, or a visa on arrival:** [Sri Lanka](sri-lanka-trip-from-india.html) (free ETA), the [Maldives](maldives-trip-from-india.html) and [Bali](bali-trip-from-india.html) (visa on arrival).
-- **Apply before you fly:** [Vietnam](vietnam-trip-from-india.html) (e-visa online), [Georgia](georgia-trip-from-india.html) (e-visa online, or none with a US, UK or Schengen visa), [Azerbaijan](azerbaijan-trip-from-india.html) (e-visa online), [Egypt](egypt-trip-from-india.html) (e-visa online, at least 7 days ahead), [Turkey](turkey-trip-from-india.html) (visa from a Turkish mission, or an e-visa with a US, UK, Schengen or Irish visa), [Singapore](singapore-trip-from-india.html) (through an agent in India), [Japan](japan-trip-from-india.html) (eVISA through VFS), [South Korea](south-korea-trip-from-india.html) (visa through a VFS centre, at least 15 working days; Jeju without a visa), [Australia](australia-trip-from-india.html) (Visitor visa online), [USA](usa-trip-from-india.html) (B1/B2 visa with an interview), [UK](uk-trip-from-india.html) (Standard Visitor visa), [Europe](europe-trip-from-india.html) (Schengen visa, at least 15 days ahead) and [Dubai](dubai-trip-from-india.html) (through a tourism company, airline or hotel).
+- **Apply before you fly:** [Vietnam](vietnam-trip-from-india.html) (e-visa online), [Georgia](georgia-trip-from-india.html) (e-visa online, or none with a US, UK or Schengen visa), [Azerbaijan](azerbaijan-trip-from-india.html) (e-visa online), [Egypt](egypt-trip-from-india.html) (e-visa online, at least 7 days ahead), [Oman](oman-trip-from-india.html) (e-visa online, or none for 14 days with a US, UK, Schengen or similar visa), [Uzbekistan](uzbekistan-trip-from-india.html) (e-visa online, US$20), [Turkey](turkey-trip-from-india.html) (visa from a Turkish mission, or an e-visa with a US, UK, Schengen or Irish visa), [Singapore](singapore-trip-from-india.html) (through an agent in India), [Japan](japan-trip-from-india.html) (eVISA through VFS), [South Korea](south-korea-trip-from-india.html) (visa through a VFS centre, at least 15 working days; Jeju without a visa), [Australia](australia-trip-from-india.html) (Visitor visa online), [USA](usa-trip-from-india.html) (B1/B2 visa with an interview), [UK](uk-trip-from-india.html) (Standard Visitor visa), [Europe](europe-trip-from-india.html) (Schengen visa, at least 15 days ahead) and [Dubai](dubai-trip-from-india.html) (through a tourism company, airline or hotel).
 
 Rules change, and the officer at the airport decides on entry. Check our [visa guide](../guides/visa-free-countries-for-indians.html) and the trip guide before you book, and carry your return ticket and hotel booking.
 

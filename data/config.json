@@ -34,7 +34,7 @@
     },
     "Air India": {
       "url": "https://clnk.in/Eldc",
-      "not_serves": ["Georgia", "Kazakhstan", "Turkey", "Azerbaijan", "Egypt"], "not_serves_checked": "2026-11-21: no Air India flights to Tbilisi, Almaty, Istanbul or Baku on the airports' Wikipedia lists; 2026-11-22: none to Cairo", "scope": [
+      "not_serves": ["Georgia", "Kazakhstan", "Turkey", "Azerbaijan", "Egypt", "Oman", "Uzbekistan"], "not_serves_checked": "2026-11-21: no Air India flights to Tbilisi, Almaty, Istanbul or Baku on the airports' Wikipedia lists; 2026-11-22: none to Cairo; 2026-11-23: none to Muscat (only Air India Express) or Tashkent", "scope": [
         "domestic",
         "international"
       ]

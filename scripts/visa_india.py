@@ -31,7 +31,7 @@ TRIP_PREFIX = {"thailand": ("thailand", "bangkok", "phuket"), "uae": ("dubai", "
                "malaysia": ("malaysia", "kuala-lumpur", "langkawi"), "vietnam": ("vietnam",), "sri-lanka": ("sri-lanka",),
                "maldives": ("maldives",), "singapore": ("singapore",), "nepal": ("nepal",), "bhutan": ("bhutan",),
                "japan": ("japan", "tokyo"), "hong-kong": ("hong-kong",), "georgia": ("georgia",), "kazakhstan": ("kazakhstan", "almaty"), "turkey": ("turkey", "istanbul", "cappadocia"), "azerbaijan": ("azerbaijan", "baku"),
-               "schengen": ("europe", "switzerland"), "mauritius": ("mauritius",), "australia": ("australia", "sydney", "melbourne"), "uk": ("uk-", "london"), "usa": ("usa-",), "egypt": ("egypt-",), "south-korea": ("south-korea", "seoul")}
+               "schengen": ("europe", "switzerland"), "mauritius": ("mauritius",), "australia": ("australia", "sydney", "melbourne"), "uk": ("uk-", "london"), "usa": ("usa-",), "egypt": ("egypt-",), "south-korea": ("south-korea", "seoul"), "oman": ("oman-",), "uzbekistan": ("uzbekistan-",)}
 CSS = """<style>
 .vz-form{display:grid;gap:10px;grid-template-columns:1fr;margin:18px 0}
 @media(min-width:620px){.vz-form{grid-template-columns:2fr 1fr}}
