@@ -1,5 +1,63 @@
 [
   {
+    "asin": "B0BQ1G1344",
+    "added_at": "2026-11-23T14:40:29+05:30",
+    "title": "Skechers Women's GO Walk Travel Slip-On Walking Shoes",
+    "category": "shoes",
+    "subcategory": "walking-shoes",
+    "highlights": [
+      "Slip-on, with a bungee stretch-lace front",
+      "Goga Mat footbed and ULTRA GO cushioning (as listed)",
+      "Flexible rubber outsole listed as high traction",
+      "About 1-inch heel (as listed)"
+    ],
+    "note": "A travel walking shoe that slips on and off fast at airport security.",
+    "brand": "Skechers",
+    "colour": "Taupe",
+    "best_for": [
+      "Sightseeing",
+      "Airports"
+    ],
+    "specs": {
+      "For": "Women",
+      "Type": "Walking shoes",
+      "Material": "Mesh",
+      "Sole": "Rubber",
+      "Water": "Not water resistant (as listed)",
+      "Closure": "Pull-on"
+    },
+    "skip_if": "you need a waterproof shoe for winter rain."
+  },
+  {
+    "asin": "B08TMR8QNF",
+    "added_at": "2026-11-23T14:40:29+05:30",
+    "title": "Skechers Men's GO Walk 6 Slip-On Walking Shoes",
+    "category": "shoes",
+    "subcategory": "walking-shoes",
+    "highlights": [
+      "Slip-on with a stretch-laced mesh front",
+      "ULTRA GO cushioning and an Air-Cooled Goga Mat insole (as listed)",
+      "EVA sole",
+      "Listed as not water resistant"
+    ],
+    "note": "Light slip-on walking shoes for long city days and quick airport security.",
+    "brand": "Skechers",
+    "colour": "Navy blue",
+    "best_for": [
+      "Sightseeing",
+      "City walking"
+    ],
+    "specs": {
+      "For": "Men",
+      "Type": "Walking shoes",
+      "Material": "Mesh",
+      "Sole": "EVA",
+      "Water": "Not water resistant (as listed)",
+      "Closure": "Pull-on"
+    },
+    "skip_if": "you'll walk in rain or snow most days: mesh lets water in."
+  },
+  {
     "asin": "B0CRF46WKB",
     "added_at": "2026-11-23T14:36:47+05:30",
     "title": "DailyObjects Vault Tech Organiser, Medium",

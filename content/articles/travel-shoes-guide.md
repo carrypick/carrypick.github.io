@@ -54,6 +54,8 @@ For women:
 
 [[pick:B07VY4YY61]]
 
+Going to Europe? See [walking shoes for a Europe trip](walking-shoes-for-europe-trip.html) for summer and winter.
+
 ## For the beach and warm places
 
 Sandals for men:

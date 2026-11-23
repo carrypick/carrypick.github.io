@@ -89,7 +89,7 @@ A cap, neck warmer and gloves set:
 - **Wear them in before you go.** New shoes mean blisters in the first two days.
 - **Ankle height** keeps slush out. Take shoes that fit over thick socks.
 - **A second pair** of comfortable shoes or sneakers for the hotel, trains and dry days.
-- **Walk a lot?** City breaks mean many hours on your feet, so comfort matters more than looks. See our [travel shoes guide](travel-shoes-guide.html).
+- **Walk a lot?** City breaks mean many hours on your feet, so comfort matters more than looks. See [walking shoes for a Europe trip](walking-shoes-for-europe-trip.html) and our [travel shoes guide](travel-shoes-guide.html).
 
 Waterproof hiking shoes for men:
 
