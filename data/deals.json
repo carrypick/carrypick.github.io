@@ -1,5 +1,95 @@
 [
   {
+    "asin": "B097GNDJ37",
+    "added_at": "2026-11-23T09:16:02+05:30",
+    "title": "Safari Imperia 58 cm Duffle Trolley Bag, 40 L",
+    "category": "luggage",
+    "subcategory": "duffles",
+    "highlights": [
+      "Wide top opening, easy to pack",
+      "2 wheels and a telescopic handle",
+      "Light at 1.5 kg",
+      "3-year international warranty, made in India"
+    ],
+    "note": "A light Safari duffle on wheels for short trips by train, bus or car.",
+    "brand": "Safari",
+    "colour": "Teal",
+    "best_for": [
+      "Weekend trips",
+      "Train and bus trips"
+    ],
+    "specs": {
+      "Size": "58 x 29 x 33 cm",
+      "Capacity": "40 L",
+      "Weight": "1.5 kg",
+      "Material": "Polyester, water resistant",
+      "Wheels": "2",
+      "Warranty": "3 years international"
+    },
+    "skip_if": "you want it as a cabin bag on Indian airlines: at 58 cm long it is over the 55 cm limit.",
+    "deal_seen_at": "2026-11-23T09:15:00+05:30"
+  },
+  {
+    "asin": "B097B3VNQY",
+    "added_at": "2026-11-23T09:16:02+05:30",
+    "title": "Safari Prisma Neo 77 cm Large Soft Check-in Trolley, 114 L",
+    "category": "luggage",
+    "subcategory": "large-trolleys",
+    "highlights": [
+      "Big 114 L with 10% expander",
+      "Soft polyester, water resistant",
+      "4 spinner wheels and 3-digit lock",
+      "3-year international warranty"
+    ],
+    "note": "A big soft Safari suitcase with an expander, for long trips.",
+    "brand": "Safari",
+    "colour": "Grey",
+    "best_for": [
+      "Long trips",
+      "Family travel"
+    ],
+    "specs": {
+      "Size": "47 x 35 x 77 cm (159 cm total)",
+      "Capacity": "114 L",
+      "Weight": "4.5 kg",
+      "Shell": "Soft, polyester",
+      "Lock": "3-digit combination lock",
+      "Warranty": "3 years international"
+    },
+    "skip_if": "your airline has a 158 cm size limit for check-in bags: this one adds up to 159 cm.",
+    "deal_seen_at": "2026-11-23T09:15:00+05:30"
+  },
+  {
+    "asin": "B0FSCYM8V8",
+    "added_at": "2026-11-23T09:16:02+05:30",
+    "title": "Aristocrat Commander Set of 3 Soft Trolley Bags (55, 69 and 79 cm)",
+    "category": "luggage",
+    "subcategory": "luggage-sets",
+    "highlights": [
+      "Three soft bags: small, medium and large",
+      "Zipper expander for more space",
+      "4 spinner wheels and combination lock",
+      "3-year warranty, made in India"
+    ],
+    "note": "A soft 3-bag set from Aristocrat (VIP Industries) for the whole family.",
+    "brand": "Aristocrat",
+    "colour": "Black",
+    "best_for": [
+      "Weddings",
+      "Family travel"
+    ],
+    "specs": {
+      "Sizes": "55 cm, 69 cm and 79 cm",
+      "Large bag size": "48 x 36 x 79 cm",
+      "Weight": "10.3 kg (all three)",
+      "Shell": "Soft, polyester",
+      "Lock": "Combination lock",
+      "Warranty": "3 years"
+    },
+    "skip_if": "you need a cabin bag with exact sizes: the listing does not give the small bag's own size.",
+    "deal_seen_at": "2026-11-23T09:14:00+05:30"
+  },
+  {
     "asin": "B0FFBKRVDD",
     "added_at": "2026-11-23T08:33:03+05:30",
     "title": "American Tourister Bernplus 72 cm Soft Check-in Trolley, TSA Lock",
