@@ -86,7 +86,7 @@ PALETTE = [
     ("red", "#c0392b"), ("navy", "#22325a"), ("olive", "#6b6d3b"), ("teal", "#1f7a7a"), ("coral", "#ee7b63"), ("mint", "#a6dac6"),
     ("beige", "#d8c7a6"), ("vanilla", "#efe2c4"), ("champagne", "#dcc7a1"), ("silver", "#c5cbd1"),
     ("black", "#26292d"), ("grey", "#7d858d"), ("gray", "#7d858d"), ("blue", "#2f5fa7"), ("green", "#3f7d55"), ("brown", "#7a4e2f"), ("coffee", "#5a3a26"),
-    ("yellow", "#f1c232"), ("pink", "#e89ab1"), ("aqua", "#45b8c4"), ("white", "#f6f6f4"), ("gold", "#d1ad5b"), ("tan", "#b07a45"),
+    ("yellow", "#f1c232"), ("pink", "#e89ab1"), ("aqua", "#45b8c4"), ("white", "#f6f6f4"), ("gold", "#d1ad5b"), ("tan", "#b07a45"), ("caramel", "#a8692f"),
 ]
 
 
@@ -1202,10 +1202,14 @@ def draw_travel(d):
     if "toiletry" in tl:
         out = (R(110, 128, 260, 136, 22) + P("M116 150 Q240 128 364 150", "k", 1.4, zip_) + R(344, 136, 20, 12, 4, "p", 0)
                + P("M110 176 C84 176 84 226 110 226", "pk", 6) + L(132, 196, 348, 196, "k", 1, ' opacity=".3"'))
+        hanging = "hanging" in tl
+        if hanging:
+            out = P("M240 128 V104 C240 84 266 84 266 100", "k", 3.5) + out
         bits = " · ".join(x for x in (sp.get("Size", "").replace(" (as listed)", "").replace(" x ", " × ") or None,
                                       sp.get("Weight")) if x)
-        return dict(inner=out + bottom_info("Toiletry bag", ("Listed at " + bits) if bits else ""), legend=False, info=[],
-                    scaled=False, alt="Simple drawing of a zipped toiletry bag with a side handle")
+        return dict(inner=out + bottom_info("Hanging toiletry bag" if hanging else "Toiletry bag", ("Listed at " + bits) if bits else ""),
+                    legend=False, info=[], scaled=False,
+                    alt="Simple drawing of a zipped toiletry bag with a side handle" + (" and a hanging hook" if hanging else ""))
     if "organiser" in tl or "organizer" in tl:
         out = (R(104, 104, 272, 156, 18) + R(114, 114, 252, 136, 12, "k", 1.4, zip_ + ' opacity=".7"')
                + R(364, 110, 12, 22, 4, "p", 0) + P("M104 150 C80 150 80 214 104 214", "pk", 6)
@@ -1231,18 +1235,19 @@ def draw_travel(d):
     if "passport" in tl:
         dims = parse_dims(sp.get("Size")) or [14.1, 10.4, 2.1]
         hcm, wcm = sorted(dims, reverse=True)[:2]
-        s, cx = 12.0, 228
+        s, cx = min(12.0, 200 / hcm), 228
         w, h = wcm * s, hcm * s
         x, top = cx - w / 2, FLOOR - h
+        zipped = "zip" in (sp.get("Closure") or "").lower()
         out = (R(x + 18, top - 22, w - 44, 40, 3, "s k", 1.2) + R(x, top, w, h, 10)
                + R(x + 9, top + 9, w - 18, h - 18, 6, "k", 1, ' stroke-dasharray="4 3" opacity=".6"')
-               + R(x + w - 10, top + h / 2 - 22, 26, 44, 6, "s k", 1.5) + C(x + w + 3, top + h / 2, 4)
-               + C(x + 10, top - 4, 9, "k", 2.5)
+               + ("" if zipped else R(x + w - 10, top + h / 2 - 22, 26, 44, 6, "s k", 1.5) + C(x + w + 3, top + h / 2, 4))
+               + ("" if zipped else C(x + 10, top - 4, 9, "k", 2.5))
                + dim_v(x - 18, top, FLOOR, n(hcm) + " cm", "high") + dim_h(x, x + w, FLOOR + 16, n(wcm) + " cm", "wide"))
         info = [(lead_amount(sp.get("Weight"), "kg|g"), "t", 16, 700)] if sp.get("Weight") else []
         return dict(inner=out, legend=False, info=info, scaled=True,
-                    alt="Drawing of a closed passport holder with a boarding pass tucked in and a clip-down lock, drawn to its "
-                        "listed size of %s cm high and %s cm wide" % (n(hcm), n(wcm)))
+                    alt="Drawing of a closed passport holder with a boarding pass tucked in%s, drawn to its "
+                        "listed size of %s cm high and %s cm wide" % (" and a zip around it" if zipped else " and a clip-down lock", n(hcm), n(wcm)))
     if "pouch" in tl:
         out = ""
         for x in (128, 248):
@@ -1273,16 +1278,52 @@ def draw_travel(d):
                     + "".join(L(x + dx * .2 + i * w / 8, y - h - dy * .2, x + dx * .8 + i * w / 8 - 6, y - h - dy * .8, "k", 1, ' opacity=".4"')
                               for i in range(1, 8)))
             y -= h + dy * .4
-        pieces = re.search(r"(\d+)-piece", tl)
-        return dict(inner=out + bottom_info("%s-piece set" % pieces.group(1) if pieces else "Packing cubes", "Cubes in three sizes"),
-                    legend=False, info=[], scaled=False, alt="Simple drawing of a stack of packing cubes in three sizes")
+        pieces = re.search(r"(\d+)-piece", tl) or re.search(r"set of (\d+)", tl)
+        squeeze = "compression" in tl
+        return dict(inner=out + bottom_info("%s-piece set" % pieces.group(1) if pieces else "Packing cubes",
+                                            "Compression cubes in three sizes" if squeeze else "Cubes in three sizes"),
+                    legend=False, info=[], scaled=False,
+                    alt="Simple drawing of a stack of %s in three sizes" % ("compression packing cubes" if squeeze else "packing cubes"))
     if "pillow" in tl:
         u = "M128 236C110 92 270 92 252 236"
-        out = (P(u, "k", 60) + P(u, "fs", 56) + P("M140 214C128 118 252 118 240 214", "k", 1.2, ' opacity=".35"')
-               + P("M296 160C296 136 336 134 350 150C364 134 404 136 404 160C404 184 372 192 350 176C328 192 296 184 296 160Z", "s k")
-               + R(332, 210, 14, 26, 7, "p", 0) + R(358, 210, 14, 26, 7, "p", 0))
-        return dict(inner=out + bottom_info("Neck pillow, eye mask and ear plugs", "Memory foam" if "memory foam" in tl else ""),
-                    legend=False, info=[], scaled=False, alt="Simple drawing of a U-shaped neck pillow, an eye mask and a pair of ear plugs")
+        extras = "eye mask" in tl
+        air = "inflatable" in tl
+        if not extras:
+            u = "M168 236C150 92 310 92 292 236"
+        out = (P(u, "k", 60) + P(u, "fs", 56)
+               + P("M180 214C168 118 292 118 280 214" if not extras else "M140 214C128 118 252 118 240 214", "k", 1.2, ' opacity=".35"'))
+        if extras:
+            out += (P("M296 160C296 136 336 134 350 150C364 134 404 136 404 160C404 184 372 192 350 176C328 192 296 184 296 160Z", "s k")
+                    + R(332, 210, 14, 26, 7, "p", 0) + R(358, 210, 14, 26, 7, "p", 0))
+        if air:
+            out += R(284, 214, 12, 18, 4, "p", 0)
+        fill = "Memory foam" if "memory foam" in tl else "Inflatable" if air else ""
+        return dict(inner=out + bottom_info("Neck pillow, eye mask and ear plugs" if extras else "Neck pillow", fill),
+                    legend=False, info=[], scaled=False,
+                    alt="Simple drawing of a U-shaped neck pillow" + (", an eye mask and a pair of ear plugs" if extras
+                                                                     else " with an air valve" if air else ""))
+    if "lock" in tl:
+        cable = "cable" in tl or "cable" in (sp.get("Shackle") or "").lower()
+        keyed = "key" in (sp.get("Lock type") or "").lower()
+        two = "2 locks" in (sp.get("Pack") or "").lower()
+        out = ""
+        for cx in ((176, 304) if two else (240,)):
+            if cable:
+                out += P(D("M%s %s C%s %s %s %s %s %s", cx - 34, 160, cx - 60, 60, cx + 60, 60, cx + 34, 160), "k", 5)
+            else:
+                out += P(D("M%s %s V%s A%s %s 0 0 1 %s %s V%s", cx - 30, 160, 118, 30, 30, cx + 30, 118, 160), "k", 9)
+            out += R(cx - 50, 150, 100, 92, 14)
+            if keyed:
+                out += C(cx, 186, 9, "k", 2.5) + R(cx - 3, 190, 6, 22, 2, "p", 0)
+            else:
+                out += "".join(R(cx - 36 + i * 26, 170, 20, 44, 4, "s k", 1.5) + L(cx - 32 + i * 26, 192, cx - 20 + i * 26, 192, "k", 1)
+                               for i in range(3))
+            out += R(cx + 22, 224, 20, 12, 3, "p", 0)
+        kind = ("Key lock" if keyed else "Combination lock") + (", pack of 2" if two else "")
+        second = "TSA lock, as listed" + (", with a steel cable" if cable else "")
+        return dict(inner=out + bottom_info(kind, second), legend=False, info=[], scaled=False,
+                    alt="Simple drawing of %s%s" % ("two key padlocks" if two and keyed else "a key padlock" if keyed
+                                                    else "a three-digit combination lock", " with a cable shackle" if cable else ""))
     return generic(d, "a travel accessory")
 
 

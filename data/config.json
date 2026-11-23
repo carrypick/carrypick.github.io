@@ -148,11 +148,12 @@
     "travel-gear": {
       "name": "Travel Gear",
       "subcategories": [
-        {"slug": "packing-organisers", "name": "Packing cubes & organisers", "title": "Packing cubes and travel organisers", "intro": "Packing cubes and a cable organiser that keep a suitcase or backpack tidy."},
+        {"slug": "packing-organisers", "name": "Packing cubes & organisers", "title": "Packing cubes and travel organisers", "intro": "Packing cubes, compression cubes and a cable organiser that keep a suitcase or backpack tidy."},
         {"slug": "neck-pillows", "name": "Neck pillows", "intro": "Memory foam neck pillows for flights, trains and night buses."},
-        {"slug": "passport-toiletry", "name": "Passport, toiletry & pouches", "title": "Passport holders, toiletry bags and waterproof pouches", "intro": "A passport holder, a toiletry bag and waterproof phone pouches for trips abroad and beach days."},
+        {"slug": "passport-toiletry", "name": "Passport, toiletry & pouches", "title": "Passport holders, toiletry bags and waterproof pouches", "intro": "Passport holders for one person or a family, toiletry bags (including hanging ones) and waterproof phone pouches."},
         {"slug": "bottles", "name": "Water bottles", "intro": "Steel water bottles for train journeys, school and day trips."},
         {"slug": "luggage-scales", "name": "Luggage scales", "intro": "A digital luggage scale to weigh your bag at home before the airport does."},
+        {"slug": "luggage-locks", "name": "TSA locks", "title": "TSA luggage locks: combination, key and cable", "intro": "Luggage locks that US airport security can open with its own key instead of cutting them. We note the lock type, shackle and what each listing says about its TSA approval."},
         {"slug": "binoculars", "name": "Binoculars", "intro": "Binoculars for game drives, bird watching and mountain views."}
       ],
       "emoji": "✈️",
@@ -161,7 +162,7 @@
       "photo": "packed-suitcase",
       "seo_title": "Travel accessories: luggage scales, packing cubes and neck pillows",
       "guide": "cabin-luggage-guide",
-      "intro": "Small things that make trips easier: luggage scales, packing cubes, neck pillows, toiletry bags, gadget organisers and passport holders.",
+      "intro": "Small things that make trips easier: luggage scales, TSA locks, packing cubes, neck pillows, toiletry bags, gadget organisers and passport holders.",
       "tip": "Weigh your bag at home before you fly to avoid extra-baggage charges at the airport."
     },
     "travel-tech": {

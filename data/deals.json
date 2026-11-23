@@ -1,5 +1,238 @@
 [
   {
+    "asin": "B0C7HB7LPH",
+    "added_at": "2026-11-23T12:19:27+05:30",
+    "title": "Tressential Compression Packing Cubes, Set of 4",
+    "category": "travel-gear",
+    "subcategory": "packing-organisers",
+    "highlights": [
+      "4 compression cubes: large, medium and small",
+      "Extra outer zip squeezes the clothes down",
+      "ID tag pocket on the front of each cube",
+      "Polyester, 323 g for the set"
+    ],
+    "note": "An extra zip presses clothes flatter, handy when the suitcase is nearly full.",
+    "brand": "Tressential",
+    "colour": "Blue",
+    "best_for": [
+      "Long trips",
+      "Winter clothes"
+    ],
+    "specs": {
+      "Pieces": "4 compression cubes (large, medium, small)",
+      "Listed size": "23 x 3 x 34 cm",
+      "Material": "Polyester",
+      "Weight": "323 g",
+      "Closure": "Zip, plus compression zip",
+      "Warranty": "Not listed"
+    },
+    "skip_if": "you fly on a 7 kg cabin-only fare: squeezing clothes doesn't make them weigh less."
+  },
+  {
+    "asin": "B07TTWCSWS",
+    "added_at": "2026-11-23T12:19:26+05:30",
+    "title": "HAMELIN Family Passport Holder for 4 Passports, RFID Blocking",
+    "category": "travel-gear",
+    "subcategory": "passport-toiletry",
+    "highlights": [
+      "4 passport slots, 8 card slots, 2 SIM pockets and a pen loop",
+      "Zip-around, with a zipped currency pocket and a boarding pass pocket",
+      "RFID blocking (as listed), vegan leather made in India",
+      "24.5 x 13 x 2.8 cm and 197 g"
+    ],
+    "note": "One zip case for a family's four passports, boarding passes and cards.",
+    "brand": "HAMELIN",
+    "colour": "Caramel",
+    "best_for": [
+      "Family trips",
+      "Couples"
+    ],
+    "specs": {
+      "Holds": "4 passports, 8 cards, 2 SIMs, boarding passes, cash",
+      "Size": "24.5 x 13 x 2.8 cm",
+      "Weight": "197 g",
+      "Material": "Vegan leather (PU)",
+      "RFID": "Blocking (as listed)",
+      "Closure": "Zip around",
+      "Warranty": "Not listed"
+    },
+    "skip_if": "you travel alone: a single passport holder is smaller."
+  },
+  {
+    "asin": "B07C26H4FB",
+    "added_at": "2026-11-23T12:19:26+05:30",
+    "title": "Travel Blue Luxury Hanging Toiletry Bag",
+    "category": "travel-gear",
+    "subcategory": "passport-toiletry",
+    "highlights": [
+      "Built-in hook to hang it up",
+      "Mesh pockets and elastic holders for bottles, razors and brushes",
+      "26 x 10 x 20 cm and 150 g",
+      "Water-repellent polyester, 24-month worldwide guarantee (as listed)"
+    ],
+    "note": "A light hanging wash bag with elastic loops that hold bottles upright.",
+    "brand": "Travel Blue",
+    "colour": "Black",
+    "best_for": [
+      "Frequent flyers",
+      "Men and women"
+    ],
+    "specs": {
+      "Type": "Hanging, built-in hook",
+      "Size": "26 x 10 x 20 cm",
+      "Weight": "150 g",
+      "Material": "Polyester, water-resistant",
+      "Warranty": "24 months worldwide (as listed)"
+    },
+    "skip_if": "you need a separate pouch for liquids at security: use a clear bag as well."
+  },
+  {
+    "asin": "B0BKT2Q4K7",
+    "added_at": "2026-11-23T12:19:26+05:30",
+    "title": "Mokobara Hanging Toiletry Bag with Detachable Pouch",
+    "category": "travel-gear",
+    "subcategory": "passport-toiletry",
+    "highlights": [
+      "Metal hook to hang it on a door or towel rail",
+      "3 zip pockets, and a detachable waterproof pouch at the bottom",
+      "24 x 18 x 9 cm, 3.8 litres",
+      "Water-resistant inside and out, 1-year warranty"
+    ],
+    "note": "Hangs up in a small hotel bathroom, and the bottom pouch comes off for liquids.",
+    "brand": "Mokobara",
+    "colour": "Black",
+    "best_for": [
+      "Hotel stays",
+      "Men and women"
+    ],
+    "specs": {
+      "Type": "Hanging, metal hook",
+      "Size": "24 x 18 x 9 cm",
+      "Capacity": "3.8 L",
+      "Weight": "435 g",
+      "Material": "Nylon, water-resistant",
+      "Warranty": "1 year"
+    },
+    "skip_if": "you want the lightest bag: it is listed at 435 g."
+  },
+  {
+    "asin": "B001IS33FM",
+    "added_at": "2026-11-23T12:19:26+05:30",
+    "title": "Travel Blue Inflatable Travel Neck Pillow",
+    "category": "travel-gear",
+    "subcategory": "neck-pillows",
+    "highlights": [
+      "Inflatable: PVC pillow inside a padded polyester cover",
+      "Listed at 27 x 41 cm when blown up",
+      "Only 141 g",
+      "Hand wash only"
+    ],
+    "note": "Lets the air out and it packs flat, so it suits a small cabin bag.",
+    "brand": "Travel Blue",
+    "colour": "Blue",
+    "best_for": [
+      "Packing light",
+      "Short flights"
+    ],
+    "specs": {
+      "Fill": "Air (inflatable PVC)",
+      "Cover": "Polyester, with padding",
+      "Listed size": "27 x 41 cm",
+      "Weight": "141 g",
+      "Care": "Hand wash only",
+      "Warranty": "Not listed"
+    },
+    "skip_if": "you want firm support all night: memory foam holds its shape better."
+  },
+  {
+    "asin": "B0D6GPFFFX",
+    "added_at": "2026-11-23T12:19:26+05:30",
+    "title": "Yale TSA Cable Lock, 3-Digit Combination (YTP3)",
+    "category": "travel-gear",
+    "subcategory": "luggage-locks",
+    "highlights": [
+      "Travel Sentry approved (TSA lock), as listed",
+      "3-digit combination with 1,000 codes",
+      "Thin steel cable fits through most zip pullers",
+      "Metal body"
+    ],
+    "note": "A cable lock threads through small zip pullers that a thick padlock shackle won't fit.",
+    "brand": "Yale",
+    "colour": "Silver",
+    "best_for": [
+      "Soft bags",
+      "Backpacks"
+    ],
+    "specs": {
+      "Lock type": "3-digit combination",
+      "TSA": "Travel Sentry approved (as listed)",
+      "Shackle": "Steel cable",
+      "Material": "Metal",
+      "Listed size": "14 x 32 x 38 mm",
+      "Pack": "1 lock",
+      "Warranty": "Not listed"
+    },
+    "skip_if": "you need to lock two zips that sit far apart: the cable is short."
+  },
+  {
+    "asin": "B0052INT7G",
+    "added_at": "2026-11-23T12:19:26+05:30",
+    "title": "Travel Blue TSA Key Padlock, Pack of 2 Locks and 4 Keys",
+    "category": "travel-gear",
+    "subcategory": "luggage-locks",
+    "highlights": [
+      "TSA approved, as listed",
+      "2 padlocks, with 2 keys for each",
+      "Bullets list a brass body and hardened steel shackle",
+      "3-year Travel Blue worldwide replacement guarantee (as listed)"
+    ],
+    "note": "Two key padlocks, so one bag each for a couple, and no number to forget.",
+    "brand": "Travel Blue",
+    "colour": "Black",
+    "best_for": [
+      "Couples",
+      "Two bags"
+    ],
+    "specs": {
+      "Lock type": "Key, 2 keys per lock",
+      "TSA": "Approved (as listed)",
+      "Pack": "2 locks, 4 keys",
+      "Material": "Brass body, steel shackle (bullets); ABS (details table)",
+      "Listed size": "22 x 90 x 15 mm",
+      "Warranty": "3-year worldwide replacement guarantee"
+    },
+    "skip_if": "you tend to lose keys: a number lock suits you better."
+  },
+  {
+    "asin": "B0DS2PQV6H",
+    "added_at": "2026-11-23T12:19:26+05:30",
+    "title": "American Tourister TSA 3-Dial Combination Lock",
+    "category": "travel-gear",
+    "subcategory": "luggage-locks",
+    "highlights": [
+      "TSA approved, as listed",
+      "3-dial combination you set and reset yourself",
+      "ABS body, listed at 32 x 15 x 56 mm",
+      "Made for suitcases and backpacks"
+    ],
+    "note": "A simple number lock from American Tourister for a suitcase or a backpack with lockable zips.",
+    "brand": "American Tourister",
+    "colour": "Black",
+    "best_for": [
+      "Flights to the US",
+      "Backpacks"
+    ],
+    "specs": {
+      "Lock type": "3-dial combination",
+      "TSA": "Approved (as listed)",
+      "Material": "ABS",
+      "Listed size": "32 x 15 x 56 mm",
+      "Pack": "1 lock",
+      "Warranty": "Not listed"
+    },
+    "skip_if": "your trolley already has a built-in TSA lock."
+  },
+  {
     "asin": "B0BTYBJH8H",
     "added_at": "2026-11-23T11:29:27+05:30",
     "title": "Fastrack Mixmatched Couple Watch Set, Blue and Pink Dials, Leather Straps",
