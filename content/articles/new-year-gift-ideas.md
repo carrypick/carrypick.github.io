@@ -123,6 +123,10 @@ Choose something practical for what they do. A luggage scale or packing cubes su
 
 As early as you can, and check the delivery date shown on Amazon before you pay. Deliveries can take longer around the holidays.
 
+## Related guides
+
+- [Watch gift for your husband](watch-gift-for-husband.html)
+
 ## Sources
 
 Features and warranties come from each Amazon.in listing and can change. We haven't tested these products ourselves, so check the current listing before you buy.

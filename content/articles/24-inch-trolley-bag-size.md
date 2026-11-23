@@ -97,6 +97,12 @@ It depends on your fare, not the bag. On a 15 kg fare, a typical 3.4 kg medium b
 
 Not exactly. 65 cm is 25.6 inches, and 24 inches is 61 cm. Some brands still sell 65 cm bags as "24 inch".
 
+## Related guides
+
+- [Lightest cabin trolley bags](lightest-cabin-trolley-bag.html)
+- [Hard vs soft luggage](hard-vs-soft-luggage.html)
+- [Trolley bag set of 3](trolley-bag-set-of-3.html)
+
 ## Sources
 
 Listed sizes and weights read on Amazon.in on 6 Nov 2026, for 36 medium models after removing repeat colours and listings with clear errors. These came from Amazon search results, so they aren't every bag on sale. Sellers don't always say whether wheels are included. Airline allowances checked on 3 Nov 2026: see our [baggage rules](../baggage/index.html). Train limits: [Indian Railways](https://indianrail.gov.in/luggage_Rule.html).

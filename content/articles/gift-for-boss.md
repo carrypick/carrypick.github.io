@@ -142,6 +142,11 @@ Something for their next step: a watch for a new job, a passport holder if they'
 
 Usually, yes, if it's modest and from the team. Some companies have rules about gifts to managers, so check with HR first.
 
+## Related guides
+
+- [Christmas gifts for friends](christmas-gift-for-friends.html)
+- [Watch gift for your husband](watch-gift-for-husband.html)
+
 ## Sources
 
 Features, sizes and warranties come from each Amazon.in listing and can change. New picks were read on 15 Nov 2026. We haven't tested these products ourselves, so check the current listing before you buy.

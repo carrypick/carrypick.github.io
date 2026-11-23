@@ -243,6 +243,10 @@ No. Chewing gum is a prohibited import. Only dental and medicinal gum approved b
 
 On IndiGo, 30 kg on regular fares (35 kg on UpFront). Singapore Airlines gives 25 kg on Lite and Value and 30 kg on Standard and Flexi, and Air India Express 30 kg on Value fares. All allow a 7 kg cabin bag.
 
+## Related guides
+
+- [Packing cubes](packing-cubes.html)
+
 ## Sources
 
 Checked on 21 Nov 2026: [ICA: SG Arrival Card](https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card), [ICA: visa guidelines](https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements), [ICA: entry requirements](https://www.ica.gov.sg/information-and-e-services/entry-and-departure/entering-singapore/entry-requirements), [ICA: travelling with cash](https://www.ica.gov.sg/information-and-e-services/entry-and-departure/immigration-and-clearance/travelling-with-cash) (updated 27 Oct 2026), [Singapore Customs: duty-free concession and GST relief](https://www.customs.gov.sg/at-customs/arriving-in-singapore/duty-free-concession-gst-relief/) (updated 2 Nov 2026), [Singapore Customs: controlled and prohibited goods](https://www.customs.gov.sg/doing-business/import-operations/import-procedures/controlled-and-prohibited-goods-for-imports/) (updated 24 Feb 2026), [Meteorological Service Singapore: climate of Singapore](https://www.weather.gov.sg/climate-climate-of-singapore/) and the [American Academy of Dermatology](https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/how-to-apply-sunscreen). Baggage rules come from our airline pages, checked against each airline's website. Rules change, so check before you travel.

@@ -174,6 +174,10 @@ Something they'll use together: a set of trolley bags for their trips, a perfume
 
 Wish them a happy anniversary, say one thing you love about them as a couple, and add a shared memory. See our sample lines for a husband, a wife, parents and couples above.
 
+## Related guides
+
+- [Christmas gifts for couples](christmas-gift-for-couples.html)
+
 ## Sources
 
 Features, sizes and warranties come from each Amazon.in listing and can change. We haven't tested these products ourselves, so check the current listing before you buy.

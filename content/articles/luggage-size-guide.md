@@ -80,3 +80,9 @@ Prefer to buy from a brand's own store? See [VIP trolley bags: sizes, warranty a
 Not in a hurry? See what to expect from Amazon's [Republic Day sale](republic-day-sale-guide.html).
 
 [[next:#our-picks-by-size=Compare our picks by size|../baggage/luggage-size-chart.html=Trolley bag sizes in cm and inches|cabin-luggage-guide.html=Cabin bag rules and the trolleys that fit them]]
+
+## Related guides
+
+- [Lightest cabin trolley bags](lightest-cabin-trolley-bag.html)
+- [4 wheel vs 8 wheel trolley bags](4-wheel-vs-8-wheel-trolley.html)
+- [Trolley bag set of 3](trolley-bag-set-of-3.html)

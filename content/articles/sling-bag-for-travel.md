@@ -120,6 +120,11 @@ People use the names for the same idea: a bag on one strap worn across the body.
 
 Yes, for someone who travels often. See more ideas in [gifts for travellers](gifts-for-travellers.html).
 
+## Related guides
+
+- [40 litre carry-on travel backpacks](travel-backpack-40l-carry-on.html)
+- [Packing cubes](packing-cubes.html)
+
 ## Sources
 
 Passport size: ICAO Doc 9303 (TD3, 125 x 88 mm). Airline personal-bag rules: each airline's site, as listed in our baggage pages. Product details from each Amazon.in listing, read on 4 and 23 Nov 2026.

@@ -236,6 +236,11 @@ Early mornings and nights are, all year. The Masai Mara averages about 9 °C at 
 
 Yes, Kenya Wildlife Service lists binoculars among its safari essentials. Animals are often far from the road, and each person having a pair saves passing one around. An 8x42 pair is easy to hold steady.
 
+## Related guides
+
+- [Packing cubes](packing-cubes.html)
+- [Toiletry bags for travel](toiletry-bag-for-travel.html)
+
 ## Sources
 
 Checked on 23 Nov 2026: Kenya Wildlife Service, [FAQs](https://kws.go.ke/faqs/) (what to bring on safari, health precautions; answers dated 11 Feb 2026); Kenya's National Environment Management Authority, [ban on plastic carrier bags](https://nema.go.ke/ban-on-plastic-carrier-bags/) and [home page](https://nema.go.ke/) (2017 ban on single-use plastic carrier and flat bags); Safarilink, [baggage allowance](https://www.flysafarilink.com/travel-information/baggageallowance) (15 kg per person including hand baggage, in soft bags; 20 kg for Zanzibar, Kisumu, Diani, Lamu, Malindi, Entebbe and Mombasa; soft-bag FAQ and Wilson Airport store); averages for [Nairobi](https://worldweather.wmo.int/en/city.html?cityId=251) and [Narok](https://worldweather.wmo.int/en/city.html?cityId=2947) from the Kenya Meteorological Department on the WMO's World Weather Information Service, as used in our [Kenya safari guide](../trips/kenya-safari-from-india.html); the eTA, plug, flights and yellow fever card rule as in our trip guide; Indian customs limits through our [customs rules](../baggage/customs.html). Rules change, so check before you travel.

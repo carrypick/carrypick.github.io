@@ -99,3 +99,7 @@ Looking for a New Year present instead? See our [New Year gift ideas](new-year-g
 3. Order at least a week before the function.
 4. Look for a gift-wrap or gift-message option at checkout.
 5. Keep the invoice for the couple.
+
+## Related guides
+
+- [Christmas gifts for couples](christmas-gift-for-couples.html)

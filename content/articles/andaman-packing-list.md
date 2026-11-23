@@ -238,6 +238,11 @@ No. Andaman Tourism says touching, stepping on or collecting coral and seashells
 
 No. Nights stay at about 24–26 °C in December, according to IMD. One light layer for the flight and AC rooms is enough.
 
+## Related guides
+
+- [Packing cubes](packing-cubes.html)
+- [Toiletry bags for travel](toiletry-bag-for-travel.html)
+
 ## Sources
 
 Checked on 18 Nov 2026: Andaman and Nicobar Tourism's pages on [how to reach](https://tourism.andamannicobar.gov.in/how-to-reach.php), [Radhanagar Beach](https://tourism.andamannicobar.gov.in/beach_details.php?data=m7rNMKmnKOazwJrwSBR8DHHa-LOdTbrYx-RcjOn3SGalGML9jHr9bPd0) (towels, food, sunset, drones and swimming safety), [Jolly Buoy](https://tourism.andamannicobar.gov.in/islands_details.php?data=EjnVAahGhAMP7UBY9Y58jE99qMrmuiJNuymtY4EvVtaW-3TjIYFG6F8) (plastic, visitor limit) and [Wandoor](https://tourism.andamannicobar.gov.in/beach_details.php?data=JPh_h5mUZryTsUdYutZnD2UYmZQhFkw77rrktLHvTDZ7PfKYjljHG2s); the [Directorate of Shipping Services ticket terms](https://dss.andamannicobar.gov.in/ShipETicketingWeb/terms-and-conditions.jsp) (ID, reporting time and ferry baggage); Port Blair weather from IMD's station, published by the A&N statistics department ([2016–19](https://ecostat.andamannicobar.gov.in/basicstatPDF2018_19/2.Climate.pdf), [2021–23](https://ecostat.andamannicobar.gov.in/2023/WeatherReportPB3years.pdf)), and usual rain from the [WMO normals for Port Blair](https://ds.data.jma.go.jp/gmd/tcc/tcc/products/climate/normal/parts/NrmMonth_e.php?stn=43333); and the [American Academy of Dermatology](https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/how-to-apply-sunscreen). Permits, coral rules and the ban on filming tribes come from our [Andaman in December guide](../trips/andaman-in-december.html), with its sources. Baggage rules come from our airline pages, checked against each airline's website, and flight rules from our [can I carry it on a flight?](../baggage/can-i-carry.html) list. Rules change, so check before you travel.

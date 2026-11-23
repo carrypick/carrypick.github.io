@@ -138,6 +138,11 @@ Proof of age, such as a birth certificate. IndiGo also accepts the mother's hosp
 
 Air India offers free bassinets if available; ask when you book, at check-in or through its support portal. Emirates has bassinets for babies up to 2, requested when you book or through Manage a Booking.
 
+## Related guides
+
+- [Toiletry bags for travel](toiletry-bag-for-travel.html)
+- [Packing cubes](packing-cubes.html)
+
 ## Sources
 
 Read on each airline's own pages on 23 Nov 2026: IndiGo's [infant FAQ](https://www.goindigo.in/travel-information/en/infants.html), [infant fee page](https://www.goindigo.in/add-on-services/infants.html) and [baggage allowance](https://www.goindigo.in/baggage/baggage-allowance.html); Air India's [expectant mothers and infants page](https://www.airindia.com/in/en/travel-information/first-time-flyers/expected-mothers-infants.html) and [infants and children FAQ](https://www.airindia.com/in/en/frequently-asked-questions/travelling-with-infants-and-children.html); Akasa Air's [infant terms](https://www.akasaair.com/special-fares/infant) and [baggage page](https://www.akasaair.com/quick-links/baggage); SpiceJet's [infant and children FAQ](https://corporate.spicejet.com/InfantsChildrenTravelFaq.aspx); Emirates' [travelling with infants](https://www.emirates.com/english/family/on-board/travelling-with-infants/) page; the DigiYatra Foundation's [FAQ](https://digiyatrafoundation.com/faq/). Air India Express and Emirates infant baggage from our airline pages ([Air India Express baggage FAQ](https://www.airindiaexpress.com/support/faqs/baggage), [Emirates infant baggage FAQ](https://www.emirates.com/in/english/help/faq-topics/baggage-and-lost-property/faq/are-there-additional-baggage-allowances-if-i-m-travelling-with-an-infant/)), checked 3 Nov 2026. Akasa's self baggage drop rule from its [self baggage drop page](https://www.akasaair.com/information/self-baggage-drop). Rules change: check your airline before you fly.

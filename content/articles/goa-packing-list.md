@@ -193,6 +193,10 @@ Flip-flops for the beach, and one pair of sandals with straps or walking shoes f
 
 Yes. Cashews are fine in either bag. Feni goes only in your check-in bag, up to 5 litres per person, in its shop packing, and not to dry states such as Gujarat or Bihar. Dry coconut is banned in all bags.
 
+## Related guides
+
+- [Toiletry bags for travel](toiletry-bag-for-travel.html)
+
 ## Sources
 
 Checked on 15 Nov 2026: [IMD averages for Goa](https://city.imd.gov.in/citywx/extreme/DEC/goa2.htm), [Goa Department of Tourism](https://goatourism.gov.in/), [Goa Tourism beach do's and don'ts](https://goa-tourism.com/wp-content/uploads/2025/08/GTDC-DOs-DONTs.pdf) and the [American Academy of Dermatology](https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/how-to-apply-sunscreen). Flight rules come from our [can I carry it on a flight?](../baggage/can-i-carry.html) list, checked against airline and airport pages. The church dress note comes from news reports ([Business Standard, 2013](https://www.business-standard.com/article/news-ians/goa-church-to-drape-indecently-dressed-visitors-113052900374_1.html)). Rules change, so check before you travel.

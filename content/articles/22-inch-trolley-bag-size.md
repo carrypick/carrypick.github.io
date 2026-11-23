@@ -118,6 +118,12 @@ In the cabin, your limit is usually 7 kg, bag included, so about 4.2–4.7 kg of
 
 The 55–58 cm bags we read listed 30–55 litres.
 
+## Related guides
+
+- [Lightest cabin trolley bags](lightest-cabin-trolley-bag.html)
+- [Hard vs soft luggage](hard-vs-soft-luggage.html)
+- [Trolley bag set of 3](trolley-bag-set-of-3.html)
+
 ## Sources
 
 Listed sizes and weights read on Amazon.in on 15 Nov 2026, for 6 bags. The picks' sizes are as listed when we added them. Sellers don't always say whether wheels are included. Airline limits checked on 3 Nov 2026: [IndiGo](https://www.goindigo.in/baggage/cabin-baggage.html), [Air India](https://www.airindia.com/in/en/travel-information/baggage-guidelines/cabin-baggage.html), [Air India Express](https://www.airindiaexpress.com/support/faqs/baggage), [Akasa Air](https://www.akasaair.com/quick-links/baggage) and [SpiceJet](https://corporate.spicejet.com/Baggage.aspx). Check your airline before you fly.

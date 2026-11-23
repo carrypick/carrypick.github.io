@@ -143,6 +143,11 @@ A stroller for airports and flat cities, a carrier for stairs, crowds, hills and
 
 It depends on the airline. IndiGo's infant page says from 3 days old; Air India, Akasa Air and SpiceJet say over 7 days. For whether your baby is ready, ask your paediatrician.
 
+## Related guides
+
+- [Toiletry bags for travel](toiletry-bag-for-travel.html)
+- [Packing cubes](packing-cubes.html)
+
 ## Sources
 
 Checked on 23 Nov 2026: IndiGo's [infant FAQ](https://www.goindigo.in/travel-information/en/infants.html) and [baggage allowance](https://www.goindigo.in/baggage/baggage-allowance.html), Air India's [expectant mothers and infants page](https://www.airindia.com/in/en/travel-information/first-time-flyers/expected-mothers-infants.html), Akasa Air's [infant terms](https://www.akasaair.com/special-fares/infant) and [baggage page](https://www.akasaair.com/quick-links/baggage), SpiceJet's [infant and children FAQ](https://corporate.spicejet.com/InfantsChildrenTravelFaq.aspx) and Emirates' [travelling with infants](https://www.emirates.com/english/family/on-board/travelling-with-infants/) page. Liquids rules from our [liquids page](../baggage/can-i-carry/liquids.html) and its airline sources. Sizes, weights, ages and colours from each Amazon.in listing, read on 23 Nov 2026.

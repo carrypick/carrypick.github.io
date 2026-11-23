@@ -154,6 +154,10 @@ Shimla is easier to reach, with the toy train from Kalka and good roads from Cha
 
 Yes, the Kalka–Shimla toy train runs all year. Book early for Christmas and New Year, and expect delays after heavy snow.
 
+## Related guides
+
+- [Shoes for Manali and Kashmir](../guides/shoes-for-manali-and-kashmir-trip.html)
+
 ## Sources
 
 Checked on 16 Nov 2026: [IMD Shimla December extremes and averages](https://mausam.imd.gov.in/shimla/mcdata/shimla_dec.pdf) and [January](https://mausam.imd.gov.in/shimla/mcdata/shimla_jan.pdf) (1971–2000 averages), [IMD's climate of Shimla](https://mausam.imd.gov.in/shimla/mcdata/cli_shimla.pdf) (snowfall, Christmas weather), [Himachal Pradesh Tourism: Shimla](https://himachaltourism.gov.in/destination/shimla/), Shimla district's pages on [how to reach](https://hpshimla.nic.in/how-to-reach/) and [Kufri](https://hpshimla.nic.in/tourist-place/kufri/) and [Indian e-Visa](https://indianvisaonline.gov.in/evisa/tvoa.html). From news reports: Shimla's first snow on 23 January 2026 ([All India Radio](https://www.newsonair.gov.in/himachal-witnesses-first-major-snowfall-of-the-season-cold-wave-intensifies/), [Deccan Chronicle](https://www.deccanchronicle.com/amp/nation/shimla-gets-first-snowfall-of-season-dry-spell-ends-1932163)), the 2025 winter carnival ([Tribune](https://www.tribuneindia.com/news/himachal/shimla-to-host-winter-carnival-from-december-24)), the ice rink's 2025 season ([Tribune](https://www.tribuneindia.com/news/himachal/get-ready-for-winter-adventure-shimlas-ice-skating-sessions-to-begin-from-december-4)), the Delhi–Shimla flight ([Tribune](https://www.tribuneindia.com/news/himachal/state-to-pay-32-cr-a-year-to-keep-shimla-flights-airborne/)) and roads after snow ([Tribune, January 2020](https://www.tribuneindia.com/news/vehicular-traffic-suspended-beyond-shimla-following-snow-29531), [Tribune, December 2020](https://www.tribuneindia.com/news/himachal/nh-5-opened-in-the-afternoon-after-snow-cleared-at-kufri-fagu-shilaru-narkanda-l-dry-weather-forec-190653)). Weather and roads change quickly in winter, so check before you travel.

@@ -106,6 +106,12 @@ Maxxplus, Flex, Arrive and Grande, going by VIP's own pages on 16 Nov 2026. Expa
 
 They usually show the height in cm. A "55" is a cabin size by height, but check its width and depth too before you fly.
 
+## Related guides
+
+- [Hard vs soft luggage](hard-vs-soft-luggage.html)
+- [4 wheel vs 8 wheel trolley bags](4-wheel-vs-8-wheel-trolley.html)
+- [TSA locks](tsa-lock.html)
+
 ## Sources
 
 Read on 6 Nov 2026: [VIP Bags](https://vipbags.com/) and its [return and refund policy](https://vipbags.com/policies/refund-policy). The range table comes from the VIP-brand product pages on vipbags.com, read on 16 Nov 2026. We have not tested these bags. Prices and offers are shown on VIP's site, and VIP can change its details and rules.

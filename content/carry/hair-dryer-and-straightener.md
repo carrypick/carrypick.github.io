@@ -6,7 +6,7 @@ item: Hair dryer
 date: 2026-11-15
 checked_against: IndiGo, Air India, Akasa Air and SpiceJet rules
 sources: IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | Akasa Air conditions of carriage=https://www.akasaair.com/quick-links/conditions-of-carriage | SpiceJet terms=https://corporate.spicejet.com/tnc.aspx
-related: packing/wedding.html=Wedding packing list | packing/weekend.html=Weekend packing list | guides/cabin-luggage-guide.html=Cabin bag rules | baggage/checker.html=Cabin bag checker
+related: packing/wedding.html=Wedding packing list | packing/weekend.html=Weekend packing list | guides/cabin-luggage-guide.html=Cabin bag rules | baggage/checker.html=Cabin bag checker | guides/travel-adapter-by-country.html=Travel
 ---
 ## The short answer
 

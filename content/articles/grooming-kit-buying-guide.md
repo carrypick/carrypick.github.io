@@ -145,6 +145,10 @@ Yes, a rechargeable trimmer can go in your cabin bag on IndiGo, SpiceJet and Air
 
 Charge it fully, start with the longest comb, and trim against the direction the hair grows. Go shorter step by step. Use the nose head for nose and ears and the body head for the body. Clean it with the brush after use.
 
+## Related guides
+
+- [Toiletry bags for travel](toiletry-bag-for-travel.html)
+
 ## Sources
 
 Checked on 21 Nov 2026: our [trimmer](../baggage/can-i-carry/trimmer.html) and [razor](../baggage/can-i-carry/razor.html) pages for the flight rules, with their airline sources. Types, heads, combs, run times, charging and wet or dry use from each Amazon.in listing, read on 21 Nov 2026. IPX6 and IPX7 meanings from the IEC 60529 water protection levels.

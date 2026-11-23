@@ -248,3 +248,9 @@ The Maldives, Mauritius and Bali are India's favourite honeymoon trips abroad, a
 ### How do I make a foreign trip cost less?
 
 Pick a country with a short flight and an easy visa, travel outside Christmas, New Year and school holidays, and book flights early. Use our [trip budget calculator](../tools/trip-budget-calculator.html) to add up your own costs.
+
+## Related guides
+
+- [Travel adapter by country](../guides/travel-adapter-by-country.html)
+- [Packing cubes](../guides/packing-cubes.html)
+- [TSA locks](../guides/tsa-lock.html)

@@ -166,6 +166,11 @@ No. Drinking in the open, including on beaches, is banned, with fines from ₹5,
 
 It depends on your travel, hotel and dates, and all cost the most over New Year. Add your own amounts in our [trip budget calculator](../tools/trip-budget-calculator.html) to see the total and split it with friends.
 
+## Related guides
+
+- [Shoes for a Goa trip](../guides/shoes-for-goa-trip.html)
+- [Travel sunscreen guide](../guides/travel-sunscreen-guide.html)
+
 ## Sources
 
 Checked on 22 Nov 2026: our [Goa trip guide](goa.html), whose official sources were checked on 3 Nov 2026: [Goa Department of Tourism](https://goatourism.gov.in/), [GTDC beach guidelines](https://goa-tourism.com/wp-content/uploads/2025/08/GTDC-DOs-DONTs.pdf), [Goa's 2022 tourist places order](https://goatourism.gov.in/wp-content/uploads/2022/10/Order-under-Goa-Tourist-Places-Protection-Maintenance-Act.pdf), the [loudspeaker order for December 2026](https://dip.goa.gov.in/govt-permits-loudspeakers-in-night-hours-on-special-days/) (Goa's Department of Information and Publicity), the [IMD's Goa averages](https://city.imd.gov.in/citywx/extreme/DEC/goa2.htm) and [Konkan Railway](https://konkanrailway.com/introduction). Last year's traffic plan, the rental plate rule, the Sunburn venue and the Arpora fire come from news reports. Rules change, so check Goa Police and Goa Tourism before you go.

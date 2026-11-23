@@ -151,6 +151,10 @@ Places you can reach by train or road save the most, like Coorg or Ooty from Ban
 
 See our [honeymoon packing list](../guides/honeymoon-packing-list.html). For Kashmir, Manali or Shimla in winter, you need thermals, a warm jacket, gloves and shoes with a good grip; for Goa or Andaman, light clothes, sunscreen and sandals.
 
+## Related guides
+
+- [Couple watches](../guides/couple-watches.html)
+
 ## Sources
 
 Checked on 23 Nov 2026. The weather, best months, airports and rules on this page come from our trip guides, where each official source is listed with its date: [Goa](goa.html), [Andaman](andaman-in-december.html), [Kerala](kerala.html), [Munnar](munnar-in-december.html), [Udaipur](udaipur.html), [Jaipur](jaipur.html), [Kashmir](kashmir-in-december.html), [Gulmarg](gulmarg-in-december.html), [Manali](manali.html), [Shimla](shimla-in-december.html), [Coorg](coorg-in-december.html), [Ooty](ooty-in-december.html), [Darjeeling](darjeeling-in-december.html), [Meghalaya](meghalaya-in-december.html) and [Rishikesh](rishikesh-in-december.html).

@@ -98,6 +98,11 @@ Take it out when you reach the counter. Officers usually want the passport on it
 
 Yes, for someone who flies abroad. See more ideas in [gifts for travellers](gifts-for-travellers.html).
 
+## Related guides
+
+- [TSA locks](tsa-lock.html)
+- [Packing cubes](packing-cubes.html)
+
 ## Sources
 
 Passport size: ICAO Doc 9303, the international standard for passports (TD3 size, 125 x 88 mm). Product details from each Amazon.in listing, read on 15 and 23 Nov 2026.

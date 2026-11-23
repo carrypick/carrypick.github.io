@@ -245,6 +245,10 @@ Yes. Canada uses 120 V and flat two-pin or three-pin plugs. Phone and laptop cha
 
 Any amount, but you must declare CAN$10,000 or more when you enter or leave Canada, says the Canada Border Services Agency. RBI lets you buy up to US$3,000 in foreign currency notes per trip, so carry a card or a forex card too.
 
+## Related guides
+
+- [Travel adapter by country](travel-adapter-by-country.html)
+
 ## Sources
 
 Checked on 23 Nov 2026: averages for [Toronto](https://worldweather.wmo.int/en/city.html?cityId=264), [Vancouver](https://worldweather.wmo.int/en/city.html?cityId=266) and [Banff](https://worldweather.wmo.int/en/city.html?cityId=623) from the Meteorological Service of Canada (Environment and Climate Change Canada) on the WMO's World Weather Information Service (1971–2000), as used in our [Canada trip guide](../trips/canada-trip-from-india.html); the visitor visa from Immigration, Refugees and Citizenship Canada's [apply for a visitor visa](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/apply-visitor-visa.html) page, via our trip guide; the Canada Border Services Agency, [what you can bring and declare](https://www.cbsa-asfc.gc.ca/travel-voyage/declare-eng.html) (CAN$10,000 rule, declaring food); plug type and voltage as in our trip guide and [adapter guide](power-bank-and-travel-adapter-guide.html); Indian customs and RBI limits through our [customs rules](../baggage/customs.html). Rules change, so check before you travel.

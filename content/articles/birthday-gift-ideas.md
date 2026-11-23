@@ -259,6 +259,11 @@ Round sunglasses, a wallet and pen gift set, or a perfume set with scents for me
 
 Keep it short and personal: wish them a happy birthday, say one thing you love about them, and add one memory from the past year. See our sample lines for each person above.
 
+## Related guides
+
+- [Couple watches](couple-watches.html)
+- [Christmas gifts for couples](christmas-gift-for-couples.html)
+
 ## Sources
 
 Features, sizes and warranties come from each Amazon.in listing and can change. We haven't tested these products ourselves, so check the current listing before you buy.

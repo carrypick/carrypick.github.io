@@ -129,6 +129,12 @@ More than most fares allow. Bags this size list 102–138 litres. Your limit is 
 
 A 32 inch trolley is about 5 cm taller. It's usually wider and deeper too, which is why it goes over 158 cm.
 
+## Related guides
+
+- [Lightest cabin trolley bags](lightest-cabin-trolley-bag.html)
+- [Hard vs soft luggage](hard-vs-soft-luggage.html)
+- [Trolley bag set of 3](trolley-bag-set-of-3.html)
+
 ## Sources
 
 Listed sizes and weights read on Amazon.in on 15 Nov 2026, for 11 trolleys 79–82 cm tall, one colour each. The Liftoff+ 79 cm was read on 6 Nov 2026. These came from Amazon search results, so they aren't every bag on sale. Sellers don't always say whether wheels are included. Airline limits are from our [baggage rules](../baggage/index.html) (checked 3 Nov 2026). Check your airline before you fly.

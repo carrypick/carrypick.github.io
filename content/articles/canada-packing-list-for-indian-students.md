@@ -215,6 +215,11 @@ Pack enough from India to stay warm for the first week: thermals, sweaters, a ja
 
 No. Canada uses 120 V and flat-pin plugs. Take a travel adapter, and check that your chargers say 100–240 V.
 
+## Related guides
+
+- [Travel adapter by country](travel-adapter-by-country.html)
+- [TSA locks](tsa-lock.html)
+
 ## Sources
 
 Checked on 23 Nov 2026: Immigration, Refugees and Citizenship Canada, [prepare for arrival (study permit)](https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare-arrival.html) (documents to have at the border; page dated 28 Aug 2026); the Canada Border Services Agency, [what you can bring and declare](https://www.cbsa-asfc.gc.ca/travel-voyage/declare-eng.html) (declare all food, AIRS, CAN$10,000; modified 25 Nov 2025); Health Canada, [guidance on importing health products for personal use](https://www.canada.ca/en/health-canada/services/drugs-health-products/compliance-enforcement/importation-exportation/personal-use-health-products-guidance/document.html) (90-day supply, original package; dated 13 Jul 2026); Air India's [student offer](https://www.airindia.com/in/en/book/exclusive-deals/student-flight-offer.html) and Virgin Atlantic's [student offer from India](https://www.virginatlantic.com/where-we-fly/asia/india/student-offer); other airlines from their own websites through our [international baggage rules](../baggage/international.html) (checked 15–16 Nov 2026); weather averages from the Meteorological Service of Canada on the WMO's World Weather Information Service, as in our [Canada trip guide](../trips/canada-trip-from-india.html); plugs from our Canada trip guide. Rules change, so check before you travel.

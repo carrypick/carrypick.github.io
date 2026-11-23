@@ -251,6 +251,10 @@ Up to 1 litre per person, only if you're 21 or older. Indonesian Customs destroy
 
 On IndiGo, 20 kg on regular fares (25 kg on UpFront), plus a 7 kg cabin bag. With a stop on the way, Singapore Airlines gives 25–30 kg, Malaysia Airlines 20–35 kg and Thai Airways one or two 23 kg bags, by fare.
 
+## Related guides
+
+- [Toiletry bags for travel](toiletry-bag-for-travel.html)
+
 ## Sources
 
 Checked on 16 Nov 2026: [BMKG averages for Denpasar on the WMO's World Weather Information Service](https://worldweather.wmo.int/en/city.html?cityId=649), [Indonesia Travel: temples in Bali](https://www.indonesia.travel/us/en/travel-ideas/heritage/6-must-visit-temples-in-bali-to-experience-bliss), [Indonesia Travel: Pura Besakih](https://www.indonesia.travel/jp/en/travel-ideas/pilgrimage/pura-besakih), [Indonesia Travel: Tirta Empul](https://www.indonesia.travel/gb/en/destination/bali-nusa-tenggara/bali/bali---the-holy-springs-of-tirta-empul), [Bali Government Tourism Office: the governor's 2025 rules for tourists](https://disparda.baliprov.go.id/bali-cracks-down-on-unruly-tourists-governor-koster-issues-new-regulations/), [Love Bali: levy FAQ](https://lovebali.baliprov.go.id/faq), [Indonesian Customs: passenger goods](https://www.beacukai.go.id/barang-penumpang), [Indonesian Customs: electronic customs declaration](https://www.beacukai.go.id/ecd), [BPOM: medicines brought from abroad (FAQ)](https://sertifikasicdob.pom.go.id/wasdisobat/faq/) and the [American Academy of Dermatology](https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/how-to-apply-sunscreen). Baggage rules come from our airline pages, checked against each airline's website. Rules change, so check before you travel.

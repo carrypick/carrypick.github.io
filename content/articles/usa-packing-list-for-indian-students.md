@@ -240,6 +240,10 @@ Study in the States says you can enter the USA up to 30 days before the program 
 
 No. The USA uses 120 V and flat-pin type A and B plugs. Take a travel adapter, and check that your chargers say 100–240 V.
 
+## Related guides
+
+- [Travel adapter by country](travel-adapter-by-country.html)
+
 ## Sources
 
 Checked on 23 Nov 2026: Study in the States (US Department of Homeland Security), [Getting to the United States](https://studyinthestates.dhs.gov/students/travel/getting-to-the-united-states) (documents to carry, copies, secondary inspection, Form I-515A, 30 days before the program start; last updated 25 May 2023); US Customs and Border Protection, [bringing agricultural products into the US](https://www.cbp.gov/travel/international-visitors/agricultural-items) (declare all agriculture items; last modified 30 Dec 2025), [prohibited and restricted items](https://www.cbp.gov/travel/international-visitors/kbyg/prohibited-restricted) (food and medicines; last modified 14 Mar 2025) and [money and monetary instruments](https://www.cbp.gov/travel/international-visitors/money-monetary-instruments) (over US$10,000; last modified 24 Nov 2025); Air India's [student offer](https://www.airindia.com/in/en/book/exclusive-deals/student-flight-offer.html) (baggage, age and documents) and Virgin Atlantic's [student offer from India](https://www.virginatlantic.com/where-we-fly/asia/india/student-offer) (3 x 23 kg); other airlines' allowances from their own websites through our [international baggage rules](../baggage/international.html) (Air India, Lufthansa and British Airways checked 15–16 Nov 2026); weather averages from the US National Weather Service on the WMO's World Weather Information Service, as in our [USA trip guide](../trips/usa-trip-from-india.html); plugs and voltage from our [adapter guide](power-bank-and-travel-adapter-guide.html). Emirates and Qatar Airways student offers: none found on their own sites. Rules change, so check before you travel.

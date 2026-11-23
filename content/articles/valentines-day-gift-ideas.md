@@ -222,6 +222,11 @@ Send something they'll use every day, so they think of you: a watch, a perfume s
 
 By early February. Valentine's Day 2027 is on a Sunday, and Valentine week is busy, so check the delivery date shown on Amazon before you pay.
 
+## Related guides
+
+- [Couple watches](couple-watches.html)
+- [Christmas gifts for couples](christmas-gift-for-couples.html)
+
 ## Sources
 
 Features, sizes and warranties come from each Amazon.in listing and can change. We haven't tested these products ourselves, so check the current listing before you buy. Valentine week dates are the ones commonly used in India.

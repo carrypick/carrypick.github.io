@@ -79,3 +79,8 @@ A small leather sling:
 Need something bigger? See our [laptop backpack guide](laptop-backpack-guide.html) and [wedding gift guide](wedding-gift-guide.html).
 
 Buying it as a present? See our [New Year gift ideas](new-year-gift-ideas.html).
+
+## Related guides
+
+- [40 litre carry-on travel backpacks](travel-backpack-40l-carry-on.html)
+- [Packing cubes](packing-cubes.html)

@@ -275,6 +275,10 @@ It can, but it isn't certain. Thimphu gets light snow showers in some winters. N
 
 On international flights, 30 kg of checked baggage in economy, and a 5 kg cabin bag of up to 45 x 35 x 20 cm. No single bag may weigh more than 32 kg. Bhutan Airlines allows a 7 kg cabin bag of 55 x 40 x 20 cm and 30 kg checked.
 
+## Related guides
+
+- [Toiletry bags for travel](toiletry-bag-for-travel.html)
+
 ## Sources
 
 Checked on 18 Nov 2026: Bhutan Department of Tourism [FAQs](https://bhutan.travel/faqs) (SDF, guides, route permits, insurance, dress, money, cash, plugs, drones, export permits), [visit page](https://bhutan.travel/visit) (temple etiquette, Tiger's Nest hike, land entry points) and [visa page](https://bhutan.travel/visa); the [Embassy of India in Thimphu](https://indembthimphu.gov.in/pages/NDA5) (documents, photos, minors, Indian currency notes); Bhutan's Department of Revenue and Customs [Customs Rules and Regulations 2023](https://www.drc.gov.bt/wp-content/uploads/2024/09/Customs-Rules-and-Regulations-of-Bhutan-Revised-Edition-2023.pdf) and [annexures](https://www.drc.gov.bt/wp-content/uploads/2025/08/CRRB-Annexure.pdf); Drukair's [baggage allowance](https://drukair.com.bt/experience/before-you-fly/baggage-allowance/) and [destinations](https://drukair.com.bt/plan/plan-your-trip/destinations/); Bhutan Airlines' [baggage allowance](https://www.bhutanairlines.bt/travel-tools/baggage-and-cargo/baggage-allowance) and [destinations](https://www.bhutanairlines.bt/about-us/routes/our-destinations); NCHM climate averages as tabled on Wikipedia for [Paro](https://en.wikipedia.org/wiki/Paro,_Bhutan), [Thimphu](https://en.wikipedia.org/wiki/Thimphu), [Punakha](https://en.wikipedia.org/wiki/Punakha) and [Jakar](https://en.wikipedia.org/wiki/Jakar); smoking rules from [Tobacco Control Laws](https://www.tobaccocontrollaws.org/legislation/bhutan/smoke-free/duties-penalties). Rules change, so check before you travel.

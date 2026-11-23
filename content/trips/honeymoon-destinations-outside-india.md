@@ -166,6 +166,10 @@ Short flights and easy visas cost the least: Nepal, Bhutan, Sri Lanka and Thaila
 
 The Maldives is a short flight with a visa on arrival, and best from January to April; it's about the beach, privacy and the sea. Bali is a longer flight, also with a visa on arrival, and best from April to October; it adds rice terraces, temples and villas, but December to February is its wet season.
 
+## Related guides
+
+- [Couple watches](../guides/couple-watches.html)
+
 ## Sources
 
 Checked on 23 Nov 2026. The weather, visa rules, flight times and best months on this page come from our [international trips hub](international-trips-from-india.html), our [visa guide](../guides/visa-free-countries-for-indians.html) and our trip guides, where each official source is listed with its date: [Maldives](maldives-trip-from-india.html), [Bali](bali-trip-from-india.html), [Thailand](thailand-trip-from-india.html), [Mauritius](mauritius-trip-from-india.html), [Sri Lanka](sri-lanka-trip-from-india.html), [Dubai](dubai-trip-from-india.html), [Singapore](singapore-trip-from-india.html), [Malaysia](malaysia-trip-from-india.html), [Vietnam](vietnam-trip-from-india.html), [Turkey](turkey-trip-from-india.html), [Europe](europe-trip-from-india.html), [Bhutan](bhutan-in-december.html) and [Nepal](nepal-in-december.html).

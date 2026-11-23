@@ -93,6 +93,10 @@ No. The UK uses type G (rectangular pins). India's type D is the old British rou
 
 More for visitors: [visiting India](../trips/visiting-india.html), [what to pack for India](what-to-pack-for-india.html) and the [India e-Visa guide](../trips/india-e-visa-for-tourists.html).
 
+## Related guides
+
+- [Travel adapter by country](travel-adapter-by-country.html)
+
 ## Sources
 
 Plug types C, D and M, 230 V and 50 Hz, and the standard IS 1293:2019 from Wikipedia's [mains electricity by country](https://en.wikipedia.org/wiki/Mains_electricity_by_country) table (last edited 19 Oct 2026), read on 23 Nov 2026, used as a fallback because the IEC's world plugs guide was [retired](https://www.iec.ch/world-plugs). US, UK and European values from the same table and from UK law ([ESQC Regulations 2002, reg. 27](https://www.legislation.gov.uk/uksi/2002/2665/regulation/27)). Product details from each Amazon.in listing, read on 20 and 23 Nov 2026.

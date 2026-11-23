@@ -276,6 +276,11 @@ No. Nepal uses 230 V and the same round-pin plugs as India (types C, D and M), s
 
 A 5 kg cabin bag of up to 55 x 40 x 20 cm, and 15 to 25 kg of checked baggage, depending on your fare. This covers its flights from Varanasi and Kolkata and its flights inside Nepal.
 
+## Related guides
+
+- [Travel adapter by country](travel-adapter-by-country.html)
+- [Toiletry bags for travel](toiletry-bag-for-travel.html)
+
 ## Sources
 
 Checked on 19 Nov 2026: the [Embassy of India in Kathmandu](https://indembkathmandu.gov.in/valid-travel-documents) (valid documents, page updated 19 Nov 2026); India's Ministry of Home Affairs [policy on travel to Nepal and Bhutan](https://www.mha.gov.in/sites/default/files/AnnexIGeneralpolicy_20082020.pdf) (children and older travellers); Nepal Rastra Bank's cash notice as reported by [ShareSansar, July 2026](https://www.sharesansar.com/index.php/newsdetail/nrb-reissues-guidelines-on-bringing-foreign-currency-cash-into-and-out-of-nepal-2026-07-24) (₹25,000 limit, US$5,000 declaration); Nepal Tourism Board [customs formalities](https://trade.ntb.gov.np/travel-essentials/custom-formalities) (duty-free and antiques); [Pashupati Area Development Trust](https://www.pashupati.org.np/?p=135) (entry, dress, shoes, photos, drones); [Buddha Air baggage](https://www.buddhaair.com/detail/baggage); IndiGo, Air India and Air India Express limits from our [international baggage rules](../baggage/international.html); NTNC [e-permit portal](https://epermit.ntnc.org.np/) (Annapurna fee); DHM climate averages as tabled on Wikipedia for [Kathmandu](https://en.wikipedia.org/wiki/Kathmandu) and [Pokhara](https://en.wikipedia.org/wiki/Pokhara); plugs from the [CIA World Factbook travel facts](https://www.cia.gov/the-world-factbook/). Rules change, so check before you travel.

@@ -314,3 +314,7 @@ Yes. The monsoon is over, the backwaters are calm, and Munnar is cool. A few sho
 ### Is it cold in Jaipur in December and January?
 
 Mornings and nights are cold, around 8–9 °C on average and sometimes 2–3 °C, while afternoons are sunny and around 22–24 °C. Carry a warm jacket.
+
+## Related guides
+
+- [Winter jackets for travel](../guides/winter-jacket-for-travel.html)

@@ -119,6 +119,10 @@ They look smart, but real leather is heavy and needs care in the rain. Faux or v
 
 Yes, as your one cabin bag. Five of the six list a size within IndiGo's 55 x 35 x 25 cm limit; the Tommy Hilfiger doesn't list its size, but at 21 litres it's slim. Most office backpacks are too tall to count as the small personal item (often 40 x 30 cm or less). Check with our [cabin bag checker](../baggage/checker.html).
 
+## Related guides
+
+- [Backpack size chart in litres](backpack-size-chart-litres.html)
+
 ## Sources
 
 Litres, sizes, weights, materials and warranties come from each Amazon.in listing, read in Nov 2026. Listings change, so check before you buy. We haven't tested these bags ourselves.

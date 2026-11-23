@@ -129,6 +129,12 @@ In our listings, American Tourister's typical bags were lighter: 3.3 kg against 
 
 VIP's own store sells VIP, Skybags, Aristocrat, Caprese, Alfa and Savoy Paris. So buying from these brands is often buying from the same group. Models and sizes still differ.
 
+## Related guides
+
+- [4 wheel vs 8 wheel trolley bags](4-wheel-vs-8-wheel-trolley.html)
+- [Lightest cabin trolley bags](lightest-cabin-trolley-bag.html)
+- [Trolley bag set of 3](trolley-bag-set-of-3.html)
+
 ## Sources
 
 We read 146 listings on Amazon.in on 6 Nov 2026, from Amazon search results. After removing repeat colours, sets, kids' bags and clear errors, 97 were left across all sizes and brands, including a few brands not shown here. They aren't every bag on sale, and "typical" means the middle value. We counted some listings that differ only in their listed litres, so these counts are a little higher than in our size guides. Warranty details come from our pick pages. VIP's brands: [VIP Bags](https://vipbags.com/), read 6 Nov 2026. Other company details: [Safari Industries profile](https://stockanalysis.com/quote/bom/523025/company) and [Samsonite Group](https://www.nasdaq.com/press-release/samsonite-international-sa-announces-change-corporate-name-samsonite-group-sa-2025-01).

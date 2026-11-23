@@ -173,6 +173,12 @@ Medium bags sold in India listed 45–93 L, and 69 L was typical. A true 24 inch
 
 Yes, as a check-in bag, if it's within your airline's limits. It's too big for the cabin. Most Indian airlines limit checked bags to 158 cm in total, and many 75–80 cm bags go over that.
 
+## Related guides
+
+- [4 wheel vs 8 wheel trolley bags](4-wheel-vs-8-wheel-trolley.html)
+- [Lightest cabin trolley bags](lightest-cabin-trolley-bag.html)
+- [Trolley bag set of 3](trolley-bag-set-of-3.html)
+
 ## Sources
 
 Listed sizes, weights and litres read on Amazon.in on 6 Nov 2026, for 80 models after removing repeat colours and listings with clear errors. These came from Amazon search results, so they aren't every bag on sale. The kg per litre figure is our own rough estimate. We haven't packed and weighed these bags. Airline allowances checked on 3 Nov 2026: see our [baggage rules](../baggage/index.html).

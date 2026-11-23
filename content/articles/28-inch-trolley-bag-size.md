@@ -104,6 +104,12 @@ About 8–12 days, or longer for a family. On a 15 kg fare, you'll probably reac
 
 Of the 31 models we checked on 6 Nov 2026, these were listed at 158 cm or less: Skybags Swirl 75 cm, L'Attitude Meridian 75 cm, Safari Astra Neo 76 cm, Safari Crescent 76 cm and American Tourister Liftoff+ 79 cm.
 
+## Related guides
+
+- [Lightest cabin trolley bags](lightest-cabin-trolley-bag.html)
+- [Hard vs soft luggage](hard-vs-soft-luggage.html)
+- [Trolley bag set of 3](trolley-bag-set-of-3.html)
+
 ## Sources
 
 Listed sizes and weights read on Amazon.in on 6 Nov 2026, for 31 large models after removing repeat colours and listings with clear errors. These came from Amazon search results, so they aren't every bag on sale. Sellers don't always say whether wheels are included. Airline limits checked on 3 Nov 2026: see our [baggage rules](../baggage/index.html). Check your airline before you fly.

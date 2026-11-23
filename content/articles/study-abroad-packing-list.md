@@ -141,6 +141,10 @@ Some. The USA and Canada ask you to declare all food. The UK and the EU (includi
 
 Meat products, milk products for the UK and Germany, fresh fruit and homemade food for Australia, power banks in your check-in bag, a suitcase over 158 cm, and more clothes than you need for the first weeks.
 
+## Related guides
+
+- [TSA locks](tsa-lock.html)
+
 ## Sources
 
 This page sums up our country lists, each with its official sources and dates (checked 21–23 Nov 2026): US Customs and Border Protection and Study in the States for the [USA](usa-packing-list-for-indian-students.html), GOV.UK for the [UK](uk-packing-list-for-indian-students.html), IRCC, the CBSA and Health Canada for [Canada](canada-packing-list-for-indian-students.html), the Australian Border Force and the Department of Home Affairs for [Australia](australia-packing-list-for-indian-students.html), and German customs (Zoll), the German Missions in India and the EU's Your Europe site for [Germany](germany-packing-list-for-indian-students.html). Student baggage from Air India's [student offer](https://www.airindia.com/in/en/book/exclusive-deals/student-flight-offer.html) and Virgin Atlantic's [student offer from India](https://www.virginatlantic.com/where-we-fly/asia/india/student-offer), read 23 Nov 2026; bag sizes from our [international baggage rules](../baggage/international.html); plugs from our [adapter guide](power-bank-and-travel-adapter-guide.html). Rules change, so check before you travel.

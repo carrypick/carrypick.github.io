@@ -120,6 +120,11 @@ Both Fur Jaden bags, the Swiss Military 30L and the Gear Classic 4 list a 15.6 i
 
 Yes, if it fits your airline's cabin size, like 55 x 35 x 25 cm on IndiGo. All five bags compared here are listed within that size. Check yours with our [cabin bag checker](../baggage/checker.html).
 
+## Related guides
+
+- [15.6 inch laptop backpack size](15-6-inch-laptop-backpack-size.html)
+- [Backpack size chart in litres](backpack-size-chart-litres.html)
+
 ## Sources
 
 Features, sizes, weights and warranties come from each Amazon.in listing, read on 23 Nov 2026. Sellers can change listings, so check before you buy. We haven't tested these bags ourselves.

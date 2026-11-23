@@ -208,6 +208,11 @@ AUD 900 of general goods for travellers aged 18 or over (AUD 450 under 18), and 
 
 No. Australia uses Type I plugs. The voltage is 230 V, like India, so you need only a plug adapter.
 
+## Related guides
+
+- [Travel adapter by country](travel-adapter-by-country.html)
+- [TSA locks](tsa-lock.html)
+
 ## Sources
 
 Checked on 23 Nov 2026: the Australian Border Force, [Can you bring it in?](https://www.abf.gov.au/entering-and-leaving-australia/can-you-bring-it-in/overview), [food](https://www.abf.gov.au/entering-and-leaving-australia/can-you-bring-it-in/categories/food) and [medicines and substances](https://www.abf.gov.au/entering-and-leaving-australia/can-you-bring-it-in/categories/medicines-and-substances) (last updated 9 Oct 2026), and [duty free](https://www.abf.gov.au/entering-and-leaving-australia/duty-free) (last updated 17 Nov 2026); the Department of Home Affairs, [Student visa (subclass 500)](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500) (CoE, OSHC from the day you arrive; last updated 9 Nov 2026); Air India's [student offer](https://www.airindia.com/in/en/book/exclusive-deals/student-flight-offer.html); other airlines from their own websites through our [international baggage rules](../baggage/international.html); weather averages from the Bureau of Meteorology on the WMO's World Weather Information Service, as in our [Australia trip guide](../trips/australia-trip-from-india.html); plugs from our [adapter guide](power-bank-and-travel-adapter-guide.html). Rules change, so check before you travel.

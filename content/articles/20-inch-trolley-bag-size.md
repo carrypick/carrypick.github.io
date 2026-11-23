@@ -93,6 +93,12 @@ No. 55 cm is 21.7 inches, and 20 inches is 50.8 cm. Some brands still list 55 cm
 
 About 2–4 days. It depends on how much you pack and on the 7 kg limit, not only on the size of the bag.
 
+## Related guides
+
+- [Lightest cabin trolley bags](lightest-cabin-trolley-bag.html)
+- [Hard vs soft luggage](hard-vs-soft-luggage.html)
+- [Trolley bag set of 3](trolley-bag-set-of-3.html)
+
 ## Sources
 
 Listed sizes and weights read on Amazon.in on 3 and 6 Nov 2026. Sellers can change them, and they don't always say whether wheels are included. Airline limits checked on 3 Nov 2026: [IndiGo](https://www.goindigo.in/baggage/cabin-baggage.html), [Air India](https://www.airindia.com/in/en/travel-information/baggage-guidelines/cabin-baggage.html), [Air India Express](https://www.airindiaexpress.com/support/faqs/baggage), [Akasa Air](https://www.akasaair.com/quick-links/baggage) and [SpiceJet](https://corporate.spicejet.com/Baggage.aspx). Train limits: [Indian Railways](https://indianrail.gov.in/luggage_Rule.html). Check your airline before you fly.

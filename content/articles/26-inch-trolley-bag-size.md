@@ -111,6 +111,12 @@ Yes, as a checked bag. The 66–70 cm bags we read are 136–143.5 cm in total, 
 
 For one person, often yes, if you can wash clothes on the way. With winter clothes, or packing for two, a [large trolley](28-inch-trolley-bag-size.html) is easier.
 
+## Related guides
+
+- [Lightest cabin trolley bags](lightest-cabin-trolley-bag.html)
+- [Hard vs soft luggage](hard-vs-soft-luggage.html)
+- [Trolley bag set of 3](trolley-bag-set-of-3.html)
+
 ## Sources
 
 Listed sizes and weights read on Amazon.in on 15 Nov 2026, for 7 medium trolleys of 66–70.5 cm, and on 6 Nov 2026 for 36 medium models. The picks' sizes are as listed when we added them. These came from Amazon search results, so they aren't every bag on sale. Sellers don't always say whether wheels are included. Airline limits: see our [baggage rules](../baggage/index.html), checked 3 Nov 2026. Train limits: [Indian Railways](https://indianrail.gov.in/luggage_Rule.html).

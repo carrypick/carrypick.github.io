@@ -155,6 +155,12 @@ Layers for the north: a warm jacket or fleece, a sweater and a scarf for cold, f
 
 Light cotton clothes, one light sweater for nights in the north, sun care and comfortable shoes. Carry a small umbrella in early October.
 
+## Related guides
+
+- [Packing cubes](packing-cubes.html)
+- [Toiletry bags for travel](toiletry-bag-for-travel.html)
+- [Travel sunscreen guide](travel-sunscreen-guide.html)
+
 ## Sources
 
 Checked on 21 Nov 2026: IMD's [monsoon onset page](https://mausam.imd.gov.in/responsive/monsooninformation_onset.php); IMD winter averages from our [Jaipur](../trips/jaipur.html) and [Varanasi](../trips/varanasi-in-december.html) guides; the Central Electricity Authority's [meeting on the declared supply voltage](https://cea.nic.in/wp-content/uploads/dp_r/2022/06/Approved_MoM_of_the_Meeting_to_finalize_Declared_Supply_Voltage.pdf) (230 V, moving from 240 V); [Indian e-Visa](https://indianvisaonline.gov.in/evisa/tvoa.html). Cash rules from our [cash and currency page](../baggage/customs/cash-and-currency.html), and flight rules from our airline and "can I carry" pages. Not confirmed from an official source: India's plug types (the IEC retired its world plugs guide). Dress tips are our general advice for visitors, not official rules; temples set their own rules, so read the signs.

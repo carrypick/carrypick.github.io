@@ -121,6 +121,12 @@ Yes. Safari Industries (India) Ltd is a Mumbai-based company founded in 1980. Am
 
 Not quite. Listings call it "Kamiliant by American Tourister", and Samsonite names it as a separate brand in its group. Its medium bags were among the lightest we read. See [trolley bag brands compared](best-trolley-bag-brands-india.html).
 
+## Related guides
+
+- [Hard vs soft luggage](hard-vs-soft-luggage.html)
+- [4 wheel vs 8 wheel trolley bags](4-wheel-vs-8-wheel-trolley.html)
+- [TSA locks](tsa-lock.html)
+
 ## Sources
 
 Listed sizes, weights, litres and shell types read on Amazon.in on 6 Nov 2026, from Amazon search results, after removing repeat colours, sets, and listings with clear errors. They aren't every bag on sale, and "typical" means the middle value. We counted some listings that differ only in their listed litres, so these counts are a little higher than in our size guides. Cabin bag details come from our pick pages, read in Nov 2026. Airline limits checked on 3 Nov 2026: see our [baggage rules](../baggage/index.html). Company details: [Safari Industries profile](https://stockanalysis.com/quote/bom/523025/company) and [Samsonite Group](https://www.nasdaq.com/press-release/samsonite-international-sa-announces-change-corporate-name-samsonite-group-sa-2025-01).

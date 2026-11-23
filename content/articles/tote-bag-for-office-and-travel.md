@@ -120,6 +120,11 @@ A backpack spreads the weight over both shoulders, which helps on a long commute
 
 Yes, if it fits her laptop. Ask what size laptop she carries, or choose a no-laptop tote. See more ideas in our [birthday gift ideas](birthday-gift-ideas.html).
 
+## Related guides
+
+- [40 litre carry-on travel backpacks](travel-backpack-40l-carry-on.html)
+- [Packing cubes](packing-cubes.html)
+
 ## Sources
 
 Airline personal-bag rules: from our [airline baggage rules](../baggage/index.html), taken from each airline's site. Product details from each Amazon.in listing, read on 4 and 23 Nov 2026.

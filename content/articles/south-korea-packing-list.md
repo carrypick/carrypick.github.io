@@ -237,6 +237,11 @@ Korea uses 220 V and round two-pin sockets (Types C and F). Slim two-pin Indian 
 
 Packed, ready-to-eat snacks are common, but don't pack meat, fruit, vegetables or plant products: Korea restricts them and takes banned items away at the airport. Check our [can I carry it on a flight?](../baggage/can-i-carry.html) list.
 
+## Related guides
+
+- [Packing cubes](packing-cubes.html)
+- [Toiletry bags for travel](toiletry-bag-for-travel.html)
+
 ## Sources
 
 Checked on 22–23 Nov 2026: averages for [Seoul](https://worldweather.wmo.int/en/city.html?cityId=231), [Busan](https://worldweather.wmo.int/en/city.html?cityId=336) and [Jeju](https://worldweather.wmo.int/en/city.html?cityId=337) from the Korea Meteorological Administration on the WMO's World Weather Information Service (1991–2020), as used in our [South Korea trip guide](../trips/south-korea-trip-from-india.html); the visa, customs, cash and food rules as in our trip guide (Consulate General of Korea in Chennai, the Korea Visa Application Centres, [Korea Customs](https://www.customs.go.kr/english/cm/cntnts/cntntsView.do?mi=10800&cntntsId=5500) and the Korea Tourism Organization's [food quarantine](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140628) page); plug types and voltage from Wikipedia's [mains electricity by country](https://en.wikipedia.org/wiki/Mains_electricity_by_country) table, as explained in our [adapter guide](power-bank-and-travel-adapter-guide.html); Indian customs limits through our [customs rules](../baggage/customs.html). Rules change, so check before you travel.

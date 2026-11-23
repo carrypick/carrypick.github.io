@@ -174,6 +174,11 @@ A luggage scale, so they can weigh bags at home. A passport holder is good if th
 
 Yes, if it fits their airline. Many "55 cm" cabin trolleys are too wide for IndiGo's 55 x 35 x 25 cm limit, so check the listed size first. The Safari trolley above is within it.
 
+## Related guides
+
+- [Christmas gifts for friends](christmas-gift-for-friends.html)
+- [40 litre carry-on travel backpacks](travel-backpack-40l-carry-on.html)
+
 ## Sources
 
 Features, sizes and warranties come from each Amazon.in listing and can change. New picks were read on 15 Nov 2026. Airline limits come from our [cabin luggage guide](cabin-luggage-guide.html). We haven't tested these products ourselves, so check the current listing before you buy.

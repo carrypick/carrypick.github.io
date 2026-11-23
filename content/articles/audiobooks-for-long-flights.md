@@ -106,6 +106,10 @@ On most airlines, yes, once the crew says phones in airplane mode are allowed. S
 
 Not much, if the screen stays off. Carry a power bank in your cabin bag for long days. Power banks are not allowed in check-in.
 
+## Related guides
+
+- [Neck pillows for flights](neck-pillow-for-flights.html)
+
 ## Sources
 
 Checked on 22 Nov 2026: Audible's free trial page on Amazon.in (the trial length, credits, the Prime offer, the Plus catalogue and cancelling) and the Amazon.in Associates fee schedule for the trial link. Power bank rules from our [power bank rules page](power-bank-rules-on-flights.html) and its airline sources. Product details from each Amazon.in listing, read on 22 Nov 2026.

@@ -217,6 +217,11 @@ Air India's student fare gives 2 bags of 23 kg in Economy on piece-based routes 
 
 Two-pin Indian plugs often fit Germany's Type C sockets, but three-pin ones don't. The voltage is 230 V, like India, so a plug adapter is all you need.
 
+## Related guides
+
+- [Travel adapter by country](travel-adapter-by-country.html)
+- [TSA locks](tsa-lock.html)
+
 ## Sources
 
 Checked on 23 Nov 2026: German Missions in India, [Studies, including preparatory college and language courses](https://india.diplo.de/in-en/service/2756350-2756350) (documents, blocked account €11,904 and €992 a month, health insurance; dated 16 Feb 2026); German customs (Zoll), [School, study](https://www.zoll.de/EN/Private-individuals/Staying-in-Germany/School-study/school-study_node.html) (students' household effects and study materials, the €430 green and red exits), [Medicinal products and narcotics](https://www.zoll.de/EN/Private-individuals/Travel/Entering-Germany/Restrictions/Medicinal-products-and-narcotics/medicinal-products-and-narcotics_node.html) (three months, narcotics certificate), [Protection against animal diseases](https://www.zoll.de/EN/Private-individuals/Travel/Entering-Germany/Restrictions/Animals-and-plants-products-containing-animal-or-vegetable-substance/Protection-against-animal-diseases/protection-against-animal-diseases_node.html) (meat, fish and milk products) and [Restrictions](https://www.zoll.de/EN/Private-individuals/Travel/Entering-Germany/Restrictions/restrictions_node.html) (€10,000 cash); the EU's Your Europe page on [meat, dairy and plant products](https://europa.eu/youreurope/citizens/travel/carry/meat-dairy-animal/index_en.htm) (read 21 Nov 2026); Air India's [student offer](https://www.airindia.com/in/en/book/exclusive-deals/student-flight-offer.html); other airlines from their own websites through our [international baggage rules](../baggage/international.html) (Lufthansa, Turkish Airlines and Air India checked 15–16 Nov 2026); plugs from our [adapter guide](power-bank-and-travel-adapter-guide.html). Rules change, so check before you travel.

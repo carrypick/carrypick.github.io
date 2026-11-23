@@ -114,6 +114,12 @@ In Economy, one bag of up to 23 kg on a Value fare and two bags of up to 23 kg e
 
 On many Gulf and Asia routes, yes, if your fare allows 30 kg: no single bag can be over 32 kg. On routes with 23 kg pieces, like Air India to the USA, a 30 kg bag is over the limit.
 
+## Related guides
+
+- [4 wheel vs 8 wheel trolley bags](4-wheel-vs-8-wheel-trolley.html)
+- [Lightest cabin trolley bags](lightest-cabin-trolley-bag.html)
+- [Trolley bag set of 3](trolley-bag-set-of-3.html)
+
 ## Sources
 
 Air India's [checked baggage allowance](https://www.airindia.com/in/en/travel-information/baggage-guidelines/checked-baggage-allowance.html) page, read 15 Nov 2026. Other airlines from our [international baggage](../baggage/international.html) pages (checked 3 Nov 2026), which link to each airline's own page. Bag sizes and weights as listed on Amazon.in on 6 and 15 Nov 2026. Sellers don't always say whether wheels are included. Check your airline before you fly.

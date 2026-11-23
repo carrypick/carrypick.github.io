@@ -194,6 +194,11 @@ A classic watch, a weekender bag for the trips they now have time for, or a coup
 
 Small, light things they can pack easily: a passport holder, a luggage scale or packing cubes. For a bigger team gift, choose a large trolley within their airline's size limit.
 
+## Related guides
+
+- [Christmas gifts for friends](christmas-gift-for-friends.html)
+- [Watch gift for your husband](watch-gift-for-husband.html)
+
 ## Sources
 
 Features, sizes and warranties come from each Amazon.in listing and can change. The picks on this page were read between 23 Oct and 15 Nov 2026. We haven't tested these products ourselves, so check the current listing before you buy.

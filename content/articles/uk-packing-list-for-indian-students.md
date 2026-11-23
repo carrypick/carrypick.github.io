@@ -227,6 +227,11 @@ Up to 1 week before your course starts if it lasts 6 months or less, and up to 1
 
 No. The UK uses three-pin Type G plugs. The voltage is 230 V, like India, so you need only a plug adapter.
 
+## Related guides
+
+- [Travel adapter by country](travel-adapter-by-country.html)
+- [TSA locks](tsa-lock.html)
+
 ## Sources
 
 Checked on 23 Nov 2026 (GOV.UK pages show no date in their text): GOV.UK [Student visa](https://www.gov.uk/student-visa) and [documents you must provide](https://www.gov.uk/student-visa/documents-you-must-provide) (passport, CAS, money, ATAS, TB test, eVisa, when you can arrive), [Entering the UK](https://www.gov.uk/uk-border-control/at-border-control) (border checks), [Bringing food into Great Britain: meat, dairy, fish and animal products](https://www.gov.uk/bringing-food-into-great-britain/meat-dairy-fish-animal-products) and [fruit, vegetables, nuts and seeds](https://www.gov.uk/bringing-food-into-great-britain/fruit-vegetables-nuts-seeds), [Bringing goods into the UK for personal use](https://www.gov.uk/bringing-goods-into-uk-personal-use/arriving-in-Great-Britain) (£390 and alcohol and tobacco), [Take cash in and out of the UK](https://www.gov.uk/bringing-cash-into-uk) (£10,000) and [Take medicine in or out of the UK](https://www.gov.uk/travelling-controlled-drugs) (controlled drugs, 3 months); Air India's [student offer](https://www.airindia.com/in/en/book/exclusive-deals/student-flight-offer.html) and Virgin Atlantic's [student offer from India](https://www.virginatlantic.com/where-we-fly/asia/india/student-offer); other airlines from their own websites through our [international baggage rules](../baggage/international.html) (British Airways, Lufthansa and Air India checked 15–16 Nov 2026); weather averages from the Met Office on the WMO's World Weather Information Service, as in our [UK trip guide](../trips/uk-trip-from-india.html); plugs from our [adapter guide](power-bank-and-travel-adapter-guide.html). Rules change, so check before you travel.

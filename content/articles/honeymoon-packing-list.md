@@ -251,6 +251,11 @@ It's better not to. Take a few light pieces or imitation jewellery for photos, k
 
 For about 5 nights at a beach, a cabin bag each is often enough. For a week or the hills, share one medium check-in bag and take a cabin bag each. Pack light if you're taking a seaplane.
 
+## Related guides
+
+- [Couple watches](couple-watches.html)
+- [Christmas gifts for couples](christmas-gift-for-couples.html)
+
 ## Sources
 
 Checked on 21 Nov 2026: weather, place and entry facts come from our own pages, which list their official sources: the [Maldives packing list](maldives-packing-list.html) (Maldives Meteorological Service, Velana International Airport, Trans Maldivian Airways and Maldivian), the [Bali packing list](bali-packing-list.html), the [Goa](../trips/goa.html), [Kerala](../trips/kerala.html) and [Manali](../trips/manali.html) trip guides and [Kashmir in December](../trips/kashmir-in-december.html) (IMD averages). Sun care advice is from the [American Academy of Dermatology](https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/how-to-apply-sunscreen). Rules change, so check before you travel.

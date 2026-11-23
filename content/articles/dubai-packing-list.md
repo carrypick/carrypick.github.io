@@ -260,6 +260,10 @@ Poppy seeds (khus khus), paan and betel leaves, drugs and controlled medicines w
 
 It depends on the airline and fare. Emirates gives 20–35 kg, IndiGo 30 kg on regular fares, Air India 25–35 kg, and flydubai 20 or 30 kg (none on Lite). All of them allow a 7 kg cabin bag.
 
+## Related guides
+
+- [Packing cubes](packing-cubes.html)
+
 ## Sources
 
 Checked on 16 Nov 2026: [UAE National Center of Meteorology averages for Dubai, on the WMO's World Weather Information Service](https://worldweather.wmo.int/en/city.html?cityId=1190), [Visit Dubai: what to wear in Dubai](https://www.visitdubai.com/en/articles/what-to-wear-in-dubai-clothing-guide) and the [American Academy of Dermatology](https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/how-to-apply-sunscreen). Customs and medicine rules come from our [UAE customs page](../baggage/customs/uae-dubai.html), checked against official UAE government sources. Baggage rules come from our airline pages, checked against each airline's website. Rules change, so check before you travel.

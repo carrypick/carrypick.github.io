@@ -117,6 +117,11 @@ ABS is another hard plastic. Travelpro, a luggage maker, describes it as rigid a
 
 Hard is usually better for flights, because it protects your things and handles rain well. Soft is often easier on trains and road trips, because it can squeeze into tight spaces.
 
+## Related guides
+
+- [4 wheel vs 8 wheel trolley bags](4-wheel-vs-8-wheel-trolley.html)
+- [TSA locks](tsa-lock.html)
+
 ## Sources
 
 Listed weights and materials read on Amazon.in on 6 Nov 2026, from Amazon search results, after removing repeat colours, sets and clear errors. We counted only listings that named PC or PP in the title or material field. They aren't every bag on sale, and "typical" means the middle value. Material claims come from companies that sell luggage: [Travelpro's guide to shell materials](https://travelpro.com/pages/luggage-guide-to-shell-materials) and [Nasher Miles on PP vs PC](https://nashermiles.com/blogs/news/polypropylene-vs-polycarbonate-luggage), read 6 Nov 2026.
