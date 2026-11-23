@@ -1350,6 +1350,64 @@ dict(slug='shoes-goa', board='Packing and What to Wear', link='guides/shoes-for-
          description='Which footwear to take on a Goa trip: flip-flops for hot sand, strap sandals for scooter rides and markets, clogs that can get wet, and shoes for Dudhsagar.',
          alt='Palolem beach in Goa, with the words Shoes for a Goa trip.',
          html=photo('goa-palolem', 'Shoes for a Goa trip', 'Flip-flops, sandals or clogs? What suits each plan')),
+dict(slug='honeymoon-india', board='India Trip Ideas', link='trips/honeymoon-destinations-in-india.html',
+         title='Honeymoon places in India for the wedding season: beaches, snow, lakes and tea hills',
+         description='Where to go for a honeymoon in India from November to February: Goa and Andaman beaches, Kerala backwaters, Udaipur lakes, snow in Gulmarg and Manali. Best months, weather and nearest airport for each.',
+         alt='A houseboat on the Kerala backwaters, with the words Honeymoon places in India.',
+         html=photo('kerala-houseboat', 'Honeymoon places in India', 'Beach, snow, lakes or tea hills? Best months and airports for 15 places')),
+dict(slug='honeymoon-abroad', board='India Trip Ideas', link='trips/honeymoon-destinations-outside-india.html',
+         title='Honeymoon abroad from India: visa and flight time for 13 countries',
+         description='International honeymoon destinations from India with the visa you need and a rough flying time: the Maldives, Bali, Thailand, Mauritius, Sri Lanka, Dubai, Singapore and more, with the best months for each.',
+         alt='Water villas in the Maldives at sunset, with the words Honeymoon abroad from India.',
+         html=photo('maldives-villas-sunset', 'Honeymoon abroad from India', 'Visa and flying time for the Maldives, Bali, Thailand, Mauritius and more')),
+dict(slug='weekend-getaways-delhi', board='India Trip Ideas', link='trips/weekend-getaways-from-delhi.html',
+         title='12 weekend getaways from Delhi: distance and travel time by road, train or flight',
+         description='Weekend trips from Delhi with the distance and travel time: Mathura, Agra, Rishikesh, Mussoorie, Nainital, Jaipur, Shimla, Amritsar and Manali. Best months, December trips and the 2027 long weekends.',
+         alt='A table of weekend getaways from Delhi with distance and travel time.',
+         html=chart('Weekend trips from Delhi', 'Weekend getaways from Delhi', table(['Trip', 'Distance', 'By road'], [
+             ['Mathura', '~150 km', '2½–3½ hrs'], ['Agra', '~210 km', '3–4 hrs'], ['Rishikesh', '~240 km', '4–5 hrs'],
+             ['Mussoorie', '~260 km', '5–6 hrs'], ['Nainital', '~280 km', '6–7 hrs'], ['Jaipur', '~280–310 km', '3½–5 hrs']])
+             + '<p class="note"><strong>Distances and times are our estimates.</strong> Shimla, Amritsar, Manali, Udaipur and Varanasi need a long weekend: see the full list.</p>')),
+dict(slug='weekend-getaways-mumbai', board='India Trip Ideas', link='trips/weekend-getaways-from-mumbai.html',
+         title='11 weekend getaways from Mumbai: distance and travel time by road, train or ferry',
+         description='Weekend trips from Mumbai with the distance and travel time: Lonavala, Matheran, Alibaug, Igatpuri, Nashik, Daman and Mahabaleshwar. Distances from Maharashtra Tourism, plus monsoon trips, December and 2027 long weekends.',
+         alt='A table of weekend getaways from Mumbai with distance and travel time.',
+         html=chart('Weekend trips from Mumbai', 'Weekend getaways from Mumbai', table(['Trip', 'Distance', 'By road'], [
+             ['Lonavala', '84 km', '~2 hrs'], ['Matheran', '88 km', '2½–3 hrs*'], ['Alibaug', '~90 km', '2½–3½ hrs'],
+             ['Igatpuri', '130 km', '~3 hrs'], ['Nashik', '~180 km', '3½–4½ hrs'], ['Daman', '~190 km', '4–5 hrs']])
+             + '<p class="note"><strong>Distances from Maharashtra Tourism or our estimates.</strong> *Matheran: cars stop below the town, no vehicles inside. Goa, Udaipur and Jaipur are for longer weekends.</p>')),
+dict(slug='weekend-getaways-bangalore', board='India Trip Ideas', link='trips/weekend-getaways-from-bangalore.html',
+         title='11 weekend getaways from Bangalore: distance and travel time by road, train or flight',
+         description='Weekend trips from Bangalore (Bengaluru) with the distance and travel time: Nandi Hills, Mysuru, Chikkamagaluru, Coorg, Wayanad, Ooty, Hampi and Gokarna. Distances from Karnataka Tourism, plus December and 2027 long weekends.',
+         alt='A table of weekend getaways from Bangalore with distance and travel time.',
+         html=chart('Weekend trips from Bangalore', 'Weekend getaways from Bangalore', table(['Trip', 'Distance', 'By road'], [
+             ['Nandi Hills', '~60 km', '1½–2 hrs'], ['Mysuru', '~140 km', '2½–3 hrs'], ['Chikkamagaluru', '~250 km', '5–6 hrs'],
+             ['Coorg', '~257 km', '5–6 hrs'], ['Wayanad', '~280 km', '6–7 hrs*'], ['Ooty', '~290 km', '7–8 hrs*']])
+             + '<p class="note"><strong>Distances from Karnataka Tourism or our estimates.</strong> *The forest road is shut at night. Hampi, Gokarna and Goa suit a 3-day weekend.</p>')),
+dict(slug='baby-travel-gear', board='Packing and What to Wear', link='category/baby-kids.html',
+         title='Travelling with a baby or toddler: gear and guides for Indian families',
+         description='Travel gear for families with a baby or young kids: strollers that fold small, baby carriers, diaper bags and kids travel picks, with simple guides on flying and packing for a baby.',
+         alt='A list of baby travel gear ideas, with the words Travelling with a baby.',
+         html=chart('Baby and kids travel', 'Travelling with a baby or toddler', group('Getting around', 'A stroller that folds small, or a baby carrier')
+             + group('On the plane', 'A diaper bag that works as the baby\'s cabin bag')
+             + group('Kids\' travel', 'Small things that keep a toddler busy on a long journey')
+             + '<p class="note"><strong>Plus two simple guides:</strong> a packing checklist and the airline rules for flying with an infant.</p>')),
+dict(slug='baby-travel-checklist', board='Packing and What to Wear', link='guides/travelling-with-baby-checklist.html',
+         title='Travelling with a baby checklist: documents, feeding, diapers, clothes and sleep',
+         description='A simple checklist for travelling with a baby or toddler: the age proof and documents, feeding, about 6 diapers a day plus a spare day, clothes, sleep, a stroller or carrier, and what goes in the diaper bag.',
+         alt='A baby travel checklist table, with the words Travelling with a baby checklist.',
+         html=chart('Baby travel checklist', 'Travelling with a baby: what to pack', table(['What', 'How much'], [
+             ['Documents', 'Birth certificate, your ID'], ['Diapers', '~6 a day + 1 spare day'], ['Clothes', 'One set a day + 2 spare'],
+             ['Feeding', 'Milk, bottles, brush, bib'], ['Sleep', 'Blanket, muslins, a toy'], ['Getting around', 'Light stroller or carrier']])
+             + '<p class="note"><strong>The diaper bag is your cabin bag for the baby.</strong> Ask your paediatrician about medicines.</p>')),
+dict(slug='flying-with-baby', board='Flight and Train Baggage Rules', link='guides/flying-with-baby-or-toddler.html',
+         title='Flying with a baby in India: infant age, baggage and stroller rules by airline',
+         description='Infant rules on IndiGo, Air India, Akasa Air, SpiceJet and Emirates: the minimum age, the infant ticket, the baby\'s baggage allowance, strollers at the gate, bassinets and the documents a baby needs.',
+         alt='A table of infant rules by airline, with the words Flying with a baby.',
+         html=chart('Airline rules, as listed by each airline', 'Flying with a baby in India', table(['Airline', 'Infant age', 'Stroller'], [
+             ['IndiGo', '3 days–2 yrs', '1 free'], ['Air India', '7 days–2 yrs', 'Not on board'], ['Akasa Air', '7 days–2 yrs', '1 free'],
+             ['SpiceJet', '7 days–2 yrs', 'Not in cabin']])
+             + '<p class="note"><strong>Under 2 years is an infant</strong> and sits on your lap. Carry a birth certificate: without age proof the airline can charge a full fare.</p>')),
 ]
 
 
