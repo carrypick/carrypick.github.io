@@ -69,6 +69,8 @@ Not sure of the size or shape? Our [sunglasses buying guide](sunglasses-buying-g
 
 [[pick:B018VZBTLY]]
 
+Choosing a watch for him? Our [watch gift for husband guide](watch-gift-for-husband.html) compares six men's watches and has short messages for the card.
+
 **A slim formal watch with a steel strap: Titan Karishma.** It's splash-proof to 30 m.
 
 [[pick:B00ISNVQMW]]

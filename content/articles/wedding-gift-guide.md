@@ -28,6 +28,8 @@ Here are gift ideas that work, grouped by who you're buying for.
 
 [[pick:B07PY6CQYV]]
 
+Comparing pair watches? See our [couple watches guide](couple-watches.html): Titan, Sonata, Fastrack and Timex sets side by side.
+
 **Same idea, value option: Sonata Bandhan.** Sonata is Titan's value brand. These come with blue dials and steel straps.
 
 [[pick:B07SCLW4HY]]

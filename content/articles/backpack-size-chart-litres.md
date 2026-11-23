@@ -51,7 +51,7 @@ These are from listings on Amazon.in:
 | [American Tourister Nexa](../picks/B0FKH35M4C.html) | 36 L | 47 x 33 x 24 | 510 g | IndiGo, Akasa Air, SpiceJet |
 | [Fur Jaden](../picks/B0B34WJK3X.html) | 40 L | 50 x 30 x 25 | 600–700 g | IndiGo, Akasa Air, SpiceJet |
 
-"All five" means IndiGo, Air India, Air India Express, Akasa Air and SpiceJet. Air India's limit is only 20 cm deep, so deeper bags go over it. Test your own bag in our [cabin bag checker](../baggage/checker.html).
+"All five" means IndiGo, Air India, Air India Express, Akasa Air and SpiceJet. Air India's limit is only 20 cm deep, so deeper bags go over it. Test your own bag in our [cabin bag checker](../baggage/checker.html). For 40 L bags against Gulf, European and US airlines too, see our [40 litre carry-on backpack guide](travel-backpack-40l-carry-on.html).
 
 ## Don't trust the litres alone
 

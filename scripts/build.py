@@ -2855,7 +2855,7 @@ def build_tools(cfg, deals, pages, lastmod):
 <h2>Our watch picks by dial size</h2>
 <p id="ws-picks-note">Sorted from small to large. Type your wrist size above to see the ones that suit it.</p>
 <div class="grid" id="ws-picks">{cards}</div>
-<p>More help: <a href="../guides/first-analog-watch-guide.html">how to choose your first analog watch</a> and <a href="../guides/titan-vs-fastrack.html">Titan vs Fastrack compared</a>.</p>
+<p>More help: <a href="../guides/first-analog-watch-guide.html">how to choose your first analog watch</a>, <a href="../guides/titan-vs-fastrack.html">Titan vs Fastrack compared</a>, <a href="../guides/watch-gift-for-husband.html">a watch gift for your husband</a> and <a href="../guides/couple-watches.html">couple watch sets</a>.</p>
 {{faq}}
 {tool_pills("../", path)}
 </article></div>
@@ -2899,7 +2899,7 @@ def build_tools(cfg, deals, pages, lastmod):
 <h2>Typical laptop sizes</h2>
 <div class="table-wrap"><table class="compare"><thead><tr><th>Screen size</th><th>Typical laptop size (width x depth)</th></tr></thead><tbody>{rows}</tbody></table></div>
 <p class="checked">Real laptops vary by a few cm. Measure yours, or check its size on the maker's website.</p>
-<p>More help: <a href="../guides/laptop-backpack-guide.html">how to choose a laptop backpack</a>, <a href="../guides/15-6-inch-laptop-backpack-size.html">15.6 inch laptop backpack size</a> and <a href="../guides/school-bag-size-chart.html">school bag size by class</a>.</p>
+<p>More help: <a href="../guides/laptop-backpack-guide.html">how to choose a laptop backpack</a>, <a href="../guides/15-6-inch-laptop-backpack-size.html">15.6 inch laptop backpack size</a>, <a href="../guides/office-backpack-for-men.html">office backpacks</a>, <a href="../guides/anti-theft-backpack.html">anti-theft backpacks</a>, <a href="../guides/travel-backpack-40l-carry-on.html">40 L carry-on backpacks</a> and <a href="../guides/school-bag-size-chart.html">school bag size by class</a>.</p>
 {{faq}}
 {tool_pills("../", path)}
 </article></div>

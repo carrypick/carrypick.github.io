@@ -113,6 +113,8 @@ Roses and chocolates are gone in a day. A Valentine's Day gift they use every da
 
 [[pick:B018VZBTLY]]
 
+Choosing a watch for him? Our [watch gift for husband guide](watch-gift-for-husband.html) compares six men's watches and has short messages for the card.
+
 **A slim steel watch: Titan Karishma with a black dial.** The 38 mm, 8.25 mm thin case goes with office and casual wear:
 
 [[pick:B00ISNVQMW]]

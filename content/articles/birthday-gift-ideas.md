@@ -49,6 +49,8 @@ Buying for an anniversary instead? See our [anniversary gift ideas for husband, 
 
 [[pick:B07H3K85H5]]
 
+Choosing a watch for him? Our [watch gift for husband guide](watch-gift-for-husband.html) compares six men's watches and has short messages for the card.
+
 **A slim leather wallet.** It has 10 card slots and a coin pocket, and it's about 2 cm thick, so it sits flat in a back pocket:
 
 [[pick:B079TN3GCD]]

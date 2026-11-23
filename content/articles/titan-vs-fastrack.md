@@ -33,7 +33,7 @@ Yes. Titan Company lists Titan, Fastrack, Sonata and Fastrack Smart as its own b
 
 - **Titan:** the main brand. Classic dials, thin cases, steel and leather straps. Good for office and gifting.
 - **Fastrack:** the youth brand. Bold colours, sporty cases, silicone straps. Good for college and casual wear.
-- **Sonata:** a third brand from the same company, with simple everyday watches. See our [Sonata couple watch set](../picks/B07SCLW4HY.html).
+- **Sonata:** a third brand from the same company, with simple everyday watches. See our [Sonata couple watch set](../picks/B07SCLW4HY.html) and all [couple watches compared](couple-watches.html).
 
 ## Dial sizes compared
 
@@ -117,5 +117,7 @@ Fastrack's own site lists 24 months on the movement and 12 months on the battery
 ## Sources
 
 Brand ownership from [Titan Company's brands page](https://www.titancompany.in/our-brands/fastrack). Warranty terms from Titan's [warranty policy](https://www.titan.co.in/warranty-policy.html) and product pages on titan.co.in and fastrack.in, read on 21 Nov 2026. Dial sizes, straps and water resistance come from our pick pages, read on Amazon.in in Nov 2026. We haven't tested these watches.
+
+Buying a watch as a gift? See our [watch gift for husband guide](watch-gift-for-husband.html) and our [couple watches compared](couple-watches.html), including a Fastrack pair on leather straps.
 
 [[next:../tools/watch-size.html=Find your dial size|first-analog-watch-guide.html=How to choose your first analog watch|#our-picks=Compare our four watches]]

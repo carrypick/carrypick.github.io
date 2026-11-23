@@ -124,4 +124,6 @@ Yes. 14 inch laptops are smaller, so they fit easily in a 15.6 inch sleeve.
 
 Laptop sizes are typical ranges from makers' published dimensions, the same as in our [laptop backpack tool](../tools/laptop-backpack.html). Backpack sizes, laptop fit and weights come from our pick pages, read on Amazon.in in Nov 2026. We haven't tested these backpacks.
 
+More help: [office backpacks for men](office-backpack-for-men.html) and [anti-theft backpacks](anti-theft-backpack.html).
+
 [[next:../tools/laptop-backpack.html=Check which bag fits my laptop|laptop-backpack-guide.html=How to choose a laptop backpack|#our-picks=Compare our four bags]]

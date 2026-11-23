@@ -49,12 +49,14 @@ Indian monsoons are tough on bags. Some bags come with a **rain cover**: a stret
 ## 6. Useful extras
 
 - **Trolley sleeve:** a strap on the back that slides over your suitcase handle. Great for travel.
-- **Anti-theft pocket:** a hidden zip against your back for your wallet or phone. Handy in crowded buses and trains.
+- **Anti-theft pocket:** a hidden zip against your back for your wallet or phone. Handy in crowded buses and trains. See our [anti-theft backpack guide](anti-theft-backpack.html) for hidden-zip and lock bags.
 - **Reflective strips:** help drivers see you at night.
 
 ## 7. Check the warranty
 
 Branded bags usually come with a **1-year warranty** on zips and stitching, and sometimes longer. Zips are the part that breaks first, so a warranty is worth having.
+
+For work, see our [office backpack guide](office-backpack-for-men.html). For flights, see the [40 litre carry-on backpack guide](travel-backpack-40l-carry-on.html).
 
 ## Our picks
 

@@ -46,6 +46,8 @@ Looking for a birthday gift instead? See our [birthday gift ideas for everyone](
 
 [[pick:B018VZBTLY]]
 
+Choosing a watch for him? Our [watch gift for husband guide](watch-gift-for-husband.html) compares six men's watches and has short messages for the card.
+
 **A leather wallet, keychain and pen in one gift box,** so there's nothing to wrap:
 
 [[pick:B0C3LRF94X]]
@@ -89,6 +91,8 @@ Not sure which scent she'd like? Our [perfume buying guide](perfume-buying-guide
 **Pair watches for mom and dad: Titan Bandhan.** Men's 47.3 mm and women's 40 mm dials on two-tone silver and rose gold straps, with a date display:
 
 [[pick:B07PY6CQYV]]
+
+Comparing pair watches? See our [couple watches guide](couple-watches.html): Titan, Sonata, Fastrack and Timex sets side by side.
 
 **Pair watches with blue dials: Sonata Bandhan.** Silver steel straps, water resistant to 30 m:
 

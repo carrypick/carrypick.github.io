@@ -80,6 +80,8 @@ Well-known brands in India, such as Titan, Fastrack, Sonata, Timex and Casio, ha
 
 ## Gift-buying tips
 
+Buying for your husband? See our [watch gift for husband guide](watch-gift-for-husband.html). For a his and hers pair, see [couple watches compared](couple-watches.html).
+
 1. If you don't know their wrist size, a **metal strap** is easiest because a shop can resize it.
 2. A **medium dial (36–40 mm)** is the safest size for men.
 3. Keep the box and invoice for the warranty.
