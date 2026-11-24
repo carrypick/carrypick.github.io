@@ -998,6 +998,46 @@
    }
   },
   {
+   "slug": "hampi",
+   "name": "Hampi",
+   "where": "india",
+   "guide": "trips/hampi-in-december.html",
+   "packing": "packing/weekend.html",
+   "spots": [
+    {
+     "name": "Ballari (nearest IMD station, about 65 km)",
+     "months": {
+      "dec": {
+       "day": 30.2,
+       "night": 15.6,
+       "rain_mm": 5.5
+      },
+      "jan": {
+       "day": 31.4,
+       "night": 15.6,
+       "rain_mm": 2.9
+      },
+      "feb": {
+       "day": 34.4,
+       "night": 18.1,
+       "rain_mm": 2.3
+      }
+     }
+    }
+   ],
+   "note": "Hot in the sun among the rocks by midday, pleasant in the early morning and evening. Cover shoulders and knees for temples.",
+   "source": {
+    "label": "IMD averages for Ballari (1981–2010), as tabled on Wikipedia",
+    "checked": "2026-11-24",
+    "url": "https://en.wikipedia.org/wiki/Bellary"
+   },
+   "snow_note": {
+    "dec": "No snow",
+    "jan": "No snow",
+    "feb": "No snow"
+   }
+  },
+  {
    "slug": "varanasi",
    "name": "Varanasi",
    "where": "india",
