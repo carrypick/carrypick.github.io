@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-24",
  "about": "Weather numbers come from official climate normals (IMD, DHM, the UAE's National Center of Meteorology), each with its source and checked date: a place's own 'source', or a month's 'src', a key in 'sources'. Never add a month we have no numbers for. Items can carry 'for' wording and 'picks_for' picks for women and men; the page shows the everyone wording without JS.",
  "months": [
   [
@@ -1326,6 +1326,31 @@
        "day": 31,
        "night": 21,
        "rain_mm": 10
+      },
+      "nov": {
+       "day": 32,
+       "night": 23,
+       "rain_mm": 48
+      },
+      "jan": {
+       "day": 32,
+       "night": 21,
+       "rain_mm": 9
+      },
+      "feb": {
+       "day": 33,
+       "night": 23,
+       "rain_mm": 30
+      },
+      "apr": {
+       "day": 35,
+       "night": 26,
+       "rain_mm": 65
+      },
+      "sep": {
+       "day": 32,
+       "night": 25,
+       "rain_mm": 344
       }
      }
     },
@@ -1906,6 +1931,1392 @@
     "label": "MeteoSwiss, Météo-France and the Italian Air Force Meteorological Service averages, published by the World Meteorological Organization, as in our Europe trip guide",
     "checked": "2026-11-21",
     "url": "https://worldweather.wmo.int/"
+   }
+  },
+  {
+   "slug": "seoul",
+   "name": "Seoul",
+   "where": "abroad",
+   "guide": "trips/south-korea-trip-from-india.html",
+   "packing": "guides/south-korea-packing-list.html",
+   "spots": [
+    {
+     "name": "Seoul",
+     "months": {
+      "jan": {
+       "day": 2,
+       "night": -6
+      },
+      "mar": {
+       "day": 11,
+       "night": 2
+      },
+      "apr": {
+       "day": 18,
+       "night": 8
+      },
+      "may": {
+       "day": 24,
+       "night": 14
+      },
+      "jul": {
+       "day": 29,
+       "night": 22,
+       "rain_text": "Very rainy"
+      },
+      "oct": {
+       "day": 20,
+       "night": 11
+      },
+      "nov": {
+       "day": 12,
+       "night": 4
+      },
+      "dec": {
+       "day": 4,
+       "night": -3
+      }
+     }
+    },
+    {
+     "name": "Busan",
+     "months": {
+      "jan": {
+       "day": 8,
+       "night": 0
+      },
+      "mar": {
+       "day": 14,
+       "night": 5
+      },
+      "apr": {
+       "day": 18,
+       "night": 10
+      },
+      "may": {
+       "day": 22,
+       "night": 15
+      },
+      "jul": {
+       "day": 28,
+       "night": 22
+      },
+      "oct": {
+       "day": 23,
+       "night": 15
+      },
+      "nov": {
+       "day": 17,
+       "night": 8
+      },
+      "dec": {
+       "day": 10,
+       "night": 2
+      }
+     }
+    },
+    {
+     "name": "Jeju",
+     "months": {
+      "jan": {
+       "day": 9,
+       "night": 4
+      },
+      "mar": {
+       "day": 13,
+       "night": 7
+      },
+      "apr": {
+       "day": 18,
+       "night": 11
+      },
+      "may": {
+       "day": 22,
+       "night": 15
+      },
+      "jul": {
+       "day": 29,
+       "night": 24
+      },
+      "oct": {
+       "day": 22,
+       "night": 16
+      },
+      "nov": {
+       "day": 16,
+       "night": 10
+      },
+      "dec": {
+       "day": 11,
+       "night": 6
+      }
+     }
+    }
+   ],
+   "note": "Indoors is heated, so wear layers you can take off. Wind makes Seoul feel colder than the number.",
+   "source": {
+    "label": "Korea Meteorological Administration averages (1991–2020) for Seoul, Busan and Jeju, published on the WMO's World Weather Information Service, as in our South Korea guide",
+    "checked": "2026-11-22",
+    "url": "https://worldweather.wmo.int/en/city.html?cityId=231"
+   }
+  },
+  {
+   "slug": "singapore",
+   "name": "Singapore",
+   "where": "abroad",
+   "guide": "trips/singapore-trip-from-india.html",
+   "packing": "guides/singapore-packing-list.html",
+   "spots": [
+    {
+     "name": "Singapore (Changi)",
+     "months": {
+      "dec": {
+       "day": 30.5,
+       "night": 24,
+       "rain_mm": 332
+      }
+     }
+    }
+   ],
+   "note": "Malls, the MRT and cinemas are cold, so carry one light layer. Carry an umbrella or a poncho.",
+   "source": {
+    "label": "Meteorological Service Singapore long-term averages (1991–2020) at Changi, as in our Singapore guide",
+    "checked": "2026-11-21",
+    "url": "https://www.weather.gov.sg/climate-climate-of-singapore/"
+   }
+  },
+  {
+   "slug": "hong-kong",
+   "name": "Hong Kong",
+   "where": "abroad",
+   "guide": "trips/hong-kong-trip-from-india.html",
+   "packing": "packing/abroad.html",
+   "spots": [
+    {
+     "name": "Hong Kong",
+     "months": {
+      "jun": {
+       "day": 31,
+       "night": 27,
+       "rain_mm": 492
+      },
+      "jul": {
+       "day": 32,
+       "night": 27,
+       "rain_mm": 386
+      },
+      "oct": {
+       "day": 28,
+       "night": 24,
+       "rain_mm": 120
+      },
+      "nov": {
+       "day": 25,
+       "night": 20,
+       "rain_mm": 39
+      },
+      "dec": {
+       "day": 20,
+       "night": 16,
+       "rain_mm": 29
+      },
+      "jan": {
+       "day": 19,
+       "night": 15,
+       "rain_mm": 33
+      },
+      "feb": {
+       "day": 19,
+       "night": 15,
+       "rain_mm": 39
+      }
+     }
+    }
+   ],
+   "note": "December evenings are cool: pack a light jacket or sweater, and a warmer layer for Victoria Peak and windy ferry rides.",
+   "source": {
+    "label": "Hong Kong Observatory monthly meteorological normals (1991–2020), as in our Hong Kong guide",
+    "checked": "2026-11-21",
+    "url": "https://www.hko.gov.hk/en/cis/normal/1991_2020/normals.htm"
+   }
+  },
+  {
+   "slug": "istanbul",
+   "name": "Istanbul and Cappadocia",
+   "where": "abroad",
+   "guide": "trips/turkey-trip-from-india.html",
+   "packing": "packing/abroad.html",
+   "spots": [
+    {
+     "name": "Istanbul",
+     "months": {
+      "nov": {
+       "day": 15,
+       "night": 9,
+       "rain_mm": 85
+      },
+      "dec": {
+       "day": 11,
+       "night": 5,
+       "rain_mm": 107
+      },
+      "jan": {
+       "day": 9,
+       "night": 3,
+       "rain_mm": 87
+      },
+      "feb": {
+       "day": 9,
+       "night": 3,
+       "rain_mm": 71
+      },
+      "apr": {
+       "day": 17,
+       "night": 8,
+       "rain_mm": 45
+      },
+      "jul": {
+       "day": 28,
+       "night": 19,
+       "rain_mm": 24
+      },
+      "oct": {
+       "day": 20,
+       "night": 12,
+       "rain_mm": 71
+      }
+     }
+    },
+    {
+     "name": "Cappadocia (Nevşehir)",
+     "months": {
+      "nov": {
+       "day": 12,
+       "night": 2
+      },
+      "dec": {
+       "day": 6,
+       "night": -2
+      },
+      "jan": {
+       "day": 4,
+       "night": -4
+      },
+      "feb": {
+       "day": 5,
+       "night": -3
+      },
+      "apr": {
+       "day": 16,
+       "night": 5
+      },
+      "jul": {
+       "day": 28,
+       "night": 13
+      },
+      "oct": {
+       "day": 18,
+       "night": 6
+      }
+     }
+    }
+   ],
+   "note": "December is Istanbul's wettest month: pack warm, waterproof clothes. Cappadocia drops below freezing at night.",
+   "source": {
+    "label": "Turkish State Meteorological Service averages for Istanbul and Nevşehir on the WMO's World Weather Information Service, as in our Turkey guide",
+    "checked": "2026-11-21",
+    "url": "https://worldweather.wmo.int/en/city.html?cityId=47"
+   }
+  },
+  {
+   "slug": "baku",
+   "name": "Baku",
+   "where": "abroad",
+   "guide": "trips/azerbaijan-trip-from-india.html",
+   "packing": "packing/abroad.html",
+   "spots": [
+    {
+     "name": "Baku",
+     "months": {
+      "nov": {
+       "day": 14,
+       "night": 9,
+       "rain_mm": 30
+      },
+      "dec": {
+       "day": 10,
+       "night": 5,
+       "rain_mm": 26
+      },
+      "jan": {
+       "day": 7,
+       "night": 2,
+       "rain_mm": 21
+      },
+      "feb": {
+       "day": 6,
+       "night": 2,
+       "rain_mm": 20
+      },
+      "apr": {
+       "day": 16,
+       "night": 9,
+       "rain_mm": 18
+      },
+      "jul": {
+       "day": 31,
+       "night": 22,
+       "rain_mm": 2
+      },
+      "oct": {
+       "day": 20,
+       "night": 14,
+       "rain_mm": 25
+      }
+     }
+    }
+   ],
+   "note": "December in Baku is cool, not snowy. For snow, go up to the mountains around Shahdag or Gabala.",
+   "source": {
+    "label": "Azerbaijan National Hydrometeorological Service averages for Baku on the WMO's World Weather Information Service, as in our Azerbaijan guide",
+    "checked": "2026-11-21",
+    "url": "https://worldweather.wmo.int/en/city.html?cityId=18"
+   }
+  },
+  {
+   "slug": "almaty",
+   "name": "Almaty",
+   "where": "abroad",
+   "guide": "trips/kazakhstan-trip-from-india.html",
+   "packing": "packing/abroad.html",
+   "spots": [
+    {
+     "name": "Almaty",
+     "months": {
+      "nov": {
+       "day": 6,
+       "night": -3,
+       "rain_mm": 51
+      },
+      "dec": {
+       "day": 0,
+       "night": -9,
+       "rain_mm": 37
+      },
+      "jan": {
+       "day": -1,
+       "night": -11,
+       "rain_mm": 33
+      },
+      "feb": {
+       "day": 0,
+       "night": -10,
+       "rain_mm": 38
+      },
+      "mar": {
+       "day": 7,
+       "night": -2,
+       "rain_mm": 62
+      },
+      "may": {
+       "day": 22,
+       "night": 11,
+       "rain_mm": 104
+      },
+      "jul": {
+       "day": 30,
+       "night": 18,
+       "rain_mm": 35
+      },
+      "sep": {
+       "day": 23,
+       "night": 11,
+       "rain_mm": 28
+      }
+     }
+    }
+   ],
+   "note": "Pack thermals, a padded jacket and boots with a good grip. Winter precipitation here falls as rain or snow.",
+   "source": {
+    "label": "Kazhydromet averages for Almaty on the WMO's World Weather Information Service, as in our Kazakhstan guide",
+    "checked": "2026-11-21",
+    "url": "https://worldweather.wmo.int/en/city.html?cityId=152"
+   },
+   "snow": {
+    "dec": "Snow some days in December, says our Kazakhstan guide"
+   }
+  },
+  {
+   "slug": "muscat",
+   "name": "Oman",
+   "where": "abroad",
+   "guide": "trips/oman-trip-from-india.html",
+   "packing": "packing/abroad.html",
+   "spots": [
+    {
+     "name": "Muscat",
+     "months": {
+      "jan": {
+       "day": 25,
+       "night": 17
+      },
+      "mar": {
+       "day": 30,
+       "night": 20
+      },
+      "may": {
+       "day": 40,
+       "night": 29
+      },
+      "jun": {
+       "day": 40,
+       "night": 30
+      },
+      "aug": {
+       "day": 36,
+       "night": 28
+      },
+      "oct": {
+       "day": 35,
+       "night": 24
+      },
+      "nov": {
+       "day": 30,
+       "night": 21
+      },
+      "dec": {
+       "day": 27,
+       "night": 18
+      }
+     }
+    },
+    {
+     "name": "Nizwa (inland)",
+     "months": {
+      "jan": {
+       "day": 26,
+       "night": 12
+      },
+      "mar": {
+       "day": 33,
+       "night": 17
+      },
+      "may": {
+       "day": 42,
+       "night": 26
+      },
+      "jun": {
+       "day": 44,
+       "night": 28
+      },
+      "aug": {
+       "day": 42,
+       "night": 27
+      },
+      "oct": {
+       "day": 37,
+       "night": 21
+      },
+      "nov": {
+       "day": 32,
+       "night": 18
+      },
+      "dec": {
+       "day": 28,
+       "night": 14
+      }
+     }
+    },
+    {
+     "name": "Salalah (south)",
+     "months": {
+      "jan": {
+       "day": 28,
+       "night": 19
+      },
+      "mar": {
+       "day": 30,
+       "night": 22
+      },
+      "may": {
+       "day": 33,
+       "night": 27
+      },
+      "jun": {
+       "day": 32,
+       "night": 27
+      },
+      "aug": {
+       "day": 27,
+       "night": 24,
+       "rain_text": "Monsoon drizzle"
+      },
+      "oct": {
+       "day": 31,
+       "night": 23
+      },
+      "nov": {
+       "day": 31,
+       "night": 22
+      },
+      "dec": {
+       "day": 29,
+       "night": 20
+      }
+     }
+    }
+   ],
+   "note": "May to September is very hot in the north, so plan sightseeing for early morning. Salalah is green and cool in its July and August monsoon.",
+   "source": {
+    "label": "Oman Directorate General of Meteorology averages for Muscat, Nizwa and Salalah on the WMO's World Weather Information Service, as in our Oman guide",
+    "checked": "2026-11-23",
+    "url": "https://worldweather.wmo.int/en/city.html?cityId=112"
+   }
+  },
+  {
+   "slug": "uzbekistan",
+   "name": "Tashkent and Samarkand",
+   "where": "abroad",
+   "guide": "trips/uzbekistan-trip-from-india.html",
+   "packing": "packing/abroad.html",
+   "spots": [
+    {
+     "name": "Tashkent",
+     "months": {
+      "jan": {
+       "day": 6,
+       "night": -3
+      },
+      "mar": {
+       "day": 14,
+       "night": 4
+      },
+      "apr": {
+       "day": 22,
+       "night": 10
+      },
+      "may": {
+       "day": 27,
+       "night": 14
+      },
+      "jul": {
+       "day": 36,
+       "night": 19
+      },
+      "sep": {
+       "day": 29,
+       "night": 12
+      },
+      "oct": {
+       "day": 21,
+       "night": 7
+      },
+      "dec": {
+       "day": 9,
+       "night": 0
+      }
+     }
+    },
+    {
+     "name": "Samarkand",
+     "months": {
+      "jan": {
+       "day": 6,
+       "night": -4
+      },
+      "mar": {
+       "day": 14,
+       "night": 3
+      },
+      "apr": {
+       "day": 21,
+       "night": 9
+      },
+      "may": {
+       "day": 26,
+       "night": 13
+      },
+      "jul": {
+       "day": 34,
+       "night": 18
+      },
+      "sep": {
+       "day": 28,
+       "night": 11
+      },
+      "oct": {
+       "day": 21,
+       "night": 6
+      },
+      "dec": {
+       "day": 9,
+       "night": -1
+      }
+     }
+    }
+   ],
+   "note": "Summer is hot and dry, so start early and rest at midday. Winter nights are near freezing.",
+   "source": {
+    "label": "Uzhydromet averages for Tashkent and Samarkand on the WMO's World Weather Information Service, as in our Uzbekistan guide",
+    "checked": "2026-11-23",
+    "url": "https://worldweather.wmo.int/en/city.html?cityId=115"
+   }
+  },
+  {
+   "slug": "manila",
+   "name": "Manila",
+   "where": "abroad",
+   "guide": "trips/philippines-trip-from-india.html",
+   "packing": "packing/abroad.html",
+   "spots": [
+    {
+     "name": "Manila",
+     "months": {
+      "jan": {
+       "day": 30,
+       "night": 24,
+       "rain_mm": 19
+      },
+      "feb": {
+       "day": 31,
+       "night": 24,
+       "rain_mm": 8
+      },
+      "apr": {
+       "day": 34,
+       "night": 26,
+       "rain_mm": 21
+      },
+      "may": {
+       "day": 33,
+       "night": 27,
+       "rain_mm": 165
+      },
+      "jul": {
+       "day": 31,
+       "night": 26,
+       "rain_mm": 420
+      },
+      "aug": {
+       "day": 31,
+       "night": 26,
+       "rain_mm": 486
+      },
+      "oct": {
+       "day": 31,
+       "night": 26,
+       "rain_mm": 271
+      },
+      "dec": {
+       "day": 30,
+       "night": 24,
+       "rain_mm": 75
+      }
+     }
+    }
+   ],
+   "note": "It's warm all year. Rain starts in May and peaks in July and August, so carry a poncho then.",
+   "source": {
+    "label": "PAGASA averages for Metro Manila on the WMO's World Weather Information Service, as in our Philippines guide",
+    "checked": "2026-11-23",
+    "url": "https://worldweather.wmo.int/en/city.html?cityId=92"
+   }
+  },
+  {
+   "slug": "siem-reap",
+   "name": "Siem Reap",
+   "where": "abroad",
+   "guide": "trips/cambodia-trip-from-india.html",
+   "packing": "packing/abroad.html",
+   "spots": [
+    {
+     "name": "Siem Reap",
+     "months": {
+      "jan": {
+       "day": 31,
+       "night": 20,
+       "rain_mm": 4
+      },
+      "feb": {
+       "day": 32,
+       "night": 21,
+       "rain_mm": 4
+      },
+      "apr": {
+       "day": 35,
+       "night": 24,
+       "rain_mm": 48
+      },
+      "may": {
+       "day": 35,
+       "night": 25,
+       "rain_mm": 143
+      },
+      "jul": {
+       "day": 33,
+       "night": 24,
+       "rain_mm": 170
+      },
+      "sep": {
+       "day": 32,
+       "night": 25,
+       "rain_mm": 305
+      },
+      "nov": {
+       "day": 32,
+       "night": 22,
+       "rain_mm": 62
+      },
+      "dec": {
+       "day": 31,
+       "night": 20,
+       "rain_mm": 7
+      }
+     }
+    },
+    {
+     "name": "Phnom Penh",
+     "months": {
+      "jan": {
+       "day": 31,
+       "night": 22
+      },
+      "feb": {
+       "day": 33,
+       "night": 23
+      },
+      "apr": {
+       "day": 35,
+       "night": 25
+      },
+      "may": {
+       "day": 34,
+       "night": 25
+      },
+      "jul": {
+       "day": 32,
+       "night": 25
+      },
+      "sep": {
+       "day": 32,
+       "night": 24
+      },
+      "nov": {
+       "day": 30,
+       "night": 23
+      },
+      "dec": {
+       "day": 30,
+       "night": 21
+      }
+     }
+    }
+   ],
+   "note": "March to May is the hottest time: visit the temples at sunrise and rest at midday.",
+   "source": {
+    "label": "Cambodia Ministry of Water Resources and Meteorology averages for Siem Reap and Phnom Penh on the WMO's World Weather Information Service, as in our Cambodia guide",
+    "checked": "2026-11-23",
+    "url": "https://worldweather.wmo.int/en/city.html?cityId=347"
+   }
+  },
+  {
+   "slug": "sydney",
+   "name": "Sydney and Melbourne",
+   "where": "abroad",
+   "guide": "trips/australia-trip-from-india.html",
+   "packing": "guides/australia-packing-list-for-indian-students.html",
+   "spots": [
+    {
+     "name": "Sydney",
+     "months": {
+      "jan": {
+       "day": 27,
+       "night": 20,
+       "rain_mm": 96
+      },
+      "mar": {
+       "day": 25,
+       "night": 18,
+       "rain_mm": 111
+      },
+      "apr": {
+       "day": 23,
+       "night": 15,
+       "rain_mm": 141
+      },
+      "jul": {
+       "day": 17,
+       "night": 9,
+       "rain_mm": 80
+      },
+      "sep": {
+       "day": 21,
+       "night": 12,
+       "rain_mm": 70
+      },
+      "oct": {
+       "day": 23,
+       "night": 14,
+       "rain_mm": 83
+      },
+      "nov": {
+       "day": 24,
+       "night": 16,
+       "rain_mm": 104
+      },
+      "dec": {
+       "day": 26,
+       "night": 18,
+       "rain_mm": 79
+      }
+     }
+    },
+    {
+     "name": "Melbourne",
+     "months": {
+      "jan": {
+       "day": 26,
+       "night": 16,
+       "rain_mm": 45
+      },
+      "mar": {
+       "day": 24,
+       "night": 15,
+       "rain_mm": 41
+      },
+      "apr": {
+       "day": 21,
+       "night": 12,
+       "rain_mm": 50
+      },
+      "jul": {
+       "day": 14,
+       "night": 7,
+       "rain_mm": 45
+      },
+      "sep": {
+       "day": 18,
+       "night": 9,
+       "rain_mm": 53
+      },
+      "oct": {
+       "day": 20,
+       "night": 11,
+       "rain_mm": 59
+      },
+      "nov": {
+       "day": 23,
+       "night": 13,
+       "rain_mm": 63
+      },
+      "dec": {
+       "day": 24,
+       "night": 14,
+       "rain_mm": 63
+      }
+     }
+    }
+   ],
+   "note": "Seasons are the reverse of India's. Winter (June to August) is cool, not freezing, in Sydney and Melbourne.",
+   "source": {
+    "label": "Australian Bureau of Meteorology averages for Sydney and Melbourne on the WMO's World Weather Information Service, as in our Australia guide",
+    "checked": "2026-11-21",
+    "url": "https://worldweather.wmo.int/en/city.html?cityId=300"
+   }
+  },
+  {
+   "slug": "auckland",
+   "name": "Auckland",
+   "where": "abroad",
+   "guide": "trips/new-zealand-trip-from-india.html",
+   "packing": "packing/abroad.html",
+   "spots": [
+    {
+     "name": "Auckland",
+     "months": {
+      "jan": {
+       "day": 24,
+       "night": 16
+      },
+      "apr": {
+       "day": 20,
+       "night": 13
+      },
+      "jul": {
+       "day": 14,
+       "night": 8
+      },
+      "oct": {
+       "day": 18,
+       "night": 11
+      },
+      "nov": {
+       "day": 20,
+       "night": 13
+      },
+      "dec": {
+       "day": 22,
+       "night": 15
+      }
+     }
+    }
+   ],
+   "note": "Seasons are the reverse of India's. July is Auckland's wettest month, and the colder south is colder still.",
+   "source": {
+    "label": "MetService (New Zealand) averages (1981–2010) for Auckland on the WMO's World Weather Information Service, as in our New Zealand guide",
+    "checked": "2026-11-23",
+    "url": "https://worldweather.wmo.int/en/city.html?cityId=538"
+   }
+  },
+  {
+   "slug": "toronto",
+   "name": "Toronto",
+   "where": "abroad",
+   "guide": "trips/canada-trip-from-india.html",
+   "packing": "guides/canada-packing-list.html",
+   "spots": [
+    {
+     "name": "Toronto",
+     "months": {
+      "jan": {
+       "day": -1,
+       "night": -7
+      },
+      "apr": {
+       "day": 11,
+       "night": 4
+      },
+      "jul": {
+       "day": 26,
+       "night": 18
+      },
+      "oct": {
+       "day": 14,
+       "night": 7
+      },
+      "nov": {
+       "day": 7,
+       "night": 2
+      },
+      "dec": {
+       "day": 2,
+       "night": -4
+      }
+     }
+    }
+   ],
+   "note": "Winter here is long and cold. Wear thermals, a padded jacket, gloves and a cap.",
+   "source": {
+    "label": "Meteorological Service of Canada (Environment and Climate Change Canada) averages (1971–2000) for Toronto on the WMO's World Weather Information Service, as in our Canada guide",
+    "checked": "2026-11-23",
+    "url": "https://worldweather.wmo.int/en/city.html?cityId=264"
+   },
+   "snow": {
+    "jan": "Snow in January, says our Canada guide"
+   }
+  },
+  {
+   "slug": "vancouver",
+   "name": "Vancouver",
+   "where": "abroad",
+   "guide": "trips/canada-trip-from-india.html",
+   "packing": "guides/canada-packing-list.html",
+   "spots": [
+    {
+     "name": "Vancouver",
+     "months": {
+      "jan": {
+       "day": 6,
+       "night": 1,
+       "rain_text": "Wet"
+      },
+      "apr": {
+       "day": 13,
+       "night": 5
+      },
+      "jul": {
+       "day": 22,
+       "night": 13,
+       "rain_text": "Dry"
+      },
+      "oct": {
+       "day": 14,
+       "night": 7
+      },
+      "nov": {
+       "day": 9,
+       "night": 3,
+       "rain_text": "The wettest month"
+      },
+      "dec": {
+       "day": 6,
+       "night": 1,
+       "rain_text": "Wet"
+      }
+     }
+    }
+   ],
+   "note": "Winters are mild but wet, so a waterproof jacket matters more than a heavy coat.",
+   "source": {
+    "label": "Meteorological Service of Canada (Environment and Climate Change Canada) averages (1971–2000) for Vancouver on the WMO's World Weather Information Service, as in our Canada guide",
+    "checked": "2026-11-23",
+    "url": "https://worldweather.wmo.int/en/city.html?cityId=266"
+   }
+  },
+  {
+   "slug": "nairobi",
+   "name": "Nairobi and Masai Mara",
+   "where": "abroad",
+   "guide": "trips/kenya-safari-from-india.html",
+   "packing": "guides/kenya-safari-packing-list.html",
+   "spots": [
+    {
+     "name": "Nairobi",
+     "months": {
+      "jan": {
+       "day": 25,
+       "night": 12,
+       "rain_text": "Dry"
+      },
+      "apr": {
+       "day": 24,
+       "night": 14,
+       "rain_text": "The wettest month"
+      },
+      "jul": {
+       "day": 21,
+       "night": 10,
+       "rain_text": "Cool and dry"
+      },
+      "oct": {
+       "day": 25,
+       "night": 13
+      },
+      "nov": {
+       "day": 23,
+       "night": 13,
+       "rain_text": "The short rains"
+      },
+      "dec": {
+       "day": 23,
+       "night": 13
+      }
+     }
+    },
+    {
+     "name": "Narok (Masai Mara)",
+     "months": {
+      "jan": {
+       "day": 27,
+       "night": 9
+      },
+      "apr": {
+       "day": 25,
+       "night": 12,
+       "rain_text": "Wet"
+      },
+      "jul": {
+       "day": 22,
+       "night": 9,
+       "rain_text": "Dry"
+      },
+      "oct": {
+       "day": 26,
+       "night": 10,
+       "rain_text": "Dry"
+      },
+      "nov": {
+       "day": 25,
+       "night": 10
+      },
+      "dec": {
+       "day": 26,
+       "night": 9
+      }
+     }
+    },
+    {
+     "name": "Mombasa (coast)",
+     "months": {
+      "jan": {
+       "day": 32,
+       "night": 23
+      },
+      "apr": {
+       "day": 31,
+       "night": 24,
+       "rain_text": "Rain begins"
+      },
+      "jul": {
+       "day": 28,
+       "night": 20
+      },
+      "oct": {
+       "day": 30,
+       "night": 22
+      },
+      "nov": {
+       "day": 31,
+       "night": 23
+      },
+      "dec": {
+       "day": 32,
+       "night": 23
+      }
+     }
+    }
+   ],
+   "note": "Nights are cool in Nairobi and the Mara, about 9 to 13 °C, so carry a warm layer. The coast is hot all year.",
+   "source": {
+    "label": "Kenya Meteorological Department averages for Nairobi, Narok and Mombasa on the WMO's World Weather Information Service, as in our Kenya safari guide",
+    "checked": "2026-11-23",
+    "url": "https://worldweather.wmo.int/en/city.html?cityId=251"
+   }
+  },
+  {
+   "slug": "new-york",
+   "name": "New York",
+   "where": "abroad",
+   "guide": "trips/usa-trip-from-india.html",
+   "packing": "guides/usa-packing-list-for-indian-students.html",
+   "spots": [
+    {
+     "name": "New York",
+     "months": {
+      "jan": {
+       "day": 4,
+       "night": -3
+      },
+      "apr": {
+       "day": 16,
+       "night": 7
+      },
+      "jul": {
+       "day": 29,
+       "night": 20
+      },
+      "oct": {
+       "day": 18,
+       "night": 10
+      },
+      "nov": {
+       "day": 12,
+       "night": 5
+      },
+      "dec": {
+       "day": 6,
+       "night": 0
+      }
+     }
+    }
+   ],
+   "note": "January is the coldest month. Pack thermals, a padded coat, gloves and warm, grippy shoes for December to February.",
+   "source": {
+    "label": "US National Weather Service averages (1981–2010) for New York on the WMO's World Weather Information Service, as in our USA guide",
+    "checked": "2026-11-22",
+    "url": "https://worldweather.wmo.int/en/city.html?cityId=278"
+   }
+  },
+  {
+   "slug": "cairo",
+   "name": "Cairo, Luxor and Hurghada",
+   "where": "abroad",
+   "guide": "trips/egypt-trip-from-india.html",
+   "packing": "packing/abroad.html",
+   "spots": [
+    {
+     "name": "Cairo",
+     "months": {
+      "jan": {
+       "day": 19,
+       "night": 10
+      },
+      "mar": {
+       "day": 23,
+       "night": 12
+      },
+      "may": {
+       "day": 32,
+       "night": 18
+      },
+      "jul": {
+       "day": 35,
+       "night": 23
+      },
+      "oct": {
+       "day": 30,
+       "night": 19
+      },
+      "nov": {
+       "day": 25,
+       "night": 15
+      },
+      "dec": {
+       "day": 20,
+       "night": 11
+      }
+     }
+    },
+    {
+     "name": "Luxor",
+     "months": {
+      "jan": {
+       "day": 23,
+       "night": 6
+      },
+      "mar": {
+       "day": 30,
+       "night": 12
+      },
+      "may": {
+       "day": 39,
+       "night": 21
+      },
+      "jul": {
+       "day": 41,
+       "night": 25
+      },
+      "oct": {
+       "day": 35,
+       "night": 18
+      },
+      "nov": {
+       "day": 29,
+       "night": 12
+      },
+      "dec": {
+       "day": 24,
+       "night": 8
+      }
+     }
+    },
+    {
+     "name": "Hurghada (Red Sea)",
+     "months": {
+      "jan": {
+       "day": 22,
+       "night": 11
+      },
+      "mar": {
+       "day": 25,
+       "night": 14
+      },
+      "may": {
+       "day": 32,
+       "night": 22
+      },
+      "jul": {
+       "day": 35,
+       "night": 27
+      },
+      "oct": {
+       "day": 31,
+       "night": 22
+      },
+      "nov": {
+       "day": 27,
+       "night": 17
+      },
+      "dec": {
+       "day": 23,
+       "night": 13
+      }
+     }
+    }
+   ],
+   "note": "Winter nights are cool, about 6 to 8 °C in Luxor in December and January, so carry a warm layer for early starts. Summer is very hot.",
+   "source": {
+    "label": "Egyptian Meteorological Authority averages for Cairo, Luxor and Hurghada on the WMO's World Weather Information Service, as in our Egypt guide",
+    "checked": "2026-11-22",
+    "url": "https://worldweather.wmo.int/en/city.html?cityId=248"
+   }
+  },
+  {
+   "slug": "london",
+   "name": "London and Edinburgh",
+   "where": "abroad",
+   "guide": "trips/uk-trip-from-india.html",
+   "packing": "guides/uk-packing-list-for-indian-students.html",
+   "spots": [
+    {
+     "name": "London",
+     "months": {
+      "jan": {
+       "day": 8,
+       "night": 3,
+       "rain_mm": 42
+      },
+      "mar": {
+       "day": 12,
+       "night": 5,
+       "rain_mm": 40
+      },
+      "may": {
+       "day": 18,
+       "night": 9,
+       "rain_mm": 45
+      },
+      "jul": {
+       "day": 23,
+       "night": 14,
+       "rain_mm": 35
+      },
+      "sep": {
+       "day": 20,
+       "night": 11,
+       "rain_mm": 51
+      },
+      "oct": {
+       "day": 16,
+       "night": 9,
+       "rain_mm": 61
+      },
+      "dec": {
+       "day": 8,
+       "night": 3,
+       "rain_mm": 48
+      }
+     }
+    },
+    {
+     "name": "Edinburgh",
+     "months": {
+      "jan": {
+       "day": 7,
+       "night": 1
+      },
+      "mar": {
+       "day": 10,
+       "night": 3
+      },
+      "may": {
+       "day": 15,
+       "night": 7
+      },
+      "jul": {
+       "day": 19,
+       "night": 12
+      },
+      "sep": {
+       "day": 17,
+       "night": 9
+      },
+      "oct": {
+       "day": 13,
+       "night": 7
+      },
+      "dec": {
+       "day": 7,
+       "night": 1
+      }
+     }
+    }
+   ],
+   "note": "December is cold and dark early. Edinburgh is colder and windier, around freezing at night.",
+   "source": {
+    "label": "Met Office averages for London and Edinburgh on the WMO's World Weather Information Service, as in our UK guide",
+    "checked": "2026-11-21",
+    "url": "https://worldweather.wmo.int/en/city.html?cityId=32"
    }
   }
  ],
