@@ -32,7 +32,7 @@ Buying for an anniversary instead? See our [anniversary gift ideas for husband, 
 | Your father | [Casio leather strap watch](../picks/B07DD25LJ8.html) or a [leather belt with an auto-lock buckle](../picks/B0CXF2K4K7.html) |
 | Your mother | [Titan Karishma watch](../picks/B07CR1JQBY.html) or a [satchel bag](../picks/B0B3JBRB6J.html) |
 | A friend | [Fastrack minimal watch](../picks/B099WNYHY2.html) or a [perfume set for men and women](../picks/B0DSVXW4GD.html) |
-| Kids | [Zoop by Titan kids' watch](../picks/B0BS3M2XQV.html) or a [school bag](../picks/B0GLNP4FCQ.html) |
+| Kids | [Zoop by Titan kids' watch](../picks/B0BS3M2XQV.html) or a [school bag](../picks/B0GLNP4FCQ.html); more in [birthday gifts for kids by age](birthday-gift-ideas-for-kids.html) |
 
 ## How to choose a birthday gift
 
@@ -125,7 +125,7 @@ If she carries a laptop to work, the [Zouk office tote](../picks/B0DGQNLJX7.html
 
 [[pick:B0GF7ZH2QN]]
 
-More ideas by age are in our [gifts for kids guide](christmas-gifts-for-kids.html). Most of them work for a birthday too.
+More ideas by age, from a 1st birthday to teens, are in our [birthday gifts for kids guide](birthday-gift-ideas-for-kids.html). Throwing the party? See our [return gift ideas](return-gift-ideas.html) for the guests.
 
 ## For your brother
 

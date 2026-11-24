@@ -1400,6 +1400,37 @@ def draw_baby(d, limit):
             out += R(cx - w / 2, top + 40 + i * tier, w, tier - 4, 9)
         out += dim_v(cx - w / 2 - 22, top, FLOOR, n(max(dims)) + " cm", "high")
         alt = "Simple drawing of a stacked three-layer milk powder and food container with a funnel lid"
+    elif "art" in kind or "colouring" in kind or "pens" in kind or "drawing" in kind:
+        out = floor + R(130, 150, 220, 112, 10) + R(146, 166, 188, 80, 6, "s k", 1.4)
+        if "pens" in kind:
+            for i in range(9):
+                x = 160 + i * 20
+                out += R(x, 74 + (i % 3) * 8, 12, 86, 5, "a k" if i % 2 else "p", 1.4) + R(x, 66 + (i % 3) * 8, 12, 14, 4, "s k", 1.2)
+            alt = "Simple drawing of a set of sketch pens with caps standing in a box"
+        else:
+            for i in range(6):
+                x = 150 + i * 30
+                out += (P(D("M%s %s V%s L%s %s L%s %s V%sZ", x, 150, 96 + (i % 2) * 12, x + 7, 80 + (i % 2) * 12,
+                            x + 14, 96 + (i % 2) * 12, 150), "a k" if i % 2 else "p", 1.4))
+            out += R(300, 104, 40, 46, 4, "s k", 1.4) + L(306, 118, 334, 118, "k", 1, ' opacity=".4"')
+            alt = "Simple drawing of a kids' art kit: colour pencils and crayons standing in a box with a drawing book"
+    elif "puzzle" in kind:
+        out = floor
+        for i, (x, y) in enumerate(((150, 120), (240, 120), (150, 196), (240, 196))):
+            out += R(x, y, 86, 72, 6, "a k" if i in (1, 2) else "f k", 2) + C(x + 86, y + 36, 11, "a k" if i in (1, 2) else "f k")
+        alt = "Simple drawing of four big jigsaw puzzle pieces fitted together"
+    elif "game" in kind:
+        out = floor + P("M120 236 L184 120 H296 L360 236Z") + P("M150 222 L196 136 H284 L330 222Z", "s k", 1.4)
+        for i in range(5):
+            out += C(206 + i * 18, 178 - (i % 2) * 14, 6, "p")
+        out += R(300, 236, 56, 22, 4, "a k", 1.6) + R(310, 230, 56, 22, 4, "f k", 1.6)
+        alt = "Simple drawing of a board game laid out on a table, with counters and a deck of cards"
+    elif "toy" in kind or "stacking" in kind:
+        out = floor + R(234, 96, 12, 150, 5, "p", 0)
+        for i, w in enumerate((150, 124, 98, 72)):
+            out += R(240 - w / 2, 226 - i * 32, w, 30, 15, "a k" if i % 2 else "f k", 2)
+        out += C(240, 92, 14, "a k")
+        alt = "Simple drawing of baby stacking rings on a post"
     else:
         return generic(d, "a baby travel item")
     return dict(inner=out + bottom_info(main, sub, 300 if "container" not in kind else 304), legend=False, info=[], scaled=False, alt=alt)

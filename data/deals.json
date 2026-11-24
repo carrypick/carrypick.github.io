@@ -1,5 +1,293 @@
 [
   {
+    "asin": "9390093953",
+    "added_at": "2026-11-24T10:54:23+05:30",
+    "title": "Wonder House Books 101 Tales: The Great Panchatantra Collection, hardcover",
+    "category": "books",
+    "subcategory": "kids-story-books",
+    "highlights": [
+      "101 Panchatantra stories in simple English",
+      "Hardcover, 160 pages",
+      "Reading age 3 to 8 years (as listed)"
+    ],
+    "note": "The animal stories Indian grandparents tell, in one big book for a birthday.",
+    "brand": "Wonder House Books",
+    "best_for": [
+      "Ages 4 to 8",
+      "Birthday gift"
+    ],
+    "specs": {
+      "Type": "Story collection",
+      "Format": "Hardcover",
+      "Pages": "160",
+      "Language": "English",
+      "Reading age": "3 to 8 years",
+      "Size": "21.59 x 1.2 x 27.94 cm"
+    },
+    "skip_if": "you want a gift to pack for a trip: it's a big, 800 g hardcover."
+  },
+  {
+    "asin": "9354409768",
+    "added_at": "2026-11-24T10:54:23+05:30",
+    "title": "Wonder House Books Moral Storybooks for Kids, set of 10 illustrated books, paperback",
+    "category": "books",
+    "subcategory": "kids-story-books",
+    "highlights": [
+      "10 picture books of classic moral stories, like The Ant and the Grasshopper",
+      "Reading age 2 to 6 years (as listed)",
+      "160 pages in all, 380 g"
+    ],
+    "note": "Ten bedtime stories to read aloud, then read alone later.",
+    "brand": "Wonder House Books",
+    "best_for": [
+      "Ages 3 to 6",
+      "Birthday gift"
+    ],
+    "specs": {
+      "Type": "Story book set",
+      "Format": "Paperback",
+      "Books": "10",
+      "Pages": "160",
+      "Language": "English",
+      "Reading age": "2 to 6 years",
+      "Size": "14.4 x 2.26 x 21.7 cm"
+    },
+    "skip_if": "the child is 8 or older: these are short picture stories."
+  },
+  {
+    "asin": "9387779262",
+    "added_at": "2026-11-24T10:54:23+05:30",
+    "title": "Wonder House Books My First Library, box set of 10 board books, ages 0 to 3",
+    "category": "books",
+    "subcategory": "kids-story-books",
+    "highlights": [
+      "10 board books: ABC, numbers, shapes, colours, animals, birds, fruits, vegetables and transport",
+      "Thick board pages for small hands",
+      "In a box, 820 g"
+    ],
+    "note": "A first birthday gift that lasts: little ones learn words from it for the next two years.",
+    "brand": "Wonder House Books",
+    "best_for": [
+      "1st birthday",
+      "Ages 1 to 3"
+    ],
+    "specs": {
+      "Type": "Board book box set",
+      "Format": "Board book",
+      "Books": "10",
+      "Pages": "220",
+      "Language": "English",
+      "Reading age": "1 year and up",
+      "Size": "13.5 x 9.2 x 10.4 cm"
+    },
+    "skip_if": "the child already reads: it's for babies and toddlers."
+  },
+  {
+    "asin": "B095Y5Q26G",
+    "added_at": "2026-11-24T10:54:23+05:30",
+    "title": "Funskool Giggles Baby's Gift Set: stacking rings, teether and rattle, 6 months and up",
+    "category": "baby-kids",
+    "subcategory": "kids-gifts",
+    "highlights": [
+      "Stacking rings, a butterfly teether and a rattle in one gift set",
+      "For babies of 6 months and up (as listed)",
+      "From Giggles, Funskool's baby range"
+    ],
+    "note": "A first birthday gift that babies grab, shake and stack.",
+    "brand": "Funskool",
+    "colour": "Multicolour",
+    "best_for": [
+      "1st birthday",
+      "Baby shower"
+    ],
+    "specs": {
+      "Type": "Baby toy set",
+      "Contents": "Stacking rings, teether, rattle",
+      "Age": "6 months and up",
+      "Size": "30.5 x 17.8 x 4 cm (as listed)"
+    },
+    "skip_if": "the child is 2 or older: they will soon outgrow it."
+  },
+  {
+    "asin": "B009T08INS",
+    "added_at": "2026-11-24T10:54:23+05:30",
+    "title": "Frank Disney The Lion King jigsaw puzzle, 108 pieces, ages 6 and up (11830)",
+    "category": "baby-kids",
+    "subcategory": "kids-gifts",
+    "highlights": [
+      "108 pieces",
+      "For ages 6 and up (as listed)",
+      "Cardboard, printed with non-toxic inks (as listed)"
+    ],
+    "note": "A step up from first puzzles, with characters kids already know.",
+    "brand": "Frank",
+    "colour": "Multicolour",
+    "best_for": [
+      "Ages 6 to 9",
+      "Birthday gift"
+    ],
+    "specs": {
+      "Type": "Jigsaw puzzle",
+      "Pieces": "108",
+      "Age": "6 years and up",
+      "Size": "31 x 22.7 cm (as listed)"
+    },
+    "skip_if": "the child is under 5: start with a set of small puzzles."
+  },
+  {
+    "asin": "B09NKYWRD2",
+    "added_at": "2026-11-24T10:54:23+05:30",
+    "title": "Funskool The Original Sequence board and card game, 2 to 12 players, ages 7 and up",
+    "category": "baby-kids",
+    "subcategory": "kids-gifts",
+    "highlights": [
+      "A foldable board, playing cards and marker chips",
+      "2 to 12 players, alone or in teams",
+      "Ages 7 and up, so the whole family can play"
+    ],
+    "note": "A birthday gift the whole family plays together: easy rules, and grown-ups enjoy it too.",
+    "brand": "Funskool",
+    "colour": "Multicolour",
+    "best_for": [
+      "Ages 7 and up",
+      "Family game night"
+    ],
+    "specs": {
+      "Type": "Board and card game",
+      "Players": "2 to 12",
+      "Age": "7 years and up"
+    },
+    "skip_if": "the child is under 7: the strategy will be hard for them."
+  },
+  {
+    "asin": "B07VL9N85V",
+    "added_at": "2026-11-24T10:54:23+05:30",
+    "title": "Faber-Castell Doodle and Draw Kit, drawing set for kids",
+    "category": "baby-kids",
+    "subcategory": "kids-gifts",
+    "highlights": [
+      "Drawing pencils, 8 sketch pens, 15 erasable crayons, an eraser, a sharpener and a 15 cm ruler",
+      "Comes with a drawing book",
+      "Made in India, 335 g"
+    ],
+    "note": "A bigger art set for a birthday: everything a young artist needs, with crayons they can rub out.",
+    "brand": "Faber-Castell",
+    "colour": "Multicoloured",
+    "best_for": [
+      "Ages 5 to 10",
+      "Birthday gift"
+    ],
+    "specs": {
+      "Type": "Kids' drawing art kit",
+      "Contents": "Pencils, 8 sketch pens, 15 erasable crayons, eraser, sharpener, ruler, drawing book",
+      "Weight": "335 g",
+      "Size": "36.5 x 24.5 x 2 cm (as listed)"
+    },
+    "skip_if": "the child is under 3."
+  },
+  {
+    "asin": "B0076L2B0I",
+    "added_at": "2026-11-24T10:54:23+05:30",
+    "title": "Frank Animals, a set of 3 jigsaw puzzles for kids 3 years and up (10208)",
+    "category": "baby-kids",
+    "subcategory": "kids-gifts",
+    "highlights": [
+      "3 animal jigsaw puzzles in one box",
+      "For ages 3 and up (as listed)",
+      "Thick cardboard pieces, printed with non-toxic inks (as listed)"
+    ],
+    "note": "An easy first puzzle for a 3 to 5 year old: a return gift that isn't another box of crayons.",
+    "brand": "Frank",
+    "colour": "Multicolour",
+    "best_for": [
+      "Ages 3 to 5",
+      "Return gift"
+    ],
+    "specs": {
+      "Type": "Jigsaw puzzle set",
+      "Pieces": "15 (as listed)",
+      "Age": "3 years and up",
+      "Size": "13.8 x 13.8 cm (as listed)"
+    },
+    "skip_if": "the child is 6 or older: it will be too easy."
+  },
+  {
+    "asin": "B00LY28EGA",
+    "added_at": "2026-11-24T10:54:22+05:30",
+    "title": "Faber-Castell Connector Pen Set, pack of 50 washable sketch pens",
+    "category": "baby-kids",
+    "subcategory": "kids-gifts",
+    "highlights": [
+      "50 sketch pens in assorted colours",
+      "Caps snap together, so kids can build with them",
+      "Listed as washable and non-toxic"
+    ],
+    "note": "Every child uses sketch pens at school, and the connector caps make them fun to play with too.",
+    "brand": "Faber-Castell",
+    "colour": "Assorted",
+    "best_for": [
+      "Return gift",
+      "School"
+    ],
+    "specs": {
+      "Type": "Connector sketch pens",
+      "Pieces": "50 pens",
+      "Age": "Kids and adults (as listed)"
+    },
+    "skip_if": "the child is a toddler who still puts things in their mouth."
+  },
+  {
+    "asin": "B09PGBHQMY",
+    "added_at": "2026-11-24T10:54:22+05:30",
+    "title": "Apsara Colouring Kit gift pack for children, combo of 7 items",
+    "category": "baby-kids",
+    "subcategory": "kids-gifts",
+    "highlights": [
+      "A combo of 7 colouring items, with pencils, crayons and markers",
+      "Sold as a gift pack for birthdays",
+      "From Apsara, the pencil brand many Indian schools use"
+    ],
+    "note": "A small colouring set that suits boys and girls alike, so every child at the party gets the same thing.",
+    "brand": "Apsara",
+    "colour": "Multicolour",
+    "best_for": [
+      "Return gift",
+      "Kids' party"
+    ],
+    "specs": {
+      "Type": "Kids' colouring art kit",
+      "Contents": "7 items (as listed)",
+      "Age": "Kids and adults (as listed)"
+    },
+    "skip_if": "you want to know every item first: the listing names the kinds of items, not each one."
+  },
+  {
+    "asin": "B07MQ9PX6P",
+    "added_at": "2026-11-24T10:54:22+05:30",
+    "title": "DOMS Junior Art Kit with a transparent zipper bag, 8 stationery items",
+    "category": "baby-kids",
+    "subcategory": "kids-gifts",
+    "highlights": [
+      "8 items: a drawing book, pencils, colour pencils, water colour pens, water colour cakes and tubes, wax crayons and oil pastels",
+      "Packed in a transparent zipper bag",
+      "Listed as non-toxic"
+    ],
+    "note": "A classic return gift: one complete art set per child, in a bag they can take to school.",
+    "brand": "Doms",
+    "colour": "Multicolour",
+    "best_for": [
+      "Return gift",
+      "School"
+    ],
+    "specs": {
+      "Type": "Kids' art kit",
+      "Contents": "8 items (as listed)",
+      "Age": "Kids (as listed)",
+      "Size": "33 x 20 x 14 cm (as listed)"
+    },
+    "skip_if": "the child is under 3: it has small crayons and paint cakes."
+  },
+  {
     "asin": "B0GPN69B7H",
     "added_at": "2026-11-24T09:10:16+05:30",
     "title": "American Tourister Qubiz 55 cm Cabin Trolley, 33.5 L",

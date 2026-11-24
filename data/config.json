@@ -187,7 +187,8 @@
         {"slug": "guidebooks-phrasebooks", "name": "Guidebooks & phrasebooks", "title": "Travel guidebooks and phrasebooks", "intro": "Printed travel guidebooks for India, Europe and Japan, and a pocket Hindi phrasebook. We read the edition, publication date, pages and size on each Amazon.in listing."},
         {"slug": "journals", "name": "Travel journals", "title": "Travel journals and diaries", "intro": "Printed travel journals to plan a trip and write in on the road: a hardcover for any trip, a guided Lonely Planet journal and a DK journal made for Japan."},
         {"slug": "kids", "name": "Kids' travel books", "title": "Travel books for kids", "intro": "An activity book, a travel journal and a world fact book for children who travel. The reading age is from each Amazon.in listing."},
-        {"slug": "travel-stories", "name": "Travel stories", "title": "Travel story books that make good gifts", "intro": "Well-known books about journeys, in paperback: good to read on a long trip, or to give to someone who loves to travel."}
+        {"slug": "travel-stories", "name": "Travel stories", "title": "Travel story books that make good gifts", "intro": "Well-known books about journeys, in paperback: good to read on a long trip, or to give to someone who loves to travel."},
+        {"slug": "kids-story-books", "name": "Story books for kids", "title": "Story books for kids: board books, moral stories and Panchatantra", "intro": "Board books for babies and toddlers, and moral story and Panchatantra collections for young readers: good birthday and return gifts. The reading age is from each Amazon.in listing."}
       ],
       "emoji": "📚",
       "hashtag": "#TravelBooks",
@@ -195,14 +196,15 @@
       "photo": "plane-window",
       "seo_title": "Travel books for India and abroad: guidebooks, phrasebooks, travel journals and kids' travel books",
       "guide": "audiobooks-for-long-flights",
-      "intro": "Printed travel guidebooks, a phrasebook, travel journals, kids' travel books and travel stories that make good gifts. Every button goes to the printed edition. We read the edition, pages, size and language on each Amazon.in listing. Cover images come from the publishers' own shops and Open Library.",
+      "intro": "Printed travel guidebooks, a phrasebook, travel journals, kids' travel books, story books for kids and travel stories that make good gifts. Every button goes to the printed edition. We read the edition, pages, size and language on each Amazon.in listing. Cover images come from the publishers' own shops and Open Library.",
       "tip": "Guidebooks are heavy: Lonely Planet India is listed at 850 g. On a cabin-bag-only trip, take one guidebook and keep the rest on your phone. On a long flight, an audiobook weighs nothing."
     },
     "baby-kids": {
       "name": "Baby & Kids Travel",
       "subcategories": [
         {"slug": "baby-gear", "name": "Baby travel gear", "title": "Baby travel gear: stroller, carrier, diaper bag and changing mat", "intro": "A cabin-friendly stroller, a baby carrier, a diaper bag, a fold-up changing mat and a milk powder container for flights, trains and road trips with a baby. We read the folded size, weight, age or weight range and colour on each Amazon.in listing."},
-        {"slug": "kids-travel", "name": "Kids' travel", "title": "Kids' travel gear: trolley, headphones and travel pillow", "intro": "A kids' cabin trolley, volume-limited headphones and a kids' travel pillow for long flights and road trips. The age range and sizes are from each Amazon.in listing."}
+        {"slug": "kids-travel", "name": "Kids' travel", "title": "Kids' travel gear: trolley, headphones and travel pillow", "intro": "A kids' cabin trolley, volume-limited headphones and a kids' travel pillow for long flights and road trips. The age range and sizes are from each Amazon.in listing."},
+        {"slug": "kids-gifts", "name": "Kids' gifts & return gifts", "title": "Kids' gifts: art kits, puzzles, a board game and baby toys", "intro": "Art kits, sketch pens, jigsaw puzzles, a board game and a baby toy set for birthdays and return gifts. The age range, pieces and contents are from each Amazon.in listing."}
       ],
       "emoji": "🍼",
       "hashtag": "#TravelWithKids",
@@ -210,7 +212,7 @@
       "photo": "airport-terminal",
       "seo_title": "Baby and kids travel essentials in India: travel stroller, diaper bag, baby carrier and kids' travel gear",
       "guide": "travelling-with-baby-checklist",
-      "intro": "Travel gear for families with a baby or young kids: a stroller that folds small, a baby carrier, a diaper bag, a fold-up changing mat, a milk powder container, a kids' cabin trolley, volume-limited headphones and a kids' travel pillow. We read the folded size, weight, age range and colour on each Amazon.in listing, and only repeat safety facts the listing itself states.",
+      "intro": "Travel gear for families with a baby or young kids: a stroller that folds small, a baby carrier, a diaper bag, a fold-up changing mat, a milk powder container, a kids' cabin trolley, volume-limited headphones and a kids' travel pillow, plus art kits, puzzles, a board game and baby toys for birthdays and return gifts. We read the folded size, weight, age range and colour on each Amazon.in listing, and only repeat safety facts the listing itself states.",
       "tip": "Indian airlines let a baby fly on your lap from a few days old until the day before the second birthday, with age proof such as a birth certificate. IndiGo and Akasa carry one stroller or pram per infant free, but give an infant no check-in allowance. For any question about your baby's health and flying, ask your paediatrician."
     },
     "watches": {
