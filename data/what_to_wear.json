@@ -1038,6 +1038,46 @@
    }
   },
   {
+   "slug": "ranthambore",
+   "name": "Ranthambore",
+   "where": "india",
+   "guide": "trips/ranthambore-in-december.html",
+   "packing": "packing/weekend.html",
+   "spots": [
+    {
+     "name": "Sawai Madhopur",
+     "months": {
+      "dec": {
+       "day": 24.7,
+       "night": 9.5,
+       "rain_mm": 2.2
+      },
+      "jan": {
+       "day": 22.8,
+       "night": 7.8,
+       "rain_mm": 8.4
+      },
+      "feb": {
+       "day": 27.5,
+       "night": 11.6,
+       "rain_mm": 8.0
+      }
+     }
+    }
+   ],
+   "note": "Sunny days and cold mornings. A 7 AM safari in an open jeep feels much colder than the number.",
+   "source": {
+    "label": "IMD averages for Sawai Madhopur (1991–2020), as tabled on Wikipedia",
+    "checked": "2026-11-24",
+    "url": "https://en.wikipedia.org/wiki/Sawai_Madhopur"
+   },
+   "snow_note": {
+    "dec": "No snow",
+    "jan": "No snow",
+    "feb": "No snow"
+   }
+  },
+  {
    "slug": "varanasi",
    "name": "Varanasi",
    "where": "india",
