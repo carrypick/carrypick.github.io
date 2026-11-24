@@ -946,6 +946,24 @@ def draw_tech(d):
         info = [(cap, "t", 16, 700), ("about %s Wh" % wh.group(1) if wh else "", "m", 13, 400), (weight, "m", 13, 400)]
         return dict(inner=out, legend=False, info=info, scaled=True,
                     alt="Drawing of a power bank, top and side views, drawn to its listed size of %s cm" % ndims([lcm, wcm, tcm]))
+    if "charger" in tl and "adapter" not in tl:
+        # A wall charger: a plain block with its USB ports on the face and Indian pins below. Listings give no size.
+        w, h = 128, 150
+        x, y = (W - w) / 2, 158 - h / 2
+        out = R(x, y, w, h, 18) + R(x + 10, y + 10, w - 20, h - 20, 12, "k", 1, ' opacity=".35"')
+        ports = sp.get("USB ports") or ""
+        cc = int((re.search(r"(\d+)\s*USB-C", ports) or [0, 0])[1])
+        aa = int((re.search(r"(\d+)\s*USB-A", ports) or [0, 0])[1])
+        slots = ["c"] * cc + ["a"] * aa
+        for i, port in enumerate(slots):
+            py = y + 30 + i * 30
+            out += R(x + w / 2 - 17, py, 34, 12 if port == "c" else 14, 6 if port == "c" else 1, "p", 0)
+            out += T(x + w / 2, py + 25, "USB-C" if port == "c" else "USB-A", "m", 10.5)
+        out += R(x + w * .34, y + h, 7, 24, 2, "p", 0) + R(x + w * .6, y + h, 7, 24, 2, "p", 0)
+        watts = sp.get("Total output") or ""
+        first = ("%d USB-C, %d USB-A" % (cc, aa)) if slots else ""
+        return dict(inner=out + bottom_info("", " · ".join(x for x in (watts, first, weight) if x), 330), legend=False, info=[], scaled=False,
+                    alt="Drawing of a USB-C wall charger from the front, showing its %s ports (not to scale)" % (first or "USB"))
     s = 22.0
     wcm, hcm = (dims[0], dims[1]) if len(dims) >= 2 else (6.0, 6.0)
     w, h = wcm * s, hcm * s

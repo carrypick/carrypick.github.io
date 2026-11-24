@@ -1,5 +1,66 @@
 [
   {
+    "asin": "B0BCNQCWHS",
+    "added_at": "2026-11-24T14:11:45+05:30",
+    "title": "Belkin 65W Dual USB-C GaN Charger (45W + 20W, WCH013)",
+    "category": "travel-tech",
+    "subcategory": "chargers",
+    "highlights": [
+      "Up to 65 W from one USB-C port, or 45 W + 20 W with both in use (as listed)",
+      "USB-C PD 3.0 and PPS (as listed)",
+      "Enough for a MacBook or USB-C laptop on one port",
+      "2-year warranty plus Belkin's connected equipment warranty (as listed)"
+    ],
+    "note": "Two USB-C ports: a phone and a laptop charge together, and the phone still gets 20 W.",
+    "brand": "Belkin",
+    "colour": "White",
+    "best_for": [
+      "Phone and laptop",
+      "iPhone and Samsung"
+    ],
+    "specs": {
+      "Type": "GaN wall charger",
+      "USB ports": "2 USB-C",
+      "Total output": "65 W",
+      "Split": "45 W + 20 W with both ports in use",
+      "Standards": "USB PD 3.0, PPS",
+      "Warranty": "2 years",
+      "Certification": "BIS"
+    },
+    "skip_if": "you still use USB-A cables: it has only USB-C ports."
+  },
+  {
+    "asin": "B0DL6DG9DQ",
+    "added_at": "2026-11-24T14:11:45+05:30",
+    "title": "Spigen 65W GaN Charger with 2 USB-C and 1 USB-A (PE2302IN)",
+    "category": "travel-tech",
+    "subcategory": "chargers",
+    "highlights": [
+      "65 W in total from 3 ports: 2 USB-C and 1 USB-A (as listed)",
+      "USB PD and PPS, up to 45 W Super Fast Charging for Samsung Galaxy on one port used alone (as listed)",
+      "140 g in the listing's bullets (135 g in the details), BIS certified",
+      "24-month warranty, made in India"
+    ],
+    "note": "Three ports, so one plug point charges a phone, earbuds and a laptop on a trip.",
+    "brand": "Spigen",
+    "colour": "Black",
+    "best_for": [
+      "Phone and laptop",
+      "Trips"
+    ],
+    "specs": {
+      "Type": "GaN wall charger",
+      "USB ports": "2 USB-C, 1 USB-A",
+      "Total output": "65 W",
+      "Samsung 45 W": "Yes, PPS, one port used alone",
+      "Standards": "USB PD, PPS",
+      "Weight": "135 g (details); 140 g (bullets)",
+      "Warranty": "24 months",
+      "Certification": "BIS"
+    },
+    "skip_if": "you want full speed on two phones at once: the 65 W is shared when several ports are used."
+  },
+  {
     "asin": "9390093953",
     "added_at": "2026-11-24T10:54:23+05:30",
     "title": "Wonder House Books 101 Tales: The Great Panchatantra Collection, hardcover",

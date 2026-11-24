@@ -46,7 +46,7 @@ A hard shell helps most when the case sits under clothes in a suitcase. In a day
 
 ## What to pack in a gadget organiser
 
-- Phone charger and cable, and a laptop charger if you carry a laptop
+- Phone charger and cable, and a laptop charger if you carry a laptop (one [65 W USB-C charger](which-charger-for-iphone-17-and-samsung-s25.html) can replace both)
 - A spare USB-C cable, and the one your earbuds or watch uses
 - Earphones or earbuds
 - A [travel adapter](travel-adapter-by-country.html) if you're going abroad

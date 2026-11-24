@@ -111,6 +111,8 @@ For a laptop, phone and watch at the same time, up to 100 W:
 - **We haven't tested these.** Capacity, watts, ports and sizes come from each Amazon listing. The Wh figures are our own sums at 3.7 V, so check the label.
 - **Pack it in your cabin bag,** or your handbag or backpack. Never in the bag you check in.
 
+New phone with no charger in the box? See [which charger for iPhone 17, Samsung S25 or Pixel 10](which-charger-for-iphone-17-and-samsung-s25.html), with the watts each phone takes.
+
 Keep the power bank, adapter and cables together in one case: see our [gadget organiser guide](gadget-organiser.html).
 
 Long flight or train ahead? A power bank plus a downloaded audiobook makes the hours go faster: see [audiobooks for long flights](audiobooks-for-long-flights.html).
