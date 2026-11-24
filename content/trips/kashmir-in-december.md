@@ -14,7 +14,7 @@ Kashmir in December is cold, quiet and often snowy. Srinagar's nights go below f
 
 Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
 
-Still choosing? Compare other winter trips in [where to go in December and January](where-to-go-in-december-january.html). Going to Himachal instead? See [what to wear in Manali in December](../guides/what-to-wear-in-manali-in-december.html) and [Shimla in December](shimla-in-december.html).
+Still choosing? Compare other winter trips in [where to go in December and January](where-to-go-in-december-january.html). Going to Himachal instead? See [what to wear in Manali in December](../guides/what-to-wear-in-manali-in-december.html) and [Shimla in December](shimla-in-december.html). Going in January? See [Kashmir in January](kashmir-in-january.html) for the end of Chillai Kalan, a frozen Dal Lake and snow days on the roads.
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
