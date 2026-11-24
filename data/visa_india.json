@@ -117,10 +117,10 @@
       "slug": "seychelles", "name": "Seychelles",
       "status": "visa-free", "stay": "Up to 3 months (visitor's permit)",
       "fee": "Visitor's permit free for 3 months; Travel Authorisation fee not stated",
-      "conditions": ["Apply for the Seychelles Travel Authorisation online before you leave.", "Return or onward ticket, confirmed accommodation and enough money."],
+      "conditions": ["Apply for the paid Seychelles Travel Authorisation online before you leave, up to 30 days before travel: standard processing 24 hours, premium 6 hours.", "Return or onward ticket, confirmed accommodation and enough money."],
       "say": "No visa is needed: you get a free visitor's permit on arrival for up to 3 months, but you must get a Seychelles Travel Authorisation online before you leave, says Seychelles Immigration.",
-      "sources": [{"label": "Seychelles Immigration: visitor's permit", "url": "https://www.ics.gov.sc/permits/visitors-permit"}, {"label": "Seychelles Travel Authorisation", "url": "https://seychelles.govtas.com"}],
-      "checked": "2026-11-21"
+      "sources": [{"label": "Seychelles Immigration: visitor's permit", "url": "https://www.ics.gov.sc/permits/visitors-permit"}, {"label": "Seychelles Travel Authorisation", "url": "https://seychelles.govtas.com"}, {"label": "Seychelles Travel Authorisation: FAQ", "url": "https://seychelles.govtas.com/en/FAQ"}],
+      "checked": "2026-11-24"
     },
     {
       "slug": "hong-kong", "name": "Hong Kong",
@@ -207,6 +207,15 @@
       "say": "Indians can apply for an Uzbekistan e-visa on the official portal: US$20 for a single entry, for a stay of up to 30 days, says the portal. The Embassy of Uzbekistan in New Delhi lists India for the e-visa and for 5-day visa-free transit.",
       "sources": [{"label": "Uzbekistan e-visa portal", "url": "https://e-visa.gov.uz/what-you-need-to-know"}, {"label": "Embassy of Uzbekistan, New Delhi: consular section", "url": "https://www.uzbekembassy.in/consular-section/"}],
       "checked": "2026-11-23"
+    },
+    {
+      "slug": "russia", "name": "Russia", "aka": "Moscow, St Petersburg",
+      "status": "e-visa", "stay": "Up to 16 days, single entry",
+      "fee": "E-visa fee shown on the official portal (non-refundable); not confirmed here",
+      "conditions": ["Apply for the unified e-visa yourself on the Russian Foreign Ministry's portal, evisa.kdmid.ru; no invitation or tourist voucher is needed.", "You can make one trip of up to 16 days within 60 days from the date of issue.", "Longer stays need a regular tourist visa through a Russian Visa Center or consulate in India."],
+      "say": "Indians need a visa for Russia. For a short trip, apply online for the unified e-visa: a single entry for up to 16 days within 60 days of issue, with no invitation needed, says the Russian Embassy in India.",
+      "sources": [{"label": "Russian Embassy in India: unified e-visa", "url": "https://india.mid.ru/en/consular-affairs/unified_e_visa/"}, {"label": "Russian Embassy in India: visa to Russia", "url": "https://india.mid.ru/en/consular-affairs/visa/"}, {"label": "Russian Foreign Ministry e-visa portal", "url": "https://evisa.kdmid.ru/"}],
+      "checked": "2026-11-24"
     },
     {
       "slug": "egypt", "name": "Egypt", "aka": "Cairo",
