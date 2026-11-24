@@ -40,6 +40,7 @@ New to analog watches? Our [first analog watch guide](first-analog-watch-guide.h
 - **Anniversary:** a Titan Classique, or a [couple watch set](couple-watches.html) for both of you. See our [anniversary gift ideas](anniversary-gift-ideas.html#for-your-husband).
 - **Wedding day:** a classic Titan in steel or leather that goes with a sherwani or a suit, or a pair watch set from the [couple watches guide](couple-watches.html).
 - **Christmas or Valentine's Day:** see our [Christmas gifts for him](christmas-gift-for-boyfriend-or-husband.html) and [Valentine's Day gift ideas](valentines-day-gift-ideas.html).
+- **Any day, or not a watch:** see our [gift for husband](gift-for-husband.html) guide for wallets, grooming kits, perfume and bags.
 
 ## Compare them
 

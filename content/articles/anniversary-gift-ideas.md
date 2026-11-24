@@ -17,7 +17,7 @@ An anniversary gift says "I'd choose you again". The best ones are things you'll
 [[top:B07PY6CQYV|For your parents|Titan Bandhan pair watches for mom and dad, in silver and rose gold, with a 2-year warranty.]]
 [[top:B07M9BRCQ5|For a trip together|A 35 litre weekender duffle that's just right for two or three nights away.]]
 
-Looking for a birthday gift instead? See our [birthday gift ideas for everyone](birthday-gift-ideas.html).
+Looking for a birthday gift instead? See our [birthday gift ideas for everyone](birthday-gift-ideas.html). Gifts for any day of the year: see our gift guides for your [husband](gift-for-husband.html), [wife](gift-for-wife.html), [mom](gift-for-mother.html), [dad](gift-for-father.html), [sister](gift-for-sister.html) and [brother](gift-for-brother.html).
 
 ## Quick ideas
 
