@@ -1,5 +1,65 @@
 [
   {
+    "asin": "B0GPN69B7H",
+    "added_at": "2026-11-24T09:10:16+05:30",
+    "title": "American Tourister Qubiz 55 cm Cabin Trolley, 33.5 L",
+    "category": "luggage",
+    "subcategory": "cabin-trolleys",
+    "highlights": [
+      "Hard polypropylene shell",
+      "8 spinner wheels",
+      "Recessed combination lock",
+      "3-year global warranty"
+    ],
+    "note": "The small size of the American Tourister Qubiz, to match its medium and large bags.",
+    "brand": "American Tourister",
+    "colour": "Olive/Green",
+    "best_for": [
+      "Short trips",
+      "Train and car trips"
+    ],
+    "specs": {
+      "Size": "55.5 x 37 x 24 cm (116.5 cm total)",
+      "Capacity": "33.5 L",
+      "Weight": "2.2 kg",
+      "Shell": "Polypropylene",
+      "Wheels": "8",
+      "Warranty": "3 years global"
+    },
+    "skip_if": "you need a strict airline cabin size: at 55.5 x 37 x 24 cm it is a little over the limits of Indian airlines.",
+    "deal_seen_at": "2026-11-24T09:08:00+05:30"
+  },
+  {
+    "asin": "B0CQRQTXCF",
+    "added_at": "2026-11-24T09:10:16+05:30",
+    "title": "Timex Classics Brown Dial Men's Watch, Brown Steel Strap (TW000R461)",
+    "category": "watches",
+    "subcategory": "mens-watches",
+    "highlights": [
+      "39 mm brown dial with a brass case",
+      "Brown stainless steel strap, 22 mm wide",
+      "Quartz movement",
+      "Water resistant to 30 m, 1-year warranty"
+    ],
+    "note": "A classic Timex in an all-brown look that suits office wear and weddings.",
+    "brand": "Timex",
+    "colour": "Brown dial, brown steel strap",
+    "best_for": [
+      "Office wear",
+      "Gifts"
+    ],
+    "specs": {
+      "Dial size": "39 mm",
+      "Case": "Brass",
+      "Strap": "Stainless steel, 22 mm",
+      "Movement": "Quartz",
+      "Water resistance": "30 m",
+      "Warranty": "1 year"
+    },
+    "skip_if": "you want a leather strap or a date window: the listing does not mention a date.",
+    "deal_seen_at": "2026-11-24T09:08:00+05:30"
+  },
+  {
     "asin": "B0DBCXFMVY",
     "added_at": "2026-11-24T12:10:00+05:30",
     "title": "IFITech Door Stop Alarm with 120 dB Siren and 3 Sensitivity Levels",
