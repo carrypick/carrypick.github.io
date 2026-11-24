@@ -1807,5 +1807,275 @@
     "alt": "A chart of birthday gift ideas for kids by age, with the words Birthday gifts for kids.",
     "link": "https://carrypick.github.io/guides/birthday-gift-ideas-for-kids.html",
     "description": "Birthday gift ideas for kids in India by age, from a 1 year old to teens, for boys and girls: baby gift sets, art kits, puzzles, story books, board games and a first watch. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "christmas-gift-teenagers",
+    "image": "christmas-gift-teenagers.jpg",
+    "board": "Gift Ideas",
+    "title": "Christmas gift for teenagers: ideas a teen boy or girl will use",
+    "alt": "Gifts under a Christmas tree, with the words Christmas gifts for teenagers.",
+    "link": "https://carrypick.github.io/guides/christmas-gift-for-teenagers.html",
+    "description": "Christmas gift ideas for teenagers in India: a Fastrack watch, sunglasses, a college backpack, a power bank, a first beard trimmer for a teenage boy and more. Useful things, not clutter. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "christmas-gift-grandparents",
+    "image": "christmas-gift-grandparents.jpg",
+    "board": "Gift Ideas",
+    "title": "Christmas gift for grandparents: useful ideas for grandma and grandpa",
+    "alt": "Gifts under a Christmas tree, with the words Christmas gifts for grandparents.",
+    "link": "https://carrypick.github.io/guides/christmas-gift-for-grandparents.html",
+    "description": "Christmas gift ideas for grandparents in India: pair watches, easy-to-read watches, warm thermals and winter caps, slip-on walking shoes and a steel bottle. Useful and easy to use. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "manali-january",
+    "image": "manali-january.jpg",
+    "board": "India Trip Ideas",
+    "title": "Manali in January: snow, weather, the Winter Carnival and roads",
+    "alt": "Snow at Solang near Manali, with the words Manali in January.",
+    "link": "https://carrypick.github.io/trips/manali-in-january.html",
+    "description": "Plan Manali for January 2027: IMD averages for January, how snow came late in January 2026, the first, middle and last week of the month, the Winter Carnival and the roads. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "kashmir-january",
+    "image": "kashmir-january.jpg",
+    "board": "India Trip Ideas",
+    "title": "Kashmir in January: snow, Chillai Kalan, roads and flights",
+    "alt": "Dal Lake in winter, with the words Kashmir in January.",
+    "link": "https://carrypick.github.io/trips/kashmir-in-january.html",
+    "description": "Plan Srinagar, Pahalgam, Sonamarg and Gulmarg for January 2027: IMD January averages, the end of Chillai Kalan, how January 2026 went, roads and flights. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "gulmarg-january",
+    "image": "gulmarg-january.jpg",
+    "board": "India Trip Ideas",
+    "title": "Gulmarg in January: snow, skiing and the gondola",
+    "alt": "Snow slopes at Gulmarg, with the words Gulmarg in January.",
+    "link": "https://carrypick.github.io/trips/gulmarg-in-january.html",
+    "description": "Plan Gulmarg for January 2027: IMD January averages and how much snow a January can bring, the first week versus the last week, ski courses and when the gondola runs. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "goa-january",
+    "image": "goa-january.jpg",
+    "board": "India Trip Ideas",
+    "title": "Goa in January: weather, festivals and a quieter beach month",
+    "alt": "The Reis Magos church in Goa, with the words Goa in January.",
+    "link": "https://carrypick.github.io/trips/goa-in-january.html",
+    "description": "Plan Goa for January 2027: IMD averages, how Goa changes after New Year, the Feast of the Three Kings on 6 January, festivals and beach safety. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "rajasthan-january",
+    "image": "rajasthan-january.jpg",
+    "board": "India Trip Ideas",
+    "title": "Rajasthan in January: weather, festivals and where to go",
+    "alt": "Camels at the Bikaner Camel Festival, with the words Rajasthan in January.",
+    "link": "https://carrypick.github.io/trips/rajasthan-in-january.html",
+    "description": "Plan Rajasthan for January 2027: IMD averages for Jaipur, Udaipur, Jaisalmer and Bikaner, the Bikaner Camel Festival on 9 to 10 January, the Kite Festival and train fog. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "gift-for-sister",
+    "image": "gift-for-sister.jpg",
+    "board": "Gift Ideas",
+    "title": "Gift for sister: ideas she'll use for Rakhi, her birthday or any day",
+    "alt": "A gift box, with the words Gift for your sister.",
+    "link": "https://carrypick.github.io/guides/gift-for-sister.html",
+    "description": "Gift ideas for your sister in India, for any day of the year: a Fastrack or Titan watch, a light sling bag, cat-eye sunglasses and a perfume gift set. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "gift-for-brother",
+    "image": "gift-for-brother.jpg",
+    "board": "Gift Ideas",
+    "title": "Gift for brother: ideas he'll use for Rakhi, his birthday or any day",
+    "alt": "A gift box, with the words Gift for your brother.",
+    "link": "https://carrypick.github.io/guides/gift-for-brother.html",
+    "description": "Gift ideas for your brother in India, for any day of the year: a Fastrack or Invicta watch, polarized sunglasses, a beard trimmer, a perfume set and a wallet. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "gift-for-mother",
+    "image": "gift-for-mother.jpg",
+    "board": "Gift Ideas",
+    "title": "Gift for mom: useful ideas for your mother on any day",
+    "alt": "Red roses, with the words Gift for mom.",
+    "link": "https://carrypick.github.io/guides/gift-for-mother.html",
+    "description": "Gift ideas for your mom in India, for any day of the year: a Titan watch, a small tote or satchel, slip-on walking shoes, a thermal set and a steel bottle. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "gift-for-father",
+    "image": "gift-for-father.jpg",
+    "board": "Gift Ideas",
+    "title": "Gift for dad: useful ideas for your father on any day",
+    "alt": "A watch on a wrist, with the words Gift for dad.",
+    "link": "https://carrypick.github.io/guides/gift-for-father.html",
+    "description": "Gift ideas for your dad in India, for any day of the year: a Casio or Titan watch, a leather wallet with 14 card slots, an auto-lock belt and slip-on walking shoes. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "gift-for-husband",
+    "image": "gift-for-husband.jpg",
+    "board": "Gift Ideas",
+    "title": "Gift for husband: useful ideas he'll use on any day",
+    "alt": "A mesh-strap watch, with the words Gift for your husband.",
+    "link": "https://carrypick.github.io/guides/gift-for-husband.html",
+    "description": "Gift ideas for your husband in India, for any day of the year: a Timex or Titan watch, a slim leather wallet, a Philips grooming kit and a perfume gift set. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "gift-for-wife",
+    "image": "gift-for-wife.jpg",
+    "board": "Gift Ideas",
+    "title": "Gift for wife: ideas she'll love on any day",
+    "alt": "A perfume bottle, with the words Gift for your wife.",
+    "link": "https://carrypick.github.io/guides/gift-for-wife.html",
+    "description": "Gift ideas for your wife in India, for any day of the year: a Timex or Titan Raga watch, a tote or sling bag, a perfume gift set and a zip-around wallet. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "pondicherry-december",
+    "image": "pondicherry-december.jpg",
+    "board": "India Trip Ideas",
+    "title": "Pondicherry in December: weather, rain, a 3-day plan and what to wear",
+    "alt": "The rocky beach at Pondicherry, with the words Pondicherry in December.",
+    "link": "https://carrypick.github.io/trips/pondicherry-in-december.html",
+    "description": "Plan Pondicherry (Puducherry) for December: IMD temperatures and rain, cyclone warnings, a 3-day plan and what to wear. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "hampi-december",
+    "image": "hampi-december.jpg",
+    "board": "India Trip Ideas",
+    "title": "Hampi in December: weather, monuments, a 2-day plan and what to wear",
+    "alt": "The stone chariot at Hampi, with the words Hampi in December.",
+    "link": "https://carrypick.github.io/trips/hampi-in-december.html",
+    "description": "Plan Hampi for December: IMD temperatures, the monument hours and where to buy the ASI ticket, the Virupaksha temple timings, a 2-day plan and what to wear. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "ranthambore-december",
+    "image": "ranthambore-december.jpg",
+    "board": "India Trip Ideas",
+    "title": "Ranthambore in December: safari booking, zones, timings and what to wear",
+    "alt": "A tiger in Ranthambore, with the words Ranthambore safari in December.",
+    "link": "https://carrypick.github.io/trips/ranthambore-in-december.html",
+    "description": "Plan a Ranthambore safari in December: how to book on the official website the Forest Department links to, when booking opens, zones, timings and what to wear. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "vip-vs-safari",
+    "image": "vip-vs-safari.jpg",
+    "board": "Luggage Size Guides",
+    "title": "VIP vs Safari: trolley bags compared by the facts",
+    "alt": "A traveller walking with a trolley bag, with the words VIP vs Safari.",
+    "link": "https://carrypick.github.io/guides/vip-vs-safari.html",
+    "description": "VIP or Safari? We compared their Amazon.in trolley listings by shell, weight, full size and lock, and read both brands' official warranty terms. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "vip-vs-american-tourister",
+    "image": "vip-vs-american-tourister.jpg",
+    "board": "Luggage Size Guides",
+    "title": "VIP vs American Tourister: trolley bags compared by the facts",
+    "alt": "Trolley bag handles, with the words VIP vs American Tourister.",
+    "link": "https://carrypick.github.io/guides/vip-vs-american-tourister.html",
+    "description": "VIP or American Tourister? We compared their trolley listings on Amazon.in by shell, weight, full size, wheels and lock, and read both brands' official warranty terms. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "safari-vs-skybags",
+    "image": "safari-vs-skybags.jpg",
+    "board": "Luggage Size Guides",
+    "title": "Safari vs Skybags: trolley bags compared by the facts",
+    "alt": "Bags on an airport baggage belt, with the words Safari vs Skybags.",
+    "link": "https://carrypick.github.io/guides/safari-vs-skybags.html",
+    "description": "Safari or Skybags? We compared their trolley listings on Amazon.in by shell, weight, full size, wheels and lock, and read the official warranty terms of both. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "mokobara-vs-american-tourister",
+    "image": "mokobara-vs-american-tourister.jpg",
+    "board": "Luggage Size Guides",
+    "title": "Mokobara vs American Tourister: trolley bags compared by the facts",
+    "alt": "A cabin bag at an airport, with the words Mokobara vs American Tourister.",
+    "link": "https://carrypick.github.io/guides/mokobara-vs-american-tourister.html",
+    "description": "Mokobara or American Tourister? We compared their trolley listings on Amazon.in by shell, weight, full size and lock, and read both brands' warranty terms. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "22-inch-trolley",
+    "image": "22-inch-trolley.jpg",
+    "board": "Luggage Size Guides",
+    "title": "22 inch trolley bag: size in cm, and is it allowed as a cabin bag?",
+    "alt": "A cabin bag, with the words 22 inch trolley bag size.",
+    "link": "https://carrypick.github.io/guides/22-inch-trolley-bag-size.html",
+    "description": "A 22 inch trolley is 55.9 cm, a small cabin size, but 0.9 cm over the 55 cm limit of most Indian airlines. See what 22 inch bags measure and three that fit. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "26-inch-trolley",
+    "image": "26-inch-trolley.jpg",
+    "board": "Luggage Size Guides",
+    "title": "26 inch trolley bag: size in cm, litres and how many kg it holds",
+    "alt": "A packed suitcase, with the words 26 inch trolley bag size.",
+    "link": "https://carrypick.github.io/guides/26-inch-trolley-bag-size.html",
+    "description": "A 26 inch trolley is 66 cm, the most common medium size in India. See what 66 to 70 cm bags really measure, how many litres and kg they hold, and three picks. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "32-inch-trolley",
+    "image": "32-inch-trolley.jpg",
+    "board": "Luggage Size Guides",
+    "title": "32 inch trolley bag: size in cm, weight and is it allowed in flight?",
+    "alt": "An airport terminal, with the words 32 inch trolley bag size.",
+    "link": "https://carrypick.github.io/guides/32-inch-trolley-bag-size.html",
+    "description": "A 32 inch trolley is 81.3 cm tall. We read 11 of the biggest bags on Amazon.in: none is within the 158 cm limit of Indian airlines. See which airlines take them. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "republic-day-sale-guide",
+    "image": "republic-day-sale-guide.jpg",
+    "board": "Watches and Everyday Bags",
+    "title": "Amazon Republic Day Sale 2027: what we know and how to choose bags and watches",
+    "alt": "A gift box, with the words Republic Day Sale 2027.",
+    "link": "https://carrypick.github.io/guides/republic-day-sale-guide.html",
+    "description": "Amazon hasn't announced its 2027 Republic Day sale yet. Last year's began on 16 January. How to get ready, and what to check on bags and watches. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "europe-packing-list",
+    "image": "europe-packing-list.jpg",
+    "board": "Packing and What to Wear",
+    "title": "Europe packing list: what to pack for a winter trip from India",
+    "alt": "A Christmas market in Strasbourg, with the words Europe winter packing list.",
+    "link": "https://carrypick.github.io/guides/europe-packing-list.html",
+    "description": "What to pack for Europe in December and January: what to wear for Zurich, Paris and Rome weather, shoes for wet streets and the Type C and F plug and voltage. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "japan-packing-list",
+    "image": "japan-packing-list.jpg",
+    "board": "Packing and What to Wear",
+    "title": "Japan packing list: what to pack for a winter trip from India",
+    "alt": "A frozen pond at Kinkaku-ji in Japan, with the words Japan winter packing list.",
+    "link": "https://carrypick.github.io/guides/japan-packing-list.html",
+    "description": "What to pack for Japan in December and January: what to wear for Tokyo, Kyoto and Osaka weather, slip-off shoes, the 100 V Type A plug and Japan's rules for medicines. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "japan-trip",
+    "image": "japan-trip.jpg",
+    "board": "India Trip Ideas",
+    "title": "Japan trip from India: visa, a 7-day plan, December weather and cherry blossom",
+    "alt": "Mount Fuji at Kawaguchiko, with the words Japan trip from India.",
+    "link": "https://carrypick.github.io/trips/japan-trip-from-india.html",
+    "description": "Plan a Japan trip from India: the Japan eVISA for Indians through VFS, direct flights, a 7-day plan, December weather and cherry blossom. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "turkey-trip",
+    "image": "turkey-trip.jpg",
+    "board": "India Trip Ideas",
+    "title": "Turkey trip from India: the visa, direct flights, a 7-day plan and Cappadocia",
+    "alt": "Hot air balloons over Cappadocia, with the words Turkey trip from India.",
+    "link": "https://carrypick.github.io/trips/turkey-trip-from-india.html",
+    "description": "Plan a Turkey (Turkiye) trip from India: the visa for Indians, the e-visa rules, direct flights, a 7-day plan and Cappadocia. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "first-analog-watch",
+    "image": "first-analog-watch.jpg",
+    "board": "Watches and Everyday Bags",
+    "title": "How to choose your first analog watch",
+    "alt": "A watch on a wrist, with the words How to choose your first analog watch.",
+    "link": "https://carrypick.github.io/guides/first-analog-watch-guide.html",
+    "description": "Dial size, strap type, water resistance and warranty in plain words, with picks for men and women. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "laptop-backpack-guide",
+    "image": "laptop-backpack-guide.jpg",
+    "board": "Watches and Everyday Bags",
+    "title": "How to choose a laptop backpack for college or office",
+    "alt": "A backpack on a street, with the words How to choose a laptop backpack.",
+    "link": "https://carrypick.github.io/guides/laptop-backpack-guide.html",
+    "description": "Laptop size, litres, comfort and monsoon protection explained simply, with our picks. As an Amazon Associate I earn from qualifying purchases."
   }
 ]
