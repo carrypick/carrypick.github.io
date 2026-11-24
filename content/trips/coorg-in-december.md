@@ -14,7 +14,7 @@ Coorg (Kodagu) in December is cool, dry and green. Days are pleasant, nights are
 
 Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
 
-Still choosing? Compare Goa, Kerala, Ooty and more in [where to go in December and January](where-to-go-in-december-january.html). Want colder hills? [Ooty in December](ooty-in-december.html) has frosty mornings and a toy train, and [Munnar in December](munnar-in-december.html) has tea estates. Want real snow? See [Kashmir in December](kashmir-in-december.html) or [Manali in winter](manali.html).
+Still choosing? Compare Goa, Kerala, Ooty and more in [where to go in December and January](where-to-go-in-december-january.html). Want colder hills? [Ooty in December](ooty-in-december.html) has frosty mornings and a toy train, and [Munnar in December](munnar-in-december.html) has tea estates. Want real snow? See [Kashmir in December](kashmir-in-december.html) or [Manali in winter](manali.html). Another easy trip from Bangalore: [Hampi in December](hampi-in-december.html), for the ruins of Vijayanagara, or [Pondicherry in December](pondicherry-in-december.html), by the sea.
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 

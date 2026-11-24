@@ -14,7 +14,7 @@ Andaman in December is warm and green, with calm seas on most days and some rain
 
 Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
 
-Still choosing? Compare Goa, Kerala, Manali and more in [where to go in December and January](where-to-go-in-december-january.html). Want a beach closer to home? See the [Goa trip guide](goa.html). Want cold mountain air instead? See [Darjeeling in December](darjeeling-in-december.html).
+Still choosing? Compare Goa, Kerala, Manali and more in [where to go in December and January](where-to-go-in-december-january.html). Want a beach closer to home? See the [Goa trip guide](goa.html). Want cold mountain air instead? See [Darjeeling in December](darjeeling-in-december.html). On the same coast as Chennai: [Pondicherry in December](pondicherry-in-december.html), for the French Quarter and Auroville.
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 

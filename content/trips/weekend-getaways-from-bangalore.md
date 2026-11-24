@@ -83,6 +83,7 @@ Our guide says Ooty is about 290 km from Bangalore, via Mysore and the Bandipur 
 - **Best months:** December to March. October and November bring the northeast monsoon rains to this coast.
 - **What to do:** walk the French Quarter and the Promenade at sunrise, visit Auroville and the Matrimandir viewing point, and eat at the cafés.
 - **Official info:** [Government of Puducherry](https://py.gov.in/).
+- **Going in December?** It's the rainiest month of the winter there. Read our [Pondicherry in December guide](pondicherry-in-december.html) for the weather, the Matrimandir booking and a 3-day plan.
 
 ### Hampi: the ruins of Vijayanagara
 
@@ -90,6 +91,7 @@ Our guide says Ooty is about 290 km from Bangalore, via Mysore and the Bandipur 
 - **Best months:** October to February. Summer days are very hot among the rocks.
 - **What to do:** the Virupaksha temple, the stone chariot at the Vittala temple, the Royal Enclosure, and sunset from Hemakuta or Matanga Hill.
 - **Official info:** [Karnataka Tourism: Hampi](https://karnatakatourism.org/en/destinations/hampi/).
+- **Going in winter?** Read our [Hampi in December guide](hampi-in-december.html) for monument hours, tickets and a 2-day plan.
 
 ### Gokarna: quiet beaches and a temple town
 

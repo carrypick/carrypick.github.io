@@ -37,6 +37,8 @@ Plan your budget with our [trip budget calculator](../tools/trip-budget-calculat
 | [Nainital](nainital-in-december.html) | The lake town lit up, a short trip from Delhi | Days about 14 °C, nights about 4 °C | None |
 | [Mussoorie](mussoorie-in-december.html) | The Mall, the Winterline and the end-of-year carnival | Days about 13 °C, nights about 5 °C | None |
 | [Jim Corbett](jim-corbett-in-december.html) | A tiger safari to start the year | About 23 °C by day; cold mornings about 6 °C | None |
+| [Ranthambore](ranthambore-in-december.html) | A tiger safari and a fort in the forest | About 25 °C by day; cold mornings about 10 °C | None |
+| [Pondicherry](pondicherry-in-december.html) | Crowds on Beach Road, French Quarter cafés | About 30 °C by day, 21 °C at night; showers possible | None |
 | [Kashmir](kashmir-in-december.html) | Snow in Gulmarg, in most years | Gulmarg about 4 °C by day and −5 °C at night | None |
 | [Dubai](dubai-new-year-2027.html) | Burj Khalifa fireworks, free to watch | About 26 °C by day, 15 °C at night | Needed before you fly |
 | [Thailand](thailand-trip-from-india.html) | Bangkok and beach parties in Phuket and Krabi | Bangkok about 31 °C by day, 21 °C at night; mostly dry | Not needed for up to 30 days |

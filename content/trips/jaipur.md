@@ -88,6 +88,8 @@ Prefer a ready-made trip? Compare tour packages, and check what each one include
 
 [[tours:Jaipur]]
 
+Going on for a tiger safari? Ranthambore is about 167 km from Jaipur, by road or by train to Sawai Madhopur: see [Ranthambore in December](ranthambore-in-december.html) for the official booking site, zones and timings.
+
 ## Christmas, New Year and January
 
 - **Crowds:** the last week of December is very busy. Book hotels and trains early, and reach Amer when it opens.

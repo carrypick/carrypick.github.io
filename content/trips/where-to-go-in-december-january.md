@@ -8,7 +8,7 @@ place: India in winter
 best: Dec–Jan
 photo: traveller-sunset
 priority: 1
-glance: For beaches and parties=[Goa](goa.html) | For clear sea and coral=[Andaman](andaman-in-december.html) | For snow=[Gulmarg](gulmarg-in-december.html), [Manali](manali.html), [Shimla](shimla-in-december.html) or [Auli](auli-in-december.html) (snow isn't guaranteed) | For a tiger safari=[Jim Corbett](jim-corbett-in-december.html) | For mountain views=[Darjeeling](darjeeling-in-december.html) | Abroad, without a visa=[Bhutan](bhutan-in-december.html), [Nepal](nepal-in-december.html) or [Thailand](thailand-trip-from-india.html) | For the Ganga, yoga and rafting=[Rishikesh](rishikesh-in-december.html) | For forts and palaces=[Jaipur](jaipur.html) or [Udaipur](udaipur.html) | For the desert=[Jaisalmer](jaisalmer-in-december.html) or the [Rann Utsav](rann-utsav-2026.html) | For backwaters and hills=[Kerala](kerala.html) | Book=As early as you can: Christmas to New Year is peak season everywhere
+glance: For beaches and parties=[Goa](goa.html) | For clear sea and coral=[Andaman](andaman-in-december.html) | For snow=[Gulmarg](gulmarg-in-december.html), [Manali](manali.html), [Shimla](shimla-in-december.html) or [Auli](auli-in-december.html) (snow isn't guaranteed) | For a tiger safari=[Jim Corbett](jim-corbett-in-december.html) or [Ranthambore](ranthambore-in-december.html) | For ruins and temples=[Hampi](hampi-in-december.html) | For French streets by the sea=[Pondicherry](pondicherry-in-december.html) (December can be rainy) | For mountain views=[Darjeeling](darjeeling-in-december.html) | Abroad, without a visa=[Bhutan](bhutan-in-december.html), [Nepal](nepal-in-december.html) or [Thailand](thailand-trip-from-india.html) | For the Ganga, yoga and rafting=[Rishikesh](rishikesh-in-december.html) | For forts and palaces=[Jaipur](jaipur.html) or [Udaipur](udaipur.html) | For the desert=[Jaisalmer](jaisalmer-in-december.html) or the [Rann Utsav](rann-utsav-2026.html) | For backwaters and hills=[Kerala](kerala.html) | Book=As early as you can: Christmas to New Year is peak season everywhere
 ---
 December and January are the best months for most of India: the monsoon is long over, the skies are clear, and it's cool almost everywhere except the far south. They are also the busiest months, so it pays to choose well and book early. Here's how India's favourite winter trips compare, plus Bhutan and Nepal, two easy trips abroad without a visa, and Singapore.
 
@@ -60,6 +60,9 @@ Plan your budget with our [trip budget calculator](../tools/trip-budget-calculat
 | [Nainital](nainital-in-december.html) | The lake, boating, Snow View | Days about 14 °C, nights about 4 °C | Pantnagar (PGH), or a train to Kathgodam (35 km) | Very busy at Christmas and New Year, with shuttle parking |
 | [Mussoorie](mussoorie-in-december.html) | Mall Road, Landour, the Winterline at sunset | Days about 13 °C, nights about 5 °C | Dehradun (DED), then 38 km up from Dehradun | Very busy at Christmas and New Year |
 | [Jim Corbett](jim-corbett-in-december.html) | Tiger safaris; all zones open | Days about 23 °C, cold mornings about 6 °C | Pantnagar (PGH), or a train to Ramnagar | Permits sell out for Christmas and New Year |
+| [Ranthambore](ranthambore-in-december.html) | Tiger safaris, a fort inside the park | Days about 25 °C, cold mornings about 10 °C | Jaipur (JAI), or a train to Sawai Madhopur | Safaris sell out for Christmas and New Year |
+| [Hampi](hampi-in-december.html) | The ruins of Vijayanagara, temples, boulder hills | Dry: days about 30 °C, nights about 16 °C | Jindal Vijayanagar (VDY) or Hubballi (HBX), or a train to Hosapete | Busier on long weekends |
+| [Pondicherry](pondicherry-in-december.html) | The French Quarter, Auroville, beaches | About 30 °C by day, 21 °C at night; December is wet (about 248 mm), January nearly dry | Chennai (MAA), then about 135 km by road | Very busy on Beach Road at New Year |
 | [Kerala](kerala.html) | Backwaters, tea hills, quiet beaches | Coast about 21–34 °C; Munnar nights 2–9 °C | Kochi (COK) or Thiruvananthapuram (TRV) | Busy, with huge crowds at Fort Kochi on New Year's Eve |
 
 ## Goa: for beaches and New Year parties
@@ -224,6 +227,24 @@ Read the full [Meghalaya in December guide](meghalaya-in-december.html).
 - **Mussoorie** has sunny days, cold nights and the Winterline at sunset, from mid-October to mid-January. Read [Mussoorie in December](mussoorie-in-december.html).
 - **Auli** has India's best-known ski slopes after Gulmarg, but its snow and ski season really starts in January, and the Joshimath ropeway is closed. Read [Auli in December](auli-in-december.html).
 - **Jim Corbett** has all its safari zones open in December, including Dhikala. Book the permit only on the official site. Read [Jim Corbett in December](jim-corbett-in-december.html).
+
+## Ranthambore: for a tiger safari in Rajasthan
+
+Ranthambore is sunny by day and cold in the early morning in winter, with December safaris from 7 to 10:30 AM and 2 to 5:35 PM. Book only on the official site the Rajasthan Forest Department links to; January to March bookings opened on 1 November. Combine it with Jaipur, about 166 km away.
+
+Read the full [Ranthambore in December guide](ranthambore-in-december.html).
+
+## Hampi: for the ruins of Vijayanagara
+
+Hampi is dry and warm in December, about 30 °C by day, with cool mornings: the best season to walk among the temples and boulders. Two days cover the Virupaksha temple, the stone chariot at Vittala and the Royal Centre. Take the overnight train from Bengaluru to Hosapete.
+
+Read the full [Hampi in December guide](hampi-in-december.html).
+
+## Pondicherry: for the French Quarter and Auroville
+
+Pondicherry is warm in winter, but December is the last month of the northeast monsoon here, with about 248 mm of rain on average and a cyclone risk early in the month. Late December and January are better bets. Walk White Town and the Promenade, and book the Matrimandir's Inner Chamber up to 5 working days ahead.
+
+Read the full [Pondicherry in December guide](pondicherry-in-december.html).
 
 ## Varanasi: for the ghats and the Ganga aarti
 

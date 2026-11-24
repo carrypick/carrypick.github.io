@@ -14,7 +14,7 @@ Jim Corbett in December is a fine time for a safari: all the main zones are open
 
 Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
 
-Still choosing? Compare other winter trips in [where to go in December and January](where-to-go-in-december-january.html). In the same district: [Nainital in December](nainital-in-december.html), for the lake and hills. Want a desert trip instead? See [Jaisalmer in December](jaisalmer-in-december.html).
+Still choosing? Compare other winter trips in [where to go in December and January](where-to-go-in-december-january.html). In the same district: [Nainital in December](nainital-in-december.html), for the lake and hills. Want a desert trip instead? See [Jaisalmer in December](jaisalmer-in-december.html). Another tiger reserve: [Ranthambore in December](ranthambore-in-december.html), in Rajasthan.
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 

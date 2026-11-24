@@ -116,7 +116,7 @@ Fly to Srinagar for Dal Lake, and Gulmarg about 50 km away for snow and the gond
 
 - **For snow:** Shimla, Manali or Kashmir, but snow isn't guaranteed in December. January and February are better bets. With 4 or 5 days, [Auli](auli-in-december.html) has ski slopes, from January.
 - **For the hills without snow:** [Nainital](nainital-in-december.html) and [Mussoorie](mussoorie-in-december.html) are cold and clear in December.
-- **For a safari:** [Jim Corbett](jim-corbett-in-december.html), about 295 km from Delhi, has all its zones open.
+- **For a safari:** [Jim Corbett](jim-corbett-in-december.html), about 295 km from Delhi, has all its zones open. [Ranthambore](ranthambore-in-december.html) is further, about 352 km, but trains run to Sawai Madhopur: take it on a long weekend.
 - **For sun:** Jaipur, Udaipur, Agra and Rishikesh have sunny winter days and cold nights.
 - **Fog:** dense fog is common from late December to January. It delays trains and flights and makes early-morning driving risky. Don't plan a tight connection, and keep a spare morning.
 - **Christmas and New Year** are the busiest days of the year in all the hill towns. Book early, or go the weekend before.
