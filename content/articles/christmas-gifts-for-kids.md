@@ -99,6 +99,14 @@ Going away over the Christmas holidays? A gift that helps on the trip gets used 
 
 [[pick:B0BNPXPJS4]]
 
+**A light track suit for the flight and the car:**
+
+[[pick:B098X7SS8J]]
+
+**A hoodie to layer for cool evenings:**
+
+[[pick:B07RV57QHP]]
+
 Travelling with a baby too? See our [travelling with a baby checklist](travelling-with-baby-checklist.html), the airline rules in [flying with a baby or toddler](flying-with-baby-or-toddler.html), and all the [baby and kids travel picks](../category/baby-kids.html).
 
 Our [Goa packing list](goa-packing-list.html), [what to wear in Manali in December](what-to-wear-in-manali-in-december.html) and [Andaman in December](../trips/andaman-in-december.html) guides say what else to pack.

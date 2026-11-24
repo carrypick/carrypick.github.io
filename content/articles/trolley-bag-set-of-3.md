@@ -85,6 +85,10 @@ On a 15 kg domestic fare, a medium bag of about 3 kg leaves about 12 kg for your
 
 [[pick:B0C5DR262Q]]
 
+**A soft set of 3 for family trips and weddings:**
+
+[[pick:B0FSCYM8V8]]
+
 **A set of 2, cabin and medium:**
 
 [[pick:B0GZKSXPZR]]

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "note": "Pinterest allows scheduling only about 30 days ahead. Scheduled through 22 Dec 2026 (7 PM). Slots: 12 PM and 7 PM IST, one pin per slot, 2 a day. Schedule from the top of 'waiting' as each new day opens, then delete the slug from the list. Images are marketing/pinterest/<slug>.jpg, text in pins.json. Time-sensitive New Year pins go first (before 31 Dec). Christmas gift pins (christmas-gift-*) are at the top: schedule on the next free slot, they must go out before about 20 Dec.",
   "scheduled_by_session": {
     "new-year-2027": "22 Dec 12 PM",
@@ -17,6 +17,13 @@
     "baby-travel-gear",
     "baby-travel-checklist",
     "flying-with-baby",
+    "russia-trip",
+    "seychelles-trip",
+    "travel-essentials-women",
+    "solo-female-travel-india",
+    "train-journey-packing",
+    "business-trip-packing",
+    "plug-type-india",
     "dubai-new-year",
     "gulmarg-december",
     "bali-trip",

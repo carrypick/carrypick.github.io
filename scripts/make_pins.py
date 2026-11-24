@@ -1408,6 +1408,49 @@ dict(slug='flying-with-baby', board='Flight and Train Baggage Rules', link='guid
              ['IndiGo', '3 days–2 yrs', '1 free'], ['Air India', '7 days–2 yrs', 'Not on board'], ['Akasa Air', '7 days–2 yrs', '1 free'],
              ['SpiceJet', '7 days–2 yrs', 'Not in cabin']])
              + '<p class="note"><strong>Under 2 years is an infant</strong> and sits on your lap. Carry a birth certificate: without age proof the airline can charge a full fare.</p>')),
+    dict(slug="russia-trip", board="India Trip Ideas", link="trips/russia-trip-from-india.html",
+         title="Russia trip from India: the e-visa, flights and a 7-day plan",
+         description="Indians can apply for a Russian e-visa online: one trip of up to 16 days within 60 days, no invitation needed. See the direct Delhi to Moscow flight, a 7-day Moscow and St Petersburg plan and the weather by month.",
+         alt="The domes of St. Basil's Cathedral in Moscow, with the words Russia trip from India.",
+         html=photo("moscow-st-basils", "Russia trip from India", "E-visa for up to 16 days, direct flights to Moscow and a 7-day plan")),
+    dict(slug="seychelles-trip", board="India Trip Ideas", link="trips/seychelles-trip-from-india.html",
+         title="Seychelles trip from India: no visa, but get this first",
+         description="No visa for Indians: a free visitor's permit on arrival for up to 3 months. You must get the paid Travel Authorisation online before you fly. Direct IndiGo flights from Mumbai, a 7-day island plan and the best time to go.",
+         alt="Anse Source d'Argent beach in the Seychelles, with the words Seychelles trip from India.",
+         html=photo("seychelles-anse-source-dargent", "Seychelles from India: no visa", "Get the Travel Authorisation online first. Direct flights from Mumbai.")),
+    dict(slug="travel-essentials-women", board="Packing and What to Wear", link="guides/travel-essentials-for-women.html",
+         title="Travel essentials for women: the checklist and kit list",
+         description="A practical travel checklist for women: a sling or tote, a hanging toiletry bag, packing cubes, a jewellery roll, power bank and adapter, sun care and a door stop alarm for hotel rooms.",
+         alt="A checklist of travel essentials for women: day bag, toiletries, cubes, jewellery roll, power and sun care, with the words Travel essentials for women.",
+         html=chart("Travel checklist", "Travel essentials for women", table(["Pack", "Why"], [
+             ["Sling or tote", "Hands free, bag kept close"], ["Hanging toiletry bag", "Hooks on the door or rail"], ["Packing cubes", "Outfits sorted, easy to find"],
+             ["Jewellery roll", "Nothing tangles or gets lost"], ["Power bank + adapter", "Phone alive, plug fits"], ["Sun care", "Cream and sunglasses"],
+             ["Door stop alarm", "An extra lock at night"]])
+             + '<p class="note"><strong>Keep your passport, cards and phone on you,</strong> not in the bag you check in.</p>')),
+    dict(slug="solo-female-travel-india", board="India Trip Ideas", link="guides/solo-female-travel-india.html",
+         title="Solo female travel in India: helplines, trains and easy first trips",
+         description="Travelling alone in India as a woman: the official helplines 112, 181 and 139, the women's berth quota and Meri Saheli on Indian Railways, tips for cabs and stays, easy first solo trips and what to pack.",
+         alt="A ladies coach on a Chennai train, with the words Solo female travel in India.",
+         html=chart("Travelling alone in India", "Solo female travel: save these first", table(["Number", "For"], [
+             ["112", "Police, fire, ambulance"], ["181", "Women Helpline"], ["139", "Railway helpline"]])
+             + group("On trains", "Ask about the women's berth quota and Meri Saheli on Indian Railways.")
+             + group("Before you go", "Share your plan and live location with someone, and book your first night's stay.")
+             + '<p class="note">Helpline numbers as listed by the government. Check before you travel.</p>')),
+    dict(slug="train-journey-packing", board="Flight and Train Baggage Rules", link="guides/things-to-carry-in-train-journey.html",
+         title="Things to carry in a train journey: a packing list for Indian trains",
+         description="What to carry on a long or overnight train in India: ticket and ID, food and water, a chain lock, a sleep kit, a power bank and clothes for the AC coach. Plus Indian Railways luggage limits and banned items.",
+         alt="A train coach aisle, with the words Things to carry in a train journey.",
+         html=photo("train-coach-aisle", "Things to carry in a train journey", "Ticket and ID, water, a chain lock, a shawl and a power bank")),
+    dict(slug="business-trip-packing", board="Packing and What to Wear", link="guides/business-trip-packing-list.html",
+         title="Business trip packing list: what to pack for a work trip",
+         description="A simple packing list for a work trip in India or abroad: documents, a laptop backpack or office tote, a cabin bag that keeps formals neat, chargers, an adapter, a grooming kit and formal shoes.",
+         alt="A suit and a cabin bag, with the words Business trip packing list.",
+         html=photo("suit-cabin-bag", "Business trip packing list", "Documents, a laptop bag, formals, chargers and formal shoes in one cabin bag")),
+    dict(slug="plug-type-india", board="Packing and What to Wear", link="guides/plug-type-in-india.html",
+         title="Plugs and voltage in India: which adapter to bring",
+         description="India uses round-pin plug types C, D and M at 230 V and 50 Hz. US and UK plugs don't fit, and 120 V-only appliances from the USA can be damaged. How to read your charger and which adapter to bring.",
+         alt="The Taj Mahal, with the words Plugs and voltage in India for visitors.",
+         html=photo("taj-mahal", "Plugs and voltage in India", "Types C, D and M at 230 V. Check your charger before you plug in.")),
 ]
 
 

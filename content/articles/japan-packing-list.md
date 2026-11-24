@@ -121,6 +121,10 @@ Waterproof hiking shoes for snow or mountains, for men:
 
 [[pick:B00NIWHQVI]]
 
+**A journal for the trip:**
+
+[[pick:0241801443]]
+
 ## Japan's rules for medicines
 
 Japan controls some medicines that are normal in India. The Ministry of Health, Labour and Welfare (MHLW) runs a Narcotics Control Department site for travellers (read 21 Nov 2026). Its main points:

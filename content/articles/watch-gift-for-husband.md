@@ -70,6 +70,10 @@ From each listing on Amazon.in, read in Nov 2026:
 
 [[pick:B07H3K85H5]]
 
+**A brown dial on a steel strap:**
+
+[[pick:B0CQRQTXCF]]
+
 **A bold dial with a date window:**
 
 [[pick:B07DD25LJ8]]
