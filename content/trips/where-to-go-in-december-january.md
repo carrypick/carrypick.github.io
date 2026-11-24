@@ -8,7 +8,7 @@ place: India in winter
 best: Dec–Jan
 photo: traveller-sunset
 priority: 1
-glance: For beaches and parties=[Goa](goa.html) | For clear sea and coral=[Andaman](andaman-in-december.html) | For snow=[Gulmarg](gulmarg-in-december.html), [Manali](manali.html) or [Shimla](shimla-in-december.html) (snow isn't guaranteed) | For mountain views=[Darjeeling](darjeeling-in-december.html) | Abroad, without a visa=[Bhutan](bhutan-in-december.html), [Nepal](nepal-in-december.html) or [Thailand](thailand-trip-from-india.html) | For the Ganga, yoga and rafting=[Rishikesh](rishikesh-in-december.html) | For forts and palaces=[Jaipur](jaipur.html) or [Udaipur](udaipur.html) | For the desert=[Jaisalmer](jaisalmer-in-december.html) or the [Rann Utsav](rann-utsav-2026.html) | For backwaters and hills=[Kerala](kerala.html) | Book=As early as you can: Christmas to New Year is peak season everywhere
+glance: For beaches and parties=[Goa](goa.html) | For clear sea and coral=[Andaman](andaman-in-december.html) | For snow=[Gulmarg](gulmarg-in-december.html), [Manali](manali.html), [Shimla](shimla-in-december.html) or [Auli](auli-in-december.html) (snow isn't guaranteed) | For a tiger safari=[Jim Corbett](jim-corbett-in-december.html) | For mountain views=[Darjeeling](darjeeling-in-december.html) | Abroad, without a visa=[Bhutan](bhutan-in-december.html), [Nepal](nepal-in-december.html) or [Thailand](thailand-trip-from-india.html) | For the Ganga, yoga and rafting=[Rishikesh](rishikesh-in-december.html) | For forts and palaces=[Jaipur](jaipur.html) or [Udaipur](udaipur.html) | For the desert=[Jaisalmer](jaisalmer-in-december.html) or the [Rann Utsav](rann-utsav-2026.html) | For backwaters and hills=[Kerala](kerala.html) | Book=As early as you can: Christmas to New Year is peak season everywhere
 ---
 December and January are the best months for most of India: the monsoon is long over, the skies are clear, and it's cool almost everywhere except the far south. They are also the busiest months, so it pays to choose well and book early. Here's how India's favourite winter trips compare, plus Bhutan and Nepal, two easy trips abroad without a visa, and Singapore.
 
@@ -56,6 +56,10 @@ Plan your budget with our [trip budget calculator](../tools/trip-budget-calculat
 | [Jaisalmer](jaisalmer-in-december.html) | The golden fort, Sam dunes, desert camps | Sunny days about 24–25 °C, nights about 9–11 °C, colder in the desert | Jaisalmer (JSA) in winter, or Jodhpur | Busy from Christmas to New Year |
 | [Rann of Kutch](rann-utsav-2026.html) | The White Rann, Rann Utsav tent city, full-moon nights | Days about 27–29 °C, nights about 10–11 °C; almost no rain | Bhuj (BHJ) | Busiest at Christmas week and full moons (24 Dec, 22 Jan) |
 | [Gulmarg](gulmarg-in-december.html) | Snow, the gondola, skiing | Days about 0–4 °C, nights about −5 to −8 °C | Srinagar (SXR), then about 52 km by road | Very busy in the last week of December |
+| [Auli](auli-in-december.html) | Ski slopes and Nanda Devi views; snow surer from January | Joshimath about 13 °C by day, 4 °C at night; Auli colder | Dehradun (DED) or a train to Rishikesh, then a long drive via Joshimath | Quiet in December; busier in the January–March ski season |
+| [Nainital](nainital-in-december.html) | The lake, boating, Snow View | Days about 14 °C, nights about 4 °C | Pantnagar (PGH), or a train to Kathgodam (35 km) | Very busy at Christmas and New Year, with shuttle parking |
+| [Mussoorie](mussoorie-in-december.html) | Mall Road, Landour, the Winterline at sunset | Days about 13 °C, nights about 5 °C | Dehradun (DED), then 38 km up from Dehradun | Very busy at Christmas and New Year |
+| [Jim Corbett](jim-corbett-in-december.html) | Tiger safaris; all zones open | Days about 23 °C, cold mornings about 6 °C | Pantnagar (PGH), or a train to Ramnagar | Permits sell out for Christmas and New Year |
 | [Kerala](kerala.html) | Backwaters, tea hills, quiet beaches | Coast about 21–34 °C; Munnar nights 2–9 °C | Kochi (COK) or Thiruvananthapuram (TRV) | Busy, with huge crowds at Fort Kochi on New Year's Eve |
 
 ## Goa: for beaches and New Year parties
@@ -213,6 +217,13 @@ Read the full [Munnar in December guide](munnar-in-december.html).
 Meghalaya is dry and clear in December, with cold nights and short days. Walk to the living root bridges near Sohra (Cherrapunji), take a boat on Dawki's clear river, and see Shillong lit up for Christmas. It doesn't snow. Your hotel or homestay must register you with the state.
 
 Read the full [Meghalaya in December guide](meghalaya-in-december.html).
+
+## Uttarakhand: Nainital, Mussoorie, Auli and Jim Corbett
+
+- **Nainital** is cold and clear in December, with boating on the lake and the ropeway to Snow View. Snow is rare before January. Read [Nainital in December](nainital-in-december.html).
+- **Mussoorie** has sunny days, cold nights and the Winterline at sunset, from mid-October to mid-January. Read [Mussoorie in December](mussoorie-in-december.html).
+- **Auli** has India's best-known ski slopes after Gulmarg, but its snow and ski season really starts in January, and the Joshimath ropeway is closed. Read [Auli in December](auli-in-december.html).
+- **Jim Corbett** has all its safari zones open in December, including Dhikala. Book the permit only on the official site. Read [Jim Corbett in December](jim-corbett-in-december.html).
 
 ## Varanasi: for the ghats and the Ganga aarti
 

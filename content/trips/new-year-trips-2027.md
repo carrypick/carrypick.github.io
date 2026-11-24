@@ -34,6 +34,9 @@ Plan your budget with our [trip budget calculator](../tools/trip-budget-calculat
 | [Meghalaya](meghalaya-in-december.html) | Christmas lights in Shillong, clear rivers at Dawki | Shillong about 16 °C by day, 7 °C at night; December is the driest month | None |
 | [Manali](manali.html) | Mountains, maybe snow, big crowds | Freezing nights; can fall below −5 °C | None |
 | [Shimla](shimla-in-december.html) | The Ridge, the toy train and snow nearby | Days about 9–12 °C, nights about 2–4 °C | None |
+| [Nainital](nainital-in-december.html) | The lake town lit up, a short trip from Delhi | Days about 14 °C, nights about 4 °C | None |
+| [Mussoorie](mussoorie-in-december.html) | The Mall, the Winterline and the end-of-year carnival | Days about 13 °C, nights about 5 °C | None |
+| [Jim Corbett](jim-corbett-in-december.html) | A tiger safari to start the year | About 23 °C by day; cold mornings about 6 °C | None |
 | [Kashmir](kashmir-in-december.html) | Snow in Gulmarg, in most years | Gulmarg about 4 °C by day and −5 °C at night | None |
 | [Dubai](dubai-new-year-2027.html) | Burj Khalifa fireworks, free to watch | About 26 °C by day, 15 °C at night | Needed before you fly |
 | [Thailand](thailand-trip-from-india.html) | Bangkok and beach parties in Phuket and Krabi | Bangkok about 31 °C by day, 21 °C at night; mostly dry | Not needed for up to 30 days |
@@ -92,6 +95,14 @@ Read [Coorg in December](coorg-in-december.html) and [Meghalaya in December](meg
 - **Kashmir:** Gulmarg often has snow in December, and the Gulmarg Gondola runs above it. Carry a postpaid SIM, as most prepaid SIMs from other states don't work there.
 
 Read the [Manali](manali.html), [Shimla in December](shimla-in-december.html) and [Kashmir in December](kashmir-in-december.html) guides, and see [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html).
+
+### Nainital, Mussoorie, Auli and Jim Corbett: Uttarakhand from Delhi
+
+- **Nainital and Mussoorie:** the classic New Year hill towns from Delhi. Both are cold and clear, and snow is rare before January. Expect traffic plans and shuttle parking on the busiest days, and carry your hotel booking.
+- **Auli:** ski slopes above Joshimath, but the snow and ski season really starts in January, and the ropeway is closed.
+- **Jim Corbett:** all safari zones are open. Book permits on the official site the day they open, 45 days ahead.
+
+Read [Nainital in December](nainital-in-december.html), [Mussoorie in December](mussoorie-in-december.html), [Auli in December](auli-in-december.html) and [Jim Corbett in December](jim-corbett-in-december.html).
 
 ## New Year abroad
 

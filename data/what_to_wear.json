@@ -838,6 +838,166 @@
    }
   },
   {
+   "slug": "auli",
+   "name": "Auli",
+   "where": "india",
+   "guide": "trips/auli-in-december.html",
+   "packing": "packing/hills.html",
+   "spots": [
+    {
+     "name": "Joshimath (16 km below Auli)",
+     "months": {
+      "dec": {
+       "day": 13.4,
+       "night": 3.9,
+       "rain_mm": 26.8
+      },
+      "jan": {
+       "day": 11.0,
+       "night": 2.0,
+       "rain_mm": 57.1
+      },
+      "feb": {
+       "day": 11.8,
+       "night": 3.0,
+       "rain_mm": 93.5
+      }
+     }
+    }
+   ],
+   "note": "These are IMD's numbers for Joshimath, about 700–1,100 m lower than Auli. Auli itself is several degrees colder and often below freezing at night.",
+   "source": {
+    "label": "IMD climate normals for Joshimath (1971–2000), as tabled on Wikipedia",
+    "checked": "2026-11-24",
+    "url": "https://en.wikipedia.org/wiki/Joshimath"
+   },
+   "snow_note": {
+    "dec": "Possible on the slopes, not certain",
+    "jan": "Likely on the slopes",
+    "feb": "Likely on the slopes"
+   }
+  },
+  {
+   "slug": "nainital",
+   "name": "Nainital",
+   "where": "india",
+   "guide": "trips/nainital-in-december.html",
+   "packing": "packing/hills.html",
+   "spots": [
+    {
+     "name": "Mukteshwar (nearest IMD station, 51 km)",
+     "months": {
+      "dec": {
+       "day": 14.4,
+       "night": 3.6,
+       "rain_mm": 17.7
+      },
+      "jan": {
+       "day": 12.1,
+       "night": 1.7,
+       "rain_mm": 45.6
+      },
+      "feb": {
+       "day": 13.5,
+       "night": 2.7,
+       "rain_mm": 68.1
+      }
+     }
+    }
+   ],
+   "note": "These are IMD's numbers for Mukteshwar, a little higher than Nainital. Nights by the lake are close to freezing.",
+   "source": {
+    "label": "IMD climate normals for Mukteshwar (1991–2020), as tabled on Wikipedia",
+    "checked": "2026-11-24",
+    "url": "https://en.wikipedia.org/wiki/Mukteshwar"
+   },
+   "snow_note": {
+    "dec": "Rare; sometimes on the peaks",
+    "jan": "Possible, mostly on the peaks",
+    "feb": "Possible, mostly on the peaks"
+   }
+  },
+  {
+   "slug": "mussoorie",
+   "name": "Mussoorie",
+   "where": "india",
+   "guide": "trips/mussoorie-in-december.html",
+   "packing": "packing/hills.html",
+   "spots": [
+    {
+     "name": "Mussoorie",
+     "months": {
+      "dec": {
+       "day": 12.7,
+       "night": 4.5,
+       "rain_mm": 10.1
+      },
+      "jan": {
+       "day": 10.3,
+       "night": 2.8,
+       "rain_mm": 49.9
+      },
+      "feb": {
+       "day": 11.2,
+       "night": 3.4,
+       "rain_mm": 65.2
+      }
+     }
+    }
+   ],
+   "note": "Sunny days are mild, but evenings on the ridge are cold and windy.",
+   "source": {
+    "label": "IMD climate normals for Mussoorie (1971–2000), as tabled on Wikipedia",
+    "checked": "2026-11-24",
+    "url": "https://en.wikipedia.org/wiki/Mussoorie"
+   },
+   "snow_note": {
+    "dec": "Possible, not certain",
+    "jan": "Possible",
+    "feb": "Possible"
+   }
+  },
+  {
+   "slug": "corbett",
+   "name": "Jim Corbett",
+   "where": "india",
+   "guide": "trips/jim-corbett-in-december.html",
+   "packing": "packing/weekend.html",
+   "spots": [
+    {
+     "name": "Pantnagar (nearest IMD station)",
+     "months": {
+      "dec": {
+       "day": 22.6,
+       "night": 6.2,
+       "rain_mm": 11.6
+      },
+      "jan": {
+       "day": 19.6,
+       "night": 5.5,
+       "rain_mm": 28.0
+      },
+      "feb": {
+       "day": 24.0,
+       "night": 7.7,
+       "rain_mm": 34.6
+      }
+     }
+    }
+   ],
+   "note": "These are IMD's numbers for Pantnagar, in the plains. Early-morning safaris in an open jeep feel much colder than the number.",
+   "source": {
+    "label": "IMD climate normals for Pantnagar (1991–2020), as tabled on Wikipedia",
+    "checked": "2026-11-24",
+    "url": "https://en.wikipedia.org/wiki/Pantnagar"
+   },
+   "snow_note": {
+    "dec": "No snow",
+    "jan": "No snow",
+    "feb": "No snow"
+   }
+  },
+  {
    "slug": "varanasi",
    "name": "Varanasi",
    "where": "india",

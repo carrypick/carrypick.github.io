@@ -68,6 +68,7 @@ The easiest hill trip from Delhi. Our guide says Rishikesh is about 240 km by ro
 - **Best months:** March to June for cool days, and September to November for clear views. Snow is possible on some winter days, but not every year.
 - **What to do:** walk Mall Road and Camel's Back Road, take the ropeway to Gun Hill, and visit Kempty Falls and the quieter Landour above town.
 - **Official info:** [Uttarakhand Tourism: Mussoorie](https://uttarakhandtourism.gov.in/destination/mussoorie).
+- **Going in winter?** Read our [Mussoorie in December guide](mussoorie-in-december.html) for the weather, the Winterline and New Year traffic.
 
 ### Nainital: a lake in the hills
 
@@ -75,6 +76,8 @@ The easiest hill trip from Delhi. Our guide says Rishikesh is about 240 km by ro
 - **Best months:** March to June, and October to December for clear skies. Winter nights are cold.
 - **What to do:** go boating on Naini Lake, walk the Mall Road, take the ropeway to Snow View Point, and visit Bhimtal and Sattal nearby.
 - **Official info:** [Nainital district website](https://nainital.nic.in/) and [Uttarakhand Tourism](https://uttarakhandtourism.gov.in/).
+- **Going in winter?** Read our [Nainital in December guide](nainital-in-december.html) for the weather, snow chances and New Year parking.
+- **Add a safari:** [Jim Corbett](jim-corbett-in-december.html), in the same district, has all its zones open in winter.
 
 ### Shimla: the toy train and an easy hill town
 
@@ -111,7 +114,9 @@ Fly to Srinagar for Dal Lake, and Gulmarg about 50 km away for snow and the gond
 
 ## Weekend getaways from Delhi in December
 
-- **For snow:** Shimla, Manali or Kashmir, but snow isn't guaranteed in December. January and February are better bets.
+- **For snow:** Shimla, Manali or Kashmir, but snow isn't guaranteed in December. January and February are better bets. With 4 or 5 days, [Auli](auli-in-december.html) has ski slopes, from January.
+- **For the hills without snow:** [Nainital](nainital-in-december.html) and [Mussoorie](mussoorie-in-december.html) are cold and clear in December.
+- **For a safari:** [Jim Corbett](jim-corbett-in-december.html), about 295 km from Delhi, has all its zones open.
 - **For sun:** Jaipur, Udaipur, Agra and Rishikesh have sunny winter days and cold nights.
 - **Fog:** dense fog is common from late December to January. It delays trains and flights and makes early-morning driving risky. Don't plan a tight connection, and keep a spare morning.
 - **Christmas and New Year** are the busiest days of the year in all the hill towns. Book early, or go the weekend before.

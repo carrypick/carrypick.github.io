@@ -13,7 +13,7 @@ Rishikesh in December and January is cool and sunny by day and cold at night. Th
 
 Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
 
-Still choosing? Compare other winter trips in [where to go in December and January](where-to-go-in-december-january.html). Want snow instead? See [Shimla in December](shimla-in-december.html) or [Manali in winter](manali.html). Want the Ganga with old temples and ghats? See [Varanasi in December](varanasi-in-december.html).
+Still choosing? Compare other winter trips in [where to go in December and January](where-to-go-in-december-january.html). Want snow instead? See [Shimla in December](shimla-in-december.html) or [Manali in winter](manali.html). Want the Ganga with old temples and ghats? See [Varanasi in December](varanasi-in-december.html). Going further into Uttarakhand? [Mussoorie in December](mussoorie-in-december.html) is just above Dehradun, and the road to [Auli](auli-in-december.html) starts here.
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html), and work out the fuel with the [road trip fuel cost calculator](../tools/road-trip-cost-calculator.html).
 
