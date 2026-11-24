@@ -16,7 +16,7 @@ The best Christmas gift for a couple is one they'll both use: matching watches, 
 [[top:B0DSVXW4GD|For couples who have everything|A Skinn by Titan perfume pack: four 20 ml EDPs, two for women and two for men.]]
 [[top:B07M9BRCQ5|For a weekend away|A 35 litre weekender duffle in water-resistant leatherette, for a 2 to 3 day trip together.]]
 
-Buying for one of them? See our [Christmas gifts for a girlfriend or wife](christmas-gift-for-girlfriend-or-wife.html) and [for a boyfriend or husband](christmas-gift-for-boyfriend-or-husband.html). Buying for your mom and dad? See our [Christmas gifts for parents](christmas-gift-for-parents.html). Their anniversary or wedding coming up? See our [anniversary gift ideas](anniversary-gift-ideas.html) and [wedding gift ideas](wedding-gift-guide.html).
+Buying for one of them? See our [Christmas gifts for a girlfriend or wife](christmas-gift-for-girlfriend-or-wife.html) and [for a boyfriend or husband](christmas-gift-for-boyfriend-or-husband.html). Buying for your mom and dad? See our [Christmas gifts for parents](christmas-gift-for-parents.html) and [for grandparents](christmas-gift-for-grandparents.html). Their anniversary or wedding coming up? See our [anniversary gift ideas](anniversary-gift-ideas.html) and [wedding gift ideas](wedding-gift-guide.html).
 
 ## Quick ideas
 

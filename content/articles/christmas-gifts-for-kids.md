@@ -19,7 +19,7 @@ The Christmas gifts kids remember are often the ones they use every day: a watch
 
 A birthday coming up instead? See our [birthday gifts for kids by age](birthday-gift-ideas-for-kids.html).
 
-Shopping for the grown-ups too? See our [Christmas gifts for a girlfriend or wife](christmas-gift-for-girlfriend-or-wife.html) and [Christmas gifts for a boyfriend or husband](christmas-gift-for-boyfriend-or-husband.html), or Christmas gifts [for parents and grandparents](christmas-gift-for-parents.html), [for friends](christmas-gift-for-friends.html) and [for couples](christmas-gift-for-couples.html).
+Shopping for the grown-ups too? See our [Christmas gifts for a girlfriend or wife](christmas-gift-for-girlfriend-or-wife.html) and [Christmas gifts for a boyfriend or husband](christmas-gift-for-boyfriend-or-husband.html), or Christmas gifts [for parents](christmas-gift-for-parents.html), [for grandparents](christmas-gift-for-grandparents.html), [for friends](christmas-gift-for-friends.html) and [for couples](christmas-gift-for-couples.html).
 
 ## Quick ideas
 
@@ -60,6 +60,8 @@ Shopping for the grown-ups too? See our [Christmas gifts for a girlfriend or wif
 [[pick:B0GF7ZH2QN]]
 
 ## Gifts for older kids and teens (10 and up)
+
+Shopping for a teen? Our [Christmas gifts for teenagers](christmas-gift-for-teenagers.html) has more for a teenage boy or girl. Buying for their grandparents too? See our [Christmas gifts for grandparents](christmas-gift-for-grandparents.html).
 
 **A big school bag for lots of books.** It's 37 litres, with 3 compartments, a quick-access front pocket and a water-resistant fabric. At 50 cm high, it suits older kids best.
 

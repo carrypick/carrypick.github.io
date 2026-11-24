@@ -155,6 +155,8 @@ Our [what to wear in Manali in December](what-to-wear-in-manali-in-december.html
 
 ## For your brother
 
+Is he a teenager? See our [Christmas gifts for a teenage boy](christmas-gift-for-teenagers.html#for-a-teenage-boy).
+
 **A diver-style watch for a watch lover: Invicta Pro Diver.** It's water resistant to 200 m, with a steel strap.
 
 [[pick:B014MN9RCM]]

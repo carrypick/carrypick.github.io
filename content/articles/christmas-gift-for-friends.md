@@ -16,7 +16,7 @@ A good Christmas gift for a friend is something they'd enjoy but wouldn't buy fo
 [[top:B09KV28F4P|For your best friend|Vincent Chase polarized round sunglasses in a gold steel frame that weighs about 18 g, for men and women.]]
 [[top:B0C4TV4M2F|For a friend who travels|An 8-piece packing cubes set with a shoe bag and a toiletry bag. Everything folds into the largest cube.]]
 
-Shopping for family too? See our [Christmas gifts for parents](christmas-gift-for-parents.html), [for a girlfriend or wife](christmas-gift-for-girlfriend-or-wife.html), [for a boyfriend or husband](christmas-gift-for-boyfriend-or-husband.html) and [for kids](christmas-gifts-for-kids.html). Buying for a colleague? See our [Secret Santa gift ideas](secret-santa-gift-ideas-for-office.html). A friend's birthday coming up? See our [birthday gifts for a friend](birthday-gift-ideas.html#for-a-friend).
+Shopping for family too? See our [Christmas gifts for parents](christmas-gift-for-parents.html), [for a girlfriend or wife](christmas-gift-for-girlfriend-or-wife.html), [for a boyfriend or husband](christmas-gift-for-boyfriend-or-husband.html), [for kids](christmas-gifts-for-kids.html), [for teenagers](christmas-gift-for-teenagers.html) and [for grandparents](christmas-gift-for-grandparents.html). Buying for a colleague? See our [Secret Santa gift ideas](secret-santa-gift-ideas-for-office.html). A friend's birthday coming up? See our [birthday gifts for a friend](birthday-gift-ideas.html#for-a-friend).
 
 ## Quick ideas
 

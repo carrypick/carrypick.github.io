@@ -132,6 +132,8 @@ Our [what to wear in Manali in December](what-to-wear-in-manali-in-december.html
 
 ## For your sister
 
+Is she a teenager? See our [Christmas gifts for a teenage girl](christmas-gift-for-teenagers.html#for-a-teenage-girl).
+
 **A small, structured satchel that weighs about 350 g:**
 
 [[pick:B0B3JBRB6J]]
