@@ -14,7 +14,7 @@ Munnar in December is sunny by day and cold at night. The monsoon is over, the t
 
 Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
 
-Seeing more of Kerala? Our [Kerala trip guide](kerala.html) covers Kochi, the Alappuzha houseboats and the beaches. Still choosing? Compare Goa, Ooty, Coorg and more in [where to go in December and January](where-to-go-in-december-january.html). Another tea-hill town with frosty mornings is [Ooty](ooty-in-december.html), and for coffee estates try [Coorg in December](coorg-in-december.html).
+Seeing more of Kerala? Our [Kerala trip guide](kerala.html) covers Kochi, the Alappuzha houseboats and the beaches. Going in January? Read [Kerala in January](kerala-in-january.html) for the frost, festivals and IMD averages. Still choosing? Compare Goa, Ooty, Coorg and more in [where to go in December and January](where-to-go-in-december-january.html). Another tea-hill town with frosty mornings is [Ooty](ooty-in-december.html), and for coffee estates try [Coorg in December](coorg-in-december.html).
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 

@@ -11,6 +11,8 @@ glance: Visa for Indians=Not needed for tourism, up to 30 days (since 15 Sep 202
 ---
 Thailand is one of the cheapest and easiest trips abroad from India. Flights are short, there are direct flights from many Indian cities, and Indians don't need a visa for a holiday of up to 30 days. Most first trips mix Bangkok's temples and markets with a few days on the beaches of Phuket, Krabi or Pattaya. This guide covers the visa, the TDAC arrival card, flights, a 5 to 7-day itinerary, the weather in December, getting around and food for vegetarians.
 
+Going in January? Read our [Thailand in January guide](thailand-in-january.html) for the weather by region, the Bo Sang Umbrella Festival and which coast is drier.
+
 Packing for the trip? Use our [Thailand packing list](../guides/thailand-packing-list.html) for light clothes, one temple outfit, the bag limits by airline and what not to carry (vapes are illegal). Checking other countries? See which ones let Indians in without a visa in our [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html). Still choosing a winter trip? Compare places in [where to go in December and January](where-to-go-in-december-january.html).
 
 Plugs: Thailand uses sockets that take flat and thin round pins, at 220 V. See [which travel adapter for Thailand to pack](../guides/travel-adapter-for-thailand.html).

@@ -31,6 +31,11 @@ January has its own weather and events, so we've written month guides for the pl
 - **[Gulmarg in January](gulmarg-in-january.html):** deep snow, IISM ski courses from 3 and 17 January, and the gondola.
 - **[Goa in January](goa-in-january.html):** the same sunny weather as New Year, fewer crowds, and the Feast of the Three Kings on 6 January.
 - **[Rajasthan in January](rajasthan-in-january.html):** the Bikaner Camel Festival (9–10 January), kites over Jaipur on 14 January and the Jaipur Literature Festival.
+- **[Kerala in January](kerala-in-january.html):** dry, sunny backwaters, frosty mornings in Munnar's tea valleys, Makaravilakku on 14 January and the Kerala Literature Festival.
+- **[Thailand in January](thailand-in-january.html):** one of the driest months, with the Andaman coast around Phuket and Krabi at its best and cool nights in Chiang Mai.
+- **[Vietnam in January](vietnam-in-january.html):** sunny in the south, cool and grey in Hanoi, and Tet on 6 February 2027, with busy trains from 23 January.
+- **[Dubai in January](dubai-in-january.html):** the coolest month, the Shopping Festival until 17 January and the Dubai Marathon.
+- **[Bali in January](bali-in-january.html):** the wettest month, but green and calmer after New Year, with Galungan on 13 January.
 
 ## Quick comparison
 

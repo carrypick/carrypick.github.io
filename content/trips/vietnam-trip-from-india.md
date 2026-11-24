@@ -11,6 +11,8 @@ glance: Visa for Indians=Needed: apply for the e-visa online before you fly | e-
 ---
 Vietnam has become one of the most popular trips abroad from India. There are direct flights from several Indian cities, and the country packs a lot into one week: Hanoi's old streets, the limestone islands of Ha Long Bay, the lantern-lit old town of Hoi An and busy Ho Chi Minh City. Indians need a visa, but it's an e-visa you apply for online. This guide covers the e-visa, the pre-arrival form, flights, a 5 or 7-day itinerary, the weather in December, getting around and food for vegetarians.
 
+Going in January? Read our [Vietnam in January guide](vietnam-in-january.html) for the weather north to south, Tet on 6 February 2027 and the rush before it.
+
 Packing for the trip? Use our [Vietnam packing list](../guides/vietnam-packing-list.html): in winter you may need a jacket for Hanoi, a poncho for Hoi An and summer clothes for Ho Chi Minh City on the same trip. Checking other countries? See which ones let Indians in without a visa in our [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html). Still choosing a winter trip? Compare places in [where to go in December and January](where-to-go-in-december-january.html).
 
 Plugs: Vietnam uses types A, B, C and F at 220 V. See [travel adapter by country](../guides/travel-adapter-by-country.html) for the adapter to pack.

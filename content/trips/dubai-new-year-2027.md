@@ -14,7 +14,7 @@ glance: New Year's Eve=Thursday 31 December 2026; 1 January 2027 is a Friday | M
 ---
 Dubai's New Year's Eve is one of the biggest in the world. At midnight the Burj Khalifa lights up with fireworks, and dozens of other places across the city have their own shows. You can watch the main show for free, but you have to plan: roads around Downtown Dubai close from the afternoon, and the crowds are huge. This guide covers what has been announced for New Year's Eve 2027 (the night of 31 December 2026), the free and paid ways to watch, other fireworks spots, getting there and back, and the visa if you're coming from India.
 
-Planning the whole trip? Read our [Dubai trip guide](dubai-trip-from-india.html) for the visa, flights, a 5-day plan and the metro. Still choosing where to spend New Year? Compare places in [New Year trips 2027](new-year-trips-2027.html).
+Planning the whole trip? Read our [Dubai trip guide](dubai-trip-from-india.html) for the visa, flights, a 5-day plan and the metro. Staying into January? See [Dubai in January](dubai-in-january.html) for the Shopping Festival's last weeks and the Dubai Marathon. Still choosing where to spend New Year? Compare places in [New Year trips 2027](new-year-trips-2027.html).
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 

@@ -3,7 +3,7 @@ seo_title: Kerala trip guide for Christmas and New Year 2026–27: Kochi, Munnar
 title: Kerala in winter: Kochi, Munnar and the backwaters at Christmas and New Year
 description: Plan Kerala for December and January: the weather, airports, the Cochin Carnival in Fort Kochi, houseboats in Alappuzha, Eravikulam in Munnar, beach safety and the 1 January dry day.
 date: 2026-11-03
-updated: 2026-11-04
+updated: 2026-11-24
 place: Kerala
 best: Nov–Feb
 photo: kerala-houseboat
@@ -14,7 +14,7 @@ Kerala is at its best from November to February: the monsoon is over, the backwa
 
 Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
 
-Still choosing? Compare Goa, Manali, Jaipur and Kerala in [where to go in December and January](where-to-go-in-december-january.html). Going in late January? See our [Republic Day long weekend ideas](republic-day-long-weekend-2027.html).
+Still choosing? Compare Goa, Manali, Jaipur and Kerala in [where to go in December and January](where-to-go-in-december-january.html). Going in January? Read our [Kerala in January guide](kerala-in-january.html) for Munnar's frosty mornings, Makaravilakku and the Kerala Literature Festival, or see our [Republic Day long weekend ideas](republic-day-long-weekend-2027.html).
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 

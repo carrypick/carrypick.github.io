@@ -11,6 +11,8 @@ glance: Visa for Indians=Needed before you fly, through a tourism company, airli
 ---
 Dubai is the most popular trip abroad from India. Direct flights leave from more than 20 Indian cities, the flight is short, and the city is easy for families: big malls, beaches, a desert safari, Indian food everywhere and a metro from the airport. Most Indians need a visa before they fly, usually through a tourism company, an airline or a hotel. This guide covers the visa, the visa on arrival for Indians with a US, UK or EU visa, flights, a 5-day plan with an Abu Dhabi day trip, the weather in December, the metro, food and the rules to know.
 
+Going in January? Read our [Dubai in January guide](dubai-in-january.html) for the coolest month, the Shopping Festival until 17 January and the Dubai Marathon.
+
 Packing for the trip? Use our [Dubai packing list](../guides/dubai-packing-list.html) for winter evenings, mall and mosque clothes, the desert safari and bag limits. Not sure what you can bring in? Read [UAE customs rules](../baggage/customs/uae-dubai.html) for the duty-free limits, cash, medicines and banned things like paan and poppy seeds. Still choosing a winter trip? Compare places in [where to go in December and January](where-to-go-in-december-january.html). Going for New Year's Eve? Read our [Dubai New Year 2027 guide](dubai-new-year-2027.html) for the Burj Khalifa fireworks, free viewing areas and metro timings.
 
 Plugs: Dubai uses UK-style type G plugs at 230 V. See [which travel adapter for Dubai to pack](../guides/travel-adapter-for-dubai.html).
