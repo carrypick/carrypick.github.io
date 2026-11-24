@@ -1,5 +1,65 @@
 [
   {
+    "asin": "B0GPD46SVW",
+    "added_at": "2026-11-24T20:54:07+05:30",
+    "title": "VIP Vero 65 cm Medium Check-in Trolley, Polycarbonate, TSA Lock",
+    "category": "luggage",
+    "subcategory": "medium-trolleys",
+    "highlights": [
+      "Hard polycarbonate shell, 3.1 kg empty",
+      "77 litres (as listed)",
+      "Flush TSA lock and anti-theft zip",
+      "8 spinner wheels, shoe and toiletry pouches"
+    ],
+    "note": "The medium size of VIP's polycarbonate Vero, 136 cm in total, with a TSA lock and a 3-year international warranty.",
+    "brand": "VIP",
+    "colour": "Lavender Blue",
+    "best_for": [
+      "1-2 week trips",
+      "Check-in bag"
+    ],
+    "specs": {
+      "Size": "44 x 27 x 65 cm (136 cm total; the title says 67 cm)",
+      "Capacity": "77 L (as listed)",
+      "Weight": "3.1 kg",
+      "Shell": "Hard, polycarbonate",
+      "Wheels": "8 spinner wheels",
+      "Lock": "TSA",
+      "Warranty": "3 years, international"
+    },
+    "skip_if": "you want the lightest bag for a 15 kg fare: American Tourister's Liftoff+ 67 cm lists 2.9 kg."
+  },
+  {
+    "asin": "B0GPD6P511",
+    "added_at": "2026-11-24T20:54:07+05:30",
+    "title": "VIP Vero 55 cm Cabin Trolley, Polycarbonate, TSA Lock",
+    "category": "luggage",
+    "subcategory": "cabin-trolleys",
+    "highlights": [
+      "Hard polycarbonate shell, 2.44 kg empty",
+      "Flush TSA lock and anti-theft zip",
+      "8 spinner wheels (dual wheels)",
+      "Shoe pouch, toiletry pouch, wet and mesh pockets"
+    ],
+    "note": "VIP's polycarbonate Vero range in cabin size, with a TSA lock and a 3-year international warranty.",
+    "brand": "VIP",
+    "colour": "Champagne",
+    "best_for": [
+      "Cabin bag",
+      "Short trips"
+    ],
+    "specs": {
+      "Size": "39 x 23 x 55 cm (117 cm total; the title says 57 cm)",
+      "Capacity": "47.6 L (as listed)",
+      "Weight": "2.44 kg",
+      "Shell": "Hard, polycarbonate",
+      "Wheels": "8 spinner wheels",
+      "Lock": "TSA",
+      "Warranty": "3 years, international"
+    },
+    "skip_if": "your airline checks each side strictly: at 39 x 23 cm it is over IndiGo's 35 cm width and Air India's 20 cm depth by listed size."
+  },
+  {
     "asin": "B0BCNQCWHS",
     "added_at": "2026-11-24T14:11:45+05:30",
     "title": "Belkin 65W Dual USB-C GaN Charger (45W + 20W, WCH013)",
