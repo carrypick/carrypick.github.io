@@ -13,7 +13,7 @@ Gulmarg is Kashmir's snow meadow: a wide bowl of pine forest and slopes about 52
 
 Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money. Please also read the government travel advice below.
 
-Seeing more of Kashmir? Our [Kashmir in December guide](kashmir-in-december.html) covers Srinagar, Sonamarg and Pahalgam, Chillai Kalan, phone SIMs and the heater safety rules. Still choosing? Compare other winter trips in [where to go in December and January](where-to-go-in-december-january.html). Want ski slopes closer to Delhi by road? See [Auli in December](auli-in-december.html), where the snow season really starts in January.
+Seeing more of Kashmir? Our [Kashmir in December guide](kashmir-in-december.html) covers Srinagar, Sonamarg and Pahalgam, Chillai Kalan, phone SIMs and the heater safety rules. Still choosing? Compare other winter trips in [where to go in December and January](where-to-go-in-december-january.html). Want ski slopes closer to Delhi by road? See [Auli in December](auli-in-december.html), where the snow season really starts in January. Going in January? See [Gulmarg in January](gulmarg-in-january.html) for January's snow, IISM's January ski courses and the gondola in deep snow.
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
