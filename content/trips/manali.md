@@ -14,7 +14,7 @@ Manali is India's favourite winter hill station. Many people go hoping for snow 
 
 Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
 
-Still choosing? Compare Goa, Manali, Jaipur and Kerala in [where to go in December and January](where-to-go-in-december-january.html). Going in late January? See our [Republic Day long weekend ideas](republic-day-long-weekend-2027.html). Want an easier trip by toy train? See [Shimla in December and January](shimla-in-december.html).
+Still choosing? Compare Goa, Manali, Jaipur and Kerala in [where to go in December and January](where-to-go-in-december-january.html). Going in late January? See our [Republic Day long weekend ideas](republic-day-long-weekend-2027.html). Want an easier trip by toy train? See [Shimla in December and January](shimla-in-december.html). Going in January? See [Manali in January](manali-in-january.html) for January's weather, the Winter Carnival, Solang skiing and the Atal Tunnel in snow.
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html), and work out the fuel with the [road trip fuel cost calculator](../tools/road-trip-cost-calculator.html).
 
