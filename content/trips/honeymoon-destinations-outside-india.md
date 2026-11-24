@@ -1,7 +1,7 @@
 ---
 seo_title: Honeymoon destinations outside India (2026–27): best international trips from India by month, visa and flight time
 title: Honeymoon destinations outside India: the best trips abroad for Indian couples
-description: The best international honeymoon destinations from India for the wedding season: the Maldives, Bali, Thailand, Mauritius, Sri Lanka, Dubai, Singapore, Malaysia, Vietnam, Turkey, Europe, Bhutan and Nepal, sorted by month (November to February), by visa ease for Indians, by flight time from Delhi and Mumbai, and by style, with links to our full trip guides.
+description: The best international honeymoon destinations from India for the wedding season: the Maldives, Bali, Thailand, Mauritius, the Seychelles, Sri Lanka, Dubai, Singapore, Malaysia, Vietnam, Turkey, Europe, Bhutan and Nepal, sorted by month (November to February), by visa ease for Indians, by flight time from Delhi and Mumbai, and by style, with links to our full trip guides.
 date: 2026-11-23
 updated: 2026-11-23
 place: Honeymoon abroad
@@ -33,6 +33,7 @@ The flying time is a rough guide for a direct flight from Delhi or Mumbai, which
 | [Malaysia](malaysia-trip-from-india.html) | Langkawi's beaches | About 5 hours | December to February for Langkawi and Penang | [No visa for 30 days until 31 Dec 2026](../guides/visa-free-countries-for-indians.html#malaysia) |
 | [Singapore](singapore-trip-from-india.html) | City break | About 5½ hours | February to April | [Visa through an agent](../guides/visa-free-countries-for-indians.html#singapore) |
 | [Turkey](turkey-trip-from-india.html) | Istanbul and Cappadocia balloons | About 6 hours from Delhi | April to June; September and October | [Visa from a Turkish mission](../guides/visa-free-countries-for-indians.html#turkey), or an e-visa with a US, UK, Schengen or Irish visa |
+| [Seychelles](seychelles-trip-from-india.html) | Granite beaches and island resorts | About 4½ hours from Mumbai | Warm all year; June to September has the least rain | [No visa](../guides/visa-free-countries-for-indians.html#seychelles): paid Travel Authorisation online first |
 | [Mauritius](mauritius-trip-from-india.html) | Lagoons and beach resorts | About 6½ hours from Mumbai | May to November; December is warm with some rain | [No visa](../guides/visa-free-countries-for-indians.html#mauritius): return ticket and hotel booking |
 | [Bali](bali-trip-from-india.html) | Villas, rice terraces, sunsets | About 7½ hours | April to October | [Visa on arrival or e-VOA](../guides/visa-free-countries-for-indians.html#indonesia) |
 | [Europe](europe-trip-from-india.html) | Swiss mountains, Paris, Venice | About 8 to 9 hours from Delhi | May, June and September; December for Christmas markets | [Schengen visa](../guides/visa-free-countries-for-indians.html#schengen), applied for before you fly |
@@ -47,7 +48,7 @@ Not every Indian city has a direct flight to every country. Each trip guide list
 
 ### December
 
-- **Beach:** the [Maldives](maldives-trip-from-india.html) has warm sea and short showers on about 12 days, at the start of the drier months. [Thailand](thailand-trip-from-india.html) is in its cool, dry season. [Mauritius](mauritius-trip-from-india.html) is warm, about 31 °C by day, with rain on about 6 days in Port Louis. [Malaysia](malaysia-trip-from-india.html) is good for Langkawi and Penang, but avoid the east coast islands, where the monsoon is at its peak.
+- **Beach:** the [Maldives](maldives-trip-from-india.html) has warm sea and short showers on about 12 days, at the start of the drier months. [Thailand](thailand-trip-from-india.html) is in its cool, dry season. [Mauritius](mauritius-trip-from-india.html) is warm, about 31 °C by day, with rain on about 6 days in Port Louis. The [Seychelles](seychelles-trip-from-india.html) are warm, about 30 °C, with short showers on most days. [Malaysia](malaysia-trip-from-india.html) is good for Langkawi and Penang, but avoid the east coast islands, where the monsoon is at its peak.
 - **City and desert:** [Dubai](dubai-trip-from-india.html) has warm days and cool evenings, the best time of year there; nights are about 14–15 °C.
 - **Hills and beaches:** [Sri Lanka](sri-lanka-trip-from-india.html) has some rain on the west coast in December, and is drier in January. [Vietnam](vietnam-trip-from-india.html) is dry and warm in the south and cool in Hanoi.
 - **Cold and snowy:** [Europe](europe-trip-from-india.html) has Christmas markets and snow in the Swiss Alps; Zurich averages about −2 °C at night. [Nepal](nepal-in-december.html) and [Bhutan](bhutan-in-december.html) have clear views and sunny days but very cold nights. [Turkey](turkey-trip-from-india.html) is in its low season: Istanbul about 11 °C and rainy, Cappadocia below freezing at night.
@@ -69,7 +70,7 @@ Not sure what to wear for your month? Our [what-to-wear helper](../tools/what-to
 
 Right after a wedding there's little time for a visa office. These are the simplest for an Indian passport right now, from our [visa guide](../guides/visa-free-countries-for-indians.html):
 
-- **No visa at all:** [Nepal](nepal-in-december.html), [Bhutan](bhutan-in-december.html) (with an entry permit and a daily Sustainable Development Fee) and [Mauritius](mauritius-trip-from-india.html) (carry a return ticket and a hotel booking, and fill in the free travel form online).
+- **No visa at all:** [Nepal](nepal-in-december.html), [Bhutan](bhutan-in-december.html) (with an entry permit and a daily Sustainable Development Fee) [Mauritius](mauritius-trip-from-india.html) (carry a return ticket and a hotel booking, and fill in the free travel form online) and the [Seychelles](seychelles-trip-from-india.html) (a free visitor's permit on arrival, but a paid Travel Authorisation online before you fly).
 - **No visa for a short tourist stay:** [Thailand](thailand-trip-from-india.html) (up to 30 days) and [Malaysia](malaysia-trip-from-india.html) (up to 30 days, until 31 December 2026).
 - **A free visa online, or a visa on arrival:** [Sri Lanka](sri-lanka-trip-from-india.html) (free ETA), the [Maldives](maldives-trip-from-india.html) and [Bali](bali-trip-from-india.html) (visa on arrival; Bali also sells it online as an e-VOA).
 - **Apply before you fly:** [Vietnam](vietnam-trip-from-india.html) (e-visa online), [Dubai](dubai-trip-from-india.html) (through a tourism company, airline or hotel), [Singapore](singapore-trip-from-india.html) (through an agent in India), [Turkey](turkey-trip-from-india.html) (a Turkish mission, or an e-visa if you hold a US, UK, Schengen or Irish visa) and [Europe](europe-trip-from-india.html) (a Schengen visa, applied for at least 15 days before you fly).
@@ -81,7 +82,7 @@ Right after a wedding there's little time for a visa office. These are the simpl
 After the wedding, a short flight means more days on the beach and less time in airports.
 
 - **Under 3 hours:** [Nepal](nepal-in-december.html) (about 1½ hours from Delhi), [Bhutan](bhutan-in-december.html) (about 2 hours), [Sri Lanka](sri-lanka-trip-from-india.html) and the [Maldives](maldives-trip-from-india.html) (about 2½ hours from Mumbai).
-- **3 to 5 hours:** [Dubai](dubai-trip-from-india.html), [Thailand](thailand-trip-from-india.html), [Vietnam](vietnam-trip-from-india.html) and [Malaysia](malaysia-trip-from-india.html).
+- **3 to 5 hours:** [Dubai](dubai-trip-from-india.html), [Thailand](thailand-trip-from-india.html), [Vietnam](vietnam-trip-from-india.html), [Malaysia](malaysia-trip-from-india.html) and the [Seychelles](seychelles-trip-from-india.html) (about 4½ hours from Mumbai).
 - **5 to 7½ hours:** [Singapore](singapore-trip-from-india.html), [Turkey](turkey-trip-from-india.html), [Mauritius](mauritius-trip-from-india.html) and [Bali](bali-trip-from-india.html).
 - **8 hours or more:** [Europe](europe-trip-from-india.html), about 8 to 9 hours from Delhi to Zurich or Paris.
 
@@ -93,6 +94,7 @@ Compare all our countries by flight time in the [international trips hub](intern
 
 - **[Maldives](maldives-trip-from-india.html):** India's favourite beach honeymoon abroad. Choose a private resort island with beach and overwater villas for privacy, or a guesthouse on a local island near Malé to save money. Check the meal plan, the transfer and the green tax before you pay, and tell the resort it's your honeymoon when you book.
 - **[Mauritius](mauritius-trip-from-india.html):** blue lagoons, resorts on white beaches and a mountain backdrop, with Indian food everywhere and no visa. Le Morne in the south-west is quiet and good for honeymoons; Flic en Flac has sunsets. Many couples stay a week.
+- **[Seychelles](seychelles-trip-from-india.html):** the boulder beaches of La Digue, the Vallée de Mai on Praslin and quiet resorts on Mahé, a direct flight from Mumbai with no visa (get the Travel Authorisation online first). Spend the week on two or three islands, linked by ferries.
 - **[Bali](bali-trip-from-india.html):** pool villas and rice terraces in Ubud, and beach sunsets in Seminyak and Uluwatu. Split your stay between the two. Best from April to October; December to February is wet.
 - **[Thailand](thailand-trip-from-india.html):** islands and beaches in Phuket and Krabi, Bangkok's temples, and no visa for up to 30 days.
 - **[Malaysia](malaysia-trip-from-india.html):** Langkawi's beaches, with direct IndiGo flights from Bengaluru to Langkawi.
@@ -125,6 +127,8 @@ Many couples book a package so the flights, hotel and transfers are arranged in 
 
 [[tours:Mauritius]]
 
+[[tours:Seychelles]]
+
 [[tours:Thailand]]
 
 ## How much does a honeymoon abroad cost?
@@ -152,7 +156,7 @@ The Maldives and Sri Lanka are at their best from January, and Thailand, Dubai, 
 
 ### Which honeymoon destinations near India need no visa?
 
-Nepal and Bhutan need no visa (Bhutan has an entry permit and a daily fee), and Mauritius needs none with a return ticket and a hotel booking. Thailand needs no visa for up to 30 days, and Malaysia for up to 30 days until 31 December 2026. Sri Lanka has a free ETA online, and the Maldives a visa on arrival.
+Nepal and Bhutan need no visa (Bhutan has an entry permit and a daily fee), and Mauritius and the Seychelles need none (the Seychelles ask for a paid Travel Authorisation online first). Thailand needs no visa for up to 30 days, and Malaysia for up to 30 days until 31 December 2026. Sri Lanka has a free ETA online, and the Maldives a visa on arrival.
 
 ### What is the nearest honeymoon destination abroad from India?
 
@@ -172,4 +176,4 @@ The Maldives is a short flight with a visa on arrival, and best from January to 
 
 ## Sources
 
-Checked on 23 Nov 2026. The weather, visa rules, flight times and best months on this page come from our [international trips hub](international-trips-from-india.html), our [visa guide](../guides/visa-free-countries-for-indians.html) and our trip guides, where each official source is listed with its date: [Maldives](maldives-trip-from-india.html), [Bali](bali-trip-from-india.html), [Thailand](thailand-trip-from-india.html), [Mauritius](mauritius-trip-from-india.html), [Sri Lanka](sri-lanka-trip-from-india.html), [Dubai](dubai-trip-from-india.html), [Singapore](singapore-trip-from-india.html), [Malaysia](malaysia-trip-from-india.html), [Vietnam](vietnam-trip-from-india.html), [Turkey](turkey-trip-from-india.html), [Europe](europe-trip-from-india.html), [Bhutan](bhutan-in-december.html) and [Nepal](nepal-in-december.html).
+Checked on 23 Nov 2026. The weather, visa rules, flight times and best months on this page come from our [international trips hub](international-trips-from-india.html), our [visa guide](../guides/visa-free-countries-for-indians.html) and our trip guides, where each official source is listed with its date: [Maldives](maldives-trip-from-india.html), [Bali](bali-trip-from-india.html), [Thailand](thailand-trip-from-india.html), [Mauritius](mauritius-trip-from-india.html), the [Seychelles](seychelles-trip-from-india.html), [Sri Lanka](sri-lanka-trip-from-india.html), [Dubai](dubai-trip-from-india.html), [Singapore](singapore-trip-from-india.html), [Malaysia](malaysia-trip-from-india.html), [Vietnam](vietnam-trip-from-india.html), [Turkey](turkey-trip-from-india.html), [Europe](europe-trip-from-india.html), [Bhutan](bhutan-in-december.html) and [Nepal](nepal-in-december.html).
