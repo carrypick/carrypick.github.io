@@ -148,6 +148,7 @@ For our picks and full lists, see [which shoes to take](../guides/travel-shoes-g
 
 ## Safety and local tips
 
+- **Travelling alone as a woman?** See [solo female travel in India](../guides/solo-female-travel-india.html) for the Women Helpline 181, the Railway helpline 139 and the women's berth quota on trains.
 - **Tourist Assistance Force:** Rajasthan Tourism's tourist helpers work at major sights in Udaipur, and the city has a tourism police station. Ask them about authorised taxi stands or if touts bother you.
 - **Use approved guides:** Rajasthan Tourism publishes a list of guides, and at City Palace look for the orange lanyard.
 - **Don't swim or bathe in the lakes.** The Rajasthan High Court has banned bathing in Udaipur's lakes, and there have been drownings at Fateh Sagar. Wear the life jacket on boats.

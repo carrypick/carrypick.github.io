@@ -100,7 +100,7 @@ More travel slings, including one with a lock, are in our [sling bag for travel 
 
 [[pick:B0GHXYQ318]]
 
-More ideas for her are in our [Christmas gifts for a girlfriend or wife](christmas-gift-for-girlfriend-or-wife.html).
+More ideas for her are in our [Christmas gifts for a girlfriend or wife](christmas-gift-for-girlfriend-or-wife.html) and our [travel essentials for women](travel-essentials-for-women.html). Is she going on a trip alone? See [solo female travel in India](solo-female-travel-india.html).
 
 ## For someone flying abroad
 
@@ -176,6 +176,7 @@ Yes, if it fits their airline. Many "55 cm" cabin trolleys are too wide for Indi
 
 ## Related guides
 
+- [Travel essentials for women](travel-essentials-for-women.html)
 - [Christmas gifts for friends](christmas-gift-for-friends.html)
 - [40 litre carry-on travel backpacks](travel-backpack-40l-carry-on.html)
 

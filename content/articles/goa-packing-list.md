@@ -195,6 +195,7 @@ Yes. Cashews are fine in either bag. Feni goes only in your check-in bag, up to 
 
 ## Related guides
 
+- [Travel essentials for women](travel-essentials-for-women.html)
 - [Toiletry bags for travel](toiletry-bag-for-travel.html)
 
 ## Sources

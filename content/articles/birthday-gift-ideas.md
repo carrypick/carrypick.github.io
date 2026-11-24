@@ -261,6 +261,7 @@ Keep it short and personal: wish them a happy birthday, say one thing you love a
 
 ## Related guides
 
+- [Travel essentials for women](travel-essentials-for-women.html)
 - [Couple watches](couple-watches.html)
 - [Christmas gifts for couples](christmas-gift-for-couples.html)
 

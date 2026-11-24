@@ -126,6 +126,7 @@ For more help, see [what to wear on a winter hill trip](../guides/winter-clothes
 
 ## Health and safety
 
+- **Travelling alone as a woman?** See [solo female travel in India](../guides/solo-female-travel-india.html) for the Women Helpline 181, the Railway helpline 139 and the women's berth quota on trains.
 - **Don't swim in the Ganga.** The current is strong in places, and the water is very cold in winter.
 - **Never sleep with a heater or coal fire in a closed room.** It gives off carbon monoxide, which can kill without warning.
 - **Watch your step on the ghats.** The stone steps are steep and can be wet.

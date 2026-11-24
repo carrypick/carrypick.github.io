@@ -253,6 +253,7 @@ For about 5 nights at a beach, a cabin bag each is often enough. For a week or t
 
 ## Related guides
 
+- [Travel essentials for women](travel-essentials-for-women.html)
 - [Couple watches](couple-watches.html)
 - [Christmas gifts for couples](christmas-gift-for-couples.html)
 

@@ -154,7 +154,8 @@
         {"slug": "bottles", "name": "Water bottles", "intro": "Steel water bottles for train journeys, school and day trips."},
         {"slug": "luggage-scales", "name": "Luggage scales", "intro": "A digital luggage scale to weigh your bag at home before the airport does."},
         {"slug": "luggage-locks", "name": "TSA locks", "title": "TSA luggage locks: combination, key and cable", "intro": "Luggage locks that US airport security can open with its own key instead of cutting them. We note the lock type, shackle and what each listing says about its TSA approval."},
-        {"slug": "binoculars", "name": "Binoculars", "intro": "Binoculars for game drives, bird watching and mountain views."}
+        {"slug": "binoculars", "name": "Binoculars", "intro": "Binoculars for game drives, bird watching and mountain views."},
+        {"slug": "travel-safety", "name": "Door alarms & safety", "title": "Door stop alarms for hotel rooms", "intro": "A door stop alarm for hotel rooms and homestays. We note the door type and gap each listing says it needs."}
       ],
       "emoji": "✈️",
       "hashtag": "#TravelGear",

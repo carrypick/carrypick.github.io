@@ -82,5 +82,6 @@ Buying it as a present? See our [New Year gift ideas](new-year-gift-ideas.html).
 
 ## Related guides
 
+- [Travel essentials for women](travel-essentials-for-women.html)
 - [40 litre carry-on travel backpacks](travel-backpack-40l-carry-on.html)
 - [Packing cubes](packing-cubes.html)

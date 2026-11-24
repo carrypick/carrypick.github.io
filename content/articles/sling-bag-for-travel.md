@@ -122,6 +122,8 @@ Yes, for someone who travels often. See more ideas in [gifts for travellers](gif
 
 ## Related guides
 
+- [Travel essentials for women](travel-essentials-for-women.html)
+- [Solo female travel in India](solo-female-travel-india.html)
 - [40 litre carry-on travel backpacks](travel-backpack-40l-carry-on.html)
 - [Packing cubes](packing-cubes.html)
 

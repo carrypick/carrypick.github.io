@@ -115,6 +115,7 @@ Rajasthan Tourism advises staying in approved hotels. Compare hotels and homesta
 
 ## Safety and help
 
+- **Travelling alone as a woman?** See [solo female travel in India](../guides/solo-female-travel-india.html) for the Women Helpline 181, the Railway helpline 139 and the women's berth quota on trains.
 - **Emergency:** call 112, or 100 for the police.
 - **Tourist Assistance Force:** staff and booths at Amer, Jantar Mantar and City Palace, Jal Mahal and Albert Hall.
 - **Incredible India tourist helpline:** 1800-11-1363.

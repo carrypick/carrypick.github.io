@@ -1,5 +1,92 @@
 [
   {
+    "asin": "B0DBCXFMVY",
+    "added_at": "2026-11-24T12:10:00+05:30",
+    "title": "IFITech Door Stop Alarm with 120 dB Siren and 3 Sensitivity Levels",
+    "category": "travel-gear",
+    "subcategory": "travel-safety",
+    "highlights": [
+      "A wedge door stopper with a 120 dB alarm (as listed)",
+      "Low, medium and high sensitivity, and an on/off switch",
+      "For doors that open inwards, with a gap of 0.6 to 1.2 inches underneath (as listed)",
+      "Runs on a 9V battery, not included"
+    ],
+    "note": "Slides under a hotel room door at night: it works as a door stop, and its siren sounds if the door is pushed.",
+    "brand": "IFITech",
+    "colour": "Black",
+    "best_for": [
+      "Hotel stays",
+      "Solo trips"
+    ],
+    "specs": {
+      "Type": "Door stop wedge with alarm",
+      "Alarm": "120 dB (as listed)",
+      "Size": "13.9 x 4.4 x 3.9 cm",
+      "Weight": "200 g (as listed)",
+      "Power": "9V battery, not included",
+      "Fits": "Inward-opening doors, 0.6 to 1.2 inch gap"
+    },
+    "skip_if": "the door opens outwards or has almost no gap underneath: the listing says it needs an inward door and a 0.6 to 1.2 inch gap."
+  },
+  {
+    "asin": "B0F9TMLWNB",
+    "added_at": "2026-11-24T12:05:00+05:30",
+    "title": "Lyrovo Travel Jewellery Roll, Foldable Organiser",
+    "category": "travel-gear",
+    "subcategory": "packing-organisers",
+    "highlights": [
+      "Folds to about 15.5 x 15.5 cm, opens out to about 42 x 15.5 cm (as listed)",
+      "Necklace section with straps, a ring rod and an earring board for up to 12 pairs",
+      "Zip pockets for long earrings",
+      "About 200 g (0.44 lb, as listed)"
+    ],
+    "note": "Rolls up flat, so your chains stay untangled and your earrings stay in pairs inside a handbag or suitcase.",
+    "brand": "Lyrovo",
+    "colour": "Black",
+    "best_for": [
+      "Weddings and functions",
+      "Holidays"
+    ],
+    "specs": {
+      "Type": "Foldable jewellery roll",
+      "Closed size": "About 15.5 x 15.5 cm",
+      "Earrings": "Up to 12 pairs",
+      "Weight": "About 200 g (as listed)",
+      "Material": "Cotton and polyester",
+      "Closure": "Magnetic"
+    },
+    "skip_if": "you carry heavy wedding sets: a roll suits everyday pieces better than a hard box."
+  },
+  {
+    "asin": "B0999G6N1Q",
+    "added_at": "2026-11-24T12:00:00+05:30",
+    "title": "Kalitus Mini Jewellery Travel Case, Faux Leather",
+    "category": "travel-gear",
+    "subcategory": "packing-organisers",
+    "highlights": [
+      "A small faux leather case with a velvet lining",
+      "3 necklace hooks, 6 earring slot rolls, 3 removable compartments and an elastic pocket",
+      "Snap closure",
+      "About 100 g (as listed)"
+    ],
+    "note": "A small, firm case for rings and earrings that keeps its shape in a packed bag.",
+    "brand": "Kalitus",
+    "colour": "Colour sent may vary",
+    "best_for": [
+      "Rings and earrings",
+      "Gifts"
+    ],
+    "specs": {
+      "Type": "Mini jewellery case",
+      "Lining": "Velvet",
+      "Compartments": "3 removable, 6 earring rolls, 3 hooks",
+      "Weight": "About 100 g (as listed)",
+      "Material": "Faux leather",
+      "Closure": "Snap"
+    },
+    "skip_if": "you want to choose the colour: the listing says assorted colours."
+  },
+  {
     "asin": "B07169LVXZ",
     "added_at": "2026-11-24T08:31:01+05:30",
     "title": "Hush Puppies Men's Hpo2 Flex Leather Formal Shoes",

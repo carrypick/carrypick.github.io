@@ -183,6 +183,7 @@ Travelling with a baby or toddler? Use our [travelling with a baby checklist](tr
 
 - **Phrasebook:** English works in most hotels, but "bonjour", "grazie" and "danke" go a long way. A phrasebook app works offline if you download the languages first.
 - **Long flight:** download an audiobook or two at home before you fly. See [audiobooks for long flights](audiobooks-for-long-flights.html).
+- **Travelling as a woman?** See our [travel essentials for women](travel-essentials-for-women.html), from a hanging toiletry bag to a jewellery roll.
 
 ## Which bag to take
 

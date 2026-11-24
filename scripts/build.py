@@ -3026,6 +3026,7 @@ def build_packing(cfg, deals_by_asin, pages, lastmod, trip_guides=()):
 <li><strong>Roll T-shirts, fold shirts.</strong> Rolling saves space; <a href="../picks/B0C4TV4M2F.html">packing cubes</a> keep everything in order.</li>
 <li><strong>Weigh it at home.</strong> Check your airline's limit on our <a href="../baggage/index.html">baggage rules page</a>, or the <a href="../baggage/train-luggage-rules.html">train luggage rules</a> for rail trips.</li>
 <li><strong>Pick the right bag size.</strong> Not sure? Read <a href="../guides/luggage-size-guide.html">what size luggage you need</a>.</li>
+<li><strong>Travelling as a woman?</strong> See our <a href="../guides/travel-essentials-for-women.html">travel essentials for women</a> and, for trips on your own, <a href="../guides/solo-female-travel-india.html">solo female travel in India</a>.</li>
 </ul>
 {tool_pills("../", "packing/index.html")}
 </article></div>

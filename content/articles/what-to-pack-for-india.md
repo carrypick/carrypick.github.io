@@ -157,6 +157,8 @@ Light cotton clothes, one light sweater for nights in the north, sun care and co
 
 ## Related guides
 
+- [Travel essentials for women](travel-essentials-for-women.html)
+- [Solo female travel in India](solo-female-travel-india.html)
 - [Packing cubes](packing-cubes.html)
 - [Toiletry bags for travel](toiletry-bag-for-travel.html)
 - [Travel sunscreen guide](travel-sunscreen-guide.html)

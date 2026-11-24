@@ -72,6 +72,7 @@ Most visitors start in Delhi. Compare hotels for your dates:
 
 - **Emergency:** call **112**, India's single emergency number.
 - **Incredible India tourist helpline:** 1800-11-1363.
+- **Travelling alone as a woman?** Read our [solo female travel in India guide](../guides/solo-female-travel-india.html), with the Women Helpline 181, the Railway helpline 139 and the women's berth quota on trains, and see [travel essentials for women](../guides/travel-essentials-for-women.html).
 - **Read your own government's travel advice** for India before you go, for example the [UK's](https://www.gov.uk/foreign-travel-advice/india) or the [US's](https://travel.state.gov/en/international-travel/travel-advisories/india.html).
 - **Keep your passport safe,** and carry a copy and a photo of it on your phone.
 
