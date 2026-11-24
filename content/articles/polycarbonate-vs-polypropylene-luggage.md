@@ -89,7 +89,7 @@ For flights, most people choose hard. For trains and road trips, soft or a duffl
 
 [[compare:B0B6BVXCCD,B0F5HGLC5Q,B0GNSKLF5Z,B097G7K6FZ]]
 
-Choosing a brand as well? See [American Tourister vs Safari](american-tourister-vs-safari.html) and [trolley bag brands compared](best-trolley-bag-brands-india.html).
+Choosing a brand as well? See [trolley bag brands compared](best-trolley-bag-brands-india.html), [American Tourister vs Safari](american-tourister-vs-safari.html), [VIP vs American Tourister](vip-vs-american-tourister.html), [VIP vs Safari](vip-vs-safari.html), [Safari vs Skybags](safari-vs-skybags.html) and [Mokobara vs American Tourister](mokobara-vs-american-tourister.html).
 
 ## Questions
 

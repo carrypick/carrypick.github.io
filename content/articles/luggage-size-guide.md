@@ -39,7 +39,7 @@ How much does each size hold? See [trolley bag capacity in kg and litres](trolle
 - **Soft (fabric or leatherette):** lighter, can squeeze into tight spaces like train berths or car boots, and often has outside pockets. It protects fragile items less.
 - **Duffle bags:** the lightest and most flexible, but you carry them by hand or on your shoulder. Great for weekends, trains and road trips.
 
-Choosing a hard shell? See [polycarbonate vs polypropylene](polycarbonate-vs-polypropylene-luggage.html). Choosing a brand? See [trolley bag brands compared](best-trolley-bag-brands-india.html) and [American Tourister vs Safari](american-tourister-vs-safari.html).
+Choosing a hard shell? See [polycarbonate vs polypropylene](polycarbonate-vs-polypropylene-luggage.html). Choosing a brand? See [trolley bag brands compared](best-trolley-bag-brands-india.html) , [American Tourister vs Safari](american-tourister-vs-safari.html), [VIP vs American Tourister](vip-vs-american-tourister.html), [VIP vs Safari](vip-vs-safari.html), [Safari vs Skybags](safari-vs-skybags.html) and [Mokobara vs American Tourister](mokobara-vs-american-tourister.html).
 
 ## Our picks by size
 

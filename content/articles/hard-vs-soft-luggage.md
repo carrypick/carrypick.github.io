@@ -88,6 +88,8 @@ Most hard trolleys in India are polypropylene (PP) or polycarbonate (PC), and a 
 
 Buying several bags at once? See [trolley bag sets of 3](trolley-bag-set-of-3.html).
 
+Choosing a brand? See [VIP vs American Tourister](vip-vs-american-tourister.html), [VIP vs Safari](vip-vs-safari.html), [Safari vs Skybags](safari-vs-skybags.html) and [Mokobara vs American Tourister](mokobara-vs-american-tourister.html).
+
 ## Questions
 
 ### Is hard or soft luggage better?

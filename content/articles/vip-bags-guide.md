@@ -65,6 +65,8 @@ A dash means VIP's page didn't say. Where a line's page names no material, we ha
 
 Alumina, Zorro, Dual Tone NXP, Stargaze and Arlington put the height in cm in their names. "55" is a cabin size by height, "65–69" is medium and "79–80" is large. The other lines just say cabin, medium or large. Not sure which you need? See [what size luggage you need](luggage-size-guide.html).
 
+Comparing VIP with other brands? See [VIP vs American Tourister](vip-vs-american-tourister.html), [VIP vs Safari](vip-vs-safari.html) and [Safari vs Skybags](safari-vs-skybags.html).
+
 ## What to check before you order
 
 - **The full size.** The VIP product pages we read gave no width or depth. Airlines check all three sides, so ask VIP for the full size if your trip depends on it. Most Indian airlines allow only 55 x 35 x 25 cm or 55 x 40 x 20 cm in the cabin. Test any size with our [cabin bag checker](../baggage/checker.html).
@@ -108,6 +110,8 @@ They usually show the height in cm. A "55" is a cabin size by height, but check 
 
 ## Related guides
 
+- [VIP vs American Tourister](vip-vs-american-tourister.html)
+- [VIP vs Safari](vip-vs-safari.html)
 - [Hard vs soft luggage](hard-vs-soft-luggage.html)
 - [4 wheel vs 8 wheel trolley bags](4-wheel-vs-8-wheel-trolley.html)
 - [TSA locks](tsa-lock.html)

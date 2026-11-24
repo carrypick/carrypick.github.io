@@ -61,8 +61,8 @@ Some groups are small, especially VIP, so treat them as a rough guide. Going ove
 - **Safari** is an Indian company based in Mumbai. It listed plenty of polycarbonate bags, and its medium bags listed the most litres of the bigger groups here.
 - **Kamiliant** is sold as "Kamiliant by American Tourister". It had the lightest typical bags, all hard shells. We didn't find a warranty on the two we picked, so check before you buy.
 - **Aristocrat** has many soft-case bags as well as hard ones. It's one of the brands sold on VIP's own store.
-- **Skybags** is also sold on VIP's store. Its range mixes hard bags with the soft Rubik.
-- **VIP** showed few bags in our Amazon searches, so we can't say much from these numbers. Prefer to buy from VIP directly? See [VIP's sizes, warranty and returns](vip-bags-guide.html) and [the VIP coupon code we test](vip-bags-coupon-code.html).
+- **Skybags** is also sold on VIP's store. Its range mixes hard bags with the soft Rubik. See [Safari vs Skybags](safari-vs-skybags.html).
+- **VIP** showed few bags in our Amazon searches, so we can't say much from these numbers. Prefer to buy from VIP directly? See [VIP vs American Tourister](vip-vs-american-tourister.html), [VIP vs Safari](vip-vs-safari.html), [VIP's sizes, warranty and returns](vip-bags-guide.html) and [the VIP coupon code we test](vip-bags-coupon-code.html).
 - **L'Attitude** lists its bags by both cm and inches. Its Meridian large bag was among the heaviest here, at 5.16 kg.
 
 ## Which brand for which trip?
@@ -115,15 +115,15 @@ Kamiliant had the lowest typical weights we read: 2.97 kg in medium and 3.96 kg 
 
 ### VIP or Safari: which is better?
 
-We read too few VIP listings on Amazon.in to compare them fairly: 3 medium and large bags, against 18 from Safari. Two of those VIP bags were listed as soft cases. Compare the size, weight and warranty of the two bags you're choosing between.
+We read too few VIP listings on Amazon.in to compare them fairly: 3 medium and large bags, against 18 from Safari. Two of those VIP bags were listed as soft cases. Compare the size, weight and warranty of the two bags you're choosing between. See [VIP vs Safari](vip-vs-safari.html), where we compare VIP's polycarbonate Vero with Safari's bags.
 
 ### VIP or American Tourister: which is better?
 
-We can't judge from our small VIP sample. The VIP bags we read weighed more than American Tourister's typical bags. But two of the three were listed as soft cases, so it isn't a like-for-like test.
+We can't judge from our small VIP sample. The VIP bags we read weighed more than American Tourister's typical bags. But two of the three were listed as soft cases, so it isn't a like-for-like test. See [VIP vs American Tourister](vip-vs-american-tourister.html) for two hard polycarbonate VIP bags side by side.
 
 ### Skybags or American Tourister: which is better?
 
-In our listings, American Tourister's typical bags were lighter: 3.3 kg against 3.57 kg in medium, and 4 kg against 4.6 kg in large. Skybags' Swirl large was smaller in total, at 152 cm.
+In our listings, American Tourister's typical bags were lighter: 3.3 kg against 3.57 kg in medium, and 4 kg against 4.6 kg in large. Skybags' Swirl large was smaller in total, at 152 cm. See also [Safari vs Skybags](safari-vs-skybags.html) and [Mokobara vs American Tourister](mokobara-vs-american-tourister.html).
 
 ### Are Aristocrat and Skybags part of VIP?
 

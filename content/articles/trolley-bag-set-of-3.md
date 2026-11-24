@@ -97,7 +97,7 @@ On a 15 kg domestic fare, a medium bag of about 3 kg leaves about 12 kg for your
 
 [[compare:B0F5HQZJCV,B0GNS6HXW4,B097BHFQVS,B0C5DR262Q,B0GZKSXPZR]]
 
-Choosing a brand? See [American Tourister vs Safari](american-tourister-vs-safari.html) and [trolley bag brands compared](best-trolley-bag-brands-india.html).
+Choosing a brand? See [trolley bag brands compared](best-trolley-bag-brands-india.html), [American Tourister vs Safari](american-tourister-vs-safari.html), [VIP vs American Tourister](vip-vs-american-tourister.html), [VIP vs Safari](vip-vs-safari.html), [Safari vs Skybags](safari-vs-skybags.html) and [Mokobara vs American Tourister](mokobara-vs-american-tourister.html).
 
 ## Questions
 

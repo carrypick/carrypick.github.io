@@ -100,6 +100,8 @@ Weigh the packed bag at home with a [luggage scale](../picks/B07Q822CWX.html), t
 
 [[compare:B0F5HGLC5Q,B0F9FMQZWN,B0GNSKLF5Z,B0F5HLYQK3]]
 
+Choosing a brand? See [VIP vs American Tourister](vip-vs-american-tourister.html), [VIP vs Safari](vip-vs-safari.html), [Safari vs Skybags](safari-vs-skybags.html) and [Mokobara vs American Tourister](mokobara-vs-american-tourister.html).
+
 ## Questions
 
 ### Which is the lightest cabin trolley bag?

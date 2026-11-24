@@ -97,7 +97,7 @@ American Tourister's cabin bags are lighter. That matters when the limit is 7 kg
 
 [[compare:B0F5HNW8D1,B097GR45SS,B0F5HLYQK3,B097G7K6FZ]]
 
-Looking at other brands too? See [trolley bag brands compared](best-trolley-bag-brands-india.html).
+Looking at other brands too? See [trolley bag brands compared](best-trolley-bag-brands-india.html), [VIP vs American Tourister](vip-vs-american-tourister.html), [VIP vs Safari](vip-vs-safari.html), [Safari vs Skybags](safari-vs-skybags.html) and [Mokobara vs American Tourister](mokobara-vs-american-tourister.html).
 
 ## Questions
 
@@ -123,6 +123,8 @@ Not quite. Listings call it "Kamiliant by American Tourister", and Samsonite nam
 
 ## Related guides
 
+- [VIP vs American Tourister](vip-vs-american-tourister.html)
+- [Safari vs Skybags](safari-vs-skybags.html)
 - [Hard vs soft luggage](hard-vs-soft-luggage.html)
 - [4 wheel vs 8 wheel trolley bags](4-wheel-vs-8-wheel-trolley.html)
 - [TSA locks](tsa-lock.html)

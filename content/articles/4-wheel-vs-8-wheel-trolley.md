@@ -91,6 +91,8 @@ Every medium and large trolley we picked lists 8 wheels, so if you want a 4-whee
 
 More ways to choose: [hard vs soft luggage](hard-vs-soft-luggage.html), [the lightest trolleys we picked](lightest-cabin-trolley-bag.html) and [trolley bag sets of 3](trolley-bag-set-of-3.html).
 
+Choosing a brand? See [VIP vs American Tourister](vip-vs-american-tourister.html), [VIP vs Safari](vip-vs-safari.html), [Safari vs Skybags](safari-vs-skybags.html) and [Mokobara vs American Tourister](mokobara-vs-american-tourister.html).
+
 ## Questions
 
 ### Which is better, a 4 wheel or 8 wheel trolley bag?
