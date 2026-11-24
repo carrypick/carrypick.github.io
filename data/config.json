@@ -269,7 +269,7 @@
       "subcategories": [
         {"slug": "walking-shoes", "name": "Walking shoes", "intro": "Walking shoes for sightseeing and long airport walks."},
         {"slug": "hiking-snow", "name": "Hiking shoes & snow boots", "title": "Hiking shoes and winter boots", "intro": "Waterproof hiking shoes and lace-up winter boots for hill trips, rain and snow."},
-        {"slug": "sandals-flip-flops", "name": "Sandals & flip-flops", "intro": "Sandals and flip-flops for warm places, beaches and hotels."}
+        {"slug": "sandals-flip-flops", "name": "Sandals & flip-flops", "intro": "Sandals and flip-flops for warm places, beaches and hotels."}, {"slug": "formal-shoes", "name": "Formal shoes", "intro": "Leather formal shoes for office days, meetings and work trips."}
       ],
       "emoji": "🥾",
       "hashtag": "#TravelShoes",

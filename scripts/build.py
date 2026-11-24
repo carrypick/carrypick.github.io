@@ -2201,7 +2201,7 @@ def build_railways(cfg, deals, pages, lastmod):
 <h2>What you can't carry</h2>
 {lists(data["not_allowed"])}
 {('<h2>Good to know</h2>' + lists(data["notes"])) if data.get("notes") else ""}
-<aside class="tip">{icon("bulb", "icon tip-icon")}<div><strong>Packing for a train journey?</strong><p>Use our <a href="../packing/train.html">train journey packing list</a>, and lock your bag to the berth with a chain.</p></div></aside>
+<aside class="tip">{icon("bulb", "icon tip-icon")}<div><strong>Packing for a train journey?</strong><p>Read <a href="../guides/things-to-carry-in-train-journey.html">things to carry in a train journey</a>, tick them off with our <a href="../packing/train.html">train journey checklist</a>, and lock your bag to the berth with a chain.</p></div></aside>
 {faq_html}
 <h2>Sources</h2>
 <p>Official pages: {sources_html(data["sources"])}</p>
@@ -2985,6 +2985,11 @@ def build_packing(cfg, deals_by_asin, pages, lastmod, trip_guides=()):
         if lists:
             going_html += '<p class="small">Want the full list, with what to wear and why? Read our packing lists for %s.</p>' % and_list(
                 f'<a href="../guides/{s_}-packing-list.html">{place}</a>' for s_, place in lists)
+        full = {"train": ("things-to-carry-in-train-journey", "things to carry in a train journey"),
+                "business": ("business-trip-packing-list", "business trip packing list")}.get(slug)
+        if full and (ARTICLES_DIR / ("%s.md" % full[0])).exists():
+            going_html += ('<p class="small">Want the full list, with what to wear, the bags and why? Read our '
+                           '<a href="../guides/%s.html">%s</a>.</p>' % full)
         if slug == "abroad":
             study = [(c, place) for c, place in (("usa", "the USA"), ("uk", "the UK"), ("canada", "Canada"), ("australia", "Australia"), ("germany", "Germany"))
                      if (ARTICLES_DIR / ("%s-packing-list-for-indian-students.md" % c)).exists()]

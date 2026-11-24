@@ -124,6 +124,7 @@ Yes, if it fits her laptop. Ask what size laptop she carries, or choose a no-lap
 
 - [40 litre carry-on travel backpacks](travel-backpack-40l-carry-on.html)
 - [Packing cubes](packing-cubes.html)
+- [Business trip packing list](business-trip-packing-list.html)
 
 ## Sources
 

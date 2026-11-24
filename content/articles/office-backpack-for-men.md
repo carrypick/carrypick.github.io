@@ -122,6 +122,7 @@ Yes, as your one cabin bag. Five of the six list a size within IndiGo's 55 x 35 
 ## Related guides
 
 - [Backpack size chart in litres](backpack-size-chart-litres.html)
+- [Business trip packing list](business-trip-packing-list.html)
 
 ## Sources
 

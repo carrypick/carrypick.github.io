@@ -1,5 +1,62 @@
 [
   {
+    "asin": "B07169LVXZ",
+    "added_at": "2026-11-24T08:31:01+05:30",
+    "title": "Hush Puppies Men's Hpo2 Flex Leather Formal Shoes",
+    "category": "shoes",
+    "subcategory": "formal-shoes",
+    "highlights": [
+      "Leather upper, lace-up (as listed)",
+      "Rubber sole",
+      "Made in India by Bata India",
+      "Sizes 5 to 12 UK; pick yours on Amazon"
+    ],
+    "note": "One black pair that works for meetings, client dinners and the office.",
+    "brand": "Hush Puppies",
+    "colour": "Black",
+    "best_for": [
+      "Work trips",
+      "Office"
+    ],
+    "specs": {
+      "For": "Men",
+      "Type": "Formal lace-up shoes",
+      "Material": "Leather",
+      "Sole": "Rubber",
+      "Water": "Not water resistant (as listed)",
+      "Weight": "990 g, pair with box (as listed)"
+    },
+    "skip_if": "you'll walk far in the rain: they aren't water resistant."
+  },
+  {
+    "asin": "B07Q2BXG1P",
+    "added_at": "2026-11-24T08:31:01+05:30",
+    "title": "Kandid Keyless Cable Lock, 4-Digit Combination, 100 cm",
+    "category": "travel-gear",
+    "subcategory": "luggage-locks",
+    "highlights": [
+      "Extra-long 100 cm steel cable, 8 mm thick (as listed)",
+      "4-digit combination: no key to lose",
+      "Listed for bikes and helmets; long enough to loop a bag to a berth or seat frame",
+      "Zinc lock body"
+    ],
+    "note": "A long cable lock to tie your bag to the berth on an overnight train.",
+    "brand": "Kandid",
+    "colour": "Black",
+    "best_for": [
+      "Train journeys",
+      "Bus trips"
+    ],
+    "specs": {
+      "Lock type": "4-digit combination",
+      "Cable": "100 cm, 8 mm thick (as listed)",
+      "Material": "Zinc body, steel cable",
+      "TSA": "No",
+      "Pack": "1 lock"
+    },
+    "skip_if": "you need a lock for flights to the USA: it isn't a TSA lock."
+  },
+  {
     "asin": "B0DB2HG51N",
     "added_at": "2026-11-23T14:40:29+05:30",
     "title": "DailyObjects Key Tote Bag with 15.6-inch Laptop Compartment",

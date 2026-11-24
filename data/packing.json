@@ -19,7 +19,7 @@
       "slug": "business",
       "label": "Work trip",
       "days": 3,
-      "title": "Business trip packing list",
+      "title": "Business trip packing checklist",
       "intro": "Keep work trips simple: one cabin bag, outfits that mix and match, and your laptop and chargers within reach."
     },
     {
@@ -1693,6 +1693,44 @@
       }
     ],
     "guides": [
+      {
+        "maker": [
+          {
+            "by": [
+              "train"
+            ]
+          }
+        ],
+        "links": [
+          [
+            "guides/things-to-carry-in-train-journey.html",
+            "Things to carry in a train journey"
+          ],
+          [
+            "baggage/train-luggage-rules.html",
+            "Train luggage rules"
+          ]
+        ]
+      },
+      {
+        "maker": [
+          {
+            "type": [
+              "business"
+            ]
+          }
+        ],
+        "links": [
+          [
+            "guides/business-trip-packing-list.html",
+            "Business trip packing list"
+          ],
+          [
+            "packing/business.html",
+            "Business trip checklist"
+          ]
+        ]
+      },
       {
         "maker": [
           {
