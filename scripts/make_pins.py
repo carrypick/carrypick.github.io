@@ -1451,6 +1451,42 @@ dict(slug='flying-with-baby', board='Flight and Train Baggage Rules', link='guid
          description="India uses round-pin plug types C, D and M at 230 V and 50 Hz. US and UK plugs don't fit, and 120 V-only appliances from the USA can be damaged. How to read your charger and which adapter to bring.",
          alt="The Taj Mahal, with the words Plugs and voltage in India for visitors.",
          html=photo("taj-mahal", "Plugs and voltage in India", "Types C, D and M at 230 V. Check your charger before you plug in.")),
+    dict(slug="auli-december", board="India Trip Ideas", link="trips/auli-in-december.html",
+         title="Auli in December: is there snow? Weather, skiing and the road up",
+         description="Snow in Auli is not certain in December: official pages name January to March as the snow and ski season. See IMD temperatures for Joshimath, why the ropeway is closed, the road up, a 3-day plan and what to wear.",
+         alt="Snow-covered slopes at Auli, with the words Auli in December.",
+         html=photo("auli-snow", "Auli in December: is there snow?", "Snow is not certain. The ski season is January to March. The ropeway is shut.")),
+    dict(slug="nainital-december", board="India Trip Ideas", link="trips/nainital-in-december.html",
+         title="Nainital in December: weather, snow chances and a 2-3 day plan",
+         description="Nainital in December is cold, clear and calm: about 14 °C by day and near freezing at night. Snow is not certain. A 2-day and 3-day plan, getting there from Delhi via Kathgodam or Pantnagar, and what to wear.",
+         alt="Naini Lake with hills around it, with the words Nainital in December.",
+         html=photo("nainital-lake", "Nainital in December", "Cold, clear days and near-freezing nights. Snow is not certain.")),
+    dict(slug="mussoorie-december", board="India Trip Ideas", link="trips/mussoorie-in-december.html",
+         title="Mussoorie in December: weather, snow chances and the Winterline",
+         description="Mussoorie in December is cold, sunny and clear, with the Winterline at sunset. Snow is possible but not certain. IMD temperatures, a 2-day and 3-day plan, getting there from Dehradun and what to wear.",
+         alt="Hills around Mussoorie, with the words Mussoorie in December.",
+         html=photo("mussoorie-hills", "Mussoorie in December", "About 13 °C by day, the Winterline at sunset, and snow that is possible but not certain.")),
+    dict(slug="jim-corbett-december", board="India Trip Ideas", link="trips/jim-corbett-in-december.html",
+         title="Jim Corbett safari in December: open zones and how to book",
+         description="Which Jim Corbett safari zones are open in December, how to book the permit only on the official site up to 45 days ahead, the rules, the weather, a 2-day plan, getting there from Delhi and what to wear on a cold open jeep.",
+         alt="Morning mist over Dhikala in Jim Corbett, with the words Jim Corbett safari in December.",
+         html=photo("corbett-dhikala-mist", "Jim Corbett in December", "Eight zones open, booking only on the official site, and cold misty mornings.")),
+    dict(slug="return-gift-ideas", board="Gift Ideas", link="guides/return-gift-ideas.html",
+         title="Return gift ideas for kids' birthday parties, by age",
+         description="Small, useful return gifts that are the same for every child: art kits, sketch pens, puzzles and story books. Ideas by age for a 1st birthday, a class birthday at school and grown-up guests.",
+         alt="A checklist of return gift ideas for kids by age, with the words Return gift ideas.",
+         html=chart("Birthday party", "Return gift ideas by age", table(["Age", "Idea"], [
+             ["Babies, 1st birthday", "Baby toy gift set"], ["3 to 5 years", "Animal puzzles, colouring kit"], ["4 to 8 years", "Junior art kit, sketch pens"],
+             ["9 to 12 years", "Steel bottle, sketch pens"], ["Teens", "Steel flask, phone pouch"]])
+             + '<p class="note"><strong>Keep it small and the same for every child,</strong> so nobody compares.</p>')),
+    dict(slug="birthday-gifts-kids-by-age", board="Gift Ideas", link="guides/birthday-gift-ideas-for-kids.html",
+         title="Birthday gifts for kids by age: ideas for boys and girls",
+         description="Birthday gift ideas for kids in India by age, from a 1 year old to teens, for boys and girls: baby gift sets, art kits, puzzles, story books, board games and a first watch.",
+         alt="A chart of birthday gift ideas for kids by age, with the words Birthday gifts for kids.",
+         html=chart("Kids' birthday", "Birthday gifts for kids by age", table(["Age", "Idea"], [
+             ["1 year", "Baby toy gift set, board books"], ["2 to 4", "Animal puzzles, story books"], ["5", "Doodle and draw kit"],
+             ["6 to 9", "Puzzles, a first watch"], ["10 to 12", "Board game, fact book"]])
+             + '<p class="note"><strong>Not sure?</strong> Our gift finder shows ideas straight away.</p>')),
 ]
 
 
