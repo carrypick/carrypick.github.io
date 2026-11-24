@@ -13,7 +13,7 @@ Jaisalmer, the golden city of the Thar desert, is at its best in winter. Decembe
 
 Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
 
-Seeing more of Rajasthan? Read our [Jaipur winter guide](jaipur.html) and [Udaipur winter trip plan](udaipur.html). Still choosing? Compare other winter trips in [where to go in December and January](where-to-go-in-december-january.html). Want a white desert instead? See [Rann Utsav 2026–27](rann-utsav-2026.html).
+Seeing more of Rajasthan? Read our [Jaipur winter guide](jaipur.html) and [Udaipur winter trip plan](udaipur.html). Still choosing? Compare other winter trips in [where to go in December and January](where-to-go-in-december-january.html). Want a white desert instead? See [Rann Utsav 2026–27](rann-utsav-2026.html). Going in January? See [Rajasthan in January](rajasthan-in-january.html), with the Bikaner Camel Festival and a one-week route.
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html), and work out the fuel with the [road trip fuel cost calculator](../tools/road-trip-cost-calculator.html).
 

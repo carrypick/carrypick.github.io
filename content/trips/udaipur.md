@@ -13,7 +13,7 @@ Udaipur, the city of lakes, is at its best in winter: sunny, dry days, cool even
 
 Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
 
-Still choosing? Compare other winter trips in [where to go in December and January](where-to-go-in-december-january.html). Seeing more of Rajasthan? Read our [Jaipur winter guide](jaipur.html) and [Jaisalmer in December](jaisalmer-in-december.html), for the fort and the Sam dunes. Want a tiger safari too? See [Ranthambore in December](ranthambore-in-december.html).
+Still choosing? Compare other winter trips in [where to go in December and January](where-to-go-in-december-january.html). Seeing more of Rajasthan? Read our [Jaipur winter guide](jaipur.html) and [Jaisalmer in December](jaisalmer-in-december.html), for the fort and the Sam dunes. Want a tiger safari too? See [Ranthambore in December](ranthambore-in-december.html). Going in January? See [Rajasthan in January](rajasthan-in-january.html) for weather by city and the month's festivals.
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html), and work out the fuel with the [road trip fuel cost calculator](../tools/road-trip-cost-calculator.html).
 
