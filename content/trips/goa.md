@@ -15,7 +15,7 @@ Christmas and New Year are Goa's busiest weeks. The weather is at its best, the 
 
 Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
 
-Still choosing? Compare Goa, Manali, Jaipur and Kerala in [where to go in December and January](where-to-go-in-december-january.html). Going in late January? See our [Republic Day long weekend ideas](republic-day-long-weekend-2027.html). Want clearer water and coral? See [Andaman in December](andaman-in-december.html).
+Still choosing? Compare Goa, Manali, Jaipur and Kerala in [where to go in December and January](where-to-go-in-december-january.html). Going in late January? See our [Republic Day long weekend ideas](republic-day-long-weekend-2027.html). Want clearer water and coral? See [Andaman in December](andaman-in-december.html). Going after New Year? See [Goa in January](goa-in-january.html) for the quieter weeks, the Feast of the Three Kings and January events.
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html), and work out the fuel with the [road trip fuel cost calculator](../tools/road-trip-cost-calculator.html).
 
