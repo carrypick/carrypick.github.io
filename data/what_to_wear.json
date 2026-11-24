@@ -1078,6 +1078,46 @@
    }
   },
   {
+   "slug": "pondicherry",
+   "name": "Pondicherry",
+   "where": "india",
+   "guide": "trips/pondicherry-in-december.html",
+   "packing": "packing/beach.html",
+   "spots": [
+    {
+     "name": "Pondicherry",
+     "months": {
+      "dec": {
+       "day": 29.6,
+       "night": 21.4,
+       "rain_mm": 248.1
+      },
+      "jan": {
+       "day": 30.1,
+       "night": 20.6,
+       "rain_mm": 17.7
+      },
+      "feb": {
+       "day": 31.2,
+       "night": 21.4,
+       "rain_mm": 16.9
+      }
+     }
+    }
+   ],
+   "note": "Warm and humid all winter. December is the last month of the northeast monsoon, with heavy showers on some days, so carry a rain jacket or umbrella.",
+   "source": {
+    "label": "IMD averages for Pondicherry airport (1991–2020), as tabled on Wikipedia",
+    "checked": "2026-11-24",
+    "url": "https://en.wikipedia.org/wiki/Pondicherry"
+   },
+   "snow_note": {
+    "dec": "No snow",
+    "jan": "No snow",
+    "feb": "No snow"
+   }
+  },
+  {
    "slug": "varanasi",
    "name": "Varanasi",
    "where": "india",
