@@ -3,7 +3,7 @@ seo_title: Where to go in India in December and January 2026–27: beach, snow o
 title: Where to go in India in December and January
 description: Beach, snow, forts or backwaters? Compare Goa, Andaman, Manali, Shimla, Rishikesh, Darjeeling, Bhutan, Nepal, Singapore, Dubai, Sri Lanka, Thailand, Vietnam, Ooty, Varanasi, Jaipur, Udaipur, Jaisalmer, the Rann of Kutch, Gulmarg and Kerala for a Christmas or New Year trip: weather, how to get there, crowds and what to pack.
 date: 2026-11-03
-updated: 2026-11-22
+updated: 2026-11-24
 place: India in winter
 best: Dec–Jan
 photo: traveller-sunset
@@ -21,6 +21,16 @@ Only looking abroad? Compare all our [international trips from India](internatio
 Planning a honeymoon in the wedding season? See our [honeymoon destinations in India](honeymoon-destinations-in-india.html) and [honeymoon destinations outside India](honeymoon-destinations-outside-india.html), month by month.
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
+
+## Going in January?
+
+January has its own weather and events, so we've written month guides for the places people ask about most:
+
+- **[Manali in January](manali-in-january.html):** the best odds of snow (last winter it came on 23 January), the Winter Carnival and skiing at Solang.
+- **[Kashmir in January](kashmir-in-january.html):** the end of Chillai Kalan, a frozen Dal Lake on the coldest nights, and snow days that can stop flights and the highway.
+- **[Gulmarg in January](gulmarg-in-january.html):** deep snow, IISM ski courses from 3 and 17 January, and the gondola.
+- **[Goa in January](goa-in-january.html):** the same sunny weather as New Year, fewer crowds, and the Feast of the Three Kings on 6 January.
+- **[Rajasthan in January](rajasthan-in-january.html):** the Bikaner Camel Festival (9–10 January), kites over Jaipur on 14 January and the Jaipur Literature Festival.
 
 ## Quick comparison
 

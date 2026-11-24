@@ -16,6 +16,8 @@ Visiting India from abroad? Start here: our [visiting India guide](visiting-indi
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
+Want January's own weather and events? Read our month guides: [Manali in January](manali-in-january.html), [Goa in January](goa-in-january.html), [Rajasthan in January](rajasthan-in-january.html), [Kashmir in January](kashmir-in-january.html) and [Gulmarg in January](gulmarg-in-january.html).
+
 ## Quick comparison
 
 Four days is enough for one place. Moving between them takes most of a day.
