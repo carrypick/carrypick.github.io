@@ -125,9 +125,11 @@
                        "guides": [["guides/valentines-day-gift-ideas.html#quick-ideas", "Valentine's gift ideas for your girlfriend or wife"]]},
     "him+valentines": {"picks": ["B07H3K85H5", "B018VZBTLY", "B09231NL5H", "B0C3LRF94X", "B0999SJPWC", "B0GXWJZKT4"],
                        "guides": [["guides/valentines-day-gift-ideas.html#quick-ideas", "Valentine's gift ideas for your boyfriend or husband"], ["guides/watch-gift-for-husband.html", "Watch gift for your husband, with card messages"]]},
-    "her+any": {"picks": ["B07QS9K2VT", "B08LKXV22C", "B0DGQNLJX7", "B09232XNTX"], "guides": [["guides/gift-for-wife.html", "Gift for wife: ideas for any day"]]},
-    "him+any": {"picks": ["B07H3K85H5", "B0G6CRGH27", "B079TN3GCD", "B09231NL5H"], "guides": [["guides/gift-for-husband.html", "Gift for husband: ideas for any day"]]},
+    "her+any": {"picks": ["B07QS9K2VT", "B08LKXV22C", "B0DGQNLJX7", "B09232XNTX"], "guides": [["guides/gift-for-wife.html", "Gift for wife: ideas for any day"], ["guides/gift-for-girlfriend.html", "Gift for girlfriend: ideas for any day"]]},
+    "him+any": {"picks": ["B07H3K85H5", "B0G6CRGH27", "B079TN3GCD", "B09231NL5H"], "guides": [["guides/gift-for-husband.html", "Gift for husband: ideas for any day"], ["guides/gift-for-boyfriend.html", "Gift for boyfriend: ideas for any day"]]},
     "parents+any": {"picks": ["B07CR1JQBY", "B07DD25LJ8", "B08HWFWGNX", "B07HD1H1RH"], "guides": [["guides/gift-for-mother.html", "Gift for mom: ideas for any day"], ["guides/gift-for-father.html", "Gift for dad: ideas for any day"]]},
-    "sibling+any": {"picks": ["B0CDC7QR7T", "B099WNYHY2", "B0BQWF3TJK", "B0GSQQNKQC"], "guides": [["guides/gift-for-sister.html", "Gift for sister: ideas for any day"], ["guides/gift-for-brother.html", "Gift for brother: ideas for any day"]]}
+    "sibling+any": {"picks": ["B0CDC7QR7T", "B099WNYHY2", "B0BQWF3TJK", "B0GSQQNKQC"], "guides": [["guides/gift-for-sister.html", "Gift for sister: ideas for any day"], ["guides/gift-for-brother.html", "Gift for brother: ideas for any day"]]},
+    "friend+any": {"picks": ["B09KV28F4P", "B0F5GS19M1", "B0DSVXW4GD", "B0C3LRF94X"], "guides": [["guides/gift-for-best-friend.html", "Gift for best friend: ideas for a girl or boy"]]},
+    "colleague+any": {"picks": ["B0C3LRF94X", "B0F13ZFVVX", "B00NIWHQVI", "B0C3RB9X98"], "guides": [["guides/gift-for-colleague.html", "Gift for colleague: ideas for any occasion"]]}
   }
 }

@@ -16,7 +16,7 @@ The best gift for your husband is one he'll use every day and that reminds him o
 [[top:B079TN3GCD|A slim wallet|A WildHorn bifold with 10 card slots and a coin pocket, about 2 cm thick.]]
 [[top:B09231NL5H|Four scents to try|A Bella Vita box of four 20 ml perfumes in woody and citrus scents.]]
 
-Buying for a special day? See our [birthday gifts for your husband](birthday-gift-ideas.html#for-your-husband), [anniversary gifts](anniversary-gift-ideas.html#for-your-husband), [Valentine's Day gifts](valentines-day-gift-ideas.html#for-your-husband) and [Christmas gifts for a husband](christmas-gift-for-boyfriend-or-husband.html). Choosing a watch? Our [watch gift for husband](watch-gift-for-husband.html) guide compares six.
+Buying for a special day? See our [birthday gifts for your husband](birthday-gift-ideas.html#for-your-husband), [anniversary gifts](anniversary-gift-ideas.html#for-your-husband), [Valentine's Day gifts](valentines-day-gift-ideas.html#for-your-husband) and [Christmas gifts for a husband](christmas-gift-for-boyfriend-or-husband.html). Choosing a watch? Our [watch gift for husband](watch-gift-for-husband.html) guide compares six. Not married yet? See our [gift for boyfriend](gift-for-boyfriend.html) guide.
 
 ## Quick ideas
 

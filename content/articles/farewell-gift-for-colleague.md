@@ -196,6 +196,7 @@ Small, light things they can pack easily: a passport holder, a luggage scale or 
 
 ## Related guides
 
+- [Gift for colleague: any occasion](gift-for-colleague.html)
 - [Christmas gifts for friends](christmas-gift-for-friends.html)
 - [Watch gift for your husband](watch-gift-for-husband.html)
 

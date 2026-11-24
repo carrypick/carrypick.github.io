@@ -178,7 +178,7 @@ Valentine week runs from 7 to 14 February. You don't need a gift every day. Many
 | Kiss Day | 13 Feb | A [perfume gift set](../picks/B09232XNTX.html) for her or [for him](../picks/B09231NL5H.html) |
 | Valentine's Day | 14 Feb | The main gift: a [watch for her](../picks/B08LKXV22C.html) or [for him](../picks/B07H3K85H5.html) |
 
-Shopping for a birthday or another occasion? The [gift finder](../tools/gift-finder.html) matches ideas to the person and the occasion. For other dates, see our gifts for [a girlfriend or wife](christmas-gift-for-girlfriend-or-wife.html) and [a boyfriend or husband](christmas-gift-for-boyfriend-or-husband.html). For any day of the year, see our [gift for wife](gift-for-wife.html) and [gift for husband](gift-for-husband.html) guides.
+Shopping for a birthday or another occasion? The [gift finder](../tools/gift-finder.html) matches ideas to the person and the occasion. For other dates, see our gifts for [a girlfriend or wife](christmas-gift-for-girlfriend-or-wife.html) and [a boyfriend or husband](christmas-gift-for-boyfriend-or-husband.html). For any day of the year, see our [gift for girlfriend](gift-for-girlfriend.html), [gift for boyfriend](gift-for-boyfriend.html), [gift for wife](gift-for-wife.html) and [gift for husband](gift-for-husband.html) guides.
 
 ## A book for two
 

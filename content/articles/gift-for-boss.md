@@ -144,6 +144,7 @@ Usually, yes, if it's modest and from the team. Some companies have rules about 
 
 ## Related guides
 
+- [Gift for colleague: any occasion](gift-for-colleague.html)
 - [Christmas gifts for friends](christmas-gift-for-friends.html)
 - [Watch gift for your husband](watch-gift-for-husband.html)
 

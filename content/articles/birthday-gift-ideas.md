@@ -17,7 +17,7 @@ A good birthday gift is something the person will use every week and think of yo
 [[top:B0CDC7QR7T|For your sister|A Fastrack with a pink dial on a silver metal strap, with a 2-year warranty.]]
 [[top:B079TN3GCD|For your brother or dad|A slim WildHorn leather wallet with 10 card slots and a coin pocket that doesn't bulge in a back pocket.]]
 
-Buying for an anniversary instead? See our [anniversary gift ideas for husband, wife and parents](anniversary-gift-ideas.html). Gifts for any day of the year: see our gift guides for your [husband](gift-for-husband.html), [wife](gift-for-wife.html), [mom](gift-for-mother.html), [dad](gift-for-father.html), [sister](gift-for-sister.html) and [brother](gift-for-brother.html).
+Buying for an anniversary instead? See our [anniversary gift ideas for husband, wife and parents](anniversary-gift-ideas.html). Gifts for any day of the year: see our gift guides for your [husband](gift-for-husband.html), [wife](gift-for-wife.html), [mom](gift-for-mother.html), [dad](gift-for-father.html), [sister](gift-for-sister.html), [brother](gift-for-brother.html), [girlfriend](gift-for-girlfriend.html), [boyfriend](gift-for-boyfriend.html), [best friend](gift-for-best-friend.html) and [a colleague](gift-for-colleague.html).
 
 ## Quick ideas
 
