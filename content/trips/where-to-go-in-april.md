@@ -65,7 +65,7 @@ April is the first hill month of the year for many families in the north. The hi
 - **[Manali](manali.html):** green valleys and snow still on the peaks. Himachal Tourism says Rohtang Pass usually reopens around May, so in April go up to Solang and the Atal Tunnel side only as far as the road is open. News reports say Kullu-Manali airport (Bhuntar) had no direct Delhi flights this winter, with flights from Jaipur and Dehradun until 27 March 2027; check the summer schedule before you plan.
 - **[Mussoorie](mussoorie-in-december.html) and [Nainital](nainital-in-december.html):** March to June is their main season, with clear, mild days. Both are an easy trip from Delhi, and the new Delhi–Dehradun Expressway makes Mussoorie quicker.
 - **[Darjeeling](darjeeling-in-december.html):** April is spring tea season and a good time for the gardens and the toy train. Autumn has clearer mountain views, so don't count on Kanchenjunga.
-- **Sikkim (Gangtok):** a common add-on from Darjeeling. Foreigners need a permit for Sikkim, so check the current rules first. We don't have a full Gangtok guide yet.
+- **[Sikkim (Gangtok)](sikkim-trip-plan.html):** a common add-on from Darjeeling, with rhododendrons in the Yumthang valley in April and May. Tsomgo Lake and North Sikkim need permits, and foreigners need a permit for all of Sikkim. See our [Sikkim trip plan](sikkim-trip-plan.html).
 - **[Ooty](ooty-in-december.html):** in season from October to June, and the easiest hill escape from Bengaluru, Mysuru and Coimbatore.
 - **[Munnar](munnar-in-december.html):** Eravikulam National Park usually closes from about 1 February to 1 April for the Nilgiri tahr calving season, so it should be open again in April. Check the booking site before you go.
 - **[Coorg](coorg-in-december.html):** its best season is October to March, so April is warmer, but it's still a green, easy weekend from Bengaluru.
@@ -99,6 +99,7 @@ The Char Dham temples in Uttarakhand, Yamunotri, Gangotri, Kedarnath and Badrina
 - **The first weeks are the busiest.** More than 65 lakh pilgrims visited the four temples in 2026, says All India Radio. Book stays early, and expect long queues around the opening days and in May and June.
 - **Start from [Rishikesh](rishikesh-in-december.html) or Haridwar.** The road to the temples starts there, and Rishikesh is a good place to rest a day on the way.
 - **Kedarnath is a steep walk** at high altitude. Walk slowly, carry warm clothes and a rain jacket, and see a doctor first if you have a heart or lung problem.
+- **Plan it step by step** with our [Char Dham Yatra 2027 guide](char-dham-yatra-2027.html): registration, helicopter booking only on IRCTC, health tips and an 11-day route. Pack with our [Kedarnath packing list](../guides/kedarnath-packing-list.html).
 
 ## Wildlife safaris in April
 
@@ -223,6 +224,9 @@ Not yet. The 2027 opening dates are to be announced. In 2026, Kedarnath opened o
 ## Related guides
 
 - [Where to go in May](where-to-go-in-may.html)
+- [Char Dham Yatra 2027](char-dham-yatra-2027.html)
+- [Sikkim trip plan](sikkim-trip-plan.html)
+- [Kedarnath packing list](../guides/kedarnath-packing-list.html)
 - [Where to go in March](where-to-go-in-march.html)
 - [Ladakh trip guide](ladakh-trip-guide.html)
 - [Spiti Valley trip guide](spiti-valley-trip-guide.html)

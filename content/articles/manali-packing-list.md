@@ -209,6 +209,7 @@ If you drive or take a taxi, Himachal Police advise carrying warm clothes, blank
 
 - [Kashmir packing list for winter](kashmir-packing-list.html), for Srinagar, Gulmarg and Pahalgam
 - [Snow trip packing list](snow-trip-packing-list.html), for Auli, Shimla and anywhere with snow
+- [Kedarnath packing list](kedarnath-packing-list.html), for the Char Dham Yatra
 - [Shimla in December](../trips/shimla-in-december.html), if you're doing Shimla and Manali together
 
 ## Questions

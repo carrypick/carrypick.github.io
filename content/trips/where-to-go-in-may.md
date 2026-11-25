@@ -49,8 +49,8 @@ See every 2027 long weekend, and filter by month and leave days, in our [long we
 | [Manali](manali.html) | Snow at Rohtang, Solang and Atal Tunnel | Rohtang usually reopens around May; very busy | [Manali](manali.html) |
 | [Shimla](shimla-in-december.html) | The Ridge, Kufri and the toy train | Peak season | [Shimla](shimla-in-december.html) |
 | [Mussoorie](mussoorie-in-december.html) and [Nainital](nainital-in-december.html) | Hills near Delhi | In season (March to June); weekends are crowded | [Mussoorie](mussoorie-in-december.html), [Nainital](nainital-in-december.html) |
-| Kedarnath, Badrinath, Gangotri, Yamunotri | The Char Dham yatra | Open; register before you go | See below |
-| [Darjeeling](darjeeling-in-december.html) and Sikkim | Tea gardens and the toy train | Pleasant before the monsoon; peaks often in cloud | [Darjeeling](darjeeling-in-december.html) |
+| [Kedarnath, Badrinath, Gangotri, Yamunotri](char-dham-yatra-2027.html) | The Char Dham yatra | Open; register before you go | [Char Dham 2027](char-dham-yatra-2027.html) |
+| [Darjeeling](darjeeling-in-december.html) and [Sikkim](sikkim-trip-plan.html) | Tea gardens, the toy train, Gangtok and Yumthang | Pleasant before the monsoon; peaks often in cloud | [Darjeeling](darjeeling-in-december.html), [Sikkim](sikkim-trip-plan.html) |
 | [Meghalaya](meghalaya-in-december.html) | Shillong and the root bridges | Cool, with pre-monsoon rain; waterfalls start to fill | [Meghalaya](meghalaya-in-december.html) |
 | [Ooty](ooty-in-december.html) | The Nilgiris and the toy train | In season (October to June); vehicles need an e-pass | [Ooty](ooty-in-december.html) |
 | [Munnar](munnar-in-december.html) | Tea hills and Eravikulam | Warm and green; Munnar's flower show is in May | [Munnar](munnar-in-december.html) |
@@ -65,7 +65,7 @@ These are the classic summer holiday places. They are at their busiest in May an
 - **[Manali](manali.html):** Himachal Tourism says Rohtang Pass usually reopens around May. Vehicles going up to Rohtang need a permit from the official site, rohtangpermits.hp.gov.in, and the roads are jammed at weekends. Pack with our [Manali packing list](../guides/manali-packing-list.html).
 - **[Shimla](shimla-in-december.html):** the Ridge, Mall Road, Kufri and the toy train from Kalka. Book the train early.
 - **[Mussoorie](mussoorie-in-december.html) and [Nainital](nainital-in-december.html):** March to June is their main season. Both are a short trip from Delhi, so they're very crowded at weekends.
-- **[Darjeeling](darjeeling-in-december.html) and Sikkim:** cool and green before the monsoon. Clouds hide Kanchenjunga more often than in autumn. Foreigners need a permit for Sikkim.
+- **[Darjeeling](darjeeling-in-december.html) and [Sikkim](sikkim-trip-plan.html):** cool and green before the monsoon. Clouds hide Kanchenjunga more often than in autumn. Tsomgo Lake and North Sikkim need permits, and foreigners need a permit for all of Sikkim: see our [Sikkim trip plan](sikkim-trip-plan.html).
 - **[Meghalaya](meghalaya-in-december.html):** pre-monsoon showers start, the waterfalls begin to fill, and Shillong stays cool. Paths to the root bridges get slippery, so wear shoes with grip.
 - **[Ooty](ooty-in-december.html):** in season until June. Cars and bikes from outside the Nilgiris need an e-pass from the official site, and on busy days the number of vehicles is limited, so get it before you set off.
 - **[Munnar](munnar-in-december.html):** warm and green, with its flower show in May. The south-west monsoon usually reaches Kerala around the start of June, so go early in the month.
@@ -97,6 +97,7 @@ The Char Dham temples in Uttarakhand, Yamunotri, Gangotri, Kedarnath and Badrina
 - **The first weeks are the busiest.** More than 65 lakh pilgrims visited the four temples in 2026, says All India Radio. Book stays early, and expect long queues around the opening days and in May and June.
 - **Start from [Rishikesh](rishikesh-in-december.html) or Haridwar.** The road to the temples starts there, and Rishikesh is a good place to rest a day on the way.
 - **Kedarnath is a steep walk** at high altitude. Walk slowly, carry warm clothes and a rain jacket, and see a doctor first if you have a heart or lung problem.
+- **Plan it step by step** with our [Char Dham Yatra 2027 guide](char-dham-yatra-2027.html): registration, helicopter booking only on IRCTC, health tips and an 11-day route. Pack with our [Kedarnath packing list](../guides/kedarnath-packing-list.html).
 
 May and June are the busiest months of the yatra, with the school holidays. In the monsoon, landslides often block the hill roads, so keep a spare day in your plan.
 
@@ -225,6 +226,9 @@ Usually not in early May. In 2026 BRO finished clearing the road on 12 May, and 
 ## Related guides
 
 - [Where to go in April](where-to-go-in-april.html)
+- [Char Dham Yatra 2027](char-dham-yatra-2027.html)
+- [Sikkim trip plan](sikkim-trip-plan.html)
+- [Kedarnath packing list](../guides/kedarnath-packing-list.html)
 - [Ladakh trip guide](ladakh-trip-guide.html)
 - [Spiti Valley trip guide](spiti-valley-trip-guide.html)
 - [Manali packing list](../guides/manali-packing-list.html)

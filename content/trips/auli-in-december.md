@@ -14,7 +14,7 @@ Auli is Uttarakhand's ski slope: open meadows and oak and deodar forest above Jo
 
 Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
 
-Still choosing? Compare other winter trips in [where to go in December and January](where-to-go-in-december-january.html). Want surer snow? [Gulmarg in December](gulmarg-in-december.html) is higher, and [Manali in winter](manali.html) is easier to reach. Want an easier Uttarakhand trip? See [Nainital in December](nainital-in-december.html), [Mussoorie in December](mussoorie-in-december.html) or [Rishikesh in December](rishikesh-in-december.html).
+Still choosing? Compare other winter trips in [where to go in December and January](where-to-go-in-december-january.html). Want surer snow? [Gulmarg in December](gulmarg-in-december.html) is higher, and [Manali in winter](manali.html) is easier to reach. Want an easier Uttarakhand trip? See [Nainital in December](nainital-in-december.html), [Mussoorie in December](mussoorie-in-december.html) or [Rishikesh in December](rishikesh-in-december.html). Auli is on the road to Badrinath: for the summer pilgrimage, see our [Char Dham Yatra 2027 guide](char-dham-yatra-2027.html).
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 

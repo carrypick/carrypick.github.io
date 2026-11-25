@@ -1,5 +1,36 @@
 [
   {
+    "asin": "B0BYRY5MHQ",
+    "added_at": "2026-11-25T22:46:31+05:30",
+    "title": "Tripole Trailcore Foldable Trekking Pole, Aluminium 7075, Single Pole",
+    "category": "travel-gear",
+    "subcategory": "travel-safety",
+    "highlights": [
+      "About 300 g per pole (as listed)",
+      "Adjusts from 110 to 130 cm with a quick flip lock",
+      "Folds down to fit in a backpack",
+      "Cork and EVA grip; mud basket, snow basket and trail tip in the box"
+    ],
+    "note": "Takes weight off your knees on long steep walks like the Kedarnath trek, then folds into your bag.",
+    "brand": "Tripole",
+    "colour": "Black",
+    "best_for": [
+      "Trekking",
+      "Pilgrim walks"
+    ],
+    "specs": {
+      "Length": "110 to 130 cm",
+      "Weight": "300 g",
+      "Shaft": "Aluminium 7075",
+      "Grip": "Cork and EVA",
+      "Lock": "Flip, quick",
+      "In the box": "Pole, mud basket, snow basket, trail tip",
+      "Warranty": "6 months",
+      "Made in": "India"
+    },
+    "skip_if": "you are shorter than about 150 cm: the shortest setting is 110 cm."
+  },
+  {
     "asin": "B09Q33YD5V",
     "added_at": "2026-11-25T12:58:45+05:30",
     "title": "Destinio Digital Luggage Scale with Hook, Strap and Measuring Tape (50 kg)",

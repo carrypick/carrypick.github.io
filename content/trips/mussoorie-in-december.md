@@ -14,7 +14,7 @@ Mussoorie in December is cold, sunny and clear, with long views of the snow peak
 
 Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
 
-Still choosing? Compare other winter trips in [where to go in December and January](where-to-go-in-december-january.html). Close by: [Rishikesh in December](rishikesh-in-december.html) is close to Dehradun and Jolly Grant airport, and [Nainital in December](nainital-in-december.html) is the other classic Uttarakhand hill station. Want real snow? See [Auli in December](auli-in-december.html), [Shimla in December](shimla-in-december.html) or [Manali in winter](manali.html).
+Still choosing? Compare other winter trips in [where to go in December and January](where-to-go-in-december-january.html). Close by: [Rishikesh in December](rishikesh-in-december.html) is close to Dehradun and Jolly Grant airport, and [Nainital in December](nainital-in-december.html) is the other classic Uttarakhand hill station. Want real snow? See [Auli in December](auli-in-december.html), [Shimla in December](shimla-in-december.html) or [Manali in winter](manali.html). Planning a pilgrimage to the temples you can see from Lal Tibba? See our [Char Dham Yatra 2027 guide](char-dham-yatra-2027.html).
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 

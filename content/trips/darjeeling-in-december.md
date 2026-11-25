@@ -14,7 +14,7 @@ Darjeeling in December is cold, dry and clear. The days are sunny, the nights ar
 
 Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
 
-Still choosing? Compare Goa, Manali, Shimla and more in [where to go in December and January](where-to-go-in-december-january.html). Want snow for sure? [Kashmir in December](kashmir-in-december.html) and [Manali in winter](manali.html) get much more. Want warm sea instead? See [Andaman in December](andaman-in-december.html). In the south, [Ooty in December](ooty-in-december.html) has a toy train too. Also in the north-east, [Meghalaya in December](meghalaya-in-december.html) has living root bridges, waterfalls and Christmas in Shillong.
+Still choosing? Compare Goa, Manali, Shimla and more in [where to go in December and January](where-to-go-in-december-january.html). Want snow for sure? [Kashmir in December](kashmir-in-december.html) and [Manali in winter](manali.html) get much more. Want warm sea instead? See [Andaman in December](andaman-in-december.html). In the south, [Ooty in December](ooty-in-december.html) has a toy train too. Also in the north-east, [Meghalaya in December](meghalaya-in-december.html) has living root bridges, waterfalls and Christmas in Shillong. Going on to Gangtok? See our [Sikkim trip plan](sikkim-trip-plan.html) for permits, roads and a 6-day route.
 
 Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html): add your own amounts and split the bill with friends.
 
@@ -114,7 +114,7 @@ For our picks and full lists, see [what to wear on a winter hill trip](../guides
 ## For foreign visitors
 
 - **Visa:** apply for the e-Tourist Visa only at the official site, [indianvisaonline.gov.in](https://indianvisaonline.gov.in/evisa/tvoa.html).
-- **Sikkim needs a permit for foreigners.** If you plan to continue to Sikkim from Darjeeling, check the current Sikkim permit rules before you go.
+- **Sikkim needs a permit for foreigners.** If you plan to continue to Sikkim from Darjeeling, apply on e-FRRO first: see [our Sikkim trip plan](sikkim-trip-plan.html#for-foreign-visitors).
 
 ## Emergency numbers and help
 

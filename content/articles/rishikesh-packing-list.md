@@ -10,7 +10,7 @@ feature_until: 2027-03-15
 ---
 Rishikesh in winter is sunny and pleasant at noon and cold in the morning and at night, and the Ganga is icy all season because it comes straight down from the Himalayas. So you pack light layers for the day, a warm jacket for the aarti and the camp, quick-dry clothes for rafting, and modest clothes for temples and ashrams. This list covers a 2- to 5-day trip from October to March.
 
-Want to tick things off as you pack? Use our [weekend trip checklist](../packing/weekend.html), or make a list for your dates, kids and all, with the [packing list maker](../tools/packing-list-maker.html). Still planning? Read [Rishikesh in December and January](../trips/rishikesh-in-december.html) for rafting, the bridges and the Haridwar Kumbh.
+Want to tick things off as you pack? Use our [weekend trip checklist](../packing/weekend.html), or make a list for your dates, kids and all, with the [packing list maker](../tools/packing-list-maker.html). Still planning? Read [Rishikesh in December and January](../trips/rishikesh-in-december.html) for rafting, the bridges and the Haridwar Kumbh. Going on to the Char Dham temples? See the [Kedarnath packing list](kedarnath-packing-list.html).
 
 [[toppicks:Our picks for a Rishikesh trip|See the short list|#the-short-list]]
 [[top:B094JBDRKX|Waterproof phone pouch|For the raft, the ghats and the camp.]]
@@ -192,6 +192,7 @@ Our [visiting India guide](../trips/visiting-india.html) covers the e-Visa, SIMs
 
 ## More packing lists
 
+- [Kedarnath packing list](kedarnath-packing-list.html), for the Char Dham Yatra
 - [Manali packing list](manali-packing-list.html), for snow
 - [Rajasthan packing list](rajasthan-packing-list.html)
 - [Kerala packing list](kerala-packing-list.html)

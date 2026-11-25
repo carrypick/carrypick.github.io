@@ -235,6 +235,7 @@ def nav_menus(cfg, p):
                                     ("trips/holi-2027.html", "Holi 2027: where to celebrate", "holi-2027.md"),
                                     ("trips/where-to-go-in-april.html", "Where to go in April", "where-to-go-in-april.md"),
                                     ("trips/where-to-go-in-may.html", "Where to go in May", "where-to-go-in-may.md"),
+                                    ("trips/char-dham-yatra-2027.html", "Char Dham Yatra 2027", "char-dham-yatra-2027.md"),
                                     ("trips/international-trips-from-india.html", "International trips from India", "international-trips-from-india.md"),
                                     ("trips/honeymoon-destinations-in-india.html", "Honeymoon destinations in India", "honeymoon-destinations-in-india.md"),
                                     ("trips/honeymoon-destinations-outside-india.html", "Honeymoon destinations abroad", "honeymoon-destinations-outside-india.md"),
@@ -2943,7 +2944,7 @@ PACKING_GUIDES = {"abroad": (("dubai", "Dubai"), ("thailand", "Thailand"), ("bal
                              ("kenya-safari", "a Kenya safari"), ("umrah", "Umrah")),
                   "beach": (("goa", "Goa"), ("andaman", "Andaman"), ("thailand", "Thailand"), ("bali", "Bali"),
                             ("maldives", "the Maldives"), ("honeymoon", "a honeymoon")),
-                  "hills": (("manali", "Manali"), ("kashmir", "Kashmir"), ("snow-trip", "any snow trip")),
+                  "hills": (("manali", "Manali"), ("kashmir", "Kashmir"), ("kedarnath", "Kedarnath and the Char Dham"), ("snow-trip", "any snow trip")),
                   "week": (("rajasthan", "Rajasthan"), ("kerala", "Kerala")),
                   "weekend": (("rishikesh", "Rishikesh"), ("rajasthan", "Rajasthan"))}
 
