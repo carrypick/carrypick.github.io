@@ -365,6 +365,10 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
     march = "trips/where-to-go-in-march.html"
     if built(march):
         hub_link += f' For March, see <a href="../{march}">where to go in March</a>.'
+    for slug, name in (("april", "April"), ("may", "May")):
+        hub = "trips/where-to-go-in-%s.html" % slug
+        if built(hub):
+            hub_link += f' For {name}, see <a href="../{hub}">where to go in {name}</a>.'
     holi = "trips/holi-2027.html"
     if built(holi):
         rday_link += f' Holi is on Tuesday 23 March 2027: see <a href="../{holi}">where to celebrate Holi</a>.'

@@ -18,7 +18,7 @@ This page sums up our trip guides that fit March, in India and abroad, with the 
 
 Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
 
-Going earlier? See [where to go in February](where-to-go-in-february.html). Only looking abroad? Compare all our [international trips from India](international-trips-from-india.html) by flight time, best months and visa type.
+Going earlier? See [where to go in February](where-to-go-in-february.html). Going a little later? See [where to go in April](where-to-go-in-april.html): hill stations as the heat starts, the tulip garden in Srinagar, the long Ram Navami and Mahavir Jayanti break, and spring in Japan, Europe and Central Asia. Only looking abroad? Compare all our [international trips from India](international-trips-from-india.html) by flight time, best months and visa type.
 
 ## March 2027 dates to know
 
@@ -186,6 +186,7 @@ Yes, if you don't mind heat. It's dry and quieter after the winter crowds, and S
 
 ## Related guides
 
+- [Where to go in April](where-to-go-in-april.html)
 - [Holi 2027: where to celebrate](holi-2027.html)
 - [Snow trip packing list](../guides/snow-trip-packing-list.html)
 - [Visa-free countries for Indians](../guides/visa-free-countries-for-indians.html)

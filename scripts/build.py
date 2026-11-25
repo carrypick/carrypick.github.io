@@ -233,6 +233,8 @@ def nav_menus(cfg, p):
                                     ("trips/where-to-go-in-february.html", "Where to go in February", "where-to-go-in-february.md"),
                                     ("trips/where-to-go-in-march.html", "Where to go in March", "where-to-go-in-march.md"),
                                     ("trips/holi-2027.html", "Holi 2027: where to celebrate", "holi-2027.md"),
+                                    ("trips/where-to-go-in-april.html", "Where to go in April", "where-to-go-in-april.md"),
+                                    ("trips/where-to-go-in-may.html", "Where to go in May", "where-to-go-in-may.md"),
                                     ("trips/international-trips-from-india.html", "International trips from India", "international-trips-from-india.md"),
                                     ("trips/honeymoon-destinations-in-india.html", "Honeymoon destinations in India", "honeymoon-destinations-in-india.md"),
                                     ("trips/honeymoon-destinations-outside-india.html", "Honeymoon destinations abroad", "honeymoon-destinations-outside-india.md"),
