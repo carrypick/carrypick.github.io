@@ -28,6 +28,8 @@
     "kashmir-packing-list",
     "snow-trip-packing-list",
     "february-trips",
+    "march-trips",
+    "holi-2027",
     "honeymoon-india",
     "honeymoon-abroad",
     "auli-december",
@@ -168,6 +170,9 @@
     "liquids-100ml",
     "laptop-flight",
     "indigo-intl-baggage",
-    "air-india-intl-baggage"
+    "air-india-intl-baggage",
+    "rajasthan-packing-list",
+    "kerala-packing-list",
+    "rishikesh-packing-list"
   ]
 }
