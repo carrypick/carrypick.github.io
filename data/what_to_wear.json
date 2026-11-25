@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "about": "Weather numbers come from official climate normals (IMD, DHM, the UAE's National Center of Meteorology), each with its source and checked date: a place's own 'source', or a month's 'src', a key in 'sources'. Never add a month we have no numbers for. Items can carry 'for' wording and 'picks_for' picks for women and men; the page shows the everyone wording without JS.",
  "months": [
   [
@@ -575,6 +575,60 @@
     [
      "guides/kashmir-packing-list.html",
      "Kashmir packing list for winter"
+    ]
+   ]
+  },
+  {
+   "slug": "ladakh",
+   "name": "Ladakh (Leh)",
+   "where": "india",
+   "guide": "trips/ladakh-trip-guide.html",
+   "packing": "packing/hills.html",
+   "spots": [
+    {
+     "name": "Leh",
+     "months": {
+      "may": {
+       "day": 20.0,
+       "night": 6.2
+      },
+      "jun": {
+       "day": 24.4,
+       "night": 11.3
+      },
+      "jul": {
+       "day": 28.5,
+       "night": 15.9
+      },
+      "aug": {
+       "day": 28.1,
+       "night": 15.1
+      },
+      "sep": {
+       "day": 23.4,
+       "night": 9.2
+      },
+      "oct": {
+       "day": 16.7,
+       "night": 0.3
+      }
+     }
+    }
+   ],
+   "note": "These are IMD's averages for Leh town, at about 3,500 m. Khardung La, Pangong and Tso Moriri are much higher and far colder, so carry a warm jacket even in July. The sun is very strong: wear sunglasses and sunscreen.",
+   "source": {
+    "label": "IMD averages for Leh, as tabled on Wikipedia",
+    "checked": "2026-11-25",
+    "url": "https://en.wikipedia.org/wiki/Leh"
+   },
+   "more": [
+    [
+     "guides/snow-trip-packing-list.html",
+     "Snow trip packing list"
+    ],
+    [
+     "guides/manali-packing-list.html",
+     "Manali packing list (for the Manali–Leh road)"
     ]
    ]
   },

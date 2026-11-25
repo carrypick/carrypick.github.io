@@ -77,10 +77,10 @@ The two roads to Ladakh are closed by snow in winter, and the Border Roads Organ
 - **Srinagar–Sonamarg–Zoji La–Leh:** this is usually the first road to open. In 2025 BRO reopened Zoji La on 1 April after a 32-day closure, says PIB. In the winter of 2025–26 it was closed for only four days, said BRO's Project Vijayak in March 2026. By May it's normally open, but snow can still close it for a day.
 - **Manali–Atal Tunnel–Baralacha La–Leh:** this one opens later. In 2026 BRO finished clearing it on 12 May, and it opened to light vehicles over Baralacha La on 15 May, newspapers reported (we couldn't find an official release). So in early May, don't plan to drive from Manali to Leh. **The 2027 opening date is to be announced.**
 - **Flying to Leh** is the easier way in May. Rest for the first full day: Leh is very high, and altitude sickness is common if you rush.
-- **Spiti:** the high roads into Spiti also open in stages after the snow, so check the current road status with the Lahaul-Spiti district before you plan. Foreigners need an Inner Line Permit for some border areas of Kinnaur and Spiti.
+- **[Spiti](spiti-valley-trip-guide.html):** the road from Shimla through Kinnaur is open, but Kunzum La from Manali opens later: in 2026 it opened to light 4x4 vehicles around 20 May, news reports said. Check the current road status with the Lahaul-Spiti district before you plan. Foreigners need an Inner Line Permit for some border areas of Kinnaur and Spiti.
 - **Rohtang Pass** above Manali usually reopens around May, says Himachal Tourism. Vehicles need a permit from [rohtangpermits.hp.gov.in](https://rohtangpermits.hp.gov.in/Home/InformatoryScreen), and only a set number of vehicles are allowed each day, so book online up to 2 days ahead and carry a printout.
 
-We don't have a full Ladakh guide yet. Pack for cold: even in May, nights in Leh and on the passes are cold, so see our [winter clothes guide](../guides/winter-clothes-for-hill-trips.html).
+Read our full [Ladakh trip guide](ladakh-trip-guide.html) for permits, the 48-hour rest rule and a 7-day plan, and our [Spiti Valley trip guide](spiti-valley-trip-guide.html) for both roads and an 8-day circuit. Pack for cold: even in May, nights in Leh and on the passes are cold, so see our [winter clothes guide](../guides/winter-clothes-for-hill-trips.html).
 
 ## Char Dham yatra in May
 
@@ -225,6 +225,8 @@ Usually not in early May. In 2026 BRO finished clearing the road on 12 May, and 
 ## Related guides
 
 - [Where to go in April](where-to-go-in-april.html)
+- [Ladakh trip guide](ladakh-trip-guide.html)
+- [Spiti Valley trip guide](spiti-valley-trip-guide.html)
 - [Manali packing list](../guides/manali-packing-list.html)
 - [Kashmir packing list](../guides/kashmir-packing-list.html)
 - [Travel sunscreen guide](../guides/travel-sunscreen-guide.html)

@@ -20,6 +20,8 @@ Plan your budget with our [trip budget calculator](../tools/trip-budget-calculat
 
 Only have a weekend? Compare Manali with other [weekend getaways from Delhi](weekend-getaways-from-delhi.html), with distances and travel times.
 
+Going on over the Atal Tunnel in summer? See our [Ladakh trip guide](ladakh-trip-guide.html) for the Manali–Leh road and our [Spiti Valley trip guide](spiti-valley-trip-guide.html) for Kunzum La.
+
 ## Will there be snow?
 
 Snow in Manali usually comes between December and February, but some winters are dry:

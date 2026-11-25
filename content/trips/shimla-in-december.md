@@ -20,6 +20,8 @@ Plan your budget with our [trip budget calculator](../tools/trip-budget-calculat
 
 Only have a weekend? Compare Shimla with other [weekend getaways from Delhi](weekend-getaways-from-delhi.html), with distances and travel times.
 
+Going further in summer? The road through Kinnaur from Shimla is the main way into Spiti: see our [Spiti Valley trip guide](spiti-valley-trip-guide.html).
+
 ## Weather in December and January
 
 Long-term averages for Shimla from the India Meteorological Department (IMD):
@@ -158,6 +160,7 @@ Yes, the Kalka–Shimla toy train runs all year. Book early for Christmas and Ne
 
 ## Related guides
 
+- [Spiti Valley trip guide](spiti-valley-trip-guide.html)
 - [Shoes for Manali and Kashmir](../guides/shoes-for-manali-and-kashmir-trip.html)
 
 ## Sources

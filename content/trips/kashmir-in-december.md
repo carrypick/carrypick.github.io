@@ -58,7 +58,7 @@ The gondola goes up from Gulmarg in two stages: Phase 1 to Kongdori, and Phase 2
 - **By train:** since 2 May 2026, Vande Bharat trains run directly from Jammu Tawi to Srinagar, via Katra and Banihal, in about 5 hours. From Delhi, take a train to Jammu Tawi or Katra and change there. Book early for the holidays.
 - **By road:** the Jammu–Srinagar highway (NH44) can close for a day or more after heavy snow. Mughal Road usually stays closed for much of the winter.
 - **Gulmarg** is about 50 km from Srinagar by road, through Tangmarg. After snow, the road may be open only to vehicles with snow chains or 4x4s. Ask your hotel or driver in the morning.
-- **Sonamarg** can now be reached in winter through the Sonamarg (Z-Morh) tunnel, opened in January 2025. The road beyond it, over Zojila to Ladakh, closes after snow.
+- **Sonamarg** can now be reached in winter through the Sonamarg (Z-Morh) tunnel, opened in January 2025. The road beyond it, over Zojila to Ladakh, closes after snow. For a summer trip to Leh, see our [Ladakh trip guide](ladakh-trip-guide.html).
 
 Flying? See the [cabin bag rules for Indian airlines](../baggage/index.html) and [what you can carry on a flight](../baggage/can-i-carry.html). Taking the train? See the [train luggage rules](../baggage/train-luggage-rules.html).
 

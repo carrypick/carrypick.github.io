@@ -69,6 +69,7 @@ April is the first hill month of the year for many families in the north. The hi
 - **[Ooty](ooty-in-december.html):** in season from October to June, and the easiest hill escape from Bengaluru, Mysuru and Coimbatore.
 - **[Munnar](munnar-in-december.html):** Eravikulam National Park usually closes from about 1 February to 1 April for the Nilgiri tahr calving season, so it should be open again in April. Check the booking site before you go.
 - **[Coorg](coorg-in-december.html):** its best season is October to March, so April is warmer, but it's still a green, easy weekend from Bengaluru.
+- **[Ladakh](ladakh-trip-guide.html) and [Spiti](spiti-valley-trip-guide.html):** too early for most trips. The Manali–Leh road and Kunzum La into Spiti are usually still shut by snow in April. Zoji La from Srinagar reopened on 1 April in 2025, says PIB, and you can fly to Leh all year, but April nights in Leh average about 2 °C (IMD). Save them for June to September.
 
 Pack light layers for the hills: warm days, cool evenings. Our [hill trip checklist](../packing/hills.html) and [what to wear helper](../tools/what-to-wear.html) help.
 
@@ -223,6 +224,8 @@ Not yet. The 2027 opening dates are to be announced. In 2026, Kedarnath opened o
 
 - [Where to go in May](where-to-go-in-may.html)
 - [Where to go in March](where-to-go-in-march.html)
+- [Ladakh trip guide](ladakh-trip-guide.html)
+- [Spiti Valley trip guide](spiti-valley-trip-guide.html)
 - [Kashmir packing list](../guides/kashmir-packing-list.html)
 - [Manali packing list](../guides/manali-packing-list.html)
 - [Travel sunscreen guide](../guides/travel-sunscreen-guide.html)
