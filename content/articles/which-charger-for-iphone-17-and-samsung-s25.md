@@ -71,13 +71,13 @@ So you need two things:
 - A charger that says **PPS** and gives **45 W on one port**.
 - A **5 A USB-C to USB-C cable**. The 3 A cable in the phone's box caps it at 25 W.
 
-The **S25 FE** also takes **45 W** wired: Samsung India's page says 65% in about 30 minutes. The base **Galaxy S25** takes **25 W**, so any 25 W PPS charger is enough. The **A36** also does 45 W Super Fast Charge, by Samsung's page.
+The **S25 FE** also takes **45 W** wired: Samsung India's page says 65% in about 30 minutes. The base **Galaxy S25** takes **25 W**, so any 25 W PPS charger is enough, like Samsung's own 25 W adapter (EP-T2510N, see [our picks](#our-charger-picks)). The **A36** also does 45 W Super Fast Charge, by Samsung's page.
 
 The surest way is **Samsung's own 45 W adapter (EP-T4511)**. Samsung India's page for it says USB PD 3.0 with PPS, and tells you to use a genuine Samsung 5 A cable. Our pick is the version sold with a cable. Of our other picks, the Spigen listing states **45 W Super Fast Charging for Samsung** when one port is used alone. The Belkin charger lists PD 3.0 and PPS and 45 W on a port, but doesn't name Samsung's 45 W mode.
 
 ### Which cable for Samsung 45W charging?
 
-A USB-C to USB-C cable rated **5 A** (often sold as **100 W**). Most cables are 3 A (60 W), and with one the phone stays at about 25 W. Look for "5A" in the listing, not just "fast charging". Our pick is a 2 m Belkin rated 5 A and 100 W, and USB-IF certified, as listed. It also charges a laptop from a 65 W charger.
+A USB-C to USB-C cable rated **5 A** (often sold as **100 W**). Most cables are 3 A (60 W), and with one the phone stays at about 25 W. Our [USB-C cable guide](which-usb-c-cable.html) explains 3 A vs 5 A, the e-marker chip and data speeds. Look for "5A" in the listing, not just "fast charging". Our pick is a 2 m Belkin rated 5 A and 100 W, and USB-IF certified, as listed. It also charges a laptop from a 65 W charger.
 
 ## Pixel, Nothing and OnePlus
 
@@ -119,6 +119,10 @@ Samsung's own 45 W adapter (EP-T4511), sold with a USB-C cable. One port, USB PD
 
 [[pick:B0DB5RV1YQ]]
 
+Only need a phone charger for a base Galaxy S25, an A-series Galaxy or a Pixel 10? Samsung's 25 W adapter is small and lists PPS. It has no cable in the box, and it gives a Pixel 10 a little under Google's 30 W figure:
+
+[[pick:B0D2R26HFV]]
+
 [[compare:B0DL6DG9DQ,B0BCNQCWHS,B0DB5RV1YQ]]
 
 ### A 5 A cable
@@ -126,6 +130,8 @@ Samsung's own 45 W adapter (EP-T4511), sold with a USB-C cable. One port, USB PD
 Bought a 45 W charger without a cable, or only have the 3 A cable from the phone box? This 2 m cable is rated 5 A and 100 W, as listed:
 
 [[pick:B0B3GMVZY5]]
+
+Not sure which cable you need, or want a cheap 3 A spare? See [which USB-C cable to buy](which-usb-c-cable.html).
 
 ## Questions
 

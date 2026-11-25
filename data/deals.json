@@ -61,6 +61,67 @@
     "skip_if": "your charger has only USB-A ports: this cable is USB-C at both ends."
   },
   {
+    "asin": "B0D2R26HFV",
+    "added_at": "2026-11-25T16:00:00+05:30",
+    "title": "Samsung 25W USB-C Travel Adapter, without Cable (EP-T2510N)",
+    "category": "travel-tech",
+    "subcategory": "chargers",
+    "highlights": [
+      "Samsung's own 25 W adapter: the full wired speed of the base Galaxy S25 (as listed)",
+      "Lists PPS (3.3-5.9 V or 3.3-11 V), which the Pixel 10 also uses for fast charging",
+      "One USB-C port, GaN inside, 5 mW standby (as listed)",
+      "No cable in the box; 6-month warranty"
+    ],
+    "note": "A small, cheap charger for a base Galaxy S25, an A-series phone or a Pixel 10 (where 25 W is a little under Google's 30 W figure).",
+    "brand": "Samsung",
+    "colour": "Black",
+    "best_for": [
+      "Galaxy S25",
+      "Pixel 10"
+    ],
+    "specs": {
+      "Type": "Wall charger",
+      "USB ports": "1 USB-C",
+      "Total output": "25 W",
+      "Standards": "PPS, PDO 9 V (as listed)",
+      "In the box": "Charger only, no cable",
+      "Model": "EP-T2510N",
+      "Warranty": "6 months"
+    },
+    "skip_if": "you have an S25 Ultra, S25+ or S25 FE: those take 45 W, so get the 45 W adapter and a 5 A cable."
+  },
+  {
+    "asin": "B0BR9RHCPC",
+    "added_at": "2026-11-25T16:00:00+05:30",
+    "title": "Anker 310 USB-C to USB-C Cable, 60W 3A, 0.9 m (A81E1)",
+    "category": "travel-tech",
+    "subcategory": "chargers",
+    "highlights": [
+      "3 A and 60 W in the title: enough for every iPhone, a Pixel 10 and a base Galaxy S25",
+      "USB-IF compliant, tested for 10,000 bends (as listed)",
+      "0.9 m (3 ft) and 18.1 g: a short spare for the power bank",
+      "USB 2.0 data (480 Mbps), 12-month warranty"
+    ],
+    "note": "A cheap, short spare cable for a phone or power bank. Not for Samsung's 45 W mode, which needs 5 A.",
+    "brand": "Anker",
+    "colour": "White",
+    "best_for": [
+      "iPhone 15 to 17",
+      "Power banks"
+    ],
+    "specs": {
+      "Type": "USB-C to USB-C cable",
+      "Rating": "3 A, 60 W (title)",
+      "Length": "0.9 m (3 ft)",
+      "Certification": "USB-IF compliant (as listed)",
+      "Data": "USB 2.0, 480 Mbps",
+      "Weight": "18.1 g",
+      "Model": "A81E1",
+      "Warranty": "12 months"
+    },
+    "skip_if": "you want the full 45 W on a Galaxy S25 Ultra or a laptop over 60 W: buy a 5 A cable."
+  },
+  {
     "asin": "B0DB5RV1YQ",
     "added_at": "2026-11-25T12:58:45+05:30",
     "title": "Samsung 45W Super Fast Charger with USB-C Cable (EP-T4511)",

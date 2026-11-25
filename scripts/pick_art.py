@@ -994,7 +994,7 @@ def draw_tech(d):
         px = x + w / 2 - (len(slots) * 22) / 2 + i * 22 + 4
         out += R(px, y + h * .72, 14, 8 if port == "c" else 10, 4 if port == "c" else 1, "p", 0)
     out += R(x + w * .36, y + h, 6, 26, 2, "p", 0) + R(x + w * .58, y + h, 6, 26, 2, "p", 0)
-    if "cable" in tl:
+    if "cable" in tl and "without cable" not in tl:
         out += P(D("M%s %s C%s %s %s %s %s %s", x + w, y + h * .3, x + w + 60, y + h * .3, x + w + 60, y + h * .9, x + w + 8, y + h * .95), "pk", 5)
     if len(dims) >= 2:
         out += dim_h(x, x + w, y - 22, n(wcm) + " cm", "wide", above=True) + dim_v(x - 26, y, y + h, n(hcm) + " cm", "high")

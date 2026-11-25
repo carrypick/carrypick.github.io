@@ -179,6 +179,7 @@ More for visitors: [plugs and voltage in India](plug-type-in-india.html), [visit
 
 - **We haven't tested these adapters.** Plugs, ports and loads come from each Amazon.in listing.
 - **Hotels differ.** The plug types above are the national lists. A new hotel may have universal sockets; an old guest house may not. A universal adapter covers both.
+- **Cables work everywhere.** Only the plug changes abroad, so you don't need new cables. To charge a phone, laptop and power bank with one, see [which USB-C cable](which-usb-c-cable.html).
 - **One charger for everything.** A 65 W USB-C GaN charger runs a phone and a laptop from one socket: see [which charger for iPhone 17 or Samsung S25](which-charger-for-iphone-17-and-samsung-s25.html).
 - **Pack the adapter in your cabin bag** with your phone and [power bank](power-bank-and-travel-adapter-guide.html), so you can charge at the airport.
 
