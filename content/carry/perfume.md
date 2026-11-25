@@ -24,7 +24,7 @@ Air India's list of liquids names perfumes, deodorants and other sprays, so a de
 
 ## Attar
 
-Attar (itr) is a perfume oil, so it follows the same rules: small bottles of 100 ml or less in your clear liquids bag, and not in the cabin on IndiGo. Attar usually comes in small bottles, so on other airlines it fits in the liquids bag easily.
+Attar (itr) is a perfume oil, so it follows the same rules: small bottles of 100 ml or less in your clear liquids bag, and not in the cabin on IndiGo. Attar usually comes in small bottles, so on other airlines it fits in the liquids bag easily. Bringing attar back from Umrah? See our [Umrah packing list](../../guides/umrah-packing-list.html) for the Zamzam water and baggage rules on the flight home.
 
 ## Check-in bag: how much perfume?
 

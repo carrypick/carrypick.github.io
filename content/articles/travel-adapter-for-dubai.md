@@ -71,7 +71,7 @@ Just one type G adapter, with a second socket for a 2-pin plug. It's rated 13 A,
 | Kuwait | C, G | 240 V |
 | Qatar | D, F, G, L | 240 V |
 
-One type G adapter covers a Dubai stopover and a trip on to Oman or Saudi Arabia. Saudi Arabia runs at 60 Hz, which phone and laptop chargers don't mind. For more countries, see [travel adapter by country](travel-adapter-by-country.html).
+One type G adapter covers a Dubai stopover and a trip on to Oman or Saudi Arabia. Saudi Arabia runs at 60 Hz, which phone and laptop chargers don't mind. Going for Umrah? See our [Umrah packing list](umrah-packing-list.html). For more countries, see [travel adapter by country](travel-adapter-by-country.html).
 
 ## Before you fly
 
