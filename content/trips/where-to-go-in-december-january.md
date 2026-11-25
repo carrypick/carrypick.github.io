@@ -37,6 +37,10 @@ January has its own weather and events, so we've written month guides for the pl
 - **[Dubai in January](dubai-in-january.html):** the coolest month, the Shopping Festival until 17 January and the Dubai Marathon.
 - **[Bali in January](bali-in-january.html):** the wettest month, but green and calmer after New Year, with Galungan on 13 January.
 
+## Next: February
+
+Going a little later? See [where to go in February](where-to-go-in-february.html): the deepest snow in Gulmarg and Auli, the Andaman's driest month, Goa Carnival, the Jaisalmer Desert Festival on 18–20 February 2027, and warm, dry trips abroad to Thailand, Sri Lanka and the Maldives.
+
 ## Quick comparison
 
 | Trip | Best for | Weather in Dec–Jan | Fly to | Crowds |
@@ -307,6 +311,7 @@ Read the full [Kerala trip guide](kerala.html), and our [Munnar in December guid
 
 - **New Year:** 1 January 2027 is a Friday, so the weekend makes three days if your office gives it as a holiday. It isn't a national holiday everywhere, so check. See our [New Year trips 2027](new-year-trips-2027.html).
 - **Republic Day:** 26 January 2027 is a Tuesday. Take Monday off, and you get four days. See our [Republic Day long weekend ideas](republic-day-long-weekend-2027.html). Want to see the parade in Delhi? Here's how [parade tickets](republic-day-parade-tickets-2027.html) work.
+- **February:** there's no gazetted holiday in February 2027, but restricted holidays on 11 and 19 February can make 3 or 4 days. See [where to go in February](where-to-go-in-february.html).
 - **The rest of 2027:** see every long weekend of the year, and the leave days that stretch them to 5 or 9 days, in our [long weekends 2027 planner](../tools/long-weekends-2027.html).
 - **Gifts:** if you're not travelling, see our [New Year gift ideas](../guides/new-year-gift-ideas.html).
 

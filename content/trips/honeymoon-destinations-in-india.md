@@ -98,6 +98,8 @@ Christmas to New Year is the busiest and costliest week everywhere. Book early, 
 - **Heritage:** [Jaipur](jaipur.html)'s winter lasts to mid-February, and [Udaipur](udaipur.html) is in season until March.
 - **Nature:** [Meghalaya](meghalaya-in-december.html), [Coorg](coorg-in-december.html), [Munnar](munnar-in-december.html) and [Rishikesh](rishikesh-in-december.html) are all still in season.
 
+Valentine's Day 2027 is a Sunday. For every February trip, in India and abroad, with festival dates, see [where to go in February](where-to-go-in-february.html).
+
 Not sure what to wear for your month? Our [what-to-wear helper](../tools/what-to-wear.html) shows day and night temperatures and an outfit list by place and month.
 
 ## Honeymoon trip packages

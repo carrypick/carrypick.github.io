@@ -64,6 +64,8 @@ The [Maldives](maldives-trip-from-india.html) and [Sri Lanka](sri-lanka-trip-fro
 
 The [Maldives](maldives-trip-from-india.html) and [Sri Lanka](sri-lanka-trip-from-india.html) are in their best months, and [Singapore](singapore-trip-from-india.html) starts its best season (February to April). February is the last of the best months in [Thailand](thailand-trip-from-india.html) and Langkawi in [Malaysia](malaysia-trip-from-india.html), and [Dubai](dubai-trip-from-india.html) is in season until March. In [Vietnam](vietnam-trip-from-india.html), Hoi An's best months start in February.
 
+For more February ideas, in India and abroad, see [where to go in February](where-to-go-in-february.html).
+
 Not sure what to wear for your month? Our [what-to-wear helper](../tools/what-to-wear.html) shows day and night temperatures and an outfit list by place and month.
 
 ## Easiest visas for an Indian honeymoon

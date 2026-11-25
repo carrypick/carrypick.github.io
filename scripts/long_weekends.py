@@ -359,6 +359,9 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
     rday_link = (f' For Republic Day itself, see our <a href="../{REPUBLIC}">Republic Day long weekend trip ideas</a>.' if built(REPUBLIC) else "")
     hub = "trips/where-to-go-in-december-january.html"
     hub_link = f' For winter trips, see <a href="../{hub}">where to go in December and January</a>.' if built(hub) else ""
+    feb = "trips/where-to-go-in-february.html"
+    if built(feb):
+        hub_link += f' For February, see <a href="../{feb}">where to go in February</a>.'
     newyear = "trips/new-year-trips-2027.html"
     if built(newyear):
         rday_link += f' For the New Year weekend (1 January 2027 is a Friday), see <a href="../{newyear}">where to go for New Year 2027</a>.'

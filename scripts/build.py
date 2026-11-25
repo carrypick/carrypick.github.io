@@ -230,6 +230,7 @@ def nav_menus(cfg, p):
     trips = [(t, l) for t, l, f in (("trips/new-year-trips-2027.html", "New Year trips 2027", "new-year-trips-2027.md"),
                                     ("trips/goa-new-year-2027.html", "Goa New Year 2027", "goa-new-year-2027.md"),
                                     ("trips/dubai-new-year-2027.html", "Dubai New Year 2027", "dubai-new-year-2027.md"),
+                                    ("trips/where-to-go-in-february.html", "Where to go in February", "where-to-go-in-february.md"),
                                     ("trips/international-trips-from-india.html", "International trips from India", "international-trips-from-india.md"),
                                     ("trips/honeymoon-destinations-in-india.html", "Honeymoon destinations in India", "honeymoon-destinations-in-india.md"),
                                     ("trips/honeymoon-destinations-outside-india.html", "Honeymoon destinations abroad", "honeymoon-destinations-outside-india.md"),
