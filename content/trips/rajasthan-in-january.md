@@ -107,6 +107,8 @@ Book early for the Camel Festival weekend in Bikaner, the week of 14 January in 
 
 What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html) for Jaipur, Udaipur and Jaisalmer temperatures by month.
 
+Full list: our [Rajasthan packing list](../guides/rajasthan-packing-list.html), with picks for the desert nights, the sun and the temples.
+
 - **By day:** light cotton layers, a cap and sunglasses. The sun is strong.
 - **Morning and night:** a warm jacket or fleece, plus a shawl or scarf. For a desert camp night, add thermals, a cap and warm socks.
 - **Shoes:** comfortable walking shoes for fort ramps and old-city lanes. You'll take them off at temples.

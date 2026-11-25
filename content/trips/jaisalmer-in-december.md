@@ -104,6 +104,8 @@ Rajasthani dishes such as dal baati churma, ker sangri and gatte ki sabzi, plus 
 
 What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#jaisalmer) for day and night temperatures and an outfit list by month.
 
+Full list: our [Rajasthan packing list](../guides/rajasthan-packing-list.html), with picks for the desert nights, the sun and the temples.
+
 Jaisalmer is warm by day and cold at night, especially in the desert, so pack for both:
 
 | When | What to wear |

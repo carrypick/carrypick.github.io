@@ -116,6 +116,8 @@ Light cotton clothes, a cap and sunglasses on the coast and the backwaters. For 
 
 What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#kerala) for Kerala temperatures by month, and see our [Kerala winter trip guide](kerala.html) for the rules that catch visitors out.
 
+Full list: our [Kerala packing list](../guides/kerala-packing-list.html), for the coast, the backwaters and Munnar's cold mornings.
+
 ## Emergency numbers
 
 - **Emergency (police, fire, ambulance):** 112

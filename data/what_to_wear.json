@@ -851,7 +851,13 @@
     "oct": "None in Rishikesh",
     "nov": "None in Rishikesh",
     "mar": "None in Rishikesh"
-   }
+   },
+   "more": [
+    [
+     "guides/rishikesh-packing-list.html",
+     "Rishikesh packing list"
+    ]
+   ]
   },
   {
    "slug": "auli",
@@ -1207,7 +1213,13 @@
     "label": "IMD Udaipur averages (1981–2010)",
     "checked": "2026-11-16",
     "url": "https://city.imd.gov.in/citywx/extreme/DEC/udaipur2.htm"
-   }
+   },
+   "more": [
+    [
+     "guides/rajasthan-packing-list.html",
+     "Rajasthan packing list"
+    ]
+   ]
   },
   {
    "slug": "jaisalmer",
@@ -1237,7 +1249,13 @@
     "label": "IMD Jaisalmer averages (1981–2010)",
     "checked": "2026-11-22",
     "url": "https://city.imd.gov.in/citywx/extreme/DEC/jaisalmer2.htm"
-   }
+   },
+   "more": [
+    [
+     "guides/rajasthan-packing-list.html",
+     "Rajasthan packing list"
+    ]
+   ]
   },
   {
    "slug": "kutch",
@@ -1301,7 +1319,13 @@
     "label": "IMD climate of Jaipur",
     "checked": "2026-11-03",
     "url": "https://mausam.imd.gov.in/jaipur/docs/climate.pdf"
-   }
+   },
+   "more": [
+    [
+     "guides/rajasthan-packing-list.html",
+     "Rajasthan packing list"
+    ]
+   ]
   },
   {
    "slug": "goa",
@@ -1429,7 +1453,13 @@
    "source": {
     "label": "IMD averages (1991–2020) for the coast; tea research station records for Munnar, January 2026, as given in our Kerala guide",
     "checked": "2026-11-03"
-   }
+   },
+   "more": [
+    [
+     "guides/kerala-packing-list.html",
+     "Kerala packing list"
+    ]
+   ]
   },
   {
    "slug": "andaman",

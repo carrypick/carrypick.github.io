@@ -2941,7 +2941,9 @@ PACKING_GUIDES = {"abroad": (("dubai", "Dubai"), ("thailand", "Thailand"), ("bal
                              ("kenya-safari", "a Kenya safari")),
                   "beach": (("goa", "Goa"), ("andaman", "Andaman"), ("thailand", "Thailand"), ("bali", "Bali"),
                             ("maldives", "the Maldives"), ("honeymoon", "a honeymoon")),
-                  "hills": (("manali", "Manali"), ("kashmir", "Kashmir"), ("snow-trip", "any snow trip"))}
+                  "hills": (("manali", "Manali"), ("kashmir", "Kashmir"), ("snow-trip", "any snow trip")),
+                  "week": (("rajasthan", "Rajasthan"), ("kerala", "Kerala")),
+                  "weekend": (("rishikesh", "Rishikesh"), ("rajasthan", "Rajasthan"))}
 
 
 def build_packing(cfg, deals_by_asin, pages, lastmod, trip_guides=()):

@@ -136,6 +136,8 @@ Incredible India suggests dal baati churma, gatte ki sabzi, ker sangri and laal 
 
 What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#udaipur) for day and night temperatures and an outfit list by month.
 
+Full list: our [Rajasthan packing list](../guides/rajasthan-packing-list.html), with picks for the desert nights, the sun and the temples.
+
 Udaipur is warm in the day and cold at night, so pack for both.
 
 - **For the day:** light cotton clothes, a cap and sunglasses. The sun is strong on boats and palace terraces.

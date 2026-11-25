@@ -133,6 +133,8 @@ Compare hotels, resorts and homestays for your dates. Ask if the room has a heat
 
 What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#kerala) for an outfit list by month (Munnar is listed under Kerala).
 
+Full list: our [Kerala packing list](../guides/kerala-packing-list.html), for the coast, the backwaters and Munnar's cold mornings.
+
 Munnar's days are mild, but nights and early mornings can be close to 0 °C on the estates.
 
 - **Layers:** a full-sleeve top or thermal, a sweater or fleece, and a warm jacket for evenings and early mornings.
