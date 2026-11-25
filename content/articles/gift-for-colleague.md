@@ -16,7 +16,7 @@ A good gift for a colleague is useful at a desk or on a work trip, and not too p
 [[top:B00NIWHQVI|For any desk|A Milton 500 ml steel bottle, listed to keep drinks hot or cold for up to 24 hours.]]
 [[top:B0C3RB9X98|For a colleague who travels|An Amazon Basics organiser for cables, chargers and earphones.]]
 
-Someone leaving? See our [farewell gift for colleague](farewell-gift-for-colleague.html) guide. Office Secret Santa? See our [Secret Santa gift ideas](secret-santa-gift-ideas-for-office.html). Buying for your manager? See our [gift for boss](gift-for-boss.html) guide.
+Someone leaving? See our [farewell gift for colleague](farewell-gift-for-colleague.html) guide. Office Secret Santa? See our [Secret Santa gift ideas](secret-santa-gift-ideas-for-office.html). Buying for your manager? See our [gift for boss](gift-for-boss.html) guide. Women's Day in the office? See our [Women's Day gifts for colleagues](womens-day-gift-ideas.html#for-colleagues-and-the-office-team).
 
 ## Quick ideas
 

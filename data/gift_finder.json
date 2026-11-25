@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "about": "Gift finder quiz (tools/gift-finder.html, scripts/gift_finder.py, static/gift-finder.js). Picks are in order of fit. size_of tags each pick small, nice or big by how much of a gift it is.",
   "sizes": [
     {"slug": "small", "label": "A small token", "hint": "A desk gift, a thank you or Secret Santa"},
@@ -23,7 +23,9 @@
     "B07HD1H1RH": "small", "B079TN3GCD": "small", "B0DT719TQS": "small",
     "B0G6CRGH27": "nice", "B0DDSKBFSL": "nice", "B0CHSCR7B7": "nice", "B0CRF6NJC3": "nice", "B0GYSCXRPT": "big", "B0GSQQNKQC": "small", "B07MQ9PX6P": "small", "B09PGBHQMY": "small", "B00LY28EGA": "small", "B0076L2B0I": "small",
     "B07VL9N85V": "nice", "B09NKYWRD2": "nice", "B009T08INS": "nice", "B095Y5Q26G": "nice", "9387779262": "nice", "9354409768": "nice", "9390093953": "nice",
-    "B0DTFMGS1T": "big", "B0BNPXPJS4": "nice", "B0GSWQYSP4": "small"
+    "B0DTFMGS1T": "big", "B0BNPXPJS4": "nice", "B0GSWQYSP4": "small",
+    "B0BQ1G1344": "nice", "B07VY4YY61": "nice", "B07QNXCKP6": "nice", "B0BKT2Q4K7": "nice", "B0999G6N1Q": "small", "B0F9TMLWNB": "small",
+    "1408844486": "small", "1837589984": "small", "B0GLFM2Z4Z": "small"
   },
   "who": [
     {"slug": "colleague", "for": "a colleague", "label": "A colleague", "line": "Something useful at a desk or on a work trip, not too personal.",
@@ -83,6 +85,12 @@
     {"slug": "valentines", "head": "Valentine's Day gift ideas", "label": "Valentine's Day", "not_for": ["kids", "parents", "colleague", "boss", "sibling", "friend"],
      "picks": ["B07PY6CQYV", "B0DSVXW4GD", "B09232XNTX", "B09231NL5H"],
      "guides": [["guides/valentines-day-gift-ideas.html", "Valentine's Day gift ideas for him and her"]]},
+    {"slug": "womens-day", "head": "Women's Day gift ideas", "label": "Women's Day", "not_for": ["kids", "him"],
+     "picks": ["B0CND4C95T", "B0F13ZFVVX", "B0DGQNLJX7", "B09232XNTX"],
+     "guides": [["guides/womens-day-gift-ideas.html", "Women's Day gift ideas 2027 for colleagues, wife, mom, sister and friends"]]},
+    {"slug": "mothers-day", "head": "Mother's Day gift ideas", "label": "Mother's Day", "not_for": ["kids", "him", "colleague", "boss", "friend"],
+     "picks": ["B07CR1JQBY", "B08HWFWGNX", "B0BQ1G1344", "B0DT719TQS"],
+     "guides": [["guides/mothers-day-gift-ideas.html", "Mother's Day gift ideas 2027 for mom"]]},
     {"slug": "any", "head": "Gift ideas", "label": "Any day", "picks": [], "guides": []}
   ],
   "pairs": {
@@ -130,6 +138,17 @@
     "parents+any": {"picks": ["B07CR1JQBY", "B07DD25LJ8", "B08HWFWGNX", "B07HD1H1RH"], "guides": [["guides/gift-for-mother.html", "Gift for mom: ideas for any day"], ["guides/gift-for-father.html", "Gift for dad: ideas for any day"]]},
     "sibling+any": {"picks": ["B0CDC7QR7T", "B099WNYHY2", "B0BQWF3TJK", "B0GSQQNKQC"], "guides": [["guides/gift-for-sister.html", "Gift for sister: ideas for any day"], ["guides/gift-for-brother.html", "Gift for brother: ideas for any day"]]},
     "friend+any": {"picks": ["B09KV28F4P", "B0F5GS19M1", "B0DSVXW4GD", "B0C3LRF94X"], "guides": [["guides/gift-for-best-friend.html", "Gift for best friend: ideas for a girl or boy"]]},
-    "colleague+any": {"picks": ["B0C3LRF94X", "B0F13ZFVVX", "B00NIWHQVI", "B0C3RB9X98"], "guides": [["guides/gift-for-colleague.html", "Gift for colleague: ideas for any occasion"]]}
+    "colleague+any": {"picks": ["B0C3LRF94X", "B0F13ZFVVX", "B00NIWHQVI", "B0C3RB9X98"], "guides": [["guides/gift-for-colleague.html", "Gift for colleague: ideas for any occasion"]]},
+    "colleague+womens-day": {"picks": ["B0CND4C95T", "B0GHXYQ318", "B00NIWHQVI", "B0F13ZFVVX", "B0999G6N1Q", "B0DGQNLJX7"], "guides": [["guides/womens-day-gift-ideas.html#for-colleagues-and-the-office-team", "Women's Day gifts for colleagues and the office team"]]},
+    "boss+womens-day": {"picks": ["B0DGQNLJX7", "B07CR1JQBY", "B0CSK7YP3H", "B0F13ZFVVX"], "guides": [["guides/womens-day-gift-ideas.html#for-colleagues-and-the-office-team", "Women's Day gifts from the whole team"]]},
+    "her+womens-day": {"picks": ["B07CR1JQBY", "B08LKXV22C", "B08HWFWGNX", "B0CSK7YP3H"], "guides": [["guides/womens-day-gift-ideas.html#for-your-wife", "Women's Day gifts for your wife"]]},
+    "parents+womens-day": {"picks": ["B07QS9K2VT", "B0BQ1G1344", "B0DT719TQS", "B0B3JBRB6J"], "guides": [["guides/womens-day-gift-ideas.html#for-your-mother", "Women's Day gifts for your mother"], ["guides/gift-for-mother.html", "Gift for mom: ideas for any day"]]},
+    "sibling+womens-day": {"picks": ["B0CDC7QR7T", "B0BQWF3TJK", "B074PYMMCQ", "B0F9TMLWNB"], "guides": [["guides/womens-day-gift-ideas.html#for-your-sister", "Women's Day gifts for your sister"], ["guides/gift-for-sister.html", "Gift for sister: ideas for any day"]]},
+    "friend+womens-day": {"picks": ["B09232XNTX", "B0F5GS19M1", "1408844486", "B074PYMMCQ"], "guides": [["guides/womens-day-gift-ideas.html#for-a-friend", "Women's Day gifts for a friend"]]},
+    "traveller+womens-day": {"picks": ["B0BKT2Q4K7", "B0GLFM2Z4Z", "1837589984", "B0F9TMLWNB"], "guides": [["guides/womens-day-gift-ideas.html#for-a-woman-who-travels", "Women's Day gifts for a woman who travels"]]},
+    "parents+mothers-day": {"picks": ["B07CR1JQBY", "B08HWFWGNX", "B0BQ1G1344", "B0DT719TQS", "B07QS9K2VT", "B0C7BM18PB"], "guides": [["guides/mothers-day-gift-ideas.html#quick-ideas", "Quick Mother's Day gift ideas"], ["guides/gift-for-mother.html", "Gift for mom: ideas for any day"]]},
+    "her+mothers-day": {"picks": ["B08LKXV22C", "B0DGQNLJX7", "B0CSK7YP3H", "B07QNXCKP6"], "guides": [["guides/mothers-day-gift-ideas.html#gifts-from-kids-and-from-a-husband", "Mother's Day gifts from a husband, for his wife"]]},
+    "sibling+mothers-day": {"picks": ["B0CSK7YP3H", "B07QNXCKP6", "B08HWFWGNX", "B0F13ZFVVX"], "guides": [["guides/mothers-day-gift-ideas.html", "Mother's Day gift ideas, for a sister who is a mom"]]},
+    "traveller+mothers-day": {"picks": ["B0C7BM18PB", "B0BKT2Q4K7", "B0F9TMLWNB", "B07PFF4RYC"], "guides": [["guides/mothers-day-gift-ideas.html#travel-gifts-for-a-mom-who-travels", "Travel gifts for a mom who travels"]]}
   }
 }

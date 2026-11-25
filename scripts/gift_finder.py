@@ -182,6 +182,10 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
         ("What is a good Valentine's Day gift?",
          "Something they use every day: a watch like the %s for her or the %s for him, a perfume gift set, or pair watches you both wear. "
          "Choose \"Valentine's Day\" above to see them." % (name("B08LKXV22C", "Titan Raga"), name("B07H3K85H5", "Timex Classics"))),
+        ("What can I give on Women's Day or Mother's Day?",
+         "Women's Day is Monday 8 March 2027: for colleagues, a small token like an SPF lip balm or a zip-around wallet; for your wife or mom, "
+         "a watch like the %s. Mother's Day is Sunday 9 May 2027 in India: a watch, a small tote, slip-on walking shoes or an attar set. "
+         "Choose the occasion above to see them." % name("B07CR1JQBY", "Titan Karishma")),
         ("What do small token, nice gift and big gift mean?",
          "They say how much of a gift you want, not a price. A small token is a desk gift or Secret Santa, a nice gift suits a friend or family, "
          "and a big gift is for a partner, parents or a gift from the whole team. We don't show prices: check them on Amazon.in."),

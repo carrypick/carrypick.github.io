@@ -16,7 +16,7 @@ Most mothers say "don't spend on me", so the best gift for your mom is one she'l
 [[top:B0BQ1G1344|For her evening walk|Skechers GO Walk slip-on shoes with a cushioned footbed (as listed).]]
 [[top:B0DT719TQS|A gentle scent|An Ajmal set of four 5 ml roll-on attars, without alcohol (as listed).]]
 
-Buying for a special day? See our [birthday gifts for your mother](birthday-gift-ideas.html#for-your-mother), [Christmas gifts for parents](christmas-gift-for-parents.html) and [anniversary gifts for parents](anniversary-gift-ideas.html#for-your-parents). Shopping for your dad too? See our [gift for father](gift-for-father.html) guide.
+Buying for a special day? See our [birthday gifts for your mother](birthday-gift-ideas.html#for-your-mother), [Christmas gifts for parents](christmas-gift-for-parents.html) and [anniversary gifts for parents](anniversary-gift-ideas.html#for-your-parents). For the big days for moms, see our [Mother's Day gift ideas](mothers-day-gift-ideas.html) (Sunday 9 May 2027) and [Women's Day gift ideas](womens-day-gift-ideas.html) (8 March). Shopping for your dad too? See our [gift for father](gift-for-father.html) guide.
 
 ## Quick ideas
 
@@ -36,7 +36,7 @@ Buying for a special day? See our [birthday gifts for your mother](birthday-gift
 - **Look at what she makes do with.** An old bag with a broken zip, a worn-out purse or tired chappals tells you the gift.
 - **Shoes need her size.** Check an old pair, or choose a watch, a bag or an attar set instead.
 - **For a mother-in-law, keep it safe.** A known brand and something useful: a watch, a wallet, an attar set or a thermal set.
-- **Mother's Day 2027 is Sunday 9 May.** Order a few days early, or have it delivered to your address and give it yourself.
+- **Mother's Day 2027 is Sunday 9 May.** Order a few days early, or have it delivered to your address and give it yourself. See our [Mother's Day gift ideas](mothers-day-gift-ideas.html).
 
 ## A watch for your mom
 

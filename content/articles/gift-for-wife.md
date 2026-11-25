@@ -16,7 +16,7 @@ The best gift for your wife is one she'll carry or wear every week and think of 
 [[top:B0DGQNLJX7|For a working wife|A Zouk office tote with a padded pocket for a 14-inch laptop.]]
 [[top:B09232XNTX|Four scents to try|A Bella Vita box of four 20 ml perfumes in floral and fruity scents.]]
 
-Buying for a special day? See our [birthday gifts for your wife](birthday-gift-ideas.html#for-your-wife), [anniversary gifts](anniversary-gift-ideas.html#for-your-wife), [Valentine's Day gifts](valentines-day-gift-ideas.html#for-your-wife) and [Christmas gifts for a wife](christmas-gift-for-girlfriend-or-wife.html). Shopping for him too? See our [gift for husband](gift-for-husband.html) guide. Not married yet? See our [gift for girlfriend](gift-for-girlfriend.html) guide.
+Buying for a special day? See our [birthday gifts for your wife](birthday-gift-ideas.html#for-your-wife), [anniversary gifts](anniversary-gift-ideas.html#for-your-wife), [Valentine's Day gifts](valentines-day-gift-ideas.html#for-your-wife), [Women's Day gifts](womens-day-gift-ideas.html#for-your-wife), [Mother's Day gifts from a husband](mothers-day-gift-ideas.html#gifts-from-kids-and-from-a-husband) and [Christmas gifts for a wife](christmas-gift-for-girlfriend-or-wife.html). Shopping for him too? See our [gift for husband](gift-for-husband.html) guide. Not married yet? See our [gift for girlfriend](gift-for-girlfriend.html) guide.
 
 ## Quick ideas
 

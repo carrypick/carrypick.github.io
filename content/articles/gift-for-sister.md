@@ -16,7 +16,7 @@ A good gift for your sister is one she'll carry or wear every week: a pretty wat
 [[top:B074PYMMCQ|For sunny days|Fastrack cat-eye sunglasses with UV protection, about 13 g.]]
 [[top:B09232XNTX|If you don't know her taste|A Bella Vita box of four 20 ml perfumes in floral and fruity scents.]]
 
-Buying for a special day? See our [birthday gift ideas](birthday-gift-ideas.html#for-your-sister), [Christmas gifts for a sister](christmas-gift-for-girlfriend-or-wife.html#for-your-sister) and [anniversary gifts for a sister and brother-in-law](anniversary-gift-ideas.html#for-a-couple-sister-and-brother-in-law-or-friends). Shopping for your brother too? See our [gift for brother](gift-for-brother.html) guide.
+Buying for a special day? See our [birthday gift ideas](birthday-gift-ideas.html#for-your-sister), [Christmas gifts for a sister](christmas-gift-for-girlfriend-or-wife.html#for-your-sister), [anniversary gifts for a sister and brother-in-law](anniversary-gift-ideas.html#for-a-couple-sister-and-brother-in-law-or-friends) and [Women's Day gifts for a sister](womens-day-gift-ideas.html#for-your-sister). Shopping for your brother too? See our [gift for brother](gift-for-brother.html) guide.
 
 ## Quick ideas
 
