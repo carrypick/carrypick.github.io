@@ -149,9 +149,11 @@ GOV.UK's page on taking medicine into the UK covers medicines that contain a **c
 - **The UK uses Type G plugs** (three square pins) and 230 V, like India's voltage, so Indian chargers and hair dryers work with just an adapter. See our [power bank and travel adapter guide](power-bank-and-travel-adapter-guide.html) or our [travel adapter for the UK](travel-adapter-for-uk.html) page.
 - **An adapter changes only the plug,** not the voltage.
 - **Power bank:** in your cabin bag only, never in check-in. See [can I carry a power bank?](../baggage/can-i-carry/power-bank.html)
-- **Take two adapters** if you can: one for your room and one for the library.
+- **Take two adapters** if you can: one for your room and one for the library. A small type G one is a cheap second adapter.
 
 [[pick:B0F94K1BSP]]
+
+[[pick:B07YMWJCW9]]
 
 [[pick:B07WDJR33C]]
 

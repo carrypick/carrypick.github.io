@@ -71,7 +71,7 @@ If a bag's litres look far above its outside figure, don't choose it for that nu
 2. Multiply by 0.15 and by 0.3. That's your rough range in kg for clothes.
 3. Compare it with your allowance, after taking off the bag's own weight.
 4. Weigh the packed bag, then type the weight into our [excess baggage calculator](../tools/bag-weight.html) to see if you're over your fare's allowance.
-5. Weigh the packed bag at home with a [luggage scale](../picks/B07Q822CWX.html).
+5. Weigh the packed bag at home with a [luggage scale](luggage-scale.html).
 
 Example: a 70 L bag gives about 10.5–21 kg. On a 15 kg fare, it's more than big enough.
 

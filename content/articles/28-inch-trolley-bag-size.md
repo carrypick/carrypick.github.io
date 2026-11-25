@@ -98,7 +98,7 @@ Yes, as a check-in bag. It's too big for the cabin. Most Indian airlines limit a
 
 ### How many days is a 28 inch trolley good for?
 
-About 8–12 days, or longer for a family. On a 15 kg fare, you'll probably reach the weight limit long before the bag is full.
+About 8–12 days, or longer for a family. On a 15 kg fare, you'll probably reach the weight limit long before the bag is full. Weigh it at home with a [luggage scale](luggage-scale.html).
 
 ### Which large trolley bags are within 158 cm?
 

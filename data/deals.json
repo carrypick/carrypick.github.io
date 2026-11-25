@@ -1,5 +1,162 @@
 [
   {
+    "asin": "B09Q33YD5V",
+    "added_at": "2026-11-25T12:58:45+05:30",
+    "title": "Destinio Digital Luggage Scale with Hook, Strap and Measuring Tape (50 kg)",
+    "category": "travel-gear",
+    "subcategory": "luggage-scales",
+    "highlights": [
+      "Weighs 50 g to 50 kg in 10 g steps (as listed)",
+      "Comes with a metal hook and a nylon strap, plus a 63-inch measuring tape",
+      "Tare, data lock and backlit LCD; kg, g, lb and oz",
+      "Wide soft handle, 2 AAA batteries and a pouch included"
+    ],
+    "note": "The tape lets you check a cabin bag's size at home too, not just its weight.",
+    "brand": "Destinio",
+    "colour": "Black",
+    "best_for": [
+      "Families",
+      "Cabin bag checks"
+    ],
+    "specs": {
+      "Max load": "50 kg",
+      "Steps": "10 g",
+      "Weight": "250 g",
+      "Battery": "2 AAA, included",
+      "Hanging": "Hook and nylon strap",
+      "Extras": "63-inch measuring tape, pouch",
+      "Model": "DHSL-01"
+    },
+    "skip_if": "you want the lightest scale: the GoTrippin is about 150 g."
+  },
+  {
+    "asin": "B0B3GMVZY5",
+    "added_at": "2026-11-25T12:58:45+05:30",
+    "title": "Belkin USB-C to USB-C Cable, 100W 5A, Braided, 2 m (CAB014)",
+    "category": "travel-tech",
+    "subcategory": "chargers",
+    "highlights": [
+      "5 A and 100 W, so a 45 W Samsung charger gives its full speed (as listed)",
+      "USB-IF certified, braided nylon, tested for 25,000 bends (as listed)",
+      "2 m long: reaches a hotel bed from a far plug point",
+      "USB 2.0 data (480 Mbps), 2-year warranty"
+    ],
+    "note": "The 5 A cable Samsung's 45 W mode needs, and long enough for hotel rooms.",
+    "brand": "Belkin",
+    "colour": "White",
+    "best_for": [
+      "Samsung 45 W",
+      "Laptops"
+    ],
+    "specs": {
+      "Type": "USB-C to USB-C cable",
+      "Rating": "5 A, 100 W",
+      "Length": "2 m",
+      "Certification": "USB-IF",
+      "Data": "USB 2.0, 480 Mbps",
+      "Outer": "Braided nylon",
+      "Model": "CAB014bt2MWH",
+      "Warranty": "2 years"
+    },
+    "skip_if": "your charger has only USB-A ports: this cable is USB-C at both ends."
+  },
+  {
+    "asin": "B0DB5RV1YQ",
+    "added_at": "2026-11-25T12:58:45+05:30",
+    "title": "Samsung 45W Super Fast Charger with USB-C Cable (EP-T4511)",
+    "category": "travel-tech",
+    "subcategory": "chargers",
+    "highlights": [
+      "Samsung's own 45 W adapter for Super Fast Charging 2.0 on the S25 Ultra, S25+, S25 FE and A36",
+      "USB PD 3.0 with PPS, on Samsung India's page for this model",
+      "A USB-C cable in the box; Samsung says to use its 5 A cable for full speed",
+      "One USB-C port, 136 g (as listed)"
+    ],
+    "note": "The simplest way to get the full 45 W on a Galaxy: Samsung's own charger and cable.",
+    "brand": "Samsung",
+    "colour": "Black",
+    "best_for": [
+      "Samsung Galaxy",
+      "Pixel 10 Pro XL"
+    ],
+    "specs": {
+      "Type": "Wall charger",
+      "USB ports": "1 USB-C",
+      "Total output": "45 W",
+      "Samsung 45 W": "Yes, Super Fast Charging 2.0",
+      "Standards": "USB PD 3.0, PPS (Samsung's page)",
+      "In the box": "Charger and USB-C cable",
+      "Weight": "136 g",
+      "Model": "EP-T4511"
+    },
+    "skip_if": "you want to charge a laptop and a phone together: it has one port."
+  },
+  {
+    "asin": "B09YD5T3KQ",
+    "added_at": "2026-11-25T12:58:45+05:30",
+    "title": "Orei Europe Plug Adapter Set, Type C and Type E/F, Pack of 2 (EURO2SET)",
+    "category": "travel-tech",
+    "subcategory": "travel-adapters",
+    "highlights": [
+      "Two adapters: a slim type C (two round pins) and a Schuko type E/F (as listed)",
+      "Type C fits Italy and Switzerland's round-pin sockets that a thick Schuko plug may not",
+      "Each takes most 2-pin and 3-pin plugs (not the big type M) and a second 2-pin plug (as listed)",
+      "Up to 250 V and 3000 W; it does not convert voltage"
+    ],
+    "note": "Type C for slim round-pin sockets and Schuko for the rest, so one set covers most of Europe.",
+    "brand": "Orei",
+    "colour": "Black",
+    "best_for": [
+      "Europe",
+      "Schengen trips"
+    ],
+    "specs": {
+      "Type": "Single-region plug adapters",
+      "Plugs": "Type C (CEE 7/16) and type E/F (CEE 7/4, 7/5)",
+      "Takes": "2-pin and 3-pin plugs, not type M (as listed)",
+      "USB ports": "None",
+      "Max load": "250 V, 3000 W (as listed)",
+      "Converts voltage": "No",
+      "Pack": "2 adapters",
+      "Model": "EURO2SET-BLK",
+      "Warranty": "1 year (details)"
+    },
+    "skip_if": "you're only going to Germany, France or Spain: one Schuko adapter is enough there."
+  },
+  {
+    "asin": "B07YMWJCW9",
+    "added_at": "2026-11-25T12:58:45+05:30",
+    "title": "Orei India to UK Plug Adapter, Type G (DB7-BLK)",
+    "category": "travel-tech",
+    "subcategory": "travel-adapters",
+    "highlights": [
+      "Type G (BS 1363) output for the UK, Dubai and the UAE, Singapore and Hong Kong (as listed)",
+      "Two inputs: one takes most 2-pin and 3-pin plugs (not the big type M), one takes any 2-pin plug (as listed)",
+      "Up to 250 V, 13 A and 3000 W; it does not convert voltage",
+      "1 adapter in the box (details); 1-year warranty in the details, lifetime limited in the bullets"
+    ],
+    "note": "One small UK-plug adapter that takes an Indian charger and a second 2-pin plug at the same time.",
+    "brand": "Orei",
+    "colour": "Black",
+    "best_for": [
+      "UK and Dubai",
+      "Singapore and Malaysia"
+    ],
+    "specs": {
+      "Type": "Single-country plug adapter",
+      "Plugs": "Type G only (UK, UAE, Singapore, Hong Kong)",
+      "Takes": "2-pin and 3-pin plugs, not type M (as listed)",
+      "Inputs": "2 (as listed)",
+      "USB ports": "None",
+      "Max load": "250 V, 13 A, 3000 W (as listed)",
+      "Converts voltage": "No",
+      "Pack": "1 adapter (details; one bullet says 2 plugs)",
+      "Model": "DB7-BLK",
+      "Warranty": "1 year (details)"
+    },
+    "skip_if": "you need adapters for several chargers: the Ceptics 3-pack covers a family."
+  },
+  {
     "asin": "B00G98M9BA",
     "added_at": "2026-11-25T10:19:30+05:30",
     "title": "Odomos Non-Sticky Mosquito Repellent Cream with Vitamin E and Almond (100 g)",

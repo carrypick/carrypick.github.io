@@ -133,6 +133,10 @@ This adapter has a Type C plug and USB ports for your phone:
 
 [[pick:B0F94K1BSP]]
 
+No USB needed? This set has a slim Type C adapter for Italy and Switzerland and a Schuko E/F one for the rest of Europe:
+
+[[pick:B09YD5T3KQ]]
+
 A power bank with a built-in cable, within the cabin limit:
 
 [[pick:B0DWSS3Q5K]]

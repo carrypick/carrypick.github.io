@@ -85,7 +85,7 @@ The bag's own weight counts against your allowance:
 | 23 kg (one piece abroad) | 19.7 kg | 18.85 kg | 17.95 kg |
 | 32 kg (the most for one bag) | 28.7 kg | 27.85 kg | 26.95 kg |
 
-A bag of 100 litres or more can easily hold over 23 kg, so weigh it at home with a [luggage scale](../picks/B07Q822CWX.html). On a 15 kg fare, a [26 inch medium trolley](26-inch-trolley-bag-size.html) is lighter and holds enough.
+A bag of 100 litres or more can easily hold over 23 kg, so weigh it at home with a [luggage scale](luggage-scale.html). On a 15 kg fare, a [26 inch medium trolley](26-inch-trolley-bag-size.html) is lighter and holds enough.
 
 ## Our picks
 

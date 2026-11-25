@@ -17,9 +17,10 @@ The UK uses **type G** sockets, three rectangular pins, at **230 V and 50 Hz**. 
 - **From the USA or Canada:** an adapter, plus chargers marked **100-240V**. 120 V-only appliances need a converter.
 - **From Europe:** an adapter. The voltage is the same.
 
-[[toppicks:Our quick picks|See both adapters|#our-picks-for-the-uk]]
+[[toppicks:Our quick picks|See the three adapters|#our-picks-for-the-uk]]
 [[top:B0080R95XI|UK only, pack of 3|Three small type G adapters, one each for a phone, laptop and trimmer. Not for the big type M Indian plug.]]
 [[top:B0DPKYKC8J|UK and Europe trips|A universal socket with pull-out UK, EU, US and Australia plugs, so the same adapter works on a Paris side trip.]]
+[[top:B07YMWJCW9|UK only, one adapter|One small type G adapter with a second socket for a 2-pin plug, rated 13 A.]]
 
 We chose these by their listed specs. We haven't tested them, and we don't rank them by Amazon reviews.
 
@@ -57,7 +58,11 @@ If the trip includes Europe, one universal adapter covers both:
 
 [[pick:B0DPKYKC8J]]
 
-[[compare:B0080R95XI,B0DPKYKC8J]]
+Just one type G adapter, with a second socket for a 2-pin plug. It's rated 13 A, as listed, and doesn't convert voltage:
+
+[[pick:B07YMWJCW9]]
+
+[[compare:B0080R95XI,B0DPKYKC8J,B07YMWJCW9]]
 
 ## Questions
 

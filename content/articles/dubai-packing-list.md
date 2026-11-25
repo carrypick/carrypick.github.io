@@ -136,6 +136,10 @@ Which plugs does Dubai use? See the table in our [power bank and travel adapter 
 
 [[pick:B07WDJR33C]]
 
+Only going to Dubai, or Dubai and the UK? A single type G adapter is enough, and this one has a second socket for a 2-pin plug:
+
+[[pick:B07YMWJCW9]]
+
 ## What to pack for women
 
 - Maxi dresses, long skirts or loose trousers, and tops with sleeves

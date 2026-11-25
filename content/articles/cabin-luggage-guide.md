@@ -53,7 +53,7 @@ No single hard trolley we found fits every Indian airline, because IndiGo wants 
 An empty hard-shell cabin trolley usually weighs **2.5–3 kg**. With a 7 kg limit, that leaves only about **4–4.5 kg** for your things.
 
 - Choose a lighter bag if you pack heavy.
-- Weigh your packed bag at home with a **luggage scale**. It's a small, cheap tool that can save you excess-baggage charges.
+- Weigh your packed bag at home with a [luggage scale](luggage-scale.html). It's a small, cheap tool that can save you excess-baggage charges.
 - See our cabin picks sorted by empty weight: [the lightest cabin trolleys](lightest-cabin-trolley-bag.html).
 
 [[pick:B07Q822CWX]]

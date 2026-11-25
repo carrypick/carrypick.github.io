@@ -59,7 +59,7 @@ Usually more than your ticket allows. With 68–78 litres, it could hold roughly
 | 20 kg | 17.1 kg | 16.7 kg | 15.5 kg |
 | 23 kg | 20.1 kg | 19.7 kg | 18.5 kg |
 
-On a 15 kg domestic fare, a 26 inch bag is about right. For one 23 kg bag abroad, it can fill up before 23 kg with light clothes: see [which trolley size fits a 23 kg bag](trolley-bag-size-for-international-travel.html). Weigh the packed bag at home with a [luggage scale](../picks/B07Q822CWX.html).
+On a 15 kg domestic fare, a 26 inch bag is about right. For one 23 kg bag abroad, it can fill up before 23 kg with light clothes: see [which trolley size fits a 23 kg bag](trolley-bag-size-for-international-travel.html). Weigh the packed bag at home with a [luggage scale](luggage-scale.html).
 
 ## On a train
 

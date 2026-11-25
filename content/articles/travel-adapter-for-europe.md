@@ -17,9 +17,10 @@ Most of mainland Europe uses round-pin plugs, **types C, E and F**, at **230 V a
 - **From India:** no converter needed. Every Indian charger and appliance works on 230 V.
 - **From the USA or Canada:** an adapter, and only chargers marked **100-240V**.
 
-[[toppicks:Our quick picks|See both adapters|#our-picks-for-europe]]
+[[toppicks:Our quick picks|See the three adapters|#our-picks-for-europe]]
 [[top:B0DPKYKC8J|Schengen plus London|Pull-out EU, UK, US and Australia plugs, so one adapter works in Paris, Zurich and London.]]
 [[top:B07WDJR33C|Phones, no Indian charger|Slide-out plugs for 180+ countries with 2 USB-C and 1 USB-A port.]]
+[[top:B09YD5T3KQ|Europe only, no USB|Two adapters: a slim type C for Italy and Switzerland, and a Schuko E/F for the rest.]]
 
 We chose these by their listed specs. We haven't tested them, and we don't rank them by Amazon reviews.
 
@@ -69,7 +70,11 @@ Slide-out plugs for 180+ countries with USB-C ports, so a phone and earbuds char
 
 [[pick:B07WDJR33C]]
 
-[[compare:B0DPKYKC8J,B07WDJR33C]]
+A set of two: a slim type C for round-pin sockets in Italy and Switzerland, where a thick plug may not go in, and a Schuko E/F for France, Germany, Spain and the rest. Neither converts voltage, and Europe's 230 V matches India's:
+
+[[pick:B09YD5T3KQ]]
+
+[[compare:B0DPKYKC8J,B07WDJR33C,B09YD5T3KQ]]
 
 ## Questions
 

@@ -18,9 +18,10 @@ Singapore uses the **13 A type G** plug, three rectangular pins, says its Consum
 - **From the USA:** an adapter, and chargers marked **100-240V**.
 - **From Europe:** an adapter. Singapore's safety office says German Schuko plugs are not suitable for its sockets.
 
-[[toppicks:Our quick picks|See both adapters|#our-picks-for-singapore-and-malaysia]]
+[[toppicks:Our quick picks|See the three adapters|#our-picks-for-singapore-and-malaysia]]
 [[top:B0080R95XI|Singapore, Malaysia, Dubai|Three type G adapters in one pack. Takes Indian 2-pin and 3-pin chargers, but not type M.]]
 [[top:B0DPKYKC8J|Singapore plus Thailand or Bali|A universal socket with pull-out plugs, for a trip that also takes in Thailand or Bali.]]
+[[top:B07YMWJCW9|One adapter, light|One small type G adapter with a second socket for a 2-pin plug, rated 13 A.]]
 
 We chose these by their listed specs. We haven't tested them, and we don't rank them by Amazon reviews.
 
@@ -51,7 +52,11 @@ For a multi-country trip, one universal adapter:
 
 [[pick:B0DPKYKC8J]]
 
-[[compare:B0080R95XI,B0DPKYKC8J]]
+Just one type G adapter, with a second socket for a 2-pin plug. It's rated 13 A, as listed, and doesn't convert voltage:
+
+[[pick:B07YMWJCW9]]
+
+[[compare:B0080R95XI,B0DPKYKC8J,B07YMWJCW9]]
 
 ## Questions
 

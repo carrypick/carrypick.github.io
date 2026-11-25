@@ -119,6 +119,10 @@ Which plugs does Singapore use? See the table in our [power bank and travel adap
 
 [[pick:B07WDJR33C]]
 
+Singapore and Malaysia only? Both use type G, so a single small adapter does the job. This one has a second socket for a 2-pin plug:
+
+[[pick:B07YMWJCW9]]
+
 [[pick:B0C3RB9X98]]
 
 Want a hard case or a smaller pouch instead? Compare five in our [gadget organiser guide](gadget-organiser.html).

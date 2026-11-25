@@ -14,7 +14,7 @@ A 20 inch trolley bag is **50.8 cm** tall. But in India, the number on a listing
 - **20 inches is 50.8 cm.** A 55 cm cabin bag is really 21.7 inches.
 - **It's a cabin size.** It suits a trip of about 2–4 days.
 - **Height isn't enough.** Airlines also check width and depth, wheels and handles included.
-- **Weight counts too.** Most Indian airlines allow 7 kg in the cabin, and that includes the bag.
+- **Weight counts too.** Most Indian airlines allow 7 kg in the cabin, and that includes the bag. Check it at home with a [luggage scale](luggage-scale.html).
 
 [[toppicks:Our picks for this size|Why we picked them|#two-cabin-trolleys-that-fit-by-their-listed-size]]
 [[top:B097JLKP8X|For IndiGo and Akasa Air|Listed at 55 x 35 x 25 cm, within the cabin limit of IndiGo, Akasa Air and SpiceJet's Boeing planes. 2.7 kg empty.]]

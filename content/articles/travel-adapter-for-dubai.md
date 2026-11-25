@@ -17,9 +17,10 @@ Dubai, Abu Dhabi and the rest of the UAE use **type G** sockets, the same three 
 - **From the USA or Canada:** take an adapter, and check each charger says **100-240V**. A 120 V-only hair dryer needs a converter or a dual-voltage one.
 - **From the UK:** your plugs fit. No adapter needed.
 
-[[toppicks:Our quick picks|See both adapters|#our-picks-for-dubai]]
+[[toppicks:Our quick picks|See the three adapters|#our-picks-for-dubai]]
 [[top:B0080R95XI|UAE only, pack of 3|Three small type G adapters, one for each charger. Takes Indian 2-pin and 3-pin chargers, but not the big type M plug.]]
 [[top:B0DPKYKC8J|Dubai and the next trip|A universal socket with pull-out US, UK, EU and Australia plugs. Works in Dubai and almost everywhere else.]]
+[[top:B07YMWJCW9|UAE only, one adapter|One small type G adapter with a second socket for a 2-pin plug, rated 13 A.]]
 
 We chose these by their listed specs. We haven't tested them, and we don't rank them by Amazon reviews.
 
@@ -53,7 +54,11 @@ If you'll travel again after Dubai, one universal adapter is the better buy:
 
 [[pick:B0DPKYKC8J]]
 
-[[compare:B0080R95XI,B0DPKYKC8J]]
+Just one type G adapter, with a second socket for a 2-pin plug. It's rated 13 A, as listed, and doesn't convert voltage:
+
+[[pick:B07YMWJCW9]]
+
+[[compare:B0080R95XI,B0DPKYKC8J,B07YMWJCW9]]
 
 ## Saudi Arabia, Oman, Qatar and the rest of the Gulf
 

@@ -945,7 +945,8 @@
         },
         {
           "id": "adapter",
-          "name": "Universal travel adapter",
+          "name": "Travel adapter for your destination's plugs",
+          "link": "guides/travel-adapter-by-country.html",
           "trips": [
             "abroad"
           ],
@@ -1050,7 +1051,7 @@
             "wedding",
             "abroad"
           ],
-          "pick": "B07Q822CWX",
+          "link": "guides/luggage-scale.html",
           "maker": [
             {
               "by": [

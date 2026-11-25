@@ -69,7 +69,7 @@ Take the bag's weight away from your allowance:
 | 15 kg check-in | 13 kg | 12.5 kg | 11.5 kg | 10.5 kg |
 | 23 kg check-in | 21 kg | 20.5 kg | 19.5 kg | 18.5 kg |
 
-Weigh the packed bag at home with a [luggage scale](../picks/B07Q822CWX.html), then check it against your fare with our [excess baggage calculator](../tools/bag-weight.html).
+Weigh the packed bag at home with a [luggage scale](luggage-scale.html), then check it against your fare with our [excess baggage calculator](../tools/bag-weight.html).
 
 ## What makes a bag light?
 

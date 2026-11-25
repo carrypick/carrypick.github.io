@@ -58,7 +58,7 @@ Most large bags are over 158 cm too. On 6 Nov 2026, 26 of the 31 large models we
 
 Air India's page says each Economy bag on these routes can be up to 158 cm, and **both bags together up to 271 cm** (another line on the same page says 272 cm). So two large bags of 158 cm each, 316 cm together, would be over. A large bag of about 152 cm and a smaller bag of about 115 cm, like a cabin-size trolley, fit within it.
 
-Airline staff don't measure every bag, but they can. Weigh each bag at home with a [luggage scale](../picks/B07Q822CWX.html), because 23 kg is a hard limit for one piece.
+Airline staff don't measure every bag, but they can. Weigh each bag at home with a [luggage scale](luggage-scale.html), because 23 kg is a hard limit for one piece.
 
 ## Lock and cabin bag
 

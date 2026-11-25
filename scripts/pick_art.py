@@ -961,9 +961,22 @@ def draw_tech(d):
             out += T(x + w / 2, py + 25, "USB-C" if port == "c" else "USB-A", "m", 10.5)
         out += R(x + w * .34, y + h, 7, 24, 2, "p", 0) + R(x + w * .6, y + h, 7, 24, 2, "p", 0)
         watts = sp.get("Total output") or ""
-        first = ("%d USB-C, %d USB-A" % (cc, aa)) if slots else ""
+        first = ", ".join(x for x in ("%d USB-C" % cc if cc else "", "%d USB-A" % aa if aa else "") if x)
         return dict(inner=out + bottom_info("", " · ".join(x for x in (watts, first, weight) if x), 330), legend=False, info=[], scaled=False,
                     alt="Drawing of a USB-C wall charger from the front, showing its %s ports (not to scale)" % (first or "USB"))
+    if "cable" in tl and "adapter" not in tl:
+        # A loose charging cable: two USB-C plugs joined by a looped cord. Not to scale.
+        def plug(px, py):
+            # Plug body, with the metal USB-C tip on top.
+            return R(px - 15, py - 22, 30, 44, 8) + R(px - 9, py - 38, 18, 16, 6, "s k", 1.5)
+        ax, bx, py = W / 2 - 90, W / 2 + 90, 120
+        out = P(D("M%s %s C%s %s %s %s %s %s S%s %s %s %s", ax, py + 22, ax, py + 150, W / 2 - 40, py + 160, W / 2, py + 110,
+                  bx, py + 20, bx, py + 22), "pk", 6, ' style="fill:none"')
+        out += plug(ax, py) + plug(bx, py)
+        out += T(ax, py - 48, "USB-C", "m", 12) + T(bx, py - 48, "USB-C", "m", 12)
+        first = " · ".join(x for x in (sp.get("Rating") or "", sp.get("Length") or "") if x)
+        return dict(inner=out + bottom_info("USB-C to USB-C cable", first, 300), legend=False, info=[], scaled=False,
+                    alt="Simple drawing of a USB-C to USB-C charging cable with a plug at each end (not to scale)")
     s = 22.0
     wcm, hcm = (dims[0], dims[1]) if len(dims) >= 2 else (6.0, 6.0)
     w, h = wcm * s, hcm * s
@@ -983,10 +996,12 @@ def draw_tech(d):
     out += R(x + w * .36, y + h, 6, 26, 2, "p", 0) + R(x + w * .58, y + h, 6, 26, 2, "p", 0)
     if "cable" in tl:
         out += P(D("M%s %s C%s %s %s %s %s %s", x + w, y + h * .3, x + w + 60, y + h * .3, x + w + 60, y + h * .9, x + w + 8, y + h * .95), "pk", 5)
-    out += dim_h(x, x + w, y - 22, n(wcm) + " cm", "wide", above=True) + dim_v(x - 26, y, y + h, n(hcm) + " cm", "high")
-    first = ("%d USB-C, %d USB-A" % (cc, aa)) if slots else "No USB ports"
+    if len(dims) >= 2:
+        out += dim_h(x, x + w, y - 22, n(wcm) + " cm", "wide", above=True) + dim_v(x - 26, y, y + h, n(hcm) + " cm", "high")
+    first = ", ".join(x for x in ("%d USB-C" % cc if cc else "", "%d USB-A" % aa if aa else "") if x) or "No USB ports"
     return dict(inner=out + bottom_info("", first + (" · " + weight if weight else ""), 330), legend=False, info=[], scaled=bool(dims),
-                alt="Drawing of a %s from the front, with its plug pins, drawn to its listed size" % ("universal travel adapter" if "universal" in tl else "plug adapter"))
+                alt="Drawing of a %s from the front, with its plug pins, %s" % ("universal travel adapter" if "universal" in tl else "plug adapter",
+                                                                             "drawn to its listed size" if len(dims) >= 2 else "size not listed"))
 
 
 # ---------- belts ----------

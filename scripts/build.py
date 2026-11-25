@@ -1587,8 +1587,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
     checked = data["checked"]
     year = checked[:4]
     picks = cabin_picks(deals)
-    scale = next((d for d in deals if "scale" in d["title"].lower()), None)
-    scale_link = f'<a href="../picks/{scale["asin"]}.html">luggage scale</a>' if scale else "luggage scale"
+    scale_link = '<a href="../guides/luggage-scale.html">luggage scale</a>'
     disclaimer = ('<p class="checked">Rules change often and can depend on your fare, route and aircraft. '
                   'Always check your ticket and the airline\'s official website before you fly.</p>')
     checker_cta = (f'<aside class="tip">{icon("ruler", "icon tip-icon")}<div><strong>Will your bag fit?</strong>'
@@ -1890,8 +1889,7 @@ def build_extra_airlines(cfg, deals_by_asin, extra, pages, lastmod):
     checked = extra["checked"]
     year = checked[:4]
     p = "../../"
-    scale = deals_by_asin.get("B07Q822CWX")
-    scale_link = f'<a href="{p}picks/{scale["asin"]}.html">luggage scale</a>' if scale else "luggage scale"
+    scale_link = f'<a href="{p}guides/luggage-scale.html">luggage scale</a>'
     disclaimer = ('<p class="checked">Fees change often and can depend on your fare and route. The price shown when you pay is final, '
                   "so always check your booking and the airline's official website before you fly.</p>")
     for x in extra["airlines"]:
@@ -1990,7 +1988,7 @@ def build_extra_baggage(cfg, deals_by_asin, extra, pages, lastmod):
     air_lo, air_hi = rupees(airport[0]), rupees(airport[-1])
     p = "../"
     scale = deals_by_asin.get("B07Q822CWX")
-    scale_link = f'<a href="../picks/{scale["asin"]}.html">luggage scale</a>' if scale else "luggage scale"
+    scale_link = '<a href="../guides/luggage-scale.html">luggage scale</a>'
 
     slabs = (3, 5, 10, 15)
     pre_rows = []

@@ -49,7 +49,7 @@ Take the bag's weight away from your allowance:
 
 A difference of 2 kg in the bag is 2 kg less for your clothes. Most standard domestic fares give 15 kg, but it varies by fare, so check your ticket. See our [baggage rules for Indian airlines](../baggage/index.html).
 
-A medium bag has room for more than 15 kg, especially with shoes and winter clothes. Weigh the packed bag at home with a [luggage scale](../picks/B07Q822CWX.html), then check it against your fare with our [excess baggage calculator](../tools/bag-weight.html).
+A medium bag has room for more than 15 kg, especially with shoes and winter clothes. Weigh the packed bag at home with a [luggage scale](luggage-scale.html), then check it against your fare with our [excess baggage calculator](../tools/bag-weight.html).
 
 ## Our picks
 

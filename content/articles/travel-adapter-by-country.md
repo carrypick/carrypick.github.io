@@ -147,6 +147,24 @@ For a laptop, phone and watch at the same time, up to 100 W:
 
 [[compare:B0DPKYKC8J,B07WDJR33C,B0F94K1BSP]]
 
+### Single-country adapters: type G and type C
+
+Going to one place only? A small one-plug adapter is lighter and cheaper than a universal one. These take Indian 2-pin and 3-pin plugs, but not the big type M plug, and none of them converts voltage.
+
+| Plug | Where | Our pick |
+|---|---|---|
+| Type G (three square pins) | UK, Ireland, Dubai and the UAE, Singapore, Malaysia, Hong Kong | [Orei type G, single](../picks/B07YMWJCW9.html), or the [Ceptics type G 3-pack](../picks/B0080R95XI.html) for a family |
+| Type C (two thin round pins) and E/F | Most of Europe, including Italy and Switzerland | [Orei Europe set: one type C, one Schuko E/F](../picks/B09YD5T3KQ.html) |
+| Type B (USA) | USA, Canada | [Ceptics type B](../picks/B08NTB2JRX.html) |
+
+One type G adapter. It has a second socket for a 2-pin plug, so a phone and a trimmer charge together:
+
+[[pick:B07YMWJCW9]]
+
+A slim type C for round-pin sockets, where a thick plug won't go in, and a Schuko E/F for the rest of Europe:
+
+[[pick:B09YD5T3KQ]]
+
 ## Visiting India? Plugs for travellers from the USA, UK and Europe
 
 India uses types **C, D and M** at **230 V and 50 Hz**. Bring a universal adapter:
@@ -172,11 +190,11 @@ Thailand uses types A, B, C and O at 230 V. Most sockets take a thin two-pin Ind
 
 ### Which adapter do I need for Europe?
 
-Most of Europe uses types C, E and F at 230 V. A thin two-pin Indian charger often fits. A three-pin Indian plug never does, and Switzerland (J) and Italy (L) have their own types. Take a universal adapter or a European type C adapter.
+Most of Europe uses types C, E and F at 230 V. A thin two-pin Indian charger often fits. A three-pin Indian plug never does, and Switzerland (J) and Italy (L) have their own types. Take a universal adapter or a European type C adapter, like the [Orei Europe set](../picks/B09YD5T3KQ.html).
 
 ### What plug type is used in Dubai and the UAE?
 
-Type G, three square pins, at 230 V, the same plug as the UK. Indian plugs don't fit, so take a UK or universal adapter.
+Type G, three square pins, at 230 V, the same plug as the UK. Indian plugs don't fit, so take a UK (type G) adapter, like the [Orei type G](../picks/B07YMWJCW9.html), or a universal one.
 
 ### Do I need an adapter for the USA from India?
 
