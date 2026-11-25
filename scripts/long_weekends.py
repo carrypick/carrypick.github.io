@@ -362,6 +362,12 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
     feb = "trips/where-to-go-in-february.html"
     if built(feb):
         hub_link += f' For February, see <a href="../{feb}">where to go in February</a>.'
+    march = "trips/where-to-go-in-march.html"
+    if built(march):
+        hub_link += f' For March, see <a href="../{march}">where to go in March</a>.'
+    holi = "trips/holi-2027.html"
+    if built(holi):
+        rday_link += f' Holi is on Tuesday 23 March 2027: see <a href="../{holi}">where to celebrate Holi</a>.'
     newyear = "trips/new-year-trips-2027.html"
     if built(newyear):
         rday_link += f' For the New Year weekend (1 January 2027 is a Friday), see <a href="../{newyear}">where to go for New Year 2027</a>.'

@@ -39,7 +39,11 @@ The central government holiday list from DoPT (for offices in Delhi) has **no ga
 - **Friday 19 February (Shivaji Jayanti):** 3 days, Friday to Sunday, the weekend of the Jaisalmer Desert Festival.
 - **Tuesday 2 March (Swami Dayananda Saraswati's Birthday):** take Monday 1 March off for 4 days, from Saturday 27 February.
 
-See every 2027 long weekend, and the leave days that stretch them to 5 or 9 days, in our [long weekends 2027 planner](../tools/long-weekends-2027.html). Holi is on Tuesday 23 March 2027.
+See every 2027 long weekend, and the leave days that stretch them to 5 or 9 days, in our [long weekends 2027 planner](../tools/long-weekends-2027.html). Holi is on Tuesday 23 March 2027: see [where to celebrate Holi](holi-2027.html).
+
+## Next: March
+
+Going a little later? See [where to go in March](where-to-go-in-march.html): Holi on 23 March in Mathura, Vrindavan and Varanasi, the last of the ski season in Gulmarg and Auli, hill stations opening up, the 9-day Holi and Good Friday break, and Vietnam, Sri Lanka, the Maldives and Japan's cherry blossom abroad.
 
 ## Places to visit in February in India
 
@@ -192,6 +196,7 @@ Yes. Most of India is still cool and dry, the Andaman and the Maldives have calm
 - [Winter clothes for hill trips](../guides/winter-clothes-for-hill-trips.html)
 - [Visa-free countries for Indians](../guides/visa-free-countries-for-indians.html)
 - [Honeymoon packing list](../guides/honeymoon-packing-list.html)
+- [Where to go in March](where-to-go-in-march.html)
 
 ## Sources
 

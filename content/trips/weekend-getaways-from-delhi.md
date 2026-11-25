@@ -42,7 +42,7 @@ Only two of our picks are within about 200 km of central Delhi by road, and both
 ### Mathura and Vrindavan: temples and Holi
 
 - **Distance:** about 150 km by road on the Yamuna Expressway, about 2½ to 3½ hours (our estimates). Trains run to Mathura Junction, and Vrindavan is a short ride from there.
-- **Best months:** October to March. Holi week, in March, is the busiest time of the year, with famous celebrations at the temples of Barsana, Nandgaon and Vrindavan. Expect very big crowds.
+- **Best months:** October to March. Holi week, in March, is the busiest time of the year, with famous celebrations at the temples of Barsana, Nandgaon and Vrindavan. Expect very big crowds. See our [Holi 2027 guide](holi-2027.html) for the dates and tips.
 - **What to do:** visit Shri Krishna Janmabhoomi in Mathura, the Banke Bihari and ISKCON temples in Vrindavan, and an evening aarti at Vishram Ghat on the Yamuna. Dress modestly, and keep your phone and bag safe from monkeys in Vrindavan.
 - **Official info:** [Mathura district website](https://mathura.nic.in/) and [UP Tourism](https://www.uptourism.gov.in/).
 
