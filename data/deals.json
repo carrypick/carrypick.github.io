@@ -1,5 +1,95 @@
 [
   {
+    "asin": "B07QNXCKP6",
+    "added_at": "2026-11-25T09:10:41+05:30",
+    "title": "Timex Women's Analog Watch, Rose Gold Dial, Rose Gold Steel Band (TW000X219)",
+    "category": "watches",
+    "subcategory": "womens-watches",
+    "highlights": [
+      "35 mm rose gold dial with crystal details",
+      "Rose gold stainless steel band, 20 mm wide",
+      "Quartz movement",
+      "Water resistant to 30 m, 1-year warranty"
+    ],
+    "note": "An all rose gold Timex that looks dressy for weddings and gifts.",
+    "brand": "Timex",
+    "colour": "Rose Gold",
+    "best_for": [
+      "Gift for her",
+      "Weddings"
+    ],
+    "specs": {
+      "Dial size": "35 mm",
+      "Case": "Brass",
+      "Glass": "Mineral",
+      "Band": "Stainless steel, 20 mm",
+      "Movement": "Quartz",
+      "Water resistance": "30 m"
+    },
+    "skip_if": "you want a plain, simple look: this one has crystal details and is all rose gold.",
+    "deal_seen_at": "2026-11-25T09:08:00+05:30"
+  },
+  {
+    "asin": "B0G6F1SC7T",
+    "added_at": "2026-11-25T09:10:41+05:30",
+    "title": "Skybags Splash 75 cm Large Check-in Trolley, Printed Hard Shell, 96 L",
+    "category": "luggage",
+    "subcategory": "large-trolleys",
+    "highlights": [
+      "Printed hard shell in ABS and polypropylene",
+      "8 spinner wheels",
+      "3-digit resettable combination lock",
+      "5-year international warranty, made in India"
+    ],
+    "note": "The big brother of the Skybags Splash cabin bag, with a long 5-year warranty.",
+    "brand": "Skybags",
+    "colour": "Black",
+    "best_for": [
+      "Family trips",
+      "Check-in bag"
+    ],
+    "specs": {
+      "Size": "75 x 53 x 33 cm (161 cm total)",
+      "Capacity": "96 L",
+      "Weight": "4.8 kg",
+      "Shell": "Hard, ABS and polypropylene",
+      "Lock": "3-digit combination",
+      "Warranty": "5 years international"
+    },
+    "skip_if": "you fly IndiGo: at 161 cm in total it is over IndiGo's 158 cm limit for a checked bag.",
+    "deal_seen_at": "2026-11-25T09:10:00+05:30"
+  },
+  {
+    "asin": "B0DDTX49F3",
+    "added_at": "2026-11-25T09:10:41+05:30",
+    "title": "Mokobara Transit 74 cm Large Check-in Trolley, 100 L",
+    "category": "luggage",
+    "subcategory": "large-trolleys",
+    "highlights": [
+      "100 litres, for trips of 15 days or more",
+      "Makrolon polycarbonate hard shell",
+      "8 Hinomoto spinner wheels",
+      "One-push TSA lock and YKK zips"
+    ],
+    "note": "The large size of Mokobara's well-rated Transit, to match its cabin and medium bags.",
+    "brand": "Mokobara",
+    "colour": "Black",
+    "best_for": [
+      "Long trips",
+      "Check-in bag"
+    ],
+    "specs": {
+      "Size": "74 x 51 x 30 cm (155 cm total)",
+      "Capacity": "100 L",
+      "Weight": "5.1 kg",
+      "Shell": "Hard, polycarbonate",
+      "Lock": "TSA lock",
+      "Warranty": "3 years"
+    },
+    "skip_if": "you fly on a 15 kg fare: the bag alone weighs 5.1 kg, so a full 100 L bag can easily go over.",
+    "deal_seen_at": "2026-11-25T09:08:00+05:30"
+  },
+  {
     "asin": "B0GPD46SVW",
     "added_at": "2026-11-24T20:54:07+05:30",
     "title": "VIP Vero 65 cm Medium Check-in Trolley, Polycarbonate, TSA Lock",
