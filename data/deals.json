@@ -1,5 +1,33 @@
 [
   {
+    "asin": "B0DN22BXZ1",
+    "added_at": "2026-11-25T09:10:59+05:30",
+    "title": "Boldfit Woollen Winter Socks for Men and Women, Calf Length, Pack of 3",
+    "category": "clothing",
+    "subcategory": "winter-accessories",
+    "highlights": [
+      "3 pairs, calf length, ribbed",
+      "Wool and synthetic blend (as listed)",
+      "Reinforced heel and toe",
+      "One size, unisex"
+    ],
+    "note": "Thicker, warmer socks than everyday cotton ones, for snow days and cold hotel floors.",
+    "brand": "Boldfit",
+    "colour": "Black, Grey and Blue",
+    "best_for": [
+      "Snow",
+      "Hill trips"
+    ],
+    "specs": {
+      "Pack": "3 pairs",
+      "Fabric": "Wool and synthetic blend",
+      "Length": "Calf",
+      "Size": "One size, men and women",
+      "Made in": "India"
+    },
+    "skip_if": "you have very large feet: it comes in one size only."
+  },
+  {
     "asin": "B07QNXCKP6",
     "added_at": "2026-11-25T09:10:41+05:30",
     "title": "Timex Women's Analog Watch, Rose Gold Dial, Rose Gold Steel Band (TW000X219)",

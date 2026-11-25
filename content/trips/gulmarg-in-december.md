@@ -118,6 +118,8 @@ Gulmarg is colder than Srinagar, and the gondola top is colder still, so dress i
 
 Choosing a jacket for the snow? Read our [winter jacket for travel guide](../guides/winter-jacket-for-travel.html) on down vs synthetic and waterproof gloves. For our picks and the full list, read [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html) and use the [winter hill trip packing list](../packing/hills.html). Choosing boots? See [shoes for Gulmarg, Kashmir and Manali in the snow](../guides/shoes-for-manali-and-kashmir-trip.html).
 
+Packing now? Use our [Kashmir packing list for winter](../guides/kashmir-packing-list.html) for Gulmarg, Srinagar and Pahalgam, or the general [snow trip packing list](../guides/snow-trip-packing-list.html).
+
 ## Safety in the cold
 
 - **Never sleep with a heater burning in a closed room.** Gas heaters, charcoal and kangris give off carbon monoxide, which can kill. Keep a window slightly open, and switch heaters off before you sleep.

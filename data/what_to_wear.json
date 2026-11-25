@@ -372,6 +372,10 @@
     [
      "guides/what-to-wear-in-manali-in-december.html",
      "What to wear in Manali in December"
+    ],
+    [
+     "guides/manali-packing-list.html",
+     "Manali packing list for snow"
     ]
    ],
    "spots": [
@@ -481,7 +485,13 @@
    },
    "snow_note": {
     "mar": "Sometimes: IMD counts about 1 to 2 snow days in an average March (1990–2010)"
-   }
+   },
+   "more": [
+    [
+     "guides/snow-trip-packing-list.html",
+     "Snow trip packing list"
+    ]
+   ]
   },
   {
    "slug": "kashmir",
@@ -560,7 +570,13 @@
     "oct": "Gulmarg is much colder than Srinagar, so pack your warmest layers for a day trip there.",
     "nov": "Gulmarg nights fall below freezing from November, and Srinagar nights come close to it. Gulmarg is much colder than Srinagar, so pack your warmest layers for a day trip there.",
     "mar": "Gulmarg nights are still below freezing in March. Gulmarg is much colder than Srinagar, so pack your warmest layers for a day trip there."
-   }
+   },
+   "more": [
+    [
+     "guides/kashmir-packing-list.html",
+     "Kashmir packing list for winter"
+    ]
+   ]
   },
   {
    "slug": "darjeeling",
@@ -875,7 +891,13 @@
     "dec": "Possible on the slopes, not certain",
     "jan": "Likely on the slopes",
     "feb": "Likely on the slopes"
-   }
+   },
+   "more": [
+    [
+     "guides/snow-trip-packing-list.html",
+     "Snow trip packing list"
+    ]
+   ]
   },
   {
    "slug": "nainital",

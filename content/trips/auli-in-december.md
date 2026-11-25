@@ -134,6 +134,8 @@ Auli is high and windy, and nights are below freezing. Dress in warm layers:
 
 Choosing a jacket? Read our [winter jacket for travel guide](../guides/winter-jacket-for-travel.html). For our picks and the full list, read [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html) and use the [winter hill trip packing list](../packing/hills.html). Choosing boots? See [shoes for the snow in Manali and Kashmir](../guides/shoes-for-manali-and-kashmir-trip.html): the same advice works for Auli.
 
+Packing now? Use our [snow trip packing list](../guides/snow-trip-packing-list.html): layers, gloves, socks, what to rent at the slope and a list for kids.
+
 ## Safety in the cold
 
 - **Never sleep with a heater or coal fire in a closed room.** It gives off carbon monoxide, which can kill without warning.

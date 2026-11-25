@@ -91,6 +91,8 @@ For men who want warm boots for snow in town, ankle-high and seam-sealed (as lis
 
 Packing the rest? See [what to wear in Manali in December](what-to-wear-in-manali-in-december.html), [winter clothes for hill trips](winter-clothes-for-hill-trips.html) and the [winter hill trip packing list](../packing/hills.html).
 
+Or use our full packing lists for [Manali](manali-packing-list.html), [Kashmir](kashmir-packing-list.html) and [any snow trip](snow-trip-packing-list.html).
+
 ## Questions
 
 ### Which shoes are good for a Manali trip in winter?

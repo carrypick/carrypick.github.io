@@ -12,6 +12,8 @@ The jacket is the most expensive thing you'll pack for a winter trip, and the ea
 
 Packing for a hill trip? Read [what to wear on a winter hill trip](winter-clothes-for-hill-trips.html) and use the [hill trip checklist](../packing/hills.html). Not sure what to wear for your dates? Ask the [what-to-wear helper](../tools/what-to-wear.html#kashmir).
 
+Going to the snow? See our packing lists for [Manali](manali-packing-list.html), [Kashmir](kashmir-packing-list.html) and [any snow trip](snow-trip-packing-list.html).
+
 [[toppicks:Our jacket picks for a winter trip|How to choose|#down-or-synthetic-fill]]
 [[top:B08CK7KKD8|Down jacket for men|700-fill down, about 405 g, packs small: warmest for its weight.]]
 [[top:B0DJYVY6PH|Down jacket for women|650-fill-power down with a fleece-lined hood.]]

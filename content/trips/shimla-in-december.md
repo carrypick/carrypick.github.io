@@ -106,6 +106,8 @@ Shimla needs the same clothes as Manali, just a little less on the coldest night
 
 For our picks and full lists, see [what to wear in Manali in December](../guides/what-to-wear-in-manali-in-december.html) (the same clothes work in Shimla), [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html), [which winter jacket to buy](../guides/winter-jacket-for-travel.html), [which shoes to take](../guides/travel-shoes-guide.html) and the [hill trip packing checklist](../packing/hills.html). Choosing a bag? See our [luggage size guide](../guides/luggage-size-guide.html).
 
+Doing Shimla and Manali together? Use our [Manali packing list for snow](../guides/manali-packing-list.html), or the [snow trip packing list](../guides/snow-trip-packing-list.html) for Kufri and Narkanda.
+
 ## Health and safety
 
 - **Never sleep with a heater burning in a closed room.** Gas heaters, charcoal and angithis give off carbon monoxide, which can kill without warning. Keep a window slightly open, and switch heaters off before you sleep.

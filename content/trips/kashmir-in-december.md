@@ -134,6 +134,8 @@ Polarized sunglasses for the snow:
 
 For the full list, use our [winter hill trip packing list](../packing/hills.html) and read [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html). Buying a jacket for the trip? See our [winter jacket for travel guide](../guides/winter-jacket-for-travel.html).
 
+Packing now? Use our [Kashmir packing list for winter](../guides/kashmir-packing-list.html): a 7-day list, the postpaid SIM, shrines, and lists for men, women and kids.
+
 ## Health and safety in the cold
 
 - **Never sleep with a heater burning in a closed room.** Gas heaters, charcoal and kangris give off carbon monoxide, which can kill without warning. At least 19 people in Jammu and Kashmir died this way between December 2024 and early January 2025, including a family of five in Srinagar. Keep a window slightly open, and switch heaters off before you sleep.

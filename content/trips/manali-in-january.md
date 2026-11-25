@@ -138,6 +138,8 @@ January nights are below freezing, so dress in layers:
 
 For our picks and the full list, read [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html), [shoes for Manali and Kashmir](../guides/shoes-for-manali-and-kashmir-trip.html) and our [winter jacket guide](../guides/winter-jacket-for-travel.html), and use the [winter hill trip packing list](../packing/hills.html).
 
+Packing now? Use our [Manali packing list for snow](../guides/manali-packing-list.html), with what to carry for Solang, the bus and the hotel.
+
 ## Safety in the cold
 
 - **Never sleep with a heater, coal or wood fire burning in a closed room.** They give off carbon monoxide, which can kill without warning.

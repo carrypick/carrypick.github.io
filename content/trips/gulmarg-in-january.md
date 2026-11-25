@@ -133,6 +133,8 @@ January in Gulmarg is serious cold. Dress like you're going skiing, even if you'
 
 For our picks and the full list, read [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html), [shoes for the snow in Gulmarg, Kashmir and Manali](../guides/shoes-for-manali-and-kashmir-trip.html) and our [winter jacket guide](../guides/winter-jacket-for-travel.html), and use the [winter hill trip packing list](../packing/hills.html).
 
+Packing now? Use our [Kashmir packing list for winter](../guides/kashmir-packing-list.html) for Gulmarg, Srinagar and Pahalgam, or the general [snow trip packing list](../guides/snow-trip-packing-list.html).
+
 ## Safety in the cold
 
 - **Never sleep with a heater, charcoal or a kangri burning in a closed room.** Carbon monoxide can kill without warning.

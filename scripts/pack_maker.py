@@ -153,6 +153,7 @@ def build(m, cfg, deals_by_asin, pages, lastmod):
 <div class="pm-noprint" id="pm-after"></div>
 </div>
 <div class="pm-noprint">
+<p>Going to the snow? Read our full packing lists for <a href="../guides/manali-packing-list.html">Manali</a>, <a href="../guides/kashmir-packing-list.html">Kashmir</a> and <a href="../guides/snow-trip-packing-list.html">any snow trip</a>.</p>
 <p>Not sure which clothes to take? Pick your place and month in the <a href="what-to-wear.html">what-to-wear helper</a>. Plan the money too with our <a href="trip-budget-calculator.html">trip budget calculator</a>. Travelling with a baby? See the <a href="../guides/travelling-with-baby-checklist.html">baby travel checklist</a> and the airline rules for <a href="../guides/flying-with-baby-or-toddler.html">flying with a baby or toddler</a>. Packing for yourself as a woman? See <a href="../guides/travel-essentials-for-women.html">travel essentials for women</a> and <a href="../guides/solo-female-travel-india.html">solo female travel in India</a>.</p>
 <div class="answer"><h2>Quick answer</h2><ul>
 <li>Pack one top a day plus one spare, trousers for every 3 days, and underwear for each day plus one.</li>

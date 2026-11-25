@@ -111,6 +111,8 @@ January is colder than December, so add a layer:
 
 For our picks and the full list, read [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html), [shoes for Manali and Kashmir](../guides/shoes-for-manali-and-kashmir-trip.html) and our [winter jacket guide](../guides/winter-jacket-for-travel.html), and use the [winter hill trip packing list](../packing/hills.html).
 
+Packing now? Use our [Kashmir packing list for winter](../guides/kashmir-packing-list.html), with a 7-day list and what to rent for the snow.
+
 ## Safety in the cold
 
 - **Never sleep with a gas heater, charcoal or a kangri burning in a closed room.** Each winter, people in Kashmir die from carbon monoxide this way. Switch heaters off before you sleep and keep a window slightly open.
