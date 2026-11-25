@@ -11,7 +11,7 @@ glance: Visa for Indians=Not needed for up to 30 days, until 31 December 2026 | 
 ---
 Malaysia is one of the easiest trips abroad from India right now. Indians don't need a visa for stays of up to 30 days until 31 December 2026, direct flights leave from many Indian cities, and Kuala Lumpur has a big Indian community, so vegetarian and South Indian food is easy to find. This guide covers the visa rules, the MDAC arrival card, flights, a 5-day plan, the best time to go, a Singapore + Malaysia combo, getting around and food.
 
-Packing for the trip? We don't have a Malaysia list yet, so use the [checklist for trips abroad](../packing/abroad.html) or make a list for your dates with the [packing list maker](../tools/packing-list-maker.html). Malaysia is hot and humid like Singapore, so the clothes in our [Singapore packing list](../guides/singapore-packing-list.html) work here too. Comparing countries? See all our [international trips from India](international-trips-from-india.html).
+Packing for the trip? Read our [Malaysia packing list](../guides/malaysia-packing-list.html): clothes for heat and rain, what to wear at mosques, the type G plug adapter and Malaysia's customs allowances. Or make a list for your dates with the [packing list maker](../tools/packing-list-maker.html). Comparing countries? See all our [international trips from India](international-trips-from-india.html).
 
 Plugs: Malaysia uses UK-style type G plugs at 230 V, like Singapore. See [which travel adapter for Singapore and Malaysia to pack](../guides/travel-adapter-for-singapore.html).
 

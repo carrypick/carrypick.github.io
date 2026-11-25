@@ -134,6 +134,8 @@ Which plugs does Thailand use? See the table in our [power bank and travel adapt
 
 [[pick:B07WDJR33C]]
 
+Going on to Malaysia or Singapore? They use the UK-style type G plug. See our [Malaysia packing list](malaysia-packing-list.html) and [Singapore packing list](singapore-packing-list.html).
+
 ## Beach and island bag
 
 - **A waterproof pouch** for your phone, cash and room key on boat trips to Phi Phi, James Bond Island or Coral Island.

@@ -119,7 +119,7 @@ Which plugs does Singapore use? See the table in our [power bank and travel adap
 
 [[pick:B07WDJR33C]]
 
-Singapore and Malaysia only? Both use type G, so a single small adapter does the job. This one has a second socket for a 2-pin plug:
+Going on to Malaysia? See our [Malaysia packing list](malaysia-packing-list.html). Singapore and Malaysia only? Both use type G, so a single small adapter does the job. This one has a second socket for a 2-pin plug:
 
 [[pick:B07YMWJCW9]]
 
@@ -249,6 +249,7 @@ On IndiGo, 30 kg on regular fares (35 kg on UpFront). Singapore Airlines gives 2
 
 ## Related guides
 
+- [Malaysia packing list](malaysia-packing-list.html)
 - [Packing cubes](packing-cubes.html)
 
 ## Sources

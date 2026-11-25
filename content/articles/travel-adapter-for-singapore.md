@@ -40,7 +40,7 @@ We chose these by their listed specs. We haven't tested them, and we don't rank 
 
 ## Singapore, Malaysia and Thailand in one trip
 
-Singapore and Malaysia share type G, but Thailand doesn't, and Bali uses C and F. If your trip covers more than one, a universal adapter is simpler. See our [Singapore packing list](singapore-packing-list.html), [Singapore trip](../trips/singapore-trip-from-india.html) and [Malaysia trip](../trips/malaysia-trip-from-india.html) guides.
+Singapore and Malaysia share type G, but Thailand doesn't, and Bali uses C and F. If your trip covers more than one, a universal adapter is simpler. See our [Singapore packing list](singapore-packing-list.html), [Malaysia packing list](malaysia-packing-list.html), [Singapore trip](../trips/singapore-trip-from-india.html) and [Malaysia trip](../trips/malaysia-trip-from-india.html) guides.
 
 ## Our picks for Singapore and Malaysia
 
