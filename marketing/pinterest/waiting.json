@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "note": "Pinterest allows scheduling only about 30 days ahead. Scheduled through 22 Dec 2026 (7 PM). Slots: 12 PM and 7 PM IST, one pin per slot, 2 a day. Schedule from the top of 'waiting' as each new day opens, then delete the slug from the list. Images are marketing/pinterest/<slug>.jpg, text in pins.json. Time-sensitive New Year pins go first (before 31 Dec). Christmas gift pins (christmas-gift-*) are at the top: schedule on the next free slot, they must go out before about 20 Dec.",
   "scheduled_by_session": {
     "new-year-2027": "22 Dec 12 PM",
@@ -19,6 +19,11 @@
     "gulmarg-january",
     "goa-january",
     "rajasthan-january",
+    "vietnam-january",
+    "thailand-january",
+    "kerala-january",
+    "dubai-january",
+    "bali-january",
     "honeymoon-india",
     "honeymoon-abroad",
     "auli-december",
@@ -124,6 +129,25 @@
     "26-inch-trolley",
     "32-inch-trolley",
     "first-analog-watch",
-    "laptop-backpack-guide"
+    "laptop-backpack-guide",
+    "gift-for-girlfriend",
+    "gift-for-boyfriend",
+    "gift-for-best-friend",
+    "gift-for-colleague",
+    "europe-trip-from-india",
+    "uk-trip-from-india",
+    "australia-trip-from-india",
+    "hong-kong-trip-from-india",
+    "mauritius-trip-from-india",
+    "georgia-trip-from-india",
+    "azerbaijan-trip-from-india",
+    "kazakhstan-trip-from-india",
+    "visiting-india",
+    "what-to-pack-for-india",
+    "packing-abroad",
+    "power-bank-rules",
+    "power-bank-adapter",
+    "trolley-international",
+    "wallet-belt-guide"
   ]
 }
