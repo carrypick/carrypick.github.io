@@ -1,5 +1,5 @@
 ---
-seo_title: Kenya safari from India (2026): Kenya eTA for Indians (US$30), direct flights from Mumbai, 7-day Masai Mara, Lake Nakuru and Amboseli itinerary, KWS park fees, weather
+seo_title: Kenya safari from India 2026: eTA, flights, 7-day Masai Mara
 title: Kenya safari from India: the eTA, direct flights, a 7-day Masai Mara plan and the best time to go
 description: Plan a Kenya safari from India: the Kenya eTA for Indians (from US$30, usually within 3 working days) on the official site, the documents you need, direct flights from Mumbai to Nairobi, a 7-day Nairobi, Masai Mara, Lake Nakuru and Amboseli plan, Kenya Wildlife Service park fees, the dry and rainy seasons by month, and the yellow fever card rule for coming home to India.
 date: 2026-11-23

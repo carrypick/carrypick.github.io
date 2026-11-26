@@ -1,5 +1,5 @@
 ---
-seo_title: VIP trolley bags: all 19 ranges compared, polycarbonate or not, sizes and warranty
+seo_title: VIP trolley bags: all 19 ranges compared, sizes, warranty
 title: VIP trolley bags: every range, sizes, warranty and returns
 description: All 19 VIP luggage lines on VIP's own store: which are polycarbonate, polypropylene or soft, which expand, their sizes, the warranty and the 3-day return rule.
 date: 2026-11-06

@@ -1,5 +1,5 @@
 ---
-seo_title: Plug type in India for visitors: types C, D and M, 230 V, which adapter to bring
+seo_title: Plug type in India for visitors: C, D and M, 230 V
 title: Plugs and voltage in India for visitors from the USA, UK and Europe
 description: India uses round-pin plug types C, D and M at 230 V and 50 Hz. US and UK plugs don't fit, and 120 V-only appliances from the USA will be damaged. Which adapter to bring, how to read your charger, and power cut tips.
 date: 2026-11-23

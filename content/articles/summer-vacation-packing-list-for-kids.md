@@ -1,5 +1,5 @@
 ---
-seo_title: Summer vacation packing list for kids (2027): what to pack for hills, beaches and trips abroad in April, May and June
+seo_title: Summer vacation packing list for kids (2027)
 title: Summer vacation packing list for kids: hills, beaches and abroad
 description: A packing list for kids for the Indian school summer holidays (April to June): what to pack for Manali, Shimla, Kashmir and Ladakh, for the beach and for trips abroad, sun and heat protection, motion sickness, games and books for long journeys, a kids' medicine kit (ask your doctor) and the ID children need on flights, from the airlines' own pages.
 date: 2026-11-26

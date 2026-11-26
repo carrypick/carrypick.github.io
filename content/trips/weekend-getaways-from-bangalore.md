@@ -1,5 +1,5 @@
 ---
-seo_title: Weekend getaways from Bangalore (2026–27): 11 trips within 100, 200 and 300 km, by road, train or flight
+seo_title: Weekend getaways from Bangalore 2026–27: 11 trips by distance
 title: Weekend getaways from Bangalore: 11 trips for 2 or 3 days
 description: Weekend getaways from Bangalore (Bengaluru), with the distance and travel time by road, train or flight: Nandi Hills, Mysuru, Coorg, Chikkamagaluru, Ooty, Wayanad, Puducherry, Hampi, Gokarna, Munnar and Kerala, and Goa. Trips within 100, 200 and 300 km, best months, December trips, forest-road night closures and the 2027 long weekends.
 date: 2026-11-23

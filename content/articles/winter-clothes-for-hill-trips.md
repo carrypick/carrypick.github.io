@@ -1,5 +1,5 @@
 ---
-seo_title: What to wear on a winter hill trip in India: thermals, jackets and layers for Manali
+seo_title: What to wear on a winter hill trip in India: layers
 title: What to wear on a winter hill trip: thermals, jackets and layers
 description: How to dress for Manali, Shimla or Kashmir in winter: three simple layers, which fabrics to choose, and thermal and jacket picks for men and women.
 date: 2026-11-04

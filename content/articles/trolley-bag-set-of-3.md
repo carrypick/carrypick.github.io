@@ -1,5 +1,5 @@
 ---
-seo_title: Trolley bag set of 3: sizes, weight and what to check before you buy
+seo_title: Trolley bag set of 3: sizes, weight and what to check
 title: Trolley bag set of 3: sizes, total weight and what to check
 description: A set of 3 gives you a cabin, medium and large bag. We compared the sizes, total weight, lock and warranty that five Amazon.in sets list, and the size trap in the large bag.
 date: 2026-11-23

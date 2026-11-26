@@ -1,6 +1,6 @@
 ---
 title: Can I carry coconut on a flight in India?
-seo_title: Coconut in flight India 2026: whole coconut, dry coconut, cabin and check-in
+seo_title: Coconut in flight India 2026: cabin, check-in, dry coconut
 description: Coconut can't go in your cabin bag. In check-in, Air India allows it and IndiGo allows small pieces, while dry coconut (copra, gola) is banned in both bags. Coconut oil, coconut water and sweets.
 item: Coconut
 date: 2026-11-15

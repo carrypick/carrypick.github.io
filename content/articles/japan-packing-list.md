@@ -1,5 +1,5 @@
 ---
-seo_title: Japan packing list for winter (2026): what to wear in December, Type A plugs, medicine rules and customs limits
+seo_title: Japan packing list for winter (2026): clothes, plugs, medicine
 title: Japan packing list: what to pack for a winter trip from India
 description: What to pack for Japan in December and January: what to wear for Tokyo, Kyoto and Osaka weather, slip-off shoes, the 100 V Type A plug, Japan's rules for medicines (cold and ADHD medicines can need permission), Japan Customs limits and the ¥1 million cash declaration, cabin bag limits, and lists for men, women and kids.
 date: 2026-11-21

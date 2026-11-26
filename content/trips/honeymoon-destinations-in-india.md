@@ -1,5 +1,5 @@
 ---
-seo_title: Honeymoon destinations in India (2026–27): best places in November, December, January and February
+seo_title: Honeymoon destinations in India 2026–27: best places by month
 title: Honeymoon destinations in India: the best places by month, from November to February
 description: The best honeymoon places in India for the wedding season: Goa, Kerala, Munnar, Andaman, Udaipur, Jaipur, Kashmir and Gulmarg, Manali, Shimla, Coorg, Ooty, Darjeeling, Meghalaya and Rishikesh, sorted by month (November, December, January, February) and by style (beach, snow, heritage, nature), with the weather, the nearest airport and links to our full trip guides.
 date: 2026-11-23

@@ -1,7 +1,7 @@
 {
   "site_name": "CarryPick",
   "tagline": "Hand-picked bags, luggage, watches and travel essentials, plus simple travel guides and tools for travellers in India and around the world",
-  "home_title": "CarryPick: bags, luggage, watches, travel essentials and tools for travellers in India and worldwide",
+  "home_title": "CarryPick: cabin bag sizes, baggage rules and travel guides",
   "home_description": "Hand-picked bags, luggage, watches, travel clothes, shoes and sun care (shop links go to Amazon India), plus airline baggage rules, a cabin bag checker, packing lists and trip tools for travellers in India and around the world.",
   "base_url": "https://carrypick.github.io",
   "amazon_tag": "carrypick-21",
@@ -263,7 +263,7 @@
       "hashtag": "#TravelClothes",
       "icon": "jacket",
       "photo": "snow-jacket",
-      "seo_title": "Winter wear and travel clothes in India: thermals, jackets, rain ponchos",
+      "seo_title": "Winter wear and travel clothes in India: thermals, jackets",
       "guide": "winter-clothes-for-hill-trips",
       "intro": "Thermals, jackets, caps and rain gear for hill trips and monsoon travel. We check the fabric, the weight and how to wash it.",
       "tip": "Dress in layers: thermals, then a sweater, then a jacket. Take a layer off before you start to sweat."

@@ -1,5 +1,5 @@
 ---
-seo_title: Spiti in winter 2026–27: the Kinnaur road, Chandratal, snow leopards, homestays and a 7-day plan
+seo_title: Spiti in winter 2026–27: Kinnaur road, homestays, 7-day plan
 title: Spiti in winter: the only road in, snow leopards, cold nights and a 7-day plan
 description: Plan Spiti Valley in December, January or February: why only the Shimla–Kinnaur–Kaza road is open, whether you can reach Chandratal, IMD winter temperatures for Kalpa and Keylong, snow leopards in Kibber, homestays and what's open in Kaza, fuel, ATMs and phone network, permits for foreigners, altitude sickness, a 7-day winter route and what to pack.
 date: 2026-11-26

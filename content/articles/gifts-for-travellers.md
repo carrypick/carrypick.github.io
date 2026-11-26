@@ -1,5 +1,5 @@
 ---
-seo_title: Gifts for travellers: gift ideas for someone who travels a lot (men and women)
+seo_title: Gifts for travellers: ideas for someone who travels a lot
 title: Gifts for travellers: useful gift ideas for someone who travels a lot
 description: Gifts for someone who travels a lot, for work or for fun: toiletry bags, gadget organisers, passport holders, luggage scales and cabin bags that fit airline limits. For men and women.
 date: 2026-11-15

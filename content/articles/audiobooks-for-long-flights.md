@@ -1,5 +1,5 @@
 ---
-seo_title: Audiobooks for long flights, drives and train journeys: download offline, battery tips and Audible free trial (India)
+seo_title: Audiobooks for long flights and trains: offline tips (India)
 title: Audiobooks for long flights and train journeys
 description: Why audiobooks make long flights, road trips and train journeys easier, how to download them offline before you fly, battery and headphone tips, and how Audible's 30-day free trial works on Amazon.in.
 date: 2026-11-22

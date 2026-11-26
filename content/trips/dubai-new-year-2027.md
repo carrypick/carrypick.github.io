@@ -1,5 +1,5 @@
 ---
-seo_title: Dubai New Year 2027: Burj Khalifa fireworks, free viewing areas, metro timings and tips
+seo_title: Dubai New Year 2027: Burj Khalifa fireworks, free spots, metro
 title: Dubai New Year's Eve 2027: Burj Khalifa fireworks, where to watch for free, and getting home
 description: Plan New Year's Eve 2027 in Dubai: what Emaar has announced for the Burj Khalifa fireworks, the free viewing areas in Downtown Dubai, other fireworks spots, last year's metro hours and road closures, visas for Indians and tips for the night.
 date: 2026-11-22

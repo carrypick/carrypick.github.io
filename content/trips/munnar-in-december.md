@@ -1,5 +1,5 @@
 ---
-seo_title: Munnar in December 2026: weather, frost (not snow), a 2–3 day plan, Eravikulam and what to wear
+seo_title: Munnar in December 2026: weather, frost, 2–3 day plan
 title: Munnar in December and January: weather, frost and a 2–3 day plan
 description: Plan Munnar for December or December end: how cold it gets, why you may see frost but not snow, a 2-day and 3-day plan, Eravikulam National Park tickets, the road from Kochi, the plastic rules and what to wear.
 date: 2026-11-22

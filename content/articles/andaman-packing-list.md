@@ -1,5 +1,5 @@
 ---
-seo_title: Andaman packing list (2026): what to pack and wear in Andaman, for women, men and couples
+seo_title: Andaman packing list (2026): what to pack and wear
 title: Andaman packing list: what to pack and wear for Andaman
 description: What to pack for Andaman: light clothes and dresses, swimwear, rain gear for December, shoes that can get wet, a waterproof pouch for ferries, bag limits on flights and ferries, what to wear on a honeymoon and what you can't bring back.
 date: 2026-11-18

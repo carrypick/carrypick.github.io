@@ -1,5 +1,5 @@
 ---
-seo_title: Rishikesh in December 2026: weather, rafting, Ganga aarti, bridges and what to wear
+seo_title: Rishikesh in December 2026: weather, rafting, Ganga aarti
 title: Rishikesh in December and January: weather, rafting and what to wear
 description: Plan Rishikesh for December or January: IMD temperatures, whether rafting is open, licensed camps, Ganga aarti times, which bridges are open, the Haridwar Kumbh from 14 January, getting there and what to wear.
 date: 2026-11-16

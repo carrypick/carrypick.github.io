@@ -1,5 +1,5 @@
 ---
-seo_title: Which charger for iPhone 18 Pro, iPhone 17, Samsung S25 Ultra or Pixel 10? Watts for each phone, and a travel charger
+seo_title: Which charger for iPhone 18, iPhone 17, Samsung S25 or Pixel?
 title: Which charger for iPhone 18, iPhone 17, Samsung S25 or Pixel 10?
 description: How many watts the iPhone 18 Pro, 18 Pro Max, iPhone Duo, iPhone 17, 17 Pro, Air, 17e, 16 and 15, Samsung Galaxy S25, S25 Ultra, S25 FE and A36, Pixel 10 and Nothing Phone (3) take, from the makers' own pages. MagSafe and Qi2 watts, is a 65W charger safe for an iPhone, what PPS, AVS and GaN mean, the 5 A cable Samsung's 45 W mode needs, and one charger for phone and laptop on a trip.
 date: 2026-11-24

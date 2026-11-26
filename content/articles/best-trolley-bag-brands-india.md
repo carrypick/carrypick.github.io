@@ -1,5 +1,5 @@
 ---
-seo_title: Best trolley bag brands in India: 7 brands compared by weight and size
+seo_title: Best trolley bag brands in India: 7 compared by weight, size
 title: Best trolley bag brands in India: 7 brands compared
 description: American Tourister, Safari, Aristocrat, Skybags, Kamiliant, VIP and L'Attitude compared by listed weight, litres and full size. See which brand suits your trip.
 date: 2026-11-06

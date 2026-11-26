@@ -1,5 +1,5 @@
 ---
-seo_title: Sunscreen for trips and flights in India: SPF, PA and the 100 ml cabin bag rule
+seo_title: Sunscreen for trips and flights: SPF, PA and the 100 ml rule
 title: Sunscreen and skincare for trips: what to pack and what fits your cabin bag
 description: The 100 ml rule, what SPF and PA mean, how much sunscreen a trip really needs, and travel-size sunscreen, lip balm and moisturiser picks.
 date: 2026-11-04

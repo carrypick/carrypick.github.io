@@ -1,5 +1,5 @@
 ---
-seo_title: Packing cubes for travel: are they worth it, compression vs regular, and which to buy
+seo_title: Packing cubes: are they worth it? Compression vs regular
 title: Packing cubes: are they worth it, and which set to buy?
 description: What packing cubes do, compression vs regular cubes, how many you need for a cabin bag or a check-in trolley, whether they save weight, and three packing cube sets compared by their listed specs, plus a gadget organiser.
 date: 2026-11-23

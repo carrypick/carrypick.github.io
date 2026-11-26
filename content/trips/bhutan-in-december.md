@@ -1,5 +1,5 @@
 ---
-seo_title: Bhutan in December 2026: weather, snow, festivals, itinerary and what to wear
+seo_title: Bhutan in December 2026: weather, snow, festivals, itinerary
 title: Bhutan in December and January: weather, snow, festivals and a trip plan
 description: Plan Bhutan for December or January from India: temperatures in Paro, Thimphu and Punakha, the chances of snow, the Dochula festival on 13 December, National Day, black-necked cranes, a 6-day plan, flights and the road via Phuentsholing, SDF and what to wear.
 date: 2026-11-20

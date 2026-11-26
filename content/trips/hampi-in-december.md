@@ -1,5 +1,5 @@
 ---
-seo_title: Hampi in December 2026: weather, temple timings, tickets, a 2-day plan and how to reach
+seo_title: Hampi in December 2026: weather, tickets and a 2-day plan
 title: Hampi in December: weather, monuments, a 2-day plan and what to wear
 description: Plan Hampi for December or December end: IMD temperatures, the monument hours and where to buy the ASI ticket, the Virupaksha temple timings, a simple 2-day plan with the stone chariot, Hemakuta and Matanga hills, getting there from Bengaluru by the overnight train or a flight, and what to wear.
 date: 2026-11-24

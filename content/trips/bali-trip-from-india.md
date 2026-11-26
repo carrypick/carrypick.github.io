@@ -1,5 +1,5 @@
 ---
-seo_title: Bali trip from India (2026): visa for Indians, 5-6 day itinerary, honeymoon tips, weather in December
+seo_title: Bali trip from India 2026: visa, 6-day itinerary, honeymoon
 title: Bali trip from India: visa, a 6-day itinerary, honeymoon tips and the weather
 description: Plan a Bali trip from India: the visa on arrival for Indians (Rp 500,000 for 30 days, also online as an e-VOA), the All Indonesia arrival card, the Rp 150,000 Bali tourist levy, direct flights from Delhi and Bengaluru, a 5 or 6-day plan for Ubud, Seminyak, Uluwatu and Nusa Penida, honeymoon tips, the weather in December, veg food and getting around.
 date: 2026-11-21

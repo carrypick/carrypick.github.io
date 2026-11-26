@@ -1,5 +1,5 @@
 ---
-seo_title: Business trip packing list (2026): what to pack for a work trip, for men and women
+seo_title: Business trip packing list (2026) for men and women
 title: Business trip packing list: what to pack for a work trip
 description: A simple business trip packing list for India and abroad: documents, a laptop backpack or office tote, a cabin bag that keeps formals neat, chargers, an adapter and a power bank, grooming kit and formal shoes, with lists for men and women, overnight trips and international travel, and the cabin bag rules.
 date: 2026-11-24

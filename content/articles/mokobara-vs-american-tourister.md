@@ -1,5 +1,5 @@
 ---
-seo_title: Mokobara vs American Tourister: shell, weight, size, lock and warranty compared
+seo_title: Mokobara vs American Tourister: weight, size and warranty
 title: Mokobara vs American Tourister: trolley bags compared by the facts
 description: Mokobara or American Tourister? We compared their trolley listings on Amazon.in by shell, weight, full size and lock, and read both brands' warranty and airline damage terms.
 date: 2026-11-24

@@ -1,5 +1,5 @@
 ---
-seo_title: Andaman in December 2026: weather, rain, ferries, permits and what to wear
+seo_title: Andaman in December 2026: weather, ferries and permits
 title: Andaman in December and January: weather, ferries and what to pack
 description: Plan an Andaman trip for December or January: Port Blair weather and rain, ferries to Havelock (Swaraj Dweep) and Neil (Shaheed Dweep), Jolly Buoy, permits, beach and coral rules, the Island Tourism Festival and what to wear.
 date: 2026-11-16

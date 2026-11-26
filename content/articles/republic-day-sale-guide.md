@@ -1,5 +1,5 @@
 ---
-seo_title: Amazon Republic Day Sale 2027: dates so far, and what to check before you buy
+seo_title: Amazon Republic Day Sale 2027: dates and what to check
 title: Amazon Republic Day Sale 2027: dates so far, and how to choose bags and watches
 description: Amazon hasn't announced its 2027 Republic Day sale yet. Last year's began on 16 January. How to get ready, and what to check on bags and watches.
 date: 2026-11-06

@@ -169,7 +169,7 @@ def build(B, cfg, pages, lastmod):
                             for slug, name in pk_links)) if pk_links else ""
 
     title = "Visa-free countries for Indians %s: visa on arrival and e-visa list" % year
-    seo = "Visa free countries for Indians %s: visa on arrival, e-visa list" % year
+    seo = "Visa free countries for Indians %s and visa on arrival" % year
     desc = ("Which countries are visa free for Indian passport holders in %s? %d popular countries, from Thailand, Malaysia and Nepal to Dubai, "
             "Singapore and the UK: visa-free, visa on arrival, e-visa or visa needed, with stay, conditions and the official source for each, checked %s."
             % (year, n, B.fmt_date(checked)))

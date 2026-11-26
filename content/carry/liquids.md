@@ -1,6 +1,6 @@
 ---
 title: Can I carry liquids on a flight in India? The 100 ml rule
-seo_title: 100 ml liquid rule for flights in India 2026: shampoo, toothpaste, water
+seo_title: 100 ml liquid rule for flights in India 2026
 description: In your cabin bag, every liquid, gel or cream must be 100 ml or less, all in one clear 1-litre bag, on domestic flights too. What counts as a liquid, water bottles, makeup, medicines, baby food and check-in limits.
 item: Liquids, gels, creams and pastes
 date: 2026-11-15

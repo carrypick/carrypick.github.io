@@ -1,5 +1,5 @@
 ---
-seo_title: Bhutan by Road from India 2026: Phuentsholing Permit, Route from Siliguri, Kolkata and Delhi, Own Car Rules
+seo_title: Bhutan by road from India 2026: Phuentsholing permit, routes
 title: Bhutan by road from India: the Phuentsholing permit, the route and driving your own car
 description: How to go to Bhutan by road from India: reach Bagdogra, NJP or Hasimara, cross at Jaigaon and Phuentsholing, get the entry permit with a passport or voter ID, pay the SDF, book a guide, and the Nu 4,500 a day rule for your own car. Official rules, checked 21 Nov 2026.
 date: 2026-11-21

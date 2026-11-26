@@ -1,5 +1,5 @@
 ---
-seo_title: India e-Visa for tourists (2026): official website, cost, processing time and photo
+seo_title: India e-Visa for tourists 2026: official site, cost and photo
 title: India e-Visa for tourists: the official website, cost, how early to apply and the photo
 description: How to get India's e-Tourist Visa: the only official website, the 30-day, 1-year and 5-year visas, the fee table for US, UK, Canadian, Australian and EU citizens, when to apply, photo rules, entry airports and the e-Arrival card.
 date: 2026-11-21

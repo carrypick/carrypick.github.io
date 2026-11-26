@@ -1,5 +1,5 @@
 ---
-seo_title: Australia packing list for Indian students (2026): what to bring and what not to bring
+seo_title: Australia packing list for Indian students (2026)
 title: Australia packing list for Indian students: what to bring, and what not to
 description: A packing list for international students going to Australia from India: CoE and health cover (OSHC) papers, Australian Border Force rules on declaring Indian food, spices and medicines (3 months, English prescription), duty-free limits, which trolley to take, Type I plugs, and clothes for Australian summer and winter.
 date: 2026-11-23

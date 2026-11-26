@@ -1,5 +1,5 @@
 ---
-seo_title: Char Dham Yatra 2027: opening dates (to be announced), registration, helicopter booking, route plan and health tips
+seo_title: Char Dham Yatra 2027: dates, registration, helicopter, route
 title: Char Dham Yatra 2027: dates, registration and an 11-day route
 description: Plan the Char Dham Yatra 2027 to Yamunotri, Gangotri, Kedarnath and Badrinath: 2027 opening dates (to be announced) and the 2026 dates, how the free registration works on the official portal, WhatsApp and the 1364 helpline, booking a Kedarnath helicopter only on IRCTC, the Kedarnath trek, health advice for older pilgrims, monsoon stoppages, and an 11-day route from Haridwar.
 date: 2026-11-25

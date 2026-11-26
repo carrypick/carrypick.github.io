@@ -1,5 +1,5 @@
 ---
-seo_title: Jim Corbett in December 2026: safari zones open, online booking, weather and what to wear
+seo_title: Jim Corbett in December 2026: safari zones, booking, weather
 title: Jim Corbett in December: open safari zones, booking, weather and what to wear
 description: Plan a Jim Corbett safari in December or December end: which zones are open (Dhikala, Bijrani, Jhirna, Dhela and more), how to book the permit on the official site, safari rules, IMD temperatures, a 2-day plan, getting there from Delhi to Ramnagar, and what to wear on a cold open-jeep safari.
 date: 2026-11-24

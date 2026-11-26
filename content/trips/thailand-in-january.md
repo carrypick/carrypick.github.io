@@ -1,5 +1,5 @@
 ---
-seo_title: Thailand in January 2027: weather, where to go, festivals and crowds
+seo_title: Thailand in January 2027: weather, where to go, festivals
 title: Thailand in January: weather by region, where to go and festivals
 description: Plan Thailand for January 2027: Thai Meteorological Department averages for Bangkok, Chiang Mai, Phuket, Pattaya and Ko Samui, which coast is drier, the Bo Sang Umbrella Festival, Children's Day, the Similan Islands season, cool nights in the north, the Republic Day long weekend and the entry rules for Indians.
 date: 2026-11-24

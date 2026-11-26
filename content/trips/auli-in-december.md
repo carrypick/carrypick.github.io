@@ -1,5 +1,5 @@
 ---
-seo_title: Auli in December 2026: snow, skiing, weather, the ropeway and how to reach
+seo_title: Auli in December 2026: snow, skiing, ropeway, how to reach
 title: Auli in December: snow, skiing, weather and what to wear
 description: Plan Auli for December or December end: will there be snow, when GMVN's ski courses start, IMD temperatures for Joshimath, the closed ropeway and the road up, a 3-day plan with Gorson Bugyal, getting there from Delhi and Rishikesh, and what to wear.
 date: 2026-11-24

@@ -1,5 +1,5 @@
 ---
-seo_title: Power bank rules on flights 2026: limits by airline, FAA, EASA and DGCA
+seo_title: Power bank rules on flights 2026: limits by airline, DGCA
 title: Power bank rules on flights worldwide: limits, how many and in-flight use
 description: Can you take a power bank on a plane? The 100 Wh limit, how many you can carry, which airlines ban using one in flight (Emirates, Singapore Airlines, Etihad, Lufthansa) and how to turn mAh into Wh. Read on each regulator's and airline's own page.
 date: 2026-11-21

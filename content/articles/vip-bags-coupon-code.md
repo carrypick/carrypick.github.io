@@ -1,5 +1,5 @@
 ---
-seo_title: VIP Bags coupon code, checked {{coupon-checked:VIP Bags}}: VIP, Skybags, Aristocrat and Caprese
+seo_title: VIP Bags coupon code, checked 26 Nov 2026
 title: VIP Bags coupon code
 description: Is there a VIP Bags coupon code that works? We test it in VIP's own cart and show the date of our last check. Covers VIP, Skybags, Aristocrat and Caprese bags on vipbags.com.
 date: 2026-11-15

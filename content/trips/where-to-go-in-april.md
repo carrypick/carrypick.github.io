@@ -1,5 +1,5 @@
 ---
-seo_title: Places to visit in April 2027 in India and abroad: hill stations, Kashmir tulips, Char Dham and spring trips
+seo_title: Places to visit in April 2027 in India and abroad
 title: Where to go in April: places to visit in India and abroad
 description: The best places to visit in April 2027, in India and outside India: hill stations as the heat starts (Shimla, Manali, Darjeeling, Ooty, Munnar, Coorg), the tulip garden in Srinagar, the Char Dham temples opening, the last safari months, the Andaman, and abroad Japan, Europe, Central Asia, Bhutan, Nepal, Vietnam and Bali, with April's long weekends, including the 10-day Ram Navami and Mahavir Jayanti break.
 date: 2026-11-25

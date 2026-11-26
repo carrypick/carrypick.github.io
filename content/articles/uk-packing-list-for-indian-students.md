@@ -1,5 +1,5 @@
 ---
-seo_title: UK packing list for Indian students (2026): things to carry to the UK from India
+seo_title: UK packing list for Indian students (2026)
 title: UK packing list for Indian students: what to carry from India
 description: A packing list for Indian students going to the UK: the documents GOV.UK lists for a Student visa (passport, CAS, eVisa), when you can arrive, student baggage on Air India and Virgin Atlantic, which trolley fits 23 kg, the UK's rules on Indian food, sweets and medicines, Type G plugs, and clothes for cold, wet weather.
 date: 2026-11-23

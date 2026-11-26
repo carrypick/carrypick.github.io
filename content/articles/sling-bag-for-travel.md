@@ -1,5 +1,5 @@
 ---
-seo_title: Sling bag for travel: anti-theft slings for men and women, size and what fits
+seo_title: Sling bag for travel: anti-theft slings, size, what fits
 title: Sling bag for travel: which one for men and women
 description: How to choose a sling bag for travel: chest sling vs crossbody vs waist bag, what anti-theft features really help, what fits (passport, phone, power bank, tablet), zips vs flaps, weight, and travel slings for men and women compared by their listed sizes, pockets and closures.
 date: 2026-11-23

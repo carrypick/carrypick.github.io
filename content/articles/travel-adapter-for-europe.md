@@ -1,5 +1,5 @@
 ---
-seo_title: Travel adapter for Europe from India: plug types C, E, F, J, L by country, 230 V
+seo_title: Travel adapter for Europe from India: plug types by country
 title: Which travel adapter do I need for Europe?
 description: Most of Europe uses round-pin types C, E and F at 230 V, but Switzerland, Italy, Denmark, the UK and Ireland differ. Plug types for 26 European countries, whether your Indian charger fits, and which adapter to pack for a Schengen trip.
 date: 2026-11-23

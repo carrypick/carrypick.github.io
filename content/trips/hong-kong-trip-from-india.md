@@ -1,5 +1,5 @@
 ---
-seo_title: Hong Kong trip from India (2026): visa for Indians (PAR), 4-day itinerary with Disneyland, weather in December
+seo_title: Hong Kong trip from India 2026: PAR visa, 4-day plan, Disney
 title: Hong Kong trip from India: pre-arrival registration, a 4-day plan with Disneyland and the weather in December
 description: Plan a Hong Kong trip from India: the free pre-arrival registration (PAR) that lets Indians visit for up to 14 days without a visa, direct flights from Delhi, Mumbai, Bengaluru, Chennai and Hyderabad, a 4-day itinerary with Disneyland, Ocean Park and Macau, the weather in December, the Octopus card, and veg food tips.
 date: 2026-11-21

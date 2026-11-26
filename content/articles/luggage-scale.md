@@ -1,5 +1,5 @@
 ---
-seo_title: Luggage weighing scale: how to use one, accuracy, tare and airline limits (India)
+seo_title: Luggage weighing scale: how to use it, accuracy and tare
 title: Luggage scale: how to use one and avoid extra baggage fees
 description: Why weigh your bag at home, how to use a hanging digital luggage scale step by step, what tare and data lock do, how accurate they are, airline limits for IndiGo, Air India, Emirates and more, and two luggage scales compared by their listed specs.
 date: 2026-11-25

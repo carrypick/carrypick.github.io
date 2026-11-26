@@ -1,5 +1,5 @@
 ---
-seo_title: Tote bag for office and travel: laptop totes for women, zip, size and flight rules
+seo_title: Tote bag for office and travel: laptop totes for women
 title: Tote bag for office and travel, with a laptop compartment
 description: How to choose a tote bag for work and travel: laptop compartment sizes (13, 14 and 15.6 inch), zip vs open top, a trolley sleeve, weight, whether it fits as your personal bag on IndiGo, Air India and Akasa, and office totes compared by their listed size, laptop fit and pockets.
 date: 2026-11-23

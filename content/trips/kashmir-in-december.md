@@ -1,5 +1,5 @@
 ---
-seo_title: Kashmir in December 2026: weather, snow in Gulmarg, what to wear and pack
+seo_title: Kashmir in December 2026: weather, Gulmarg snow, what to wear
 title: Kashmir in December: weather, snow and what to wear
 description: Plan Srinagar, Gulmarg, Pahalgam and Sonamarg for December: IMD temperatures, when snow comes, Chillai Kalan, the Gulmarg Gondola, trains and roads in winter, phone SIMs, and what to wear and pack.
 date: 2026-11-15

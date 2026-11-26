@@ -178,7 +178,7 @@ def build(B, cfg, deals, pages, lastmod):
     data = json.dumps(rows, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     n = len(rows)
     title = "Excess baggage calculator: allowance and overweight fee by airline"
-    seo = "Excess baggage calculator: baggage allowance and overweight fee by airline"
+    seo = "Excess baggage calculator: overweight fee by airline"
     desc = ("Type what your cabin bag, personal item and checked bags weigh. See your airline's allowance by fare, how many kg "
             "you're over and the official excess baggage charge, for %d airlines. Free, no sign-up." % n)
     dom_names = B.and_list(e(r["name"]) for r in dom)

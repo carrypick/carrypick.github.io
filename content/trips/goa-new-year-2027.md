@@ -1,5 +1,5 @@
 ---
-seo_title: Goa New Year 2027: New Year's Eve party guide, music and traffic rules, where to stay
+seo_title: Goa New Year 2027: party guide, rules and where to stay
 title: Goa New Year 2027: parties, beaches, rules and how to plan the night
 description: Planning New Year's Eve 2027 in Goa? What's announced so far, North or South Goa, the midnight music rule, last year's traffic plan, beach fines, safety, getting there and where to stay.
 date: 2026-11-22

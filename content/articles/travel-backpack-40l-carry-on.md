@@ -1,5 +1,5 @@
 ---
-seo_title: 40L carry-on travel backpack: will it fit as cabin baggage? (India and worldwide)
+seo_title: 40L carry-on travel backpack: will it fit as cabin baggage?
 title: 40 litre carry-on travel backpack: which airlines it fits
 description: Will a 40 L travel backpack fit as cabin baggage? We checked three 40–45 L backpacks by their listed size against the cabin limits of IndiGo, Air India, Emirates, Qatar Airways, Lufthansa, US airlines and more, plus the 7 kg rule.
 date: 2026-11-23

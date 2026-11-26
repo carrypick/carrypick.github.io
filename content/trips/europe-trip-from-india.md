@@ -1,5 +1,5 @@
 ---
-seo_title: Europe trip from India (2026): Schengen visa for Indians, 10-day Switzerland, Paris and Italy itinerary
+seo_title: Europe trip from India 2026: Schengen visa and 10-day plan
 title: Europe trip from India: the Schengen visa, a 10-day Switzerland, Paris and Italy plan, and the best time to go
 description: Plan your first Europe trip from India: the Schengen visa for Indians (which country to apply to, documents, travel insurance, the €90 fee and the 15-day processing time), the multi-year visa rule for Indians, direct flights from Indian cities to Zurich, Paris, Milan and Rome, a 10-day Switzerland, France and Italy itinerary, the Swiss Travel Pass, the weather by month and veg food tips.
 date: 2026-11-21

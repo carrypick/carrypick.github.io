@@ -1,5 +1,5 @@
 ---
-seo_title: Maldives trip from India (2026): visa for Indians, resort vs local island, 5-day plan, honeymoon tips
+seo_title: Maldives trip from India 2026: visa, resort vs local island
 title: Maldives trip from India: visa, resort or local island, a 5-day plan and honeymoon tips
 description: Plan a Maldives trip from India: the free visa on arrival and what Maldives Immigration asks for, the IMUGA traveller declaration, direct flights from Indian cities, resort vs local-island stays, speedboat and seaplane transfers, the green tax (US$12 or US$6 a night), a 5-day plan, honeymoon tips, the weather in December, veg food and rules on alcohol and idols.
 date: 2026-11-21

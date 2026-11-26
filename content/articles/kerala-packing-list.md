@@ -1,5 +1,5 @@
 ---
-seo_title: Kerala packing list (2026–27): what to pack and wear for Kochi, Munnar, the backwaters and beaches
+seo_title: Kerala packing list (2026–27): what to pack and wear
 title: Kerala packing list: what to pack and wear for Kochi, Munnar, Alleppey and the beaches
 description: A Kerala packing list for November to February: IMD temperatures for Kochi and the coast, cold mornings in Munnar, light cotton for the heat, a warm layer for the hills, mosquito repellent for the backwaters, a waterproof phone pouch, temple dress rules from the Padmanabhaswamy temple, a 7-day list, and lists for women, men and kids.
 date: 2026-11-25

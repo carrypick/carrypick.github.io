@@ -1,5 +1,5 @@
 ---
-seo_title: Travel adapter for Australia and New Zealand from India: type I plug, 230 V
+seo_title: Travel adapter for Australia and New Zealand: type I, 230 V
 title: Which travel adapter do I need for Australia and New Zealand?
 description: Australia and New Zealand use type I plugs (two angled flat pins and an earth pin) at 230 V and 50 Hz. Indian plugs don't fit, but Indian chargers work. What to pack for a holiday or for studying in Australia, with two picks.
 date: 2026-11-23

@@ -1,5 +1,5 @@
 ---
-seo_title: India SIM card, eSIM, UPI and cash for tourists (2026): what foreigners need
+seo_title: India SIM card, eSIM, UPI and cash for tourists (2026)
 title: SIM card, UPI and money in India for tourists: what foreign visitors need
 description: Getting a local SIM in India as a foreigner (passport, visa, live photo), eSIM options, whether tourists can use UPI (UPI One World), how much cash you can bring in, and when to declare it.
 date: 2026-11-21

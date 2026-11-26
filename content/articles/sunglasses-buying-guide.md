@@ -1,5 +1,5 @@
 ---
-seo_title: Sunglasses buying guide for India: polarized vs UV400, frame sizes and face shapes
+seo_title: Sunglasses guide for India: polarized vs UV400, frame size
 title: Sunglasses buying guide: UV protection, polarized lenses and the right size
 description: How to choose sunglasses in India: what 100% UV and UV400 mean, when polarized lenses help, how to read frame sizes like 56-19-140, shapes for your face, and picks for men and women.
 date: 2026-11-20

@@ -1,5 +1,5 @@
 ---
-seo_title: Toiletry bag for travel for men and women: hanging or flat, and which to buy
+seo_title: Toiletry bag for travel: hanging or flat, which to buy
 title: Toiletry bag for travel: hanging or flat, for men and women
 description: How to choose a toiletry bag for travel: hanging vs flat, size in litres, water-resistant lining, weight, and how it works with the 100 ml liquids bag at airport security, with three toiletry bags for men and women compared by their listed specs.
 date: 2026-11-23

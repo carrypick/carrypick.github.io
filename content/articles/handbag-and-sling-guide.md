@@ -1,5 +1,5 @@
 ---
-seo_title: Handbag, tote or sling bag? How to choose for work, flights and travel in India
+seo_title: Handbag, tote or sling bag? How to choose for travel
 title: Handbag, tote or sling: how to choose for work and travel
 description: Tote, satchel or crossbody sling? Compare them for work and travel, see airline personal bag limits in India, and find picks for women and men.
 date: 2026-11-04

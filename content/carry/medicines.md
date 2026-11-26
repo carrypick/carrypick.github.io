@@ -1,6 +1,6 @@
 ---
 title: Can I carry medicines on a flight in India?
-seo_title: Medicines in flight rules India 2026: tablets, syrup, insulin, prescription
+seo_title: Medicines in flight India 2026: tablets, syrup, insulin
 description: Yes. Keep medicines in your cabin bag. When you need a prescription, syrups over 100 ml, insulin and ice packs, and IndiGo's check-in rule for medicines without a prescription.
 item: Medicines
 date: 2026-11-10

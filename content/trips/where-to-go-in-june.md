@@ -1,5 +1,5 @@
 ---
-seo_title: Places to visit in June 2027 in India and abroad: Ladakh, Spiti, Kashmir, Char Dham and summer trips before the monsoon
+seo_title: Places to visit in June 2027 in India and abroad
 title: Where to go in June: Ladakh, the hills and summer trips abroad
 description: The best places to visit in June 2027 in India and outside India: IMD's normal monsoon dates for Kerala, Mumbai and Delhi, Ladakh and Spiti when the high roads open, Kashmir, Manali and Shimla in the school holidays, Sikkim and Darjeeling in the rains, the Char Dham yatra before the monsoon, and abroad Europe, the UK, Bali, Russia, Canada, Kazakhstan and Kenya, with the Muharram holiday of June 2027.
 date: 2026-11-26

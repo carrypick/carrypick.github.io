@@ -1,5 +1,5 @@
 ---
-seo_title: Gulmarg in December 2026: weather, snowfall, first week vs last week, gondola booking
+seo_title: Gulmarg in December 2026: snowfall, weather, gondola booking
 title: Gulmarg in December: weather, snow, the gondola and what to wear
 description: Plan Gulmarg for December: IMD temperatures, the chances of snow in the first week and the last week, Gulmarg Gondola Phase 1 and Phase 2 and how to book online, skiing, the Tangmarg road in snow, and what to wear.
 date: 2026-11-22

@@ -1,5 +1,5 @@
 ---
-seo_title: Solo female travel in India (2026): safety tips, official helplines, trains and what to pack
+seo_title: Solo female travel in India (2026): safety tips, helplines
 title: Solo female travel in India: practical tips, helplines and trains
 description: Travelling alone in India as a woman: the official helplines (112, Women Helpline 181, Railway helpline 139), the women's berth quota and Meri Saheli on Indian Railways, tips for cabs, stays and sightseeing, easy first solo trips, advice for foreign women, and what to pack.
 date: 2026-11-24

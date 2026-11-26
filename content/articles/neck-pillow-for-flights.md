@@ -1,5 +1,5 @@
 ---
-seo_title: Neck pillow for flights: memory foam vs inflatable, and which to buy
+seo_title: Neck pillow for flights: memory foam vs inflatable
 title: Neck pillow for flights: memory foam or inflatable?
 description: How to choose a travel neck pillow for a long flight, a night train or a bus: memory foam vs inflatable, packed size, weight, washable covers and eye masks, with three neck pillows compared by their listed specs.
 date: 2026-11-23

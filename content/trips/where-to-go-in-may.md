@@ -1,5 +1,5 @@
 ---
-seo_title: Places to visit in May 2027 in India and abroad: summer vacation hill stations, Char Dham, Ladakh and family trips
+seo_title: Places to visit in May 2027 in India and abroad
 title: Where to go in May: summer vacation places in India and abroad
 description: The best places to visit in May 2027, the school summer holiday month, in India and outside India: hill stations and cool places (Kashmir, Manali, Shimla, Mussoorie, Nainital, Darjeeling, Meghalaya, Ooty, Munnar), the Char Dham yatra, when the roads to Ladakh and Spiti open, heat-wave safety, and abroad Europe, Japan, Bali, Georgia, Kazakhstan, Uzbekistan, Bhutan and Singapore, with the Bakrid and Buddha Purnima long weekends of May 2027.
 date: 2026-11-25

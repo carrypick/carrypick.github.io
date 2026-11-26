@@ -1,6 +1,6 @@
 ---
 title: Can I carry pickle on a flight in India?
-seo_title: Pickle (achar) in flight India 2026: IndiGo, Air India, cabin and check-in
+seo_title: Pickle (achar) in flight India 2026: cabin and check-in
 description: Pack pickle in your check-in bag. IndiGo doesn't allow it in the cabin, and Air India doesn't allow chilli pickle there. Oily pickle and the 100 ml rule, how much you can take and how to pack it.
 item: Pickle
 date: 2026-11-15

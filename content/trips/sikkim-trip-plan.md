@@ -1,5 +1,5 @@
 ---
-seo_title: Sikkim trip plan 2026–27: Gangtok, best time to visit, North Sikkim permit, Tsomgo Lake and a 6-day itinerary
+seo_title: Sikkim trip plan 2026–27: permits, Tsomgo Lake, 6-day plan
 title: Sikkim trip plan: Gangtok, permits, the best time to go and a 6-day route
 description: Plan a Sikkim trip: the best time to visit Gangtok with IMD averages for every month, getting there from Bagdogra and NJP (no Pakyong flights), NH10 road status after the 2026 landslides, permits for Tsomgo Lake, Nathu La and North Sikkim (Lachung, Lachen, Gurudongmar, Yumthang), the foreigner permit on e-FRRO, the plastic bottle ban and the Rs 50 tourist fee, and a 6-day plan.
 date: 2026-11-25

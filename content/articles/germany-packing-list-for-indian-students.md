@@ -1,5 +1,5 @@
 ---
-seo_title: Germany packing list for Indian students (2026): things to take to Germany from India
+seo_title: Germany packing list for Indian students (2026)
 title: Packing list for Indian students going to Germany
 description: Things to take to Germany from India as a student: the papers from your German visa file (admission letter, blocked account, health insurance), German customs relief for students' clothes and laptops, the EU's no meat or dairy rule, medicines (3 months; certificate for narcotics), Type C and F plugs, student baggage, and winter clothes.
 date: 2026-11-23

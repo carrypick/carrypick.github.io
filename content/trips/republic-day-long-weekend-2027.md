@@ -1,5 +1,5 @@
 ---
-seo_title: Republic Day long weekend 2027: dates, leave plan and 4-day trip ideas
+seo_title: Republic Day long weekend 2027: dates and 4-day trip ideas
 title: Republic Day long weekend 2027: the dates, how to stretch it, and where to go
 description: Republic Day 2027 is on Tuesday 26 January (DoPT list). Take Monday off for a 4-day weekend, or 4 days for 9. Dates calendar, train booking opening dates, and 4-day plans for Jaipur, Goa, Kerala and Manali.
 date: 2026-11-06

@@ -1,5 +1,5 @@
 ---
-seo_title: Spiti Valley trip guide 2027: best time, Shimla–Kinnaur and Manali–Kunzum routes, permits and an 8-day plan
+seo_title: Spiti Valley trip guide 2027: best time, routes, 8-day plan
 title: Spiti Valley trip guide: best time, routes, permits and an 8-day plan
 description: Plan a Spiti Valley trip for 2027: the best time to visit, the two roads in (Shimla–Kinnaur all year, Manali–Kunzum La only in summer), when Kunzum opened in 2026, permits for foreigners from the Kinnaur and Lahaul-Spiti districts, altitude, an 8-day Spiti circuit, Spiti in winter and what to wear.
 date: 2026-11-25

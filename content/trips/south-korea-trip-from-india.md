@@ -1,5 +1,5 @@
 ---
-seo_title: South Korea trip from India (2026): Korea visa for Indians (₹3,600 fee, documents, processing time), Jeju without a visa, flights, 7-day plan, weather
+seo_title: South Korea trip from India 2026: visa, Jeju, 7-day plan
 title: South Korea trip from India: the Korea visa for Indians, flights to Seoul, a 7-day plan and the best time to go
 description: Plan a South Korea trip from India: the Korean tourist visa for Indians (₹3,600 visa fee plus the VFS charge, documents, 15 to 25 working days), visa-free Jeju for 30 days, the transit rule with a US visa, the e-Arrival Card, flights to Seoul, a 7-day Seoul, Busan and Gyeongju plan, the weather by month and veg food tips.
 date: 2026-11-22

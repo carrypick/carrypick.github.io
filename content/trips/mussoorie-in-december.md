@@ -1,5 +1,5 @@
 ---
-seo_title: Mussoorie in December 2026: weather, snow chances, Winterline, a 2–3 day plan and what to wear
+seo_title: Mussoorie in December 2026: snow chances, Winterline, plan
 title: Mussoorie in December: weather, snow, the Winterline and what to wear
 description: Plan Mussoorie for December or December end: IMD temperatures, the real chances of snow, the Winterline sunsets, a 2-day and 3-day plan with Mall Road, Gun Hill, Landour, George Everest's house and Dhanaulti, getting there from Delhi and Dehradun, New Year traffic, and what to wear.
 date: 2026-11-24

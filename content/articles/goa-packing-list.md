@@ -1,5 +1,5 @@
 ---
-seo_title: Goa packing list for December 2026: what to pack for women, men, couples and kids
+seo_title: Goa packing list for December 2026: women, men, kids
 title: Goa packing list: what to pack for a Goa trip in December and January
 description: A simple Goa packing list for winter: clothes for hot days and cool evenings, beach and church outfits, shoes, sun care, what to pack for women, men and kids, and what not to fly home with.
 date: 2026-11-15

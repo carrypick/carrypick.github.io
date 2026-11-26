@@ -1,5 +1,5 @@
 ---
-seo_title: 32 inch trolley bag dimensions in cm, and is it allowed in flight?
+seo_title: 32 inch trolley bag in cm: size and is it allowed in flight?
 title: 32 inch trolley bag: size in cm, weight and is it allowed in flight?
 description: A 32 inch trolley is 81.3 cm tall. We read 11 of the biggest bags on Amazon.in: none is within the 158 cm limit of Indian airlines. See which airlines take one.
 date: 2026-11-15

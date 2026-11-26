@@ -1,5 +1,5 @@
 ---
-seo_title: Winter jacket for travel (2026): which jacket for a Kashmir, Manali, Gulmarg or Europe trip, down vs synthetic, waterproof
+seo_title: Winter jacket for travel (2026): Kashmir, Manali or Europe
 title: Winter jacket for travel: what to buy for Kashmir, Manali, Gulmarg or a Europe winter trip
 description: How to choose a winter jacket for a trip: how cold Kashmir, Gulmarg, Manali, Shimla and Europe get in December (IMD and WMO averages), down vs synthetic fill, what fill power means, how to read "water repellent", "water resistant" and "waterproof" on a listing, plus the thermals, gloves and cap to wear with it. Picks for men and women.
 date: 2026-11-23

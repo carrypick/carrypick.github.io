@@ -1,5 +1,5 @@
 ---
-seo_title: Rishikesh packing list (2026–27): what to pack and wear for rafting, camps, the aarti and temples
+seo_title: Rishikesh packing list (2026–27): rafting, camps, temples
 title: Rishikesh packing list: what to pack and wear for rafting, camps and the Ganga aarti
 description: A Rishikesh packing list for October to March: IMD temperatures from Dehradun, the nearest station, what to wear for rafting in cold Ganga water, a riverside camp night, the evening aarti and temples, walking shoes, sun care, a 3-day and 5-day list, and lists for women, men and kids.
 date: 2026-11-25

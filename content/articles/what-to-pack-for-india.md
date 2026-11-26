@@ -1,5 +1,5 @@
 ---
-seo_title: What to pack for India (2026): what to wear as a woman, by month, plugs and a checklist
+seo_title: What to pack for India (2026): what to wear, by month
 title: What to pack for India: what to wear, by season and region, plus plugs and a checklist
 description: A packing list for a trip to India from abroad: what to wear as a woman or a man, temple dress, what to pack for October to March and for summer or the monsoon, India's plugs and voltage, medicines, and the bag to take.
 date: 2026-11-21

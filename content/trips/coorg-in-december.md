@@ -1,5 +1,5 @@
 ---
-seo_title: Coorg in December 2026: weather, temperature, a 2–3 day plan, from Bangalore and what to wear
+seo_title: Coorg in December 2026: weather, 2–3 day plan from Bangalore
 title: Coorg in December and January: weather, a 2–3 day plan and what to wear
 description: Plan Coorg (Kodagu) for December or December end: IMD temperatures, misty mornings but no snow, a 2-day and 3-day plan with Abbey Falls, Raja's Seat, Dubare and the Golden Temple, the trip from Bangalore, and what to wear.
 date: 2026-11-22

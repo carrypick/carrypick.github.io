@@ -1,5 +1,5 @@
 ---
-seo_title: Trolley bag capacity: how many kg and litres by size (55, 65, 75 cm)
+seo_title: Trolley bag capacity in kg and litres: 55, 65, 75 cm
 title: Trolley bag capacity: how many kg and litres each size holds
 description: How many kg can a 55, 65 or 75 cm trolley hold? Litres listed on 80 models on Amazon.in, a rough kg guide, and real packing lists for 7 kg and 15 kg.
 date: 2026-11-06

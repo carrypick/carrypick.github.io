@@ -1,5 +1,5 @@
 ---
-seo_title: Nainital in December 2026: weather, snowfall chances, a 2–3 day plan and what to wear
+seo_title: Nainital in December 2026: weather, snow chances, 2–3 days
 title: Nainital in December: weather, snow, a 2–3 day plan and what to wear
 description: Plan Nainital for December or December end: IMD temperatures, the real chances of snow, a 2-day and 3-day plan with Naini Lake, Snow View, Tiffin Top, Bhimtal and Mukteshwar, getting there from Delhi via Kathgodam, Christmas and New Year traffic, and what to wear.
 date: 2026-11-24

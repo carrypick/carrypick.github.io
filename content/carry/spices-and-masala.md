@@ -1,6 +1,6 @@
 ---
 title: Can I carry spices and masala on a flight in India?
-seo_title: Masala and spices in flight India 2026: chilli powder, cabin and check-in
+seo_title: Masala and spices in flight India 2026: cabin and check-in
 description: Spices can't go in your cabin bag, whether powder or whole, including chilli and masala. Pack them in check-in. What the rules say, whole spices, other powders and how to pack spices so the smell stays in.
 item: Spice powders (chilli, masala)
 date: 2026-11-15

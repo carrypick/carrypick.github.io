@@ -114,7 +114,7 @@ def build_shoe_size(B, cfg, deals, pages, lastmod):
     src = " and ".join(f'<a href="{e(s["url"])}" target="_blank" rel="noopener">{e(s["label"])}</a>' for s in data["sources"])
     checked = B.fmt_date(data["checked"])
     title = "Shoe size chart for India: India/UK to US, EU and cm"
-    seo = "Shoe size chart India: UK to US, EU and cm for men, women and kids"
+    seo = "Shoe size chart India: UK to US, EU and cm"
     desc = ("Free shoe size converter for India. Measure your foot in cm or pick your size, and see the India/UK, US and EU size "
             "for men, women and kids, from Bata India's and Campus's size charts.")
     body = f"""{_head(B, title, "Shoe size converter", "A free tool. Updated " + B.fmt_date(SHOE_UPDATED), "shoes", "shoe")}
@@ -231,7 +231,7 @@ def build_power_bank(B, cfg, deals, pages, lastmod):
     if picks:
         picks_html = '<h2 id="picks">Power banks we picked</h2><div class="grid">%s</div>' % "".join(B.card(cfg, d, "../") for d in picks)
     title = "Is my power bank allowed on the flight? mAh to Wh checker"
-    seo = "Power bank allowed in flight? mAh to Wh checker for IndiGo, Air India, Akasa"
+    seo = "Power bank allowed in flight? mAh to Wh checker"
     desc = ("Type your power bank's mAh and see its watt-hours (Wh) and whether IndiGo, Air India and Akasa Air allow it in the cabin. "
             "Power banks are never allowed in check-in bags. Rules checked on %s." % checked)
     body = f"""{_head(B, title, "Power bank flight checker", "A free tool. Rules checked on " + checked, "travel-gear", "shield")}

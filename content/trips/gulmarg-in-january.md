@@ -1,5 +1,5 @@
 ---
-seo_title: Gulmarg in January 2027: snow, skiing, gondola, weather and first week vs last week
+seo_title: Gulmarg in January 2027: snow, skiing, gondola and weather
 title: Gulmarg in January: snow, skiing and the gondola
 description: Plan Gulmarg for January 2027: IMD January averages and how much snow a January can bring, the first week versus the last week, IISM's January ski courses, the Gulmarg Gondola in deep snow, the Tangmarg road, Republic Day, a 3-day plan and what to wear.
 date: 2026-11-24

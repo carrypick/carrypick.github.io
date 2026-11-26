@@ -1,5 +1,5 @@
 ---
-seo_title: Best time to visit India (2026–27) and a Golden Triangle itinerary for 5 or 7 days
+seo_title: Best time to visit India 2026–27, plus a Golden Triangle plan
 title: Best time to visit India, and first-trip routes: the Golden Triangle, Rajasthan, Kerala and Goa
 description: When to visit India by region and month (winter, summer and the monsoon, with IMD dates), a 5-day and 7-day Golden Triangle itinerary for Delhi, Agra and Jaipur, the Taj Mahal's hours and Friday closing, and how to add Rajasthan, Varanasi, Kerala or Goa.
 date: 2026-11-21

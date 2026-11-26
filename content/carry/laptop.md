@@ -1,6 +1,6 @@
 ---
 title: Can I carry a laptop on a flight in India?
-seo_title: Laptop in flight: cabin bag or check-in? IndiGo, Air India rules 2026
+seo_title: Laptop in flight: cabin bag or check-in? Rules 2026
 description: A laptop is fine in your cabin bag on every airline. In check-in the airlines differ: IndiGo allows it, Air India wants the battery taken out. Laptop bags, chargers, two laptops and security.
 item: Laptop
 date: 2026-11-15

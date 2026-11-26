@@ -1,5 +1,5 @@
 ---
-seo_title: Gadget organiser bag for travel: hard case vs pouch, size, and which to buy
+seo_title: Gadget organiser bag for travel: hard case vs pouch
 title: Gadget organiser: hard case or soft pouch?
 description: How to choose a gadget organiser or cable organiser bag for travel and work: hard case vs soft pouch vs double layer, what size fits a laptop charger, pockets and loops, weight, with five gadget organisers for men and women compared by their listed specs.
 date: 2026-11-23

@@ -1,5 +1,5 @@
 ---
-seo_title: Lightest cabin trolley bags and lightweight luggage, by empty weight
+seo_title: Lightest cabin trolley bags, by empty weight
 title: Lightest cabin trolley bags and lightweight luggage: empty weights compared
 description: The bag's own weight counts against your 7 kg cabin allowance. We sorted our cabin, medium and large trolleys by the empty weight their listings state.
 date: 2026-11-23

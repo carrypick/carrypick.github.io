@@ -1,5 +1,5 @@
 ---
-seo_title: Pondicherry in December 2026: weather, rain, Christmas, New Year and a 3-day plan
+seo_title: Pondicherry in December 2026: weather, Christmas, 3-day plan
 title: Pondicherry in December: weather, rain, a 3-day plan and what to wear
 description: Plan Pondicherry (Puducherry) for December or December end: IMD temperatures and rain (December is the wettest month of the winter), cyclone warnings, the French Quarter, the Promenade, Sri Aurobindo Ashram hours, how to visit the Matrimandir at Auroville, Paradise Beach, Christmas and New Year, getting there from Chennai and Bengaluru, and what to wear.
 date: 2026-11-24

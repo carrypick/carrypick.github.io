@@ -1,5 +1,5 @@
 ---
-seo_title: Darjeeling in December 2026: weather, snowfall chances, toy train and what to wear
+seo_title: Darjeeling in December 2026: weather, snow chances, toy train
 title: Darjeeling in December and January: weather, snow and what to wear
 description: Plan Darjeeling for December or January: IMD temperatures, the real chances of snowfall, Tiger Hill sunrise and its vehicle pass, toy train joy rides, Sandakphu snow, getting there from Bagdogra and NJP, and what to wear.
 date: 2026-11-16

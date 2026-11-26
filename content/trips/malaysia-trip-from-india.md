@@ -1,5 +1,5 @@
 ---
-seo_title: Malaysia trip from India (2026): visa-free for Indians till 31 Dec 2026, MDAC, 5-day itinerary, weather in December
+seo_title: Malaysia trip from India 2026: visa-free, MDAC, 5-day plan
 title: Malaysia trip from India: visa-free entry, the MDAC, a 5-day plan and the weather in December
 description: Plan a Malaysia trip from India: visa-free stays of up to 30 days for Indians until 31 December 2026, the free MDAC arrival card, direct flights from Indian cities, a 5-day plan for Kuala Lumpur, Genting and Langkawi or Penang, the weather in December, a Singapore + Malaysia combo, getting around and Indian food.
 date: 2026-11-21

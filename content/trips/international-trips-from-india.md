@@ -1,5 +1,5 @@
 ---
-seo_title: International trips from India (2026–27): foreign trips by flight time, best months and visa type
+seo_title: International trips from India 2026–27 by flight time and visa
 title: International trips from India: where to go, by flight time, season and visa
 description: Choosing a foreign trip from India? Compare Nepal, Bhutan, Sri Lanka, the Maldives, Dubai, Thailand, Vietnam, Malaysia, Hong Kong, South Korea, the Philippines, Cambodia, Singapore, Egypt, Kenya, the Seychelles, Mauritius, Russia, Oman, Uzbekistan, Bali, Japan, Europe, the UK, Australia, Canada, the USA and New Zealand by distance and rough flying time from Delhi and Mumbai, the best months, the visa type for Indians, and whether each suits a honeymoon or a family trip. Links to our trip guides, packing lists and baggage rules.
 date: 2026-11-21

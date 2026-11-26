@@ -1,5 +1,5 @@
 ---
-seo_title: Meghalaya in December 2026: weather, temperature, a 4–5 day itinerary, snowfall and what to wear
+seo_title: Meghalaya in December 2026: weather and a 4–5 day itinerary
 title: Meghalaya in December and January: weather, itinerary and what to wear
 description: Plan Meghalaya for December or December end: IMD temperatures for Shillong and Cherrapunji, the truth about snowfall, a 4-day and 5-day itinerary with Sohra, Dawki and Mawlynnong, Christmas in Shillong, guest registration, getting there from Guwahati and what to wear.
 date: 2026-11-22

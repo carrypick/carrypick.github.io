@@ -1,5 +1,5 @@
 ---
-seo_title: Grooming kit gift for husband: trimmer vs grooming kit, run time and travel tips (India)
+seo_title: Grooming kit or trimmer? Run time and travel tips (India)
 title: Grooming kit or trimmer for men: how to choose one, and gift it
 description: Trimmer or all-in-one grooming kit? Blades and combs, run time, Type-C or USB charging, wet and dry use, how to fly with a trimmer in India, and grooming kit gift ideas for a husband, boyfriend or brother.
 date: 2026-11-21

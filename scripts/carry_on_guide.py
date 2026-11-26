@@ -63,7 +63,7 @@ def build(B, cfg, deals, pages, lastmod):
     world_names = B.and_list(e(a["name"]) for a in world["airlines"])
     n = len(rows)
     title = "Carry-on size by airline (worldwide): cabin bag limits chart"
-    seo = "Carry-on size by airline: cabin bag size and weight chart for %d airlines" % n
+    seo = "Carry-on size by airline: size and weight chart, %d airlines" % n
     desc = ("Carry-on bag size and weight limits for %d airlines, from American, Delta, United, Ryanair and easyJet to Emirates, "
             "Lufthansa and IndiGo, in cm and inches, read on each airline's own website." % n)
     inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="../baggage/index.html">Baggage rules</a><span>/</span>Carry-on size by airline</nav>

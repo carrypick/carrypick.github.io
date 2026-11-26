@@ -1,5 +1,5 @@
 ---
-seo_title: Bhutan packing list from India (2026): things to carry, documents, SDF and what to wear in December
+seo_title: Bhutan packing list from India (2026): documents and clothes
 title: Bhutan packing list: things to carry for a trip from India
 description: What to carry for Bhutan from India: passport or voter ID, the SDF of Nu 1,200 a night, warm layers for December and January, what to wear to dzongs and temples, shoes for Tiger's Nest, plugs, cash rules and the bag limits on Drukair and Bhutan Airlines.
 date: 2026-11-18

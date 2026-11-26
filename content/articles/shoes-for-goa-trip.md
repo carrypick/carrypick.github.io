@@ -1,5 +1,5 @@
 ---
-seo_title: Shoes for a Goa trip: flip-flops, sandals or clogs for men and women
+seo_title: Shoes for a Goa trip: flip-flops, sandals or clogs?
 title: Shoes for a Goa trip: flip-flops, sandals and clogs
 description: Which footwear to take on a Goa trip: flip-flops for hot sand, strap sandals for scooter rides and markets, clogs that can get wet, shoes for Dudhsagar Falls and a night out, how many pairs to pack, and beach footwear for men and women compared by their listed specs.
 date: 2026-11-23

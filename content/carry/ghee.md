@@ -1,6 +1,6 @@
 ---
 title: Can I carry ghee on a flight in India?
-seo_title: Ghee in flight rules India 2026: 5 kg in check-in, not in IndiGo cabin
+seo_title: Ghee in flight rules India 2026: check-in, not IndiGo cabin
 description: Ghee goes in your check-in bag, up to 5 kg or 5 litres. Why it counts as a liquid in the cabin, IndiGo's rule, coconut oil, and how to pack a ghee tin so it doesn't leak.
 item: Ghee and coconut oil
 date: 2026-11-10

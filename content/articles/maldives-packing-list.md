@@ -1,5 +1,5 @@
 ---
-seo_title: Maldives packing list from India (2026): what to pack and wear, for couples and honeymoon
+seo_title: Maldives packing list from India (2026): couples, honeymoon
 title: Maldives packing list: what to pack and wear for a trip from India
 description: What to pack for the Maldives from India: beach clothes, modest outfits for Malé and local islands, what to wear at night, sun care, a waterproof pouch, seaplane bag limits, what you can't bring in (alcohol, idols, vapes) and lists for couples, women, men and families.
 date: 2026-11-18

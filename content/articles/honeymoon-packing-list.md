@@ -1,5 +1,5 @@
 ---
-seo_title: Honeymoon packing list for Indian couples (2026): bride, groom, beach and hills
+seo_title: Honeymoon packing list for Indian couples (2026)
 title: Honeymoon packing list: what to pack for the bride, the groom and the trip
 description: A honeymoon packing list for Indian couples: documents, outfits for photos and dinners, what the bride and groom should pack, and what changes for a beach honeymoon (Maldives, Bali, Goa, Kerala) or a hill honeymoon (Manali, Kashmir, Munnar), plus bags, jewellery and what not to carry.
 date: 2026-11-21

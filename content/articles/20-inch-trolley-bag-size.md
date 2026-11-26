@@ -1,5 +1,5 @@
 ---
-seo_title: 20 inch trolley bag in cm: size, cabin rules and how much it holds
+seo_title: 20 inch trolley bag in cm: size, cabin rules, capacity
 title: 20 inch trolley bag: size in cm, and is it allowed in the cabin?
 description: A 20 inch trolley is 50.8 cm, but many sold as "20 inch" in India are 55 cm or taller. See airline limits, how much it holds and two bags that fit.
 date: 2026-11-06

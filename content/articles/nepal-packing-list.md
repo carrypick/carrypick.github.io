@@ -1,5 +1,5 @@
 ---
-seo_title: Nepal packing list from India (2026): documents, Indian currency rules and what to wear in winter
+seo_title: Nepal packing list from India (2026): documents, currency
 title: Nepal packing list: things to carry for a trip from India
 description: What to carry for Nepal from India: passport or original voter ID (Aadhaar isn't accepted by air), the ₹25,000 limit on ₹200 and ₹500 notes, what to wear in November, December and January, temple dress at Pashupatinath, plugs and bag limits on Buddha Air and other airlines.
 date: 2026-11-19

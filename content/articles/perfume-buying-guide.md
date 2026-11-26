@@ -1,5 +1,5 @@
 ---
-seo_title: Perfume gift set for men and women in India: EDP vs EDT, attar and travel sizes
+seo_title: Perfume gift sets in India: EDP vs EDT, attar, travel sizes
 title: Perfume gift sets for men and women: EDP vs EDT, attar and travel sizes
 description: How to choose a perfume or a perfume gift set in India: EDP, EDT, deo and attar in plain words, how long each lasts on skin, 20 ml travel sizes and the 100 ml cabin rule, and gift tips for him and her.
 date: 2026-11-20

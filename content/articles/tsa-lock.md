@@ -1,5 +1,5 @@
 ---
-seo_title: TSA lock meaning, do you need one, and which TSA luggage lock to buy
+seo_title: TSA lock meaning, do you need one, and which to buy
 title: TSA lock: what it means, when you need one, and which to buy
 description: What a TSA lock is (a lock US airport security can open with a master key), how to spot one, whether you need it for flights to the USA or within India, combination vs key vs cable locks, and three TSA locks compared by their listed specs.
 date: 2026-11-23

@@ -1,5 +1,5 @@
 ---
-seo_title: Japan trip from India (2026): visa for Indians, 7-day itinerary, Japan in December and cherry blossom
+seo_title: Japan trip from India 2026: visa, 7-day itinerary, December
 title: Japan trip from India: visa, a 7-day plan, December weather and cherry blossom
 description: Plan a Japan trip from India: the Japan eVISA for Indians through VFS (₹500 visa fee from 1 July 2026, plus the VFS fee), direct flights from Delhi, Mumbai and Bengaluru to Tokyo, a 7-day Tokyo, Kyoto and Osaka itinerary, the Japan Rail Pass, the weather in December, cherry blossom dates, and veg food tips.
 date: 2026-11-21

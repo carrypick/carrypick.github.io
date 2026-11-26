@@ -1,5 +1,5 @@
 ---
-seo_title: Goa trip guide for Christmas and New Year 2026–27: weather, airports, rules
+seo_title: Goa for Christmas and New Year 2026–27: weather and rules
 title: Goa for Christmas and New Year: a simple trip guide
 description: Plan Goa for December and January: the weather, Dabolim or Mopa airport, trains, taxis and scooters, beach rules and fines, New Year crowds and tips for foreign visitors.
 date: 2026-11-03

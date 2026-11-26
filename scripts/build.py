@@ -1369,7 +1369,7 @@ def build_trips(cfg, trips, deals_by_asin, pages, lastmod):
 </article></div>
 {telegram_band(cfg, "../")}"""
     crumbs = crumbs_schema(cfg, [("Home", ""), ("Trip guides", "trips/index.html")])
-    pages.append(write("trips/index.html", page(cfg, "Trip guides for India: %s" % places,
+    pages.append(write("trips/index.html", page(cfg, "Trip guides for India and abroad: plans, visas, weather",
                                                 "Plan a trip to %s: best time, weather, getting there, getting around, local rules and packing lists." % places,
                                                 body, 1, "trips/index.html", [crumbs])))
     lastmod["trips/index.html"] = max(t["updated"] for t in trips)
@@ -1633,7 +1633,7 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
     packing_abroad = ("<p>Packing for the trip? See our packing lists for %s.</p>" % and_list(
         ['<a href="../guides/%s-packing-list.html">%s</a>' % (slug, place) for slug, place in trip_lists])) if trip_lists else ""
     title = "Baggage rules for international flights from India"
-    seo = "International baggage allowance from India %s: Emirates, Qatar, Thai, IndiGo, Air India" % checked[:4]
+    seo = "International baggage allowance from India %s, by airline" % checked[:4]
     desc = ("Cabin bag size and checked baggage by fare for %d airlines on flights from India to %s, "
             "including Emirates, Qatar Airways, Saudia, IndiGo and Air India. Checked against official websites, %s." % (
                 len(airlines), intl_where(airlines), fmt_date(checked)))
@@ -2225,7 +2225,7 @@ def build_extra_baggage(cfg, deals_by_asin, extra, pages, lastmod):
     guide_links = ", ".join(f'<a href="../guides/{slug}.html">{text}</a>' for slug, text in guides if (ARTICLES_DIR / (slug + ".md")).exists())
 
     title = "Extra baggage charges on domestic flights in India"
-    seo = "Extra baggage charges per kg %s: IndiGo, Air India, Akasa, SpiceJet" % year
+    seo = "Extra baggage charges per kg %s for Indian airlines" % year
     desc = ("Excess baggage charges on IndiGo, Air India, Air India Express, Akasa Air and SpiceJet domestic flights: prepaid slabs, "
             "airport rate per kg, extra bags and cabin bags over 7 kg. Checked %s." % fmt_date(checked))
     inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="index.html">Baggage rules</a><span>/</span>Extra baggage charges</nav>
@@ -2495,7 +2495,7 @@ def build_can_i_carry(cfg, deals_by_asin, pages, lastmod):
                       f'<ul class="airline-links">{links}</ul>')
     faq_html, faq_schema = faq_block([(f["q"], f["a"]) for f in data["faq"]])
     title = "Can I carry it on a flight? Cabin and check-in rules in India"
-    seo = "Can I carry it on a flight in India? Cabin and check-in item list %s" % checked[:4]
+    seo = "Can I carry it on a flight in India? Item list %s" % checked[:4]
     desc = ("Search %d items, from power banks and perfume to pickles and dry coconut, and see if they can go in your "
             "cabin bag or check-in baggage on flights in India. Checked %s." % (count, fmt_date(checked)))
     inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="index.html">Baggage rules</a><span>/</span>Can I carry it?</nav>

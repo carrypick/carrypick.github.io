@@ -1,5 +1,5 @@
 ---
-seo_title: Passport holder for men, women and families: RFID, size and which to buy
+seo_title: Passport holder: RFID, size and which to buy
 title: Passport holder: one passport or the whole family's?
 description: How to choose a passport holder or travel wallet: single vs family passport holders, what RFID blocking does, what fits inside, size and weight, with passport holders for one person and a family of four compared by their listed specs.
 date: 2026-11-23

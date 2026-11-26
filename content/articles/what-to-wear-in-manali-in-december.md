@@ -1,5 +1,5 @@
 ---
-seo_title: What to wear in Manali in December 2026: clothes, shoes and packing list
+seo_title: What to wear in Manali in December 2026
 title: What to wear in Manali in December: layers, shoes and a packing list
 description: How cold Manali gets in December, what to wear in town and in the snow at Solang or the Atal Tunnel, which shoes to take, packing lists for men, women and kids, and tips for Shimla.
 date: 2026-11-15

@@ -1,5 +1,5 @@
 ---
-seo_title: Singapore trip from India (2026): visa for Indians, itinerary for 4-5 days, weather in December
+seo_title: Singapore trip from India 2026: visa and a 4–5 day itinerary
 title: Singapore trip from India: visa, a 5-day itinerary and the weather in December
 description: Plan a Singapore trip from India: the visa for Indians (₹2,100 fee plus up to ₹1,300 agent fee, 3 to 5 working days), the SG Arrival Card, direct flights from Indian cities, a 4 or 5-day itinerary, the weather in December, Christmas events, the MRT, GST refunds and emergency numbers.
 date: 2026-11-21

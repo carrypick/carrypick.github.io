@@ -1,5 +1,5 @@
 ---
-seo_title: Goa in January 2027: weather, Three Kings feast, events, crowds and beach tips
+seo_title: Goa in January 2027: weather, Three Kings feast, beach tips
 title: Goa in January: weather, festivals and a quieter beach month
 description: Plan Goa for January 2027: IMD January averages, how Goa changes after New Year, the Feast of the Three Kings on 6 January, the Goa Food and Cultural Festival, Carnival dates, turtle nesting beaches, the Republic Day long weekend, airports and beach safety.
 date: 2026-11-24

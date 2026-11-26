@@ -1,5 +1,5 @@
 ---
-seo_title: Which shoes to take on a trip in India: snow, walking and beach shoes explained
+seo_title: Which shoes to take on a trip: snow, walking and beach
 title: Which shoes to take on a trip: snow, sightseeing and the beach
 description: Choose shoes by the trip: waterproof or water resistant, walking shoes for forts, sandals for the beach, plus sizing and packing tips, with picks for men and women.
 date: 2026-11-04

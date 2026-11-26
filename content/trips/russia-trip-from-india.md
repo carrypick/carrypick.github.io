@@ -1,5 +1,5 @@
 ---
-seo_title: Russia trip from India (2026): Russia e-visa for Indians (16 days, no invitation), direct flights to Moscow, 7-day Moscow and St Petersburg plan, weather by month
+seo_title: Russia trip from India 2026: e-visa, flights, 7-day plan
 title: Russia trip from India: the e-visa for Indians, direct flights to Moscow, a 7-day plan and the best time to go
 description: Plan a Russia trip from India: the unified e-visa for Indians from the Russian Foreign Ministry's portal (one trip of up to 16 days within 60 days, no invitation or voucher), the regular tourist visa and its fee from the Russian Embassy in India, direct Aeroflot flights from Delhi to Moscow, a 7-day Moscow and St Petersburg plan, snow, white nights and the weather by month, and food tips for vegetarians.
 date: 2026-11-24

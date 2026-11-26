@@ -1,5 +1,5 @@
 ---
-seo_title: Weekend getaways from Delhi (2026–27): 12 trips by road, train or flight, within 200 km and beyond
+seo_title: Weekend getaways from Delhi 2026–27: 12 trips within 200 km+
 title: Weekend getaways from Delhi: 12 trips for 2 or 3 days
 description: Weekend getaways from Delhi, with the distance and travel time by road, train or flight: Agra, Mathura and Vrindavan, Jaipur, Rishikesh, Mussoorie, Nainital, Shimla, Amritsar, Manali, Udaipur, Varanasi and Kashmir. Best months, what to do, trips within 200 km, mountains or not, December trips and the 2027 long weekends that suit each one.
 date: 2026-11-23
