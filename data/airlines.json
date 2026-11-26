@@ -133,23 +133,51 @@
         "dims_cm": [55, 35, 25],
         "total_cm": 115,
         "summary": "One cabin bag up to 7 kg",
-        "detail": "SpiceJet allows one cabin bag up to 7 kg. On Boeing planes it must be within 55 x 35 x 25 cm (115 cm in total). On the smaller Q400 planes the limit is 50 x 35 x 23 cm (108 cm in total), so check the aircraft type on your booking. The Carry More On-board add-on lets you carry up to 12 kg.",
+        "detail": "SpiceJet allows one cabin bag up to 7 kg, and a laptop bag or ladies' purse must fit inside that same 7 kg. On Boeing planes the bag must be within 55 x 35 x 25 cm (115 cm in total). On the smaller Q400 planes the limit is 50 x 35 x 23 cm (108 cm in total), so check the aircraft type on your booking. A passenger travelling with an infant can carry one more cabin bag of up to 7 kg, within the same size. SpiceJet's FAQ says a heavy cabin bag is charged at the boarding gate, at ₹750 per kg for up to 5 kg extra. Booked ahead, the Carry More On-board add-on adds 5 kg, so 12 kg in all, which is the most SpiceJet allows in the cabin.",
         "variants": [
           {"label": "Q400 planes", "dims_cm": [50, 35, 23], "total_cm": 108}
         ]
       },
       "personal": {"summary": "A laptop bag or ladies' purse is allowed, but it counts inside the same 7 kg"},
       "checkin": [
-        {"fare": "All domestic fares", "allowance": "15 kg, 1 piece"}
+        {"fare": "All domestic fares", "allowance": "15 kg, 1 piece"},
+        {"fare": "Student discount fare (direct domestic flights)", "allowance": "25 kg, 1 piece (15 kg + 10 kg), with a valid student ID shown at check-in"}
       ],
       "checkin_summary": "15 kg, 1 piece",
-      "checkin_note": "Each checked bag can be up to 158 cm in total (L + W + H).",
+      "checkin_note": "Each checked bag can be up to 158 cm in total (L + W + H), and no single bag may weigh more than 32 kg. If you carry less than 15 kg in your checked bag, the spare weight can't be moved to your cabin bag, and the other way round.",
+      "intl_checkin": [
+        {"fare": "To and from Bangkok, Phuket and Kathmandu", "allowance": "20 kg in total, up to 2 pieces"},
+        {"fare": "To and from Dubai, Sharjah, Fujairah and Jeddah", "allowance": "30 kg in total, up to 2 pieces (plus 5 litres of Zamzam water from Jeddah to India)"},
+        {"fare": "International to international, changing SpiceJet flights in India", "allowance": "30 kg in total, up to 2 pieces"},
+        {"fare": "SpiceJet domestic flight that connects to another airline's international flight", "allowance": "15 kg, 1 piece (SpiceJet sells extra international connection kilos, booked at least 24 hours ahead)"}
+      ],
       "notes": [
-        "When we checked, the baggage page on spicejet.com said \"Coming Soon\", so these rules come from SpiceJet's own corporate site (corporate.spicejet.com)."
+        "No through check-in: SpiceJet says it only flies point to point, so on a connection you collect your bag and check in again, even between two SpiceJet flights. Leave enough time between flights.",
+        "Check-in counters open 3 hours before departure and close 60 minutes before, for all flights. SpiceJet asks you to reach the airport at least 2 hours early.",
+        "Passengers on the same booking (PNR) can pool their checked baggage, as long as no single bag is over 32 kg.",
+        "Power banks may go only in your cabin bag. You can't use or charge them on board, and they can't go in the overhead bin. E-cigarettes are not allowed on any SpiceJet flight.",
+        "Keep medicines, cash, jewellery, documents and electronics in your cabin bag.",
+        "Liquor: up to 5 litres in retail packaging, between 24% and 70% alcohol, in checked baggage only.",
+        "Sikh passengers may wear a kirpan on domestic flights if the blade is no longer than 15.24 cm (6 inches) and the whole kirpan no longer than 22.86 cm (9 inches).",
+        "Hoverboards, self-balancing scooters and similar lithium-battery vehicles are not allowed.",
+        "On flights to Dubai, all checked bags are inspected, and pagers and walkie-talkies are confiscated.",
+        "These rules come from SpiceJet's corporate site (corporate.spicejet.com). The baggage address on spicejet.com loads only a booking app, with no rules we could read."
+      ],
+      "checked": "2026-11-26",
+      "faq_extra": [
+        {"q": "What is the SpiceJet baggage allowance for international flights?", "a": "It depends on the route. Flights to and from Bangkok, Phuket and Kathmandu get 20 kg in up to 2 pieces. Flights to and from Dubai, Sharjah, Fujairah and Jeddah get 30 kg in up to 2 pieces. The cabin bag is 7 kg on every route, and on international flights it can include a duty-free shopping bag."},
+        {"q": "What is the SpiceJet check-in baggage size?", "a": "Each checked bag can be up to 158 cm when you add its length, width and height. No single bag may weigh more than 32 kg, even if you buy extra kilos."},
+        {"q": "Does SpiceJet weigh cabin baggage?", "a": "Plan as if it will. SpiceJet's FAQ says a cabin bag over 7 kg at the boarding gate is charged ₹750 per kg, for up to 5 kg extra, and 12 kg is the most allowed in the cabin. A laptop bag or purse counts inside the 7 kg."},
+        {"q": "What is the SpiceJet baggage allowance for students?", "a": "Students who book SpiceJet's student discount fare on a direct domestic flight get 25 kg of check-in baggage in one piece: the usual 15 kg plus 10 kg. Show a valid student ID at the check-in counter."},
+        {"q": "What is the SpiceJet baggage allowance for an infant?", "a": "A passenger travelling with an infant can carry one extra cabin bag of up to 7 kg, within the normal cabin size. SpiceJet's baggage pages don't list a separate check-in allowance for infants, so ask SpiceJet when you book."},
+        {"q": "Can I buy extra baggage after booking on SpiceJet?", "a": "Yes. Use Manage Booking on SpiceJet's website, the reservation centre or an airport ticket counter, up to 3 hours before a domestic flight or 6 hours before an international one. Each prepaid slab can be bought only once per passenger per flight. Extra cabin kilos (Carry More On-board) must be bought at least 12 hours ahead."},
+        {"q": "What should I do if SpiceJet loses or damages my bag?", "a": "Tell SpiceJet's airport staff before you leave the arrivals hall, so they can fill in a Baggage Irregularity Report, and keep a copy. We found no online baggage tracker on SpiceJet's baggage pages. Its 24/7 reservations lines are +91 124 4983410 and +91 124 7101600."},
+        {"q": "Can I carry a power bank on SpiceJet?", "a": "Only in your cabin bag, never in checked baggage. You can't use or charge it during the flight, and it can't go in the overhead bin, so keep it in the bag under the seat in front of you."}
       ],
       "sources": [
         {"label": "Baggage", "url": "https://corporate.spicejet.com/Baggage.aspx"},
-        {"label": "Baggage FAQ", "url": "https://corporate.spicejet.com/airtravelbaggagefaq.aspx"}
+        {"label": "Baggage FAQ", "url": "https://corporate.spicejet.com/airtravelbaggagefaq.aspx"},
+        {"label": "Student discount", "url": "https://corporate.spicejet.com/StudentDiscountLanding.aspx"}
       ]
     }
   ]

@@ -31,6 +31,8 @@ From IndiGo's list of things not allowed in flight, unless the row says otherwis
 
 IndiGo's list is stricter than the other airline pages we checked, so food that passes it is the safest choice on any airline.
 
+Bringing banana chips or halwa home from a [Kerala trip](../../trips/kerala.html)? They're dry snacks and sweets, so they go in either bag. Going by train instead? Weight is what counts there: see the [train luggage rules](../train-luggage-rules.html) for each class.
+
 ## Sweets in syrup count as liquid
 
 Rasgulla, gulab jamun and rasmalai sit in syrup or milk. In the cabin, that is a liquid, so the 100 ml rule applies to the whole tin. A 1 kg tin of rasgulla won't pass security in your cabin bag. Pack it in check-in, sealed and wrapped, or choose dry sweets.

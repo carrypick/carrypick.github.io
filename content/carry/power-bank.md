@@ -39,7 +39,7 @@ Take it out before you drop your bag. Akasa Air's rules say a check-in bag with 
 ## Where to keep it on the plane
 
 - In the seat pocket, under the seat in front of you, or on you.
-- **Not in the overhead bin.** Air India and Akasa Air both say this.
+- **Not in the overhead bin.** Air India and Akasa Air both say this, and so do [SpiceJet's baggage rules](../spicejet.html).
 - Don't use it to charge your phone during the flight, and don't charge the power bank itself. This is a rule on every Indian airline: DGCA's [Dangerous Goods Advisory Circular No. 01/2025](https://www.dgca.gov.in/digigov-portal/Upload?flag=iframeAttachView&attachId=It%2B0TP06x06YSOsdpSINLg%3D%3D&baseLocale=en_US) of 11 November 2025 tells airlines to announce that "using or charging power banks is not allowed during flight", and that power banks and spare batteries must not go in the overhead bin. Akasa Air's rules say the same. (We read the circular on DGCA's website on 21 November 2026.)
 
 ## How many can I take?

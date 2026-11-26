@@ -53,7 +53,7 @@ You can't carry alcohol from outside the airport in your cabin bag (IndiGo, Air 
 
 - It stays sealed in the shop's clear tamper-evident bag. Akasa Air allows a bag of up to 1 litre.
 - Keep the receipt.
-- SpiceJet counts alcohol bought at the airport as part of your 5 litres.
+- SpiceJet counts alcohol bought at the airport as part of your 5 litres. Its other limits, from the 7 kg cabin bag to the 30 kg Dubai allowance, are on our [SpiceJet baggage rules](../spicejet.html) page.
 - BCAS's list of items banned in the cabin treats all liquids the same way: in the cabin, each must be 100 ml or less, inside one clear 1-litre bag (we read an archived copy on 21 November 2026). The airlines' rules above are stricter for alcohol, so follow them.
 - Flying in from abroad and changing to a domestic flight in India? Move duty-free alcohol into your check-in bag before the next security check. The airport security list and Akasa Air both say it may not be allowed in the cabin then.
 

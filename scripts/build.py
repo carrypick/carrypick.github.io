@@ -1819,6 +1819,10 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
         cabin = a["cabin"]
         checkin_rows = "".join("<tr><th scope=\"row\">%s</th><td>%s</td></tr>" % (e(c["fare"]), e(c["allowance"])) for c in a["checkin"])
         notes = "".join("<li>%s</li>" % e(n) for n in a.get("notes", []))
+        # A domestic airline that also flies abroad can list its international check-in allowance by route.
+        intl_rows = ('<h2>Check-in baggage on international flights</h2><table class="specs">'
+                     + "".join('<tr><th scope="row">%s</th><td>%s</td></tr>' % (e(c["fare"]), e(c["allowance"])) for c in a["intl_checkin"])
+                     + '</table>') if not abroad and a.get("intl_checkin") else ""
         sources = " ".join(f'<a href="{e(src["url"])}" target="_blank" rel="noopener">{e(src["label"])}</a>' for src in a["sources"])
         faq = [
             ("How much cabin baggage is allowed on %s?" % a["name"], cabin["summary"] + "."),
@@ -1875,7 +1879,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
 {diagram_figure("cabin-limits-" + a["slug"], "../") if "cabin-limits-" + a["slug"] in DIAGRAMS else ""}
 <h2>{"Checked baggage on India flights" if abroad else "Check-in baggage (domestic)"}</h2>
 <table class="specs">{checkin_rows}</table>
-{('<p>' + e(a['checkin_note']) + '</p>') if a.get('checkin_note') else ''}
+{('<p>' + e(a['checkin_note']) + '</p>') if a.get('checkin_note') else ''}{intl_rows}
 {('<h2>Infants</h2><p>' + e(a['infant']) + '</p>') if abroad and a.get('infant') else ''}
 {extra_section(a, extra_by_slug)}
 {('<h2>Extra baggage charges</h2><p>' + e(excess['summary']) + '.</p><ul>' + "".join("<li>%s</li>" % e(x) for x in excess.get("points", [])) + '</ul>') if excess else ''}
@@ -2344,8 +2348,11 @@ def build_railways(cfg, deals, pages, lastmod):
 {bags_html}
 <h2>Carrying extra luggage</h2>
 <p>{e(data["excess"])}</p>
-<h2>Booking luggage in the luggage van</h2>
+{('<p>' + e(data["rate_note"]) + '</p>') if data.get("rate_note") else ""}
+<h2>How to book luggage at the station</h2>
+{('<ol>' + "".join("<li>%s</li>" % e(x) for x in data["booking_steps"]) + '</ol>') if data.get("booking_steps") else ""}
 <p>{e(data["booking"])}</p>
+{('<h2>Taking a scooter or motorcycle by train</h2>' + lists(data["two_wheeler"])) if data.get("two_wheeler") else ""}
 <h2>What you can't carry</h2>
 {lists(data["not_allowed"])}
 {('<h2>Good to know</h2>' + lists(data["notes"])) if data.get("notes") else ""}
