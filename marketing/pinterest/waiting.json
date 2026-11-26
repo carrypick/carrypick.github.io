@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-25",
-  "note": "Pinterest allows scheduling only about 30 days ahead. Scheduled through 22 Dec 2026 (7 PM). Slots: 12 PM and 7 PM IST, one pin per slot, 2 a day. Schedule from the top of 'waiting' as each new day opens, then delete the slug from the list. Images are marketing/pinterest/<slug>.jpg, text in pins.json. Time-sensitive New Year pins go first (before 31 Dec). Christmas gift pins (christmas-gift-*) are at the top: schedule on the next free slot, they must go out before about 20 Dec.",
+  "note": "Pinterest allows scheduling only about 30 days ahead. Scheduled through 22 Dec 2026 (7 PM). Slots: 12 PM and 7 PM IST, one pin per slot, 2 a day. Schedule from the top of 'waiting' as each new day opens, then delete the slug from the list. Images are marketing/pinterest/<slug>.jpg, text in pins.json. Time-sensitive New Year pins go first (before 31 Dec). Christmas gift pins (christmas-gift-*) are at the top and must go out before about 20 Dec, but the 12 PM and 7 PM slots are full to 22 Dec: schedule them in an extra 4 PM slot on the earliest free days (one a day, from the next day, never after 15 Dec), in addition to the normal 2 pins. Seasonal pins far down the list (mothers-day-gifts is last on purpose, to post in late March or April) keep their place.",
   "scheduled_by_session": {
     "new-year-2027": "22 Dec 12 PM",
     "goa-new-year": "22 Dec 7 PM"
@@ -33,7 +33,6 @@
     "holi-2027",
     "april-trips",
     "may-trips",
-    "mothers-day-gifts",
     "honeymoon-india",
     "honeymoon-abroad",
     "auli-december",
@@ -179,6 +178,7 @@
     "kerala-packing-list",
     "rishikesh-packing-list",
     "luggage-scale-guide",
-    "travel-chargers"
+    "travel-chargers",
+    "mothers-day-gifts"
   ]
 }
