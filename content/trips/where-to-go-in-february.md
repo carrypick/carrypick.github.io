@@ -52,6 +52,7 @@ Going a little later? See [where to go in March](where-to-go-in-march.html): Hol
 | [Gulmarg](gulmarg-in-january.html) | Snow, skiing, the gondola | Deep snow; February and March are even snowier than January on average | [Gulmarg in January](gulmarg-in-january.html) |
 | [Auli](auli-in-december.html) | Snow and skiing in Uttarakhand | Most of the winter snow falls in January and February | [Auli](auli-in-december.html) |
 | [Manali](manali-in-january.html) | Snow and mountains | Mid-January to February has the best chance of snow | [Manali in January](manali-in-january.html) |
+| [Spiti](spiti-in-winter.html) | Snow, monasteries and snow leopards | Very cold; only the Kinnaur road is open | [Spiti in winter](spiti-in-winter.html) |
 | [Andaman](andaman-in-december.html) | Clear sea, coral, quiet beaches | The driest month, about 15 mm of rain on average | [Andaman](andaman-in-december.html) |
 | [Goa](goa.html) | Beaches and Carnival | Still in season (November to February), quieter than New Year | [Goa in January](goa-in-january.html) |
 | [Jaisalmer](jaisalmer-in-december.html) | Dunes, the golden fort, the Desert Festival | Season runs November to February; Desert Festival 18–20 February | [Jaisalmer](jaisalmer-in-december.html) |

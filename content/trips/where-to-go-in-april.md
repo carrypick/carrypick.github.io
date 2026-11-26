@@ -224,6 +224,7 @@ Not yet. The 2027 opening dates are to be announced. In 2026, Kedarnath opened o
 ## Related guides
 
 - [Where to go in May](where-to-go-in-may.html)
+- [Where to go in June](where-to-go-in-june.html)
 - [Char Dham Yatra 2027](char-dham-yatra-2027.html)
 - [Sikkim trip plan](sikkim-trip-plan.html)
 - [Kedarnath packing list](../guides/kedarnath-packing-list.html)

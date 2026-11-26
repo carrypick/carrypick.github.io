@@ -79,7 +79,7 @@
           ["trips/udaipur.html", "Udaipur", "lakes and palaces"],
           ["trips/shimla-in-december.html", "Shimla", "snow likelier in January"],
           ["trips/jaisalmer-in-december.html", "Jaisalmer", "sunny days, cold desert nights"]],
-    "2": [["trips/where-to-go-in-february.html", "February trip ideas", "snow, beaches and desert festivals"],
+    "2": [["trips/where-to-go-in-february.html", "February trip ideas", "snow, beaches and desert festivals"], ["trips/spiti-in-winter.html", "Spiti in winter", "deep cold, quiet monasteries"],
           ["trips/udaipur.html", "Udaipur", "pleasant until March"],
           ["trips/andaman-in-december.html", "Andaman", "February to April is driest"],
           ["trips/singapore-trip-from-india.html", "Singapore", "drier from February"],
@@ -104,7 +104,7 @@
           ["trips/ooty-in-december.html", "Ooty", "in season until June"],
           ["trips/rishikesh-in-december.html", "Rishikesh", "rafting runs until June"],
           ["trips/ladakh-trip-guide.html", "Ladakh", "fly to Leh; the Manali road opens around mid-May"]],
-    "6": [["trips/ladakh-trip-guide.html", "Ladakh", "both roads usually open, warm days in Leh"],
+    "6": [["trips/where-to-go-in-june.html", "June trip ideas", "Ladakh, Spiti and the monsoon dates"], ["trips/ladakh-trip-guide.html", "Ladakh", "both roads usually open, warm days in Leh"],
           ["trips/char-dham-yatra-2027.html", "Char Dham Yatra", "busy until the monsoon; book early"],
           ["trips/spiti-valley-trip-guide.html", "Spiti Valley", "the full circuit via Kinnaur and Kunzum La"],
           ["trips/ooty-in-december.html", "Ooty", "in season until June"],
@@ -136,7 +136,7 @@
            ["trips/manali.html", "Manali", "snow and a New Year trip"],
            ["trips/bhutan-in-december.html", "Bhutan", "clear winter skies"],
            ["trips/nepal-in-december.html", "Nepal", "clear mountain views"],
-           ["trips/gulmarg-in-december.html", "Gulmarg", "snow and the gondola"],
+           ["trips/gulmarg-in-december.html", "Gulmarg", "snow and the gondola"], ["trips/spiti-in-winter.html", "Spiti in winter", "snow leopards and the Kinnaur road"],
            ["trips/jaisalmer-in-december.html", "Jaisalmer", "desert camps and the fort"]]
   },
   "picks": ["B0D62KP35W", "B097JLKP8X", "B0B34WJK3X", "B07M9BRCQ5", "B0CJC1SVH7", "B0C3RB9X98"]

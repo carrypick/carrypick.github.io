@@ -13,7 +13,7 @@ Spiti is a high, dry valley in Himachal Pradesh, between Kinnaur and Ladakh: mud
 
 Going to Ladakh as well? Read our [Ladakh trip guide](ladakh-trip-guide.html): Leh is higher to fly into, and its permits work differently. Starting from Shimla or Manali? See our [Shimla guide](shimla-in-december.html) and [Manali guide](manali.html).
 
-Still choosing? Our [where to go in May](where-to-go-in-may.html) and [where to go in April](where-to-go-in-april.html) pages compare the summer hill trips.
+Still choosing? Our [where to go in May](where-to-go-in-may.html), [where to go in June](where-to-go-in-june.html) and [where to go in April](where-to-go-in-april.html) pages compare the summer hill trips. Going in winter? See [Spiti in winter](spiti-in-winter.html).
 
 Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
 
@@ -140,6 +140,8 @@ Prefer a ready-made trip? Compare Spiti tour packages, and check what each one i
 
 ## Spiti in winter
 
+Going between December and February? Read our full [Spiti in winter guide](spiti-in-winter.html): the Kinnaur road, IMD winter temperatures, snow leopards, homestays and a 7-day winter route.
+
 - **Only the Kinnaur road is open.** Kunzum La is shut by snow, so you go in and out through Shimla and Kinnaur.
 - **It's extremely cold,** well below freezing at night. Water pipes freeze, and many hotels and camps close, so stay in homestays that stay open in winter.
 - **Roads can close after snow** for a day or more. Keep 2–3 spare days, and travel with a local driver who knows the road in winter.
@@ -205,7 +207,9 @@ Go in from Shimla through Kinnaur: the road climbs slowly, which is better for a
 ## Related guides
 
 - [Ladakh trip guide](ladakh-trip-guide.html)
+- [Spiti in winter](spiti-in-winter.html)
 - [Where to go in May](where-to-go-in-may.html)
+- [Where to go in June](where-to-go-in-june.html)
 - [Shimla guide](shimla-in-december.html)
 - [Manali guide](manali.html)
 - [Snow trip packing list](../guides/snow-trip-packing-list.html)

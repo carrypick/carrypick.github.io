@@ -365,7 +365,7 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
     march = "trips/where-to-go-in-march.html"
     if built(march):
         hub_link += f' For March, see <a href="../{march}">where to go in March</a>.'
-    for slug, name in (("april", "April"), ("may", "May")):
+    for slug, name in (("april", "April"), ("may", "May"), ("june", "June")):
         hub = "trips/where-to-go-in-%s.html" % slug
         if built(hub):
             hub_link += f' For {name}, see <a href="../{hub}">where to go in {name}</a>.'

@@ -13,7 +13,7 @@ Ladakh is India's high, cold desert: blue lakes, huge bare mountains, white mona
 
 Thinking of Spiti too? Read our [Spiti Valley trip guide](spiti-valley-trip-guide.html): Spiti is lower than Ladakh's lakes and is often done on its own trip from Shimla or Manali. Driving up via Manali? See our [Manali guide](manali.html). Coming from Srinagar? See [Kashmir in December](kashmir-in-december.html) for Srinagar and Sonamarg.
 
-Still choosing? Our [where to go in May](where-to-go-in-may.html) and [where to go in April](where-to-go-in-april.html) pages compare the summer hill trips.
+Still choosing? Our [where to go in May](where-to-go-in-may.html), [where to go in June](where-to-go-in-june.html) and [where to go in April](where-to-go-in-april.html) pages compare the summer hill trips.
 
 Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money. Please also read the government travel advice below.
 

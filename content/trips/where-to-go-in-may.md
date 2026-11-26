@@ -18,7 +18,7 @@ This page sums up our trip guides that fit May, in India and abroad, with the da
 
 Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money. In May, plan the plains for early mornings and spend most of your trip in the hills.
 
-Going earlier? See [where to go in April](where-to-go-in-april.html). Only looking abroad? Compare all our [international trips from India](international-trips-from-india.html) by flight time, best months and visa type.
+Going earlier? See [where to go in April](where-to-go-in-april.html). Going a little later? See [where to go in June](where-to-go-in-june.html), for Ladakh, Spiti and the monsoon dates. Only looking abroad? Compare all our [international trips from India](international-trips-from-india.html) by flight time, best months and visa type.
 
 ## May 2027 dates to know
 
@@ -226,6 +226,7 @@ Usually not in early May. In 2026 BRO finished clearing the road on 12 May, and 
 ## Related guides
 
 - [Where to go in April](where-to-go-in-april.html)
+- [Where to go in June](where-to-go-in-june.html)
 - [Char Dham Yatra 2027](char-dham-yatra-2027.html)
 - [Sikkim trip plan](sikkim-trip-plan.html)
 - [Kedarnath packing list](../guides/kedarnath-packing-list.html)

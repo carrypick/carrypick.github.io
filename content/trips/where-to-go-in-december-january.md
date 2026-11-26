@@ -301,6 +301,12 @@ Gulmarg is Kashmir's snow meadow, about 52 km from Srinagar, with nights well be
 
 Read the full [Gulmarg in December guide](gulmarg-in-december.html).
 
+## Spiti: for a hard, snowy winter adventure
+
+Spiti is for experienced travellers in winter: only the Shimla–Kinnaur–Kaza road is open, Kunzum La and Chandratal are cut off, and nights fall far below freezing (IMD's January average at Kalpa, lower down on the way in, is about −4 °C). In return you get monasteries in the snow, quiet villages and a chance of snow leopards around Kibber. Keep spare days for snow.
+
+Read the full [Spiti in winter guide](spiti-in-winter.html).
+
 ## Kerala: for backwaters, tea hills and beaches
 
 Kerala is warm on the coast and cool in the Munnar hills. Spend a night on a houseboat in Alappuzha, walk the tea estates in Munnar, and end on the cliffs at Varkala. In Fort Kochi, New Year's Eve ends with the Pappanji burning on the beach at midnight. Note that 1 January is a dry day in Kerala.

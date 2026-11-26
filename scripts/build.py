@@ -235,6 +235,7 @@ def nav_menus(cfg, p):
                                     ("trips/holi-2027.html", "Holi 2027: where to celebrate", "holi-2027.md"),
                                     ("trips/where-to-go-in-april.html", "Where to go in April", "where-to-go-in-april.md"),
                                     ("trips/where-to-go-in-may.html", "Where to go in May", "where-to-go-in-may.md"),
+                                    ("trips/where-to-go-in-june.html", "Where to go in June", "where-to-go-in-june.md"),
                                     ("trips/char-dham-yatra-2027.html", "Char Dham Yatra 2027", "char-dham-yatra-2027.md"),
                                     ("trips/international-trips-from-india.html", "International trips from India", "international-trips-from-india.md"),
                                     ("trips/honeymoon-destinations-in-india.html", "Honeymoon destinations in India", "honeymoon-destinations-in-india.md"),
