@@ -125,6 +125,10 @@ Not alcohol from outside the airport. Alcohol you buy after security at the airp
 
 In check-in. IndiGo's and SpiceJet's dangerous goods tables don't limit drinks of 24% alcohol or less, and Akasa Air accepts them in retail packaging. Air India Express counts them in its 5 litres per person, and Air India's page doesn't mention them, so ask your airline before you pack a lot.
 
+### Is a beer can allowed in check-in baggage?
+
+Yes, in check-in, in its shop packing. IndiGo and SpiceJet don't limit drinks of 24% alcohol or less, and Air India Express counts beer in its 5 litres per person. Cans add weight, so weigh your bag.
+
 ### Can I carry alcohol to Bihar or Gujarat?
 
 No. They are dry states, so you can't carry alcohol to or from them.

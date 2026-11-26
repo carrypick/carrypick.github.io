@@ -70,11 +70,15 @@ Trimmer vs grooming kit, run time, Type-C charging and gift ideas in our [groomi
 
 ## Questions
 
-### Trimmer in check-in or cabin bag: which is better?
+### Is a beard trimmer allowed in hand baggage?
 
 Yes, if it has a built-in battery. IndiGo, SpiceJet and Air India Express allow a trimmer with a battery in both bags. They put a trimmer without a battery in check-in only.
 
-### Can I carry a trimmer in my check-in bag?
+### Where should I keep my trimmer in a flight: cabin or check-in?
+
+Either bag works for a trimmer with a built-in battery. The cabin bag is simpler, because in check-in it must be fully switched off and protected so it can't turn on.
+
+### Can I put a trimmer in my check-in luggage bag?
 
 Yes. It must be fully switched off and protected so it can't turn on, for example with the travel lock on and the cap fitted.
 

@@ -1701,6 +1701,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
             faq.append(("What are %s extra baggage charges from India?" % a["name"], excess["summary"] + "."))
         if a.get("personal"):
             faq.insert(2, ("Can I carry a laptop bag or handbag too?", a["personal"]["summary"] + "."))
+        faq.extend((f["q"], f["a"]) for f in a.get("faq_extra", []))  # exact questions people search, from Search Console
         faq_html = "".join("<h3>%s</h3><p>%s</p>" % (e(q), e(ans)) for q, ans in faq)
         weight_note = (('The "weight" column shows what\'s left of the %s kg limit after the bag itself.' % num(cabin["kg"])) if cabin.get("kg")
                        else e(a["name"]) + " gives no weight limit for cabin bags, so the weight column shows no figure.")

@@ -72,9 +72,13 @@ More gift sets and a 17 ml pocket spray, plus EDP vs EDT vs attar in plain words
 
 ## Questions
 
-### Can I carry perfume in my cabin bag on IndiGo?
+### Can I carry perfume in hand luggage on IndiGo?
 
 No. IndiGo's list of things not allowed in flight marks perfume and deo as not allowed in the cabin. Pack them in your check-in bag.
+
+### Can perfume be carried in hand luggage?
+
+On Air India and Akasa Air, yes, in bottles of 100 ml or less inside your clear 1-litre liquids bag. On IndiGo, no: pack it in check-in.
 
 ### Can I carry a 100 ml perfume in my cabin bag?
 

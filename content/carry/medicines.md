@@ -70,6 +70,10 @@ Not for the cabin: IndiGo's list allows medicines without a prescription in the 
 
 Yes. A bottle of 100 ml or less goes in your clear liquids bag. A bigger bottle is allowed in the cabin if you need it on the journey and carry the prescription.
 
+### Is cough syrup allowed in flight on IndiGo?
+
+Yes, in your cabin bag: IndiGo's list allows medicines there, with or without a prescription, and the 100 ml rule above applies to the bottle. In an IndiGo check-in bag, medicines need a prescription.
+
 ### Can I carry insulin and syringes on a flight?
 
 Yes, in your cabin bag with the prescription. Expect a check at security for the needles. Ice to keep insulin cold is allowed too (Air India).

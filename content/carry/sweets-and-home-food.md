@@ -62,17 +62,45 @@ Curry, dal and anything runny count as liquid in the cabin, so they follow the 1
 
 ## Questions
 
-### Can I carry sweets in a flight, in hand luggage or international?
+### Can I carry sweets in a flight, in hand luggage?
 
 Yes. Dry sweets like ladoo, barfi and soan papdi are allowed in both bags (IndiGo). Sweets in syrup, like rasgulla, count as liquid in the cabin.
+
+### Is mithai allowed in hand luggage?
+
+Dry mithai is: ladoo, barfi, peda and soan papdi can go in your cabin bag. Mithai in syrup or milk, like rasmalai, follows the 100 ml liquids rule there.
+
+### Can I carry ladoo in cabin baggage?
+
+Yes. Ladoo is a dry sweet, so it's allowed in your cabin bag and your check-in bag (IndiGo).
+
+### Can I carry a sweet box in cabin baggage?
+
+Yes, if the sweets inside are dry. Shop boxes are thin, so wrap the box in a plastic bag. A box of sweets in syrup goes in check-in, sealed in a tin.
+
+### Is sweets allowed in an international flight?
+
+Leaving India, the same airport security rules apply: dry sweets are fine in the cabin, and sweets in syrup follow the 100 ml rule. The country you land in has its own customs rules on food, so check them too, for example our [Dubai customs guide](../customs/uae-dubai.html).
 
 ### Can I carry home-cooked food on a flight?
 
 Yes, if it's dry and not oily, messy or strong-smelling (Akasa Air). Runny food like dal or curry follows the 100 ml liquids rule in the cabin.
 
-### Can I carry rasgulla on a flight?
+### Can I carry gulab jamun or rasgulla in a flight?
 
 Not in your cabin bag, unless it's 100 ml or less, because the syrup is a liquid. Pack a sealed tin in your check-in bag.
+
+### Is baked rasgulla allowed in a flight?
+
+The airline lists we checked don't name it. Baked rasgulla is moist, so security can treat it like a sweet in syrup. Pack it in check-in to be safe, or keep a small box (100 ml or less) in the cabin.
+
+### Is a tiffin allowed in a flight?
+
+Yes, with dry food that isn't oily, messy or strong-smelling, like sandwiches, khakhra or fruit (Akasa Air). Dal, curry and other runny food follow the 100 ml rule in the cabin, and IndiGo doesn't allow oily food in either bag.
+
+### Can we carry biscuits in a flight?
+
+Yes. Biscuits, namkeen and other dry snacks are allowed in both bags (IndiGo).
 
 ### Can I carry namkeen in my cabin bag?
 

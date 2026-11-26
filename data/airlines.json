@@ -6,6 +6,9 @@
       "slug": "indigo",
       "name": "IndiGo",
       "official_url": "https://www.goindigo.in/baggage/cabin-baggage.html",
+      "faq_extra": [
+        {"q": "Is cabin bag weight checked on IndiGo?", "a": "IndiGo's cabin baggage page sets the limit (one bag up to 7 kg, plus a personal item up to 3 kg) but doesn't say when or how often it weighs cabin bags. Plan as if yours will be weighed: keep it within 7 kg, including the bag's own weight, and weigh it at home first. If the overhead bins are full, IndiGo may check your cabin bag in."}
+      ],
       "cabin": {
         "pieces": 1,
         "kg": 7,

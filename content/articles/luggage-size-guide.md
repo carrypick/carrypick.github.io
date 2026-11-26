@@ -79,6 +79,16 @@ Prefer to buy from a brand's own store? See [VIP trolley bags: sizes, warranty a
 
 Not in a hurry? See what to expect from Amazon's [Republic Day sale](republic-day-sale-guide.html).
 
+## Questions
+
+### What are standard suitcase sizes?
+
+There's no single standard, but most brands sell three sizes: cabin, about 55 cm tall (55 x 35 x 25 cm fits IndiGo and Akasa Air); medium, about 65 to 69 cm; and large, about 75 to 79 cm. For check-in, most airlines allow up to 158 cm in total (length + width + height).
+
+### What size suitcase do I need for a week?
+
+A medium check-in trolley, about 65 to 69 cm tall, like a 26 inch (66 cm) bag.
+
 [[next:#our-picks-by-size=Compare our picks by size|../baggage/luggage-size-chart.html=Trolley bag sizes in cm and inches|cabin-luggage-guide.html=Cabin bag rules and the trolleys that fit them]]
 
 ## Related guides
