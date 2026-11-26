@@ -318,6 +318,7 @@ def share_bar(cfg, path, title, lang="en"):
 # They get "noindex, follow" and are left out of the sitemaps and the feed. Hindi pages are not touched.
 NOINDEX_CATEGORIES = {"watches", "perfumes", "skincare", "books", "sunglasses", "wallets-belts", "grooming", "baby-kids", "shoes"}
 NOINDEX_KEEP = {"guides/gifts-for-travellers.html"}
+NOINDEX_PACKING = {"beach", "train", "weekend", "wedding", "business", "abroad"}  # thin and 50-60% alike (audit fix 9); packing/hills and the week list stay
 NOINDEXED = set()  # every page written with noindex, so the sitemap can skip it
 
 
@@ -329,6 +330,9 @@ def noindex_reason(path):
     m = re.match(r"category/([a-z0-9-]+)(/[a-z0-9-]+)?\.html$", path)
     if m:
         return "subcategory" if m.group(2) else ("off-topic category" if m.group(1) in NOINDEX_CATEGORIES else None)
+    m = re.match(r"packing/([a-z0-9-]+)\.html$", path)
+    if m and m.group(1) in NOINDEX_PACKING:
+        return "packing list"
     if re.match(r"guides/[a-z0-9-]*gift[a-z0-9-]*\.html$", path):
         return "gift guide"
     return None
@@ -2859,12 +2863,13 @@ SIZE_CHART_PICKS = [
 
 
 SIZE_CHART_UPDATED = "2026-11-15"  # bump when the size chart's facts change; the Hindi chart (scripts/hindi_pages.py) warns until it matches
+SIZE_CHART_TEXT_UPDATED = "2026-11-26"  # English page only: wording changes that leave the facts (and the Hindi chart) as they are
 
 
 def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
     """Inches/cm and kg/lb chart for luggage, with airline limits converted (baggage/luggage-size-chart.html)."""
     path = "baggage/luggage-size-chart.html"
-    updated = SIZE_CHART_UPDATED
+    updated = max(SIZE_CHART_UPDATED, SIZE_CHART_TEXT_UPDATED)
     cm = lambda inches: num(round(inches * 2.54, 1))
     inch = lambda c: num(round(c / 2.54, 1))
     lb = lambda kg: num(round(kg * 2.20462, 1))
@@ -2894,7 +2899,10 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
                  "22 x 14 x 9 inches is %s cm, %s cm in total, a little over the cabin limits of the Indian airlines we track."
                  % (us_cm, num(round(sum(us), 1))))
     indigo = next((a for a in (airlines or {}).get("airlines", []) if a["slug"] == "indigo"), None)
-    quick = ["1 inch is 2.54 cm. So a 20-inch bag is %s cm, a 24-inch bag is %s cm and a 28-inch bag is %s cm." % (cm(20), cm(24), cm(28)),
+    quick = ["Small (cabin) trolley: about 55 cm tall (%s in), and many are 36–41 cm wide. IndiGo's cabin limit is 55 x 35 x 25 cm, so check all three sides." % inch(55),
+             "Medium trolley: 65–69 cm tall (%s–%s in) and about 135–147 cm in total, from the 36 medium models we read." % (inch(65), inch(69)),
+             "Large trolley: 75–79 cm tall (%s–%s in). Of the 31 large models we checked, 26 were listed over the 158 cm check-in limit." % (inch(75), inch(79)),
+             "1 inch is 2.54 cm. So a 20-inch bag is %s cm, a 24-inch bag is %s cm and a 28-inch bag is %s cm." % (cm(20), cm(24), cm(28)),
              "Indian brands mostly sell trolleys by height in cm: about 55 cm for cabin, 65–69 cm for medium and 75–79 cm for large.",
              "A 22-inch bag (%s cm) is closest to the usual 55 cm cabin height. A true 20-inch bag is smaller, but some brands sell 55 cm bags as \"20 inch\" and 65 cm bags as \"24 inch\", so check the cm." % cm(22)]
     if indigo:
@@ -2931,6 +2939,7 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
     body = f"""{page_head("luggage", f'<div class="media media-tile tint-luggage">{icon("ruler", "icon media-icon")}</div>', inner, "../")}
 <div class="wrap"><article class="guide">
 <p class="lead">Suitcase and trolley bag sizes are given by height. Here is each trolley size in inches and cm, from small cabin trolleys to large ones, with the trip it suits. Tap a size for its full guide.</p>
+<div class="answer"><h2>Quick answer: small, medium and large trolley sizes in cm</h2><ul>{"".join("<li>%s</li>" % e(x) for x in quick)}</ul></div>
 <h2>Trolley sizes in inches and cm</h2>
 <div class="table-wrap"><table class="compare snug"><thead><tr><th>Inches</th><th>cm</th><th>Size</th><th>Trip length</th></tr></thead><tbody>{size_rows}</tbody></table></div>
 <p class="small">Sizes are the bag's height. Sellers don't always say whether it includes the wheels, so check the full size on the listing.</p>
@@ -2938,7 +2947,6 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
 <h2>Indian trolley sizes in cm, in inches</h2>
 <p>Indian brands list trolleys by height in cm. Here is each common height in inches.</p>
 <div class="table-wrap"><table class="compare snug"><thead><tr><th>Listed height</th><th>Inches</th><th>Size</th></tr></thead><tbody>{cm_rows}</tbody></table></div>
-<div class="answer"><h2>Quick answer</h2><ul>{"".join("<li>%s</li>" % e(x) for x in quick)}</ul></div>
 <h2>Convert inches, cm, kg and lb</h2>
 <form class="checker" onsubmit="return false">
 <div class="checker-fields"><label>Number<input id="cv-n" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g. 22"></label>
@@ -3259,6 +3267,9 @@ def home_links(path, html):
         ups = len(m.group(1)) // 3
         return 'href="%s%s"' % ("../" * ups or "./", m.group(2) or "") if ups == depth else m.group(0)
     return re.sub(r'href="((?:\.\./)*)index\.html(#[^"]*)?"', fix, html)
+
+
+CATEGORY_TEXT_UPDATED = "2026-11-26"  # bump when you edit how_to_choose text in data/config.json
 
 
 def write(path, html):
@@ -3797,6 +3808,22 @@ def build():
                           f'<div id="picks" class="sub-sections">{"".join(sections)}</div>')
         related_html = (f'<section class="section">{section_head("Guides")}{guide_cards(cfg, related, "../")}</section>'
                         if related else "")
+        if cat.get("how_to_choose"):
+            # Our own buying advice for the category, so the page is more than a grid of picks (Search Console audit, 26 Nov 2026).
+            parts, bullets = [], []
+            for line in cat["how_to_choose"] + ["## "]:
+                if line.startswith("- "):
+                    bullets.append("<li>%s</li>" % md_inline(line[2:], "../"))
+                    continue
+                if bullets:
+                    parts.append("<ul>%s</ul>" % "".join(bullets)); bullets = []
+                if line.startswith("## "):
+                    if line[3:]:
+                        parts.append("<h3>%s</h3>" % e(line[3:]))
+                else:
+                    parts.append("<p>%s</p>" % md_inline(line, "../"))
+            related_html = (f'<section class="section cat-advice prose" id="how-to-choose"><h2>How to choose {e(cat["name"].split(" &")[0].lower())}</h2>'
+                            f'{"".join(parts)}</section>' + related_html)
         inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span>{e(cat['name'])}</nav>
       <h1>{e(cat['name'])}</h1>
       <p class="lead">{e(cat['intro'])}</p>"""
@@ -4066,6 +4093,8 @@ def build():
             if m:
                 dates = [d["added_at"][:10] for d in deals if d["category"] == m.group(1)
                          and (not m.group(2) or d.get("subcategory") == m.group(2))]
+                if not m.group(2) and cfg["categories"].get(m.group(1), {}).get("how_to_choose"):
+                    dates.append(CATEGORY_TEXT_UPDATED)
                 if dates:
                     lastmod[path] = max(dates)
             elif path == "guides/index.html" and articles:
