@@ -126,7 +126,7 @@ What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#pon
 - **Swimwear only at the beach,** with a cover-up in town.
 - **A cap, sunglasses and sunscreen.** You won't need woollens; a thin layer is enough for a breezy evening.
 
-For a full list, see our [beach holiday packing list](../packing/beach.html).
+For a full list, see our [beach holiday packing list](../packing/index.html#beach).
 
 ## Health and safety
 

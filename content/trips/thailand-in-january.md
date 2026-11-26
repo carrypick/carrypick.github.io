@@ -97,7 +97,7 @@ January is high season on the Andaman coast, so book Phuket and Krabi early, esp
 
 Light cotton clothes, a cap and sunscreen for Bangkok and the beaches, one temple outfit (sleeves and long trousers or a long skirt), and sandals you can slip off. Add a jacket or fleece for Chiang Mai's mornings and evenings, and for the cold air-conditioning on buses and flights.
 
-What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#thailand) for Thailand temperatures by month, and see our [Thailand packing list](../guides/thailand-packing-list.html) and the [beach trip checklist](../packing/beach.html).
+What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#thailand) for Thailand temperatures by month, and see our [Thailand packing list](../guides/thailand-packing-list.html) and the [beach trip checklist](../packing/index.html#beach).
 
 ## Help in an emergency
 

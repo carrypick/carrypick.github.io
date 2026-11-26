@@ -121,7 +121,7 @@ Full list: our [Rishikesh packing list](../guides/rishikesh-packing-list.html), 
 - **For temples:** clothes that cover your shoulders and knees, and a scarf or shawl.
 - **Sun care:** sunglasses and sunscreen for days on the river.
 
-For our picks and full lists, see [which shoes to take](../guides/travel-shoes-guide.html), the [sunscreen guide](../guides/travel-sunscreen-guide.html), [handbags and slings for travel](../guides/handbag-and-sling-guide.html) (a cross-body sling is safer in crowds) and the [weekend trip packing checklist](../packing/weekend.html). Going up to Mussoorie or Dhanaulti too? See [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html).
+For our picks and full lists, see [which shoes to take](../guides/travel-shoes-guide.html), the [sunscreen guide](../guides/travel-sunscreen-guide.html), [handbags and slings for travel](../guides/handbag-and-sling-guide.html) (a cross-body sling is safer in crowds) and the [weekend trip packing checklist](../packing/index.html#weekend). Going up to Mussoorie or Dhanaulti too? See [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html).
 
 ## Health and safety
 

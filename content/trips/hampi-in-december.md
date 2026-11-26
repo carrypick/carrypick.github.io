@@ -105,7 +105,7 @@ What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#ham
 - **A cap, sunglasses and sunscreen,** and a water bottle. There's little shade at the big sites.
 - **A small torch** if you climb a hill for sunset.
 
-For a full list, see the [weekend trip packing checklist](../packing/weekend.html).
+For a full list, see the [weekend trip packing checklist](../packing/index.html#weekend).
 
 ## Health and safety
 

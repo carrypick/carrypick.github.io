@@ -121,7 +121,7 @@ What should I wear? The [what-to-wear helper](../tools/what-to-wear.html#kutch) 
 - **Shoes:** closed walking shoes or sneakers. Salt crust can be rough and damp in places, and white salt sticks to everything.
 - **Sunscreen and lip balm.** The air is dry and the glare is strong.
 
-For our picks and full lists, see [which shoes to take](../guides/travel-shoes-guide.html), the [sunscreen guide](../guides/travel-sunscreen-guide.html) and the [weekend trip packing checklist](../packing/weekend.html).
+For our picks and full lists, see [which shoes to take](../guides/travel-shoes-guide.html), the [sunscreen guide](../guides/travel-sunscreen-guide.html) and the [weekend trip packing checklist](../packing/index.html#weekend).
 
 ## Local tips
 

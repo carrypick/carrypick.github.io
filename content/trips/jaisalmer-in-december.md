@@ -119,7 +119,7 @@ Jaisalmer is warm by day and cold at night, especially in the desert, so pack fo
 - **For temples:** clothes that cover your shoulders and knees.
 - **Sunscreen and lip balm.** The desert air is dry and the sun is strong.
 
-For our picks and full lists, see [which shoes to take](../guides/travel-shoes-guide.html), the [sunscreen guide](../guides/travel-sunscreen-guide.html), [what to wear on a winter trip](../guides/winter-clothes-for-hill-trips.html) and the [weekend trip packing checklist](../packing/weekend.html).
+For our picks and full lists, see [which shoes to take](../guides/travel-shoes-guide.html), the [sunscreen guide](../guides/travel-sunscreen-guide.html), [what to wear on a winter trip](../guides/winter-clothes-for-hill-trips.html) and the [weekend trip packing checklist](../packing/index.html#weekend).
 
 ## Safety and local tips
 

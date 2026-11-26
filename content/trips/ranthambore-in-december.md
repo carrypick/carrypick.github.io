@@ -149,7 +149,7 @@ Afternoons are warm, but a 7 AM safari in an open jeep is very cold.
 - **Sunscreen and a cap** for the afternoon safari.
 - **Binoculars** if you have them, and a camera.
 
-For our picks and full lists, see [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html), our [winter jacket for travel guide](../guides/winter-jacket-for-travel.html) and the [weekend trip packing checklist](../packing/weekend.html). Going on an African safari too? See our [Kenya safari packing list](../guides/kenya-safari-packing-list.html).
+For our picks and full lists, see [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html), our [winter jacket for travel guide](../guides/winter-jacket-for-travel.html) and the [weekend trip packing checklist](../packing/index.html#weekend). Going on an African safari too? See our [Kenya safari packing list](../guides/kenya-safari-packing-list.html).
 
 ## Rules and safety
 

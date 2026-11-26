@@ -146,7 +146,7 @@ Udaipur is warm in the day and cold at night, so pack for both.
 - **For temples:** clothes that cover your shoulders and knees, especially at Ranakpur, and a scarf or shawl.
 - **Sunscreen,** even in December.
 
-For our picks and full lists, see [which shoes to take](../guides/travel-shoes-guide.html), the [sunscreen guide](../guides/travel-sunscreen-guide.html), [handbags and slings for travel](../guides/handbag-and-sling-guide.html) and the [weekend trip packing checklist](../packing/weekend.html).
+For our picks and full lists, see [which shoes to take](../guides/travel-shoes-guide.html), the [sunscreen guide](../guides/travel-sunscreen-guide.html), [handbags and slings for travel](../guides/handbag-and-sling-guide.html) and the [weekend trip packing checklist](../packing/index.html#weekend).
 
 ## Safety and local tips
 

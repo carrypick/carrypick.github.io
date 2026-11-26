@@ -189,7 +189,7 @@ For the full list, see what you can't bring in our [Maldives packing list](../gu
 - **For snorkelling:** a rash guard or quick-dry T-shirt, and water shoes.
 - **Sunscreen,** sunglasses, a hat and a waterproof pouch for your phone.
 
-For our picks, see the [Maldives packing list](../guides/maldives-packing-list.html), the [honeymoon packing list](../guides/honeymoon-packing-list.html) and the [beach trip checklist](../packing/beach.html). Need a list for your exact dates? Try the [packing list maker](../tools/packing-list-maker.html).
+For our picks, see the [Maldives packing list](../guides/maldives-packing-list.html), the [honeymoon packing list](../guides/honeymoon-packing-list.html) and the [beach trip checklist](../packing/index.html#beach). Need a list for your exact dates? Try the [packing list maker](../tools/packing-list-maker.html).
 
 ## Help in an emergency
 

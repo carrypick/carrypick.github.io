@@ -110,7 +110,7 @@ In January, a pool villa in Ubud or a hotel in Sanur or Nusa Dua makes the most 
 
 Light cotton clothes, a rain poncho or a light rain jacket (umbrellas are hard in the wind), sandals that can get wet, and walking shoes with grip for wet temple steps and waterfall paths. Pack a sarong, or a top with sleeves and long trousers or a skirt, for temples, and mosquito repellent: there are more mosquitoes in the wet season.
 
-What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#bali) for Bali temperatures by month, and see our [Bali packing list](../guides/bali-packing-list.html) and the [beach trip checklist](../packing/beach.html).
+What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#bali) for Bali temperatures by month, and see our [Bali packing list](../guides/bali-packing-list.html) and the [beach trip checklist](../packing/index.html#beach).
 
 ## Help in an emergency
 

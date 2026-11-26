@@ -101,7 +101,7 @@ Andaman is hot and humid, with sudden showers, so pack light. Our [Andaman packi
 - **Bags:** a dry bag or zip pouches keep your phone and ID dry on the ferries.
 - **Medicines:** pills for seasickness if boats upset you, plus your usual medicines.
 
-To tick things off as you pack, use the [beach trip packing checklist](../packing/beach.html). Choosing a bag? See our [luggage size guide](../baggage/luggage-size-chart.html).
+To tick things off as you pack, use the [beach trip packing checklist](../packing/index.html#beach). Choosing a bag? See our [luggage size guide](../baggage/luggage-size-chart.html).
 
 ## Health and safety
 

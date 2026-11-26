@@ -177,7 +177,7 @@ April is hot in the plains and mild in the hills. Pack light cotton clothes, a l
 
 [[pick:B00NIWHQVI]]
 
-Build a full list for your trip with the [packing list maker](../tools/packing-list-maker.html), or start from our [hill trip checklist](../packing/hills.html) and [beach checklist](../packing/beach.html).
+Build a full list for your trip with the [packing list maker](../tools/packing-list-maker.html), or start from our [hill trip checklist](../packing/hills.html) and [beach checklist](../packing/index.html#beach).
 
 ## Honeymoon trips in April
 

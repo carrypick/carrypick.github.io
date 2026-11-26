@@ -166,7 +166,7 @@ For the full list, see the rules section of our [Bali packing list](../guides/ba
 - **Sandals that can get wet,** and walking shoes for Nusa Penida and treks.
 - **A rain poncho,** sunscreen, sunglasses, a cap and mosquito repellent.
 
-For our picks, see the [Bali packing list](../guides/bali-packing-list.html), the [honeymoon packing list](../guides/honeymoon-packing-list.html) and the [beach trip checklist](../packing/beach.html). Need a list for your exact dates? Try the [packing list maker](../tools/packing-list-maker.html).
+For our picks, see the [Bali packing list](../guides/bali-packing-list.html), the [honeymoon packing list](../guides/honeymoon-packing-list.html) and the [beach trip checklist](../packing/index.html#beach). Need a list for your exact dates? Try the [packing list maker](../tools/packing-list-maker.html).
 
 ## Help in an emergency
 
