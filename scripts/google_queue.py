@@ -1,7 +1,7 @@
 """Keep the list of pages to send to Google with Request Indexing in Search Console.
 
 The list is guides/google-queue.txt (private, not published), one page per line: STATE DATE PATH.
-States are waiting, requested and indexed. New pages in docs/sitemap.xml join the front of the list,
+States are waiting, requested and indexed. New pages in the sitemaps (docs/sitemap-*.xml) join the front of the list,
 except picks, which are added by name, and pages that don't need search traffic.
   python3 scripts/google_queue.py next 8                       # the next 8 pages to request
   python3 scripts/google_queue.py add picks/B0ABCDEFGH.html    # put a page at the front
@@ -31,12 +31,23 @@ def save(rows):
     QUEUE.write_text("".join(" ".join(row) + "\n" for row in rows), encoding="utf-8")
 
 
-def add_new_pages(rows):
-    """Put sitemap pages the list doesn't know yet at the front, so new pages go first."""
+def sitemap_paths():
+    """Every page path in the sitemaps. Since 26 Nov 2026 docs/sitemap.xml is a sitemap index that points to
+    docs/sitemap-*.xml, and noindex or merged pages are left out of them (Search Console audit)."""
     base = load_config()["base_url"].rstrip("/") + "/"
-    urls = re.findall(r"<loc>([^<]+)</loc>", (ROOT / "docs" / "sitemap.xml").read_text(encoding="utf-8"))
+    docs = ROOT / "docs"
+    files = sorted(docs.glob("sitemap-*.xml")) or [docs / "sitemap.xml"]
+    urls = []
+    for f in files:
+        urls += re.findall(r"<loc>([^<]+)</loc>", f.read_text(encoding="utf-8"))
+    return [url[len(base):] for url in urls if url.startswith(base) and not url.endswith(".xml")]
+
+
+def add_new_pages(rows, paths):
+    """Put sitemap pages the list doesn't know yet at the front, so new pages go first.
+    Drop rows that are sitemap files, not pages (a bug from the first day of the sitemap index)."""
+    rows = [row for row in rows if not row[2].endswith(".xml")]
     known = {row[2] for row in rows}
-    paths = [url[len(base):] for url in urls if url.startswith(base)]
     fresh = [path for path in paths if path not in known and path not in SKIP and not path.startswith("picks/")]
     return [["waiting", "-", path] for path in fresh] + rows
 
@@ -45,12 +56,15 @@ def main():
     args = sys.argv[1:]
     rows = load()
     if len(args) == 2 and args[0] == "next" and args[1].isdigit():
-        rows = add_new_pages(rows)
+        paths = sitemap_paths()
+        rows = add_new_pages(rows, paths)
         save(rows)
-        print("\n".join([row[2] for row in rows if row[0] == "waiting"][:int(args[1])]))
+        # Only pages Google may index: noindex and merged pages are not in the sitemaps, so they wait.
+        listed = set(paths)
+        print("\n".join([row[2] for row in rows if row[0] == "waiting" and row[2] in listed][:int(args[1])]))
     elif len(args) == 2 and args[0] == "add":
-        if args[1] not in {row[2] for row in rows}:
-            save([["waiting", "-", args[1]]] + rows)
+        # A page that was improved goes to the front as waiting, even if it was requested before.
+        save([["waiting", "-", args[1]]] + [row for row in rows if row[2] != args[1]])
     elif len(args) == 3 and args[0] == "mark" and args[2] in STATES:
         if args[1] not in {row[2] for row in rows}:
             sys.exit("Error: %s is not in the list." % args[1])
