@@ -145,6 +145,7 @@ It depends on the airline. IndiGo's infant page says from 3 days old; Air India,
 
 ## Related guides
 
+- [Summer vacation packing list for kids](summer-vacation-packing-list-for-kids.html)
 - [Toiletry bags for travel](toiletry-bag-for-travel.html)
 - [Packing cubes](packing-cubes.html)
 

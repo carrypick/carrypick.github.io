@@ -80,7 +80,7 @@ The two roads to Ladakh are closed by snow in winter, and the Border Roads Organ
 - **[Spiti](spiti-valley-trip-guide.html):** the road from Shimla through Kinnaur is open, but Kunzum La from Manali opens later: in 2026 it opened to light 4x4 vehicles around 20 May, news reports said. Check the current road status with the Lahaul-Spiti district before you plan. Foreigners need an Inner Line Permit for some border areas of Kinnaur and Spiti.
 - **Rohtang Pass** above Manali usually reopens around May, says Himachal Tourism. Vehicles need a permit from [rohtangpermits.hp.gov.in](https://rohtangpermits.hp.gov.in/Home/InformatoryScreen), and only a set number of vehicles are allowed each day, so book online up to 2 days ahead and carry a printout.
 
-Read our full [Ladakh trip guide](ladakh-trip-guide.html) for permits, the 48-hour rest rule and a 7-day plan, and our [Spiti Valley trip guide](spiti-valley-trip-guide.html) for both roads and an 8-day circuit. Pack for cold: even in May, nights in Leh and on the passes are cold, so see our [winter clothes guide](../guides/winter-clothes-for-hill-trips.html).
+Read our full [Ladakh trip guide](ladakh-trip-guide.html) for permits, the 48-hour rest rule and a 7-day plan, and our [Spiti Valley trip guide](spiti-valley-trip-guide.html) for both roads and an 8-day circuit. Pack with our [Ladakh packing list](../guides/ladakh-packing-list.html). Pack for cold: even in May, nights in Leh and on the passes are cold, so see our [winter clothes guide](../guides/winter-clothes-for-hill-trips.html).
 
 ## Char Dham yatra in May
 
@@ -116,7 +116,7 @@ Going abroad to escape the heat? See below: Dubai and the Gulf are even hotter.
 ## Places to visit in May in India with family and kids
 
 - **With family:** Shimla, Mussoorie, Nainital, Ooty and Kashmir are easy, with plenty of hotels and short sightseeing days. Book the toy trains in Shimla, Darjeeling and Ooty early.
-- **With kids or a baby:** pick one place and stay put, with short drives and a hotel near the main sights. Keep children out of the midday sun on travel days, and carry water and ORS.
+- **With kids or a baby:** pick one place and stay put, with short drives and a hotel near the main sights. Keep children out of the midday sun on travel days, and carry water and ORS. Pack with our [summer vacation packing list for kids](../guides/summer-vacation-packing-list-for-kids.html).
 - **With friends:** rafting in Rishikesh, the Manali–Rohtang side, or a 9-day Bakrid and Buddha Purnima trip to Kashmir or Darjeeling.
 - **On a budget or for 3 days:** Mussoorie, Nainital or Rishikesh from Delhi; Ooty or Coorg from Bengaluru. See [weekend getaways from Delhi](weekend-getaways-from-delhi.html), [Mumbai](weekend-getaways-from-mumbai.html) and [Bangalore](weekend-getaways-from-bangalore.html).
 
@@ -230,6 +230,8 @@ Usually not in early May. In 2026 BRO finished clearing the road on 12 May, and 
 - [Sikkim trip plan](sikkim-trip-plan.html)
 - [Kedarnath packing list](../guides/kedarnath-packing-list.html)
 - [Ladakh trip guide](ladakh-trip-guide.html)
+- [Ladakh packing list](../guides/ladakh-packing-list.html)
+- [Summer vacation packing list for kids](../guides/summer-vacation-packing-list-for-kids.html)
 - [Spiti Valley trip guide](spiti-valley-trip-guide.html)
 - [Manali packing list](../guides/manali-packing-list.html)
 - [Kashmir packing list](../guides/kashmir-packing-list.html)

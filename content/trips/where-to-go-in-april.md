@@ -120,7 +120,7 @@ Carry water, a cap and sunscreen: the jeeps are open, and the afternoon sun is s
 ## Places to visit in April with family and kids
 
 - **With family:** Shimla, Mussoorie, Nainital and Ooty for cool air, the toy trains of Shimla and Darjeeling, or Kashmir in tulip season.
-- **With kids or a baby:** pick places with short drives and a good hotel: Nainital, Mussoorie or Ooty. Keep afternoons for rest. Abroad, Singapore is easy with children, and its drier months run to April.
+- **With kids or a baby:** pick places with short drives and a good hotel: Nainital, Mussoorie or Ooty. Keep afternoons for rest. Abroad, Singapore is easy with children, and its drier months run to April. Pack with our [summer vacation packing list for kids](../guides/summer-vacation-packing-list-for-kids.html).
 - **With friends:** rafting in Rishikesh, a 10-day Ram Navami break in Himachal or Darjeeling, or a short trip to Vietnam or Uzbekistan.
 - **Near Delhi:** Mussoorie, Nainital, Rishikesh and Shimla. See [weekend getaways from Delhi](weekend-getaways-from-delhi.html), and from [Mumbai](weekend-getaways-from-mumbai.html) and [Bangalore](weekend-getaways-from-bangalore.html).
 
@@ -229,6 +229,8 @@ Not yet. The 2027 opening dates are to be announced. In 2026, Kedarnath opened o
 - [Kedarnath packing list](../guides/kedarnath-packing-list.html)
 - [Where to go in March](where-to-go-in-march.html)
 - [Ladakh trip guide](ladakh-trip-guide.html)
+- [Ladakh packing list](../guides/ladakh-packing-list.html)
+- [Summer vacation packing list for kids](../guides/summer-vacation-packing-list-for-kids.html)
 - [Spiti Valley trip guide](spiti-valley-trip-guide.html)
 - [Kashmir packing list](../guides/kashmir-packing-list.html)
 - [Manali packing list](../guides/manali-packing-list.html)

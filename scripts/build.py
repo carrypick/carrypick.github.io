@@ -2945,7 +2945,7 @@ PACKING_GUIDES = {"abroad": (("dubai", "Dubai"), ("thailand", "Thailand"), ("bal
                              ("kenya-safari", "a Kenya safari"), ("umrah", "Umrah")),
                   "beach": (("goa", "Goa"), ("andaman", "Andaman"), ("thailand", "Thailand"), ("bali", "Bali"),
                             ("maldives", "the Maldives"), ("honeymoon", "a honeymoon")),
-                  "hills": (("manali", "Manali"), ("kashmir", "Kashmir"), ("kedarnath", "Kedarnath and the Char Dham"), ("snow-trip", "any snow trip")),
+                  "hills": (("manali", "Manali"), ("kashmir", "Kashmir"), ("kedarnath", "Kedarnath and the Char Dham"), ("ladakh", "Ladakh"), ("snow-trip", "any snow trip")),
                   "week": (("rajasthan", "Rajasthan"), ("kerala", "Kerala")),
                   "weekend": (("rishikesh", "Rishikesh"), ("rajasthan", "Rajasthan"))}
 

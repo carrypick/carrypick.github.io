@@ -110,7 +110,7 @@ For a toddler or an older child: headphones with a volume limit and a cable for 
 
 [[pick:B0GSWQYSP4]]
 
-The full packing list, from documents to diapers, is in our [travelling with a baby checklist](travelling-with-baby-checklist.html). Or tick **Baby** in the [packing list maker](../tools/packing-list-maker.html). See every pick in [Baby & Kids Travel](../category/baby-kids.html).
+The full packing list, from documents to diapers, is in our [travelling with a baby checklist](travelling-with-baby-checklist.html). Or tick **Baby** in the [packing list maker](../tools/packing-list-maker.html). See every pick in [Baby & Kids Travel](../category/baby-kids.html). Older kids on a summer trip? See our [summer vacation packing list for kids](summer-vacation-packing-list-for-kids.html).
 
 ## Questions
 

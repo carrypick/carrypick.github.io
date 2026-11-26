@@ -185,7 +185,7 @@ Ladakh in summer is hot in the sun and cold in the shade, at night and on the pa
 - **Shoes:** comfortable walking shoes with a good grip. Add warm socks for the lakes.
 - **Bikers:** add riding gear, rain covers and a good pair of gloves.
 
-For the full list, use our [snow trip packing list](../guides/snow-trip-packing-list.html), the [Manali packing list](../guides/manali-packing-list.html) (good for the Manali–Leh road) and the [winter hill trip packing list](../packing/hills.html). For warm layers, read [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html) and our [sunglasses guide](../guides/sunglasses-buying-guide.html).
+For the full list, read our [Ladakh packing list](../guides/ladakh-packing-list.html): sun protection, layers, a bike-trip list, cash, power and permit papers. For colder months, use our [snow trip packing list](../guides/snow-trip-packing-list.html), the [Manali packing list](../guides/manali-packing-list.html) (good for the Manali–Leh road) and the [winter hill trip packing list](../packing/hills.html). For warm layers, read [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html) and our [sunglasses guide](../guides/sunglasses-buying-guide.html).
 
 ## For foreign visitors
 
@@ -234,6 +234,7 @@ Rest completely for the first 48 hours in Leh, then go up slowly. Drink plenty o
 
 ## Related guides
 
+- [Ladakh packing list](../guides/ladakh-packing-list.html)
 - [Spiti Valley trip guide](spiti-valley-trip-guide.html)
 - [Where to go in May](where-to-go-in-may.html)
 - [Manali guide](manali.html)
