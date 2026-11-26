@@ -1,5 +1,65 @@
 [
   {
+    "asin": "B073P8RCBJ",
+    "added_at": "2026-11-26T09:09:14+05:30",
+    "title": "Timex Men's Analog Watch, 45 mm Blue Dial, Tan Leather Strap (TW000U913)",
+    "category": "watches",
+    "subcategory": "mens-watches",
+    "highlights": [
+      "Big 45 mm blue dial with a brass case",
+      "Tan leather strap, 22 mm wide",
+      "Quartz movement",
+      "Water resistant to 30 m, 1-year warranty"
+    ],
+    "note": "A bold blue and tan Timex that suits office wear, weddings and gifts.",
+    "brand": "Timex",
+    "colour": "Blue dial, tan leather strap",
+    "best_for": [
+      "Office wear",
+      "Gifts"
+    ],
+    "specs": {
+      "Dial size": "45 mm",
+      "Case": "Brass",
+      "Strap": "Leather, 22 mm",
+      "Movement": "Quartz",
+      "Water resistance": "30 m",
+      "Warranty": "1 year"
+    },
+    "skip_if": "you have a thin wrist: a 45 mm dial is big.",
+    "deal_seen_at": "2026-11-26T09:08:00+05:30"
+  },
+  {
+    "asin": "B0D9XYDHBN",
+    "added_at": "2026-11-26T09:09:14+05:30",
+    "title": "Mokobara Transit Cabin Pro 56 cm Trolley with 15.6 inch Laptop Pocket, 40 L",
+    "category": "luggage",
+    "subcategory": "cabin-trolleys",
+    "highlights": [
+      "Hard front pocket for a 15.6 inch laptop",
+      "Makrolon polycarbonate hard shell",
+      "8 Hinomoto spinner wheels",
+      "Keyless TSA lock, 3-year warranty"
+    ],
+    "note": "A Mokobara cabin bag with a front laptop pocket, so you don't open the whole case at security.",
+    "brand": "Mokobara",
+    "colour": "Blue",
+    "best_for": [
+      "Work trips",
+      "Laptop travel"
+    ],
+    "specs": {
+      "Size": "56 x 34.5 x 24 cm (114.5 cm total)",
+      "Capacity": "40 L",
+      "Weight": "3.46 kg",
+      "Shell": "Hard, polycarbonate",
+      "Lock": "TSA lock",
+      "Warranty": "3 years"
+    },
+    "skip_if": "your airline checks each side strictly: at 56 cm long it is over the 55 cm limit of IndiGo, Akasa and SpiceJet, and it weighs 3.46 kg empty.",
+    "deal_seen_at": "2026-11-26T09:08:00+05:30"
+  },
+  {
     "asin": "B0BYRY5MHQ",
     "added_at": "2026-11-25T22:46:31+05:30",
     "title": "Tripole Trailcore Foldable Trekking Pole, Aluminium 7075, Single Pole",
