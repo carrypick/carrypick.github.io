@@ -2547,6 +2547,69 @@
     "description": "Places to visit in May 2027, the school summer holiday month: cool hill stations, Char Dham, Ladakh roads, long weekends and family trips in India and abroad. As an Amazon Associate I earn from qualifying purchases."
   },
   {
+    "slug": "ladakh-trip-guide",
+    "image": "ladakh-trip-guide.jpg",
+    "board": "India Trip Ideas",
+    "title": "Leh Ladakh trip guide: best time, permits, roads and a 7-day plan",
+    "alt": "Leh town seen from Shanti Stupa, with the words Leh Ladakh trip guide.",
+    "link": "https://carrypick.github.io/trips/ladakh-trip-guide.html",
+    "description": "Plan a Leh Ladakh trip: the best months, flying to Leh or driving the Srinagar and Manali roads, permits for Nubra and Pangong, the 48-hour rest rule for altitude and a 7-day plan. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "spiti-valley-guide",
+    "image": "spiti-valley-guide.jpg",
+    "board": "India Trip Ideas",
+    "title": "Spiti Valley trip guide: best time, routes, permits and an 8-day plan",
+    "alt": "Key Monastery in Spiti Valley, with the words Spiti Valley trip guide.",
+    "link": "https://carrypick.github.io/trips/spiti-valley-trip-guide.html",
+    "description": "Plan a Spiti Valley trip: the best time to visit, the two roads in (Shimla and Kinnaur all year, Manali and Kunzum La only in summer), permits, altitude advice and an 8-day circuit. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "sikkim-trip-plan",
+    "image": "sikkim-trip-plan.jpg",
+    "board": "India Trip Ideas",
+    "title": "Sikkim trip plan: Gangtok, permits, the best time to go and a 6-day route",
+    "alt": "Tsomgo Lake in Sikkim, with the words Sikkim trip plan.",
+    "link": "https://carrypick.github.io/trips/sikkim-trip-plan.html",
+    "description": "Plan a Sikkim trip: the best time to visit Gangtok, getting there from Bagdogra and NJP, permits for Tsomgo Lake, Nathu La and North Sikkim, local rules and a 6-day plan. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "char-dham-2027",
+    "image": "char-dham-2027.jpg",
+    "board": "India Trip Ideas",
+    "title": "Char Dham Yatra 2027: dates, free registration and an 11-day route",
+    "alt": "Badrinath temple, with the words Char Dham Yatra 2027.",
+    "link": "https://carrypick.github.io/trips/char-dham-yatra-2027.html",
+    "description": "Plan the Char Dham Yatra 2027 to Yamunotri, Gangotri, Kedarnath and Badrinath: opening dates, how the free registration works, Kedarnath helicopter booking only on IRCTC and an 11-day route from Haridwar. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "kedarnath-packing",
+    "image": "kedarnath-packing.jpg",
+    "board": "Packing and What to Wear",
+    "title": "Kedarnath packing list: what to wear and carry for the trek",
+    "alt": "Kedarnath temple in the mountains, with the words Kedarnath packing list.",
+    "link": "https://carrypick.github.io/guides/kedarnath-packing-list.html",
+    "description": "What to pack for the 16-17 km Kedarnath trek: clothes for May, June and October, a rain jacket, warm layers for a cold night at 3,580 m, shoes, a walking stick and documents. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "which-usb-c-cable",
+    "image": "which-usb-c-cable.jpg",
+    "board": "Packing and What to Wear",
+    "title": "Which USB-C cable do I need? 3 A vs 5 A, 60 W vs 100 W and 240 W",
+    "alt": "A plane window, with the words Which USB-C cable do I need.",
+    "link": "https://carrypick.github.io/guides/which-usb-c-cable.html",
+    "description": "How to choose a USB-C cable: 3 A vs 5 A, what an e-marker chip is, why 5 A cables need one, USB 2.0 vs USB 3 data speed and one cable for phone, laptop and power bank on a trip. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
+    "slug": "malaysia-packing-list",
+    "image": "malaysia-packing-list.jpg",
+    "board": "Packing and What to Wear",
+    "title": "Malaysia packing list: what to pack and wear for a trip from India",
+    "alt": "The Petronas Towers in Kuala Lumpur, with the words Malaysia packing list.",
+    "link": "https://carrypick.github.io/guides/malaysia-packing-list.html",
+    "description": "What to pack for Malaysia from India: light clothes for heat and rain, an umbrella, modest clothes for mosques and Batu Caves, a type G plug adapter and the right bag for your airline. As an Amazon Associate I earn from qualifying purchases."
+  },
+  {
     "slug": "mothers-day-gifts",
     "image": "mothers-day-gifts.jpg",
     "board": "Gift Ideas",
