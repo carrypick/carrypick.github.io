@@ -47,23 +47,74 @@
         "dims_cm": [55, 40, 20],
         "total_cm": 115,
         "summary": "One cabin bag up to 7 kg",
-        "detail": "Air India allows one cabin bag up to 7 kg in Economy and Premium Economy. It must be no bigger than 55 x 40 x 20 cm, and no more than 115 cm in total. On domestic flights you can pay for a heavier cabin bag, up to 12 kg."
+        "detail": "Air India allows one cabin bag up to 7 kg in Economy and Premium Economy (10 kg in Business and First). Air India gives the size as 55 cm high, 40 cm long and 20 cm wide, and no more than 115 cm in total. The 40 cm side is wider than IndiGo's 35 cm, so a soft bag that is too wide for IndiGo can still fit here. You can carry a cabin bag of up to 12 kg only if you pay the excess hand baggage charge, which Air India lists as ₹3,000 on domestic flights and USD 75 on international flights. A cabin bag over 12 kg must be checked in."
       },
-      "personal": {"summary": "One small bag up to 3 kg and 40 x 30 x 20 cm that fits under the seat"},
+      "personal": {"summary": "One personal item up to 3 kg that fits under the seat, such as a handbag, a laptop bag or a camera bag, each up to 40 x 30 x 20 cm. If you travel with an infant, the personal and baby items together can weigh up to 5 kg"},
       "checkin": [
+        {"fare": "Economy Basic (select domestic routes)", "allowance": "15 kg, 1 piece"},
         {"fare": "Economy Value", "allowance": "15 kg, 1 piece"},
-        {"fare": "Economy Classic", "allowance": "20 kg, 1 piece (see note)"},
-        {"fare": "Economy Flex", "allowance": "25 kg, up to 2 pieces"}
+        {"fare": "Economy Classic", "allowance": "20 kg, 1 piece"},
+        {"fare": "Economy Flex", "allowance": "25 kg, up to 2 pieces"},
+        {"fare": "Premium Economy Value / Flex", "allowance": "15 kg / 25 kg"},
+        {"fare": "Business Value / Flex", "allowance": "30 kg / 40 kg"},
+        {"fare": "First", "allowance": "40 kg"}
       ],
-      "checkin_summary": "15 kg on Value, 20 kg on Classic, 25 kg on Flex",
-      "checkin_note": "With less than 25 kg you get 1 piece; with 25 kg or more you can split it into 2 pieces. Each bag can be up to 158 cm in total and 32 kg. One Air India page shows Classic as 15 kg (25 kg on some routes), so check the allowance printed on your ticket.",
+      "checkin_summary": "15 to 25 kg, by fare",
+      "checkin_note": "With less than 25 kg of free baggage you get 1 piece; with 25 kg or more you can split it into 2 pieces. In Economy and Premium Economy each bag can be up to 158 cm in total (length + width + height), and two bags together up to 272 cm. No single bag may weigh more than 32 kg anywhere on Air India's network. If a domestic flight and an international flight are on the same ticket, the international allowance applies to the whole trip.",
+      "intl_checkin": [
+        {"fare": "Gulf, Middle East and Africa", "allowance": "Value 25 kg, Classic 30 kg, Flex 35 kg"},
+        {"fare": "Singapore, Malaysia, Thailand, Indonesia, Vietnam, the Philippines, Hong Kong", "allowance": "Value 25 kg, Classic 30 kg, Flex 35 kg"},
+        {"fare": "Australia and New Zealand", "allowance": "Value 25 kg, Classic 30 kg, Flex 35 kg"},
+        {"fare": "Nepal and the Maldives", "allowance": "Value and Classic 20 kg, Flex 30 kg"},
+        {"fare": "Sri Lanka", "allowance": "Value and Classic 30 kg, Flex 40 kg"},
+        {"fare": "USA, Canada, UK and Europe, Japan, South Korea, Israel", "allowance": "Value 1 bag of 23 kg; Classic and Flex 2 bags of 23 kg each (piece concept)"}
+      ],
+      "infant": "An infant gets up to 10 kg of checked baggage in one piece, plus one collapsible stroller, carrycot or infant car seat (Air India's infant page says strollers can't go on the aircraft, so expect to hand it over at check-in). In the cabin, the adult's personal item and the baby's things (food for the flight, feeding bottles and a small tote) can weigh up to 5 kg together.",
+      "sections": [
+        {"h": "How Air India differs from IndiGo", "items": [
+          "Check-in baggage goes up with the fare: 15 kg on Value but 20 kg on Classic and 25 kg on Flex. IndiGo gives 15 kg on most fares.",
+          "The cabin bag can be 40 cm wide (55 x 40 x 20 cm), against IndiGo's 55 x 35 x 25 cm. Both allow 7 kg and 115 cm in total.",
+          "You can pay to carry up to 12 kg in the cabin (₹3,000 on domestic flights). Air India lists this fee on its cabin baggage page.",
+          "Air India has a free checked-bag tracker on its website, and allows small cats and dogs in the cabin on some routes."
+        ]},
+        {"h": "Sports equipment and musical instruments", "items": [
+          "Sports equipment counts inside your free check-in allowance. On top of that, Air India charges a handling fee of ₹2,500 per item on domestic flights (USD 45 on international flights, except Canada). Air India waives this fee on Economy Flex, Premium Economy Flex, Business and First.",
+          "A sports item can be up to 300 cm in total and 32 kg. Golf bags, cricket kits, bicycles (packed in a travel case), ski gear, fishing gear and archery cases are each allowed up to 2 pieces.",
+          "Small musical instruments can go in the cabin if they fit the cabin bag size. A bigger instrument must be checked in (up to 158 cm and 32 kg, or an oversize fee applies), or you can book an extra seat for it, up to 75 kg.",
+          "TVs: up to 2 per passenger, and up to 139 cm (54 inches). A TV up to 99 cm (38 inches) has no extra fee if it is within your allowance."
+        ]},
+        {"h": "Pets in the cabin", "p": "Air India's Paws on Board lets cats and dogs fly with you. A pet up to 10 kg, including its soft kennel (17 x 10 x 9 inches), can travel in the Economy cabin, one pet per passenger, on the last row aisle seats. A pet of 10 to 32 kg goes as checked baggage or cargo, and over 32 kg as cargo. Book through customer support or an airport counter; Air India confirms after checking documents, 48 hours before travel. Report 3 hours before departure."},
+        {"h": "If your bag is delayed, lost or damaged", "items": [
+          "Track your checked bag free on Air India's website with your PNR and last name or your bag tag number, from 3 hours before departure to 24 hours after arrival.",
+          "If the bag doesn't arrive, go to the Air India staff in the arrival hall before you leave and file a Property Irregularity Report (PIR). Keep the copy. You can follow it on WorldTracer and download a Mishandled Baggage Statement for insurance claims.",
+          "Air India treats a bag as lost if it can't be traced for 21 days after the PIR. Claims need a list of contents with proof of purchase.",
+          "Report damage or pilferage to Air India staff in the arrival hall. Air India says it is not responsible for normal wear, overpacked bags or valuables such as jewellery and electronics in checked baggage."
+        ]}
+      ],
       "notes": [
         "These rules are for flights operated by Air India itself, not Air India Express or codeshare flights.",
-        "Air India is testing a cheaper Basic fare on some domestic routes, with a 7 kg cabin bag and 15 kg of check-in baggage but no free meal."
+        "Two separate tickets (an Air India domestic flight plus an Air India international flight) can still share the international allowance if both flights are operated by Air India and connect within 24 hours.",
+        "Power banks go in the cabin bag only, never in checked baggage. You may carry up to 2 spare batteries.",
+        "Sikh passengers may wear a kirpan on domestic flights only, with a blade up to 15.24 cm (6 inches) and up to 22.86 cm (9 inches) in total.",
+        "Drones up to 2 kg may go in the cabin bag. Lithium-battery self-balancing devices are banned."
+      ],
+      "checked": "2026-11-26",
+      "faq_extra": [
+        {"q": "What is the Air India baggage allowance for international flights?", "a": "It depends on the route and fare. In Economy, flights between India and the Gulf, South-East Asia or Australia include 25 kg on Value, 30 kg on Classic and 35 kg on Flex. Flights to the USA, Canada, the UK and Europe use pieces instead: 1 bag of 23 kg on Value and 2 bags of 23 kg on Classic and Flex. See our Air India international page for more."},
+        {"q": "What is the Air India check-in baggage size?", "a": "In Economy and Premium Economy, each checked bag can be up to 158 cm when you add its length, width and height, and two bags together up to 272 cm. No single bag may weigh more than 32 kg."},
+        {"q": "What is the Air India baggage allowance for infants?", "a": "An infant gets up to 10 kg of checked baggage in one piece, plus a folding stroller, carrycot or infant car seat. In the cabin, the adult's personal item and the baby's food, bottles and tote can weigh up to 5 kg together."},
+        {"q": "Can I carry 12 kg cabin baggage on Air India?", "a": "Only if you pay. Air India's free cabin allowance is 7 kg in Economy. It lets you carry a cabin bag of up to 12 kg after you pay the excess hand baggage charge: ₹3,000 on domestic flights or USD 75 on international flights. Anything over 12 kg must be checked in."},
+        {"q": "How do I track my Air India baggage?", "a": "Use the Track Your Bags tool on airindia.com with your PNR and last name or your bag tag number. It works from 3 hours before the first flight to 24 hours after the last one lands, and it is free. For a bag that didn't arrive, file a Property Irregularity Report at the arrival hall and follow it on WorldTracer."},
+        {"q": "What is the Air India baggage damage claim process?", "a": "Report the damage to Air India staff in the arrival hall before you leave the airport, and keep the report. Claims need a list of what was in the bag, with proof of purchase. Air India says it doesn't cover normal wear and tear, overpacked bags or valuables packed in checked baggage."},
+        {"q": "Does Air India charge for cricket kits or golf bags?", "a": "They count inside your free check-in allowance, and Air India adds a sports handling fee of ₹2,500 per item on domestic flights. The fee is waived on Economy Flex, Premium Economy Flex, Business and First fares."}
       ],
       "sources": [
         {"label": "Cabin baggage", "url": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/cabin-baggage.html"},
-        {"label": "Checked baggage", "url": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/checked-baggage-allowance.html"}
+        {"label": "Checked baggage", "url": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/checked-baggage-allowance.html"},
+        {"label": "Special baggage", "url": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/special-baggage.html"},
+        {"label": "Track your bags", "url": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/track-your-bags.html"},
+        {"label": "Lost or damaged baggage", "url": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/lost-damaged-baggage.html"},
+        {"label": "Travelling with pets", "url": "https://www.airindia.com/in/en/travel-information/travelling-with-pets.html"}
       ]
     },
     {
@@ -76,19 +127,58 @@
         "dims_cm": [56, 36, 23],
         "total_cm": 115,
         "summary": "One cabin bag up to 7 kg",
-        "detail": "Air India Express allows one cabin bag up to 7 kg, no bigger than 56 x 36 x 23 cm (115 cm in total), including handles, wheels and side pockets. The Xtra Carry-On add-on lets you carry up to 12 kg."
+        "detail": "Air India Express allows one cabin bag up to 7 kg, no bigger than 56 x 36 x 23 cm (115 cm in total), including handles, wheels and side pockets. Its FAQ says the 7 kg includes your laptop and personal items, so plan for 7 kg across everything you carry on. Bags strapped, wrapped or tied together don't count as one piece. Things you buy at the airport also count inside the cabin allowance. To carry more, the Xtra Carry-On add-on sells 3 kg or 5 kg more, for up to 12 kg in one or two cabin bags. It is sold per flight and can sell out."
       },
       "personal": {"summary": "A laptop bag up to 30 x 40 x 10 cm, but it shares the same 7 kg with your cabin bag"},
       "checkin": [
-        {"fare": "Xpress Lite", "allowance": "No check-in bag (cabin bag only)"},
-        {"fare": "Xpress Value and Classic", "allowance": "15 kg, 1 piece"},
-        {"fare": "Xpress Flex", "allowance": "20 kg (see note)"}
+        {"fare": "Xpress Lite", "allowance": "No free check-in bag (cabin bag only; you can pre-book one)"},
+        {"fare": "Xpress Value", "allowance": "15 kg, 1 piece"},
+        {"fare": "Xpress Classic", "allowance": "15 kg, 1 piece"},
+        {"fare": "Xpress Flex", "allowance": "20 kg on the fares page (the FAQ says 15 kg, see note)"}
       ],
-      "checkin_summary": "15 kg, 1 piece (none on Xpress Lite)",
-      "checkin_note": "Air India Express's booking page shows 20 kg for Flex, but its FAQ says 15 kg for every fare except Lite, so check the allowance on your ticket. Each checked bag can be up to 81 x 119 x 119 cm and 32 kg.",
+      "checkin_summary": "15 kg (20 kg on Flex, none on Lite)",
+      "checkin_note": "Air India Express's domestic fares page lists 20 kg for Xpress Flex, while its baggage FAQ still says 15 kg for every fare except Lite. Check the allowance printed on your ticket. Each checked bag can be up to 81 x 119 x 119 cm (height x width x depth) and 32 kg. Extra kilos come in pre-booked packs of 3, 5, 10, 15 or 25 kg, up to 2 hours before departure; a second bag costs a handling fee even if you bought extra kilos.",
+      "infant": "Air India Express says infants have their own baggage allowance and can take a folding stroller to the gate. Its Conditions of Carriage give the cabin bag to every passenger except infants, so an infant gets no cabin bag of their own. The pages we read on 26 November 2026 don't state the infant's check-in kilos (an older Air India Express page said 10 kg), so check the infant's ticket or ask the airline. A pram or buggy you use on the trip travels free. Infants without a photo ID need a birth certificate at check-in.",
+      "sections": [
+        {"h": "How Air India Express differs from IndiGo", "items": [
+          "The cabin bag size is 56 x 36 x 23 cm, not IndiGo's 55 x 35 x 25 cm. A bag 24 or 25 cm deep fits IndiGo but not Air India Express.",
+          "The laptop bag or handbag is inside the 7 kg, not a separate 3 kg allowance as on IndiGo and Akasa.",
+          "Xpress Lite fares have no free check-in bag, like IndiGo's Lite fare.",
+          "At Delhi, Air India Express check-in closes 75 minutes before departure, earlier than its usual 60 minutes, so plan your airport time for that."
+        ]},
+        {"h": "Check-in times", "items": [
+          "Check-in counters open 3 hours before departure and close 60 minutes before. At Delhi and Kuwait they close 75 minutes before.",
+          "Boarding gates close 25 minutes before departure. Air India Express asks you to reach the airport at least 2 hours before a domestic flight."
+        ]},
+        {"h": "Sports, music and fragile items", "items": [
+          "Sports and large musical items (golf bags, bicycles, surf and ski gear, scuba kit, cricket sets, large guitars, sitars, tablas, harmoniums) pay a Sports and Musical Equipment Handling Fee per piece, on top of your allowance. You can pre-pay it for up to 3 pieces online, until 2 hours before departure. The extra-bag fee doesn't apply on top of it. See the airline's Fees and Charges page for the amount.",
+          "A bicycle must be in a bike bag, box or plastic wrap, with the handlebars turned in, pedals removed and tyres deflated. A golf bag can hold up to 14 clubs.",
+          "Footballs and other inflatable balls may go in the cabin only if fully deflated. Badminton, tennis and squash racquets must be checked in.",
+          "A small instrument can go in the cabin if it fits the cabin bag rules; otherwise check it in or buy an extra seat for it.",
+          "A TV up to 32 kg must be checked in, well padded, and you sign an indemnity form. Perishable fresh or frozen food is not accepted in checked baggage; up to 2.5 kg of dry ice is allowed in the cabin."
+        ]},
+        {"h": "If your bag is delayed, lost or damaged", "items": [
+          "Report a missing or damaged bag at the baggage desk in the arrival hall before you leave the baggage area, and file a Property Irregularity Report (PIR). If you leave without reporting it, Air India Express treats the bag as delivered in good condition.",
+          "Keep your boarding pass, bag tags and receipts for anything you had to buy.",
+          "For damage found later, write within 7 days of getting the bag. For a delayed bag, write within 21 days of getting it back. Address the letter to the Central Baggage Tracing Office at the airport you flew from, or use the Tia chat assistant.",
+          "On domestic flights, Air India Express limits its liability for checked baggage to ₹20,000 per passenger. It is not liable for your handbag or other things you carry on."
+        ]}
+      ],
       "notes": [
-        "Air India Express's FAQ says the 7 kg includes your laptop and personal items. Plan for 7 kg in total across everything you carry on.",
-        "Infants get an extra 10 kg of check-in baggage but no cabin allowance."
+        "Smart bags: a battery that can't be removed must be tiny (up to 0.3 g lithium metal or 2.7 Wh lithium-ion). Otherwise take the battery out and carry it in the cabin. Up to 2 spare batteries are allowed in cabin baggage.",
+        "Alcohol in checked baggage: up to 5 litres per person, in retail packaging, up to 70% alcohol.",
+        "Hoverboards, Segways and other self-balancing vehicles are not allowed in any baggage.",
+        "Licensed firearms go only in checked baggage, declared in writing at check-in, with a handling charge of ₹5,500 per firearm (waived for armed forces, police and sportspeople on duty or at a competition)."
+      ],
+      "checked": "2026-11-26",
+      "faq_extra": [
+        {"q": "What is the Air India Express baggage allowance on domestic flights?", "a": "One 7 kg cabin bag (your laptop and personal items count inside it) and, on every fare except Xpress Lite, 15 kg of check-in baggage in one piece. The fares page shows 20 kg on Xpress Flex. Xpress Lite has no free check-in bag."},
+        {"q": "Is the Air India Express baggage allowance 30 kg?", "a": "Only on international flights. Air India Express's international fares, such as flights to the Gulf, include 30 kg on Value (20 kg to Thailand and Nepal, as we last checked on 16 November 2026). Domestic flights include 15 kg. See our Air India Express international page."},
+        {"q": "What is the Air India Express check-in baggage size?", "a": "Each checked bag can be up to 81 cm high, 119 cm wide and 119 cm deep, and no single bag may weigh more than 32 kg."},
+        {"q": "How do I track my Air India Express baggage?", "a": "We found no public online bag tracker on Air India Express's baggage pages. If a bag doesn't arrive, report it at the arrival hall baggage desk before you leave, file a Property Irregularity Report, and follow up through the Tia chat assistant on the website or app."},
+        {"q": "What is the Air India Express damaged baggage claim time limit?", "a": "Report damage at the arrival hall before you leave the baggage area. If you find damage later, notify the airline within 7 calendar days of getting the bag. For a delayed bag, the limit is 21 calendar days from when it was given back to you."},
+        {"q": "Does Air India Express give extra baggage to defence personnel or students?", "a": "Its Conditions of Carriage say it may offer discounts or benefits to students, senior citizens and Indian armed forces personnel, but the baggage pages we read don't list extra kilos for them. Check the fare's conditions on the booking page before you pay."},
+        {"q": "Can I carry a cricket bat or racquet in the cabin on Air India Express?", "a": "No. Cricket bats, golf clubs, hockey sticks and similar sports items aren't allowed in the cabin, and badminton, tennis and squash racquets must be checked in. Footballs can go in the cabin only if fully deflated."}
       ],
       "sources": [
         {"label": "Baggage FAQ", "url": "https://www.airindiaexpress.com/support/faqs/baggage"},
@@ -106,21 +196,64 @@
         "dims_cm": [55, 35, 25],
         "total_cm": 115,
         "summary": "One cabin bag up to 7 kg",
-        "detail": "Akasa Air allows one cabin bag up to 7 kg and 115 cm in total (L + W + H). Its Conditions of Carriage give the size as 55 x 35 x 25 cm."
+        "detail": "Akasa Air allows one cabin bag (it calls it a handbag) up to 7 kg and 115 cm in total (L + W + H), on domestic and international flights. Its Conditions of Carriage give the size as 55 x 35 x 25 cm. Akasa's baggage page lists no paid option for a heavier cabin bag, so anything over 7 kg should go in check-in."
       },
-      "personal": {"summary": "One personal item up to 3 kg that fits under the seat in front of you"},
+      "personal": {"summary": "One personal item up to 3 kg that fits under the seat in front of you, such as a handbag, a slim laptop bag, a camera bag, a jacket, a folding umbrella or a neck pillow"},
       "checkin": [
-        {"fare": "Standard fares", "allowance": "15 kg, 1 piece"},
-        {"fare": "Student fare", "allowance": "25 kg, 1 piece"}
+        {"fare": "Standard domestic fares", "allowance": "15 kg, 1 piece"},
+        {"fare": "Student fare (domestic flights only)", "allowance": "25 kg, 1 piece"}
       ],
       "checkin_summary": "15 kg, 1 piece",
-      "checkin_note": "Each checked bag can be up to 158 cm in total and 32 kg.",
+      "checkin_note": "Each checked bag can be up to 158 cm (62 inches) in total and 32 kg. Akasa also sells special fares for armed forces personnel, medical professionals and senior citizens; its baggage page names extra check-in baggage only for the student fare.",
+      "intl_checkin": [
+        {"fare": "Abu Dhabi, Doha, Jeddah, Riyadh, Kuwait", "allowance": "30 kg in total, up to 2 pieces"},
+        {"fare": "Phuket and Hanoi", "allowance": "20 kg, 1 piece"},
+        {"fare": "Cabin, all international routes", "allowance": "One 7 kg bag (115 cm) plus a 3 kg personal item"}
+      ],
+      "infant": "An infant gets a cabin bag of up to 7 kg and 115 cm, on domestic and international flights, but no check-in allowance. One stroller or pram per infant travels free. In the cabin you can also take baby food or formula for the flight, feeding bottles and a small tote for them.",
+      "sections": [
+        {"h": "How Akasa Air differs from IndiGo", "items": [
+          "The cabin bag (55 x 35 x 25 cm, 7 kg) and the 3 kg personal item are the same as IndiGo's, and so is the 15 kg check-in allowance.",
+          "Akasa's baggage page lists no cabin-only fare like IndiGo's Lite: domestic guests get 15 kg of check-in baggage.",
+          "Akasa's infant gets a 7 kg cabin bag, as on IndiGo, and no check-in kilos.",
+          "Akasa lets cats and dogs up to 10 kg fly in the cabin with you on domestic flights (see below)."
+        ]},
+        {"h": "Check-in and boarding times", "items": [
+          "Web check-in is open until 1 hour before departure.",
+          "Your bag must be tagged at the counter at least 60 minutes before departure, or Akasa marks you a no-show.",
+          "Boarding gates close 25 minutes before departure."
+        ]},
+        {"h": "Sports equipment, TVs and odd-sized items", "p": "Akasa charges a special-item fee at the airport, per piece and per flight, for sports equipment, ski gear, golf bags, bicycles, surfboards, snowboards, water skis, kayaks, LCD and LED TVs, and any item over 99.06 cm. The weight still counts inside your check-in allowance, and normal excess baggage charges apply above it. Akasa's Conditions of Carriage say the fee is shown on its website; we didn't find the amount on the baggage pages we read."},
+        {"h": "Pets in the cabin", "p": "Pets on Akasa lets cats and dogs aged 3 months or more fly on domestic flights: up to 10 kg in the cabin with you, in a container no bigger than 19 x 12.6 x 10 inches, up to 32 kg as checked baggage, or up to 100 kg from the cargo terminal. Each flight takes up to 3 pets (2 in the cabin, 1 in the hold). Book at least 24 hours before the flight through the Akasa Air Care Centre, and carry a vet's health certificate issued within 72 hours of travel."},
+        {"h": "If your bag is delayed, lost or damaged", "items": [
+          "Report it to Akasa staff at the arrival airport before you leave.",
+          "For a delayed bag, Akasa's Conditions of Carriage ask you to notify it within 21 days of getting the bag back.",
+          "Akasa's Conditions of Carriage cap its liability for a lost checked bag at ₹350 per kg, up to ₹25,000. Delayed and damaged bags are settled under its own policy.",
+          "When you book, Akasa sells an optional Delayed or Lost Baggage add-on run by Blue Ribbon Bags: ₹110 on domestic flights or ₹350 on international flights. It pays ₹22,000 per bag (domestic) or ₹70,000 per bag (international), for up to 2 bags, if a bag isn't returned within 96 hours. Akasa says claims go to Blue Ribbon Bags, not to Akasa."
+        ]}
+      ],
       "notes": [
-        "Infants get no check-in allowance."
+        "Alcohol: up to 5 litres in checked baggage, in retail packaging and up to 70% alcohol (drinks of 24% or less have no 5-litre limit). Duty-free alcohol bought after security can go in the cabin in a sealed 1-litre bag.",
+        "Holy water, including Zamzam: up to 5 litres in checked baggage, sealed and leak-proof, counted inside your allowance.",
+        "Power banks go in the cabin bag only. If one is found in your checked bag on X-ray, the bag won't be loaded. You may carry up to 2 spare lithium batteries of up to 100 Wh."
+      ],
+      "checked": "2026-11-26",
+      "faq_extra": [
+        {"q": "What is the Akasa Air baggage allowance for infants?", "a": "An infant gets one cabin bag of up to 7 kg and 115 cm, but no check-in baggage, on both domestic and international flights. One stroller or pram per infant is carried free."},
+        {"q": "What is the Akasa Air baggage allowance for international flights?", "a": "30 kg of check-in baggage in up to 2 pieces on flights to and from Abu Dhabi, Doha, Jeddah, Riyadh and Kuwait, and 20 kg in 1 piece to and from Phuket and Hanoi. The cabin bag is 7 kg on every route, plus a 3 kg personal item."},
+        {"q": "What counts as a personal item on Akasa Air?", "a": "Akasa's list includes a handbag or purse, a camera or binoculars, a laptop in a slim bag, a coat or jacket, a folding umbrella, a neck pillow, medicines needed on board, some reading material and a small amount of duty-free goods. It must weigh 3 kg or less and fit under the seat in front of you."},
+        {"q": "What is the Akasa Air baggage allowance per person?", "a": "On a domestic flight each guest gets one 7 kg cabin bag, one 3 kg personal item and 15 kg of check-in baggage in one piece (25 kg on the student fare)."},
+        {"q": "What is the Akasa Air baggage check-in time?", "a": "Your checked bag must be tagged at least 60 minutes before departure; after that Akasa can treat you as a no-show. Web check-in closes 1 hour before departure, and boarding gates close 25 minutes before."},
+        {"q": "What is the Akasa Air baggage damage policy?", "a": "Report damage to Akasa staff at the airport before you leave. Akasa's Conditions of Carriage say it settles damaged and delayed bags under its own policy, and caps a lost bag at ₹350 per kg, up to ₹25,000. It is not liable for valuables such as jewellery, cash or electronics packed in checked baggage."},
+        {"q": "Can I take my pet on Akasa Air?", "a": "Yes, on domestic flights. Cats and dogs aged 3 months or more can travel in the cabin up to 10 kg, as checked baggage up to 32 kg, or as cargo up to 100 kg. Book at least 24 hours ahead through the Akasa Air Care Centre."}
       ],
       "sources": [
         {"label": "Baggage", "url": "https://www.akasaair.com/quick-links/baggage"},
-        {"label": "Conditions of carriage", "url": "https://www.akasaair.com/quick-links/conditions-of-carriage"}
+        {"label": "Excess baggage", "url": "https://www.akasaair.com/add-ons/excess-baggage"},
+        {"label": "Conditions of carriage", "url": "https://www.akasaair.com/quick-links/conditions-of-carriage"},
+        {"label": "Pets on Akasa", "url": "https://www.akasaair.com/information/pets-on-akasa"},
+        {"label": "Delayed or lost baggage add-on", "url": "https://www.akasaair.com/add-ons/delayed-or-lost-baggage"},
+        {"label": "Special fares", "url": "https://www.akasaair.com/special-fares"}
       ]
     },
     {

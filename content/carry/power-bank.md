@@ -75,15 +75,15 @@ A 20,000 mAh one (about 74 Wh) for long trips and treks:
 
 [[pick:B0DCZ3WDTB]]
 
-Flying abroad? See [power bank rules on flights worldwide](../../guides/power-bank-rules-on-flights.html) for the FAA, EASA and airlines like Emirates, Singapore Airlines and Lufthansa. Our [power bank and travel adapter guide](../../guides/power-bank-and-travel-adapter-guide.html) lists the plug types for Thailand, Dubai, Bali, the UK, the US and more.
+Flying abroad? Emirates, for one, lets you carry only one power bank under 100 Wh, and you can't use it or charge it on board (see our [Emirates baggage rules](../emirates.html), checked 26 November 2026). See [power bank rules on flights worldwide](../../guides/power-bank-rules-on-flights.html) for the FAA, EASA and airlines like Emirates, Singapore Airlines and Lufthansa. Our [power bank and travel adapter guide](../../guides/power-bank-and-travel-adapter-guide.html) lists the plug types for Thailand, Dubai, Bali, the UK, the US and more.
 
 ## By airline
 
 | Airline | Cabin bag | Check-in | Limit | How many |
 |---|---|---|---|---|
 | IndiGo | Yes | No | Up to 160 Wh, rating printed on it | Not stated |
-| Air India | Yes | No | Up to 100 Wh | 2 |
-| Akasa Air | Yes | No | Up to 100 Wh | 2 |
+| [Air India](../air-india.html) | Yes | No | Up to 100 Wh | 2 |
+| [Akasa Air](../akasa-air.html) | Yes | No | Up to 100 Wh | 2 |
 
 ## Questions
 

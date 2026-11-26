@@ -1844,10 +1844,19 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
         cabin = a["cabin"]
         checkin_rows = "".join("<tr><th scope=\"row\">%s</th><td>%s</td></tr>" % (e(c["fare"]), e(c["allowance"])) for c in a["checkin"])
         notes = "".join("<li>%s</li>" % e(n) for n in a.get("notes", []))
+        # Optional airline-specific sections [{h, p?, items?}]: differences from IndiGo, sports, pets, lost bags...
+        sections_html = "".join("<h2>%s</h2>%s%s" % (e(s["h"]), ("<p>%s</p>" % e(s["p"])) if s.get("p") else "",
+                                                       ("<ul>%s</ul>" % "".join("<li>%s</li>" % e(i) for i in s["items"])) if s.get("items") else "")
+                                for s in a.get("sections", []))
         # A domestic airline that also flies abroad can list its international check-in allowance by route.
         intl_rows = ('<h2>Check-in baggage on international flights</h2><table class="specs">'
                      + "".join('<tr><th scope="row">%s</th><td>%s</td></tr>' % (e(c["fare"]), e(c["allowance"])) for c in a["intl_checkin"])
                      + '</table>') if not abroad and a.get("intl_checkin") else ""
+        # A domestic airline with its own international page links to it from here.
+        intl_twin = next((x for x in intl_airlines if x["slug"] == a["slug"] + "-international"), None) if not abroad else None
+        if intl_twin:
+            intl_rows += ('<p>Flying abroad with %s? See our <a href="%s.html">%s baggage rules</a>.</p>'
+                          % (e(a["name"]), intl_twin["slug"], e(intl_twin.get("page_name", intl_twin["name"]))))
         sources = " ".join(f'<a href="{e(src["url"])}" target="_blank" rel="noopener">{e(src["label"])}</a>' for src in a["sources"])
         faq = [
             ("How much cabin baggage is allowed on %s?" % a["name"], cabin["summary"] + "."),
@@ -1862,7 +1871,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
             faq.append(("What are %s extra baggage charges?" % a["name"],
                         "On domestic flights, %s charges %s at the airport%s. An extra bag costs %s." % (
                             a["name"], fees["airport_text"], (". Online, before you fly: " + summary) if summary else "", fees.get("piece_short", "extra"))))
-        if abroad and a.get("infant"):
+        if a.get("infant"):
             faq.append(("How much baggage does an infant get on %s?" % a["name"], a["infant"]))
         excess = a.get("excess") if abroad else None
         if excess:
@@ -1905,9 +1914,10 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
 <h2>{"Checked baggage on India flights" if abroad else "Check-in baggage (domestic)"}</h2>
 <table class="specs">{checkin_rows}</table>
 {('<p>' + e(a['checkin_note']) + '</p>') if a.get('checkin_note') else ''}{intl_rows}
-{('<h2>Infants</h2><p>' + e(a['infant']) + '</p>') if abroad and a.get('infant') else ''}
+{('<h2>Infants</h2><p>' + e(a['infant']) + '</p>') if a.get('infant') else ''}
 {extra_section(a, extra_by_slug)}
 {('<h2>Extra baggage charges</h2><p>' + e(excess['summary']) + '.</p><ul>' + "".join("<li>%s</li>" % e(x) for x in excess.get("points", [])) + '</ul>') if excess else ''}
+{sections_html}
 {('<h2>Good to know</h2><ul>' + notes + '</ul>') if notes else ''}
 <h2 id="our-picks-fit">Do our cabin picks fit {e(a['name'])}?</h2>
 <p>Based on the size listed on Amazon. {weight_note}</p>
