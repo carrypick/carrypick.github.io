@@ -313,9 +313,34 @@ def share_bar(cfg, path, title, lang="en"):
 </div>"""
 
 
+# Pages kept live for visitors but out of Google's index, from the Search Console audit of 26 Nov 2026
+# (guides/07-search-console-audit.md, fixes 2 to 5): thin pick pages, subcategory pages, off-topic categories and gift guides.
+# They get "noindex, follow" and are left out of the sitemaps and the feed. Hindi pages are not touched.
+NOINDEX_CATEGORIES = {"watches", "perfumes", "skincare", "books", "sunglasses", "wallets-belts", "grooming", "baby-kids", "shoes"}
+NOINDEX_KEEP = {"guides/gifts-for-travellers.html"}
+NOINDEXED = set()  # every page written with noindex, so the sitemap can skip it
+
+
+def noindex_reason(path):
+    if path in NOINDEX_KEEP or path.startswith("hi/"):
+        return None
+    if path.startswith("picks/"):
+        return "pick"
+    m = re.match(r"category/([a-z0-9-]+)(/[a-z0-9-]+)?\.html$", path)
+    if m:
+        return "subcategory" if m.group(2) else ("off-topic category" if m.group(1) in NOINDEX_CATEGORIES else None)
+    if re.match(r"guides/[a-z0-9-]*gift[a-z0-9-]*\.html$", path):
+        return "gift guide"
+    return None
+
+
 def page(cfg, title, description, body, depth, path, schema=None, og_type="website", photo=None, robots="max-image-preview:large", lang="en",
          share_image=None):
     p = "../" * depth
+    if lang == "en" and "noindex" not in robots and noindex_reason(path):
+        robots = "noindex, follow"
+    if "noindex" in robots:
+        NOINDEXED.add(path)
     if lang in ("en", "hi"):
         body = cite_box.insert(cfg, path, title, body, lang)
     if og_type == "article" or path.startswith("picks/"):
@@ -4049,7 +4074,7 @@ def build():
                 lastmod[path] = INFO_UPDATED[path]
         if "index.html" not in lastmod:
             lastmod["index.html"] = max(v for k, v in lastmod.items() if not k.startswith("hi/"))
-        missing = [p for p in pages if p not in lastmod and p != "404.html"]
+        missing = [p for p in pages if p not in lastmod and p != "404.html" and p not in NOINDEXED]
         if missing:
             print("Warning (sitemap): no lastmod for %s. Set lastmod[path] where the page is built." % ", ".join(missing))
 
@@ -4060,7 +4085,7 @@ def build():
             return top if top in SITEMAP_SECTIONS else "pages"
         children = {}
         for p in pages:
-            if p != "404.html":
+            if p != "404.html" and p not in NOINDEXED:
                 children.setdefault(section(p), []).append(p)
         for old in DOCS.glob("sitemap-*.xml"):
             old.unlink()
@@ -4086,8 +4111,8 @@ def build():
             '<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n%s</sitemapindex>\n'
             % "".join(index_rows), encoding="utf-8")
         # Atom feed of the guides: readers can follow it, and Google accepts it as a second sitemap.
-        entries = sorted([("guides/%s.html" % a["slug"], a) for a in articles] + [("trips/%s.html" % t["slug"], t) for t in trips],
-                         key=lambda x: x[1]["updated"], reverse=True)
+        entries = sorted([x for x in [("guides/%s.html" % a["slug"], a) for a in articles] + [("trips/%s.html" % t["slug"], t) for t in trips]
+                          if x[0] not in NOINDEXED], key=lambda x: x[1]["updated"], reverse=True)
         (DOCS / "feed.xml").write_text(
             '<?xml version="1.0" encoding="UTF-8"?>\n<feed xmlns="http://www.w3.org/2005/Atom"><title>%s guides</title><id>%s</id>'
             '<link rel="self" href="%sfeed.xml"/><link href="%s"/><updated>%sT00:00:00+05:30</updated><author><name>%s</name></author>%s</feed>\n'
@@ -4100,6 +4125,17 @@ def build():
         if cfg.get("indexnow_key"):
             # Public key file that proves to IndexNow (Bing and others) that we own this site; see scripts/indexnow.py.
             (DOCS / (cfg["indexnow_key"] + ".txt")).write_text(cfg["indexnow_key"], encoding="utf-8")
+
+    # Self-check: every URL in the child sitemaps is indexable and canonical to itself.
+    if cfg["base_url"]:
+        for child in DOCS.glob("sitemap-*.xml"):
+            for loc in re.findall(r"<loc>([^<]+)</loc>", re.sub(r"<image:image>.*?</image:image>", "", child.read_text(encoding="utf-8"))):
+                rel = loc[len(base):] or "index.html"
+                text = (DOCS / rel).read_text(encoding="utf-8")
+                if re.search(r'<meta name="robots" content="[^"]*noindex', text):
+                    sys.exit("Error: %s is in %s but has noindex" % (rel, child.name))
+                if re.findall(r'<link rel="canonical" href="([^"]*)"', text) != [loc]:
+                    sys.exit("Error: %s is in %s but its canonical is not its own URL" % (rel, child.name))
 
     # Self-check: Amazon requires the disclosure everywhere, and no page may auto-redirect.
     moved = {old for d in deals for old in d.get("old_asins", [])}
