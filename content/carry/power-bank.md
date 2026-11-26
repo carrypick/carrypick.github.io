@@ -34,7 +34,7 @@ So the common 10,000 and 20,000 mAh power banks are fine on all three airlines. 
 
 Lithium batteries can overheat and catch fire. In the cabin, the crew can see a fire and deal with it fast. In the hold, nobody can. That's why IndiGo, Air India and Akasa Air all keep power banks out of check-in bags, and airport security lists name them too.
 
-Take it out before you drop your bag. Akasa Air's rules say a check-in bag with a power bank in it won't be loaded on the flight.
+Take it out before you drop your bag. Akasa Air's rules say a check-in bag with a power bank in it won't be loaded on the flight. A device with its battery built in is different: a rechargeable [trimmer](trimmer.html), for example, can go in check-in if it's fully switched off.
 
 ## Where to keep it on the plane
 

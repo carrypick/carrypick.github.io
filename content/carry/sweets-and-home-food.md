@@ -52,6 +52,7 @@ Curry, dal and anything runny count as liquid in the cabin, so they follow the 1
 - Shop sweet boxes are often thin cardboard. Put them in a plastic box or wrap them in plastic so they don't get crushed or leak.
 - Keep heavy tins near the wheels of the trolley, and soft boxes in the middle.
 - Food counts towards your check-in weight. A few boxes of sweets add up fast, so weigh your bag at home.
+- Taking a tin of ghee too? It goes in check-in, up to 5 kg: see our [ghee rules](ghee.html).
 
 [[pick:B07Q822CWX]]
 

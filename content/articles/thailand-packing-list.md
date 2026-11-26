@@ -30,7 +30,7 @@ Long-term averages from the Thai Meteorological Department, published by the Wor
 - **It's hot everywhere.** Days are 28–33 °C from November to February. Pack for the sun.
 - **Phuket still gets showers in November and December.** November averages about 174 mm of rain on about 16 days, December about 62 mm. January and February are drier.
 - **Chiang Mai is cool at night.** January nights average about 14 °C, so take a light jacket or sweater for the north.
-- **May to October is the rainy season.** Bangkok's wettest month is September, at about 344 mm, and Phuket's is September too, at about 387 mm. Pack a rain poncho or umbrella if you travel then.
+- **May to October is the rainy season.** Bangkok's wettest month is September, at about 344 mm, and Phuket's is September too, at about 387 mm. Pack a rain poncho or umbrella if you travel then. A folding umbrella is fine in your cabin bag on Indian airlines ([umbrella rules](../baggage/can-i-carry/umbrella.html)).
 
 ## The short list
 

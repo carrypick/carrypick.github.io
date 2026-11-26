@@ -77,7 +77,7 @@ There's no national dress code, but loose clothes that cover your shoulders and 
 
 - **Sunscreen, sunglasses and a hat.** The sun is strong from March to June, and on the beaches all year.
 - **Mosquito repellent,** especially in the monsoon and in the south.
-- **A rain poncho or umbrella** for June to September.
+- **A rain poncho or umbrella** for June to September. A folding one can go in your cabin bag on Indian flights: see [umbrella rules](../baggage/can-i-carry/umbrella.html).
 
 [[pick:B0GLFM2Z4Z]]
 

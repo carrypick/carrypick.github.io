@@ -2446,12 +2446,13 @@ def build_carry_items(cfg, data, carry, deals_by_asin, pages, lastmod):
         related = [r.split("=", 1) for r in a.get("related", "").split(" | ") if "=" in r]
         others = "".join(f'<li><a href="{b["slug"]}.html">{e(jt["item"])}</a></li>' for b, jt in carry if b["slug"] != a["slug"])
         content = render_markdown(a["body"], cfg, deals_by_asin, p, "carry/%s.md" % a["slug"])
+        lead = render_markdown(a["answer"], cfg, deals_by_asin, p, "carry/%s.md" % a["slug"]).replace("<p>", '<p class="lead">', 1) + "\n" if a.get("answer") else ""
         inner = f"""<nav class="crumbs"><a href="{p}index.html">Home</a><span>/</span><a href="../index.html">Baggage rules</a><span>/</span><a href="../can-i-carry.html">Can I carry it?</a><span>/</span>{e(it["item"])}</nav>
       <h1>{e(a["title"])}</h1>
       <p class="muted small">Checked on {fmt_date(checked)} against {e(a.get("checked_against", "official airline and airport pages"))}</p>"""
         body = f"""{page_head("watches", f'<div class="media media-tile tint-watches">{icon("shield", "icon media-icon")}</div>', inner, p)}
 <div class="wrap"><article class="guide">
-<div class="answer"><h2>Quick answer</h2>
+{lead}<div class="answer"><h2>Quick answer</h2>
 <div class="table-wrap"><table class="compare snug"><tbody>{rows}</tbody></table></div>
 <p class="checked">Checking more than one thing? See all {count} items on our <a href="../can-i-carry.html">Can I carry it on a flight?</a> list.</p></div>
 <h2>The rule</h2>
@@ -2520,9 +2521,12 @@ def build_can_i_carry(cfg, deals_by_asin, pages, lastmod):
     customs_tip = ('<aside class="tip">' + icon("plane", "icon tip-icon") + '<div><strong>Flying into India from abroad?</strong>'
                    '<p>The airline rules are only half of it. See how much alcohol, gold and cash Indian Customs lets you bring in duty free, '
                    'in our <a href="customs.html">customs rules for passengers</a>.</p></div></aside>') if CUSTOMS_DIR.exists() else ""
+    hub_md = ROOT / "content" / "carry-hub.md"  # optional guidance above the item list
+    hub_guide = render_markdown(hub_md.read_text(encoding="utf-8"), cfg, deals_by_asin, "../", "carry-hub.md") if hub_md.exists() else ""
     body = f"""{page_head("watches", f'<div class="media media-tile tint-watches">{icon("shield", "icon media-icon")}</div>', inner, "../")}
 <div class="wrap"><article class="guide guide-wide">
 {lead}
+{hub_guide}
 <div class="answer"><h2>The rules most people get wrong</h2><ul>{"".join("<li>%s</li>" % e(x) for x in data["key_rules"])}</ul></div>
 <form class="checker" onsubmit="return false"><label>Search an item<input id="carry-q" type="search" placeholder="power bank, perfume, pickle…" autocomplete="off"></label>
 <p class="hint" id="carry-count" aria-live="polite" data-all="{{n}} items" data-some="{{shown}} of {{n}} items">{count} items</p></form>

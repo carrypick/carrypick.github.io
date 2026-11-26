@@ -78,7 +78,7 @@ A fleece-lined beanie for cold mornings:
 ## Rain, boats and the beach
 
 - **A waterproof phone pouch** for houseboats, shikara rides, kayaking and the beach.
-- **A rain poncho or a small umbrella** for November and early December showers.
+- **A rain poncho or a small umbrella** for November and early December showers. A folding umbrella can go in your cabin bag ([umbrella rules](../baggage/can-i-carry/umbrella.html)).
 - **Wear a life jacket on small boats.** Choose a houseboat from Kerala Tourism's [approved houseboat list](https://www.keralatourism.org/houseboatlist).
 - **A dry bag or zip pouch** for your passport, cash and cards on boat days.
 
