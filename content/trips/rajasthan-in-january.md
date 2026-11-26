@@ -1,5 +1,5 @@
 ---
-seo_title: Rajasthan in January 2027: weather, Bikaner Camel Festival, Kite Festival, JLF and where to go
+seo_title: Rajasthan in January 2027: weather, festivals, where to go
 title: Rajasthan in January: weather, festivals and where to go
 description: Plan Rajasthan for January 2027: IMD January averages for Jaipur, Udaipur, Jaisalmer and Bikaner, the Bikaner Camel Festival on 9–10 January, the Kite Festival in Jaipur on 14 January, the Jaipur Literature Festival, Republic Day, fog on trains, a one-week route and what to wear.
 date: 2026-11-24

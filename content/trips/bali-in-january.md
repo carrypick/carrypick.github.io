@@ -1,5 +1,5 @@
 ---
-seo_title: Bali in January 2027: is it good? Rain, weather, Galungan and travel tips
+seo_title: Bali in January 2027: rain, weather, Galungan and tips
 title: Bali in January: rain, weather, Galungan and is it worth going
 description: Plan Bali for January 2027: BMKG averages for January (Bali's wettest month), whether January is a good time to go, Galungan on 13 January and Kuningan on 23 January, the Isra Mikraj holiday, rough seas to Nusa Penida, beach rubbish at Kuta, flights from India and the arrival steps.
 date: 2026-11-24

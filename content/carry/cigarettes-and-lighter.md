@@ -1,6 +1,6 @@
 ---
 title: Can I carry cigarettes and a lighter on a flight in India?
-seo_title: Cigarettes and lighter in flight India 2026: cabin bag and check-in rules
+seo_title: Cigarettes and lighter in flight India 2026: the rules
 description: IndiGo allows cigarettes in both bags, but lighters are banned in both bags and e-cigarettes are banned completely. Matches, USB lighters, smoking on board and flying abroad.
 item: Cigarettes
 date: 2026-11-15

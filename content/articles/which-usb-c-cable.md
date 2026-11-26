@@ -1,5 +1,5 @@
 ---
-seo_title: Which USB-C cable do I need? 3A (60W) vs 5A (100W, 240W), e-marker, fast charging and data, for iPhone, Samsung and Pixel
+seo_title: Which USB-C cable do I need? 60W vs 100W vs 240W
 title: Which USB-C cable do I need? 3 A vs 5 A, 60 W vs 100 W and 240 W
 description: How to choose a USB-C cable: 3 A (60 W) vs 5 A (100 W or 240 W), what an e-marker chip is and why 5 A cables need one, USB-IF certified logos, USB 2.0 vs USB 3 and USB4 data and video, USB-C to Lightning for older iPhones, which cable each iPhone, Galaxy S25 and Pixel 10 needs for its fastest charging, and one cable for phone, laptop and power bank on a trip.
 date: 2026-11-25

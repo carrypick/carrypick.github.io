@@ -1,5 +1,5 @@
 ---
-seo_title: Azerbaijan trip from India (2026): e-visa for Indians, Baku itinerary, flights, Baku in December
+seo_title: Azerbaijan trip from India 2026: e-visa and Baku itinerary
 title: Azerbaijan trip from India: the e-visa, a 5-day Baku plan and Baku in December
 description: Plan an Azerbaijan trip from India: the Azerbaijan e-visa for Indians (30 days' stay, standard in 3 working days or urgent in 3 hours), registration if you stay over 15 days, flights from India to Baku, a 5-day Baku, Gobustan and Absheron plan, Baku's weather in December, combining Baku with Georgia, and veg food tips.
 date: 2026-11-21

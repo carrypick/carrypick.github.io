@@ -1,5 +1,5 @@
 ---
-seo_title: Kenya safari packing list (2026): what to wear on safari, for women and men, from India
+seo_title: Kenya safari packing list (2026): what to wear, from India
 title: Kenya safari packing list: what to wear and pack for the Masai Mara, for women and men
 description: What to pack for a Kenya safari: Kenya Wildlife Service's own packing advice (layers, khaki and earth colours, hat, sunglasses, torch, insect repellent, binoculars), Masai Mara and Nairobi temperatures, the 15 kg soft-bag limit on small safari planes, Kenya's plastic bag ban, the UK-style plug, and lists for women, men and kids.
 date: 2026-11-23

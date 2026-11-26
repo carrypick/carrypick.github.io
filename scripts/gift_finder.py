@@ -146,7 +146,7 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
     top_grid = "".join(B.card(cfg, deal[a], "../") for a in top if a in deal)
 
     title = "Gift finder quiz: what gift should I give?"
-    seo = "Gift finder quiz India: gift ideas for men, women, kids, boss and colleagues"
+    seo = "Gift finder quiz: gift ideas for men, women and kids"
     desc = ("Free gift finder quiz: pick who the gift is for (wife, husband, parents, brother or sister, a friend, kids, colleague, boss or Secret Santa) "
             "and the occasion, and see matching gift ideas for birthdays, anniversaries, Christmas, farewell, New Year and weddings.")
     inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span>Gift finder</nav>

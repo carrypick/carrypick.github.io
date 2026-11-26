@@ -1,5 +1,5 @@
 ---
-seo_title: Dubai trip from India (2026): visa for Indians, 5-day plan with Abu Dhabi, weather in December, metro
+seo_title: Dubai trip from India 2026: visa, 5-day plan with Abu Dhabi
 title: Dubai trip from India: visa, a 5-day plan with an Abu Dhabi day trip, and the weather in December
 description: Plan a Dubai trip from India: how Indians get a UAE tourist visa (AED 200 for 30 days through a tourism company), the visa on arrival for Indians with a US, UK or EU visa or residence, direct flights from Indian cities, a 5-day plan with an Abu Dhabi day trip, the weather in December, the metro and nol card, food, VAT refunds and emergency numbers.
 date: 2026-11-21

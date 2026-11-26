@@ -63,7 +63,7 @@ def build(B, cfg, deals, pages, lastmod):
     world_names = B.and_list(e(a["name"]) for a in world["airlines"])
     n = len(rows)
     title = "Carry-on size by airline (worldwide): cabin bag limits chart"
-    seo = "Carry-on size by airline: cabin bag size and weight chart for %d airlines" % n
+    seo = "Carry-on size by airline: size and weight chart, %d airlines" % n
     desc = ("Carry-on bag size and weight limits for %d airlines, from American, Delta, United, Ryanair and easyJet to Emirates, "
             "Lufthansa and IndiGo, in cm and inches, read on each airline's own website." % n)
     inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="../baggage/index.html">Baggage rules</a><span>/</span>Carry-on size by airline</nav>
@@ -86,6 +86,7 @@ def build(B, cfg, deals, pages, lastmod):
 <li><strong>Measure it packed.</strong> A soft bag stuffed full can be several cm thicker than when it's empty.</li>
 <li><strong>Know your inches.</strong> 22 x 14 x 9 inches is about 56 x 36 x 23 cm. See our <a href="../baggage/luggage-size-chart.html">luggage size chart</a> for more.</li>
 </ul>
+<p>Flying within India? Our <a href="../guides/cabin-luggage-guide.html">cabin bag guide</a> has the full rules for IndiGo, Air India, Air India Express, Akasa Air and SpiceJet: the personal bag, paid extra cabin weight and the trolleys that fit.</p>
 <p>More help: <a href="../guides/power-bank-rules-on-flights.html">power bank rules on flights worldwide</a>, <a href="../baggage/international.html">international baggage rules</a>, <a href="../baggage/index.html">baggage rules for Indian airlines</a> and <a href="../baggage/extra-baggage-charges.html">extra baggage charges</a>.</p>
 {{faq}}
 {B.tool_pills("../", PATH)}

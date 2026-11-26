@@ -1,5 +1,5 @@
 ---
-seo_title: New Zealand trip from India (2026): NZ visitor visa for Indians (from NZD 441), flights, 10-day Auckland, Rotorua, Queenstown and Milford Sound itinerary, weather
+seo_title: New Zealand trip from India 2026: visa, flights, 10-day plan
 title: New Zealand trip from India: the visitor visa, flights, a 10-day plan and the best time to go
 description: Plan a New Zealand trip from India: the New Zealand Visitor Visa for Indians (from NZD 441), why Indians can't use the NZeTA, the money and documents you need, one-stop flights via Singapore, Kuala Lumpur, Hong Kong or Australia, a 10-day Auckland, Rotorua, Queenstown, Milford Sound and Mount Cook plan, the weather by month, and the New Zealand Traveller Declaration.
 date: 2026-11-23

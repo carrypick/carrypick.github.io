@@ -1,5 +1,5 @@
 ---
-seo_title: Seychelles trip from India (2026): no visa for Indians (free 3-month visitor's permit + Travel Authorisation), direct flights from Mumbai, 7-day Mahé, Praslin and La Digue plan, weather
+seo_title: Seychelles trip from India 2026: no visa, flights, 7-day plan
 title: Seychelles trip from India: no visa, the Travel Authorisation, direct flights, a 7-day island plan and the best time to go
 description: Plan a Seychelles trip or honeymoon from India: no visa for Indians, a free visitor's permit on arrival for up to 3 months, the paid Travel Authorisation you must get online first (standard 24 hours, premium 6 hours), the documents to carry, direct IndiGo flights from Mumbai to Mahé, a 7-day Mahé, Praslin and La Digue plan, the Seychelles Meteorological Authority's rain and temperature averages, and food tips for vegetarians.
 date: 2026-11-24

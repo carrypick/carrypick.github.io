@@ -1,5 +1,5 @@
 ---
-seo_title: Couple watches set: Titan, Sonata, Fastrack and Timex pair watches compared
+seo_title: Couple watches: Titan, Sonata, Fastrack and Timex pairs
 title: Couple watches: Titan, Sonata, Fastrack and Timex pair sets compared
 description: Couple watch sets (pair watches) for weddings, anniversaries and Valentine's Day: Titan Bandhan, Sonata Bandhan, Fastrack Mixmatched and Timex Classics compared by dial size, strap, water resistance and warranty.
 date: 2026-11-23

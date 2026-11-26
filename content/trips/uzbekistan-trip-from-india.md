@@ -1,5 +1,5 @@
 ---
-seo_title: Uzbekistan trip from India (2026): Uzbekistan e-visa for Indians (US$20), direct flights to Tashkent, 7-day Samarkand and Bukhara plan, weather
+seo_title: Uzbekistan trip from India 2026: e-visa, Samarkand, Bukhara
 title: Uzbekistan trip from India: the e-visa, direct flights to Tashkent, a 7-day Samarkand and Bukhara plan and the best time to go
 description: Plan an Uzbekistan trip from India: the Uzbekistan e-visa for Indians on the official portal (US$20 single entry, stay up to 30 days, apply at least 3 working days ahead), 5-day visa-free transit, direct flights from Delhi and Mumbai to Tashkent, a 7-day Tashkent, Samarkand, Bukhara and Khiva plan by fast train, the weather by month, and veg food tips.
 date: 2026-11-23

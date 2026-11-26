@@ -1,5 +1,5 @@
 ---
-seo_title: Egypt trip from India (2026): Egypt e-visa for Indians (US$30), direct flights to Cairo, 7-day itinerary with a Nile cruise, weather
+seo_title: Egypt trip from India 2026: e-visa, flights, Nile cruise plan
 title: Egypt trip from India: the e-visa, direct flights, a 7-day plan with a Nile cruise and the best time to go
 description: Plan an Egypt trip from India: the Egypt e-visa for Indians on the official portal (US$30 single entry, US$65 multiple), apply at least 7 days ahead, what we couldn't confirm about a visa on arrival with a US, UK or Schengen visa, direct EgyptAir flights from Delhi and Mumbai to Cairo, a 7-day Cairo, Aswan, Nile cruise and Luxor plan, the weather by month, and veg food tips.
 date: 2026-11-22

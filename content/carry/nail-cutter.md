@@ -1,6 +1,6 @@
 ---
 title: Can I carry a nail cutter on a flight in India?
-seo_title: Nail cutter in flight India 2026: cabin bag, check-in, scissors and tweezers
+seo_title: Nail cutter in flight India 2026: cabin bag or check-in?
 description: A plain nail cutter without a knife is fine in your cabin bag. One with a fold-out knife or scissors goes in check-in. Scissors, nail files, tweezers and grooming kits on IndiGo and Air India.
 item: Nail cutter
 date: 2026-11-15

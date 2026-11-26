@@ -1,5 +1,5 @@
 ---
-seo_title: Manali in winter 2026–27: snow, Atal Tunnel, Rohtang and New Year guide
+seo_title: Manali in winter 2026–27: snow, Atal Tunnel, Rohtang
 title: Manali in winter: snow, roads and a New Year trip guide
 description: Plan Manali for December and January: when snow usually comes, getting there from Delhi and Chandigarh, Rohtang and the Atal Tunnel in winter, green tax, snow driving and what to pack.
 date: 2026-11-03

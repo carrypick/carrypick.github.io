@@ -1,5 +1,5 @@
 ---
-seo_title: Republic Day Parade Tickets 2027: Online Booking, Price, Offline Counters and Rules
+seo_title: Republic Day parade tickets 2027: online booking and rules
 title: Republic Day parade tickets 2027: how to book, price and what you can't take
 description: How to book Republic Day 2027 parade and Beating Retreat tickets on the Defence Ministry's Aamantran site or at Delhi counters, last year's prices and dates, the ID you need and what isn't allowed.
 date: 2026-11-16

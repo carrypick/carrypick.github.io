@@ -176,7 +176,7 @@ def build_all(B, cfg, deals, pages, lastmod):
     checked = B.fmt_date(data["checked"])
     src_links = ", ".join(f'<a href="{e(s["url"])}" target="_blank" rel="noopener">{e(s["label"])}</a>' for s in data["sources"])
     title = "Size chart for men, women and kids in India: UK, US and EU to Indian size"
-    seo = "Clothing size chart India: UK, US, EU to Indian size for men, women, kids"
+    seo = "Clothing size chart India: UK, US, EU to Indian sizes"
     desc = ("Free clothing size converter for India. Enter your chest, bust, waist or hips in cm or inches, or pick a size, "
             "and see UK, US, EU and letter sizes (XS to XXL) for men, women and kids, from M&S India, ONLY India, Libas and Levi's India charts.")
     body = f"""{more_tools._head(B, title, "Clothing size converter", "A free tool. Updated " + B.fmt_date(UPDATED), "clothing", "jacket")}

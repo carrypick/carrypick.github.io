@@ -1,5 +1,5 @@
 ---
-seo_title: Umrah packing list from India (2026): for ladies, men and kids, with Zamzam rules
+seo_title: Umrah packing list from India (2026), with Zamzam rules
 title: Umrah packing list: what to carry for Umrah from India, for ladies, men and kids
 description: What to pack for Umrah from India: ihram for men, modest clothes for ladies, kids' things, unscented toiletries, slippers, a small zip bag, medicines and the vaccine certificate, Makkah and Madinah weather by month, which bag fits your airline, Zamzam water rules by airline, and what not to carry.
 date: 2026-11-25

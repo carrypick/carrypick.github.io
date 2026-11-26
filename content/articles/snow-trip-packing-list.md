@@ -1,5 +1,5 @@
 ---
-seo_title: Snow trip packing list (2026–27): what to pack for snow in India, for family and kids
+seo_title: Snow trip packing list (2026–27) for family and kids
 title: Snow trip packing list: what to pack for a snow trip in India
 description: A snow trip packing list for Manali, Kashmir, Gulmarg, Auli and Shimla: how cold the snow points get (IMD averages), the layers to wear, waterproof gloves and shoes, woollen socks, sunglasses, what to rent at the snow point, a list for kids and toddlers, a 4-day list, and what not to pack.
 date: 2026-11-25

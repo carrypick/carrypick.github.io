@@ -1,5 +1,5 @@
 ---
-seo_title: Ranthambore in December 2026: safari booking on the official website, zones, timings and weather
+seo_title: Ranthambore in December 2026: safari booking, zones, timings
 title: Ranthambore in December: safari booking, zones, timings and what to wear
 description: Plan a Ranthambore safari in December or December end: how to book on the official website the Forest Department links to, when booking opens, Tatkal and current booking, the 10 zones, winter safari timings, ID and refund rules, IMD temperatures, a 2-day plan with the fort and Trinetra Ganesh temple, getting there from Jaipur and Delhi, and what to wear.
 date: 2026-11-24

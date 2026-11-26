@@ -1,5 +1,5 @@
 ---
-seo_title: Kazakhstan trip from India (2026): visa-free 14 days for Indians, Almaty itinerary, winter weather
+seo_title: Kazakhstan trip from India 2026: visa-free 14 days, Almaty
 title: Kazakhstan trip from India: the visa-free rule, a 5-day Almaty plan and Almaty in winter
 description: Plan a Kazakhstan trip from India: no visa for Indians for up to 14 days at a time (42 days in 180), direct flights from Delhi and Mumbai to Almaty, a 5-day Almaty itinerary with Shymbulak, Kok Tobe and Charyn Canyon, Almaty weather in winter, getting around, and veg food tips.
 date: 2026-11-21

@@ -320,6 +320,7 @@ NOINDEX_CATEGORIES = {"watches", "perfumes", "skincare", "books", "sunglasses", 
 NOINDEX_KEEP = {"guides/gifts-for-travellers.html"}
 NOINDEX_PACKING = {"beach", "train", "weekend", "wedding", "business", "abroad"}  # thin and 50-60% alike (audit fix 9); packing/hills and the week list stay
 NOINDEXED = set()  # every page written with noindex, so the sitemap can skip it
+CANONICAL_TO = {}  # path -> the page it is merged into (front matter "canonical:"); such pages are also kept out of the sitemap
 
 
 def noindex_reason(path):
@@ -363,6 +364,9 @@ def page(cfg, title, description, body, depth, path, schema=None, og_type="websi
     if cfg["base_url"]:
         base = cfg["base_url"].rstrip("/")
         url = base + "/" + path
+        if path in CANONICAL_TO:
+            url = base + "/" + CANONICAL_TO[path]
+            NOINDEXED.add(path)
         head_extra = '<link rel="canonical" href="%s">\n<meta property="og:url" content="%s">\n' % (e(url), e(url))
         pair = lang_pair(path)
         if pair:
@@ -1373,7 +1377,7 @@ def build_trips(cfg, trips, deals_by_asin, pages, lastmod):
 </article></div>
 {telegram_band(cfg, "../")}"""
     crumbs = crumbs_schema(cfg, [("Home", ""), ("Trip guides", "trips/index.html")])
-    pages.append(write("trips/index.html", page(cfg, "Trip guides for India: %s" % places,
+    pages.append(write("trips/index.html", page(cfg, "Trip guides for India and abroad: plans, visas, weather",
                                                 "Plan a trip to %s: best time, weather, getting there, getting around, local rules and packing lists." % places,
                                                 body, 1, "trips/index.html", [crumbs])))
     lastmod["trips/index.html"] = max(t["updated"] for t in trips)
@@ -1637,7 +1641,7 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
     packing_abroad = ("<p>Packing for the trip? See our packing lists for %s.</p>" % and_list(
         ['<a href="../guides/%s-packing-list.html">%s</a>' % (slug, place) for slug, place in trip_lists])) if trip_lists else ""
     title = "Baggage rules for international flights from India"
-    seo = "International baggage allowance from India %s: Emirates, Qatar, Thai, IndiGo, Air India" % checked[:4]
+    seo = "International baggage allowance from India %s, by airline" % checked[:4]
     desc = ("Cabin bag size and checked baggage by fare for %d airlines on flights from India to %s, "
             "including Emirates, Qatar Airways, Saudia, IndiGo and Air India. Checked against official websites, %s." % (
                 len(airlines), intl_where(airlines), fmt_date(checked)))
@@ -1829,7 +1833,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
 {('<p>Already over the limit? Compare <a href="extra-baggage-charges.html">extra baggage charges by airline</a>: prepaid slabs, the airport rate per kg and fees for heavy cabin bags.</p>') if extra else ''}
 {next_step([("../guides/cabin-luggage-guide.html#our-cabin-bag-picks", "Cabin trolleys we picked, and the airlines each one fits"),
             ("luggage-size-chart.html", "Trolley bag sizes in cm and inches"),
-            ("../guides/luggage-size-guide.html", "What size luggage you need for your trip"),
+            ("luggage-size-chart.html#which-size", "What size luggage you need for your trip"),
             ("checker.html", "Check your own bag against every airline")], "Shop by size")}
 {tool_pills("../", "baggage/index.html")}
 </article></div>
@@ -1848,10 +1852,19 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
         cabin = a["cabin"]
         checkin_rows = "".join("<tr><th scope=\"row\">%s</th><td>%s</td></tr>" % (e(c["fare"]), e(c["allowance"])) for c in a["checkin"])
         notes = "".join("<li>%s</li>" % e(n) for n in a.get("notes", []))
+        # Optional airline-specific sections [{h, p?, items?}]: differences from IndiGo, sports, pets, lost bags...
+        sections_html = "".join("<h2>%s</h2>%s%s" % (e(s["h"]), ("<p>%s</p>" % e(s["p"])) if s.get("p") else "",
+                                                       ("<ul>%s</ul>" % "".join("<li>%s</li>" % e(i) for i in s["items"])) if s.get("items") else "")
+                                for s in a.get("sections", []))
         # A domestic airline that also flies abroad can list its international check-in allowance by route.
         intl_rows = ('<h2>Check-in baggage on international flights</h2><table class="specs">'
                      + "".join('<tr><th scope="row">%s</th><td>%s</td></tr>' % (e(c["fare"]), e(c["allowance"])) for c in a["intl_checkin"])
                      + '</table>') if not abroad and a.get("intl_checkin") else ""
+        # A domestic airline with its own international page links to it from here.
+        intl_twin = next((x for x in intl_airlines if x["slug"] == a["slug"] + "-international"), None) if not abroad else None
+        if intl_twin:
+            intl_rows += ('<p>Flying abroad with %s? See our <a href="%s.html">%s baggage rules</a>.</p>'
+                          % (e(a["name"]), intl_twin["slug"], e(intl_twin.get("page_name", intl_twin["name"]))))
         sources = " ".join(f'<a href="{e(src["url"])}" target="_blank" rel="noopener">{e(src["label"])}</a>' for src in a["sources"])
         faq = [
             ("How much cabin baggage is allowed on %s?" % a["name"], cabin["summary"] + "."),
@@ -1866,7 +1879,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
             faq.append(("What are %s extra baggage charges?" % a["name"],
                         "On domestic flights, %s charges %s at the airport%s. An extra bag costs %s." % (
                             a["name"], fees["airport_text"], (". Online, before you fly: " + summary) if summary else "", fees.get("piece_short", "extra"))))
-        if abroad and a.get("infant"):
+        if a.get("infant"):
             faq.append(("How much baggage does an infant get on %s?" % a["name"], a["infant"]))
         excess = a.get("excess") if abroad else None
         if excess:
@@ -1897,7 +1910,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
 <div class="answer"><h2>Quick answer</h2><ul>
 <li><strong>Cabin bag:</strong> {e(cabin['summary'])}.</li>
 <li><strong>Size limit:</strong> {e(size_limit_text(cabin))}.</li>
-{('<li><strong>Extra small bag:</strong> ' + e(a['personal']['summary']) + '.</li>') if a.get('personal') else ''}
+{('<li><strong>Extra small bag:</strong> ' + e(a['personal']['summary']) + '. Which bag? See our <a href="../guides/handbag-and-sling-guide.html">handbag and sling guide</a> and <a href="../guides/laptop-backpack-guide.html">laptop backpack guide</a>.</li>') if a.get('personal') else ''}
 <li><strong>{"Checked baggage" if abroad else "Free check-in"}:</strong> {e(a['checkin_summary'])}.</li>
 </ul></div>
 {top_picks(cfg, airline_top_rows(a["name"], [cabin], picks), "../", "Cabin bags that fit " + a["name"],
@@ -1909,9 +1922,10 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
 <h2>{"Checked baggage on India flights" if abroad else "Check-in baggage (domestic)"}</h2>
 <table class="specs">{checkin_rows}</table>
 {('<p>' + e(a['checkin_note']) + '</p>') if a.get('checkin_note') else ''}{intl_rows}
-{('<h2>Infants</h2><p>' + e(a['infant']) + '</p>') if abroad and a.get('infant') else ''}
+{('<h2>Infants</h2><p>' + e(a['infant']) + '</p>') if a.get('infant') else ''}
 {extra_section(a, extra_by_slug)}
 {('<h2>Extra baggage charges</h2><p>' + e(excess['summary']) + '.</p><ul>' + "".join("<li>%s</li>" % e(x) for x in excess.get("points", [])) + '</ul>') if excess else ''}
+{sections_html}
 {('<h2>Good to know</h2><ul>' + notes + '</ul>') if notes else ''}
 <h2 id="our-picks-fit">Do our cabin picks fit {e(a['name'])}?</h2>
 <p>Based on the size listed on Amazon. {weight_note}</p>
@@ -1995,9 +2009,12 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
 <ul>
 <li>We compare your bag's longest side with the airline's longest allowed side, and so on, because a bag can be turned to fit.</li>
 <li>When an airline gives a total size (length + width + height), we add up your three sides.</li>
+<li>This checks your main cabin bag. Many airlines also allow a small personal bag, such as a handbag or laptop bag, with its own limits: see our <a href="../guides/handbag-and-sling-guide.html">handbag and sling guide</a> and <a href="../guides/laptop-backpack-guide.html">laptop backpack guide</a>.</li>
 <li>These are the standard economy limits: domestic flights for Indian airlines, India routes for international airlines, and the airlines' general rules for US and European airlines such as American, Delta, Ryanair and easyJet. Your fare, route or aircraft can change them.</li>
 </ul>
-<p>See the <a href="index.html">full baggage rules for each airline</a>, compare <a href="../guides/carry-on-size-by-airline.html">carry-on size by airline worldwide</a>, or read <a href="../guides/cabin-luggage-guide.html">how to pick a cabin trolley</a>.</p>
+<p>See the <a href="index.html">full baggage rules for each airline</a>, compare <a href="../guides/carry-on-size-by-airline.html">carry-on size by airline worldwide</a>, or read <a href="../guides/cabin-luggage-guide.html">the cabin bag rules and how to pick a cabin trolley</a>.</p>
+<p>Only know the size in inches or litres? A <a href="../guides/20-inch-trolley-bag-size.html">20 inch trolley</a> is 50.8 cm tall and a <a href="../guides/28-inch-trolley-bag-size.html">28 inch trolley</a> 71.1 cm; see every size in the <a href="luggage-size-chart.html">luggage size chart</a>. For backpacks, see the <a href="../guides/backpack-size-chart-litres.html">backpack size chart in litres</a>, and for how many kg each trolley holds, <a href="../guides/trolley-bag-capacity-kg-litres.html">trolley bag capacity</a>.</p>
+<p>Buying a new bag? Compare <a href="../guides/best-trolley-bag-brands-india.html">trolley bag brands by weight, size and warranty</a>, or <a href="../guides/american-tourister-vs-safari.html">American Tourister vs Safari</a> cabin bags against each airline.</p>
 {tool_pills("../", "baggage/checker.html")}
 </article></div>
 <script type="application/json" id="bc-data">{js_json}</script>
@@ -2229,7 +2246,7 @@ def build_extra_baggage(cfg, deals_by_asin, extra, pages, lastmod):
     guide_links = ", ".join(f'<a href="../guides/{slug}.html">{text}</a>' for slug, text in guides if (ARTICLES_DIR / (slug + ".md")).exists())
 
     title = "Extra baggage charges on domestic flights in India"
-    seo = "Extra baggage charges per kg %s: IndiGo, Air India, Akasa, SpiceJet" % year
+    seo = "Extra baggage charges per kg %s for Indian airlines" % year
     desc = ("Excess baggage charges on IndiGo, Air India, Air India Express, Akasa Air and SpiceJet domestic flights: prepaid slabs, "
             "airport rate per kg, extra bags and cabin bags over 7 kg. Checked %s." % fmt_date(checked))
     inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="index.html">Baggage rules</a><span>/</span>Extra baggage charges</nav>
@@ -2439,12 +2456,13 @@ def build_carry_items(cfg, data, carry, deals_by_asin, pages, lastmod):
         related = [r.split("=", 1) for r in a.get("related", "").split(" | ") if "=" in r]
         others = "".join(f'<li><a href="{b["slug"]}.html">{e(jt["item"])}</a></li>' for b, jt in carry if b["slug"] != a["slug"])
         content = render_markdown(a["body"], cfg, deals_by_asin, p, "carry/%s.md" % a["slug"])
+        lead = render_markdown(a["answer"], cfg, deals_by_asin, p, "carry/%s.md" % a["slug"]).replace("<p>", '<p class="lead">', 1) + "\n" if a.get("answer") else ""
         inner = f"""<nav class="crumbs"><a href="{p}index.html">Home</a><span>/</span><a href="../index.html">Baggage rules</a><span>/</span><a href="../can-i-carry.html">Can I carry it?</a><span>/</span>{e(it["item"])}</nav>
       <h1>{e(a["title"])}</h1>
       <p class="muted small">Checked on {fmt_date(checked)} against {e(a.get("checked_against", "official airline and airport pages"))}</p>"""
         body = f"""{page_head("watches", f'<div class="media media-tile tint-watches">{icon("shield", "icon media-icon")}</div>', inner, p)}
 <div class="wrap"><article class="guide">
-<div class="answer"><h2>Quick answer</h2>
+{lead}<div class="answer"><h2>Quick answer</h2>
 <div class="table-wrap"><table class="compare snug"><tbody>{rows}</tbody></table></div>
 <p class="checked">Checking more than one thing? See all {count} items on our <a href="../can-i-carry.html">Can I carry it on a flight?</a> list.</p></div>
 <h2>The rule</h2>
@@ -2499,7 +2517,7 @@ def build_can_i_carry(cfg, deals_by_asin, pages, lastmod):
                       f'<ul class="airline-links">{links}</ul>')
     faq_html, faq_schema = faq_block([(f["q"], f["a"]) for f in data["faq"]])
     title = "Can I carry it on a flight? Cabin and check-in rules in India"
-    seo = "Can I carry it on a flight in India? Cabin and check-in item list %s" % checked[:4]
+    seo = "Can I carry it on a flight in India? Item list %s" % checked[:4]
     desc = ("Search %d items, from power banks and perfume to pickles and dry coconut, and see if they can go in your "
             "cabin bag or check-in baggage on flights in India. Checked %s." % (count, fmt_date(checked)))
     inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="index.html">Baggage rules</a><span>/</span>Can I carry it?</nav>
@@ -2513,9 +2531,12 @@ def build_can_i_carry(cfg, deals_by_asin, pages, lastmod):
     customs_tip = ('<aside class="tip">' + icon("plane", "icon tip-icon") + '<div><strong>Flying into India from abroad?</strong>'
                    '<p>The airline rules are only half of it. See how much alcohol, gold and cash Indian Customs lets you bring in duty free, '
                    'in our <a href="customs.html">customs rules for passengers</a>.</p></div></aside>') if CUSTOMS_DIR.exists() else ""
+    hub_md = ROOT / "content" / "carry-hub.md"  # optional guidance above the item list
+    hub_guide = render_markdown(hub_md.read_text(encoding="utf-8"), cfg, deals_by_asin, "../", "carry-hub.md") if hub_md.exists() else ""
     body = f"""{page_head("watches", f'<div class="media media-tile tint-watches">{icon("shield", "icon media-icon")}</div>', inner, "../")}
 <div class="wrap"><article class="guide guide-wide">
 {lead}
+{hub_guide}
 <div class="answer"><h2>The rules most people get wrong</h2><ul>{"".join("<li>%s</li>" % e(x) for x in data["key_rules"])}</ul></div>
 <form class="checker" onsubmit="return false"><label>Search an item<input id="carry-q" type="search" placeholder="power bank, perfume, pickle…" autocomplete="off"></label>
 <p class="hint" id="carry-count" aria-live="polite" data-all="{{n}} items" data-some="{{shown}} of {{n}} items">{count} items</p></form>
@@ -2863,13 +2884,18 @@ SIZE_CHART_PICKS = [
 
 
 SIZE_CHART_UPDATED = "2026-11-15"  # bump when the size chart's facts change; the Hindi chart (scripts/hindi_pages.py) warns until it matches
-SIZE_CHART_TEXT_UPDATED = "2026-11-26"  # English page only: wording changes that leave the facts (and the Hindi chart) as they are
+SIZE_CHART_PAGE_UPDATED = "2026-11-26"  # the English page's own date (text rewritten, airline limits re-checked); the sizes above are unchanged
+# Small, medium and large at the top of the size chart: (size, height, inches, often sold as, full size from listings, litres, empty, trip).
+# From listings read on Amazon.in on 3 and 6 Nov 2026 (cabin: 83 hard models; medium: 36; large: 31). Keep in step with CAPACITY_ROWS.
+SIZE_CLASSES = [("Small (cabin)", "About 55 cm", (55,), '"20 inch" or "22 inch"', "36–41 cm wide on 70 of the 83 hard models we read", "39 L", "2.5 kg", "2–4 days"),
+                ("Medium", "65–69 cm", (65, 69), '"24 inch" or "26 inch"', "135–147 cm in total (L + W + H)", "69 L", "3.4 kg", "5–8 days"),
+                ("Large", "75–79 cm", (75, 79), '"28 inch" or "30 inch"', "152–168 cm in total, 162 cm typical", "108 L", "4.3 kg", "8–12 days or more")]
 
 
 def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
     """Inches/cm and kg/lb chart for luggage, with airline limits converted (baggage/luggage-size-chart.html)."""
     path = "baggage/luggage-size-chart.html"
-    updated = max(SIZE_CHART_UPDATED, SIZE_CHART_TEXT_UPDATED)
+    updated = SIZE_CHART_PAGE_UPDATED
     cm = lambda inches: num(round(inches * 2.54, 1))
     inch = lambda c: num(round(c / 2.54, 1))
     lb = lambda kg: num(round(kg * 2.20462, 1))
@@ -2899,22 +2925,30 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
                  "22 x 14 x 9 inches is %s cm, %s cm in total, a little over the cabin limits of the Indian airlines we track."
                  % (us_cm, num(round(sum(us), 1))))
     indigo = next((a for a in (airlines or {}).get("airlines", []) if a["slug"] == "indigo"), None)
-    quick = ["Small (cabin) trolley: about 55 cm tall (%s in), and many are 36–41 cm wide. IndiGo's cabin limit is 55 x 35 x 25 cm, so check all three sides." % inch(55),
-             "Medium trolley: 65–69 cm tall (%s–%s in) and about 135–147 cm in total, from the 36 medium models we read." % (inch(65), inch(69)),
-             "Large trolley: 75–79 cm tall (%s–%s in). Of the 31 large models we checked, 26 were listed over the 158 cm check-in limit." % (inch(75), inch(79)),
-             "1 inch is 2.54 cm. So a 20-inch bag is %s cm, a 24-inch bag is %s cm and a 28-inch bag is %s cm." % (cm(20), cm(24), cm(28)),
-             "Indian brands mostly sell trolleys by height in cm: about 55 cm for cabin, 65–69 cm for medium and 75–79 cm for large.",
-             "A 22-inch bag (%s cm) is closest to the usual 55 cm cabin height. A true 20-inch bag is smaller, but some brands sell 55 cm bags as \"20 inch\" and 65 cm bags as \"24 inch\", so check the cm." % cm(22)]
+    rng = lambda hs: " to ".join(inch(h) for h in hs) if len(hs) > 1 else inch(hs[0])
+    class_rows = "".join(f'<tr><th scope="row">{e(name)}</th><td>{e(height)}</td><td>{rng(hs)} in</td><td>{e(sold)}</td><td>{e(full)}</td>'
+                         f'<td>{e(litres)}</td><td>{e(empty)}</td><td>{e(trip)}</td></tr>'
+                         for name, height, hs, sold, full, litres, empty, trip in SIZE_CLASSES)
+    quick = [("Small (cabin) trolley:", "about 55 cm (%s in) tall. For 2–4 days, and the only trolley size Indian airlines let you take into the cabin, up to 7 kg." % inch(55)),
+             ("Medium trolley:", "65–69 cm (%s–%s in) tall. For about a week, and the best match for a 15 kg check-in allowance." % (inch(65), inch(69))),
+             ("Large trolley:", "75–79 cm (%s–%s in) tall. For 10 days or more, or fares with 20 kg or more. Add up all three sides first: most large bags we read were listed over the 158 cm airline limit." % (inch(75), inch(79))),
+             ("Inches:", "1 inch is 2.54 cm, and the size on a listing is only the height. Airlines check length, width and height, wheels and handles included.")]
+    indigo_inch = ""
     if indigo:
-        quick.append("IndiGo's cabin limit, %s cm, is %s inches." % (" x ".join(num(x) for x in indigo["cabin"]["dims_cm"]),
-                                                                     " x ".join(inch(x) for x in indigo["cabin"]["dims_cm"])))
-    quick.append("The inch size is only the height. Airlines check length, width and height, wheels and handles included.")
-    faq = [("What are the standard suitcase sizes?", "Indian brands mostly sell trolleys by height: about 55 cm (%s inches) for a small cabin trolley, 65–69 cm (%s–%s inches) for medium and 75–79 cm (%s–%s inches) for large. The tables above show each size in cm and inches." % (inch(55), inch(65), inch(69), inch(75), inch(79))),
-           ("What is the size of a small trolley bag in cm?", "A small trolley usually means a cabin trolley, about 55 cm (%s inches) tall. Many are 36–41 cm wide, but IndiGo's cabin limit is 55 x 35 x 25 cm, so check all three sides before you buy." % inch(55)),
+        d = indigo["cabin"]["dims_cm"]
+        indigo_inch = (" One example: IndiGo's cabin limit is %s cm. Its own page also gives it as 22 x 16 x 9 in, but %s cm is %s in, so go by the cm."
+                       % (" x ".join(num(x) for x in d), num(d[1]), inch(d[1])))
+    faq = [("What are the standard suitcase sizes?", "There is no single standard, but most brands sell three heights: about 55 cm (%s inches) for a small cabin trolley, 65–69 cm (%s–%s inches) for medium and 75–79 cm (%s–%s inches) for large." % (inch(55), inch(65), inch(69), inch(75), inch(79))),
+           ("What is the size of a small trolley bag in cm?", "A small trolley usually means a cabin trolley, about 55 cm (%s inches) tall. Most hard ones we read were 36–41 cm wide, but IndiGo's cabin limit is 55 x 35 x 25 cm, so check all three sides before you buy." % inch(55)),
            ("What is the size of a medium trolley bag in cm?", "Most medium trolleys sold in India are 65–69 cm (%s–%s inches) tall and 135–147 cm in total, from the 36 models we read. They listed 45–93 litres, and 69 litres was typical." % (inch(65), inch(69))),
+           ("What is the size of a large trolley bag in cm?", "Most large trolleys sold in India are 75–79 cm (%s–%s inches) tall. The 31 we read were 152–168 cm in total, and only 5 were within the 158 cm limit most airlines set for a checked bag." % (inch(75), inch(79))),
+           ("Is a 55 cm trolley bag small or medium?", "Small. 55 cm (%s inches) is the cabin size. It can go in the cabin if its width and depth also fit your airline's limit and it weighs 7 kg or less, packed." % inch(55)),
+           ("Is a 65 cm trolley bag small or medium?", "Medium. 65 cm is %s inches. It's a check-in bag, good for about a week, and too tall for any airline's cabin." % inch(65)),
+           ("Is a 75 cm trolley bag allowed in flight?", "Yes, as a check-in bag, if it's within your airline's limits. Most Indian airlines allow up to 158 cm in total and 32 kg for one bag. Many 75 cm bags are listed at more than 158 cm, so add up all three sides."),
+           ("What are suitcase sizes in litres?", "In the listings we read, a cabin trolley typically showed 39 litres, a medium one 69 litres and a large one 108 litres. Litres vary a lot between brands, so compare the size in cm too."),
+           ("What size suitcase do I need for a week?", "A medium check-in trolley, 65–69 cm tall, such as a 26 inch (66 cm) bag. On a 15 kg fare, the weight limit usually runs out before the bag is full."),
            ("What is 20 inch luggage in cm?", "20 inches is %s cm. That's smaller than the usual 55 cm cabin trolley sold in India, though some brands sell 55 cm bags as \"20 inch\"." % cm(20)),
            ("Is a 24 inch suitcase cabin or check-in?", "Check-in. 24 inches is %s cm, too tall for the 55–56 cm cabin limits of Indian airlines. It's a small medium-size bag, good for 4–6 days." % cm(24)),
-           ("How many inches is a 55 cm cabin bag?", "55 cm is %s inches." % inch(55)),
            ("What is 22 x 14 x 9 inches in cm?", us_answer),
            ("How many pounds is 23 kg?", "23 kg is about %s lb. 7 kg, the usual Indian cabin bag limit, is about %s lb." % (lb(23), lb(7)))]
     faq_html, faq_schema = faq_block(faq)
@@ -2923,30 +2957,53 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
                            'Why we chose them: <a href="../guides/cabin-luggage-guide.html#our-cabin-bag-picks">cabin</a>, '
                            '<a href="../guides/24-inch-trolley-bag-size.html#our-picks">medium</a> and '
                            '<a href="../guides/28-inch-trolley-bag-size.html#our-picks-all-within-158-cm-by-their-listed-size">large</a> picks compared')
-    end_html = next_step([("../guides/cabin-luggage-guide.html#our-cabin-bag-picks", "Cabin trolleys that fit IndiGo and Air India"),
+    end_html = next_step([("../guides/cabin-luggage-guide.html", "Cabin bag rules: 7 kg, 115 cm and the bags that fit"),
                           ("../guides/24-inch-trolley-bag-size.html#our-picks", "Medium check-in trolleys (65–69 cm)"),
                           ("../guides/28-inch-trolley-bag-size.html#our-picks-all-within-158-cm-by-their-listed-size", "Large trolleys within the 158 cm limit"),
                           ("checker.html", "Check your own bag against every airline")],
                          "Found your size? Pick a bag", "See the bags we picked for that size, with each one's listed size, weight and the airlines it fits.")
     size_fig = diagram_figure("luggage-sizes", "../") if "luggage-sizes" in DIAGRAMS else ""
-    title = "Suitcase and trolley bag size chart: cm, inches, litres, kg"
-    seo = "Suitcase sizes: trolley bag size chart in cm, inches"
-    desc = ("Suitcase and trolley bag sizes in cm: 20 inch is %s cm, 24 inch %s cm, 28 inch %s cm. Small, medium and large "
-            "trolley size chart with litres, kg and airline limits." % (cm(20), cm(24), cm(28)))
+    title = "Suitcase and trolley bag sizes: small, medium and large in cm and inches"
+    seo = "Suitcase sizes: small, medium, large trolley in cm and inches"
+    desc = ("Suitcase sizes in cm and inches: small (cabin) about 55 cm, medium 65–69 cm, large 75–79 cm. Each trolley size with "
+            "litres, kg, airline limits and which one you need.")
     inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="index.html">Baggage rules</a><span>/</span>Size chart</nav>
       <h1>{e(title)}</h1>
       <p class="muted small">Updated {fmt_date(updated)}</p>"""
     body = f"""{page_head("luggage", f'<div class="media media-tile tint-luggage">{icon("ruler", "icon media-icon")}</div>', inner, "../")}
 <div class="wrap"><article class="guide">
-<p class="lead">Suitcase and trolley bag sizes are given by height. Here is each trolley size in inches and cm, from small cabin trolleys to large ones, with the trip it suits. Tap a size for its full guide.</p>
-<div class="answer"><h2>Quick answer: small, medium and large trolley sizes in cm</h2><ul>{"".join("<li>%s</li>" % e(x) for x in quick)}</ul></div>
-<h2>Trolley sizes in inches and cm</h2>
-<div class="table-wrap"><table class="compare snug"><thead><tr><th>Inches</th><th>cm</th><th>Size</th><th>Trip length</th></tr></thead><tbody>{size_rows}</tbody></table></div>
-<p class="small">Sizes are the bag's height. Sellers don't always say whether it includes the wheels, so check the full size on the listing.</p>
-{picks_html}
-<h2>Indian trolley sizes in cm, in inches</h2>
-<p>Indian brands list trolleys by height in cm. Here is each common height in inches.</p>
+<p class="lead">Suitcases and trolley bags come in three main sizes, and brands in India sell them by height in cm: small (cabin) about 55 cm, medium 65–69 cm and large 75–79 cm. Here is each size in cm and inches, what it holds, and the airline limits it has to meet.</p>
+<div class="answer"><h2>Quick answer: suitcase sizes</h2><ul>{"".join("<li><strong>%s</strong> %s</li>" % (e(a), e(b)) for a, b in quick)}</ul></div>
+<h2 id="small-medium-large">Small, medium and large trolley sizes</h2>
+<div class="table-wrap"><table class="compare snug"><thead><tr><th>Size</th><th>Height</th><th>In inches</th><th>Often sold as</th><th>Full size in the listings</th><th>Litres (typical)</th><th>Empty bag (typical)</th><th>Trip</th></tr></thead><tbody>{class_rows}</tbody></table></div>
+<p class="checked">From listings we read on Amazon.in: 83 hard cabin trolleys on 3 Nov 2026, and 80 trolleys of all sizes on 6 Nov 2026. These are listed figures, not our measurements, and sellers don't always say whether the height includes the wheels.</p>
+<h2 id="55-65-75-cm">55, 65 and 75 cm in inches</h2>
+<p>55 cm is {inch(55)} inches, the usual cabin height. 65 cm is {inch(65)} inches, a medium bag. 75 cm is {inch(75)} inches, a large bag. Here are the other heights Indian brands list:</p>
 <div class="table-wrap"><table class="compare snug"><thead><tr><th>Listed height</th><th>Inches</th><th>Size</th></tr></thead><tbody>{cm_rows}</tbody></table></div>
+<h2 id="inches">Trolley sizes in inches and cm</h2>
+<p>Some brands and most foreign shops sell by inches. Tap a size for its own guide, with the bags we found at that size.</p>
+<div class="table-wrap"><table class="compare snug"><thead><tr><th>Inches</th><th>cm</th><th>Size</th><th>Trip length</th></tr></thead><tbody>{size_rows}</tbody></table></div>
+<p class="small">The inch number on a listing doesn't always match the cm. Some brands sell a 55 cm bag as "20 inch" and a 65 cm bag as "24 inch", so check the cm.</p>
+<h2 id="which-size">Which size do you need?</h2>
+<p>Start with your ticket, not the bag. The baggage allowance on your fare decides how much you can carry, and the bag's own weight counts in it.</p>
+<div class="table-wrap"><table class="compare snug"><thead><tr><th>Your allowance</th><th>Size that suits it</th><th>Why</th></tr></thead><tbody>
+<tr><th scope="row">7 kg cabin bag only</th><td>A cabin trolley close to 2 kg, or a 30–40 L backpack</td><td>A typical 2.5 kg trolley leaves only 4.5 kg for your things.</td></tr>
+<tr><th scope="row">15 kg check-in</th><td>Medium, 65–69 cm</td><td>A typical medium bag leaves 11.6 kg; a large one about 1 kg less, as it's heavier empty.</td></tr>
+<tr><th scope="row">20–25 kg check-in</th><td>Medium for clothes, large for bulky winter things</td><td>A full large bag can reach 25 kg, so weigh it.</td></tr>
+<tr><th scope="row">2 x 23 kg (many international fares)</th><td>Two medium or large bags, each within 158 cm</td><td>Each bag is checked on its own. See <a href="../guides/trolley-bag-size-for-international-travel.html">which trolley fits a 23 kg bag</a>.</td></tr>
+</tbody></table></div>
+<ul>
+<li><strong>Weekend (1–3 days):</strong> a duffle or a backpack of about 30–40 litres. See the <a href="../guides/backpack-size-chart-litres.html">backpack size chart in litres</a>.</li>
+<li><strong>Short trip (2–4 days):</strong> a small cabin trolley, about 55 cm.</li>
+<li><strong>One week (5–8 days):</strong> a medium trolley, 65–69 cm.</li>
+<li><strong>Long holiday or a family trip (10 days or more):</strong> a large trolley, 75–79 cm.</li>
+</ul>
+<p><strong>Hard or soft?</strong> A hard shell (polypropylene or polycarbonate) protects things better and handles rain, but it doesn't stretch. A soft bag is lighter, squeezes into train berths and car boots and has outside pockets. A duffle is the lightest of all, for trains and road trips. See <a href="../guides/hard-vs-soft-luggage.html">hard vs soft luggage</a> and <a href="../guides/polycarbonate-vs-polypropylene-luggage.html">polycarbonate vs polypropylene</a>.</p>
+<p><strong>Before you buy:</strong> check your airline's cabin and check-in limits, add up the bag's length, width and height, compare its empty weight, and weigh it packed at home with a <a href="../guides/luggage-scale.html">luggage scale</a>.</p>
+{picks_html}
+{('<h2 id="airline-limits">Cabin bag limits in inches: Indian and international airlines</h2><p>Airlines give their limits in cm. Here they are in inches too.' + e(indigo_inch) + ' For the full cabin rules, the 7 kg weight and the small personal bag, see our <a href="../guides/cabin-luggage-guide.html">cabin bag guide</a>.</p><div class="table-wrap"><table class="compare snug"><thead><tr><th>Airline</th><th>Size limit (cm)</th><th>In inches</th><th>Weight</th></tr></thead><tbody>' + air_rows + '</tbody></table></div><p class="checked">Economy limits: domestic flights for Indian airlines, India routes for international airlines. From our <a href="index.html">baggage rules</a> and <a href="international.html">international baggage</a> pages; the five Indian airlines were re-checked on their own sites on 26 Nov 2026. Check your ticket before you fly.</p>') if air_rows else ""}
+<h2 id="check-in-size">Check-in bag size</h2>
+<p>IndiGo, Air India, Akasa Air and SpiceJet limit each checked bag to <strong>158 cm in total</strong> (length + width + height), which is about {inch(158)} inches, and <strong>32 kg</strong> (about {lb(32)} lb). Air India Express gives a different limit: 81 x 119 x 119 cm. With two bags in Economy, Air India also caps both together at 272 cm. Many large trolleys go over 158 cm: of the 31 large models we checked on Amazon.in on 6 Nov 2026, <strong>26 were listed over it</strong>. See <a href="../guides/28-inch-trolley-bag-size.html">the 5 that weren't</a>.</p>
 <h2>Convert inches, cm, kg and lb</h2>
 <form class="checker" onsubmit="return false">
 <div class="checker-fields"><label>Number<input id="cv-n" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g. 22"></label>
@@ -2960,18 +3017,15 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
 <p class="hint"><a id="cv-check" href="checker.html">Open the cabin bag checker</a></p>
 </form>
 {size_fig}
-{('<h2>Cabin bag limits in inches: Indian and international airlines</h2><div class="table-wrap"><table class="compare snug"><thead><tr><th>Airline</th><th>Size limit (cm)</th><th>In inches</th><th>Weight</th></tr></thead><tbody>' + air_rows + '</tbody></table></div><p class="checked">Economy limits: domestic flights for Indian airlines, India routes for international airlines. From our <a href="index.html">baggage rules</a> and <a href="international.html">international baggage</a> pages. Check your ticket before you fly.</p>') if air_rows else ""}
 <h2>Size chart in litres and kg</h2>
-<p>From 80 trolley models we read on Amazon.in on 6 Nov 2026. The clothes column is our rough estimate, not a test. Your airline ticket is usually the real limit. See <a href="../guides/trolley-bag-capacity-kg-litres.html">trolley bag capacity in kg and litres</a>.</p>
+<p>How many kg of clothes each size could hold, from 80 trolley models we read on Amazon.in on 6 Nov 2026. The clothes column is our rough estimate, not a test, and your ticket is usually the real limit. The packing lists behind it are in <a href="../guides/trolley-bag-capacity-kg-litres.html">trolley bag capacity in kg and litres</a>.</p>
 <div class="table-wrap"><table class="compare snug"><thead><tr><th>Size</th><th>Height</th><th>Listed litres (typical)</th><th>Empty bag (typical)</th><th>Clothes it could hold</th></tr></thead><tbody>{capacity_rows}</tbody></table></div>
-<h2>Check-in bag size</h2>
-<p>Most Indian airlines limit each checked bag to <strong>158 cm in total</strong> (length + width + height), which is about {inch(158)} inches, and <strong>32 kg</strong> (about {lb(32)} lb). Many large trolleys go over that: of the 31 large models we checked on Amazon.in on 6 Nov 2026, <strong>26 were listed over 158 cm</strong>. See <a href="../guides/28-inch-trolley-bag-size.html">the 5 that weren't</a>.</p>
 <h2>Kilograms to pounds</h2>
 <p>Indian airlines use kg. Foreign airlines, US websites and some luggage scales show pounds.</p>
 <div class="table-wrap"><table class="compare snug"><thead><tr><th>kg</th><th>Pounds (lb)</th></tr></thead><tbody>{kg_rows}</tbody></table></div>
 {end_html}
 {faq_html}
-<p>More help: <a href="../guides/trolley-bag-capacity-kg-litres.html">how many kg each size holds</a>, <a href="../guides/20-inch-trolley-bag-size.html">20 inch</a>, <a href="../guides/22-inch-trolley-bag-size.html">22 inch</a>, <a href="../guides/24-inch-trolley-bag-size.html">24 inch</a>, <a href="../guides/26-inch-trolley-bag-size.html">26 inch</a>, <a href="../guides/28-inch-trolley-bag-size.html">28 inch</a> and <a href="../guides/32-inch-trolley-bag-size.html">32 inch</a> trolleys in detail, <a href="../guides/trolley-bag-size-for-international-travel.html">a bag for international flights</a>, <a href="../guides/luggage-size-guide.html">what size luggage you need</a> and <a href="../guides/cabin-luggage-guide.html">how to pick a cabin trolley</a>. Still choosing? See <a href="../guides/lightest-cabin-trolley-bag.html">the lightest trolleys by empty weight</a>, <a href="../guides/hard-vs-soft-luggage.html">hard vs soft luggage</a>, <a href="../guides/4-wheel-vs-8-wheel-trolley.html">4 wheel vs 8 wheel trolleys</a> and <a href="../guides/trolley-bag-set-of-3.html">trolley bag sets of 3</a>.</p>
+<p>Each size in detail: <a href="../guides/20-inch-trolley-bag-size.html">20 inch</a>, <a href="../guides/22-inch-trolley-bag-size.html">22 inch</a>, <a href="../guides/24-inch-trolley-bag-size.html">24 inch</a>, <a href="../guides/26-inch-trolley-bag-size.html">26 inch</a>, <a href="../guides/28-inch-trolley-bag-size.html">28 inch</a> and <a href="../guides/32-inch-trolley-bag-size.html">32 inch</a> trolleys, <a href="../guides/trolley-bag-capacity-kg-litres.html">how many kg each size holds</a>, <a href="../guides/backpack-size-chart-litres.html">backpack sizes in litres</a> and <a href="../guides/trolley-bag-size-for-international-travel.html">a bag for international flights</a>. Cabin rules: <a href="../guides/cabin-luggage-guide.html">cabin bag guide</a> and <a href="../guides/carry-on-size-by-airline.html">carry-on size by airline</a>. Still choosing? See <a href="../guides/lightest-cabin-trolley-bag.html">the lightest trolleys by empty weight</a>, <a href="../guides/4-wheel-vs-8-wheel-trolley.html">4 wheel vs 8 wheel trolleys</a> and <a href="../guides/trolley-bag-set-of-3.html">trolley bag sets of 3</a>.</p>
 {tool_pills("../", path)}
 </article></div>
 <script src="../assets/sizes.js" defer></script>
@@ -3216,7 +3270,7 @@ def build_packing(cfg, deals_by_asin, pages, lastmod, trip_guides=()):
 <li><strong>Heavy things at the bottom.</strong> Put shoes and heavy items near the wheels so the trolley doesn't tip over.</li>
 <li><strong>Roll T-shirts, fold shirts.</strong> Rolling saves space; <a href="../picks/B0C4TV4M2F.html">packing cubes</a> keep everything in order.</li>
 <li><strong>Weigh it at home.</strong> Check your airline's limit on our <a href="../baggage/index.html">baggage rules page</a>, or the <a href="../baggage/train-luggage-rules.html">train luggage rules</a> for rail trips.</li>
-<li><strong>Pick the right bag size.</strong> Not sure? Read <a href="../guides/luggage-size-guide.html">what size luggage you need</a>.</li>
+<li><strong>Pick the right bag size.</strong> Not sure? See <a href="../baggage/luggage-size-chart.html#which-size">which size you need</a>.</li>
 <li><strong>Travelling as a woman?</strong> See our <a href="../guides/travel-essentials-for-women.html">travel essentials for women</a> and, for trips on your own, <a href="../guides/solo-female-travel-india.html">solo female travel in India</a>.</li>
 </ul>
 {tool_pills("../", "packing/index.html")}
@@ -3581,7 +3635,7 @@ def build():
             ("baggage/luggage-size-chart.html", "Luggage size chart", "20, 24 or 28 inch in cm, and cabin limits", "ruler", "luggage"),
             ("baggage/checker.html", "Cabin bag checker", "Will your bag fit? Every airline at once", "suitcase", "luggage"),
             ("guides/carry-on-size-by-airline.html", "Carry-on size by airline", "Cabin bag size and weight, worldwide", "plane", "travel-tech"),
-            ("guides/luggage-size-guide.html", "What size luggage do you need?", "By trip length and how you travel", "ruler", "travel-gear"),
+            ("guides/cabin-luggage-guide.html", "Cabin bag rules", "7 kg, 115 cm and the trolleys that fit", "suitcase", "travel-gear"),
             ("guides/trolley-bag-size-for-international-travel.html", "Trolley size for flights abroad", "Cabin and check-in sizes for international trips", "globe", "backpacks"),
             ("guides/backpack-size-chart-litres.html", "Backpack size chart", "Litres explained, for school, office and travel", "check", "backpacks")]))
 
@@ -3905,6 +3959,8 @@ def build():
         if faq:
             schema.append({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
                 {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": ans}} for q, ans in faq]})
+        if a.get("canonical"):
+            CANONICAL_TO[path] = a["canonical"]
         pages.append(write(path, page(cfg, a.get("seo_title", a["title"]), a["description"], body, 1, path,
                                       schema, og_type="article", photo=a.get("photo"))))
         lastmod[path] = a["updated"]

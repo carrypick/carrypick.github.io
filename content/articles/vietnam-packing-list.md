@@ -1,5 +1,5 @@
 ---
-seo_title: Vietnam packing list from India (2026): what to pack and wear in December, for women and men
+seo_title: Vietnam packing list from India (2026): December clothes
 title: Vietnam packing list: what to pack and wear for a trip from India
 description: What to pack for Vietnam from India: warm layers for Hanoi and Sa Pa in winter, light clothes for Ho Chi Minh City, rain gear for Da Nang and Hoi An, the right bag for Vietjet or IndiGo, what not to carry and lists for women and men.
 date: 2026-11-18

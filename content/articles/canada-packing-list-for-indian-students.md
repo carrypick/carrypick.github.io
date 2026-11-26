@@ -1,5 +1,5 @@
 ---
-seo_title: Canada packing list for Indian students (2026): what to bring to Canada from India
+seo_title: Canada packing list for Indian students (2026)
 title: Canada packing list for Indian students going to Canada from India
 description: A packing list for students going to Canada from India: the documents IRCC says to have at the border (passport, port of entry letter of introduction, letter of acceptance, proof of money), student baggage on Air India and Virgin Atlantic, which trolley fits 23 kg, CBSA food rules and Health Canada's 90-day medicine limit, plugs, and clothes for a Canadian winter.
 date: 2026-11-23

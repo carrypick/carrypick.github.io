@@ -1,5 +1,5 @@
 ---
-seo_title: Nepal in December 2026: weather, temperature, snow, itinerary and trekking
+seo_title: Nepal in December 2026: weather, snow, itinerary, trekking
 title: Nepal in December and January: weather, snow, trekking and a trip plan
 description: Plan Nepal for December or January from India: temperatures in Kathmandu, Pokhara, Nagarkot and Chitwan, where it snows, festivals from Yomari Punhi to Maghe Sankranti, a 6-day plan, the Everest mountain flight, winter trekking rules, flights and border crossings, documents and what to wear.
 date: 2026-11-21

@@ -1,5 +1,5 @@
 ---
-seo_title: Malaysia packing list from India (2026): what to pack and wear in Kuala Lumpur, Langkawi and Penang, men and women
+seo_title: Malaysia packing list from India (2026): what to pack, wear
 title: Malaysia packing list: what to pack and wear for a trip from India
 description: What to pack for Malaysia from India: light clothes for heat and rain, an umbrella, modest clothes and a scarf for mosques and Batu Caves, a type G plug adapter, the visa waiver to 31 December 2026 and the MDAC, Malaysian customs allowances, and the right bag for IndiGo, Malaysia Airlines, AirAsia or Air India.
 date: 2026-11-25

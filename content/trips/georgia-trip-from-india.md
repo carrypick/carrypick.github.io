@@ -1,5 +1,5 @@
 ---
-seo_title: Georgia trip from India (2026): e-visa for Indians, visa-free with a US, UK or Schengen visa, itinerary, snow in December
+seo_title: Georgia trip from India 2026: e-visa, itinerary, December snow
 title: Georgia trip from India: the e-visa, a 6-day plan and Georgia in December
 description: Plan a Georgia trip from India: the Georgian e-visa for Indians (US$20 plus a 2% service fee and a US$15 DuVerify step), visa-free entry for 90 days in 180 with a valid US, UK, EU or Schengen visa or residence permit, flights from India, a 6-day Tbilisi, Kazbegi and Kakheti plan, Gudauri skiing and Georgia in December, and veg food tips.
 date: 2026-11-21

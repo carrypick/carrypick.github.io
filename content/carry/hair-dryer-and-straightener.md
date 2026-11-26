@@ -1,6 +1,6 @@
 ---
 title: Can I carry a hair dryer or straightener on a flight in India?
-seo_title: Hair dryer and straightener in flight India 2026: cabin bag and check-in
+seo_title: Hair dryer and straightener in flight India 2026
 description: IndiGo's list allows a hair dryer in both bags. Straighteners aren't named on the airline lists we checked, gas hair curlers are banned, and cordless ones have batteries. Hair spray, gel and packing tips.
 item: Hair dryer
 date: 2026-11-15

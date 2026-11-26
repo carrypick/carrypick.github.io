@@ -1,72 +1,86 @@
 ---
 title: Can I carry ghee on a flight in India?
-seo_title: Ghee in flight rules India 2026: 5 kg in check-in, not in IndiGo cabin
-description: Ghee goes in your check-in bag, up to 5 kg or 5 litres. Why it counts as a liquid in the cabin, IndiGo's rule, coconut oil, and how to pack a ghee tin so it doesn't leak.
+seo_title: Ghee in flight: allowed? Check-in up to 5 kg, India 2026
+description: Is ghee allowed in flight? Yes, in your check-in bag, up to 5 kg or 5 litres per person. IndiGo, SpiceJet and Air India Express don't allow it in the cabin; Air India allows 100 ml containers. Checked 26 Nov 2026, with how to pack a ghee tin.
 item: Ghee and coconut oil
 date: 2026-11-10
-checked_against: IndiGo, Air India and airport security rules
-sources: Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security | Akasa Air conditions of carriage=https://www.akasaair.com/quick-links/conditions-of-carriage
+updated: 2026-11-26
+checked_against: IndiGo, Air India, Akasa Air, SpiceJet and Air India Express pages and an airport security list based on BCAS rules
+sources: IndiGo list of things not allowed in flight (read 26 Nov 2026)=https://www.goindigo.in/baggage/dangerous-goods-policy.html | SpiceJet dangerous goods list (read 26 Nov 2026)=https://corporate.spicejet.com/DGR.aspx | Air India Express prohibited items (PDF, read 26 Nov 2026)=https://www.airindiaexpress.com/content/dam/airindiaexpress/documents/mandatory-disclosure/AIX_Prohibited_Items.pdf | Air India restricted items (read 26 Nov 2026)=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | Akasa Air conditions of carriage (read 26 Nov 2026)=https://www.akasaair.com/quick-links/conditions-of-carriage | Kannur Airport security list (based on BCAS rules, read 26 Nov 2026)=https://kannurairport.aero/corporate/security
 related: tools/bag-weight.html=Excess baggage calculator | guides/trolley-bag-capacity-kg-litres.html=How many kg a trolley bag holds | baggage/index.html=Airline baggage rules | packing/wedding.html=Wedding packing list
+answer: **Is ghee allowed in flight? Yes, in your check-in bag: up to 5 kg or 5 litres per person.** In the cabin bag, IndiGo, SpiceJet and Air India Express don't allow ghee at all. Air India allows only small containers of 100 ml or less in your liquids bag.
 ---
-## Why ghee counts as a liquid
+## Airline by airline
 
-At security, ghee is treated like oil. Air India's list of liquids names oils, and says anything of a similar texture at room temperature counts too. Ghee is soft or runny at room temperature, so in the cabin it follows the **100 ml liquids rule**, like shampoo or juice.
+We read each airline's own page on **26 November 2026**. The words in quotes are theirs.
 
-## Cabin bag
+| Airline | Cabin bag | Check-in bag | What the airline's page says |
+|---|---|---|---|
+| IndiGo | No | Yes | "Ghee": cabin no, check-in yes. No quantity given. |
+| SpiceJet | No | Yes | "Ghee (clarified butter)": cabin no, check-in yes. "Oily food items": not allowed in either bag. |
+| Air India Express | No | Yes | "Ghee": cabin "Not Allowed", check-in "Allowed". |
+| Air India | 100 ml containers | Up to 5 kg | "Ghee (clarified butter)/cooking oil": "Allowed in cabin baggage as per LAG restrictions. As checked-in baggage, the quantity is limited to 5 kg/l per passenger." |
+| Akasa Air | No (food rule) | Not named | Ghee isn't named. Its food rule: "Messy, oily, and/or strong-smelling food items are not allowed on board." |
+| Airport security list (BCAS rules) | 100 ml liquids rule | Up to 5 kg | Kannur Airport's list: "COCONUT OIL/ GHEE - 05 LTR /Kg" in check-in. |
 
-- Only in small containers of **100 ml or less**, inside your clear 1-litre liquids bag. A 100 ml container holds only about 90 g of ghee.
-- **IndiGo doesn't allow ghee in the cabin at all**, so on IndiGo it must go in check-in.
+"LAG" means liquids, aerosols and gels: each container 100 ml or less, all in one clear 1-litre bag. A 100 ml container holds only about 90 g of ghee, so the cabin is no place for a family jar on any airline.
 
-## Check-in bag: up to 5 kg
+## How much is 5 kg of ghee?
 
-Air India and the airport security list allow up to **5 kg or 5 litres of ghee or cooking oil per person** in check-in. IndiGo's list also allows ghee in check-in but doesn't give a number, so keep to 5 kg there too.
+| What you pack | Ghee | Within 5 kg? |
+|---|---|---|
+| 1 litre tin or jar | about 0.9 kg | Yes, five of them |
+| 5 litre tin | about 4.6 kg | Yes |
+| 5 kg tin | 5 kg | Just |
 
-The ghee counts towards your check-in weight. A 5 kg tin uses a third of a 15 kg allowance, and the tin and packing add a little more. Weigh your bag at home so you don't pay extra at the airport.
+A litre of ghee weighs a little less than a kilo, so a 5 litre tin is under the limit. The weights are rough: ghee is a bit lighter than water. Air India and the airport list allow "5 kg/l", and IndiGo, SpiceJet and Air India Express don't give a number, so keep to 5 kg on any airline.
+
+The ghee also counts towards your check-in weight. A 5 kg tin uses a third of a 15 kg allowance, before the tin and packing. Weigh your bag at home, or use our [excess baggage calculator](../../tools/bag-weight.html).
 
 [[pick:B07Q822CWX]]
 
 ## How to pack ghee so it doesn't leak
 
 - Use a tin or a strong plastic jar with a screw lid. Glass can break.
-- Tape the lid all round, then put the jar in two zip bags or plastic bags, one inside the other.
-- Stand it upright in the middle of a trolley bag, with clothes packed around it.
+- Tape the lid all round, then put the jar in two plastic or zip bags, one inside the other.
+- Stand it upright in the middle of a hard trolley bag, with clothes packed around it.
 - In winter, ghee sets solid and leaks less. In summer it stays runny, so seal it extra well.
+- Packing sweets made with ghee too? Dry sweets follow different rules: see [sweets and home food](sweets-and-home-food.html).
 
-## Coconut oil and other cooking oil
+## Coconut oil and cooking oil
 
-Coconut oil and cooking oil follow the same limits as ghee: up to 5 litres in check-in (Air India, airport security list), and 100 ml containers in the cabin liquids bag. IndiGo's list doesn't allow oily items in the cabin.
+Air India and the airport list put coconut oil and cooking oil under the same 5 kg or 5 litre check-in limit as ghee, and 100 ml containers in the cabin. IndiGo and SpiceJet don't allow oily items in the cabin. **Dry coconut (copra, khopra) is banned in both bags** (SpiceJet, Air India Express): see [coconut rules](coconut.html).
 
-**Dry coconut (copra, gola) is different: it is banned in both bags**, because it can catch fire. See our [coconut rules](coconut.html).
+## Ghee on international flights
 
-## What to do instead
-
-- Carrying ghee for family? Pack it in check-in, up to 5 kg, and plan the rest of your bag around its weight.
-- Need a little for a short trip? Carry a 100 ml container in your liquids bag, but not on IndiGo.
-- Staying a while? Buy ghee where you land and save the weight.
-
-## By airline
-
-| Airline | Cabin bag | Check-in |
-|---|---|---|
-| IndiGo | No | Yes, no limit given |
-| Air India | Containers of 100 ml or less, in the 1-litre bag | Up to 5 kg or 5 litres |
-| Akasa Air | Not named, and oily food isn't allowed on board | Not named |
-| Airport security list | 100 ml liquids rule | Up to 5 kg or 5 litres |
+On IndiGo, Air India and Air India Express flights abroad, the same lists apply. The country you land in has its own customs rules. Ghee is a dairy product, and some countries limit the dairy travellers bring in or ask you to declare it. We haven't checked each country's rules, so look at the customs website of the country you're flying to, for example before a trip to Germany, the UK or the US. On a foreign airline such as Emirates, read its own baggage list.
 
 ## Questions
 
-### How much ghee can I carry in my check-in bag?
+### Is ghee allowed in flight?
 
-Up to 5 kg or 5 litres per person (Air India and the airport security list). IndiGo also allows ghee in check-in.
+Yes, in your check-in bag, up to 5 kg or 5 litres per person (Air India, airport security list). IndiGo, SpiceJet and Air India Express allow it in check-in too.
 
-### Can I carry ghee in my cabin bag?
+### Is ghee allowed in IndiGo flight?
 
-Only in containers of 100 ml or less inside your clear 1-litre liquids bag, and not at all on IndiGo.
+In check-in, yes. In the cabin, no: IndiGo's list marks ghee as not allowed in cabin baggage.
+
+### Can I carry ghee in cabin baggage?
+
+Not on IndiGo, SpiceJet or Air India Express. On Air India, only in containers of 100 ml or less inside your clear 1-litre liquids bag.
+
+### What is the ghee limit in flight?
+
+5 kg or 5 litres per person in check-in (Air India, airport security list). The other airlines we checked don't give a number, so keep to 5 kg.
+
+### Can I carry ghee in a domestic flight on Air India?
+
+Yes. Up to 5 kg in check-in, or containers of 100 ml or less in your cabin liquids bag.
+
+### Can I carry ghee in an international flight?
+
+The airline rules are the same: check-in, up to 5 kg. Also check the customs rules of the country you're flying to, because some limit dairy products.
 
 ### Is ghee a liquid at airport security?
 
-Yes. Ghee is treated like oil, so the 100 ml liquids rule applies to it in your cabin bag.
-
-### Can I carry coconut oil on a flight?
-
-Yes, with the same limits as ghee: up to 5 litres in check-in, and 100 ml containers in the cabin liquids bag (not on IndiGo). Dry coconut (copra) is banned in both bags.
+Yes. Air India puts it under the liquids (LAG) rules, so in the cabin each container must be 100 ml or less.

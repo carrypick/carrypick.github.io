@@ -1,5 +1,5 @@
 ---
-seo_title: Travelling with a baby checklist: what to pack for a flight, train or road trip (India and abroad)
+seo_title: Travelling with a baby checklist: flight, train or road trip
 title: Travelling with a baby: the checklist
 description: A simple checklist for travelling with a baby or toddler: the baby's documents, feeding, diapers, clothes, sleep, a stroller or carrier, what goes in the cabin bag, and the baby travel essentials we'd pack. For flights, trains and road trips in India and abroad.
 date: 2026-11-23

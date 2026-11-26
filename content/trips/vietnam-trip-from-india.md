@@ -1,5 +1,5 @@
 ---
-seo_title: Vietnam trip from India (2026): e-visa for Indians, 7-day itinerary, weather in December
+seo_title: Vietnam trip from India 2026: e-visa and 7-day itinerary
 title: Vietnam trip from India: e-visa, a 7-day itinerary and the weather in December
 description: Plan a Vietnam trip from India: the e-visa for Indians (US$25 single entry, up to 90 days), the pre-arrival form, direct flights from Indian cities to Hanoi and Ho Chi Minh City, a 5 or 7-day itinerary with Ha Long Bay and Hoi An, the weather in December by region, getting around, and veg and Jain food tips.
 date: 2026-11-21

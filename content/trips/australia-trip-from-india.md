@@ -1,5 +1,5 @@
 ---
-seo_title: Australia trip from India (2026): visa for Indians (AUD 250), direct flights, 10-day Sydney and Melbourne itinerary, weather
+seo_title: Australia trip from India 2026: visa, flights, 10-day plan
 title: Australia trip from India: the visitor visa, direct flights, a 10-day plan and the best time to go
 description: Plan an Australia trip from India: the Visitor visa (subclass 600) for Indians, from AUD 250, why Indians can't use the ETA or eVisitor, direct flights from Delhi and Bengaluru to Sydney and Melbourne, a 10-day Sydney, Blue Mountains, Melbourne and Great Ocean Road plan, the weather by month, Opal and myki, and food rules at the airport.
 date: 2026-11-21

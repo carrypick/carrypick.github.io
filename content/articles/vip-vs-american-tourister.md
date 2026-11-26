@@ -1,5 +1,5 @@
 ---
-seo_title: VIP vs American Tourister trolley bags: weight, size, lock and warranty compared
+seo_title: VIP vs American Tourister trolley bags compared
 title: VIP vs American Tourister: trolley bags compared by the facts
 description: VIP or American Tourister? We compared their trolley listings on Amazon.in by shell, weight, full size, wheels and lock, and read both brands' official warranty terms.
 date: 2026-11-24

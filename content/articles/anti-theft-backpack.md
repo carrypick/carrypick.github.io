@@ -1,5 +1,5 @@
 ---
-seo_title: Anti-theft backpack for men and women in India: what it means and which to buy
+seo_title: Anti-theft backpack in India: what it means, which to buy
 title: Anti-theft backpack: what it really means, and which one to buy
 description: What "anti-theft" means on a backpack listing (a hidden back zip, a number lock, a secret back pocket), what it doesn't protect against, and our anti-theft backpack picks for trains, metros and travel in India.
 date: 2026-11-23

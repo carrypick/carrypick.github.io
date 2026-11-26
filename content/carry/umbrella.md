@@ -1,66 +1,72 @@
 ---
 title: Can I carry an umbrella on a flight in India?
 seo_title: Umbrella in flight: cabin bag or check-in? India rules 2026
-description: A folding umbrella can go in your cabin bag, and on some airlines on top of your cabin allowance. An umbrella with a sharp tip goes in check-in. IndiGo, Air India, Akasa Air and SpiceJet rules.
+description: Is an umbrella allowed in flight? Yes. A folding umbrella or one with a blunt tip can go in your cabin bag; one with a sharp tip goes in check-in. IndiGo, Air India, Akasa Air, SpiceJet and Air India Express, checked 26 Nov 2026.
 item: Umbrella
 date: 2026-11-10
-checked_against: IndiGo, Air India, Akasa Air and SpiceJet rules
-sources: Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Akasa Air conditions of carriage=https://www.akasaair.com/quick-links/conditions-of-carriage | SpiceJet Citizen's Charter=https://corporate.spicejet.com/Charter.aspx
+updated: 2026-11-26
+checked_against: IndiGo, Air India, Akasa Air, SpiceJet and Air India Express pages and BCAS's banned items list
+sources: IndiGo list of things not allowed in flight (read 26 Nov 2026)=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Air India restricted items (read 26 Nov 2026)=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | Akasa Air conditions of carriage (read 26 Nov 2026)=https://www.akasaair.com/quick-links/conditions-of-carriage | SpiceJet dangerous goods list (read 26 Nov 2026)=https://corporate.spicejet.com/DGR.aspx | SpiceJet Citizen's Charter (read 26 Nov 2026)=https://corporate.spicejet.com/Charter.aspx | Air India Express prohibited items (PDF, read 26 Nov 2026)=https://www.airindiaexpress.com/content/dam/airindiaexpress/documents/mandatory-disclosure/AIX_Prohibited_Items.pdf | BCAS list of items banned in the cabin (archived copy, read 26 Nov 2026)=https://web.archive.org/web/20240919062225/https://bcasindia.gov.in/passenger_pdf/prohibited.pdf
 related: guides/cabin-luggage-guide.html=Cabin bag rules | packing/hills.html=Hill trip packing list | baggage/checker.html=Cabin bag checker | baggage/index.html=Airline baggage rules
+answer: **Is an umbrella allowed in flight? Yes.** A folding umbrella, or any umbrella with a blunt tip, can go in your cabin bag. An umbrella with a sharp tip or sharp edges goes in your check-in bag. Every umbrella is allowed in check-in.
 ---
-## The tip decides it
+## Airline by airline
 
-- **Folding umbrella:** fine in the cabin (Air India, Akasa Air).
-- **Umbrella with a blunt tip:** fine in the cabin (IndiGo).
-- **Umbrella with a sharp tip or sharp edges:** check-in only (IndiGo, Air India).
+We read each airline's own page on **26 November 2026**. The words in quotes are theirs.
 
-The security staff make the final call at screening. Air India says umbrellas in the cabin are subject to clearance by security.
+| Airline | Cabin bag | Check-in bag | What the airline's page says |
+|---|---|---|---|
+| IndiGo | Blunt tip only | Yes | "Umbrella (Only with blunt tip/edge; sharp-edged umbrellas to be carried in Check-In Baggage)". |
+| Air India | Folding: yes | Yes | "Umbrellas-Foldable": allowed on both, "subject to clearance by the security". "Umbrellas with sharp edges": carry-on no, check-in yes. |
+| Air India Express | Blunt tip only | Yes | "Allowed (Only with blunt tip/edge; sharp-edged umbrellas to be carried in Check-In Baggage)". |
+| SpiceJet | Yes, no sharp point | Yes | "Umbrellas with sharp points are not allowed in cabin baggage". Its Citizen's Charter lets you carry "An umbrella or walking stick" free, on top of your hand baggage allowance. |
+| Akasa Air | Compact folding | Not stated | "Folding umbrella (compact, folding type only)" is on its list of personal items you can carry with your cabin bag. |
+| BCAS (airport security) | Not banned | – | Umbrellas aren't on BCAS's list of items banned in the cabin. Screening staff still check them, and can refuse one. |
 
-## Does it count in my cabin bag allowance?
+## Does an umbrella count in my cabin bag allowance?
 
-- **SpiceJet** lets you carry an umbrella on top of your cabin bag allowance.
-- **Akasa Air** allows one personal item besides your cabin bag, as long as it fits under the seat and weighs 3 kg or less. A compact folding umbrella is on its list of personal items. If you also carry a handbag or laptop bag, put the umbrella inside one of your bags.
-- **IndiGo and Air India** pages we checked don't say. Pack it inside your cabin bag, or in a handbag or laptop bag that already counts as your personal item.
+- **SpiceJet:** no. An umbrella is one of the items you can carry free, on top of your hand baggage.
+- **Akasa Air:** a compact folding umbrella can be your one personal item, which must fit under the seat and weigh 3 kg or less. If you also carry a handbag or laptop bag, put the umbrella inside a bag.
+- **IndiGo, Air India and Air India Express:** their pages don't say. Pack it inside your cabin bag or your handbag, so it isn't counted as an extra piece.
+
+Check the size and weight of your bag in our [cabin bag checker](../checker.html).
 
 ## Long umbrellas
 
-A long umbrella with a curved handle doesn't fit inside a cabin trolley, and is hard to fit in most check-in bags too. If its tip is blunt, IndiGo allows it in the cabin. If it has a sharp metal tip, it can only go in check-in. For a trip, a folding umbrella is much easier.
+A long umbrella with a curved handle doesn't fit inside a cabin trolley, and is hard to fit in most check-in bags too. With a blunt tip, IndiGo and Air India Express allow it in the cabin, and SpiceJet lets you carry it separately. With a sharp metal tip, it can only go in check-in. For a trip, a folding umbrella is much easier.
+
+## Umbrellas on international flights
+
+Indian airlines use the same lists on flights abroad. For foreign airlines and for security in other countries, we haven't checked their rules for umbrellas. A compact folding umbrella in your cabin bag is the safe choice.
 
 ## Going somewhere rainy?
 
-A rain poncho folds smaller than most umbrellas, covers you and your backpack, and leaves both hands free for your bags.
+A rain poncho folds smaller than most umbrellas, covers you and your backpack, and leaves both hands free for your bags:
 
 [[pick:B09XJ2D8VM]]
-
-## What to do instead
-
-- Carry a folding umbrella in your cabin bag or handbag.
-- Pack a long or sharp-tipped umbrella in check-in, or leave it at home.
-- For hill or monsoon trips, a rain poncho is lighter and easier to carry.
-
-## By airline
-
-| Airline | Cabin bag | Check-in | On top of your cabin allowance? |
-|---|---|---|---|
-| IndiGo | Only with a blunt tip | Yes | Not stated |
-| Air India | Folding: yes. Sharp edges: no | Yes | Not stated |
-| Akasa Air | Compact folding only | Not stated | As your one personal item |
-| SpiceJet | Yes | Not stated | Yes |
 
 ## Questions
 
 ### Can I carry an umbrella in my cabin bag?
 
-Yes, if it folds or has a blunt tip. An umbrella with a sharp tip must go in your check-in bag (IndiGo, Air India).
+Yes, if it folds or has a blunt tip. An umbrella with a sharp tip must go in check-in (IndiGo, Air India, Air India Express, SpiceJet).
 
-### Does an umbrella count in my cabin bag weight?
+### Is an umbrella allowed in IndiGo flight?
 
-On SpiceJet it doesn't: you can carry it on top of your cabin allowance. On Akasa Air, a compact folding umbrella can be your one personal item. Other airlines don't say, so pack it inside your cabin bag.
+Yes. IndiGo allows an umbrella with a blunt tip or edge in the cabin. Sharp-edged umbrellas go in check-in.
 
-### Can I carry a long umbrella on a flight?
+### Is an umbrella allowed in flight on Air India?
 
-In the cabin only if its tip is blunt (IndiGo). If it has a sharp metal tip, pack it in your check-in bag.
+Yes. A foldable umbrella is allowed in both bags, subject to security clearance. One with sharp edges goes in check-in.
+
+### Can I carry an umbrella in hand luggage without it counting as a bag?
+
+On SpiceJet, yes: an umbrella is carried free on top of your hand baggage. On Akasa Air, a compact folding umbrella can be your personal item. Other airlines don't say, so pack it inside a bag.
 
 ### Can I put an umbrella in my check-in bag?
 
-Yes. IndiGo and Air India allow any umbrella in check-in.
+Yes. Every airline we checked allows umbrellas in check-in, including long and sharp-tipped ones.
+
+### Is an umbrella allowed at the airport?
+
+Yes. Umbrellas aren't on BCAS's list of items banned in the cabin, so you can carry one through security if it folds or has a blunt tip. The screening staff make the final call.

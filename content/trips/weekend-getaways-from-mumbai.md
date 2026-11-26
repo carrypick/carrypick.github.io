@@ -1,5 +1,5 @@
 ---
-seo_title: Weekend getaways from Mumbai (2026–27): 11 trips by road, train, ferry or flight, monsoon and winter
+seo_title: Weekend getaways from Mumbai 2026–27: 11 trips
 title: Weekend getaways from Mumbai: 11 trips for 2 or 3 days
 description: Weekend getaways from Mumbai, with the distance and travel time by road, train, ferry or flight: Matheran, Lonavala, Alibaug, Igatpuri, Nashik, Daman, Mahabaleshwar, Ajanta and Ellora, Goa, Udaipur and Jaipur. Official distances from Maharashtra Tourism, best months, monsoon trips, trips for couples and families, December trips and the 2027 long weekends.
 date: 2026-11-23

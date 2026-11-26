@@ -1,5 +1,5 @@
 ---
-seo_title: Shimla in December 2026: snowfall chances, weather, toy train and what to wear
+seo_title: Shimla in December 2026: snowfall chances, weather, toy train
 title: Shimla in December and January: snow, weather and what to wear
 description: Plan Shimla for December or January: IMD temperatures, when snow usually comes, the Kalka–Shimla toy train, Kufri and Narkanda, the ice rink and winter carnival, snow roads, and what to wear.
 date: 2026-11-16

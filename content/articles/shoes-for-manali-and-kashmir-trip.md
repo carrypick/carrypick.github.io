@@ -1,5 +1,5 @@
 ---
-seo_title: Shoes for a Manali or Kashmir trip: snow boots, hiking shoes or rented gumboots?
+seo_title: Shoes for Manali or Kashmir: snow boots or gumboots?
 title: Shoes for a Manali, Kashmir or Gulmarg trip in the snow
 description: Which shoes to wear on a Manali, Kashmir or Gulmarg trip in winter: snow boots, waterproof hiking shoes or rented gumboots, what "waterproof" means on a listing, socks, sizing, and snow shoes for men and women compared by their listed specs.
 date: 2026-11-23

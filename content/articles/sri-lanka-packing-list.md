@@ -1,5 +1,5 @@
 ---
-seo_title: Sri Lanka packing list from India (2026): what to pack and wear, for women and men
+seo_title: Sri Lanka packing list from India (2026): what to pack, wear
 title: Sri Lanka packing list: what to pack and wear for a trip from India
 description: What to pack for Sri Lanka from India: light clothes for the coast, a warm layer for Nuwara Eliya and Ella, white or modest clothes for temples, rain gear for the monsoon, the right bag for IndiGo or Air India, what you can't bring in (cigarettes, beedis, fruit) and and lists for women and men.
 date: 2026-11-18

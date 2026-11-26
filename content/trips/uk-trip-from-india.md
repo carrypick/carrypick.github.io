@@ -1,5 +1,5 @@
 ---
-seo_title: UK trip from India (2026): London, the UK visa for Indians (£135), documents, processing time, direct flights, 7-day itinerary
+seo_title: UK trip from India 2026: UK visa, flights, 7-day itinerary
 title: UK trip from India: London, the Standard Visitor visa, direct flights and a 7-day plan
 description: Plan a UK trip from India, with London at the centre: the Standard Visitor visa for Indians (£135 for up to 6 months, decision usually within 3 weeks), what you need to apply, why Indians can't use the UK ETA, direct flights from Delhi, Mumbai, Bengaluru, Hyderabad, Chennai, Ahmedabad and Amritsar, a 7-day London, Oxford and Edinburgh plan, the weather by month, and paying for the Tube with contactless.
 date: 2026-11-21

@@ -1,5 +1,5 @@
 ---
-seo_title: Jaipur trip guide for winter 2026–27: weather, monument tickets and New Year
+seo_title: Jaipur in winter 2026–27: weather, monument tickets, New Year
 title: Jaipur in winter: a simple trip guide for Christmas and New Year
 description: Plan Jaipur for December and January: cold mornings, monument hours and the composite ticket, getting there from Delhi and Agra, the metro, markets and January festivals.
 date: 2026-11-03

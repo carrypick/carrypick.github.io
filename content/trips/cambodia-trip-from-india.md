@@ -1,5 +1,5 @@
 ---
-seo_title: Cambodia trip from India (2026): Cambodia e-visa for Indians (US$30, 3 business days), Angkor Wat pass prices, flights, 6-day plan, weather
+seo_title: Cambodia trip from India 2026: e-visa, Angkor Wat, 6-day plan
 title: Cambodia trip from India: the e-visa, Angkor Wat tickets, flights, a 6-day plan and the best time to go
 description: Plan a Cambodia trip from India: the Cambodia e-visa for Indians on the official site (US$30, single entry, 1 month's stay, 3 business days), the e-Arrival form, Angkor Pass prices from the official Angkor Enterprise site, direct flights from Delhi to Phnom Penh, a 6-day Siem Reap and Phnom Penh plan, the weather by month, veg food tips and the Indian Embassy's job-scam warning.
 date: 2026-11-23

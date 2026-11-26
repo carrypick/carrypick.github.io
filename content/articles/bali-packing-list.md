@@ -1,5 +1,5 @@
 ---
-seo_title: Bali packing list from India (2026): what to pack and wear, men and women
+seo_title: Bali packing list from India (2026): what to pack and wear
 title: Bali packing list: what to pack and wear for a trip from India
 description: What to pack for Bali from India: light clothes, rain gear for the wet season, a sarong for temples, shoes for beaches and waterfalls, the right bag for IndiGo, plugs, what not to carry and lists for men, women and kids.
 date: 2026-11-16

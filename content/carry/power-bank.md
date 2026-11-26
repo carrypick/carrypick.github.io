@@ -7,7 +7,7 @@ date: 2026-11-10
 updated: 2026-11-21
 checked_against: IndiGo, Air India and Akasa Air rules, DGCA's lithium battery circular and BCAS's banned items list
 sources: IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | Akasa Air conditions of carriage=https://www.akasaair.com/quick-links/conditions-of-carriage | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security | DGCA Dangerous Goods Advisory Circular 01/2025, 11 Nov 2025 (PDF)=https://www.dgca.gov.in/digigov-portal/Upload?flag=iframeAttachView&attachId=It%2B0TP06x06YSOsdpSINLg%3D%3D&baseLocale=en_US | BCAS list of items banned in the cabin (archived copy, read 21 Nov 2026)=https://web.archive.org/web/20240919062225/https://bcasindia.gov.in/passenger_pdf/prohibited.pdf
-related: guides/cabin-luggage-guide.html=Cabin bag rules | baggage/checker.html=Cabin bag checker | baggage/index.html=Airline baggage rules | packing/business.html=Work trip packing list
+related: guides/cabin-luggage-guide.html=Cabin bag rules | guides/laptop-backpack-guide.html=Laptop backpacks for flights | baggage/checker.html=Cabin bag checker | baggage/index.html=Airline baggage rules | packing/business.html=Work trip packing list
 ---
 ## How to read the Wh on your power bank
 
@@ -34,7 +34,7 @@ So the common 10,000 and 20,000 mAh power banks are fine on all three airlines. 
 
 Lithium batteries can overheat and catch fire. In the cabin, the crew can see a fire and deal with it fast. In the hold, nobody can. That's why IndiGo, Air India and Akasa Air all keep power banks out of check-in bags, and airport security lists name them too.
 
-Take it out before you drop your bag. Akasa Air's rules say a check-in bag with a power bank in it won't be loaded on the flight.
+Take it out before you drop your bag. Akasa Air's rules say a check-in bag with a power bank in it won't be loaded on the flight. A device with its battery built in is different: a rechargeable [trimmer](trimmer.html), for example, can go in check-in if it's fully switched off.
 
 ## Where to keep it on the plane
 
@@ -75,15 +75,15 @@ A 20,000 mAh one (about 74 Wh) for long trips and treks:
 
 [[pick:B0DCZ3WDTB]]
 
-Flying abroad? See [power bank rules on flights worldwide](../../guides/power-bank-rules-on-flights.html) for the FAA, EASA and airlines like Emirates, Singapore Airlines and Lufthansa. Our [power bank and travel adapter guide](../../guides/power-bank-and-travel-adapter-guide.html) lists the plug types for Thailand, Dubai, Bali, the UK, the US and more.
+Flying abroad? Emirates, for one, lets you carry only one power bank under 100 Wh, and you can't use it or charge it on board (see our [Emirates baggage rules](../emirates.html), checked 26 November 2026). See [power bank rules on flights worldwide](../../guides/power-bank-rules-on-flights.html) for the FAA, EASA and airlines like Emirates, Singapore Airlines and Lufthansa. Our [power bank and travel adapter guide](../../guides/power-bank-and-travel-adapter-guide.html) lists the plug types for Thailand, Dubai, Bali, the UK, the US and more.
 
 ## By airline
 
 | Airline | Cabin bag | Check-in | Limit | How many |
 |---|---|---|---|---|
 | IndiGo | Yes | No | Up to 160 Wh, rating printed on it | Not stated |
-| Air India | Yes | No | Up to 100 Wh | 2 |
-| Akasa Air | Yes | No | Up to 100 Wh | 2 |
+| [Air India](../air-india.html) | Yes | No | Up to 100 Wh | 2 |
+| [Akasa Air](../akasa-air.html) | Yes | No | Up to 100 Wh | 2 |
 
 ## Questions
 

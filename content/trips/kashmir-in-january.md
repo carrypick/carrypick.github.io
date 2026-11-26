@@ -1,5 +1,5 @@
 ---
-seo_title: Kashmir in January 2027: weather, snow, frozen Dal Lake, Chillai Kalan and roads
+seo_title: Kashmir in January 2027: snow, frozen Dal Lake, Chillai Kalan
 title: Kashmir in January: snow, Chillai Kalan, roads and flights
 description: Plan Srinagar, Pahalgam, Sonamarg and Gulmarg for January 2027: IMD January averages, the end of Chillai Kalan, how January 2026 went (frozen Dal Lake, snow days that shut flights and the highway), the Vande Bharat train in snow, which roads close, Republic Day, and what to wear.
 date: 2026-11-24

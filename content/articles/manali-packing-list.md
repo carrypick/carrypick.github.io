@@ -1,5 +1,5 @@
 ---
-seo_title: Manali packing list for snow (2026–27): what to pack for Manali in December and January
+seo_title: Manali packing list for snow (2026–27): December, January
 title: Manali packing list for snow: what to pack for Manali in winter
 description: A Manali packing list for December, January and February: IMD temperatures, how to layer, thermals, a warm jacket, waterproof shoes, gloves, socks, sunglasses, a power bank, what to carry for the Volvo bus and Solang, and lists for men, women and kids. Works for a Shimla–Manali trip too.
 date: 2026-11-25

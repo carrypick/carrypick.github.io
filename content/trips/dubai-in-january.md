@@ -1,5 +1,5 @@
 ---
-seo_title: Dubai in January 2027: weather, Shopping Festival dates, events and tips
+seo_title: Dubai in January 2027: weather and Shopping Festival dates
 title: Dubai in January: weather, the Shopping Festival and events
 description: Plan Dubai for January 2027: National Center of Meteorology averages for January (Dubai's coolest month), the Dubai Shopping Festival to 17 January with its nightly drone shows, Market Outside The Box, the Dubai Marathon on 17 January, the Desert Classic golf, WHX, Global Village and Miracle Garden, morning fog at the airport, Ramadan from about 8 February, and the visa for Indians.
 date: 2026-11-24

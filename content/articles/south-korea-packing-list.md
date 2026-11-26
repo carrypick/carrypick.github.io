@@ -1,5 +1,5 @@
 ---
-seo_title: South Korea packing list for winter (2026): what to pack for Korea in December and January, from India
+seo_title: South Korea packing list for winter (2026), from India
 title: South Korea packing list for winter: what to pack for Seoul and Busan in December and January
 description: What to pack for South Korea in winter: Seoul, Busan and Jeju temperatures in December and January (Korea Meteorological Administration averages), how to layer for Seoul's freezing nights and wind, a padded or down jacket, thermals, gloves, comfortable shoes for metro stairs, the plug, Korea's food and customs rules, and lists for men, women and kids.
 date: 2026-11-23

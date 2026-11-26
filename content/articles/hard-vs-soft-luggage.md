@@ -1,5 +1,5 @@
 ---
-seo_title: Hard vs soft luggage: which is better for flights, trains and road trips?
+seo_title: Hard vs soft luggage: which is better for flights and trains?
 title: Hard vs soft luggage: which is better?
 description: Hard shells protect better and shrug off rain. Soft bags squeeze into tight spaces and have outside pockets. We compared the listed weights of our hard and soft picks.
 date: 2026-11-23

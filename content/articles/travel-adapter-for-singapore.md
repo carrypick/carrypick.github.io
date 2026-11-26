@@ -1,5 +1,5 @@
 ---
-seo_title: Travel adapter for Singapore and Malaysia from India: type G plug, 230 V
+seo_title: Travel adapter for Singapore and Malaysia: type G, 230 V
 title: Which travel adapter do I need for Singapore and Malaysia?
 description: Singapore and Malaysia use the UK-style type G plug (13 A, three rectangular pins) at 230 V, says Singapore's Consumer Product Safety Office. Indian plugs don't fit, but Indian chargers work. Which adapter to pack, with two picks.
 date: 2026-11-23

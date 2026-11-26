@@ -19,7 +19,7 @@
         ],
         "total_cm": 115,
         "summary": "One cabin bag up to 7 kg",
-        "detail": "Economy passengers can take one cabin bag up to 7 kg and 55 x 38 x 22 cm. When you board in India, only one piece is allowed, and its length, width and height together must not be more than 115 cm. Emirates doesn't say whether wheels and handles count, so measure them in."
+        "detail": "Economy passengers can take one cabin bag up to 7 kg and 55 x 38 x 22 cm (Premium Economy: 10 kg, same size). When you board in India, Economy and Premium Economy passengers may carry only one piece, and its length, width and height together must not be more than 115 cm. Emirates doesn't say whether wheels and handles count, so measure them in. Cabin bags must fit in the overhead locker or under the seat in front of you."
       },
       "personal": {
         "summary": "No separate laptop bag or handbag is listed for Economy from India: it's one piece only. Reasonable duty-free shopping is allowed on top"
@@ -27,30 +27,79 @@
       "checkin": [
         {
           "fare": "Economy Special",
-          "allowance": "20 kg"
+          "allowance": "20 kg (USA and Canada: 1 bag of 23 kg)"
         },
         {
           "fare": "Economy Saver",
-          "allowance": "25 kg"
+          "allowance": "25 kg (USA and Canada: 2 bags of 23 kg)"
         },
         {
           "fare": "Economy Flex",
-          "allowance": "30 kg"
+          "allowance": "30 kg (USA and Canada: 2 bags of 23 kg)"
         },
         {
           "fare": "Economy Flex Plus",
-          "allowance": "35 kg"
+          "allowance": "35 kg (USA and Canada: 2 bags of 23 kg)"
+        },
+        {
+          "fare": "Premium Economy",
+          "allowance": "35 kg (USA and Canada: 2 bags of 23 kg)"
+        },
+        {
+          "fare": "Business / First",
+          "allowance": "40 kg / 50 kg (USA and Canada: 2 bags of 32 kg)"
         }
       ],
-      "checkin_summary": "20 kg to 35 kg, depending on your fare",
-      "checkin_note": "India flights use the weight concept: you can split the total into as many bags as you like. No single bag may weigh more than 32 kg, and each bag's length, width and height together should be no more than 203 cm.",
-      "infant": "An infant ticket includes up to 10 kg of checked baggage, one 5 kg handbag for baby things, and a fully folding stroller or carrycot.",
+      "checkin_summary": "20 to 35 kg by fare; 1 or 2 x 23 kg to the USA",
+      "checkin_note": "Flights between India and Dubai, Europe, the UK, Asia and Australia use the weight concept: you can split the total into as many bags as you like, but no single bag may weigh more than 32 kg, and each bag's length, width and height together should be no more than 203 cm. Flights to and from the Americas (such as the USA and Canada) and Africa use the piece concept: you get a number of bags of up to 23 kg each in Economy, and each bag should be no more than 150 cm in total. A bag between 150 and 203 cm pays an oversize fee, and anything over 203 cm must go as cargo.",
+      "checked": "2026-11-26",
+      "infant": "An infant (under 2) gets one cabin bag of up to 5 kg (55 x 38 x 22 cm) and 10 kg of checked baggage, or 23 kg on flights to and from the Americas and Africa. You can also ask at check-in to take a fully folding stroller, a carrycot or an infant car seat to the aircraft free, if there's room. The allowance is printed on the infant's ticket. Emirates doesn't sell extra baggage on infant tickets.",
+      "excess": {
+        "summary": "Buy extra kilos online in 5 kg blocks, up to 50 kg, until 4 hours before departure; Emirates says this saves up to 45% on the airport rate",
+        "points": [
+          "At the airport, Emirates lists USD 15 per kg between India and the Middle East or South Asia, USD 25 per kg between India and Europe or the Far East, and USD 40 per kg between India and Australia or New Zealand.",
+          "On piece-concept routes (USA, Canada), an extra bag of up to 23 kg bought at the airport costs USD 250 between South Asia and the Americas on tickets issued from 8 September 2026 (USD 225 on older tickets). Buying ahead online saves 15% on select routes, for up to 5 extra bags.",
+          "You can pay with Cash+Miles in Manage your booking. Extra allowance can only be bought on Emirates tickets (numbers starting 176) for flights Emirates operates."
+        ]
+      },
+      "sections": [
+        {"h": "Emirates baggage from India to the USA and Canada", "p": "These flights use the piece concept, so Economy Special includes only 1 bag of 23 kg, while Saver, Flex and Flex Plus include 2 bags of 23 kg each. A single 30 kg bag is not allowed on these routes even if your total is under the limit, so split heavy packing across two bags. Each bag should be within 150 cm (length + width + height). Emirates says a trip from Asia to the Americas that includes a sector in Europe or a stopover in Dubai of more than 24 hours uses the weight concept for the whole ticket; the baggage shown in Manage your booking tells you which applies to yours."},
+        {"h": "Sports equipment and musical instruments", "items": [
+          "Sports equipment such as golf clubs, bicycles, ski gear, surfboards and SCUBA kit is accepted as checked baggage inside your normal allowance. Above it, normal excess baggage rates apply.",
+          "Tell Emirates at least 24 hours before the flight if you're bringing a bicycle. Any single sports item over 300 cm in total must go as cargo.",
+          "Emirates gives no special free allowance for musical instruments. An instrument can be checked in, taken in the cabin if it fits the cabin limits, or carried on a seat you pay for. Each piece must be within 300 cm in total.",
+          "Sporting firearms need Emirates' approval at least 3 days before the flight, and clearance from UAE Customs and the UAE Ministry of Defence to enter the UAE."
+        ]},
+        {"h": "Pets", "p": "Pets can't travel in the Emirates cabin (the only exception is falcons on some Dubai to Pakistan flights). A pet goes as checked baggage in the hold or as cargo. As checked baggage, Emirates lists USD 500 when the pet and cage together are up to 23 kg and 150 cm, USD 650 for 24 to 32 kg, and USD 800 above 32 kg. Contact Emirates well ahead for permits and vaccinations."},
+        {"h": "Check-in times", "items": [
+          "Online check-in opens 48 hours before the flight.",
+          "Emirates says that at most airports, check-in opens 3 hours before departure (up to 4 hours at some), so check your ticket for your airport.",
+          "In Dubai, clear passport control and security 90 minutes before departure and reach the gate 60 minutes before in Economy. Walking to the C gates can take up to 25 minutes."
+        ]},
+        {"h": "If your bag is delayed, lost or damaged", "items": [
+          "Register a missing bag at the Arrivals baggage desk before you leave the airport. You get a reference number called a PIR, which you use to follow the claim on the Emirates website or app.",
+          "The Emirates app tracks your bags from check-in to loading, through a connection in Dubai, to arrival, and shows the belt number in Dubai.",
+          "To claim essential expenses for a delayed bag, contact Emirates within 21 days of getting the bag back, with receipts for the clothes and toiletries you had to buy.",
+          "Emirates asks you to fill in a Baggage Inventory Form listing what was in the bag; it can't be edited once sent. Tracing can take up to 21 days.",
+          "On a trip with more than one airline, the airline that flew the last sector handles the baggage claim."
+        ]},
+        {"h": "Baggage services in Dubai", "p": "At Dubai Terminal 3, Emirates lists baggage wrapping at AED 40 per standard bag (AED 80 oversize), porters from AED 40, and left luggage from AED 35 per bag for up to 12 hours. Round bags, bundles, loose straps and bags with no flat side should be repacked in a cardboard box, which you can get at the wrapping kiosks before check-in."}
+      ],
       "notes": [
-        "Round bags, odd-shaped parcels, bags with loose straps and bags without a flat side don't travel well on the belt. Emirates asks you to repack them in a cardboard box.",
-        "Power banks: since 1 October 2025 you can't use or charge a power bank on board. You may carry one under 100 Wh in your cabin bag, kept in the seat pocket or under the seat, never in the overhead bin. Power banks aren't allowed in checked bags.",
+        "Power banks: since 1 October 2025 you can't use or charge a power bank on board. You may carry one under 100 Wh in your cabin bag, with its capacity shown, kept in the seat pocket or under the seat, never in the overhead bin. Power banks aren't allowed in checked bags.",
         "Zamzam water: Haj and Umrah pilgrims whose trip includes Madinah or Jeddah may carry up to 5 litres in a sealed container, on top of their checked allowance.",
-        "Medicines into the UAE: controlled medicines need approval from the UAE Ministry of Health before you travel. Carry the prescription and no more than 3 months' supply.",
-        "Smart bags are allowed only if the battery can be removed."
+        "Smart bags: a bag with a removable battery can go in the cabin if it is fully switched off, or in the hold if the battery is taken out and carried in the cabin. Smart bags with a battery that can't be removed are banned.",
+        "Medicines into the UAE: controlled medicines need approval from the UAE Ministry of Health before you travel. Carry the prescription and no more than 3 months' supply. (We last checked this on 3 November 2026.)",
+        "Skywards Gold and Platinum members get 1 extra bag on piece-concept routes, and Silver, Gold and Platinum members get extra kilos on weight-concept routes."
+      ],
+      "faq_extra": [
+        {"q": "What is the Emirates baggage allowance from India to the USA?", "a": "Flights to and from the USA and Canada use the piece concept. In Economy, Special fares include 1 bag of 23 kg; Saver, Flex and Flex Plus include 2 bags of 23 kg each. Each bag should be within 150 cm (length + width + height). The cabin bag is 7 kg, and only one piece is allowed when you board in India."},
+        {"q": "What is the Emirates baggage allowance from India to Dubai?", "a": "Flights between India and Dubai use the weight concept. In Economy you get 20 kg on Special, 25 kg on Saver, 30 kg on Flex and 35 kg on Flex Plus, in as many bags as you like, with no bag over 32 kg. The cabin bag is 7 kg and 55 x 38 x 22 cm."},
+        {"q": "What is the Emirates baggage allowance from India to the UK and Europe?", "a": "The same as to Dubai, because these routes use the weight concept: 20 kg (Special), 25 kg (Saver), 30 kg (Flex) or 35 kg (Flex Plus) in Economy, with no single bag over 32 kg."},
+        {"q": "Can I carry a laptop bag on Emirates from India?", "a": "Not as a separate item in Economy. When you board in India, Emirates allows Economy and Premium Economy passengers only one cabin piece of up to 115 cm in total, so a laptop must fit inside your 7 kg cabin bag. Reasonable duty-free shopping is allowed on top."},
+        {"q": "What is the Emirates check-in baggage size?", "a": "On weight-concept routes (India to Dubai, Europe, Asia), each bag should be within 203 cm in total (length + width + height) and 32 kg. On routes to the USA and Canada each bag should be within 150 cm; a bag between 150 and 203 cm pays an oversize fee."},
+        {"q": "Does Emirates give extra baggage to students?", "a": "Emirates' baggage pages for India don't list a student baggage allowance, and we found no student offer page on its India website on 26 November 2026. Check the baggage shown for your fare before you pay."},
+        {"q": "How much does extra baggage cost on Emirates from India?", "a": "At the airport, Emirates lists USD 15 per kg between India and the Middle East, USD 25 per kg to Europe or the Far East, and USD 40 per kg to Australia. Buying online in 5 kg blocks up to 4 hours before departure saves up to 45%. On USA and Canada routes an extra bag costs USD 250 at the airport on tickets issued from 8 September 2026."}
       ],
       "sources": [
         {

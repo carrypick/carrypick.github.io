@@ -1,5 +1,5 @@
 ---
-seo_title: Philippines trip from India (2026): no visa for Indians for 14 days (30 with a US visa), Delhi–Manila flights, 7-day El Nido and Boracay plan, weather
+seo_title: Philippines trip from India 2026: visa-free, El Nido, Boracay
 title: Philippines trip from India: the visa-free rule for Indians, flights to Manila, a 7-day island plan and the best time to go
 description: Plan a Philippines trip from India: Indians can visit without a visa for 14 days for tourism, or 30 days with a valid US, Japan, Australia, Canada, Schengen, Singapore or UK visa, says the DFA; what to carry, eTravel, direct Air India flights from Delhi to Manila, a 7-day Manila, El Nido and Boracay plan, PAGASA weather by month and veg food tips.
 date: 2026-11-23

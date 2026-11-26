@@ -1,5 +1,5 @@
 ---
-seo_title: Turkey trip from India (2026): visa for Indians, e-visa with a US, UK or Schengen visa, direct flights, 7-day itinerary, Cappadocia
+seo_title: Turkey trip from India 2026: visa, flights, 7-day itinerary
 title: Turkey trip from India: the visa, direct flights, a 7-day plan and Cappadocia
 description: Plan a Turkey (Türkiye) trip from India: the visa for Indians, the one-month e-visa for Indians with a valid US, UK, Schengen or Irish visa or residence permit, direct flights from Delhi and Mumbai to Istanbul, a 7-day Istanbul and Cappadocia plan, hot air balloons, the weather in December, and veg food tips.
 date: 2026-11-21

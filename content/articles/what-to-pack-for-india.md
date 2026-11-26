@@ -1,5 +1,5 @@
 ---
-seo_title: What to pack for India (2026): what to wear as a woman, by month, plugs and a checklist
+seo_title: What to pack for India (2026): what to wear, by month
 title: What to pack for India: what to wear, by season and region, plus plugs and a checklist
 description: A packing list for a trip to India from abroad: what to wear as a woman or a man, temple dress, what to pack for October to March and for summer or the monsoon, India's plugs and voltage, medicines, and the bag to take.
 date: 2026-11-21
@@ -77,7 +77,7 @@ There's no national dress code, but loose clothes that cover your shoulders and 
 
 - **Sunscreen, sunglasses and a hat.** The sun is strong from March to June, and on the beaches all year.
 - **Mosquito repellent,** especially in the monsoon and in the south.
-- **A rain poncho or umbrella** for June to September.
+- **A rain poncho or umbrella** for June to September. A folding one can go in your cabin bag on Indian flights: see [umbrella rules](../baggage/can-i-carry/umbrella.html).
 
 [[pick:B0GLFM2Z4Z]]
 

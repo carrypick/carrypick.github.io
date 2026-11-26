@@ -1,5 +1,5 @@
 ---
-seo_title: Rann Utsav 2026–27 dates, packages and booking: Rann of Kutch in December
+seo_title: Rann Utsav 2026–27: dates, packages and booking
 title: Rann Utsav 2026–27: dates, booking and a Rann of Kutch trip plan
 description: Rann Utsav 2026–27 runs from 1 November 2026 to 7 March 2027 at the Dhordo tent city. Official dates, full-moon nights, tents and how to book on the official site, the White Rann permit, IMD weather in December, a 2–3 day Kutch plan, getting to Bhuj, and what to wear.
 date: 2026-11-22

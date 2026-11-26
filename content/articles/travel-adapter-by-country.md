@@ -1,5 +1,5 @@
 ---
-seo_title: Travel adapter by country: which plug type for Thailand, Europe, Bali, Japan, USA, UK and more (from India)
+seo_title: Travel adapter by country: which plug type, from India
 title: Travel adapter by country: which plug you need, from India
 description: Plug types and voltage for 45 countries Indians visit, from Thailand, Dubai, Bali, Singapore, Vietnam and Malaysia to Europe, the UK, the USA, Japan and Australia. Does your Indian charger fit, which adapter to pack, and plugs in India for visitors.
 date: 2026-11-23

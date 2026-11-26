@@ -1,5 +1,5 @@
 ---
-seo_title: Thailand trip from India (2026): visa for Indians, 5 to 7-day itinerary, weather in December
+seo_title: Thailand trip from India 2026: visa, 5 to 7-day itinerary
 title: Thailand trip from India: visa, a 5 to 7-day plan and the weather in December
 description: Plan a Thailand trip from India: the 30-day visa exemption for Indians (from 15 Sep 2026), the free TDAC arrival card, direct flights from Indian cities to Bangkok, Phuket and Krabi, a 5 to 7-day itinerary, the weather in December, getting around, and veg and Jain food tips.
 date: 2026-11-21

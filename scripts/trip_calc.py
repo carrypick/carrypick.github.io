@@ -98,7 +98,7 @@ def build_budget(B, cfg, deals, pages, lastmod):
     picks = _picks(B, cfg, deals, BUDGET_PICKS, "Small things that help on any trip",
                    "A power bank, a cable pouch, packing cubes, a cabin bag and a luggage scale: our picks for keeping a trip simple.")
     title = "Trip budget calculator: plan your trip and split the bill with friends"
-    seo = "Trip budget calculator India: plan a trip and split expenses with friends"
+    seo = "Trip budget calculator India: plan and split expenses"
     desc = ("Free trip budget calculator in rupees, dollars, euros, pounds and more. Type in your own travel, hotel, food, local transport, tickets, visa and shopping amounts "
             "to see the total, the cost per person and per day, then split the bill and see who owes whom. Share the plan on WhatsApp.")
     body = f"""{more_tools._head(B, title, "Trip budget calculator", "A free tool. Updated " + B.fmt_date(UPDATED), "travel-gear", "wallet")}
@@ -188,7 +188,7 @@ def build_road(B, cfg, deals, pages, lastmod):
     picks = _picks(B, cfg, deals, ROAD_PICKS, "Handy for a long drive",
                    "A power bank and cable pouch for phones and maps, a steel bottle, a neck pillow for the back seat and a waterproof phone pouch.")
     title = "Road trip fuel cost calculator: petrol, diesel or CNG, with tolls"
-    seo = "Fuel cost calculator for trip India: petrol, diesel, CNG road trip cost"
+    seo = "Fuel cost calculator India: petrol, diesel, CNG trip cost"
     desc = ("Free road trip fuel cost calculator. Enter the distance in km or miles, your car's mileage (km/l, mpg or km/kg for CNG), "
             "the fuel price you pay, tolls, parking and people, and see the fuel needed, fuel cost, total and cost per person.")
     body = f"""{more_tools._head(B, title, "Road trip fuel cost calculator", "A free tool. Updated " + B.fmt_date(UPDATED), "luggage", "pin")}

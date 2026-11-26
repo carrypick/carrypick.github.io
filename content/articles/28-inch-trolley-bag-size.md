@@ -3,7 +3,7 @@ seo_title: 28 inch trolley bag in cm: size and the 158 cm airline limit
 title: 28 inch trolley bag: size in cm, and why most large bags go over the 158 cm limit
 description: A 28 inch trolley is 71 cm, but most large bags in India are 75–80 cm. We checked 31 models: 26 are listed over the 158 cm airline limit. See the 5 that aren't.
 date: 2026-11-06
-updated: 2026-11-15
+updated: 2026-11-26
 category: luggage
 photo: baggage-belt
 ---
@@ -15,13 +15,12 @@ A 28 inch trolley bag is **71.1 cm** tall. In India, brands sell large bags at 7
 - **It's a check-in bag** for long trips or families.
 - **26 of the 31 large models we checked are listed over 158 cm** in total (length + width + height).
 - **On a 15 kg fare, you may not need one.** A [medium trolley](26-inch-trolley-bag-size.html) is lighter and easier to handle.
-- **Going abroad to study?** See our [study abroad packing list](study-abroad-packing-list.html), with student baggage allowances and lists for the USA, the UK, Canada, Australia and Germany.
 
 [[toppicks:Our picks for this size|Compare all three|#our-picks-all-within-158-cm-by-their-listed-size]]
 [[top:B0GX5VFHMS|Smallest total, and light|75 cm tall and 152 cm in total, well inside the 158 cm limit. 3.6 kg empty.]]
 [[top:B0F5HLYQK3|Most room for its weight|79 cm and 95.5 litres, listed at exactly 158 cm in total. 3.5 kg empty, with a TSA lock.]]
 
-How much does each size hold? See [trolley bag capacity in kg and litres](trolley-bag-capacity-kg-litres.html). Want an even bigger bag? See [32 inch trolleys](32-inch-trolley-bag-size.html): almost every bag of 79 cm or more is listed over 158 cm.
+Comparing sizes? See small, medium and large side by side in our [luggage size chart](../baggage/luggage-size-chart.html#small-medium-large). Want an even bigger bag? See [32 inch trolleys](32-inch-trolley-bag-size.html): almost every bag of 79 cm or more is listed over 158 cm.
 
 ## What large trolleys really measure
 
@@ -40,7 +39,7 @@ Litres are the least reliable number here, because similar bags list very differ
 
 ## The 158 cm limit
 
-IndiGo, Air India, Akasa Air and SpiceJet all limit a checked bag to **158 cm in total**. Air India Express uses a different limit: 81 x 119 x 119 cm. A single checked bag also can't weigh more than 32 kg on most of these airlines. Rules vary, so see our [baggage rules](../baggage/index.html).
+IndiGo, Air India, Akasa Air and SpiceJet all limit a checked bag to **158 cm in total** (62 inches). Air India Express uses a different limit: 81 x 119 x 119 cm. A single checked bag also can't weigh more than 32 kg on most of these airlines. With two bags in Economy, Air India also caps both together at 272 cm. We re-read these limits on each airline's site on 26 Nov 2026; see our [baggage rules](../baggage/index.html) for each airline.
 
 Airline staff don't measure every bag, but they can. If you're close to the limit, don't overfill the bag, because a bulging shell or an open expansion zip adds centimetres.
 
@@ -59,7 +58,7 @@ Listings can be wrong. Other colours of the Liftoff+ showed sizes that can't be 
 ## Do you really need a large trolley?
 
 - **On a 15 kg fare, probably not.** A 4.3 kg bag leaves you 10.7 kg, and a medium trolley can usually hold that.
-- **With 20–25 kg or more, it starts to make sense,** for example on some Air India fares and many [international flights](../baggage/international.html). See [which trolley size fits a 23 kg bag](trolley-bag-size-for-international-travel.html).
+- **With 20–25 kg or more, it starts to make sense,** for example on some Air India fares and many [international flights](../baggage/international.html). See [which trolley size fits a 23 kg bag](trolley-bag-size-for-international-travel.html). Going abroad to study? Our [study abroad packing list](study-abroad-packing-list.html) has student allowances.
 - **For a family,** one large bag can hold things for two people, but it can only be as heavy as one person's allowance allows, unless your airline lets you pool baggage. Ask your airline.
 
 ## Our picks, all within 158 cm by their listed size
@@ -100,6 +99,14 @@ Yes, as a check-in bag. It's too big for the cabin. Most Indian airlines limit a
 
 About 8–12 days, or longer for a family. On a 15 kg fare, you'll probably reach the weight limit long before the bag is full. Weigh it at home with a [luggage scale](luggage-scale.html).
 
+### What are the dimensions of a 28 inch trolley bag in cm?
+
+A true 28 inch bag is 71.1 cm tall. The large bags sold in India that we read were 75–80.5 cm tall, 46–56 cm wide and 27–37 cm deep, and 152–168 cm in total. Check all three sides on the listing, not just the inch number.
+
+### How many kg can a 28 inch trolley bag hold?
+
+By our rough estimate, a typical 108 litre large bag could hold 16–32 kg of clothes. Your fare is usually the real limit: on a 15 kg fare, a typical 4.3 kg large bag leaves only 10.7 kg for your things. The Indian airlines we track take no single bag over 32 kg. The full kg and litre figures are in [trolley bag capacity](trolley-bag-capacity-kg-litres.html).
+
 ### Which large trolley bags are within 158 cm?
 
 Of the 31 models we checked on 6 Nov 2026, these were listed at 158 cm or less: Skybags Swirl 75 cm, L'Attitude Meridian 75 cm, Safari Astra Neo 76 cm, Safari Crescent 76 cm and American Tourister Liftoff+ 79 cm.
@@ -112,6 +119,6 @@ Of the 31 models we checked on 6 Nov 2026, these were listed at 158 cm or less: 
 
 ## Sources
 
-Listed sizes and weights read on Amazon.in on 6 Nov 2026, for 31 large models after removing repeat colours and listings with clear errors. These came from Amazon search results, so they aren't every bag on sale. Sellers don't always say whether wheels are included. Airline limits checked on 3 Nov 2026: see our [baggage rules](../baggage/index.html). Check your airline before you fly.
+Listed sizes and weights read on Amazon.in on 6 Nov 2026, for 31 large models after removing repeat colours and listings with clear errors. These came from Amazon search results, so they aren't every bag on sale. Sellers don't always say whether wheels are included. Airline limits re-checked on IndiGo's, Air India's, Air India Express's, Akasa Air's and SpiceJet's own sites on 26 Nov 2026: see our [baggage rules](../baggage/index.html). Check your airline before you fly.
 
 [[next:#our-picks-all-within-158-cm-by-their-listed-size=Compare our three large picks|24-inch-trolley-bag-size.html=Packing for a 15 kg fare? See medium trolleys|../baggage/extra-baggage-charges.html=Extra baggage charges by airline]]

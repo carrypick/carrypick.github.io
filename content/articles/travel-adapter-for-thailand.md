@@ -1,5 +1,5 @@
 ---
-seo_title: Travel adapter for Thailand from India: plug types A, B, C, O, 220 V, do you need one?
+seo_title: Travel adapter for Thailand from India: do you need one?
 title: Do I need a travel adapter for Thailand?
 description: Thailand's sockets take flat US-style pins and thin round pins at 220 V, says the Tourism Authority of Thailand. A thin Indian two-pin charger usually fits; a three-pin Indian plug doesn't. What to pack from India, the USA, the UK or Australia.
 date: 2026-11-23

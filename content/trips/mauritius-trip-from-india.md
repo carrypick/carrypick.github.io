@@ -1,5 +1,5 @@
 ---
-seo_title: Mauritius trip from India (2026): visa for Indians, 5-day itinerary, honeymoon tips, weather in December
+seo_title: Mauritius trip from India 2026: visa, 5-day plan, honeymoon
 title: Mauritius trip from India: visa, a 5-day plan, honeymoon tips and the weather in December
 description: Plan a Mauritius trip from India: no visa needed for Indians (Mauritius Passport and Immigration Office) and what you must show on arrival, the free All-in-One Travel Digital Form, direct flights from Delhi, Mumbai, Chennai and Bengaluru, a 5-day itinerary with Grand Bassin, Chamarel, Le Morne and Île aux Cerfs, honeymoon tips, the weather in December from Mauritius Meteorological Services, and veg food.
 date: 2026-11-21

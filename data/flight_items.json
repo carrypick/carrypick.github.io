@@ -89,7 +89,7 @@
       "hair trimmer",
       "electric trimmer"
      ],
-     "rechecked": "2026-11-16",
+     "rechecked": "2026-11-26",
      "cabin_short": "Yes, if it has a built-in battery. A trimmer without a battery goes in check-in only (IndiGo, SpiceJet, Air India Express).",
      "checked_short": "Yes, switched fully off and protected so it can't turn on in the bag."
     },
@@ -266,7 +266,7 @@
      "item": "Medicines",
      "cabin": "yes",
      "checked": "conditional",
-     "rule": "Keep the medicines you need in your cabin bag. Liquid medicines and inhalers over 100 ml are allowed with a prescription. IndiGo accepts medicines in check-in only with a prescription.",
+     "rule": "Keep the medicines you need in your cabin bag. Liquid medicines and inhalers over 100 ml are allowed with a prescription. IndiGo, SpiceJet and Air India Express accept medicines in check-in only with a prescription.",
      "source": "https://www.goindigo.in/baggage/dangerous-goods-policy.html",
      "also": [
       "tablets",
@@ -274,8 +274,8 @@
       "syrup"
      ],
      "cabin_short": "Keep the medicines you need with you. Liquid medicines over 100 ml are allowed if you need them on the journey and carry the prescription.",
-     "checked_short": "Yes, with a prescription on IndiGo. Akasa Air advises not to put medicines in check-in, because a bag can be late or lost.",
-     "rechecked": "2026-11-10"
+     "checked_short": "Yes, with a prescription on IndiGo, SpiceJet and Air India Express. Akasa Air carries medicines in check-in at your own risk.",
+     "rechecked": "2026-11-26"
     },
     {
      "item": "Insulin",
@@ -337,15 +337,15 @@
      "item": "Ghee and coconut oil",
      "cabin": "conditional",
      "checked": "conditional",
-     "rule": "Check-in: up to 5 litres or 5 kg (Air India, airport security list). Cabin bag: only in containers of 100 ml or less inside the 1-litre clear bag, and IndiGo doesn't allow ghee in the cabin at all.",
+     "rule": "Check-in: up to 5 litres or 5 kg (Air India, airport security list). Cabin bag: IndiGo, SpiceJet and Air India Express don't allow ghee at all; Air India allows containers of 100 ml or less inside the 1-litre clear bag.",
      "source": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html",
      "also": [
       "ghee",
       "oil"
      ],
-     "cabin_short": "Only a little: containers of 100 ml or less in your clear 1-litre bag. IndiGo doesn't allow ghee in the cabin at all.",
+     "cabin_short": "No on IndiGo, SpiceJet and Air India Express. Air India allows containers of 100 ml or less in your clear 1-litre bag.",
      "checked_short": "Yes. Up to 5 litres or 5 kg per person, packed so it can't leak.",
-     "rechecked": "2026-11-10"
+     "rechecked": "2026-11-26"
     },
     {
      "item": "Pickle",
@@ -521,12 +521,12 @@
      "item": "Umbrella",
      "cabin": "conditional",
      "checked": "yes",
-     "rule": "Folding umbrellas and umbrellas with a blunt tip can go in the cabin after the security check. An umbrella with a sharp tip goes in check-in (IndiGo, Air India). SpiceJet lets you carry one on top of your cabin allowance, and Akasa Air a compact folding one.",
+     "rule": "Folding umbrellas and umbrellas with a blunt tip can go in the cabin after the security check. An umbrella with a sharp tip goes in check-in (IndiGo, Air India, Air India Express, SpiceJet). SpiceJet lets you carry one on top of your cabin allowance, and Akasa Air a compact folding one.",
      "source": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html",
      "also": [],
      "cabin_short": "Yes for a folding umbrella or one with a blunt tip. An umbrella with a sharp tip must go in check-in.",
      "checked_short": "Any umbrella, including a long one with a sharp tip.",
-     "rechecked": "2026-11-10"
+     "rechecked": "2026-11-26"
     },
     {
      "item": "Walking stick",
@@ -675,7 +675,7 @@
   },
   {
    "q": "Can I carry ghee on a flight?",
-   "a": "In check-in, up to 5 litres or 5 kg is allowed. In your cabin bag, only in containers of 100 ml or less inside the clear 1-litre bag, and IndiGo doesn't allow ghee in the cabin at all."
+   "a": "In check-in, up to 5 litres or 5 kg is allowed. In your cabin bag, IndiGo, SpiceJet and Air India Express don't allow ghee at all; Air India allows containers of 100 ml or less inside the clear 1-litre bag."
   },
   {
    "q": "Can I carry perfume in my cabin bag?",

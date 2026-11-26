@@ -1,5 +1,5 @@
 ---
-seo_title: Kedarnath packing list (2027): what to wear and carry for the Kedarnath trek in May, June and October
+seo_title: Kedarnath packing list (2027): what to wear on the trek
 title: Kedarnath packing list: what to wear and carry for the trek
 description: A Kedarnath packing list for the 16–17 km trek and the Char Dham Yatra: what to wear in May, June and October, a rain jacket or poncho, warm layers for a cold night at 3,580 m, trekking shoes, a walking stick, a power bank, medicines from the official health advice, and the documents to carry, including your yatra registration letter.
 date: 2026-11-25

@@ -1,5 +1,5 @@
 ---
-seo_title: Ooty in December 2026: 2–3 day trip plan, weather, frost, toy train, from Bangalore and what to wear
+seo_title: Ooty in December 2026: 2–3 day plan, frost and toy train
 title: Ooty in December and January: weather, a 2–3 day trip plan and what to wear
 description: Plan Ooty for December or January: IMD temperatures, why you'll see frost but not snow, a 2-day and 3-day trip plan, the trip from Bangalore by car, bus or train, the toy train, the e-pass and plastic ban, and what to wear.
 date: 2026-11-17

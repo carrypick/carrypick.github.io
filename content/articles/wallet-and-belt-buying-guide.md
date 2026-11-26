@@ -1,5 +1,5 @@
 ---
-seo_title: Wallet and belt buying guide for men and women in India: leather types, RFID and belt sizes
+seo_title: Wallet and belt guide: leather types, RFID, belt sizes
 title: Wallets and belts: how to choose one, for yourself or as a gift
 description: Full grain, top grain, genuine or PU leather? How many card slots you need, what RFID blocking does, how to pick a belt size from your waist, and wallet and belt gift picks for men and women.
 date: 2026-11-20

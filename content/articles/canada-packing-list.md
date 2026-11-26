@@ -1,5 +1,5 @@
 ---
-seo_title: Canada packing list for winter (2026): what to pack for Canada in December, from India
+seo_title: Canada packing list for winter (2026), from India
 title: Canada packing list for winter: what to pack for Canada in December and January
 description: What to pack for Canada in winter: Toronto, Vancouver and Banff temperatures in December and January (Environment Canada averages), how to layer, a warm jacket, thermals, gloves and boots with grip, the 120 V plug, the CAN$10,000 cash rule, cabin bag limits, and lists for men, women and kids.
 date: 2026-11-23

@@ -1,5 +1,5 @@
 ---
-seo_title: Oman trip from India (2026): Oman visa for Indians (e-visa, or 14 days visa-free with a US, UK or Schengen visa), direct flights to Muscat, 7-day plan, weather
+seo_title: Oman trip from India 2026: visa, Muscat flights, 7-day plan
 title: Oman trip from India: the Oman visa for Indians, direct flights to Muscat, a 7-day plan and the best time to go
 description: Plan an Oman trip from India: the Tourist Visit Visa for Indians on the Royal Oman Police e-visa site, 14 days without a visa if you hold a US, UK, Canada, Australia, Schengen or Japan visa or a GCC residence, apply at least 4 days ahead, direct flights to Muscat from many Indian cities, a 7-day Muscat, Nizwa, desert and Wadi Shab plan, Salalah's monsoon season, the weather by month, and veg food tips.
 date: 2026-11-23

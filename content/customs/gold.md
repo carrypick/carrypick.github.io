@@ -1,6 +1,6 @@
 ---
 title: How much gold can I bring to India? Customs rules 2026
-seo_title: How much gold can I bring to India from Dubai? Duty-free limit 2026
+seo_title: How much gold can I bring to India from Dubai? 2026 limit
 description: Duty-free gold jewellery is 20 g for men and 40 g for women after a year abroad, with no value limit since Feb 2026. Up to 1 kg on duty after 6 months abroad; duty rose to 15% in May 2026.
 date: 2026-11-15
 checked: 2026-11-15

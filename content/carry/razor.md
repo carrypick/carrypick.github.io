@@ -1,6 +1,6 @@
 ---
 title: Can I carry a razor on a flight in India?
-seo_title: Razor in flight India 2026: disposable razors, blades, cabin and check-in
+seo_title: Razor in flight India 2026: disposable razors and blades
 description: Safety and disposable razors with the blades in a cartridge are fine in your cabin bag. Loose blades go in check-in. Old-style razors, shaving foam, electric shavers and how to pack them.
 item: Razor and blades
 date: 2026-11-15

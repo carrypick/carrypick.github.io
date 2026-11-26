@@ -1,5 +1,5 @@
 ---
-seo_title: USA packing list for Indian students (2026): things to carry to the USA from India
+seo_title: USA packing list for Indian students (2026)
 title: USA packing list for Indian students: what to carry from India
 description: A packing list for Indian students going to the USA: the documents CBP and Study in the States say to keep in your hand bag (passport, F-1 visa, Form I-20), student baggage on Air India and Virgin Atlantic, which trolley fits 23 kg and 158 cm, Indian food and medicine rules at US customs, plugs, and winter clothes.
 date: 2026-11-23

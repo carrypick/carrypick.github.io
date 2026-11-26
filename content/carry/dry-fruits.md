@@ -1,6 +1,6 @@
 ---
 title: Can I carry dry fruits on a flight in India?
-seo_title: Dry fruits in flight India 2026: cabin bag, check-in and dry coconut
+seo_title: Dry fruits in flight India 2026: cabin bag and check-in
 description: Dry fruits like kaju, badam and kishmish are fine in your cabin bag and check-in. Dry coconut is the one exception. Honey, gift boxes, weight and flying abroad.
 item: Dry fruits
 date: 2026-11-15

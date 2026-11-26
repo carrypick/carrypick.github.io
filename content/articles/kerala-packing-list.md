@@ -1,5 +1,5 @@
 ---
-seo_title: Kerala packing list (2026–27): what to pack and wear for Kochi, Munnar, the backwaters and beaches
+seo_title: Kerala packing list (2026–27): what to pack and wear
 title: Kerala packing list: what to pack and wear for Kochi, Munnar, Alleppey and the beaches
 description: A Kerala packing list for November to February: IMD temperatures for Kochi and the coast, cold mornings in Munnar, light cotton for the heat, a warm layer for the hills, mosquito repellent for the backwaters, a waterproof phone pouch, temple dress rules from the Padmanabhaswamy temple, a 7-day list, and lists for women, men and kids.
 date: 2026-11-25
@@ -78,7 +78,7 @@ A fleece-lined beanie for cold mornings:
 ## Rain, boats and the beach
 
 - **A waterproof phone pouch** for houseboats, shikara rides, kayaking and the beach.
-- **A rain poncho or a small umbrella** for November and early December showers.
+- **A rain poncho or a small umbrella** for November and early December showers. A folding umbrella can go in your cabin bag ([umbrella rules](../baggage/can-i-carry/umbrella.html)).
 - **Wear a life jacket on small boats.** Choose a houseboat from Kerala Tourism's [approved houseboat list](https://www.keralatourism.org/houseboatlist).
 - **A dry bag or zip pouch** for your passport, cash and cards on boat days.
 

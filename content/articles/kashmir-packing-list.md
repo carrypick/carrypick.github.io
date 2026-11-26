@@ -1,5 +1,5 @@
 ---
-seo_title: Kashmir packing list for winter (2026–27): what to pack for Srinagar, Gulmarg and Pahalgam in snow
+seo_title: Kashmir packing list for winter (2026–27): snow clothes
 title: Kashmir packing list for winter: what to pack for Srinagar, Gulmarg and Pahalgam
 description: A Kashmir packing list for December, January and February: IMD temperatures for Srinagar, Pahalgam and Gulmarg, how to layer for Chillai Kalan, thermals, a warm jacket, waterproof shoes and gloves, woollen socks, sunglasses, a postpaid SIM, a power bank, what to wear at shrines, a 7-day list, and lists for men, women and kids.
 date: 2026-11-25

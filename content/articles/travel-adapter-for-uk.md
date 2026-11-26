@@ -1,5 +1,5 @@
 ---
-seo_title: Travel adapter for UK from India: type G plug, 230 V, which adapter to buy
+seo_title: Travel adapter for UK from India: type G plug, 230 V
 title: Which travel adapter do I need for the UK?
 description: The UK uses type G plugs (three rectangular pins) at 230 V and 50 Hz, set in UK law. Indian plugs don't fit but Indian chargers work. Which adapter to take for a holiday or for studying in the UK, with two picks.
 date: 2026-11-23

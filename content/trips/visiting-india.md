@@ -1,5 +1,5 @@
 ---
-seo_title: Visiting India for the first time (2026): travel tips, visa, what to pack, SIM and money
+seo_title: Visiting India for the first time (2026): tips, visa, SIM
 title: Visiting India for the first time: start here
 description: First trip to India? The e-Visa from the only official site, the e-Arrival card, customs for foreign tourists, what to pack and wear, SIM cards and UPI, cash rules, the best time to go and a first route, all from official sources.
 date: 2026-11-21

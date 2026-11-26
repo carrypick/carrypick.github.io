@@ -1,5 +1,5 @@
 ---
-seo_title: Walking shoes for a Europe trip: what to wear for cobbles, rain and winter
+seo_title: Walking shoes for a Europe trip: cobbles, rain, winter
 title: Walking shoes for a Europe trip, for men and women
 description: How to choose walking shoes for a Europe trip from India: cushioning for 20,000-step days, cobblestones, slip-on shoes for airports, waterproof shoes for winter rain and snow, how many pairs to pack, and walking shoes for men and women compared by their listed specs.
 date: 2026-11-23

@@ -1,5 +1,5 @@
 ---
-seo_title: Dubai packing list from India (2026): what to pack and wear, men and women
+seo_title: Dubai packing list from India (2026): what to pack and wear
 title: Dubai packing list: what to pack and wear for a trip from India
 description: What to pack for Dubai from India: clothes for warm days and cool winter nights, what to wear at malls, mosques and the desert safari, the right cabin bag for Emirates, flydubai or IndiGo, medicines and what not to carry.
 date: 2026-11-16

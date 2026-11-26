@@ -1,5 +1,5 @@
 ---
-seo_title: Travel adapter for Japan from India: type A plug, 100 V, 50 or 60 Hz
+seo_title: Travel adapter for Japan from India: type A plug, 100 V
 title: Which travel adapter do I need for Japan?
 description: Japan runs at 100 V everywhere, with 50 Hz in the east and 60 Hz in the west, says the Japan National Tourism Organization. Most sockets take two flat pins (type A). Indian plugs don't fit, and 230 V-only appliances need a transformer. What to pack, with two picks.
 date: 2026-11-23

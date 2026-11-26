@@ -1,5 +1,5 @@
 ---
-seo_title: Udaipur trip plan for winter 2026–27: 2 or 3 days, weather, lake boats and Shilpgram
+seo_title: Udaipur trip plan for winter 2026–27: 2 or 3 days
 title: Udaipur in winter: a 2–3 day trip plan for December and January
 description: Plan Udaipur for December or January: IMD temperatures, a 2-day and 3-day plan, City Palace and Lake Pichola boat times, the Shilpgram Utsav, day trips to Kumbhalgarh and Ranakpur, getting there and what to wear.
 date: 2026-11-16

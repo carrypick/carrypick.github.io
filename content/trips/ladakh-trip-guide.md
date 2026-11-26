@@ -1,5 +1,5 @@
 ---
-seo_title: Leh Ladakh trip guide 2027: best time, permits, flights and roads from Delhi, altitude sickness and a 7-day plan
+seo_title: Leh Ladakh trip guide 2027: best time, permits, 7-day plan
 title: Leh Ladakh trip guide: best time, permits, roads and a 7-day plan
 description: Plan a Leh Ladakh trip for summer 2027: the best months with IMD's Leh averages, flying to Leh or driving the Srinagar and Manali roads, the Leh permit portal for Indians and foreigners (Nubra, Pangong, Tso Moriri, Hanle), the official 48-hour rest rule and altitude sickness, postpaid SIMs, a 7-day plan and what to wear.
 date: 2026-11-25

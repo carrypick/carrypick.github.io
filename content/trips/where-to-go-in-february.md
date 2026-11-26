@@ -1,5 +1,5 @@
 ---
-seo_title: Places to visit in February 2027 in India and abroad: snow, beaches, desert festivals and honeymoon trips
+seo_title: Places to visit in February 2027 in India and abroad
 title: Where to go in February: places to visit in India and abroad
 description: The best places to visit in February 2027, in India and outside India: snow in Gulmarg, Auli and Manali, the driest month in the Andaman, Goa Carnival, the Jaisalmer Desert Festival on 18–20 February, Kerala, Hampi and Pondicherry in the south, tiger safaris, and abroad Thailand, Vietnam, Dubai, Singapore, Malaysia, Sri Lanka, the Maldives, Bali, Japan and Europe, with February's long weekends and honeymoon ideas.
 date: 2026-11-25

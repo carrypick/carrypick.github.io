@@ -1,5 +1,5 @@
 ---
-seo_title: Where to go in India in December and January 2026–27: beach, snow or heritage?
+seo_title: Where to go in India in December and January 2026–27
 title: Where to go in India in December and January
 description: Beach, snow, forts or backwaters? Compare Goa, Andaman, Manali, Shimla, Rishikesh, Darjeeling, Bhutan, Nepal, Singapore, Dubai, Sri Lanka, Thailand, Vietnam, Ooty, Varanasi, Jaipur, Udaipur, Jaisalmer, the Rann of Kutch, Gulmarg and Kerala for a Christmas or New Year trip: weather, how to get there, crowds and what to pack.
 date: 2026-11-03

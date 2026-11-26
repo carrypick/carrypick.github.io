@@ -1,5 +1,5 @@
 ---
-seo_title: Travel adapter for Dubai from India: plug type G, 230 V, which adapter to buy
+seo_title: Travel adapter for Dubai from India: type G plug, 230 V
 title: Which travel adapter do I need for Dubai and the UAE?
 description: Dubai and the UAE use the UK-style type G plug (three rectangular pins) at 230 V and 50 Hz. Indian plugs don't fit, but Indian chargers work. Which adapter to pack from India, the USA or Europe, with two picks.
 date: 2026-11-23

@@ -1,6 +1,6 @@
 ---
 title: How much alcohol can I bring into India? Customs limits 2026
-seo_title: How much alcohol can I bring to India from duty free? 2 litre rule 2026
+seo_title: How much alcohol can I bring to India? 2 litre rule 2026
 description: Indian Customs allows 2 litres of alcohol or wine per passenger duty free, and 100 cigarettes, 25 cigars or 125 g of tobacco. What 2 litres means in bottles, duty-free shops and going over the limit.
 date: 2026-11-15
 checked: 2026-11-15

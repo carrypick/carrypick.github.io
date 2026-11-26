@@ -1,5 +1,5 @@
 ---
-seo_title: Europe packing list for winter (2026): what to wear in December, plugs and EU customs limits
+seo_title: Europe packing list for winter (2026): clothes, plugs, customs
 title: Europe packing list: what to pack for a winter trip from India
 description: What to pack for Europe in December and January: what to wear for Zurich, Paris and Rome weather, shoes for wet streets, the Type C and F plug and voltage, the EU's customs limits and the no meat or dairy rule, cabin bag sizes on Lufthansa, Air France, KLM and British Airways, and lists for men, women and kids.
 date: 2026-11-21

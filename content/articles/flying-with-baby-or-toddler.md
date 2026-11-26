@@ -1,5 +1,5 @@
 ---
-seo_title: Flying with a baby in India: infant age, ticket, baggage, stroller and bassinet rules on IndiGo, Air India, Akasa, SpiceJet and Emirates
+seo_title: Flying with a baby in India: infant ticket, baggage, stroller
 title: Flying with a baby or toddler: airline rules and tips
 description: Infant age limits, the infant ticket, the baby's baggage allowance, strollers at the gate, bassinets and the documents a baby needs on IndiGo, Air India, Akasa Air, SpiceJet, Air India Express and Emirates, from each airline's own pages, plus tips for the airport and the flight.
 date: 2026-11-23

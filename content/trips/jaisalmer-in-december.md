@@ -1,5 +1,5 @@
 ---
-seo_title: Jaisalmer in December 2026: temperature day and night, desert camps, 2–3 day plan, what to wear
+seo_title: Jaisalmer in December 2026: temperature, desert camps, plan
 title: Jaisalmer in December: temperature, desert camps and a 2–3 day plan
 description: Plan Jaisalmer for December: IMD day and night temperatures, how cold the Sam dunes get, a 2-day and 3-day plan for the fort, havelis and a desert camp, Desert Festival 2027 dates, flights and trains, and what to wear.
 date: 2026-11-22

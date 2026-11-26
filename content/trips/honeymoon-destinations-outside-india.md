@@ -1,5 +1,5 @@
 ---
-seo_title: Honeymoon destinations outside India (2026–27): best international trips from India by month, visa and flight time
+seo_title: Honeymoon destinations abroad from India 2026–27, by month
 title: Honeymoon destinations outside India: the best trips abroad for Indian couples
 description: The best international honeymoon destinations from India for the wedding season: the Maldives, Bali, Thailand, Mauritius, the Seychelles, Sri Lanka, Dubai, Singapore, Malaysia, Vietnam, Turkey, Europe, Bhutan and Nepal, sorted by month (November to February), by visa ease for Indians, by flight time from Delhi and Mumbai, and by style, with links to our full trip guides.
 date: 2026-11-23

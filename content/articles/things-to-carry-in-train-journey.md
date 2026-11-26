@@ -1,5 +1,5 @@
 ---
-seo_title: Things to carry in a train journey (India, 2026): long and overnight train packing list
+seo_title: Things to carry in a train journey (India, 2026)
 title: Things to carry in a train journey: a packing list for Indian trains
 description: What to carry on a long or overnight train journey in India: documents, food and water, a chain lock for your bag, sleep kit, power bank, clothes for the AC coach, what women, kids and babies need, and the Indian Railways luggage limits and banned items, checked on official pages.
 date: 2026-11-24

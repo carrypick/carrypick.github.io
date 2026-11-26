@@ -1,5 +1,5 @@
 ---
-seo_title: Sri Lanka trip from India (2026): free visa (ETA) for Indians, 6-day itinerary, Ramayana trail, weather in December
+seo_title: Sri Lanka trip from India 2026: free ETA, 6-day itinerary
 title: Sri Lanka trip from India: free ETA, a 6-day itinerary and the Ramayana trail
 description: Plan a Sri Lanka trip from India: the free ETA for Indians (30 days, apply online before you fly), direct flights from Indian cities, a 6-day itinerary with Colombo, Sigiriya, Kandy, Nuwara Eliya and Ella or Galle, the Ramayana sites, the weather in December and January, trains, food and emergency numbers.
 date: 2026-11-21

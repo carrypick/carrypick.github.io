@@ -1,5 +1,5 @@
 ---
-seo_title: Varanasi in December 2026: 2–3 day trip plan, weather, fog, Ganga aarti and what to wear
+seo_title: Varanasi in December 2026: 2–3 day plan, fog, Ganga aarti
 title: Varanasi in December and January: weather, a 2–3 day trip plan and what to wear
 description: Plan Varanasi for December or January: IMD temperatures, winter fog and train delays, a 2-day and 3-day trip plan, Ganga aarti and Kashi Vishwanath timings, New Year crowds, the new ropeway, Sarnath, getting there and what to wear.
 date: 2026-11-17

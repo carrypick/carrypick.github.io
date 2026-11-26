@@ -1,5 +1,5 @@
 ---
-seo_title: Singapore packing list from India (2026): what to pack and wear, men and women
+seo_title: Singapore packing list from India (2026): what to pack, wear
 title: Singapore packing list: what to pack and wear for a trip from India
 description: What to pack for Singapore from India: light clothes for heat and rain, an umbrella, walking shoes, a layer for cold AC, the SG Arrival Card and visa, the right bag for IndiGo, Air India or Singapore Airlines, and what not to carry (chewing gum, vapes, duty-free cigarettes).
 date: 2026-11-21

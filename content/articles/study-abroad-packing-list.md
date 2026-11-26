@@ -1,5 +1,5 @@
 ---
-seo_title: Packing list for Indian students going abroad (2026): USA, UK, Canada, Australia, Germany
+seo_title: Packing list for Indian students going abroad (2026)
 title: Study abroad packing list for Indian students
 description: A packing list for Indian students going abroad, with a full list for the USA, the UK, Canada, Australia and Germany: documents for your hand bag, student baggage on Air India and Virgin Atlantic, which trolley fits 23 kg and 158 cm, each country's rules on Indian food and medicines, plugs, and what not to pack.
 date: 2026-11-23

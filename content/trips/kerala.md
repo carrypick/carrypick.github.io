@@ -1,5 +1,5 @@
 ---
-seo_title: Kerala trip plan: 4, 5 and 7 day itinerary, best time and places to visit
+seo_title: Kerala trip plan: 4, 5 and 7 day itinerary and best time
 title: Kerala trip plan: itineraries for 4, 5 and 7 days, the best time to go, and what to know
 description: A Kerala trip plan you can follow: day-by-day routes for 4, 5 and 7 days (Kochi, Munnar, Alappuzha houseboats, Varkala), the best time to visit by season, travel times, safe houseboats, Eravikulam tickets, rules and Christmas–New Year tips.
 date: 2026-11-03

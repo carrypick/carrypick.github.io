@@ -1,5 +1,5 @@
 ---
-seo_title: Canada trip from India (2026): Canada tourist visa for Indians (CAN$100 + CAN$85 biometrics), processing time, direct flights, 10-day Toronto, Niagara, Banff and Vancouver itinerary
+seo_title: Canada trip from India 2026: visa, flights, 10-day plan
 title: Canada trip from India: the visitor visa, direct flights, a 10-day plan and the best time to go
 description: Plan a Canada trip from India: the Canadian visitor visa for Indians (CAN$100 plus CAN$85 for biometrics), how to apply online, where to give biometrics in India, how to check the processing time, why Indians can't use the eTA even with a US visa, direct flights from Delhi to Toronto and Vancouver, a 10-day Toronto, Niagara Falls, Banff and Vancouver plan, and the weather by month.
 date: 2026-11-23

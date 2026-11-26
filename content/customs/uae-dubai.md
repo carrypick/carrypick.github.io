@@ -1,6 +1,6 @@
 ---
 title: What can I carry from India to Dubai? UAE customs rules (2026)
-seo_title: What can I carry from India to Dubai? UAE customs allowance, cash and medicines 2026
+seo_title: What can I carry from India to Dubai? UAE customs rules 2026
 description: UAE customs lets you bring gifts worth AED 3,000, 200 cigarettes and 4 litres of alcohol duty free. Declare over AED 60,000 in cash or gold. Paan and poppy seeds are banned, and some medicines are controlled.
 date: 2026-11-16
 checked: 2026-11-16

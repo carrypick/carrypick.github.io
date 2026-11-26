@@ -1,5 +1,5 @@
 ---
-seo_title: Safari vs Skybags trolley bags: weight, size, shell and warranty compared
+seo_title: Safari vs Skybags trolley bags: weight, size and warranty
 title: Safari vs Skybags: trolley bags compared by the facts
 description: Safari or Skybags? We compared their trolley listings on Amazon.in by shell, weight, full size, wheels and lock, and read the official warranty terms of both brands.
 date: 2026-11-24
@@ -119,7 +119,7 @@ Neither wins on everything. In the bags we compared, Skybags had the lighter lar
 
 ### Is Skybags a VIP brand?
 
-Yes. Skybags belongs to VIP Industries Ltd, and VIP's warranty terms name it. Skybags bags are sold on VIP's own website.
+Yes. Skybags belongs to VIP Industries Ltd, and VIP's warranty terms name it. Skybags bags are sold on VIP's own website. For VIP's warranty claim steps and return rules, see [VIP bags: ranges, warranty and returns](vip-bags-guide.html).
 
 ### Are Safari and Skybags Indian brands?
 

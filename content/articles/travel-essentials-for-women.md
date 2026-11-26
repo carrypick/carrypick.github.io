@@ -1,5 +1,5 @@
 ---
-seo_title: Travel essentials for women: a checklist for flights, trains and trips abroad (2026)
+seo_title: Travel essentials for women: a checklist (2026)
 title: Travel essentials for women: the checklist and kit list
 description: A practical travel essentials list for women: the handbag or sling, toiletries and a hanging toiletry bag, packing cubes, a jewellery roll, power bank and adapter, sun care, a door stop alarm for hotel rooms, and what to keep handy on a plane or a train, with picks compared by their listed specs.
 date: 2026-11-24

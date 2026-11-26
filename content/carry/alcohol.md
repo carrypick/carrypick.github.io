@@ -41,9 +41,9 @@ Bottles are heavy, too. The drink alone in six 750 ml bottles weighs more than 4
 Beer and wine usually have less than 24% alcohol. The airlines don't all treat them the same way:
 
 - **IndiGo and SpiceJet**: their dangerous goods tables say drinks of 24% or less aren't covered by these limits.
-- **Akasa Air**: accepts them in check-in, in retail packaging, with no litre limit on its page.
-- **Air India Express**: its 5 litres per person covers all alcohol up to 70%, so beer and wine count towards it.
-- **Air India**: its page gives only the 24 to 70% rule.
+- **[Akasa Air](../akasa-air.html)**: accepts them in check-in, in retail packaging, with no litre limit on its page.
+- **[Air India Express](../air-india-express.html)**: its 5 litres per person covers all alcohol up to 70%, so beer and wine count towards it.
+- **[Air India](../air-india.html)**: its page gives only the 24 to 70% rule.
 
 Cans and bottles still count towards your check-in weight, and state rules still apply. Ask your airline before you pack a lot of beer or wine.
 

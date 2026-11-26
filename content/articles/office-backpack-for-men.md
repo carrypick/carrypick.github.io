@@ -1,5 +1,5 @@
 ---
-seo_title: Office backpack for men: waterproof, leather-look and slim laptop bags (India)
+seo_title: Office backpack for men: waterproof and slim laptop bags
 title: Office backpack for men: waterproof, leather-look and slim picks
 description: How to choose an office backpack for men in India: a slim size that looks smart, water resistance vs a rain cover for the monsoon, faux and vegan leather, and the laptop sleeve. With six picks compared by listed specs.
 date: 2026-11-23

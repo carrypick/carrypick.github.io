@@ -1,5 +1,5 @@
 ---
-seo_title: Ladakh packing list (2027): what to wear and carry for Leh, Nubra and Pangong, by car or bike
+seo_title: Ladakh packing list (2027): what to wear and carry
 title: Ladakh packing list: what to wear and carry for Leh, Nubra and Pangong
 description: A Ladakh packing list for May to October: IMD's Leh averages, how to layer for hot sun and cold nights, sun and UV protection at altitude, what to pack for a bike trip (riding gloves, a balaclava, rain covers), altitude sickness basics, cash and power banks, your permit papers, a 7-day list and lists for women, men and kids.
 date: 2026-11-26

@@ -1,5 +1,5 @@
 ---
-seo_title: Manali in January 2027: snow chances, weather, Winter Carnival and Atal Tunnel
+seo_title: Manali in January 2027: snow, Winter Carnival, Atal Tunnel
 title: Manali in January: snow, weather, the Winter Carnival and roads
 description: Plan Manali for January 2027: IMD averages for January, how snow came late in January 2026, the first, middle and last week of the month, the Winter Carnival, ski courses at Solang, the Atal Tunnel and Sissu in snow, Lohri and the Republic Day long weekend.
 date: 2026-11-24

@@ -1,5 +1,5 @@
 ---
-seo_title: Kerala in January 2027: weather, festivals, Munnar frost and where to go
+seo_title: Kerala in January 2027: weather, festivals, Munnar frost
 title: Kerala in January: weather, festivals and Munnar's cold mornings
 description: Plan Kerala for January 2027: IMD January averages and records for Kochi, Thiruvananthapuram, Alappuzha, Kottayam and Kozhikode, frost in Munnar's tea valleys, Sabarimala Makaravilakku on 14 January and the pilgrim rush, the Kerala Literature Festival on 21–24 January, the Arthunkal feast, Thaipooyam, houseboats, the Republic Day long weekend and a one-week route.
 date: 2026-11-24

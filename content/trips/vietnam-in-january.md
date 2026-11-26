@@ -1,5 +1,5 @@
 ---
-seo_title: Vietnam in January 2027: weather north to south, Tet dates and where to go
+seo_title: Vietnam in January 2027: weather, Tet dates, where to go
 title: Vietnam in January: weather by region, Tet 2027 and where to go
 description: Plan Vietnam for January 2027: weather averages for Hanoi, Sa Pa, Ha Long, Hue, Da Nang and Hoi An, Ho Chi Minh City and Phu Quoc, Tet on 6 February 2027 and the official 4 to 10 February break, the train rush from 23 January, Ha Long cruises in winter, a north-to-south route and the e-visa for Indians.
 date: 2026-11-24

@@ -1,5 +1,5 @@
 ---
-seo_title: Travel adapter for USA from India: plug type A and B, 120 V, do you need a converter?
+seo_title: Travel adapter for USA from India: type A/B, 120 V
 title: Which travel adapter do I need for the USA from India?
 description: The USA and Canada use flat-pin type A and B plugs at 120 V and 60 Hz, about half of India's voltage. Indian plugs don't fit, and 230 V-only appliances won't work. Which adapter to take, how to read your charger, and two picks.
 date: 2026-11-23

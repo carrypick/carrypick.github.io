@@ -1,5 +1,5 @@
 ---
-seo_title: Best power bank for flights in India, and which travel adapter to take abroad
+seo_title: Best power bank for flights in India, and a travel adapter
 title: Power banks for flights and travel adapters: how to choose
 description: Which power bank is allowed on Indian flights (10,000 and 20,000 mAh are fine), how to read mAh and Wh, plug types for Thailand, Dubai, Bali, Singapore, the UK, the US and more, and adapter and power bank picks.
 date: 2026-11-20

@@ -1,5 +1,5 @@
 ---
-seo_title: USA trip from India (2026): US tourist visa for Indians (B1/B2, US$185), waiting time, direct flights, 10-day New York, Las Vegas and California itinerary
+seo_title: USA trip from India 2026: B1/B2 visa, flights, 10-day plan
 title: USA trip from India: the B1/B2 visitor visa, direct flights, a 10-day plan and the best time to go
 description: Plan a USA trip from India: the US tourist visa (B1/B2) for Indians, the US$185 fee, the DS-160 and the interview, how to check the appointment waiting time, why Indians can't use ESTA, direct flights from Delhi and Mumbai to New York and San Francisco, a 10-day New York, Las Vegas, Los Angeles and San Francisco plan, the weather by month, and food rules at US customs.
 date: 2026-11-22

@@ -1,5 +1,5 @@
 ---
-seo_title: Rajasthan packing list for winter (2026–27): what to pack and wear for Jaipur, Udaipur and Jaisalmer
+seo_title: Rajasthan packing list for winter (2026–27): what to wear
 title: Rajasthan packing list: what to pack and wear for Jaipur, Udaipur and Jaisalmer in winter
 description: A Rajasthan packing list for October to March: IMD day and night temperatures for Jaipur, Udaipur and Jaisalmer, what to wear by day and for a cold desert camp night, temple dress, walking shoes, sun care, a scarf for sand, a 7-day list, and lists for women, men and kids.
 date: 2026-11-25

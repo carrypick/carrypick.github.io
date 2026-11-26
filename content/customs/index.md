@@ -1,6 +1,6 @@
 ---
 title: Indian customs rules for international passengers (2026)
-seo_title: Duty free allowance India 2026: ₹75,000 limit, gold, alcohol and customs rules
+seo_title: Duty free allowance India 2026: ₹75,000 limit and customs rules
 description: Flying into India? Since 2 Feb 2026 the duty-free allowance is ₹75,000 (₹25,000 for foreign tourists), plus 2 litres of alcohol and one laptop. Gold, cash, duty and what to declare.
 date: 2026-11-15
 checked: 2026-11-15
