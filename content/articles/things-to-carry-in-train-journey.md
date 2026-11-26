@@ -126,7 +126,7 @@ A lighter option, listed at 55 x 38 x 21 cm:
 
 [[pick:B0D9NZVJQ4]]
 
-Not sure about your bag's size? See our [luggage size chart](../baggage/luggage-size-chart.html) and [what size luggage you need](luggage-size-guide.html).
+Not sure about your bag's size? See our [luggage size chart](../baggage/luggage-size-chart.html) and [what size luggage you need](../baggage/luggage-size-chart.html).
 
 ## How much luggage you can carry on Indian trains
 

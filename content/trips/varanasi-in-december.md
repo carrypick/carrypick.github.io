@@ -122,7 +122,7 @@ Varanasi doesn't get freezing like the hills, but mornings and nights near 9–1
 - **Shoes:** comfortable shoes you can slip off quickly, because you remove them at temples. The ghat steps can be wet and slippery, so pick a good grip.
 - **A small bag:** a cross-body bag is easier in crowded lanes, and you can't take bags into Kashi Vishwanath.
 
-For more help, see [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html) (for the layers), [which shoes to take](../guides/travel-shoes-guide.html) and the [weekend trip packing checklist](../packing/weekend.html). Choosing a bag? See our [luggage size guide](../guides/luggage-size-guide.html).
+For more help, see [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html) (for the layers), [which shoes to take](../guides/travel-shoes-guide.html) and the [weekend trip packing checklist](../packing/weekend.html). Choosing a bag? See our [luggage size guide](../baggage/luggage-size-chart.html).
 
 ## Health and safety
 

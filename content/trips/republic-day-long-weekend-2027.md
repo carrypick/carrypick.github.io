@@ -76,7 +76,7 @@ Add up your costs with our [trip budget calculator](../tools/trip-budget-calcula
 
 ## What to pack
 
-For four days, a cabin bag may be enough, except for a snow trip. Check your [airline's cabin and check-in limits](../baggage/index.html) and see [what size luggage you need](../guides/luggage-size-guide.html).
+For four days, a cabin bag may be enough, except for a snow trip. Check your [airline's cabin and check-in limits](../baggage/index.html) and see [what size luggage you need](../baggage/luggage-size-chart.html).
 
 **A cabin trolley that fits IndiGo by its listed size:**
 

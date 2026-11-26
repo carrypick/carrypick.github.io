@@ -52,7 +52,7 @@ This is the mistake people make with compression cubes. You fit more in, so the 
 | Two weeks or more | Medium or large check-in | 4 to 6, plus shoe and laundry bags |
 | Couple sharing a bag | Medium check-in | One set of 3 each, in different colours |
 
-Not sure what size your bag is? See the [luggage size guide](luggage-size-guide.html) or [trolley bag capacity in kg and litres](trolley-bag-capacity-kg-litres.html).
+Not sure what size your bag is? See the [luggage size guide](../baggage/luggage-size-chart.html) or [trolley bag capacity in kg and litres](trolley-bag-capacity-kg-litres.html).
 
 ## How to pack cubes
 

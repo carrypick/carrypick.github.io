@@ -145,7 +145,7 @@ Munnar's days are mild, but nights and early mornings can be close to 0 °C on t
 - **Sunscreen and sunglasses:** the sun is strong at this height.
 - **Going on to the coast?** Pack light cotton clothes too: Kochi and Alappuzha are about 30 °C by day.
 
-For our picks and full lists, see [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html), [which shoes to take](../guides/travel-shoes-guide.html) and the [hill trip packing checklist](../packing/hills.html). Choosing a bag? See our [luggage size guide](../guides/luggage-size-guide.html).
+For our picks and full lists, see [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html), [which shoes to take](../guides/travel-shoes-guide.html) and the [hill trip packing checklist](../packing/hills.html). Choosing a bag? See our [luggage size guide](../baggage/luggage-size-chart.html).
 
 ## Health and safety
 

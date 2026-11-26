@@ -238,7 +238,7 @@ Want a soft bag instead? A 40 L duffle with wheels:
 
 [[pick:B097GNDJ37]]
 
-Which size is right for 23 or 30 kg? See our [luggage size guide](luggage-size-guide.html).
+Which size is right for 23 or 30 kg? See our [luggage size guide](../baggage/luggage-size-chart.html).
 
 ## Zamzam water on the flight home
 

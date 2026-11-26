@@ -136,7 +136,7 @@ Coorg's days are warm in the sun, and nights and early mornings are cool.
 - **Shoes:** comfortable walking shoes with a good grip for the falls, estates and treks.
 - **Mosquito repellent** for evenings on the estates, plus **sunscreen and sunglasses.**
 
-For our picks and full lists, see [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html), [which shoes to take](../guides/travel-shoes-guide.html) and the [hill trip packing checklist](../packing/hills.html). Choosing a bag? See our [luggage size guide](../guides/luggage-size-guide.html).
+For our picks and full lists, see [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html), [which shoes to take](../guides/travel-shoes-guide.html) and the [hill trip packing checklist](../packing/hills.html). Choosing a bag? See our [luggage size guide](../baggage/luggage-size-chart.html).
 
 ## Health and safety
 

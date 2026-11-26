@@ -133,7 +133,7 @@ Days are cool, and nights in Shillong are cold, sometimes near freezing.
 - **For Dawki boats and caves:** clothes that can get a little wet, and a small towel.
 - **Sunscreen and sunglasses:** the sun is strong on clear days.
 
-For our picks and full lists, see [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html), [which shoes to take](../guides/travel-shoes-guide.html) and the [hill trip packing checklist](../packing/hills.html). Choosing a bag? See our [luggage size guide](../guides/luggage-size-guide.html).
+For our picks and full lists, see [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html), [which shoes to take](../guides/travel-shoes-guide.html) and the [hill trip packing checklist](../packing/hills.html). Choosing a bag? See our [luggage size guide](../baggage/luggage-size-chart.html).
 
 ## Health and safety
 

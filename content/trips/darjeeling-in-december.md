@@ -102,7 +102,7 @@ Darjeeling is a little less cold than Manali or Shimla, but nights still fall ne
 - **Sunglasses and sunscreen:** the sun is strong at this height.
 - **For Sandakphu:** add waterproof gloves and trousers, and boots for snow.
 
-For our picks and full lists, see [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html), [what to wear in Manali in December](../guides/what-to-wear-in-manali-in-december.html) (the same clothes work in Darjeeling), [which shoes to take](../guides/travel-shoes-guide.html) and the [hill trip packing checklist](../packing/hills.html). Choosing a bag? See our [luggage size guide](../guides/luggage-size-guide.html).
+For our picks and full lists, see [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html), [what to wear in Manali in December](../guides/what-to-wear-in-manali-in-december.html) (the same clothes work in Darjeeling), [which shoes to take](../guides/travel-shoes-guide.html) and the [hill trip packing checklist](../packing/hills.html). Choosing a bag? See our [luggage size guide](../baggage/luggage-size-chart.html).
 
 ## Health and safety
 

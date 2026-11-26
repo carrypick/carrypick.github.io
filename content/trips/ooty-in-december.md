@@ -149,7 +149,7 @@ Ooty's days are mild, but mornings and nights can fall to near 0 °C.
 - **Shoes:** comfortable walking shoes with a good grip. Paths are wet and slippery in the mornings.
 - **Sunscreen and sunglasses:** the sun is strong at this height.
 
-For our picks and full lists, see [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html), [which shoes to take](../guides/travel-shoes-guide.html) and the [hill trip packing checklist](../packing/hills.html). Choosing a bag? See our [luggage size guide](../guides/luggage-size-guide.html).
+For our picks and full lists, see [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html), [which shoes to take](../guides/travel-shoes-guide.html) and the [hill trip packing checklist](../packing/hills.html). Choosing a bag? See our [luggage size guide](../baggage/luggage-size-chart.html).
 
 ## Health and safety
 
