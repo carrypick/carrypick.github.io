@@ -379,10 +379,9 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
 <script src="../assets/what-to-wear.js" defer></script>
 {B.telegram_band(cfg, "../")}"""
     crumbs = B.crumbs_schema(cfg, [("Home", ""), ("What to wear", PATH)])
-    app = {"@context": "https://schema.org", "@type": "WebApplication", "name": "What to wear helper", "url": url,
-           "applicationCategory": "TravelApplication", "operatingSystem": "Any", "description": desc}
+    # No WebApplication schema: Google reads it as a software app and flags it for missing offers and ratings.
     pages.append(B.write(PATH, B.page(cfg, seo, desc, body, 1, PATH,
-                                      [B.tool_article(cfg, seo, desc, PATH, updated, updated), crumbs, faq_schema, app],
+                                      [B.tool_article(cfg, seo, desc, PATH, updated, updated), crumbs, faq_schema],
                                       og_type="article", photo="snow-jacket")))
     lastmod[PATH] = updated
     import what_to_wear_hi

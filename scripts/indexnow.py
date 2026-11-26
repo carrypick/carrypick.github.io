@@ -28,7 +28,9 @@ def main():
     if len(sys.argv) > 1:
         urls = [base + "/" + path.lstrip("/") for path in sys.argv[1:]]
     else:
-        urls = re.findall(r"<loc>([^<]+)</loc>", (ROOT / "docs" / "sitemap.xml").read_text(encoding="utf-8"))
+        # docs/sitemap.xml is a sitemap index: read the page URLs from its child sitemaps (sitemap-*.xml).
+        urls = [u for child in sorted((ROOT / "docs").glob("sitemap-*.xml"))
+                for u in re.findall(r"<loc>([^<]+)</loc>", re.sub(r"<image:image>.*?</image:image>", "", child.read_text(encoding="utf-8")))]
     body = json.dumps({"host": urllib.parse.urlparse(base).hostname, "key": key,
                        "keyLocation": "%s/%s.txt" % (base, key), "urlList": urls}).encode()
     req = urllib.request.Request(ENDPOINT, data=body, headers={"Content-Type": "application/json; charset=utf-8"})

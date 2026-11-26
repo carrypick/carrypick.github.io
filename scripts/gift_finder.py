@@ -227,9 +227,8 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
 <script src="../assets/gift-finder.js" defer></script>
 {B.telegram_band(cfg, "../")}"""
     crumbs = B.crumbs_schema(cfg, [("Home", ""), ("Gift finder", PATH)])
-    app = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Gift finder quiz", "url": url,
-           "applicationCategory": "LifestyleApplication", "operatingSystem": "Any", "description": desc}
+    # No WebApplication schema: Google reads it as a software app and flags it for missing offers and ratings.
     pages.append(B.write(PATH, B.page(cfg, seo, desc, body, 1, PATH,
-                                      [B.tool_article(cfg, seo, desc, PATH, UPDATED, UPDATED), crumbs, faq_schema, app],
+                                      [B.tool_article(cfg, seo, desc, PATH, UPDATED, UPDATED), crumbs, faq_schema],
                                       og_type="article", photo="gift-box")))
     lastmod[PATH] = UPDATED

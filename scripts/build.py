@@ -1240,7 +1240,7 @@ def build_trips(cfg, trips, deals_by_asin, pages, lastmod):
 {telegram_band(cfg, "../")}"""
         path = "trips/%s.html" % t["slug"]
         image = photo_og(cfg, t["photo"]) if t.get("photo") in PHOTOS else abs_url(cfg, "assets/logo.png")
-        article = {"@context": "https://schema.org", "@type": "Article", "headline": t.get("seo_title", t["title"]),
+        article = {"@context": "https://schema.org", "@type": "Article", "headline": clip(t.get("seo_title", t["title"]), 110),
                    "description": t["description"], "datePublished": t["date"], "dateModified": t["updated"],
                    "inLanguage": "en-IN", "image": image, "about": {"@type": "TouristDestination", "name": t.get("place", t["title"])},
                    "mainEntityOfPage": abs_url(cfg, path), "author": org_schema(cfg), "publisher": org_schema(cfg)}
@@ -1337,6 +1337,17 @@ def size_limit_text(cabin):
     if cabin.get("total_cm"):
         parts.append("%s cm in total (L + W + H)" % num(cabin["total_cm"]))
     return " or ".join(parts) if cabin.get("either") else ", and ".join(parts)
+
+
+def cabin_title(lead, cabin, year, limit=68):
+    """A search title with the airline's own cabin facts, e.g. "Emirates baggage allowance from India: 7 kg, 55x38x22 cm cabin bag",
+    so airline pages don't share one template title. Drops the year, then the size, to stay near 60 characters."""
+    kg = ("%s kg" % num(cabin["kg"])) if cabin.get("kg") else ""
+    size = ("x".join(num(x) for x in cabin["dims_cm"]) + " cm") if cabin.get("dims_cm") else ""
+    full = ", ".join(filter(None, [kg, size])) + " cabin bag"
+    short = (kg + " cabin bag") if kg else "cabin bag size"
+    tries = [lead + " " + year + ": " + full, lead + ": " + full, lead + " " + year + ": " + short, lead + ": " + short]
+    return next((t for t in tries if len(t) <= limit), tries[-1])
 
 
 def short_limit_text(cabin):
@@ -1709,14 +1720,14 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
         if abroad:
             nm = a.get("page_name", a["name"])
             title = "%s baggage allowance from India: cabin bag and checked baggage" % nm
-            seo = a.get("seo_title") or "%s baggage allowance from India %s: cabin bag size and kg by fare" % (nm, year)
+            seo = a.get("seo_title") or cabin_title("%s baggage allowance from India" % nm, cabin, year)
             desc = "%s economy baggage on India flights: %s, %s. Checked baggage: %s. Checked %s." % (
                 nm, cabin["summary"], size_limit_text(cabin), a["checkin_summary"], fmt_date(a_checked))
             crumb_html = '<a href="index.html">Baggage rules</a><span>/</span><a href="international.html">International</a>'
             scope_text = "economy on India routes"
         else:
             title = "%s baggage rules: cabin bag size, weight and check-in" % a["name"]
-            seo = "%s baggage rules %s: cabin bag size, weight and check-in" % (a["name"], year)
+            seo = cabin_title("%s baggage rules" % a["name"], cabin, year)
             desc = "%s domestic baggage rules: %s, %s. Free check-in: %s. Checked %s." % (
                 a["name"], cabin["summary"], size_limit_text(cabin), a["checkin_summary"], fmt_date(a_checked))
             crumb_html = '<a href="index.html">Baggage rules</a>'
@@ -1931,7 +1942,11 @@ def build_extra_airlines(cfg, deals_by_asin, extra, pages, lastmod):
         others = '<ul class="airline-links">' + "".join(
             f'<li><a href="{o["slug"]}.html">{e(o["name"])}</a></li>' for o in extra["airlines"] if o["slug"] != x["slug"]) + "</ul>"
         title = "%s extra baggage charges: per kg, prepaid and at the airport" % name
-        seo = "%s extra baggage charges %s: per kg, prepaid and airport rates" % (name, year)
+        # The airline's own airport rate makes each title different, not just the name.
+        seo = next((t for t in ("%s extra baggage charges %s: %s at the airport" % (name, year, x["airport_text"]),
+                                "%s extra baggage charges %s: %s" % (name, year, x["airport_text"]),
+                                "%s extra baggage charges: %s" % (name, x["airport_text"])) if len(t) <= 65),
+                   "%s extra baggage charges %s: per kg, prepaid and airport rates" % (name, year))
         desc = ("%s excess baggage charges on domestic flights: %s at the airport%s. Extra bag: %s. Cabin bag over 7 kg: %s. Checked %s." % (
             name, x["airport_text"], ("; online " + summary) if summary else "", x.get("piece_short", "see below"),
             x.get("cabin_short", "see below"), fmt_date(checked)))
@@ -3054,7 +3069,41 @@ def build_packing(cfg, deals_by_asin, pages, lastmod, trip_guides=()):
 
 # ---------- pages ----------
 
+def pick_desc(d, deals):
+    """Meta description of a pick page. Picks that would share one (same note and features, like two strap colours of one
+    watch) add their colour, or else their title, after the note, so each page says what is unique about it."""
+    def base(x, extra=None):
+        features = "; ".join(h.rstrip(".") for h in x["highlights"][:2])
+        return clip(" ".join(filter(None, [x.get("note"), extra, "Key features: %s." % features,
+                                           "See the specs, who it suits and who should skip it."])))
+    mine = base(d)
+    if any(x["asin"] != d["asin"] and base(x)[:110] == mine[:110] for x in deals):
+        colour = d.get("colour")
+        return base(d, ("Colour: %s." % colour) if colour else d["title"] + ".")
+    return mine
+
+
+# Child sitemaps by top folder; everything else (home, categories, tools, packing lists, info pages) goes in sitemap-pages.xml.
+SITEMAP_SECTIONS = ("guides", "trips", "baggage", "picks", "hi")
+# The day each info page's text last changed (from git). Change the date when you change that page's text.
+INFO_UPDATED = {"about.html": "2026-11-26", "disclosure.html": "2026-11-21", "privacy.html": "2026-11-21", "contact.html": "2026-11-21"}
+
+
+def home_links(path, html):
+    """Links to the home page use its canonical address (the site root, "../"), not ".../index.html", which GitHub Pages
+    also serves and Google would see as a second copy. Links to a folder's own index.html stay: those pages are canonical
+    under that name. Hindi pages are left as they are."""
+    if path.startswith("hi/"):
+        return html
+    depth = path.count("/")
+    def fix(m):
+        ups = len(m.group(1)) // 3
+        return 'href="%s%s"' % ("../" * ups or "./", m.group(2) or "") if ups == depth else m.group(0)
+    return re.sub(r'href="((?:\.\./)*)index\.html(#[^"]*)?"', fix, html)
+
+
 def write(path, html):
+    html = home_links(path, html)
     target = DOCS / path
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(html, encoding="utf-8")
@@ -3457,9 +3506,7 @@ def build():
 </div>
 {more_html}
 {telegram_band(cfg, "../")}"""
-        features = "; ".join(h.rstrip(".") for h in d["highlights"][:2])
-        desc = clip(" ".join(filter(None, [d.get("note"), "Key features: %s." % features,
-                                           "See the specs, who it suits and who should skip it."])))
+        desc = pick_desc(d, deals)
         path = "picks/%s.html" % d["asin"]
         crumbs = crumbs_schema(cfg, [("Home", ""), (cat["name"], "category/%s.html" % d["category"]), (d["title"], path)])
         pages.append(write(path, page(cfg, d["title"], desc, body, 1, path, [crumbs], share_image=share_image(d["asin"]))))
@@ -3699,14 +3746,59 @@ def build():
                 found.append("assets/picks/%s.svg" % path[6:-5])  # only its own drawing, not the cards below
             return "".join("<image:image><image:loc>%s</image:loc></image:image>" % e(base + f) for f in found)
 
-        urls = "".join("<url><loc>%s</loc>%s%s</url>" % (e(base + ("" if p == "index.html" else p)),
-                                                         "<lastmod>%s</lastmod>" % lastmod[p] if p in lastmod else "", images(p))
-                       for p in pages if p != "404.html")
+        # Every URL gets a <lastmod> that only moves when the page's own content does: front matter or data dates where the
+        # builders set them, otherwise the newest date of what the page lists. Never the build time.
+        for path in pages:
+            if path in lastmod or path.startswith("hi/") or path == "404.html":
+                continue
+            m = re.match(r"category/([a-z0-9-]+)(?:/([a-z0-9-]+))?\.html$", path)
+            if m:
+                dates = [d["added_at"][:10] for d in deals if d["category"] == m.group(1)
+                         and (not m.group(2) or d.get("subcategory") == m.group(2))]
+                if dates:
+                    lastmod[path] = max(dates)
+            elif path == "guides/index.html" and articles:
+                lastmod[path] = max(a["updated"] for a in articles)
+            elif path in INFO_UPDATED:
+                lastmod[path] = INFO_UPDATED[path]
+        if "index.html" not in lastmod:
+            lastmod["index.html"] = max(v for k, v in lastmod.items() if not k.startswith("hi/"))
+        missing = [p for p in pages if p not in lastmod and p != "404.html"]
+        if missing:
+            print("Warning (sitemap): no lastmod for %s. Set lastmod[path] where the page is built." % ", ".join(missing))
+
+        # A sitemap index at /sitemap.xml (the address Search Console has) with one child sitemap per section,
+        # so Search Console can show indexing by section.
+        def section(path):
+            top = path.split("/")[0] if "/" in path else ""
+            return top if top in SITEMAP_SECTIONS else "pages"
+        children = {}
+        for p in pages:
+            if p != "404.html":
+                children.setdefault(section(p), []).append(p)
+        for old in DOCS.glob("sitemap-*.xml"):
+            old.unlink()
+        index_rows = []
+        for name in ["pages"] + [x for x in SITEMAP_SECTIONS if x in children]:
+            paths = children.get(name)
+            if not paths:
+                continue
+            urls = "".join("<url><loc>%s</loc>%s%s</url>\n" % (e(base + ("" if p == "index.html" else p)),
+                                                               "<lastmod>%s</lastmod>" % lastmod[p] if p in lastmod else "", images(p))
+                           for p in paths)
+            if len(paths) > 50000:
+                sys.exit("Error: sitemap-%s.xml has more than 50,000 URLs; split it" % name)
+            text = ('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+                    'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n%s</urlset>\n' % urls)
+            if len(text.encode("utf-8")) > 50 * 1024 * 1024:
+                sys.exit("Error: sitemap-%s.xml is over 50 MB; split it" % name)
+            (DOCS / ("sitemap-%s.xml" % name)).write_text(text, encoding="utf-8")
+            newest = max((lastmod[p] for p in paths if p in lastmod), default=None)
+            index_rows.append("<sitemap><loc>%ssitemap-%s.xml</loc>%s</sitemap>\n" % (
+                e(base), name, "<lastmod>%s</lastmod>" % newest if newest else ""))
         (DOCS / "sitemap.xml").write_text(
-            '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
-            'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">%s</urlset>\n' % urls,
-            encoding="utf-8",
-        )
+            '<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n%s</sitemapindex>\n'
+            % "".join(index_rows), encoding="utf-8")
         # Atom feed of the guides: readers can follow it, and Google accepts it as a second sitemap.
         entries = sorted([("guides/%s.html" % a["slug"], a) for a in articles] + [("trips/%s.html" % t["slug"], t) for t in trips],
                          key=lambda x: x[1]["updated"], reverse=True)

@@ -171,9 +171,8 @@ def build(m, cfg, deals_by_asin, pages, lastmod):
 <script src="../assets/pack-maker.js" defer></script>
 {m.telegram_band(cfg, "../")}"""
     crumbs = m.crumbs_schema(cfg, [("Home", ""), ("Packing list maker", PATH)])
-    app = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Packing list maker",
-           "url": m.abs_url(cfg, PATH), "applicationCategory": "TravelApplication", "operatingSystem": "Any", "description": desc}
+    # No WebApplication schema: Google reads it as a software app and flags it for missing offers and ratings.
     pages.append(m.write(PATH, m.page(cfg, seo, desc, body, 1, PATH,
-                                      [m.tool_article(cfg, seo, desc, PATH, UPDATED, UPDATED), crumbs, faq_schema, app],
+                                      [m.tool_article(cfg, seo, desc, PATH, UPDATED, UPDATED), crumbs, faq_schema],
                                       og_type="article", photo="packed-suitcase")))
     lastmod[PATH] = UPDATED

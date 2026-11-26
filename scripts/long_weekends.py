@@ -424,10 +424,9 @@ def build(B, cfg, deals_by_asin, pages, lastmod):
 <script src="../assets/long-weekends.js" defer></script>
 {B.telegram_band(cfg, "../")}"""
     crumbs = B.crumbs_schema(cfg, [("Home", ""), ("Long weekends %d" % year, PATH)])
-    app = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Long weekends %d planner" % year, "url": url,
-           "applicationCategory": "TravelApplication", "operatingSystem": "Any", "description": desc}
+    # No WebApplication schema: Google reads it as a software app and flags it for missing offers and ratings.
     pages.append(B.write(PATH, B.page(cfg, seo, desc, body, 1, PATH,
-                                      [B.tool_article(cfg, seo, desc, PATH, "2026-11-21", checked), crumbs, faq_schema, app],
+                                      [B.tool_article(cfg, seo, desc, PATH, "2026-11-21", checked), crumbs, faq_schema],
                                       og_type="article", photo="plane-window")))
     lastmod[PATH] = checked
     return {"plans": all_plans, "free": free, "one": one}
