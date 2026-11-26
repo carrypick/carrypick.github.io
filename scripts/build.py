@@ -1906,7 +1906,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
 <div class="answer"><h2>Quick answer</h2><ul>
 <li><strong>Cabin bag:</strong> {e(cabin['summary'])}.</li>
 <li><strong>Size limit:</strong> {e(size_limit_text(cabin))}.</li>
-{('<li><strong>Extra small bag:</strong> ' + e(a['personal']['summary']) + '.</li>') if a.get('personal') else ''}
+{('<li><strong>Extra small bag:</strong> ' + e(a['personal']['summary']) + '. Which bag? See our <a href="../guides/handbag-and-sling-guide.html">handbag and sling guide</a> and <a href="../guides/laptop-backpack-guide.html">laptop backpack guide</a>.</li>') if a.get('personal') else ''}
 <li><strong>{"Checked baggage" if abroad else "Free check-in"}:</strong> {e(a['checkin_summary'])}.</li>
 </ul></div>
 {top_picks(cfg, airline_top_rows(a["name"], [cabin], picks), "../", "Cabin bags that fit " + a["name"],
@@ -2005,6 +2005,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
 <ul>
 <li>We compare your bag's longest side with the airline's longest allowed side, and so on, because a bag can be turned to fit.</li>
 <li>When an airline gives a total size (length + width + height), we add up your three sides.</li>
+<li>This checks your main cabin bag. Many airlines also allow a small personal bag, such as a handbag or laptop bag, with its own limits: see our <a href="../guides/handbag-and-sling-guide.html">handbag and sling guide</a> and <a href="../guides/laptop-backpack-guide.html">laptop backpack guide</a>.</li>
 <li>These are the standard economy limits: domestic flights for Indian airlines, India routes for international airlines, and the airlines' general rules for US and European airlines such as American, Delta, Ryanair and easyJet. Your fare, route or aircraft can change them.</li>
 </ul>
 <p>See the <a href="index.html">full baggage rules for each airline</a>, compare <a href="../guides/carry-on-size-by-airline.html">carry-on size by airline worldwide</a>, or read <a href="../guides/cabin-luggage-guide.html">the cabin bag rules and how to pick a cabin trolley</a>.</p>

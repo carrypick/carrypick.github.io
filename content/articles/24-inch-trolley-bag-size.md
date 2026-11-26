@@ -49,7 +49,7 @@ Take the bag's weight away from your allowance:
 
 A difference of 2 kg in the bag is 2 kg less for your clothes. Most standard domestic fares give 15 kg, but it varies by fare, so check your ticket. See our [baggage rules for Indian airlines](../baggage/index.html).
 
-A medium bag has room for more than 15 kg, especially with shoes and winter clothes. Weigh the packed bag at home with a [luggage scale](luggage-scale.html), then check it against your fare with our [excess baggage calculator](../tools/bag-weight.html).
+A medium bag has room for more than 15 kg, especially with [shoes](travel-shoes-guide.html) and [winter clothes](winter-clothes-for-hill-trips.html). Wear the heaviest of them on the journey. Weigh the packed bag at home with a [luggage scale](luggage-scale.html), then check it against your fare with our [excess baggage calculator](../tools/bag-weight.html).
 
 ## Our picks
 
@@ -102,6 +102,7 @@ Not exactly. 65 cm is 25.6 inches, and 24 inches is 61 cm. Some brands still sel
 - [Lightest cabin trolley bags](lightest-cabin-trolley-bag.html)
 - [Hard vs soft luggage](hard-vs-soft-luggage.html)
 - [Trolley bag set of 3](trolley-bag-set-of-3.html)
+- [Amazon Republic Day sale: past dates and what to check](republic-day-sale-guide.html)
 
 ## Sources
 
