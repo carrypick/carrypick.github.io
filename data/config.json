@@ -125,7 +125,18 @@
       "seo_title": "Best laptop backpacks and college bags in India",
       "guide": "laptop-backpack-guide",
       "intro": "Backpacks for college, office and weekend trips. We check laptop size, litres, padding and rain protection.",
-      "tip": "Match the laptop sleeve to your laptop size, and choose 25–30 litres for everyday college use."
+      "tip": "Match the laptop sleeve to your laptop size, and choose 25–30 litres for everyday college use.",
+      "how_to_choose": [
+        "## Start with the laptop",
+        "Check your laptop's screen size in its specs. Most laptops in India are 14 or 15.6 inches. Pick a bag whose laptop sleeve is the **same size or bigger**: a 15.6 inch sleeve fits most 14 and 15.6 inch laptops, but a 17 inch gaming laptop needs a sleeve made for 17 inches. Our [15.6 inch backpack size guide](../guides/15-6-inch-laptop-backpack-size.html) lists the inside sizes.",
+        "## Then choose the litres",
+        "- **15 to 21 litres:** a slim office bag for a laptop, a charger and a few small things.",
+        "- **22 to 30 litres:** an everyday college bag with room for books, a lunch box and a water bottle.",
+        "- **30 to 40 litres:** long days, gym clothes or a 2 day trip. For most people who fly, 30 to 40 litres is the largest useful size for the cabin.",
+        "Litres are not measured the same way by every brand. One listing we read said 30 L, but its own size, 48 x 31 x 16 cm, works out to about 24 L. Work it out from the size when the bag matters. The [backpack size chart in litres](../guides/backpack-size-chart-litres.html) shows how.",
+        "## On a flight",
+        "A backpack is a box to the airline: its size limit still applies, and a packed bag bulges. Most Indian airlines allow 7 kg in the cabin, bag included. A second, smaller bag is allowed only on some airlines and fares, so check the [airline baggage rules](../baggage/index.html) before you fly."
+      ]
     },
     "luggage": {
       "name": "Luggage & Trolley Bags",
@@ -143,7 +154,18 @@
       "seo_title": "Best trolley bags and cabin luggage in India",
       "guide": "cabin-luggage-guide",
       "intro": "Cabin and check-in trolleys for flights and train journeys, for travellers in India and around the world.",
-      "tip": "Most Indian airlines allow a 7 kg cabin bag. Add length + width + height and check your airline's limit before you buy."
+      "tip": "Most Indian airlines allow a 7 kg cabin bag. Add length + width + height and check your airline's limit before you buy.",
+      "how_to_choose": [
+        "## Pick the size by trip length",
+        "- **2 to 4 days:** a cabin trolley about 55 cm tall, usually 35 to 45 litres. It goes on the plane with you, so you skip the belt at both ends.",
+        "- **About a week:** a medium check-in trolley, 65 to 69 cm tall. On a 15 kg domestic fare, a medium bag already weighs about 3 to 3.5 kg empty.",
+        "- **10 days or a family trip:** a large trolley, 75 to 79 cm tall. Check the total size first: of the 31 large models we checked, 26 were listed over the 158 cm limit most airlines set for a checked bag.",
+        "- **Trains and road trips:** a soft duffle. It squeezes under a berth or into a car boot, where a hard trolley won't.",
+        "## Check the three things airlines check",
+        "Airlines don't care what a seller calls a bag. They check **length + width + height**, wheels and handles included, and the **weight**. Most Indian airlines allow a 7 kg cabin bag up to 115 cm in total, but the sides differ: IndiGo allows 55 x 35 x 25 cm, Air India 55 x 40 x 20 cm. A bag that is 2 cm too deep can be sent to the hold at the gate. Put any bag's listed size into our [cabin bag checker](../baggage/checker.html) to see which airlines it fits.",
+        "## Hard or soft?",
+        "Hard shells (polypropylene or polycarbonate) protect what's inside and handle rain, but they don't stretch. Soft bags are lighter and have outside pockets. The bag's own weight matters more than the material: every kilo the bag weighs is a kilo less for your things. Our [luggage size chart](../baggage/luggage-size-chart.html) has every size in cm and inches, and [what size luggage you need](../guides/luggage-size-guide.html) explains the choice in detail."
+      ]
     },
     "travel-gear": {
       "name": "Travel Gear",
@@ -164,7 +186,16 @@
       "seo_title": "Travel accessories: luggage scales, packing cubes and neck pillows",
       "guide": "cabin-luggage-guide",
       "intro": "Small things that make trips easier: luggage scales, TSA locks, packing cubes, neck pillows, toiletry bags, gadget organisers and passport holders.",
-      "tip": "Weigh your bag at home before you fly to avoid extra-baggage charges at the airport."
+      "tip": "Weigh your bag at home before you fly to avoid extra-baggage charges at the airport.",
+      "how_to_choose": [
+        "## The few things worth buying first",
+        "- **A luggage scale.** On flights within India the airport rate for extra baggage is about ₹775 to ₹850 per kg, by the airlines' own fee pages. A scale costs less than one of those kilos. Pack to about 0.5 kg under your limit, as a hand-held scale and the airport scale won't agree to the gram. See [how to use a luggage scale](../guides/luggage-scale.html).",
+        "- **A TSA lock,** only if you fly to, from or through the USA. US airport security has master keys for Travel Sentry and Safe Skies locks and may cut other locks. Many trolleys already have one built in. See [what a TSA lock is](../guides/tsa-lock.html).",
+        "- **A neck pillow** for long flights and night trains. Memory foam is comfier; an inflatable one packs flat. Check the packed size, not the open size. See [neck pillows for flights](../guides/neck-pillow-for-flights.html).",
+        "- **Packing cubes and a toiletry bag.** They don't add space, but they keep a packed bag tidy when you open it at security or at a hotel.",
+        "## What to keep in the cabin bag",
+        "Liquids over 100 ml go in checked baggage on most international flights. Power banks and spare lithium batteries go in the cabin bag only, never in check-in. When you're not sure about an item, see [can I carry it?](../baggage/can-i-carry.html), where each item has the rule and its official source."
+      ]
     },
     "travel-tech": {
       "name": "Travel Tech",
@@ -180,7 +211,15 @@
       "seo_title": "Power banks for flights and universal travel adapters in India",
       "guide": "power-bank-and-travel-adapter-guide",
       "intro": "Power banks that stay under the airline limit, and universal adapters for plugs abroad. We read the mAh, the ports and the size on each listing.",
-      "tip": "Power banks go in your cabin bag only, never in check-in. 10,000 and 20,000 mAh power banks (about 37 and 74 Wh) are under the 100 Wh limit on Indian airlines."
+      "tip": "Power banks go in your cabin bag only, never in check-in. 10,000 and 20,000 mAh power banks (about 37 and 74 Wh) are under the 100 Wh limit on Indian airlines.",
+      "how_to_choose": [
+        "## Power banks: the airline rules come first",
+        "Power banks go in your **cabin bag only**, never in checked baggage. Up to **100 Wh** is allowed on every airline we track; that covers 10,000 mAh (about 37 Wh) and 20,000 mAh (about 74 Wh) power banks. Between 100 and 160 Wh needs the airline's approval on most airlines, and some don't take it at all. Two power banks is the most common limit, and Emirates and Etihad allow only one. Using a power bank in flight is banned on all Indian airlines. The full table, read on each airline's own page, is in [power bank rules on flights](../guides/power-bank-rules-on-flights.html), and our [power bank checker](../tools/power-bank-flight-check.html) works out the Wh for you.",
+        "## Adapters: check the plug and the voltage",
+        "India uses round pins (types C, D and M) at 230 V. Dubai, the UK, Singapore and Malaysia use type G, three square pins. The USA, Canada and Japan use flat pins at 100 to 120 V, so your charger must say 100-240V on its label. One universal adapter covers every country we list. Our [adapter guide by country](../guides/travel-adapter-by-country.html) covers 45 countries.",
+        "## Chargers",
+        "One fast USB-C charger with two ports can charge a phone and a laptop overnight, and it saves space. Check the watts your laptop needs before you buy. See [which charger for your phone](../guides/which-charger-for-iphone-17-and-samsung-s25.html)."
+      ]
     },
     "books": {
       "name": "Books & Audiobooks",
@@ -266,7 +305,18 @@
       "seo_title": "Winter wear and travel clothes in India: thermals, jackets",
       "guide": "winter-clothes-for-hill-trips",
       "intro": "Thermals, jackets, caps and rain gear for hill trips and monsoon travel. We check the fabric, the weight and how to wash it.",
-      "tip": "Dress in layers: thermals, then a sweater, then a jacket. Take a layer off before you start to sweat."
+      "tip": "Dress in layers: thermals, then a sweater, then a jacket. Take a layer off before you start to sweat.",
+      "how_to_choose": [
+        "## Layers beat one thick jacket",
+        "Nights in Manali can fall below −5 °C while a sunny afternoon feels mild, so you need clothes you can add and take off. Wear three layers: a thermal next to the skin, then a sweater or fleece, then a jacket that stops the wind. Add a cap, a neck warmer and gloves, because ears and fingers get cold first.",
+        "## Pick the fabric for what you'll do",
+        "- **Sightseeing and sleeping:** cotton thermals are soft and fine.",
+        "- **Treks and long walks:** cotton holds sweat and stays wet. Outdoor guides suggest wool or synthetic base layers instead.",
+        "- **Snow and high passes:** a light padded jacket is enough for a hill town, but deep snow or a high-altitude trek needs a much warmer down or synthetic jacket. See [winter jackets for travel](../guides/winter-jacket-for-travel.html).",
+        "- **Monsoon trips:** a rain jacket or poncho that packs small, and quick-dry clothes.",
+        "## Before you pack",
+        "Take a layer off before you start to sweat: wet clothes make you cold once you stop moving. For what each place is like in your month, see [what to wear](../tools/what-to-wear.html), and for the full list see [winter clothes for hill trips](../guides/winter-clothes-for-hill-trips.html)."
+      ]
     },
     "shoes": {
       "name": "Shoes & Sandals",
@@ -297,7 +347,17 @@
       "seo_title": "Handbags, tote bags and sling bags for work and travel in India",
       "guide": "handbag-and-sling-guide",
       "intro": "Totes, satchels and crossbody slings for work, sightseeing and flights. We check the size, the weight and how each one closes.",
-      "tip": "On some airlines a purse or laptop bag counts inside your 7 kg cabin limit. Check your airline before you pack."
+      "tip": "On some airlines a purse or laptop bag counts inside your 7 kg cabin limit. Check your airline before you pack.",
+      "how_to_choose": [
+        "## Choose by what you carry",
+        "- **A laptop and papers every day:** a tote with a padded laptop compartment. Check the compartment size against your laptop, and that the bag stands up on its own.",
+        "- **Sightseeing and crowds:** a crossbody sling worn in front, with a zip, not a magnetic snap. A zip closes fully, so a phone and wallet stay inside in a crowded market or a metro.",
+        "- **Evenings and short outings:** a small satchel or a crescent bag, light enough to forget it's there.",
+        "## On a flight",
+        "On some Indian airlines a purse or a laptop bag is allowed as a second bag, and on others it counts inside the 7 kg cabin limit. The rules also depend on the fare. Read your airline's rule on our [airline baggage pages](../baggage/index.html) before you pack, and see [tote bags for office and travel](../guides/tote-bag-for-office-and-travel.html) if you fly with a laptop.",
+        "## What to check on the listing",
+        "Read the size in cm, the empty weight and the strap length. A long strap that can be adjusted lets you wear the same bag on the shoulder or across the body. Our [handbag and sling guide](../guides/handbag-and-sling-guide.html) explains each shape."
+      ]
     },
     "wallets-belts": {
       "name": "Wallets & Belts",

@@ -318,6 +318,7 @@ def share_bar(cfg, path, title, lang="en"):
 # They get "noindex, follow" and are left out of the sitemaps and the feed. Hindi pages are not touched.
 NOINDEX_CATEGORIES = {"watches", "perfumes", "skincare", "books", "sunglasses", "wallets-belts", "grooming", "baby-kids", "shoes"}
 NOINDEX_KEEP = {"guides/gifts-for-travellers.html"}
+NOINDEX_PACKING = {"beach", "train", "weekend", "wedding", "business", "abroad"}  # thin and 50-60% alike (audit fix 9); packing/hills and the week list stay
 NOINDEXED = set()  # every page written with noindex, so the sitemap can skip it
 CANONICAL_TO = {}  # path -> the page it is merged into (front matter "canonical:"); such pages are also kept out of the sitemap
 
@@ -330,6 +331,9 @@ def noindex_reason(path):
     m = re.match(r"category/([a-z0-9-]+)(/[a-z0-9-]+)?\.html$", path)
     if m:
         return "subcategory" if m.group(2) else ("off-topic category" if m.group(1) in NOINDEX_CATEGORIES else None)
+    m = re.match(r"packing/([a-z0-9-]+)\.html$", path)
+    if m and m.group(1) in NOINDEX_PACKING:
+        return "packing list"
     if re.match(r"guides/[a-z0-9-]*gift[a-z0-9-]*\.html$", path):
         return "gift guide"
     return None
@@ -3319,6 +3323,9 @@ def home_links(path, html):
     return re.sub(r'href="((?:\.\./)*)index\.html(#[^"]*)?"', fix, html)
 
 
+CATEGORY_TEXT_UPDATED = "2026-11-26"  # bump when you edit how_to_choose text in data/config.json
+
+
 def write(path, html):
     html = home_links(path, html)
     target = DOCS / path
@@ -3855,6 +3862,22 @@ def build():
                           f'<div id="picks" class="sub-sections">{"".join(sections)}</div>')
         related_html = (f'<section class="section">{section_head("Guides")}{guide_cards(cfg, related, "../")}</section>'
                         if related else "")
+        if cat.get("how_to_choose"):
+            # Our own buying advice for the category, so the page is more than a grid of picks (Search Console audit, 26 Nov 2026).
+            parts, bullets = [], []
+            for line in cat["how_to_choose"] + ["## "]:
+                if line.startswith("- "):
+                    bullets.append("<li>%s</li>" % md_inline(line[2:], "../"))
+                    continue
+                if bullets:
+                    parts.append("<ul>%s</ul>" % "".join(bullets)); bullets = []
+                if line.startswith("## "):
+                    if line[3:]:
+                        parts.append("<h3>%s</h3>" % e(line[3:]))
+                else:
+                    parts.append("<p>%s</p>" % md_inline(line, "../"))
+            related_html = (f'<section class="section cat-advice prose" id="how-to-choose"><h2>How to choose {e(cat["name"].split(" &")[0].lower())}</h2>'
+                            f'{"".join(parts)}</section>' + related_html)
         inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span>{e(cat['name'])}</nav>
       <h1>{e(cat['name'])}</h1>
       <p class="lead">{e(cat['intro'])}</p>"""
@@ -4126,6 +4149,8 @@ def build():
             if m:
                 dates = [d["added_at"][:10] for d in deals if d["category"] == m.group(1)
                          and (not m.group(2) or d.get("subcategory") == m.group(2))]
+                if not m.group(2) and cfg["categories"].get(m.group(1), {}).get("how_to_choose"):
+                    dates.append(CATEGORY_TEXT_UPDATED)
                 if dates:
                     lastmod[path] = max(dates)
             elif path == "guides/index.html" and articles:
