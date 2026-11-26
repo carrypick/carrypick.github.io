@@ -75,7 +75,7 @@ A 20,000 mAh one (about 74 Wh) for long trips and treks:
 
 [[pick:B0DCZ3WDTB]]
 
-Flying abroad? Emirates, for one, lets you carry only one power bank under 100 Wh, and you can't use it or charge it on board (see our [Emirates baggage rules](../emirates.html), checked 26 November 2026). See [power bank rules on flights worldwide](../../guides/power-bank-rules-on-flights.html) for the FAA, EASA and airlines like Emirates, Singapore Airlines and Lufthansa. Our [power bank and travel adapter guide](../../guides/power-bank-and-travel-adapter-guide.html) lists the plug types for Thailand, Dubai, Bali, the UK, the US and more.
+Flying abroad? The Gulf airlines differ. [Emirates](../emirates.html), [Etihad](../etihad.html) and [flydubai](../flydubai.html) let you carry only one power bank up to 100 Wh, and you can't use or charge it on board. [Qatar Airways](../qatar-airways.html) allows two, each up to 100 Wh; you can't charge them on board, but you may use one to charge your phone while you hold it. Etihad also bans the recalled MOBIKINS MK-PB-04 power bank on India flights. (All checked on the airlines' own websites, 26 November 2026.) See [power bank rules on flights worldwide](../../guides/power-bank-rules-on-flights.html) for the FAA, EASA and airlines like Emirates, Singapore Airlines and Lufthansa. Our [power bank and travel adapter guide](../../guides/power-bank-and-travel-adapter-guide.html) lists the plug types for Thailand, Dubai, Bali, the UK, the US and more.
 
 ## By airline
 

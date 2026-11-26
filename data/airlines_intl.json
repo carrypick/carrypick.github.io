@@ -63,27 +63,45 @@
         ]
       },
       "sections": [
-        {"h": "Emirates baggage from India to the USA and Canada", "p": "These flights use the piece concept, so Economy Special includes only 1 bag of 23 kg, while Saver, Flex and Flex Plus include 2 bags of 23 kg each. A single 30 kg bag is not allowed on these routes even if your total is under the limit, so split heavy packing across two bags. Each bag should be within 150 cm (length + width + height). Emirates says a trip from Asia to the Americas that includes a sector in Europe or a stopover in Dubai of more than 24 hours uses the weight concept for the whole ticket; the baggage shown in Manage your booking tells you which applies to yours."},
-        {"h": "Sports equipment and musical instruments", "items": [
-          "Sports equipment such as golf clubs, bicycles, ski gear, surfboards and SCUBA kit is accepted as checked baggage inside your normal allowance. Above it, normal excess baggage rates apply.",
-          "Tell Emirates at least 24 hours before the flight if you're bringing a bicycle. Any single sports item over 300 cm in total must go as cargo.",
-          "Emirates gives no special free allowance for musical instruments. An instrument can be checked in, taken in the cabin if it fits the cabin limits, or carried on a seat you pay for. Each piece must be within 300 cm in total.",
-          "Sporting firearms need Emirates' approval at least 3 days before the flight, and clearance from UAE Customs and the UAE Ministry of Defence to enter the UAE."
-        ]},
-        {"h": "Pets", "p": "Pets can't travel in the Emirates cabin (the only exception is falcons on some Dubai to Pakistan flights). A pet goes as checked baggage in the hold or as cargo. As checked baggage, Emirates lists USD 500 when the pet and cage together are up to 23 kg and 150 cm, USD 650 for 24 to 32 kg, and USD 800 above 32 kg. Contact Emirates well ahead for permits and vaccinations."},
-        {"h": "Check-in times", "items": [
-          "Online check-in opens 48 hours before the flight.",
-          "Emirates says that at most airports, check-in opens 3 hours before departure (up to 4 hours at some), so check your ticket for your airport.",
-          "In Dubai, clear passport control and security 90 minutes before departure and reach the gate 60 minutes before in Economy. Walking to the C gates can take up to 25 minutes."
-        ]},
-        {"h": "If your bag is delayed, lost or damaged", "items": [
-          "Register a missing bag at the Arrivals baggage desk before you leave the airport. You get a reference number called a PIR, which you use to follow the claim on the Emirates website or app.",
-          "The Emirates app tracks your bags from check-in to loading, through a connection in Dubai, to arrival, and shows the belt number in Dubai.",
-          "To claim essential expenses for a delayed bag, contact Emirates within 21 days of getting the bag back, with receipts for the clothes and toiletries you had to buy.",
-          "Emirates asks you to fill in a Baggage Inventory Form listing what was in the bag; it can't be edited once sent. Tracing can take up to 21 days.",
-          "On a trip with more than one airline, the airline that flew the last sector handles the baggage claim."
-        ]},
-        {"h": "Baggage services in Dubai", "p": "At Dubai Terminal 3, Emirates lists baggage wrapping at AED 40 per standard bag (AED 80 oversize), porters from AED 40, and left luggage from AED 35 per bag for up to 12 hours. Round bags, bundles, loose straps and bags with no flat side should be repacked in a cardboard box, which you can get at the wrapping kiosks before check-in."}
+        {
+          "h": "Emirates baggage from India to the USA and Canada",
+          "p": "These flights use the piece concept, so Economy Special includes only 1 bag of 23 kg, while Saver, Flex and Flex Plus include 2 bags of 23 kg each. A single 30 kg bag is not allowed on these routes even if your total is under the limit, so split heavy packing across two bags. Each bag should be within 150 cm (length + width + height). Emirates says a trip from Asia to the Americas that includes a sector in Europe or a stopover in Dubai of more than 24 hours uses the weight concept for the whole ticket; the baggage shown in Manage your booking tells you which applies to yours."
+        },
+        {
+          "h": "Sports equipment and musical instruments",
+          "items": [
+            "Sports equipment such as golf clubs, bicycles, ski gear, surfboards and SCUBA kit is accepted as checked baggage inside your normal allowance. Above it, normal excess baggage rates apply.",
+            "Tell Emirates at least 24 hours before the flight if you're bringing a bicycle. Any single sports item over 300 cm in total must go as cargo.",
+            "Emirates gives no special free allowance for musical instruments. An instrument can be checked in, taken in the cabin if it fits the cabin limits, or carried on a seat you pay for. Each piece must be within 300 cm in total.",
+            "Sporting firearms need Emirates' approval at least 3 days before the flight, and clearance from UAE Customs and the UAE Ministry of Defence to enter the UAE."
+          ]
+        },
+        {
+          "h": "Pets",
+          "p": "Pets can't travel in the Emirates cabin (the only exception is falcons on some Dubai to Pakistan flights). A pet goes as checked baggage in the hold or as cargo. As checked baggage, Emirates lists USD 500 when the pet and cage together are up to 23 kg and 150 cm, USD 650 for 24 to 32 kg, and USD 800 above 32 kg. Contact Emirates well ahead for permits and vaccinations."
+        },
+        {
+          "h": "Check-in times",
+          "items": [
+            "Online check-in opens 48 hours before the flight.",
+            "Emirates says that at most airports, check-in opens 3 hours before departure (up to 4 hours at some), so check your ticket for your airport.",
+            "In Dubai, clear passport control and security 90 minutes before departure and reach the gate 60 minutes before in Economy. Walking to the C gates can take up to 25 minutes."
+          ]
+        },
+        {
+          "h": "If your bag is delayed, lost or damaged",
+          "items": [
+            "Register a missing bag at the Arrivals baggage desk before you leave the airport. You get a reference number called a PIR, which you use to follow the claim on the Emirates website or app.",
+            "The Emirates app tracks your bags from check-in to loading, through a connection in Dubai, to arrival, and shows the belt number in Dubai.",
+            "To claim essential expenses for a delayed bag, contact Emirates within 21 days of getting the bag back, with receipts for the clothes and toiletries you had to buy.",
+            "Emirates asks you to fill in a Baggage Inventory Form listing what was in the bag; it can't be edited once sent. Tracing can take up to 21 days.",
+            "On a trip with more than one airline, the airline that flew the last sector handles the baggage claim."
+          ]
+        },
+        {
+          "h": "Baggage services in Dubai",
+          "p": "At Dubai Terminal 3, Emirates lists baggage wrapping at AED 40 per standard bag (AED 80 oversize), porters from AED 40, and left luggage from AED 35 per bag for up to 12 hours. Round bags, bundles, loose straps and bags with no flat side should be repacked in a cardboard box, which you can get at the wrapping kiosks before check-in."
+        }
       ],
       "notes": [
         "Power banks: since 1 October 2025 you can't use or charge a power bank on board. You may carry one under 100 Wh in your cabin bag, with its capacity shown, kept in the seat pocket or under the seat, never in the overhead bin. Power banks aren't allowed in checked bags.",
@@ -93,13 +111,34 @@
         "Skywards Gold and Platinum members get 1 extra bag on piece-concept routes, and Silver, Gold and Platinum members get extra kilos on weight-concept routes."
       ],
       "faq_extra": [
-        {"q": "What is the Emirates baggage allowance from India to the USA?", "a": "Flights to and from the USA and Canada use the piece concept. In Economy, Special fares include 1 bag of 23 kg; Saver, Flex and Flex Plus include 2 bags of 23 kg each. Each bag should be within 150 cm (length + width + height). The cabin bag is 7 kg, and only one piece is allowed when you board in India."},
-        {"q": "What is the Emirates baggage allowance from India to Dubai?", "a": "Flights between India and Dubai use the weight concept. In Economy you get 20 kg on Special, 25 kg on Saver, 30 kg on Flex and 35 kg on Flex Plus, in as many bags as you like, with no bag over 32 kg. The cabin bag is 7 kg and 55 x 38 x 22 cm."},
-        {"q": "What is the Emirates baggage allowance from India to the UK and Europe?", "a": "The same as to Dubai, because these routes use the weight concept: 20 kg (Special), 25 kg (Saver), 30 kg (Flex) or 35 kg (Flex Plus) in Economy, with no single bag over 32 kg."},
-        {"q": "Can I carry a laptop bag on Emirates from India?", "a": "Not as a separate item in Economy. When you board in India, Emirates allows Economy and Premium Economy passengers only one cabin piece of up to 115 cm in total, so a laptop must fit inside your 7 kg cabin bag. Reasonable duty-free shopping is allowed on top."},
-        {"q": "What is the Emirates check-in baggage size?", "a": "On weight-concept routes (India to Dubai, Europe, Asia), each bag should be within 203 cm in total (length + width + height) and 32 kg. On routes to the USA and Canada each bag should be within 150 cm; a bag between 150 and 203 cm pays an oversize fee."},
-        {"q": "Does Emirates give extra baggage to students?", "a": "Emirates' baggage pages for India don't list a student baggage allowance, and we found no student offer page on its India website on 26 November 2026. Check the baggage shown for your fare before you pay."},
-        {"q": "How much does extra baggage cost on Emirates from India?", "a": "At the airport, Emirates lists USD 15 per kg between India and the Middle East, USD 25 per kg to Europe or the Far East, and USD 40 per kg to Australia. Buying online in 5 kg blocks up to 4 hours before departure saves up to 45%. On USA and Canada routes an extra bag costs USD 250 at the airport on tickets issued from 8 September 2026."}
+        {
+          "q": "What is the Emirates baggage allowance from India to the USA?",
+          "a": "Flights to and from the USA and Canada use the piece concept. In Economy, Special fares include 1 bag of 23 kg; Saver, Flex and Flex Plus include 2 bags of 23 kg each. Each bag should be within 150 cm (length + width + height). The cabin bag is 7 kg, and only one piece is allowed when you board in India."
+        },
+        {
+          "q": "What is the Emirates baggage allowance from India to Dubai?",
+          "a": "Flights between India and Dubai use the weight concept. In Economy you get 20 kg on Special, 25 kg on Saver, 30 kg on Flex and 35 kg on Flex Plus, in as many bags as you like, with no bag over 32 kg. The cabin bag is 7 kg and 55 x 38 x 22 cm."
+        },
+        {
+          "q": "What is the Emirates baggage allowance from India to the UK and Europe?",
+          "a": "The same as to Dubai, because these routes use the weight concept: 20 kg (Special), 25 kg (Saver), 30 kg (Flex) or 35 kg (Flex Plus) in Economy, with no single bag over 32 kg."
+        },
+        {
+          "q": "Can I carry a laptop bag on Emirates from India?",
+          "a": "Not as a separate item in Economy. When you board in India, Emirates allows Economy and Premium Economy passengers only one cabin piece of up to 115 cm in total, so a laptop must fit inside your 7 kg cabin bag. Reasonable duty-free shopping is allowed on top."
+        },
+        {
+          "q": "What is the Emirates check-in baggage size?",
+          "a": "On weight-concept routes (India to Dubai, Europe, Asia), each bag should be within 203 cm in total (length + width + height) and 32 kg. On routes to the USA and Canada each bag should be within 150 cm; a bag between 150 and 203 cm pays an oversize fee."
+        },
+        {
+          "q": "Does Emirates give extra baggage to students?",
+          "a": "Emirates' baggage pages for India don't list a student baggage allowance, and we found no student offer page on its India website on 26 November 2026. Check the baggage shown for your fare before you pay."
+        },
+        {
+          "q": "How much does extra baggage cost on Emirates from India?",
+          "a": "At the airport, Emirates lists USD 15 per kg between India and the Middle East, USD 25 per kg to Europe or the Far East, and USD 40 per kg to Australia. Buying online in 5 kg blocks up to 4 hours before departure saves up to 45%. On USA and Canada routes an extra bag costs USD 250 at the airport on tickets issued from 8 September 2026."
+        }
       ],
       "sources": [
         {
@@ -149,37 +188,43 @@
         ],
         "total_cm": null,
         "summary": "One cabin bag up to 7 kg",
-        "detail": "Every Economy fare includes one cabin bag up to 7 kg and 50 x 37 x 25 cm, smaller than most Indian 55 cm trolleys. Your laptop must fit in it: a separate laptop bag counts as your cabin bag. Qatar Airways doesn't say whether wheels and handles count, so measure them in."
+        "detail": "Every Economy fare includes one cabin bag up to 7 kg and 50 x 37 x 25 cm. That is 5 cm shorter than the 55 cm cabin trolleys most Indian brands sell, so a bag that flies on IndiGo may be too big here. Your laptop must fit in it: a separate laptop bag counts as your cabin bag. Qatar Airways doesn't say whether wheels and handles count, so measure them in."
       },
       "personal": {
-        "summary": "Small extras are allowed on top: a small purse or briefcase, a coat, an umbrella, a small camera, some reading and duty-free bought that day. A separate laptop bag is not extra"
+        "summary": "Small extras are allowed on top: a small purse or briefcase, a coat or blanket, an umbrella, a walking stick, a small camera or binoculars case, some reading and duty-free bought on the day you fly. A separate laptop bag is not extra"
       },
       "checkin": [
         {
           "fare": "Economy Lite",
-          "allowance": "20 kg"
+          "allowance": "20 kg (USA and Canada: 1 bag of 23 kg)"
         },
         {
           "fare": "Economy Classic",
-          "allowance": "25 kg"
+          "allowance": "25 kg (USA and Canada: 2 bags of 23 kg)"
         },
         {
           "fare": "Economy Convenience",
-          "allowance": "30 kg"
+          "allowance": "30 kg (USA and Canada: 2 bags of 23 kg)"
         },
         {
           "fare": "Economy Comfort",
-          "allowance": "35 kg"
+          "allowance": "35 kg (USA and Canada: 2 bags of 23 kg)"
+        },
+        {
+          "fare": "Business / First",
+          "allowance": "2 bags of 32 kg to the USA and Canada"
         }
       ],
-      "checkin_summary": "20 kg to 35 kg, depending on your fare",
-      "checkin_note": "India flights use the weight concept: any number of bags within your total. No single bag may weigh more than 32 kg, and each bag can be up to 300 cm in total (length + width + height). Qatar Airways says exceptions apply on some routes, so check your ticket.",
-      "infant": "Infants get their own 10 kg checked allowance and a free stroller or carrycot, but no cabin bag of their own.",
+      "checkin_summary": "20 to 35 kg by fare; 1 or 2 bags of 23 kg to the USA and Canada",
+      "checkin_note": "Flights between India and Doha, the Gulf, Europe, the UK and Asia use the weight concept: as many bags as you like within your total, but no single bag over 32 kg or 300 cm (length + width + height). Flights to and from the Americas and Africa use the piece concept: 23 kg bags of up to 158 cm each. Larger items may have to go as cargo.",
+      "infant": "An infant (under 2) gets 10 kg of checked baggage (one 23 kg bag on Americas and Africa routes) and a free stroller or folding carrycot, but no cabin bag of their own. An infant car seat is free only if the baby has its own seat. Extra baggage can't be bought online for an infant.",
       "notes": [
         "Qatar Airways won't accept round or odd-shaped items, bags tied with rope or string, items wrapped in blankets or bags with loose straps. Carefully wrapped and sealed boxes within the limits are fine.",
-        "Power banks: up to two, each up to 100 Wh, in your cabin bag only. You can't charge a power bank on board. You may use one to charge a phone at quiet times of the flight, only while you keep it in your hand, not in a bag or overhead bin.",
+        "Power banks: up to two, each up to 100 Wh, in your cabin bag only. You can't charge a power bank on board. You may use one to charge a phone at quiet times of the flight, only while you hold it or keep it in sight, not in a bag or overhead bin.",
+        "Liquids in your cabin bag follow the 100 ml rule, in one clear bag of about 20 x 20 cm. Reasonable amounts of baby food or special diet food are allowed.",
         "Zamzam water: up to 5 litres in approved bottles, only for Hajj or Umrah pilgrims flying from Jeddah, Madinah or Taif (from Qatar Airways' travel agent notice of February 2026).",
-        "Spare batteries go in your cabin bag only. Devices in checked bags must be fully switched off, not in sleep mode."
+        "Spare batteries go in your cabin bag only. Devices in checked bags must be fully switched off, not in sleep mode.",
+        "Privilege Club members get extra baggage: Silver 15 kg or 1 bag, Gold 20 kg or 1 bag, Platinum 25 kg or 2 bags."
       ],
       "sources": [
         {
@@ -187,16 +232,129 @@
           "url": "https://www.qatarairways.com/en-in/baggage/allowance.html"
         },
         {
+          "label": "Excess baggage",
+          "url": "https://www.qatarairways.com/en-in/baggage/excess.html"
+        },
+        {
           "label": "Restricted items",
           "url": "https://www.qatarairways.com/en-in/baggage/restricted.html"
         },
         {
-          "label": "Travel planning for infants and children",
+          "label": "Sports equipment",
+          "url": "https://www.qatarairways.com/en-in/baggage/sports-baggage.html"
+        },
+        {
+          "label": "Travelling with animals",
+          "url": "https://www.qatarairways.com/en-in/baggage/animals.html"
+        },
+        {
+          "label": "Delayed, lost or damaged baggage",
+          "url": "https://www.qatarairways.com/en-in/baggage/mishandled.html"
+        },
+        {
+          "label": "Student Club",
+          "url": "https://www.qatarairways.com/en-in/student-club.html"
+        },
+        {
+          "label": "Privilege Club tiers",
+          "url": "https://www.qatarairways.com/en-in/Privilege-Club/membership-tiers.html"
+        },
+        {
+          "label": "Checking in",
+          "url": "https://www.qatarairways.com/en-in/services-checking-in.html"
+        },
+        {
+          "label": "Infants and children",
           "url": "https://www.qatarairways.com/en-in/family/child-fares-baggage.html"
+        },
+        {
+          "label": "Conditions of carriage",
+          "url": "https://www.qatarairways.com/en-in/legal/conditions-of-carriage.html"
         },
         {
           "label": "Travel Advisory: Carriage of Zamzam Water",
           "url": "https://www.qatarairways.com/tradeportal/en-lk/news-updates/2026/travel_advisory_carriage_of_zamzam_water.html"
+        }
+      ],
+      "checked": "2026-11-26",
+      "seo_title": "Qatar Airways baggage allowance from India: 7 kg, 50 x 37 x 25 cm",
+      "excess": {
+        "summary": "Buy extra baggage online, at a Qatar Airways office or through its contact centre more than 6 hours before departure to get the lower rate; from 6 hours to 1 hour before, you pay the higher airport rate",
+        "points": [
+          "On weight-concept routes, extra baggage is sold in 10 kg bundles. At the airport, Qatar Airways lists USD 30 per kg from India to Qatar or the Gulf, USD 40 per kg to Europe or South-East Asia, USD 55 to Japan or Korea, and USD 60 to Australia and New Zealand.",
+          "On routes to the Americas, an extra 23 kg bag costs USD 255 at the airport (USD 345 for a 32 kg bag). A bag between 23 and 32 kg, or between 158 and 300 cm, costs USD 90 more.",
+          "Extra baggage bought online can't be refunded and is lost if you change your trip. It's valid only on flights Qatar Airways operates itself, and is charged in the currency of the country you fly from.",
+          "Qatar Airways doesn't publish the online discount on its India excess baggage page (read 26 Nov 2026), so compare the price in Manage booking with the airport rates above."
+        ]
+      },
+      "sections": [
+        {
+          "h": "How Qatar Airways differs from other Gulf airlines",
+          "items": [
+            "Its cabin bag is the smallest of the big Gulf airlines: 50 x 37 x 25 cm, against 55 x 38 x 22 cm on Emirates, 56 x 36 x 23 cm on Etihad and 55 x 38 x 20 cm on flydubai.",
+            "It allows a checked bag up to 300 cm in total on weight-concept routes, more than Emirates' and flydubai's 203 cm.",
+            "It lets you carry two power banks, where Emirates, Etihad and flydubai allow only one.",
+            "Every Economy fare, even Lite, includes checked baggage. Etihad Basic and flydubai Lite include none."
+          ]
+        },
+        {
+          "h": "Qatar Airways baggage from India to the USA and Canada",
+          "p": "These flights use the piece concept. Economy Lite includes 1 bag of 23 kg, and Classic, Convenience and Comfort include 2 bags of 23 kg each, each up to 158 cm. Business and First include 2 bags of 32 kg. If a trip on more than one airline starts or ends in the USA or Canada, the baggage rules of the starting point apply to the whole trip. On flights from the USA, US security allows 1 cabin bag plus 1 personal item."
+        },
+        {
+          "h": "Student Club: extra baggage for students",
+          "p": "Qatar Airways Student Club is free for students aged 18 to 30 at an accredited college or university, checked online through SheerID. Members get 10 kg or 1 extra bag, depending on the route, plus fare discounts of 10% on the first flight, 15% on the second and 20% on the third and fourth, and 2 free date changes. Up to 3 companions on the same booking get the same benefits. Join before you book, and check that the extra baggage shows on your ticket."
+        },
+        {
+          "h": "Sports equipment, instruments and pets",
+          "items": [
+            "Sports equipment is free if it fits in your normal checked allowance. Above it, booked at least 6 hours before the flight, Qatar Airways lists USD 150 for up to 10 kg, USD 200 for 10 to 20 kg and USD 250 for 20 to 30 kg on weight-concept routes. Balls must be no more than 70% inflated.",
+            "Musical instruments can go in your checked allowance. A fragile instrument can fly in the cabin on a seat you buy for it, up to 75 kg and 120 cm per seat.",
+            "Dogs, cats and birds travel in the hold, not the cabin, for USD 450 per animal on most routes (USD 300 to and from Qatar), up to 75 kg with the cage. Ask at least 24 hours before the flight and carry a vet's fit-to-fly certificate from the last 10 days.",
+            "Falcons may travel in the Economy cabin (1 per passenger); from India to Qatar this costs USD 115. Emotional support animals are not accepted."
+          ]
+        },
+        {
+          "h": "Check-in from India",
+          "items": [
+            "Online check-in opens 48 hours before the flight and closes 90 minutes before (24 hours before on US flights).",
+            "Self-service kiosks are listed at Bengaluru, Chennai, Delhi, Goa, Hyderabad and Mumbai, and automated bag drop at Bengaluru, Hyderabad and Mumbai.",
+            "Qatar Airways' India pages don't give counter closing times for Indian airports, so check your ticket and reach the airport 3 hours early for an international flight."
+          ]
+        },
+        {
+          "h": "If your bag is delayed, lost or damaged",
+          "items": [
+            "Report it at the Qatar Airways baggage counter before you leave the arrivals hall, and keep the file reference number. You can follow the file online, or report online if you have already left.",
+            "Qatar Airways says most delayed bags are found within 24 hours and delivered to your home or hotel.",
+            "Its conditions of carriage set the deadlines for a written complaint: within 7 days of getting the bag for damage, and within 21 days of the bag being made available for a delay."
+          ]
+        }
+      ],
+      "faq_extra": [
+        {
+          "q": "What is the Qatar Airways baggage allowance from India to the USA?",
+          "a": "Flights to the USA and Canada use the piece concept. In Economy, Lite fares include 1 bag of 23 kg, and Classic, Convenience and Comfort include 2 bags of 23 kg each, each up to 158 cm in total. Business and First get 2 bags of 32 kg. The cabin bag is 7 kg and 50 x 37 x 25 cm."
+        },
+        {
+          "q": "What is the Qatar Airways baggage allowance from India to the UK and Europe?",
+          "a": "These routes use the weight concept: 20 kg on Economy Lite, 25 kg on Classic, 30 kg on Convenience and 35 kg on Comfort, in as many bags as you like, with no bag over 32 kg."
+        },
+        {
+          "q": "What are the Qatar Airways cabin baggage dimensions?",
+          "a": "50 x 37 x 25 cm and 7 kg in Economy. Many 55 cm cabin trolleys sold in India are too tall for this, so measure your bag with its wheels and handle."
+        },
+        {
+          "q": "Is there a 40 kg baggage allowance in Qatar Airways economy?",
+          "a": "Not on a standard India Economy fare, where the most is 35 kg (Comfort). Student Club members can get 10 kg more on weight-concept routes, and Privilege Club Silver, Gold and Platinum members get 15 to 25 kg more."
+        },
+        {
+          "q": "Does Qatar Airways give extra baggage to students from India?",
+          "a": "Yes, through the free Student Club for students aged 18 to 30: 10 kg or 1 extra bag depending on the route, plus fare discounts. Join and verify your student status before you book."
+        },
+        {
+          "q": "How do I claim for a damaged bag on Qatar Airways?",
+          "a": "Report it at the Qatar Airways baggage counter at the airport and get a file reference. Send the written complaint within 7 days of receiving the bag. For a delayed bag, the limit is 21 days from when the bag was made available to you."
         }
       ]
     },
@@ -217,38 +375,44 @@
         ],
         "total_cm": null,
         "summary": "One cabin bag up to 7 kg",
-        "detail": "Economy guests on every fare, including Basic, get one cabin bag up to 7 kg and 56 x 36 x 23 cm. Etihad says laptops, purses and documents must go inside your cabin bag. It doesn't say whether wheels and handles count, so measure them in."
+        "detail": "Economy guests on every fare, including Basic, get one cabin bag up to 7 kg and 56 x 36 x 23 cm. A standard 55 cm Indian cabin trolley fits by height, but many are 37 to 40 cm wide, over Etihad's 36 cm. Etihad's India pages list a second small bag (up to 5 kg) only for Business and First, so in Economy keep your laptop and handbag inside the 7 kg. Etihad doesn't say whether wheels and handles count, so measure them in."
       },
       "personal": {
-        "summary": "No separate personal item is confirmed for Economy: laptops and purses go inside your cabin bag"
+        "summary": "Etihad lists no extra personal item for Economy. Only Business and First get a second small bag (5 kg, 23 x 39 x 19 cm), so carry your laptop inside the 7 kg cabin bag"
       },
       "checkin": [
         {
-          "fare": "Basic",
+          "fare": "Economy Basic",
           "allowance": "No checked bag (you can pay for one)"
         },
         {
-          "fare": "Value",
-          "allowance": "25 kg"
+          "fare": "Economy Value",
+          "allowance": "25 kg (USA and Canada: 2 bags of 23 kg)"
         },
         {
-          "fare": "Comfort",
-          "allowance": "30 kg"
+          "fare": "Economy Comfort",
+          "allowance": "30 kg (USA and Canada: 2 bags of 23 kg)"
         },
         {
-          "fare": "Deluxe",
-          "allowance": "40 kg"
+          "fare": "Economy Deluxe",
+          "allowance": "40 kg (USA and Canada: 2 bags of 23 kg)"
+        },
+        {
+          "fare": "Business / First",
+          "allowance": "2 bags of 32 kg to the USA and Canada"
         }
       ],
-      "checkin_summary": "None on Basic; 25 kg to 40 kg on other fares",
-      "checkin_note": "India flights use the weight concept: any number of bags within your total. No single bag may weigh more than 32 kg. Extra baggage is much cheaper if you buy it online before you fly.",
-      "infant": "Infants (not on Basic fares) get 10 kg of checked baggage, one 5 kg cabin piece and a free pushchair, carrycot or car seat.",
+      "checkin_summary": "None on Basic; 25 to 40 kg on other fares; 2 bags of 23 kg to the USA and Canada",
+      "checkin_note": "Flights between India and Abu Dhabi, Europe, the UK and Asia use the weight concept: as many bags as you like within your total, but no single bag over 32 kg. Etihad's standard bag size is 76 x 52 x 30 cm; a bigger bag pays an oversize fee, and nothing may be over 300 cm in total. Flights to the USA and Canada use the piece concept: 2 bags of 23 kg on every Economy fare except Basic. These figures are for tickets issued from 18 June 2026.",
+      "infant": "An infant (7 days to under 2 years, not on Basic fares) gets 10 kg of checked baggage (23 kg to the USA and Canada), one 5 kg cabin piece and a free pushchair, carrycot or car seat.",
       "notes": [
         "Power banks: only one, up to 100 Wh, with the rating marked. You can't use it on board, including to charge a phone. Keep it switched off, under the seat or in the seat pocket.",
-        "On flights to and from India, the MOBIKINS MK-PB-04 power bank is banned in all bags.",
+        "On flights to and from India, the recalled MOBIKINS MK-PB-04 power bank is banned in all bags.",
         "Satellite phones and GPS devices (such as Garmin) need permission from India's Department of Telecommunications to be taken to or from India.",
         "Strong-smelling fruit such as jackfruit and durian isn't allowed on Etihad flights.",
-        "Zamzam water: one package of up to 5 litres free, sealed in a plastic container inside a cardboard box sold at the airport. From Jeddah you need an Umrah or Haj visa. Only 100 ml is allowed in the cabin."
+        "Zamzam water: one package of up to 5 litres free, sealed in a plastic container inside a cardboard box sold at the airport. From Jeddah you need an Umrah or Haj visa. Only 100 ml is allowed in the cabin.",
+        "Medicines go in your cabin bag with a prescription or doctor's letter. For controlled medicines into Abu Dhabi, Etihad says to check with the UAE Ministry of Health and Prevention.",
+        "Etihad Guest members can choose extra baggage as a tier benefit (15 or 20 kg, or 1 bag, on higher tiers), but never on Basic fares."
       ],
       "sources": [
         {
@@ -272,12 +436,113 @@
           "url": "https://www.etihad.com/en-in/plan/travel-companion/flying-with-children"
         },
         {
+          "label": "Travelling with pets",
+          "url": "https://www.etihad.com/en-in/plan/travel-companion/travelling-with-pets"
+        },
+        {
           "label": "Special equipment and other items",
           "url": "https://www.etihad.com/en-in/help/baggage-information/special-equipment-and-other-items"
         },
         {
           "label": "Baggage calculator",
-          "url": "https://www.etihad.com/en-in/help/baggage-information/bagagge-calculator"
+          "url": "https://www.etihad.com/en-in/help/baggage-information/baggage-calculator"
+        },
+        {
+          "label": "Airport information",
+          "url": "https://www.etihad.com/en-in/plan/airport-information"
+        },
+        {
+          "label": "Check-in",
+          "url": "https://www.etihad.com/en-in/manage/check-in"
+        },
+        {
+          "label": "Etihad Guest tiers and benefits",
+          "url": "https://www.etihad.com/en-in/etihadguest/tiers-and-benefits"
+        }
+      ],
+      "checked": "2026-11-26",
+      "seo_title": "Etihad baggage allowance from India: 7 kg cabin, 25 to 40 kg",
+      "excess": {
+        "summary": "Buy extra baggage online in Manage my booking, up to 4 hours before departure (30 hours on USA and Canada bookings); Etihad says this saves up to 65%",
+        "points": [
+          "Extra baggage is priced per 5 kg. From the Indian subcontinent, Etihad's baggage page lists USD 26 to 75 per 5 kg to the Middle East or within the region, USD 44 to 125 to Europe or Asia, and USD 70 to 200 to Australia. The price depends on when and where you buy.",
+          "On USA and Canada routes, an extra bag bought at the airport costs USD 260 up to 23 kg or USD 300 up to 32 kg, on tickets issued from 23 April 2026.",
+          "Each extra bag can weigh up to 32 kg. Prepaid baggage is usually not refundable unless Etihad cancels or changes your flight.",
+          "Use Etihad's baggage calculator to see your allowance before you pay for more."
+        ]
+      },
+      "sections": [
+        {
+          "h": "How Etihad differs from other Gulf airlines",
+          "items": [
+            "Basic fares include no checked bag at all; every Qatar Airways and Emirates Economy fare includes at least 20 kg.",
+            "Its top Economy fare, Deluxe, includes 40 kg: more than the 35 kg top Economy fare on Qatar Airways and Emirates.",
+            "Its cabin bag is 56 x 36 x 23 cm: 1 cm taller than Emirates' but 2 cm narrower.",
+            "Small cats and dogs can fly in the Economy cabin, which Emirates, Qatar Airways and flydubai don't allow."
+          ]
+        },
+        {
+          "h": "Etihad baggage from India to the USA and Canada",
+          "p": "These flights use the piece concept: Economy Value, Comfort and Deluxe include 2 bags of 23 kg each, Basic includes none, and Business and First include 2 bags of 32 kg. US Preclearance still runs in Abu Dhabi: you clear US immigration there, so be at Terminal A at least 4 hours before the flight and at Preclearance 2 hours before. Your bags are tagged through to your US airport."
+        },
+        {
+          "h": "Sports equipment and musical instruments",
+          "items": [
+            "Since 1 June 2026, one golf bag counts as part of your normal checked allowance. Skis, surfboards, bicycles and fishing and scuba gear also go within it, up to 300 cm in total.",
+            "A television of 40 inches or more pays a USD 100 oversize fee.",
+            "A small instrument can be your cabin bag. A larger one can go in the hold (up to 32 kg and 300 cm) or on a seat you buy for it (up to 155 x 22 x 43 cm and 75 kg)."
+          ]
+        },
+        {
+          "h": "Pets",
+          "items": [
+            "Cats and dogs at least 16 weeks old can fly in the cabin, from USD 399 in Economy, if they weigh up to 8 kg with the carrier and the carrier is no more than 40 x 40 x 22 cm.",
+            "Send the request form 7 days before the flight and the documents 72 hours before, and check in 3 hours early.",
+            "From India, pets and service dogs can't fly to or from Ahmedabad, Kozhikode, Jaipur or Thiruvananthapuram, and falcons can't fly to or from Kochi."
+          ]
+        },
+        {
+          "h": "Check-in times",
+          "items": [
+            "Online check-in opens 30 hours before the flight.",
+            "In Abu Dhabi, Economy check-in opens 4 hours before departure and closes 60 minutes before.",
+            "Etihad's India pages don't give counter times for Indian airports, so check your ticket and arrive 3 hours early for an international flight."
+          ]
+        },
+        {
+          "h": "If your bag is delayed, lost or damaged",
+          "items": [
+            "Report it at the airport before you leave and get a Property Irregularity Report (PIR). You can track the bag on WorldTracer with its reference.",
+            "For damage, report it in writing within 7 days and send the claim within 21 days. For a delayed bag, claim for essentials within 21 days; a bag not delivered within 21 days counts as lost.",
+            "Etihad doesn't pay for damage to locks, zip pulls, wheels or side handles, minor scratches, or bags over 5 years old.",
+            "For valuable checked items, Etihad sells excess value cover: USD 125 for cover up to USD 2,500, with a declaration form shown at the airport."
+          ]
+        }
+      ],
+      "faq_extra": [
+        {
+          "q": "What is the Etihad baggage allowance from India to the USA?",
+          "a": "The USA and Canada use the piece concept: Economy Value, Comfort and Deluxe include 2 bags of 23 kg each, and Basic includes none. Business and First include 2 bags of 32 kg. The cabin bag is 7 kg and 56 x 36 x 23 cm."
+        },
+        {
+          "q": "What is the Etihad baggage allowance from India to the UK and Europe?",
+          "a": "These routes use the weight concept: Basic includes no checked bag, Value 25 kg, Comfort 30 kg and Deluxe 40 kg, with no single bag over 32 kg."
+        },
+        {
+          "q": "What is the Etihad baggage allowance from India to the UAE?",
+          "a": "The same weight-concept allowance: none on Basic, 25 kg on Value, 30 kg on Comfort and 40 kg on Deluxe, plus a 7 kg cabin bag on every fare."
+        },
+        {
+          "q": "What are the Etihad checked baggage dimensions?",
+          "a": "Etihad's standard checked bag is up to 76 x 52 x 30 cm. A bigger bag pays an oversize fee, and no item may be more than 300 cm in total (length + width + height). Each bag can weigh up to 32 kg."
+        },
+        {
+          "q": "Does Etihad give extra baggage to students?",
+          "a": "We found no current student baggage offer on Etihad's India website on 26 November 2026; its old student offer from 2021 has ended. Check the baggage on your fare before you pay."
+        },
+        {
+          "q": "How do I claim for damaged baggage on Etihad?",
+          "a": "Report the damage at the airport and get a PIR, then report it in writing within 7 days and send the claim form within 21 days. Etihad doesn't cover damage to wheels, locks, zip pulls or side handles, or minor scratches."
         }
       ]
     },
@@ -298,34 +563,40 @@
         ],
         "total_cm": null,
         "summary": "One cabin bag up to 7 kg",
-        "detail": "Every fare, including Lite, includes one cabin bag up to 7 kg and 55 x 38 x 20 cm. flydubai checks the size and weight of all hand baggage at the gate, and charges for each item over the limit. It doesn't say whether wheels and handles count, so measure them in."
+        "detail": "Every Economy fare, including Lite, includes one cabin bag up to 7 kg and 55 x 38 x 20 cm. At 20 cm, it's shallower than the 25 cm of most Indian cabin trolleys, so check the depth of yours. flydubai checks the size and weight of all hand baggage at the gate, duty-free included, and charges AED 200 (USD 55) for each item over the limit. At the check-in desk, a bag that's too big must be checked in or repacked. Business Class gets 2 cabin bags, 14 kg in total and no more than 7 kg each. flydubai doesn't say whether wheels and handles count, so measure them in."
       },
       "personal": {
         "summary": "One personal item as part of your hand baggage: a laptop bag, small handbag or satchel up to 25 x 33 x 20 cm that fits under the seat, plus one duty-free bag"
       },
       "checkin": [
         {
-          "fare": "Lite",
+          "fare": "Economy Lite",
           "allowance": "No checked bag (you can pay for one)"
         },
         {
-          "fare": "Value",
+          "fare": "Economy Value",
           "allowance": "20 kg"
         },
         {
-          "fare": "Flex",
+          "fare": "Economy Flex",
           "allowance": "30 kg"
+        },
+        {
+          "fare": "Business",
+          "allowance": "40 kg"
         }
       ],
-      "checkin_summary": "None on Lite; 20 kg on Value and 30 kg on Flex",
-      "checkin_note": "Up to 3 bags within your total. Each bag must weigh less than 32 kg and be no more than 203 cm in total. flydubai says allowances may vary by route, so check your ticket.",
-      "infant": "If your fare includes baggage, an infant gets 5 kg of hand baggage and 10 kg of checked baggage, plus a folding stroller to the gate.",
+      "checkin_summary": "None on Lite; 20 kg on Value, 30 kg on Flex and 40 kg in Business",
+      "checkin_note": "You can split your allowance into up to 3 bags. Each bag must weigh less than 32 kg and be no more than 203 cm in total (height + width + depth); bigger bags go as cargo. A fourth bag pays a handling fee on top of excess rates. flydubai says the allowance may vary by route, so check your ticket. On bookings with a partner airline, the piece concept may apply, with bags of up to 150 cm.",
+      "infant": "If your fare includes baggage, an infant gets 5 kg of hand baggage and 10 kg of checked baggage. One fully folding stroller goes free on top, and you can usually keep it to the gate. Strollers aren't accepted as checked bags on visa-change bookings.",
       "notes": [
         "Bags must have at least one flat side and no loose straps. Odd-shaped items must be packed in a box, and items must not be strapped together.",
-        "Don't put money, jewellery, gold or important documents in checked bags. If your cabin bag is sent to the hold at the gate, take these out first, along with medicines and power banks.",
-        "Power banks: one only, up to 100 Wh, in hand baggage. You can't use or charge it during the flight.",
-        "Zamzam water: from Jeddah, Madinah, Taif or Yanbu, up to 5 litres free as checked baggage, sealed in approved packaging.",
-        "Medicines into the UAE: controlled medicines need approval from the UAE health ministry before you travel."
+        "Don't put money, jewellery, gold or important documents in checked bags. If your cabin bag is sent to the hold at the gate, take these out first, along with medicines, power banks and e-cigarettes.",
+        "Power banks: one only, up to 100 Wh, switched off, in hand baggage. You can't use or charge it during the flight, and it isn't allowed in checked bags.",
+        "E-cigarettes and vapes go in hand baggage only, and you can't use or charge them on board. Fireworks, crackers and sparklers are banned in all bags.",
+        "Zamzam water: from Jeddah, Madinah, Taif or Yanbu, up to 5 litres free on top of your allowance, sealed in approved packaging. From other Saudi airports, it counts towards your allowance.",
+        "Medicines into the UAE: controlled medicines need approval from the UAE Ministry of Health and Prevention before you travel. Carry the prescription and no more than 3 months' supply.",
+        "Skywards members get extra kilos when their fare includes checked baggage: Silver 12 kg, Gold 16 kg and Platinum 20 kg."
       ],
       "sources": [
         {
@@ -337,8 +608,111 @@
           "url": "https://www.flydubai.com/en/flying-with-us/baggage/check-in-baggage/"
         },
         {
+          "label": "Airport baggage rates",
+          "url": "https://www.flydubai.com/en/flying-with-us/baggage/airport-baggage-rates"
+        },
+        {
           "label": "Fare types and rules",
           "url": "https://www.flydubai.com/en/flying-with-us/fare-types/"
+        },
+        {
+          "label": "Sporting equipment",
+          "url": "https://www.flydubai.com/en/flying-with-us/baggage/sporting-equipment"
+        },
+        {
+          "label": "Dangerous goods",
+          "url": "https://www.flydubai.com/en/flying-with-us/baggage/dangerous-goods"
+        },
+        {
+          "label": "Forbidden items",
+          "url": "https://www.flydubai.com/en/flying-with-us/baggage/forbidden-items"
+        },
+        {
+          "label": "Delayed or damaged baggage",
+          "url": "https://www.flydubai.com/en/flying-with-us/baggage/delayed-or-damaged-baggage"
+        },
+        {
+          "label": "Check-in",
+          "url": "https://www.flydubai.com/en/flying-with-us/check-in/"
+        },
+        {
+          "label": "India destinations",
+          "url": "https://www.flydubai.com/en/destinations/indian-subcontinent/india/"
+        },
+        {
+          "label": "Skywards tiers",
+          "url": "https://www.flydubai.com/en/skywards/membership-tiers"
+        }
+      ],
+      "checked": "2026-11-26",
+      "seo_title": "flydubai baggage allowance from India: 7 kg cabin, 20 or 30 kg",
+      "excess": {
+        "summary": "Buy extra baggage online when you book, in Manage booking up to 6 hours before departure, or during online check-in; flydubai says this is up to 70% cheaper than at the airport",
+        "points": [
+          "At the airport, flydubai lists AED 50 per kg between Dubai and India (AED 40 to 80 per kg on its other routes from Dubai). Some airports take cash only, and extra baggage at the airport depends on space.",
+          "flydubai doesn't publish an online price list: the price depends on your route, date and how early you buy. Extra allowance comes in 20, 30 or 40 kg steps.",
+          "Baggage add-ons can be cancelled only up to 24 hours before departure."
+        ]
+      },
+      "sections": [
+        {
+          "h": "flydubai flights from India",
+          "p": "flydubai flies to Dubai from 8 Indian cities: Ahmedabad, Delhi, Hyderabad, Kochi, Kolkata, Kozhikode, Lucknow and Mumbai. It flies from Dubai International Terminal 2, not Terminal 3 like Emirates. Its pages publish no India-only baggage allowance, so the fare table above applies, and your ticket shows the exact figure."
+        },
+        {
+          "h": "How flydubai differs from Emirates",
+          "items": [
+            "Lite fares include no checked bag. Every Emirates Economy fare includes at least 20 kg.",
+            "flydubai allows a small personal item (25 x 33 x 20 cm) as well as the 7 kg cabin bag; Emirates allows only one piece when you board in India.",
+            "Its cabin bag is 20 cm deep against Emirates' 22 cm, and the gate check is strict: AED 200 for each bag over the limit.",
+            "Pets can't travel at all, either in the cabin or in the hold (falcons only with approval)."
+          ]
+        },
+        {
+          "h": "Sports equipment and instruments",
+          "items": [
+            "Sports equipment is free within your checked allowance; above it, normal excess rates apply. Book it at least 24 hours before the flight. Each item can be up to 32 kg and 300 cm in total.",
+            "A musical instrument or other fragile item can fly on a seat you buy for it, in Economy only and one per passenger, up to 75 kg. Call flydubai at least 4 hours before the flight. The extra seat gets no baggage allowance."
+          ]
+        },
+        {
+          "h": "Check-in times",
+          "items": [
+            "Online check-in opens 48 hours before the flight and closes 75 minutes before. It isn't available on Umrah and Hajj bookings.",
+            "Airport check-in desks open 3 hours before departure and close 60 minutes before. Clear security at least 60 minutes before; gates close 25 minutes before departure.",
+            "At Dubai Terminal 2, Economy bag drop is at desks 17 to 21."
+          ]
+        },
+        {
+          "h": "If your bag is delayed, lost or damaged",
+          "items": [
+            "Report it at the baggage desk at your arrival airport before you leave, and keep the PIR number. If you couldn't, use flydubai's Contact us form within 7 days of arrival.",
+            "If the bag isn't found after 3 days, update the list of what's inside online. After 5 days, fill in the baggage inventory and claim form.",
+            "For damage, upload your boarding pass, a photo and a repair receipt within 7 days of getting the bag.",
+            "For a delayed bag, flydubai pays up to USD 50 a day for essentials, for up to 3 days, as a flydubai voucher. This isn't paid if you live in the country you arrive in."
+          ]
+        }
+      ],
+      "faq_extra": [
+        {
+          "q": "What is the flydubai baggage allowance from India to Dubai?",
+          "a": "In Economy, Lite includes only a 7 kg cabin bag, Value includes 20 kg of checked baggage and Flex 30 kg; Business includes 40 kg. You can split the checked allowance into up to 3 bags, each under 32 kg. Your ticket shows the exact figure for your route."
+        },
+        {
+          "q": "How many bags are allowed on flydubai?",
+          "a": "One cabin bag of up to 7 kg plus one small personal item (25 x 33 x 20 cm) and a duty-free bag. If your fare includes checked baggage, you can split it into up to 3 bags."
+        },
+        {
+          "q": "What are flydubai baggage charges?",
+          "a": "Bought online, flydubai says extra baggage is up to 70% cheaper than at the airport, where it lists AED 50 per kg between Dubai and India. A cabin bag over the size or weight limit at the gate costs AED 200 (USD 55)."
+        },
+        {
+          "q": "Can I add baggage on flydubai after booking?",
+          "a": "Yes. Add it in Manage booking up to 6 hours before departure, or during online check-in from 48 hours before. You can cancel the add-on only up to 24 hours before the flight."
+        },
+        {
+          "q": "Is there a 40 kg baggage allowance on flydubai?",
+          "a": "Business Class includes 40 kg. In Economy, you can buy extra allowance up to 40 kg, and Skywards members get up to 20 kg more on fares with checked baggage."
         }
       ]
     },
