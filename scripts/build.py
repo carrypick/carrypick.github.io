@@ -413,11 +413,12 @@ def page(cfg, title, description, body, depth, path, schema=None, og_type="websi
       <li><a href="{p}guides/index.html">Buying guides</a></li>
       {('<li><a href="%strips/index.html">Trip guides</a></li>' % p) if TRIPS_DIR.exists() else ""}
       {"".join('<li><a href="%s%s">%s</a></li>' % (p, t[0], e(t[1])) for t in TOOLS)}
-      <li><a href="{p}about.html">About us</a></li>
-      <li><a href="{p}contact.html">Contact</a></li>
       {follow_links(cfg)}
     </ul></div>
-    <div><h4>Legal</h4><ul>
+    <div><h4>About</h4><ul>
+      <li><a href="{p}about.html">About CarryPick</a></li>
+      <li><a href="{p}editorial-policy.html">Editorial policy and corrections</a></li>
+      <li><a href="{p}contact.html">Contact</a></li>
       <li><a href="{p}disclosure.html">Affiliate disclosure</a></li>
       <li><a href="{p}privacy.html">Privacy policy</a></li>
     </ul></div>
@@ -1209,6 +1210,81 @@ def trip_cards(trips, p):
     return '<div class="guide-grid">%s</div>' % "".join(cards)
 
 
+# Trip guides hub: groups of slugs with a short description each. A trip not named here lands in "More trip guides".
+TRIP_GROUPS = [
+    ("months", "Where to go, month by month",
+     "Month hubs compare places in India and abroad where the weather is good that month, with festivals, crowds and what to pack. Start here if you know when you can travel but not where.",
+     ["where-to-go-in-december-january", "where-to-go-in-february", "where-to-go-in-march", "where-to-go-in-april",
+      "where-to-go-in-may", "where-to-go-in-june", "best-time-to-visit-india"]),
+    ("holidays", "Holidays, festivals and long weekends",
+     "Dated plans for New Year, Republic Day, Holi, the Rann Utsav and the Char Dham Yatra: when they fall, how busy it gets and what to book early.",
+     ["new-year-trips-2027", "goa-new-year-2027", "dubai-new-year-2027", "republic-day-long-weekend-2027",
+      "republic-day-parade-tickets-2027", "holi-2027", "rann-utsav-2026", "char-dham-yatra-2027"]),
+    ("ideas", "Ideas and short breaks",
+     "Lists to help you choose: weekend getaways from big cities, honeymoon places in India and abroad, and a country-by-country comparison for your first trip abroad.",
+     ["weekend-getaways-from-delhi", "weekend-getaways-from-mumbai", "weekend-getaways-from-bangalore",
+      "honeymoon-destinations-in-india", "honeymoon-destinations-outside-india", "international-trips-from-india"]),
+    ("himalaya", "India: the Himalaya, hills and snow",
+     "Hill towns, snow and high passes in the north and east. These guides cover road closures, permits where needed, altitude and how cold it really gets.",
+     ["manali", "manali-in-january", "shimla-in-december", "kashmir-in-december", "kashmir-in-january", "gulmarg-in-december",
+      "gulmarg-in-january", "auli-in-december", "mussoorie-in-december", "nainital-in-december", "rishikesh-in-december",
+      "ladakh-trip-guide", "spiti-valley-trip-guide", "spiti-in-winter", "sikkim-trip-plan", "darjeeling-in-december", "meghalaya-in-december"]),
+    ("south", "India: beaches, backwaters and the south",
+     "Goa, Kerala, the Andamans and the southern hills: the dry season, getting there, beach and park rules, and what to pack for heat and rain.",
+     ["goa", "goa-in-january", "kerala", "kerala-in-january", "andaman-in-december", "pondicherry-in-december",
+      "coorg-in-december", "munnar-in-december", "ooty-in-december", "hampi-in-december"]),
+    ("north", "India: Rajasthan, wildlife and heritage",
+     "Desert cities, forts, tiger parks and the ghats of Varanasi, best in the cooler months from about October to March.",
+     ["jaipur", "udaipur", "jaisalmer-in-december", "rajasthan-in-january", "ranthambore-in-december", "jim-corbett-in-december", "varanasi-in-december"]),
+    ("visiting", "Visiting India from abroad",
+     "For travellers coming to India: the e-Visa, SIM cards, UPI and cash, the best time to visit, and what to pack.",
+     ["visiting-india", "india-e-visa-for-tourists", "india-sim-card-upi-and-money-for-tourists"]),
+    ("neighbours", "Abroad: India's neighbours and the islands",
+     "Short flights or a road trip from India: Nepal, Bhutan, Sri Lanka and island trips to the Maldives, Mauritius and the Seychelles.",
+     ["nepal-in-december", "bhutan-in-december", "bhutan-by-road", "sri-lanka-trip-from-india", "maldives-trip-from-india",
+      "mauritius-trip-from-india", "seychelles-trip-from-india"]),
+    ("asia", "Abroad: South-East and East Asia",
+     "Popular first trips abroad from India, with visa rules for Indian passport holders, the dry and rainy seasons, and getting around.",
+     ["thailand-trip-from-india", "thailand-in-january", "bali-trip-from-india", "bali-in-january", "vietnam-trip-from-india",
+      "vietnam-in-january", "singapore-trip-from-india", "malaysia-trip-from-india", "philippines-trip-from-india",
+      "cambodia-trip-from-india", "hong-kong-trip-from-india", "japan-trip-from-india", "south-korea-trip-from-india"]),
+    ("west-asia", "Abroad: the Middle East, Turkey and Central Asia",
+     "Dubai, Oman, Turkey, Egypt and the Caucasus and Central Asian countries a few hours from India, with their hot and cool seasons.",
+     ["dubai-trip-from-india", "dubai-in-january", "oman-trip-from-india", "turkey-trip-from-india", "egypt-trip-from-india",
+      "georgia-trip-from-india", "azerbaijan-trip-from-india", "kazakhstan-trip-from-india", "uzbekistan-trip-from-india"]),
+    ("long-haul", "Abroad: Europe, the Americas, Africa and Oceania",
+     "Longer trips that need more planning: visas, flight time, seasons that are the opposite of India's in the south, and what to pack for cold weather.",
+     ["europe-trip-from-india", "uk-trip-from-india", "russia-trip-from-india", "usa-trip-from-india", "canada-trip-from-india",
+      "kenya-safari-from-india", "australia-trip-from-india", "new-zealand-trip-from-india"]),
+]
+
+
+def trip_hub_groups(trips, p=""):
+    """The trips hub body: each group with its description and a described, dated link list."""
+    by_slug = {t["slug"]: t for t in trips}
+    used = set()
+    out = []
+    nav = []
+
+    def row(t):
+        used.add(t["slug"])
+        best = '<span class="hub-best">Best time: %s</span>' % e(t["best"]) if t.get("best") and t.get("hub_title") != "no" else ""
+        return (f'<li><a href="{p}{t["slug"]}.html">{e(t["title"])}</a><span>{e(t["description"])}</span>'
+                f'{best}<span class="hub-date">Updated {fmt_date(t["updated"])}</span></li>')
+
+    groups = [(gid, title, text, [by_slug[s_] for s_ in slugs if s_ in by_slug]) for gid, title, text, slugs in TRIP_GROUPS]
+    named = {s_ for _, _, _, slugs in TRIP_GROUPS for s_ in slugs}
+    rest = sorted((t for t in trips if t["slug"] not in named), key=lambda t: t["title"])
+    if rest:
+        groups.append(("more", "More trip guides", "Newer guides that don't fit a group above yet.", rest))
+    for gid, title, text, rows in groups:
+        if not rows:
+            continue
+        nav.append('<a class="trip-chip" href="#%s">%s</a>' % (gid, e(title.split(":")[-1].strip().capitalize() if ":" in title else title)))
+        out.append(f'<h2 id="{gid}">{e(title)}</h2>\n<p>{e(text)}</p>\n<ul class="hub-list">{"".join(row(t) for t in rows)}</ul>')
+    return '<div class="trip-chips">%s</div>\n%s' % ("".join(nav), "\n".join(out))
+
+
 def build_trips(cfg, trips, deals_by_asin, pages, lastmod):
     """Destination trip guides from content/trips/*.md (front matter: place, best, glance "Label=Value | ...", packing)."""
     for t in trips:
@@ -1255,11 +1331,17 @@ def build_trips(cfg, trips, deals_by_asin, pages, lastmod):
         lastmod[path] = t["updated"]
 
     places = ", ".join(t.get("place", t["title"]) for t in trips if t.get("hub_title") != "no")
-    inner = """<nav class="crumbs"><a href="../index.html">Home</a><span>/</span>Trip guides</nav>
-      <h1>Trip guides for India</h1>
-      <p class="muted small">When to go, how to get there, local rules and what to pack</p>"""
+    newest = max(t["updated"] for t in trips)
+    inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span>Trip guides</nav>
+      <h1>Trip guides for India and abroad</h1>
+      <p class="muted small">When to go, how to get there, local rules and what to pack &middot; last updated {fmt_date(newest)}</p>"""
     body = f"""{page_head("travel-gear", f'<div class="media media-tile tint-travel-gear">{icon("pin", "icon media-icon")}</div>', inner, "../")}
-<div class="wrap section">{trip_cards(trips, "../")}</div>
+<div class="wrap"><article class="guide">
+<p class="lead">{len(trips)} trip guides for places in India and abroad, written for travellers from India and visitors to India. Each guide covers the best time to go, the weather, how to get there and get around, local rules and fees, and what to pack.</p>
+<p>The guides are grouped below: month hubs if you know when you can travel, holiday and long-weekend plans, places in India by region, and countries abroad. Every guide links to a <a href="../packing/index.html">packing checklist</a>, the <a href="../baggage/index.html">airline baggage rules</a> and <a href="../baggage/can-i-carry.html">what you can carry on the flight</a>.</p>
+<p class="checked"><strong>How we check:</strong> each place guide ends with a "Checked on" line that names the official pages it uses, such as state and national tourism boards, the weather office, airports, railways, park authorities and visa sites, and the date we read them. Comparison pages, such as weekend getaways and the December hub, link to those place guides. Each link below shows when that guide was last updated. When a fact comes from news reports instead, the guide says so. Found a mistake? See our <a href="../editorial-policy.html">corrections policy</a>.</p>
+{trip_hub_groups(trips)}
+</article></div>
 {telegram_band(cfg, "../")}"""
     crumbs = crumbs_schema(cfg, [("Home", ""), ("Trip guides", "trips/index.html")])
     pages.append(write("trips/index.html", page(cfg, "Trip guides for India: %s" % places,
@@ -1648,15 +1730,60 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
                  if label == "Most room in a backpack"]
     hub_picks = top_picks(cfg, hub_rows, "../", "Cabin bags that fit by their listed size",
                           '<a href="#our-picks-fit">See all our picks against each airline</a>')
+    # Grouped, described links: domestic, international by region, rules by item, sizes and other rules
+    def link_list(items):
+        return '<ul class="hub-list">%s</ul>' % "".join(
+            f'<li><a href="{href}">{e(name)}</a><span>{e(text)}</span></li>' for href, name, text in items if text is not None)
+
+    def intl_group(key):
+        return [(f'{a["slug"]}.html', a["name"].replace(" (international)", ""), a["cabin"]["summary"])
+                for a in intl_airlines if a.get("region") == key]
+
+    items_data = json.loads(FLIGHT_ITEMS_FILE.read_text(encoding="utf-8")) if FLIGHT_ITEMS_FILE.exists() else None
+    item_count = sum(len(g["items"]) for g in items_data["groups"]) if items_data else 0
+    carry_pages = sorted(CARRY_DIR.glob("*.md")) if CARRY_DIR.exists() else []
+    lo, hi = intl_checked(intl) if intl else ("", "")
+    intl_when = (fmt_date(lo) if lo == hi else "between %s and %s" % (fmt_date(lo), fmt_date(hi))) if lo else ""
+    groups_html = f"""<h2 id="find-your-rules">Find the rules you need</h2>
+<h3>Domestic flights within India</h3>
+<p>India's five main airlines on domestic economy fares. Each page has the cabin bag size and weight, the extra small bag, free check-in baggage by fare type, and the airline's own source links.</p>
+{link_list([(f'{a["slug"]}.html', a["name"] + " baggage rules", "Cabin: %s. Free check-in: %s." % (a["cabin"]["summary"].lower().replace("one cabin bag", "one bag"), a["checkin_summary"])) for a in airlines])}"""
+    if intl_airlines:
+        groups_html += f"""
+<h3>International flights from India</h3>
+<p>Economy rules for {len(intl_airlines)} airlines on flights between India and {intl_where(intl_airlines)}. Allowances change with the route and fare, so open the airline page for your route. Compare them all on the <a href="international.html">international baggage rules</a> page.</p>"""
+        for key, label in (("Indian airline abroad", "Indian airlines on international routes"), ("Gulf", "Gulf and Middle East airlines"),
+                           ("Asia", "South-East and East Asian airlines"), ("Europe", "European and Turkish airlines")):
+            group = intl_group(key)
+            if group:
+                groups_html += f'\n<h4 class="hub-sub">{label}</h4>\n{link_list(group)}'
+    if items_data:
+        groups_html += f"""
+<h3>Rules by item: can I carry it?</h3>
+<p>Whether {item_count} everyday items can go in your cabin bag, your check-in bag or neither, from airline and airport pages. Start with the <a href="can-i-carry.html">full can-I-carry list</a>, or open an item:</p>
+<div class="trip-chips">{"".join('<a class="trip-chip" href="can-i-carry/%s.html">%s</a>' % (f.stem, e(f.stem.replace("-", " ").capitalize())) for f in carry_pages)}</div>"""
+    groups_html += "\n<h3>Bag sizes, extra kilos, customs and trains</h3>\n" + link_list([
+        ("checker.html", "Cabin bag checker", "Type your bag's size and weight and see which airlines take it."),
+        ("luggage-size-chart.html", "Luggage size chart", "20, 24 and 28 inch trolleys in cm, and airline cabin limits in inches."),
+        ("../guides/carry-on-size-by-airline.html", "Carry-on size by airline", "Cabin bag size and weight for airlines worldwide."),
+        (EXTRA_PATH[8:], "Extra baggage charges", "Prepaid slabs and airport rates per kg on Indian airlines.") if extra else ("", "", None),
+        ("customs.html", "Indian customs rules", "The duty-free allowance, gold, alcohol and cash when you fly into India.") if CUSTOMS_DIR.exists() else ("", "", None),
+        ("train-luggage-rules.html", "Train luggage rules", "Free luggage allowance by class on Indian Railways.") if RAILWAYS_FILE.exists() else ("", "", None)])
+    how_check = ("<p class=\"checked\"><strong>How we check:</strong> we read each airline's own baggage pages (linked at the bottom of every airline page) "
+                 "and write down the economy limits with the date. Indian airlines were last checked on %s%s%s. "
+                 "When an airline's pages disagree, we say so on its page. Spotted a change? See our <a href=\"../editorial-policy.html\">corrections policy</a>.</p>" % (
+                     fmt_date(checked), ("; international airlines " + intl_when) if intl_when else "",
+                     ("; the can-I-carry list on " + fmt_date(items_data["checked"])) if items_data else ""))
     body = f"""{head(title, "Baggage rules", "Checked on " + fmt_date(checked) + " against each airline's official website", BAGGAGE_PHOTO)}
 <div class="wrap"><article class="guide">
-<p class="lead">Domestic economy limits for India's main airlines, in one place. Tap an airline for the full rules, fare types and tips.</p>
-{('<p>Flying abroad? See the <a href="international.html">international baggage rules</a> for Emirates, Qatar Airways, Thai Airways, Singapore Airlines, IndiGo, Air India and more, on flights from India.</p>') if intl_airlines else ''}
-{('<p>Flying back into India? See the <a href="customs.html">Indian customs rules</a>: the ₹75,000 duty-free allowance, gold, alcohol and cash limits.</p>') if CUSTOMS_DIR.exists() else ''}
+<p class="lead">Airline baggage rules for travellers flying in India and from India: how big and heavy your cabin bag can be, whether a small extra bag is allowed, and how many kilos you can check in for free.</p>
+<p>This page puts India's five main domestic airlines side by side, then links to the full rules for each airline, {len(intl_airlines) if intl_airlines else "the"} international airlines, single items such as power banks and perfume, bag sizes, extra baggage charges, customs and trains. Limits here are for economy; your fare type can change them, so check your ticket too.</p>
+{how_check}
 {checker_cta}
 <h2>Cabin and check-in baggage at a glance</h2>
 <div class="table-wrap"><table class="compare"><thead><tr><th>Airline</th><th>Cabin bag</th><th>Cabin size limit</th><th>Extra small bag</th><th>Free check-in (domestic)</th></tr></thead><tbody>{rows}</tbody></table></div>
 {disclaimer}
+{groups_html}
 {hub_picks}
 <h2>Cabin bag limits side by side</h2>
 {limits_fig}
@@ -3086,7 +3213,7 @@ def pick_desc(d, deals):
 # Child sitemaps by top folder; everything else (home, categories, tools, packing lists, info pages) goes in sitemap-pages.xml.
 SITEMAP_SECTIONS = ("guides", "trips", "baggage", "picks", "hi")
 # The day each info page's text last changed (from git). Change the date when you change that page's text.
-INFO_UPDATED = {"about.html": "2026-11-26", "disclosure.html": "2026-11-21", "privacy.html": "2026-11-21", "contact.html": "2026-11-21"}
+INFO_UPDATED = {"about.html": "2026-11-26", "editorial-policy.html": "2026-11-26", "disclosure.html": "2026-11-21", "privacy.html": "2026-11-21", "contact.html": "2026-11-26"}
 
 
 def home_links(path, html):
@@ -3317,8 +3444,8 @@ def build():
     else:
         hero_art = '<div class="hero-art" aria-hidden="true">%s</div>' % "".join(
             f'<div class="hero-bubble tint-{slug}">{icon(c["icon"], "icon")}</div>' for slug, c in cfg["categories"].items())
-    picks_html = grid(cfg, deals[:8], "") if deals else '<p class="muted">New picks are coming soon.</p>'
-    fresh = sorted((d for d in deals if fresh_deal(d)), key=lambda d: d["deal_seen_at"], reverse=True)[:8]
+    picks_html = grid(cfg, deals[:4], "") if deals else '<p class="muted">New picks are coming soon.</p>'
+    fresh = sorted((d for d in deals if fresh_deal(d)), key=lambda d: d["deal_seen_at"], reverse=True)[:4]
     deals_html = ""
     if fresh:
         cards = "\n".join(card(cfg, d, "", deal_only=True) for d in fresh)
@@ -3328,42 +3455,92 @@ def build():
   <div class="grid">{cards}</div>
 </section>"""
 
-    useful = []
-    for kind, key, title, text, glyph, tint in (
-            ("tool", "baggage/luggage-size-chart.html", "Luggage size chart", "20, 24 or 28 inch in cm, and cabin limits", "ruler", "luggage"),
-            ("tool", "baggage/checker.html", "Cabin bag checker", "Type your bag's size and see which airlines take it", "suitcase", "luggage"),
-            ("tool", bag_weight.PATH, "Excess baggage calculator", "What extra kilos cost on your airline", "suitcase", "travel-gear"),
-            ("guide", "carry-on-size-by-airline", "Carry-on size by airline", "Cabin bag size and weight for each airline", "plane", "travel-tech"),
-            ("guide", "power-bank-rules-on-flights", "Power bank rules on flights", "mAh and Wh limits, cabin bag only", "bulb", "travel-tech"),
-            ("guide", "travel-adapter-by-country", "Travel adapter by country", "Plug type and voltage, country by country", "plug", "travel-tech")):
-        if (kind == "tool" and key in tool_paths) or (kind == "guide" and key in articles_by_slug):
-            useful.append(hl_card(key if kind == "tool" else "guides/%s.html" % key, title, text, glyph, tint))
     def see_all(href, label):
         return '<a class="see-all" href="%s">%s %s</a>' % (href, label, icon("arrow", "icon icon-sm"))
 
-    useful_html = ('<section class="wrap section">%s%s</section>' % (section_head("Most useful travel guides", see_all("baggage/index.html", "Baggage rules")), hl_grid(useful))
-                   if useful else "")
+    def exists(href):
+        return (DOCS / href).exists() or href in tool_paths
 
-    tools_html = ""
-    if TOOLS:
-        tools_html = f"""<section class="wrap section" id="tools">
-  {section_head("Free travel tools")}
-  {hl_grid((hl_card(path, e(short), eyebrow, glyph, tint) for path, short, eyebrow, title, text, more, glyph, tint, slot in TOOLS), tight=True)}
-</section>"""
+    def guide_exists(href):
+        """guides/x.html, trips/x.html or a tool: the source is checked, because guides are written after the home page."""
+        if href in (carry_on_guide.PATH, visa_india.PATH):
+            return True  # built by their own modules, not from content/articles
+        if href.startswith("guides/"):
+            return href[7:-5] in articles_by_slug
+        if href.startswith("trips/"):
+            return (TRIPS_DIR / (href[6:-5] + ".md")).exists()
+        if href.startswith("baggage/can-i-carry/"):
+            return (CARRY_DIR / (href[20:-5] + ".md")).exists()
+        if href.startswith("baggage/"):
+            return bool(airlines)  # baggage pages are built from data/airlines*.json later in this run
+        return exists(href)
 
-    trip_links = []
-    for href, src, title, text, glyph, tint in (
-            ("trips/where-to-go-in-december-january.html", TRIPS_DIR / "where-to-go-in-december-january.md", "India in December",
-             "Hills, beaches and deserts for December and January", "pin", "backpacks"),
-            ("trips/international-trips-from-india.html", TRIPS_DIR / "international-trips-from-india.md", "International trips",
-             "Compare countries by flight time, season and visa", "plane", "luggage"),
-            ("trips/visiting-india.html", TRIPS_DIR / "visiting-india.md", "Visiting India",
-             "e-Visa, what to pack, SIM cards and money", "globe", "sunglasses"),
-            ("tools/long-weekends-2027.html", None, "Long weekends 2027", "Plan your leave around 2027 holidays", "sun", "travel-gear")):
-        if (src is None and href in tool_paths) or (src is not None and src.exists()):
-            trip_links.append(hl_card(href, title, text, glyph, tint))
-    trips_html = ('<section class="wrap section">%s%s</section>' % (section_head("Trips", see_all("trips/index.html", "All trips")), hl_grid(trip_links))
-                  if trips and trip_links else "")
+    def cards_for(items, tight=False):
+        cards = [hl_card(href, title, text, glyph, tint) for href, title, text, glyph, tint in items if guide_exists(href)]
+        return hl_grid(cards, tight) if cards else ""
+
+    def home_section(sid, title, link, paras, inner):
+        text = "".join('<p class="home-intro">%s</p>' % t for t in paras)
+        return f'<section class="wrap section" id="{sid}">{section_head(title, link)}{text}{inner}</section>'
+
+    air_checked = fmt_date(airlines["checked"]) if airlines else ""
+    intl_lo, intl_hi = intl_checked(intl_airlines) if intl_airlines else ("", "")
+    intl_when = (fmt_date(intl_lo) if intl_lo == intl_hi else "%s and %s" % (fmt_date(intl_lo), fmt_date(intl_hi))) if intl_lo else ""
+    items_data = json.loads(FLIGHT_ITEMS_FILE.read_text(encoding="utf-8")) if FLIGHT_ITEMS_FILE.exists() else None
+    item_count = sum(len(g["items"]) for g in items_data["groups"]) if items_data else 0
+    domestic_names = and_list([a["name"] for a in airlines["airlines"]]) if airlines else ""
+
+    # Most useful: the pages people already find in Google
+    useful_html = home_section("useful", "Most useful guides", "", [
+        "The pages travellers open most: quick answers on what you can pack, the airline people ask about most, and a tool to check your bag."],
+        cards_for([
+            ("baggage/can-i-carry/sweets-and-home-food.html", "Can I carry sweets on a flight?", "Mithai, home food and pickles: cabin or check-in", "shield", "watches"),
+            ("baggage/can-i-carry/power-bank.html", "Can I carry a power bank?", "mAh and Wh limits, and why it can't go in check-in", "bulb", "travel-tech"),
+            ("baggage/can-i-carry/perfume.html", "Can I carry perfume?", "The 100 ml rule and full bottles in check-in", "shield", "handbags"),
+            ("baggage/can-i-carry/alcohol.html", "Can I carry alcohol?", "Domestic flights, duty free and customs limits", "shield", "luggage"),
+            ("baggage/indigo.html", "IndiGo baggage rules", "Cabin bag size and weight, and check-in kg by fare", "plane", "travel-gear"),
+            ("baggage/checker.html", "Cabin bag checker", "Type your bag's size and see which airlines take it", "suitcase", "luggage")]))
+
+    baggage_html = ""
+    if airlines:
+        dom = [hl_card("baggage/%s.html" % a["slug"], e(a["name"]), e("Cabin 7 kg bag; check-in " + a["checkin_summary"]) if "7 kg" in a["cabin"]["summary"]
+               else e(a["cabin"]["summary"]), "plane", "travel-gear") for a in airlines["airlines"]]
+        more = cards_for([
+            ("baggage/international.html", "International flights", "%d airlines flying from India" % len(intl_airlines["airlines"]) if intl_airlines else "", "globe", "luggage"),
+            (EXTRA_PATH, "Extra baggage charges", "Prepaid slabs and airport rates per kg", "suitcase", "luggage"),
+            (CUSTOMS_PATH, "Indian customs rules", "Duty-free allowance, gold, alcohol, cash", "globe", "travel-gear"),
+            ("baggage/train-luggage-rules.html", "Train luggage rules", "Free allowance by class on Indian Railways", "train", "backpacks")], tight=True)
+        paras = ["Cabin bag size and weight, the extra small bag and free check-in baggage for %s on domestic flights, "
+                 "and economy rules for %d airlines flying between India and %s. Each airline page shows the rules by fare type and links to the airline's own baggage pages." % (
+                     domestic_names, len(intl_airlines["airlines"]) if intl_airlines else 0, intl_where(intl_airlines["airlines"]) if intl_airlines else "abroad"),
+                 "Indian airline rules were last checked on %s%s. Fares and rules change, so always check your own ticket too." % (
+                     air_checked, (", and the international airlines on " + intl_when) if intl_when else "")]
+        baggage_html = home_section("baggage", "Airline baggage rules", see_all("baggage/index.html", "All baggage rules"), paras,
+                                    '<h3 class="home-sub">Flying within India</h3>' + hl_grid(dom, tight=True)
+                                    + '<h3 class="home-sub">Abroad, extra kilos, customs and trains</h3>' + more)
+
+    carry_html = ""
+    if items_data:
+        item_pages = sorted(CARRY_DIR.glob("*.md")) if CARRY_DIR.exists() else []
+        chips_html = "".join('<a class="trip-chip" href="baggage/can-i-carry/%s.html">%s</a>' % (
+            f.stem, e(f.stem.replace("-", " ").capitalize())) for f in item_pages)
+        carry_html = home_section("carry", "Can I carry it on a flight?", see_all("baggage/can-i-carry.html", "All %d items" % item_count), [
+            "Look up %d everyday items, from power banks, perfume and medicines to pickles, ghee and dry coconut, and see whether each one can go in your cabin bag, "
+            "your check-in bag, or neither. The answers come from airline and airport pages, such as IndiGo, Air India, Akasa Air and the Airports Authority of India." % item_count,
+            "Each item page names its sources and the date we checked them. Security staff can still refuse an item, so the airline's own rule always comes first."],
+            ('<div class="trip-chips home-chips">%s</div>' % chips_html) if chips_html else "")
+
+    sizes_html = home_section("sizes", "Luggage sizes", see_all("baggage/luggage-size-chart.html", "Size chart"), [
+        "Bags are sold in inches, but airlines measure in centimetres and count the wheels and handles. Our size chart turns 20, 24 and 28 inch trolleys into cm and kg, "
+        "and the cabin bag checker compares your bag's size and weight with every airline we cover.",
+        "Not sure which size you need? The size guides explain what fits a weekend, a week or a long trip abroad."],
+        cards_for([
+            ("baggage/luggage-size-chart.html", "Luggage size chart", "20, 24 or 28 inch in cm, and cabin limits", "ruler", "luggage"),
+            ("baggage/checker.html", "Cabin bag checker", "Will your bag fit? Every airline at once", "suitcase", "luggage"),
+            ("guides/carry-on-size-by-airline.html", "Carry-on size by airline", "Cabin bag size and weight, worldwide", "plane", "travel-tech"),
+            ("guides/luggage-size-guide.html", "What size luggage do you need?", "By trip length and how you travel", "ruler", "travel-gear"),
+            ("guides/trolley-bag-size-for-international-travel.html", "Trolley size for flights abroad", "Cabin and check-in sizes for international trips", "globe", "backpacks"),
+            ("guides/backpack-size-chart-litres.html", "Backpack size chart", "Litres explained, for school, office and travel", "check", "backpacks")]))
 
     packing_html = ""
     if PACKING_FILE.exists():
@@ -3382,11 +3559,35 @@ def build():
         chips_html = ('<div class="trip-chips home-chips">%s</div>' % "".join(
             '<a class="trip-chip" href="guides/%s.html">%s</a>' % (s_, e(place(s_)).replace("Sri lanka", "Sri Lanka").replace("South korea", "South Korea"))
             for s_ in dest)) if dest else ""
-        packing_html = f"""<section class="wrap section">
-  {section_head("Packing lists", see_all("packing/index.html", "All checklists"))}
-  {hl_grid(cards, tight=True)}
-  {('<p class="small home-chips-head">Packing lists by destination:</p>' + chips_html) if chips_html else ""}
-</section>"""
+        packing_html = home_section("packing", "Packing lists", see_all("packing/index.html", "All checklists"), [
+            "Tick-off checklists, with quantities, for these trips: %s. Print one, tick it on your phone, or make your own list for your days, month and who is going." % and_list([t["label"].lower() for t in pack_trips]),
+            "Destination lists add what that place needs, such as warm layers for the mountains, the right plug adapter or what to wear at temples."],
+            hl_grid(cards, tight=True) + (('<p class="small home-chips-head">Packing lists by destination:</p>' + chips_html) if chips_html else ""))
+
+    trips_html = ""
+    if trips:
+        months = [("trips/where-to-go-in-%s.html" % m, "Where to go in %s" % label, "India and abroad", "sun", "travel-gear")
+                  for m, label in (("december-january", "December and January"), ("february", "February"), ("march", "March"),
+                                   ("april", "April"), ("may", "May"), ("june", "June"))]
+        plan = [("trips/international-trips-from-india.html", "International trips", "Compare countries by flight time, season and visa", "plane", "luggage"),
+                ("trips/visiting-india.html", "Visiting India", "e-Visa, what to pack, SIM cards and money", "globe", "sunglasses"),
+                ("tools/long-weekends-2027.html", "Long weekends 2027", "Plan your leave around 2027 holidays", "sun", "travel-gear"),
+                ("guides/visa-free-countries-for-indians.html", "Visa guide for Indians", "Visa-free, visa on arrival and e-Visa countries", "globe", "backpacks")]
+        place_count = sum(1 for t in trips if t.get("hub_title") != "no")
+        trips_html = home_section("trips", "Trip guides and month hubs", see_all("trips/index.html", "All trip guides"), [
+            "%d trip guides for places in India and abroad: the best time to go, the weather, how to get there and around, local rules and what to pack. "
+            "Each one ends with the official tourism, weather, airport and visa pages it uses, and the date we checked them." % place_count,
+            "Not sure where to go? The month hubs compare where the weather is good in each month, for hills, beaches and cities."],
+            '<h3 class="home-sub">Where to go, month by month</h3>' + cards_for(months, tight=True)
+            + '<h3 class="home-sub">Plan a trip</h3>' + cards_for(plan))
+
+    tools_html = ""
+    home_tools = [t for t in TOOLS if t[0].startswith("tools/") or t[0] == "baggage/checker.html"]
+    if home_tools:
+        tools_html = home_section("tools", "Free travel tools", "", [
+            "Small tools that work in your browser, with nothing to sign up for: check a cabin bag, work out a trip budget or fuel cost, "
+            "see what extra kilos cost, make a packing list, plan long weekends, or convert shoe, clothing and watch sizes."],
+            hl_grid((hl_card(path, e(short), eyebrow, glyph, tint) for path, short, eyebrow, title, text, more, glyph, tint, slot in home_tools), tight=True))
 
     # Seasonal guides with an unexpired feature_until go first: the season that ends soonest first, then
     # "priority: 1" guides, then newest. Guides already in "Gifts and trips for this season" are skipped.
@@ -3399,27 +3600,49 @@ def build():
 
     home_guides = sorted((a for a in articles if a["slug"] not in shown), key=home_key)
     follow = follow_links(cfg)
+    checks = []
+    if air_checked:
+        checks.append("Indian airline baggage rules: %s" % air_checked)
+    if intl_when:
+        checks.append("international airlines: %s" % intl_when)
+    if items_data:
+        checks.append("can-I-carry list: %s" % fmt_date(items_data["checked"]))
+    checks_text = ("Last full checks: %s." % "; ".join(checks)) if checks else ""
     body = f"""<section class="hero">
   <div class="wrap hero-row">
     <div class="hero-copy">
-      <p class="eyebrow eyebrow-light">Bags &middot; Luggage &middot; Watches &middot; Travel gear</p>
-      <h1>Buy the right bag or watch, the first time.</h1>
-      <p class="lead">Hand-picked bags, luggage and travel gear for travellers in India and around the world. We check size, material, weight and warranty, then explain it in simple words. Shop buttons go to Amazon India.</p>
-      <div class="hero-ctas"><a class="btn btn-amazon btn-big" href="#latest">See latest picks</a><a class="btn btn-ghost" href="#shop">Shop by category</a></div>
+      <p class="eyebrow eyebrow-light">Baggage rules &middot; Can I carry it &middot; Packing lists &middot; Trip guides</p>
+      <h1>Travel answers you can check, before you pack.</h1>
+      <p class="lead">CarryPick answers the questions travellers ask before a trip: how much baggage your airline allows, whether an item can go on the plane, what size of bag you need, what to pack and where to go. It is free, written in simple English, for travellers in India and around the world.</p>
+      <div class="hero-ctas"><a class="btn btn-amazon btn-big" href="baggage/index.html">Check baggage rules</a><a class="btn btn-ghost" href="baggage/can-i-carry.html">Can I carry it?</a></div>
     </div>
     {hero_art}
   </div>
 </section>
+<section class="wrap section home-about" id="how-we-check">
+  {section_head("What CarryPick is, and how we check facts")}
+  <p class="home-intro">CarryPick is a small independent travel site with six parts: airline baggage rules, can-I-carry answers for single items, luggage size charts, packing lists, trip guides with month-by-month hubs, and free tools such as a cabin bag checker and a trip budget calculator.</p>
+  <p class="home-intro">Rules come from official pages: the airline's own baggage pages, airports and the Airports Authority of India, government sites for customs, visas and railways, tourism boards, and makers' own pages for chargers and plugs. Every page shows the date we checked it and links to its sources. {checks_text}</p>
+  <p class="home-intro">Found something out of date? Tell us and we fix it. Read our <a href="editorial-policy.html">editorial policy and corrections</a> and <a href="about.html">about CarryPick</a>.</p>
+</section>
 <section class="trust">
   <div class="wrap trust-row">
-    <div>{icon("ruler")}<p><strong>Details checked</strong>Size, litres, weight, warranty</p></div>
-    <div>{icon("shield")}<p><strong>No paid rankings</strong>Brands can't pay to be listed</p></div>
-    <div>{icon("pin")}<p><strong>Made for travellers</strong>India and worldwide: flights, trains, college, office</p></div>
+    <div>{icon("shield")}<p><strong>Official sources</strong>Airline, airport and government pages</p></div>
+    <div>{icon("check")}<p><strong>Dated checks</strong>Every rule shows when we checked it</p></div>
+    <div>{icon("ruler")}<p><strong>No paid rankings</strong>Brands can't pay to be listed</p></div>
   </div>
 </section>
+{useful_html}
+{baggage_html}
+{carry_html}
+{sizes_html}
+{packing_html}
+{trips_html}
+{tools_html}
 {seasonal_html}
 <section class="wrap section" id="shop">
-  {section_head("Shop by category")}
+  {section_head("Travel gear we picked")}
+  <p class="home-intro">We also pick bags, luggage, watches and travel gear on Amazon.in. Each pick lists the size, weight, material and warranty from its Amazon.in listing, and notes who it suits and who should skip it. We don't show prices because they change often; the button shows today's price on Amazon.</p>
   {cat_tiles}
 </section>
 {deals_html}
@@ -3427,17 +3650,13 @@ def build():
   {section_head("Latest picks")}
   {picks_html}
 </section>
-{useful_html}
-{tools_html}
-{trips_html}
-{packing_html}
 {('<section class="wrap section">' + section_head("Buying guides", '<a class="see-all" href="guides/index.html">All guides ' + icon("arrow", "icon icon-sm") + '</a>') + guide_cards(cfg, home_guides[:3], "") + '</section>') if home_guides else ''}
 <section class="wrap section">
-  {section_head("How we pick")}
+  {section_head("How we pick products")}
   <ol class="steps">
-    <li><span>1</span><h3>Read every detail</h3><p>We go through size, capacity, material, weight and warranty on Amazon.in.</p></li>
-    <li><span>2</span><h3>Match real use</h3><p>College commutes, office days, monsoon rain, cabin bag limits on flights.</p></li>
-    <li><span>3</span><h3>Explain it simply</h3><p>Short notes on who each product is best for, so you can decide fast.</p></li>
+    <li><span>1</span><h3>Read the listing</h3><p>Size, capacity, material, weight and warranty, as Amazon.in lists them. We don't test products in a lab.</p></li>
+    <li><span>2</span><h3>Match real use</h3><p>Cabin bag limits on flights, train trips, college and office days, monsoon rain.</p></li>
+    <li><span>3</span><h3>Explain it simply</h3><p>Who each product is best for and when to skip it. Brands can't pay to be listed.</p></li>
   </ol>
 </section>
 {('<section class="wrap section home-follow"><p class="small muted">Follow CarryPick: <span class="follow-links">' + follow.replace('<li>', '').replace('</li>', ' ') + '</span></p></section>') if follow else ''}"""
@@ -3690,16 +3909,72 @@ def build():
             names.append(partner)
     network_text = " and ".join("%s (%s)" % (net, and_list(names)) for net, names in sorted(by_network.items(), key=lambda x: x[0] != "EarnKaro"))
     info = {
-        "about.html": ("About CarryPick: how we pick products", f"""<h1>About {name}</h1>
-<p>{name} is a small team that helps travellers in India and around the world pick good bags, luggage, watches and travel essentials, and plan trips with simple guides and tools. Our shop buttons go to Amazon India (Amazon.in).</p>
-<h2>How we choose products</h2>
+        "about.html": ("About CarryPick: who it's for and how we check", f"""<h1>About {name}</h1>
+<p>{name} is a small, independent travel website run by one person in India. It answers the practical questions people have before a trip: how much baggage an airline allows, whether an item can go on a plane, what size of bag to buy, what to pack, and when and where to go.</p>
+<h2>Who it's for</h2>
 <ul>
-<li>We read the full product details: size, capacity, material, weight and warranty.</li>
-<li>We pick products for real travel and daily use, like flights, trains, college and office commutes. We know India best, and our trip guides cover places around the world.</li>
-<li>We never accept money from brands to list a product.</li>
+<li>Travellers flying within India or from India to other countries.</li>
+<li>Visitors coming to India, who need the e-Visa, SIM card, money and packing basics.</li>
+<li>Anyone buying a bag, trolley or travel gear who wants the size and weight explained in simple English.</li>
 </ul>
-<p>We don't show prices because they change many times a day. The button on each pick takes you to {"Amazon.in (or Amazon.com if you shop from outside India)" if GLOBAL else "Amazon.in"}, where you see the current price.</p>
+<p>Everything on the site is free to read, with no sign-up. The site is in English; a few older pages also have a Hindi version.</p>
+<h2>What we cover</h2>
+<ul>
+<li><a href="baggage/index.html">Airline baggage rules</a> for Indian and international airlines, <a href="baggage/extra-baggage-charges.html">extra baggage charges</a>, <a href="baggage/customs.html">Indian customs</a> and <a href="baggage/train-luggage-rules.html">train luggage rules</a>.</li>
+<li><a href="baggage/can-i-carry.html">Can I carry it on a flight?</a> answers for single items, such as power banks, perfume, sweets and medicines.</li>
+<li><a href="baggage/luggage-size-chart.html">Luggage size charts</a> and buying guides for bags, trolleys and travel gear.</li>
+<li><a href="packing/index.html">Packing checklists</a>, <a href="trips/index.html">trip guides</a> for India and abroad, and free tools such as the <a href="baggage/checker.html">cabin bag checker</a>.</li>
+</ul>
+<h2>How rules and facts are checked</h2>
+<ul>
+<li><strong>Official sources first.</strong> Baggage rules come from each airline's own website. Item rules come from airline and airport pages. Customs, visa and railway rules come from government sites. Trip facts come from tourism boards, the weather office, airports and park authorities. Charger and plug facts come from the maker's own pages.</li>
+<li><strong>Dated.</strong> Every rule page shows the date we last checked it, and links to the pages we used.</li>
+<li><strong>Honest about gaps.</strong> When an airline's own pages disagree, or a fact only comes from news reports, the page says so.</li>
+<li><strong>Corrected when wrong.</strong> See our <a href="editorial-policy.html">editorial policy and corrections</a>.</li>
+</ul>
+<h2>How products are picked</h2>
+<ul>
+<li>We read each product's full Amazon.in listing: size, capacity, material, weight and warranty. The facts on our pick pages come from that listing.</li>
+<li>We do not test products in a lab or by hand, and we don't claim to. Each pick explains who it suits and when to skip it, based on the listed details and how people travel.</li>
+<li>Brands cannot pay to be listed or ranked. There are no sponsored posts or paid placements.</li>
+<li>We don't show prices or star ratings, because they change many times a day. The button on each pick takes you to {"Amazon.in (or Amazon.com if you shop from outside India)" if GLOBAL else "Amazon.in"}, where you see the current price.</li>
+</ul>
+<h2>How the site is paid for</h2>
+<p><strong>{DISCLOSURE}</strong> If you buy through an Amazon button, Amazon may pay us a small commission at no extra cost to you. Our trip guides also have some hotel, flight, tour and eSIM partner links. Commissions never decide what we pick or what a rule page says. Read the full <a href="disclosure.html">affiliate disclosure</a>.</p>
+<h2>Contact</h2>
+<p>Questions, corrections or ideas? See the <a href="contact.html">contact page</a>.</p>
 {photo_credits}"""),
+        "editorial-policy.html": ("Editorial policy and corrections", f"""<h1>Editorial policy and corrections</h1>
+<p>This page explains how {name} researches, writes and updates its pages, and what happens when we get something wrong. {name} is run by one person, so the same rules apply to every page on the site.</p>
+<h2>Sources we use</h2>
+<ol>
+<li><strong>Official pages first:</strong> the airline's own baggage pages, airport pages and the Airports Authority of India, government sites for customs, visas and railways, national and state tourism boards, the weather office, and makers' own product and spec pages.</li>
+<li><strong>Product facts:</strong> the product's Amazon.in listing, for size, capacity, material, weight and warranty.</li>
+<li><strong>News reports</strong> only when no official page covers a fact, such as a one-off event or traffic plan. The page then says the fact comes from news reports.</li>
+</ol>
+<p>We link to our sources on the page, so you can check them yourself.</p>
+<h2>Dates and re-checks</h2>
+<ul>
+<li>Rule pages show a "Checked on" date: the day we last read the official sources. Guides also show an "Updated" date.</li>
+<li>We aim to re-check airline baggage rules about every three months, and sooner when an airline announces a change.</li>
+<li>Rules depend on your fare, route and the day you fly, and they can change without notice. Always check your own ticket and the airline's website before you travel.</li>
+</ul>
+<h2>What we don't do</h2>
+<ul>
+<li>No paid placements, sponsored posts or paid rankings.</li>
+<li>No invented reviews, star ratings or "we tested it" claims. We don't test products by hand.</li>
+<li>No prices on the site, because they change too often to be accurate.</li>
+<li>Partner links for hotels, flights and tours appear only on trip guides, never next to our Amazon product picks.</li>
+</ul>
+<h2>Corrections</h2>
+<p>If you find a rule that has changed or a fact that is wrong, please tell us on our <a href="contact.html">contact page</a> and include the page and what the official source now says. We then:</p>
+<ul>
+<li>check the official source again;</li>
+<li>fix the page and update its "Checked on" or "Updated" date;</li>
+<li>fix the same fact on any other page that repeats it, such as the comparison tables and the cabin bag checker.</li>
+</ul>
+<h2>Affiliate links</h2>
+<p><strong>{DISCLOSURE}</strong> See our <a href="disclosure.html">affiliate disclosure</a> for how our links work, and <a href="about.html">about {name}</a> for who the site is for.</p>"""),
         "disclosure.html": ("Affiliate disclosure", f"""<h1>Affiliate disclosure</h1>
 <p><strong>{DISCLOSURE}</strong></p>
 <p>{name} is a participant in the Amazon Associates Programme. When you click a "Check price on Amazon" button and buy something, Amazon may pay us a small commission. You pay the same price.</p>
@@ -3717,12 +3992,16 @@ def build():
 <li>If you join our Telegram channel, Telegram's privacy policy applies.</li>
 </ul>
 <p>Questions? See our <a href="contact.html">contact page</a>.</p>"""),
-        "contact.html": ("Contact", f"<h1>Contact</h1>\n<p>Have a question or found a mistake? Reach us here:</p>\n{contact_html}"),
+        "contact.html": ("Contact", f"""<h1>Contact</h1>
+<p>Have a question, found a rule that has changed, or spotted a mistake? {name} is run by one person{"" if cfg["contact_email"] else " and has no email address yet"}. You can find us here:</p>
+{contact_html}
+<p>When you report a mistake, please include the page and, if you can, a link to the official page that shows the right rule. See how corrections work in our <a href="editorial-policy.html">editorial policy</a>, and read <a href="about.html">about {name}</a>.</p>"""),
         "404.html": ("Page not found", '<h1>Page not found</h1><p>This page has moved or no longer exists. <a href="index.html">Go to the home page</a>.</p>'
                      + tool_pills("", "")),
     }
     info_desc = {
-        "about.html": "How %s picks bags, luggage, watches and travel essentials for travellers in India and worldwide: we read every detail, match real use and never take money from brands to list a product." % cfg["site_name"],
+        "editorial-policy.html": "How %s checks baggage, item and trip rules against official sources, dates every check, avoids paid placements and fixes mistakes." % cfg["site_name"],
+        "about.html": "%s is an independent travel site run by one person: who it is for, how baggage and trip rules are checked against official sources, and how products are picked without paid placements." % cfg["site_name"],
         "disclosure.html": "%s is an Amazon Associate. How our paid links work, what we earn and why it never changes which products we pick." % cfg["site_name"],
         "privacy.html": "%s asks for no personal details and sets no cookies of its own. What GitHub, Google Fonts, Amazon and our hotel, flight, tour, eSIM, things-to-do and shop link partners may log when you visit." % cfg["site_name"],
         "contact.html": "Questions, corrections or ideas for %s? Reach us on Telegram or WhatsApp." % cfg["site_name"],

@@ -730,3 +730,14 @@ body { top: 0 !important; }
   .hl-tight .hl-text strong { font-size: 0.86rem; }
   .hl-tight .hl-text span { display: none; }
 }
+
+/* Hub text and described link lists (home, baggage and trips hubs) */
+.home-intro { max-width: 72ch; margin: 0 0 12px; line-height: 1.6; }
+.home-about { padding-top: 28px; }
+.hub-list { list-style: none; padding: 0; margin: 0 0 22px; display: grid; gap: 10px; }
+.hub-list li { padding: 10px 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.hub-list li a { font-weight: 700; }
+.hub-list li span { font-size: 0.9rem; color: var(--muted); line-height: 1.45; overflow-wrap: anywhere; }
+.hub-list .hub-best, .hub-list .hub-date { font-size: 0.8rem; }
+.hub-sub { margin: 16px 0 8px; font-size: 1rem; }
+@media (min-width: 760px) { .hub-list { grid-template-columns: 1fr 1fr; } }
