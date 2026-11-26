@@ -1994,6 +1994,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
 <li>These are the standard economy limits: domestic flights for Indian airlines, India routes for international airlines, and the airlines' general rules for US and European airlines such as American, Delta, Ryanair and easyJet. Your fare, route or aircraft can change them.</li>
 </ul>
 <p>See the <a href="index.html">full baggage rules for each airline</a>, compare <a href="../guides/carry-on-size-by-airline.html">carry-on size by airline worldwide</a>, or read <a href="../guides/cabin-luggage-guide.html">how to pick a cabin trolley</a>.</p>
+<p>Buying a new bag? Compare <a href="../guides/best-trolley-bag-brands-india.html">trolley bag brands by weight, size and warranty</a>, or <a href="../guides/american-tourister-vs-safari.html">American Tourister vs Safari</a> cabin bags against each airline.</p>
 {tool_pills("../", "baggage/checker.html")}
 </article></div>
 <script type="application/json" id="bc-data">{js_json}</script>

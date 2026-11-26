@@ -119,7 +119,7 @@ Neither wins on everything. In the bags we compared, Skybags had the lighter lar
 
 ### Is Skybags a VIP brand?
 
-Yes. Skybags belongs to VIP Industries Ltd, and VIP's warranty terms name it. Skybags bags are sold on VIP's own website.
+Yes. Skybags belongs to VIP Industries Ltd, and VIP's warranty terms name it. Skybags bags are sold on VIP's own website. For VIP's warranty claim steps and return rules, see [VIP bags: ranges, warranty and returns](vip-bags-guide.html).
 
 ### Are Safari and Skybags Indian brands?
 
