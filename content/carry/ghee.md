@@ -7,7 +7,7 @@ date: 2026-11-10
 updated: 2026-11-26
 checked_against: IndiGo, Air India, Akasa Air, SpiceJet and Air India Express pages and an airport security list based on BCAS rules
 sources: IndiGo list of things not allowed in flight (read 26 Nov 2026)=https://www.goindigo.in/baggage/dangerous-goods-policy.html | SpiceJet dangerous goods list (read 26 Nov 2026)=https://corporate.spicejet.com/DGR.aspx | Air India Express prohibited items (PDF, read 26 Nov 2026)=https://www.airindiaexpress.com/content/dam/airindiaexpress/documents/mandatory-disclosure/AIX_Prohibited_Items.pdf | Air India restricted items (read 26 Nov 2026)=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | Akasa Air conditions of carriage (read 26 Nov 2026)=https://www.akasaair.com/quick-links/conditions-of-carriage | Kannur Airport security list (based on BCAS rules, read 26 Nov 2026)=https://kannurairport.aero/corporate/security
-related: tools/bag-weight.html=Excess baggage calculator | guides/trolley-bag-capacity-kg-litres.html=How many kg a trolley bag holds | baggage/index.html=Airline baggage rules | packing/wedding.html=Wedding packing list
+related: tools/bag-weight.html=Excess baggage calculator | guides/trolley-bag-capacity-kg-litres.html=How many kg a trolley bag holds | baggage/index.html=Airline baggage rules | packing/index.html#wedding=Wedding packing list
 answer: **Is ghee allowed in flight? Yes, in your check-in bag: up to 5 kg or 5 litres per person.** In the cabin bag, IndiGo, SpiceJet and Air India Express don't allow ghee at all. Air India allows only small containers of 100 ml or less in your liquids bag.
 ---
 ## Airline by airline

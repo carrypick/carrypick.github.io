@@ -99,7 +99,7 @@ The thick part goes where your head falls. Wear it at the back if your head drop
 
 ### Is a neck pillow good for the train?
 
-Yes, on a sleeper or chair car. On an overnight train with a berth you can lie down, so a neck pillow helps most in chair car and sitting seats. See our [train packing list](../packing/train.html) and [things to carry in a train journey](things-to-carry-in-train-journey.html).
+Yes, on a sleeper or chair car. On an overnight train with a berth you can lie down, so a neck pillow helps most in chair car and sitting seats. See our [train packing list](../packing/index.html#train) and [things to carry in a train journey](things-to-carry-in-train-journey.html).
 
 ## Sources
 

@@ -6,7 +6,7 @@ item: Perfume
 date: 2026-11-10
 checked_against: IndiGo, Air India, Akasa Air and airport security rules
 sources: IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | Akasa Air conditions of carriage=https://www.akasaair.com/quick-links/conditions-of-carriage | Airports Authority of India=https://www.aai.aero/en/node/92938 | SpiceJet baggage FAQ=https://corporate.spicejet.com/airtravelbaggagefaq.aspx
-related: guides/cabin-luggage-guide.html=Cabin bag rules | guides/travel-sunscreen-guide.html=Travel sunscreen in 100 ml or less | packing/wedding.html=Wedding packing list | baggage/index.html=Airline baggage rules
+related: guides/cabin-luggage-guide.html=Cabin bag rules | guides/travel-sunscreen-guide.html=Travel sunscreen in 100 ml or less | packing/index.html#wedding=Wedding packing list | baggage/international.html=International baggage rules | baggage/index.html=Airline baggage rules
 ---
 ## Flying IndiGo? Pack perfume in check-in
 

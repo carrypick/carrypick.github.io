@@ -80,7 +80,7 @@ So a "30 L" bag can be much smaller than another "30 L" bag. To check, multiply 
 
 - **School and kids:** see our [school bag size chart by class and age](school-bag-size-chart.html).
 - **Office and college:** 20–30 L is plenty. Check the laptop size with our [laptop backpack tool](../tools/laptop-backpack.html) and our [15.6 inch laptop backpack guide](15-6-inch-laptop-backpack-size.html), and read our [laptop backpack guide](laptop-backpack-guide.html).
-- **Weekend trips:** 30–40 L. See the [weekend packing list](../packing/weekend.html).
+- **Weekend trips:** 30–40 L. See the [weekend packing list](../packing/index.html#weekend).
 - **Winter hill trips:** add 10 L or so for jackets, or wear the bulky layers. See [what to wear on a winter hill trip](winter-clothes-for-hill-trips.html).
 - **Treks with a tent:** 50 L and up, usually with a hip belt and a frame. We don't list trekking packs yet, so check how one fits your back before you buy.
 

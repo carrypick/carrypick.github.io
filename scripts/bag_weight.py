@@ -17,7 +17,7 @@ from html import escape as e
 import carry_on_guide
 
 PATH = "tools/bag-weight.html"
-UPDATED = "2026-11-21"
+UPDATED = "2026-11-26"
 KG = r"(\d+(?:\.\d+)?) kg"
 # Picks under the calculator. Keep the reasons true to each pick's listed specs in data/deals.json.
 WEIGHT_PICKS = [
@@ -165,6 +165,53 @@ def _intl_fee_table(B, rows):
             '<tbody>%s</tbody></table></div>' % "".join(body))
 
 
+# Excess baggage on international flights from India, Indian airlines' own fee pages, read on 26 Nov 2026.
+# Only the routes and figures we read; re-check before changing. Each row: airline, route, pre-booked, at the airport, source.
+INTL_FEES_CHECKED = "2026-11-26"
+INTL_FEES = [
+    ("Akasa Air", "India to Abu Dhabi, Doha or Riyadh", "5 kg ₹6,000, 10 kg ₹12,000", "₹1,500 per kg",
+     "https://www.akasaair.com/add-ons/excess-baggage"),
+    ("Air India Express", "India to the UAE, Qatar, Oman, Bahrain or Saudi Arabia", "5 kg ₹6,800, 10 kg ₹13,600", "₹1,500 to ₹1,650 per kg",
+     "https://www.airindiaexpress.com/content/dam/airindiaexpress/documents/mandatory-disclosure/fees-and-charges.pdf"),
+    ("Air India Express", "India to Singapore or Thailand", "5 kg ₹7,000 (Singapore), ₹7,700 (Thailand)", "₹2,000 per kg",
+     "https://www.airindiaexpress.com/content/dam/airindiaexpress/documents/mandatory-disclosure/fees-and-charges.pdf"),
+    ("SpiceJet", "India to Dubai or Sharjah", "5 kg ₹5,500, 10 kg ₹11,000", "Not on the page we read",
+     "https://corporate.spicejet.com/ExcessBaggage.aspx"),
+]
+WORKED_OVER = (2, 3, 4, 5, 8, 10)
+
+
+def _cheapest_pack(prepaid, over):
+    fits = [(price, kg) for kg, price in prepaid if kg >= over]
+    return min(fits) if fits else None
+
+
+def _worked_table(B, rows):
+    """Cost of being 2 to 10 kg over on each domestic airline: the airport rate x kg, against the smallest
+    pre-booked pack that covers it. All from data/extra_baggage.json; nothing estimated."""
+    head = "".join("<th>%d kg over</th>" % k for k in WORKED_OVER)
+    body = []
+    for r in rows:
+        f = r["fees"]
+        cells = []
+        for k in WORKED_OVER:
+            airport = B.rupees(k * f["airport_per_kg"]) + (" + tax" if f["tax"] else "") + (" (up to)" if f["upto"] else "")
+            pack = _cheapest_pack(f["prepaid"], k) if f["prepaid"] else None
+            online = ("Online %s (%d kg pack)" % (B.rupees(pack[0]), pack[1])) if pack else "Online: not listed"
+            cheaper = pack and not f["tax"] and not f["upto"] and pack[0] < k * f["airport_per_kg"]
+            cells.append("<td>Airport %s<br>%s%s</td>" % (airport, "<strong>" + online + "</strong>" if cheaper else online, ""))
+        body.append(f'<tr><th scope="row"><a href="../{f["page"]}">{e(r["name"])}</a></th>{"".join(cells)}</tr>')
+    return ('<div class="table-wrap"><table class="compare"><thead><tr><th>Airline</th>%s</tr></thead><tbody>%s</tbody></table></div>'
+            % (head, "".join(body)))
+
+
+def _intl_indian_table(B):
+    body = "".join(f'<tr><th scope="row">{e(a)}</th><td>{e(route)}</td><td>{e(pre)}</td><td>{e(air)}</td>'
+                   f'<td><a href="{e(url)}" target="_blank" rel="noopener">Official page</a></td></tr>' for a, route, pre, air, url in INTL_FEES)
+    return ('<div class="table-wrap"><table class="compare"><thead><tr><th>Airline</th><th>Route</th><th>Pre-booked</th><th>At the airport</th><th>Source</th></tr></thead>'
+            '<tbody>%s</tbody></table></div>' % body)
+
+
 def build(B, cfg, deals, pages, lastmod):
     rows = load(B)
     if not rows:
@@ -193,9 +240,9 @@ def build(B, cfg, deals, pages, lastmod):
     body = f"""{head}
 <div class="wrap"><article class="guide">
 <div class="answer"><h2>Quick answer</h2><ul>
-<li>Weigh each bag at home with a {scale_html}, then type the real weights below. The tool compares them with your airline's allowance for your fare.</li>
-<li>On flights within India, {dom_names} charge about ₹775 to ₹850 per kg over the allowance at the airport. Pre-booking extra kg online is usually cheaper.</li>
-<li>Every allowance and fee here comes from the airline's own website, with the date we checked it. Your ticket and the airline's site are final.</li>
+<li><strong>Excess baggage charge = kg over your allowance × the airline's rate per kg.</strong> With a 15 kg allowance and a 19 kg bag, you are 4 kg over: on IndiGo that is 4 × ₹800 = ₹3,200 at the airport.</li>
+<li>On flights within India the airport rate is ₹775 (SpiceJet) to ₹850 (Air India Express, "up to") per kg. Pre-booked packs work out at about ₹695 to ₹750 per kg, but only in fixed sizes: if you are 4 kg over, a 5 kg pack can cost more than paying at the counter.</li>
+<li>Weigh each bag at home with a {scale_html}, then type the real weights below. The tool compares them with your airline's allowance for your fare. Every allowance and fee comes from the airline's own website, with the date we checked it; the price shown when you pay is final.</li>
 </ul></div>
 <form class="checker bw-calc" id="bw" onsubmit="return false" hidden>
 <div class="checker-fields bw-top">
@@ -218,6 +265,18 @@ def build(B, cfg, deals, pages, lastmod):
 <noscript><p class="small">The calculator needs JavaScript. The tables below show the same allowances and fees.</p></noscript>
 <script type="application/json" id="bw-data">{data}</script>
 <p class="checked">Allowances checked on each airline's site between {B.fmt_date(min(r["checked"] for r in rows))} and {B.fmt_date(max(r["checked"] for r in rows))}; domestic excess fees checked {B.fmt_date(fee_checked)}. Fees change often, and the price shown when you pay is final.</p>
+<h2>How to calculate excess baggage</h2>
+<ol>
+<li><strong>Find your free allowance.</strong> It is on your ticket or in Manage Booking, for example "15 kg, 1 piece". Cheap fares such as IndiGo Lite and Air India Express Xpress Lite include no checked bag at all.</li>
+<li><strong>Weigh each packed bag.</strong> Use a luggage scale, or stand on a bathroom scale with and without the bag and take the difference.</li>
+<li><strong>Subtract.</strong> Total checked weight minus the allowance = kg over. Your cabin bag has its own limit (usually 7 kg) and is weighed separately.</li>
+<li><strong>Multiply by the airline's rate.</strong> On flights within India that is the per-kg rate at the airport, or the price of the smallest pre-booked pack that covers your extra kg.</li>
+<li><strong>Add any piece fee.</strong> A second checked bag usually costs a handling fee (₹950 to ₹1,000 on IndiGo, Akasa Air, SpiceJet and Air India Express) on top of its weight.</li>
+</ol>
+<h3>What it costs to be 2 to 10 kg over, flights within India</h3>
+<p>Worked out from each airline's own fee list (airport rate × kg, and the smallest pre-booked pack that covers it). Bold means pre-booking is cheaper. We re-read the per-kg rates and packs on IndiGo, Air India, Air India Express, Akasa Air and SpiceJet's websites on {B.fmt_date(INTL_FEES_CHECKED)}.</p>
+{_worked_table(B, [r for r in dom if r.get("fees")])}
+<p class="checked">Pre-booked kilos are usually not refunded if you use fewer, and Air India shows its online price only in Manage Booking ("save up to 20%", it says). Buy a pack only when its size matches your extra weight, or move a few kilos to your cabin bag first.</p>
 <h2>Excess baggage charges on flights within India</h2>
 <p>What each airline charges per kg over your free allowance, at the airport and pre-booked online, from its own fees page. Each airline name opens its full extra baggage page.</p>
 {_fee_table(B, [r for r in dom if r.get("fees")])}
@@ -230,7 +289,9 @@ def build(B, cfg, deals, pages, lastmod):
 <p>American, Delta, United, Southwest, Ryanair, easyJet, Air France and KLM, from their own websites. Compare carry-on sizes on our <a href="../{carry_on_guide.PATH}">carry-on size by airline</a> chart.</p>
 {_allowance_table(B, world)}
 <h2>Excess baggage on international flights</h2>
-<p>International airlines price extra weight by route, so most don't publish one rate per kg. This is what their pages say.</p>
+<p>On international flights extra weight costs much more per kg than within India. Indian airlines publish route prices; this is what we read on their own pages on {B.fmt_date(INTL_FEES_CHECKED)} for flights from India:</p>
+{_intl_indian_table(B)}
+<p>IndiGo's fees page lists international per-kg rates in each country's currency, and Air India shows its prices when you book. Foreign airlines price extra weight by route, so most don't publish one rate per kg. This is what their pages say:</p>
 {_intl_fee_table(B, intl + world)}
 <h2>How to avoid excess baggage fees</h2>
 <ul>
@@ -251,11 +312,15 @@ def build(B, cfg, deals, pages, lastmod):
 <script src="../assets/bag-weight.js" defer></script>
 {B.telegram_band(cfg, "../")}"""
     faq = [
-        ("How is excess baggage calculated?", "Airlines compare what your bags weigh at check-in with the free allowance on your ticket. On flights within India, IndiGo, Air India, Akasa Air, SpiceJet and Air India Express charge a rate per kg over the allowance at the airport (about ₹775 to ₹850 per kg in their fee lists), or sell cheaper kg packs online before you fly."),
-        ("How much is excess baggage per kg on IndiGo?", "IndiGo's fees page lists ₹800 per kg at the airport for domestic flights. Pre-booked online, 3 kg costs ₹2,250 and 5 kg ₹3,750. See the table above for the other slabs and the date we checked."),
-        ("Is it cheaper to pre-book extra baggage?", "Usually, yes. On flights within India the airlines' own fee lists show pre-booked kg at about ₹695 to ₹750 per kg against ₹775 to ₹850 at the counter. Buy the smallest pack that covers your extra weight, as unused kg aren't refunded."),
+        ("How to calculate excess baggage?", "Add up what your checked bags weigh, subtract the free allowance on your ticket, and multiply the kg over by the airline's rate. Example: 19 kg on a 15 kg IndiGo fare is 4 kg over, so 4 × ₹800 = ₹3,200 at the airport. Pre-booked online, 3 kg costs ₹2,250 and 5 kg ₹3,750."),
+        ("How much is excess baggage per kg in India?", "At the airport, on flights within India: IndiGo and Akasa Air ₹800 per kg, Air India ₹800 per kg plus tax, Air India Express up to ₹850 per kg and SpiceJet ₹775 per kg (their own fee pages, read on 26 Nov 2026)."),
+        ("What are IndiGo's excess baggage charges on domestic flights?", "IndiGo's fees page lists ₹800 per kg at the airport. Pre-booked: 3 kg ₹2,250, 5 kg ₹3,750, 10 kg ₹7,500, 15 kg ₹11,250, 20 kg ₹15,000, 25 kg ₹18,750, 30 kg ₹22,500 and 40 kg ₹30,000."),
+        ("What are Air India's excess baggage charges per kg?", "Air India's excess baggage page lists INR 800 per kg plus taxes for travel within India, and says paying ahead saves up to 20%. The prepaid price is shown in Manage Booking, not on the page."),
+        ("Is it cheaper to pre-book extra baggage?", "Per kg, yes: the packs work out at about ₹695 to ₹750 per kg against ₹775 to ₹850 at the counter. But packs come in fixed sizes (3, 5, 10 kg and up) and unused kilos aren't refunded, so if you are 4 kg over, a 5 kg pack (₹3,750 on IndiGo) costs more than 4 kg at the airport (₹3,200)."),
+        ("What are extra baggage charges per kg on international flights?", "Much higher than within India. Akasa Air lists ₹1,500 per kg at the airport from India to Abu Dhabi, Doha and Riyadh, and Air India Express ₹1,500 to ₹1,650 per kg to the Gulf and ₹2,000 to Singapore and Thailand (read 26 Nov 2026). Pre-booking 5 kg costs about ₹5,500 to ₹7,700 on these routes."),
         ("What if my cabin bag is over 7 kg?", "Most airlines will check it in, and its weight then counts towards your checked allowance. Air India, Air India Express and SpiceJet sell extra cabin kg on domestic flights; the calculator shows the charge when your airline has one."),
         ("Does my jacket count in my baggage weight?", "Clothes you wear aren't weighed with your bags, so wearing your heaviest jacket and shoes leaves more room in your allowance."),
+        ("What is the most one checked bag can weigh?", "32 kg on the airlines here, even if your allowance is higher or you pay for more. Air India's excess baggage page says each bag can't weigh more than 32 kg, and Air India Express's fee list says the same. Split heavy luggage into two bags."),
     ]
     faq_html, faq_schema = B.faq_block(faq)
     body = body.replace("{faq}", faq_html)

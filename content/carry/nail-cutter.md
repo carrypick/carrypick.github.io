@@ -6,7 +6,7 @@ item: Nail cutter
 date: 2026-11-15
 checked_against: IndiGo, Air India and airport security rules
 sources: Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Airports Authority of India=https://www.aai.aero/en/node/92938 | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security
-related: packing/weekend.html=Weekend packing list | packing/business.html=Work trip packing list | guides/cabin-luggage-guide.html=Cabin bag rules | baggage/index.html=Airline baggage rules
+related: packing/index.html#weekend=Weekend packing list | packing/business.html=Work trip packing list | guides/cabin-luggage-guide.html=Cabin bag rules | baggage/index.html=Airline baggage rules
 ---
 ## What Air India's list says
 

@@ -810,6 +810,70 @@ def tip_box(cfg, slug, p, articles_by_slug):
     return f'<aside class="tip">{icon("bulb", "icon tip-icon")}<div><strong>Before you buy</strong><p>{e(cat["tip"])}{link}</p></div></aside>'
 
 
+# Buying guidance above the grid on the travel categories (Search Console audit fix #4, 26 Nov 2026).
+# Airline limits are read from data/airlines.json at build time; everything else is general advice or comes from
+# the linked guides, which carry their own sources and dates. Keep each one 200-400 words.
+CATEGORY_GUIDE_UPDATED = "2026-11-26"
+
+
+def _cat_airline_rows(p, column):
+    data = load_airlines()
+    if not data:
+        return ""
+    rows = []
+    for a in data["airlines"]:
+        c = a["cabin"]
+        size = (" x ".join(num(x) for x in c["dims_cm"]) + " cm") if c.get("dims_cm") else "Not stated"
+        if column == "personal":
+            other = e((a.get("personal") or {}).get("summary", "Not stated"))
+        else:
+            other = e(a.get("checkin_summary", ""))
+        rows.append(f'<tr><th scope="row"><a href="{p}baggage/{a["slug"]}.html">{e(a["name"])}</a></th><td>{num(c["kg"])} kg, {size}</td><td>{other}</td></tr>')
+    label = "Personal item" if column == "personal" else "Free check-in (economy)"
+    return (f'<div class="table-wrap"><table class="compare"><thead><tr><th>Airline</th><th>Cabin bag</th><th>{label}</th></tr></thead>'
+            f'<tbody>{"".join(rows)}</tbody></table></div>'
+            f'<p class="checked">From each airline\'s own website, checked {fmt_date(data["checked"])}. Your ticket is final.</p>')
+
+
+def category_guidance(slug, p):
+    g = "%sguides/" % p
+    if slug == "backpacks":
+        text = f"""<h2>How to choose a backpack</h2>
+<p><strong>Start with what goes inside.</strong> For office or college, match the laptop sleeve to your laptop: a bag listed for 15.6 inch laptops fits most 15.6 inch and smaller ones, and 16 or 17 inch laptops need a bag that says 17 inch. Our <a href="{p}tools/laptop-backpack.html">laptop backpack size chart</a> shows which picks list each size.</p>
+<p><strong>Then pick the litres.</strong> About 20–30 litres holds a laptop, charger, lunch box and bottle for the day. A weekend away needs 30–40 litres. About 40 litres is the biggest backpack most people can take as a cabin bag, but airlines measure the outside size, not the litres, so check it against the limits below. Our <a href="{g}backpack-size-chart-litres.html">backpack size chart</a> lists litres by use, and the <a href="{g}school-bag-size-chart.html">school bag size chart</a> goes by class.</p>
+<p><strong>Check the details that matter in India:</strong> padded shoulder straps and a back panel that lets air through, a rain cover or water-resistant fabric for the monsoon, a hidden pocket for your phone and wallet on crowded trains (see <a href="{g}anti-theft-backpack.html">anti-theft backpacks</a>), and a trolley strap if you travel with a suitcase.</p>
+<h3>Flying with a backpack</h3>
+<p>A backpack can be your cabin bag or, on some airlines, a separate personal item. Domestic limits:</p>
+{_cat_airline_rows(p, "personal")}
+<p>Read <a href="{g}laptop-backpack-guide.html">how to choose a laptop backpack</a>, <a href="{g}office-backpack-for-men.html">office backpacks</a> and <a href="{g}travel-backpack-40l-carry-on.html">40 L carry-on backpacks</a> for the full detail.</p>"""
+    elif slug == "handbags":
+        text = f"""<h2>How to choose a handbag or sling for travel</h2>
+<p><strong>A tote or satchel</strong> carries a 13–14 inch laptop, a bottle and a cardigan to the office or on a flight. Look for a zip on top (open totes spill in the overhead bin), a firm base so it stands on its own, and shoulder straps long enough to wear over a jacket. See <a href="{g}tote-bag-for-office-and-travel.html">tote bags for office and travel</a>.</p>
+<p><strong>A sling or crossbody bag</strong> keeps your phone, cards, passport and some cash in front of you while you sightsee, which matters in crowded markets and on trains. Pick one with a zip that closes against your body and a strap you can adjust. See <a href="{g}sling-bag-for-travel.html">sling bags for travel</a>.</p>
+<p><strong>Weight counts.</strong> Check the listed weight before you buy. On flights within India your handbag goes as the personal item, and on some airlines it shares the 7 kg cabin allowance, so a light bag leaves more room for your things:</p>
+{_cat_airline_rows(p, "personal")}
+<p>Read our <a href="{g}handbag-and-sling-guide.html">handbag and sling buying guide</a> for sizes, materials and what fits under the seat, and our <a href="{g}travel-essentials-for-women.html">travel essentials for women</a> for what to carry in it.</p>"""
+    elif slug == "luggage":
+        text = f"""<h2>How to choose a trolley bag</h2>
+<p><strong>Size first.</strong> Trolleys are sold by height in inches or cm, including the wheels. A cabin trolley is usually 55–56 cm (about 20–22 inch); a medium check-in trolley, 64–72 cm, suits about a week; a large one, 75–81 cm, suits long trips or two people sharing. Our <a href="{p}baggage/luggage-size-chart.html">luggage size chart</a> lists each size in cm, litres and the trip it suits.</p>
+<p><strong>Then the weight limit.</strong> Within India, economy fares usually include one 15 kg check-in bag, and a large trolley packed full can weigh far more than that. No single checked bag may weigh more than 32 kg, and Air India and Akasa Air charge extra for a bag over 158 cm in length + width + height. A lighter empty bag leaves more of your allowance for clothes: see <a href="{g}lightest-cabin-trolley-bag.html">the lightest cabin trolleys</a>.</p>
+<p><strong>Hard or soft?</strong> Sellers usually call polycarbonate (PC) tougher and polypropylene (PP) lighter and cheaper, though they don't agree on which resists cracks better. Soft bags have outside pockets and squeeze into tight spaces like a train berth. See <a href="{g}hard-vs-soft-luggage.html">hard vs soft luggage</a> and <a href="{g}polycarbonate-vs-polypropylene-luggage.html">polycarbonate vs polypropylene</a>.</p>
+<h3>Cabin bag limits on Indian airlines</h3>
+{_cat_airline_rows(p, "checkin")}
+<p>Not sure your bag fits? Type its size into the <a href="{p}baggage/checker.html">cabin bag checker</a>. Flying abroad? See <a href="{p}baggage/international.html">international baggage rules</a> and <a href="{g}trolley-bag-size-for-international-travel.html">trolley size for international travel</a>.</p>"""
+    elif slug == "travel-gear":
+        text = f"""<h2>Which travel accessories are worth buying?</h2>
+<p><strong>A luggage scale</strong> pays for itself the first time it saves you an excess baggage charge: airlines in India charge ₹775 to ₹850 per kg over your allowance at the airport. Weigh each bag at home, then check it against your fare with our <a href="{p}tools/bag-weight.html">excess baggage calculator</a>. See <a href="{g}luggage-scale.html">how to choose a luggage scale</a>.</p>
+<p><strong>Packing cubes</strong> keep a trolley tidy and make it easy to find things in a hotel room; compression cubes save space with bulky winter clothes, but not weight: the bag still has to make your allowance. See <a href="{g}packing-cubes.html">packing cubes</a>.</p>
+<p><strong>A clear toiletry bag</strong> helps at airport security: in your cabin bag, liquids, gels and creams must be in containers of 100 ml or less, all in one clear 1 litre bag. See <a href="{g}toiletry-bag-for-travel.html">toiletry bags</a> and <a href="{p}baggage/can-i-carry.html">what you can carry on a flight</a>.</p>
+<p><strong>A TSA lock</strong> matters if you fly to or through the USA, where security may open your checked bag; other locks can be cut. See <a href="{g}tsa-lock.html">TSA locks</a>. <strong>A neck pillow</strong> helps on night flights, trains and buses: see <a href="{g}neck-pillow-for-flights.html">neck pillows</a>.</p>
+<p><strong>A passport holder</strong> keeps passports, boarding passes and cards for the whole family in one place: see <a href="{g}passport-holder.html">passport holders</a>. Carrying a power bank? It must go in your cabin bag, never in check-in: see the <a href="{p}baggage/can-i-carry/power-bank.html">power bank rules</a>.</p>
+<p>Not sure what you need for your trip? Start with a <a href="{p}packing/index.html">packing checklist</a>.</p>"""
+    else:
+        return ""
+    return f'<article class="guide cat-guide">{text}</article>'
+
+
 def section_head(title, link_html=""):
     return f'<div class="section-head"><h2>{e(title)}</h2>{link_html}</div>'
 
@@ -1634,6 +1698,31 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
         faq.insert(2, ("Does Vietjet include checked baggage from India?",
                        "Not on Eco fares: you get only 7 kg of cabin baggage and buy checked bags separately, cheapest with your ticket. "
                        "Deluxe includes 20 kg and SkyBoss 30 kg."))
+    by = {a["slug"]: a for a in airlines}
+    searched = []
+    if "indigo-international" in by:
+        searched.append(("What is IndiGo's international baggage allowance?",
+                         "IndiGo's baggage page (read 26 Nov 2026) gives 30 kg per person to the Gulf, Singapore, Kuala Lumpur, Hong Kong, Istanbul and most other routes, "
+                         "and 20 kg to Bangkok, Phuket, Krabi, Bali, Kathmandu, Male and Mauritius, plus one 7 kg cabin bag (115 cm in total) and a personal item up to 3 kg. Lite fares include no checked bag."))
+    if "air-india-international" in by:
+        searched.append(("What is Air India's baggage allowance for international flights in economy?",
+                         by["air-india-international"]["checkin_summary"] + ". To the USA, Canada, the UK and Europe Air India counts pieces of up to 23 kg instead, and the number depends on your fare. "
+                         "Every fare also includes a 7 kg cabin bag (read on Air India's site, 26 Nov 2026)."))
+    faq = [
+        ("What is the baggage weight limit for international flights from India?",
+         "In economy, most airlines flying from India to the Gulf and South-East Asia give 20 to 35 kg of checked baggage, depending on the fare, plus a 7 kg cabin bag. "
+         "To the USA, Canada, the UK and Europe most count pieces instead, usually one or two bags of 23 kg. No single bag may weigh more than 32 kg."),
+        ("What is the cabin bag size limit for international flights?",
+         "There is no single world limit. Most airlines here allow 7 kg, in sizes from Emirates' 55 x 38 x 22 cm to Qatar Airways' 50 x 37 x 25 cm, and Gulf Air allows only 6 kg and 45 x 40 x 30 cm. "
+         "Lufthansa and Turkish Airlines allow 8 kg. The table above has each airline's size."),
+    ] + searched + faq + [
+        ("Are there new baggage rules for international flights from India?",
+         "The changes we have seen on airline pages: Emirates stopped power bank use on board from 1 October 2025, Thai Airways moved economy to 23 kg pieces in March 2026, "
+         "and Indian Customs raised the duty-free limit for returning travellers to ₹75,000 in February 2026. Rules change often, so check your airline's page before you pack."),
+        ("How much are excess baggage charges on international flights?",
+         "Much more than within India. Akasa Air lists ₹1,500 per kg at the airport from India to Abu Dhabi, Doha and Riyadh, and Air India Express ₹1,500 to ₹1,650 per kg to the Gulf (read 26 Nov 2026). "
+         "Pre-booking online is cheaper; our excess baggage calculator has the fees by airline."),
+    ]
     faq_html, faq_schema = faq_block(faq)
     trip_lists = [(slug, place) for slug, place in (("thailand", "Thailand"), ("dubai", "Dubai"), ("bali", "Bali"), ("vietnam", "Vietnam"),
                                                      ("maldives", "the Maldives"), ("sri-lanka", "Sri Lanka"), ("singapore", "Singapore"), ("malaysia", "Malaysia"), ("bhutan", "Bhutan"), ("nepal", "Nepal"), ("europe", "Europe"), ("japan", "Japan"), ("umrah", "Umrah"))
@@ -1653,7 +1742,28 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
     body = f"""{head(title, '<a href="index.html">Baggage rules</a><span>/</span>International', when + " against each airline's official website &middot; economy, India routes", BAGGAGE_PHOTO)}
 <div class="wrap"><article class="guide">
 <p class="lead">Economy baggage on flights between India and {e(intl_where(airlines, long=True))}, in one place. Tap an airline for the full rules, infant allowance and tips.</p>
+<div class="answer"><h2>Quick answer</h2><ul>
+<li><strong>Gulf and South-East Asia:</strong> most airlines give 20 to 35 kg of checked baggage in economy, by fare. IndiGo gives 30 kg to Dubai and Singapore and 20 kg to Bangkok and Bali.</li>
+<li><strong>USA, Canada, UK and Europe:</strong> baggage is usually counted in pieces, one or two bags of up to 23 kg each.</li>
+<li><strong>Cabin bag:</strong> usually 7 kg (6 kg on Gulf Air, 8 kg on Lufthansa and Turkish Airlines), and the sizes differ more than within India.</li>
+<li><strong>Every airline:</strong> no checked bag over 32 kg, power banks only in the cabin, and the cheapest fares ({e(", ".join(no_bag[:3]))} and others) include no checked bag. Your ticket shows your allowance and is final.</li>
+</ul></div>
 {checker_cta}
+<h2>How to work out your allowance</h2>
+<ol>
+<li><strong>Find your fare name</strong> on the ticket or in Manage Booking, for example Value, Classic or Flex. The allowance changes with the fare, not only the airline.</li>
+<li><strong>Check weight or pieces.</strong> "30 kg" means all your checked bags together; "2PC" or "2 x 23 kg" means two bags, each up to 23 kg. With pieces, a 25 kg bag is overweight even if your second bag is empty.</li>
+<li><strong>Check every airline on the trip.</strong> On one ticket the main airline's rules usually apply. On separate tickets, such as IndiGo to Delhi and then another airline abroad, each has its own allowance: IndiGo gives 15 kg on the domestic part and charges ₹700 per kg above that.</li>
+<li><strong>Weigh your bags at home</strong> and compare them with the fare in our <a href="../tools/bag-weight.html">excess baggage calculator</a>.</li>
+</ol>
+<h3>Weight or pieces, by where you fly</h3>
+<div class="table-wrap"><table class="compare"><thead><tr><th>Flying to</th><th>Usually counted by</th><th>Typical economy allowance</th></tr></thead><tbody>
+<tr><th scope="row">Gulf and Middle East</th><td>Weight</td><td>20–35 kg by fare; IndiGo 30 kg; Air India 25, 30 or 35 kg. Saudia and Kuwait Airways use 23 kg pieces</td></tr>
+<tr><th scope="row">South-East Asia</th><td>Weight, mostly</td><td>IndiGo 20 kg to Bangkok and Bali, 30 kg to Singapore; Singapore Airlines 25–30 kg; Thai Airways 1 or 2 bags of 23 kg</td></tr>
+<tr><th scope="row">UK and Europe</th><td>Pieces</td><td>British Airways and Lufthansa: 1 bag of 23 kg (none on Basic and Light fares)</td></tr>
+<tr><th scope="row">USA and Canada</th><td>Pieces</td><td>Usually 1 or 2 bags of 23 kg; Emirates 1 or 2 x 23 kg to the USA</td></tr>
+</tbody></table></div>
+<p class="checked">From the airline pages in the table below, each with its own check date; IndiGo's and Air India's international allowances re-read on 26 Nov 2026.</p>
 <h2>Cabin and checked baggage at a glance</h2>
 <div class="table-wrap"><table class="compare"><thead><tr><th>Airline</th><th>Cabin bag</th><th>Cabin size limit</th><th>Extra small bag</th><th>Checked baggage (economy)</th></tr></thead><tbody>{rows}</tbody></table></div>
 {disclaimer}
@@ -1705,7 +1815,8 @@ def extra_section(a, extra_by_slug):
             f'<li><strong>At the airport:</strong> {e(x["airport_text"])}.</li>'
             f'<li><strong>Extra bag:</strong> {e(x.get("piece_short", "see the fees page"))}.</li>'
             f'<li><strong>Cabin bag over 7 kg:</strong> {e(x.get("cabin_short", "see the fees page"))}.</li></ul>'
-            f'<p>See every slab and rule on <a href="extra-baggage-charges/{x["slug"]}.html">{e(a["name"])} extra baggage charges</a>.</p>')
+            f'<p>See every slab and rule on <a href="extra-baggage-charges/{x["slug"]}.html">{e(a["name"])} extra baggage charges</a>, '
+            f'or type your bag weights into the <a href="../tools/bag-weight.html">excess baggage calculator</a> to see what you would pay.</p>')
 
 
 def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
@@ -2010,6 +2121,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
 <li>We compare your bag's longest side with the airline's longest allowed side, and so on, because a bag can be turned to fit.</li>
 <li>When an airline gives a total size (length + width + height), we add up your three sides.</li>
 <li>This checks your main cabin bag. Many airlines also allow a small personal bag, such as a handbag or laptop bag, with its own limits: see our <a href="../guides/handbag-and-sling-guide.html">handbag and sling guide</a> and <a href="../guides/laptop-backpack-guide.html">laptop backpack guide</a>.</li>
+<li>Buying a bag that fits? Our <a href="../category/luggage.html">trolley bags</a>, <a href="../category/backpacks.html">backpacks</a> and <a href="../category/handbags.html">handbags and slings</a> pages explain the sizes to look for, and the <a href="../tools/laptop-backpack.html">laptop backpack size chart</a> matches a backpack to your laptop.</li>
 <li>These are the standard economy limits: domestic flights for Indian airlines, India routes for international airlines, and the airlines' general rules for US and European airlines such as American, Delta, Ryanair and easyJet. Your fare, route or aircraft can change them.</li>
 </ul>
 <p>See the <a href="index.html">full baggage rules for each airline</a>, compare <a href="../guides/carry-on-size-by-airline.html">carry-on size by airline worldwide</a>, or read <a href="../guides/cabin-luggage-guide.html">the cabin bag rules and how to pick a cabin trolley</a>.</p>
@@ -2402,7 +2514,7 @@ def build_railways(cfg, deals, pages, lastmod):
 <h2>What you can't carry</h2>
 {lists(data["not_allowed"])}
 {('<h2>Good to know</h2>' + lists(data["notes"])) if data.get("notes") else ""}
-<aside class="tip">{icon("bulb", "icon tip-icon")}<div><strong>Packing for a train journey?</strong><p>Read <a href="../guides/things-to-carry-in-train-journey.html">things to carry in a train journey</a>, tick them off with our <a href="../packing/train.html">train journey checklist</a>, and lock your bag to the berth with a chain.</p></div></aside>
+<aside class="tip">{icon("bulb", "icon tip-icon")}<div><strong>Packing for a train journey?</strong><p>Read <a href="../guides/things-to-carry-in-train-journey.html">things to carry in a train journey</a>, tick them off with our <a href="../packing/index.html#train">train journey checklist</a>, and lock your bag to the berth with a chain.</p></div></aside>
 {faq_html}
 <h2>Sources</h2>
 <p>Official pages: {sources_html(data["sources"])}</p>
@@ -3054,13 +3166,13 @@ def build_tools(cfg, deals, pages, lastmod):
     """Watch size by wrist and backpack by laptop size (tools/*.html, static/tools.js)."""
     updated = "2026-11-03"
 
-    def finish(path, title, seo, desc, crumb, body, faq):
+    def finish(path, title, seo, desc, crumb, body, faq, modified=None):
         faq_html, faq_schema = faq_block(faq)
         body = body.replace("{faq}", faq_html)
         crumbs = crumbs_schema(cfg, [("Home", ""), (crumb, path)])
         pages.append(write(path, page(cfg, seo, desc, body, 1, path,
-                                      [tool_article(cfg, seo, desc, path, updated, updated), crumbs, faq_schema], og_type="article")))
-        lastmod[path] = updated
+                                      [tool_article(cfg, seo, desc, path, updated, modified or updated), crumbs, faq_schema], og_type="article")))
+        lastmod[path] = modified or updated
 
     def head(title, crumb, sub, tint, glyph):
         inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span>{e(crumb)}</nav>
@@ -3117,6 +3229,7 @@ def build_tools(cfg, deals, pages, lastmod):
 
     # Backpack by laptop size
     path = "tools/laptop-backpack.html"
+    lb_updated = "2026-11-26"
     bags = []
     for d in deals:
         if d["category"] != "backpacks":
@@ -3126,37 +3239,57 @@ def build_tools(cfg, deals, pages, lastmod):
         bags.append((max(sizes) if sizes else 0, fit, d))
     bags.sort(key=lambda x: -x[0])
     cards = "".join(tagged(d, "data-inch", num(inch) if inch else "0") for inch, fit, d in bags)
-    rows = "".join(f'<tr><th scope="row">{num(s)} inch</th><td>{e(dims)}</td></tr>' for s, dims in LAPTOP_ROWS)
+    # Our own chart: the screen diagonal converted to cm (1 inch = 2.54 cm), typical laptop footprint (LAPTOP_ROWS),
+    # and how many of our backpack picks list a sleeve that size or bigger (read from each pick's specs).
+    litres = {13.3: "15–20 L", 14: "18–25 L", 15.6: "20–30 L", 16: "25–30 L", 17.3: "28 L and up"}
+    chart = "".join(
+        f'<tr><th scope="row">{num(s_)} inch</th><td>{num(round(s_ * 2.54, 1))} cm</td><td>{e(dims)}</td><td>{litres[s_]}</td>'
+        f'<td>{sum(1 for inch, _, _ in bags if inch >= s_ - 0.35)} of {len(bags)}</td></tr>' for s_, dims in LAPTOP_ROWS)
+    unlisted = sum(1 for inch, _, _ in bags if not inch)
     title = "Which backpack fits my laptop? Laptop backpack size guide"
-    seo = "Laptop backpack size guide: will a 15.6 or 17 inch laptop fit?"
-    desc = "Pick your laptop's screen size (13 to 17 inch) and see which of our laptop backpacks fit it, plus typical laptop sizes in cm."
-    body = f"""{head(title, "Backpack for my laptop", "A free tool. Updated " + fmt_date(updated), "backpacks", "backpack")}
+    seo = "Laptop backpack size chart: will a 15.6 or 17 inch laptop fit?"
+    desc = ("Laptop backpack size chart in inches, cm and litres: pick your laptop's screen size (13 to 17 inch) and see which of our "
+            "backpacks list a sleeve that fits, how to measure your laptop, and the bag limits on Indian flights.")
+    body = f"""{head(title, "Backpack for my laptop", "A free tool. Updated " + fmt_date(lb_updated), "backpacks", "backpack")}
 <div class="wrap"><article class="guide">
 <div class="answer"><h2>Quick answer</h2><ul>
-<li>Laptop sizes are the screen measured corner to corner, in inches. A "15.6 inch" laptop is about 36 cm wide.</li>
-<li>A bag "for 15.6 inch laptops" fits most 15.6 inch and smaller laptops. For 16 or 17 inch laptops, look for a bag that says 17 inch.</li>
-<li>Gaming laptops are often thicker and wider, so check your laptop's width and the bag's sleeve size.</li>
+<li>Laptop sizes are the screen measured corner to corner, in inches. A "15.6 inch" laptop has a 39.6 cm screen diagonal, but the laptop itself is about 36 x 24 cm.</li>
+<li>Buy a bag whose sleeve is listed for your size or the next one up. A bag "for 15.6 inch laptops" fits most 15.6 inch and smaller laptops; for 16 or 17 inch laptops, look for a bag that says 17 inch.</li>
+<li>For daily office or college use, 20–30 litres holds a 15.6 inch laptop, its charger, a lunch box and a bottle. Gaming laptops are thicker and wider, so measure yours first.</li>
 </ul></div>
 <form class="checker" onsubmit="return false">
 <label>Your laptop's screen size<select id="lb-size"><option value="">Choose…</option><option value="13.3">13 or 13.3 inch</option><option value="14">14 inch</option><option value="15.6">15 or 15.6 inch</option><option value="16">16 inch</option><option value="17.3">17 or 17.3 inch</option></select></label>
 <p class="checker-total" id="lb-out" aria-live="polite">Choose your laptop size to see the backpacks that fit it.</p>
 </form>
+<h2>Laptop backpack size chart</h2>
+<div class="table-wrap"><table class="compare"><thead><tr><th>Screen size</th><th>Screen diagonal</th><th>Typical laptop size (width x depth)</th><th>Bag size for daily use</th><th>Our backpacks that list it</th></tr></thead><tbody>{chart}</tbody></table></div>
+<p class="checked">The diagonal is the inch size x 2.54. Laptop sizes are typical ranges, and real laptops vary by a few cm. The litres column is our rule of thumb for a laptop plus a day's things, not a maker's figure. The last column counts our {len(bags)} backpack picks by the laptop size each seller lists on Amazon.in ({unlisted} list none).</p>
+<h2>How to check your laptop will fit</h2>
+<ol>
+<li><strong>Find the screen size.</strong> It is in the model name, on the box, or on the maker's website under specifications.</li>
+<li><strong>Measure the laptop, not the screen.</strong> Close it and measure the width and depth with a tape in cm. Note the thickness too: gaming laptops are often 2.5 cm or more.</li>
+<li><strong>Compare with the sleeve.</strong> A sleeve listed for your size usually fits. If the listing gives the sleeve's inside size, it should be at least 1 cm wider and deeper than your laptop.</li>
+<li><strong>Allow for the charger.</strong> A large gaming charger needs its own pocket, which pushes you towards a 25–30 litre bag.</li>
+</ol>
 <h2>Our laptop backpacks</h2>
 <div class="grid" id="lb-picks">{cards}</div>
 <p class="checked">Based on the laptop size each seller lists on Amazon. Bags that don't list a size are shown as "check listing".</p>
-<h2>Typical laptop sizes</h2>
-<div class="table-wrap"><table class="compare"><thead><tr><th>Screen size</th><th>Typical laptop size (width x depth)</th></tr></thead><tbody>{rows}</tbody></table></div>
-<p class="checked">Real laptops vary by a few cm. Measure yours, or check its size on the maker's website.</p>
-<p>More help: <a href="../guides/laptop-backpack-guide.html">how to choose a laptop backpack</a>, <a href="../guides/15-6-inch-laptop-backpack-size.html">15.6 inch laptop backpack size</a>, <a href="../guides/office-backpack-for-men.html">office backpacks</a>, <a href="../guides/anti-theft-backpack.html">anti-theft backpacks</a>, <a href="../guides/travel-backpack-40l-carry-on.html">40 L carry-on backpacks</a> and <a href="../guides/school-bag-size-chart.html">school bag size by class</a>.</p>
+<h2>Taking it on a flight</h2>
+<p>A laptop backpack is a cabin bag or a personal item, never check-in: keep the laptop and its power bank with you. On flights within India, IndiGo and Akasa Air allow a personal item up to 3 kg next to your 7 kg cabin bag, and Air India gives the personal item a 40 x 30 x 20 cm limit. On SpiceJet and Air India Express the laptop bag counts inside the same 7 kg. See <a href="../guides/laptop-backpack-guide.html#4-taking-your-laptop-backpack-on-a-flight">which airlines count it</a>, or check a bag's size on the <a href="../baggage/checker.html">cabin bag checker</a>.</p>
+<p>More help: <a href="../guides/laptop-backpack-guide.html">how to choose a laptop backpack</a>, <a href="../guides/15-6-inch-laptop-backpack-size.html">15.6 inch laptop backpack size</a>, <a href="../guides/office-backpack-for-men.html">office backpacks</a>, <a href="../guides/anti-theft-backpack.html">anti-theft backpacks</a>, <a href="../guides/travel-backpack-40l-carry-on.html">40 L carry-on backpacks</a>, <a href="../category/backpacks.html">all our backpacks</a> and <a href="../guides/school-bag-size-chart.html">school bag size by class</a>.</p>
 {{faq}}
 {tool_pills("../", path)}
 </article></div>
 <script src="../assets/tools.js" defer></script>
 {telegram_band(cfg, "../")}"""
     finish(path, title, seo, desc, "Backpack for my laptop", body, [
+        ("What is the laptop backpack size chart?", "13.3 inch laptops are about 30–31 x 21–22 cm, 14 inch 31–33 x 21–23 cm, 15.6 inch 35–36 x 23–25 cm, 16 inch 35–36 x 24–26 cm and 17.3 inch 39–40 x 26–28 cm. Buy a backpack whose sleeve is listed for your size or the next one up."),
+        ("What is a laptop bag size in cm?", "Bags are sold by the laptop they fit, in inches. A 15.6 inch laptop is about 36 cm wide and 24 cm deep, so its sleeve needs to be a little bigger than that. A 15.6 inch laptop backpack is usually 45–48 cm tall."),
+        ("What size laptop bag in litres do I need?", "About 15–20 litres for a 13 or 14 inch laptop and a few things, 20–30 litres for a 15.6 inch laptop with a lunch box and bottle, and 28 litres or more for a 17 inch laptop. For a trip, 35–40 litres can be your only cabin bag."),
         ("Will a 15.6 inch laptop fit in a 15 inch bag?", "Sometimes, but it can be tight. A bag made for 15.6 inch laptops is the safer choice."),
         ("What size backpack do I need for a 17 inch laptop?", "One that says it fits 17 inch laptops. These bags usually hold 28 litres or more."),
-        ("How do I know my laptop's size?", "The size is the screen, measured corner to corner. It's usually in the laptop's name or on the box, or measure the width of the laptop itself in cm.")])
+        ("Can I carry a laptop backpack on a flight with a cabin bag?", "On IndiGo, Air India and Akasa Air, yes: it can go as your personal item (up to 3 kg) next to a 7 kg cabin bag. On SpiceJet and Air India Express, the laptop bag counts inside the 7 kg cabin allowance."),
+        ("How do I know my laptop's size?", "The size is the screen, measured corner to corner. It's usually in the laptop's name or on the box, or measure the width of the laptop itself in cm.")], lb_updated)
 
 
 # ---------- packing checklists ----------
@@ -3187,9 +3320,87 @@ PACKING_GUIDES = {"abroad": (("dubai", "Dubai"), ("thailand", "Thailand"), ("bal
                   "weekend": (("rishikesh", "Rishikesh"), ("rajasthan", "Rajasthan"))}
 
 
+PACKING_UPDATED = "2026-11-26"
+# Search Console audit fix #9 (26 Nov 2026): the four thin lists below became presets and sections of packing/index.html.
+# Their old pages stay live with the same checklist, a canonical to the index and a link to their section. Never delete them.
+PACK_PRESETS = ("week", "weekend", "beach", "train", "wedding")
+PACK_MERGED = set(PACK_PRESETS) - {"week"}
+
+
+def packing_href(slug):
+    """Where to link a packing list from inside packing/: merged lists go to their section of the index."""
+    if slug == "week":
+        return "index.html"
+    return ("index.html#" + slug) if slug in PACK_MERGED else slug + ".html"
+
+
+# Advice for each preset section on packing/index.html and for packing/hills.html. General advice, or facts with the
+# source named and dated in the text. Keep it practical; don't repeat the checklist itself.
+PACK_ADVICE = {
+    "weekend": ("Weekend trip packing list", """
+<p><strong>Take one bag.</strong> For two or three days a cabin trolley or a 30–40 litre backpack is enough. If you fly, a cabin-only trip skips the check-in queue and the baggage belt, but the bag must meet your airline's cabin limit, usually 7 kg on Indian airlines (see <a href="../baggage/checker.html">will my bag fit?</a>).</p>
+<p><strong>Plan outfits, not piles.</strong> Two days need about three tops, one pair of trousers or jeans you wear twice, nightwear and one change of underwear more than the days. Wear your bulkiest shoes and jacket on the way, and pack slippers.</p>
+<p><strong>Liquids in travel sizes.</strong> In a cabin bag every bottle must be 100 ml or less, all in one clear 1 litre bag. Shampoo sachets and a small sunscreen save space and the security tray.</p>
+<p><strong>Driving?</strong> Keep your driving licence, RC, insurance and PUC papers with you, and pack a car charger and a phone holder for maps.</p>"""),
+    "beach": ("Beach trip packing list", """
+<p><strong>Light, quick-drying clothes.</strong> Cotton or linen for the day, swimwear, a cover-up or sarong, and one smart outfit for a beach shack dinner. Quick-dry fabric matters more than how many sets you take: things you wash at night are dry by morning.</p>
+<p><strong>Sun protection you reapply.</strong> Pack a water-resistant sunscreen of SPF 30 or more, and put it on again every two hours and after swimming. Add sunglasses and a cap. Our <a href="../guides/travel-sunscreen-guide.html">travel sunscreen guide</a> explains SPF, PA and how much to use.</p>
+<p><strong>Somewhere for wet and sandy things.</strong> Two or three zip-lock bags for wet swimwear, a waterproof phone pouch, and flip-flops you don't mind getting wet. See <a href="../guides/shoes-for-goa-trip.html">shoes for a Goa trip</a>.</p>
+<p><strong>Know the beach rules.</strong> Goa Tourism's beach guidelines (read 26 Nov 2026) say: swim only between the red-and-yellow flags where lifesavers watch, never where a red flag is up, and not at all after sunset (beaches are open from 7 AM to sunset). Drinking alcohol and smoking on Goa's beaches are banned, and you shouldn't swim after any alcohol.</p>"""),
+    "train": ("Train journey packing list", """
+<p><strong>Know your luggage limit.</strong> Indian Railways' free allowance by class is below; anything bigger or heavier must be booked at the luggage office.</p>
+{train_table}
+<p><strong>Pack for the berth, not the boot.</strong> A soft bag or a small trolley slides under the lower berth. In AC 3-tier and AC Chair Car the limit is {ac3} per piece, so a large check-in trolley won't fit there. Lock the bag to the berth with a chain and keep your phone, cash and ID in a small sling on you.</p>
+<p><strong>Food, water and warmth.</strong> Carry water and dry snacks for delays. AC coaches are cold at night, so take a light jacket or shawl; in Sleeper and Second Class no bedding is provided, so add a bedsheet and a light blanket.</p>
+<p><strong>Keep your booking ID handy.</strong> Carry the photo ID you booked the ticket with, as the TTE can ask to see it, and a charged power bank for a long journey.</p>
+<p>Read the full <a href="../baggage/train-luggage-rules.html">train luggage rules</a>, and <a href="../guides/things-to-carry-in-train-journey.html">things to carry in a train journey</a> for what to wear and which bags work best.</p>"""),
+    "wedding": ("Wedding packing list", """
+<p><strong>Count the functions.</strong> Write down each one (haldi, mehendi, sangeet, the wedding and the reception) and pack one outfit, with its footwear and jewellery, for each. Add one spare for a stain or a change of plan.</p>
+<p><strong>Heavy outfits flat and on top.</strong> Fold lehengas, sarees and sherwanis in their own cloth or garment bags and lay them on top so they don't crease under shoes. A few safety pins, double-sided tape and a small sewing kit fix most last-minute problems.</p>
+<p><strong>Valuables stay with you.</strong> Keep jewellery, cash and the gift in your cabin bag or handbag, never in a checked bag that could be delayed or lost. See our <a href="../guides/wedding-gift-guide.html">wedding gift guide</a> if you haven't bought one.</p>
+<p><strong>Weigh it before you leave.</strong> Embroidered outfits are heavy, and economy fares within India usually include 15 kg of check-in baggage. Weigh the packed bag at home and check it with our <a href="../tools/bag-weight.html">excess baggage calculator</a>.</p>
+<p><strong>Comfort counts.</strong> Pack flat shoes or comfortable sandals for long functions and dancing, and an extension board: guest rooms rarely have enough sockets for everyone's phones and hair tools.</p>"""),
+    "hills": ("How to pack for a hill station in winter", """
+<p><strong>Layers, not one heavy coat.</strong> Thermals next to your skin, a sweater or fleece, and a windproof jacket you can take off in the afternoon sun. How cold it gets depends a lot on where you go: Ooty's December nights average about 7 °C, Gulmarg's fall below −4 °C. Our <a href="../guides/winter-clothes-for-hill-trips.html">winter clothes for hill trips</a> guide has IMD averages for six hill stations and what to wear in each.</p>
+<p><strong>Shoes with grip.</strong> Roads and steps get wet, icy or slushy. Waterproof shoes or boots with a deep tread, and two pairs of warm socks a day, matter more than a second jacket. See <a href="../guides/shoes-for-manali-and-kashmir-trip.html">shoes for Manali and Kashmir</a>.</p>
+<p><strong>Plan for the road.</strong> Hill roads are slow and winding, so carry motion sickness medicine, water and dry snacks, and eat light before a long drive. Snow can close roads and passes for hours or days: keep a day's spare medicines and some cash, as ATMs and card machines can be few or down in small hill towns.</p>
+<p><strong>Sun and dry air.</strong> UV is stronger at height and snow reflects up to 80% of it (WHO), so pack sunscreen and sunglasses even in winter. The cold, dry air cracks lips and skin: add lip balm and a thick moisturiser.</p>
+<p><strong>Check the rules of where you're going.</strong> Prepaid SIMs from other states usually don't work in Jammu and Kashmir, so carry a postpaid SIM or buy a local one (see our <a href="../trips/kashmir-in-december.html">Kashmir in December</a> guide). Leh's district administration says every tourist must rest at least 48 hours after arriving before going higher (leh.nic.in, read 26 Nov 2026), so pack for two quiet days. For Manali in winter, see <a href="../trips/manali.html">our Manali guide</a> for the Atal Tunnel and the Rohtang permit.</p>"""),
+}
+PACK_FAQ = {
+    "week": [
+        ("What should be on a packing checklist for travel?",
+         "Documents and money first (ID, tickets, bookings, cash and a card), then clothes by the number of days, toiletries, your medicines and a small first-aid kit, your phone, charger and power bank, and a water bottle. Our checklist above adds the right quantities for your days."),
+        ("How do I pack for a week in one bag?",
+         "Pack about 4–5 tops and plan to wash once, 2 pairs of trousers, underwear for each day plus one, and one pair of walking shoes on your feet. A medium trolley (64–72 cm) holds a week easily; a cabin trolley works if you pack light and use packing cubes."),
+        ("What to pack for a weekend trip?",
+         "One bag: about three tops, one pair of trousers, nightwear, underwear and socks for each day plus one, toiletries in travel sizes, your phone charger and power bank, ID and some cash. Choose the Weekend preset above for the full list."),
+        ("What to pack for a beach trip?",
+         "Light cotton clothes, swimwear and a cover-up, sunscreen of SPF 30 or more, sunglasses and a cap, flip-flops, zip-lock bags for wet things and a waterproof phone pouch. Choose the Beach preset above."),
+        ("What to pack for a train journey in India?",
+         "Your ID and ticket, water and dry snacks, a chain and lock for the berth, a light jacket for the AC coach (a bedsheet and blanket in Sleeper and Second Class), a power bank, and your valuables in a small bag on you. Choose the Train preset above."),
+        ("What to pack for a wedding as a guest?",
+         "One outfit for each function plus a spare, the matching footwear and jewellery, the gift, make-up, a small sewing kit and safety pins, comfortable flat shoes, and an extension board. Keep the jewellery and gift in your cabin bag. Choose the Wedding preset above."),
+    ],
+    "hills": [
+        ("What to pack for a hill station trip in winter?",
+         "Thermals, a sweater or fleece, a windproof padded jacket, a woollen cap, gloves and warm socks, waterproof shoes with grip, sunscreen, sunglasses, lip balm and moisturiser, motion sickness medicine, a power bank and some cash. The checklist above gives the quantities for your days."),
+        ("What to wear in a hill station in winter?",
+         "Three layers you can add and take off: thermals, a sweater or fleece, and a jacket that stops the wind, plus a cap, gloves and warm socks. Where nights fall below 0 °C, as in Manali, Srinagar and Gulmarg, pick a padded or down jacket."),
+        ("What to wear in a hill station for women?",
+         "The same three layers work: thermal leggings and top under jeans or warm trousers and a kurta, a sweater or fleece, and a padded jacket. Add a stole or muffler, gloves, and boots with grip rather than heels."),
+        ("What should I carry for Manali in December?",
+         "All three layers every day, as nights can fall below −5 °C, plus snow-proof shoes, gloves and a cap, sunscreen and lip balm, and cash. See our Manali packing list and what to wear in Manali in December for the details."),
+        ("Do I need snow boots for a hill station?",
+         "Only if you will walk in snow, as at Gulmarg, Solang or Sonamarg. For towns like Shimla or Mussoorie, waterproof shoes with a good grip are enough. For one snow day, shops in Manali, near Solang, in Tangmarg and in Gulmarg rent gumboots by the day, says our shoes guide."),
+    ],
+}
+
+
 def build_packing(cfg, deals_by_asin, pages, lastmod, trip_guides=()):
     data = json.loads(PACKING_FILE.read_text(encoding="utf-8"))
     trips = data["trips"]
+    by_slug = {t["slug"]: t for t in trips}
     paths = {t["slug"]: ("index.html" if t["slug"] == "week" else t["slug"] + ".html") for t in trips}
     for group in data["groups"]:
         for item in group["items"]:
@@ -3198,73 +3409,92 @@ def build_packing(cfg, deals_by_asin, pages, lastmod, trip_guides=()):
             if item.get("qty") is not None and not isinstance(item["qty"], int) and item["qty"] not in QTY_RULES:
                 sys.exit("Error: packing item %s has unknown qty %s" % (item["id"], item["qty"]))
     carry_link = ' See <a href="../baggage/can-i-carry.html">what you can carry on a flight</a>.' if FLIGHT_ITEMS_FILE.exists() else ""
-    for trip in trips:
-        slug = trip["slug"]
-        chips = "".join(
-            f'<a class="trip-chip{" on" if t["slug"] == slug else ""}" href="{paths[t["slug"]]}"'
-            f'{" aria-current=page" if t["slug"] == slug else ""}>{e(t["label"])}</a>' for t in trips)
-        groups_html = []
-        count = 0
+
+    def in_trip(item, slug):
+        return item["trips"] == "all" or slug in item["trips"]
+
+    def render_groups(slug, presets=None):
+        """The checklist for one trip. With presets (the index), every preset's items are written, each with
+        data-trips, and the ones not on this trip are hidden until static/packing.js switches preset."""
+        groups_html, count = [], 0
         for group in data["groups"]:
-            rows = []
+            rows, shown = [], 0
             for item in group["items"]:
-                if item["trips"] != "all" and slug not in item["trips"]:
+                on = [s_ for s_ in (presets or (slug,)) if in_trip(item, s_)]
+                if not on:
                     continue
-                count += 1
-                qty = pack_qty(item.get("qty"), trip["days"], item.get("cap"))
+                visible = slug in on
+                count += visible
+                shown += visible
+                qty = pack_qty(item.get("qty"), by_slug[slug]["days"], item.get("cap"))
                 cap_attr = ' data-cap="%d"' % item["cap"] if item.get("cap") else ""
                 more = ""
                 if item.get("pick"):
                     more = f' <a class="pk-more" href="../picks/{item["pick"]}.html">Our pick</a>'
                 elif item.get("link") and (item["link"] != "baggage/can-i-carry.html" or FLIGHT_ITEMS_FILE.exists()):
                     more = f' <a class="pk-more" href="../{item["link"]}">See more</a>'
-                rows.append(f'<li><label><input type="checkbox" data-id="{e(item["id"])}"> <span>{e(item["name"])}</span>'
-                            + (f' <b class="pk-qty" data-qty="{e(str(item["qty"]))}"{cap_attr}>× {num(qty)}</b>' if qty else "")
+                attrs = (' data-trips="%s"' % " ".join(on) + ("" if visible else " hidden")) if presets else ""
+                rows.append(f'<li{attrs}><label><input type="checkbox" data-id="{e(item["id"])}"> <span>{e(item["name"])}</span>'
+                            + (f' <b class="pk-qty" data-qty="{e(str(item["qty"]))}"{cap_attr}>× {num(qty)}</b>' if item.get("qty") is not None else "")
                             + f'</label>{more}</li>')
             if rows:
-                groups_html.append(f'<section class="pack-group"><h2>{e(group["name"])}</h2><ul>{"".join(rows)}</ul></section>')
+                hide = "" if shown or not presets else " hidden"
+                groups_html.append(f'<section class="pack-group"{hide}><h2>{e(group["name"])}</h2><ul>{"".join(rows)}</ul></section>')
+        return "".join(groups_html), count
+
+    def related_html(slug):
         going = [g for g in trip_guides if g.get("packing") == slug]
-        going_html = ('<p class="small">Planning the trip? Read our %s.</p>' % " and ".join(
+        out = ('<p class="small">Planning the trip? Read our %s.</p>' % " and ".join(
             f'<a href="../trips/{g["slug"]}.html">{e(g.get("place", g["title"]))} trip guide</a>' for g in going)) if going else ""
         lists = [(s_, place) for s_, place in PACKING_GUIDES.get(slug, ()) if (ARTICLES_DIR / ("%s-packing-list.md" % s_)).exists()]
         if lists:
-            going_html += '<p class="small">Want the full list, with what to wear and why? Read our packing lists for %s.</p>' % and_list(
+            out += '<p class="small">Want the full list, with what to wear and why? Read our packing lists for %s.</p>' % and_list(
                 f'<a href="../guides/{s_}-packing-list.html">{place}</a>' for s_, place in lists)
         full = {"train": ("things-to-carry-in-train-journey", "things to carry in a train journey"),
                 "business": ("business-trip-packing-list", "business trip packing list")}.get(slug)
         if full and (ARTICLES_DIR / ("%s.md" % full[0])).exists():
-            going_html += ('<p class="small">Want the full list, with what to wear, the bags and why? Read our '
-                           '<a href="../guides/%s.html">%s</a>.</p>' % full)
+            out += ('<p class="small">Want the full list, with what to wear, the bags and why? Read our '
+                    '<a href="../guides/%s.html">%s</a>.</p>' % full)
+        if slug == "weekend":
+            near = [(c, place) for c, place in (("delhi", "Delhi"), ("mumbai", "Mumbai"), ("bangalore", "Bangalore"))
+                    if (TRIPS_DIR / ("weekend-getaways-from-%s.md" % c)).exists()]
+            if near:
+                out += '<p class="small">Choosing where to go? See weekend getaways from %s.</p>' % and_list(
+                    f'<a href="../trips/weekend-getaways-from-{c}.html">{place}</a>' for c, place in near)
         if slug == "abroad":
             study = [(c, place) for c, place in (("usa", "the USA"), ("uk", "the UK"), ("canada", "Canada"), ("australia", "Australia"), ("germany", "Germany"))
                      if (ARTICLES_DIR / ("%s-packing-list-for-indian-students.md" % c)).exists()]
             if study and (ARTICLES_DIR / "study-abroad-packing-list.md").exists():
-                going_html += ('<p class="small">Going abroad to study? Read our <a href="../guides/study-abroad-packing-list.html">study abroad packing list</a>, '
-                               'and the student lists for %s.</p>' % and_list(
-                                   f'<a href="../guides/{c}-packing-list-for-indian-students.html">{place}</a>' for c, place in study))
-            going_html += visa_india.link_line(None, "../").replace("<p>", '<p class="small">', 1)
+                out += ('<p class="small">Going abroad to study? Read our <a href="../guides/study-abroad-packing-list.html">study abroad packing list</a>, '
+                        'and the student lists for %s.</p>' % and_list(
+                            f'<a href="../guides/{c}-packing-list-for-indian-students.html">{place}</a>' for c, place in study))
+            out += visa_india.link_line(None, "../").replace("<p>", '<p class="small">', 1)
             if (TRIPS_DIR / "international-trips-from-india.md").exists():
-                going_html += ('<p class="small">Still choosing where to go? Compare <a href="../trips/international-trips-from-india.html">'
-                               'international trips from India</a> by flight time, best months and visa type.</p>')
-        going_html += ('<p class="small">Want a list for your own trip, with kids or a baby, the month and how you travel? '
-                       'Try the <a href="../tools/packing-list-maker.html">packing list maker</a>.</p>')
-        title = trip["title"]
-        desc = "%s %s A free checklist with %d items and quantities for your number of days. Tick things off as you pack." % (
-            title + ":", trip["intro"].split(". ")[0] + ".", count)
-        inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span>{'<a href="index.html">Packing lists</a><span>/</span>' if slug != 'week' else ''}{e(trip['label'])}</nav>
-      <h1>{e(title)}</h1>
-      <p class="lead">{e(trip['intro'])}</p>"""
-        body = f"""{page_head("travel-gear", media(cfg, "travel-gear", "media media-tile"), inner, "../", "packed-suitcase")}
-<div class="wrap"><article class="guide">
-<nav class="trip-chips" aria-label="Packing lists for other trips">{chips}</nav>
-{going_html}
-<form class="checker packer" id="packer" onsubmit="return false">
-  <label>How many days?<input id="pk-days" type="number" inputmode="numeric" min="1" max="30" value="{trip['days']}"></label>
-  <p class="checker-total"><span id="pk-count">{count} things to pack</span></p>
-  <p class="hint">Quantities change with the number of days. Your ticks stay on this device only. <button type="button" class="link-btn" id="pk-clear">Clear ticks</button> <button type="button" class="link-btn" id="pk-print">Print</button></p>
-</form>
-<div class="pack-list" data-trip="{slug}">{"".join(groups_html)}</div>
-<h2>Packing tips</h2>
+                out += ('<p class="small">Still choosing where to go? Compare <a href="../trips/international-trips-from-india.html">'
+                        'international trips from India</a> by flight time, best months and visa type.</p>')
+        return out
+
+    maker_line = ('<p class="small">Want a list for your own trip, with kids or a baby, the month and how you travel? '
+                  'Try the <a href="../tools/packing-list-maker.html">packing list maker</a>.</p>')
+
+    def train_table():
+        if not RAILWAYS_FILE.exists():
+            return "", "55 x 45 x 22.5 cm"
+        r = json.loads(RAILWAYS_FILE.read_text(encoding="utf-8"))
+        rows = "".join(f'<tr><th scope="row">{e(c["class"])}</th><td>{c["free_kg"]} kg</td><td>{c["max_kg"]} kg</td></tr>' for c in r["classes"])
+        ac3 = " x ".join(num(x) for x in r["size"]["ac3_dims_cm"]) + " cm"
+        return (f'<div class="table-wrap"><table class="compare"><thead><tr><th>Class</th><th>Free luggage</th><th>Most you can carry in the coach</th></tr></thead>'
+                f'<tbody>{rows}</tbody></table></div><p class="checked">From Indian Railways\' rules for luggage, checked {fmt_date(r["checked"])}. '
+                f'The most includes the free kg; book the rest at the luggage office before you travel.</p>'), ac3
+
+    def advice(slug):
+        h2, html_ = PACK_ADVICE[slug]
+        if "{train_table}" in html_:
+            table, ac3 = train_table()
+            html_ = html_.replace("{train_table}", table).replace("{ac3}", ac3)
+        return h2, html_
+
+    tips = f"""<h2>Packing tips</h2>
 <ul>
 <li><strong>Cabin bag first.</strong> Keep medicines, documents, your power bank, laptop and one change of clothes in the bag that stays with you.{carry_link}</li>
 <li><strong>Heavy things at the bottom.</strong> Put shoes and heavy items near the wheels so the trolley doesn't tip over.</li>
@@ -3272,20 +3502,108 @@ def build_packing(cfg, deals_by_asin, pages, lastmod, trip_guides=()):
 <li><strong>Weigh it at home.</strong> Check your airline's limit on our <a href="../baggage/index.html">baggage rules page</a>, or the <a href="../baggage/train-luggage-rules.html">train luggage rules</a> for rail trips.</li>
 <li><strong>Pick the right bag size.</strong> Not sure? See <a href="../baggage/luggage-size-chart.html#which-size">which size you need</a>.</li>
 <li><strong>Travelling as a woman?</strong> See our <a href="../guides/travel-essentials-for-women.html">travel essentials for women</a> and, for trips on your own, <a href="../guides/solo-female-travel-india.html">solo female travel in India</a>.</li>
-</ul>
+</ul>"""
+
+    for trip in trips:
+        slug = trip["slug"]
+        hub = slug == "week"
+        merged = slug in PACK_MERGED
+        path = "packing/" + paths[slug]
+        chips = "".join(
+            f'<a class="trip-chip{" on" if t["slug"] == slug else ""}" href="{packing_href(t["slug"])}"'
+            + (f' data-preset="{t["slug"]}" data-days="{t["days"]}"' if hub and t["slug"] in PACK_PRESETS else "")
+            + f'{" aria-current=page" if t["slug"] == slug else ""}>{e(t["label"])}</a>' for t in trips)
+        groups_html, count = render_groups(slug, PACK_PRESETS if hub else None)
+        going_html = related_html(slug) + maker_line
+        title = trip["title"]
+        intro = trip["intro"]
+        faq = PACK_FAQ.get(slug, [])
+        sections = ""
+        answer = ""
+        notice = ""
+        updated = PACKING_UPDATED if (hub or merged or slug == "hills") else "2026-11-03"
+        if hub:
+            title = "Packing checklists for every trip"
+            seo = "Packing checklist for travel: week, weekend, beach, train, wedding"
+            intro = ("A free, tickable packing checklist. Start with the week-long list, or switch to a weekend, beach, train or wedding "
+                     "preset: the items and quantities change with the trip and your number of days.")
+            answer = """<div class="answer"><h2>Quick answer</h2><ul>
+<li><strong>Every trip:</strong> ID, tickets and bookings, cash and a card, your medicines, phone, charger and power bank, toiletries and a water bottle.</li>
+<li><strong>Clothes:</strong> a top for each day plus one, trousers for every three days, underwear for each day plus one, and one pair of walking shoes on your feet.</li>
+<li><strong>Then add for the trip:</strong> swimwear and sunscreen for the beach, a chain lock and bedsheet for the train, an outfit per function for a wedding, thermals for the hills.</li>
+</ul></div>"""
+            parts = []
+            for s_ in PACK_PRESETS[1:]:
+                if s_ not in by_slug:
+                    continue
+                h2, html_ = advice(s_)
+                adds = [it["name"] for g in data["groups"] for it in g["items"] if in_trip(it, s_) and not in_trip(it, "week")]
+                drops = [it["name"] for g in data["groups"] for it in g["items"] if in_trip(it, "week") and not in_trip(it, s_)]
+                diff = ""
+                if adds:
+                    diff += "<p><strong>What this list adds to the week-long one:</strong> %s.</p>" % e("; ".join(a[0].lower() + a[1:] for a in adds))
+                if drops:
+                    diff += "<p><strong>What it leaves out:</strong> %s.</p>" % e("; ".join(a[0].lower() + a[1:] for a in drops))
+                t = by_slug[s_]
+                parts.append(f'<section class="pack-preset" id="{s_}"><h2>{e(h2)}</h2><p class="lead">{e(t["intro"])}</p>{html_}{diff}'
+                             f'<p><a class="btn" href="#{s_}" data-preset-link="{s_}">Use the {e(t["label"].lower())} list ({t["days"]} days)</a></p>'
+                             f'{related_html(s_)}</section>')
+            sections = "".join(parts)
+            others = [t for t in trips if t["slug"] not in PACK_PRESETS]
+            sections += ("<h2>More packing lists</h2><p>Separate checklists for %s.</p>" % and_list(
+                f'<a href="{t["slug"]}.html">{e(t["title"][0].lower() + t["title"][1:])}</a>' for t in others)) if others else ""
+        elif slug == "hills":
+            seo = "Hill station packing list for winter: Manali, Shimla, Kashmir"
+            h2, html_ = advice("hills")
+            sections = f'<h2>{e(h2)}</h2>{html_}'
+        else:
+            seo = title
+        if merged:
+            CANONICAL_TO[path] = "packing/index.html"
+            notice = (f'<aside class="tip">{icon("check", "icon tip-icon")}<div><strong>This list is now part of our packing checklists</strong>'
+                      f'<p>The same {e(trip["label"].lower())} checklist, with advice and the other presets, is on '
+                      f'<a href="index.html#{slug}">packing checklists for every trip</a>.</p></div></aside>')
+        desc = ("Free packing checklists: a week-long trip, a weekend, the beach, a long train journey or a wedding. Tick items as you pack; "
+                "quantities follow your number of days, with advice for each trip.") if hub else (
+            "%s %s A free checklist with %d items and quantities for your number of days. Tick things off as you pack." % (
+                title + ":", intro.split(". ")[0] + ".", count))
+        if slug == "hills":
+            desc = ("Winter hill station packing list for Manali, Shimla and Kashmir: %d items with quantities for your days, plus how to layer, "
+                    "shoes for snow, hill roads, SIMs in Kashmir and Leh's 48-hour rest rule." % count)
+        crumb_nav = '<a href="index.html">Packing lists</a><span>/</span>' if not hub else ''
+        inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span>{crumb_nav}{e(trip['label'] if not hub else 'Packing lists')}</nav>
+      <h1>{e(title)}</h1>
+      <p class="lead">{e(intro)}</p>
+      <p class="muted small">Updated {fmt_date(updated)}</p>"""
+        faq_html, faq_schema = faq_block(faq) if faq else ("", None)
+        body = f"""{page_head("travel-gear", media(cfg, "travel-gear", "media media-tile"), inner, "../", "packed-suitcase")}
+<div class="wrap"><article class="guide">
+{notice}
+{answer}
+<nav class="trip-chips" aria-label="{'Choose your trip' if hub else 'Packing lists for other trips'}">{chips}</nav>
+{'' if hub else going_html}
+<form class="checker packer" id="packer" onsubmit="return false">
+  <label>How many days?<input id="pk-days" type="number" inputmode="numeric" min="1" max="30" value="{trip['days']}"></label>
+  <p class="checker-total"><span id="pk-count">{count} things to pack</span></p>
+  <p class="hint">Quantities change with the number of days. Your ticks stay on this device only. <button type="button" class="link-btn" id="pk-clear">Clear ticks</button> <button type="button" class="link-btn" id="pk-print">Print</button></p>
+</form>
+<div class="pack-list" data-trip="{slug}"{' data-presets="' + ' '.join(PACK_PRESETS) + '"' if hub else ''}>{groups_html}</div>
+{going_html if hub else ''}
+{sections}
+{tips}
+{faq_html}
 {tool_pills("../", "packing/index.html")}
 </article></div>
 <script src="../assets/packing.js" defer></script>
 {telegram_band(cfg, "../")}"""
-        path = "packing/" + paths[slug]
-        items = [("Home", "")] + ([("Packing lists", "packing/index.html")] if slug != "week" else []) + [(trip["label"], path)]
+        items = [("Home", "")] + ([("Packing lists", "packing/index.html")] if not hub else []) + [(trip["label"] if not hub else "Packing lists", path)]
         article = {"@context": "https://schema.org", "@type": "Article", "headline": title, "description": desc,
-                   "datePublished": "2026-11-03", "dateModified": "2026-11-03", "inLanguage": "en-IN",
+                   "datePublished": "2026-11-03", "dateModified": updated, "inLanguage": "en-IN",
                    "image": photo_og(cfg, "packed-suitcase") if "packed-suitcase" in PHOTOS else abs_url(cfg, "assets/logo.png"),
                    "mainEntityOfPage": abs_url(cfg, path), "author": org_schema(cfg), "publisher": org_schema(cfg)}
-        pages.append(write(path, page(cfg, title, desc, body, 1, path, [article, crumbs_schema(cfg, items)],
-                                      og_type="article", photo="packed-suitcase")))
-        lastmod[path] = "2026-11-03"
+        schema = [article, crumbs_schema(cfg, items)] + ([faq_schema] if faq_schema else [])
+        pages.append(write(path, page(cfg, seo, desc, body, 1, path, schema, og_type="article", photo="packed-suitcase")))
+        lastmod[path] = updated
 
 
 # ---------- pages ----------
@@ -3642,7 +3960,7 @@ def build():
     packing_html = ""
     if PACKING_FILE.exists():
         pack_trips = json.loads(PACKING_FILE.read_text(encoding="utf-8"))["trips"]
-        cards = [hl_card("packing/index.html" if t["slug"] == "week" else "packing/%s.html" % t["slug"], e(t["label"]),
+        cards = [hl_card("packing/" + packing_href(t["slug"]), e(t["label"]),
                          "Tick-off checklist", "check", "travel-gear") for t in pack_trips]
         if "study-abroad-packing-list" in articles_by_slug:
             cards.append(hl_card("guides/study-abroad-packing-list.html", "Study abroad", "What to pack for college abroad", "book", "books"))
@@ -3884,7 +4202,7 @@ def build():
         body = f"""{page_head(slug, media(cfg, slug, 'media media-tile'), inner, "../", cat.get("photo"))}
 <div class="wrap section">
   {tip_box(cfg, slug, '../', articles_by_slug)}
-  {more_tools.category_link(sys.modules[__name__], slug, '../')}
+  {more_tools.category_link(sys.modules[__name__], slug, '../')}{category_guidance(slug, '../')}
   {items_html}
   {related_html}
 </div>
@@ -3897,6 +4215,8 @@ def build():
             for i, d in enumerate(items, 1)]}
         schema = [crumbs, item_list] if items else [crumbs]
         pages.append(write(path, page(cfg, cat.get("seo_title", cat["name"]), desc, body, 1, path, schema, photo=cat.get("photo"))))
+        if category_guidance(slug, "../") and items:
+            lastmod[path] = max([CATEGORY_GUIDE_UPDATED] + [d["added_at"][:10] for d in items])
 
         # Subcategory pages, only where there are enough picks to be useful
         for s in subs:

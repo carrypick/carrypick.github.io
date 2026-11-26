@@ -6,7 +6,7 @@ item: Cigarettes
 date: 2026-11-15
 checked_against: IndiGo, Air India, Akasa Air and airport security rules
 sources: IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | Akasa Air conditions of carriage=https://www.akasaair.com/quick-links/conditions-of-carriage | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security | Airports Authority of India=https://www.aai.aero/en/node/92938
-related: guides/cabin-luggage-guide.html=Cabin bag rules | packing/weekend.html=Weekend packing list | baggage/checker.html=Cabin bag checker | baggage/index.html=Airline baggage rules
+related: guides/cabin-luggage-guide.html=Cabin bag rules | packing/index.html#weekend=Weekend packing list | baggage/checker.html=Cabin bag checker | baggage/index.html=Airline baggage rules
 ---
 ## The short answer
 

@@ -96,7 +96,7 @@ A small face wash:
 - **Try new skincare at home first,** not on the first day of your holiday. Test it on a small patch of skin.
 - **We haven't tested these on skin.** SPF, PA and skin type come from each Amazon listing. If you have a skin problem, ask a dermatologist.
 
-Keep your bottles together in a [toiletry bag](toiletry-bag-for-travel.html). Going to the beach? See our [Goa trip guide](../trips/goa.html) and [beach packing list](../packing/beach.html).
+Keep your bottles together in a [toiletry bag](toiletry-bag-for-travel.html). Going to the beach? See our [Goa trip guide](../trips/goa.html) and [beach packing list](../packing/index.html#beach).
 
 ## Questions
 

@@ -8,7 +8,7 @@ photo: maldives-villas-sunset
 ---
 Most Indian couples leave for the honeymoon a few days after the wedding, when everyone is tired and the house is full of guests. That's when things get forgotten. This list keeps it simple: what you both need, what the bride and groom should pack, and what changes for a beach honeymoon like the Maldives, Bali, Goa or Kerala, or a hill honeymoon like Manali or Kashmir.
 
-Want to tick things off as you pack? Use our [beach trip checklist](../packing/beach.html), [hill station checklist](../packing/hills.html) or [checklist for trips abroad](../packing/abroad.html). Need a list for your exact dates and place? Make your own with the [packing list maker](../tools/packing-list-maker.html).
+Want to tick things off as you pack? Use our [beach trip checklist](../packing/index.html#beach), [hill station checklist](../packing/hills.html) or [checklist for trips abroad](../packing/abroad.html). Need a list for your exact dates and place? Make your own with the [packing list maker](../tools/packing-list-maker.html).
 
 Still choosing where to go? See our [honeymoon destinations in India](../trips/honeymoon-destinations-in-india.html) and [honeymoon destinations outside India](../trips/honeymoon-destinations-outside-india.html), by month, visa and flight time.
 

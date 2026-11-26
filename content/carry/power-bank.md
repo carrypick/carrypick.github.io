@@ -7,7 +7,7 @@ date: 2026-11-10
 updated: 2026-11-21
 checked_against: IndiGo, Air India and Akasa Air rules, DGCA's lithium battery circular and BCAS's banned items list
 sources: IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | Akasa Air conditions of carriage=https://www.akasaair.com/quick-links/conditions-of-carriage | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security | DGCA Dangerous Goods Advisory Circular 01/2025, 11 Nov 2025 (PDF)=https://www.dgca.gov.in/digigov-portal/Upload?flag=iframeAttachView&attachId=It%2B0TP06x06YSOsdpSINLg%3D%3D&baseLocale=en_US | BCAS list of items banned in the cabin (archived copy, read 21 Nov 2026)=https://web.archive.org/web/20240919062225/https://bcasindia.gov.in/passenger_pdf/prohibited.pdf
-related: guides/cabin-luggage-guide.html=Cabin bag rules | guides/laptop-backpack-guide.html=Laptop backpacks for flights | baggage/checker.html=Cabin bag checker | baggage/index.html=Airline baggage rules | trips/where-to-go-in-december-january.html=Where to go in December and January | packing/business.html=Work trip packing list
+related: guides/cabin-luggage-guide.html=Cabin bag rules | guides/laptop-backpack-guide.html=Laptop backpacks for flights | tools/laptop-backpack.html=Laptop backpack size chart | baggage/checker.html=Cabin bag checker | baggage/index.html=Airline baggage rules | trips/where-to-go-in-december-january.html=Where to go in December and January | packing/business.html=Work trip packing list
 ---
 ## How to read the Wh on your power bank
 

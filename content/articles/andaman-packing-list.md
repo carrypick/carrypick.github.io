@@ -9,7 +9,7 @@ feature_until: 2027-02-28
 ---
 Andaman is warm all year, at about 30 °C in the day, and humid. December can still bring showers, and you'll spend hours on ferries and boats. So pack light clothes, good sun care, something for the rain and a waterproof pouch. This list tells you what to pack and why.
 
-Want to tick things off as you pack? Use our [beach trip checklist](../packing/beach.html). Still planning? Read our [Andaman in December guide](../trips/andaman-in-december.html) for ferries, permits and things to do. Travelling with kids or a baby, or need it for your exact dates? Make your own list with the [packing list maker](../tools/packing-list-maker.html).
+Want to tick things off as you pack? Use our [beach trip checklist](../packing/index.html#beach). Still planning? Read our [Andaman in December guide](../trips/andaman-in-december.html) for ferries, permits and things to do. Travelling with kids or a baby, or need it for your exact dates? Make your own list with the [packing list maker](../tools/packing-list-maker.html).
 
 [[toppicks:Our picks for an Andaman trip|See the bag rules for flights and ferries|#which-bag-to-take]]
 [[top:B094JBDRKX|Waterproof pouch for ferries and boat trips|Two IPX8 pouches for your phone, cash and ID, with a neck strap. The touch screen works through the pouch.]]

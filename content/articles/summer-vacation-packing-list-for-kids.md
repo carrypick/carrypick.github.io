@@ -156,7 +156,7 @@ A boys' thermal set and a boys' winter jacket:
 - **Mosquito repellent** for the evenings
 - **Sand toys,** if they're small
 
-The monsoon usually reaches Kerala around the end of May or early June, and the west coast is hot and humid before that. Our [Goa packing list](goa-packing-list.html) and [Andaman packing list](andaman-packing-list.html) have more, and our [beach checklist](../packing/beach.html) is ready to tick.
+The monsoon usually reaches Kerala around the end of May or early June, and the west coast is hot and humid before that. Our [Goa packing list](goa-packing-list.html) and [Andaman packing list](andaman-packing-list.html) have more, and our [beach checklist](../packing/index.html#beach) is ready to tick.
 
 ## Packing for a trip abroad
 

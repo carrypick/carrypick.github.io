@@ -6,7 +6,7 @@ item: Pickle
 date: 2026-11-15
 checked_against: IndiGo, Air India and Akasa Air rules
 sources: IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | Akasa Air conditions of carriage=https://www.akasaair.com/quick-links/conditions-of-carriage
-related: tools/bag-weight.html=Excess baggage calculator | packing/wedding.html=Wedding packing list | guides/polycarbonate-vs-polypropylene-luggage.html=Hard luggage: polycarbonate or polypropylene | baggage/index.html=Airline baggage rules
+related: tools/bag-weight.html=Excess baggage calculator | packing/index.html#wedding=Wedding packing list | guides/polycarbonate-vs-polypropylene-luggage.html=Hard luggage: polycarbonate or polypropylene | baggage/index.html=Airline baggage rules
 ---
 ## By airline
 

@@ -6,7 +6,7 @@ item: Liquids, gels, creams and pastes
 date: 2026-11-15
 checked_against: Air India, IndiGo and airport security rules
 sources: Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security | Airports Authority of India=https://www.aai.aero/en/node/92938
-related: guides/travel-sunscreen-guide.html=Travel sunscreen in 100 ml or less | guides/cabin-luggage-guide.html=Cabin bag rules | packing/weekend.html=Weekend packing list | baggage/checker.html=Cabin bag checker | guides/toiletry-bag-for-travel.html=Toiletry
+related: guides/travel-sunscreen-guide.html=Travel sunscreen in 100 ml or less | guides/cabin-luggage-guide.html=Cabin bag rules | packing/index.html#weekend=Weekend packing list | baggage/checker.html=Cabin bag checker | guides/toiletry-bag-for-travel.html=Toiletry
 ---
 ## The 100 ml rule in short
 

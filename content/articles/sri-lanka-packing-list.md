@@ -8,7 +8,7 @@ photo: sri-lanka-ella-train
 ---
 Sri Lanka is small, but its weather changes a lot from the coast to the hills. The beaches are hot all year, the hill country around Nuwara Eliya and Ella is cool at night, and the two monsoons bring rain to different coasts at different times. Sri Lanka Tourism's own advice is to pack lightweight clothing, rain protection, comfortable footwear and an extra layer for the hills. This list tells you what to pack and why, for a trip from India.
 
-Still planning the trip? Read our [Sri Lanka trip guide](../trips/sri-lanka-trip-from-india.html) for the free ETA, flights, a 6-day itinerary and the Ramayana sites. Want to tick things off as you pack? Use our [checklist for trips abroad](../packing/abroad.html). Going to the beaches? Add our [beach trip checklist](../packing/beach.html). Travelling with kids or a baby, or need it for your exact dates? Make your own list with the [packing list maker](../tools/packing-list-maker.html).
+Still planning the trip? Read our [Sri Lanka trip guide](../trips/sri-lanka-trip-from-india.html) for the free ETA, flights, a 6-day itinerary and the Ramayana sites. Want to tick things off as you pack? Use our [checklist for trips abroad](../packing/abroad.html). Going to the beaches? Add our [beach trip checklist](../packing/index.html#beach). Travelling with kids or a baby, or need it for your exact dates? Make your own list with the [packing list maker](../tools/packing-list-maker.html).
 
 [[toppicks:Our picks for a Sri Lanka trip|See the bag rules by airline|#which-bag-to-take]]
 [[top:B09XJ2D8VM|Rain poncho for monsoon showers|Long enough to cover you and a backpack, and folds to 27 x 10 x 9 cm.]]

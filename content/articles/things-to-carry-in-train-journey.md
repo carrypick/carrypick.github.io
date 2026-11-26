@@ -8,7 +8,7 @@ photo: train-coach-aisle
 ---
 A long train journey in India is easy if a few things are within reach: your ticket and ID, water and food, a way to lock your bag, something warm for the AC coach and a charged phone. This list tells you what to carry and why, for a day train or an overnight one, with the Indian Railways luggage rules checked on official pages.
 
-Want to tick things off as you pack? Use our [train journey checklist](../packing/train.html). Need the full luggage rules, with sizes and charges? Read [Indian Railways luggage rules](../baggage/train-luggage-rules.html). Travelling with kids or a baby, or need a list for your exact dates? Make one with the [packing list maker](../tools/packing-list-maker.html).
+Want to tick things off as you pack? Use our [train journey checklist](../packing/index.html#train). Need the full luggage rules, with sizes and charges? Read [Indian Railways luggage rules](../baggage/train-luggage-rules.html). Travelling with kids or a baby, or need a list for your exact dates? Make one with the [packing list maker](../tools/packing-list-maker.html).
 
 ## The short list
 
@@ -219,7 +219,7 @@ No. Explosive, inflammable and dangerous goods, including gas cylinders, even em
 
 ## Related guides
 
-- [Train journey checklist](../packing/train.html)
+- [Train journey checklist](../packing/index.html#train)
 - [Indian Railways luggage rules](../baggage/train-luggage-rules.html)
 - [Business trip packing list](business-trip-packing-list.html)
 - [Weekend getaways from Delhi](../trips/weekend-getaways-from-delhi.html), [Mumbai](../trips/weekend-getaways-from-mumbai.html) and [Bangalore](../trips/weekend-getaways-from-bangalore.html)

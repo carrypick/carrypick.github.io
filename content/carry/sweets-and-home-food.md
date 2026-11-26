@@ -6,7 +6,7 @@ item: Sweets and home food
 date: 2026-11-10
 checked_against: IndiGo, Air India, Akasa Air and airport security rules
 sources: IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Akasa Air conditions of carriage=https://www.akasaair.com/quick-links/conditions-of-carriage | Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security
-related: packing/wedding.html=Wedding packing list | guides/wedding-gift-guide.html=Wedding gift ideas | tools/bag-weight.html=Excess baggage calculator | baggage/index.html=Airline baggage rules
+related: packing/index.html#wedding=Wedding packing list | guides/wedding-gift-guide.html=Wedding gift ideas | tools/bag-weight.html=Excess baggage calculator | baggage/index.html=Airline baggage rules
 ---
 Can you carry sweets, mithai or a tiffin on a flight in India? Dry sweets and snacks, yes, in hand luggage and check-in. Sweets in syrup and runny food follow the liquids rule.
 

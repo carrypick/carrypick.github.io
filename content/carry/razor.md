@@ -7,7 +7,7 @@ date: 2026-11-15
 updated: 2026-11-21
 checked_against: IndiGo, Air India, SpiceJet, Air India Express and airport security rules
 sources: Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Airports Authority of India=https://www.aai.aero/en/node/92938 | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security | IndiGo dangerous goods table (PDF)=https://www.goindigo.in/content/dam/s6web/in/en/assets/static-pages/baggage/IndiGo-DGR-Table.pdf | SpiceJet dangerous goods list=https://corporate.spicejet.com/DGR.aspx | Air India Express prohibited items (PDF)=https://www.airindiaexpress.com/content/dam/airindiaexpress/documents/mandatory-disclosure/AIX_Prohibited_Items.pdf | BCAS list of items banned in the cabin (archived copy, read 21 Nov 2026)=https://web.archive.org/web/20240919062225/https://bcasindia.gov.in/passenger_pdf/prohibited.pdf
-related: packing/weekend.html=Weekend packing list | packing/business.html=Work trip packing list | guides/cabin-luggage-guide.html=Cabin bag rules | baggage/index.html=Airline baggage rules
+related: packing/index.html#weekend=Weekend packing list | packing/business.html=Work trip packing list | guides/cabin-luggage-guide.html=Cabin bag rules | baggage/index.html=Airline baggage rules
 ---
 ## What's allowed
 

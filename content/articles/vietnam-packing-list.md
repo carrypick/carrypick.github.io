@@ -8,7 +8,7 @@ photo: vietnam-trang-an
 ---
 Vietnam is long, so the weather changes a lot from north to south. In December and January, Hanoi and the north are cool, Da Nang and Hoi An are often rainy, and Ho Chi Minh City is hot and dry. So you may need a jacket, a rain poncho and summer clothes on the same trip. This list tells you what to pack and why, for a trip from India.
 
-Still planning the trip? Read our [Vietnam trip guide](../trips/vietnam-trip-from-india.html) for the e-visa, flights, a 7-day itinerary and the weather by region. Want to tick things off as you pack? Use our [checklist for trips abroad](../packing/abroad.html). Going to the beaches too? Add our [beach trip checklist](../packing/beach.html). Travelling with kids or a baby, or need it for your exact dates? Make your own list with the [packing list maker](../tools/packing-list-maker.html).
+Still planning the trip? Read our [Vietnam trip guide](../trips/vietnam-trip-from-india.html) for the e-visa, flights, a 7-day itinerary and the weather by region. Want to tick things off as you pack? Use our [checklist for trips abroad](../packing/abroad.html). Going to the beaches too? Add our [beach trip checklist](../packing/index.html#beach). Travelling with kids or a baby, or need it for your exact dates? Make your own list with the [packing list maker](../tools/packing-list-maker.html).
 
 [[toppicks:Our picks for a Vietnam trip|See the bag rules by airline|#which-bag-to-take]]
 [[top:B0F9FMQZWN|Cabin bag for Vietjet|Listed at 56 x 36 x 23 cm, Vietjet's limit for the main cabin bag, and 2.3 kg empty, which leaves room in Vietjet's 7 kg.]]
