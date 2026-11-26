@@ -1,135 +1,144 @@
 ---
-seo_title: Jaipur in winter 2026–27: weather, monument tickets, New Year
-title: Jaipur in winter: a simple trip guide for Christmas and New Year
-description: Plan Jaipur for December and January: cold mornings, monument hours and the composite ticket, getting there from Delhi and Agra, the metro, markets and January festivals.
+seo_title: Jaipur trip plan: 1, 2 and 3 day itinerary and tickets
+title: Jaipur trip plan: itineraries for 1, 2 and 3 days, the composite ticket, and the best time to go
+description: A Jaipur trip plan you can follow: day-by-day routes for 1, 2 and 3 days (Amer, Hawa Mahal, City Palace, Jantar Mantar, Nahargarh), the ₹550 composite ticket, monument hours, the best time by season (IMD averages) and getting there from Delhi.
 date: 2026-11-03
-updated: 2026-11-04
+updated: 2026-11-26
 place: Jaipur
 best: Oct–Mar
 photo: jaipur-hawa-mahal
 packing: week
-glance: Best time=October to March. Winter runs from mid-December to mid-February. | Weather in Dec–Jan=Days about 22–24 °C, nights about 8–9 °C. Some nights drop to 2–3 °C. | Rain=Almost none | Fly to=Jaipur International Airport (JAI), Sanganer | Train to=Jaipur Junction (JP) | From Delhi=About 3.5 to 5 hours by road | Foreign visitors=e-Tourist Visa; Jaipur airport accepts e-Visa arrivals
+glance: Best time=October to March. December and January days about 22–25 °C, nights about 8–10 °C | Days you need=2 days for the main sights; 3 days to add Nahargarh, markets and a slower pace | Composite ticket=₹550 Indians, ₹1700 foreign tourists, valid 2 days (not City Palace) | Fly to=Jaipur International Airport (JAI), Sanganer | Train to=Jaipur Junction (JP) | From Delhi=About 3.5 to 5 hours by road
 ---
-Jaipur, the Pink City, is one corner of India's "Golden Triangle" with Delhi and Agra. Rajasthan Tourism calls winter the best season to visit: sunny days and chilly nights. This guide covers the weather, how to get there, monument hours and tickets, the Christmas and New Year crowds, and what to pack.
+**Short answer:** two days is enough for Jaipur's main sights, and three lets you add Nahargarh's sunset, the bazaars and a slower pace. Go between October and March, when afternoons are sunny and mornings cool. Start each day early: Amer Fort opens at 7 AM. Buy the official composite ticket (₹550 for Indians, ₹1700 for foreign tourists, valid two days) and the separate City Palace ticket.
 
-Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
+## Jaipur itinerary for 2 days
 
-Still choosing? Compare Goa, Manali, Jaipur and Kerala in [where to go in December and January](where-to-go-in-december-january.html). Going in late January? See our [Republic Day long weekend ideas](republic-day-long-weekend-2027.html). Going on to Udaipur? See our [Udaipur winter trip plan](udaipur.html). For the desert, see [Jaisalmer in December](jaisalmer-in-december.html). Going in January? See [Rajasthan in January](rajasthan-in-january.html) for the Kite Festival, the Jaipur Literature Festival and the Bikaner Camel Festival.
+| Day | Morning | Afternoon and evening |
+|---|---|---|
+| 1 | Amer Fort when it opens at 7 AM, before the crowds and the heat. Jal Mahal from the lake bank on the way back | Hawa Mahal (9 AM–6:30 PM), then Jantar Mantar next door (9 AM–7 PM) and City Palace (9:30 AM–6:30 PM). Dinner at Masala Chowk |
+| 2 | Albert Hall Museum, about 2.5 km from Hawa Mahal | Johari Bazaar and Bapu Bazaar, then Nahargarh Fort for sunset over the city |
 
-Plan your budget with our [trip budget calculator](../tools/trip-budget-calculator.html), and work out the fuel with the [road trip fuel cost calculator](../tools/road-trip-cost-calculator.html).
+Your composite ticket covers Amer, Hawa Mahal, Jantar Mantar, Albert Hall and Nahargarh across both days. City Palace needs its own ticket.
 
-Only have a weekend? See our [weekend getaways from Delhi](weekend-getaways-from-delhi.html) and [weekend getaways from Mumbai](weekend-getaways-from-mumbai.html), with distances and travel times.
+## Jaipur itinerary for 3 days
 
-## Weather in December and January
+| Day | What to do |
+|---|---|
+| 1 | The old city: Hawa Mahal, Jantar Mantar and City Palace, all within walking distance of each other. Evening in Johari Bazaar |
+| 2 | Amer Fort at opening time. In October to February its sound and light show starts at 6:30 PM (English) and 7:30 PM (Hindi). Jal Mahal on the way |
+| 3 | Albert Hall Museum, Sisodia Rani Bagh or Vidyadhar Garden (both on the composite ticket), then Nahargarh at sunset |
 
-The India Meteorological Department (IMD) says Jaipur's winter runs from mid-December to mid-February. Its long-term averages:
+**Four or five days?** Add a day trip to a tiger safari at Ranthambore (about 167 km away, or by train to Sawai Madhopur: see [Ranthambore in December](ranthambore-in-december.html)), or go on to [Udaipur](udaipur.html). For a full week across Rajasthan in January, see our [Rajasthan in January route](rajasthan-in-january.html).
 
-| Month | Average high | Average low | Rain |
+## Jaipur in 1 day, or from Delhi
+
+One day is enough only for the old city and Amer. Start at Amer at 7 AM, then Hawa Mahal, Jantar Mantar and City Palace in the afternoon. On a weekend trip from Delhi, leave on Friday night or by the early train, and use the 2-day plan.
+
+| Getting there | How |
+|---|---|
+| From Delhi by road | About 5 hours on NH-48 (the old NH-8). The government says the Delhi–Mumbai Expressway cuts it to about 3.5 hours |
+| From Delhi by train | Shatabdi and other direct trains to Jaipur Junction (JP). See the [train luggage rules](../baggage/train-luggage-rules.html) |
+| By air | Jaipur International Airport (JAI) at Sanganer, in the south of the city. Prepaid taxis, app cabs and city buses into town |
+| From Agra | Roughly 240 km by road, for a Delhi–Agra–Jaipur "Golden Triangle" trip |
+
+## Distances between the sights
+
+These are the distances Rajasthan's official ticket site gives, checked on 26 Nov 2026:
+
+| From | To | Distance |
+|---|---|---|
+| Hawa Mahal | Jantar Mantar | About 700–850 m |
+| Hawa Mahal | Albert Hall Museum | About 2.5 km |
+| Hawa Mahal | Amer Fort | About 7–8.5 km |
+| Amer Fort | Nahargarh Fort | About 10 km |
+| Hawa Mahal | Nahargarh Fort | About 13 km |
+
+Drive times depend on old-city traffic, so check a maps app on the day. **Getting around:** the Jaipur Metro runs from Mansarovar to Badi Chaupar, the nearest stop for Hawa Mahal and City Palace. Buses to Amer leave from Ajmeri Gate and MI Road. Nahargarh has no public transport, so take a taxi. Use prepaid kiosks or app cabs, or agree the fare first.
+
+## Monument hours and tickets
+
+| Place | Hours | Indian adult | Foreign tourist |
 |---|---|---|---|
-| December | 24.4 °C | 9.1 °C | About 4 mm |
-| January | 22.5 °C | 7.8 °C | About 6 mm |
-| February | 25.7 °C | 10.7 °C | – |
-
-- **Mornings are the coldest.** The lowest temperature comes around 7–8 AM. A few nights each winter drop to 2–3 °C, and there are about 6 cold-wave days in a season.
-- **Afternoons are warm and sunny.** Plan forts and walking in the late morning and afternoon.
-- **Fog is rare,** but it can form on some December mornings.
-
-So pack in layers: a warm jacket or sweater for mornings and evenings, and light clothes, sunglasses and sunscreen for the day.
-
-## Getting to Jaipur
-
-- **By air:** Jaipur International Airport (JAI) is at Sanganer, in the south of the city. You can take prepaid taxis, app cabs, metered autos or city buses into town.
-- **By train:** Jaipur Junction (JP) has direct trains from Delhi and other big cities, including Shatabdi, Rajdhani and Duronto services. The metro has a "Railway Station" stop that goes to the old city.
-- **By road from Delhi:** about 5 hours on the old NH-8. The government says the Delhi–Mumbai Expressway section cuts this to about 3.5 hours.
-- **Golden Triangle:** many visitors do Delhi, Agra and Jaipur in one trip. Agra to Jaipur is roughly 240 km by road.
-
-Going by train? Check the [Indian Railways luggage rules](../baggage/train-luggage-rules.html). Flying? See the [cabin bag rules for Indian airlines](../baggage/index.html).
-
-[[fly:Jaipur]]
-
-## Getting around
-
-- **Jaipur Metro:** one line, from Mansarovar to Badi Chaupar in the old city, with 11 stations. Trains run every 10 minutes from about 6 AM to 10 PM. Badi Chaupar is the nearest stop for City Palace and Hawa Mahal.
-- **Autos and taxis:** Rajasthan Tourism suggests prepaid kiosks at the airport, railway and bus stations, or app cabs. If there's no prepaid counter, agree the fare before you get in.
-- **To the forts:** Amer is about 11 km from the city, and buses leave from Ajmeri Gate and MI Road (about 40 minutes). Nahargarh has no public transport, so take a taxi.
-
-## Top sights, hours and tickets
-
-These are the official hours and adult entry fees from Rajasthan's ticket website, checked on 3 Nov 2026. News reports say fees went up on 1 January 2026. Children under 7 enter free, and students with a valid ID pay less.
-
-| Place | Hours | Indian | Foreign tourist |
-|---|---|---|---|
-| Amer (Amber) Fort | From 7 AM; official pages give different closing times, so check before you go | ₹200 | ₹1000 |
+| Amer (Amber) Fort | 7 AM – 8 PM | ₹200 | ₹1000 |
 | Hawa Mahal | 9 AM – 6:30 PM | ₹100 | ₹600 |
-| Jantar Mantar | 9 AM – 7 PM (last ticket 6:30 PM) | ₹100 | ₹600 |
+| Jantar Mantar | 9 AM – 7 PM | ₹100 | ₹600 |
 | Albert Hall Museum | 9 AM – 8 PM | ₹100 | ₹600 |
 | Nahargarh Fort | Opens 10 AM; check the closing time | ₹100 | ₹600 |
-| City Palace (privately run) | 9:30 AM – 6:30 PM | ₹400 | ₹1200 |
+| City Palace (privately run) | 9:30 AM – 6:30 PM, last tickets 6 PM | ₹400 | ₹1200 (listed on 3 Nov 2026) |
 
-- **Amer Fort:** a red sandstone and white marble palace begun in 1592, below Jaigarh Fort. Part of the tunnel to Jaigarh is open to visitors. In October to February the sound and light show starts at 6:30 PM (English) and 7:30 PM (Hindi).
-- **Hawa Mahal:** the famous five-storey "Palace of Winds", built in 1799. You can climb to the top, and there's a small museum in the courtyard.
-- **Jantar Mantar:** an 18th-century observatory with the world's largest stone sundial, about 27 m tall. Audio guides are available.
-- **City Palace:** the royal family still lives in part of it. It's run privately, so it isn't on the government's composite ticket.
-- **Nahargarh Fort:** built in 1734 on the hills above the city, with wide views over Jaipur. Go late in the day for the sunset.
-- **Jal Mahal:** a palace in Man Sagar Lake. You can only see it from the lake bank, which has food stalls and gets busy in the evening.
-- **Albert Hall Museum:** an 1880s Indo-Saracenic building in Ram Niwas Garden, with an Egyptian mummy and a famous Persian carpet.
+Hours for Amer, Hawa Mahal and Jantar Mantar are from the official ticket site on 26 Nov 2026; these monuments close on Dhulandi, the day after Holi. Single-monument fees are as listed on 3 Nov 2026, after the 1 January 2026 increase reported in the news. Children under 7 enter free, and students with a valid ID pay less.
 
 ### The composite ticket
 
-Rajasthan's "Jaipur Package" ticket costs **₹550 for Indians** and **₹1700 for foreign tourists** (₹180 and ₹800 for students). The official site says it's valid for two days from the visit date. It covers Amer Fort, Hawa Mahal, Jantar Mantar, Albert Hall, Nahargarh Fort, Isarlat, Sisodia Rani Bagh, Vidyadhar Garden, Gandhi Vatika Museum and a metro gallery.
+Rajasthan's "Jaipur Package" costs **₹550 for Indians** and **₹1700 for foreign tourists** (₹180 and ₹800 for students). The official site says it's valid for two days from the visit date you pick. It covers Amer Fort, Hawa Mahal, Jantar Mantar, Albert Hall, Nahargarh Fort, Isarlat, Sisodia Rani Bagh, Vidyadhar Garden, Gandhi Vatika Museum and the Jaipur Metro Kala Deergha gallery.
 
-Buying the five main sights one by one would cost ₹600 for an Indian adult and ₹3400 for a foreign tourist, so the composite ticket halves the cost for foreigners. Buy it only on the official site, [obms-tourist.rajasthan.gov.in](https://obms-tourist.rajasthan.gov.in/package-details/jaipur-Package), or at the monument counters.
+- **Is it worth it?** For a foreign tourist, the five main sights cost ₹3400 one by one, so the ₹1700 package halves it. For an Indian adult they cost ₹600, so the ₹550 package saves a little and adds five smaller sites.
+- **Where to buy:** only on the official site, [obms-tourist.rajasthan.gov.in](https://obms-tourist.rajasthan.gov.in/package-details/jaipur-Package), or at the monument counters.
+- **City Palace isn't included.** Its own site lists ₹400 for an Indian adult (₹200 for students and children under 12), or ₹500 for a composite with Jaigarh and the royal cenotaphs.
 
-### UNESCO World Heritage
+## Best time to visit Jaipur
 
-Jaipur has three World Heritage listings: Jantar Mantar (2010), Amer Fort as one of the Hill Forts of Rajasthan (2013), and the walled city of Jaipur itself (2019).
+| Season | Months | What to expect |
+|---|---|---|
+| Best season | October to March | Dry. December and January are coolest: IMD's averages are about 24.5 °C by day and 9.5 °C at night in December, and 22.6 °C and 8.6 °C in January. Some nights drop to 2–3 °C |
+| Summer | April to June | Very hot: May averages about 40.7 °C by day. Sightsee early and late |
+| Monsoon | July to September | July and August get about 180–190 mm of rain each. Greener, and fewer tourists |
 
-Prefer a ready-made trip? Compare tour packages, and check what each one includes before you book:
-
-[[tours:Jaipur]]
-
-Going on for a tiger safari? Ranthambore is about 167 km from Jaipur, by road or by train to Sawai Madhopur: see [Ranthambore in December](ranthambore-in-december.html) for the official booking site, zones and timings.
+IMD figures are 1981–2010 averages for Jaipur. Winter mornings are the coldest part of the day, so pack a warm layer for Amer at 7 AM and light clothes for the afternoon.
 
 ## Christmas, New Year and January
 
-- **Crowds:** the last week of December is very busy. Book hotels and trains early, and reach Amer when it opens.
-- **New Year traffic rules:** last season, Jaipur Traffic Police ran drink-driving checks on New Year's Eve and limited some vehicles in the old city and at Amer from 27 December to 4 January, according to news reports. Rules for 2026–27 haven't been announced yet.
-- **Jaipur Literature Festival:** 14–18 January 2027 at Hotel Clarks Amer, its 20th year.
-- **Kite festival:** on Makar Sankranti, around 14 January, the sky fills with kites and the tourism department holds a kite festival.
+- **Crowds:** 25 December to 1 January is very busy. Book hotels and trains early, and reach Amer when it opens.
+- **New Year traffic:** last season, Jaipur Traffic Police ran drink-driving checks and limited some vehicles in the old city and at Amer, according to news reports. Plans for 2026–27 haven't been announced.
+- **Jaipur Literature Festival:** 14–18 January 2027 at Hotel Clarks Amer, its 20th year, says the festival's site.
+- **Kites:** Makar Sankranti, around 14 January, fills the sky with kites.
 
-## Where to book your stay
-
-Rajasthan Tourism advises staying in approved hotels. Compare hotels and homestays for your dates on these sites:
-
-[[book:Jaipur]]
+January's festivals and weather in detail: [Rajasthan in January](rajasthan-in-january.html).
 
 ## Shopping and food
 
-- **Markets:** Johari Bazaar (jewellery and textiles), Bapu Bazaar (mojari shoes and textiles), Chandpole Bazaar (marble), Nehru Bazaar and MI Road. Rajasthan Tourism says most markets close on Sundays.
-- **Buy safely:** use reputed shops or the government's Rajasthali showroom on MI Road, always ask for a bill, and don't let a guide or driver choose the shop for you.
-- **Food to try:** dal bati churma, kachori, mirchi bada, laal maas and ghevar. Masala Chowk in Ram Niwas Bagh has 21 street-food stalls in one place.
+- **Markets:** Johari Bazaar (jewellery and textiles), Bapu Bazaar (mojari shoes and textiles), Chandpole Bazaar (marble) and MI Road. Rajasthan Tourism says most markets close on Sundays.
+- **Buy safely:** use reputed shops or the government's Rajasthali showroom on MI Road, ask for a bill, and don't let a guide or driver choose the shop.
+- **Food:** dal bati churma, kachori, mirchi bada, laal maas and ghevar. Masala Chowk in Ram Niwas Bagh has street-food stalls in one place.
+- **Flying home with ghevar or mithai?** See [can you carry sweets and home food on a flight](../baggage/can-i-carry/sweets-and-home-food.html).
 
 ## For foreign visitors
 
-- **Visa:** most nationalities need an e-Tourist Visa from the official site [indianvisaonline.gov.in](https://indianvisaonline.gov.in/evisa/tvoa.html). Apply at least 4 days before you arrive (up to 120 days before). Your passport needs 6 months' validity. Jaipur airport is an approved e-Visa arrival point.
-- **e-Arrival card:** you can fill it online within 72 hours before you land.
-- **Rajasthan Tourism's tips:** stay in approved hotels, use prepaid taxis or app cabs, change money only at authorised exchangers and keep the receipt, don't accept food or drink from strangers, and keep your passport safe.
+- **Visa:** apply for the e-Tourist Visa only at [indianvisaonline.gov.in](https://indianvisaonline.gov.in/evisa/tvoa.html), at least 4 days before you arrive. Jaipur airport accepts e-Visa arrivals.
+- **Rajasthan Tourism's tips:** stay in approved hotels, use prepaid taxis or app cabs, change money only at authorised exchangers, and don't accept food or drink from strangers.
+
+More in our [visiting India guide](visiting-india.html).
 
 ## Safety and help
 
-- **Travelling alone as a woman?** See [solo female travel in India](../guides/solo-female-travel-india.html) for the Women Helpline 181, the Railway helpline 139 and the women's berth quota on trains.
-- **Emergency:** call 112, or 100 for the police.
+- **Emergency:** 112, or 100 for the police.
 - **Tourist Assistance Force:** staff and booths at Amer, Jantar Mantar and City Palace, Jal Mahal and Albert Hall.
 - **Incredible India tourist helpline:** 1800-11-1363.
+- **Travelling alone as a woman?** See [solo female travel in India](../guides/solo-female-travel-india.html).
 
-## What to pack for Jaipur in winter
+## Book flights, stays and tours
 
-What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#jaipur) for day and night temperatures and an outfit list by month.
+Compare fares to Jaipur:
 
-Full list: our [Rajasthan packing list](../guides/rajasthan-packing-list.html), with picks for the desert nights, the sun and the temples.
+[[fly:Jaipur]]
 
-- A warm jacket or sweater, plus light layers for the afternoon.
-- Comfortable [walking shoes](../guides/travel-shoes-guide.html): forts mean slopes and steps.
+Compare hotels and homestays for your dates. Rajasthan Tourism advises staying in approved hotels:
+
+[[book:Jaipur]]
+
+Prefer a guided day or a ready-made trip? Compare tours, and check what each one includes before you book:
+
+[[tours:Jaipur]]
+
+Add up your own costs with our [trip budget calculator](../tools/trip-budget-calculator.html).
+
+## What to pack for Jaipur
+
+Full list: our [Rajasthan packing list](../guides/rajasthan-packing-list.html). For day and night temperatures by month, try the [what-to-wear helper](../tools/what-to-wear.html#jaipur).
+
+- A warm jacket or sweater for winter mornings, and light layers for the afternoon.
+- Comfortable [walking shoes](../guides/travel-shoes-guide.html): the forts mean slopes and steps.
 - Sunglasses, a cap and [sunscreen](../guides/travel-sunscreen-guide.html).
 - A small backpack with an anti-theft pocket for crowded markets:
 
@@ -137,26 +146,38 @@ Full list: our [Rajasthan packing list](../guides/rajasthan-packing-list.html), 
 
 ## Questions
 
-### What is the best time to visit Jaipur?
+### How many days are required for a Jaipur trip?
 
-October to March. Winter, from mid-December to mid-February, has sunny days around 22–24 °C and cold nights around 8–9 °C.
+Two days covers Amer, Hawa Mahal, Jantar Mantar, City Palace, Albert Hall and Nahargarh. Three days gives you time for the markets and a slower pace. One day is enough only for the old city and Amer.
 
-### How cold is Jaipur in January?
+### What is a good 2-day Jaipur itinerary?
 
-January is the coldest month. The average high is 22.5 °C and the average low is 7.8 °C, and some nights drop to 2–3 °C. Mornings are coldest, so carry a warm jacket.
+Day 1: Amer Fort at 7 AM, then Hawa Mahal, Jantar Mantar and City Palace. Day 2: Albert Hall, the bazaars and Nahargarh Fort at sunset.
 
-### What does the Jaipur composite ticket cover?
+### What is the Jaipur composite ticket price?
 
-The official "Jaipur Package" ticket covers Amer Fort, Hawa Mahal, Jantar Mantar, Albert Hall, Nahargarh Fort and five smaller sites. It costs ₹550 for Indians and ₹1700 for foreign tourists, and the official site says it's valid for two days. City Palace is not included.
+₹550 for Indians and ₹1700 for foreign tourists, or ₹180 and ₹800 for students, on the official site when we checked on 26 Nov 2026.
+
+### What is the validity of the Jaipur composite ticket?
+
+Two days from the visit date you choose when you book, says the official site.
+
+### Where can I buy the Jaipur composite ticket?
+
+Online on Rajasthan's official booking site, obms-tourist.rajasthan.gov.in, or at the counters of the monuments it covers.
 
 ### Is City Palace on the composite ticket?
 
-No. City Palace is run privately and has its own tickets: ₹400 for Indians and ₹1200 for foreign tourists for the museum.
+No. City Palace is run privately and has its own ticket: ₹400 for an Indian adult for the museum.
+
+### What is the best time to visit Jaipur?
+
+October to March. December and January have sunny days around 22–25 °C and cold nights around 8–10 °C on IMD's averages. April to June is very hot.
 
 ### How do I get from Delhi to Jaipur?
 
-By train from Delhi (Shatabdi and other services to Jaipur Junction), by flight to Jaipur airport (JAI), or by road in about 3.5 to 5 hours on the Delhi–Mumbai Expressway or NH-8.
+By train to Jaipur Junction, by flight to Jaipur airport (JAI), or by road in about 3.5 to 5 hours on the Delhi–Mumbai Expressway or the old highway.
 
 ## Sources
 
-Checked on 3 Nov 2026: [IMD climate of Jaipur](https://mausam.imd.gov.in/jaipur/docs/climate.pdf), [Rajasthan Tourism](https://www.tourism.rajasthan.gov.in/content/rajasthan-tourism/en/tourist-destinations/jaipur.html), [Rajasthan's official ticket site](https://obms-tourist.rajasthan.gov.in/package-details/jaipur-Package), [City Palace](https://citypalace.org/visit), [Jaipur Metro](https://transport.rajasthan.gov.in/jmrc/), [UNESCO](https://whc.unesco.org/en/list/1605/), [Indian e-Visa](https://indianvisaonline.gov.in/evisa/tvoa.html) and [Jaipur Literature Festival](https://www.jaipurliteraturefestival.org/). Hours and fees can change, so check the official sites before you go.
+Checked on 26 Nov 2026: Rajasthan's official ticket site for the [Jaipur Package](https://obms-tourist.rajasthan.gov.in/package-details/jaipur-Package) and the hours and distances on its [Amer Fort](https://obms-tourist.rajasthan.gov.in/place-details/Amber-Fort), [Hawa Mahal](https://obms-tourist.rajasthan.gov.in/place-details/Hawa-Mahal) and [Jantar Mantar](https://obms-tourist.rajasthan.gov.in/place-details/Jantar-Mantar) pages, [City Palace](https://citypalace.org/visit), IMD's 1981–2010 [climate table for Jaipur](https://city.imd.gov.in/citywx/extreme/DEC/jaipur2.htm) and the [Jaipur Literature Festival](https://www.jaipurliteraturefestival.org/). Checked on 3 Nov 2026: single-monument fees on the official ticket site, [Rajasthan Tourism](https://www.tourism.rajasthan.gov.in/content/rajasthan-tourism/en/tourist-destinations/jaipur.html), [Jaipur Metro](https://transport.rajasthan.gov.in/jmrc/), [UNESCO](https://whc.unesco.org/en/list/1605/) and [Indian e-Visa](https://indianvisaonline.gov.in/evisa/tvoa.html). Not re-confirmed today: Nahargarh's and Albert Hall's hours, and single-monument fees (the official site shows them only during booking). The fee increase and last year's traffic rules come from news reports. The itineraries are our suggested routes, not a tested tour.

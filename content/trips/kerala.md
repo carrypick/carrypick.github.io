@@ -51,7 +51,7 @@ Only have the Republic Day weekend? 26 January 2027 is a Tuesday, so these 4-day
 
 Prefer a calmer beach? Stay at Kovalam instead of Varkala: it's about 14 km from TRV. Book an open-jaw ticket (into Kochi, out of Thiruvananthapuram) so you don't drive back north.
 
-**Going for a week in January?** Our [Kerala in January guide](kerala-in-january.html) has a January route with Sabarimala crowd dates and the Kerala Literature Festival.
+**Still choosing between Kerala, Goa and the hills?** Compare them in [where to go in December and January](where-to-go-in-december-january.html). **Going for a week in January?** Our [Kerala in January guide](kerala-in-january.html) has a January route with Sabarimala crowd dates and the Kerala Literature Festival.
 
 ## Travel times between stops
 
