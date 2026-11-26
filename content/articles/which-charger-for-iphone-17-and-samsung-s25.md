@@ -1,8 +1,9 @@
 ---
-seo_title: Which charger for iPhone 17, Samsung S25 Ultra or Pixel 10? Watts for each phone, and a travel charger
-title: Which charger for iPhone 17, Samsung S25 or Pixel 10?
-description: How many watts the iPhone 17, 17 Pro, Air, 16 and 15, Samsung Galaxy S25, S25 Ultra, S25 FE and A36, Pixel 10 and Nothing Phone (3) take, from the makers' own pages. Is a 65W charger safe for an iPhone, what PPS and GaN mean, the 5 A cable Samsung's 45 W mode needs, and one charger for phone and laptop on a trip.
+seo_title: Which charger for iPhone 18 Pro, iPhone 17, Samsung S25 Ultra or Pixel 10? Watts for each phone, and a travel charger
+title: Which charger for iPhone 18, iPhone 17, Samsung S25 or Pixel 10?
+description: How many watts the iPhone 18 Pro, 18 Pro Max, iPhone Duo, iPhone 17, 17 Pro, Air, 17e, 16 and 15, Samsung Galaxy S25, S25 Ultra, S25 FE and A36, Pixel 10 and Nothing Phone (3) take, from the makers' own pages. MagSafe and Qi2 watts, is a 65W charger safe for an iPhone, what PPS, AVS and GaN mean, the 5 A cable Samsung's 45 W mode needs, and one charger for phone and laptop on a trip.
 date: 2026-11-24
+updated: 2026-11-26
 category: travel-tech
 subcategory: chargers
 photo: plane-window
@@ -11,6 +12,8 @@ New phones from Apple, Samsung and Google come **without a charger in the box**.
 
 ## Quick answer
 
+- **iPhone 18 Pro and 18 Pro Max:** Apple says 50% in about **15 minutes** with a **60 W-capable adapter with AVS** (Adjustable Voltage Supply), like its 40W Dynamic Power Adapter with 60W Max.
+- **iPhone Duo:** 50% in about **20 minutes** with a **60 W-capable adapter** (Apple).
 - **iPhone 17, 17 Pro, 17 Pro Max:** Apple says 50% in about 20 minutes with a **40 W adapter or higher**. A 20 W charger also works, just slower.
 - **iPhone Air, 17e, 16, 15:** a **20 W** USB-C PD charger or higher gives 50% in about 30 minutes (Apple).
 - **Galaxy S25 Ultra, S25+ and S25 FE:** **45 W** Super Fast Charging 2.0 needs a 45 W charger with **PPS** and a **5 A cable**. The base S25 takes 25 W.
@@ -29,6 +32,8 @@ We chose these by their listed specs. We haven't tested them, and we don't rank 
 
 | Phone | Fast charge, as the maker says | Charger in box? |
 |---|---|---|
+| iPhone 18 Pro / Pro Max | 50% in about 15 min, 60 W-capable adapter with AVS | No |
+| iPhone Duo | 50% in about 20 min, 60 W-capable adapter | No |
 | iPhone 17 | 50% in 20 min, 40 W or higher | No |
 | iPhone 17 Pro / Pro Max | 50% in 20 min, 40 W or higher | No |
 | iPhone Air | 50% in 30 min, 20 W or higher | No |
@@ -50,6 +55,17 @@ We chose these by their listed specs. We haven't tested them, and we don't rank 
 
 All rows come from the makers' India pages or Samsung's own newsroom (see Sources). Times are the makers' test figures, not ours.
 
+## Which charger for iPhone 18 Pro and iPhone Duo?
+
+Apple's support page says the **iPhone 18 Pro and 18 Pro Max** reach 50% in about **15 minutes**, and the **iPhone Duo** in about **20 minutes**, with the USB-C cable from the box and one of two adapters:
+
+- Apple's own **40W Dynamic Power Adapter with 60W Max**, or
+- a third-party adapter that is **60 W-capable (or more)**, uses **AVS** and supports **USB PD 3.2**.
+
+The iPhone 18 Pro spec page's small print says USB PD 3.1 or better with AVS. The iPhone Duo spec page asks only for a 60 W-capable USB PD adapter and a 60 W-capable cable. Apple doesn't say how many watts either phone draws at its peak.
+
+Our picks are 65 W, but their listings say USB PD 3.0 and don't mention AVS. They charge an iPhone 18 Pro or Duo safely and fast, but Apple only promises the 15 or 20-minute figure with the adapter types above. A 20 W charger also works, just slower: Apple doesn't give a time for it on these phones.
+
 ## Which charger for iPhone 17?
 
 Apple's figure for the iPhone 17, 17 Pro and 17 Pro Max is **50% in about 20 minutes with a 40 W adapter or higher**. On its support page Apple names its own **40W Dynamic Power Adapter with 60W Max**, or a third-party charger that is **60 W-capable, supports USB PD 3.2 and AVS**.
@@ -60,7 +76,21 @@ A **20 W** USB-C charger still works with every iPhone 17. Apple gives 50% in ab
 
 ### Can I use a 65W charger for iPhone 17?
 
-Yes. USB PD chargers and the phone agree on the power first. The iPhone asks for what it can take, and the charger gives no more than that. The same is true for the iPhone 16 and 15.
+Yes. USB PD chargers and the phone agree on the power first. The iPhone asks for what it can take, and the charger gives no more than that. The same is true for the iPhone 18 Pro, Duo, 16 and 15.
+
+## MagSafe and Qi2 watts for each iPhone
+
+| iPhone | MagSafe | Qi2 | Fast wireless charge, as Apple says |
+|---|---|---|---|
+| iPhone 18 Pro / Pro Max | Up to 25 W | Up to 25 W | 50% in 30 min, MagSafe Charger and 35 W adapter or higher |
+| iPhone Duo | Up to 25 W | Up to 25 W | 50% in about 30 min, MagSafe Charger and 35 W adapter or higher |
+| iPhone 17 / 17 Pro / Pro Max | Up to 25 W | Up to 25 W | 50% in 30 min, MagSafe Charger and 30 W adapter or higher |
+| iPhone Air | Up to 20 W | Up to 20 W | 50% in 30 min, MagSafe Charger and 30 W adapter or higher |
+| iPhone 17e | Up to 15 W, with a 20 W adapter or higher | Up to 15 W | Apple doesn't say |
+| iPhone 16 | Up to 25 W | Up to 25 W | 50% in about 30 min, MagSafe Charger and 30 W adapter or higher |
+| iPhone 15 | Up to 15 W | Apple's spec page lists Qi up to 7.5 W | Apple doesn't say |
+
+The MagSafe Charger is sold separately, and the adapter you plug it into decides the speed. Our wall chargers can power a MagSafe Charger, but none of our picks is a MagSafe charger itself.
 
 ## Which charger for Samsung S25 Ultra?
 
@@ -135,6 +165,14 @@ Not sure which cable you need, or want a cheap 3 A spare? See [which USB-C cable
 
 ## Questions
 
+### Which charger for iPhone 18 Pro?
+
+Apple names its 40W Dynamic Power Adapter with 60W Max, or a 60 W-capable third-party adapter with USB PD 3.2 and AVS, for 50% in about 15 minutes. Any USB-C PD charger works, just slower.
+
+### Does iPhone 18 Pro or iPhone Duo come with a charger?
+
+No. Apple's spec pages list the phone, a 1 m USB-C Charge Cable and papers in the box.
+
 ### Which charger is best for iPhone 17?
 
 Any USB-C charger with USB PD works. Apple says 40 W or higher gives 50% in about 20 minutes, and names its 40W Dynamic Power Adapter or a 60 W-capable charger with USB PD 3.2 and AVS. A 20 W charger is slower but fine.
@@ -169,6 +207,6 @@ Yes, a wall charger is fine in cabin and check-in bags. Power banks are the ones
 
 ## Sources
 
-Phone figures from the makers' pages, read on 24 Nov 2026: Apple India specs for [iPhone 17](https://www.apple.com/in/iphone-17/specs/), [iPhone Air](https://www.apple.com/in/iphone-air/specs/) and [iPhone 17e](https://www.apple.com/in/iphone-17e/specs/); Apple support tech specs for [iPhone 17 Pro](https://support.apple.com/en-in/125090), [17 Pro Max](https://support.apple.com/en-in/125091), [iPhone 16](https://support.apple.com/en-in/121029) and [iPhone 15](https://support.apple.com/en-in/111831); Apple's [Fast charge your iPhone](https://support.apple.com/en-in/102574) page for the adapters. Samsung's [Galaxy S25 launch article](https://news.samsung.com/global/) for the S25 series figures (Samsung India's spec pages show no charging section), the India [S25](https://www.samsung.com/in/smartphones/galaxy-s25/buy/) and [S25 Ultra](https://www.samsung.com/in/smartphones/galaxy-s25-ultra/buy/) buy pages for the box, Samsung India's [S25 FE product page](https://www.samsung.com/in/smartphones/galaxy-s/galaxy-s25-fe-jetblack-256gb-sm-s731bzkcins/) (rechecked on 25 Nov 2026: 45 W wired, 65% in 30 minutes) and A36 product page, and Samsung India's [45 W adapter page](https://www.samsung.com/in/mobile-accessories/45w-power-adapter-black-ep-t4511nbngin/) (EP-T4511, read on 25 Nov 2026) for PD 3.0, PPS and the 5 A cable. Google Store India specs for [Pixel 10](https://store.google.com/in/product/pixel_10_specs), [Pixel 10 Pro and Pro XL](https://store.google.com/in/product/pixel_10_pro_specs) and [Pixel 10a](https://store.google.com/in/product/pixel_10a_specs). Nothing India pages for [Phone (3)](https://in.nothing.tech/products/phone-3) and [Phone (4a)](https://in.nothing.tech/products/phone-4a). OnePlus India specs for [OnePlus 15](https://www.oneplus.in/15/specs) and [OnePlus 13](https://www.oneplus.in/13/specs). Charger and cable details from each Amazon.in listing, read on 24 and 25 Nov 2026.
+iPhone 18 Pro, 18 Pro Max and iPhone Duo figures, and the MagSafe and Qi2 table, read on 26 Nov 2026 from Apple India's specs for [iPhone 18 Pro](https://www.apple.com/in/iphone-18-pro/specs/), [iPhone Duo](https://www.apple.com/in/iphone-duo/specs/), [iPhone 17](https://www.apple.com/in/iphone-17/specs/), [iPhone Air](https://www.apple.com/in/iphone-air/specs/), [iPhone 17e](https://www.apple.com/in/iphone-17e/specs/) and [iPhone 16](https://www.apple.com/in/iphone-16/specs/), and Apple's [Fast charge your iPhone](https://support.apple.com/en-in/102574) page. Other phone figures from the makers' pages, read on 24 Nov 2026: Apple India specs for [iPhone 17](https://www.apple.com/in/iphone-17/specs/), [iPhone Air](https://www.apple.com/in/iphone-air/specs/) and [iPhone 17e](https://www.apple.com/in/iphone-17e/specs/); Apple support tech specs for [iPhone 17 Pro](https://support.apple.com/en-in/125090), [17 Pro Max](https://support.apple.com/en-in/125091), [iPhone 16](https://support.apple.com/en-in/121029) and [iPhone 15](https://support.apple.com/en-in/111831); Apple's [Fast charge your iPhone](https://support.apple.com/en-in/102574) page for the adapters. Samsung's [Galaxy S25 launch article](https://news.samsung.com/global/) for the S25 series figures (Samsung India's spec pages show no charging section), the India [S25](https://www.samsung.com/in/smartphones/galaxy-s25/buy/) and [S25 Ultra](https://www.samsung.com/in/smartphones/galaxy-s25-ultra/buy/) buy pages for the box, Samsung India's [S25 FE product page](https://www.samsung.com/in/smartphones/galaxy-s/galaxy-s25-fe-jetblack-256gb-sm-s731bzkcins/) (rechecked on 25 Nov 2026: 45 W wired, 65% in 30 minutes) and A36 product page, and Samsung India's [45 W adapter page](https://www.samsung.com/in/mobile-accessories/45w-power-adapter-black-ep-t4511nbngin/) (EP-T4511, read on 25 Nov 2026) for PD 3.0, PPS and the 5 A cable. Google Store India specs for [Pixel 10](https://store.google.com/in/product/pixel_10_specs), [Pixel 10 Pro and Pro XL](https://store.google.com/in/product/pixel_10_pro_specs) and [Pixel 10a](https://store.google.com/in/product/pixel_10a_specs). Nothing India pages for [Phone (3)](https://in.nothing.tech/products/phone-3) and [Phone (4a)](https://in.nothing.tech/products/phone-4a). OnePlus India specs for [OnePlus 15](https://www.oneplus.in/15/specs) and [OnePlus 13](https://www.oneplus.in/13/specs). Charger and cable details from each Amazon.in listing, read on 24 and 25 Nov 2026.
 
 [[next:#our-charger-picks=Compare the chargers|travel-adapter-by-country.html=Adapters for 45 countries|power-bank-and-travel-adapter-guide.html=Power banks and adapters]]

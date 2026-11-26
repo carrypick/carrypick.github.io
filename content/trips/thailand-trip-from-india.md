@@ -47,7 +47,7 @@ Direct flights from Indian cities, from each airport's list of airlines and dest
 | Bangkok Suvarnabhumi (BKK) | Air India | Delhi, Mumbai |
 | Bangkok Suvarnabhumi (BKK) | Air India Express | Bengaluru, Kochi, Pune, Varanasi, Visakhapatnam, and Indore from 2 Dec 2026 |
 | Bangkok Suvarnabhumi (BKK) | SpiceJet | Delhi and Kolkata, both from 1 Dec 2026 |
-| Bangkok Don Mueang (DMK) | Thai AirAsia | Ahmedabad, Bengaluru, Chennai, Gaya, Guwahati, Hyderabad, Jaipur, Kochi, Kolkata, Lucknow |
+| Bangkok Don Mueang (DMK) | [Thai AirAsia](../baggage/airasia.html) | Ahmedabad, Bengaluru, Chennai, Gaya, Guwahati, Hyderabad, Jaipur, Kochi, Kolkata, Lucknow |
 | Bangkok Don Mueang (DMK) | Thai Lion Air | Ahmedabad, Amritsar, Bengaluru, Chennai, Delhi, Kochi, Kolkata, Mumbai |
 | Phuket (HKT) | IndiGo | Bengaluru, Delhi, Kolkata, Mumbai |
 | Phuket (HKT) | Akasa Air | Bengaluru, Mumbai |

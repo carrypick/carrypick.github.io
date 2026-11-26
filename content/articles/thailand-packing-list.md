@@ -195,6 +195,7 @@ What you can take depends on your airline and fare. Economy rules on flights bet
 | [Thai Airways](../baggage/thai-airways.html) | 7 kg, 115 cm in total | 1 bag of 23 kg on Saver and Standard, 2 bags on Flexi and Full Flex |
 | [Air India Express](../baggage/air-india-express-international.html) | 7 kg in two items, 56 x 36 x 23 cm | 20 kg on Value fares to Thailand, none on Lite |
 | [Air India](../baggage/air-india-international.html) | 7 kg, 55 x 40 x 20 cm | 25–35 kg, by fare |
+| [AirAsia](../baggage/airasia.html) (Thai AirAsia to Don Mueang) | 7 kg in total, with a small item; main bag 56 x 36 x 23 cm | None on Low Fare, 20 kg on Value Pack |
 | [Vietjet](../baggage/vietjet.html) (via Vietnam) | 7 kg in total | None on Eco, 20 kg on Deluxe |
 | [Malaysia Airlines](../baggage/malaysia-airlines.html) (via Kuala Lumpur) | 7 kg, 56 x 36 x 23 cm | 20–35 kg, by fare |
 

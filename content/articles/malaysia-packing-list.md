@@ -192,6 +192,7 @@ Travelling with a baby or toddler? Use our [travelling with a baby checklist](tr
 - **About 5 nights:** a cabin trolley or a 30–40 litre backpack is enough. Summer clothes are light.
 - **About a week or more,** or a Singapore + Malaysia trip: a medium trolley. Leave space for shopping.
 - **Internal flights to Langkawi or Penang** on low-cost airlines may have a smaller check-in allowance than your flight from India. Check both tickets.
+- **AirAsia and Batik Air weigh your cabin bag and small item together:** 7 kg in all. AirAsia's Low Fare and Batik Air's Super Saver include no check-in bag, so add one when you book.
 
 What you can take depends on your airline and fare. Economy rules on flights between India and Malaysia, from our airline pages:
 
@@ -200,7 +201,8 @@ What you can take depends on your airline and fare. Economy rules on flights bet
 | [IndiGo](../baggage/indigo-international.html) | 7 kg, 55 x 35 x 25 cm | 30 kg to Kuala Lumpur on regular fares, 35 kg on UpFront, none on Lite |
 | [Malaysia Airlines](../baggage/malaysia-airlines.html) | 7 kg, 56 x 36 x 23 cm | 20 kg on Economy Value, 25 kg on Basic, 35 kg on Flex |
 | [Air India](../baggage/air-india-international.html) | 7 kg, 55 x 40 x 20 cm | 25–35 kg, by fare |
-| AirAsia, Batik Air | By fare | By fare: check on the airline's site and add a bag when you book |
+| [AirAsia](../baggage/airasia.html) | 7 kg in total: a 56 x 36 x 23 cm bag plus a small item up to 40 x 30 x 10 cm | None on Low Fare, 20 kg on Value Pack and Premium Flex |
+| [Batik Air](../baggage/batik-air.html) | 7 kg in total: a 56 x 36 x 23 cm bag plus a personal item | None on Super Saver, 20 kg on Economy Value, 30 kg on Economy Flexi |
 
 These come from each airline's own website: see the airline pages for the date we checked. Check the baggage shown for your fare before you pay. Measure your bag with the [cabin bag checker](../baggage/checker.html), or compare all airlines on our [international baggage rules](../baggage/international.html) page.
 

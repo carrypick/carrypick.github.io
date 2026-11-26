@@ -48,14 +48,14 @@ Most flights from India land at Kuala Lumpur International Airport (KLIA). Direc
 | Airline | Direct to Kuala Lumpur from |
 |---|---|
 | Malaysia Airlines | Ahmedabad, Amritsar, Bengaluru, Chennai, Delhi, Hyderabad, Kochi, Kolkata, Mumbai, Thiruvananthapuram |
-| AirAsia | Ahmedabad, Amritsar, Bengaluru, Chennai, Hyderabad, Kochi, Kolkata, Thiruvananthapuram |
-| Batik Air Malaysia | Bengaluru, Delhi, Kochi, Mumbai |
+| [AirAsia](../baggage/airasia.html) | Ahmedabad, Amritsar, Bengaluru, Chennai, Hyderabad, Kochi, Kolkata, Thiruvananthapuram |
+| [Batik Air Malaysia](../baggage/batik-air.html) | Bengaluru, Delhi, Kochi, Mumbai |
 | IndiGo | Bengaluru, Chennai, Delhi |
 | Air India | Delhi |
 
 - **Going straight to the islands?** IndiGo flies direct from Chennai to Penang and from Bengaluru to Langkawi, says the same list. Check that your dates have a flight.
 - **Malaysia is 2 hours 30 minutes ahead of India.** A flight that lands at 7 AM in Kuala Lumpur lands at 4:30 AM India time.
-- **Baggage on low-cost airlines** (AirAsia, IndiGo) depends on the fare you pick. Add a bag when you book: it costs less than at the airport. See the [international baggage rules](../baggage/international.html).
+- **Baggage on low-cost airlines** (AirAsia, IndiGo) depends on the fare you pick. AirAsia and Batik Air allow 7 kg of cabin baggage in total, bag and small item together, and their cheapest fares include no check-in bag. Add a bag when you book: it costs less than at the airport. See the [AirAsia](../baggage/airasia.html) and [Batik Air](../baggage/batik-air.html) baggage rules, or all [international baggage rules](../baggage/international.html).
 - **Fares go up for Christmas, New Year and the Indian school holidays.** Book early for December.
 
 Routes change, so check the airline's own site before you book. Compare flights to Kuala Lumpur:

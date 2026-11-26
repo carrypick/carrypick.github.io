@@ -897,6 +897,164 @@
       ]
     },
     {
+      "slug": "airasia",
+      "name": "AirAsia",
+      "scope": "international",
+      "region": "Asia",
+      "hub": "Kuala Lumpur (KLIA Terminal 2) and Bangkok Don Mueang (DMK)",
+      "checked": "2026-11-26",
+      "official_url": "https://www.airasia.com/aa/inflight-comforts/en/gb/baggage.html",
+      "cabin": {
+        "pieces": 2,
+        "kg": 7,
+        "dims_cm": [
+          56,
+          36,
+          23
+        ],
+        "total_cm": null,
+        "summary": "One cabin bag and one small item, 7 kg in total",
+        "detail": "Every fare includes two pieces of cabin baggage: one main cabin bag up to 56 x 36 x 23 cm for the overhead bin, and one small item such as a laptop bag or handbag up to 40 x 30 x 10 cm that fits under the seat in front of you. Both together must weigh no more than 7 kg. Bags strapped, wrapped or tied together don't count as one piece. If your cabin bags weigh more than 7 kg and you haven't bought Xtra Carry-On, you must check them in and pay the checked baggage fee. AirAsia doesn't say whether wheels and handles count, so measure them in."
+      },
+      "personal": {
+        "summary": "One small item within the same 7 kg, such as a laptop bag or handbag, up to 40 x 30 x 10 cm"
+      },
+      "checkin": [
+        {
+          "fare": "Low Fare",
+          "allowance": "No checked bag included (buy one as an add-on)"
+        },
+        {
+          "fare": "Value Pack Lite",
+          "allowance": "20 kg on international flights"
+        },
+        {
+          "fare": "Value Pack",
+          "allowance": "20 kg"
+        },
+        {
+          "fare": "Premium Flex",
+          "allowance": "20 kg"
+        },
+        {
+          "fare": "Premium Flatbed",
+          "allowance": "40 kg"
+        }
+      ],
+      "checkin_summary": "None on Low Fare; 20 kg on Value Pack Lite, Value Pack and Premium Flex; 40 kg on Premium Flatbed",
+      "checkin_note": "On a Low Fare ticket you buy checked baggage as an add-on, and AirAsia says it costs less when you pre-book it than at the airport. You can buy up to 60 kg. No single bag may weigh more than 32 kg or measure more than 119 x 81 x 119 cm. Online, add or upgrade baggage up to 2 hours before departure; at an airport counter, at least 4 hours before.",
+      "infant": "Infants under 2 get no cabin baggage allowance on AirAsia. Children aged 2 and over get the same 7 kg as adults. A stroller or pram used by your child travels free as checked baggage; a foldable stroller can go in the cabin if it fits the cabin size and weight rules.",
+      "notes": [
+        "Xtra Carry-On adds 7 kg, for 14 kg of cabin baggage in total, with no single bag over 10 kg. Since 13 April 2026 it can't be bought at the airport: book it on the AirAsia MOVE app or website up to 2 hours before departure. Without it, the airport counter sells only up to 3 kg more, for a 10 kg maximum.",
+        "Everything you buy at the airport counts in your 7 kg. Only duty-free items in a sealed tamper-evident bag (STEB), with the receipt, are exempt.",
+        "Power banks: up to two per person, each up to 100 Wh, in the cabin only, never in checked baggage. Keep them in the seat pocket or under the seat, not in the overhead bin. Using or charging a power bank is prohibited on all AirAsia flights.",
+        "Smart bags: a non-removable battery must be no more than 2.7 Wh (lithium-ion) or 0.3 g (lithium metal). A removable battery must come out and travel in the cabin.",
+        "Carry a doctor's letter with prescription medicines, and pack syringes or injectables professionally and labelled for security."
+      ],
+      "faq_extra": [
+        {
+          "q": "Can I buy extra cabin baggage at the airport on AirAsia?",
+          "a": "Only up to 3 kg, for a 10 kg maximum. Since 13 April 2026 Xtra Carry-On, which takes you to 14 kg, must be pre-booked on the AirAsia MOVE app or website up to 2 hours before departure."
+        },
+        {
+          "q": "Is a laptop bag allowed on AirAsia besides the cabin bag?",
+          "a": "Yes. One small item such as a laptop bag or handbag, up to 40 x 30 x 10 cm, is allowed with your main cabin bag, but both must weigh 7 kg or less together."
+        }
+      ],
+      "sources": [
+        {
+          "label": "AirAsia baggage info",
+          "url": "https://www.airasia.com/aa/inflight-comforts/en/gb/baggage.html"
+        },
+        {
+          "label": "AirAsia cabin baggage guide",
+          "url": "https://support.airasia.com/s/article/What-are-the-rules-for-cabin-baggage-on-board?language=en_GB"
+        },
+        {
+          "label": "AirAsia fares",
+          "url": "https://www.airasia.com/aa/about-us/en/gb/fares.html"
+        },
+        {
+          "label": "AirAsia portable electronic devices and power banks",
+          "url": "https://support.airasia.com/s/article/AirAsia-Flights-Carriage-of-Portable-Electronic-Devices-PED?language=en_GB"
+        }
+      ]
+    },
+    {
+      "slug": "batik-air",
+      "name": "Batik Air",
+      "scope": "international",
+      "region": "Asia",
+      "hub": "Kuala Lumpur (KLIA)",
+      "checked": "2026-11-26",
+      "official_url": "https://www.batikair.com.my/experience/baggage",
+      "cabin": {
+        "pieces": 1,
+        "kg": 7,
+        "dims_cm": [
+          56,
+          36,
+          23
+        ],
+        "total_cm": 115,
+        "summary": "One cabin bag and one personal item, 7 kg in total",
+        "detail": "Economy passengers can take one cabin bag up to 56 x 36 x 23 cm (115 cm in total) and one personal item, such as a laptop bag or an overcoat, with a combined weight of no more than 7 kg. A bag over the size limit is taken off and loaded as checked baggage, and cabin baggage over the weight limit is charged RM 50 per kg at the boarding gate. Batik Air doesn't say whether wheels and handles count, so measure them in."
+      },
+      "personal": {
+        "summary": "One personal item such as a laptop bag within the same 7 kg, plus one ladies' handbag up to 22 x 27 x 8 cm or one men's pouch up to 10 x 15 x 20 cm, and one bag of airport duty-free"
+      },
+      "checkin": [
+        {
+          "fare": "Super Saver",
+          "allowance": "No free checked bag (you can buy one)"
+        },
+        {
+          "fare": "Economy Value",
+          "allowance": "20 kg"
+        },
+        {
+          "fare": "Economy Flexi",
+          "allowance": "30 kg"
+        },
+        {
+          "fare": "Business Promo",
+          "allowance": "30 kg"
+        },
+        {
+          "fare": "Business Flexi",
+          "allowance": "40 kg"
+        }
+      ],
+      "checkin_summary": "None on Super Saver, 20 kg on Economy Value and 30 kg on Economy Flexi",
+      "checkin_note": "These are Batik Air's free allowances on routes to and from India, by weight. No single checked bag may weigh more than 32 kg. Extra baggage can be pre-bought up to 12 hours before departure in Manage Booking, but not after you have checked in online; after that, airport excess rates apply.",
+      "infant": "An infant without a seat gets no free baggage allowance on Batik Air. An infant with their own seat gets the same allowance as an adult.",
+      "excess": {
+        "summary": "At the airport, excess baggage from India to Malaysia costs INR 1,000 per kg; pre-bought baggage is cheaper",
+        "points": [
+          "Bought with your ticket, to or from Delhi or Mumbai: MYR 90 for 10 kg, 140 for 20 kg, 230 for 30 kg and 280 for 40 kg.",
+          "Bought with your ticket, to or from Kochi or Tiruchirappalli: MYR 100, 160, 260 and 320 for 10, 20, 30 and 40 kg. Bengaluru: MYR 110, 170, 270 and 340.",
+          "Bought after booking, to or from Bengaluru, Kochi or Tiruchirappalli: MYR 165, 330, 495 and 660. Delhi or Mumbai: MYR 220, 440, 660 and 880.",
+          "Rates are per flight, in Malaysian ringgit, converted at the booking rate, plus taxes where they apply (Batik Air names India's K3 tax).",
+          "Cabin baggage over the limit is charged RM 50 per kg at the boarding gate."
+        ]
+      },
+      "notes": [
+        "Power banks: up to two per person, each up to 100 Wh. Batik Air says to carry them on your person, not in your cabin bag or checked bag, and using one in the cabin is prohibited.",
+        "Smart cabin bags with a non-removable lithium battery aren't allowed in the cabin. Switch off GPS, Bluetooth and Wi-Fi functions.",
+        "Codeshare and interline flights follow the operating airline's baggage rules."
+      ],
+      "sources": [
+        {
+          "label": "Batik Air baggage",
+          "url": "https://www.batikair.com.my/experience/baggage"
+        },
+        {
+          "label": "Batik Air FAQ",
+          "url": "https://www.batikair.com.my/faq"
+        }
+      ]
+    },
+    {
       "slug": "cathay-pacific",
       "name": "Cathay Pacific",
       "scope": "international",
