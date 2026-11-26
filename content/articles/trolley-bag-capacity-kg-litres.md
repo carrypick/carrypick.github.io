@@ -3,7 +3,7 @@ seo_title: Trolley bag capacity in kg and litres: 55, 65, 75 cm
 title: Trolley bag capacity: how many kg and litres each size holds
 description: How many kg can a 55, 65 or 75 cm trolley hold? Litres listed on 80 models on Amazon.in, a rough kg guide, and real packing lists for 7 kg and 15 kg.
 date: 2026-11-06
-updated: 2026-11-16
+updated: 2026-11-26
 category: luggage
 photo: packed-suitcase
 ---
@@ -93,7 +93,7 @@ We added up three ordinary packing lists, using typical weights for adult clothe
 | **Your things** | | **3.8 kg** |
 | **With the bag** | | **6.3 kg** |
 
-That fits under 7 kg. Add a laptop and its charger (about 1.9 kg) and it comes to 8.2 kg, which is over. Carry the laptop in a small personal bag if your airline allows one: IndiGo, Air India and Akasa Air allow one of up to 3 kg, but on Air India Express and SpiceJet it counts in the same 7 kg. Keep a power bank in that small bag or on you too, because it can't go in the overhead bin.
+That fits under 7 kg. Add a laptop and its charger (about 1.9 kg) and it comes to 8.2 kg, which is over. Carry the laptop in a small personal bag if your airline allows one: IndiGo, Air India and Akasa Air allow one of up to 3 kg, but on Air India Express and SpiceJet it counts in the same 7 kg (re-checked on their sites on 26 Nov 2026). Keep a [power bank](../baggage/can-i-carry/power-bank.html) in that small bag or on you too, because SpiceJet doesn't allow it in the overhead bin and IndiGo asks you to keep it within reach.
 
 **7 days with a 15 kg check-in bag, in a typical 3.4 kg medium trolley:**
 
@@ -118,12 +118,9 @@ That leaves about 2.3 kg spare. In a typical 4.3 kg large bag, the same things c
 
 So for most people, the airline's limit runs out long before a medium bag is full.
 
-## Which size for which fare?
+## Which size for your fare?
 
-- **7 kg cabin bag only:** a [cabin bag](cabin-luggage-guide.html) that weighs close to 2 kg.
-- **15 kg check-in:** a light medium bag. Don't pay for extra space you can't use.
-- **20–25 kg check-in:** medium for clothes, large for bulky winter things.
-- **Large bags:** most Indian airlines limit a checked bag to 158 cm in total, and [most large bags we read](28-inch-trolley-bag-size.html) went over that. Check the full size first.
+Your allowance after the bag's own weight is what counts. The [luggage size chart](../baggage/luggage-size-chart.html#which-size) matches each allowance, from a 7 kg cabin bag to 2 x 23 kg abroad, with a trolley size. Two things to remember: a large bag gives you less to pack than a medium one on a 15 kg fare, and [most large bags we read](28-inch-trolley-bag-size.html) were listed over the 158 cm check-in limit.
 
 ## Our picks
 
@@ -155,11 +152,19 @@ About 3 days of clothes, a toiletry kit and a phone charger, if your trolley wei
 
 ### How many kg can a 65 cm trolley bag hold?
 
-About 10–21 kg of clothes, by our rough estimate for a typical 69 L bag. On a 15 kg fare, a typical 3.4 kg medium bag leaves about 11.6 kg.
+About 10–21 kg of clothes, by our rough estimate for a typical 69 L bag. The same goes for 66 and 68 cm bags, which are the same medium size. On a 15 kg fare, a typical 3.4 kg medium bag leaves about 11.6 kg.
 
 ### How many kg can a 75 cm trolley bag hold?
 
 About 16–32 kg of clothes, by our rough estimate for a typical 108 L bag. Your fare is usually the real limit. On a 25 kg fare, a typical 4.3 kg large bag leaves about 20.7 kg.
+
+### How many kg can a small trolley bag hold?
+
+A small cabin trolley of about 55 cm could take 6–12 kg of clothes by our rough estimate, but on a flight you can usually carry only 7 kg in all. That's why a light bag matters more than a big one.
+
+### How many kg can a 77 cm trolley bag hold?
+
+About the same as a 75 cm bag: roughly 16–32 kg of clothes for a typical 108 L large bag, by our estimate. Indian airlines take no single checked bag over 32 kg, and 77 cm bags are often listed over the 158 cm size limit.
 
 ### How many kg is a 28 inch trolley bag?
 
@@ -181,6 +186,6 @@ Yes, as a check-in bag, if it's within your airline's limits. It's too big for t
 
 ## Sources
 
-Listed sizes, weights and litres read on Amazon.in on 6 Nov 2026, for 80 models after removing repeat colours and listings with clear errors. These came from Amazon search results, so they aren't every bag on sale. The kg per litre figure is our own rough estimate. We haven't packed and weighed these bags. Airline allowances checked on 3 Nov 2026: see our [baggage rules](../baggage/index.html).
+Listed sizes, weights and litres read on Amazon.in on 6 Nov 2026, for 80 models after removing repeat colours and listings with clear errors. These came from Amazon search results, so they aren't every bag on sale. The kg per litre figure is our own rough estimate. We haven't packed and weighed these bags. Airline allowances re-checked on IndiGo's, Air India's, Air India Express's, Akasa Air's and SpiceJet's own sites on 26 Nov 2026: see our [baggage rules](../baggage/index.html).
 
 [[next:#our-picks=Compare our three picks|../baggage/luggage-size-chart.html=Trolley bag sizes in cm and inches|../tools/bag-weight.html=Check your bag against your airline's allowance]]

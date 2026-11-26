@@ -3,7 +3,7 @@ seo_title: Backpack size chart in litres: which size do you need?
 title: Backpack size chart in litres: which size do you need?
 description: What do 20, 30, 40 and 60 litre backpacks suit? See a simple size chart, the largest size that fits Indian airline cabin limits, and how to check the litres.
 date: 2026-11-06
-updated: 2026-11-15
+updated: 2026-11-26
 category: backpacks
 photo: backpack-street
 ---
@@ -36,7 +36,20 @@ An airline's size limit is a box. Work out how many litres fit in that box:
 | Air India Express | 56 x 36 x 23 cm | 46 L |
 | Air India | 55 x 40 x 20 cm | 44 L |
 
-A backpack isn't a neat box, and a full one bulges. So a 45 L or 50 L bag rarely fits once it's packed. Most Indian airlines also allow only 7 kg in the cabin, including the bag. See our [baggage rules](../baggage/index.html).
+A backpack isn't a neat box, and a full one bulges. So a 45 L or 50 L bag rarely fits once it's packed. All five Indian airlines also allow only 7 kg in the cabin, including the bag. Each airline's full cabin rules are in our [cabin bag guide](cabin-luggage-guide.html).
+
+## A backpack as your personal item
+
+A small backpack can also go as the extra personal bag some airlines allow on top of the cabin bag. These limits were read on each airline's site on 26 Nov 2026:
+
+| Airline | Personal item | Space in that box |
+|---|---|---|
+| IndiGo | Up to 3 kg, such as a small bag with a laptop. No size given | – |
+| Air India | Up to 3 kg and 40 x 30 x 20 cm, under the seat | 24 L |
+| Akasa Air | Up to 3 kg, under the seat. No size given | – |
+| Air India Express, SpiceJet | No extra bag: it counts in your 7 kg cabin bag | – |
+
+So for a personal item, think **15–20 L**, and pack it light. A 20–30 L laptop backpack usually works better as your one cabin bag.
 
 ## What our backpacks measure
 
@@ -65,7 +78,7 @@ So a "30 L" bag can be much smaller than another "30 L" bag. To check, multiply 
 
 ## Choosing for your use
 
-- **School:** see our [school bag size chart by class](school-bag-size-chart.html).
+- **School and kids:** see our [school bag size chart by class and age](school-bag-size-chart.html).
 - **Office and college:** 20–30 L is plenty. Check the laptop size with our [laptop backpack tool](../tools/laptop-backpack.html) and our [15.6 inch laptop backpack guide](15-6-inch-laptop-backpack-size.html), and read our [laptop backpack guide](laptop-backpack-guide.html).
 - **Weekend trips:** 30–40 L. See the [weekend packing list](../packing/weekend.html).
 - **Winter hill trips:** add 10 L or so for jackets, or wear the bulky layers. See [what to wear on a winter hill trip](winter-clothes-for-hill-trips.html).
@@ -107,6 +120,14 @@ Often, yes, but it depends on its full size and weight. For example, a 50 x 30 x
 
 Usually only as a check-in bag. IndiGo's whole cabin limit works out to 48 L, so a packed 50 L backpack is likely to go over it.
 
+### What size backpack is allowed as a personal item?
+
+On Air India, up to 40 x 30 x 20 cm and 3 kg, which is a box of about 24 litres. IndiGo and Akasa Air allow one personal item of up to 3 kg without a size. On Air India Express and SpiceJet there is no extra bag, so a backpack counts in your 7 kg cabin bag.
+
+### Is a 45 litre backpack allowed as cabin baggage?
+
+Sometimes, but it's at the edge. IndiGo's whole 55 x 35 x 25 cm box is about 48 litres, and Air India's 55 x 40 x 20 cm about 44 litres, so a packed 45 L bag often bulges past one side. Measure it packed.
+
 ### Is a 30 litre backpack big enough for daily use?
 
 Yes, and for many people it's more than enough. 20–30 L usually holds a laptop, a lunch box and a jacket. Smaller is lighter on your back.
@@ -121,6 +142,6 @@ It means the seller says the bag holds about 40 litres. Brands measure this diff
 
 ## Sources
 
-Listed sizes, weights and litres come from our pick pages, read on Amazon.in in Nov 2026. Airline limits checked on 3 Nov 2026: see our [baggage rules](../baggage/index.html). Size guidance is our own rough guide, in line with [Osprey's backpack size guide](https://www.osprey.com/eu/blog/post/backpack-size-guide) and [REI on choosing a backpack](https://www.rei.com/learn/expert-advice/backpack), which are mainly about hiking packs. We haven't tested these backpacks.
+Listed sizes, weights and litres come from our pick pages, read on Amazon.in in Nov 2026. Airline limits re-checked on IndiGo's, Air India's, Air India Express's, Akasa Air's and SpiceJet's own sites on 26 Nov 2026: see our [baggage rules](../baggage/index.html). Size guidance is our own rough guide, in line with [Osprey's backpack size guide](https://www.osprey.com/eu/blog/post/backpack-size-guide) and [REI on choosing a backpack](https://www.rei.com/learn/expert-advice/backpack), which are mainly about hiking packs. We haven't tested these backpacks.
 
 [[next:#our-picks=Compare our four backpacks|laptop-backpack-guide.html=Pick a laptop backpack|../baggage/index.html=Cabin bag rules for Indian airlines]]
