@@ -1,5 +1,65 @@
 [
   {
+    "asin": "B0H6JJZPZT",
+    "added_at": "2026-11-27T09:09:23+05:30",
+    "title": "Skybags Brat Pro Max 35L Laptop Backpack (up to 15.6 inch), 3 Compartments",
+    "category": "backpacks",
+    "subcategory": "laptop-backpacks",
+    "highlights": [
+      "Laptop pocket for up to 15.6 inch",
+      "35 litres with 3 compartments",
+      "Rain cover and two side bottle pockets",
+      "Padded straps and air-mesh back"
+    ],
+    "note": "A roomy, light Skybags backpack with a rain cover for college or office days.",
+    "brand": "Skybags",
+    "colour": "Lavender",
+    "best_for": [
+      "College",
+      "Office"
+    ],
+    "specs": {
+      "Capacity": "35 L",
+      "Laptop": "Up to 15.6 inch",
+      "Compartments": "3",
+      "Size": "46 x 35 x 22 cm",
+      "Weight": "550 g",
+      "Warranty": "1 year international"
+    },
+    "skip_if": "you want a small, slim bag: at 35 litres it is big for a light day.",
+    "deal_seen_at": "2026-11-27T09:08:00+05:30"
+  },
+  {
+    "asin": "B0GZKTJ6D2",
+    "added_at": "2026-11-27T09:09:23+05:30",
+    "title": "Aristocrat Comet Large 76 cm Hard Check-in Trolley, 84 L",
+    "category": "luggage",
+    "subcategory": "large-trolleys",
+    "highlights": [
+      "84 litres for long trips",
+      "Hard case that resists scratches and water",
+      "8 spinner wheels and a combination lock",
+      "3-year international warranty, made in India"
+    ],
+    "note": "The single large size of the Aristocrat Comet, a budget hard bag from VIP Industries.",
+    "brand": "Aristocrat",
+    "colour": "Dark Brown",
+    "best_for": [
+      "Long trips",
+      "Check-in bag"
+    ],
+    "specs": {
+      "Size": "76 x 54 x 33 cm (163 cm total)",
+      "Capacity": "84 L",
+      "Weight": "4.2 kg",
+      "Shell": "Hard case",
+      "Lock": "Combination lock",
+      "Warranty": "3 years international"
+    },
+    "skip_if": "you fly IndiGo: at 163 cm in total it is over IndiGo's 158 cm limit for a checked bag.",
+    "deal_seen_at": "2026-11-27T09:08:00+05:30"
+  },
+  {
     "asin": "B073P8RCBJ",
     "added_at": "2026-11-26T09:09:14+05:30",
     "title": "Timex Men's Analog Watch, 45 mm Blue Dial, Tan Leather Strap (TW000U913)",
