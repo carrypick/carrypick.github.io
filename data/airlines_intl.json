@@ -804,10 +804,10 @@
         ],
         "total_cm": null,
         "summary": "One cabin bag up to 7 kg",
-        "detail": "Guest Class (economy) passengers may carry one hand bag or briefcase up to 7 kg and 56 x 45 x 25 cm. It must fit in the overhead bin or under the seat, and gets a cabin baggage tag. Saudia doesn't say whether wheels and handles count, so measure them in."
+        "detail": "Guest Class (economy) passengers may carry one handbag or briefcase up to 7 kg and 56 x 45 x 25 cm. It must fit in a closed overhead bin or under the seat in front, and gets a cabin baggage tag. Saudia warns that at a connecting airport the cabin bag may have to be checked in, because of the aircraft type or full overhead bins. Saudia doesn't say whether wheels and handles count, so measure them in."
       },
       "personal": {
-        "summary": "One personal item on top, such as a coat, a women's handbag, a laptop or a camera. No size limit is given"
+        "summary": "One personal item on top, such as a coat, a tablet, a women's handbag, a stroller or baby cradle, or essential items for a guest with a disability. Saudia gives no size limit for it"
       },
       "checkin": [
         {
@@ -820,30 +820,116 @@
         }
       ],
       "checkin_summary": "Depends on your fare and route, shown when you book; each economy bag up to 23 kg",
-      "checkin_note": "Saudia's FAQ says the free allowance depends on your fare, route and class, and is shown on your booking. Each economy bag can weigh up to 23 kg and measure up to 158 cm in total. You can pay online to raise a bag to 32 kg; anything heavier, or over 300 cm, must go as cargo.",
-      "infant": "Saudia's current pages don't list a checked allowance for infants. Strollers are checked free.",
+      "checkin_note": "Saudia's branded fares page (Guest Saver, Basic, Semi Flex and Flex) lists seats, miles and change fees but no baggage, so your free allowance is the one printed on your ticket. Each economy bag can be up to 23 kg and 158 cm in total. Bags over 32 kg or 300 cm must go as cargo.",
+      "infant": "Saudia's pages don't list a checked allowance for infants, so check the ticket. Strollers are checked in free and travel in the hold. Newborns can fly after their first week; a baby older than 48 hours can fly with a medical certificate saying it needs no incubator or oxygen.",
       "notes": [
-        "Zamzam water: one package of up to 5 litres, only as a separate checked item, never inside your suitcase. It's free for everyone leaving Madinah; from other Saudi airports it counts within your allowance.",
-        "Power banks: up to two, in your cabin bag only. You can't recharge them on board or use them to charge other devices.",
-        "When we checked (3 Nov 2026), Saudia's site said flights to and from Riyadh were operating through Al Qassim or Dammam, with a Saudia bus to Riyadh, and that you must collect your checked bags before the bus. Check Saudia's travel updates before you fly.",
-        "Extra baggage bought on saudia.com or the app can be up to 30% cheaper than at the airport."
+        "Zamzam water: one package of up to 5 litres, only as a separate checked item, never inside your suitcase. It's free for everyone leaving Madinah (Prince Mohammed bin Abdulaziz Airport); from other Saudi airports it counts within your free allowance.",
+        "Power banks: up to two, each up to 100 Wh, in your cabin bag only. You can't recharge them on board or use them to charge a phone or other device. Protect each one from short circuits: keep it in its box or a separate pouch, or tape over the terminals.",
+        "On flights to and from the USA and the UK, all electronic devices in the cabin are screened and you may be asked to switch them on. A device that won't switch on is not allowed on board, so charge your phone and laptop before you fly.",
+        "Travel update (read 27 Nov 2026): some flights to and from Riyadh are operating through Al Qassim and Dammam airports, with a Saudia bus to Riyadh included in the ticket. Check your flight status before you leave home."
       ],
       "sources": [
         {
-          "label": "Saudia carry-on baggage",
+          "label": "Carry-on baggage",
           "url": "https://www.saudia.com/en-IN/manage/baggage/carry-on-baggage"
         },
         {
-          "label": "Saudia extra baggage, baggage upgrade and notes",
+          "label": "Extra baggage",
           "url": "https://www.saudia.com/en-IN/manage/baggage/extra-baggage"
         },
         {
-          "label": "Saudia additional baggage",
+          "label": "Additional baggage (AlFursan, special cases)",
           "url": "https://www.saudia.com/en-IN/manage/baggage/additional-baggage"
         },
         {
-          "label": "Saudia permitted items",
+          "label": "Permitted items and Zamzam water",
           "url": "https://www.saudia.com/en-IN/manage/baggage/permitted-items"
+        },
+        {
+          "label": "Special baggage",
+          "url": "https://www.saudia.com/en-IN/manage/baggage/special-baggage"
+        },
+        {
+          "label": "Travelling with pets",
+          "url": "https://www.saudia.com/en-IN/book/flight-information/travelling-with-pets"
+        },
+        {
+          "label": "Travelling with children",
+          "url": "https://www.saudia.com/en-IN/book/special-assistance/travelling-with-children"
+        },
+        {
+          "label": "Branded fares",
+          "url": "https://www.saudia.com/en-IN/book/travel-information/branded-fares"
+        },
+        {
+          "label": "Baggage claim form",
+          "url": "https://www.saudia.com/en-IN/forms/baggage-claim-form"
+        }
+      ],
+      "checked": "2026-11-27",
+      "seo_title": "Saudia baggage allowance from India: 7 kg, 56 x 45 x 25 cm",
+      "excess": {
+        "summary": "Buy extra baggage in Manage booking on saudia.com or the Saudia app, where Saudia says it can be up to 30% cheaper than at the airport; on routes where online purchase isn't offered, you pay at the airport",
+        "points": [
+          "Each extra bag you buy online comes as a voucher, valid for one year from issue.",
+          "Vouchers can't be refunded, reissued or moved to a different flight time or route, and you lose the full value if you don't show up for the flight.",
+          "Saudia doesn't publish its excess baggage rates on its India pages (read 27 Nov 2026), so compare the online price with the airport counter before you pay.",
+          "Sports items over 158 cm cost USD 100 extra on international flights, or USD 167 in total if they are over 205 cm (up to 300 cm). To or from Canada, the fee is CAD 189 in total."
+        ]
+      },
+      "sections": [
+        {
+          "h": "How Saudia differs from other Gulf airlines",
+          "items": [
+            "Its economy cabin bag is the widest of the Gulf airlines: 56 x 45 x 25 cm, against Emirates 55 x 38 x 22 cm, Etihad 56 x 36 x 23 cm, Qatar Airways 50 x 37 x 25 cm and flydubai 55 x 38 x 20 cm. Most 55 cm Indian cabin trolleys fit, if they weigh 7 kg or less.",
+            "Saudia doesn't print the free checked allowance for each fare on its website, unlike Oman Air and Gulf Air. Read it on your ticket before you pack.",
+            "It allows a free 5 litre Zamzam pack for everyone leaving Madinah, on top of the allowance. Qatar Airways allows Zamzam only for pilgrims, and most other airlines count it in your allowance.",
+            "Like Qatar Airways and Gulf Air, it allows two power banks; Emirates, Etihad and flydubai allow one."
+          ]
+        },
+        {
+          "h": "AlFursan members, USA flights and special cases",
+          "items": [
+            "AlFursan Silver and Gold members (Elite and Elite Plus) get one extra bag free on international flights: up to 23 kg in Guest Class and up to 32 kg in Business or First.",
+            "Flights from the USA or Canada to Saudi Arabia allow only one carry-on item in all classes, up to 16 lb (about 7 kg) and 45 inches. Checked bags from Riyadh to New York, Washington, Los Angeles and Toronto must be sealed in safe wrap before check-in.",
+            "Kidney failure patients flying from Saudi Arabia can take up to 8 extra pieces of 32 kg each for their dialysis supplies, with the Saudi Center for Organ Transplantation card or a medical report.",
+            "Wheelchairs and crutches go free, plus up to two mobility devices (including an electric wheelchair) and one portable dialysis machine on top of the allowance."
+          ]
+        },
+        {
+          "h": "Sports equipment, TVs and pets",
+          "items": [
+            "Sports equipment and musical instruments count within your free checked allowance if they are packed in protective cases. Oversize items pay the fees in the extra baggage section above; items over 300 cm or 32 kg go as cargo.",
+            "Televisions and household appliances are accepted as checked baggage within the normal weight and size limits.",
+            "Cats and small birds can travel in the cabin, up to 5 kg with the carrier, in a leak-proof container of at most 52.5 x 32.5 x 40 cm, one pet per carrier. Dogs travel only in the hold. Saudia lists USD 100 for a pet in the cabin and USD 300 in the hold on international flights (not the USA or Canada).",
+            "Every animal entering Saudi Arabia must be registered on the Ministry of Environment, Water and Agriculture's NAAMA portal before travel, and live birds are restricted. Tell Saudia about a pet when you book."
+          ]
+        },
+        {
+          "h": "If your bag is delayed, lost or damaged",
+          "items": [
+            "Report it at the Saudia baggage desk before you leave the arrivals hall and keep the file number.",
+            "You can follow the bag with the Track Baggage service on saudia.com and send a claim with Saudia's online baggage claim form.",
+            "Don't pack valuables or important documents in checked bags; Saudia asks guests to keep them in the cabin."
+          ]
+        }
+      ],
+      "faq_extra": [
+        {
+          "q": "What is the Saudia baggage allowance from India?",
+          "a": "In economy you get one cabin bag of 7 kg and 56 x 45 x 25 cm, plus one personal item. The free checked allowance depends on your fare and route and is printed on your ticket; each bag can be up to 23 kg and 158 cm."
+        },
+        {
+          "q": "What is the Saudia cabin baggage size?",
+          "a": "56 x 45 x 25 cm (22 x 18 x 10 inches) and 7 kg in Guest Class. Business and First get a 12 kg handbag of the same size plus a 9 kg briefcase."
+        },
+        {
+          "q": "Can I carry Zamzam water on Saudia?",
+          "a": "Yes, one 5 litre pack as a separate checked item, never inside your suitcase or in the cabin. It's free from Madinah; from other Saudi airports it counts within your allowance."
+        },
+        {
+          "q": "How do I track or claim for my Saudia baggage?",
+          "a": "Report the problem at the Saudia desk at the airport first and keep the file number. Then use Track Baggage on saudia.com to follow it, and the online baggage claim form to claim."
         }
       ]
     },
@@ -853,7 +939,7 @@
       "scope": "international",
       "region": "Gulf",
       "hub": "Muscat (MCT)",
-      "official_url": "https://www.omanair.com/en/baggage-policy/baggage-allowance",
+      "official_url": "https://www.omanair.com/en_in/baggage-policy/baggage-allowance",
       "cabin": {
         "pieces": 1,
         "kg": 7,
@@ -880,29 +966,106 @@
         }
       ],
       "checkin_summary": "20 kg on Super Saver, 30 kg on Comfort and 40 kg on Flex to and from India",
-      "checkin_note": "These higher allowances apply to tickets to or from Mumbai, Kozhikode, Kochi, Delhi, Goa (Mopa), Hyderabad, Lucknow, Chennai, Bengaluru and Thiruvananthapuram. No single bag may weigh more than 32 kg, and Oman Air says heavier bags won't be accepted. Each bag can be up to 158 cm in total.",
+      "checkin_note": "These higher allowances apply to tickets to or from Mumbai, Kozhikode, Kochi, Delhi, Goa (Mopa), Hyderabad, Lucknow, Chennai, Bengaluru and Thiruvananthapuram. On other routes Super Saver has no checked bag (0 kg), Comfort 20 kg and Flex 30 kg. You can take as many bags as you like within the weight, but no single bag may weigh more than 32 kg (Oman Air won't accept it at all) or measure more than 158 cm in total.",
       "infant": "An adult with an infant gets 10 kg of extra checked weight on all fares except Economy Saver. Infant carriers, cots and strollers go free.",
       "notes": [
         "In April 2026 Oman Air raised its India allowances: Super Saver now includes 20 kg, where it used to be cabin bag only.",
         "Power banks: cabin bag only, never checked in. Don't use or charge them during the flight, and keep them under the seat or in the seat pocket. Power banks without a visible capacity label are refused.",
-        "Pack your things in a suitcase or similar container. Oman Air may refuse bags it thinks are badly packed."
+        "Pack your things in a suitcase or similar container. Oman Air may refuse bags it thinks are badly packed.",
+        "Sindbad members get extra baggage in every class: Silver 10 kg or 1 piece, Gold 15 kg or 1 piece."
       ],
       "sources": [
         {
-          "label": "Oman Air baggage allowance",
-          "url": "https://www.omanair.com/en/baggage-policy/baggage-allowance"
+          "label": "Baggage allowance",
+          "url": "https://www.omanair.com/en_in/baggage-policy/baggage-allowance"
         },
         {
-          "label": "Oman Air brand fares",
+          "label": "Extra baggage weight",
+          "url": "https://www.omanair.com/en_in/baggage-policy/extra-bags-weight"
+        },
+        {
+          "label": "Special baggage guidelines",
+          "url": "https://www.omanair.com/en_in/baggage-policy/special-baggage-guidelines"
+        },
+        {
+          "label": "Travelling with pets",
+          "url": "https://www.omanair.com/en_in/baggage-policy/travelling-w-pets"
+        },
+        {
+          "label": "Check-in information",
+          "url": "https://www.omanair.com/en_in/check-in-info"
+        },
+        {
+          "label": "Brand fares",
           "url": "https://www.omanair.com/en/farebundles"
         },
         {
-          "label": "Oman Air baggage FAQ",
-          "url": "https://www.omanair.com/en/faqs-baggage"
+          "label": "Press release, 22 April 2026",
+          "url": "https://services.omanair.com/ae/en/PressRelease/oman-air-enhances-economy-fare-bundles-with-increased-baggage-allowance-on-selected-routes"
+        }
+      ],
+      "checked": "2026-11-27",
+      "seo_title": "Oman Air baggage allowance from India: 7 kg, 20-40 kg checked",
+      "excess": {
+        "summary": "Oman Air charges extra baggage per kg, by region. From India (the Indian Subcontinent) it lists USD 15 per kg to the Gulf, USD 20 to the Middle East and North Africa, USD 21 to Asia Pacific and USD 25 to Europe",
+        "points": [
+          "These rates, read on Oman Air's India page on 27 Nov 2026, apply only to flights Oman Air operates itself, and start from the first extra kilo.",
+          "A bag of 160 to 210 cm in total pays an oversize charge even within your free weight; over 210 cm (up to 292 cm) it counts as large special baggage.",
+          "Special or sports baggage is charged per 23 kg piece: USD 311 from India to the Gulf, USD 414 to the Middle East and North Africa, USD 435 to Asia Pacific and USD 518 to Europe. Large special baggage (up to 32 kg) is USD 432, 576, 605 and 720.",
+          "For a trip that continues beyond the Oman Air network, the piece concept applies: an extra economy bag costs USD 100 for the first and USD 200 for each one after, plus USD 100 for a bag of 23 to 32 kg or over 203 cm."
+        ]
+      },
+      "sections": [
+        {
+          "h": "How Oman Air differs from other Gulf airlines",
+          "items": [
+            "It gives no side limits for the cabin bag, only a total of 115 cm (length + width + height), against Emirates 55 x 38 x 22 cm, Etihad 56 x 36 x 23 cm, Qatar Airways 50 x 37 x 25 cm and flydubai 55 x 38 x 20 cm. A 55 x 35 x 23 cm trolley adds up to 113 cm and fits.",
+            "Its India allowances are among the highest in the Gulf: 20 kg on Super Saver, 30 kg on Comfort and 40 kg on Flex.",
+            "It sells extra weight per kilo from the first kilo, where Qatar Airways sells 10 kg bundles and Gulf Air 5 kg steps.",
+            "It never carries pets in the cabin, only in the hold or as cargo."
+          ]
         },
         {
-          "label": "Oman Air press release, 22 April 2026",
-          "url": "https://services.omanair.com/ae/en/PressRelease/oman-air-enhances-economy-fare-bundles-with-increased-baggage-allowance-on-selected-routes"
+          "h": "Sports equipment, instruments and TVs",
+          "items": [
+            "Sports equipment goes free within your allowance if it is no more than 300 cm in total. A golf bag over your weight pays the per-kg rate.",
+            "A small musical instrument (up to 7 kg and 115 cm) can replace your cabin bag; ask Oman Air at least 48 hours before the flight. Instruments in soft cases are not accepted, so use a rigid case.",
+            "TVs up to 43 inches and 23 kg count as normal checked baggage. From 44 to 55 inches (up to 32 kg) they pay a TV fee: USD 189 from India to the Gulf. Bigger TVs go as cargo."
+          ]
+        },
+        {
+          "h": "Pets on Oman Air",
+          "items": [
+            "Pets travel only in the hold or as cargo, never in the cabin, and are charged on top of your allowance.",
+            "From India to the Gulf, a small kennel with the pet (up to 23 kg and 203 cm) costs USD 150, a medium one (up to 45 kg) USD 250 and a large one (up to 75 kg) USD 438.",
+            "Reach the airport 4 hours early. A pet flying into Oman needs an import permit through the Bayan customs portal, a microchip, rabies vaccination and a rabies antibody test; some breeds, including Pitbull, Rottweiler, Doberman and Great Dane, are banned."
+          ]
+        },
+        {
+          "h": "Check-in from India",
+          "items": [
+            "Online check-in opens 48 hours and closes 60 minutes before departure.",
+            "Oman Air's check-in table lists counters opening 3 hours before departure at Delhi, Chennai, Kochi, Kozhikode, Hyderabad and Thiruvananthapuram, 3 hours 30 minutes at Bengaluru and 4 hours at Mumbai and Lucknow. At all of them, counters close 1 hour before departure.",
+            "Oman Air advises reaching the airport at least 3 hours before the flight."
+          ]
+        }
+      ],
+      "faq_extra": [
+        {
+          "q": "What is the Oman Air baggage allowance from India in economy?",
+          "a": "One 7 kg cabin bag up to 115 cm in total, plus checked baggage of 20 kg on Super Saver, 30 kg on Comfort and 40 kg on Flex on flights to and from the listed Indian cities. No bag may weigh more than 32 kg."
+        },
+        {
+          "q": "What is the Oman Air cabin baggage size?",
+          "a": "7 kg and up to 115 cm (45 inches) when you add length, width and height. Oman Air gives no separate side limits."
+        },
+        {
+          "q": "How much does Oman Air charge for extra baggage from India?",
+          "a": "Per kg: USD 15 to the Gulf, USD 20 to the Middle East and North Africa, USD 21 to Asia Pacific and USD 25 to Europe, on flights Oman Air operates (read 27 Nov 2026)."
+        },
+        {
+          "q": "Can I take my pet on Oman Air?",
+          "a": "Only in the hold or as cargo, not in the cabin. From India to the Gulf a small kennel costs USD 150, a medium one USD 250 and a large one USD 438."
         }
       ]
     },
@@ -923,7 +1086,7 @@
         ],
         "total_cm": null,
         "summary": "One cabin bag up to 6 kg",
-        "detail": "Economy passengers may carry one bag or briefcase up to 6 kg and 45 x 40 x 30 cm, according to the baggage calculator on gulfair.com. That's lighter and shorter than most airlines allow, so many 55 cm trolleys won't qualify. Cabin bags are weighed and tagged at check-in."
+        "detail": "Economy passengers may carry one bag or briefcase up to 6 kg and 45 x 40 x 30 cm, according to the baggage calculator on gulfair.com (checked 3 Nov 2026). That's lighter and shorter than most airlines allow, so many 55 cm trolleys won't qualify. Gulf Air says cabin bags are weighed and labelled at check-in."
       },
       "personal": {
         "summary": "Free extras on top: a handbag or purse, a laptop, a coat or blanket, an umbrella, a small camera, reading matter and infant food for the flight"
@@ -943,25 +1106,92 @@
         }
       ],
       "checkin_summary": "30 kg on Light, 35 kg on Smart and 40 kg on Flex between India and Bahrain",
-      "checkin_note": "These India allowances, from Gulf Air's baggage calculator, cover flights between Bahrain and Delhi, Mumbai, Bengaluru, Hyderabad, Chennai, Thiruvananthapuram, Goa and Kochi in both directions; other routes get 5 kg less. You can split your allowance into up to 5 bags, but no bag may weigh more than 32 kg or measure more than 158 cm in total.",
-      "infant": "One checked piece up to 10 kg, a free folding stroller and car seat, and one 3 kg cabin bag.",
+      "checkin_note": "These India allowances, from Gulf Air's baggage calculator, cover flights between Bahrain and Delhi, Mumbai, Bengaluru, Hyderabad, Chennai, Thiruvananthapuram, Goa and Kochi in both directions. Gulf Air also sells a Basic economy fare; check its allowance in the calculator before you book. You can split your allowance into up to 5 bags, but no bag may weigh more than 32 kg or measure more than 158 cm (76 x 51 x 31 cm). A bag over 32 kg must be repacked at the counter.",
+      "infant": "An infant under 2 gets one checked piece up to 10 kg, a free folding stroller and infant car seat, and one cabin bag up to 3 kg and 44 x 35 x 20 cm. Children from 2 years get the adult allowance plus a free stroller and car seat.",
       "notes": [
-        "Gulf Air doesn't accept odd-shaped bags, bags wrapped in blankets or cloth, round bags without a flat side, woven sacks or plastic bags, or bags with long loose straps. Suitcases and cardboard boxes within the size limit are fine, and can be plastic-wrapped at the airport.",
+        "Gulf Air doesn't accept odd-shaped bags, bags wrapped in blankets or cloth, round bags without a flat side, woven sacks or plastic bags, or bags with long loose straps. Suitcases and cardboard boxes within 76 x 51 x 31 cm are fine, and can be plastic-wrapped at the airport.",
         "Power banks: up to two, each up to 100 Wh. Don't charge them from the seat or use them to charge other devices during the flight.",
-        "Prepaid extra baggage is cheaper than at the airport and is sold in 5 kg steps."
+        "Smart bags: the battery must be removable. Take it out and carry it in the cabin if the bag is checked in. A smart bag with a fixed battery can't fly on Gulf Air at all.",
+        "Zamzam water: eligible Umrah and Hajj pilgrims leaving any Saudi airport may check in one sealed 5 litre pack free, on top of the allowance, bought from an authorised Zamzam outlet and checked in separately.",
+        "TVs up to 50 inches can be checked in if pre-packed; larger ones go as cargo."
       ],
       "sources": [
         {
-          "label": "Gulf Air baggage information",
+          "label": "Baggage information and calculator",
           "url": "https://www.gulfair.com/help/baggage/baggage-information"
         },
         {
-          "label": "Gulf Air personal items / carry-on",
+          "label": "Personal items and smart bags",
           "url": "https://www.gulfair.com/en/help/baggage/personal-items"
         },
         {
-          "label": "Gulf Air optional services fees",
-          "url": "https://www.gulfair.com/transparency/fees-and-services"
+          "label": "Special baggage and Zamzam water",
+          "url": "https://www.gulfair.com/en/help/baggage/special-baggage"
+        },
+        {
+          "label": "Optional services fees",
+          "url": "https://www.gulfair.com/en/transparency/fees-and-services"
+        },
+        {
+          "label": "Missing baggage and claims",
+          "url": "https://www.gulfair.com/en/help/baggage/missing-baggage-and-claims"
+        }
+      ],
+      "checked": "2026-11-27",
+      "seo_title": "Gulf Air baggage allowance from India: 6 kg cabin, 30-40 kg checked",
+      "excess": {
+        "summary": "Prepay extra baggage on gulfair.com, the Gulf Air app, a Gulf Air office or the contact centre, in steps of 5 kg; the prepaid rates are not offered at the airport, where standard excess rates apply",
+        "points": [
+          "India is in Gulf Air's excess baggage Zone 2 (Middle East, Africa and Indian Subcontinent), with Bahrain and the Gulf in Zone 1 and Europe and the Far East in Zone 3. The price shows when you add bags in Manage booking.",
+          "Prepaid extra baggage can be changed up to 24 hours before departure, can be used on another flight if you change your trip, and is valid for one year. It can't be moved to another passenger or refunded if you cancel yourself.",
+          "Falconflyer members can pay for extra baggage with miles, also in 5 kg steps.",
+          "Online you can add up to 50 kg (or up to 99 pieces on piece routes); for more, Gulf Air sends you to its cargo team."
+        ]
+      },
+      "sections": [
+        {
+          "h": "How Gulf Air differs from other Gulf airlines",
+          "items": [
+            "Its cabin bag limit is the strictest: 6 kg and 45 x 40 x 30 cm, against 7 kg on the other Gulf airlines and Emirates 55 x 38 x 22 cm, Etihad 56 x 36 x 23 cm, Qatar Airways 50 x 37 x 25 cm and flydubai 55 x 38 x 20 cm.",
+            "Its India checked allowances are generous: 30 kg even on the Light fare, against 20 kg on Oman Air Super Saver and Qatar Airways Economy Lite.",
+            "It gives every infant a 3 kg cabin bag of its own; Qatar Airways gives infants none.",
+            "Like Saudia and Qatar Airways, it allows two power banks."
+          ]
+        },
+        {
+          "h": "Gulf Air flights to the USA",
+          "items": [
+            "Flights between Bahrain and New York (JFK) use the piece concept: 2 bags of 23 kg each in Economy, 2 of 32 kg in Falcon Gold (business).",
+            "In Economy, both bags together may add up to 273 cm (length + width + height). An infant gets one 15 kg checked bag on US flights.",
+            "An extra 23 kg bag between India (Zone 2) and New York costs USD 176 if bought more than 24 hours ahead and USD 220 within 24 hours. A bag of 23 to 32 kg pays USD 60 more."
+          ]
+        },
+        {
+          "h": "Sports, medical equipment and lost bags",
+          "items": [
+            "Gulf Air accepts bicycles, golf clubs, diving gear, surfboards, skis, fishing gear, instruments and more. Each item over 158 cm pays special baggage charges.",
+            "For CPAP or portable oxygen machines, tell Gulf Air reservations at least 48 hours before the flight and get medical clearance.",
+            "If a bag is delayed or lost, report it at the baggage claim area before you leave, then follow it with Check Delayed Bag Status on gulfair.com. Claims go on Gulf Air's claim form to the nearest Gulf Air office.",
+            "Gulf Air isn't liable for scratches, small dents or damage to wheels, straps and handles. You can declare a higher value at check-in for a fee."
+          ]
+        }
+      ],
+      "faq_extra": [
+        {
+          "q": "What is the Gulf Air baggage allowance from India in economy?",
+          "a": "One 6 kg cabin bag of 45 x 40 x 30 cm, plus personal items. Checked baggage between India and Bahrain is 30 kg on Light, 35 kg on Smart and 40 kg on Flex, in up to 5 bags of at most 32 kg each."
+        },
+        {
+          "q": "Does Gulf Air give 40 kg baggage?",
+          "a": "Yes, on the Economy Flex fare between Bahrain and the main Indian airports. Light gives 30 kg and Smart 35 kg."
+        },
+        {
+          "q": "What is the Gulf Air cabin baggage size?",
+          "a": "45 x 40 x 30 cm and 6 kg in Economy. An infant gets a 3 kg cabin bag of 44 x 35 x 20 cm."
+        },
+        {
+          "q": "Can I buy extra baggage on Gulf Air at the airport?",
+          "a": "Yes, but at the standard airport rate. The cheaper prepaid rate, sold in 5 kg steps, is only online, in the app, at a Gulf Air office or through the contact centre."
         }
       ]
     },

@@ -59,7 +59,7 @@ The ROP and the foreign ministry don't list a visa on arrival for Indians. Get t
 - **For Salalah,** Oman Air and SalamAir fly direct from Kozhikode, or fly via Muscat.
 - **Air India itself doesn't fly to Oman,** only Air India Express, so we don't show Air India below.
 - **Time difference:** India is 1 hour 30 minutes ahead of Oman all year. Oman doesn't change its clocks.
-- **Baggage:** check the limits by airline in the [international baggage rules](../baggage/international.html) and the [carry-on size by airline](../guides/carry-on-size-by-airline.html) guide.
+- **Baggage:** on [Oman Air](../baggage/oman-air.html), economy gives a 7 kg cabin bag (115 cm in total) and 20 kg (Super Saver), 30 kg (Comfort) or 40 kg (Flex) checked to and from the main Indian cities. Check other airlines in the [international baggage rules](../baggage/international.html) and the [carry-on size by airline](../guides/carry-on-size-by-airline.html) guide.
 - **Fares go up around Eid, Diwali, Christmas and Indian school holidays.** Book early.
 
 Compare flights to Oman:
