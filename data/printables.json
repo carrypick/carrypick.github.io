@@ -1,0 +1,22 @@
+{
+ "goa-packing-checklist": {
+  "font": 10,
+  "html": "0c6ed84d77d728bd7d8655d1ff4f28aa34f12b75652c06940f44dbf1c996cd9f"
+ },
+ "packing-checklist-international-trip": {
+  "font": 10,
+  "html": "016cab947af88934c7a83f5fb31a9ca53d0c46782dfd3beb9ab764b935922d23"
+ },
+ "packing-checklist-train-journey": {
+  "font": 10,
+  "html": "75b87499bac140f4637859abe82e07d78eae02250bd14ac95fdece04593233ed"
+ },
+ "packing-checklist-week": {
+  "font": 10,
+  "html": "9358ae24d74fba9fa5d6cdefa56ae142300149c09a99b314bdd2468909438159"
+ },
+ "umrah-packing-checklist": {
+  "font": 10,
+  "html": "9f999c283d357d665a83ac7e3f561b162faed1777fd6bf74ada1b567e8d29197"
+ }
+}

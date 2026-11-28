@@ -31,6 +31,7 @@ import gift_finder
 import what_to_wear
 import trip_calc
 import pick_art
+import printables
 from common import IST, ROOT, amazon_link, load_config, load_deals
 
 DOCS = ROOT / "docs"
@@ -61,7 +62,7 @@ SUB_COUNTS = {}  # (category, subcategory) -> number of picks, filled by build()
 SUB_PAGE_MIN = 3  # a subcategory gets its own page only with this many picks (no thin pages)
 HINDI_PAGES = {}  # English path -> its Hindi version, filled by build() when data/hindi.json exists
 DISCLOSURE = "As an Amazon Associate I earn from qualifying purchases."
-KEEP_IN_DOCS = {"CNAME"}
+KEEP_IN_DOCS = {"CNAME", "printables"}  # printables: PDFs from scripts/printables.py, printed only when they change
 BUY_ATTRS = 'rel="sponsored nofollow noopener" target="_blank"'
 FONTS = "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
 HINDI_FONT = "https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700&display=swap"
@@ -354,6 +355,15 @@ def page(cfg, title, description, body, depth, path, schema=None, og_type="websi
         body = re.sub(r'"((?:\.\./)*)packing/(%s)\.html"' % "|".join(sorted(PACK_MERGED)), r'"\1packing/index.html#\2"', body)
     if lang in ("en", "hi"):
         body = cite_box.insert(cfg, path, title, body, lang)
+    if lang == "en" and printables.link_line(path, p):
+        # Backlink kit (plan A8): one line near the top linking to the free printable PDF of this list.
+        line, tag = printables.link_line(path, p), '<article class="guide">'
+        if tag not in body:
+            sys.exit("Error: %s has a printable checklist but no <article class=\"guide\"> to put its link in" % path)
+        at = body.index(tag) + len(tag)
+        if body.startswith("<p>", at):
+            at = body.index("</p>", at) + 4
+        body = body[:at] + "\n" + line + body[at:]
     if og_type == "article" or path.startswith("picks/"):
         # Share buttons go just above the Telegram/WhatsApp band at the end of guides, tools, trips and picks.
         bar = share_bar(cfg, path, title or cfg["site_name"], lang)
@@ -393,6 +403,9 @@ def page(cfg, title, description, body, depth, path, schema=None, og_type="websi
         head_extra += '\n<meta name="p:domain_verify" content="%s">' % e(cfg["pinterest_site_verification"])
     if cfg.get("cuelinks_site_verification"):
         head_extra += '\n<meta name="cuelinks-verification" content="%s">' % e(cfg["cuelinks_site_verification"])
+    if lang == "en" and path in cite_box.EMBED:
+        # ?embed=1 view for bloggers (plan A9): runs before the page draws, so the header never flashes in the iframe.
+        head_extra += '\n<script src="%sassets/embed.js"></script>' % p
     if cfg.get("base_url"):
         head_extra += '\n<link rel="alternate" type="application/atom+xml" title="%s guides" href="%s/feed.xml">' % (e(cfg["site_name"]), e(cfg["base_url"].rstrip("/")))
     nav, mobile_nav = nav_menus(cfg, p)
@@ -3738,6 +3751,9 @@ def build():
                 continue
             shutil.rmtree(child) if child.is_dir() else child.unlink()
     DOCS.mkdir(exist_ok=True)
+    printed = printables.build()
+    if printed:
+        print("Printed %d checklist PDF(s): %s" % (len(printed), ", ".join(printed)))
     shutil.copytree(STATIC_DIR, DOCS / "assets")
     (DOCS / ".nojekyll").write_text("", encoding="utf-8")
     pages = []
@@ -4562,7 +4578,7 @@ def build():
                        % (e(x["title"]), e(base + path), e(base + path), x["updated"], e(x["description"])) for path, x in entries)),
             encoding="utf-8",
         )
-        (DOCS / "robots.txt").write_text("User-agent: *\nAllow: /\nSitemap: %ssitemap.xml\nSitemap: %sfeed.xml\n" % (base, base), encoding="utf-8")
+        (DOCS / "robots.txt").write_text("User-agent: *\nAllow: /\nDisallow: /printables/\nSitemap: %ssitemap.xml\nSitemap: %sfeed.xml\n" % (base, base), encoding="utf-8")
         if cfg.get("indexnow_key"):
             # Public key file that proves to IndexNow (Bing and others) that we own this site; see scripts/indexnow.py.
             (DOCS / (cfg["indexnow_key"] + ".txt")).write_text(cfg["indexnow_key"], encoding="utf-8")

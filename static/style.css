@@ -265,6 +265,7 @@ img { max-width: 100%; }
 
 /* Tip box */
 .tip { display: flex; gap: 14px; align-items: flex-start; padding: 16px 18px; margin: 0 0 24px; border-radius: 14px; background: color-mix(in srgb, var(--accent) 12%, var(--surface)); border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--line)); }
+.printable { margin: 0 0 18px; padding: 10px 14px; border-left: 4px solid var(--accent); background: var(--surface); border-radius: 8px; font-weight: 600; }
 .tip-icon { color: #c2410c; width: 26px; height: 26px; }
 .tip p { margin: 2px 0 0; color: var(--ink); font-size: 0.95rem; }
 
@@ -741,3 +742,11 @@ body { top: 0 !important; }
 .hub-list .hub-best, .hub-list .hub-date { font-size: 0.8rem; }
 .hub-sub { margin: 16px 0 8px; font-size: 1rem; }
 @media (min-width: 760px) { .hub-list { grid-template-columns: 1fr 1fr; } }
+
+/* ?embed=1 view of the two checkers (static/embed.js): only the tool and the brand credit */
+html.cp-embed .site-header, html.cp-embed .disclosure-bar, html.cp-embed main, html.cp-embed .site-footer { display: none; }
+html.cp-embed body { background: var(--surface, #fff); }
+.cp-embed-box { padding: 14px 16px; max-width: 760px; }
+.cp-embed-box .checker { margin: 0 0 14px; }
+.cp-embed-title { font-weight: 700; font-size: 1.1rem; margin: 0 0 10px; }
+.cp-credit { margin: 12px 0 0; font-size: .85rem; text-align: right; }

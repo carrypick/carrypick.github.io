@@ -132,6 +132,8 @@ def _fmt_hi(value):
 NAMES = {"tools/power-bank-flight-check.html": "Power bank flight checker (mAh to Wh)",
          "tools/long-weekends-2027.html": "Long weekends 2027 planner (India)",
          "guides/visa-free-countries-for-indians.html": "Visa-free countries for Indians: visa guide"}
+# Tools with an ?embed=1 view (static/embed.js) and the suggested iframe height (the long airline table scrolls inside it).
+EMBED = {"baggage/checker.html": ("Cabin bag checker", 800), "tools/power-bank-flight-check.html": ("Power bank flight checker", 640)}
 NOTES = {
     "tools/packing-list-maker.html": "Packing items come from our own checklists; the cabin and liquids rules come from these official pages.",
     "tools/gift-finder.html": "Gift ideas are chosen by the CarryPick team. The tool uses no outside data, so there is nothing else to cite.",
@@ -154,8 +156,10 @@ def box(cfg, path, title, lang="en"):
     else:
         name = NAMES.get(path) or (title.split(":")[0].strip() if len(title) > 60 else title)
     fmt = _fmt_hi if hi else _fmt
+    embed = not hi and path in EMBED
     w = HI_WORDS if hi else {"head": "Cite or link to this tool",
-                             "lead": "Free to link from your blog, school project or travel guide. No sign-up, no embed code.",
+                             "lead": "Free to link from your blog, school project or travel guide. No sign-up%s." % (
+                                 ", and you can embed the checker too (below)" if embed else ", no embed code"),
                              "title": "Title", "url": "URL", "checked": "Last checked", "copy": "Copy this link (plain HTML):",
                              "sources": "Sources", "read": "read on %s"}
     snippet = '<a href="%s">%s</a>' % (url, name)
@@ -176,6 +180,22 @@ def box(cfg, path, title, lang="en"):
 <label class="small" for="cite-snip">{e(w["copy"])}</label>
 <textarea id="cite-snip" class="cite-snip" rows="2" readonly onclick="this.select()">{e(snippet)}</textarea>
 {src_html}
+</section>
+{embed_box(url, path) if embed else ""}"""
+
+
+def embed_box(url, path):
+    """The "Embed this checker" box: iframe code for the ?embed=1 view. Inside the embed the only link is a
+    brand credit, "Tool by CarryPick", with rel="nofollow" (Google's link-spam policy covers widget links)."""
+    name, height = EMBED[path]
+    code = ('<iframe src="%s?embed=1" title="%s by CarryPick" width="100%%" height="%d" loading="lazy" '
+            'style="border:1px solid #d0d7de;border-radius:8px;max-width:680px"></iframe>' % (url, name, height))
+    return f"""<section class="cite-box embed-box" aria-labelledby="embed-h">
+<h2 id="embed-h">Embed this checker on your site</h2>
+<p class="small muted">Free for blogs and travel sites, no sign-up. Paste this code into your page's HTML where you want the checker. It shows only the checker, with a small "Tool by CarryPick" credit, and the rules stay up to date because it loads from this page.</p>
+<label class="small" for="embed-snip">Copy this embed code:</label>
+<textarea id="embed-snip" class="cite-snip" rows="4" readonly onclick="this.select()">{e(code)}</textarea>
+<p class="small muted">See what it looks like: <a href="{e(path.rsplit("/", 1)[-1])}?embed=1" rel="nofollow">the embed view</a>.</p>
 </section>
 """
 
