@@ -3,7 +3,7 @@ seo_title: How to choose a laptop backpack for college or office in India
 title: How to choose a laptop backpack for college or office
 description: Laptop size, litres, comfort and rain protection, plus airline rules for laptop bags in the cabin, checked on 26 Nov 2026, and whether our picks fit a 7 kg cabin bag size.
 date: 2026-10-23
-updated: 2026-11-26
+updated: 2026-11-28
 category: backpacks
 photo: backpack-field
 ---
@@ -54,7 +54,7 @@ Indian airlines handle laptop bags in two different ways. Some let you carry a s
 | Air India Express | No: on domestic flights, the 7 kg includes your laptop and personal items |
 | SpiceJet | No: a laptop bag or ladies' purse counts inside the same 7 kg |
 
-We read these on the airlines' own pages on 26 Nov 2026. On international flights the rules vary more: Emirates lists one cabin piece only for Economy from India, Etihad doesn't confirm a separate personal item, and Qatar Airways allows a small purse or briefcase but not a separate laptop bag (as we read them on 3 Nov 2026). See [all airline baggage rules](../baggage/index.html).
+We read these on the airlines' own pages on 26 Nov 2026. On international flights the rules vary more. In Economy from India, [Emirates](../baggage/emirates.html) allows one cabin piece only, [Etihad](../baggage/etihad.html) gives a second small bag only in Business and First, and [Qatar Airways](../baggage/qatar-airways.html) allows a small purse or briefcase but not a separate laptop bag, so on all three your laptop goes inside the 7 kg cabin bag. [Air India](../baggage/air-india-international.html) abroad still allows a laptop bag of up to 3 kg and 40 x 30 x 20 cm on top (read on the airlines' pages on 26 and 28 Nov 2026). See [all airline baggage rules](../baggage/index.html).
 
 **What this means for a backpack:** a 25–35 litre backpack is too big for Air India's 40 x 30 x 20 cm personal item. So on most flights it will be your cabin bag, and it must fit the cabin bag size and weigh 7 kg or less with everything in it. If you want to carry a trolley too, you need a small laptop sleeve or tote as your personal item instead.
 

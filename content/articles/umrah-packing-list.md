@@ -3,7 +3,7 @@ seo_title: Umrah packing list from India (2026), with Zamzam rules
 title: Umrah packing list: what to carry for Umrah from India, for ladies, men and kids
 description: What to pack for Umrah from India: ihram for men, modest clothes for ladies, kids' things, unscented toiletries, slippers, a small zip bag, medicines and the vaccine certificate, Makkah and Madinah weather by month, which bag fits your airline, Zamzam water rules by airline, and what not to carry.
 date: 2026-11-25
-updated: 2026-11-25
+updated: 2026-11-28
 category: travel-gear
 photo: umrah-medina-umbrellas
 ---
@@ -248,13 +248,15 @@ Zamzam water is the most asked question about Umrah luggage. You can't put it in
 |---|---|
 | [Saudia](../baggage/saudia.html) | One package up to 5 litres, as a separate checked item, never inside your suitcase. Free from Madinah; from other Saudi airports it counts in your allowance. |
 | [IndiGo](../baggage/indigo-international.html) | From Jeddah and Madinah to India, it must fit within your 30 kg allowance. |
-| [Air India](../baggage/air-india-international.html) | Not inside your checked bag. Only Hajj and Umrah visa holders may carry one official 5-litre bottle. |
+| [Air India](../baggage/air-india-international.html) | Its baggage pages no longer give a Zamzam rule (read 28 Nov 2026), so ask Air India before you buy. |
 | [Emirates](../baggage/emirates.html) | Up to 5 litres in a sealed container, on top of your allowance, for Hajj and Umrah pilgrims whose trip includes Madinah or Jeddah. |
 | [Qatar Airways](../baggage/qatar-airways.html) | Up to 5 litres in approved bottles, only for pilgrims flying from Jeddah, Madinah or Taif. |
 | [Etihad](../baggage/etihad.html) | One package up to 5 litres free, sealed in a plastic container in a cardboard box sold at the airport. From Jeddah you need an Umrah or Hajj visa. |
 | [flydubai](../baggage/flydubai.html) | From Jeddah, Madinah, Taif or Yanbu, up to 5 litres free as checked baggage, in approved packaging. |
 | [Kuwait Airways](../baggage/kuwait-airways.html) | One 5-litre piece within your piece allowance, if your trip starts in Saudi Arabia. Not accepted on connections to other airlines. |
+| [Gulf Air](../baggage/gulf-air.html) | One sealed 5-litre pack free, on top of your allowance, for eligible Umrah and Hajj pilgrims leaving any Saudi airport. Buy it at an authorised Zamzam outlet and check it in separately. |
 
+- **Oman Air** publishes no Zamzam rule on its India baggage pages (read 28 Nov 2026), so ask the airline if you connect through Muscat.
 - **In your cabin bag,** Zamzam follows the normal liquid rule: 100 ml or less per bottle, in your clear liquids bag.
 - **Rules change.** Read your airline's page, or ask at check-in, before you buy.
 

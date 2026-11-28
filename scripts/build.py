@@ -1697,6 +1697,19 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
         f'<tr><th scope="row"><a href="../picks/{d["asin"]}.html">{e(d["title"])}</a><span class="why">{num(sum(dims))} cm in total</span></th>'
         + "".join("<td>%s</td>" % fit_badge(*size_fit(dims, a["cabin"])[::2]) for a in airlines) + "</tr>"
         for d, dims, kg in picks)
+    # Gulf airlines side by side: cabin size from each airline's cabin data, the other cells from its "gulf_compare" field.
+    gulf = [a for a in airlines if a.get("gulf_compare")]
+    gulf_html = ""
+    if gulf:
+        gulf_rows = "".join(
+            f"""<tr><th scope="row"><a href="{a['slug']}.html">{e(a['name'])}</a></th><td>{e(num(a['cabin']['kg']) + ' kg, ' if a['cabin'].get('kg') else '')}{e(size_limit_text(a['cabin']))}</td>"""
+            f"""<td>{e(a['gulf_compare']['cheapest'])}</td><td>{e(a['gulf_compare']['power'])}</td><td>{e(a['gulf_compare']['pets'])}</td></tr>""" for a in gulf)
+        g_first = min(a.get("checked", "") for a in gulf)
+        g_last = max(a.get("checked", "") for a in gulf)
+        gulf_html = f"""<h2>Gulf airlines compared</h2>
+<p>The {len(gulf)} Gulf airlines we cover, side by side for an economy trip from India. The cheapest fare's bag is for India–Gulf flights; to the USA and Canada most of them count 23 kg pieces instead. Tap an airline for its fares, excess rates and Zamzam rule.</p>
+<div class="table-wrap"><table class="compare snug"><thead><tr><th>Airline</th><th>Cabin bag</th><th>Cheapest fare's checked bag</th><th>Power banks</th><th>Pets</th></tr></thead><tbody>{gulf_rows}</tbody></table></div>
+<p class="checked">From each airline's official pages, read between {fmt_date(g_first)} and {fmt_date(g_last)}. Gulf Air's cabin limit is the smallest; Etihad and Saudia are the only ones that take pets in the cabin.</p>"""
     faq = [
         ("How many kg can I take from India to Dubai?", "It depends on the airline and fare: Emirates gives 20–35 kg, IndiGo 30 kg on regular fares, Air India 25–35 kg, and flydubai 20–30 kg (none on Lite). All allow a 7 kg cabin bag."),
         ("Which airline has the smallest cabin bag limit?", "Gulf Air: 6 kg and 45 x 40 x 30 cm. Qatar Airways is also strict at 50 x 37 x 25 cm. Most 55 cm trolleys sold in India are too big for both."),
@@ -1725,8 +1738,8 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
                          "and 20 kg to Bangkok, Phuket, Krabi, Bali, Kathmandu, Male and Mauritius, plus one 7 kg cabin bag (115 cm in total) and a personal item up to 3 kg. Lite fares include no checked bag."))
     if "air-india-international" in by:
         searched.append(("What is Air India's baggage allowance for international flights in economy?",
-                         by["air-india-international"]["checkin_summary"] + ". To the USA, Canada, the UK and Europe Air India counts pieces of up to 23 kg instead, and the number depends on your fare. "
-                         "Every fare also includes a 7 kg cabin bag (read on Air India's site, 26 Nov 2026)."))
+                         by["air-india-international"]["checkin_summary"] + ", each bag up to 23 kg. "
+                         "Every fare also includes a 7 kg cabin bag (read on Air India's site, 28 Nov 2026)."))
     faq = [
         ("What is the baggage weight limit for international flights from India?",
          "In economy, most airlines flying from India to the Gulf and South-East Asia give 20 to 35 kg of checked baggage, depending on the fare, plus a 7 kg cabin bag. "
@@ -1782,10 +1795,11 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
 <tr><th scope="row">UK and Europe</th><td>Pieces</td><td>British Airways and Lufthansa: 1 bag of 23 kg (none on Basic and Light fares)</td></tr>
 <tr><th scope="row">USA and Canada</th><td>Pieces</td><td>Usually 1 or 2 bags of 23 kg; Emirates 1 or 2 x 23 kg to the USA</td></tr>
 </tbody></table></div>
-<p class="checked">From the airline pages in the table below, each with its own check date; IndiGo's and Air India's international allowances re-read on 26 Nov 2026.</p>
+<p class="checked">From the airline pages in the table below, each with its own check date; IndiGo's and Air India's international allowances re-read on 28 Nov 2026.</p>
 <h2>Cabin and checked baggage at a glance</h2>
 <div class="table-wrap"><table class="compare"><thead><tr><th>Airline</th><th>Cabin bag</th><th>Cabin size limit</th><th>Extra small bag</th><th>Checked baggage (economy)</th></tr></thead><tbody>{rows}</tbody></table></div>
 {disclaimer}
+{gulf_html}
 <p>Taking a power bank? See <a href="../guides/power-bank-rules-on-flights.html">power bank rules on flights worldwide</a>: the limit, how many, and in-flight use on Emirates, Qatar Airways, Singapore Airlines, Etihad and more.</p>
 {'<p>Flying within the US or Europe? See <a href="../guides/carry-on-size-by-airline.html">carry-on size by airline (worldwide)</a> for American, Delta, United, Southwest, Ryanair, easyJet, Air France and KLM.</p>' if carry_on_guide.WORLD_FILE.exists() else ''}
 <p>Still choosing a flight? Compare fares, then check the baggage your fare includes before you pay:</p>
