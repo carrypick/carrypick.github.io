@@ -757,7 +757,7 @@
         ],
         "total_cm": null,
         "summary": "One cabin bag up to 7 kg, plus a 3 kg personal item",
-        "detail": "Every fare includes one cabin bag up to 7 kg and 55 x 40 x 20 cm, plus one personal item up to 3 kg. Duty-free shopping must fit within the combined 10 kg, and bags over the limit at the gate may be charged."
+        "detail": "Every fare includes one cabin bag up to 7 kg and 55 x 40 x 20 cm, plus one personal item up to 3 kg. Duty-free shopping must fit within the combined 10 kg. A bag that is too heavy or too big is checked in at the counter, where excess fees apply, and if it is still over the limit at the gate Air Arabia may charge AED 100 a piece. Air Arabia doesn't say whether wheels and handles count, so measure them in."
       },
       "personal": {
         "summary": "One personal item, such as a handbag, laptop bag or small backpack, up to 25 x 33 x 20 cm and 3 kg"
@@ -777,11 +777,13 @@
         }
       ],
       "checkin_summary": "None on Basic; 20–30 kg on Value and 30–40 kg on Ultimate",
-      "checkin_note": "Each bag must weigh no more than 32 kg and measure no more than 158 cm in total. A 20 kg allowance is one bag; 30 and 40 kg can be split into up to 2 bags. Air Arabia doesn't explain which of its \"20/30\" amounts applies to which route, so check your booking. Extra baggage is cheaper if you book it at least 12 hours before departure.",
-      "infant": "With an infant under 2 you may carry one extra 3 kg bag for baby things. No checked allowance for infants is listed.",
+      "checkin_note": "Each bag must weigh no more than 32 kg and measure no more than 158 cm in total. A 20 kg allowance is one bag; 30 and 40 kg can be split into up to 2 bags. Air Arabia doesn't explain which of its \"20/30\" amounts applies to which route, so check your booking. You can add or upgrade checked baggage in steps of 20, 30 or 40 kg up to 12 hours before departure.",
+      "infant": "With an infant under 2 you may carry one extra bag up to 3 kg for baby things. It must fit under the seat, and you declare it at check-in so it gets a personal item tag. A stroller can be used in the airport and is taken from you before boarding; Air Arabia says it isn't counted in your allowance if you hand it in at check-in with your other bags. Babies under 48 hours old aren't accepted, and no checked allowance for infants is listed.",
       "notes": [
-        "Power banks: up to two, each up to 100 Wh, in your cabin bag only, not in the overhead bin. You can't use or charge them on board.",
-        "Zamzam water: passengers flying from Saudi Arabia may carry one 5-litre bottle free as checked baggage, bought from approved outlets at the airport.",
+        "Power banks: up to two, each up to 100 Wh, in your cabin bag only. Keep them in the seat pocket or in a bag under the seat, not the overhead bin. They must stay switched off for the whole flight: you can't use one to charge a device or charge it from the seat.",
+        "Smart bags: the battery must come out, or the bag must be fully switched off. Bags with a battery that can't be removed are refused. E-cigarettes go in your cabin bag only.",
+        "Zamzam water: passengers flying from Saudi Arabia may carry one 5-litre bottle free as checked baggage, bought from approved outlets at the airport and sealed for air travel.",
+        "Carton boxes aren't accepted as checked baggage on Bangladesh flights or flights from Türkiye.",
         "These rules cover Air Arabia's flights to and from the UAE, including Air Arabia Abu Dhabi."
       ],
       "sources": [
@@ -798,18 +800,106 @@
           "url": "https://www.airarabia.com/en/plan/reservation/fare-types"
         },
         {
-          "label": "Baggage overview",
-          "url": "https://www.airarabia.com/en/checked-and-hand-baggages"
+          "label": "Add baggage",
+          "url": "https://www.airarabia.com/en/manage/add-extras/add-baggage"
+        },
+        {
+          "label": "Excess baggage rates",
+          "url": "https://www.airarabia.com/en/help/frequently-asked-questions/faq-source/baggage/excess-baggage"
         },
         {
           "label": "Dangerous goods and restricted items",
           "url": "https://www.airarabia.com/en/help/frequently-asked-questions/faq-source/baggage/prohibited-items"
         },
         {
+          "label": "Animals and pets",
+          "url": "https://www.airarabia.com/en/help/frequently-asked-questions/faq-source/baggage/animals-and-pets"
+        },
+        {
+          "label": "Lost or delayed baggage",
+          "url": "https://www.airarabia.com/en/help/frequently-asked-questions/faq-source/baggage/lost-or-delayed-baggage"
+        },
+        {
+          "label": "Online check-in",
+          "url": "https://www.airarabia.com/en/check-in/online-check-in"
+        },
+        {
           "label": "Flying with families",
           "url": "https://www.airarabia.com/en/plan/flying-with-us/flying-with-families"
         }
-      ]
+      ],
+      "excess": {
+        "summary": "Pre-booked baggage is far cheaper: Air Arabia says you save up to 90% against airport rates. At the airport, extra weight on flights to or from India costs AED 60–70 per kg",
+        "points": [
+          "Pre-book 20, 30 or 40 kg online, through the call centre, at a sales office or with your agent, up to 12 hours before the flight. Prices vary by route and are shown when you book.",
+          "Airport rates per kg on Air Arabia's UAE flights (flight numbers G9 and 3L): AED 60–70 to or from India, AED 45–55 within the Gulf, AED 90–100 to Malaysia, Thailand or London, AED 70–100 to Europe.",
+          "If your bag still weighs more than what you bought, every extra kg is charged at the airport rate.",
+          "A TV of 40 inches or more costs AED 150 plus a handling fee; the largest TV accepted is 60 inches."
+        ]
+      },
+      "sections": [
+        {
+          "h": "How Air Arabia differs from other airlines from the Gulf",
+          "items": [
+            "Basic fares include no checked bag. Emirates, Qatar Airways and Gulf Air include one on their cheapest India fares; flydubai Lite and Etihad Basic don't either.",
+            "You get a 3 kg personal item on top of the 7 kg cabin bag, so 10 kg in all. Many full-service Gulf airlines allow 7 kg in total.",
+            "Checked baggage is bought in steps of 20, 30 or 40 kg, and only up to 12 hours before the flight. After that you pay airport rates.",
+            "Power banks must stay switched off for the whole flight. Qatar Airways still lets you charge a phone from one you hold."
+          ]
+        },
+        {
+          "h": "Sports equipment and pets",
+          "items": [
+            "Air Arabia's baggage pages don't publish rules or fees for sports equipment. Check with Air Arabia before you fly with a bike, golf set or cricket kit, and expect it to count in your checked allowance.",
+            "No cats or dogs: the only animals Air Arabia carries in the cabin are falcons. They must be booked at least 48 hours before the flight and are charged three times the normal excess rate."
+          ]
+        },
+        {
+          "h": "Check-in times",
+          "items": [
+            "Online check-in opens 48 hours before the flight. If your airport isn't listed online, check in at the counter.",
+            "Airport counters open 3 hours before departure. Economy check-in closes 1 hour before (45 minutes for Business). Air Arabia doesn't list separate times for each Indian airport."
+          ]
+        },
+        {
+          "h": "If your bag is delayed, lost or damaged",
+          "items": [
+            "Report it to Air Arabia's baggage office or its handling agent at the arrival airport, before you leave the baggage hall if you can.",
+            "You get a Baggage Claim Reference Number. Keep it and your bag tags; Air Arabia sends updates by SMS and contacts you when the bag is found.",
+            "Time limits for claims are in Air Arabia's Conditions of Carriage. Under the Montreal Convention, a damaged bag should be reported within 7 days and a delayed bag within 21 days of getting it back."
+          ]
+        }
+      ],
+      "faq_extra": [
+        {
+          "q": "What is the Air Arabia baggage allowance from India?",
+          "a": "Every fare includes a 7 kg cabin bag and a 3 kg personal item. Basic fares have no checked bag; Value includes 20 or 30 kg and Ultimate 30 or 40 kg, shown on your booking."
+        },
+        {
+          "q": "What is the Air Arabia cabin baggage size?",
+          "a": "55 x 40 x 20 cm and 7 kg for the cabin bag, plus a personal item up to 25 x 33 x 20 cm and 3 kg. In inches that's about 21.7 x 15.7 x 7.9."
+        },
+        {
+          "q": "How much does Air Arabia charge for extra baggage from India?",
+          "a": "At the airport, AED 60–70 per kg on flights to or from India. Pre-booking 20, 30 or 40 kg online up to 12 hours before the flight is much cheaper; the price is shown when you book."
+        },
+        {
+          "q": "Can I add baggage on Air Arabia after booking?",
+          "a": "Yes. Add 20, 30 or 40 kg in Manage Booking, through the call centre or at a sales office, up to 12 hours before departure. Later than that, only airport rates apply."
+        },
+        {
+          "q": "Does Air Arabia allow power banks?",
+          "a": "Yes, up to two of 100 Wh or less, in your cabin bag only and switched off for the whole flight. They are not allowed in checked bags."
+        }
+      ],
+      "carry_note": "Air Arabia keeps [power banks](can-i-carry/power-bank.html) switched off for the whole flight, so charge your phone before you board. Zamzam water from Saudi Arabia goes free as checked baggage (see our [Umrah packing list](../guides/umrah-packing-list.html)). Bringing food or gifts home? See [sweets and home food](can-i-carry/sweets-and-home-food.html) and India's [customs allowance](customs.html).",
+      "gulf_compare": {
+        "cheapest": "Basic: none",
+        "power": "2, up to 100 Wh; switched off all flight",
+        "pets": "Not carried (falcons only)"
+      },
+      "seo_title": "Air Arabia baggage allowance from India: 7 + 3 kg cabin, 20-40 kg",
+      "checked": "2026-11-28"
     },
     {
       "slug": "saudia",
@@ -1586,7 +1676,6 @@
       "scope": "international",
       "region": "Asia",
       "hub": "Bangkok (BKK)",
-      "checked": "2026-11-15",
       "official_url": "https://www.thaiairways.com/en-in/content/baggage/checked-baggage/",
       "cabin": {
         "pieces": 1,
@@ -1619,11 +1708,15 @@
         {
           "fare": "Economy Full Flex",
           "allowance": "2 bags, each up to 23 kg"
+        },
+        {
+          "fare": "Premium Economy / Business / First",
+          "allowance": "2 x 23 kg / 2 x 32 kg / 3 x 32 kg"
         }
       ],
       "checkin_summary": "1 bag of 23 kg on Saver and Standard, 2 bags of 23 kg on Flexi and Full Flex",
       "checkin_note": "Since 2 March 2026 (for tickets sold from 25 November 2025) Thai counts bags, not total kg, across its network, including flights to and from India. Each economy bag can weigh up to 23 kg and measure up to 158 cm in total, wheels and handles included. A heavier bag (23 to 32 kg) is charged as overweight at the airport, and no bag over 32 kg is accepted. Thai's page still shows its older weight-based table above the new rules; the piece rules are the current ones.",
-      "infant": "An infant without a seat gets one checked bag up to 23 kg in economy.",
+      "infant": "An infant without a seat gets one checked bag up to 23 kg in economy. One foldable stroller or one child car seat also goes free in the hold, and a small stroller may go in the cabin if it fits the cabin bag limits. Infant food can be carried on top of your cabin allowance.",
       "excess": {
         "summary": "An extra bag between India and Bangkok costs USD 95 if you buy it at least 24 hours before the flight, or USD 115 at the airport",
         "points": [
@@ -1631,11 +1724,13 @@
           "Prepaid prices for the 1st or 2nd extra bag from India: USD 95 to Bangkok, USD 115 to other Thai cities, USD 140 to Singapore, Malaysia or Vietnam, USD 170 to Japan or Korea, USD 205 to Sydney, Melbourne or Brisbane and USD 235 to Europe. A 3rd extra bag costs double (USD 190 to Bangkok).",
           "At the airport the 1st or 2nd extra bag between India and Bangkok costs USD 115.",
           "A bag of 23 to 32 kg, or 158 to 200 cm, is charged once more at the airport rate (USD 115 between India and Bangkok). A bag of 200 to 330 cm is charged one more time on top.",
-          "Charges are in US dollars, turned into rupees on the day you pay, and they aren't refundable."
+          "Charges are in US dollars, turned into rupees on the day you pay, and they aren't refundable.",
+          "Royal Orchid Plus Silver and Gold members and Star Alliance Gold members get one extra 23 kg bag free in economy, and Platinum members two."
         ]
       },
       "notes": [
-        "Power banks: since 15 March 2025 you can't use a power bank on board. You may carry up to two, each up to 100 Wh, in your cabin bag only, never in checked baggage.",
+        "Power banks: since 15 March 2025 you can't use a power bank on board. You may carry up to two, each up to 100 Wh, in your cabin bag only, never in checked baggage. Over 100 Wh is forbidden.",
+        "Smart bags must go in the cabin, within 56 x 45 x 25 cm and 7 kg, with the battery taken out before check-in. A checked bag with a battery that can't be removed is refused.",
         "Thai may refuse checked bags that aren't properly packed. At Bangkok, Phuket and other AOT airports, bags bigger than 80 x 70 x 80 cm may have to be opened for inspection.",
         "Liquids in your cabin bag must be in containers of 100 ml or less, all in one clear 1-litre resealable bag."
       ],
@@ -1653,14 +1748,111 @@
           "url": "https://www.thaiairways.com/en-in/content/baggage/excess-baggage/"
         },
         {
+          "label": "Thai Airways special baggage",
+          "url": "https://www.thaiairways.com/en-in/content/baggage/special-baggage/"
+        },
+        {
+          "label": "Thai Airways restricted baggage",
+          "url": "https://www.thaiairways.com/en-in/content/baggage/restricted-baggage/"
+        },
+        {
           "label": "Thai Airways dangerous goods",
           "url": "https://www.thaiairways.com/en-in/content/baggage/dangerous-goods/"
+        },
+        {
+          "label": "Thai Airways pets in cabin",
+          "url": "https://www.thaiairways.com/en-in/content/special-assistance/travel-with-pets/pets-in-cabin/"
+        },
+        {
+          "label": "Thai Airways pets as checked baggage",
+          "url": "https://www.thaiairways.com/en-in/content/special-assistance/travel-with-pets/pets-as-checked-baggage-avih/"
+        },
+        {
+          "label": "Thai Airways airport information (Indian airports)",
+          "url": "https://www.thaiairways.com/en-in/content/airport-information/"
+        },
+        {
+          "label": "Thai Airways delayed baggage",
+          "url": "https://www.thaiairways.com/en-in/content/baggage/delayed-baggage/"
+        },
+        {
+          "label": "Thai Airways damaged baggage",
+          "url": "https://www.thaiairways.com/en-in/content/baggage/damaged-baggage/"
         },
         {
           "label": "Power bank announcement, 7 March 2025",
           "url": "https://www.thaiairways.com/en-in/content/news-and-announcements/thai-announces-prohibition-of-power-bank-use-onboard/"
         }
-      ]
+      ],
+      "sections": [
+        {
+          "h": "How Thai Airways differs from other airlines from India",
+          "items": [
+            "Thai counts bags, not kilos: 1 bag of 23 kg on Saver and Standard, 2 on Flexi and Full Flex. A 30 kg bag is charged as overweight, even on a fare with two bags.",
+            "Its cabin bag may be 56 x 45 x 25 cm, wider than IndiGo's 55 x 35 x 25 cm or Air India's 55 x 40 x 20 cm. Thai also limits cabin bags to about 115 cm in total, so a full-size 56 x 45 x 25 cm bag (126 cm) risks being questioned.",
+            "Extra bags are priced in US dollars per bag and are cheaper if you buy them at least 24 hours before the flight.",
+            "Thai doesn't carry pets in the cabin, like Singapore Airlines; Air India and Etihad take small cats and dogs in the cabin."
+          ]
+        },
+        {
+          "h": "Sports equipment and musical instruments",
+          "items": [
+            "Sports gear counts as one bag in your allowance, up to 32 kg and 330 cm. One golf set (bag, clubs, balls and one pair of shoes) is included free.",
+            "Bikes and cricket or hockey kits pay one unit (USD 80 on international flights) if they are oversize or weigh 23 to 32 kg, or for each extra piece. Pack bikes and other gear properly, or Thai may refuse them.",
+            "Ask Thai at least 3 working days before the flight and reach the counter at least 2 hours early. Sports and special baggage fees aren't refunded.",
+            "One portable musical instrument up to 100 cm long counts in your allowance. A cello or other fragile instrument can fly on a seat you buy, booked at least 2 days ahead."
+          ]
+        },
+        {
+          "h": "Pets",
+          "items": [
+            "Pets aren't allowed in the cabin. Only guide dogs for blind passengers and hearing dogs for deaf passengers fly in the cabin, free; tell Thai at least 48 hours before.",
+            "Cats and dogs can travel in the hold as checked baggage (AVIH), charged at a flat rate and not counted in your allowance. Ask your local Thai office about the box. Snub-nosed breeds are refused.",
+            "Pets in the hold aren't carried to Auckland, Denpasar (Bali), Dubai or Hong Kong, to or from Australian cities, or on A320 flights."
+          ]
+        },
+        {
+          "h": "Check-in times at Indian airports",
+          "items": [
+            "Counters open 3 hours before departure in Delhi, Bengaluru, Kolkata, Hyderabad and Kochi, 3 h 30 min in Chennai and 4 hours in Mumbai. They close 1 hour before departure at all of these and in Ahmedabad.",
+            "Mobile check-in opens 24 hours before the flight. Drop your bags at least 60 minutes before, and be at the gate early: it closes 10 minutes before departure."
+          ]
+        },
+        {
+          "h": "If your bag is delayed, lost or damaged",
+          "items": [
+            "Tell Thai's ground staff at the airport before you leave. You get a copy of your report and a file reference number, and can follow the bag online.",
+            "If your bag is more than 24 hours late, Thai pays reasonable costs for essentials, up to USD 100 per person on international routes. Keep the receipts and claim in writing within 21 days of getting the bag.",
+            "Report a damaged bag at the airport and get a Property Irregularity Report (PIR). Claim in writing within 7 days of arrival. Thai's liability is limited to 1,288 SDR per passenger.",
+            "Lost and found in Mumbai: 1800 102 1226 or customer.bom@thaiairways.com (from Thai's airport page)."
+          ]
+        }
+      ],
+      "faq_extra": [
+        {
+          "q": "What is the Thai Airways baggage allowance from India to Bangkok?",
+          "a": "In economy: 1 bag of up to 23 kg on Saver and Standard fares, 2 bags of 23 kg each on Flexi and Full Flex. You also get one 7 kg cabin bag and a small personal item."
+        },
+        {
+          "q": "What is the Thai Airways cabin baggage size?",
+          "a": "One bag up to 7 kg and 56 x 45 x 25 cm, wheels and handles included. Thai also says about 115 cm in total, so a slightly smaller bag is safer. A laptop or handbag up to 37.5 x 25 x 12.5 cm and 1.5 kg goes free."
+        },
+        {
+          "q": "Can I check in 2 bags with Thai Airways?",
+          "a": "Yes, on Economy Flexi and Full Flex fares, each up to 23 kg. On Saver and Standard you can buy a second bag: from India to Bangkok it costs USD 95 at least 24 hours ahead, or USD 115 at the airport."
+        },
+        {
+          "q": "What is the Thai Airways baggage allowance from India to Australia?",
+          "a": "The same piece rules apply through Bangkok: 1 or 2 bags of 23 kg in economy, by fare. An extra bag from India to Sydney, Melbourne or Brisbane costs USD 205 if bought 24 hours ahead."
+        },
+        {
+          "q": "How do I add extra baggage on Thai Airways?",
+          "a": "Buy it online, through Thai's call centre or office, or from your travel agent at least 24 hours before the flight. Later than that, the airport price applies."
+        }
+      ],
+      "carry_note": "Thai doesn't let you use a [power bank](can-i-carry/power-bank.html) on board. Liquids in your cabin bag follow the 100 ml rule (see [liquids](can-i-carry/liquids.html)). Flying to Thailand? Our [Thailand trip guide](../trips/thailand-trip-from-india.html) covers what to pack.",
+      "seo_title": "Thai Airways baggage allowance from India: 1-2 x 23 kg, 7 kg cabin",
+      "checked": "2026-11-28"
     },
     {
       "slug": "vietjet",
@@ -1668,7 +1860,6 @@
       "scope": "international",
       "region": "Asia",
       "hub": "Hanoi (HAN) and Ho Chi Minh City (SGN)",
-      "checked": "2026-11-15",
       "official_url": "https://www.vietjetair.com/en/pages/baggage-service-1608369253127",
       "cabin": {
         "pieces": 1,
@@ -1697,11 +1888,15 @@
         {
           "fare": "SkyBoss",
           "allowance": "30 kg, plus one golf set"
+        },
+        {
+          "fare": "SkyBoss Business",
+          "allowance": "40 kg, plus one golf set"
         }
       ],
       "checkin_summary": "None on Eco, 20 kg on Deluxe and 30 kg on SkyBoss",
       "checkin_note": "These are Vietjet's allowances for flights of under 7 hours, which includes its direct flights between India and Vietnam (longer routes, such as to Australia, get more). No single bag may weigh more than 32 kg or measure more than 119 x 119 x 81 cm. Checked baggage is cheapest when bought with your ticket or within 24 hours of booking, and dearest at the airport.",
-      "infant": "Infants under 2 get no baggage allowance on Vietjet. Strollers, wheelchairs and mobility aids travel free.",
+      "infant": "Infants under 2 get no baggage allowance on Vietjet, not even a cabin bag. Strollers, wheelchairs and mobility aids travel free. Families with an infant can't check in online or at a kiosk, so go to the counter.",
       "excess": {
         "summary": "Buying 20 kg with your ticket costs 680,000 Vietnamese dong on India routes; at the airport it's 1,360,000 dong per 20 kg",
         "points": [
@@ -1714,9 +1909,10 @@
       },
       "notes": [
         "Power banks: up to two, each up to 100 Wh, in your cabin bag only, never in checked baggage. Using them during the flight is strictly prohibited, and they must be kept where crew can see them.",
-        "E-cigarettes and heated tobacco devices aren't accepted at all, not even in checked baggage.",
-        "Vietjet's India travel page lists direct flights to Vietnam from New Delhi, Mumbai, Ahmedabad, Bengaluru and Hyderabad.",
-        "Keep cash, jewellery, cameras, laptops and phones in your cabin bag, not in checked baggage."
+        "E-cigarettes and heated tobacco devices aren't accepted at all, not even in checked baggage. They are refused at check-in.",
+        "Vietjet's India travel page lists direct flights to Vietnam from New Delhi, Mumbai, Ahmedabad, Bengaluru and Hyderabad. Its lost and found list also names Kochi and Tiruchirappalli.",
+        "Keep cash, jewellery, cameras, laptops and phones in your cabin bag, not in checked baggage.",
+        "Indian citizens can get a refund without the refund fee if they ask within 48 hours of booking on Vietjet's own website or app, at least 15 days before the flight."
       ],
       "sources": [
         {
@@ -1732,6 +1928,18 @@
           "url": "https://www.vietjetair.com/en/pages/fee-and-charges-1599130343851"
         },
         {
+          "label": "Vietjet travelling with pets",
+          "url": "https://www.vietjetair.com/en/pages/travelling-with-pets-1717385207739"
+        },
+        {
+          "label": "Vietjet how to check in",
+          "url": "https://www.vietjetair.com/en/pages/to-have-a-good-flight-1791358224234/how-to-check-in-1685510691899"
+        },
+        {
+          "label": "Vietjet lost and found contacts",
+          "url": "https://www.vietjetair.com/en/pages/to-have-a-good-flight-1791358224234/lost-found-contacts-detail-1607068688954"
+        },
+        {
           "label": "Vietjet power bank rules",
           "url": "https://www.vietjetair.com/en/news/news-1697697232035/safety-regulations-regarding-power-banks-on-vietjet-flights-1784606492074"
         },
@@ -1739,7 +1947,73 @@
           "label": "Vietjet: flying from India to Vietnam",
           "url": "https://www.vietjetair.com/en/pages/what-should-be-noted-when-flying-from-india-to-vietnam-1764232799894"
         }
-      ]
+      ],
+      "sections": [
+        {
+          "h": "How Vietjet differs from other airlines from India",
+          "items": [
+            "Eco fares include only the 7 kg cabin allowance; checked baggage costs extra. Air India includes a checked bag on every fare abroad.",
+            "Your cabin bag and small item together must weigh 7 kg or less, and each cabin bag needs a Vietjet tag from the check-in counter.",
+            "Baggage is cheapest with your ticket or within 24 hours of booking, and about double at the airport.",
+            "SkyBoss fares include 10 kg of cabin baggage, 30 kg checked and one golf set."
+          ]
+        },
+        {
+          "h": "Sports equipment, big bags and musical instruments",
+          "items": [
+            "A golf set up to 203 cm in total counts as a normal checked bag. Other sports gear that is too big travels as oversized baggage for an extra fee.",
+            "Oversized bags can be up to 32 kg and 200 x 119 x 81 cm. Pre-book an oversized package (on India routes 20 kg costs 1,160,000 VND with your ticket), or switch your bag at least 3 hours before the flight. At the airport the oversized service is 600,000 VND on top. You may check at most 2 oversized items per flight.",
+            "A large musical instrument goes as oversized baggage or on a seat you buy, up to 165 x 44 x 66 cm and 75 kg."
+          ]
+        },
+        {
+          "h": "Pets",
+          "items": [
+            "Vietjet carries dogs and cats in the cabin only on flights within Vietnam (7 kg with the box, 4,000,000 VND). There is no pet service on its India flights, and live animals aren't accepted as checked baggage."
+          ]
+        },
+        {
+          "h": "Check-in times",
+          "items": [
+            "Reach the check-in area at least 90 minutes before departure. Counters for international flights close 50 minutes before, and 60 minutes at some airports.",
+            "If you checked in online for an international flight, still visit the counter at least 60 minutes before departure for the document check. Bag counters close 60 minutes before.",
+            "Online check-in isn't open to passengers with an infant, pregnant women, passengers needing assistance, or passengers with checked bags."
+          ]
+        },
+        {
+          "h": "If your bag is delayed, lost or damaged",
+          "items": [
+            "Contact Vietjet's lost and found at the airport. In India it lists Mumbai (Terminal 2), Delhi (Terminal 3), Kochi, Ahmedabad, Tiruchirappalli, Hyderabad and Bengaluru.",
+            "If a bag is more than 24 hours late and you don't live in the arrival city, Vietjet pays a goodwill 300,000 VND per passenger on international routes.",
+            "Lost bags are paid at USD 20 per kg on international flights. Damage is paid by a fixed table (for example 150,000 VND for a broken wheel or handle). The overall limit is 1,519 SDR per passenger."
+          ]
+        }
+      ],
+      "faq_extra": [
+        {
+          "q": "What is the Vietjet baggage allowance from India to Vietnam?",
+          "a": "Every fare includes 7 kg of cabin baggage (10 kg on SkyBoss). Checked baggage: none on Eco, 20 kg on Deluxe and 30 kg plus a golf set on SkyBoss. You can buy 20 to 40 kg extra."
+        },
+        {
+          "q": "What is the Vietjet cabin baggage size?",
+          "a": "One main bag up to 56 x 36 x 23 cm plus one small item: a handbag up to 30 x 20 x 10 cm or a laptop bag up to 40 x 30 x 10 cm. Both together must weigh 7 kg or less."
+        },
+        {
+          "q": "Does Vietjet include checked baggage?",
+          "a": "Not on Eco fares. Deluxe includes 20 kg and SkyBoss 30 kg on India routes."
+        },
+        {
+          "q": "How much is Vietjet extra baggage from India?",
+          "a": "20 kg costs 680,000 VND if you buy it with your ticket or within 24 hours, 820,000 VND later (up to 3 hours before), and 1,360,000 VND at the airport. The website shows the price in rupees."
+        },
+        {
+          "q": "Can I carry a power bank on Vietjet?",
+          "a": "Yes, up to two of 100 Wh or less, in your cabin bag only. You can't use them during the flight."
+        }
+      ],
+      "carry_note": "Vietjet refuses [e-cigarettes](can-i-carry/cigarettes-and-lighter.html) in any bag and bans using a [power bank](can-i-carry/power-bank.html) on board. Planning the trip? Our [Vietnam trip guide](../trips/vietnam-trip-from-india.html) covers visas and what to pack.",
+      "seo_title": "Vietjet baggage allowance from India: 7 kg cabin, 0-30 kg checked",
+      "checked": "2026-11-28"
     },
     {
       "slug": "malaysia-airlines",
@@ -1747,7 +2021,6 @@
       "scope": "international",
       "region": "Asia",
       "hub": "Kuala Lumpur (KUL)",
-      "checked": "2026-11-15",
       "official_url": "https://www.malaysiaairlines.com/in/en/travel-info/baggage/checked-baggage.html",
       "cabin": {
         "pieces": 1,
@@ -1776,23 +2049,30 @@
         {
           "fare": "Economy Flex",
           "allowance": "35 kg"
+        },
+        {
+          "fare": "Business Basic / Business Flex / Business Suite",
+          "allowance": "40 kg / 50 kg / 55 kg"
         }
       ],
       "checkin_summary": "20 kg on Value, 25 kg on Basic and 35 kg on Flex",
       "checkin_note": "Malaysia Airlines counts the total weight of your checked bags, shown in kg on your ticket (flights between Malaysia and Japan have their own allowances). No single bag may weigh more than 32 kg, and each must measure less than 158 cm in total. A bag of 158 to 204 cm counts as oversized and may cost extra; anything bigger must go as cargo.",
-      "infant": "An infant may bring one bag (up to 115 cm) and a fully folding stroller, pram or carrycot as cabin items, together up to 10 kg. Strollers, car seats and wheelchairs can also be checked in free. The baggage page doesn't list a separate checked allowance for infants.",
+      "infant": "An infant may bring one bag (up to 115 cm) and a fully folding stroller, pram or carrycot as cabin items, together up to 10 kg; an infant food and nappy bag up to 5 kg is allowed on top of your own personal item. Strollers, car seats, baby seats and playpens can also be checked in free. The baggage pages don't list a separate checked allowance for infants.",
       "excess": {
         "summary": "Extra weight from India costs USD 18 per kg to Malaysia and USD 37 per kg to Singapore, Thailand or Vietnam",
         "points": [
-          "Excess baggage is charged per kg by distance zone, from where you start to your final destination. India is in Zone 3: USD 18 per kg to Malaysia, USD 37 to Singapore, Thailand, Vietnam, Indonesia or China, USD 48 to Australia or New Zealand and USD 54 to the UK or Europe.",
-          "You can buy extra baggage in advance in Manage My Booking or through the call centre, up to 24 hours before take-off. Malaysia Airlines recommends buying ahead but doesn't publish its prepaid prices on this page.",
-          "Extra baggage is non-refundable and works only on flights operated by Malaysia Airlines, not codeshare or MASwings flights.",
+          "Excess baggage is charged per kg by distance zone, from where you start to your final destination. India is in Zone 3: USD 18 per kg to Malaysia, USD 37 to Singapore, Thailand, Vietnam, Indonesia or China, USD 36 to Japan or Korea, USD 48 to Australia or New Zealand and USD 54 to the UK or Europe.",
+          "On routes to the Americas or Africa, Malaysia Airlines counts pieces: an extra economy bag (up to 23 kg) costs USD 280, and a bag of 23 to 32 kg costs USD 83 more.",
+          "You can buy extra baggage in advance in Manage My Booking or through the call centre, up to 24 hours before take-off. Malaysia Airlines recommends buying ahead but doesn't publish its prepaid prices.",
+          "Extra baggage is non-refundable and works only on flights operated by Malaysia Airlines, not codeshare or MASwings flights. Unused kilos are lost, not refunded.",
           "If your bags still weigh more than your allowance plus what you bought, the counter charges the normal excess rate for the rest."
         ]
       },
       "notes": [
-        "Power banks: up to two, in your cabin bag only. Using or charging them is banned for the whole flight, and they must stay with you (under the seat or in the seat pocket, not in the overhead bin). Those over 100 Wh need airline approval; over 160 Wh are banned.",
-        "Fresh or frozen seafood can't be checked in. It may go in the cabin only, properly packed without crushed ice, and subject to your destination's quarantine rules."
+        "Power banks: up to two, in your cabin bag only, each in its own pouch. Using or charging them is banned for the whole flight, and they must stay with you (under the seat or in the seat pocket, not in the overhead bin). Up to 100 Wh is fine; 100 to 160 Wh needs airline approval; over 160 Wh is banned.",
+        "Smart bags and rideable suitcases have had extra restrictions since 15 November 2024: check Malaysia Airlines' smart baggage page before you fly with one.",
+        "Fresh or frozen seafood can't be checked in. It may go in the cabin only, properly packed without crushed ice, and subject to your destination's quarantine rules.",
+        "Cash, jewellery, electronics, passports and other valuables aren't allowed in checked baggage."
       ],
       "sources": [
         {
@@ -1808,10 +2088,101 @@
           "url": "https://www.malaysiaairlines.com/in/en/travel-info/baggage/extra-baggage.html"
         },
         {
+          "label": "Malaysia Airlines special baggage",
+          "url": "https://www.malaysiaairlines.com/in/en/travel-info/baggage/special-baggage.html"
+        },
+        {
           "label": "Malaysia Airlines additional restrictions",
           "url": "https://www.malaysiaairlines.com/in/en/travel-info/baggage/additional-restrictions.html"
+        },
+        {
+          "label": "Malaysia Airlines smart baggage",
+          "url": "https://www.malaysiaairlines.com/in/en/travel-info/baggage/smart-baggage.html"
+        },
+        {
+          "label": "Malaysia Airlines mishandled baggage",
+          "url": "https://www.malaysiaairlines.com/in/en/travel-info/baggage/mishandled-baggage.html"
+        },
+        {
+          "label": "Malaysia Airlines check-in",
+          "url": "https://www.malaysiaairlines.com/in/en/travel-info/check-in.html"
+        },
+        {
+          "label": "Malaysia Airlines before you fly",
+          "url": "https://www.malaysiaairlines.com/in/en/travel-info/before-you-fly.html"
         }
-      ]
+      ],
+      "sections": [
+        {
+          "h": "How Malaysia Airlines differs from other airlines from India",
+          "items": [
+            "It counts kilos on India routes: 20 kg on Value, 25 kg on Basic, 35 kg on Flex. You can split them over as many bags as you like, as long as no bag is over 32 kg.",
+            "The personal item counts inside the 7 kg cabin limit. Air Arabia and Thai Airways allow a small bag on top.",
+            "Its cabin bag is 56 x 36 x 23 cm, a little narrower than Air India's 40 cm.",
+            "Excess weight costs USD 18 a kg from India to Malaysia, but USD 37 a kg once your trip carries on to Singapore, Thailand or Vietnam."
+          ]
+        },
+        {
+          "h": "Enrich and oneworld members",
+          "items": [
+            "Enrich Platinum members get double the free allowance (and 15 kg extra for golf), Gold members 50% more and Silver members 10 kg more.",
+            "oneworld Emerald members get 20 kg (or one bag) more and Sapphire members 15 kg (or one bag) more. These extras apply only to checked baggage, not the cabin bag."
+          ]
+        },
+        {
+          "h": "Sports equipment and musical instruments",
+          "items": [
+            "Golf sets, surfboards, non-motorised bikes, fishing gear, diving and ski gear and similar items are accepted if packed in protective materials. Malaysia Airlines publishes no separate sports fee; a bag over 158 cm or 32 kg counts as oversized and may cost extra.",
+            "Small instruments such as flutes or violins can be your cabin bag. A cello or guitar can fly on an extra seat you buy; sturdier large instruments go as checked baggage."
+          ]
+        },
+        {
+          "h": "Pets",
+          "items": [
+            "Malaysia Airlines' India website doesn't publish a pets rule on its baggage pages. Ask the airline or MASkargo before you book, and check your destination's import rules."
+          ]
+        },
+        {
+          "h": "Check-in times",
+          "items": [
+            "Web and mobile check-in are open from 48 hours to 90 minutes before the flight.",
+            "Airport counters close 60 minutes before departure, and bag drop closes at the same time. The gate closes 30 minutes before take-off. Malaysia Airlines asks you to reach the airport 3 hours before an international flight and lists no separate times for Indian airports."
+          ]
+        },
+        {
+          "h": "If your bag is delayed, lost or damaged",
+          "items": [
+            "Report it at the Baggage Office before you leave the airport, or later on Malaysia Airlines' Self-Service Baggage Reporting Portal. Keep the reference number you get.",
+            "Most delayed bags are found within 24 hours and delivered to your home, office or hotel where customs allow.",
+            "Report a damaged bag within 7 days of receiving it. If your last flight wasn't run by Malaysia Airlines, report to that airline instead."
+          ]
+        }
+      ],
+      "faq_extra": [
+        {
+          "q": "What is the Malaysia Airlines baggage allowance from India?",
+          "a": "In economy: 20 kg checked on Value, 25 kg on Basic and 35 kg on Flex, plus one 7 kg cabin bag that includes your personal item. Business gets 40 to 55 kg."
+        },
+        {
+          "q": "What is the Malaysia Airlines cabin baggage size?",
+          "a": "Up to 56 x 36 x 23 cm (115 cm in total) for the overhead bin, and 25 x 36 x 25 cm for a personal item under the seat. Both together must weigh 7 kg or less in economy."
+        },
+        {
+          "q": "Can I carry a laptop bag on Malaysia Airlines?",
+          "a": "Yes, one laptop bag, handbag, briefcase or small camera bag besides your cabin bag, but it counts within the same 7 kg in economy."
+        },
+        {
+          "q": "How much is Malaysia Airlines extra baggage from India to Australia?",
+          "a": "USD 48 per kg at the normal excess rate from India (Zone 3) to Australia or New Zealand. Buying extra baggage in Manage My Booking at least 24 hours ahead is recommended, but the prepaid price is only shown when you book."
+        },
+        {
+          "q": "How strict is Malaysia Airlines with cabin baggage?",
+          "a": "The limit is 7 kg in economy, personal item included, and bags must fit the overhead bin size of 56 x 36 x 23 cm. Weigh your bags at home so you aren't asked to check one in."
+        }
+      ],
+      "carry_note": "Malaysia Airlines keeps [power banks](can-i-carry/power-bank.html) out of the overhead bin and bans using them on board. Fresh or frozen seafood may travel only in the cabin. Going to Malaysia? Our [Malaysia trip guide](../trips/malaysia-trip-from-india.html) and [Malaysia packing list](../guides/malaysia-packing-list.html) cover what to take.",
+      "seo_title": "Malaysia Airlines baggage allowance from India: 20-35 kg, 7 kg cabin",
+      "checked": "2026-11-28"
     },
     {
       "slug": "airasia",
@@ -1819,7 +2190,6 @@
       "scope": "international",
       "region": "Asia",
       "hub": "Kuala Lumpur (KLIA Terminal 2) and Bangkok Don Mueang (DMK)",
-      "checked": "2026-11-26",
       "official_url": "https://www.airasia.com/aa/inflight-comforts/en/gb/baggage.html",
       "cabin": {
         "pieces": 2,
@@ -1859,7 +2229,7 @@
         }
       ],
       "checkin_summary": "None on Low Fare; 20 kg on Value Pack Lite, Value Pack and Premium Flex; 40 kg on Premium Flatbed",
-      "checkin_note": "On a Low Fare ticket you buy checked baggage as an add-on, and AirAsia says it costs less when you pre-book it than at the airport. You can buy up to 60 kg. No single bag may weigh more than 32 kg or measure more than 119 x 81 x 119 cm. Online, add or upgrade baggage up to 2 hours before departure; at an airport counter, at least 4 hours before.",
+      "checkin_note": "On a Low Fare ticket you buy checked baggage as an add-on. AirAsia says pre-booking saves up to 80% against airport counter prices; the price for your route is shown when you book. You can buy up to 60 kg (50 and 60 kg are limited and may sell out), as one allowance per person per flight. No single bag may weigh more than 32 kg or measure more than 119 x 81 x 119 cm. Online, add or upgrade baggage up to 2 hours before departure; at an airport counter, at least 4 hours before.",
       "infant": "Infants under 2 get no cabin baggage allowance on AirAsia. Children aged 2 and over get the same 7 kg as adults. A stroller or pram used by your child travels free as checked baggage; a foldable stroller can go in the cabin if it fits the cabin size and weight rules.",
       "notes": [
         "Xtra Carry-On adds 7 kg, for 14 kg of cabin baggage in total, with no single bag over 10 kg. Since 13 April 2026 it can't be bought at the airport: book it on the AirAsia MOVE app or website up to 2 hours before departure. Without it, the airport counter sells only up to 3 kg more, for a 10 kg maximum.",
@@ -1876,6 +2246,18 @@
         {
           "q": "Is a laptop bag allowed on AirAsia besides the cabin bag?",
           "a": "Yes. One small item such as a laptop bag or handbag, up to 40 x 30 x 10 cm, is allowed with your main cabin bag, but both must weigh 7 kg or less together."
+        },
+        {
+          "q": "What is the AirAsia cabin baggage size?",
+          "a": "One bag up to 56 x 36 x 23 cm plus one small item up to 40 x 30 x 10 cm, 7 kg in total. With Xtra Carry-On you get 14 kg, no bag over 10 kg."
+        },
+        {
+          "q": "What is the AirAsia baggage price from India to Malaysia?",
+          "a": "AirAsia shows the price for your route when you book or add baggage in the AirAsia MOVE app. It doesn't publish a fixed rate, but says pre-booking saves up to 80% against the airport counter."
+        },
+        {
+          "q": "Is AirAsia India the same as AirAsia?",
+          "a": "No. AirAsia India was merged into Air India Express, which now flies its old routes in India. AirAsia's own flights from India go to Kuala Lumpur and Bangkok."
         }
       ],
       "sources": [
@@ -1892,10 +2274,80 @@
           "url": "https://www.airasia.com/aa/about-us/en/gb/fares.html"
         },
         {
+          "label": "AirAsia sports items",
+          "url": "https://support.airasia.com/s/article/flying-with-sports-items-on-airasia-flights?language=en_GB"
+        },
+        {
+          "label": "AirAsia pets",
+          "url": "https://support.airasia.com/s/article/Can-I-bring-my-pet-en?language=en_GB"
+        },
+        {
+          "label": "AirAsia check-in counter and bag drop",
+          "url": "https://support.airasia.com/s/article/self-baggage-drop-and-check-in-counter?language=en_GB"
+        },
+        {
+          "label": "AirAsia mishandled baggage",
+          "url": "https://support.airasia.com/s/article/My-baggage-is-delayed-missing-or-damaged-en?language=en_GB"
+        },
+        {
           "label": "AirAsia portable electronic devices and power banks",
           "url": "https://support.airasia.com/s/article/AirAsia-Flights-Carriage-of-Portable-Electronic-Devices-PED?language=en_GB"
         }
-      ]
+      ],
+      "excess": {
+        "summary": "AirAsia doesn't publish one price per kg: the checked baggage price for your route is shown when you book, and pre-booking saves up to 80% against the airport counter",
+        "points": [
+          "Buy checked baggage with your booking or later in the AirAsia MOVE app or website, up to 2 hours before the flight. At an airport counter you get the pre-book price only if you buy at least 4 hours before departure.",
+          "You can buy up to 60 kg per person per flight; the 50 and 60 kg options are limited.",
+          "Xtra Carry-On (7 kg more in the cabin, 14 kg in total) must be bought online up to 2 hours before departure. At the airport you can add only 3 kg, for 10 kg at most."
+        ]
+      },
+      "sections": [
+        {
+          "h": "How AirAsia differs from other airlines from India",
+          "items": [
+            "The Low Fare includes no checked bag, only 7 kg in the cabin for two pieces together. Malaysia Airlines includes at least 20 kg on every fare from India.",
+            "AirAsia sells checked baggage by weight in one allowance per flight, up to 60 kg. Buy it before you reach the airport.",
+            "You can't use or charge a power bank on any AirAsia flight.",
+            "AirAsia doesn't carry pets at all.",
+            "AirAsia India no longer exists as a separate airline: it was merged into Air India Express, which has its own baggage rules."
+          ]
+        },
+        {
+          "h": "Sports equipment",
+          "items": [
+            "Golf sets, surfboards (up to 277 cm), non-motorised bikes, skis and snowboards, and diving gear with a tank need a Sports Equipment Allowance. It is sold in 20, 25, 30 and 40 kg, one per person per way, and can't be combined with your normal checked baggage.",
+            "Buy it online up to 2 hours before the flight. At the airport you pay the pre-book price only if you buy at least 4 hours before departure. It isn't refundable.",
+            "Bikes must be packed in a bike bag, box or plastic wrap with the handlebars turned, pedals off and tyres let down. No item may weigh over 32 kg.",
+            "Other sports items, such as a cricket kit, can go in your normal checked baggage."
+          ]
+        },
+        {
+          "h": "Pets",
+          "items": [
+            "AirAsia's policy is that it doesn't accept any pets or animals on its flights."
+          ]
+        },
+        {
+          "h": "Check-in times",
+          "items": [
+            "Check in online or in the AirAsia MOVE app; you must use the counter if you fly with an infant 8 days old or younger, need special help or are under 16 and travelling alone.",
+            "For international flights, counters and self bag drop open 3 hours before departure (4 hours on long-haul flights) and close 1 hour before. AirAsia doesn't list separate times for Indian airports."
+          ]
+        },
+        {
+          "h": "If your bag is delayed, lost or damaged",
+          "items": [
+            "If your bag doesn't come out, tell an AirAsia guest service officer at once, with your booking number or bag tag. You fill in a Property Irregularity Report (PIR) and get a PIR number.",
+            "A found bag is delivered to the address on the PIR. To claim for a delay, write to AirAsia within 21 days of getting the bag back.",
+            "A bag still missing 14 days after the PIR (international flights) is declared lost, and AirAsia's Central Baggage Tracing Office contacts you.",
+            "Report a damaged bag before you leave the airport. AirAsia may pay less if the damage came from over-packing or poor packing."
+          ]
+        }
+      ],
+      "carry_note": "AirAsia bans using or charging a [power bank](can-i-carry/power-bank.html) on board. Looking for the old AirAsia India? See [Air India Express](air-india-express.html). Liquids in your cabin bag follow the 100 ml rule (see [liquids](can-i-carry/liquids.html)). Flying to Malaysia or Thailand? See our [Malaysia trip guide](../trips/malaysia-trip-from-india.html) and [Thailand trip guide](../trips/thailand-trip-from-india.html).",
+      "seo_title": "AirAsia baggage allowance from India: 7 kg cabin, checked add-on",
+      "checked": "2026-11-28"
     },
     {
       "slug": "batik-air",
@@ -1903,7 +2355,6 @@
       "scope": "international",
       "region": "Asia",
       "hub": "Kuala Lumpur (KLIA)",
-      "checked": "2026-11-26",
       "official_url": "https://www.batikair.com.my/experience/baggage",
       "cabin": {
         "pieces": 1,
@@ -1943,8 +2394,8 @@
         }
       ],
       "checkin_summary": "None on Super Saver, 20 kg on Economy Value and 30 kg on Economy Flexi",
-      "checkin_note": "These are Batik Air's free allowances on routes to and from India, by weight. No single checked bag may weigh more than 32 kg. Extra baggage can be pre-bought up to 12 hours before departure in Manage Booking, but not after you have checked in online; after that, airport excess rates apply.",
-      "infant": "An infant without a seat gets no free baggage allowance on Batik Air. An infant with their own seat gets the same allowance as an adult.",
+      "checkin_note": "These are Batik Air's free allowances on routes to and from India, by weight (page updated 17 August 2026). No single checked bag may weigh more than 32 kg. If you fly between India and Sydney or Melbourne through Kuala Lumpur, you get more: 25 kg on Value and 20 kg on Super Saver from India, and 35 kg on every economy fare towards India. Extra baggage can be pre-bought up to 12 hours before departure in Manage Booking, but not after you have checked in online; after that, airport excess rates apply. Travellers on the same booking can share their allowance.",
+      "infant": "An infant without a seat gets no free baggage allowance on Batik Air. An infant with their own seat gets the same allowance as an adult. Strollers and manual wheelchairs go free, outside your allowance, and can be used up to the gate (you sign a Limited Release Tag). Infants must be over 8 days old, and one adult may travel with only one infant.",
       "excess": {
         "summary": "At the airport, excess baggage from India to Malaysia costs INR 1,000 per kg; pre-bought baggage is cheaper",
         "points": [
@@ -1956,8 +2407,10 @@
         ]
       },
       "notes": [
-        "Power banks: up to two per person, each up to 100 Wh. Batik Air says to carry them on your person, not in your cabin bag or checked bag, and using one in the cabin is prohibited.",
+        "Power banks: up to two per person, each up to 100 Wh. Batik Air says to carry them on your person, not in your cabin bag or checked bag, and using one in the cabin is prohibited in all circumstances.",
         "Smart cabin bags with a non-removable lithium battery aren't allowed in the cabin. Switch off GPS, Bluetooth and Wi-Fi functions.",
+        "Seafood, frozen meat and other perishables go only in the cabin, packed at source and labelled, with at most 2.5 kg of dry ice. Live plants aren't accepted on international flights.",
+        "Zamzam water: passengers coming back from Umrah may check in one bottle up to 5 kg, properly packed against leaks.",
         "Codeshare and interline flights follow the operating airline's baggage rules."
       ],
       "sources": [
@@ -1969,7 +2422,68 @@
           "label": "Batik Air FAQ",
           "url": "https://www.batikair.com.my/faq"
         }
-      ]
+      ],
+      "sections": [
+        {
+          "h": "How Batik Air differs from other airlines from India",
+          "items": [
+            "Super Saver includes no checked bag. Economy Flexi gives 30 kg on India routes, more than the 25 kg it gives on most other international routes.",
+            "Pre-bought baggage is cheapest with your first booking. Bought later, 20 kg from Delhi or Mumbai costs MYR 440 instead of MYR 140.",
+            "Power banks must stay on your person, not in any bag. Most airlines let you keep them in your cabin bag.",
+            "Besides the 7 kg cabin bag and personal item, you may carry a small ladies' handbag or men's pouch and one duty-free bag."
+          ]
+        },
+        {
+          "h": "Sports equipment and musical instruments",
+          "items": [
+            "Diving gear, bowling balls, golf bags, bikes and surfboards count within your normal checked allowance. You sign a Limited Release Tag, so Batik Air isn't liable for damage; travel insurance is a good idea.",
+            "A second surfboard pays an RM 65 handling charge, and surfboards aren't carried on ATR (propeller) routes. A bike bag may be up to 165 cm long, and at most 10 bikes fit on one flight.",
+            "Not accepted: hang gliders, sails, kayaks, canoes and oars, pole vaults and javelins.",
+            "Small instruments such as a guitar or violin can be your cabin bag. A cello up to 165 cm and 75 kg can fly on an extra seat bought at a ticket office."
+          ]
+        },
+        {
+          "h": "Pets",
+          "items": [
+            "Batik Air's baggage page and FAQ don't publish a pets rule. Ask Batik Air before you book if you need to fly with an animal."
+          ]
+        },
+        {
+          "h": "Check-in times",
+          "items": [
+            "Batik Air asks you to check in 3 hours before an international flight at Kuala Lumpur. Kiosks there take check-in up to 75 minutes before departure.",
+            "Batik Air doesn't publish counter closing times for Indian airports. Reach the airport 3 hours early, as for any international flight from India."
+          ]
+        },
+        {
+          "h": "If your bag is delayed, lost or damaged",
+          "items": [
+            "Batik Air's pages don't publish a lost-bag procedure. Report a missing or damaged bag at the baggage counter in the arrival hall before you leave, and keep the report and your bag tag.",
+            "Batik Air sells an optional Delayed Baggage Service with Blue Ribbon. If you bought it, file your report with Blue Ribbon through the link on Batik Air's baggage page."
+          ]
+        }
+      ],
+      "faq_extra": [
+        {
+          "q": "What is the Batik Air baggage allowance from India?",
+          "a": "Super Saver: no checked bag. Economy Value: 20 kg. Economy Flexi: 30 kg. Every economy fare includes one 7 kg cabin bag with a personal item."
+        },
+        {
+          "q": "What is the Batik Air cabin baggage size?",
+          "a": "56 x 36 x 23 cm (115 cm in total). The cabin bag and personal item together may weigh 7 kg in economy; extra weight at the gate costs RM 50 per kg."
+        },
+        {
+          "q": "How much does Batik Air charge to add baggage from India?",
+          "a": "With your first booking, 20 kg to or from Delhi or Mumbai costs MYR 140, Kochi or Tiruchirappalli MYR 160 and Bengaluru MYR 170. Added later it costs MYR 330 to 440. At the airport from India it's INR 1,000 per kg."
+        },
+        {
+          "q": "Can I add baggage on Batik Air after booking?",
+          "a": "Yes, in Manage Booking or through the Customer Care Centre, up to 12 hours before departure and before you check in online. It costs more than buying it with the ticket."
+        }
+      ],
+      "carry_note": "Batik Air wants [power banks](can-i-carry/power-bank.html) carried on your person, not in a bag. Seafood and frozen meat travel only in the cabin. Going to Malaysia? Our [Malaysia trip guide](../trips/malaysia-trip-from-india.html) covers what to pack.",
+      "seo_title": "Batik Air baggage allowance from India: 0-30 kg, 7 kg cabin",
+      "checked": "2026-11-28"
     },
     {
       "slug": "cathay-pacific",
