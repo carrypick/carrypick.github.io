@@ -1997,8 +1997,9 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
         checkin_rows = "".join("<tr><th scope=\"row\">%s</th><td>%s</td></tr>" % (e(c["fare"]), e(c["allowance"])) for c in a["checkin"])
         notes = "".join("<li>%s</li>" % e(n) for n in a.get("notes", []))
         # Optional airline-specific sections [{h, p?, items?}]: differences from IndiGo, sports, pets, lost bags...
-        sections_html = "".join("<h2>%s</h2>%s%s" % (e(s["h"]), ("<p>%s</p>" % e(s["p"])) if s.get("p") else "",
-                                                       ("<ul>%s</ul>" % "".join("<li>%s</li>" % e(i) for i in s["items"])) if s.get("items") else "")
+        tx = lambda t: md_inline(t, "../") if "](" in t else e(t)  # [text](link) only where a section asks for it
+        sections_html = "".join("<h2>%s</h2>%s%s" % (e(s["h"]), ("<p>%s</p>" % tx(s["p"])) if s.get("p") else "",
+                                                       ("<ul>%s</ul>" % "".join("<li>%s</li>" % tx(i) for i in s["items"])) if s.get("items") else "")
                                 for s in a.get("sections", []))
         # A domestic airline that also flies abroad can list its international check-in allowance by route.
         intl_rows = ('<h2>Check-in baggage on international flights</h2><table class="specs">'
@@ -2044,7 +2045,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
             scope_text = "economy on India routes"
         else:
             title = "%s baggage rules: cabin bag size, weight and check-in" % a["name"]
-            seo = cabin_title("%s baggage rules" % a["name"], cabin, year)
+            seo = a.get("seo_title") or cabin_title("%s baggage rules" % a["name"], cabin, year)
             desc = "%s domestic baggage rules: %s, %s. Free check-in: %s. Checked %s." % (
                 a["name"], cabin["summary"], size_limit_text(cabin), a["checkin_summary"], fmt_date(a_checked))
             crumb_html = '<a href="index.html">Baggage rules</a>'

@@ -5,37 +5,140 @@
     {
       "slug": "indigo",
       "name": "IndiGo",
+      "seo_title": "IndiGo Baggage Allowance 2026: 7 kg Cabin Bag, 15 kg Check-in",
       "official_url": "https://www.goindigo.in/baggage/cabin-baggage.html",
-      "faq_extra": [
-        {"q": "Is cabin bag weight checked on IndiGo?", "a": "IndiGo's cabin baggage page sets the limit (one bag up to 7 kg, plus a personal item up to 3 kg) but doesn't say when or how often it weighs cabin bags. Plan as if yours will be weighed: keep it within 7 kg, including the bag's own weight, and weigh it at home first. If the overhead bins are full, IndiGo may check your cabin bag in."}
-      ],
       "cabin": {
         "pieces": 1,
         "kg": 7,
         "dims_cm": [55, 35, 25],
         "total_cm": 115,
         "summary": "One cabin bag up to 7 kg",
-        "detail": "IndiGo allows one cabin bag per passenger, up to 7 kg. It must be no bigger than 55 x 35 x 25 cm, and the three sides together must not add up to more than 115 cm. IndiGo says this size includes wheels and handles."
+        "detail": "IndiGo allows one cabin bag per passenger, up to 7 kg. It must be no bigger than 55 x 35 x 25 cm (22 x 16 x 9 inches), and the three sides together must not add up to more than 115 cm (45 inches). IndiGo says this size includes wheels and handles. The same limit applies on the Lite fare and for infants. Soft bags without wheels may have to go under the seat in front of you. If the overhead bins are full, IndiGo may check your cabin bag in at the aircraft door and return it on the belt."
       },
-      "personal": {"summary": "One personal item up to 3 kg, like a ladies' purse or a small laptop bag"},
+      "personal": {
+        "summary": "One personal item up to 3 kg, like a ladies' purse or a small laptop bag"
+      },
       "checkin": [
         {"fare": "Lite", "allowance": "No check-in bag (cabin bag only)"},
-        {"fare": "Saver and Flexi Plus", "allowance": "15 kg, 1 piece"},
+        {"fare": "Saver, Flexi Plus and other regular fares", "allowance": "15 kg, 1 piece"},
+        {"fare": "Super 6E", "allowance": "15 kg + 5 kg extra"},
         {"fare": "IndiGo UpFront", "allowance": "15 kg + 5 kg extra"},
-        {"fare": "Student fare", "allowance": "15 kg + 10 kg extra"}
+        {"fare": "Armed forces (Saver fares)", "allowance": "15 kg + 5 kg extra"},
+        {"fare": "Student fare", "allowance": "15 kg + 10 kg extra"},
+        {"fare": "Double Seat or MultiSeat booking", "allowance": "15 kg + 10 kg extra"},
+        {"fare": "IndiGoStretch", "allowance": "30 kg, 2 pieces"},
+        {"fare": "IndiGoStretch+", "allowance": "40 kg, 2 pieces"}
       ],
       "checkin_summary": "15 kg, 1 piece (none on Lite fares)",
-      "checkin_note": "Each checked bag can be up to 158 cm in total (L + W + H). IndiGo doesn't allow a single checked bag over 32 kg.",
-      "carry_note": "IndiGo's own list of things not allowed in flight is stricter than the airport rules for some items. It keeps [perfume and deo](can-i-carry/perfume.html) and [pickle](can-i-carry/pickle.html) out of the cabin bag, and bans [lighters](can-i-carry/cigarettes-and-lighter.html) in both bags. [Dry fruits](can-i-carry/dry-fruits.html) and a [hair dryer](can-i-carry/hair-dryer-and-straightener.html) are fine in either bag. More items are on our [can-I-carry list](can-i-carry.html).",
+      "checkin_note": "Each checked bag can be up to 158 cm (62 inches) in total (L + W + H); on ATR planes the limit is 152 x 58 x 101 cm. IndiGo doesn't allow a single checked bag over 32 kg. Paying for an extra piece (₹1,000) buys no extra weight: every kg over your allowance is still charged.",
+      "infant": "An infant (under 2) gets one cabin bag of up to 7 kg and 115 cm, on domestic and international flights, but no check-in allowance. This is the same on IndiGoStretch. One stroller or baby pram per infant travels free.",
+      "sections": [
+        {
+          "h": "IndiGo fares and baggage at a glance",
+          "items": [
+            "Every fare, including Lite, gets the same cabin allowance: one 7 kg bag (115 cm) plus a 3 kg personal item. IndiGoStretch is the exception, with one cabin bag of up to 12 kg.",
+            "Lite has no free check-in bag. Adding a 15 kg bag costs ₹2,000, before you fly or at the airport. Lite is sold only on direct flights booked on IndiGo's own website or app.",
+            "Saver and Flexi Plus both include 15 kg. Flexi Plus adds a free standard seat, a meal and lower change and cancellation fees, not extra baggage.",
+            "Super 6E and IndiGo UpFront add 5 kg (20 kg in all). Super 6E also gives up to 50% off prepaid excess baggage.",
+            "Students over 12 get 10 kg extra (25 kg). Serving and retired armed forces personnel get 5 kg extra on Saver fares. A Double Seat or MultiSeat booking adds 10 kg.",
+            "The senior citizen fare is a 6% discount on the base fare; IndiGo lists no extra baggage for it."
+          ]
+        },
+        {
+          "h": "Prepaid excess baggage vs airport rates",
+          "items": [
+            "Prepaid online (₹750 per kg): 3 kg ₹2,250, 5 kg ₹3,750, 10 kg ₹7,500, 15 kg ₹11,250, 20 kg ₹15,000, 25 kg ₹18,750, 30 kg ₹22,500, 40 kg ₹30,000.",
+            "At the airport: ₹800 per kg, so 5 kg over costs ₹4,000 instead of ₹3,750 prepaid.",
+            "Buy prepaid excess baggage on IndiGo's website, app or call centre, up to 1 hour before a domestic flight (IndiGo's excess baggage page also says 2 hours in one place, so don't leave it late).",
+            "An extra bag costs ₹1,000 per piece (up to 2 extra pieces), and its kilos are charged on top.",
+            "On a codeshare ticket you can add excess or extra bags only at the check-in counter."
+          ]
+        },
+        {
+          "h": "Power banks and spare batteries",
+          "items": [
+            "Power banks and spare lithium batteries go in your cabin bag only, kept within reach. Never pack them in a checked bag.",
+            "You may carry up to 2 per passenger, each up to 160 Wh.",
+            "You can't use or charge a power bank during the flight, and you can't charge your phone from it on board.",
+            "A 20,000 mAh power bank is about 74 Wh, well inside the limit. See our [power bank guide](can-i-carry/power-bank.html) for how to work out Wh."
+          ]
+        },
+        {
+          "h": "Check-in and boarding times",
+          "items": [
+            "Web check-in is free and opens 48 hours before departure; it closes 60 minutes before a domestic flight.",
+            "Domestic flights: airport check-in counters (and bag drop) close 60 minutes before departure. IndiGo suggests reaching the airport 2 hours early.",
+            "International flights: counters close 75 minutes before departure. IndiGo suggests 4 hours.",
+            "Boarding gates close 25 minutes before departure at all airports."
+          ]
+        },
+        {
+          "h": "Fast Forward: priority check-in and boarding",
+          "p": "Fast Forward is a paid add-on for priority check-in (a separate counter, so a faster bag drop) and anytime boarding before the gate closes. IndiGo lists it at ₹650 per person per flight in India and ₹850 on international flights, with up to 70% off if you pre-book. It must be bought for everyone on the PNR (infants are free), and doesn't add any baggage allowance or speed up security or immigration. It is sold on Airbus, Boeing and ATR flights from most Indian airports, subject to availability."
+        },
+        {
+          "h": "Sports equipment, musical instruments and odd-sized items",
+          "items": [
+            "Sports equipment (skis, golf bags, bicycles, surfboards, snowboards, water skis, scuba gear) has a handling fee per item: ₹2,000 if you pre-book online up to 2 hours before a domestic flight, or ₹2,500 at the airport. International: ₹3,500 pre-booked, ₹4,000 at the airport. You can pre-book up to 3 items.",
+            "The weight still counts towards your check-in allowance, and excess baggage is charged on top. Sports items can't be pre-booked on ATR flights or Lite fares.",
+            "The same special baggage fee applies to LCD and LED TVs over 99.06 cm, and to any carton or bag over 158 cm in total.",
+            "Musical instruments travel at no extra cost. A guitar in a soft case can go as cabin baggage; other instruments must be packed and checked in. A large one, like a cello or sitar, needs its own paid seat, booked through the call centre.",
+            "A registered drone may go in checked baggage, not in the cabin. Take its battery out and carry it in your cabin bag (up to 160 Wh)."
+          ]
+        },
+        {
+          "h": "Pets on IndiGo",
+          "p": "IndiGo does not carry pets or other animals on its flights, in the cabin or in the hold. The only exception is a trained guide dog for a blind or visually impaired passenger. Book it through the IndiGo call centre at least 48 hours before departure; only one guide dog is allowed per flight, it sits at your feet in the first row (window seat), and it isn't allowed on ATR planes. To fly with a pet in India, compare [Air India](air-india.html) and [Akasa Air](akasa-air.html), which both carry cats and dogs."
+        },
+        {
+          "h": "If your bag is delayed, lost or damaged",
+          "items": [
+            "Report it to the IndiGo desk in the arrival hall before you leave the baggage area. If you leave without reporting, IndiGo treats the bag as delivered in good condition.",
+            "You can follow a delayed bag with IndiGo's Track your bag tool on its baggage pages.",
+            "IndiGo's conditions of carriage cap its liability for a lost, damaged or delayed checked bag at ₹350 per kg, up to ₹25,000 per passenger, unless you made a special declaration of higher value at check-in.",
+            "IndiGo isn't responsible for your cabin bag or personal item, or for cash, jewellery, electronics and medicines packed in a checked bag, so keep those with you.",
+            "A legal claim must be brought within 2 years of arrival."
+          ]
+        }
+      ],
       "notes": [
-        "The Lite fare is only for direct flights booked on IndiGo's own website or app.",
-        "Infants get a 7 kg cabin bag but no check-in allowance.",
-        "IndiGo Stretch seats (its business-style cabin) get more: 30 kg (Stretch) or 40 kg (Stretch+) of check-in baggage in two pieces."
+        "Alcohol: up to 5 litres in checked baggage, in retail packaging and up to 70% alcohol (drinks of 24% or less have no 5-litre limit). Duty-free alcohol bought after security can go in the cabin in a sealed 1-litre bag.",
+        "Liquids in the cabin bag must be in containers of up to 100 ml, all in one clear resealable 1-litre bag.",
+        "Two separate PNRs mean no through check-in: you collect your bags and check in again. IndiGo also doesn't through-check bags onto its international connections.",
+        "Flying IndiGo within India to connect with another airline's international flight? You get 15 kg, and IndiGo charges ₹700 per kg above that.",
+        "A wheelchair, crutches or braces you depend on can go in the cabin free."
+      ],
+      "carry_note": "IndiGo's own list of things not allowed in flight is stricter than the airport rules for some items. It keeps [perfume and deo](can-i-carry/perfume.html) and [pickle](can-i-carry/pickle.html) out of the cabin bag, and bans [lighters](can-i-carry/cigarettes-and-lighter.html) in both bags. [Dry fruits](can-i-carry/dry-fruits.html) and a [hair dryer](can-i-carry/hair-dryer-and-straightener.html) are fine in either bag. More items are on our [can-I-carry list](can-i-carry.html).",
+      "checked": "2026-11-28",
+      "faq_extra": [
+        {"q": "Is cabin bag weight checked on IndiGo?", "a": "IndiGo's cabin baggage page sets the limit (one bag up to 7 kg, plus a personal item up to 3 kg) but doesn't say when or how often it weighs cabin bags. Plan as if yours will be weighed: keep it within 7 kg, including the bag's own weight, and weigh it at home first. If the overhead bins are full, IndiGo may check your cabin bag in."},
+        {"q": "What is the IndiGo baggage allowance for domestic flights?", "a": "On a regular IndiGo fare (Saver or Flexi Plus) you get one 7 kg cabin bag, one 3 kg personal item and 15 kg of check-in baggage in one piece. The Lite fare has the cabin allowance only. Super 6E and UpFront add 5 kg, and the student fare adds 10 kg."},
+        {"q": "What is the IndiGo cabin baggage size in inches?", "a": "22 x 16 x 9 inches (55 x 35 x 25 cm), and no more than 45 inches (115 cm) when you add the three sides. Wheels and handles count."},
+        {"q": "What are IndiGo extra baggage charges per kg?", "a": "On domestic flights it is ₹800 per kg at the airport. Prepaid online it works out to ₹750 per kg, in packs from 3 kg (₹2,250) to 40 kg (₹30,000), bought up to 1 hour before the flight."},
+        {"q": "Can I carry a power bank on IndiGo?", "a": "Yes, in your cabin bag only. IndiGo allows up to 2 power banks or spare lithium batteries per passenger, each up to 160 Wh, and you can't use or charge them during the flight. A power bank in a checked bag will be taken out."},
+        {"q": "Does IndiGo allow pets?", "a": "No. IndiGo doesn't carry pets or animals, in the cabin or as checked baggage. Only a guide dog for a visually impaired passenger is allowed, booked through the call centre at least 48 hours before the flight."},
+        {"q": "What is the IndiGo baggage allowance for defence personnel?", "a": "Serving and retired armed forces and paramilitary personnel booking the Armed Forces fare get 5 kg extra free baggage on Saver fares (20 kg in all), along with a fare discount. Carry your military ID or dependent card to the airport."},
+        {"q": "How do I track my IndiGo baggage?", "a": "Report a missing bag at the IndiGo desk in the arrival hall before you leave the airport, then use the Track your bag link on IndiGo's baggage pages to follow it."},
+        {"q": "What is the IndiGo baggage check-in time?", "a": "Check-in counters close 60 minutes before a domestic flight and 75 minutes before an international one. Boarding gates close 25 minutes before departure. IndiGo suggests reaching the airport 2 hours early for domestic flights."},
+        {"q": "Can I take liquor on an IndiGo flight?", "a": "Yes, up to 5 litres in checked baggage, in retail packs and no more than 70% alcohol. In the cabin, only duty-free alcohol bought after security, in a sealed 1-litre bag."}
       ],
       "sources": [
         {"label": "Cabin baggage", "url": "https://www.goindigo.in/baggage/cabin-baggage.html"},
         {"label": "Baggage allowance", "url": "https://www.goindigo.in/baggage/baggage-allowance.html"},
-        {"label": "Lite fare", "url": "https://www.goindigo.in/add-on-services/lite-fare.html"}
+        {"label": "Excess baggage", "url": "https://www.goindigo.in/baggage/excess-baggage.html"},
+        {"label": "Fees and charges", "url": "https://www.goindigo.in/information/fees-and-charges.html"},
+        {"label": "Special baggage", "url": "https://www.goindigo.in/baggage/special-baggage.html"},
+        {"label": "Sports equipment fees", "url": "https://www.goindigo.in/add-on-services/sports-equipment-handling-fees.html"},
+        {"label": "Lost baggage", "url": "https://www.goindigo.in/baggage/delay-lost-baggage.html"},
+        {"label": "Check-in times", "url": "https://www.goindigo.in/travel-information/en/airport-check-in-requirements.html"},
+        {"label": "Fast Forward", "url": "https://www.goindigo.in/add-on-services/fast-forward.html"},
+        {"label": "Lite fare", "url": "https://www.goindigo.in/add-on-services/lite-fare.html"},
+        {"label": "Super 6E", "url": "https://www.goindigo.in/add-on-services/super-6e-fare.html"},
+        {"label": "IndiGo UpFront", "url": "https://www.goindigo.in/add-on-services/indigo-upfront.html"},
+        {"label": "Student fare", "url": "https://www.goindigo.in/add-on-services/student-discount.html"},
+        {"label": "Armed forces fare", "url": "https://www.goindigo.in/add-on-services/armed-forces.html"},
+        {"label": "Guide dogs", "url": "https://www.goindigo.in/information/special-and-disability-assistance.html"},
+        {"label": "Conditions of carriage", "url": "https://www.goindigo.in/information/conditions-of-carriage.html"}
       ]
     },
     {
