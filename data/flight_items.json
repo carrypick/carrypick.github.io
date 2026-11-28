@@ -51,7 +51,7 @@
       "laptop charger",
       "notebook"
      ],
-     "rechecked": "2026-11-15",
+     "rechecked": "2026-11-28",
      "cabin_short": "Yes, on every airline we checked. Take it out of your bag at the security check.",
      "checked_short": "Airlines differ. IndiGo allows it. Air India wants the battery taken out and carried in the cabin. The cabin is safer."
     },
@@ -98,7 +98,7 @@
      "cabin": "yes",
      "checked": "yes",
      "source": "https://www.goindigo.in/baggage/dangerous-goods-policy.html",
-     "rechecked": "2026-11-15",
+     "rechecked": "2026-11-28",
      "rule": "Allowed in both bags (IndiGo). Hair curlers that run on gas are banned in any bag (Air India).",
      "also": [
       "hairdryer",
@@ -112,7 +112,7 @@
      "cabin": "unknown",
      "checked": "unknown",
      "source": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html",
-     "rechecked": "2026-11-15",
+     "rechecked": "2026-11-28",
      "rule": "Not named on IndiGo's, Air India's or Akasa Air's lists. Air India bans hair curlers that run on gas in any bag. Ask your airline about cordless (battery) straighteners.",
      "also": [
       "straightener",
@@ -187,7 +187,7 @@
       "face wash",
       "lip balm"
      ],
-     "rechecked": "2026-11-15",
+     "rechecked": "2026-11-28",
      "cabin_short": "Only in containers of 100 ml or less, all inside one clear, resealable 1-litre bag. A bigger bottle isn't allowed, even if it's half empty.",
      "checked_short": "Yes. Bigger bottles go in check-in. Toiletry sprays: up to 500 ml a can and 2 litres in total."
     },
@@ -204,7 +204,7 @@
      ],
      "cabin_short": "Only small bottles: 100 ml or less, inside your clear 1-litre liquids bag. Not on IndiGo, whose list doesn't allow perfume in the cabin.",
      "checked_short": "Yes. Up to 2 litres or 2 kg of perfume and toiletries in total, and no single bottle over 500 ml.",
-     "rechecked": "2026-11-10"
+     "rechecked": "2026-11-28"
     },
     {
      "item": "Deodorant spray",
@@ -315,14 +315,14 @@
       "khopra",
       "gola"
      ],
-     "rechecked": "2026-11-15"
+     "rechecked": "2026-11-28"
     },
     {
      "item": "Coconut",
      "cabin": "no",
      "checked": "conditional",
      "source": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html",
-     "rechecked": "2026-11-15",
+     "rechecked": "2026-11-28",
      "rule": "Not allowed in the cabin (IndiGo, Air India). In check-in, Air India allows coconut and IndiGo allows small pieces only. Dry coconut (copra) is banned in both bags.",
      "also": [
       "nariyal",
@@ -357,7 +357,7 @@
       "achar",
       "achaar"
      ],
-     "rechecked": "2026-11-15",
+     "rechecked": "2026-11-28",
      "cabin_short": "Not on IndiGo. Air India allows it, but not chilli pickle, and oily pickle counts as a liquid: 100 ml or less.",
      "checked_short": "Yes, packed so it can't leak or break (IndiGo, Air India)."
     },
@@ -382,7 +382,7 @@
      "cabin": "yes",
      "checked": "yes",
      "source": "https://www.goindigo.in/baggage/dangerous-goods-policy.html",
-     "rechecked": "2026-11-15",
+     "rechecked": "2026-11-28",
      "rule": "Allowed in both bags (IndiGo). Dry coconut (copra) is the exception: it's banned in both bags.",
      "also": [
       "dry fruit",
@@ -427,7 +427,7 @@
       "jeera",
       "elaichi"
      ],
-     "rechecked": "2026-11-15",
+     "rechecked": "2026-11-28",
      "cabin_short": "No. All spices, powder or whole, including chilli and masala, are banned in the cabin bag.",
      "checked_short": "Yes. Pack them sealed, inside a zip bag, so the powder and the smell stay in."
     }
@@ -462,7 +462,7 @@
      "cabin": "conditional",
      "checked": "yes",
      "source": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html",
-     "rechecked": "2026-11-15",
+     "rechecked": "2026-11-28",
      "rule": "Air India allows nail clippers without a knife, nail files and tweezers in both bags. A nail cutter with a fold-out knife or small scissors can't go in the cabin, so pack it in check-in.",
      "also": [
       "nail clipper",
@@ -548,7 +548,7 @@
      "cabin": "yes",
      "checked": "yes",
      "source": "https://www.goindigo.in/baggage/dangerous-goods-policy.html",
-     "rechecked": "2026-11-15",
+     "rechecked": "2026-11-28",
      "rule": "IndiGo's list allows cigarettes in both bags. Smoking isn't allowed on board, lighters are banned in both bags, and e-cigarettes are banned completely.",
      "also": [
       "cigarette",
@@ -564,7 +564,7 @@
      "rule": "Banned in both cabin and check-in baggage.",
      "source": "https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html",
      "also": [],
-     "rechecked": "2026-11-15"
+     "rechecked": "2026-11-28"
     },
     {
      "item": "Matchbox",
