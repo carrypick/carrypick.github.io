@@ -3,6 +3,7 @@ seo_title: Audiobooks for long flights and trains: offline tips (India)
 title: Audiobooks for long flights and train journeys
 description: Why audiobooks make long flights, road trips and train journeys easier, how to download them offline before you fly, battery and headphone tips, and how Audible's 30-day free trial works on Amazon.in.
 date: 2026-11-22
+updated: 2026-11-28
 category: books
 photo: plane-cabin
 ---
@@ -37,6 +38,7 @@ Planes, tunnels, ghats and mountain roads have weak or no signal. Stream nothing
 A long flight and a long book can empty a phone. Plan for the whole day, including the taxi at the other end.
 
 - **Carry a power bank in your cabin bag.** Power banks are never allowed in check-in. A 10,000 mAh power bank is about 37 Wh, under the 100 Wh limit. Read [power bank rules on flights](power-bank-rules-on-flights.html).
+- **You may not be able to use it on the plane.** Indian airlines, Emirates, Singapore Airlines, Etihad and the Lufthansa Group don't let you charge a phone from a power bank during the flight. Board with your phone at 100%, and use the power bank before boarding, after landing and on trains or road trips.
 - **Lower the screen and close other apps.** Audio alone uses little battery when the screen is off.
 - **Wired earphones** never run out of charge and work with the plane's audio jack too (some planes need a two-pin adapter).
 - **Bluetooth earphones** are fine on most airlines once the crew allows phones in airplane mode. Charge the case fully before you leave.
@@ -103,7 +105,7 @@ On most airlines, yes, once the crew says phones in airplane mode are allowed. S
 
 ### Will an audiobook drain my battery?
 
-Not much, if the screen stays off. Carry a power bank in your cabin bag for long days. Power banks are not allowed in check-in.
+Not much, if the screen stays off. Board with a full charge: on Indian airlines and several others (Emirates, Singapore Airlines, Etihad, Lufthansa) you can carry a power bank in your cabin bag but can't use it during the flight. Power banks are never allowed in check-in.
 
 ## Related guides
 

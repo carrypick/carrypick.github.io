@@ -1,8 +1,9 @@
 ---
-seo_title: Power bank rules on flights 2026: limits by airline, DGCA
+seo_title: Power bank rules in flight 2026: 100 Wh, IndiGo, Air India
 title: Power bank rules on flights worldwide: limits, how many and in-flight use
 description: Can you take a power bank on a plane? The 100 Wh limit, how many you can carry, which airlines ban using one in flight (Emirates, Singapore Airlines, Etihad, Lufthansa) and how to turn mAh into Wh. Read on each regulator's and airline's own page.
 date: 2026-11-21
+updated: 2026-11-28
 category: travel-tech
 photo: plane-cabin
 ---
@@ -18,6 +19,7 @@ Almost every airline in the world lets you carry a power bank in your **cabin ba
 - **100 Wh or less** is the safe size for every airline in the table. Between 100 and 160 Wh needs the airline's approval on most airlines, and some (Emirates, Qatar Airways, Etihad, American, Delta, BA) don't take it at all.
 - **Two power banks** is the most common limit. Emirates and Etihad allow only **one**.
 - **Using one in flight** is banned on Emirates, Singapore Airlines, Etihad, the Lufthansa Group and all Indian airlines. Qatar Airways, American, Delta and BA still allow it with conditions. **Charging the power bank itself from the seat** is banned almost everywhere.
+- **Flying in India:** IndiGo allows up to 2 power banks of up to 160 Wh each; Air India and Akasa Air allow 2 of up to 100 Wh. On all Indian airlines you can't use or charge one in flight (DGCA circular 01/2025).
 - **Never in the overhead bin.** Keep it in the seat pocket, under the seat or on you, so the crew can reach it fast.
 
 ## Power bank limits by regulator and airline
@@ -106,6 +108,18 @@ Two on most airlines in the table (Singapore Airlines, Qatar Airways, Lufthansa 
 ### Can I use my power bank during the flight?
 
 Not on Emirates, Singapore Airlines, Etihad, the Lufthansa Group or Indian airlines. Qatar Airways, American, Delta and BA still allow it with conditions: for example American wants it in sight and within reach, and Delta says not during taxi, take-off and landing. Charge your phone before you fly if you aren't sure.
+
+### What are the power bank rules in flight in India?
+
+Power banks go in your cabin bag only, never in checked bags, and DGCA's circular 01/2025 says you can't use or charge them during the flight or put them in the overhead bin. The size limit is set by each airline: up to 160 Wh on IndiGo, up to 100 Wh on Air India and Akasa Air, two per passenger.
+
+### What are IndiGo's power bank rules?
+
+IndiGo's cabin baggage page (read 28 Nov 2026) allows up to 2 power banks or spare lithium batteries per passenger, each up to 160 Wh, in hand baggage only and kept within reach. You can't use, charge or recharge them during the flight. See our [IndiGo baggage rules](../baggage/indigo.html).
+
+### What are Air India's power bank rules?
+
+Up to 2 power banks of up to 100 Wh each, in your cabin bag only, with no use or charging on board. A 20,000 mAh power bank (about 74 Wh) is fine; one over about 27,000 mAh may not be. See our [Air India baggage rules](../baggage/air-india.html).
 
 ### Can I charge my power bank from the seat socket or USB port?
 

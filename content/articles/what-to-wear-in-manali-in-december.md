@@ -1,13 +1,22 @@
 ---
-seo_title: What to wear in Manali in December 2026
+seo_title: What to wear in Manali in December 2026: layers, shoes, packing list
 title: What to wear in Manali in December: layers, shoes and a packing list
 description: How cold Manali gets in December, what to wear in town and in the snow at Solang or the Atal Tunnel, which shoes to take, packing lists for men, women and kids, and tips for Shimla.
 date: 2026-11-15
+updated: 2026-11-28
 category: clothing
 photo: snow-jacket
 feature_until: 2027-01-15
 ---
 Manali in December is cold, mostly dry and often sunny. Nights go below freezing, and snow is possible but not certain. The answer is simple: dress in layers that you can add and take off, and wear waterproof shoes with a good grip.
+
+## Quick answer
+
+- **Day:** about 14 °C in the sun. A sweater over a thermal top is often enough until 4 PM.
+- **Night:** about 0 °C, and it can go below −5 °C. Wear thermals, a fleece and a padded jacket with a hood.
+- **Snow day (Solang, Atal Tunnel, Sissu):** waterproof trousers or a rented snow suit, waterproof gloves and two pairs of woollen socks.
+- **Shoes:** waterproof boots or hiking shoes with deep grip. Not mesh sports shoes.
+- **Don't forget:** cap, neck warmer, sunglasses, sunscreen and lip balm.
 
 Planning the whole trip? Read our [Manali winter guide](../trips/manali.html) for roads, the Atal Tunnel, New Year crowds and places to stay. Going in January? See [Manali in January](../trips/manali-in-january.html). For the basics of layering, see [what to wear on a winter hill trip](winter-clothes-for-hill-trips.html), and to choose a jacket, our [winter jacket for travel guide](winter-jacket-for-travel.html).
 
@@ -195,6 +204,10 @@ Waterproof boots or hiking shoes with deep grip, and woollen socks. Avoid mesh s
 ### Will it snow in Manali in December?
 
 It might, but it isn't certain. December 2025 was very dry, while Christmas 2024 had heavy snow. Check the forecast in the week before you go. Snow is more common higher up, at the Atal Tunnel and Sissu.
+
+### Is it safe to visit Manali in December?
+
+Yes, for most travellers, as long as you dress for the cold and plan around the weather. After heavy snow, police can close the roads beyond Manali to Solang, the Atal Tunnel and Sissu, sometimes for a day or more, and roads can be icy in the morning. Check the forecast and local road updates each morning, use a local driver who knows snowy roads, and never sleep with a heater burning in a closed room.
 
 ### What should I wear in Shimla and Manali in December?
 

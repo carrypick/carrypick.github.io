@@ -3,6 +3,7 @@ seo_title: TSA lock meaning, do you need one, and which to buy
 title: TSA lock: what it means, when you need one, and which to buy
 description: What a TSA lock is (a lock US airport security can open with a master key), how to spot one, whether you need it for flights to the USA or within India, combination vs key vs cable locks, and three TSA locks compared by their listed specs.
 date: 2026-11-23
+updated: 2026-11-28
 category: travel-gear
 subcategory: luggage-locks
 photo: trolley-handles
@@ -104,6 +105,14 @@ A cable lock that fits through small zip pullers on soft bags and backpacks:
 ### What does TSA lock mean?
 
 A luggage lock that the US Transportation Security Administration (TSA) can open with a master key. The TSA says it has keys for Travel Sentry and Safe Skies locks, so it may not have to cut them.
+
+### What is the full form of TSA?
+
+Transportation Security Administration, the US government agency that screens passengers and bags at American airports. A "TSA lock" is named after it.
+
+### What is the small keyhole on a TSA lock for?
+
+It's for the TSA officer's master key, not for you. A number (combination) lock with that keyhole still opens with your code; you don't get a key for it.
 
 ### Is a TSA lock needed for flights from India?
 
