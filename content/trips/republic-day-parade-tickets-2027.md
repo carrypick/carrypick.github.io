@@ -1,15 +1,16 @@
 ---
-seo_title: Republic Day parade tickets 2027: online booking and rules
+seo_title: Republic Day 2027 tickets: parade booking online, price, dates
 title: Republic Day parade tickets 2027: how to book, price and what you can't take
 description: How to book Republic Day 2027 parade and Beating Retreat tickets on the Defence Ministry's Aamantran site or at Delhi counters, last year's prices and dates, the ID you need and what isn't allowed.
 date: 2026-11-16
+updated: 2026-11-28
 place: Republic Day parade tickets
 hub_title: no
-glance: 2027 tickets=Not announced yet (last checked 16 Nov 2026) | Where to book=The Defence Ministry's [Aamantran website](https://www.aamantran.mod.gov.in) and app, or ticket counters in Delhi | Last year's prices=Parade ₹100 and ₹20. Beating Retreat ₹100. Its rehearsal ₹20. Parade rehearsal free | Last year's sale=5 to 14 January 2026, from 9 AM until the day's quota ran out | ID=An original government photo ID, such as Aadhaar, Voter ID, driving licence, PAN or passport | Not allowed=Bags, food, water bottles, power banks, chargers, cameras, umbrellas, coins and more
+glance: 2027 tickets=Not announced yet (last checked 28 Nov 2026) | Where to book=The Defence Ministry's [Aamantran website](https://www.aamantran.mod.gov.in) and app, or ticket counters in Delhi | Last year's prices=Parade ₹100 and ₹20. Beating Retreat ₹100. Its rehearsal ₹20. Parade rehearsal free | Last year's sale=5 to 14 January 2026, from 9 AM until the day's quota ran out | ID=An original government photo ID, such as Aadhaar, Voter ID, driving licence, PAN or passport | Not allowed=Bags, food, water bottles, power banks, chargers, cameras, umbrellas, coins and more
 ---
 Tickets for the Republic Day parade on Kartavya Path, New Delhi, are sold only by the **Ministry of Defence**: on its Aamantran website and app, and at a few ticket counters in Delhi. Republic Day 2027 is on a Tuesday.
 
-**The 2027 ticket sale is not announced yet.** When we checked on 16 November 2026, the Defence Ministry's [Republic Day 2027 page](https://rashtraparv.mod.gov.in/events/republic-day-2027) said its seating plan, route map and rules "will be available soon". Below is how it worked last year, taken from the Ministry's own press releases, so you know what to expect. We'll update this page when the 2027 details come out.
+**Republic Day 2027 tickets: the sale is not announced yet.** When we last checked, on 28 November 2026, the Defence Ministry's [Republic Day 2027 page](https://rashtraparv.mod.gov.in/events/republic-day-2027) (last updated 12 November 2026) still linked its seating plan, route map, programme and rules to a file saying they "will be available soon", with no ticket dates or prices. Below is how it worked last year, taken from the Ministry's own press releases, so you know what to expect. We'll update this page when the 2027 details come out.
 
 ## 2027 dates and prices: not announced yet
 
@@ -113,7 +114,7 @@ If you're flying in, check your [airline's cabin bag limits](../baggage/index.ht
 
 ### How do I book Republic Day parade tickets for 2027?
 
-The 2027 sale isn't announced yet (last checked 16 November 2026). Last year, tickets were sold on the Defence Ministry's Aamantran website and app, and at six counters in New Delhi, from 5 to 14 January.
+The 2027 sale isn't announced yet (last checked 28 November 2026). Last year, tickets were sold on the Defence Ministry's Aamantran website and app, and at six counters in New Delhi, from 5 to 14 January.
 
 ### What is the Republic Day parade ticket price?
 
@@ -122,6 +123,10 @@ The 2027 prices aren't announced yet. In 2026, parade tickets cost ₹100 and �
 ### When will Republic Day 2027 ticket booking start?
 
 It isn't announced yet. In 2026, the sale ran from 5 to 14 January, and the Ministry announced it on 3 January. In 2025, it began on 2 January.
+
+### Is there 26 January 2027 parade ticket booking online?
+
+Yes, online booking is expected on the Defence Ministry's Aamantran website and app, as in 2026, but the 2027 sale isn't open yet. Don't pay any other website: the Ministry sells the tickets itself, on Aamantran and at its Delhi counters.
 
 ### Can I buy Republic Day parade tickets offline?
 
@@ -153,4 +158,4 @@ The 2026 sale had only ₹100 and ₹20 parade tickets. Other seats went to invi
 
 ## Sources
 
-Checked on 16 Nov 2026, all from the Ministry of Defence: the [2026 ticket sale press release on PIB](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2211006) (3 Jan 2026) and the [same release on Rashtraparv](https://rashtraparv.mod.gov.in/files/latest-updates-document/26-jan-2026-press-release.pdf), the [free rehearsal passes release](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2213884) (12 Jan 2026), the [77th Republic Day parade release](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2218449) (25 Jan 2026, timing, metro and enclosures), the [2025 ticket sale release](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2089187), the [Republic Day 2026 page](https://rashtraparv.mod.gov.in/events/republic-day-2026) and the [Beating Retreat 2026 page](https://rashtraparv.mod.gov.in/events/beating-retreat-2026) on Rashtraparv (do's and don'ts, seating and arrival plans), and the [Republic Day 2027 page](https://rashtraparv.mod.gov.in/events/republic-day-2027). Rules can change each year, so follow the 2027 announcement and the security staff on the day.
+Checked on 16 Nov 2026 (the Republic Day 2027 page again on 28 Nov 2026), all from the Ministry of Defence: the [2026 ticket sale press release on PIB](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2211006) (3 Jan 2026) and the [same release on Rashtraparv](https://rashtraparv.mod.gov.in/files/latest-updates-document/26-jan-2026-press-release.pdf), the [free rehearsal passes release](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2213884) (12 Jan 2026), the [77th Republic Day parade release](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2218449) (25 Jan 2026, timing, metro and enclosures), the [2025 ticket sale release](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2089187), the [Republic Day 2026 page](https://rashtraparv.mod.gov.in/events/republic-day-2026) and the [Beating Retreat 2026 page](https://rashtraparv.mod.gov.in/events/beating-retreat-2026) on Rashtraparv (do's and don'ts, seating and arrival plans), and the [Republic Day 2027 page](https://rashtraparv.mod.gov.in/events/republic-day-2027). Rules can change each year, so follow the 2027 announcement and the security staff on the day.

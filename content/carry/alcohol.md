@@ -1,10 +1,10 @@
 ---
 title: Can I carry alcohol on a flight in India?
-seo_title: Alcohol in flight: how much is allowed in India 2026
+seo_title: How much alcohol is allowed in a domestic flight in India? 2026
 description: On domestic flights, alcohol goes in check-in: up to 5 litres per person, so six 750 ml bottles, in the bottle it was sold in. Bottles from Goa, beer and wine, duty free and dry states.
 item: Alcohol (bought outside the airport)
 date: 2026-11-10
-updated: 2026-11-21
+updated: 2026-11-28
 checked_against: IndiGo, Air India, Akasa Air, SpiceJet and Air India Express rules
 sources: Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | IndiGo dangerous goods table (PDF)=https://www.goindigo.in/content/dam/s6web/in/en/assets/static-pages/baggage/IndiGo-DGR-Table.pdf | Akasa Air conditions of carriage=https://www.akasaair.com/quick-links/conditions-of-carriage | SpiceJet baggage FAQ=https://corporate.spicejet.com/airtravelbaggagefaq.aspx | SpiceJet dangerous goods list=https://corporate.spicejet.com/DGR.aspx | Air India Express baggage FAQ=https://www.airindiaexpress.com/support/faqs/baggage | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security | BCAS list of items banned in the cabin (archived copy, read 21 Nov 2026)=https://web.archive.org/web/20240919062225/https://bcasindia.gov.in/passenger_pdf/prohibited.pdf
 related: guides/polycarbonate-vs-polypropylene-luggage.html=Hard luggage: polycarbonate or polypropylene | tools/bag-weight.html=Excess baggage calculator | baggage/index.html=Airline baggage rules | baggage/international.html=International baggage rules | packing/index.html#wedding=Wedding packing list
@@ -128,6 +128,14 @@ In check-in. IndiGo's and SpiceJet's dangerous goods tables don't limit drinks o
 ### Is a beer can allowed in check-in baggage?
 
 Yes, in check-in, in its shop packing. IndiGo and SpiceJet don't limit drinks of 24% alcohol or less, and Air India Express counts beer in its 5 litres per person. Cans add weight, so weigh your bag.
+
+### What is Akasa Air's alcohol policy?
+
+In check-in, Akasa Air accepts drinks of 24% alcohol or less in retail packaging, and up to 5 litres per person of drinks of 24 to 70%, also in retail packaging. In the cabin, only alcohol bought after security, sealed in the shop's tamper-evident bag of up to 1 litre. Drinking alcohol on its planes isn't allowed. See [Akasa Air baggage rules](../akasa-air.html).
+
+### What alcohol is allowed in checked baggage?
+
+Spirits such as whisky, rum, vodka and gin of 24 to 70% alcohol, up to 5 litres per person, in the bottle they were sold in. Beer and wine (usually under 24%) are also accepted in check-in, though Air India Express counts them in its 5 litres. Nothing over 70% alcohol is allowed.
 
 ### Can I carry alcohol to Bihar or Gujarat?
 

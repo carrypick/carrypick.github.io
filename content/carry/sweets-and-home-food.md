@@ -1,11 +1,12 @@
 ---
 title: Can I carry sweets and home food on a flight in India?
-seo_title: Sweets in flight: mithai, ladoo, tiffin rules India 2026
-description: Can you carry sweets or mithai in a flight? Dry sweets like ladoo, namkeen and snacks are fine in both bags. Sweets in syrup, oily food, pickle, raw rice and fish: what IndiGo, Air India and Akasa Air allow, and how to pack food.
+seo_title: Can I carry sweets in flight? Mithai, ladoo, tiffin rules 2026
+description: Can you carry sweets or mithai in a flight? Dry sweets like ladoo, namkeen and biscuits are fine in both bags; gulab jamun and rasgulla follow the 100 ml rule. International flights: UK, US and Singapore food rules.
 item: Sweets and home food
 date: 2026-11-10
+updated: 2026-11-28
 checked_against: IndiGo, Air India, Akasa Air and airport security rules
-sources: IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Akasa Air conditions of carriage=https://www.akasaair.com/quick-links/conditions-of-carriage | Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security
+sources: IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Akasa Air conditions of carriage=https://www.akasaair.com/quick-links/conditions-of-carriage | Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security | GOV.UK: bringing food into Great Britain (read 28 Nov 2026)=https://www.gov.uk/bringing-food-animals-plants-into-uk | GOV.UK: meat, dairy, fish and animal products (read 28 Nov 2026)=https://www.gov.uk/bringing-food-into-great-britain/meat-dairy-fish-animal-products | US CBP: bringing agricultural products into the US (read 28 Nov 2026)=https://www.cbp.gov/travel/clearing-cbp/bringing-agricultural-products-united-states | Singapore Food Agency: food allowed for travellers (read 28 Nov 2026)=https://www.sfa.gov.sg/bringing-food-for-private-consumption-from-overseas/list-of-food---food-products-allowed
 related: packing/index.html#wedding=Wedding packing list | guides/wedding-gift-guide.html=Wedding gift ideas | tools/bag-weight.html=Excess baggage calculator | baggage/index.html=Airline baggage rules
 ---
 Can you carry sweets, mithai or a tiffin on a flight in India? Dry sweets and snacks, yes, in hand luggage and check-in. Sweets in syrup and runny food follow the liquids rule.
@@ -61,7 +62,23 @@ Curry, dal and anything runny count as liquid in the cabin, so they follow the 1
 - Carry dry sweets and snacks in your cabin bag, and keep syrupy sweets and pickle for check-in.
 - Flying IndiGo? Leave oily food at home: its list doesn't allow it in either bag.
 - Taking sweets to a wedding? Pack them in check-in and keep a small box in your cabin bag for the journey.
-- Flying abroad? Other countries have their own food rules at customs. This page is about flights within India.
+- Flying abroad? The country you land in has its own food rules at customs: see below.
+
+## Taking Indian sweets on an international flight
+
+**Leaving India**, the airport security rules are the same as on a domestic flight: dry sweets, biscuits and namkeen are fine in your cabin bag, and sweets in syrup follow the 100 ml rule. Pack big tins in check-in.
+
+**Arriving abroad** is what decides it. Milk-based sweets cause the most trouble. We read three countries' own government pages on 28 Nov 2026:
+
+| Country | Dry sweets, biscuits, namkeen | Milk sweets: barfi, peda, rasgulla, rasmalai | What the official page says |
+|---|---|---|---|
+| UK | Allowed | Not allowed from India | GOV.UK allows biscuits, cakes without fresh cream and confectionery from any country, but not confectionery "made with a lot of unprocessed dairy ingredients". Milk and milk-based products from outside the EU are banned. |
+| USA | Not named on the page: declare them | Not named on the page: declare them | US Customs (CBP) says you must declare plant and animal products in any bag. Undeclared banned items are taken away, and the fine can be up to $1,000. Many meat products are banned, so leave out snacks with meat. |
+| Singapore | Allowed | Allowed within the limit | The Singapore Food Agency lists biscuits, milk and other processed food together, up to 5 kg in all per traveller, for your own use only. |
+
+Going somewhere else, such as Australia, Canada or the Gulf? Check that country's customs page before you pack sweets, and declare food when the arrival form asks. For the UAE, see our [Dubai customs guide](../customs/uae-dubai.html).
+
+**The safest sweets to take abroad** are dry, sealed shop packs with an ingredients label: soan papdi, besan ladoo, chikki, biscuits and namkeen. Leave milk sweets and home-cooked food at home unless you've checked the rules of the country you're flying to.
 
 ## Questions
 
@@ -83,7 +100,15 @@ Yes, if the sweets inside are dry. Shop boxes are thin, so wrap the box in a pla
 
 ### Is sweets allowed in an international flight?
 
-Leaving India, the same airport security rules apply: dry sweets are fine in the cabin, and sweets in syrup follow the 100 ml rule. The country you land in has its own customs rules on food, so check them too, for example our [Dubai customs guide](../customs/uae-dubai.html).
+Yes, leaving India: dry sweets are fine in the cabin, and sweets in syrup follow the 100 ml rule. The country you land in decides the rest. The UK bans milk-based sweets from India, the US asks you to declare food, and Singapore allows up to 5 kg of processed food (checked 28 Nov 2026).
+
+### Can I take Indian sweets to the UK?
+
+Dry sweets, biscuits and confectionery without much dairy, yes. Milk sweets such as barfi, peda, rasgulla and rasmalai, no: GOV.UK bans milk and milk-based products from outside the EU.
+
+### Can I take Indian sweets to the USA?
+
+Declare all food on arrival. US Customs says you must declare plant and animal products, and undeclared banned items can bring a fine of up to $1,000. CBP's page doesn't name sweets, so declare them and let the officer decide.
 
 ### Can I carry home-cooked food on a flight?
 

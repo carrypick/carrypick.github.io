@@ -2996,7 +2996,7 @@ SIZE_CHART_PICKS = [
 
 
 SIZE_CHART_UPDATED = "2026-11-15"  # bump when the size chart's facts change; the Hindi chart (scripts/hindi_pages.py) warns until it matches
-SIZE_CHART_PAGE_UPDATED = "2026-11-26"  # the English page's own date (text rewritten, airline limits re-checked); the sizes above are unchanged
+SIZE_CHART_PAGE_UPDATED = "2026-11-28"  # the English page's own date (text rewritten, airline limits re-checked); the sizes above are unchanged
 # Small, medium and large at the top of the size chart: (size, height, inches, often sold as, full size from listings, litres, empty, trip).
 # From listings read on Amazon.in on 3 and 6 Nov 2026 (cabin: 83 hard models; medium: 36; large: 31). Keep in step with CAPACITY_ROWS.
 SIZE_CLASSES = [("Small (cabin)", "About 55 cm", (55,), '"20 inch" or "22 inch"', "36–41 cm wide on 70 of the 83 hard models we read", "39 L", "2.5 kg", "2–4 days"),
@@ -3037,6 +3037,21 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
                  "22 x 14 x 9 inches is %s cm, %s cm in total, a little over the cabin limits of the Indian airlines we track."
                  % (us_cm, num(round(sum(us), 1))))
     indigo = next((a for a in (airlines or {}).get("airlines", []) if a["slug"] == "indigo"), None)
+    # Carry-on sizes outside India (US and Europe), from data/airlines_world.json (read on each airline's own site on its 'checked' date).
+    world = carry_on_guide.load_world(sys.modules[__name__])
+    world_rows = ""
+    if world:
+        for a in world["airlines"]:
+            c = a["cabin"]
+            if not c.get("dims_cm"):
+                continue
+            world_rows += (f'<tr><th scope="row"><a href="{carry_on_guide.page_href(a, "../")}">{e(a["name"])}</a></th><td>{e(a.get("region", ""))}</td>'
+                           f'<td>{" x ".join(num(x) for x in c["dims_cm"])} cm</td><td>{" x ".join(inch(x) for x in c["dims_cm"])} in</td>'
+                           f'<td>{(num(c["kg"]) + " kg") if c.get("kg") else "No limit given"}</td></tr>')
+    world_html = (f'''<h2 id="carry-on-sizes">Carry-on suitcase sizes in the US and Europe</h2>
+<p>Outside India, the most common carry-on size is <strong>22 x 14 x 9 inches (about 56 x 36 x 23 cm)</strong>, wheels and handles included. American, Delta and United all use it. In Europe, Air France and KLM allow 55 x 35 x 25 cm, while low-cost airlines such as Ryanair and easyJet let you take only a small under-seat bag for free and charge for a full-size cabin bag.</p>
+<div class="table-wrap"><table class="compare snug"><thead><tr><th>Airline</th><th>Region</th><th>Carry-on (cm)</th><th>In inches</th><th>Weight</th></tr></thead><tbody>{world_rows}</tbody></table></div>
+<p class="checked">Read on each airline's own website on {fmt_date(world["checked"])}. Economy fares; some basic fares allow only a personal item. See <a href="../guides/carry-on-size-by-airline.html">carry-on size by airline</a> for the personal item and fare rules.</p>''') if world_rows else ""
     rng = lambda hs: " to ".join(inch(h) for h in hs) if len(hs) > 1 else inch(hs[0])
     class_rows = "".join(f'<tr><th scope="row">{e(name)}</th><td>{e(height)}</td><td>{rng(hs)} in</td><td>{e(sold)}</td><td>{e(full)}</td>'
                          f'<td>{e(litres)}</td><td>{e(empty)}</td><td>{e(trip)}</td></tr>'
@@ -3044,6 +3059,7 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
     quick = [("Small (cabin) trolley:", "about 55 cm (%s in) tall. For 2–4 days, and the only trolley size Indian airlines let you take into the cabin, up to 7 kg." % inch(55)),
              ("Medium trolley:", "65–69 cm (%s–%s in) tall. For about a week, and the best match for a 15 kg check-in allowance." % (inch(65), inch(69))),
              ("Large trolley:", "75–79 cm (%s–%s in) tall. For 10 days or more, or fares with 20 kg or more. Add up all three sides first: most large bags we read were listed over the 158 cm airline limit." % (inch(75), inch(79))),
+             ("Carry-on outside India:", "22 x 14 x 9 in (about 56 x 36 x 23 cm) on American, Delta and United; 55 x 35 x 25 cm on Air France and KLM."),
              ("Inches:", "1 inch is 2.54 cm, and the size on a listing is only the height. Airlines check length, width and height, wheels and handles included.")]
     indigo_inch = ""
     if indigo:
@@ -3062,6 +3078,11 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
            ("What is 20 inch luggage in cm?", "20 inches is %s cm. That's smaller than the usual 55 cm cabin trolley sold in India, though some brands sell 55 cm bags as \"20 inch\"." % cm(20)),
            ("Is a 24 inch suitcase cabin or check-in?", "Check-in. 24 inches is %s cm, too tall for the 55–56 cm cabin limits of Indian airlines. It's a small medium-size bag, good for 4–6 days." % cm(24)),
            ("What is 22 x 14 x 9 inches in cm?", us_answer),
+           ("What is the standard carry-on suitcase size?", "In the US it is 22 x 14 x 9 inches (about 56 x 36 x 23 cm) on American, Delta and United. Indian airlines mostly allow 55 x 35 x 25 cm and 7 kg, and Air France and KLM allow 55 x 35 x 25 cm. A 55 cm cabin trolley sold in India fits most of them if it is no more than 35 cm wide and 23–25 cm deep."),
+           ("What is the largest trolley bag size allowed on a flight?", "For a checked bag, most airlines allow up to 158 cm in total (length + width + height), about %s inches, and 32 kg for one bag. That usually means a trolley of about 75–79 cm tall at most. A 32 inch (%s cm) bag is often over 158 cm, so add up all three sides." % (inch(158), cm(32))),
+           ("What is a 26 inch trolley bag size in cm?", "26 inches is %s cm tall. It's a medium check-in trolley, good for about a week, and too tall for the cabin." % cm(26)),
+           ("Is a 77 cm suitcase large?", "Yes. 77 cm is %s inches, a large check-in suitcase. Many bags this tall are listed at more than the 158 cm airline limit, so add up all three sides before you buy." % inch(77)),
+           ("What size suitcase do I need for 20 kg?", "A medium trolley of 65–69 cm or a large one of 75–79 cm. By our rough estimate a medium bag holds about 10–21 kg of clothes, so for a 20 kg fare it is usually enough; take a large one for bulky winter clothes, and weigh it packed at home."),
            ("How many pounds is 23 kg?", "23 kg is about %s lb. 7 kg, the usual Indian cabin bag limit, is about %s lb." % (lb(23), lb(7)))]
     faq_html, faq_schema = faq_block(faq)
     picks_html = top_picks(cfg, [(deals_by_asin[a], label, why) for a, label, why in SIZE_CHART_PICKS if a in deals_by_asin], "../",
@@ -3076,7 +3097,7 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
                          "Found your size? Pick a bag", "See the bags we picked for that size, with each one's listed size, weight and the airlines it fits.")
     size_fig = diagram_figure("luggage-sizes", "../") if "luggage-sizes" in DIAGRAMS else ""
     title = "Suitcase and trolley bag sizes: small, medium and large in cm and inches"
-    seo = "Suitcase sizes: small, medium, large trolley in cm and inches"
+    seo = "Suitcase sizes and trolley size chart: small, medium, large in cm & inches"
     desc = ("Suitcase sizes in cm and inches: small (cabin) about 55 cm, medium 65–69 cm, large 75–79 cm. Each trolley size with "
             "litres, kg, airline limits and which one you need.")
     inner = f"""<nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="index.html">Baggage rules</a><span>/</span>Size chart</nav>
@@ -3114,6 +3135,7 @@ def build_size_chart(cfg, deals_by_asin, airlines, pages, lastmod, intl=None):
 <p><strong>Before you buy:</strong> check your airline's cabin and check-in limits, add up the bag's length, width and height, compare its empty weight, and weigh it packed at home with a <a href="../guides/luggage-scale.html">luggage scale</a>.</p>
 {picks_html}
 {('<h2 id="airline-limits">Cabin bag limits in inches: Indian and international airlines</h2><p>Airlines give their limits in cm. Here they are in inches too.' + e(indigo_inch) + ' For the full cabin rules, the 7 kg weight and the small personal bag, see our <a href="../guides/cabin-luggage-guide.html">cabin bag guide</a>.</p><div class="table-wrap"><table class="compare snug"><thead><tr><th>Airline</th><th>Size limit (cm)</th><th>In inches</th><th>Weight</th></tr></thead><tbody>' + air_rows + '</tbody></table></div><p class="checked">Economy limits: domestic flights for Indian airlines, India routes for international airlines. From our <a href="index.html">baggage rules</a> and <a href="international.html">international baggage</a> pages; the five Indian airlines were re-checked on their own sites on 26 Nov 2026. Check your ticket before you fly.</p>') if air_rows else ""}
+{world_html}
 <h2 id="check-in-size">Check-in bag size</h2>
 <p>IndiGo, Air India, Akasa Air and SpiceJet limit each checked bag to <strong>158 cm in total</strong> (length + width + height), which is about {inch(158)} inches, and <strong>32 kg</strong> (about {lb(32)} lb). Air India Express gives a different limit: 81 x 119 x 119 cm. With two bags in Economy, Air India also caps both together at 272 cm. Many large trolleys go over 158 cm: of the 31 large models we checked on Amazon.in on 6 Nov 2026, <strong>26 were listed over it</strong>. See <a href="../guides/28-inch-trolley-bag-size.html">the 5 that weren't</a>.</p>
 <h2>Convert inches, cm, kg and lb</h2>

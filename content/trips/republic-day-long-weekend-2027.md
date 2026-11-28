@@ -124,7 +124,7 @@ Jaipur for forts, Goa for a warm beach, Kerala for backwaters and tea hills, or 
 
 ### How do I buy Republic Day 2027 parade tickets online?
 
-The 2027 details aren't out yet. In 2026, tickets were sold on the Aamantran website and at six booths in Delhi from 5 to 14 January. Our [parade tickets guide](republic-day-parade-tickets-2027.html) has the full steps.
+Republic Day 2027 tickets aren't on sale yet: when we checked on 28 Nov 2026, the Defence Ministry's Republic Day 2027 page had no ticket dates or prices. In 2026, tickets were sold on the Aamantran website and at six booths in Delhi from 5 to 14 January. Our [parade tickets guide](republic-day-parade-tickets-2027.html) has the full steps.
 
 ## Sources
 

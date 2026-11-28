@@ -95,6 +95,14 @@ Yes on Indian airlines flying abroad, under the same rules as above. On a foreig
 
 Yes, if the razor is a safety razor with the blades in a cartridge. Loose razor blades and pointed scissors must go in check-in.
 
+### Where should I keep a trimmer on a flight?
+
+In your cabin bag. A rechargeable trimmer is allowed there on IndiGo, SpiceJet and Air India Express, and it's the choice that works on every airline we checked. If you put it in your check-in bag instead, switch it off and use the travel lock.
+
+### Can I put a trimmer in my luggage bag?
+
+Yes, in your check-in bag (IndiGo, SpiceJet, Air India Express), with or without a battery. A battery trimmer must be fully switched off and protected from turning on.
+
 ### Is a beard trimmer a sharp object at airport security?
 
 No. BCAS's cabin list bans loose razor blades and pointed scissors, not trimmers, and three airlines allow a battery trimmer in the cabin by name.
