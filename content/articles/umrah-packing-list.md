@@ -253,6 +253,7 @@ Zamzam water is the most asked question about Umrah luggage. You can't put it in
 | [Qatar Airways](../baggage/qatar-airways.html) | Up to 5 litres in approved bottles, only for pilgrims flying from Jeddah, Madinah or Taif. |
 | [Etihad](../baggage/etihad.html) | One package up to 5 litres free, sealed in a plastic container in a cardboard box sold at the airport. From Jeddah you need an Umrah or Hajj visa. |
 | [flydubai](../baggage/flydubai.html) | From Jeddah, Madinah, Taif or Yanbu, up to 5 litres free as checked baggage, in approved packaging. |
+| [Kuwait Airways](../baggage/kuwait-airways.html) | One 5-litre piece within your piece allowance, if your trip starts in Saudi Arabia. Not accepted on connections to other airlines. |
 
 - **In your cabin bag,** Zamzam follows the normal liquid rule: 100 ml or less per bottle, in your clear liquids bag.
 - **Rules change.** Read your airline's page, or ask at check-in, before you buy.

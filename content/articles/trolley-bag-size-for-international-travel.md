@@ -30,8 +30,8 @@ These are Economy limits for one checked bag, from the airlines' own pages. Allo
 |---|---|---|---|
 | Air India to the USA, Canada, Europe, Japan | 1 bag (Value) or 2 bags (Classic, Flex) | 23 kg | 158 cm |
 | Air India to the Gulf and South-East Asia | 25–35 kg | 32 kg | 158 cm |
-| IndiGo | 20–35 kg in up to 2 bags (none on Lite) | 32 kg | 158 cm |
-| Kuwait Airways | 2 bags of 23 kg on Economy | 23 kg (32 kg on Saver) | 158 cm |
+| [IndiGo](../baggage/indigo-international.html) | 20–40 kg (none free on Lite) | Not stated | 158 cm |
+| [Kuwait Airways](../baggage/kuwait-airways.html) | 2 bags of 23 kg on Economy | 23 kg (32 kg on Saver) | 158 cm |
 | Saudia | Shown when you book | 23 kg (you can pay for 32 kg) | 158 cm |
 | Air Arabia, Gulf Air, Oman Air | 20–40 kg, by fare | 32 kg | 158 cm |
 | Emirates | 20–35 kg | 32 kg | 203 cm |

@@ -1212,10 +1212,10 @@
         ],
         "total_cm": null,
         "summary": "One cabin bag up to 7 kg",
-        "detail": "Economy allows one cabin bag up to 7 kg and 56 x 46 x 25 cm. Extra items are weighed with your bags and may be charged. Kuwait Airways doesn't say whether wheels and handles count."
+        "detail": "Economy allows one cabin bag up to 7 kg and 56 x 46 x 25 cm. That's one of the widest economy cabin limits of any airline flying to India, so most 55 cm Indian trolleys fit if they weigh 7 kg or less. Business and First get one 11 kg piece. Kuwait Airways doesn't say whether wheels and handles count, so measure them in."
       },
       "personal": {
-        "summary": "One extra item: a handbag, briefcase, coat, umbrella, small camera, walking stick, or one duty-free item bought that day"
+        "summary": "One extra item: a handbag, briefcase, coat, umbrella, small camera, crutches, or one duty-free item bought that day"
       },
       "checkin": [
         {
@@ -1224,19 +1224,27 @@
         },
         {
           "fare": "Economy Saver",
-          "allowance": "1 piece, 32 kg"
+          "allowance": "1 piece, 32 kg (2 pieces to and from New York)"
         },
         {
           "fare": "Economy Zero Bag",
-          "allowance": "No checked bag (cabin bag only)"
+          "allowance": "No checked bag on India routes (cabin bag only)"
+        },
+        {
+          "fare": "Business / First",
+          "allowance": "2 pieces of 32 kg / 3 pieces of 32 kg"
         }
       ],
       "checkin_summary": "2 x 23 kg on Economy, 1 x 32 kg on Economy Saver, none on Zero Bag",
-      "checkin_note": "Kuwait Airways uses pieces, not total weight: on Economy you get two bags of up to 23 kg each. No single piece may weigh more than 32 kg, and each bag can be up to 158 cm in total. Check your fare: Economy Zero Bag includes no checked bag on India routes.",
-      "infant": "One piece up to 10 kg and 115 cm in total. Infants can't buy extra baggage.",
+      "checkin_note": "Kuwait Airways uses pieces, not total weight. On Economy you get two bags of up to 23 kg each. You can't add up two half-full bags into one 46 kg bag: no piece may weigh more than 32 kg, and each economy bag can be up to 158 cm in total (a normal size is about 90 x 65 x 75 cm). Bigger items go as cargo. Zero Bag fares (since 3 Sep 2025) include no checked bag, except on New York, Manila and Guangzhou routes.",
+      "infant": "One piece up to 10 kg and 115 cm in total. Infants can't buy extra baggage, and prepaid baggage can't be bought for them.",
       "notes": [
-        "Zamzam water: passengers starting their trip at a Saudi airport may carry one 5-litre Zamzam piece within their free allowance, properly packed and tagged.",
-        "Pack your things in a suitcase or suitable container. Money, jewellery and valuables are at your own risk in checked bags, so carry them with you."
+        "Zamzam water: passengers whose trip starts in Saudi Arabia may carry one 5-litre Zamzam piece within their free allowance, properly packed. It isn't accepted on connections to other airlines.",
+        "TVs up to 42 inches can be checked in as part of your allowance.",
+        "E-cigarettes go in your cabin bag only and can't be used on board. Briefcases with built-in lithium batteries are not allowed.",
+        "On flights to London Heathrow and New York JFK, you must be able to switch on your laptop, tablet and phone at security, so charge them before you fly.",
+        "Kuwait Airways' pages give no watt-hour limit for power banks (read 28 Nov 2026). Keep yours in the cabin bag and under 100 Wh, the usual airline limit.",
+        "Money, jewellery and valuables are at your own risk in checked bags, so carry them with you."
       ],
       "sources": [
         {
@@ -1248,10 +1256,106 @@
           "url": "https://kuwaitairways.com/en/is/free-carry-on-baggage"
         },
         {
-          "label": "Kuwait Airways Conditions of Carriage",
-          "url": "https://kuwaitairways.com/en/terms/conditions-of-carriage"
+          "label": "Kuwait Airways excess baggage rates",
+          "url": "https://kuwaitairways.com/en/is/excess-baggage-rates"
+        },
+        {
+          "label": "Kuwait Airways online prepaid baggage",
+          "url": "https://kuwaitairways.com/en/online-prepaid-baggage"
+        },
+        {
+          "label": "Kuwait Airways animals on board",
+          "url": "https://kuwaitairways.com/en/is/animals-on-board"
+        },
+        {
+          "label": "Kuwait Airways check-in times",
+          "url": "https://kuwaitairways.com/en/is/check-in-times"
+        },
+        {
+          "label": "Kuwait Airways baggage tracing",
+          "url": "https://kuwaitairways.com/en/is/tracing"
+        },
+        {
+          "label": "Kuwait Airways FAQs",
+          "url": "https://kuwaitairways.com/en/is/faqs"
         }
-      ]
+      ],
+      "excess": {
+        "summary": "Kuwait Airways charges extra bags by the piece, paid at the check-in desk in local money; prepaid pieces bought online at least 24 hours before departure cost 15% less",
+        "points": [
+          "An extra piece from Kuwait to India costs KWD 40 at the airport, or KWD 34 prepaid online.",
+          "From India to Europe through Kuwait, an extra piece is KWD 55 at the airport; to New York KWD 70.",
+          "A bag that is too heavy or too big costs KWD 16 from Kuwait to India, or KWD 32 if it's both. This is charged even if you're within your piece allowance.",
+          "Prepaid pieces are up to 23 kg in Economy, can't be refunded and can't be bought during web check-in. They aren't sold for infants or sports equipment.",
+          "Sports equipment counts as one of your normal pieces."
+        ]
+      },
+      "sections": [
+        {
+          "h": "How Kuwait Airways differs from other Gulf airlines",
+          "items": [
+            "It's the only Gulf airline on our list that still counts pieces on India flights: 2 x 23 kg in Economy. Emirates, Qatar Airways, Etihad, Oman Air and Gulf Air count total weight.",
+            "Its 56 x 46 x 25 cm cabin bag is the largest economy limit among them; Saudia's 56 x 45 x 25 cm is close. Qatar Airways allows only 50 x 37 x 25 cm.",
+            "Two 23 kg bags is 46 kg in all, more than most Gulf economy fares, but each bag must stay under 23 kg. Weigh each bag on its own.",
+            "Watch for the Zero Bag fare: it's often the cheapest price shown and has no checked bag on India routes."
+          ]
+        },
+        {
+          "h": "Oasis Club members",
+          "items": [
+            "Platinum members in Economy get one extra 32 kg piece, or 9 kg overweight allowed on up to 2 pieces (not both).",
+            "Gold members in Economy get one extra 23 kg piece, or the same 9 kg waiver on up to 2 pieces.",
+            "Silver members get one extra 23 kg piece in every cabin."
+          ]
+        },
+        {
+          "h": "Pets",
+          "items": [
+            "No pets in the cabin. Pets in the hold are charged as excess baggage: KWD 40 from Kuwait to India.",
+            "Since 1 Sep 2023, Kuwait Airways carries no live animals on flights that only transit Kuwait, as cargo or baggage. So you can't fly a pet from India to Europe through Kuwait."
+          ]
+        },
+        {
+          "h": "Check-in times",
+          "items": [
+            "In India, counters open 4 hours before departure in Mumbai, Bengaluru, Hyderabad, Kochi and Ahmedabad, 3.5 hours before in Delhi and 3 hours before in Chennai. They close 1 hour before.",
+            "In Kuwait (Terminal 4), counters open 4 hours before and close 90 minutes before flights to India and Europe.",
+            "Online check-in opens 24 hours before departure. If you change planes in Kuwait, collect the onward boarding pass from the transfer desk."
+          ]
+        },
+        {
+          "h": "If your bag is delayed, lost or damaged",
+          "items": [
+            "Report it at the Kuwait Airways baggage claim counter before you leave customs, and keep the 10-character file reference.",
+            "Track a delayed bag on kuwaitairways.com with your last name and that file reference."
+          ]
+        }
+      ],
+      "faq_extra": [
+        {
+          "q": "What is the Kuwait Airways baggage allowance in economy class?",
+          "a": "Two checked bags of 23 kg each on the Economy fare, one 32 kg bag on Economy Saver, and none on Economy Zero Bag. You also get a 7 kg cabin bag of 56 x 46 x 25 cm and one small extra item."
+        },
+        {
+          "q": "What does 1 pc or 2 pc mean on a Kuwait Airways ticket?",
+          "a": "PC means piece. 1 pc is one checked bag (up to 32 kg on Economy Saver); 2 pc is two bags of up to 23 kg each on Economy. Each bag must be within 158 cm in total."
+        },
+        {
+          "q": "What is the Kuwait Airways cabin baggage size?",
+          "a": "56 x 46 x 25 cm and 7 kg in Economy. Business and First allow one cabin piece of 11 kg."
+        },
+        {
+          "q": "What are Kuwait Airways excess baggage charges from Kuwait to India?",
+          "a": "KWD 40 for an extra piece at the airport, or KWD 34 if you prepay online at least 24 hours before. An overweight or oversize bag costs KWD 16, or KWD 32 if it's both."
+        },
+        {
+          "q": "How do I track my Kuwait Airways baggage?",
+          "a": "Report the delay at the baggage claim counter before you leave customs. Then use the baggage tracing page on kuwaitairways.com with your last name and the 10-character file reference."
+        }
+      ],
+      "carry_note": "Kuwait Airways counts Zamzam water (see our [Umrah packing list](../guides/umrah-packing-list.html)) and TVs within your piece allowance. Its pages give no power bank limit, so follow our [power bank rules](can-i-carry/power-bank.html). Bringing gifts or food home? See [sweets and home food](can-i-carry/sweets-and-home-food.html) and India's [customs allowance](customs.html).",
+      "checked": "2026-11-28",
+      "seo_title": "Kuwait Airways baggage allowance: 2 x 23 kg, 7 kg cabin"
     },
     {
       "slug": "singapore-airlines",
@@ -1266,10 +1370,10 @@
         "dims_cm": null,
         "total_cm": 115,
         "summary": "One cabin bag up to 7 kg",
-        "detail": "Economy allows one cabin bag up to 7 kg, with length, width and height adding up to no more than 115 cm. Bags that are too big are taken at check-in or the gate and put in the hold."
+        "detail": "Economy allows one cabin bag up to 7 kg, with length, width and height adding up to no more than 115 cm. Singapore Airlines gives no single size, so a 55 x 35 x 25 cm trolley (115 cm) fits, but a 55 x 40 x 23 cm one (118 cm) doesn't. Bags that are too big are taken at check-in or the gate and put in the hold. Business and First get two 7 kg pieces."
       },
       "personal": {
-        "summary": "One extra item free: a handbag, camera bag, document bag or laptop bag up to 40 x 30 x 10 cm, a coat, an umbrella, or a small amount of duty-free"
+        "summary": "One extra item free: a handbag, camera bag, document bag or laptop bag up to 40 x 30 x 10 cm, a coat or an umbrella. An item over 80 cm in total counts as your cabin bag"
       },
       "checkin": [
         {
@@ -1287,13 +1391,21 @@
         {
           "fare": "Economy Flexi",
           "allowance": "30 kg"
+        },
+        {
+          "fare": "Premium Economy / Business / First",
+          "allowance": "35 kg / 40 kg / 50 kg"
+        },
+        {
+          "fare": "To and from the USA and Canada",
+          "allowance": "2 pieces of 23 kg in Economy (32 kg in Business)"
         }
       ],
-      "checkin_summary": "25 kg on Lite and Value, 30 kg on Standard and Flexi",
-      "checkin_note": "India flights use the weight concept: you can check several bags as long as the total is within your allowance. No single bag may weigh more than 32 kg; heavier bags must be repacked.",
-      "infant": "Up to 10 kg checked, plus a folding stroller and a carrycot or car seat.",
+      "checkin_summary": "25 kg on Lite and Value, 30 kg on Standard and Flexi; 2 x 23 kg to the USA",
+      "checkin_note": "India flights use the weight concept: you can split your allowance over several bags, but no single bag may weigh more than 32 kg. Flights to and from the USA and Canada use pieces of up to 23 kg and 158 cm each. If you connect in Singapore to another Singapore Airlines or partner flight, your bag can be checked through to the end.",
+      "infant": "Up to 10 kg checked (one piece on USA routes), plus one folding stroller and one carrycot or car seat. Infants get no KrisFlyer or PPS bonus.",
       "notes": [
-        "Power banks: up to two, each up to 100 Wh, in your cabin bag only. You can't use or charge them at any time during the flight.",
+        "Power banks: up to two, each up to 100 Wh, in your cabin bag only. Keep them in the seat pocket or under the seat, not the overhead bin. You can't use or charge them at any time during the flight. A 100–160 Wh power bank needs approval in advance.",
         "Smart bags whose battery can't be removed are refused.",
         "Durians aren't allowed in any baggage, and strong-smelling food may be refused."
       ],
@@ -1313,8 +1425,99 @@
         {
           "label": "SIA baggage restrictions",
           "url": "https://www.singaporeair.com/en_UK/in/travel-info/baggage/baggage-restrictions/"
+        },
+        {
+          "label": "SIA additional baggage charges",
+          "url": "https://www.singaporeair.com/en_UK/in/travel-info/baggage/additional-baggage-charges/"
+        },
+        {
+          "label": "SIA non-standard baggage",
+          "url": "https://www.singaporeair.com/en_UK/in/travel-info/baggage/non-standard-baggage/"
+        },
+        {
+          "label": "SIA travelling with pets",
+          "url": "https://www.singaporeair.com/en_UK/in/travel-info/special-assistance/travelling-with-pets/"
+        },
+        {
+          "label": "SIA airport check-in",
+          "url": "https://www.singaporeair.com/en_UK/in/travel-info/check-in/airport-check-in/"
+        },
+        {
+          "label": "SIA online check-in",
+          "url": "https://www.singaporeair.com/en_UK/in/travel-info/check-in/online-mobile-checkin/"
+        },
+        {
+          "label": "SIA delayed or damaged baggage",
+          "url": "https://www.singaporeair.com/en_UK/in/travel-info/baggage/delayed-or-damaged-baggage/"
         }
-      ]
+      ],
+      "excess": {
+        "summary": "Buy extra baggage in Manage Booking at least 6 hours before departure; booking 48 hours or more ahead saves 25%, and the airport rate is the full price",
+        "points": [
+          "Full rates (tickets issued from 16 Nov 2026): USD 20 a kg between India and Singapore, USD 35 to Japan and China, USD 40 to Australia and other Band 3 places, USD 45 to Europe.",
+          "Discounts: 25% off 48 hours or more before, 10% off from 48 to 6 hours before. KrisFlyer members get 30% and 15%. Inside 6 hours or at the airport, you pay the full rate.",
+          "You can buy up to 100 kg per flight. Routes to the USA and Canada charge per piece instead.",
+          "On one ticket with Scoot, you can prebuy extra baggage for the Scoot part at a discount too."
+        ]
+      },
+      "sections": [
+        {
+          "h": "How Singapore Airlines differs from other airlines from India",
+          "items": [
+            "Economy Lite still includes 25 kg checked. Qatar Airways Lite gives 20 kg, and IndiGo's Lite gives none.",
+            "The cabin rule is a 115 cm total, not a fixed shape. Measure length + width + height with wheels.",
+            "Excess baggage is priced in US dollars per kg and gets cheaper the earlier you buy. There are no rupee rates on its India site.",
+            "Elite members get more: PPS Club doubles the allowance, KrisFlyer Elite Gold adds 20 kg and Elite Silver 10 kg, on flights run by Singapore Airlines."
+          ]
+        },
+        {
+          "h": "Sports equipment and pets",
+          "items": [
+            "Sports gear counts in your normal allowance, up to 32 kg and 315 x 75 x 80 cm. Call 5 working days ahead if it's over 240 cm. Bikes go in a case with tyres let down; e-bikes aren't allowed.",
+            "Cats and dogs travel only in the hold, at least 3 months old, up to 32 kg with the box (heavier goes by cargo). Tell Singapore Airlines at least 2 weeks ahead. Pets are always charged as excess baggage, and snub-nosed breeds are refused."
+          ]
+        },
+        {
+          "h": "Check-in times at Indian airports",
+          "items": [
+            "Counters open 4 hours before departure in Delhi, Mumbai (Terminal 2) and Ahmedabad; 3 h 30 min in Bengaluru and Hyderabad; 3 h 25 min in Kolkata; 3 hours in Chennai and Kochi. All close 1 hour before.",
+            "Online check-in is open from 48 hours to 1 h 30 min before departure, and the gate closes 15 minutes before.",
+            "A first flight on Scoot from India that connects to Singapore Airlines in Singapore can be checked in online through Singapore Airlines."
+          ]
+        },
+        {
+          "h": "If your bag is delayed or damaged",
+          "items": [
+            "Report a delayed bag online or at Lost and Found in the arrivals hall and keep the 10-character file number. Singapore Airlines sends updates for 7 days; after that, file a claim.",
+            "Report a damaged bag at the airport or online within 72 hours. After that, use the web form within 7 days. Normal wear and tear isn't covered."
+          ]
+        }
+      ],
+      "faq_extra": [
+        {
+          "q": "What is the Singapore Airlines baggage allowance from India?",
+          "a": "In Economy: 25 kg checked on Lite and Value, 30 kg on Standard and Flexi, plus a 7 kg cabin bag (115 cm in total) and one small extra item. Premium Economy gets 35 kg and Business 40 kg."
+        },
+        {
+          "q": "Is Singapore Airlines baggage allowance 30 kg?",
+          "a": "Yes, on Economy Standard and Flexi fares. Lite and Value fares get 25 kg. You can split the weight over several bags, but none may weigh more than 32 kg."
+        },
+        {
+          "q": "What is the Singapore Airlines baggage allowance from India to Australia?",
+          "a": "The same weight concept applies: 25 or 30 kg in Economy by fare, through Singapore. If part of the trip is on a partner airline, check your ticket, as its allowance may apply."
+        },
+        {
+          "q": "What is the Singapore Airlines cabin baggage size?",
+          "a": "One 7 kg bag whose length, width and height add up to 115 cm or less in Economy, plus one item up to 40 x 30 x 10 cm."
+        },
+        {
+          "q": "How much do Singapore Airlines charge for extra baggage from India?",
+          "a": "USD 20 a kg between India and Singapore at the full rate, and more to farther places. Buy in Manage Booking 48 hours or more ahead for 25% off."
+        }
+      ],
+      "carry_note": "Singapore Airlines keeps [power banks](can-i-carry/power-bank.html) in the seat pocket or under the seat, never in the overhead bin. Durians are banned, and strong-smelling [pickle](can-i-carry/pickle.html) or [spices](can-i-carry/spices-and-masala.html) may be refused, so pack them sealed. What Singapore lets you bring in is on our [sweets and home food](can-i-carry/sweets-and-home-food.html) page, and what to pack is on our [Singapore packing list](../guides/singapore-packing-list.html).",
+      "checked": "2026-11-28",
+      "seo_title": "Singapore Airlines baggage allowance from India: 25-30 kg"
     },
     {
       "slug": "thai-airways",
@@ -2019,26 +2222,31 @@
       "checkin": [
         {
           "fare": "Saver, Flexi Plus and other regular fares",
-          "allowance": "30 kg to and from the Gulf; 30 kg to Singapore, Kuala Lumpur, Jakarta and Vietnam; 20 kg to Bangkok, Phuket, Krabi, Bali and Kathmandu"
+          "allowance": "30 kg to the Gulf, Singapore, Malaysia, Jakarta, Vietnam, Colombo, Dhaka, Amsterdam, Manchester and Istanbul; 20 kg to Bangkok, Phuket, Krabi, Bali, Kathmandu, Male and Mauritius"
         },
         {
           "fare": "IndiGo UpFront",
-          "allowance": "35 kg on most Gulf routes and to Singapore and Kuala Lumpur; 25 kg to Bangkok, Phuket, Krabi, Bali and Kathmandu"
+          "allowance": "35 kg where regular fares get 30 kg; 25 kg where they get 20 kg; 40 kg to Amsterdam, Manchester, London and Copenhagen"
+        },
+        {
+          "fare": "IndiGo Stretch / Stretch+",
+          "allowance": "40 / 45 kg on 30 kg routes, 30 / 35 kg on 20 kg routes, 46 kg to Europe"
         },
         {
           "fare": "Lite",
-          "allowance": "No free checked bag (you can buy one)"
+          "allowance": "No free checked bag; a 20 kg add-on (2 pieces) costs ₹3,500"
         }
       ],
-      "checkin_summary": "30 kg to the Gulf and Singapore, 20 kg to Bangkok, Bali and Kathmandu, in up to 2 bags",
-      "checkin_note": "The allowance is per person, in up to 2 bags; a third bag costs extra. No single bag may weigh more than 32 kg, even if you pay for excess, and each bag must be within 158 cm in total. Prepaid extra baggage, bought online up to 2 hours before an international flight, is much cheaper than at the airport.",
-      "infant": "No checked allowance for infants on international flights. One 7 kg hand bag and one stroller per infant are free.",
+      "checkin_summary": "30 kg to the Gulf, Singapore and Europe, 20 kg to Bangkok, Bali and Kathmandu on regular fares; none on Lite",
+      "checkin_note": "The allowance is per person and each bag must be within 158 cm in total. A third bag is charged as an extra piece. Nairobi gets 25 kg and Jaffna 15 kg on regular fares. Students get 10 kg extra on the student fare. On codeshare flights (for example with Turkish Airlines beyond Istanbul) the partner airline's baggage rules apply, and you can't web check-in.",
+      "infant": "No checked allowance for infants on international flights. One hand bag of 7 kg and 115 cm and one stroller per infant are free. The infant fare itself is fixed by route, one way: ₹6,000 to South Asia, ₹7,200 to South-East Asia and the Gulf, ₹9,600 to Amsterdam and ₹14,400 to Manchester, London and Istanbul.",
       "notes": [
-        "Zamzam water: on flights from Jeddah and Madinah to India, it must fit within your 30 kg allowance.",
+        "Zamzam water: only on flights from Jeddah and Madinah to India, and it must fit within your 30 kg allowance.",
         "India–Kuwait: your 30 kg can include a well-packed cardboard box within 158 cm.",
-        "Power banks and spare batteries go in your cabin bag only. You can't use or charge them during the flight.",
-        "You can carry up to 5 litres of alcohol (24–70%, in shop packaging) in checked baggage.",
-        "India–Kathmandu (checked on IndiGo's baggage FAQ on 21 Nov 2026): 20 kg checked on regular fares, 25 kg on IndiGo UpFront, plus one 7 kg cabin bag and a 3 kg personal item."
+        "Power banks: at most two, each up to 160 Wh, in your cabin bag and within reach. You can't use or charge them on board. Never put one in a checked bag.",
+        "Alcohol: up to 5 litres at 24–70% in shop packaging in checked bags; drinks of 24% or less have no limit.",
+        "Pets aren't allowed on IndiGo, in the cabin or in the hold.",
+        "Drones go in checked bags only, with the battery (up to 160 Wh) in your cabin bag."
       ],
       "sources": [
         {
@@ -2052,9 +2260,106 @@
         {
           "label": "IndiGo cabin baggage",
           "url": "https://www.goindigo.in/baggage/cabin-baggage.html"
+        },
+        {
+          "label": "IndiGo fees and charges (International tab)",
+          "url": "https://www.goindigo.in/information/fees-and-charges.html"
+        },
+        {
+          "label": "IndiGo special baggage",
+          "url": "https://www.goindigo.in/baggage/special-baggage.html"
+        },
+        {
+          "label": "IndiGo airport check-in requirements",
+          "url": "https://www.goindigo.in/travel-information/en/airport-check-in-requirements.html"
+        },
+        {
+          "label": "IndiGo web check-in",
+          "url": "https://www.goindigo.in/web-check-in.html"
+        },
+        {
+          "label": "IndiGo lost or mishandled baggage",
+          "url": "https://www.goindigo.in/travel-information/en/lost-mishandled-baggage.html"
+        },
+        {
+          "label": "IndiGo infants",
+          "url": "https://www.goindigo.in/travel-information/en/infants.html"
+        },
+        {
+          "label": "IndiGo dangerous goods policy",
+          "url": "https://www.goindigo.in/baggage/dangerous-goods-policy.html"
         }
       ],
-      "page_name": "IndiGo international"
+      "page_name": "IndiGo international",
+      "excess": {
+        "summary": "Buy prepaid extra baggage on goindigo.in in fixed steps (3, 5, 10, 15 kg and more); it costs far less than the airport rate, which is charged per kg",
+        "points": [
+          "India to Dubai: ₹3,500 for 3 kg, ₹5,900 for 5 kg, ₹11,900 for 10 kg prepaid. At the airport: ₹1,500 a kg.",
+          "India to Bangkok or Singapore: ₹4,000 for 3 kg, ₹6,600 for 5 kg, ₹13,200 for 10 kg prepaid. At the airport: ₹2,000 a kg.",
+          "India to Amsterdam: ₹7,900 for 3 kg and ₹26,400 for 10 kg prepaid; Istanbul ₹9,900 for 3 kg. At the airport in Europe: ₹3,000 a kg.",
+          "Coming back, the airport rate is in local money: AED 80 a kg from Dubai, SGD 35 from Singapore, THB 860 from Bangkok, GBP 30 from Manchester.",
+          "A third bag: ₹3,000 prebooked or ₹3,400 at the airport on Gulf flights; ₹2,000 / ₹2,400 to most of Asia and Istanbul; ₹2,500 / ₹3,000 to Europe.",
+          "Buy prepaid baggage up to 2 hours before an international flight. Two IndiGo pages say 1 hour, so don't leave it to the last moment."
+        ]
+      },
+      "sections": [
+        {
+          "h": "How IndiGo abroad differs from IndiGo at home",
+          "items": [
+            "The cabin bag is the same: 7 kg and 55 x 35 x 25 cm including wheels, plus a 3 kg personal item. A bag that flies with you to Goa flies to Dubai.",
+            "Checked baggage is much bigger: 30 kg to the Gulf against 15 kg on domestic flights. If you connect from a domestic to an international IndiGo flight on one booking, the international allowance is shown on your ticket.",
+            "Lite fares have no checked bag at all abroad, and the add-on is a flat ₹3,500 for 20 kg, the same online and at the airport.",
+            "IndiGo's cabin bag is 35 cm wide. Gulf carriers allow wider bags (Kuwait Airways 46 cm, Saudia 45 cm), so a bag that fits them may be too wide for IndiGo."
+          ]
+        },
+        {
+          "h": "Sports gear, musical instruments and big items",
+          "items": [
+            "Golf sets, bicycles, surfboards, TVs over 99 cm and anything over 158 cm are special baggage: ₹4,000 on international flights (₹3,500 if you prebook sports equipment). Older IndiGo pages still say ₹2,500.",
+            "Musical instruments go free. A soft-case guitar can come in the cabin; others must be checked. A cello or sitar needs its own seat."
+          ]
+        },
+        {
+          "h": "Check-in times and web check-in",
+          "items": [
+            "International check-in counters close 75 minutes before departure and the gate closes 25 minutes before. IndiGo asks you to reach the airport 4 hours early.",
+            "Web check-in for international flights opens 24 hours before departure and closes 75 minutes before. You still need to show your passport and visa at the counter.",
+            "Codeshare flights with partner airlines can't be checked in on the web."
+          ]
+        },
+        {
+          "h": "If your bag is delayed, lost or damaged",
+          "items": [
+            "Report it at the IndiGo desk in the arrivals hall before you leave the baggage area. If you leave without reporting, IndiGo treats the bag as delivered in good condition.",
+            "Keep the report number and follow the bag on the WorldTracer page that IndiGo links (airline code 6E)."
+          ]
+        }
+      ],
+      "faq_extra": [
+        {
+          "q": "Is IndiGo international baggage allowance 30 kg?",
+          "a": "Yes, on regular fares to the Gulf, Singapore, Malaysia, Vietnam, Jakarta, Colombo, Dhaka, Amsterdam, Manchester and Istanbul. Bangkok, Phuket, Krabi, Bali, Kathmandu, Male and Mauritius get 20 kg, and Lite fares get none."
+        },
+        {
+          "q": "What is the IndiGo baggage allowance for Dubai?",
+          "a": "30 kg checked on regular fares and 35 kg on IndiGo UpFront, plus a 7 kg cabin bag (55 x 35 x 25 cm) and a 3 kg personal item. Extra baggage to Dubai costs ₹5,900 for 5 kg prepaid or ₹1,500 a kg at the airport."
+        },
+        {
+          "q": "What are IndiGo international excess baggage charges?",
+          "a": "Prepaid on goindigo.in, from ₹3,500 for 3 kg to Dubai and ₹4,000 for 3 kg to Bangkok or Singapore. At the airport: ₹1,500 a kg to the Gulf, ₹2,000 to the rest of Asia and ₹3,000 to Europe."
+        },
+        {
+          "q": "What happens to baggage on an IndiGo international to domestic connection?",
+          "a": "On one booking, the allowance printed on your ticket applies to the whole journey. On separate bookings, each flight has its own allowance, so a 30 kg bag from Dubai would be over the 15 kg domestic limit on the next flight."
+        },
+        {
+          "q": "When does IndiGo web check-in open for international flights?",
+          "a": "24 hours before departure, and it closes 75 minutes before. Check-in counters also close 75 minutes before an international flight."
+        }
+      ],
+      "carry_note": "IndiGo's [power bank](can-i-carry/power-bank.html) limit (160 Wh) is higher than most foreign airlines' 100 Wh, but the bank must stay in your cabin bag. Up to 5 litres of [alcohol](can-i-carry/alcohol.html) can go in checked bags. For food on the way back, see [sweets and home food](can-i-carry/sweets-and-home-food.html) and [pickle](can-i-carry/pickle.html), and check what India's [customs](customs.html) allows duty-free.",
+      "checked": "2026-11-28",
+      "seo_title": "IndiGo international baggage allowance: 30 kg, 7 kg cabin"
     },
     {
       "slug": "air-india-international",
