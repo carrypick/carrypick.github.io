@@ -47,7 +47,7 @@ How do you know which kind you have? If it runs with the cable unplugged, it has
 
 ## Electric shavers
 
-None of the airline pages above, and not BCAS's cabin list, names electric shavers. A rechargeable shaver is a battery device, so the same thinking applies: the cabin bag works on every airline, and in check-in it should be switched off and locked. Air India's page doesn't cover it at all, so on Air India keep it in the cabin.
+None of the airline pages above, and not BCAS's cabin list, names electric shavers. A rechargeable shaver is a battery device, so the same thinking applies: the cabin bag works on every airline, and in check-in it should be switched off and locked. Air India's page doesn't cover it at all, so on Air India keep it in the cabin. Packing other grooming gadgets? Cordless straighteners and gas curlers have their own rules: see [hair dryer and straightener](hair-dryer-and-straightener.html).
 
 ## International flights
 

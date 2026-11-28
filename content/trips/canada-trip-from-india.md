@@ -11,7 +11,7 @@ glance: Visa for Indians=Needed: the visitor visa, applied for online, with biom
 ---
 Canada is a big trip for many Indian families, often to visit relatives as well as to sightsee: the roar of Niagara Falls, the Toronto skyline, the old streets of Montreal and Quebec City, the turquoise lakes and glaciers of Banff in the Rocky Mountains, and the mountains-meet-the-sea city of Vancouver. There are direct flights from Delhi, but it's a long way, and Indians need a visa with biometrics, so plan early. This guide covers the visa, biometrics, the processing time, flights, a 10-day plan, the weather by month, customs rules, getting around and food for vegetarians.
 
-Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
+Packing for the trip? Use our [full travel packing checklist](../packing/index.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html#abroad), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
 
 Plugs: Canada uses flat-pin type A and B plugs at 120 V, like the USA. See [which travel adapter for the USA and Canada to pack](../guides/travel-adapter-for-usa.html).
 
@@ -162,7 +162,7 @@ In Toronto, stay downtown near Union Station to walk to the waterfront and the C
 - **Spring and autumn:** layers, a warm jacket and comfortable shoes.
 - **Summer:** light clothes, but carry a fleece for cool mountain evenings in Banff, and a rain jacket for Vancouver.
 
-Going in winter? Our [Canada winter packing list](../guides/canada-packing-list.html) covers layers, jackets, gloves, boots and plugs, and the [winter jacket for travel guide](../guides/winter-jacket-for-travel.html) explains down vs synthetic. For more on layering, see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html) and the [checklist for trips abroad](../packing/abroad.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html).
+Going in winter? Our [Canada winter packing list](../guides/canada-packing-list.html) covers layers, jackets, gloves, boots and plugs, and the [winter jacket for travel guide](../guides/winter-jacket-for-travel.html) explains down vs synthetic. For more on layering, see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html) and the [full travel packing checklist](../packing/index.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html#abroad).
 
 Going to Canada to study? See our [Canada packing list for Indian students](../guides/canada-packing-list-for-indian-students.html), with the documents for your hand bag, student baggage and the customs rules on Indian food and medicines.
 

@@ -11,7 +11,7 @@ glance: Visa for Indians=A unified e-visa online, for one trip of up to 16 days 
 ---
 Russia is a big trip that is easier to plan than many Indians think. Moscow has Red Square, the Kremlin and the painted domes of St. Basil's Cathedral, and a metro with stations like palaces. St Petersburg has the Hermitage, canals, the fountains of Peterhof and summer nights that never get dark. Indians can apply for a short-trip e-visa online, with no invitation, and Aeroflot flies direct from Delhi to Moscow. This guide covers the visa, flights, a 7-day plan, the weather by month, getting around, food for vegetarians, and the rules to know.
 
-Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
+Packing for the trip? Use our [full travel packing checklist](../packing/index.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html#abroad), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
 
 Plugs: Russia uses European two-pin plugs (types C and F) at 220 V. See [which travel adapter for Europe to pack](../guides/travel-adapter-for-europe.html), or the [travel adapter by country](../guides/travel-adapter-by-country.html) list.
 
@@ -150,7 +150,7 @@ In Moscow, stay inside the Garden Ring, near Kitay-Gorod, Tverskaya or Arbat, cl
 - **Churches:** women should carry a scarf to cover their hair, and wear a skirt or trousers below the knee; men should take off their caps.
 - **Walking shoes:** you'll walk a lot in museums and on cobbled squares.
 
-For what to buy, see the [checklist for trips abroad](../packing/abroad.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html).
+For what to buy, see the [full travel packing checklist](../packing/index.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html#abroad).
 
 ## Help in an emergency
 

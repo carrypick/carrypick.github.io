@@ -139,8 +139,8 @@ It depends on the country, the number of nights, your flights and your hotel, an
 
 ## What to pack and gift ideas
 
-- **Packing:** the [honeymoon packing list](../guides/honeymoon-packing-list.html) covers both of you, with a beach section for the Maldives and Bali. Each country also has a list: see the [Maldives packing list](../guides/maldives-packing-list.html), the [Bali packing list](../guides/bali-packing-list.html), the [Thailand packing list](../guides/thailand-packing-list.html) and the [checklist for trips abroad](../packing/abroad.html). Check the [international baggage rules](../baggage/international.html) too.
-- **Gifts:** shopping for newly-weds or your partner? See our [Christmas gift ideas for couples](../guides/christmas-gift-for-couples.html) and [anniversary gift ideas](../guides/anniversary-gift-ideas.html).
+- **Packing:** the [honeymoon packing list](../guides/honeymoon-packing-list.html) covers both of you, with a beach section for the Maldives and Bali. Each country also has a list: see the [Maldives packing list](../guides/maldives-packing-list.html), the [Bali packing list](../guides/bali-packing-list.html), the [Thailand packing list](../guides/thailand-packing-list.html) and the [checklist for trips abroad](../tools/packing-list-maker.html#abroad). Check the [international baggage rules](../baggage/international.html) too.
+- **Gifts:** shopping for newly-weds or your partner? Our [gift finder](../tools/gift-finder.html#occ=anniversary) suggests wedding and anniversary gifts for couples.
 
 ## Questions
 

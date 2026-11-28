@@ -11,7 +11,7 @@ glance: Visa for Indians=Needed: the Visitor visa (subclass 600), applied for on
 ---
 Australia is a big trip from India: Sydney's harbour and Opera House, the cafés, trams and laneways of Melbourne, the Great Ocean Road, the Blue Mountains, and beaches almost everywhere. It's a long flight, about 12 hours direct from Delhi, and Indians need a visa. The good news: the visa is applied for online, the seasons are the opposite of India's, and Sydney and Melbourne have direct flights from India. This guide covers the visa, flights, a 10-day plan, the weather by month, getting around and food for vegetarians.
 
-Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
+Packing for the trip? Use our [full travel packing checklist](../packing/index.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html#abroad), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
 
 Plugs: Australia uses type I plugs at 230 V. See [which travel adapter for Australia to pack](../guides/travel-adapter-for-australia.html).
 
@@ -160,7 +160,7 @@ In Sydney, stay near Circular Quay, The Rocks or the CBD to walk to the harbour,
 - **Winter (June to August):** a warm jacket, a sweater and closed shoes. It doesn't snow in the cities.
 - **Comfortable walking shoes** for the coastal walks and the Blue Mountains.
 
-For what to buy, see the [checklist for trips abroad](../packing/abroad.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html).
+For what to buy, see the [full travel packing checklist](../packing/index.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html#abroad).
 
 Going to Australia to study? See our [Australia packing list for Indian students](../guides/australia-packing-list-for-indian-students.html), with the documents for your hand bag, student baggage and the customs rules on Indian food and medicines.
 

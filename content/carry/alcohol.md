@@ -59,7 +59,7 @@ You can't carry alcohol from outside the airport in your cabin bag (IndiGo, Air 
 
 See the [duty-free alcohol rule](../can-i-carry.html?q=duty) in the full list.
 
-How much can you bring in from abroad? Indian Customs allows **2 litres** per passenger duty free. See our [customs rules for alcohol and cigarettes](../customs/alcohol-and-cigarettes.html).
+How much can you bring in from abroad? Indian Customs allows **2 litres** per passenger duty free. See our [customs rules for alcohol and cigarettes](../customs/alcohol-and-cigarettes.html). Bringing duty-free cigarettes too? Lighters have their own rules: see [cigarettes and lighters](cigarettes-and-lighter.html).
 
 ## You can't drink it on board
 

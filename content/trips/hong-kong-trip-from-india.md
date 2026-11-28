@@ -11,7 +11,7 @@ glance: Visa for Indians=Not needed for up to 14 days, after a free online pre-a
 ---
 Hong Kong is a short, easy city trip from India: about 5 hours by direct flight from Delhi, no visa for a short stay, and fast trains that reach almost everything. Families come for Hong Kong Disneyland and Ocean Park; couples and friends for the harbour views, Victoria Peak, markets and food. Indians don't need a visa for up to 14 days, but must complete a free online pre-arrival registration (PAR) first. This guide covers the PAR, flights, a 4-day itinerary with Disneyland, the weather in December, the Octopus card and food for vegetarians.
 
-There's no Hong Kong packing list on CarryPick yet. Use our [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html). Going on to Korea? See our [South Korea trip guide](south-korea-trip-from-india.html).
+There's no Hong Kong packing list on CarryPick yet. Use our [full travel packing checklist](../packing/index.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html#abroad), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html). Going on to Korea? See our [South Korea trip guide](south-korea-trip-from-india.html).
 
 Plugs: Hong Kong uses mostly UK-style type G plugs at 220 V. See [travel adapter by country](../guides/travel-adapter-by-country.html) for the adapter to pack.
 
@@ -153,7 +153,7 @@ For a first trip, stay in Tsim Sha Tsui (Kowloon) for the harbour views, shoppin
 - **A small umbrella** for showers in any season.
 - **A light layer** for cold malls, trains and buses with strong air-conditioning.
 
-For a checklist, see the [checklist for trips abroad](../packing/abroad.html). Need a list for your exact dates and family? Try the [packing list maker](../tools/packing-list-maker.html).
+For a checklist, see the [full travel packing checklist](../packing/index.html). Need a list for your exact dates and family? Try the [packing list maker](../tools/packing-list-maker.html#abroad).
 
 ## Help in an emergency
 

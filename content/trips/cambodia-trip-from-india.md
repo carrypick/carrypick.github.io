@@ -11,7 +11,7 @@ glance: Visa for Indians=An e-visa online, on the official site evisa.gov.kh, be
 ---
 Cambodia is the home of Angkor Wat, one of the largest temple complexes in the world, and one of the easiest short trips abroad from India: a flight of about 4 to 5 hours from Delhi, an e-visa online, and the temples, the jungle-covered ruins of Ta Prohm and the faces of the Bayon in a few days. Add Phnom Penh, the capital, for its Royal Palace and riverside, or combine Cambodia with Vietnam or Thailand. This guide covers the visa, flights, Angkor tickets, a 6-day plan, the weather by month, getting around and food for vegetarians.
 
-Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html). Cambodia is often combined with [Vietnam](vietnam-trip-from-india.html) or [Thailand](thailand-trip-from-india.html).
+Packing for the trip? Use our [full travel packing checklist](../packing/index.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html#abroad), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html). Cambodia is often combined with [Vietnam](vietnam-trip-from-india.html) or [Thailand](thailand-trip-from-india.html).
 
 Plugs: Cambodia uses types A, C and G at 230 V. See [travel adapter by country](../guides/travel-adapter-by-country.html) for the adapter to pack.
 
@@ -175,7 +175,7 @@ In Siem Reap, stay near Pub Street and the Old Market for restaurants and night 
 - **Comfortable shoes with grip** for steep, uneven temple steps.
 - **A light rain jacket** from June to October, and a light layer for cold air-conditioning.
 
-For what to buy, see the [checklist for trips abroad](../packing/abroad.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html).
+For what to buy, see the [full travel packing checklist](../packing/index.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html#abroad).
 
 ## Help in an emergency
 

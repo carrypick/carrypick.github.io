@@ -164,7 +164,7 @@ For the full list, see the rules in our [Sri Lanka packing list](../guides/sri-l
 - **An umbrella or light rain jacket,** whatever the month.
 - **Walking shoes** for Sigiriya and Little Adam's Peak, and sandals that slip off easily at temples.
 
-For our picks, see the [Sri Lanka packing list](../guides/sri-lanka-packing-list.html), [which shoes to take](../guides/travel-shoes-guide.html) and the [checklist for trips abroad](../packing/abroad.html). Need a list for your exact dates and family? Try the [packing list maker](../tools/packing-list-maker.html).
+For our picks, see the [Sri Lanka packing list](../guides/sri-lanka-packing-list.html), [which shoes to take](../guides/travel-shoes-guide.html) and the [full travel packing checklist](../packing/index.html). Need a list for your exact dates and family? Try the [packing list maker](../tools/packing-list-maker.html#abroad).
 
 ## Emergency numbers
 

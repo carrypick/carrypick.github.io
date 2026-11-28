@@ -174,7 +174,7 @@ The full list, with sources, is in the rules section of our [Thailand packing li
 - **Swimwear, a cap, sunglasses and sunscreen** for the beaches.
 - **A light layer** for cold malls, buses and flights.
 
-For our picks, see the [Thailand packing list](../guides/thailand-packing-list.html), the [beach trip checklist](../packing/index.html#beach) and the [checklist for trips abroad](../packing/abroad.html). Need a list for your exact dates and family? Try the [packing list maker](../tools/packing-list-maker.html).
+For our picks, see the [Thailand packing list](../guides/thailand-packing-list.html), the [beach trip checklist](../packing/index.html#beach) and the [full travel packing checklist](../packing/index.html). Need a list for your exact dates and family? Try the [packing list maker](../tools/packing-list-maker.html#abroad).
 
 ## Help in an emergency
 

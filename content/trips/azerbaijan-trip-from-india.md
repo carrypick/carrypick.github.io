@@ -11,7 +11,7 @@ glance: Visa for Indians=Azerbaijan e-visa online at evisa.gov.az | Stay=Up to 3
 ---
 Azerbaijan, on the Caspian Sea, has become a short trip abroad for Indians: the old walled city of Baku next to glass towers, the Flame Towers lit up at night, fire temples and burning hillsides, mud volcanoes and mountain villages. Indians apply for an e-visa online, and a standard one takes 3 working days. This guide covers the visa, flights, a 5-day plan, Baku's weather by month, adding Georgia, getting around and food for vegetarians.
 
-Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), and for a winter trip our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html). Checking other countries? See which ones let Indians in without a visa in our [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html). Comparing trips abroad? See all our [international trips from India](international-trips-from-india.html).
+Packing for the trip? Use our [checklist for trips abroad](../tools/packing-list-maker.html#abroad), and for a winter trip our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html). Checking other countries? See which ones let Indians in without a visa in our [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html). Comparing trips abroad? See all our [international trips from India](international-trips-from-india.html).
 
 Plugs: Azerbaijan uses round-pin types C and F at 220 V. See [which travel adapter for Europe and Azerbaijan to pack](../guides/travel-adapter-for-europe.html).
 
@@ -156,7 +156,7 @@ In Baku, stay near the Old City, Fountains Square or the seaside boulevard, clos
 - **Summer:** light, breathable clothes, sunglasses and sunscreen.
 - **For mosques:** a scarf for women, and long trousers or a long skirt for everyone.
 
-For what to buy, see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html) and the [checklist for trips abroad](../packing/abroad.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html).
+For what to buy, see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html) and the [full travel packing checklist](../packing/index.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html#abroad).
 
 ## Help in an emergency
 

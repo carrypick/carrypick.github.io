@@ -11,7 +11,7 @@ glance: Visa for Indians=Needed: a visa from a Turkish mission in India | With a
 ---
 Turkey, officially Türkiye, sits where Europe meets Asia: the mosques and bazaars of Istanbul on the Bosphorus, the hot air balloons and cave hotels of Cappadocia, and beaches on the Mediterranean. It's one of the few places in Europe with direct flights from India. Most Indians need a visa from a Turkish mission, but those with a valid US, UK, Schengen or Irish visa or residence permit can get an e-visa online. This guide covers the visa, flights, a 7-day plan, Cappadocia's balloons, the weather by month, getting around and food for vegetarians.
 
-Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), and for a winter trip our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html). Checking other countries? See which ones let Indians in without a visa in our [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html). Comparing trips abroad? See all our [international trips from India](international-trips-from-india.html).
+Packing for the trip? Use our [checklist for trips abroad](../tools/packing-list-maker.html#abroad), and for a winter trip our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html). Checking other countries? See which ones let Indians in without a visa in our [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html). Comparing trips abroad? See all our [international trips from India](international-trips-from-india.html).
 
 Plugs: Turkey uses round-pin types C and F at 230 V. See [which travel adapter for Europe and Turkey to pack](../guides/travel-adapter-for-europe.html).
 
@@ -148,7 +148,7 @@ In Istanbul, stay in Sultanahmet to walk to the old city's sights, or near Taksi
 - **Summer:** light, breathable clothes, sunglasses and sunscreen.
 - **For mosques:** a scarf for women, and long trousers or a long skirt for everyone.
 
-For what to buy, see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html) and the [checklist for trips abroad](../packing/abroad.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html).
+For what to buy, see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html) and the [full travel packing checklist](../packing/index.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html#abroad).
 
 ## Help in an emergency
 

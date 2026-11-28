@@ -177,7 +177,7 @@ For the full list, see the rules in our [Dubai packing list](../guides/dubai-pac
 - **Swimwear,** for the beach or the pool.
 - **Walking shoes,** sandals, sunglasses, sunscreen and a cap.
 
-For our picks, see the [Dubai packing list](../guides/dubai-packing-list.html), [which shoes to take](../guides/travel-shoes-guide.html), the [what-to-wear helper](../tools/what-to-wear.html#dubai) and the [checklist for trips abroad](../packing/abroad.html). Need a list for your exact dates and family? Try the [packing list maker](../tools/packing-list-maker.html).
+For our picks, see the [Dubai packing list](../guides/dubai-packing-list.html), [which shoes to take](../guides/travel-shoes-guide.html), the [what-to-wear helper](../tools/what-to-wear.html#dubai) and the [full travel packing checklist](../packing/index.html). Need a list for your exact dates and family? Try the [packing list maker](../tools/packing-list-maker.html#abroad).
 
 ## Emergency numbers
 

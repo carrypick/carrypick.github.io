@@ -171,7 +171,7 @@ For the full list, see the rules section of our [Singapore packing list](../guid
 - **For temples and mosques,** cover your shoulders and knees.
 - **An umbrella or poncho,** sunscreen, sunglasses and a cap.
 
-For our picks, see the [Singapore packing list](../guides/singapore-packing-list.html), [which shoes to take](../guides/travel-shoes-guide.html) and the [checklist for trips abroad](../packing/abroad.html). Need a list for your exact dates and family? Try the [packing list maker](../tools/packing-list-maker.html).
+For our picks, see the [Singapore packing list](../guides/singapore-packing-list.html), [which shoes to take](../guides/travel-shoes-guide.html) and the [full travel packing checklist](../packing/index.html). Need a list for your exact dates and family? Try the [packing list maker](../tools/packing-list-maker.html#abroad).
 
 ## Emergency numbers
 

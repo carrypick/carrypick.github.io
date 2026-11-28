@@ -11,7 +11,7 @@ glance: Visa for Indians=Needed: a Japan eVISA, applied for through VFS | Visa f
 ---
 Japan is on many Indian travellers' wish lists: bullet trains, Mount Fuji, Kyoto's temples, Tokyo's lights and the cherry blossom in spring. It's a longer trip than Southeast Asia, about 8 hours by direct flight from Delhi, and Indians need a visa. But the visa is now an eVISA through VFS, the fee for Indians is small, and trains make it easy to see a lot in a week. This guide covers the visa, flights, a 7-day itinerary, the Japan Rail Pass, the weather in December, cherry blossom dates and food for vegetarians.
 
-Packing for winter? Read our [Japan packing list](../guides/japan-packing-list.html), with what to wear, the plug, medicine rules and customs limits. You can also use our [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or ask the [what to wear helper](../tools/what-to-wear.html) for Japan's cold winter. Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html). Going on to Korea? See our [South Korea trip guide](south-korea-trip-from-india.html).
+Packing for winter? Read our [Japan packing list](../guides/japan-packing-list.html), with what to wear, the plug, medicine rules and customs limits. You can also use our [full travel packing checklist](../packing/index.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html#abroad), or ask the [what to wear helper](../tools/what-to-wear.html) for Japan's cold winter. Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html). Going on to Korea? See our [South Korea trip guide](south-korea-trip-from-india.html).
 
 Plugs: Japan uses flat-pin type A plugs at 100 V. See [which travel adapter for Japan to pack](../guides/travel-adapter-for-japan.html).
 
@@ -186,7 +186,7 @@ In Tokyo, stay near a JR Yamanote Line station: Shinjuku or Shibuya for nightlif
 - **Socks without holes,** because you take your shoes off in temples, some restaurants and traditional inns.
 - **Comfortable walking shoes:** you walk a lot in train stations and temples.
 
-For a checklist, see the [checklist for trips abroad](../packing/abroad.html) and the [winter packing list for the hills](../packing/hills.html). Need a list for your exact dates and family? Try the [packing list maker](../tools/packing-list-maker.html).
+For a checklist, see the [full travel packing checklist](../packing/index.html) and the [winter packing list for the hills](../packing/hills.html). Need a list for your exact dates and family? Try the [packing list maker](../tools/packing-list-maker.html#abroad).
 
 ## Help in an emergency
 

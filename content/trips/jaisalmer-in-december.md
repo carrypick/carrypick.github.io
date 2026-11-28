@@ -102,24 +102,20 @@ Rajasthani dishes such as dal baati churma, ker sangri and gatte ki sabzi, plus 
 
 ## What to wear in Jaisalmer in December
 
-What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#jaisalmer) for day and night temperatures and an outfit list by month.
-
-Full list: our [Rajasthan packing list](../guides/rajasthan-packing-list.html), with picks for the desert nights, the sun and the temples.
-
-Jaisalmer is warm by day and cold at night, especially in the desert, so pack for both:
+Jaisalmer's clothes problem is the gap between the fort at noon and a desert camp at midnight. IMD's December averages are about 25 °C by day and 10–11 °C at night in the town, and the open sand at Sam or Khuri feels colder still.
 
 | When | What to wear |
 |---|---|
-| Day | Light cotton clothes, a cap or hat, sunglasses and a scarf against the sun and sand |
-| Evening in town | A sweater or light jacket |
-| Night in a desert camp | A warm jacket, a thermal or warm layer underneath, a woollen cap and socks |
+| Day in the fort and havelis | Light cotton clothes, a cap or hat, sunglasses and a scarf against the sun and sand |
+| Sunset on the dunes | A sweater or fleece in your day bag: the temperature falls fast once the sun goes down, at about 5:50–6 PM |
+| Night in a desert camp | A warm jacket, a thermal layer underneath, a woollen cap and warm socks |
 
-- **Shoes:** closed walking shoes for the fort's stone streets and the sand. Sandals that slip off easily for temples.
-- **For the dunes:** a scarf or buff for wind-blown sand, and a zip pouch for your phone.
-- **For temples:** clothes that cover your shoulders and knees.
-- **Sunscreen and lip balm.** The desert air is dry and the sun is strong.
+- **Shoes:** closed walking shoes for the fort's stone lanes and the soft sand. Sandals fill with sand on a camel ride.
+- **Sand and wind:** a scarf or buff to cover your nose and mouth on a jeep safari, and a zip pouch for your phone and camera.
+- **Temples:** the Jain temples inside the fort expect covered shoulders and knees.
+- **Dry desert air:** lip balm, moisturiser and sunscreen.
 
-For our picks and full lists, see [which shoes to take](../guides/travel-shoes-guide.html), the [sunscreen guide](../guides/travel-sunscreen-guide.html), [what to wear on a winter trip](../guides/winter-clothes-for-hill-trips.html) and the [weekend trip packing checklist](../packing/index.html#weekend).
+For picks for the desert nights, see our [Rajasthan packing list](../guides/rajasthan-packing-list.html), [which shoes to take](../guides/travel-shoes-guide.html), the [sunscreen guide](../guides/travel-sunscreen-guide.html) and [winter clothes for cold trips](../guides/winter-clothes-for-hill-trips.html). The [what-to-wear helper](../tools/what-to-wear.html#jaisalmer) gives an outfit list for each month. Adding a city stop? [Udaipur](udaipur.html) has no desert camp, but its lake evenings are just as cold.
 
 ## Safety and local tips
 

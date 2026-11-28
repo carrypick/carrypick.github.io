@@ -11,7 +11,7 @@ glance: Visa for Indians=An e-visa online, on the official portal e-visa.gov.uz 
 ---
 Uzbekistan is one of the most talked-about new trips for Indians: the blue-tiled madrasas of the Registan in Samarkand, the old city of Bukhara, the walled town of Khiva, and the metro stations and bazaars of Tashkent. It's about 1,580 km from Delhi, under 3 hours by direct flight, and Indians can get an e-visa online in a few days. There are many links with India too: Babur, who founded the Mughal empire, was born in the Fergana Valley, and Indian films are popular. This guide covers the visa, flights, a 7-day plan by fast train, the weather by month, getting around and food for vegetarians.
 
-Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or ask the [what to wear helper](../tools/what-to-wear.html). Going in winter? Read our guide to [winter clothes](../guides/winter-clothes-for-hill-trips.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
+Packing for the trip? Use our [full travel packing checklist](../packing/index.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html#abroad), or ask the [what to wear helper](../tools/what-to-wear.html). Going in winter? Read our guide to [winter clothes](../guides/winter-clothes-for-hill-trips.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
 
 Plugs: Uzbekistan uses round-pin types C, E and F at 220 V. See [travel adapter by country](../guides/travel-adapter-by-country.html) for the adapter to pack.
 
@@ -158,7 +158,7 @@ In Tashkent, stay near Amir Timur Square or the Old City for the metro and sight
 - **Winter (December to February):** a warm jacket, thermals, a cap and gloves.
 - **Comfortable shoes** for cobbled lanes and long days on foot.
 
-For what to buy, see the [checklist for trips abroad](../packing/abroad.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html).
+For what to buy, see the [full travel packing checklist](../packing/index.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html#abroad).
 
 ## Help in an emergency
 

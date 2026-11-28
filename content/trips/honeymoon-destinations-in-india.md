@@ -121,7 +121,7 @@ It depends on where you go, how many nights you stay, how you travel and your ho
 ## What to pack and gift ideas
 
 - **Packing:** the [honeymoon packing list](../guides/honeymoon-packing-list.html) covers both of you, with a beach and a hill section. For snow, see [winter clothes for hill trips](../guides/winter-clothes-for-hill-trips.html) and the [hill station checklist](../packing/hills.html); for the coast, the [beach trip checklist](../packing/index.html#beach).
-- **Gifts:** shopping for newly-weds or your partner? See our [Christmas gift ideas for couples](../guides/christmas-gift-for-couples.html) and [anniversary gift ideas](../guides/anniversary-gift-ideas.html).
+- **Gifts:** shopping for newly-weds or your partner? Our [gift finder](../tools/gift-finder.html#occ=anniversary) suggests wedding and anniversary gifts for couples.
 
 ## Questions
 

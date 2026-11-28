@@ -151,7 +151,7 @@ Your ID or passport, boarding pass, phone, wallet, keys, a power bank, medicines
 - [Travel essentials for women](travel-essentials-for-women.html)
 - [40 litre carry-on travel backpacks](travel-backpack-40l-carry-on.html)
 - [Packing cubes](packing-cubes.html)
-- Buying it as a present? See our [wedding gift guide](wedding-gift-guide.html) and [New Year gift ideas](new-year-gift-ideas.html).
+- Buying it as a present? Our [gift finder](../tools/gift-finder.html#occ=wedding) suggests wedding gifts, and it has [New Year gift ideas](../tools/gift-finder.html#occ=new-year) too.
 
 ## Sources
 

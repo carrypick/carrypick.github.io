@@ -11,7 +11,7 @@ glance: Visa for Indians=No visa for up to 14 days for tourism; 30 days with a v
 ---
 The Philippines is over 7,000 islands of white beaches, limestone lagoons and coral reefs, and since June 2025 Indians can visit for a short holiday without a visa. The favourites are the lagoons of El Nido in Palawan, the white sand of Boracay, and the reefs and waterfalls around Cebu and Bohol. Air India flies direct from Delhi to Manila. This guide covers the visa-free rule and what to carry, flights, a 7-day island plan, the weather by month, getting around and food for vegetarians.
 
-Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html). Many people pair the Philippines with [Singapore](singapore-trip-from-india.html), [Hong Kong](hong-kong-trip-from-india.html) or [Thailand](thailand-trip-from-india.html).
+Packing for the trip? Use our [full travel packing checklist](../packing/index.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html#abroad), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html). Many people pair the Philippines with [Singapore](singapore-trip-from-india.html), [Hong Kong](hong-kong-trip-from-india.html) or [Thailand](thailand-trip-from-india.html).
 
 Plugs: The Philippines uses types A, B and C at 230 V. See [travel adapter by country](../guides/travel-adapter-by-country.html) for the adapter to pack.
 
@@ -157,7 +157,7 @@ In Manila, stay in Makati or Bonifacio Global City (BGC) for safe, walkable area
 - **A light rain jacket** from June to November, and a light layer for cold air-conditioning in malls and on buses.
 - **Churches:** cover your shoulders and knees.
 
-For what to buy, see the [checklist for trips abroad](../packing/abroad.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html).
+For what to buy, see the [full travel packing checklist](../packing/index.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html#abroad).
 
 ## Help in an emergency
 

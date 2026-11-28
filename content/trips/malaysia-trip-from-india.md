@@ -163,7 +163,7 @@ For a first trip, stay near a train station in KL: KL Sentral and Brickfields ar
 - **Medicines:** carry them in the original pack with your prescription.
 - **What to wear:** light cotton clothes, walking shoes, sandals, a cap, sunglasses and an umbrella. Carry one light layer for cold malls, buses and Genting.
 
-Not sure what to pack? Try the [what to wear helper](../tools/what-to-wear.html), the [checklist for trips abroad](../packing/abroad.html) and search [can I carry it on a flight?](../baggage/can-i-carry.html). Taking a power bank? Check it with the [power bank flight check](../tools/power-bank-flight-check.html).
+Not sure what to pack? Try the [what to wear helper](../tools/what-to-wear.html), the [checklist for trips abroad](../tools/packing-list-maker.html#abroad) and search [can I carry it on a flight?](../baggage/can-i-carry.html). Taking a power bank? Check it with the [power bank flight check](../tools/power-bank-flight-check.html).
 
 ## Emergency numbers
 

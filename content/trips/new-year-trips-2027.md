@@ -176,7 +176,7 @@ Compare hotels and flights for your dates:
 
 Pick the right list for your trip: the [Goa packing list](../guides/goa-packing-list.html), [Dubai packing list](../guides/dubai-packing-list.html), [Thailand packing list](../guides/thailand-packing-list.html), [Andaman packing list](../guides/andaman-packing-list.html) or [winter clothes for hill trips](../guides/winter-clothes-for-hill-trips.html). Not sure what to wear? Our [what-to-wear helper](../tools/what-to-wear.html) shows day and night temperatures and an outfit list by place and month.
 
-Not travelling this year? See our [New Year gift ideas](../guides/new-year-gift-ideas.html).
+Not travelling this year? Our [gift finder](../tools/gift-finder.html#occ=new-year) has New Year gift ideas.
 
 ## Questions
 

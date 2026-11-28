@@ -11,7 +11,7 @@ glance: Visa for Indians=Not needed for up to 14 days at a time, and 42 days in 
 ---
 Kazakhstan has become a favourite short trip abroad for Indians: there are direct flights from Delhi and Mumbai to Almaty, and Indians don't need a visa for a stay of up to 14 days. Almaty sits right below snowy mountains, so in one trip you get a modern city, a ski resort in the mountains just above the city, lakes and canyons. This guide covers the visa rule, flights, a 5-day Almaty plan, Almaty in winter, snow and skiing, getting around and food for vegetarians.
 
-Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), and for a winter trip our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html). Checking other countries? See which ones let Indians in without a visa in our [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html). Comparing trips abroad? See all our [international trips from India](international-trips-from-india.html).
+Packing for the trip? Use our [checklist for trips abroad](../tools/packing-list-maker.html#abroad), and for a winter trip our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html). Checking other countries? See which ones let Indians in without a visa in our [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html). Comparing trips abroad? See all our [international trips from India](international-trips-from-india.html).
 
 Plugs: Kazakhstan uses round-pin types C and F at 230 V. See [travel adapter by country](../guides/travel-adapter-by-country.html) for the adapter to pack.
 
@@ -153,7 +153,7 @@ In Almaty, stay in the centre near Panfilov Park, Arbat or Dostyk Avenue, close 
 - **Sunglasses and sunscreen** for the mountains.
 - **In summer,** light clothes for the city and a warm layer for the mountains.
 
-For what to buy, see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html) and the [checklist for trips abroad](../packing/abroad.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html).
+For what to buy, see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html) and the [full travel packing checklist](../packing/index.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html#abroad).
 
 ## Help in an emergency
 

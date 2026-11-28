@@ -11,7 +11,7 @@ glance: Visa for Indians=A Tourist Visit Visa online on the Royal Oman Police e-
 ---
 Oman is one of the closest trips abroad from India: about 2 hours' flight from Mumbai to Muscat, with direct flights from more than a dozen Indian cities. It has the grand mosque and old souq of Muscat, forts and date palms in Nizwa, a night in the Wahiba Sands desert, turquoise pools in Wadi Shab, and turtles at Ras al Jinz. Indians can apply for a tourist visa online, or visit for 14 days without a visa if they hold a valid US, UK, Schengen or similar visa. This guide covers the visa, flights, a 7-day plan, the weather by month, getting around and food for vegetarians.
 
-Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
+Packing for the trip? Use our [full travel packing checklist](../packing/index.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html#abroad), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
 
 Plugs: Oman uses UK-style type G plugs at 240 V, like Dubai. See [which travel adapter for Dubai and the Gulf to pack](../guides/travel-adapter-for-dubai.html).
 
@@ -167,7 +167,7 @@ In Muscat, stay near Qurum or Shatti Al Qurum for the beach and restaurants, or 
 - **Wadis:** sandals or water shoes and a swimsuit you can wear with a T-shirt and shorts over it.
 - **Sun:** a hat, sunglasses and sunscreen all year.
 
-For what to buy, see the [checklist for trips abroad](../packing/abroad.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html).
+For what to buy, see the [full travel packing checklist](../packing/index.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html#abroad).
 
 ## Help in an emergency
 

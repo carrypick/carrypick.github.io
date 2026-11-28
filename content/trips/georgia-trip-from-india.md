@@ -11,7 +11,7 @@ glance: Visa for Indians=Georgian e-visa online, US$20 plus a 2% service fee, pl
 ---
 Georgia, the small country between the Black Sea and the Caucasus mountains, has become a popular trip abroad for Indians: old churches on mountain tops, the old town of Tbilisi, wine villages, and snow and skiing in winter. Indians apply for a Georgian e-visa online, and those with a valid US, UK, EU or Schengen visa or residence permit don't need one at all. This guide covers the visa, flights, a 6-day plan, Georgia in December, skiing at Gudauri, getting around and food for vegetarians.
 
-Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), and for a winter trip our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html). Checking other countries? See which ones let Indians in without a visa in our [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html). Comparing trips abroad? See all our [international trips from India](international-trips-from-india.html).
+Packing for the trip? Use our [checklist for trips abroad](../tools/packing-list-maker.html#abroad), and for a winter trip our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html). Checking other countries? See which ones let Indians in without a visa in our [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html). Comparing trips abroad? See all our [international trips from India](international-trips-from-india.html).
 
 Plugs: Georgia uses round-pin types C and F at 220 V. See [which travel adapter for Europe and Georgia to pack](../guides/travel-adapter-for-europe.html).
 
@@ -160,7 +160,7 @@ In Tbilisi, stay in or near the old town and Rustaveli Avenue, close to the sigh
 - **Summer:** light clothes, plus a warm layer for Kazbegi, where it's cool even in July.
 - **For churches:** a scarf for women and long trousers or a long skirt.
 
-For what to buy, see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html) and the [checklist for trips abroad](../packing/abroad.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html).
+For what to buy, see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html) and the [full travel packing checklist](../packing/index.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html#abroad).
 
 ## Help in an emergency
 

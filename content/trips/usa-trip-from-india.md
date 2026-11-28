@@ -11,7 +11,7 @@ glance: Visa for Indians=Needed: the B1/B2 visitor visa, with an interview in In
 ---
 The USA is the big trip many Indians save up for: the skyline and the Statue of Liberty in New York, the lights of Las Vegas and the Grand Canyon, Hollywood and the beaches of Los Angeles, the Golden Gate Bridge in San Francisco, and the theme parks of Orlando. It's a long flight, about 15 to 16 hours direct from Delhi, and Indians need a visa with an interview, so plan early. This guide covers the B1/B2 visa, how to check the appointment waiting time, flights, a 10-day plan, the weather by month, US customs rules on food, getting around and food for vegetarians.
 
-Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
+Packing for the trip? Use our [full travel packing checklist](../packing/index.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html#abroad), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
 
 Plugs: The USA uses flat-pin type A and B plugs at 120 V. See [which travel adapter for the USA to pack](../guides/travel-adapter-for-usa.html).
 
@@ -163,7 +163,7 @@ In New York, stay in Midtown Manhattan to walk to Times Square, Central Park and
 - **Spring and autumn:** layers and a light jacket, and comfortable shoes: you'll walk a lot in New York.
 - **Summer:** light clothes, sunglasses and sunscreen, especially for Las Vegas and the Grand Canyon. Carry a sweater for San Francisco, which is cool even in July.
 
-For what to buy, see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html) and the [checklist for trips abroad](../packing/abroad.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html).
+For what to buy, see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html) and the [full travel packing checklist](../packing/index.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html#abroad).
 
 Going to the USA to study? See our [USA packing list for Indian students](../guides/usa-packing-list-for-indian-students.html), with the documents for your hand bag, student baggage and the customs rules on Indian food and medicines.
 

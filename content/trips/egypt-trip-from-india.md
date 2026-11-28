@@ -11,7 +11,7 @@ glance: Visa for Indians=An e-visa online, on the official portal, before you tr
 ---
 Egypt is the trip of a lifetime for many Indians: the pyramids and the Sphinx at Giza, the treasures of the Grand Egyptian Museum, a cruise on the Nile between Aswan and Luxor, and the temples and royal tombs of Luxor. It's about 4,400 km from Delhi, with direct flights to Cairo, and Indians can apply for an e-visa online. This guide covers the visa, flights, a 7-day plan with a Nile cruise, the weather by month, getting around and food for vegetarians.
 
-Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
+Packing for the trip? Use our [full travel packing checklist](../packing/index.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html#abroad), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
 
 Plugs: Egypt uses round-pin types C and F at 220 V. See [travel adapter by country](../guides/travel-adapter-by-country.html) for the adapter to pack.
 
@@ -150,7 +150,7 @@ In Cairo, stay near Giza for pyramid views and the Grand Egyptian Museum, or in 
 - **Summer:** loose, light cotton clothes, a sun hat, sunglasses and sunscreen.
 - **Comfortable closed shoes** for sand, stone steps and long walks around the temples.
 
-For what to buy, see the [checklist for trips abroad](../packing/abroad.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html).
+For what to buy, see the [full travel packing checklist](../packing/index.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html#abroad).
 
 ## Help in an emergency
 

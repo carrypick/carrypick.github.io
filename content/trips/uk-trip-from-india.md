@@ -11,7 +11,7 @@ glance: Visa for Indians=Needed: the Standard Visitor visa, applied for online |
 ---
 The UK is one of the most popular long-haul trips from India: London's palaces, museums and the Thames, the colleges of Oxford, the castle and old town of Edinburgh, and green countryside a short train ride away. Many Indians also have family and friends there. Indians need a visa, applied for online with an appointment at a visa centre in India, and the decision usually takes about 3 weeks. This guide covers the visa, documents, flights, a 7-day plan, the weather by month, getting around London and food for vegetarians.
 
-Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), and for a winter trip our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
+Packing for the trip? Use our [checklist for trips abroad](../tools/packing-list-maker.html#abroad), and for a winter trip our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
 
 Plugs: The UK uses type G plugs at 230 V. See [which travel adapter for the UK to pack](../guides/travel-adapter-for-uk.html).
 
@@ -164,7 +164,7 @@ In London, stay near a Tube station in Zones 1 or 2: Westminster, South Kensingt
 - **Summer:** light clothes, but keep a sweater or light jacket for cool evenings and rain.
 - **Comfortable walking shoes** in every season: London means a lot of walking and stairs.
 
-For what to buy, see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html) and the [checklist for trips abroad](../packing/abroad.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html).
+For what to buy, see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html) and the [full travel packing checklist](../packing/index.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html#abroad).
 
 Going to the UK to study? See our [UK packing list for Indian students](../guides/uk-packing-list-for-indian-students.html), with the documents for your hand bag, student baggage and the customs rules on Indian food and medicines.
 

@@ -11,7 +11,7 @@ glance: Visa for Indians=Schengen short-stay visa, up to 90 days in any 180 days
 ---
 A first Europe trip is a big dream for many Indian families and couples, and the most popular first plan is Switzerland, Paris and Italy in about 10 days. You need one visa for all three: the Schengen visa, which covers France, Italy, Switzerland and most of Europe. This guide covers which country to apply to, the documents, the multi-year visa rule for Indians, direct flights, a 10-day itinerary, the Swiss Travel Pass, the weather by month and food for vegetarians.
 
-Packing for the trip? Read our [Europe packing list](../guides/europe-packing-list.html), with what to wear in winter, plugs and EU customs limits. You can also use our [checklist for trips abroad](../packing/abroad.html) and the [international baggage rules](../baggage/international.html). Going in winter? See our [winter clothes guide](../guides/winter-clothes-for-hill-trips.html). On your honeymoon? See our [honeymoon packing list](../guides/honeymoon-packing-list.html). Comparing countries? See all our [international trips from India](international-trips-from-india.html), and the entry rules in our [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html#schengen).
+Packing for the trip? Read our [Europe packing list](../guides/europe-packing-list.html), with what to wear in winter, plugs and EU customs limits. You can also use our [checklist for trips abroad](../tools/packing-list-maker.html#abroad) and the [international baggage rules](../baggage/international.html). Going in winter? See our [winter clothes guide](../guides/winter-clothes-for-hill-trips.html). On your honeymoon? See our [honeymoon packing list](../guides/honeymoon-packing-list.html). Comparing countries? See all our [international trips from India](international-trips-from-india.html), and the entry rules in our [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html#schengen).
 
 Plugs: Most of Europe uses round-pin types C, E and F at 230 V. See [which travel adapter for Europe to pack](../guides/travel-adapter-for-europe.html).
 
@@ -203,7 +203,9 @@ In Paris, stay near a Métro station: around the Eiffel Tower, the Latin Quarter
 - **Cover your shoulders and knees** in churches such as St Peter's Basilica in the Vatican and St Mark's in Venice.
 - **A small umbrella or rain jacket** for any month.
 
-For our full list, see the [checklist for trips abroad](../packing/abroad.html). Need a list for your exact dates and family? Try the [packing list maker](../tools/packing-list-maker.html).
+For our full list, see the [full travel packing checklist](../packing/index.html). Need a list for your exact dates and family? Try the [packing list maker](../tools/packing-list-maker.html#abroad).
+
+Going to Germany to study? See our [Germany packing list for Indian students](../guides/germany-packing-list-for-indian-students.html), with the documents for your hand bag, what German customs lets students bring and the EU rules on Indian food.
 
 ## Help in an emergency
 

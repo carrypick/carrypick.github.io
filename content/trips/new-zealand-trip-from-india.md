@@ -11,7 +11,7 @@ glance: Visa for Indians=Needed: the Visitor Visa, applied for online before you
 ---
 New Zealand is the far-away dream trip: fiords and waterfalls at Milford Sound, the snowy peaks around Aoraki/Mount Cook, the turquoise lakes of Tekapo and Pukaki, adventure sports in Queenstown, the hot springs and Māori culture of Rotorua, and the Hobbiton movie set. There are no direct flights from India, so plan on one stop and a long journey, and Indians need a visa, applied for online. This guide covers the visa, flights, a 10-day plan, the weather by month, getting around and food for vegetarians.
 
-Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
+Packing for the trip? Use our [full travel packing checklist](../packing/index.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html#abroad), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
 
 Plugs: New Zealand uses type I plugs at 230 V, like Australia. See [which travel adapter for Australia and New Zealand to pack](../guides/travel-adapter-for-australia.html).
 
@@ -156,7 +156,7 @@ In Auckland, stay in the city centre near the waterfront. In Rotorua, stay near 
 - **Spring and autumn:** layers, a warm jacket and waterproof walking shoes.
 - **Winter (June to August):** a warm, waterproof coat, thermal innerwear, gloves and a woolly cap, especially in Queenstown.
 
-For what to buy, see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html) and the [checklist for trips abroad](../packing/abroad.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html).
+For what to buy, see our guide to [winter clothes for snow and hill trips](../guides/winter-clothes-for-hill-trips.html) and the [full travel packing checklist](../packing/index.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html#abroad).
 
 ## Help in an emergency
 

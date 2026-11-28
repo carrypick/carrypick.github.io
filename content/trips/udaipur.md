@@ -134,19 +134,15 @@ Incredible India suggests dal baati churma, gatte ki sabzi, ker sangri and laal 
 
 ## What to wear in Udaipur in December
 
-What should I wear? Try the [what-to-wear helper](../tools/what-to-wear.html#udaipur) for day and night temperatures and an outfit list by month.
+Udaipur's December nights are colder than many people expect: IMD's average low is about 8 °C (7 °C in January), against about 26 °C in the afternoon. Most of that cold arrives on the water, just when the day's best plans begin.
 
-Full list: our [Rajasthan packing list](../guides/rajasthan-packing-list.html), with picks for the desert nights, the sun and the temples.
+- **Afternoon in the City Palace:** light cotton clothes, a cap and sunglasses. The terraces and courtyards have little shade, and you will climb many stairs, so wear walking shoes with a good grip.
+- **Sunset boat on Lake Pichola:** the last ride ends at about 5 PM, and it gets cool on the open lake. Carry a sweater or light jacket in your bag before you board.
+- **After dark:** the Dharohar dance show at Bagore ki Haveli is in an open courtyard, and rooftop dinners by the lake are breezy. Wear a warm jacket, not just a shawl.
+- **Day trip to Ranakpur or Kumbhalgarh:** an early start means a cold car ride. At the Ranakpur temple, cover your shoulders and knees, and wear sandals that slip off easily.
+- **Sunscreen and lip balm.** The air is dry and the sun is strong, even in December.
 
-Udaipur is warm in the day and cold at night, so pack for both.
-
-- **For the day:** light cotton clothes, a cap and sunglasses. The sun is strong on boats and palace terraces.
-- **For the evening:** a warm jacket or sweater. Boat rides, rooftop dinners and the dance show all get cold after sunset.
-- **Shoes:** comfortable walking shoes for the palace's many steps and the hill forts, plus sandals that are easy to take off at temples.
-- **For temples:** clothes that cover your shoulders and knees, especially at Ranakpur, and a scarf or shawl.
-- **Sunscreen,** even in December.
-
-For our picks and full lists, see [which shoes to take](../guides/travel-shoes-guide.html), the [sunscreen guide](../guides/travel-sunscreen-guide.html), [handbags and slings for travel](../guides/handbag-and-sling-guide.html) and the [weekend trip packing checklist](../packing/index.html#weekend).
+For picks for the cold evenings and the sun, see our [Rajasthan packing list](../guides/rajasthan-packing-list.html), [which shoes to take](../guides/travel-shoes-guide.html) and [handbags and slings for travel](../guides/handbag-and-sling-guide.html). The [what-to-wear helper](../tools/what-to-wear.html#udaipur) gives an outfit list for each month. Going on to the desert? Nights in a Thar camp are colder again: see [what to wear in Jaisalmer](jaisalmer-in-december.html#what-to-wear-in-jaisalmer-in-december).
 
 ## Safety and local tips
 

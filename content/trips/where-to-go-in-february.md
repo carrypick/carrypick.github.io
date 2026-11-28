@@ -154,7 +154,7 @@ Not sure what to pack? Our [what to wear helper](../tools/what-to-wear.html) sug
 
 February is the end of the wedding season, and many couples travel in the week of Valentine's Day (Sunday 14 February 2027). For a beach, pick the Andaman, Goa, the Maldives or Sri Lanka; for snow, Gulmarg or Manali; for palaces and lakes, Udaipur and Jaipur.
 
-Compare month by month in our [honeymoon destinations in India](honeymoon-destinations-in-india.html) and [honeymoon destinations outside India](honeymoon-destinations-outside-india.html). Staying home? See our [Valentine's Day gift ideas](../guides/valentines-day-gift-ideas.html), and pack with our [honeymoon packing list](../guides/honeymoon-packing-list.html).
+Compare month by month in our [honeymoon destinations in India](honeymoon-destinations-in-india.html) and [honeymoon destinations outside India](honeymoon-destinations-outside-india.html). Staying home? Our [gift finder](../tools/gift-finder.html#occ=valentines) has Valentine's Day ideas, and pack with our [honeymoon packing list](../guides/honeymoon-packing-list.html).
 
 ## Plan your budget
 

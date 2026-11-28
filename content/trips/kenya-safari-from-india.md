@@ -11,7 +11,7 @@ glance: Visa for Indians=An eTA (electronic travel authorisation), applied for o
 ---
 Kenya is Africa's classic safari, and one of the closest from India: lions, elephants, cheetahs and giraffes on the open grass of the Masai Mara, the wildebeest migration and its river crossings, flamingos and rhinos at Lake Nakuru, and elephants under Mount Kilimanjaro at Amboseli. Mumbai has direct flights to Nairobi, about 6 hours, and Indians apply for an eTA online. This guide covers the eTA, flights, a 7-day safari plan, park fees, the dry and rainy seasons, health rules, getting around and food for vegetarians.
 
-Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
+Packing for the trip? Use our [full travel packing checklist](../packing/index.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html#abroad), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html).
 
 Plugs: Kenya uses UK-style type G plugs at 240 V. See [travel adapter by country](../guides/travel-adapter-by-country.html) for the adapter to pack.
 
@@ -180,7 +180,7 @@ In Nairobi, stay near the airport for a late arrival, or in Westlands or Karen. 
 - **Comfortable closed shoes,** and a soft bag if you're taking a small plane.
 - **Binoculars** make a big difference on game drives.
 
-For the full list, with Kenya Wildlife Service's own packing advice and the soft-bag rule for safari planes, read our [Kenya safari packing list](../guides/kenya-safari-packing-list.html). See also the [checklist for trips abroad](../packing/abroad.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html).
+For the full list, with Kenya Wildlife Service's own packing advice and the soft-bag rule for safari planes, read our [Kenya safari packing list](../guides/kenya-safari-packing-list.html). See also the [full travel packing checklist](../packing/index.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html#abroad).
 
 ## Help in an emergency
 

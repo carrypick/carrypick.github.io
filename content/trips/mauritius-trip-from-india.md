@@ -11,7 +11,7 @@ glance: Visa for Indians=Not needed, says Mauritius's Passport and Immigration O
 ---
 Mauritius is one of the easiest beach holidays abroad for Indians. You don't need a visa, there are direct flights from four Indian cities, and with its Indian-origin population, Hindi and Bhojpuri words, temples and vegetarian food, many Indians feel at home. It's a favourite for honeymoons: blue lagoons, resorts on white beaches and a mountain backdrop. This guide covers the entry rules, the travel form, flights, a 5-day itinerary, honeymoon tips, the weather and food.
 
-Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), the [beach trip checklist](../packing/index.html#beach) and the [international baggage rules](../baggage/international.html). On your honeymoon? See our [honeymoon packing list](../guides/honeymoon-packing-list.html#beach-honeymoon-maldives-bali-goa-and-kerala), and compare Mauritius with other [honeymoon destinations outside India](honeymoon-destinations-outside-india.html). Comparing countries? See all our [international trips from India](international-trips-from-india.html), and the entry rules in our [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html#mauritius).
+Packing for the trip? Use our [checklist for trips abroad](../tools/packing-list-maker.html#abroad), the [beach trip checklist](../packing/index.html#beach) and the [international baggage rules](../baggage/international.html). On your honeymoon? See our [honeymoon packing list](../guides/honeymoon-packing-list.html#beach-honeymoon-maldives-bali-goa-and-kerala), and compare Mauritius with other [honeymoon destinations outside India](honeymoon-destinations-outside-india.html). Comparing countries? See all our [international trips from India](international-trips-from-india.html), and the entry rules in our [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html#mauritius).
 
 Plugs: Mauritius uses types C, E and G at 230 V. See [travel adapter by country](../guides/travel-adapter-by-country.html) for the adapter to pack.
 
@@ -163,7 +163,7 @@ For a first trip, Grand Baie and Trou aux Biches in the north are handy for rest
 - **Water shoes or sandals with a strap** for boat trips and rocky beaches.
 - **A light jacket** for the cool season (June to September) and for evenings in the hills.
 
-For our full lists, see the [beach trip checklist](../packing/index.html#beach), the [checklist for trips abroad](../packing/abroad.html) and the [honeymoon packing list](../guides/honeymoon-packing-list.html). Need a list for your exact dates and family? Try the [packing list maker](../tools/packing-list-maker.html).
+For our full lists, see the [beach trip checklist](../packing/index.html#beach), the [full travel packing checklist](../packing/index.html) and the [honeymoon packing list](../guides/honeymoon-packing-list.html). Need a list for your exact dates and family? Try the [packing list maker](../tools/packing-list-maker.html#abroad).
 
 ## Help in an emergency
 

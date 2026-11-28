@@ -179,7 +179,7 @@ June is hot and humid in the plains, wet on the coasts, and cool to cold in the 
 
 [[pick:B07FM7TPPY]]
 
-Build a full list for your trip with the [packing list maker](../tools/packing-list-maker.html), or start from our [hill trip checklist](../packing/hills.html) or the [checklist for trips abroad](../packing/abroad.html). Our [what to wear helper](../tools/what-to-wear.html) suggests clothes for your place and month.
+Build a full list for your trip with the [packing list maker](../tools/packing-list-maker.html#abroad), or start from our [hill trip checklist](../packing/hills.html) or the [full travel packing checklist](../packing/index.html). Our [what to wear helper](../tools/what-to-wear.html) suggests clothes for your place and month.
 
 ## Honeymoon trips in June
 

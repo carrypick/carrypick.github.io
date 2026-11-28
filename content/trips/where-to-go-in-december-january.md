@@ -120,6 +120,7 @@ More January guides: [Kashmir in January](kashmir-in-january.html) and [Thailand
 - **Book early.** Christmas to New Year is peak season, and prices rise every week.
 - **Check your baggage limits.** Most Indian airlines allow a 7 kg cabin bag on domestic flights. See [IndiGo's baggage rules](../baggage/indigo.html), or check any airline with our [baggage checker](../baggage/checker.html).
 - **Check what you can carry.** Power banks must stay in your cabin bag: see [can you carry a power bank](../baggage/can-i-carry/power-bank.html). Bringing home sweets or alcohol? See [sweets and home food](../baggage/can-i-carry/sweets-and-home-food.html) and [alcohol](../baggage/can-i-carry/alcohol.html).
+- **Pack once, for any trip.** Start with our [travel packing checklist](../packing/index.html), then add the cold-weather layers from the [winter packing list for the hills](../packing/hills.html).
 - **Dress for the place.** See [what to wear on a winter hill trip](../guides/winter-clothes-for-hill-trips.html) and our [winter jackets for travel](../guides/winter-jacket-for-travel.html).
 - **Honeymoon?** See our [honeymoon destinations in India](honeymoon-destinations-in-india.html) and [outside India](honeymoon-destinations-outside-india.html).
 

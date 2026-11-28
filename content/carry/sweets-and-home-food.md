@@ -7,7 +7,7 @@ date: 2026-11-10
 updated: 2026-11-28
 checked_against: IndiGo, Air India, Akasa Air and airport security rules
 sources: IndiGo list of things not allowed in flight=https://www.goindigo.in/baggage/dangerous-goods-policy.html | Akasa Air conditions of carriage=https://www.akasaair.com/quick-links/conditions-of-carriage | Air India restricted items=https://www.airindia.com/in/en/travel-information/baggage-guidelines/restricted-baggage.html | Kannur Airport security list (based on BCAS rules)=https://kannurairport.aero/corporate/security | GOV.UK: bringing food into Great Britain (read 28 Nov 2026)=https://www.gov.uk/bringing-food-animals-plants-into-uk | GOV.UK: meat, dairy, fish and animal products (read 28 Nov 2026)=https://www.gov.uk/bringing-food-into-great-britain/meat-dairy-fish-animal-products | US CBP: bringing agricultural products into the US (read 28 Nov 2026)=https://www.cbp.gov/travel/clearing-cbp/bringing-agricultural-products-united-states | Singapore Food Agency: food allowed for travellers (read 28 Nov 2026)=https://www.sfa.gov.sg/bringing-food-for-private-consumption-from-overseas/list-of-food---food-products-allowed
-related: packing/index.html#wedding=Wedding packing list | guides/wedding-gift-guide.html=Wedding gift ideas | tools/bag-weight.html=Excess baggage calculator | baggage/index.html=Airline baggage rules
+related: packing/index.html#wedding=Wedding packing list | tools/gift-finder.html#occ=wedding=Wedding gift ideas | tools/bag-weight.html=Excess baggage calculator | baggage/index.html=Airline baggage rules
 ---
 Can you carry sweets, mithai or a tiffin on a flight in India? Dry sweets and snacks, yes, in hand luggage and check-in. Sweets in syrup and runny food follow the liquids rule.
 
@@ -20,7 +20,7 @@ From IndiGo's list of things not allowed in flight, unless the row says otherwis
 | Dry sweets: ladoo, barfi, soan papdi | Yes | Yes |
 | Namkeen, biscuits, dry snacks | Yes | Yes |
 | Dry cake | Yes | Yes |
-| Dry fruits | Yes | Yes, but no dry coconut |
+| [Dry fruits](dry-fruits.html) | Yes | Yes, but no dry coconut |
 | Fruits and vegetables | Yes | Yes |
 | Sweets in syrup: rasgulla, gulab jamun | 100 ml liquids rule | Not listed, pack a sealed tin |
 | Oily food | No | No |

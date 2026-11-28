@@ -171,7 +171,7 @@ The full list, with sources, is in our [Vietnam packing list](../guides/vietnam-
 - **A scarf or stole** to cover your shoulders at temples and the Ho Chi Minh Mausoleum.
 - **Comfortable walking shoes** for the Old Quarter and the old town of Hoi An.
 
-For our picks, see the [Vietnam packing list](../guides/vietnam-packing-list.html), the [beach trip checklist](../packing/index.html#beach) and the [checklist for trips abroad](../packing/abroad.html). Need a list for your exact dates and family? Try the [packing list maker](../tools/packing-list-maker.html).
+For our picks, see the [Vietnam packing list](../guides/vietnam-packing-list.html), the [beach trip checklist](../packing/index.html#beach) and the [full travel packing checklist](../packing/index.html). Need a list for your exact dates and family? Try the [packing list maker](../tools/packing-list-maker.html#abroad).
 
 ## Help in an emergency
 

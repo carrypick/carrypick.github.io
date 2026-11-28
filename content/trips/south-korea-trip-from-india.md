@@ -11,7 +11,7 @@ glance: Visa for Indians=A Korean visa before you fly, applied through the Korea
 ---
 South Korea is one of the fastest-growing trips for Indians: K-dramas and K-pop, royal palaces and street food in Seoul, the beaches and fish markets of Busan, old temples in Gyeongju, and the volcanic island of Jeju. Indians need a visa for mainland Korea, applied for in India, so plan at least six weeks ahead. This guide covers the visa, flights, a 7-day plan, the weather by month, getting around, money and food for vegetarians.
 
-Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or read our guide to [winter clothes](../guides/winter-clothes-for-hill-trips.html) for a December trip. Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html). Korea is often combined with [Japan](japan-trip-from-india.html) or [Hong Kong](hong-kong-trip-from-india.html).
+Packing for the trip? Use our [full travel packing checklist](../packing/index.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html#abroad), or read our guide to [winter clothes](../guides/winter-clothes-for-hill-trips.html) for a December trip. Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html) and compare all our [international trips from India](international-trips-from-india.html). Korea is often combined with [Japan](japan-trip-from-india.html) or [Hong Kong](hong-kong-trip-from-india.html).
 
 Plugs: South Korea uses round-pin types C and F at 220 V. See [travel adapter by country](../guides/travel-adapter-by-country.html) for the adapter to pack.
 
@@ -198,7 +198,7 @@ In Seoul, stay near Myeongdong or City Hall for shopping and easy airport buses,
 - **Temples:** dress modestly and take off your shoes where asked.
 - **Comfortable walking shoes:** you'll walk a lot, with many stairs in metro stations and hilly areas.
 
-Going in winter? See our [South Korea winter packing list](../guides/south-korea-packing-list.html) and the [winter jacket for travel guide](../guides/winter-jacket-for-travel.html). For more, see the [checklist for trips abroad](../packing/abroad.html) and our [winter clothes guide](../guides/winter-clothes-for-hill-trips.html). Make a full list with the [packing list maker](../tools/packing-list-maker.html).
+Going in winter? See our [South Korea winter packing list](../guides/south-korea-packing-list.html) and the [winter jacket for travel guide](../guides/winter-jacket-for-travel.html). For more, see the [full travel packing checklist](../packing/index.html) and our [winter clothes guide](../guides/winter-clothes-for-hill-trips.html). Make a full list with the [packing list maker](../tools/packing-list-maker.html#abroad).
 
 ## Help in an emergency
 

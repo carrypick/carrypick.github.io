@@ -11,7 +11,7 @@ glance: Visa for Indians=None: a free visitor's permit on arrival for up to 3 mo
 ---
 The Seychelles are 115 islands in the Indian Ocean, and one of the easiest beach trips abroad for Indians: no visa, and a direct flight from Mumbai to Mahé. Think granite boulders on white sand at Anse Source d'Argent, the coco de mer palms of the Vallée de Mai on Praslin, bicycles on La Digue, and warm, clear water all year. It's a favourite honeymoon. This guide covers the entry rules and the Travel Authorisation, flights, a 7-day plan across three islands, the weather by month, getting around, food for vegetarians, and money.
 
-Packing for the trip? Use our [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html), compare all our [international trips from India](international-trips-from-india.html), or see more [honeymoon destinations outside India](honeymoon-destinations-outside-india.html).
+Packing for the trip? Use our [full travel packing checklist](../packing/index.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html#abroad), or ask the [what to wear helper](../tools/what-to-wear.html). Checking other countries? See the [visa guide for Indian passport holders](../guides/visa-free-countries-for-indians.html), compare all our [international trips from India](international-trips-from-india.html), or see more [honeymoon destinations outside India](honeymoon-destinations-outside-india.html).
 
 Plugs: the Seychelles use UK-style type G plugs at 240 V. See [which travel adapter for the UK to pack](../guides/travel-adapter-for-uk.html): the same adapter works here.
 
@@ -158,7 +158,7 @@ On Mahé, stay near Beau Vallon for an easy beach with restaurants, or in the qu
 - **A light rain jacket** or umbrella for the showers, and a thin layer for air-conditioned rooms and the evening breeze.
 - **In town and at temples or churches,** cover your shoulders and knees; swimwear is only for the beach and the pool.
 
-For what to buy, see the [checklist for trips abroad](../packing/abroad.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html).
+For what to buy, see the [full travel packing checklist](../packing/index.html). Not sure what to pack for your dates? Ask the [what to wear helper](../tools/what-to-wear.html), or make a full list with the [packing list maker](../tools/packing-list-maker.html#abroad).
 
 ## Help in an emergency
 

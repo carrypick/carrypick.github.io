@@ -222,7 +222,7 @@ Each list has what to wear, the bag limits by airline and the things you can't b
 - [Malaysia packing list](../guides/malaysia-packing-list.html)
 - [Umrah packing list](../guides/umrah-packing-list.html), with the Zamzam water rules by airline
 
-Going to Malaysia, Hong Kong, Japan, Mauritius, Europe or another country? Use the [checklist for trips abroad](../packing/abroad.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html), or ask the [what to wear helper](../tools/what-to-wear.html).
+Going to Malaysia, Hong Kong, Japan, Mauritius, Europe or another country? Use the [full travel packing checklist](../packing/index.html), make a list for your dates with the [packing list maker](../tools/packing-list-maker.html#abroad), or ask the [what to wear helper](../tools/what-to-wear.html).
 
 ## Baggage, customs and power banks
 
