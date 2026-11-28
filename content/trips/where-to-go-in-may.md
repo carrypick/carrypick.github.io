@@ -3,6 +3,7 @@ seo_title: Places to visit in May 2027 in India and abroad
 title: Where to go in May: summer vacation places in India and abroad
 description: The best places to visit in May 2027, the school summer holiday month, in India and outside India: hill stations and cool places (Kashmir, Manali, Shimla, Mussoorie, Nainital, Darjeeling, Meghalaya, Ooty, Munnar), the Char Dham yatra, when the roads to Ladakh and Spiti open, heat-wave safety, and abroad Europe, Japan, Bali, Georgia, Kazakhstan, Uzbekistan, Bhutan and Singapore, with the Bakrid and Buddha Purnima long weekends of May 2027.
 date: 2026-11-25
+updated: 2026-11-28
 place: India and abroad in May
 best: May
 photo: kedarnath-temple
@@ -214,14 +215,6 @@ Europe, Japan after Golden Week, Georgia, Uzbekistan, Bali and Bhutan are all in
 ### Is there a long weekend in May 2027?
 
 Yes. Bakrid on Monday 17 May gives 3 days with no leave (15–17 May), though the date may move with the moon. Buddha Purnima on Thursday 20 May gives 4 days with Friday 21 May off. With 3 days off (18, 19 and 21 May) you get 9 days from 15 to 23 May. See our [long weekends 2027 planner](../tools/long-weekends-2027.html).
-
-### When do Kedarnath and Badrinath open in 2027?
-
-Not yet. The 2027 opening dates are to be announced. In 2026, Kedarnath opened on 22 April and Badrinath on 23 April, and Gangotri and Yamunotri on 19 April, Akshaya Tritiya. The dates are fixed by the temple committees each year, so check the official Badrinath-Kedarnath Temple Committee site, and register for the yatra on the Uttarakhand government's portal before you go.
-
-### Is the Manali–Leh road open in May?
-
-Usually not in early May. In 2026 BRO finished clearing the road on 12 May, and it opened to light vehicles on 15 May. The 2027 date is to be announced. The Srinagar–Zoji La road usually opens earlier, and you can fly to Leh all year.
 
 ## Related guides
 

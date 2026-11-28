@@ -3,6 +3,7 @@ seo_title: Places to visit in March 2027 in India and abroad
 title: Where to go in March: places to visit in India and abroad
 description: The best places to visit in March 2027, in India and outside India: Holi on 23 March in Mathura, Vrindavan and Varanasi, the last snow in Gulmarg and Auli, hill stations opening up, the Andaman's calm sea, Goa's Shigmo, the International Yoga Festival in Rishikesh, and abroad Vietnam, Sri Lanka, the Maldives, Singapore, Japan's cherry blossom, Dubai and Egypt, with March's long weekends, including the 9-day Holi and Good Friday break.
 date: 2026-11-25
+updated: 2026-11-28
 place: India and abroad in March
 best: March
 photo: tokyo-meguro-cherry-blossom
@@ -175,10 +176,6 @@ Vietnam (the best weather for the whole country), Sri Lanka, the Maldives and Si
 ### Is there a long weekend in March 2027?
 
 Yes, two. Holi falls on Tuesday 23 March, so with Monday 22 March off you get 4 days from Saturday 20 March. Good Friday on 26 March gives 3 days with no leave. With 3 days off (22, 24 and 25 March) you can join them into 9 days. See our [long weekends 2027 planner](../tools/long-weekends-2027.html).
-
-### When is Holi in 2027?
-
-Tuesday 23 March 2027, with Holika Dahan on Monday 22 March, says the central government holiday list. See [where to celebrate Holi](holi-2027.html).
 
 ### Is March a good time to visit Goa?
 

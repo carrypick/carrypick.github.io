@@ -3,6 +3,7 @@ seo_title: Spiti Valley trip guide 2027: best time, routes, 8-day plan
 title: Spiti Valley trip guide: best time, routes, permits and an 8-day plan
 description: Plan a Spiti Valley trip for 2027: the best time to visit, the two roads in (Shimla–Kinnaur all year, Manali–Kunzum La only in summer), when Kunzum opened in 2026, permits for foreigners from the Kinnaur and Lahaul-Spiti districts, altitude, an 8-day Spiti circuit, Spiti in winter and what to wear.
 date: 2026-11-25
+updated: 2026-11-28
 place: Spiti Valley
 best: June to September (by road from both sides)
 photo: key-monastery-spiti
@@ -69,6 +70,7 @@ Going by train? See the [Indian Railways luggage rules](../baggage/train-luggage
 - **Without the permit,** foreigners can visit Kaza and trek from Kaza via Kibber and Parang La, says the Kinnaur district. So coming from Manali to Kaza doesn't need one, but going on to Tabo and Kinnaur does.
 - **Group size and validity differ by page.** Kinnaur says groups of two or more, through a recognised Indian travel agency, for up to 30 days, at ₹200 a person (page updated July 2023). The Lahaul-Spiti page (updated 2018) says groups of four or more. Ask the issuing office before you plan.
 - **Where to get it:** the SDM offices at Reckong Peo (Kinnaur) or Kaza (Spiti, 01906-222302), or the District Magistrate at Keylong (01900-222501). Carry your passport, visa and photocopies.
+- **Register where you stay.** The Lahaul-Spiti district says hotels must report foreign guests (Form C) within 24 hours.
 - **Shipki La and Kaurik:** Kinnaur says no access is permitted on the roads leading to these border areas from the highway.
 
 ## Altitude and health in Spiti
@@ -140,13 +142,7 @@ Prefer a ready-made trip? Compare Spiti tour packages, and check what each one i
 
 ## Spiti in winter
 
-Going between December and February? Read our full [Spiti in winter guide](spiti-in-winter.html): the Kinnaur road, IMD winter temperatures, snow leopards, homestays and a 7-day winter route.
-
-- **Only the Kinnaur road is open.** Kunzum La is shut by snow, so you go in and out through Shimla and Kinnaur.
-- **It's extremely cold,** well below freezing at night. Water pipes freeze, and many hotels and camps close, so stay in homestays that stay open in winter.
-- **Roads can close after snow** for a day or more. Keep 2–3 spare days, and travel with a local driver who knows the road in winter.
-- **Chandratal and Kunzum are out of reach** in winter.
-- **Pack for serious cold:** see our [snow trip packing list](../guides/snow-trip-packing-list.html).
+From December to February only the Shimla–Kinnaur road is open: Kunzum La and Chandratal are shut by snow, nights are far below freezing, many hotels close, and snow can block the road for a day or more. It's a different trip, so we cover it on its own page: [Spiti in winter](spiti-in-winter.html), with [the winter road](spiti-in-winter.html#is-spiti-open-in-winter), [winter temperatures](spiti-in-winter.html#spiti-weather-in-december-january-and-february), [snow leopards](spiti-in-winter.html#snow-leopards-in-spiti) and a [7-day winter route](spiti-in-winter.html#spiti-winter-trip-plan-7-days-from-shimla). Pack for serious cold with our [snow trip packing list](../guides/snow-trip-packing-list.html).
 
 ## Where to book your stay
 
@@ -183,10 +179,6 @@ For the full list, use our [snow trip packing list](../guides/snow-trip-packing-
 ### What is the best time to visit Spiti Valley?
 
 June to September, when both the Kinnaur road and the Manali–Kunzum La road are usually open, so you can do the full circuit. October is clear but very cold, and in winter only the Kinnaur road is open.
-
-### Is Spiti Valley open in winter?
-
-Yes, by the Shimla–Kinnaur road only. Kunzum La is closed by snow, and roads can close for a day or more after snowfall, so keep spare days.
 
 ### When does Kunzum Pass open?
 

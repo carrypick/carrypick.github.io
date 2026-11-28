@@ -1,8 +1,9 @@
 ---
-seo_title: Kashmir in December 2026: weather, Gulmarg snow, what to wear
+seo_title: Kashmir in December 2026: weather, snow, what to wear
 title: Kashmir in December: weather, snow and what to wear
-description: Plan Srinagar, Gulmarg, Pahalgam and Sonamarg for December: IMD temperatures, when snow comes, Chillai Kalan, the Gulmarg Gondola, trains and roads in winter, phone SIMs, and what to wear and pack.
+description: Plan Kashmir for December: IMD temperatures for Srinagar, Pahalgam and Gulmarg, when snow comes, Chillai Kalan from 21 December, which places are open, trains and roads in winter, phone SIMs, and what to wear.
 date: 2026-11-15
+updated: 2026-11-28
 place: Kashmir
 best: Dec–Feb for snow
 photo: gulmarg-gondola
@@ -44,13 +45,9 @@ Check the forecast in the week before you go. If snow matters most, plan for lat
 
 ## The Gulmarg Gondola
 
-The gondola goes up from Gulmarg in two stages: Phase 1 to Kongdori, and Phase 2 higher up, on Apharwat. It's the easiest way to reach deep snow. Staying in Gulmarg? Read our full [Gulmarg in December guide](gulmarg-in-december.html): the first week versus the last week, the gondola phases and skiing.
+The gondola goes up from Gulmarg in two stages, Phase 1 to Kongdori and Phase 2 higher up on Apharwat, and it's the easiest way to reach deep snow. Book only on the official J&K Cable Car Corporation site, [etickets.jammukashmircablecar.com](https://etickets.jammukashmircablecar.com/), never from touts, and keep a spare day, because Phase 2 often stops in bad weather.
 
-- **Book only on the official site.** The J&K Cable Car Corporation sells tickets online at [etickets.jammukashmircablecar.com](https://etickets.jammukashmircablecar.com/), and its own site asks tourists not to fall prey to touts. News reports say tickets bought any other way aren't valid, and police have caught tourists with fake tickets.
-- **Phase 2 stops in bad weather.** Services are often stopped when snow or strong wind comes in. Plan the gondola for your first clear morning, and keep a spare day.
-- **It's much colder at the top.** Wear every layer you have, plus gloves, a cap and sunglasses.
-
-**Skiing:** Gulmarg is India's best-known ski area. The snow events of the Khelo India Winter Games were held there in February 2026, but the 2025 events had to be postponed because there wasn't enough snow. For skiing, January to March is safer than December.
+Staying in Gulmarg? Our [Gulmarg in December guide](gulmarg-in-december.html) has the full detail: [the gondola phases and booking](gulmarg-in-december.html#the-gulmarg-gondola), [skiing](gulmarg-in-december.html#skiing-in-gulmarg), and the first week versus the last week. For skiing, January to March is safer than December: see [skiing in Gulmarg in January](gulmarg-in-january.html#skiing-in-gulmarg-in-january).
 
 ## Getting there in winter
 
@@ -177,10 +174,6 @@ The 40 coldest days of the Kashmir winter. It starts on 21 December and lasts un
 ### Do prepaid SIM cards work in Kashmir?
 
 Prepaid SIMs from other states usually don't work in Jammu and Kashmir. Carry a postpaid SIM, or buy a local prepaid SIM there with your ID.
-
-### How do I book the Gulmarg Gondola?
-
-Only online, on the J&K Cable Car Corporation's official site, etickets.jammukashmircablecar.com. Don't buy from touts: tickets bought any other way aren't valid. Phase 2 often stops in bad weather, so keep a spare day.
 
 ### Can I go to Srinagar by train in winter?
 

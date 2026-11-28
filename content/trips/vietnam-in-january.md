@@ -3,6 +3,7 @@ seo_title: Vietnam in January 2027: weather, Tet dates, where to go
 title: Vietnam in January: weather by region, Tet 2027 and where to go
 description: Plan Vietnam for January 2027: weather averages for Hanoi, Sa Pa, Ha Long, Hue, Da Nang and Hoi An, Ho Chi Minh City and Phu Quoc, Tet on 6 February 2027 and the official 4 to 10 February break, the train rush from 23 January, Ha Long cruises in winter, a north-to-south route and the e-visa for Indians.
 date: 2026-11-24
+updated: 2026-11-28
 place: Vietnam in January
 hub_title: no
 best: January is dry and sunny in the south, cool and grey in the north
@@ -137,10 +138,6 @@ Saturday 6 February 2027. The official holiday for government staff runs from 4 
 ### Should I avoid Vietnam during Tet?
 
 Not necessarily, but plan for it. Trains, flights and buses fill up in the week before Tet, and many small shops and restaurants close for the first days. Travelling in the first three weeks of January avoids this.
-
-### Do Indians need a visa for Vietnam?
-
-Yes. Apply for the e-visa on evisa.gov.vn before you fly. The exception is Phu Quoc: if you fly straight there and stay only on the island, you can stay up to 30 days without a visa.
 
 ## Sources
 

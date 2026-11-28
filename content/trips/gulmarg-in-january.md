@@ -3,6 +3,7 @@ seo_title: Gulmarg in January 2027: snow, skiing, gondola and weather
 title: Gulmarg in January: snow, skiing and the gondola
 description: Plan Gulmarg for January 2027: IMD January averages and how much snow a January can bring, the first week versus the last week, IISM's January ski courses, the Gulmarg Gondola in deep snow, the Tangmarg road, Republic Day, a 3-day plan and what to wear.
 date: 2026-11-24
+updated: 2026-11-28
 place: Gulmarg in January
 hub_title: no
 best: January to March for skiing
@@ -69,10 +70,11 @@ Later courses run until 13 March. Book only on [iismgulmarg.in](https://iismgulm
 
 ## The Gulmarg Gondola in January
 
-- **Phase 1** runs from Gulmarg up to **Kongdori**, at about 3,100 m. It's the one that runs most days, even in winter.
-- **Phase 2** goes on to about **3,980 m on Apharwat**. It's the first to stop in a snowstorm, strong wind or an avalanche warning. Go on your first clear morning.
-- **Book online only** at the J&K Cable Car Corporation's official site, [etickets.jammukashmircablecar.com](https://etickets.jammukashmircablecar.com/). The corporation asks tourists not to buy from touts. We don't show fares: the official site has them.
-- **At the top,** wear every layer you have, plus gloves, a cap and sunglasses.
+- **Phase 1**, up to **Kongdori** at about 3,100 m, is the one that runs most days, even in deep January snow.
+- **Phase 2**, up to about **3,980 m on Apharwat**, is the first to stop in a snowstorm, strong wind or an avalanche warning. Go on your first clear morning, and keep a spare day.
+- **Book online only** at [etickets.jammukashmircablecar.com](https://etickets.jammukashmircablecar.com/), and wear every layer you have at the top.
+
+How the two phases differ, the Kongdori chair lift and how to book without touts are in our [Gulmarg in December guide](gulmarg-in-december.html#the-gulmarg-gondola).
 
 ## Gulmarg trip plan for January: 3 days
 

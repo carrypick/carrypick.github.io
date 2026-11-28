@@ -3,7 +3,7 @@ seo_title: Goa trip plan: 3, 4 and 5 day itinerary and best time
 title: Goa trip plan: itineraries for 3, 4 and 5 days, the best time to go, and the rules to know
 description: A Goa trip plan you can follow: day-by-day routes for 3, 4 and 5 days, North or South Goa, the best time by season (IMD averages), Mopa or Dabolim airport, getting around, beach fines and the New Year music rule.
 date: 2026-11-03
-updated: 2026-11-26
+updated: 2026-11-28
 place: Goa
 best: Nov–Feb
 photo: goa-palolem
@@ -201,10 +201,6 @@ Mopa (GOX) if you're staying in North Goa, near Arambol, Anjuna, Calangute or Ba
 ### Can you drink alcohol on Goa beaches?
 
 No. Drinking in the open, including on beaches, can be fined ₹5,000 to ₹50,000. You can drink in licensed shacks, bars and restaurants.
-
-### Until what time can music play on New Year's Eve in Goa?
-
-Until midnight for loudspeakers, with permission, on the days Goa's order lists, which include 26 to 31 December 2026. On other nights, loudspeakers must stop at 10 PM.
 
 ## Sources
 

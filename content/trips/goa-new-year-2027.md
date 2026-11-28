@@ -3,7 +3,7 @@ seo_title: Goa New Year 2027: party guide, rules and where to stay
 title: Goa New Year 2027: parties, beaches, rules and how to plan the night
 description: Planning New Year's Eve 2027 in Goa? What's announced so far, North or South Goa, the midnight music rule, last year's traffic plan, beach fines, safety, getting there and where to stay.
 date: 2026-11-22
-updated: 2026-11-22
+updated: 2026-11-28
 place: Goa New Year
 best: 31 Dec 2026
 hub_title: no
@@ -14,7 +14,7 @@ glance: New Year's Eve=Thursday 31 December 2026; 1 January 2027 is a Friday, so
 ---
 New Year's Eve is Goa's biggest night of the year. Beaches fill up, shacks and clubs hold parties, and fireworks go off along the coast at midnight. It is also the most crowded and costly time to visit, with traffic jams in North Goa and strict rules on music, drinking and driving. This guide covers what's announced for New Year 2027 so far, where to go, the rules, and how to plan the trip.
 
-For the full trip (airports, trains, beaches, sights and the rules for foreign visitors), read our [Goa trip guide](goa.html). Still choosing where to spend New Year? Compare places in [New Year trips 2027](new-year-trips-2027.html).
+For a day-by-day plan (airports, beaches, sights and the rules for foreign visitors), read our [Goa trip plan](goa.html). Staying on after New Year? Our [Goa in January guide](goa-in-january.html) covers the quieter weeks and the Feast of the Three Kings. Still choosing where to spend New Year? Compare places in [New Year trips 2027](new-year-trips-2027.html).
 
 Visiting India from abroad? Start here: our [visiting India guide](visiting-india.html) covers the e-Visa, what to pack, SIM cards and money.
 

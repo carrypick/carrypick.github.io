@@ -3,7 +3,7 @@ seo_title: Kerala trip plan: 4, 5 and 7 day itinerary and best time
 title: Kerala trip plan: itineraries for 4, 5 and 7 days, the best time to go, and what to know
 description: A Kerala trip plan you can follow: day-by-day routes for 4, 5 and 7 days (Kochi, Munnar, Alappuzha houseboats, Varkala), the best time to visit by season, travel times, safe houseboats, Eravikulam tickets, rules and Christmas–New Year tips.
 date: 2026-11-03
-updated: 2026-11-26
+updated: 2026-11-28
 place: Kerala
 best: Nov–Feb
 photo: kerala-houseboat
@@ -205,10 +205,6 @@ Kochi (COK) for Kochi, Munnar and Alappuzha. Thiruvananthapuram (TRV) for Kovala
 ### How cold is Munnar in December and January?
 
 Cold at night. In January 2026, most nights were between 2 and 9 °C, and some winters touch 0 °C. Days are mild, around 23 °C.
-
-### Is Eravikulam National Park open in December?
-
-Yes. It closes from 1 February to 1 April for the Nilgiri tahr calving season. Book tickets on the official site.
 
 ### How do I choose a safe houseboat in Alappuzha?
 

@@ -3,6 +3,7 @@ seo_title: Spiti in winter 2026–27: Kinnaur road, homestays, 7-day plan
 title: Spiti in winter: the only road in, snow leopards, cold nights and a 7-day plan
 description: Plan Spiti Valley in December, January or February: why only the Shimla–Kinnaur–Kaza road is open, whether you can reach Chandratal, IMD winter temperatures for Kalpa and Keylong, snow leopards in Kibber, homestays and what's open in Kaza, fuel, ATMs and phone network, permits for foreigners, altitude sickness, a 7-day winter route and what to pack.
 date: 2026-11-26
+updated: 2026-11-28
 place: Spiti in winter
 best: December to February, for snow, quiet and snow leopards; only if you're ready for serious cold
 photo: key-monastery-winter
@@ -84,21 +85,19 @@ Compare stays for your dates, and message the host to check they're open in wint
 
 ## Permits for Spiti in winter
 
-**Indian citizens:** the permit rules on the Kinnaur and Lahaul-Spiti district websites are for foreign nationals. We found no permit for Indians on the Shimla–Kinnaur–Kaza road. Carry your ID, as there are police checkposts.
+**Indian citizens:** we found no permit for Indians on the Shimla–Kinnaur–Kaza road. Carry your ID, as there are police checkposts.
 
-**Foreigners** need an Inner Line Permit (a protected area permit) for the border stretch between Kinnaur and Spiti, which is the only way in during winter:
+**Foreigners** need an Inner Line Permit for the border stretch between Kinnaur and Spiti, and in winter you can't avoid it, because the Kinnaur road is the only way in. The easiest place to get it is the SDM office at Reckong Peo (Kinnaur), on your way up; the SDM at Kaza (01906-222302) also issues it. Group size rules differ between the two district websites, so ask the office before you plan.
 
-- **Which places:** the Kinnaur district lists places in the Pooh block, such as Nako, Khab, Pooh, Leo and Kaa, and in Spiti, such as Tabo, Dhankar, Poh, Lari and Sumdo. The Lahaul-Spiti district lists Khab, Samdo, Dhankar, Tabo, Kaza, Morang and Dubling.
-- **Group size differs by page.** Kinnaur says groups of two or more, through a recognised Indian travel agency, for up to 30 days, at ₹200 a person (page updated July 2023). The Lahaul-Spiti page (updated 2018) says groups of four or more. Ask the issuing office before you plan.
-- **Where to get it:** the SDM office at Reckong Peo (Kinnaur) on the way in, or the SDM at Kaza (01906-222302). Carry your passport, visa and photocopies.
-- **Register where you stay.** The Lahaul-Spiti district says hotels must report foreign guests (Form C) within 24 hours.
+The full list of places, the group size and fee, and the hotel registration rule (Form C) are in our [Spiti Valley trip guide](spiti-valley-trip-guide.html#spiti-valley-permits).
 
 ## Altitude sickness in winter
 
-- **Spiti is high.** Kaza is about 3,660 m, and the Lahaul-Spiti district puts Key monastery at about 13,500 ft (4,115 m) and Kibber at about 14,200 ft (4,330 m).
-- **Go up slowly.** The district's travel advice is to gain height slowly. The Kinnaur road helps: sleep at Kalpa and Nako on the way, not straight in Kaza.
-- **Cold makes it harder.** Breathing cold, dry air and sleeping badly add to the strain. Rest on your first day in Kaza, drink plenty of water (warm water is easier), and avoid alcohol.
-- **Warning signs** are headache, nausea, poor sleep and breathlessness. If you're breathless at rest or confused, go down and get medical help.
+Kaza is about 3,660 m, and Key and Kibber are higher still. The general advice (go up slowly, rest on day one, the warning signs) is in our [Spiti Valley trip guide](spiti-valley-trip-guide.html#altitude-and-health-in-spiti). What changes in winter:
+
+- **Sleep lower on the way in.** The Kinnaur road helps: stop at Kalpa and Nako, not straight in Kaza.
+- **Cold makes it harder.** Breathing cold, dry air and sleeping badly add to the strain. Drink plenty of warm water and avoid alcohol.
+- **If you're breathless at rest or confused,** go down and get medical help. With roads closing after snow, going down can take longer in winter, so act early.
 - **Ask your doctor** before the trip, especially for children, older travellers and anyone with a heart or lung condition. Winter Spiti isn't a good idea for babies.
 
 ## Spiti winter trip plan: 7 days from Shimla

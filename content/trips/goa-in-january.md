@@ -3,6 +3,7 @@ seo_title: Goa in January 2027: weather, Three Kings feast, beach tips
 title: Goa in January: weather, festivals and a quieter beach month
 description: Plan Goa for January 2027: IMD January averages, how Goa changes after New Year, the Feast of the Three Kings on 6 January, the Goa Food and Cultural Festival, Carnival dates, turtle nesting beaches, the Republic Day long weekend, airports and beach safety.
 date: 2026-11-24
+updated: 2026-11-28
 place: Goa in January
 hub_title: no
 best: January is warm, dry and quieter after New Year
@@ -13,7 +14,7 @@ glance: Weather in January=About 32 °C by day and 20 °C at night, with almost 
 ---
 January may be Goa's best-kept secret. The weather is the same as at New Year, sunny, dry and pleasant in the evenings, but once the New Year crowds leave in the first days of the month, the beaches, roads and restaurants calm down. January also has its own festivals: the Feast of the Three Kings, with kings on horseback in Chandor, and a food festival in Margao. This guide covers the weather, each part of the month, events, where to go, getting there, and staying safe on the beach.
 
-Going for Christmas or New Year's Eve instead? Read our [Goa trip guide for Christmas and New Year](goa.html), with the airports, scooter rules and beach fines, and our [Goa New Year 2027 guide](goa-new-year-2027.html) for the party night.
+Going for New Year's Eve instead? Our [Goa New Year 2027 guide](goa-new-year-2027.html) covers the party night, the midnight music rule and traffic. For a day-by-day plan in any month, with the airports, scooter rules and beach fines, see our [Goa trip plan](goa.html).
 
 Still choosing? See [where to go in December and January](where-to-go-in-december-january.html), or our [Republic Day long weekend ideas](republic-day-long-weekend-2027.html). Packing? Use our [Goa packing list](../guides/goa-packing-list.html).
 
@@ -127,10 +128,6 @@ Only at the start and the end. It's busy until about 3 January and again on the 
 ### What festivals are there in Goa in January?
 
 The Feast of the Three Kings on 6 January at Reis Magos, Chandor and Cansaulim, and the Goa Food and Cultural Festival in Margao (dates not fixed yet). Carnival comes in February.
-
-### When is Goa Carnival 2027?
-
-In February 2027, says Goa Tourism's calendar, but the exact dates haven't been announced. Carnival is held in the days before Lent, which starts on 10 February 2027.
 
 ### Is the sea safe for swimming in Goa in January?
 

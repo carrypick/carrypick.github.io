@@ -3,6 +3,7 @@ seo_title: Gulmarg in December 2026: snowfall, weather, gondola booking
 title: Gulmarg in December: weather, snow, the gondola and what to wear
 description: Plan Gulmarg for December: IMD temperatures, the chances of snow in the first week and the last week, Gulmarg Gondola Phase 1 and Phase 2 and how to book online, skiing, the Tangmarg road in snow, and what to wear.
 date: 2026-11-22
+updated: 2026-11-28
 place: Gulmarg
 best: Late Dec–Feb for snow
 photo: gulmarg-snow
@@ -64,7 +65,7 @@ The gondola, run by the J&K Cable Car Corporation, is a two-stage ropeway and th
 
 ## Skiing in Gulmarg
 
-- **Season:** Gulmarg's ski slopes are usually best from January to March. December snow can be thin.
+- **Season:** Gulmarg's ski slopes are usually best from January to March. December snow can be thin. In 2025 the Khelo India snow events had to be postponed because there wasn't enough snow.
 - **Ski courses:** the government's Indian Institute of Skiing and Mountaineering (IISM) in Gulmarg runs 14-day snow skiing and snowboarding courses for ages 10 to 40, in groups of 25. Its 2026–27 schedule isn't published yet: the institute says dates come "as and when sanctioned by the ministry". Check [iismgulmarg.in](https://iismgulmarg.in/Courses_By_IISM) before you plan around a course.
 - **Khelo India Winter Games:** the snow events of the 2026 Games were held in Gulmarg from 23 to 26 February 2026. The 2027 dates haven't been announced yet.
 - **Beginners** can hire skis, boots and instructors in Gulmarg for a day. Ask your hotel to suggest a registered instructor.
