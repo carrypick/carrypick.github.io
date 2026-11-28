@@ -42,7 +42,7 @@ If you carry only a small backpack, the space matters more than you'd think. A f
 - **Packed size.** Our Mokobara pick folds to 14.5 x 14.5 x 11 cm. An inflatable one packs much smaller.
 - **A fastener at the front.** A snap or clip stops the pillow from sliding off when you nod.
 - **A washable cover.** A pillow touches your neck for hours, on planes, trains and buses. A cover you can take off and wash keeps it fresh.
-- **Extras.** An eye mask and ear plugs help on night flights, when the cabin lights or a crying baby keep you awake.
+- **Extras.** An eye mask and ear plugs help on night flights, when the cabin lights or a crying baby keep you awake. Locks, packing cubes and toiletry bags are in our [travel gear picks](../category/travel-gear.html).
 
 ## How to wear a neck pillow
 

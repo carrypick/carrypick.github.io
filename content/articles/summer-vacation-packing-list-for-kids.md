@@ -195,7 +195,7 @@ Going to a family favourite? See our packing lists for [Singapore](singapore-pac
 
 - [Travelling with a baby: the checklist](travelling-with-baby-checklist.html)
 - [Flying with a baby or toddler](flying-with-baby-or-toddler.html)
-- [Baby & Kids Travel picks](../category/baby-kids.html)
+- [Things to carry on a train journey](things-to-carry-in-train-journey.html)
 - [Where to go in April](../trips/where-to-go-in-april.html)
 - [Where to go in May](../trips/where-to-go-in-may.html)
 

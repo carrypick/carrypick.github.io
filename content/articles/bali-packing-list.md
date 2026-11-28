@@ -161,11 +161,11 @@ Which plugs does Bali use? See the table in our [power bank and travel adapter g
 - Snacks and a water bottle for the long journey
 - Their medicines and a small first-aid kit
 
-Travelling with a baby or toddler? Use our [travelling with a baby checklist](travelling-with-baby-checklist.html), check each airline's infant rules in [flying with a baby or toddler](flying-with-baby-or-toddler.html), and see the [baby and kids travel picks](../category/baby-kids.html).
+Travelling with a baby or toddler? Use our [travelling with a baby checklist](travelling-with-baby-checklist.html), check each airline's infant rules in [flying with a baby or toddler](flying-with-baby-or-toddler.html).
 
 ## Guidebook, phrasebook and something to listen to
 
-- **Guidebook:** a printed guide is handy where your phone has no signal and it never runs out of battery. Keep it in your day bag, not in check-in. See our [travel books](../category/books.html).
+- **Guidebook:** a printed guide is handy where your phone has no signal and it never runs out of battery. Keep it in your day bag, not in check-in.
 - **Phrasebook:** in Bali, a few words of the local language (hello, thank you, how much) go a long way. A phrasebook app works offline if you download the language first.
 - **Long flight:** download an audiobook or two at home before you fly. See [audiobooks for long flights](audiobooks-for-long-flights.html).
 

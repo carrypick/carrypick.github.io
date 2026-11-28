@@ -40,6 +40,7 @@ The duty-free limit is **100 cigarettes**, or **25 cigars**, or **125 g of tobac
 - A carton usually holds 200 cigarettes, so one full carton is double the limit.
 - Like alcohol, extra cigarettes and tobacco don't get the 35% baggage rate. Declare them at the Red Channel.
 - **E-cigarettes and vapes are banned.** The Prohibition of Electronic Cigarettes Act, 2019 doesn't allow anyone to import them, even one for personal use.
+- **On the plane itself,** airline rules apply: cigarettes and lighters are covered on our [cigarettes and lighter page](../can-i-carry/cigarettes-and-lighter.html).
 
 ## Your state's liquor rules still apply
 

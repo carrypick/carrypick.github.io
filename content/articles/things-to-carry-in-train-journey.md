@@ -177,7 +177,7 @@ Keep the 139 helpline saved. If you feel unsafe on the train, call 139 for secur
 - For babies: diapers, wipes, a changing mat, formula or food, and a feeding bottle
 - A small blanket and a cap, because AC coaches are cold
 
-See our [travelling with a baby checklist](travelling-with-baby-checklist.html) and the [baby and kids travel picks](../category/baby-kids.html).
+See our [travelling with a baby checklist](travelling-with-baby-checklist.html) and the [summer vacation packing list for kids](summer-vacation-packing-list-for-kids.html).
 
 ## Help on the train: helpline 139
 

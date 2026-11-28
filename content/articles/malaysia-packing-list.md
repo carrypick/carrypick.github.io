@@ -179,11 +179,11 @@ Want a hard case or a smaller pouch instead? Compare five in our [gadget organis
 - Comfortable shoes and sandals that can get wet
 - Their medicines and a small first-aid kit
 
-Travelling with a baby or toddler? Use our [travelling with a baby checklist](travelling-with-baby-checklist.html), check each airline's infant rules in [flying with a baby or toddler](flying-with-baby-or-toddler.html), and see the [baby and kids travel picks](../category/baby-kids.html).
+Travelling with a baby or toddler? Use our [travelling with a baby checklist](travelling-with-baby-checklist.html), check each airline's infant rules in [flying with a baby or toddler](flying-with-baby-or-toddler.html).
 
 ## Guidebook, phrasebook and something to listen to
 
-- **Guidebook:** a printed guide works with no signal and never runs out of battery. See our [travel books](../category/books.html).
+- **Guidebook:** a printed guide works with no signal and never runs out of battery.
 - **Phrasebook:** not needed in cities. English is widely spoken in KL, Penang and Langkawi. "Terima kasih" (thank you) is a nice word to learn.
 - **Long flight:** download an audiobook or two at home before you fly. See [audiobooks for long flights](audiobooks-for-long-flights.html).
 

@@ -39,10 +39,10 @@ Titan, Sonata and Fastrack are all brands of **Titan Company**, so service and w
 
 ## Couple watches for every occasion
 
-- **Wedding gift:** the Titan Bandhan, or the Timex Classics set. More ideas in our [wedding gift guide](wedding-gift-guide.html).
-- **Parents' 25th or 50th anniversary:** the Titan Bandhan or Sonata Bandhan. See our [anniversary gift ideas](anniversary-gift-ideas.html#for-your-parents).
-- **Valentine's Day or a first anniversary:** the Fastrack Mixmatched. See our [Valentine's Day gift ideas](valentines-day-gift-ideas.html).
-- **A watch for your husband only:** see our [watch gift for husband guide](watch-gift-for-husband.html).
+- **Wedding gift:** the Titan Bandhan, or the Timex Classics set. More ideas in our [gift finder](../tools/gift-finder.html#occ=wedding).
+- **Parents' 25th or 50th anniversary:** the Titan Bandhan or Sonata Bandhan. See more [anniversary gift ideas](../tools/gift-finder.html#for=parents&occ=any).
+- **Valentine's Day or a first anniversary:** the Fastrack Mixmatched. See more [Valentine's Day gift ideas](../tools/gift-finder.html#occ=valentines).
+- **A watch for your husband only:** see our [first analog watch guide](first-analog-watch-guide.html) for the case size and strap to choose.
 
 ## Compare them
 

@@ -57,7 +57,7 @@ The number in "10-in-1" or "11-in-1" counts every piece: heads, combs and someti
 
 ## Flying with a trimmer
 
-Our [can I carry a trimmer on a flight?](../baggage/can-i-carry/trimmer.html) page has the airline rules. In short:
+Our [can I carry a trimmer on a flight?](../baggage/can-i-carry/trimmer.html) page has the airline rules, and our [hair dryer and straightener page](../baggage/can-i-carry/hair-dryer-and-straightener.html) covers styling tools. In short:
 
 - IndiGo, SpiceJet and Air India Express list a **trimmer with a built-in battery as allowed in the cabin bag and in check-in**. In check-in, it must be fully switched off and protected from turning on.
 - A **travel lock** stops it switching on in your bag. Beardo's Godfather kit lists one. Without a lock, put the cap or comb on and keep it in its box or pouch.
@@ -117,7 +117,7 @@ For a man who only shapes his beard. Small, light and charged by USB:
 - **Body grooming:** use the body head or body comb, not the beard blade, on sensitive skin.
 - **Clean it after each use** with the brush, and oil the blade if the maker asks you to.
 
-More gift ideas: [birthday gifts](birthday-gift-ideas.html), [anniversary gifts](anniversary-gift-ideas.html), [Valentine's Day gifts](valentines-day-gift-ideas.html) and [Christmas gifts for him](christmas-gift-for-boyfriend-or-husband.html).
+More gift ideas: the [gift finder](../tools/gift-finder.html#for=him&occ=any) shows our picks for him, for a birthday, an anniversary, Valentine's Day or Christmas.
 
 ## Questions
 

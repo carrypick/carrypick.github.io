@@ -110,7 +110,7 @@ A laptop backpack with an anti-theft pocket:
 
 German winters are cold, often grey and wet, with snow in some places, and days are short. Check the forecast for your city in the week before you fly.
 
-- **Layers:** thermals, two sweaters or fleeces, and warm trousers. Rooms, trams and libraries are heated.
+- **Layers:** thermals, two sweaters or fleeces, and warm trousers. Rooms, trams and libraries are heated. Our [winter clothing picks](../category/clothing.html) have thermals and jackets.
 - **A warm, waterproof jacket with a hood.** Wear it on the plane.
 - **A cap, gloves and a scarf** for winter mornings.
 - **Waterproof shoes with a good grip,** worn in before you fly.

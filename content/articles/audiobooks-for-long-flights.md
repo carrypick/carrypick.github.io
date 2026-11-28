@@ -12,7 +12,7 @@ A 10-hour flight to London, a 16-hour train to Mumbai, a long drive to the hills
 
 [[audible]]
 
-Don't want to sign up? Read on: the offline and battery tips work for any audiobook app, and our [travel books](../category/books.html) page has printed books for the trip.
+Don't want to sign up? Read on: the offline and battery tips work for any audiobook app.
 
 ## Why audiobooks help on long trips
 
@@ -78,7 +78,6 @@ Some people like a printed book on a beach or a train. These are good long-trip 
 
 [[pick:8172234988]]
 
-See all our [travel books](../category/books.html): guidebooks, a phrasebook, travel journals and books for kids.
 
 ## Questions
 
@@ -114,4 +113,4 @@ Not much, if the screen stays off. Carry a power bank in your cabin bag for long
 
 Checked on 22 Nov 2026: Audible's free trial page on Amazon.in (the trial length, credits, the Prime offer, the Plus catalogue and cancelling) and the Amazon.in Associates fee schedule for the trial link. Power bank rules from our [power bank rules page](power-bank-rules-on-flights.html) and its airline sources. Product details from each Amazon.in listing, read on 22 Nov 2026.
 
-[[next:../category/books.html=Travel books: guidebooks, phrasebooks and journals|power-bank-and-travel-adapter-guide.html=Power banks and travel adapters|gifts-for-travellers.html=Gifts for travellers]]
+[[next:power-bank-and-travel-adapter-guide.html=Power banks and travel adapters|gifts-for-travellers.html=Gifts for travellers]]

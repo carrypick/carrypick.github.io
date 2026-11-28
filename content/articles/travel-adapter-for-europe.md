@@ -80,7 +80,7 @@ A set of two: a slim type C for round-pin sockets in Italy and Switzerland, wher
 
 ### Which plug is used in Europe?
 
-Mostly types C, E and F, all round pins, at 230 V. France, Belgium, Poland and the Czech Republic use E; Germany, Spain, the Netherlands and most others use F. A type C plug fits both.
+Mostly types C, E and F, all round pins, at 230 V. France, Belgium, Poland and the Czech Republic use E; Germany, Spain, the Netherlands and most others use F. A type C plug fits both. Moving to Germany to study? Our [Germany packing list for Indian students](germany-packing-list-for-indian-students.html) covers the papers, clothes and plugs to take.
 
 ### Do Indian plugs work in Europe?
 

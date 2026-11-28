@@ -12,7 +12,7 @@ A gadget organiser is a small zip case for the things that get tangled at the bo
 ## Quick answer
 
 - **Just a phone charger, a cable and earbuds:** a small soft pouch.
-- **Laptop charger, hard drive or camera bits:** a bigger case with dividers or two layers.
+- **Laptop charger, hard drive or camera bits:** a bigger case with dividers or two layers. Our [travel tech picks](../category/travel-tech.html) list chargers, power banks and adapters to go in it.
 - **Packed under heavy clothes in a suitcase:** a hard-shell case keeps its shape.
 - **Men's and women's organisers are the same thing.** Choose by size and pockets.
 

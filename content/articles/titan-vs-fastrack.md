@@ -60,7 +60,7 @@ A seller on Amazon may list a different period, as our Fastrack Minimal Black do
 
 ## Titan vs Fastrack for women
 
-Both make women's watches. Titan's are usually more formal, like the mother-of-pearl [Titan Raga Charm](../picks/B08LKXV22C.html) or the [Titan Karishma for women](../picks/B07CR1JQBY.html). Fastrack's are lighter and more playful, like the [pink-dial Fastrack](../picks/B0CDC7QR7T.html). For a gift for her, see our [Christmas gifts for her](christmas-gift-for-girlfriend-or-wife.html).
+Both make women's watches. Titan's are usually more formal, like the mother-of-pearl [Titan Raga Charm](../picks/B08LKXV22C.html) or the [Titan Karishma for women](../picks/B07CR1JQBY.html). Fastrack's are lighter and more playful, like the [pink-dial Fastrack](../picks/B0CDC7QR7T.html). For a gift for her, see the [gift finder](../tools/gift-finder.html#for=her&occ=any).
 
 ## Titan vs Fastrack smartwatch
 
@@ -118,6 +118,6 @@ Fastrack's own site lists 24 months on the movement and 12 months on the battery
 
 Brand ownership from [Titan Company's brands page](https://www.titancompany.in/our-brands/fastrack). Warranty terms from Titan's [warranty policy](https://www.titan.co.in/warranty-policy.html) and product pages on titan.co.in and fastrack.in, read on 21 Nov 2026. Dial sizes, straps and water resistance come from our pick pages, read on Amazon.in in Nov 2026. We haven't tested these watches.
 
-Buying a watch as a gift? See our [watch gift for husband guide](watch-gift-for-husband.html) and our [couple watches compared](couple-watches.html), including a Fastrack pair on leather straps.
+Buying a watch as a gift? Check the wrist size first with our [watch size tool](../tools/watch-size.html), and see our [couple watches compared](couple-watches.html), including a Fastrack pair on leather straps.
 
 [[next:../tools/watch-size.html=Find your dial size|first-analog-watch-guide.html=How to choose your first analog watch|#our-picks=Compare our four watches]]

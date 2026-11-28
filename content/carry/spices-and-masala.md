@@ -39,7 +39,7 @@ Many Indians take masala to family abroad. Other countries have their own custom
 
 - Flying with only a cabin bag? Buy the spices at your destination, or send them with someone who has a check-in bag.
 - Cooking on the trip? Pack small sealed packets in check-in instead of big jars.
-- Carrying pickle or ghee too? See our [pickle rules](pickle.html) and [ghee rules](ghee.html).
+- Carrying pickle or ghee too? See our [pickle rules](pickle.html) and [ghee rules](ghee.html). Dry fruits are simpler: see [can I carry dry fruits?](dry-fruits.html)
 
 ## Questions
 

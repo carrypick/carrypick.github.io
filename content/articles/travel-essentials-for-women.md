@@ -238,7 +238,7 @@ Most work only on doors that open into the room and need a small gap under the d
 
 ### What is a good travel kit gift for a woman?
 
-A hanging toiletry bag, a jewellery roll, a set of packing cubes, a travel journal or a passport holder. See more in [gifts for travellers](gifts-for-travellers.html) and [Christmas gifts for her](christmas-gift-for-girlfriend-or-wife.html).
+A hanging toiletry bag, a jewellery roll, a set of packing cubes, a travel journal or a passport holder. See more in [gifts for travellers](gifts-for-travellers.html) and our [gift finder](../tools/gift-finder.html#for=her&occ=any).
 
 ## Related guides
 

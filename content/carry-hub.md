@@ -3,9 +3,9 @@
 Almost every answer in the list below comes from one of four rules. If your item isn't listed, ask which group it falls in.
 
 - **Liquids, pastes and gels in the cabin:** each container 100 ml or less, all in one clear, resealable 1-litre bag, on domestic flights too. Ghee, oily pickle, honey, perfume and syrups count. The exception, on BCAS's own list, is "medicine/inhaler accompanied by prescription and baby food". Bigger bottles go in check-in. See [liquids](can-i-carry/liquids.html), [perfume](can-i-carry/perfume.html) and [medicines](can-i-carry/medicines.html).
-- **Lithium batteries:** spare batteries and [power banks](can-i-carry/power-bank.html) go in the cabin only, never in check-in. A device with its battery built in, such as a [trimmer](can-i-carry/trimmer.html), can go in either bag on most airlines, but in check-in it must be fully switched off and unable to turn on. Air India keeps phones in the cabin.
+- **Lithium batteries:** spare batteries and [power banks](can-i-carry/power-bank.html) go in the cabin only, never in check-in. A device with its battery built in, such as a [trimmer](can-i-carry/trimmer.html), can go in either bag on most airlines, but in check-in it must be fully switched off and unable to turn on. Cordless [hair straighteners](can-i-carry/hair-dryer-and-straightener.html) have batteries too. Air India keeps phones in the cabin.
 - **Sharp things and tools:** loose blades, pointed scissors, knives and tools can't go in the cabin. Put them in check-in. A folding or blunt-tipped [umbrella](can-i-carry/umbrella.html) is fine in the cabin; a sharp-tipped one isn't.
-- **Things that can catch fire:** dry coconut (copra), camphor, lighters, firecrackers and e-cigarettes are banned in both bags.
+- **Things that can catch fire:** dry coconut (copra), camphor, lighters, firecrackers and e-cigarettes are banned in both bags. Cigarettes themselves are allowed: see [cigarettes and lighters](can-i-carry/cigarettes-and-lighter.html).
 
 ## Airlines don't all agree
 
@@ -15,7 +15,7 @@ So check two things: the row below, then your airline's own page. We link each r
 
 ## Food from home
 
-Dry sweets, snacks and dry fruits are allowed in both bags on most airlines. Wet, oily or strong-smelling food is where airlines differ: see [sweets and home food](can-i-carry/sweets-and-home-food.html). For bottles of liquor, the limit is 5 litres per person in check-in: see [alcohol](can-i-carry/alcohol.html).
+Dry sweets, snacks and [dry fruits](can-i-carry/dry-fruits.html) are allowed in both bags on most airlines. Wet, oily or strong-smelling food is where airlines differ: see [sweets and home food](can-i-carry/sweets-and-home-food.html). For bottles of liquor, the limit is 5 litres per person in check-in: see [alcohol](can-i-carry/alcohol.html).
 
 ## How we check
 

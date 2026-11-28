@@ -12,7 +12,7 @@ related: guides/cabin-luggage-guide.html=Cabin bag rules | guides/travel-sunscre
 
 Most airlines in India follow the airport liquids rule, so a small bottle of perfume is fine in your cabin bag. **IndiGo is different.** Its own list of things not allowed in flight marks **perfume and deo as not allowed in the cabin bag**, and allowed only in check-in.
 
-So on IndiGo, put every bottle of perfume, attar and deo spray in your check-in bag. If you're flying IndiGo with only a cabin bag, leave the perfume at home or buy some after you land.
+So on IndiGo, put every bottle of perfume, attar and deo spray in your check-in bag. If you're flying IndiGo with only a cabin bag, leave the perfume at home or buy some after you land. The same IndiGo list bans lighters in both bags: see [can I carry cigarettes and a lighter?](cigarettes-and-lighter.html)
 
 ## Cabin bag on other airlines: the 100 ml rule
 
@@ -20,7 +20,7 @@ So on IndiGo, put every bottle of perfume, attar and deo spray in your check-in 
 - All your liquids, creams and gels go in **one clear, resealable bag of up to 1 litre**. That includes perfume, deo spray, toothpaste, face wash and sunscreen.
 - Take the clear bag out of your cabin bag at the security check. See our [100 ml rule page](liquids.html) for what counts as a liquid. Liquid medicine is the exception: a bigger bottle of syrup is allowed if you need it on the journey, see [medicines](medicines.html).
 
-Air India's list of liquids names perfumes, deodorants and other sprays, so a deo spray follows exactly the same rule as perfume.
+Air India's list of liquids names perfumes, deodorants and other sprays, so a deo spray follows exactly the same rule as perfume. Hair spray and gel do too: see [hair dryer and straightener](hair-dryer-and-straightener.html).
 
 ## Attar
 
@@ -59,7 +59,7 @@ And four for women:
 
 [[pick:B09232XNTX]]
 
-More gift sets and a 17 ml pocket spray, plus EDP vs EDT vs attar in plain words, in our [perfume buying guide](../../guides/perfume-buying-guide.html). Or see all our [perfume picks](../../category/perfumes.html).
+More gift sets and a 17 ml pocket spray, plus EDP vs EDT vs attar in plain words, in our [perfume buying guide](../../guides/perfume-buying-guide.html).
 
 ## By airline
 

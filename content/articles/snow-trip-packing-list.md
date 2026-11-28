@@ -54,7 +54,7 @@ If you pack only these, you'll be fine:
 
 1. **Thermals,** top and bottom. A synthetic set dries faster if you get sweaty playing in the snow.
 2. **A sweater or fleece.** Two thin ones are better than one thick one.
-3. **A warm jacket with a hood,** long enough to cover your hips when you sit in the snow.
+3. **A warm jacket with a hood,** long enough to cover your hips when you sit in the snow. Our [winter clothing picks](../category/clothing.html) list thermals, jackets, caps and gloves with their listed fabric.
 4. **Waterproof on the outside.** Snow melts on warm clothes. Waterproof trousers, or a rented snow suit, keep the wet out. Jeans are the worst thing to wear: they soak up snow and stay cold.
 
 Read [what to wear on a winter hill trip](winter-clothes-for-hill-trips.html) and our [winter jacket for travel guide](winter-jacket-for-travel.html) for more.

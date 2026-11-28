@@ -7,7 +7,7 @@ category: travel-gear
 photo: packed-suitcase
 feature_until: 2026-12-26
 ---
-People who travel a lot already have a bag. What they often don't have are the small things that make every trip easier: a tidy toiletry bag, a case for chargers, a luggage scale. These gifts get used on every journey, for Christmas, a birthday or a farewell. Saying goodbye to a colleague? See our [farewell gift ideas](farewell-gift-for-colleague.html).
+People who travel a lot already have a bag. What they often don't have are the small things that make every trip easier: a tidy toiletry bag, a case for chargers, a luggage scale. These gifts get used on every journey, for Christmas, a birthday or a farewell. Saying goodbye to a colleague? Our [gift finder](../tools/gift-finder.html#for=colleague&occ=farewell) has farewell ideas too.
 
 **Not sure?** [Try the gift finder](../tools/gift-finder.html#for=traveller): answer 2 or 3 quick questions and see the gift ideas that match.
 
@@ -78,7 +78,7 @@ Want a hard case or a smaller pouch instead? Compare five in our [gadget organis
 
 [[pick:B07H3K85H5]]
 
-More ideas for him are in our [Christmas gifts for a boyfriend or husband](christmas-gift-for-boyfriend-or-husband.html).
+More ideas for him are in our [gift finder](../tools/gift-finder.html#for=him&occ=christmas).
 
 ## For a girlfriend or wife who travels a lot
 
@@ -100,7 +100,7 @@ More travel slings, including one with a lock, are in our [sling bag for travel 
 
 [[pick:B0GHXYQ318]]
 
-More ideas for her are in our [Christmas gifts for a girlfriend or wife](christmas-gift-for-girlfriend-or-wife.html) and our [travel essentials for women](travel-essentials-for-women.html). Is she going on a trip alone? See [solo female travel in India](solo-female-travel-india.html).
+More ideas for her are in our [gift finder](../tools/gift-finder.html#for=her&occ=christmas) and our [travel essentials for women](travel-essentials-for-women.html). Is she going on a trip alone? See [solo female travel in India](solo-female-travel-india.html).
 
 ## For someone flying abroad
 
@@ -138,7 +138,7 @@ Our [trolley bag size for international travel](trolley-bag-size-for-internation
 
 [[pick:B094JBDRKX]]
 
-See our [Manali in December](what-to-wear-in-manali-in-december.html), [Kashmir in December](../trips/kashmir-in-december.html) and [Goa packing list](goa-packing-list.html) guides for what else to pack. Shopping for colleagues too? See our [Secret Santa gift ideas](secret-santa-gift-ideas-for-office.html). For family, see our [Christmas gifts for kids](christmas-gifts-for-kids.html), and gifts for [a girlfriend or wife](christmas-gift-for-girlfriend-or-wife.html) or [a boyfriend or husband](christmas-gift-for-boyfriend-or-husband.html).
+See our [Manali in December](what-to-wear-in-manali-in-december.html), [Kashmir in December](../trips/kashmir-in-december.html) and [Goa packing list](goa-packing-list.html) guides for what else to pack. Shopping for colleagues or family too? The [gift finder](../tools/gift-finder.html#occ=christmas) sorts our Christmas picks by person, from the office Secret Santa to kids.
 
 ## Books for travellers
 
@@ -150,7 +150,7 @@ See our [Manali in December](what-to-wear-in-manali-in-december.html), [Kashmir 
 
 [[pick:0241627265]]
 
-**For long flights, an audiobook weighs nothing.** See [audiobooks for long flights](audiobooks-for-long-flights.html), with Audible's free trial. All our books are in [travel books](../category/books.html).
+**For long flights, an audiobook weighs nothing.** See [audiobooks for long flights](audiobooks-for-long-flights.html), with Audible's free trial.
 
 ## Questions
 
@@ -177,7 +177,7 @@ Yes, if it fits their airline. Many "55 cm" cabin trolleys are too wide for Indi
 ## Related guides
 
 - [Travel essentials for women](travel-essentials-for-women.html)
-- [Christmas gifts for friends](christmas-gift-for-friends.html)
+- [Gift finder](../tools/gift-finder.html)
 - [40 litre carry-on travel backpacks](travel-backpack-40l-carry-on.html)
 
 ## Sources

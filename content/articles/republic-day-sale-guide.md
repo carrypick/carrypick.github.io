@@ -85,7 +85,7 @@ These are a good place to start. They aren't sale predictions: we don't know whi
 
 [[pick:B07CR1JQBY]]
 
-See more in our [luggage](../category/luggage.html), [watches](../category/watches.html) and [handbags](../category/handbags.html) categories, or read our [laptop backpack guide](laptop-backpack-guide.html).
+See more in our [luggage](../category/luggage.html) and [handbags](../category/handbags.html) categories, or read our [laptop backpack guide](laptop-backpack-guide.html).
 
 ## Questions
 

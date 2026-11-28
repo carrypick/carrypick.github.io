@@ -118,7 +118,7 @@ A backpack spreads the weight over both shoulders, which helps on a long commute
 
 ### Is a tote bag a good gift for a woman who works?
 
-Yes, if it fits her laptop. Ask what size laptop she carries, or choose a no-laptop tote. See more ideas in our [birthday gift ideas](birthday-gift-ideas.html).
+Yes, if it fits her laptop. Ask what size laptop she carries, or choose a no-laptop tote. See more ideas in our [gift finder](../tools/gift-finder.html#for=her&occ=birthday).
 
 ## Related guides
 

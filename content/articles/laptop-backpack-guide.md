@@ -86,7 +86,7 @@ Check your bag against any airline in our [cabin bag checker](../baggage/checker
 
 [[pick:B085S444JV]]
 
-**Best for office plus weekend travel:** a trolley sleeve, an anti-theft pocket and a rain cover.
+**Best for office plus weekend travel:** a trolley sleeve, an anti-theft pocket and a rain cover. Packing it for a work trip? See our [business trip packing list](business-trip-packing-list.html).
 
 [[pick:B097B4J3WD]]
 

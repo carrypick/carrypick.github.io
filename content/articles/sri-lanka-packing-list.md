@@ -186,7 +186,7 @@ See [can I carry medicines on a flight?](../baggage/can-i-carry/medicines.html)
 - Snacks and a water bottle for long drives and train rides
 - Their medicines and a small first-aid kit
 
-Travelling with a baby or toddler? Use our [travelling with a baby checklist](travelling-with-baby-checklist.html), check each airline's infant rules in [flying with a baby or toddler](flying-with-baby-or-toddler.html), and see the [baby and kids travel picks](../category/baby-kids.html).
+Travelling with a baby or toddler? Use our [travelling with a baby checklist](travelling-with-baby-checklist.html), check each airline's infant rules in [flying with a baby or toddler](flying-with-baby-or-toddler.html).
 
 ## Which bag to take
 

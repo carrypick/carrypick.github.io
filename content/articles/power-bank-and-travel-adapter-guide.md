@@ -6,7 +6,7 @@ date: 2026-11-20
 category: travel-tech
 photo: plane-window
 ---
-Two small things cause big trouble on trips: a power bank taken out of your check-in bag at the airport, and a phone charger that won't fit the socket in your hotel abroad. This guide covers both: what the airlines allow, how to read the label, and which plugs each country uses.
+Two small things cause big trouble on trips: a power bank taken out of your check-in bag at the airport, and a phone charger that won't fit the socket in your hotel abroad. This guide covers both: what the airlines allow, how to read the label, and which plugs each country uses. Our [travel tech picks](../category/travel-tech.html) have more power banks, chargers and adapters.
 
 [[toppicks:Our quick picks|See all the picks|#our-power-bank-picks]]
 [[top:B0D73W5Q39|Best for most flights|10,000 mAh (about 37 Wh), 22.5 W and 3 output ports. Under the limit on every Indian airline.]]

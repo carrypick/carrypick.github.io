@@ -177,7 +177,7 @@ Want a hard case or a smaller pouch instead? Compare five in our [gadget organis
 - Their medicines, and something for motion sickness on mountain roads
 - A small toy or book for flights and trains
 
-Travelling with a baby or toddler? Use our [travelling with a baby checklist](travelling-with-baby-checklist.html), check each airline's infant rules in [flying with a baby or toddler](flying-with-baby-or-toddler.html), and see the [baby and kids travel picks](../category/baby-kids.html).
+Travelling with a baby or toddler? Use our [travelling with a baby checklist](travelling-with-baby-checklist.html), check each airline's infant rules in [flying with a baby or toddler](flying-with-baby-or-toddler.html).
 
 ## Guidebook, phrasebook and something to listen to
 

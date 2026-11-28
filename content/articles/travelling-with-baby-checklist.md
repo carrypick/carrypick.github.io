@@ -109,7 +109,7 @@ A kids' pillow with a chin support for night flights and long drives, for ages 3
 
 [[compare:B0DTFMGS1T,B0BNPXPJS4,B0GSWQYSP4]]
 
-To keep them busy, see the [travel books for kids](../category/books/kids.html). A first watch also makes a good travel gift: see the [kids' watches](../category/watches.html#kids-watches) and our [Christmas gifts for kids](christmas-gifts-for-kids.html). All the baby and kids picks are on one page: [Baby & Kids Travel](../category/baby-kids.html).
+To keep them busy, pack a few small books and a favourite toy in the cabin bag. Looking for a gift for a small traveller? Our [gift finder](../tools/gift-finder.html#for=kids&occ=any) lists our picks for kids. Older kids on a summer trip? See our [summer vacation packing list for kids](summer-vacation-packing-list-for-kids.html).
 
 ## Before you buy
 

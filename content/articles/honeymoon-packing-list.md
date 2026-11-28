@@ -204,7 +204,7 @@ Want to give the couple something useful for the trip? These are easy to pack:
 - A passport holder or packing cubes
 - A good cabin trolley
 
-More ideas in our [wedding gift guide](wedding-gift-guide.html).
+More ideas in our [gift finder](../tools/gift-finder.html#occ=wedding).
 
 [[pick:B09232XNTX]]
 
@@ -255,7 +255,7 @@ For about 5 nights at a beach, a cabin bag each is often enough. For a week or t
 
 - [Travel essentials for women](travel-essentials-for-women.html)
 - [Couple watches](couple-watches.html)
-- [Christmas gifts for couples](christmas-gift-for-couples.html)
+- [Packing cubes](packing-cubes.html)
 
 ## Sources
 

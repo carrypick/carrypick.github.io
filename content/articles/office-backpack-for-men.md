@@ -51,7 +51,7 @@ Check your laptop size in our [laptop backpack tool](../tools/laptop-backpack.ht
 ## Features that matter at work
 
 1. **A padded laptop sleeve** that stops above the bottom of the bag.
-2. **A trolley or luggage sleeve** for work trips.
+2. **A trolley or luggage sleeve** for work trips. Our [business trip packing list](business-trip-packing-list.html) covers what goes inside.
 3. **A hidden back pocket** for your wallet and ID card on the metro. See our [anti-theft backpack guide](anti-theft-backpack.html).
 4. **A front organiser** for cables, a pen and a power bank.
 5. **A warranty** of at least 1 year, as zips fail first.

@@ -29,7 +29,7 @@ So a whole coconut, for example one for a puja, can go in check-in on Air India.
 Dry coconut, also called copra, gola or khopra, is **banned in both the cabin bag and check-in**:
 
 - Air India's list bans copra and crushed dry coconut.
-- IndiGo's list says no dry coconut or copra, even in check-in, and its dry fruits row says "without copra".
+- IndiGo's list says no dry coconut or copra, even in check-in, and its dry fruits row says "without copra". Other [dry fruits](dry-fruits.html), such as kaju, badam and kishmish, are fine in both bags.
 - The airport security list (based on BCAS rules) bans copra in both bags.
 - Akasa Air lists copra among flammable solids, because dry coconut can catch fire.
 

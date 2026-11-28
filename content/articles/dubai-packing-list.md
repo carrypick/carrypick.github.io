@@ -167,11 +167,11 @@ Only going to Dubai, or Dubai and the UK? A single type G adapter is enough, and
 - Snacks and a water bottle for the journey
 - Their medicines and a small first-aid kit
 
-Travelling with a baby or toddler? Use our [travelling with a baby checklist](travelling-with-baby-checklist.html), check each airline's infant rules in [flying with a baby or toddler](flying-with-baby-or-toddler.html), and see the [baby and kids travel picks](../category/baby-kids.html).
+Travelling with a baby or toddler? Use our [travelling with a baby checklist](travelling-with-baby-checklist.html), check each airline's infant rules in [flying with a baby or toddler](flying-with-baby-or-toddler.html).
 
 ## Guidebook, phrasebook and something to listen to
 
-- **Guidebook:** a printed guide is handy where your phone has no signal and it never runs out of battery. Keep it in your day bag, not in check-in. See our [travel books](../category/books.html).
+- **Guidebook:** a printed guide is handy where your phone has no signal and it never runs out of battery. Keep it in your day bag, not in check-in.
 - **Phrasebook:** English is spoken almost everywhere in Dubai, so you don't need one. "Shukran" (thank you in Arabic) is a nice touch.
 - **Long flight:** download an audiobook or two at home before you fly. See [audiobooks for long flights](audiobooks-for-long-flights.html).
 

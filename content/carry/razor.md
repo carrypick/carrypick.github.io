@@ -42,7 +42,7 @@ These are liquids. In the cabin, each one must be **100 ml or less**, inside you
 
 ## Electric shavers and trimmers
 
-**Trimmers:** IndiGo, SpiceJet and Air India Express all list a trimmer with a built-in battery as fine in both bags. In check-in it must be fully switched off. A trimmer without a battery goes in check-in only. Our [trimmer page](trimmer.html) has the details.
+**Trimmers:** IndiGo, SpiceJet and Air India Express all list a trimmer with a built-in battery as fine in both bags. In check-in it must be fully switched off. A trimmer without a battery goes in check-in only. Our [trimmer page](trimmer.html) has the details, and our [hair dryer and straightener page](hair-dryer-and-straightener.html) covers cordless styling tools.
 
 **Electric shavers:** Electric shavers aren't named on any of the airline pages we checked (IndiGo, Air India, Akasa Air, SpiceJet and Air India Express), or on the airport security lists based on BCAS rules. BCAS's own list of items banned in the cabin doesn't name them either (we read an archived copy on 21 November 2026, because the link on BCAS's website is broken). A rechargeable shaver is a battery device, so:
 

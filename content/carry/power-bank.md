@@ -28,13 +28,13 @@ Or let our [power bank flight checker](../../tools/power-bank-flight-check.html)
 | 40,000 mAh | 148 Wh | No | Yes |
 | 50,000 mAh | 185 Wh | No | No |
 
-So the common 10,000 and 20,000 mAh power banks are fine on all three airlines. IndiGo's list also says the power rating **must be printed on the power bank**. If the label has worn off, take a different one.
+So the common 10,000 and 20,000 mAh power banks are fine on all three airlines. IndiGo's list also says the power rating **must be printed on the power bank**. If the label has worn off, take a different one. Buying a new one? Our [travel tech picks](../../category/travel-tech.html) list the mAh, Wh and ports of each power bank, charger and adapter.
 
 ## Why it can't go in your check-in bag
 
 Lithium batteries can overheat and catch fire. In the cabin, the crew can see a fire and deal with it fast. In the hold, nobody can. That's why IndiGo, Air India and Akasa Air all keep power banks out of check-in bags, and airport security lists name them too.
 
-Take it out before you drop your bag. Akasa Air's rules say a check-in bag with a power bank in it won't be loaded on the flight. A device with its battery built in is different: a rechargeable [trimmer](trimmer.html), for example, can go in check-in if it's fully switched off.
+Take it out before you drop your bag. Akasa Air's rules say a check-in bag with a power bank in it won't be loaded on the flight. A device with its battery built in is different: a rechargeable [trimmer](trimmer.html), for example, can go in check-in if it's fully switched off. Packing other battery gadgets? See the rules for a [laptop](laptop.html) and for a [cordless hair straightener](hair-dryer-and-straightener.html).
 
 ## Where to keep it on the plane
 

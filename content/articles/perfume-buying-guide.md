@@ -109,7 +109,7 @@ Skinn by Titan's 24Seven box: Floral and Caramel for her, Woody and Aqua for him
 
 [[pick:B0DSVXW4GD]]
 
-A perfume set is an easy Valentine's gift too. See our [Valentine's Day gift ideas](valentines-day-gift-ideas.html) for him and her.
+A perfume set is an easy Valentine's gift too. Our [gift finder](../tools/gift-finder.html#occ=valentines) lists Valentine's ideas for him and her.
 
 A flat 17 ml pocket spray for a quick top-up before a meeting or after a flight:
 
@@ -128,7 +128,7 @@ Four 5 ml roll-on attars from Ajmal, with no alcohol (as listed): Dubai Oud, Blu
 - **Test on a small patch of skin first** if you have sensitive skin or allergies.
 - **Keep perfume out of the sun.** Heat and light can change the smell over time.
 
-More gift ideas: [birthday gifts](birthday-gift-ideas.html), [anniversary gifts](anniversary-gift-ideas.html), [Christmas gifts for her](christmas-gift-for-girlfriend-or-wife.html), [Christmas gifts for him](christmas-gift-for-boyfriend-or-husband.html), [Secret Santa ideas for the office](secret-santa-gift-ideas-for-office.html) and [wedding gifts](wedding-gift-guide.html).
+More gift ideas: the [gift finder](../tools/gift-finder.html) sorts our picks by who the gift is for and the occasion, from birthdays and weddings to the office Secret Santa.
 
 ## Questions
 

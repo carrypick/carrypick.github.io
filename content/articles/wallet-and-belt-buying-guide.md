@@ -85,7 +85,7 @@ Two colours in one reversible belt, cut to fit:
 - **We haven't handled these.** Leather type, card slots and sizes come from each Amazon listing.
 - **For a gift, check the return window** on the Amazon page in case the size is wrong.
 
-Looking for more gift ideas? See our [gift ideas for your boyfriend or husband](christmas-gift-for-boyfriend-or-husband.html), [gift for your boss](gift-for-boss.html), [Secret Santa ideas for the office](secret-santa-gift-ideas-for-office.html) and [farewell gifts for a colleague](farewell-gift-for-colleague.html).
+Looking for more gift ideas? The [gift finder](../tools/gift-finder.html#for=him&occ=any) sorts our picks for him, and also for [your boss](../tools/gift-finder.html#for=boss) or [a colleague who is leaving](../tools/gift-finder.html#for=colleague&occ=farewell).
 
 ## Questions
 

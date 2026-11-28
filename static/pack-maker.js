@@ -221,6 +221,13 @@
       if (b) b.checked = true;
     });
   } catch (err) { /* old or broken saved choices: start fresh */ }
+  // A link such as packing-list-maker.html#abroad or #business opens on that kind of trip
+  var want = location.hash.slice(1);
+  if (/^[a-z]+$/.test(want) && form.querySelector("#pm-type option[value='" + want + "']")) {
+    type.value = want;
+    var w = form.querySelector("input[name=where][value=" + (want === "abroad" ? "abroad" : "india") + "]");
+    if (w && want === "abroad") w.checked = true;
+  }
   if (!month.value || !data.seasons[month.value]) month.value = String(new Date().getMonth() + 1);
   form.hidden = false;
   out.hidden = false;

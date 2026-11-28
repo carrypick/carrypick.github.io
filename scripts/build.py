@@ -346,6 +346,12 @@ def page(cfg, title, description, body, depth, path, schema=None, og_type="websi
         robots = "noindex, follow"
     if "noindex" in robots:
         NOINDEXED.add(path)
+    if lang == "en":
+        # The abroad and work-trip checklists are noindex (audit fix 9), so English links to them open the
+        # packing list maker on that kind of trip instead (internal links job, 28 Nov 2026). Hindi pages are left as they are.
+        body = re.sub(r'href="((?:\.\./)*)packing/(abroad|business)\.html"', r'href="\1tools/packing-list-maker.html#\2"', body)
+        # The beach, train, weekend and wedding lists are merged into the packing hub (also in embedded tool data).
+        body = re.sub(r'"((?:\.\./)*)packing/(%s)\.html"' % "|".join(sorted(PACK_MERGED)), r'"\1packing/index.html#\2"', body)
     if lang in ("en", "hi"):
         body = cite_box.insert(cfg, path, title, body, lang)
     if og_type == "article" or path.startswith("picks/"):
@@ -1435,7 +1441,7 @@ def build_trips(cfg, trips, deals_by_asin, pages, lastmod):
     body = f"""{page_head("travel-gear", f'<div class="media media-tile tint-travel-gear">{icon("pin", "icon media-icon")}</div>', inner, "../")}
 <div class="wrap"><article class="guide">
 <p class="lead">{len(trips)} trip guides for places in India and abroad, written for travellers from India and visitors to India. Each guide covers the best time to go, the weather, how to get there and get around, local rules and fees, and what to pack.</p>
-<p>The guides are grouped below: month hubs if you know when you can travel, holiday and long-weekend plans, places in India by region, and countries abroad. Every guide links to a <a href="../packing/index.html">packing checklist</a>, the <a href="../baggage/index.html">airline baggage rules</a> and <a href="../baggage/can-i-carry.html">what you can carry on the flight</a>.</p>
+<p>The guides are grouped below: month hubs if you know when you can travel, holiday and long-weekend plans, places in India by region, and countries abroad. Every guide links to a <a href="../packing/index.html">packing checklist</a>, the <a href="../baggage/index.html">airline baggage rules</a> and <a href="../baggage/can-i-carry.html">what you can carry on the flight</a>. Travelling for work, not a holiday? Use the <a href="../guides/business-trip-packing-list.html">business trip packing list</a>. Moving abroad to study? See the packing lists for <a href="../guides/germany-packing-list-for-indian-students.html">Germany</a> and <a href="../guides/canada-packing-list-for-indian-students.html">Canada</a>.</p>
 <p class="checked"><strong>How we check:</strong> each place guide ends with a "Checked on" line that names the official pages it uses, such as state and national tourism boards, the weather office, airports, railways, park authorities and visa sites, and the date we read them. Comparison pages, such as weekend getaways and the December hub, link to those place guides. Each link below shows when that guide was last updated. When a fact comes from news reports instead, the guide says so. Found a mistake? See our <a href="../editorial-policy.html">corrections policy</a>.</p>
 {trip_hub_groups(trips)}
 </article></div>
@@ -1904,7 +1910,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
     if items_data:
         groups_html += f"""
 <h3>Rules by item: can I carry it?</h3>
-<p>Whether {item_count} everyday items can go in your cabin bag, your check-in bag or neither, from airline and airport pages. Start with the <a href="can-i-carry.html">full can-I-carry list</a>, or open an item:</p>
+<p>Whether {item_count} everyday items can go in your cabin bag, your check-in bag or neither, from airline and airport pages. Start with the <a href="can-i-carry.html">full can-I-carry list</a>, or open an item. Some answers surprise people: <a href="can-i-carry/cigarettes-and-lighter.html">a lighter</a> is banned in both bags on IndiGo, while <a href="can-i-carry/dry-fruits.html">dry fruits</a> are fine in both, except dry coconut.</p>
 <div class="trip-chips">{"".join('<a class="trip-chip" href="can-i-carry/%s.html">%s</a>' % (f.stem, e(f.stem.replace("-", " ").capitalize())) for f in carry_pages)}</div>"""
     groups_html += "\n<h3>Bag sizes, extra kilos, customs and trains</h3>\n" + link_list([
         ("checker.html", "Cabin bag checker", "Type your bag's size and weight and see which airlines take it."),
@@ -2038,6 +2044,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
 {('<h2>Extra baggage charges</h2><p>' + e(excess['summary']) + '.</p><ul>' + "".join("<li>%s</li>" % e(x) for x in excess.get("points", [])) + '</ul>') if excess else ''}
 {sections_html}
 {('<h2>Good to know</h2><ul>' + notes + '</ul>') if notes else ''}
+{('<h2>What you can pack on ' + e(a['name']) + '</h2><p>' + md_inline(a['carry_note'], '../') + '</p>') if a.get('carry_note') else ''}
 <h2 id="our-picks-fit">Do our cabin picks fit {e(a['name'])}?</h2>
 <p>Based on the size listed on Amazon. {weight_note}</p>
 {fit_table(cfg, a, picks, "../")}
@@ -2126,6 +2133,7 @@ def build_baggage(cfg, deals, data, pages, lastmod, intl=None, extra=None):
 </ul>
 <p>See the <a href="index.html">full baggage rules for each airline</a>, compare <a href="../guides/carry-on-size-by-airline.html">carry-on size by airline worldwide</a>, or read <a href="../guides/cabin-luggage-guide.html">the cabin bag rules and how to pick a cabin trolley</a>.</p>
 <p>Only know the size in inches or litres? A <a href="../guides/20-inch-trolley-bag-size.html">20 inch trolley</a> is 50.8 cm tall and a <a href="../guides/28-inch-trolley-bag-size.html">28 inch trolley</a> 71.1 cm; see every size in the <a href="luggage-size-chart.html">luggage size chart</a>. For backpacks, see the <a href="../guides/backpack-size-chart-litres.html">backpack size chart in litres</a>, and for how many kg each trolley holds, <a href="../guides/trolley-bag-capacity-kg-litres.html">trolley bag capacity</a>.</p>
+<p>Bag fits but weighs too much? See what <a href="extra-baggage-charges/indigo.html">IndiGo</a>, <a href="extra-baggage-charges/air-india.html">Air India</a> and <a href="extra-baggage-charges/akasa-air.html">Akasa Air</a> charge for extra kilos.</p>
 <p>Buying a new bag? Compare <a href="../guides/best-trolley-bag-brands-india.html">trolley bag brands by weight, size and warranty</a>, or <a href="../guides/american-tourister-vs-safari.html">American Tourister vs Safari</a> cabin bags against each airline.</p>
 {tool_pills("../", "baggage/checker.html")}
 </article></div>
@@ -3237,7 +3245,7 @@ def build_tools(cfg, deals, pages, lastmod):
 <h2>Our watch picks by dial size</h2>
 <p id="ws-picks-note">Sorted from small to large. Type your wrist size above to see the ones that suit it.</p>
 <div class="grid" id="ws-picks">{cards}</div>
-<p>More help: <a href="../guides/first-analog-watch-guide.html">how to choose your first analog watch</a>, <a href="../guides/titan-vs-fastrack.html">Titan vs Fastrack compared</a>, <a href="../guides/watch-gift-for-husband.html">a watch gift for your husband</a> and <a href="../guides/couple-watches.html">couple watch sets</a>.</p>
+<p>More help: <a href="../guides/first-analog-watch-guide.html">how to choose your first analog watch</a>, <a href="../guides/titan-vs-fastrack.html">Titan vs Fastrack compared</a> and <a href="../guides/couple-watches.html">couple watch sets</a>.</p>
 {{faq}}
 {tool_pills("../", path)}
 </article></div>
@@ -3346,6 +3354,11 @@ PACKING_UPDATED = "2026-11-26"
 # Search Console audit fix #9 (26 Nov 2026): the four thin lists below became presets and sections of packing/index.html.
 # Their old pages stay live with the same checklist, a canonical to the index and a link to their section. Never delete them.
 PACK_PRESETS = ("week", "weekend", "beach", "train", "wedding")
+# Hub-only paragraph: trips the presets don't cover, and the gear and guides pages (internal links job, 28 Nov 2026)
+PACK_HUB_MORE = ('<p>Not on a holiday? For a work trip, see our <a href="../guides/business-trip-packing-list.html">business trip packing list</a>. '
+                 'Moving abroad to study? Start with the packing lists for <a href="../guides/germany-packing-list-for-indian-students.html">Germany</a> '
+                 'and <a href="../guides/canada-packing-list-for-indian-students.html">Canada</a>. Packing cubes, neck pillows, locks and toiletry bags '
+                 'are in our <a href="../category/travel-gear.html">travel gear picks</a>, and every buying guide is on the <a href="../guides/index.html">guides page</a>.</p>')
 PACK_MERGED = set(PACK_PRESETS) - {"week"}
 
 
@@ -3611,6 +3624,7 @@ def build_packing(cfg, deals_by_asin, pages, lastmod, trip_guides=()):
 </form>
 <div class="pack-list" data-trip="{slug}"{' data-presets="' + ' '.join(PACK_PRESETS) + '"' if hub else ''}>{groups_html}</div>
 {going_html if hub else ''}
+{PACK_HUB_MORE if hub else ''}
 {sections}
 {tips}
 {faq_html}
@@ -4058,7 +4072,7 @@ def build():
 </section>
 <section class="wrap section home-about" id="how-we-check">
   {section_head("What CarryPick is, and how we check facts")}
-  <p class="home-intro">CarryPick is a small independent travel site with six parts: airline baggage rules, can-I-carry answers for single items, luggage size charts, packing lists, trip guides with month-by-month hubs, and free tools such as a cabin bag checker and a trip budget calculator.</p>
+  <p class="home-intro">CarryPick is a small independent travel site with six parts: airline baggage rules, can-I-carry answers for single items such as a <a href="baggage/can-i-carry/hair-dryer-and-straightener.html">hair straightener</a> or a <a href="baggage/can-i-carry/cigarettes-and-lighter.html">lighter</a>, luggage size charts, packing lists for holidays and <a href="guides/business-trip-packing-list.html">work trips</a>, trip guides with month-by-month hubs, and free tools such as a cabin bag checker and a trip budget calculator.</p>
   <p class="home-intro">Rules come from official pages: the airline's own baggage pages, airports and the Airports Authority of India, government sites for customs, visas and railways, tourism boards, and makers' own pages for chargers and plugs. Every page shows the date we checked it and links to its sources. {checks_text}</p>
   <p class="home-intro">Found something out of date? Tell us and we fix it. Read our <a href="editorial-policy.html">editorial policy and corrections</a> and <a href="about.html">about CarryPick</a>.</p>
 </section>

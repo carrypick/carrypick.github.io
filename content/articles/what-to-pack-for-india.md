@@ -119,7 +119,7 @@ India uses round pins, so you need an adapter if your plugs have flat pins (the 
 
 [[pick:1787013499]]
 
-Long flight to India? Download an audiobook before you fly: see [audiobooks for long flights](audiobooks-for-long-flights.html). More in our [travel books](../category/books.html).
+Long flight to India? Download an audiobook before you fly: see [audiobooks for long flights](audiobooks-for-long-flights.html).
 
 ## Which bag to take
 
