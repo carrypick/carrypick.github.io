@@ -3,7 +3,7 @@ seo_title: Europe packing list for winter (2026): clothes, plugs, customs
 title: Europe packing list: what to pack for a winter trip from India
 description: What to pack for Europe in December and January: what to wear for Zurich, Paris and Rome weather, shoes for wet streets, the Type C and F plug and voltage, the EU's customs limits and the no meat or dairy rule, cabin bag sizes on Lufthansa, Air France, KLM and British Airways, and lists for men, women and kids.
 date: 2026-11-21
-updated: 2026-11-21
+updated: 2026-11-28
 category: travel-gear
 photo: europe-strasbourg-christmas-market
 ---
@@ -200,12 +200,12 @@ Economy rules on flights from India to Europe, from the airlines' own websites. 
 | Airline | Cabin bag | Check-in bag |
 |---|---|---|
 | [Lufthansa](../baggage/lufthansa.html) | 8 kg, 55 x 40 x 23 cm, plus a personal item | 1 bag of 23 kg; none on Economy Light |
-| [British Airways](../baggage/british-airways.html) | 56 x 45 x 25 cm, plus a handbag (no weight limit given) | 1 bag of 23 kg; none on Economy Basic |
+| [British Airways](../baggage/british-airways.html) | 56 x 45 x 25 cm, plus a handbag (no weight limit given) | 2 bags of 23 kg between India and London (BA calculator, 28 Nov 2026); none on Economy Basic |
 | Air France | One bag of 55 x 35 x 25 cm plus a small bag, 12 kg in total | 0 to 2 bags of 23 kg, by fare; none on Light |
 | KLM | One bag of 55 x 35 x 25 cm plus a small bag, 12 kg in total | None on Basic and Light; 1 bag of 23 kg on Standard and Flex |
 | [Turkish Airlines](../baggage/turkish-airlines.html) | 8 kg, 55 x 40 x 23 cm, plus a 4 kg personal item | Depends on your route and fare |
 
-Lufthansa, British Airways and Turkish Airlines checked on 15–16 November 2026. Air France and KLM come from each airline's own site. Air India and IndiGo also fly to Europe: check the baggage shown for your fare before you pay, and our [international baggage rules](../baggage/international.html) for every airline.
+Lufthansa and British Airways checked on 28 November 2026, Turkish Airlines on 16 November 2026. Air France and KLM come from each airline's own site. Air India and IndiGo also fly to Europe: check the baggage shown for your fare before you pay, and our [international baggage rules](../baggage/international.html) for every airline.
 
 This cabin trolley is listed at 55 x 40 x 20 cm, inside the limits above:
 

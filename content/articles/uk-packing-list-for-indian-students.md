@@ -3,7 +3,7 @@ seo_title: UK packing list for Indian students (2026)
 title: UK packing list for Indian students: what to carry from India
 description: A packing list for Indian students going to the UK: the documents GOV.UK lists for a Student visa (passport, CAS, eVisa), when you can arrive, student baggage on Air India and Virgin Atlantic, which trolley fits 23 kg, the UK's rules on Indian food, sweets and medicines, Type G plugs, and clothes for cold, wet weather.
 date: 2026-11-23
-updated: 2026-11-23
+updated: 2026-11-28
 category: travel-gear
 photo: oxford-radcliffe-camera
 ---
@@ -54,7 +54,7 @@ Students on these airlines can get more checked baggage than a normal ticket, as
 - **Air India student fare:** on routes where bags are counted by piece, Economy and Premium Economy get **2 bags of 23 kg each**. Choose "Student" as the concession type when you book. International student fares are for full-time students aged 12 to 30, and you must show a student ID, student visa or acceptance letter at the airport if asked.
 - **Virgin Atlantic student offer:** from Delhi, Mumbai or Bengaluru to London, Economy Classic and Delight and Premium get **3 bags of 23 kg**, 69 kg in all. It isn't valid on Economy Light, it's for the outbound flight only, and you show your student visa at check-in. Virgin says to book it through its India contact centre.
 
-On a normal fare, check what your ticket includes. From our airline data: [British Airways](../baggage/british-airways.html) gives 1 bag of 23 kg in Economy (none on Basic), [Lufthansa](../baggage/lufthansa.html) 1 bag of 23 kg (none on Economy Light), and Air India 1 bag of 23 kg on Value and 2 on Classic and Flex to Europe. Emirates and Qatar Airways depend on your fare. See our [international baggage rules](../baggage/international.html) and, if you'll pay for extra bags, the [excess baggage calculator](../tools/bag-weight.html).
+On a normal fare, check what your ticket includes. From our airline data: [British Airways](../baggage/british-airways.html) gives 2 bags of 23 kg in Economy between India and London in its baggage calculator (none on Basic; read 28 Nov 2026), [Lufthansa](../baggage/lufthansa.html) 1 bag of 23 kg (none on Economy Light), and Air India 1 bag of 23 kg on Value and 2 on Classic and Flex to Europe. Emirates and Qatar Airways depend on your fare. See our [international baggage rules](../baggage/international.html) and, if you'll pay for extra bags, the [excess baggage calculator](../tools/bag-weight.html).
 
 - **Each bag can usually be up to 158 cm in total** (length + width + height). Air India's page also limits both Economy bags together to 271 cm. See [trolley bag size for international travel](trolley-bag-size-for-international-travel.html).
 - **Cabin bag:** British Airways allows one bag of 56 x 45 x 25 cm plus a handbag or backpack; Air India 7 kg and 55 x 40 x 20 cm. Check yours with the [cabin bag checker](../baggage/checker.html).
@@ -219,7 +219,7 @@ Rice is among the grains GOV.UK allows without a plant health certificate, and p
 
 ### How much baggage can students carry to the UK?
 
-Air India's student fare gives 2 bags of 23 kg in Economy on piece-based routes, and Virgin Atlantic's student offer from India to London gives 3 bags of 23 kg, as their pages said on 23 Nov 2026. On a normal British Airways Economy fare, it's 1 bag of 23 kg.
+Air India's student fare gives 2 bags of 23 kg in Economy on piece-based routes, and Virgin Atlantic's student offer from India to London gives 3 bags of 23 kg, as their pages said on 23 Nov 2026. On a normal British Airways Economy fare between India and London, its baggage calculator showed 2 bags of 23 kg on 28 Nov 2026.
 
 ### When can I travel to the UK on a Student visa?
 

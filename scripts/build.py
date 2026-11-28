@@ -1724,8 +1724,8 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
                        "IndiGo gives 20 kg to Bangkok and Phuket on regular fares (25 kg on UpFront)."))
     if {"british-airways", "lufthansa"} <= slugs:
         faq.insert(1, ("How much baggage can I take from India to the UK or Europe?",
-                       "In Economy, British Airways and Lufthansa each include one checked bag of up to 23 kg (none on BA's Basic or Lufthansa's Light fares), "
-                       "plus a cabin bag and a small personal item. Heavier bags, up to 32 kg, cost extra."))
+                       "In Economy, British Airways' baggage calculator shows two checked bags of up to 23 kg between India and London, and Lufthansa includes one 23 kg bag "
+                       "(none on BA's Basic or Lufthansa's Light fares), plus a cabin bag and a small personal item. Heavier bags, up to 32 kg, cost extra (read 28 Nov 2026)."))
     if "vietjet" in slugs:
         faq.insert(2, ("Does Vietjet include checked baggage from India?",
                        "Not on Eco fares: you get only 7 kg of cabin baggage and buy checked bags separately, cheapest with your ticket. "
@@ -1768,7 +1768,7 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
                 len(airlines), intl_where(airlines), fmt_date(checked)))
     pieces = "Kuwait Airways counts pieces (2 x 23 kg on Economy)" + (
         ", and so does Thai Airways since March 2026 (one or two 23 kg bags)" if "thai-airways" in slugs else "") + (
-        ". British Airways and Lufthansa give Economy one 23 kg bag" if {"british-airways", "lufthansa"} <= slugs else "")
+        ". On India routes British Airways gives Economy two 23 kg bags and Lufthansa one" if {"british-airways", "lufthansa"} <= slugs else "")
     no_bag = (["Etihad Basic", "flydubai Lite", "Air Arabia Basic", "IndiGo Lite", "Kuwait Airways Zero Bag"] + (["Vietjet Eco"] if "vietjet" in slugs else [])
               + (["British Airways Basic"] if "british-airways" in slugs else []) + (["Lufthansa Economy Light"] if "lufthansa" in slugs else []))
     body = f"""{head(title, '<a href="index.html">Baggage rules</a><span>/</span>International', when + " against each airline's official website &middot; economy, India routes", BAGGAGE_PHOTO)}
@@ -1792,7 +1792,7 @@ def build_intl_hub(cfg, intl, picks, pages, lastmod, head, disclaimer, checker_c
 <div class="table-wrap"><table class="compare"><thead><tr><th>Flying to</th><th>Usually counted by</th><th>Typical economy allowance</th></tr></thead><tbody>
 <tr><th scope="row">Gulf and Middle East</th><td>Weight</td><td>20–35 kg by fare; IndiGo 30 kg; Air India 25, 30 or 35 kg. Saudia and Kuwait Airways use 23 kg pieces</td></tr>
 <tr><th scope="row">South-East Asia</th><td>Weight, mostly</td><td>IndiGo 20 kg to Bangkok and Bali, 30 kg to Singapore; Singapore Airlines 25–30 kg; Thai Airways 1 or 2 bags of 23 kg</td></tr>
-<tr><th scope="row">UK and Europe</th><td>Pieces</td><td>British Airways and Lufthansa: 1 bag of 23 kg (none on Basic and Light fares)</td></tr>
+<tr><th scope="row">UK and Europe</th><td>Pieces</td><td>British Airways 2 bags of 23 kg, Lufthansa 1 bag (none on BA Basic or Lufthansa Light)</td></tr>
 <tr><th scope="row">USA and Canada</th><td>Pieces</td><td>Usually 1 or 2 bags of 23 kg; Emirates 1 or 2 x 23 kg to the USA</td></tr>
 </tbody></table></div>
 <p class="checked">From the airline pages in the table below, each with its own check date; IndiGo's and Air India's international allowances re-read on 28 Nov 2026.</p>

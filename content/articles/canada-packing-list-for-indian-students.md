@@ -3,7 +3,7 @@ seo_title: Canada packing list for Indian students (2026)
 title: Canada packing list for Indian students going to Canada from India
 description: A packing list for students going to Canada from India: the documents IRCC says to have at the border (passport, port of entry letter of introduction, letter of acceptance, proof of money), student baggage on Air India and Virgin Atlantic, which trolley fits 23 kg, CBSA food rules and Health Canada's 90-day medicine limit, plugs, and clothes for a Canadian winter.
 date: 2026-11-23
-updated: 2026-11-23
+updated: 2026-11-28
 category: travel-gear
 photo: toronto-trinity-college-winter
 ---
@@ -51,7 +51,7 @@ Students on these airlines can get more checked baggage than a normal ticket, as
 - **Air India student fare:** on routes where bags are counted by piece, such as Canada, Economy and Premium Economy get **2 bags of 23 kg each**. Choose "Student" as the concession type when you book. International student fares are for full-time students aged 12 to 30, and you must show a student ID, student visa or acceptance letter at the airport if asked.
 - **Virgin Atlantic student offer:** from Delhi, Mumbai or Bengaluru to Canada (and to London and the USA), Economy Classic and Delight and Premium get **3 bags of 23 kg**, 69 kg in all. It isn't valid on Economy Light, it's for the outbound flight only, and you show your student visa at check-in. Virgin says to book it through its India contact centre.
 
-On a normal fare, check what your ticket includes. From our airline data: Air India gives 1 bag of 23 kg on Value and 2 on Classic and Flex to Canada, and Lufthansa and British Airways 1 bag of 23 kg (none on their cheapest fares). Emirates and Qatar Airways depend on your fare. See our [international baggage rules](../baggage/international.html) and, if you'll pay for extra bags, the [excess baggage calculator](../tools/bag-weight.html).
+On a normal fare, check what your ticket includes. From our airline data: Air India gives 1 bag of 23 kg on Value and 2 on Classic and Flex to Canada, Lufthansa 1 bag of 23 kg (none on Economy Light), and British Airways 2 bags of 23 kg from India via London in its baggage calculator (none on Basic; read 28 Nov 2026). Emirates and Qatar Airways depend on your fare. See our [international baggage rules](../baggage/international.html) and, if you'll pay for extra bags, the [excess baggage calculator](../tools/bag-weight.html).
 
 - **Each bag can usually be up to 158 cm in total** (length + width + height). Air India's page also limits both Economy bags together to 271 cm. See [trolley bag size for international travel](trolley-bag-size-for-international-travel.html).
 - **Cabin bag:** Air India allows 7 kg and 55 x 40 x 20 cm in Economy. Check yours with the [cabin bag checker](../baggage/checker.html).

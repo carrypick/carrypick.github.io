@@ -2491,7 +2491,6 @@
       "scope": "international",
       "region": "Asia",
       "hub": "Hong Kong (HKG)",
-      "checked": "2026-11-16",
       "official_url": "https://www.cathaypacific.com/cx/en_IN/book-a-trip/book-flights/new-economy-fares.html",
       "cabin": {
         "pieces": 1,
@@ -2501,12 +2500,12 @@
           36,
           23
         ],
-        "total_cm": null,
+        "total_cm": 115,
         "summary": "One cabin bag and one small item, 7 kg in total",
-        "detail": "For a Delhi to Hong Kong Economy ticket, Cathay's baggage calculator allows one cabin bag up to 56 x 36 x 23 cm plus one small item up to 40 x 30 x 15 cm that fits under the seat, with a total weight limit of 7 kg for both. Both sizes include wheels, handles and side pockets. Cabin crew can't lift bags for you, so check in anything too heavy to lift into the overhead locker yourself."
+        "detail": "Every Economy fare (Light, Essential and Flex) and Premium Economy allows one cabin bag up to 56 x 36 x 23 cm (115 cm in total) plus one small item up to 40 x 30 x 15 cm that fits under the seat in front. The 7 kg limit is for both items together, not for each one. Both sizes include wheels, handles and side pockets. Business allows the same two items with 10 kg in total. Cabin crew can't lift bags for you, so check in any bag too heavy to lift into the overhead locker yourself."
       },
       "personal": {
-        "summary": "One small item within the same 7 kg: a small handbag, laptop bag, small backpack, camera bag or briefcase up to 40 x 30 x 15 cm"
+        "summary": "One small item up to 40 x 30 x 15 cm that fits under the seat in front, such as a handbag or laptop bag. It counts in the same 7 kg as your cabin bag"
       },
       "checkin": [
         {
@@ -2520,27 +2519,128 @@
         {
           "fare": "Economy Flex",
           "allowance": "2 bags, each up to 23 kg"
+        },
+        {
+          "fare": "Premium Economy / Business",
+          "allowance": "Premium Economy: 2 bags of 23 kg each; Business: 2 bags of 32 kg each"
+        },
+        {
+          "fare": "India to the USA, Canada or the UK (via Hong Kong)",
+          "allowance": "2 bags, each up to 23 kg on Essential and Flex; 1 bag on Light (same piece rule as to Hong Kong)"
         }
       ],
-      "checkin_summary": "1 bag of 23 kg on Light, 2 bags of 23 kg on Essential and Flex",
-      "checkin_note": "Cathay counts bags (pieces), not total kg. Each bag can weigh up to 23 kg and measure up to 158 cm in total. We checked these figures in Cathay's baggage calculator for Delhi to Hong Kong; your e-ticket and Manage Booking show the allowance for your own trip.",
-      "infant": "An infant without a seat gets one checked bag up to 23 kg and 115 cm, plus an approved child seat, a small bag of food and nappies for the flight, and a foldable stroller (in the cabin if it fits the cabin bag size when folded and there's space).",
+      "checkin_summary": "1 bag of 23 kg on Economy Light, 2 bags of 23 kg on Essential and Flex",
+      "checkin_note": "Cathay counts bags (pieces), not total kilos. Each bag may weigh up to 23 kg in Economy and Premium Economy (32 kg in Business) and measure up to 158 cm in total (length + width + height). Cathay's baggage calculator, read on 28 Nov 2026, gave the same allowance from Delhi, Mumbai, Bengaluru, Chennai and Hyderabad to Hong Kong, and from India to New York, Vancouver, London, Tokyo and Shanghai. All three Economy fares are sold on every route. Award tickets in Economy get 1 bag of 23 kg. If you check in together at the airport, you can share your allowance with travel companions on the same flights. Your e-ticket and Manage Booking show the allowance for your own trip.",
+      "infant": "An infant without a seat (7 days to under 2 years old) gets one checked bag of 23 kg in Economy and Premium Economy (32 kg in Business), up to 115 cm in total. The infant may also have an approved child seat, a small bag of food and nappies for the flight, and a foldable stroller. The stroller can go in the cabin if, when folded, it fits the cabin bag size and weight and there is space. Each adult may travel with at most two infants. Extra baggage can't be bought online for an infant without a seat.",
       "excess": {
-        "summary": "An extra bag between India and Hong Kong costs USD 130, and a bag over 23 kg costs USD 100 more",
+        "summary": "From India an extra bag costs USD 130 to Hong Kong and USD 230 to the USA or Canada, paid at the airport, because Cathay's prepaid and online extra baggage isn't sold for journeys to or from India",
         "points": [
-          "Extra bags are charged per piece by zone, and India is in Cathay's Zone 2. From India, an extra bag (up to 23 kg and 158 cm) costs USD 130 to Hong Kong, USD 150 to mainland China, Japan, Korea or South-East Asia, USD 200 to Australia, New Zealand, the UK or Europe, and USD 230 to the USA or Canada.",
-          "A bag of 23 to 32 kg costs an extra USD 100 to Hong Kong or Asia, or USD 150 to Australia, Europe or North America. A bag of 158 to 203 cm costs USD 200.",
-          "Buying extra baggage at least 24 hours before departure gives up to 10% off.",
-          "Fees are charged in local currency, plus tax. Bags over 32 kg or 203 cm need approval from Customer Care at least three working days before you fly."
+          "India is in Cathay's Zone 2. From India, one extra bag (up to 23 kg and 158 cm) costs USD 130 to Hong Kong, USD 150 to mainland China, Taiwan, Japan, South Korea or South-East Asia (Zone 1), USD 170 to the Middle East or South Asia (Zone 2/3), USD 200 to Australia, New Zealand, the UK, Europe or South Africa (Zone 4) and USD 230 to the USA, Canada, Mexico or South America (Zone 5/6).",
+          "A bag of 23 to 32 kg pays an overweight charge: USD 100 from India to Hong Kong, Asia or the Middle East, and USD 150 to Zone 4 (Europe, UK, Australia) or Zone 5/6 (Americas). This heavy bag charge is paid only at the airport, not online.",
+          "A bag of 158 to 203 cm in total pays USD 200. A bag over 32 kg or 203 cm costs four times the extra bag charge and needs approval from Customer Care at least three working days before you fly; otherwise it must be repacked.",
+          "Fees are collected in local currency, and tax is added. Prepaid extra baggage (up to 10% off) and online Regular Extra Baggage are both listed as unavailable for journeys to or from India. Miles Plus Cash can't be used at airports in India and Nepal."
         ]
       },
       "notes": [
-        "Power banks: since 30 March 2026 you may carry at most two, in your cabin bag only, and you can't use or recharge them at any time during the flight. Extra power banks are confiscated at Hong Kong airport security.",
-        "Nail scissors, letter knives and other sharp, pointed items must go in checked baggage."
+        "Power banks: at most two per passenger, each under 100 Wh, in your cabin bag only. You can't use them to charge devices or recharge them from the seat power at any time during the flight. They must stay in your bag under the seat in front, never in the overhead bin or checked bags. Extra power banks are taken away at Hong Kong airport security.",
+        "Spare batteries: up to 20 spare batteries under 100 Wh in cabin baggage, protected against short circuit; 2 spares of 100 to 160 Wh. No spare batteries of any kind (lithium, alkaline or dry cell) in checked bags. Batteries with no clear Wh marking are refused.",
+        "Smart bags with a battery that can't be removed are refused in the cabin and in the hold. Hoverboards and other self-balancing scooters are banned.",
+        "Liquids: 100 ml per container in one clear, resealable 1-litre bag (about 20 x 20 cm) per passenger. Medicines, baby food and breast milk may be more, after a security check. Powders over 350 ml face limits on flights to the USA, Australia and New Zealand.",
+        "Nail scissors, letter knives and other sharp, pointed items must go in checked baggage.",
+        "Religious idols can fly on a seat you buy, in Economy only, up to 60 x 36 x 36 cm and under 15 kg. Book by phone with Cathay at least 3 working days before the flight."
       ],
+      "sections": [
+        {
+          "h": "How Cathay Pacific differs from other airlines from India",
+          "items": [
+            "Cathay counts bags, not kilos, on every route from India, even to Hong Kong and South-East Asia. Light gives 1 bag of 23 kg and Essential and Flex give 2 bags, so Essential can carry up to 46 kg in two bags.",
+            "The 7 kg cabin limit covers your cabin bag and your small item together. Air India allows 7 kg for the cabin bag plus a separate personal item.",
+            "Power banks must stay under the seat in front and can't be used at all on board, not even to charge a phone. Use the seat power instead.",
+            "Extra baggage from India can't be prepaid at a discount. You pay the zone price at the airport.",
+            "Pets travel only as cargo through Cathay Cargo, not in the cabin. Only guide and assistance dogs fly with you."
+          ]
+        },
+        {
+          "h": "Cathay Pacific baggage from India to the USA, Canada and the UK",
+          "items": [
+            "All flights from India to North America and the UK connect in Hong Kong. Cathay's calculator gives the same piece allowance as to Hong Kong: 1 bag of 23 kg on Light, 2 bags of 23 kg on Essential, Flex and Premium Economy, and 2 bags of 32 kg in Business.",
+            "On a single ticket your bags are checked through to your final city. If you fly on to a domestic flight inside the USA, you may need to collect your bags and clear customs first.",
+            "For a trip that starts or ends in the USA or Canada, the baggage rules chosen at the start of the ticket apply to the whole journey, even with stopovers.",
+            "An extra bag from India costs USD 230 to the USA or Canada and USD 200 to the UK, plus USD 150 if it weighs 23 to 32 kg."
+          ]
+        },
+        {
+          "h": "Sports equipment and pets",
+          "items": [
+            "Sports equipment (golf, hockey, fishing, skiing, surfing, climbing and similar) counts as one bag in your free allowance. Normal weight limits apply, and an item may be at most 203 cm long. Extra pieces pay the normal extra bag charge.",
+            "A bicycle must be non-motorised, in a hard case or bike box, with pedals removed or fixed and tyres deflated. Tell Customer Care at least 72 hours before departure, because space is limited.",
+            "Small instruments such as a violin or flute can be your cabin bag, up to 7 kg and 93 x 39 x 24 cm in a hard case. Bigger ones are checked in, or fly on a seat you buy (up to 136 x 48 x 44 cm and 32 kg), booked with Customer Care at least three working days ahead.",
+            "Cathay's pet page describes pet travel only as cargo with Cathay Cargo (Cathay Live Animal). Since 1 September 2025 Cathay Cargo takes pet bookings only from IPATA or ATA members, IATA freight forwarders or holders of an IATA Live Animals certificate, so use a pet travel agent. Guide and assistance dogs can fly in the cabin."
+          ]
+        },
+        {
+          "h": "Check-in times at Indian airports",
+          "items": [
+            "Delhi (Terminal 3), Mumbai (Terminal 2), Bengaluru (Terminal 2) and Hyderabad: Cathay's counters open 4 hours (240 minutes) before departure.",
+            "Chennai (Terminal 2, new international terminal): counters open 3.5 hours (210 minutes) before departure.",
+            "At all five airports the counters close exactly 60 minutes before departure. Arrive early enough to finish check-in, immigration and security.",
+            "Mumbai and Bengaluru also have self-service check-in kiosks."
+          ]
+        },
+        {
+          "h": "Changing planes in Hong Kong",
+          "items": [
+            "With a single ticket on Cathay flights, your bags are checked through to your final destination. If you already have your onward boarding pass, follow the transfer signs to Departures (Level 6). If not, go to Cathay's Transfer Desk in area W1.",
+            "You go through security screening again before your next flight. Liquids must follow the 100 ml rule at Hong Kong transfer security. Duty-free liquids in a sealed bag get extra screening and may be taken out and resealed in a new bag, so allow extra time.",
+            "Cathay asks you to be at the gate at least 35 minutes before departure. Gates close 15 minutes before departure.",
+            "A minimum connection time for Hong Kong isn't published on the Cathay or Hong Kong airport pages we read.",
+            "Hong Kong airport allows at most two power banks per departing passenger, in hand baggage only. Extra ones are taken away at security."
+          ]
+        },
+        {
+          "h": "If your bag is delayed or damaged",
+          "items": [
+            "Report a delayed bag at the baggage service counter near the belts in the arrival hall, before customs. Keep the report reference number and follow your bag on Cathay's WorldTracer page.",
+            "Report damage at the same counter, or by phone to your local Cathay baggage office within 7 days of getting your bag. Cathay doesn't pay for normal wear such as scratches, dents, or broken wheels, zips, locks or handles.",
+            "If the airport team can't solve it, fill in Cathay's online baggage claim form and send your receipts after you get the confirmation email.",
+            "Under the Montreal Convention the limit is 1,519 Special Drawing Rights per passenger. Cathay isn't liable for cash, jewellery, cameras, medicines, keys, documents or fragile items packed in checked bags."
+          ]
+        }
+      ],
+      "faq_extra": [
+        {
+          "q": "What is the Cathay Pacific baggage allowance from India to Hong Kong?",
+          "a": "Economy Light includes 1 checked bag of 23 kg, and Essential and Flex include 2 bags of 23 kg each. Every Economy fare also has a cabin bag and a small item, 7 kg in total."
+        },
+        {
+          "q": "What is the Cathay Pacific baggage allowance from India to the USA?",
+          "a": "The same as to Hong Kong: 1 bag of 23 kg on Light and 2 bags of 23 kg on Essential and Flex. Premium Economy gets 2 bags of 23 kg and Business 2 bags of 32 kg. Each bag may measure up to 158 cm in total."
+        },
+        {
+          "q": "What is the Cathay Pacific cabin baggage size and weight?",
+          "a": "The cabin bag may be up to 56 x 36 x 23 cm and the small item up to 40 x 30 x 15 cm. In Economy and Premium Economy both together may weigh 7 kg; in Business 10 kg."
+        },
+        {
+          "q": "What is the Cathay Pacific maximum baggage weight?",
+          "a": "Each free bag may weigh 23 kg in Economy and Premium Economy and 32 kg in Business. A bag of 23 to 32 kg pays an overweight charge at the airport. A bag over 32 kg needs approval at least three working days before you fly."
+        },
+        {
+          "q": "What are Cathay Pacific extra baggage charges from India?",
+          "a": "An extra bag from India costs USD 130 to Hong Kong, USD 150 to Japan, China or South-East Asia, USD 200 to the UK or Europe and USD 230 to the USA or Canada, plus tax. You pay at the airport, because prepaid extra baggage isn't sold for journeys to or from India."
+        },
+        {
+          "q": "Is Cathay Pacific strict with baggage allowance?",
+          "a": "Cathay's rules are clear: bags over 32 kg or 203 cm aren't accepted without approval and must otherwise be repacked, and the 7 kg cabin limit covers both cabin items. Cabin crew won't lift bags for you, so weigh your bags at home."
+        },
+        {
+          "q": "How do I track delayed Cathay Pacific baggage?",
+          "a": "Make a report at the baggage service counter in the arrival hall before customs, and keep the reference number. You can then follow your bag on Cathay's WorldTracer tracking page."
+        }
+      ],
+      "carry_note": "Cathay allows two [power banks](can-i-carry/power-bank.html) under 100 Wh in your cabin bag, and you can't use them on board; see our [power bank rules guide](../guides/power-bank-rules-on-flights.html). Liquid or oily [pickle](can-i-carry/pickle.html) over 100 ml must go in your checked bag. For [spices and masala](can-i-carry/spices-and-masala.html), remember the 350 ml powder limit in the cabin on flights to the USA, and see [sweets and home food](can-i-carry/sweets-and-home-food.html) before you pack food.",
       "sources": [
         {
-          "label": "Cathay Pacific Economy fares",
+          "label": "Cathay Pacific Economy fares and baggage FAQs",
           "url": "https://www.cathaypacific.com/cx/en_IN/book-a-trip/book-flights/new-economy-fares.html"
         },
         {
@@ -2552,10 +2652,88 @@
           "url": "https://www.cathaypacific.com/cx/en_IN/baggage/extra-baggage-charges/pay-cash-or-by-credit-card.html"
         },
         {
+          "label": "Cathay Pacific prepaid extra baggage",
+          "url": "https://www.cathaypacific.com/cx/en_IN/manage-booking/travel-extras/prepaid-extra-baggage.html"
+        },
+        {
+          "label": "Cathay Pacific carrier rules",
+          "url": "https://www.cathaypacific.com/cx/en_IN/baggage/check-in-baggage/carrier-rules.html"
+        },
+        {
           "label": "Cathay Pacific power bank restrictions",
           "url": "https://www.cathaypacific.com/cx/en_IN/latest-news/security-and-operational-changes/restrictions-on-the-carriage-of-lithium-battery-power-banks.html"
+        },
+        {
+          "label": "Cathay Pacific spare batteries",
+          "url": "https://www.cathaypacific.com/cx/en_IN/baggage/controlled-and-banned-items/lithium-batteries.html"
+        },
+        {
+          "label": "Cathay Pacific: how to carry power banks",
+          "url": "https://www.cathaypacific.com/cx/en_IN/inspiration/cathay-stories/lithium-power-banks-cathay-pacific-fights.html"
+        },
+        {
+          "label": "Cathay Pacific liquids, aerosols, gels and powders",
+          "url": "https://www.cathaypacific.com/cx/en_IN/baggage/controlled-and-banned-items/liquids-aerosols-and-gels.html"
+        },
+        {
+          "label": "Cathay Pacific sports equipment",
+          "url": "https://www.cathaypacific.com/cx/en_IN/baggage/sports-equipment.html"
+        },
+        {
+          "label": "Cathay Pacific musical instruments",
+          "url": "https://www.cathaypacific.com/cx/en_IN/baggage/musical-instruments.html"
+        },
+        {
+          "label": "Cathay Pacific oversized cabin baggage",
+          "url": "https://www.cathaypacific.com/cx/en_IN/baggage/oversized-cabin-baggage.html"
+        },
+        {
+          "label": "Cathay Pacific travelling with animals",
+          "url": "https://www.cathaypacific.com/cx/en_IN/prepare-trip/help-for-passengers/travelling-with-animals/overview.html"
+        },
+        {
+          "label": "Cathay Pacific infants",
+          "url": "https://www.cathaypacific.com/cx/en_IN/prepare-trip/help-for-passengers/travelling-with-children/infants.html"
+        },
+        {
+          "label": "Cathay Pacific delayed and damaged baggage",
+          "url": "https://www.cathaypacific.com/cx/en_IN/baggage/lost-and-damaged-baggage.html"
+        },
+        {
+          "label": "Cathay Pacific Hong Kong airport information (transit)",
+          "url": "https://www.cathaypacific.com/cx/en_IN/destinations/airports/hong-kong-international-airport.html"
+        },
+        {
+          "label": "Cathay Pacific Delhi airport",
+          "url": "https://www.cathaypacific.com/cx/en_IN/destinations/airports/indira-gandhi-international-airport.html"
+        },
+        {
+          "label": "Cathay Pacific Mumbai airport",
+          "url": "https://www.cathaypacific.com/cx/en_IN/destinations/airports/chhatrapati-shivaji-maharaj-international-airport.html"
+        },
+        {
+          "label": "Cathay Pacific Bengaluru airport",
+          "url": "https://www.cathaypacific.com/cx/en_IN/destinations/airports/kempegowda-international-airport-bengaluru.html"
+        },
+        {
+          "label": "Cathay Pacific Chennai airport",
+          "url": "https://www.cathaypacific.com/cx/en_IN/destinations/airports/chennai-international-airport.html"
+        },
+        {
+          "label": "Cathay Pacific Hyderabad airport",
+          "url": "https://www.cathaypacific.com/cx/en_IN/destinations/airports/rajiv-gandhi-international-airport.html"
+        },
+        {
+          "label": "Hong Kong International Airport: transfer / transit",
+          "url": "https://www.hongkongairport.com/en/passenger-guide/transfer-transit/index.page"
+        },
+        {
+          "label": "Hong Kong International Airport: power bank notice",
+          "url": "https://www.hongkongairport.com/en/important-notice/index.page?noticeid=1585121172788-1"
         }
-      ]
+      ],
+      "checked": "2026-11-28",
+      "seo_title": "Cathay Pacific baggage allowance from India: 1-2 bags, 23 kg"
     },
     {
       "slug": "lufthansa",
@@ -2563,7 +2741,6 @@
       "scope": "international",
       "region": "Europe",
       "hub": "Frankfurt (FRA) and Munich (MUC)",
-      "checked": "2026-11-15",
       "official_url": "https://www.lufthansa.com/in/en/prepare-for-your-trip/baggage/free-baggage",
       "cabin": {
         "pieces": 1,
@@ -2575,43 +2752,140 @@
         ],
         "total_cm": null,
         "summary": "One cabin bag up to 8 kg, plus a small personal item",
-        "detail": "In Economy on long-haul flights, such as those to and from India, you can take one cabin bag up to 8 kg and 55 x 40 x 23 cm, plus one personal item up to 40 x 30 x 15 cm that fits under the seat. A garment bag, a folding pocket buggy or duty-free shopping counts within this allowance. Lufthansa checks cabin bags at the airport: one that breaks the rules is put in the hold at your cost, EUR 60 to 110 (USD 75 to 125) depending on the route, paid by credit card only. Lufthansa doesn't say whether wheels and handles count, so measure them in."
+        "detail": "On long-haul flights, such as those to and from India, every Economy and Premium Economy fare allows one cabin bag up to 8 kg and 55 x 40 x 23 cm, plus one personal item up to 40 x 30 x 15 cm. Business and First allow two cabin bags of 8 kg each, but on flights from India Business and First passengers must check in the second one. A folding garment bag, a pocket buggy, a small musical instrument and duty-free shopping all count within your cabin allowance. Lufthansa checks cabin bags at the airport: a bag that breaks the rules goes in the hold at your cost, EUR 60 / USD 75 to EUR 110 / USD 125 depending on the route, paid by credit card only. Lufthansa doesn't say whether wheels and handles count, so measure them in."
       },
       "personal": {
-        "summary": "One personal item up to 40 x 30 x 15 cm, such as a handbag or laptop bag, stowed under the seat"
+        "summary": "One personal item up to 40 x 30 x 15 cm, such as a handbag, shopping bag or laptop bag, kept under the seat in front of you"
       },
       "checkin": [
         {
           "fare": "Economy Light",
-          "allowance": "No free checked bag (the first bag can be added at a reduced price)"
+          "allowance": "No free checked bag. You can add a first bag of 23 kg at a reduced price: EUR 70-85 online or EUR 105 at check-in, each way"
         },
         {
           "fare": "Economy (other fares)",
           "allowance": "1 bag up to 23 kg"
         },
         {
+          "fare": "Premium Economy Light",
+          "allowance": "1 bag up to 23 kg"
+        },
+        {
           "fare": "Premium Economy",
-          "allowance": "2 bags, each up to 23 kg (1 bag on Premium Economy Light)"
+          "allowance": "2 bags, each up to 23 kg"
+        },
+        {
+          "fare": "Business (Light / other fares) and First",
+          "allowance": "Business Light 1 bag up to 32 kg, Business 2 bags of 32 kg, First 3 bags of 32 kg"
+        },
+        {
+          "fare": "To and from the USA and Canada",
+          "allowance": "Same piece allowance as above. If Lufthansa is the first airline on your ticket, its rules usually apply to the whole trip, outbound and return"
         }
       ],
-      "checkin_summary": "None on Economy Light, 1 bag of 23 kg on other Economy fares",
-      "checkin_note": "These are Lufthansa's allowances for intercontinental flights, which include flights between India and Europe. Each Economy bag can weigh up to 23 kg and measure up to 158 cm in total; heavier or bigger bags count as excess baggage, and nothing over 32 kg is accepted. Lufthansa says the allowance printed on your ticket is the one that applies, and it can depend on your route and Miles & More status.",
-      "infant": "A baby under 2 gets one checked bag up to 23 kg and 158 cm, except on Light fares, plus one free item such as a folding stroller (checked) or a car seat (in the cabin). On Economy Light, only the adult travelling with the baby can buy an extra bag.",
+      "checkin_summary": "None on Economy Light, 1 bag of 23 kg on other Economy fares, 2 bags in Premium Economy",
+      "checkin_note": "These are Lufthansa's allowances for intercontinental flights, which include all flights between India and Germany, the rest of Europe, the USA and Canada. Lufthansa counts pieces, not total kilos. Each Economy or Premium Economy bag can weigh up to 23 kg and measure up to 158 cm (length + width + height). A heavier or bigger bag is excess baggage, and nothing over 32 kg is taken as baggage. Lufthansa's baggage page lists only \"Economy Class\" next to Economy Light, and doesn't name other fares such as Classic or Flex there. Your ticket or booking email shows the allowance that applies to you. If your trip mixes airlines, the rules of the airline flying the longest part usually apply.",
+      "infant": "A baby under 2 gets one checked bag up to 23 kg and 158 cm, except on Light fares. Each child can also take one free item: a folding stroller, baby carriage or bicycle trailer in the hold, or a certified child seat or baby carrier in the cabin. A fully folding pocket buggy (up to 55 x 40 x 23 cm) can go in the cabin but counts as your cabin bag. Electric pushchairs are not allowed. On Economy Light, only the adult travelling with the baby can buy an extra bag. Children over 2 get the same allowance as adults.",
       "excess": {
-        "summary": "On Economy Light the first bag costs EUR 70 to 85 online or EUR 105 at check-in, each way; on other fares an extra 23 kg bag costs EUR 120 to 220 online, depending on distance",
+        "summary": "Lufthansa charges flat rates per bag by distance band: an extra 23 kg bag costs EUR 120 to 220 online or EUR 160 to 260 at the check-in desk on intercontinental routes",
         "points": [
-          "Lufthansa charges flat rates per bag that depend on how far you fly. Its page doesn't say which distance band India flights fall into, so the ranges below cover all its intercontinental bands.",
-          "First bag on an Economy Light fare, per direction: EUR 70 to 85 on lufthansa.com, EUR 105 at check-in.",
-          "Extra 23 kg bag on other Economy fares: EUR 120 to 220 online, EUR 160 to 260 at the check-in desk.",
-          "A bag over 23 kg (up to 32 kg) or over 158 cm costs a flat EUR 100 to 150; a bag over both costs EUR 200 to 300.",
-          "Fees are charged in the currency of your departure airport, and local taxes may be added. You can book extra bags under My Bookings, at the airport or through the Service Center."
+          "Lufthansa's page has three intercontinental bands (short-, medium- and long-haul) but doesn't say which band flights from India fall into. The ranges below cover all three.",
+          "Extra standard bag (up to 23 kg and 158 cm) in Economy or Premium Economy, per route: EUR 120-140, 160-180 or 200-220 online; EUR 160, 210 or 260 at the check-in desk.",
+          "Extra bag that is over 23 kg or over 158 cm: EUR 250-255 to 400-405 online, EUR 270 to 420 at the desk. Over both: EUR 350-355 to 550-555 online, EUR 370 to 570 at the desk.",
+          "If a bag within your allowance is too heavy (23 to 32 kg) or too big (158 to 292 cm), you pay a flat EUR 100, 120 or 150; if it is both, EUR 200, 240 or 300.",
+          "Economy Light first bag: EUR 70-85 on lufthansa.com or EUR 105 at check-in, per direction (EUR 80 to and from the USA or Canada).",
+          "Fees are charged in the currency of your departure airport, and local taxes may be added. Book under My Bookings, during online check-in (up to 2 hours before departure, up to five bags), at the airport or through the Service Center. A paid bag can't be refunded on its own."
         ]
       },
       "notes": [
-        "Power banks: up to two, each up to 100 Wh, in your cabin bag only. Charging or using them on board is prohibited, and they mustn't go in the overhead locker: keep them under the seat in front, in the seat pocket or on you.",
-        "Flying into India and connecting to a domestic flight? You must collect your bags, clear customs and check them in again.",
-        "On journeys to or from the USA or Canada, the baggage rules of the first airline on your ticket usually apply to the whole trip."
+        "Power banks: up to two per passenger, each up to 100 Wh, in your cabin bag or on you only, never in checked bags. Power banks of 100 to 160 Wh need Lufthansa's approval, which you request through its Help Center. Charging or using a power bank on board is prohibited (except with approved medical devices), and power banks must not go in the overhead locker: keep them under the seat in front, in the seat pocket or on you.",
+        "Other devices with lithium batteries (phones, laptops, cameras) up to 100 Wh: up to 15 per passenger, best in your cabin bag. Spare batteries go only in the cabin, with the terminals taped or in a pouch.",
+        "Flying into India and connecting to a domestic flight? You must collect your bags, clear customs and check them in again. The same applies on arrival in the USA or Canada.",
+        "Flying to the USA: TSA may force open locked bags, so Lufthansa suggests a TSA-approved lock. Leaving the USA, you may take only one cabin bag and one personal item through security, whatever your class.",
+        "Tag every bag with your name and mobile number, inside and out. Free tags are available at the check-in counter."
       ],
+      "sections": [
+        {
+          "h": "How Lufthansa differs from other airlines from India",
+          "items": [
+            "Lufthansa counts bags, not kilos: 1 bag of 23 kg on Economy, even to Europe. Gulf airlines such as Emirates and Qatar Airways give a total weight in kilos on many routes.",
+            "Economy Light includes no checked bag at all on flights from India, only an 8 kg cabin bag and a personal item.",
+            "Its cabin bag limit is 8 kg and 23 cm deep, a little more than the 7 kg and 20 cm on Air India.",
+            "Power banks: 100 Wh and no charging on board, and they can't go in the overhead locker.",
+            "Small cats and dogs (up to 8 kg with the carrier) can fly in the cabin on Lufthansa-operated flights."
+          ]
+        },
+        {
+          "h": "Sports equipment and pets",
+          "items": [
+            "Sports gear counts in your free allowance if it fits the number of bags and weight for your class. On Economy Light it is always charged. Register it at least 72 hours before departure.",
+            "Over your allowance, sports items pay a flat rate per route, for example EUR 150, 200 or 250 for a golf bag or a packed bicycle on intercontinental routes. Bicycles must be in a bike case or bag.",
+            "Lufthansa's sports list has no entry for cricket kits, so these are charged as normal excess baggage if they are over your allowance.",
+            "Pets: only cats and dogs. A pet of up to 8 kg together with its soft carrier (max. 55 x 40 x 23 cm) can travel in the cabin; heavier pets go in the air-conditioned hold. The pet must be at least 12 weeks old (15 weeks to, from or via Germany).",
+            "Register the pet at least 72 hours before departure. Each passenger may take up to two animals. You pay the fee at check-in, but Lufthansa's site doesn't publish the amount, and it doesn't say whether pets can fly in the cabin on flights from India. Check with Lufthansa and the entry rules of every country on your route."
+          ]
+        },
+        {
+          "h": "Check-in times at Indian airports",
+          "items": [
+            "Lufthansa's check-in deadline tool (read 28 Nov 2026) shows these closing times for check-in and bag drop: Delhi T3, Bengaluru, Chennai and Hyderabad 90 minutes before departure; Mumbai T2 (counters A5-A7) 60 minutes before departure.",
+            "The tool lists Kolkata and Pune but gives no deadline for them, so check your booking.",
+            "Online check-in opens 30 hours before departure on lufthansa.com or the Lufthansa app. You must still have your boarding pass and have dropped your bags before the deadline.",
+            "Travelling with a pet in the cabin? You must collect your boarding pass at the check-in counter."
+          ]
+        },
+        {
+          "h": "Changing planes in Frankfurt or Munich",
+          "items": [
+            "On one ticket, your bags are usually checked through to your final airport. You don't collect them in Germany.",
+            "Frankfurt: transfer security checkpoints still use the 100 ml rule. Liquids must be in containers of up to 100 ml in one clear, resealable 1-litre bag. The 2-litre rule with new CT scanners applies only at some departure checkpoints.",
+            "Munich: if your trip started outside the EU, such as in India, your cabin liquids must already meet the 100 ml and 1-litre bag rule when you transfer. Duty-free bought in India should stay sealed in its security bag with the receipt.",
+            "Neither Frankfurt nor Munich Airport publishes a minimum connection time. Both say that on one ticket the airline plans enough time, and that separate tickets need extra time for security, passport control and re-checking bags.",
+            "Passport control: Munich Airport says that if you arrive from outside the Schengen area (such as India) and fly on outside it (such as to the USA or Canada), you usually don't pass passport control if you stay in the gate area. If you fly on to a Schengen country such as France or Italy, you do, and you may need a Schengen visa."
+          ]
+        },
+        {
+          "h": "If your bag is delayed or damaged",
+          "items": [
+            "Report a missing bag before you leave the airport, online or at the baggage tracing desk, and keep the reference number (PIR, for example FRALH12345). You can track it online with that number and get status updates by email.",
+            "If the bag isn't found within five days, fill in the contents list on the baggage status page. A bag delayed for more than 21 days counts as lost.",
+            "You can buy essential items while you wait and claim them back within two years: clothes you can keep using are repaid at 50%, toiletries at 100%.",
+            "Damaged bag: report it straight away at the airport, or online within seven days if you notice it later. Missing items from inside a bag must also be reported in writing within seven days.",
+            "Lufthansa's liability follows the Montreal Convention, up to 1,519 SDR (about EUR 1,900) per passenger."
+          ]
+        }
+      ],
+      "faq_extra": [
+        {
+          "q": "What is the Lufthansa baggage allowance from India to Germany?",
+          "a": "Economy Light includes no checked bag; other Economy fares include 1 bag of 23 kg, and Premium Economy 2 bags of 23 kg. Every Economy fare also includes an 8 kg cabin bag and a personal item."
+        },
+        {
+          "q": "What is the Lufthansa baggage allowance from India to the USA?",
+          "a": "The same as to Europe: no checked bag on Economy Light, 1 bag of 23 kg on other Economy fares and 2 bags of 23 kg in Premium Economy. Lufthansa's rules usually apply to the whole trip if it is the first airline on your ticket."
+        },
+        {
+          "q": "What is the Lufthansa cabin baggage size and weight?",
+          "a": "One cabin bag up to 8 kg and 55 x 40 x 23 cm (about 21.6 x 15.7 x 9 inches), plus a personal item up to 40 x 30 x 15 cm. Business and First allow two 8 kg cabin bags."
+        },
+        {
+          "q": "What are Lufthansa extra baggage fees from India?",
+          "a": "An extra 23 kg bag costs EUR 120 to 220 online or EUR 160 to 260 at the check-in desk on intercontinental routes, depending on distance. Lufthansa doesn't say which distance band India is in, and fees are charged in the departure country's currency."
+        },
+        {
+          "q": "What is the maximum size of a Lufthansa checked bag?",
+          "a": "158 cm in total (length + width + height) and 23 kg in Economy. Bigger or heavier bags, up to 292 cm and 32 kg, travel as excess baggage for a fee."
+        },
+        {
+          "q": "How do I track delayed Lufthansa baggage?",
+          "a": "Report it online or at the airport baggage desk before you leave, and keep your reference number (PIR). You can check the status online with that number and subscribe to email updates."
+        },
+        {
+          "q": "How do I make a Lufthansa baggage damage claim?",
+          "a": "Report the damage at the airport straight away, or online within seven days of getting your bag. Lufthansa's partner Dolfi1920 then decides on repair, replacement or payment."
+        }
+      ],
+      "carry_note": "Lufthansa allows two [power banks](can-i-carry/power-bank.html) of up to 100 Wh, only in your cabin bag and never in the overhead locker; see our [power bank guide](../guides/power-bank-rules-on-flights.html). When you change planes in Frankfurt or Munich, the 100 ml liquids rule applies to your cabin bag, so pack [pickle](can-i-carry/pickle.html), ghee-based [sweets and home food](can-i-carry/sweets-and-home-food.html) and wet [masala](can-i-carry/spices-and-masala.html) in your checked bag.",
       "sources": [
         {
           "label": "Lufthansa free baggage rules",
@@ -2626,14 +2900,60 @@
           "url": "https://www.lufthansa.com/in/en/prepare-for-your-trip/baggage/excess-baggage"
         },
         {
-          "label": "Lufthansa: buying a bag at check-in",
+          "label": "Lufthansa: buying a bag at online check-in",
           "url": "https://www.lufthansa.com/in/en/prepare-for-your-trip/baggage/baggage-conditions"
         },
         {
           "label": "Lufthansa electronic devices and batteries",
           "url": "https://www.lufthansa.com/in/en/prepare-for-your-trip/baggage/electronic-devices-and-batteries"
+        },
+        {
+          "label": "Lufthansa sports baggage",
+          "url": "https://www.lufthansa.com/in/en/sports-baggage"
+        },
+        {
+          "label": "Lufthansa travelling with animals",
+          "url": "https://www.lufthansa.com/in/en/prepare-for-your-trip/baggage/travelling-with-animals"
+        },
+        {
+          "label": "Lufthansa: register a pet in the cabin",
+          "url": "https://www.lufthansa.com/in/en/register-animal-cabin"
+        },
+        {
+          "label": "Lufthansa problems with baggage",
+          "url": "https://www.lufthansa.com/in/en/baggage-irregularities"
+        },
+        {
+          "label": "Lufthansa digital baggage services",
+          "url": "https://www.lufthansa.com/in/en/prepare-for-your-trip/baggage/digital-baggage-services"
+        },
+        {
+          "label": "Lufthansa check-in deadlines",
+          "url": "https://www.lufthansa.com/in/en/check-in-deadlines"
+        },
+        {
+          "label": "Lufthansa check-in options",
+          "url": "https://www.lufthansa.com/in/en/all-check-in"
+        },
+        {
+          "label": "Frankfurt Airport: transferring at FRA",
+          "url": "https://www.frankfurt-airport.com/en/flights-and-transfer/transferring-at-fra.html"
+        },
+        {
+          "label": "Frankfurt Airport: security check",
+          "url": "https://www.frankfurt-airport.com/en/travel-planning/check-in-luggage-controls/security-check.html"
+        },
+        {
+          "label": "Munich Airport: connecting flights",
+          "url": "https://www.munich-airport.com/connecting-flights-260553"
+        },
+        {
+          "label": "Munich Airport: security screening",
+          "url": "https://www.munich-airport.com/security-screening-and-passport-control-3949908"
         }
-      ]
+      ],
+      "checked": "2026-11-28",
+      "seo_title": "Lufthansa baggage allowance from India: 23 kg, 8 kg cabin"
     },
     {
       "slug": "british-airways",
@@ -2641,8 +2961,7 @@
       "scope": "international",
       "region": "Europe",
       "hub": "London Heathrow (LHR)",
-      "checked": "2026-11-15",
-      "official_url": "https://www.britishairways.com/content/information/baggage-essentials",
+      "official_url": "https://www.britishairways.com/content/en/in/information/baggage-essentials",
       "cabin": {
         "pieces": 1,
         "kg": null,
@@ -2652,58 +2971,191 @@
           25
         ],
         "total_cm": null,
-        "summary": "One cabin bag plus one handbag or backpack",
-        "detail": "Every passenger, even on hand-baggage-only fares, may bring one cabin bag up to 56 x 45 x 25 cm, wheels and handles included, and one handbag or backpack up to 40 x 30 x 15 cm that fits under the seat in front. British Airways' baggage page gives no weight limit for cabin bags, but you must be able to lift yours into the overhead locker without help. The bigger bag may have to go in the hold on busy flights, so keep valuables, electronics and medicines in the handbag."
+        "summary": "One cabin bag up to 56 x 45 x 25 cm plus one handbag or backpack",
+        "detail": "Every passenger, even on the Economy Basic (hand baggage only) fare, may bring one cabin bag up to 56 x 45 x 25 cm, wheels and handles included, and one handbag or backpack up to 40 x 30 x 15 cm that fits under the seat in front. British Airways gives no weight limit for cabin bags, but you must be able to lift yours into the overhead locker without help. On busy flights the bigger bag may have to go in the hold, so keep valuables, electronics, medicines, power banks and passports in the small bag."
       },
       "personal": {
-        "summary": "One handbag or backpack up to 40 x 30 x 15 cm that fits under the seat in front of you"
+        "summary": "One handbag or backpack up to 40 x 30 x 15 cm that fits under the seat in front of you. It always stays with you in the cabin"
       },
       "checkin": [
         {
           "fare": "Economy Basic (hand baggage only)",
-          "allowance": "No free checked bag"
+          "allowance": "No free checked bag, on India-UK flights and all other routes"
         },
         {
           "fare": "Economy",
-          "allowance": "1 bag up to 23 kg"
+          "allowance": "2 bags, each up to 23 kg, between India and London and from India to the USA or Canada via London, as BA's baggage calculator shows"
+        },
+        {
+          "fare": "Economy, UK to USA or Canada",
+          "allowance": "1 bag up to 23 kg on London-New York and London-Toronto"
         },
         {
           "fare": "Premium Economy",
           "allowance": "2 bags, each up to 23 kg (1 bag on a few routes)"
+        },
+        {
+          "fare": "Business (Club) / First",
+          "allowance": "Business: 2 bags of 32 kg each; First: 3 bags of 32 kg each"
         }
       ],
-      "checkin_summary": "None on Basic, 1 bag of 23 kg on Economy and 2 bags of 23 kg on Premium Economy",
-      "checkin_note": "Each checked bag can weigh up to 23 kg and measure up to 90 x 75 x 43 cm. The 23 kg can't be shared between bags, and no bag may weigh more than 32 kg. British Airways' table doesn't list separate allowances for India routes, so check yours in Manage My Booking.",
-      "infant": "An infant under 2 gets one 23 kg checked bag in every cabin, except on hand-baggage-only (Basic) fares, plus an extra bag for in-flight essentials. Each infant and child can also check in up to two of these free, even on Basic fares: a folding pushchair, a car or booster seat, a travel cot or a baby back carrier.",
+      "checkin_summary": "None on Economy Basic; 2 bags of 23 kg on Economy and Premium Economy between India and the UK, USA or Canada",
+      "checkin_note": "Each checked bag may weigh up to 23 kg (32 kg in Business and First) and measure up to 90 x 75 x 43 cm. The 23 kg is per bag: you can't move kilos from one bag to another, and no bag may weigh more than 32 kg. BA's main baggage page shows 1 checked bag for Economy, but its baggage calculator (read 28 Nov 2026) gives 2 bags of 23 kg in Economy from Delhi, Mumbai, Bengaluru, Hyderabad and Chennai to London, from London to Delhi, and from Delhi to New York or Toronto via London. Between London and the USA or Canada, Economy is 1 bag. Check your own ticket in Manage My Booking. On a connecting trip with other airlines on one booking, the airline that flies the longest flight usually sets the allowance. Gold and Silver British Airways Club members and oneworld Emerald and Sapphire members get extra bags of up to 32 kg.",
+      "infant": "A baby under 2 without a seat gets one 23 kg checked bag in every cabin, plus an extra bag for in-flight essentials. On the Economy Basic (hand baggage only) fare there is no free checked bag for the baby, and you can't buy extra baggage on an infant ticket. Each infant and child can also check in two of these for free, even on Economy Basic: a fully folding pushchair, a car or booster seat, a travel cot or a baby back carrier. Children aged 2 to 11 get the same allowance as adults. Baby milk, formula and baby food can go through security even above the normal liquid limits.",
       "excess": {
-        "summary": "A bag of 23 to 32 kg costs GBP 65 (USD 100) each way; extra bags are priced by destination and are cheapest in Manage My Booking before check-in",
+        "summary": "From India, an extra 23 kg bag costs ₹16,975 online or ₹20,010 at the airport on Economy (3rd bag), and ₹9,700 online on Economy Basic (1st bag); a bag of 23 to 32 kg pays GBP 65 (USD 100) each way",
         "points": [
-          "Heavy bag charge: GBP 65, EUR 75 or USD 100 per overweight bag (23 to 32 kg) per one-way journey, turned into local currency when you fly from India. Many airports, including Heathrow, take only cards.",
-          "Extra bags: you can pay for up to 10. The price depends on your destination and how many you add; British Airways shows it in Manage My Booking and doesn't publish a price list for India.",
-          "Add extra bags online before you check in to get the discounted online rate (card or Avios). After check-in, only the higher airport rate is available.",
-          "Prepaid extra bags can be refunded if you cancel them before the flight leaves.",
-          "Oversize items up to 190 x 75 x 65 cm are usually accepted within your allowance; tell British Airways at least 48 hours before you fly."
+          "Prices from BA's baggage calculator, Delhi, Mumbai, Bengaluru, Hyderabad or Chennai to London, read 28 Nov 2026. Economy: the 3rd and 4th bag cost ₹16,975 each online, or ₹20,010 (3rd) and ₹20,005 (4th) at the airport.",
+          "Economy Basic from India to London: the 1st and 2nd bag cost ₹9,700 each online or ₹11,520 at the airport; the 3rd and 4th bag ₹16,975 online or ₹20,005 at the airport.",
+          "Delhi to New York or Toronto via London, Economy: a 3rd bag costs ₹15,765 online or ₹21,220 at the airport.",
+          "Coming back: London to Delhi, a 3rd Economy bag costs GBP 140 online or GBP 165 at the airport (GBP 80 / GBP 95 for the 1st bag on Economy Basic). From New York it is USD 170 / USD 215, and from Toronto CAD 170 / CAD 215.",
+          "Heavy bag charge: GBP 65, EUR 75, USD 100 or CAD 100 for each bag of 23 to 32 kg, per one-way journey. From India the GBP price is turned into rupees. At Heathrow and many other airports you can pay only by card, not cash or Avios.",
+          "Add bags in Manage My Booking before check-in to get the lower online price (card, Avios or both). You can add up to 10 extra bags, for personal items only, if there is space. After check-in only the airport price is offered. Local taxes may be added.",
+          "Prepaid extra bags can be refunded if you cancel them before the flight leaves. If you booked through a travel agent, you can add bags only after the agent finishes the booking.",
+          "Oversize bags up to 190 x 75 x 65 cm usually go within your allowance. Tell BA when you book or at least 48 hours before, and drop the bag at the oversize bag desk at least 90 minutes before the flight. TVs and computer monitors are not taken as baggage."
         ]
       },
       "notes": [
-        "Power banks: up to two per person, each up to 100 Wh with the capacity printed on it, in your hand baggage only. Seat power can't be used to charge them, and they must stay in the seat pocket or a bag under the seat. If your cabin bag goes in the hold, take power banks and spare batteries out first.",
-        "You can't pool your checked allowance with another traveller, even on the same booking.",
-        "Large screens such as TVs and computer monitors aren't accepted as checked baggage."
+        "Power banks: up to two per person, each up to 100 Wh, with the capacity printed on them, in your hand baggage only. You can't charge a power bank from the seat power, and it must stay in the seat pocket or in a bag under the seat in front, not in the overhead locker. If your cabin bag goes in the hold, take power banks and spare batteries out first.",
+        "Spare batteries: at most four per person (two of them may be power banks), each up to 100 Wh, protected from short circuit. Batteries of 100 to 160 Wh need BA's approval before you fly. E-scooters, hoverboards and other small electric vehicles are not allowed at all.",
+        "Liquids: at Heathrow and Gatwick the new scanners let you keep liquids in containers up to 2 litres in your cabin bag. Other airports, including those in India, may still apply the 100 ml rule, so check the airport you leave from.",
+        "Flights to the USA: powders such as spices, flour, coffee or milk powder over 350 g go in checked baggage, not the cabin bag.",
+        "Alcohol: drinks under 24% have no BA limit; up to 5 litres between 24% and 70% in checked baggage (or duty-free in the cabin). Over 70% is not allowed.",
+        "You can't pool or share your checked allowance with another traveller, even on the same booking.",
+        "Bags on separate bookings are not sent through. Collect them and check them in again for the next flight."
       ],
+      "sections": [
+        {
+          "h": "How British Airways differs from other airlines from India",
+          "items": [
+            "Its cabin bag can be bigger than on most airlines from India (56 x 45 x 25 cm against 55 x 40 x 20 cm on Air India) and has no published weight limit, but you must lift it yourself.",
+            "Every passenger also gets a small handbag or backpack (40 x 30 x 15 cm), even on Economy Basic.",
+            "It counts pieces, not kilos: each bag is up to 23 kg in Economy, and you can't share kilos between bags.",
+            "Economy Basic includes no checked bag at all. Adding one from India costs ₹9,700 online.",
+            "Pets never fly in the cabin. Air India lets small cats and dogs fly in the Economy cabin."
+          ]
+        },
+        {
+          "h": "Sports equipment and pets",
+          "items": [
+            "Golf bags, skis, snowboards, diving kit and bicycles go as one of your checked bags if they fit the size and weight limits. On Economy Basic, or after your free bags, you pay the extra bag price.",
+            "Bike boxes and bags may be up to 190 x 95 x 65 cm; ski and golf bags up to 190 x 75 x 65 cm. Surfboards up to 240 cm long and 75 cm wide, under 23 kg, are also taken.",
+            "Tell BA by online chat as soon as you book, and at least 72 hours before you fly. On long-haul flights, drop oversize sports bags at the oversize bag desk at least 3 hours before departure.",
+            "A tennis or badminton racket case (up to 2 rackets, under 80 x 45 x 10 cm) can be one of your two cabin items. Cricket kit isn't listed separately; bats and hockey sticks must go in the hold.",
+            "Pets: BA doesn't carry pets in the cabin on any route. Pets fly in the hold, booked through IAG Cargo (to the UK) or PetAir UK (from the UK). Trained assistance dogs can fly free in the cabin on most flights; emotional support dogs can't."
+          ]
+        },
+        {
+          "h": "Check-in times at Indian airports",
+          "items": [
+            "BA doesn't publish a separate check-in closing time for Delhi, Mumbai, Bengaluru, Hyderabad or Chennai. Its rule for long-haul international airports is that check-in closes at least 60 minutes before departure, and some airports close at 90 minutes.",
+            "Your exact closing time is shown in Manage My Booking, under Check in and then Other ways to check in.",
+            "Online and app check-in open 24 hours before the flight. You must be at the gate at least 20 minutes before departure."
+          ]
+        },
+        {
+          "h": "Changing planes in London Heathrow",
+          "items": [
+            "Everyone changing planes at Heathrow goes through security again. Heathrow says liquids up to 2 litres and large electronics can stay in your cabin bag when you connect.",
+            "Duty-free liquids bought in India are allowed only if they stay sealed in the security bag with the receipt inside.",
+            "On one booking, your bags go through to your final stop. On separate bookings they don't: you collect them, go through UK immigration, and check in again. For separate tickets BA advises at least 4 hours between flights at Heathrow.",
+            "Neither BA nor Heathrow publishes one minimum connection time. BA says the time for connections on one ticket is shown in your itinerary in Manage My Booking. Free buses link Terminals 3 and 5; allow about 20 minutes to reach Terminal 5 B and C gates.",
+            "If your next flight is to a UK city or Ireland, you go through passport control first Flights to Ireland from Terminal 5 also need a UK ETA."
+          ]
+        },
+        {
+          "h": "If your bag is delayed or damaged",
+          "items": [
+            "Report a missing bag at the baggage desk before you leave the airport, or on BA's online baggage portal. BA says delayed bags should be reported within 8 days of your flight. You get a report number of five letters and five numbers, such as JFKBA12345, to track the bag online.",
+            "To claim, a missing bag must be reported within 21 days, and damage or missing contents within 7 days of getting your bag back. Keep the damaged bag.",
+            "BA says it returns most missing bags within 72 hours and delivers them free to the address you choose. Keep receipts for essentials you buy while waiting; you can claim a reasonable amount.",
+            "BA doesn't pay for jewellery, money or other valuables packed in checked bags, or for electronics lost from the hold. Damage from a US TSA bag check is claimed from the TSA."
+          ]
+        }
+      ],
+      "faq_extra": [
+        {
+          "q": "What is the British Airways baggage allowance from India to the UK?",
+          "a": "BA's baggage calculator (read 28 Nov 2026) shows 2 checked bags of 23 kg each in Economy and Premium Economy between India and London, and none on Economy Basic. You also get a cabin bag up to 56 x 45 x 25 cm and a small handbag."
+        },
+        {
+          "q": "What is the British Airways baggage allowance from India to the USA?",
+          "a": "For Delhi to New York via London, BA's calculator shows 2 bags of 23 kg each in Economy. Between London and the USA, Economy is only 1 bag, so check your own ticket in Manage My Booking."
+        },
+        {
+          "q": "What is the British Airways cabin baggage size?",
+          "a": "One cabin bag up to 56 x 45 x 25 cm, wheels and handles included, plus one handbag or backpack up to 40 x 30 x 15 cm that fits under the seat."
+        },
+        {
+          "q": "What is the British Airways cabin baggage weight limit?",
+          "a": "British Airways publishes no weight limit for cabin bags. You must be able to lift your bag into the overhead locker by yourself."
+        },
+        {
+          "q": "What is the British Airways checked baggage weight limit?",
+          "a": "23 kg per bag in Economy and Premium Economy, and 32 kg per bag in Business and First. No bag may weigh more than 32 kg; a bag of 23 to 32 kg in Economy pays GBP 65 (USD 100) each way."
+        },
+        {
+          "q": "Can you combine baggage allowance on British Airways?",
+          "a": "No. BA says you can't pool, share or combine your checked allowance with another traveller, even in your own group. The 23 kg limit is also per bag, so you can't move kilos from one bag to another."
+        },
+        {
+          "q": "How do I track my British Airways baggage?",
+          "a": "When you report a missing bag, BA gives you a report number such as JFKBA12345. Use it on BA's online baggage portal to check the status of the bag and update your delivery address."
+        }
+      ],
+      "carry_note": "British Airways allows two [power banks](can-i-carry/power-bank.html) of up to 100 Wh, only in your hand baggage and never charged from the seat; see our [power bank rules](../guides/power-bank-rules-on-flights.html). On flights to the USA, put [spices and masala](can-i-carry/spices-and-masala.html) over 350 g in your checked bag. Liquid foods like [pickle](can-i-carry/pickle.html) follow the liquid rules in the cabin, so pack them in checked bags. For food to the UK, see [sweets and home food](can-i-carry/sweets-and-home-food.html).",
       "sources": [
         {
-          "label": "British Airways baggage essentials",
-          "url": "https://www.britishairways.com/content/information/baggage-essentials"
+          "label": "British Airways baggage essentials (India site)",
+          "url": "https://www.britishairways.com/content/en/in/information/baggage-essentials"
         },
         {
-          "label": "British Airways family baggage",
-          "url": "https://www.britishairways.com/content/information/family-travel/baggage"
+          "label": "British Airways baggage calculator (on the same page)",
+          "url": "https://www.britishairways.com/content/en/in/information/baggage-essentials#baggagecalculator"
         },
         {
-          "label": "British Airways restricted items and batteries",
-          "url": "https://www.britishairways.com/content/information/baggage-essentials/liquids-and-restrictions"
+          "label": "Restricted and prohibited items, batteries",
+          "url": "https://www.britishairways.com/content/en/in/information/baggage-essentials/liquids-and-restrictions"
+        },
+        {
+          "label": "Sports equipment",
+          "url": "https://www.britishairways.com/content/en/in/information/baggage-essentials/sports-equipment"
+        },
+        {
+          "label": "Family baggage",
+          "url": "https://www.britishairways.com/content/en/in/information/family-travel/baggage"
+        },
+        {
+          "label": "Travelling with pets",
+          "url": "https://www.britishairways.com/content/en/in/information/travel-assistance/travelling-with-pets"
+        },
+        {
+          "label": "Checking in",
+          "url": "https://www.britishairways.com/content/en/in/information/checking-in-and-boarding/checking-in"
+        },
+        {
+          "label": "Flight connections",
+          "url": "https://www.britishairways.com/content/en/in/information/airport-information/flight-connections"
+        },
+        {
+          "label": "Delayed, lost and damaged baggage",
+          "url": "https://www.britishairways.com/content/en/in/information/baggage-essentials/lost-and-damaged-baggage"
+        },
+        {
+          "label": "Reporting and tracking baggage",
+          "url": "https://www.britishairways.com/content/en/in/information/baggage-essentials/lost-and-damaged-baggage/reporting-baggage-problems"
+        },
+        {
+          "label": "Making baggage claims",
+          "url": "https://www.britishairways.com/content/en/in/information/baggage-essentials/lost-and-damaged-baggage/making-baggage-claims"
+        },
+        {
+          "label": "Heathrow: connecting flights",
+          "url": "https://www.heathrow.com/connecting-flights"
         }
-      ]
+      ],
+      "checked": "2026-11-28",
+      "seo_title": "British Airways baggage allowance from India: 2 x 23 kg"
     },
     {
       "slug": "turkish-airlines",
@@ -2767,9 +3219,51 @@
         {
           "label": "Turkish Airlines fare rules",
           "url": "https://www.turkishairlines.com/en-in/any-questions/fare-rules/"
+        },
+        {
+          "label": "Istanbul Airport security and baggage rules",
+          "url": "https://www.istairport.com/en/flights/airport-guides/transfer-passenger-guide/services/other-services/security-and-baggage-restrictions?locale=en"
+        },
+        {
+          "label": "Istanbul Airport transfer desks",
+          "url": "https://www.istairport.com/en/flights/airport-guides/transfer-passenger-guide/services/complimentary-services/transfer-desks"
         }
       ],
-      "seo_title": "Turkish Airlines baggage allowance from India 2026: 8 kg cabin bag size and checked bag rules"
+      "seo_title": "Turkish Airlines baggage allowance from India 2026: 8 kg cabin bag size and checked bag rules",
+      "sections": [
+        {
+          "h": "Changing planes in Istanbul",
+          "items": [
+            "Istanbul Airport screens every transfer passenger and bag again. At the airside checkpoints, cabin liquids must be in containers of up to 100 ml, all in one clear, resealable 1-litre bag (about 20 x 20 cm). Your checked bags aren't affected by this rule (read on Istanbul Airport's site on 28 Nov 2026).",
+            "Medicines in their original packing with a prescription or medical report, and baby food for a baby on the flight, are allowed over 100 ml.",
+            "Duty-free liquids go through only in a sealed, tamper-evident bag with the receipt showing, dated the day of your flight. Don't open the bag until you reach your final airport.",
+            "Electric personal transport such as mini-Segways and balance wheels with lithium batteries isn't allowed in cabin or checked bags.",
+            "Transfer desks for Turkish Airlines are opposite the international transfer security checkpoint. Istanbul Airport's pages don't publish a minimum connection time."
+          ]
+        }
+      ],
+      "faq_extra": [
+        {
+          "q": "What is the Turkish Airlines cabin baggage size and weight?",
+          "a": "In Economy, one cabin bag up to 55 x 40 x 23 cm and 8 kg, plus one personal item up to 40 x 30 x 15 cm and 4 kg."
+        },
+        {
+          "q": "How many carry-on bags are allowed on Turkish Airlines?",
+          "a": "Two in Economy: one 8 kg cabin bag and one 4 kg personal item, such as a handbag or laptop bag, that fits under the seat."
+        },
+        {
+          "q": "Can I carry liquids in my Turkish Airlines cabin bag through Istanbul?",
+          "a": "Only in containers of up to 100 ml, all in one clear 1-litre bag. Istanbul Airport screens transfer passengers again, and sealed duty-free must stay in its bag with the receipt."
+        },
+        {
+          "q": "What is the Turkish Airlines baggage allowance from India to the USA?",
+          "a": "Turkish Airlines' pages don't publish it by route. Its baggage calculator and your ticket show the allowance for your fare; on piece-system routes each economy bag can weigh up to 23 kg."
+        },
+        {
+          "q": "How much does an oversized bag cost on Turkish Airlines?",
+          "a": "USD 110 for a bag of 158 to 292 cm on flights to or from Türkiye, and USD 150 on trips that only connect in Istanbul. Bags over 292 cm aren't accepted."
+        }
+      ]
     },
     {
       "slug": "indigo-international",
@@ -3175,7 +3669,7 @@
       "region": "Indian airline abroad",
       "hub": "Kochi, Kozhikode, Delhi, Mumbai and Bengaluru",
       "checker": false,
-      "checked": "2026-11-16",
+      "page_name": "Air India Express international",
       "official_url": "https://www.airindiaexpress.com/support/faqs/baggage",
       "cabin": {
         "pieces": 2,
@@ -3187,7 +3681,7 @@
         ],
         "total_cm": null,
         "summary": "Two cabin items, 7 kg in total",
-        "detail": "On international flights you may carry two cabin items that together weigh no more than 7 kg: one bag up to 56 x 36 x 23 cm, including handles, wheels and side pockets, for the overhead locker, and one laptop bag, handbag or small backpack up to 40 x 30 x 10 cm for under the seat. Items strapped or tied together don't count as one piece. To carry more, pre-book checked baggage up to four hours before departure."
+        "detail": "On international flights you may carry two cabin items that together weigh no more than 7 kg: one bag up to 56 x 36 x 23 cm, including handles, wheels and side pockets, for the overhead locker, and one laptop bag, handbag or small backpack up to 40 x 30 x 10 cm for under the seat. Items strapped or tied together don't count as one piece. The 7 kg is the same on every fare, Xpress Lite to Xpress Biz. You can pay for Xtra Carry-On to carry 3 or 5 kg more (12 kg at most, in up to two pieces). Things you buy at the airport count in the 7 kg, except duty-free sealed in a tamper-evident bag with the receipt. A cabin bag over 12 kg must be checked in."
       },
       "personal": {
         "summary": "One laptop bag, handbag or small backpack up to 40 x 30 x 10 cm, within the same 7 kg"
@@ -3195,51 +3689,222 @@
       "checkin": [
         {
           "fare": "Xpress Lite",
-          "allowance": "No free checked bag (you can pre-book one)"
+          "allowance": "No free checked bag (you can pre-book 20, 30 or 40 kg)"
         },
         {
           "fare": "Xpress Value",
-          "allowance": "30 kg; 20 kg on flights between India and Thailand or Nepal"
+          "allowance": "30 kg in up to 2 bags to the Gulf and Singapore; 20 kg between India and Thailand or Nepal"
+        },
+        {
+          "fare": "Xpress Classic (sold on Gulf and Singapore websites)",
+          "allowance": "Same as Value: 30 kg (20 kg on select routes)"
         },
         {
           "fare": "Xpress Flex",
-          "allowance": "30 kg on the India website; 35 kg on the UAE website (25 kg on select routes)"
+          "allowance": "30 kg in up to 2 bags on the India website; 35 kg (25 kg on select routes) on the UAE, Bahrain, Oman, Kuwait, Saudi and Singapore websites"
         },
         {
-          "fare": "Xpress Biz",
-          "allowance": "40 kg"
+          "fare": "Xpress Biz (business)",
+          "allowance": "40 kg in up to 2 bags on every international route"
         }
       ],
       "checkin_summary": "None on Lite, 30 kg on Value (20 kg to Thailand and Nepal), 30 to 35 kg on Flex and 40 kg on Biz",
-      "checkin_note": "Air India Express's baggage FAQ says international flights include 30 kg, except flights between India and Thailand or Nepal, which include 20 kg (Lite fares include none). Its India international page lists 30 kg in up to 2 pieces on Value and Flex, while its UAE booking page lists 35 kg on Flex (25 kg on select routes) and also sells a Classic fare with the same allowance as Value. Check the allowance shown for your fare before you pay.",
+      "checkin_note": "Air India Express counts kilos, not pieces, but you may check in at most 2 free bags. Each bag may weigh up to 32 kg and measure up to 158 cm (length + width + height). Its India page lists 30 kg in up to 2 pieces on Value and Flex. Its booking pages for the UAE, Bahrain, Oman, Kuwait, Saudi Arabia and Singapore list 35 kg on Flex (25 kg on select routes), and also sell a Classic fare with the same allowance as Value. Its baggage FAQ says flights between India and Thailand or Nepal include 20 kg in both directions. Air India Express doesn't fly to the USA, Canada, the UK or Malaysia. Check the allowance shown for your fare before you pay.",
+      "infant": "A baby under 2 years flies on an adult's lap and pays an infant fee: INR 7,200 or AED 277 on international flights (INR 6,000 or NPR 10,000 on Nepal flights). The infant gets 10 kg of checked baggage, but it must be inside the adult's checked bags, not a separate bag. A stroller, buggy or pram used by the child is checked in free, and you can use it up to the boarding gate. A small folding stroller can go in the cabin if it fits the cabin bag rules. Bring your own baby food, because the crew can't heat bottles or food. Carry the baby's birth certificate to show the age at the airport.",
       "excess": {
-        "summary": "Pre-book extra kg online in 5, 10, 15 or 25 kg packs; Air India Express says that's much cheaper than paying at the airport",
+        "summary": "Pre-book extra kg online up to 2 hours before the flight; at the airport, from India to the Gulf you pay INR 1,500 to 1,650 a kg (AED 68 to 75 a kg from the UAE to India)",
         "points": [
-          "You can add 5, 10, 15 or 25 kg during web check-in under Manage on the website. Baggage can be bought or upgraded on the website, the app or the Tia chatbot up to four hours before departure.",
-          "Air India Express says pre-booked extra baggage is significantly cheaper than paying excess at the airport counter.",
-          "The fees document linked from its website is dated October 2023, so we haven't quoted prices from it. Check the current price when you book."
+          "Air India Express's fees list (October 2026) gives these airport prices per kg over your allowance: INR 1,500 to 1,650 from India to the UAE, Bahrain, Qatar, Saudi Arabia and Oman; INR 1,600 to 1,750 to Kuwait; INR 2,000 to Singapore and Thailand; INR 1,500 to Nepal.",
+          "Coming back to India, per kg at the airport: AED 68 to 75 from the UAE, BHD 7 to 8 from Bahrain, QAR 68 to 75 from Qatar, SAR 65 to 70 from Saudi Arabia, OMR 7 to 8 from Oman, KWD 5 to 6 from Kuwait, SGD 30 from Singapore, THB 750 to 850 from Thailand and NPR 2,400 from Nepal.",
+          "Pre-booked packs on Value, Classic, Flex and Biz (5 / 10 / 15 / 25 kg): INR 6,800 / 13,600 / 20,400 / 34,000 from India to the UAE, Qatar, Bahrain, Oman and Saudi Arabia; AED 310 / 615 / 925 / 1,540 from the UAE to India. Singapore, Thailand, Kuwait and Nepal have their own prices in the same list.",
+          "On Xpress Lite, a pre-booked checked bag of 20 / 30 / 40 kg costs INR 3,000 / 13,500 / 24,500 from India to the Gulf (AED 125 / 710 / 1,300 from the UAE to India). Buying 20 kg at the airport on Lite costs INR 4,500 (AED 184).",
+          "A third or fourth bag pays an extra piece fee: INR 1,800 (AED 82) if pre-booked, INR 2,000 (AED 100) at the airport. This is on top of any per kg charge.",
+          "Xtra Carry-On on international flights: +3 kg costs INR 3,600 (AED 195) and +5 kg INR 6,000 (AED 325). A cabin bag that is too heavy at the boarding gate pays INR 6,000 (AED 290).",
+          "Bought baggage can't be refunded or moved to another person, except if Air India Express cancels the flight. The list says prices may change with season and currency, so check the price shown when you book."
         ]
       },
       "notes": [
-        "Smart bags: allowed only if a battery that can't be removed is very small (up to 0.3 g lithium metal or 2.7 Wh lithium-ion). Otherwise take the battery out and carry it in the cabin. Up to two spare batteries are allowed in cabin baggage.",
-        "Alcohol in checked baggage: Air India Express says your destination's customs rules decide how much you can carry.",
-        "Air India Express flies to 16 international destinations in the Gulf, South-East Asia and Nepal, mostly from Kerala, Delhi, Mumbai and Bengaluru."
+        "Power banks: at most two per person, each up to 100 Wh, in your cabin baggage only, never in checked bags. You can't use them or recharge them on board. Protect each one against short circuit and keep it in the seat pocket in front of you, not in the overhead bin.",
+        "Liquids in the cabin: up to 100 ml per container, all in one clear resealable bag.",
+        "Alcohol: up to 5 litres per person in checked bags only, in shop packaging, at 24 to 70% alcohol.",
+        "Zamzam water: Air India Express's pages don't mention Zamzam. Its item list allows holy water (Ganga jal) up to 100 ml in the cabin and up to 5 litres in checked bags. Ask Air India Express before you pack Zamzam from Saudi Arabia.",
+        "Food: Air India Express's item list says pickles are not allowed in cabin or checked bags. Ghee and raw rice or pulses go in checked bags only. Dry coconut (copra), fish, meat, oily food and camphor are not allowed at all. Dry sweets are allowed in both.",
+        "Gold and silver jewellery, cash and valuables should be in your cabin bag: the item list says jewellery is not allowed in checked bags.",
+        "Smart bags: allowed only if a battery that can't be removed is very small (up to 0.3 g lithium metal or 2.7 Wh lithium-ion). Otherwise take the battery out and carry it in the cabin.",
+        "Air India Express flies to 16 international destinations in the Gulf, South-East Asia and Nepal, from cities such as Kochi, Kozhikode, Delhi, Mumbai and Bengaluru."
       ],
+      "sections": [
+        {
+          "h": "How Air India Express differs from Air India and other airlines from India",
+          "items": [
+            "Air India Express and Air India are sister airlines with different baggage rules. Check the airline name on your ticket, not just the flight number.",
+            "Cabin: Air India Express allows 7 kg in total for two items (a 56 x 36 x 23 cm bag and a 40 x 30 x 10 cm bag). Air India allows one 7 kg bag of 55 x 40 x 20 cm plus a separate personal item of up to 3 kg.",
+            "Checked: Air India Express Value includes 30 kg to the Gulf, more than Air India Value's 25 kg. But Xpress Lite includes no checked bag at all.",
+            "Air India Express doesn't fly to the USA, Canada, the UK or Europe, so it has no piece rules.",
+            "Air India Express doesn't carry pets (only service animals). Air India carries small cats and dogs in the cabin.",
+            "Both allow two power banks of up to 100 Wh in the cabin, and neither lets you use them on board."
+          ]
+        },
+        {
+          "h": "Sports equipment and pets",
+          "items": [
+            "Sports equipment counts in your baggage allowance, and kilos over the allowance pay the normal excess rate. Bicycles, golf bags, skis, surfboards, snowboards, scuba gear, large musical instruments and big TVs also pay a special handling fee: INR 3,500 (AED 160) per piece if pre-booked, INR 4,000 (AED 180) at the airport.",
+            "You can pre-book the handling fee for up to three pieces until 2 hours before departure. When you pay it, the extra piece fee doesn't apply to that item.",
+            "A bicycle must be packed in a bike bag or box, with handlebars turned in, pedals removed and tyres let down. A golf bag may hold up to 14 clubs. Diving gear may weigh up to 32 kg per bag, with the air tank empty and the valve open.",
+            "Small musical instruments can go in the cabin within the cabin bag rules; bigger ones go in the hold or on a seat you buy.",
+            "Pets are not allowed, in the cabin or as checked baggage. Trained service animals such as guide dogs may be accepted in the cabin if you contact Air India Express at least 48 hours before the flight."
+          ]
+        },
+        {
+          "h": "Check-in times at Indian airports",
+          "items": [
+            "Check-in counters open 3 hours before departure and close 60 minutes before. For flights from Delhi and from Kuwait they close 75 minutes before.",
+            "Air India Express's international flights page says counters close 60 to 90 minutes before departure, depending on the airport, and asks you to arrive at least 3 hours early.",
+            "Web check-in opens 14 days before departure. Even after web check-in, international passengers must go to the counter or bag drop to have their passport and visa checked.",
+            "The boarding gate closes 25 minutes before departure."
+          ]
+        },
+        {
+          "h": "Connecting flights",
+          "items": [
+            "Air India Express has no foreign hub. A connecting trip is two of its own flights on one booking (it calls this Fly-Thru), with 50 minutes to 12 hours between them, for example from the UAE to Kathmandu, Bangkok, Phuket or Singapore through an Indian airport.",
+            "If a delay makes you miss a Fly-Thru connection and the next flight is the next day, you must collect your bags and check them in again. Two separate bookings don't count as a connecting trip, so plan for collecting and rechecking bags.",
+            "On a connecting trip, extra baggage is charged for each flight and paid at the start of the trip.",
+            "Its booking FAQ says Air India Express is a point-to-point airline without interline agreements with other airlines. It doesn't say whether bags can be checked through to an onward Air India flight, so ask at check-in. On its 'virtual interline' bookings with other airlines you collect and recheck your own bags.",
+            "Flying a domestic Air India Express flight to or from another airline's international flight? You can pre-book International Connecting Baggage: 8, 15 or 30 kg extra for INR 7,000, 12,500 or 25,000, if the flights are within 24 hours. Show the international boarding pass at the counter."
+          ]
+        },
+        {
+          "h": "If your bag is delayed or damaged",
+          "items": [
+            "Report a missing or damaged bag at the Air India Express baggage desk in the arrivals hall before you leave, and get a Property Irregularity Report (PIR). If you leave without reporting it, the bag is taken as delivered in good condition.",
+            "Keep your boarding pass, bag tags and receipts for any costs you want to claim.",
+            "Send your written claim for damage within 7 days of getting the bag, and for a delayed bag within 21 days of the day it is given back to you. Write through the Tia chatbot or by letter to the Central Baggage Tracing Office at the airport you flew from.",
+            "Air India Express doesn't publish after how many days a missing bag is treated as lost.",
+            "For a fee you can add Bag Track and Protect (with Blue Ribbon Bags) when you book: it sends bag tracking updates and pays up to INR 1,32,000 for a delayed bag. You must report a delay to Blue Ribbon Bags within 24 hours of landing.",
+            "Air India Express isn't responsible for loss or damage to your handbag and things you keep with you."
+          ]
+        }
+      ],
+      "faq_extra": [
+        {
+          "q": "What is the Air India Express baggage allowance for international flights?",
+          "a": "Every fare includes 7 kg of cabin baggage in up to two items. Checked baggage is none on Xpress Lite, 30 kg on Value (20 kg to Thailand and Nepal), 30 to 35 kg on Flex and 40 kg on Biz."
+        },
+        {
+          "q": "What is the Air India Express baggage allowance from the UAE to India?",
+          "a": "Its UAE website lists 30 kg on Value and Classic (20 kg on select routes), 35 kg on Flex (25 kg on select routes) and 40 kg on Biz. Lite has no checked bag. The cabin bag is 7 kg on all fares."
+        },
+        {
+          "q": "What is the Air India Express baggage allowance from Bahrain to India?",
+          "a": "Its Bahrain website lists the same as the UAE: 30 kg on Value and Classic, 35 kg on Flex (lower on select routes), 40 kg on Biz and no checked bag on Lite. Extra kilos at Bahrain airport cost BHD 7 to 8 a kg."
+        },
+        {
+          "q": "What is the Air India Express cabin baggage size and weight limit on international flights?",
+          "a": "7 kg in total for two items: one bag up to 56 x 36 x 23 cm and one small bag up to 40 x 30 x 10 cm. Xtra Carry-On adds 3 kg (INR 3,600) or 5 kg (INR 6,000)."
+        },
+        {
+          "q": "What are Air India Express excess baggage charges per kg?",
+          "a": "At the airport, INR 1,500 to 1,650 a kg from India to most Gulf countries and INR 2,000 to Singapore and Thailand. From the UAE to India it is AED 68 to 75 a kg. Pre-booking online in 5 to 25 kg packs is usually cheaper."
+        },
+        {
+          "q": "What is the Air India Express child baggage allowance?",
+          "a": "An infant under 2 gets 10 kg of checked baggage inside the adult's bags, plus a free stroller. The site shows no separate child rule: a child of 2 or more pays a fare and gets that fare's allowance."
+        },
+        {
+          "q": "Is the Air India vs Air India Express baggage allowance the same?",
+          "a": "No. Air India Express gives 7 kg for two cabin items and 30 kg on Value to the Gulf. Air India gives one 7 kg cabin bag plus a 3 kg personal item and 25 kg on Value to the Gulf."
+        },
+        {
+          "q": "How can I track my Air India Express baggage?",
+          "a": "If your bag doesn't arrive, report it at the arrivals baggage desk and keep the PIR reference. For live tracking updates, you can buy Bag Track and Protect when you book."
+        }
+      ],
+      "carry_note": "Air India Express allows two [power banks](can-i-carry/power-bank.html) of up to 100 Wh, only in your cabin bag (see our [power bank guide](../guides/power-bank-rules-on-flights.html)). Its item list says [pickle](can-i-carry/pickle.html) is not allowed in any bag, so check before you pack it. For [spices](can-i-carry/spices-and-masala.html) and [sweets and home food](can-i-carry/sweets-and-home-food.html), dry items are the safest choice.",
       "sources": [
         {
           "label": "Air India Express baggage FAQ (international)",
           "url": "https://www.airindiaexpress.com/support/faqs/baggage"
         },
         {
-          "label": "Air India Express international flights",
+          "label": "Air India Express international flights (India)",
           "url": "https://www.airindiaexpress.com/en-in/book-flights/international-flights"
         },
         {
           "label": "Air India Express UAE booking page",
           "url": "https://www.airindiaexpress.com/en-ae/book-flights/"
+        },
+        {
+          "label": "Air India Express Bahrain booking page",
+          "url": "https://www.airindiaexpress.com/en-bh/book-flights/"
+        },
+        {
+          "label": "Air India Express Oman booking page",
+          "url": "https://www.airindiaexpress.com/en-om/book-flights/"
+        },
+        {
+          "label": "Air India Express Kuwait booking page",
+          "url": "https://www.airindiaexpress.com/en-kw/book-flights/"
+        },
+        {
+          "label": "Air India Express Saudi Arabia booking page",
+          "url": "https://www.airindiaexpress.com/en-sa/book-flights/"
+        },
+        {
+          "label": "Air India Express Singapore booking page",
+          "url": "https://www.airindiaexpress.com/en-sg/book-flights/"
+        },
+        {
+          "label": "Fees and charges (PDF, October 2026)",
+          "url": "https://www.airindiaexpress.com/content/dam/airindiaexpress/documents/mandatory-disclosure/fees-and-charges.pdf"
+        },
+        {
+          "label": "Items you may carry (PDF, May 2026)",
+          "url": "https://www.airindiaexpress.com/content/dam/airindiaexpress/documents/mandatory-disclosure/AIX_Prohibited_Items.pdf"
+        },
+        {
+          "label": "Xpress Lite fare",
+          "url": "https://www.airindiaexpress.com/products-and-services/xpresslite"
+        },
+        {
+          "label": "Xtra Carry-On",
+          "url": "https://www.airindiaexpress.com/products-and-services/carry-on-xtra"
+        },
+        {
+          "label": "International Connecting Baggage",
+          "url": "https://www.airindiaexpress.com/products-and-services/international-connections-baggage"
+        },
+        {
+          "label": "Special equipment",
+          "url": "https://www.airindiaexpress.com/products-and-services/specialequipment"
+        },
+        {
+          "label": "Check-in FAQ",
+          "url": "https://www.airindiaexpress.com/support/faqs/check-in"
+        },
+        {
+          "label": "Special guests FAQ (infants)",
+          "url": "https://www.airindiaexpress.com/support/faqs/special-guests"
+        },
+        {
+          "label": "In-flight FAQ (pets)",
+          "url": "https://www.airindiaexpress.com/support/faqs/in-flight"
+        },
+        {
+          "label": "Booking FAQ (Fly-Thru, interline)",
+          "url": "https://www.airindiaexpress.com/support/faqs/booking"
+        },
+        {
+          "label": "Products and services FAQ (Bag Track and Protect)",
+          "url": "https://www.airindiaexpress.com/support/faqs/product-and-services"
+        },
+        {
+          "label": "Conditions of carriage",
+          "url": "https://www.airindiaexpress.com/tnc"
         }
       ],
-      "page_name": "Air India Express international"
+      "checked": "2026-11-28",
+      "seo_title": "Air India Express international baggage: 30 kg, 7 kg cabin"
     }
   ]
 }

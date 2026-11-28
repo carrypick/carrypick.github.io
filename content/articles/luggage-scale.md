@@ -3,6 +3,7 @@ seo_title: Luggage weighing scale: how to use it, accuracy and tare
 title: Luggage scale: how to use one and avoid extra baggage fees
 description: Why weigh your bag at home, how to use a hanging digital luggage scale step by step, what tare and data lock do, how accurate they are, airline limits for IndiGo, Air India, Emirates and more, and two luggage scales compared by their listed specs.
 date: 2026-11-25
+updated: 2026-11-28
 category: travel-gear
 subcategory: luggage-scales
 photo: bathroom-scale
@@ -72,7 +73,7 @@ From our airline pages, which link each airline's own website. Fares and routes 
 | [Emirates](../baggage/emirates.html) | 7 kg | 20 to 35 kg by fare, no bag over 32 kg |
 | [Qatar Airways](../baggage/qatar-airways.html) | 7 kg | 20 to 35 kg by fare, no bag over 32 kg |
 | [Singapore Airlines](../baggage/singapore-airlines.html) | 7 kg | 25 kg Lite and Value, 30 kg Standard and Flexi |
-| [British Airways](../baggage/british-airways.html) | 1 cabin bag and 1 handbag | 23 kg per bag (none on Basic) |
+| [British Airways](../baggage/british-airways.html) | 1 cabin bag and 1 handbag | 2 bags of 23 kg from India (none on Basic) |
 | [Lufthansa](../baggage/lufthansa.html) | 8 kg | 23 kg per bag (none on Economy Light) |
 
 Two kinds of allowance:
